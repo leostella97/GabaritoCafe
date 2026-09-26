@@ -90,8 +90,10 @@ const MotorSimulado = {
     for (const q of BancoQuestoes) {                        // percorre todas as questões
       contagem[q.materia] = (contagem[q.materia] || 0) + 1; // soma uma questão na matéria
     }
-    // Converte o dicionário em lista ordenada
-    return Object.keys(contagem).map(nome => ({ nome, quantidade: contagem[nome] })); // lista pronta
+    // Converte o dicionário em lista ordenada por quantidade (mais questões → mais à esquerda)
+    return Object.keys(contagem)
+      .map(nome => ({ nome, quantidade: contagem[nome] }))    // lista pronta
+      .sort((a, b) => b.quantidade - a.quantidade || a.nome.localeCompare(b.nome, 'pt-BR')); // ordena desc; desempate alfabético
   },
 
   // Lista as bancas (estilos) presentes no banco, com contagem

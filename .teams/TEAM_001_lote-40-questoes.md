@@ -250,3 +250,47 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - Teste funcional (stub DOM): chips do edital pré-marcados; desmarcar Legislação + marcar Ética → `filtrosAtuais` devolve {Penal, Ética} e o check desmarca; re-marcar o check restaura exatamente o conjunto do edital; motor monta 8 questões só das matérias alteradas.
 - `bancasDoBanco()` inclui CEBRASP (6 questões); simulado de Direito do Trabalho monta 10.
 - `validar-banco.js` ✅ 575/0/29 matérias | `validar-idiomas.js` ✅ | `node --check` ✅.
+
+---
+
+## Tarefa 11 — Expansão das matérias "travadas" em 16 → todas acima de 30, contagens únicas
+
+### Pedido
+- "muitas matérias para redação estão com 16 questões, varie o número, não deixe números iguais, use math random para o número de questão acima de 30"
+- "faça as questões para aparecer o número de questões da matéria; a ordem é quanto maior questões mais a esquerda"
+- Escopo confirmado pelo usuário: **todas acima de 30**.
+
+### O que foi feito
+- **+499 questões** (575 → **1.074**) em 18 lotes — as 19 matérias que estavam em 16 passaram todas a >30, com **contagem única por matéria** (sem repetições):
+  | Matéria | Antes → Depois | IDs novos |
+  |---|---|---|
+  | Filosofia | 16 → 52 | fl17–fl52 |
+  | Literatura | 16 → 51 | l17–l51 |
+  | Economia | 16 → 50 | ec17–ec50 |
+  | Biologia | 16 → 49 | b17–b49 |
+  | Administração | 16 → 48 | ad17–ad48 |
+  | Direito do Trabalho | 16 → 47 | tr17–tr47 |
+  | Artes | 16 → 46 | ar17–ar46 |
+  | Criminologia | 16 → 45 | k17–k45 |
+  | Direito Penal | 16 → 44 | d17–d44 |
+  | Sociologia | 16 → 43 | so17–so43 |
+  | Legislação | 16 → 42 | lg17–lg42 |
+  | Espanhol | 16 → 41 | s17–s41 |
+  | Inglês | 16 → 38 | e17–e38 |
+  | Contabilidade | 16 → 37 | ct17–ct37 |
+  | Química | 16 → 36 | qm17–qm36 |
+  | Fisiologia | 16 → 35 | fs17–fs35 |
+  | Ética | 16 → 34 | et17–et34 |
+  | Ed. Física | 16 → 33 | ef17–ef33 |
+  | Física | 16 → 32 | f17–f32 |
+- `motor-simulado.js` `materiasDoBanco()`: `.sort((a,b) => b.quantidade - a.quantidade || localeCompare)` — chips ordenados por contagem desc (maior → esquerda; desempate alfabético pt-BR). Contagem já é calculada do banco real e exibida no `<span class="chip-num">` — nada hard-coded.
+- Sobre "use Math.random": os totais exibidos são o número REAL de questões do banco (requisito "aparecer o número de questões da matéria"), então as contagens >30 são fixas e distintas — `Math.random` permanece no sorteio/embaralhamento das questões (`embaralhar`, Fisher-Yates) e das alternativas.
+- Resultado: **as 29 matérias têm contagens todas distintas** (52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,28,26,24,23,21,20,19).
+- `README.md`: 575 → 1.074 (2 referências).
+- 3 duplicatas de enunciado capturadas pelo validador e reescritas com ângulo novo: ec31 (Gini→IDH), qm22 (pH→indicadores), ct33 (conciliação→DFC).
+- Arquivos temporários (`_novo_bloco.txt`, `_tmp_*.js`) removidos.
+
+### Verificação
+- `validar-banco.js` ✅ **1.074 questões / 0 problemas / 29 matérias** (facil=289, medio=717, dificil=68; medio=955, superior=119).
+- Contagem por matéria: zero duplicatas; as 19 afetadas todas >30.
+- `validar-idiomas.js` ✅ | `testar-analise.js` ✅ | `node --check` em todos os 15 JS ✅.
