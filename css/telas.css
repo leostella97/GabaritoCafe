@@ -240,17 +240,22 @@
   overflow: hidden;                 /* corta se passar */
 }
 
-/* TEAM_001: coluna fantasma — traço tracejado onde uma prova nova pode entrar */
-.grafico .coluna.fantasma .barra {
-  background: transparent;                    /* sem preenchimento */
-  border: 2px dashed var(--marrom-suave);     /* contorno tracejado */
-  opacity: 0.45;                              /* discreto: é um convite, não um dado */
-  height: 26%;                                /* altura simbólica de "espaço a preencher" */
-  min-height: 20px;                           /* nunca some de verdade */
+/* TEAM_001: traço horizontal que corre até o fim do cartão — onde as provas novas entram */
+.grafico .traco {
+  flex: 1;                                    /* toma todo o espaço que sobrou à direita */
+  display: flex;                              /* coluna interna para alinhar a linha */
+  flex-direction: column;                     /* linha em cima, rótulo invisível embaixo */
+  height: 100%;                               /* mesma altura das colunas */
 }
 
-.grafico .coluna.fantasma .rotulo {
-  color: transparent;                         /* ponto invisível só para alinhar a coluna */
+.grafico .traco .traco-linha {
+  margin-top: auto;                           /* desce até encostar no rótulo = base das barras */
+  border-bottom: 2px dashed var(--marrom-suave); /* o traço horizontal tracejado */
+  opacity: 0.45;                              /* discreto: convite, não dado */
+}
+
+.grafico .traco .rotulo {
+  visibility: hidden;                         /* invisível: só mantém a linha na base das barras */
 }
 
 .linha-materia {                    /* linha de desempenho por matéria */

@@ -88,13 +88,12 @@ const DashboardUI = {
       html += '<span class="rotulo">' + data + '</span>';   // data embaixo
       html += '</div>';                                     // fecha a coluna
     }
-    // TEAM_001: lugares vazios ganham traços tracejados — o espaço espera provas novas
-    const vagas = 10 - ultimas.length;                      // quantas colunas faltam para 10
-    for (let i = 0; i < vagas; i++) {                       // uma coluna fantasma por vaga
-      html += '<div class="coluna fantasma" title="' + T('dash_vaga') + '">'; // espaço reservado
-      html += '<div class="barra"></div>';                  // o traço tracejado
-      html += '<span class="rotulo">·</span>';              // rótulo vazio (mantém alinhamento)
-      html += '</div>';                                     // fecha o fantasma
+    // TEAM_001: quando falta prova, um traço horizontal corre até o fim do cartão
+    if (ultimas.length < 10) {                              // ainda cabem provas no gráfico
+      html += '<div class="traco" title="' + T('dash_vaga') + '">'; // espaço das provas futuras
+      html += '<div class="traco-linha"></div>';            // a linha tracejada
+      html += '<span class="rotulo">00/00</span>';          // rótulo invisível que alinha a base
+      html += '</div>';                                     // fecha o traço
     }
     html += '</div></div>';                                 // fecha gráfico e cartão
 
