@@ -14,6 +14,7 @@ const BancoQuestoes = [
     id: 'p01',                          // identificador único da questão
     materia: 'Língua Portuguesa',       // matéria (usada nos filtros do simulado)
     tema: 'Verbos impessoais (haver/fazer)', // assunto específico
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca cujo estilo inspirou a questão
     enunciado: 'Assinale a frase correta quanto à concordância verbal:', // texto da pergunta
     alternativas: [                     // opções de resposta
@@ -32,6 +33,7 @@ const BancoQuestoes = [
     id: 'p02',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Crase',                      // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Complete corretamente: "Os candidatos chegaram ___ sala de provas às 13h."', // pergunta
     alternativas: [                     // opções
@@ -50,6 +52,7 @@ const BancoQuestoes = [
     id: 'p03',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Regência verbal (preferir)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase que segue a norma culta:', // pergunta
     alternativas: [                     // opções
@@ -68,6 +71,7 @@ const BancoQuestoes = [
     id: 'p04',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Uso dos porquês',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "Ninguém entendeu o ___ daquela decisão."', // pergunta
     alternativas: [                     // opções
@@ -85,6 +89,7 @@ const BancoQuestoes = [
     id: 'p05',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Colocação pronominal',       // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase que obedece à norma culta:', // pergunta
     alternativas: [                     // opções
@@ -103,6 +108,7 @@ const BancoQuestoes = [
     id: 'p06',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Pontuação (vírgula)',        // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em qual frase a vírgula está bem empregada?', // pergunta
     alternativas: [                     // opções
@@ -121,6 +127,7 @@ const BancoQuestoes = [
     id: 'p07',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Interpretação de texto',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Leia o trecho: "Estudar todos os dias, nem que seja por meia hora, rende mais do que virar a noite na véspera. O cérebro consolida a memória aos poucos, como um café passado lentamente: a pressa queima o grão e amarga o resultado." A ideia central do texto é:', // pergunta
     alternativas: [                     // opções
@@ -139,6 +146,7 @@ const BancoQuestoes = [
     id: 'p08',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância nominal',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "Seguem ___ os documentos solicitados."', // pergunta
     alternativas: [                     // opções
@@ -157,6 +165,7 @@ const BancoQuestoes = [
     id: 'p09',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia (Acordo Ortográfico)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Segundo a ortografia oficial, qual grafia está correta?', // pergunta
     alternativas: [                     // opções
@@ -175,6 +184,7 @@ const BancoQuestoes = [
     id: 'p10',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Acentuação gráfica',         // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Assinale a palavra grafada corretamente:', // pergunta
     alternativas: [                     // opções
@@ -195,6 +205,7 @@ const BancoQuestoes = [
     id: 'm01',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Porcentagem',                // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em um concurso, 12.000 candidatos se inscreveram. No dia da prova, 25% faltaram. Quantos candidatos fizeram a prova?', // pergunta
     alternativas: [                     // opções
@@ -217,6 +228,7 @@ const BancoQuestoes = [
     id: 'm02',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Regra de três composta',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Uma gráfica, com 4 impressoras, produz 600 provas em 3 horas. Mantendo o ritmo, quantas provas 6 impressoras produziriam em 2 horas?', // pergunta
     alternativas: [                     // opções
@@ -241,6 +253,7 @@ const BancoQuestoes = [
     id: 'm03',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Juros simples',              // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Um estudante aplicou R$ 1.500,00 a juros simples de 2% ao mês. Qual será o montante após 8 meses?', // pergunta
     alternativas: [                     // opções
@@ -264,6 +277,7 @@ const BancoQuestoes = [
     id: 'm04',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Juros compostos',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'R$ 10.000,00 aplicados a juros compostos de 10% ao ano renderão, em 2 anos, um montante de:', // pergunta
     alternativas: [                     // opções
@@ -287,6 +301,7 @@ const BancoQuestoes = [
     id: 'm05',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Média aritmética',           // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'As notas de um candidato em 4 provas foram 7, 8, 9 e 10. A média aritmética dessas notas é:', // pergunta
     alternativas: [                     // opções
@@ -309,6 +324,7 @@ const BancoQuestoes = [
     id: 'm06',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Equação do 1º grau',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Resolva a equação: 3(x − 2) = 2x + 4', // pergunta
     alternativas: [                     // opções
@@ -332,6 +348,7 @@ const BancoQuestoes = [
     id: 'm07',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Sistema de equações',        // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No sistema abaixo, o valor de x é: { x + y = 20 ; x − y = 8 }', // pergunta
     alternativas: [                     // opções
@@ -355,6 +372,7 @@ const BancoQuestoes = [
     id: 'm08',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Razão e proporção',          // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Uma sociedade divide R$ 150,00 entre dois sócios na razão 2 : 3. Quanto recebe o sócio com a parte maior?', // pergunta
     alternativas: [                     // opções
@@ -378,6 +396,7 @@ const BancoQuestoes = [
     id: 'm09',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Área de figuras planas',     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Uma sala retangular tem 6 m de comprimento por 4,5 m de largura. A área dessa sala é:', // pergunta
     alternativas: [                     // opções
@@ -400,6 +419,7 @@ const BancoQuestoes = [
     id: 'm10',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Progressão aritmética',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Na progressão aritmética 2, 5, 8, 11, ..., o 12º termo é:', // pergunta
     alternativas: [                     // opções
@@ -425,6 +445,7 @@ const BancoQuestoes = [
     id: 'r01',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Negação de proposições',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A negação lógica de "Todo candidato estuda" é:', // pergunta
     alternativas: [                     // opções
@@ -443,6 +464,7 @@ const BancoQuestoes = [
     id: 'r02',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Equivalência lógica (contrapositiva)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'A proposição logicamente equivalente a "Se chove, então a rua molha" é:', // pergunta
     alternativas: [                     // opções
@@ -461,6 +483,7 @@ const BancoQuestoes = [
     id: 'r03',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Leis de De Morgan',          // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A negação de "Estudo português e estudo matemática" é:', // pergunta
     alternativas: [                     // opções
@@ -479,6 +502,7 @@ const BancoQuestoes = [
     id: 'r04',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequências lógicas',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na sequência 2, 6, 12, 20, 30, ..., o próximo termo é:', // pergunta
     alternativas: [                     // opções
@@ -502,6 +526,7 @@ const BancoQuestoes = [
     id: 'r05',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Verdades e mentiras',        // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Ana, Bia e Caio fizeram uma prova. Apenas UM deles fala a verdade. Ana diz: "Bia mentiu." Bia diz: "Eu não menti." Caio diz: "Ana mentiu." Quem fala a verdade?', // pergunta
     alternativas: [                     // opções
@@ -525,6 +550,7 @@ const BancoQuestoes = [
     id: 'r06',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Silogismos e diagramas',     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Considere as premissas: "Todo servidor público é responsável" e "João é servidor público". Logo:', // pergunta
     alternativas: [                     // opções
@@ -543,6 +569,7 @@ const BancoQuestoes = [
     id: 'r07',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Princípio multiplicativo',   // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Com 5 camisetas e 3 bermudas diferentes, quantas combinações de roupa é possível montar?', // pergunta
     alternativas: [                     // opções
@@ -565,6 +592,7 @@ const BancoQuestoes = [
     id: 'r08',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Ordenação',                  // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Ana é mais alta que Bia. Bia é mais alta que Caio. Quem é a pessoa mais baixa?', // pergunta
     alternativas: [                     // opções
@@ -585,6 +613,7 @@ const BancoQuestoes = [
     id: 'i01',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Excel — função MÉDIA',       // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Excel, para calcular a média dos valores do intervalo A1 até A10, utiliza-se a fórmula:', // pergunta
     alternativas: [                     // opções
@@ -603,6 +632,7 @@ const BancoQuestoes = [
     id: 'i02',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Excel — atalhos',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Excel, o atalho de teclado que insere a SOMA automática (AutoSoma) é:', // pergunta
     alternativas: [                     // opções
@@ -621,6 +651,7 @@ const BancoQuestoes = [
     id: 'i03',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Word em português — atalhos', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Word em português (padrão brasileiro), o atalho Ctrl + B serve para:', // pergunta
     alternativas: [                     // opções
@@ -639,6 +670,7 @@ const BancoQuestoes = [
     id: 'i04',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Windows — atalhos',          // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Windows, o atalho Ctrl + Z serve para:', // pergunta
     alternativas: [                     // opções
@@ -657,6 +689,7 @@ const BancoQuestoes = [
     id: 'i05',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Segurança — phishing',       // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Phishing é:', // pergunta
     alternativas: [                     // opções
@@ -675,6 +708,7 @@ const BancoQuestoes = [
     id: 'i06',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Backup',                     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Backup é:', // pergunta
     alternativas: [                     // opções
@@ -693,6 +727,7 @@ const BancoQuestoes = [
     id: 'i07',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Hardware — memória RAM',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Sobre a memória RAM, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -711,6 +746,7 @@ const BancoQuestoes = [
     id: 'i08',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Navegação anônima',          // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Sobre a navegação anônima (modo privado) do navegador, é correto dizer:', // pergunta
     alternativas: [                     // opções
@@ -731,6 +767,7 @@ const BancoQuestoes = [
     id: 'c01',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — inviolabilidade do domicílio', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Conforme o art. 5º da Constituição, pode-se entrar na casa de alguém sem o consentimento do morador:', // pergunta
     alternativas: [                     // opções
@@ -749,6 +786,7 @@ const BancoQuestoes = [
     id: 'c02',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios constitucionais — Habeas Corpus', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'O Habeas Corpus é o remédio constitucional que protege:', // pergunta
     alternativas: [                     // opções
@@ -767,6 +805,7 @@ const BancoQuestoes = [
     id: 'c03',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios constitucionais — Mandado de Segurança', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Cabe Mandado de Segurança para proteger:', // pergunta
     alternativas: [                     // opções
@@ -785,6 +824,7 @@ const BancoQuestoes = [
     id: 'c04',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Nacionalidade',              // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'NÃO será brasileiro nato:', // pergunta
     alternativas: [                     // opções
@@ -803,6 +843,7 @@ const BancoQuestoes = [
     id: 'c05',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 37 — princípios da Administração', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São princípios expressos da Administração Pública no art. 37 da Constituição:', // pergunta
     alternativas: [                     // opções
@@ -821,6 +862,7 @@ const BancoQuestoes = [
     id: 'c06',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 6º — direitos sociais', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Qual alternativa NÃO está entre os direitos sociais do art. 6º da Constituição?', // pergunta
     alternativas: [                     // opções
@@ -839,6 +881,7 @@ const BancoQuestoes = [
     id: 'c07',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Emenda à Constituição',      // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Uma proposta de emenda à Constituição precisa ser aprovada:', // pergunta
     alternativas: [                     // opções
@@ -859,6 +902,7 @@ const BancoQuestoes = [
     id: 'a01',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Atributos do ato administrativo', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'NÃO é atributo do ato administrativo:', // pergunta
     alternativas: [                     // opções
@@ -877,6 +921,7 @@ const BancoQuestoes = [
     id: 'a02',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Poder de polícia',           // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Poder de polícia é a atividade pela qual a Administração:', // pergunta
     alternativas: [                     // opções
@@ -895,6 +940,7 @@ const BancoQuestoes = [
     id: 'a03',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Administração indireta',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Entre as entidades abaixo, a que possui personalidade jurídica de direito PRIVADO é:', // pergunta
     alternativas: [                     // opções
@@ -913,6 +959,7 @@ const BancoQuestoes = [
     id: 'a04',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Responsabilidade civil do Estado', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A responsabilidade civil do Estado pelos danos causados por seus agentes é, em regra:', // pergunta
     alternativas: [                     // opções
@@ -931,6 +978,7 @@ const BancoQuestoes = [
     id: 'a05',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Licitações (Lei 14.133/2021)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Segundo a Lei 14.133/2021 (nova Lei de Licitações), NÃO é uma modalidade de licitação:', // pergunta
     alternativas: [                     // opções
@@ -949,6 +997,7 @@ const BancoQuestoes = [
     id: 'a06',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Improbidade administrativa', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'A lei que trata da improbidade administrativa é a:', // pergunta
     alternativas: [                     // opções
@@ -967,6 +1016,7 @@ const BancoQuestoes = [
     id: 'a07',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Bens públicos',              // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Os bens públicos não podem ser adquiridos por usucapião porque são:', // pergunta
     alternativas: [                     // opções
@@ -987,6 +1037,7 @@ const BancoQuestoes = [
     id: 't01',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Agenda 2030 e ODS',          // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A Agenda 2030 da ONU estabelece:', // pergunta
     alternativas: [                     // opções
@@ -1005,6 +1056,7 @@ const BancoQuestoes = [
     id: 't02',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Inteligência artificial',    // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O ChatGPT é um exemplo de:', // pergunta
     alternativas: [                     // opções
@@ -1023,6 +1075,7 @@ const BancoQuestoes = [
     id: 't03',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Matriz elétrica brasileira', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Sobre a matriz elétrica brasileira, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -1041,6 +1094,7 @@ const BancoQuestoes = [
     id: 't04',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'SUS e saúde pública',        // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'São princípios do SUS previstos na Lei 8.080/90:', // pergunta
     alternativas: [                     // opções
@@ -1059,6 +1113,7 @@ const BancoQuestoes = [
     id: 't05',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Cidadania — voto',           // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'No Brasil, o voto é obrigatório para quem tem:', // pergunta
     alternativas: [                     // opções
@@ -1077,6 +1132,7 @@ const BancoQuestoes = [
     id: 't06',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'COP e mudanças climáticas',  // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A COP (Conferência das Partes) é:', // pergunta
     alternativas: [                     // opções
@@ -1097,6 +1153,7 @@ const BancoQuestoes = [
     id: 'h01',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Abolição da escravidão',     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Lei Áurea, que aboliu a escravidão no Brasil, foi assinada em:', // pergunta
     alternativas: [                     // opções
@@ -1115,6 +1172,7 @@ const BancoQuestoes = [
     id: 'h02',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Proclamação da República',   // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O primeiro presidente da República proclamada em 1889 foi:', // pergunta
     alternativas: [                     // opções
@@ -1133,6 +1191,7 @@ const BancoQuestoes = [
     id: 'h03',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Era Vargas',                 // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A CLT (Consolidação das Leis do Trabalho) foi criada em 1943, durante:', // pergunta
     alternativas: [                     // opções
@@ -1151,6 +1210,7 @@ const BancoQuestoes = [
     id: 'h04',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Independência do Brasil',    // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A independência do Brasil, em 7 de setembro de 1822, foi proclamada por:', // pergunta
     alternativas: [                     // opções
@@ -1169,6 +1229,7 @@ const BancoQuestoes = [
     id: 'h05',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'República Velha',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'Na República Velha, a política do "café com leite" representava:', // pergunta
     alternativas: [                     // opções
@@ -1187,6 +1248,7 @@ const BancoQuestoes = [
     id: 'h06',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Constituição de 1988',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Constituição de 1988 ficou conhecida como "Constituição Cidadã" porque:', // pergunta
     alternativas: [                     // opções
@@ -1207,6 +1269,7 @@ const BancoQuestoes = [
     id: 'g01',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Climas do Brasil',           // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O clima predominante na Amazônia é o:', // pergunta
     alternativas: [                     // opções
@@ -1225,6 +1288,7 @@ const BancoQuestoes = [
     id: 'g02',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Biomas brasileiros',         // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'O maior bioma brasileiro é:', // pergunta
     alternativas: [                     // opções
@@ -1243,6 +1307,7 @@ const BancoQuestoes = [
     id: 'g03',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Densidade demográfica',      // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A densidade demográfica é calculada:', // pergunta
     alternativas: [                     // opções
@@ -1261,6 +1326,7 @@ const BancoQuestoes = [
     id: 'g04',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Urbanização',                // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Êxodo rural é:', // pergunta
     alternativas: [                     // opções
@@ -1279,6 +1345,7 @@ const BancoQuestoes = [
     id: 'g05',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Regiões do Brasil',          // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Segundo o IBGE, o Brasil é dividido em:', // pergunta
     alternativas: [                     // opções
@@ -1297,6 +1364,7 @@ const BancoQuestoes = [
     id: 'g06',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Relevo brasileiro',          // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O Brasil não possui grandes cadeias montanhosas porque:', // pergunta
     alternativas: [                     // opções
@@ -1318,401 +1386,422 @@ const BancoQuestoes = [
   {
     id: 'p11',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Crase',                      // assunto
-    banca: 'FGV',                       // banca inspiradora
-    enunciado: 'Complete corretamente: "Os candidatos chegaram ___ sala de provas às 13h."', // pergunta
+    tema: 'Transitividade verbal',      // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Assinale a frase com a transitividade verbal correta:', // pergunta
     alternativas: [                     // opções
-      'a',
-      'à',
-      'há',
-      'aa',
-      'á'
+      'O candidato obedeceu as ordens do fiscal.',
+      'O candidato obedeceu às ordens do fiscal.',
+      'O candidato visou no cargo dos sonhos.',
+      'O candidato preferiu o café do que o chá.',
+      'O candidato assistiu na cerimônia de posse.'
     ],
     correta: 1,                         // índice da certa
-    explicacao: 'Quem chega, chega A algum lugar (preposição pedida pelo verbo "chegar"). "Sala" pede artigo "a". Preposição a + artigo a = crase (à).', // explicação
-    dica: 'A FGV ama trocar "a" por "há": "há" indica tempo passado ("há dois anos"), nunca lugar. Se dá para trocar por "ao", tem crase.', // pegadinha
-    video: 'crase para concursos como usar' // busca no YouTube
+    explicacao: '"Obedecer" é transitivo indireto e pede a preposição "a": obedeceu ÀS ordens. "Visar" no sentido de almejar também pede "a" (visou AO cargo); "preferir" não usa "do que"; "assistiu na" devia ser "à" (a + a).', // explicação
+    dica: 'A FCC cobra o trio clássico: obedecer, visar e assistir pedem "a". Na fala a gente engole a preposição — e a banca conta exatamente com isso.', // pegadinha
+    video: 'transitividade verbal obedecer visar assistir para concurso' // busca no YouTube
   },
   {
     id: 'p12',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Regência verbal (preferir)', // assunto
-    banca: 'FCC',                       // banca inspiradora
-    enunciado: 'Assinale a frase que segue a norma culta:', // pergunta
+    tema: 'Conjunções — valor semântico', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na frase "Estudou muito, mas não passou no exame", a conjunção "mas" expressa ideia de:', // pergunta
     alternativas: [                     // opções
-      'Prefiro estudar do que assistir séries.',
-      'Prefiro mais estudar que assistir séries.',
-      'Prefiro estudar a assistir séries.',
-      'Prefiro estudar que assistir séries.',
-      'Prefiro antes estudar que assistir séries.'
+      'Adição',
+      'Adversidade',
+      'Conclusão',
+      'Explicação',
+      'Alternância'
     ],
-    correta: 2,                         // índice da certa
-    explicacao: 'O verbo "preferir" rege a preposição "a": prefere-se uma coisa A outra. Formas como "prefiro X do que Y" ou "prefiro mais X que Y" são vícios de linguagem reprovados pela norma culta.', // explicação
-    dica: 'Pegadinha da FCC: "preferir mais... do que" soa natural na fala — e é exatamente aí que a banca fisga o candidato desavisado.', // pegadinha
-    video: 'regência verbal preferir a concurso' // busca no YouTube
+    correta: 1,                         // índice da certa
+    explicacao: '"Mas" é conjunção coordenativa adversativa: opõe uma ideia à anterior (estudou → esperava-se passar; não passou → oposição). "Portanto" concluiria; "porque/pois" explicariam.', // explicação
+    dica: 'Mapa mental da CESPE: mas/no entanto = oposição; portanto/logo = conclusão; porque/pois = explicação; e/também = adição; ou/quer = alternância.', // pegadinha
+    video: 'conjunções coordenativas adversativas para concurso' // busca no YouTube
   },
   {
     id: 'p13',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Uso dos porquês',            // assunto
-    banca: 'IBFC',                      // banca inspiradora
-    enunciado: 'Complete: "Ninguém entendeu o ___ daquela decisão."', // pergunta
+    tema: 'Adjunto adnominal x complemento nominal', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Em "a construção do prédio levou dois anos", o termo "do prédio" exerce a função de:', // pergunta
     alternativas: [                     // opções
-      'porque',
-      'por que',
-      'porquê',
-      'por quê'
+      'Adjunto adnominal',
+      'Complemento nominal',
+      'Objeto direto',
+      'Predicativo do sujeito',
+      'Aposto'
     ],
-    correta: 2,                         // índice da certa
-    explicacao: '"Porquê" (junto e com acento) é substantivo: vem acompanhado de artigo ("o porquê") e significa "motivo". "Porque" é conjunção; "por que" é preposição + pronome; "por quê" só aparece no fim de frase.', // explicação
-    dica: 'Atalho de prova: antes de artigo ("o", "um") ou no fim da frase, é "porquê" substantivo. A banca confia que você vai marcar "porque" no automático.', // pegadinha
-    video: 'uso dos porquês para concurso' // busca no YouTube
+    correta: 1,                         // índice da certa
+    explicacao: '"Construção" é substantivo abstrato (indica ação) e "do prédio" é o PACIENTE da ação (o prédio é construído) — logo, complemento nominal. Se fosse o agente/possessor ("a construção do engenheiro"), seria adjunto adnominal.', // explicação
+    dica: 'Regra da FGV: substantivo abstrato + termo paciente = complemento nominal; termo agente/possuidor = adjunto adnominal. Passe para a voz passiva mentalmente: quem "sofre" a ação é complemento.', // pegadinha
+    video: 'adjunto adnominal e complemento nominal diferença concurso' // busca no YouTube
   },
   {
     id: 'p14',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Colocação pronominal',       // assunto
-    banca: 'FCC',                       // banca inspiradora
-    enunciado: 'Assinale a frase que obedece à norma culta:', // pergunta
+    tema: 'Concordância com expressões partitivas', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Complete: "A maioria dos candidatos ___ satisfeita com o gabarito."', // pergunta
     alternativas: [                     // opções
-      'Me empresta o caderno, por favor?',
-      'Empresta-me o caderno, por favor?',
-      'Não empresta-me o caderno, por favor?',
-      'Emprestaria-me o caderno?',
-      'Nunca esqueça-se do edital.'
+      'ficou',
+      'ficaram',
+      'ficou ou ficaram',
+      'ficaria',
+      'ficarão'
     ],
-    correta: 1,                         // índice da certa
-    explicacao: 'Não se inicia frase com pronome oblíquo ("me empresta" é coloquial). Depois de palavra negativa ("não"), a próclise é obrigatória: "não me empresta". Com futuro do pretérito, o correto é mesóclise: "emprestar-me-ia".', // explicação
-    dica: 'A FCC e a IBFC adoram o "não + pronome": palavra negativa puxa o pronome para antes do verbo (próclise).', // pegadinha
-    video: 'colocação pronominal próclise ênclise mesóclise concurso' // busca no YouTube
+    correta: 2,                         // índice da certa
+    explicacao: 'Expressões partitivas (a maioria de, a maior parte de, metade de) admitem dupla concordância: com o núcleo ("maioria ficou") ou com o termo próximo ("candidatos ficaram"). As duas formas estão certas.', // explicação
+    dica: 'A IBFC coloca "ficou" e "ficaram" em alternativas separadas para gerar dúvida — a resposta certa é a que admite as duas concordâncias. Singular olha para o núcleo; plural, para o termo.', // pegadinha
+    video: 'concordância verbal expressões partitivas maioria para concurso' // busca no YouTube
   },
   {
     id: 'p15',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Pontuação (vírgula)',        // assunto
+    tema: 'Tempos verbais — pretérito', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
-    enunciado: 'Em qual frase a vírgula está bem empregada?', // pergunta
+    enunciado: 'Complete corretamente: "Quando o fiscal ___ (entrar), todos já estavam sentados."', // pergunta
     alternativas: [                     // opções
-      'Os alunos, estudaram muito para a prova.',
-      'Depois da aula, fomos tomar um café.',
-      'O edital, será publicado amanhã.',
-      'A prova de hoje, está muito difícil.',
-      'Todos os candidatos, receberam o cartão.'
+      'entrava',
+      'entrou',
+      'entraria',
+      'entrasse',
+      'entra'
     ],
     correta: 1,                         // índice da certa
-    explicacao: 'Em "b", a vírgula separa uma expressão deslocada para o início da frase (adjunto adverbial). Nas demais alternativas, a vírgula separa o sujeito do verbo — erro grave e o mais cobrado em provas.', // explicação
-    dica: 'Regra de ouro: sujeito e verbo são inseparáveis. Se a frase tem vírgula entre eles, desconfie na hora — é a pegadinha número 1 de pontuação.', // pegadinha
-    video: 'vírgula entre sujeito e verbo erro para concurso' // busca no YouTube
+    explicacao: 'A ação do fiscal é pontual e concluída no passado: pretérito perfeito "entrou". "Entrava" (imperfeito) indicaria ação habitual ou em andamento; "entrasse" pede outra conjunção ("se/quando" hipotético).', // explicação
+    dica: 'Pretérito perfeito = ação fechada no passado ("entrou"); imperfeito = ação contínua ou habitual ("entrava"). O "já estavam" do contexto entrega que a outra ação foi pontual.', // pegadinha
+    video: 'pretérito perfeito e imperfeito do indicativo concurso' // busca no YouTube
   },
   {
     id: 'p16',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Interpretação de texto',     // assunto
-    banca: 'CESPE/Cebraspe',            // banca inspiradora
-    enunciado: 'Leia o trecho: "Estudar todos os dias, nem que seja por meia hora, rende mais do que virar a noite na véspera. O cérebro consolida a memória aos poucos, como um café passado lentamente: a pressa queima o grão e amarga o resultado." A ideia central do texto é:', // pergunta
+    tema: 'Semântica — polissemia',     // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A palavra "manga" em "a manga da camisa" e "a manga estava doce" ilustra um caso de:', // pergunta
     alternativas: [                     // opções
-      'O café passado rápido é o mais saboroso.',
-      'Estudar na véspera é a estratégia mais eficiente.',
-      'A constância diária vale mais que a maratona de última hora.',
-      'Memória não se relaciona com frequência de estudo.',
-      'Só se aprende estudando muitas horas seguidas.'
+      'Sinonímia',
+      'Antonímia',
+      'Homonímia',
+      'Neologismo',
+      'Arcaísmo'
     ],
     correta: 2,                         // índice da certa
-    explicacao: 'O texto compara o estudo ao café passado devagar: a regularidade (goles diários) consolida a memória melhor do que a correria da véspera. A metáfora do café reforça a ideia de processo lento e constante.', // explicação
-    dica: 'Em interpretação, desconfie de alternativas com palavras radicais ("só", "nunca", "mais", "todo"). O texto raramente é tão absoluto quanto a alternativa.', // pegadinha
-    video: 'interpretação de texto para concursos dicas' // busca no YouTube
+    explicacao: 'São duas palavras iguais na forma e no som, mas com significados e origens diferentes (manga da roupa x manga a fruta) — homônimas. Sinônimos têm sentidos parecidos; antônimos, opostos.', // explicação
+    dica: 'Homônimo = mesma forma, sentido diferente (manga, banco, velo). A banca troca com polissemia (uma palavra, vários sentidos, como "cabeça" humana e "cabeça" de alho) — ambas podem aparecer como resposta conforme a gramática adotada.', // pegadinha
+    video: 'homônimos e polissemia para concurso exemplos' // busca no YouTube
   },
   {
     id: 'p17',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
-    tema: 'Concordância nominal',       // assunto
-    banca: 'IBFC',                      // banca inspiradora
-    enunciado: 'Complete: "Seguem ___ os documentos solicitados."', // pergunta
+    tema: 'Uso de "meio"',              // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Assinale a frase correta quanto ao uso de "meio":', // pergunta
     alternativas: [                     // opções
-      'anexo',
-      'anexos',
-      'anexas',
-      'em anexo',
-      'anexada'
+      'Ele chegou meia cansado depois da prova.',
+      'Ele chegou meio cansado depois da prova.',
+      'Bebi meio xícara de café.',
+      'Ela parecia meia nervosa para a entrevista.',
+      'Ela saiu meia apressada da sala.'
     ],
     correta: 1,                         // índice da certa
-    explicacao: '"Anexo" é adjetivo e concorda com o substantivo a que se refere: documentos anexos. "Em anexo" é expressão invariável, mas não se encaixa na construção pedida ("seguem anexos" seria aceitável em registro informal, não é o padrão cobrado em prova).', // explicação
-    dica: 'Pegadinha recorrente: "segue anexo" (um documento) x "seguem anexos" (vários). A banca inverte o número do substantivo para derrubar quem concorda no automático.', // pegadinha
-    video: 'concordância nominal anexo incluso obrigado para concurso' // busca no YouTube
+    explicacao: 'Antes de adjetivo, "meio" é advérbio e fica invariável: meio cansado, meio nervosa. Antes de substantivo, é numeral e concorda: meia xícara, meio quilo, meia dúzia.', // explicação
+    dica: 'Atalho da Vunesp: "meio" que significa "um pouco" (adverbio) NUNCA varia — sempre "meio". "Meio/meia" que mede quantidade concorda com o substantivo.', // pegadinha
+    video: 'uso correto de meio e meia para concurso' // busca no YouTube
   },
 
   /* ---------- MATEMÁTICA (6 novas) ---------- */
   {
     id: 'm11',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Porcentagem',                // assunto
+    tema: 'Variação percentual',        // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
-    enunciado: 'Em um concurso, 12.000 candidatos se inscreveram. No dia da prova, 25% faltaram. Quantos candidatos fizeram a prova?', // pergunta
+    enunciado: 'Um curso preparatório custava R$ 80,00 e passou a custar R$ 100,00. O aumento percentual foi de:', // pergunta
     alternativas: [                     // opções
-      '3.000',
-      '8.000',
-      '9.000',
-      '9.600',
-      '10.000'
+      '20%',
+      '25%',
+      '30%',
+      '80%',
+      '125%'
     ],
-    correta: 2,                         // índice da certa
+    correta: 1,                         // índice da certa
     passos: [                           // passo a passo
-      'Calcule quem faltou: 25% de 12.000 = 12.000 × 0,25 = 3.000.',
-      'Subtraia dos inscritos: 12.000 − 3.000 = 9.000.'
+      'Calcule o aumento: 100 − 80 = R$ 20,00.',
+      'Divida pelo valor ORIGINAL: 20 ÷ 80 = 0,25.',
+      'Converta: 0,25 = 25%.'
     ],
-    explicacao: 'A pergunta é sobre quem FEZ a prova, não sobre quem faltou. Dos 12.000 inscritos, 3.000 faltaram, então 9.000 compareceram.', // explicação
-    dica: 'A Vunesp sempre oferece "3.000" nas alternativas — o valor dos que FALTARAM. A banca aposta que você responde a primeira conta que aparece. Leia o comando até o fim!', // pegadinha
-    video: 'porcentagem para concursos como calcular' // busca no YouTube
+    explicacao: 'Variação percentual = diferença ÷ valor inicial. O aumento de R$ 20 sobre os R$ 80 originais é 25% — a alternativa "20%" é a pegadinha de quem confunde o valor do aumento com a taxa.', // explicação
+    dica: 'Sempre divida pelo valor ANTES da mudança. E cuidado: "20" aparece nas alternativas justamente porque é o aumento em reais — taxa percentual pede a divisão.', // pegadinha
+    video: 'aumento e desconto percentual variação para concurso' // busca no YouTube
   },
   {
     id: 'm12',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Regra de três composta',     // assunto
-    banca: 'FCC',                       // banca inspiradora
-    enunciado: 'Uma gráfica, com 4 impressoras, produz 600 provas em 3 horas. Mantendo o ritmo, quantas provas 6 impressoras produziriam em 2 horas?', // pergunta
+    tema: 'Regra de três simples direta', // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Se 3 canetas custam R$ 7,50, quanto custam 8 canetas iguais?', // pergunta
     alternativas: [                     // opções
-      '600',
-      '900',
-      '450',
-      '800',
-      '1.200'
+      'R$ 15,00',
+      'R$ 18,00',
+      'R$ 20,00',
+      'R$ 22,50',
+      'R$ 24,00'
     ],
-    correta: 0,                         // índice da certa
+    correta: 2,                         // índice da certa
     passos: [                           // passo a passo
-      'Monte a proporção composta: provas = 600 × (6/4) × (2/3).',
-      'Impressoras: 6/4 = 1,5 (mais impressoras, mais provas — proporção direta).',
-      'Tempo: 2/3 ≈ 0,667 (menos tempo, menos provas — proporção direta).',
-      '600 × 1,5 × 0,667 = 600 provas.'
+      'Ache o preço de 1 caneta: 7,50 ÷ 3 = R$ 2,50.',
+      'Multiplique por 8: 2,50 × 8 = R$ 20,00.'
     ],
-    explicacao: 'Com 50% mais impressoras a produção cresce 50%; com 1/3 a menos de tempo ela cai 1/3. Os dois efeitos se anulam: continuam 600 provas.', // explicação
-    dica: 'Em regra de três composta, escreva cada grandeza e classifique direta/inversa ANTES de multiplicar. O erro clássico é inverter a grandeza errada.', // pegadinha
-    video: 'regra de três composta para concurso passo a passo' // busca no YouTube
+    explicacao: 'Mais canetas, mais dinheiro — proporção direta. Descoberto o preço unitário (R$ 2,50), basta multiplicar por 8.', // explicação
+    dica: 'Atalho de prova: ache primeiro o valor unitário — ele resolve qualquer regra de três simples direta sem montar proporção.', // pegadinha
+    video: 'regra de três simples direta para concurso' // busca no YouTube
   },
   {
     id: 'm13',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Juros simples',              // assunto
+    tema: 'Juros simples — taxa',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
-    enunciado: 'Um estudante aplicou R$ 1.500,00 a juros simples de 2% ao mês. Qual será o montante após 8 meses?', // pergunta
+    enunciado: 'Aplicando R$ 2.000,00 a juros simples, um investidor recebeu R$ 240,00 de juros em 6 meses. A taxa mensal da aplicação foi de:', // pergunta
     alternativas: [                     // opções
-      'R$ 1.560,00',
-      'R$ 1.740,00',
-      'R$ 1.800,00',
-      'R$ 2.400,00',
-      'R$ 1.620,00'
+      '1% ao mês',
+      '2% ao mês',
+      '3% ao mês',
+      '4% ao mês',
+      '6% ao mês'
     ],
     correta: 1,                         // índice da certa
     passos: [                           // passo a passo
-      'Aplique a fórmula dos juros simples: J = C × i × t.',
-      'J = 1.500 × 0,02 × 8 = 1.500 × 0,16 = R$ 240,00.',
-      'Montante: M = C + J = 1.500 + 240 = R$ 1.740,00.'
+      'Use J = C × i × t: 240 = 2.000 × i × 6.',
+      '240 = 12.000 × i.',
+      'i = 240 ÷ 12.000 = 0,02 = 2% ao mês.'
     ],
-    explicacao: 'No regime simples, o juro incide sempre sobre o capital inicial: 2% de 1.500 é R$ 30,00 por mês, vezes 8 meses = R$ 240,00 de juros.', // explicação
-    dica: 'Confira as unidades antes de calcular: taxa mensal com tempo em meses. A alternativa "1.800" engana quem usou 2,5% ou errou o número de meses.', // pegadinha
-    video: 'juros simples para concursos fórmula' // busca no YouTube
+    explicacao: 'Isolando a taxa na fórmula: i = J ÷ (C × t) = 240 ÷ 12.000 = 2% ao mês. Quem soma 240 + 2.000 primeiro sai da trilha certa — a fórmula usa só o JURO.', // explicação
+    dica: 'A alternativa "6%" pega quem confunde os 6 meses com a taxa. Separe as variáveis: J (juro total), C (capital), i (taxa) e t (tempo) — depois isole a incógnita.', // pegadinha
+    video: 'juros simples encontrar a taxa para concurso' // busca no YouTube
   },
   {
     id: 'm14',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Juros compostos',            // assunto
-    banca: 'CESPE/Cebraspe',            // banca inspiradora
-    enunciado: 'R$ 10.000,00 aplicados a juros compostos de 10% ao ano renderão, em 2 anos, um montante de:', // pergunta
+    tema: 'Potenciação e radiciação',   // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O valor de √144 + 3² é:', // pergunta
     alternativas: [                     // opções
-      'R$ 12.000,00',
-      'R$ 12.100,00',
-      'R$ 12.200,00',
-      'R$ 11.000,00',
-      'R$ 12.010,00'
+      '15',
+      '18',
+      '21',
+      '24',
+      '36'
     ],
-    correta: 1,                         // índice da certa
+    correta: 2,                         // índice da certa
     passos: [                           // passo a passo
-      'Aplique a fórmula do montante composto: M = C × (1 + i)^t.',
-      'M = 10.000 × (1,10)² = 10.000 × 1,21.',
-      'M = R$ 12.100,00.'
+      'Calcule a raiz: √144 = 12 (pois 12 × 12 = 144).',
+      'Calcule a potência: 3² = 9.',
+      'Some: 12 + 9 = 21.'
     ],
-    explicacao: 'No regime composto, o juro do 2º ano incide sobre o montante do 1º: 10.000 → 11.000 → 12.100. A alternativa "12.000" é a armadilha de quem calculou juros simples.', // explicação
-    dica: 'Quando a banca mistura regimes na mesma questão, ela quer que você confunda. Tempo maior que 1 período + "juros compostos" no enunciado = eleve à potência, não multiplique.', // pegadinha
-    video: 'juros compostos para concurso fórmula montante' // busca no YouTube
+    explicacao: 'Raiz quadrada de 144 é 12; 3 ao quadrado é 9. A soma dá 21. A alternativa "24" atrai quem soma 12 + 12 esquecendo que 3² é 9, não 12.', // explicação
+    dica: 'Raízes exatas mais cobradas: √100=10, √121=11, √144=12, √169=13, √196=14, √225=15. Decore os quadrados de 1 a 15 — caem em toda prova.', // pegadinha
+    video: 'potenciação e radiciação exercícios para concurso' // busca no YouTube
   },
   {
     id: 'm15',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Média aritmética',           // assunto
+    tema: 'Mediana',                    // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
-    enunciado: 'As notas de um candidato em 4 provas foram 7, 8, 9 e 10. A média aritmética dessas notas é:', // pergunta
+    enunciado: 'As idades de 5 amigos são 18, 20, 24, 26 e 30 anos. A mediana dessas idades é:', // pergunta
     alternativas: [                     // opções
-      '8,0',
-      '8,5',
-      '8,75',
-      '9,0',
-      '8,25'
+      '22 anos',
+      '23,6 anos',
+      '24 anos',
+      '26 anos',
+      '30 anos'
     ],
-    correta: 1,                         // índice da certa
+    correta: 2,                         // índice da certa
     passos: [                           // passo a passo
-      'Some as notas: 7 + 8 + 9 + 10 = 34.',
-      'Divida pela quantidade de provas: 34 ÷ 4 = 8,5.'
+      'Ordene os valores: 18, 20, 24, 26, 30 (já estão em ordem).',
+      'Com 5 valores, a mediana é o central: o 3º termo.',
+      'Mediana = 24 anos.'
     ],
-    explicacao: 'Média aritmética é a soma de todos os valores dividida pela quantidade de valores. 34 ÷ 4 = 8,5.', // explicação
-    dica: 'Média não é a "nota do meio" (isso é mediana). A banca troca os conceitos de propósito e ainda oferece a mediana nas alternativas.', // pegadinha
-    video: 'média aritmética para concursos exercícios' // busca no YouTube
+    explicacao: 'Mediana é o valor do meio da lista ORDENADA — aqui, o 3º termo (24). A alternativa "23,6" é a média aritmética (118 ÷ 5), colocada de propósito para confundir os conceitos.', // explicação
+    dica: 'Média = soma ÷ quantidade; mediana = termo do meio da lista ordenada (se a quantidade for par, a média dos dois centrais). A banca sempre oferece a média disfarçada de mediana.', // pegadinha
+    video: 'mediana e média diferença para concurso' // busca no YouTube
   },
   {
     id: 'm16',                          // identificador único
     materia: 'Matemática',              // matéria
-    tema: 'Equação do 1º grau',         // assunto
+    tema: 'Problemas de idade',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
-    enunciado: 'Resolva a equação: 3(x − 2) = 2x + 4', // pergunta
+    enunciado: 'João tem o dobro da idade de Maria. Daqui a 10 anos, a soma das idades dos dois será 50. Quantos anos Maria tem hoje?', // pergunta
     alternativas: [                     // opções
-      'x = 10',
-      'x = 8',
-      'x = 6',
-      'x = 4',
-      'x = 2'
+      '10 anos',
+      '15 anos',
+      '20 anos',
+      '25 anos',
+      '30 anos'
     ],
     correta: 0,                         // índice da certa
     passos: [                           // passo a passo
-      'Aplique a distributiva: 3x − 6 = 2x + 4.',
-      'Leve os termos com x para um lado e os números para o outro: 3x − 2x = 4 + 6.',
-      'x = 10.'
+      'Chame a idade de Maria de x; a de João é 2x.',
+      'Daqui a 10 anos: (x + 10) + (2x + 10) = 50.',
+      '3x + 20 = 50 → 3x = 30 → x = 10.'
     ],
-    explicacao: 'O erro campeão é esquecer de distribuir o 3 para o "−2", ficando "3x − 2 = 2x + 4", que daria x = 6 — e essa resposta está entre as alternativas.', // explicação
-    dica: 'A banca coloca exatamente o resultado da conta errada (sem distributiva) nas alternativas. Distribua o número para TODOS os termos do parêntese, com o sinal.', // pegadinha
-    video: 'equação do primeiro grau para concurso resolvida' // busca no YouTube
+    explicacao: 'Montando a equação: Maria tem x hoje e terá x+10; João tem 2x e terá 2x+10. A soma futura é 50, logo x = 10 (e João, 20).', // explicação
+    dica: 'Erro campeão: somar 10 só uma vez ("3x + 10 = 50" daria x ≈ 13). Os DOIS envelhecem — some 10 a cada idade antes de montar a equação.', // pegadinha
+    video: 'problemas de idade equação para concurso' // busca no YouTube
   },
 
   /* ---------- RACIOCÍNIO LÓGICO (4 novas) ---------- */
   {
     id: 'r09',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
-    tema: 'Negação de proposições',     // assunto
+    tema: 'Conjunção e disjunção',      // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
-    enunciado: 'A negação lógica de "Todo candidato estuda" é:', // pergunta
+    enunciado: 'A proposição "Estudo português E matemática" será VERDADEIRA quando:', // pergunta
     alternativas: [                     // opções
-      'Nenhum candidato estuda.',
-      'Todo candidato não estuda.',
-      'Algum candidato não estuda.',
-      'Algum candidato estuda.',
-      'Pelo menos um candidato estuda.'
+      'Pelo menos uma das partes for verdadeira',
+      'As duas partes forem verdadeiras',
+      'Apenas uma das partes for verdadeira',
+      'As duas partes forem falsas',
+      'A primeira parte for falsa'
     ],
-    correta: 2,                         // índice da certa
-    explicacao: 'A negação do TODO é o ALGUM NÃO: basta existir um único candidato que não estuda para a afirmação original ser falsa. "Nenhum estuda" é a negação de "algum estuda", não de "todo".', // explicação
-    dica: 'Pegadinha CESPE clássica: a negação de "todo" NUNCA é "nenhum" — é "algum não". Grave o par: todo ↔ algum não.', // pegadinha
-    video: 'negação de proposições todo algum nenhum raciocínio lógico' // busca no YouTube
+    correta: 1,                         // índice da certa
+    explicacao: 'A conjunção "e" só é verdadeira quando TODAS as partes são verdadeiras — basta uma falsa para derrubar tudo. Já a disjunção "ou" aceita apenas uma verdadeira.', // explicação
+    dica: 'Resumo da CESPE: "e" exige tudo verdade; "ou" basta um verdade. E cuidado com o "ou exclusivo" (ou...ou): esse aceita APENAS um verdade, não os dois.', // pegadinha
+    video: 'conjunção disjunção tabela verdade raciocínio lógico' // busca no YouTube
   },
   {
     id: 'r10',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
-    tema: 'Equivalência lógica (contrapositiva)', // assunto
+    tema: 'Equivalência com "ou" (NEyMAR)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
-    enunciado: 'A proposição logicamente equivalente a "Se chove, então a rua molha" é:', // pergunta
+    enunciado: 'A proposição "Se estudo, então passo" é equivalente a:', // pergunta
     alternativas: [                     // opções
-      'Se a rua molha, então chove.',
-      'Se não chove, então a rua não molha.',
-      'Se a rua não molha, então não chove.',
-      'Chove e a rua não molha.',
-      'Não chove e a rua molha.'
+      'Não estudo ou passo.',
+      'Estudo e não passo.',
+      'Se passo, então estudo.',
+      'Se não estudo, então não passo.',
+      'Estudo ou não passo.'
     ],
-    correta: 2,                         // índice da certa
-    explicacao: 'A contrapositiva (inverte a ordem e nega os dois lados) é equivalente ao condicional: "Se não B, então não A". Se a rua não molhou, é impossível ter chovido.', // explicação
-    dica: 'A FGV ama a contrapositiva. As duas armadilhas: inverter sem negar (alternativa a) e negar sem inverter (alternativa b) — nenhuma das duas equivale ao condicional.', // pegadinha
-    video: 'equivalência lógica contrapositiva se então para concurso' // busca no YouTube
+    correta: 0,                         // índice da certa
+    explicacao: 'Além da contrapositiva, o condicional tem outra equivalente: "não p OU q" — a famosa regra NEyMAR (NEga a primeira, MAntém a segunda, troca por "ou"). "Se estudo, passo" = "não estudo ou passo".', // explicação
+    dica: 'Duas equivalentes do "se...então": contrapositiva (inverte e nega tudo) e NEyMAR (nega o 1º, mantém o 2º, vira "ou"). A FGV adora pedir a segunda — a que ninguém espera.', // pegadinha
+    video: 'equivalência do se então neymar nega primeira mantém segunda' // busca no YouTube
   },
   {
     id: 'r11',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
-    tema: 'Leis de De Morgan',          // assunto
-    banca: 'FCC',                       // banca inspiradora
-    enunciado: 'A negação de "Estudo português e estudo matemática" é:', // pergunta
+    tema: 'Sequência de letras',        // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Na sequência A, C, F, J, ..., a próxima letra é:', // pergunta
     alternativas: [                     // opções
-      'Não estudo português e não estudo matemática.',
-      'Não estudo português ou não estudo matemática.',
-      'Estudo português ou estudo matemática.',
-      'Não estudo português e estudo matemática.',
-      'Estudo português ou não estudo matemática.'
+      'L',
+      'M',
+      'N',
+      'O',
+      'P'
     ],
-    correta: 1,                         // índice da certa
-    explicacao: 'Pela Lei de De Morgan, a negação de "p e q" é "não p OU não q": basta uma das partes falhar para o "e" ser falso.', // explicação
-    dica: 'Na negação, o "e" vira "ou" e cada parte é negada. Quem troca só as negações e mantém o "e" (alternativa a) cai na pegadinha mais repetida da lógica.', // pegadinha
-    video: 'leis de de morgan negação e ou raciocínio lógico' // busca no YouTube
+    correta: 3,                         // índice da certa
+    passos: [                           // passo a passo
+      'Conte os saltos entre letras: A→C pula 2; C→F pula 3; F→J pula 4.',
+      'Os saltos crescem de 1 em 1: o próximo salto é 5.',
+      'J + 5 letras = O (K, L, M, N, O).'
+    ],
+    explicacao: 'É a mesma lógica das sequências numéricas, só que com o alfabeto: os intervalos crescem (+2, +3, +4, +5). Depois de J vêm K, L, M, N e O — o quinto salto para em O.', // explicação
+    dica: 'Transforme letra em número (A=1, B=2...) e a sequência vira um problema normal de diferenças. A Vunesp conta com quem tenta adivinhar o padrão "de olho".', // pegadinha
+    video: 'sequência de letras raciocínio lógico para concurso' // busca no YouTube
   },
   {
     id: 'r12',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
-    tema: 'Sequências lógicas',         // assunto
-    banca: 'Vunesp',                    // banca inspiradora
-    enunciado: 'Na sequência 2, 6, 12, 20, 30, ..., o próximo termo é:', // pergunta
+    tema: 'Argumentação — modus ponens', // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Premissas: "Se bebo café, fico acordado." e "Bebi café." A conclusão logicamente válida é:', // pergunta
     alternativas: [                     // opções
-      '36',
-      '40',
-      '42',
-      '44',
-      '48'
+      'Não fico acordado.',
+      'Fico acordado.',
+      'Talvez eu fique acordado.',
+      'Não bebi café.',
+      'Bebo mais café.'
     ],
-    correta: 2,                         // índice da certa
-    passos: [                           // passo a passo
-      'Observe as diferenças entre termos seguidos: 4, 6, 8, 10.',
-      'As diferenças crescem de 2 em 2: a próxima será 12.',
-      '30 + 12 = 42.'
-    ],
-    explicacao: 'Os termos seguem o padrão n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6... O próximo é 6×7 = 42.', // explicação
-    dica: 'Quando a sequência não é PA nem PG, olhe as DIFERENÇAS entre os termos. A banca conta com você tentando multiplicar tudo por 3 ou somar 4 direto.', // pegadinha
-    video: 'sequências lógicas para concurso padrão diferenças' // busca no YouTube
+    correta: 1,                         // índice da certa
+    explicacao: 'É o modus ponens: se p → q e p aconteceu, q necessariamente acontece. Bebi café (p), logo fico acordado (q) — sem "talvez": a conclusão é garantida pelas premissas.', // explicação
+    dica: 'Cuidado com o gêmeo errado: "fiquei acordado, logo bebi café" seria a falácia da afirmação do consequente — o condicional não se lê de trás para frente.', // pegadinha
+    video: 'modus ponens e modus tollens argumentação concurso' // busca no YouTube
   },
 
   /* ---------- INFORMÁTICA (3 novas) ---------- */
   {
     id: 'i09',                          // identificador único
     materia: 'Informática',             // matéria
-    tema: 'Excel — função MÉDIA',       // assunto
-    banca: 'IBFC',                      // banca inspiradora
-    enunciado: 'No Excel, para calcular a média dos valores do intervalo A1 até A10, utiliza-se a fórmula:', // pergunta
+    tema: 'Excel — referência absoluta', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No Excel, a referência $A$1 em uma fórmula indica:', // pergunta
     alternativas: [                     // opções
-      '=SOMA(A1:A10)/MÉDIA',
-      '=MÉDIA(A1:A10)',
-      '=MED(A1:A10)',
-      '=MÉDIA(A1;A10)',
-      '=AVERAGE(A1:A10)'
+      'Uma célula que muda de posição ao copiar a fórmula',
+      'Uma referência absoluta, que não se altera ao copiar a fórmula',
+      'Um erro de digitação na fórmula',
+      'Uma célula oculta na planilha',
+      'O endereço da última célula usada'
     ],
     correta: 1,                         // índice da certa
-    explicacao: 'A função MÉDIA recebe um intervalo (com dois-pontos) e devolve a média aritmética. "AVERAGE" é o nome em inglês, que não vale no Excel em português. Ponto e vírgula (alternativa d) separaria apenas dois valores, não o intervalo.', // explicação
-    dica: 'A IBFC adora "AVERAGE" para pegar quem decora em inglês, e ";" no lugar de ":" para pegar quem não domina intervalo. Dois-pontos = intervalo.', // pegadinha
-    video: 'função média no excel para concurso' // busca no YouTube
+    explicacao: 'O cifrão trava a referência: $A$1 fica fixa ao copiar a fórmula para outras células. A1 (sem cifrão) é relativa e se move; A$1 ou $A1 são mistas (travam só linha ou só coluna).', // explicação
+    dica: 'Decore o mapa da FCC: A1 = relativa; $A$1 = absoluta; $A1 ou A$1 = mista. O cifrão é o "cadeado" da célula — onde ele estiver, nada se move.', // pegadinha
+    video: 'referência absoluta e relativa excel cifrão para concurso' // busca no YouTube
   },
   {
     id: 'i10',                          // identificador único
     materia: 'Informática',             // matéria
-    tema: 'Excel — atalhos',            // assunto
-    banca: 'FCC',                       // banca inspiradora
-    enunciado: 'No Excel, o atalho de teclado que insere a SOMA automática (AutoSoma) é:', // pergunta
+    tema: 'Excel — função SOMASE',      // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No Excel, a função =SOMASE(A1:A10;">5") faz o seguinte:', // pergunta
     alternativas: [                     // opções
-      'Ctrl + S',
-      'Alt + =',
-      'Ctrl + =',
-      'Shift + =',
-      'Alt + S'
+      'Conta quantas células têm valor maior que 5',
+      'Soma apenas os valores do intervalo que são maiores que 5',
+      'Soma todos os valores do intervalo',
+      'Devolve o maior valor do intervalo',
+      'Ordena os valores em ordem crescente'
     ],
     correta: 1,                         // índice da certa
-    explicacao: 'Alt + = insere =SOMA() automaticamente sobre as células vizinhas. É o atalho mais cobrado em provas de informática junto com os de copiar/colar.', // explicação
-    dica: 'Ctrl + = insere célula; Alt + = soma. A banca troca Ctrl por Alt e Shift entre as alternativas de propósito — decore o par exato.', // pegadinha
-    video: 'atalhos do excel para concursos autosoma' // busca no YouTube
+    explicacao: 'SOMASE soma apenas as células que cumprem a condição — aqui, valores maiores que 5. Quem CONTA com condição é a CONT.SE; quem só soma tudo é a SOMA; o maior valor vem da MÁXIMO.', // explicação
+    dica: 'Família que a IBFC mistura: SOMA (tudo), SOMASE (soma com condição), CONT.SE (conta com condição), MÉDIASE (média com condição). Leia o nome da função em voz alta.', // pegadinha
+    video: 'função somase cont.se excel para concurso' // busca no YouTube
   },
   {
     id: 'i11',                          // identificador único
     materia: 'Informática',             // matéria
-    tema: 'Segurança — phishing',       // assunto
+    tema: 'Segurança — tipos de malware', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
-    enunciado: 'Phishing é:', // pergunta
+    enunciado: 'A principal diferença entre um vírus e um cavalo de Troia (trojan) é que o trojan:', // pergunta
     alternativas: [                     // opções
-      'Um antivírus gratuito',
-      'Golpe em que criminosos imitam bancos e órgãos para roubar seus dados',
-      'Um tipo de backup na nuvem',
-      'Um vírus que apaga arquivos',
-      'Uma técnica de criptografia'
+      'Se replica sozinho de arquivo em arquivo',
+      'Se disfarça de programa legítimo e não se replica',
+      'Criptografa os arquivos do usuário pedindo resgate',
+      'Apaga todo o conteúdo do disco rígido',
+      'Só infecta telefones celulares'
     ],
     correta: 1,                         // índice da certa
-    explicacao: 'Phishing ("pescaria") é o golpe da mensagem falsa: e-mail ou SMS imitando banco, loja ou governo para fisgar senhas e dados, geralmente com um link para um site falso.', // explicação
-    dica: 'Pegadinha de prova: phishing não é vírus — é engenharia social. A vítima entrega os dados de boa vontade, achando que fala com o banco. O alvo é você, não a máquina.', // pegadinha
-    video: 'o que é phishing segurança da informação para concurso' // busca no YouTube
+    explicacao: 'O trojan entra disfarçado de programa útil e abre portas para o atacante — mas não se replica. Quem se replica de arquivo em arquivo é o vírus; e quem se espalha pela rede sozinho é o worm.', // explicação
+    dica: 'Trio que a CESPE cobra: VÍRUS (replica em arquivos), WORM (espalha pela rede sozinho), TROJAN (disfarce, não replica). Ransomware é outro bicho: sequestra dados por resgate.', // pegadinha
+    video: 'diferença entre vírus worm trojan ransomware concurso' // busca no YouTube
   },
 
   /* ===================== LOTE NOVO — PORTUGUÊS (p18 a p25) ===================== */
@@ -1720,6 +1809,7 @@ const BancoQuestoes = [
     id: 'p18',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia (mas x mais)',    // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Complete corretamente: "Eu queria estudar, ___ estava muito cansado."', // pergunta
     alternativas: [                     // opções
@@ -1737,6 +1827,7 @@ const BancoQuestoes = [
     id: 'p19',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Acentuação gráfica (hiato)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Assinale a alternativa em que TODAS as palavras estão grafadas corretamente:', // pergunta
     alternativas: [                     // opções
@@ -1755,6 +1846,7 @@ const BancoQuestoes = [
     id: 'p20',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Regência do verbo assistir', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase correta quanto à regência do verbo "assistir" no sentido de "ver":', // pergunta
     alternativas: [                     // opções
@@ -1773,6 +1865,7 @@ const BancoQuestoes = [
     id: 'p21',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Onde x aonde',               // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "A cidade ___ eu nasci é pequena."', // pergunta
     alternativas: [                     // opções
@@ -1791,6 +1884,7 @@ const BancoQuestoes = [
     id: 'p22',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância com sujeito composto', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Assinale a frase correta:', // pergunta
     alternativas: [                     // opções
@@ -1809,6 +1903,7 @@ const BancoQuestoes = [
     id: 'p23',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Uso de há x a (tempo)',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Complete: "___ dois anos que eu não viajo e daqui ___ três meses farei a prova."', // pergunta
     alternativas: [                     // opções
@@ -1827,6 +1922,7 @@ const BancoQuestoes = [
     id: 'p24',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Vozes verbais',              // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A frase "O edital foi publicado pela banca" está na voz:', // pergunta
     alternativas: [                     // opções
@@ -1845,6 +1941,7 @@ const BancoQuestoes = [
     id: 'p25',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Tipos de sujeito',           // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na frase "Choveu muito ontem na cidade", o sujeito é:', // pergunta
     alternativas: [                     // opções
@@ -1865,6 +1962,7 @@ const BancoQuestoes = [
     id: 'm17',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Aumentos e descontos sucessivos', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um produto de R$ 200,00 teve um aumento de 10% e, depois, um desconto de 10%. O preço final é:', // pergunta
     alternativas: [                     // opções
@@ -1888,6 +1986,7 @@ const BancoQuestoes = [
     id: 'm18',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Regra de três simples inversa', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Se 8 pedreiros constroem um muro em 6 dias, quantos dias 12 pedreiros, no mesmo ritmo, levariam para construir o mesmo muro?', // pergunta
     alternativas: [                     // opções
@@ -1913,6 +2012,7 @@ const BancoQuestoes = [
     id: 'm19',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'MDC (divisão em partes iguais)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um professor tem 24 lápis vermelhos e 36 azuis e quer montar kits iguais, com o maior número possível de kits. Quantos kits ele fará?', // pergunta
     alternativas: [                     // opções
@@ -1936,6 +2036,7 @@ const BancoQuestoes = [
     id: 'm20',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Área do círculo',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um jardim circular tem 10 m de diâmetro. Usando π = 3,14, a área desse jardim é aproximadamente:', // pergunta
     alternativas: [                     // opções
@@ -1959,6 +2060,7 @@ const BancoQuestoes = [
     id: 'm21',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Probabilidade',              // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Em um sorteio com os números de 1 a 20, qual é a probabilidade de sair um múltiplo de 5?', // pergunta
     alternativas: [                     // opções
@@ -1982,6 +2084,7 @@ const BancoQuestoes = [
     id: 'm22',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Divisão proporcional (regra de sociedade)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Dois sócios investiram R$ 2.000,00 e R$ 3.000,00. Ao fim do ano, o lucro de R$ 5.000,00 será dividido em:', // pergunta
     alternativas: [                     // opções
@@ -2006,6 +2109,7 @@ const BancoQuestoes = [
     id: 'm23',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Progressão geométrica',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Na progressão geométrica 3, 6, 12, 24, ..., o 6º termo é:', // pergunta
     alternativas: [                     // opções
@@ -2029,6 +2133,7 @@ const BancoQuestoes = [
     id: 'm24',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'MMC (problemas de encontro)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Dois ônibus partem juntos às 8h. Um passa no ponto a cada 15 minutos e o outro a cada 20 minutos. A que horas eles partirão juntos novamente?', // pergunta
     alternativas: [                     // opções
@@ -2055,6 +2160,7 @@ const BancoQuestoes = [
     id: 'r13',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Tabela-verdade do condicional', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A proposição "Se estudo, então passo" só é FALSA quando:', // pergunta
     alternativas: [                     // opções
@@ -2073,6 +2179,7 @@ const BancoQuestoes = [
     id: 'r14',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Anagramas e permutação',     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Quantos anagramas diferentes tem a palavra CAFÉ (todas as letras distintas)?', // pergunta
     alternativas: [                     // opções
@@ -2096,6 +2203,7 @@ const BancoQuestoes = [
     id: 'r15',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Ordenação',                  // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Ana é mais alta que Bia; Bia é mais alta que Caio; Caio é mais alto que Dani. Quem é a pessoa mais baixa?', // pergunta
     alternativas: [                     // opções
@@ -2114,6 +2222,7 @@ const BancoQuestoes = [
     id: 'r16',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Negação de "algum"',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A negação da proposição "Algum candidato passou" é:', // pergunta
     alternativas: [                     // opções
@@ -2134,6 +2243,7 @@ const BancoQuestoes = [
     id: 'r17',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Trabalho conjunto (torneiras)', // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Uma torneira enche um tanque em 6 horas e outra enche o mesmo tanque em 3 horas. Abertas juntas, elas enchem o tanque em:', // pergunta
     alternativas: [                     // opções
@@ -2157,6 +2267,7 @@ const BancoQuestoes = [
     id: 'r18',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequências alternadas',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Na sequência 1, 4, 2, 8, 3, 12, 4, ..., os dois próximos termos são:', // pergunta
     alternativas: [                     // opções
@@ -2183,6 +2294,7 @@ const BancoQuestoes = [
     id: 'i12',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Windows — atalhos',          // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Windows, o atalho Alt + Tab serve para:', // pergunta
     alternativas: [                     // opções
@@ -2201,6 +2313,7 @@ const BancoQuestoes = [
     id: 'i13',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Excel — função SE',          // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Excel, a fórmula =SE(A1>=7;"Aprovado";"Reprovado") faz o seguinte:', // pergunta
     alternativas: [                     // opções
@@ -2219,6 +2332,7 @@ const BancoQuestoes = [
     id: 'i14',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Extensões de arquivo',       // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'A extensão .xlsx corresponde a um arquivo de:', // pergunta
     alternativas: [                     // opções
@@ -2237,6 +2351,7 @@ const BancoQuestoes = [
     id: 'i15',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Navegadores — cookies',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Sobre os cookies de navegador, é correto afirmar que:', // pergunta
     alternativas: [                     // opções
@@ -2255,6 +2370,7 @@ const BancoQuestoes = [
     id: 'i16',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Segurança — firewall',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'A principal função de um firewall é:', // pergunta
     alternativas: [                     // opções
@@ -2275,6 +2391,7 @@ const BancoQuestoes = [
     id: 'c08',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Direitos políticos — voto facultativo', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'No Brasil, o voto é FACULTATIVO para:', // pergunta
     alternativas: [                     // opções
@@ -2293,6 +2410,7 @@ const BancoQuestoes = [
     id: 'c09',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — liberdade de expressão', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Segundo a Constituição, é livre a manifestação do pensamento, sendo:', // pergunta
     alternativas: [                     // opções
@@ -2311,6 +2429,7 @@ const BancoQuestoes = [
     id: 'c10',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Competências (art. 22)',     // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Compete PRIVATIVAMENTE à União legislar sobre:', // pergunta
     alternativas: [                     // opções
@@ -2331,6 +2450,7 @@ const BancoQuestoes = [
     id: 'c11',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Poder Executivo — mandato',  // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O mandato do Presidente da República é de:', // pergunta
     alternativas: [                     // opções
@@ -2349,6 +2469,7 @@ const BancoQuestoes = [
     id: 'c12',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Segurança pública (art. 144)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'São órgãos de segurança pública previstos no art. 144 da Constituição, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -2369,6 +2490,7 @@ const BancoQuestoes = [
     id: 'a08',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Princípios — impessoalidade', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Um prefeito nomeia seu sobrinho para um cargo em comissão. Esse ato viola diretamente o princípio da:', // pergunta
     alternativas: [                     // opções
@@ -2387,6 +2509,7 @@ const BancoQuestoes = [
     id: 'a09',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Licitação — dispensa x inexigibilidade', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A contratação de um artista consagrado pela crítica especializada ou pela opinião pública é hipótese de:', // pergunta
     alternativas: [                     // opções
@@ -2405,6 +2528,7 @@ const BancoQuestoes = [
     id: 'a10',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Provimento x vacância',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'São formas de PROVIMENTO de cargo público, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -2423,6 +2547,7 @@ const BancoQuestoes = [
     id: 'a11',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Contratos — cláusulas exorbitantes', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São exemplos de cláusulas exorbitantes dos contratos administrativos:', // pergunta
     alternativas: [                     // opções
@@ -2443,6 +2568,7 @@ const BancoQuestoes = [
     id: 't07',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'ONU — Conselho de Segurança', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'São membros permanentes do Conselho de Segurança da ONU, com direito a veto:', // pergunta
     alternativas: [                     // opções
@@ -2461,6 +2587,7 @@ const BancoQuestoes = [
     id: 't08',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Acordo de Paris',            // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O Acordo de Paris, firmado em 2015, tem como objetivo central:', // pergunta
     alternativas: [                     // opções
@@ -2479,6 +2606,7 @@ const BancoQuestoes = [
     id: 't09',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'LGPD',                       // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A Lei Geral de Proteção de Dados (LGPD) trata:', // pergunta
     alternativas: [                     // opções
@@ -2497,6 +2625,7 @@ const BancoQuestoes = [
     id: 't10',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'PIX',                        // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Sobre o PIX, criado pelo Banco Central do Brasil, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -2518,6 +2647,7 @@ const BancoQuestoes = [
     id: 'p26',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Classes de palavras — pronome relativo "que"', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Em "O candidato que estuda todos os dias aprende", a palavra "que" é:', // pergunta
     alternativas: [                     // opções
@@ -2536,6 +2666,7 @@ const BancoQuestoes = [
     id: 'p27',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Coesão — referência anafórica', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'No trecho "O aluno comprou a apostila e levou-a para casa", o elemento "a" refere-se a:', // pergunta
     alternativas: [                     // opções
@@ -2554,6 +2685,7 @@ const BancoQuestoes = [
     id: 'p28',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia — mal x mau / bem x bom', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Assinale a frase correta quanto ao uso de "mal" e "mau":', // pergunta
     alternativas: [                     // opções
@@ -2572,6 +2704,7 @@ const BancoQuestoes = [
     id: 'p29',                          // identificador único
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Sinônimos — variante contextual', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No trecho "o edital saiu de forma abrupta, sem aviso", a palavra "abrupta" pode ser substituída, sem prejuízo de sentido, por:', // pergunta
     alternativas: [                     // opções
@@ -2592,6 +2725,7 @@ const BancoQuestoes = [
     id: 'm25',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Frações',                    // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um candidato estudou 3/5 de um edital de 200 tópicos. Quantos tópicos ainda faltam estudar?', // pergunta
     alternativas: [                     // opções
@@ -2614,6 +2748,7 @@ const BancoQuestoes = [
     id: 'm26',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Conversão de unidades (tempo)', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um simulado durou 2 horas e 45 minutos. Quantos minutos durou o simulado?', // pergunta
     alternativas: [                     // opções
@@ -2636,6 +2771,7 @@ const BancoQuestoes = [
     id: 'm27',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Equação do 2º grau',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'As raízes da equação x² − 5x + 6 = 0 são:', // pergunta
     alternativas: [                     // opções
@@ -2659,6 +2795,7 @@ const BancoQuestoes = [
     id: 'm28',                          // identificador único
     materia: 'Matemática',              // matéria
     tema: 'Velocidade média',           // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um candidato dirigiu 240 km para prestar concurso e gastou 3 horas no trajeto. Qual foi a velocidade média da viagem?', // pergunta
     alternativas: [                     // opções
@@ -2683,6 +2820,7 @@ const BancoQuestoes = [
     id: 'r19',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Calendários — dias da semana', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Se hoje é sábado, daqui a 100 dias será:', // pergunta
     alternativas: [                     // opções
@@ -2706,6 +2844,7 @@ const BancoQuestoes = [
     id: 'r20',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Associações lógicas',        // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Ana, Bia e Caio bebem, cada um, uma bebida diferente: café, chá e suco. Ana não bebe chá. Bia não bebe suco. Caio não bebe café nem suco. Qual é a bebida de Ana?', // pergunta
     alternativas: [                     // opções
@@ -2729,6 +2868,7 @@ const BancoQuestoes = [
     id: 'r21',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Conjuntos — união e interseção', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em uma turma de 40 alunos, 25 estudam inglês, 18 estudam espanhol e 10 estudam os dois idiomas. Quantos alunos não estudam nenhum dos dois?', // pergunta
     alternativas: [                     // opções
@@ -2751,6 +2891,7 @@ const BancoQuestoes = [
     id: 'r22',                          // identificador único
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Quantificadores — todo/algum', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Se "todo aprovado estuda", então é correto concluir que:', // pergunta
     alternativas: [                     // opções
@@ -2771,6 +2912,7 @@ const BancoQuestoes = [
     id: 'i17',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Internet — URL, IP e DNS',   // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Em "https://www.site.com.br/provas", o endereço completo é chamado de:', // pergunta
     alternativas: [                     // opções
@@ -2789,6 +2931,7 @@ const BancoQuestoes = [
     id: 'i18',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'E-mail — campos Cc e Cco',   // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Ao enviar um e-mail, o campo "Cco" (Bcc) serve para:', // pergunta
     alternativas: [                     // opções
@@ -2807,6 +2950,7 @@ const BancoQuestoes = [
     id: 'i19',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Armazenamento em nuvem',     // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Uma vantagem de guardar arquivos em nuvem (Google Drive, OneDrive) em relação ao disco local é:', // pergunta
     alternativas: [                     // opções
@@ -2825,6 +2969,7 @@ const BancoQuestoes = [
     id: 'i20',                          // identificador único
     materia: 'Informática',             // matéria
     tema: 'Internet x intranet',        // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A principal diferença entre internet e intranet é que a intranet:', // pergunta
     alternativas: [                     // opções
@@ -2845,6 +2990,7 @@ const BancoQuestoes = [
     id: 'c13',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — proibição de prisão por dívida', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Segundo a Constituição, não haverá prisão civil por dívida, EXCETO a do:', // pergunta
     alternativas: [                     // opções
@@ -2863,6 +3009,7 @@ const BancoQuestoes = [
     id: 'c14',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Nacionalidade — cargos privativos', // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São cargos privativos de brasileiros NATOS, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -2881,6 +3028,7 @@ const BancoQuestoes = [
     id: 'c15',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios — Habeas Data',     // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'O remédio constitucional que garante acesso a informações pessoais do próprio requerente em bancos de dados públicos é o:', // pergunta
     alternativas: [                     // opções
@@ -2899,6 +3047,7 @@ const BancoQuestoes = [
     id: 'c16',                          // identificador único
     materia: 'Direito Constitucional',  // matéria
     tema: 'Seguridade social (art. 194)', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Integram a seguridade social, segundo a Constituição:', // pergunta
     alternativas: [                     // opções
@@ -2919,6 +3068,7 @@ const BancoQuestoes = [
     id: 'a12',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Ato discricionário x vinculado', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'O ato administrativo é DISCRICIONÁRIO quando:', // pergunta
     alternativas: [                     // opções
@@ -2937,6 +3087,7 @@ const BancoQuestoes = [
     id: 'a13',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Elementos do ato administrativo', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Um ato administrativo praticado por agente sem competência legal tem vício no elemento:', // pergunta
     alternativas: [                     // opções
@@ -2955,6 +3106,7 @@ const BancoQuestoes = [
     id: 'a14',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Princípio da autotutela',    // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O princípio que permite à Administração anular seus próprios atos ilegais, sem precisar ir ao Judiciário, é a:', // pergunta
     alternativas: [                     // opções
@@ -2973,6 +3125,7 @@ const BancoQuestoes = [
     id: 'a15',                          // identificador único
     materia: 'Direito Administrativo',  // matéria
     tema: 'Serviço público — concessão x permissão', // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Na CONCESSÃO de serviço público, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -2993,6 +3146,7 @@ const BancoQuestoes = [
     id: 't11',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Drex (moeda digital)',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O Drex, anunciado pelo Banco Central, é:', // pergunta
     alternativas: [                     // opções
@@ -3011,6 +3165,7 @@ const BancoQuestoes = [
     id: 't12',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Reforma tributária (EC 132/2023)', // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A reforma tributária sobre o consumo (EC 132/2023) prevê, em linhas gerais:', // pergunta
     alternativas: [                     // opções
@@ -3029,6 +3184,7 @@ const BancoQuestoes = [
     id: 't13',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Mercosul',                   // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São membros plenos do Mercosul:', // pergunta
     alternativas: [                     // opções
@@ -3047,6 +3203,7 @@ const BancoQuestoes = [
     id: 't14',                          // identificador único
     materia: 'Atualidades',             // matéria
     tema: 'Eleições — urna eletrônica', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Sobre as urnas eletrônicas brasileiras, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -3067,6 +3224,7 @@ const BancoQuestoes = [
     id: 'h07',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Colonização — capitanias hereditárias', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O primeiro sistema administrativo usado por Portugal para ocupar o Brasil foi o das:', // pergunta
     alternativas: [                     // opções
@@ -3085,6 +3243,7 @@ const BancoQuestoes = [
     id: 'h08',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Ditadura militar — AI-5',    // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O momento de maior repressão da ditadura militar é associado ao:', // pergunta
     alternativas: [                     // opções
@@ -3103,6 +3262,7 @@ const BancoQuestoes = [
     id: 'h09',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Inconfidência Mineira',      // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A Inconfidência Mineira (1789) foi um movimento que:', // pergunta
     alternativas: [                     // opções
@@ -3121,6 +3281,7 @@ const BancoQuestoes = [
     id: 'h10',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Segundo Reinado — Guerra do Paraguai', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Guerra do Paraguai (1864-1870) teve como consequência direta para o Brasil:', // pergunta
     alternativas: [                     // opções
@@ -3139,6 +3300,7 @@ const BancoQuestoes = [
     id: 'h11',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Coronelismo e voto de cabresto', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Durante a República Velha, o "voto de cabresto" consistia em:', // pergunta
     alternativas: [                     // opções
@@ -3157,6 +3319,7 @@ const BancoQuestoes = [
     id: 'h12',                          // identificador único
     materia: 'História do Brasil',      // matéria
     tema: 'Diretas Já',                 // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A campanha "Diretas Já" (1983-1984) mobilizou milhões de brasileiros exigindo:', // pergunta
     alternativas: [                     // opções
@@ -3177,6 +3340,7 @@ const BancoQuestoes = [
     id: 'g07',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Hidrografia — rio Amazonas', // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Sobre o rio Amazonas, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -3195,6 +3359,7 @@ const BancoQuestoes = [
     id: 'g08',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Migrações internas',         // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Entre as décadas de 1960 e 1980, o principal fluxo migratório interno no Brasil foi:', // pergunta
     alternativas: [                     // opções
@@ -3213,6 +3378,7 @@ const BancoQuestoes = [
     id: 'g09',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Fusos horários do Brasil',   // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O território brasileiro abrange, atualmente, quantos fusos horários?', // pergunta
     alternativas: [                     // opções
@@ -3231,6 +3397,7 @@ const BancoQuestoes = [
     id: 'g10',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Cartografia — escala',       // assunto
+    nivel: 'medio',                     // dificuldade
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em um mapa de escala 1:100.000, uma distância de 5 cm no mapa corresponde, na realidade, a:', // pergunta
     alternativas: [                     // opções
@@ -3254,6 +3421,7 @@ const BancoQuestoes = [
     id: 'g11',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Coordenadas — latitude e longitude', // assunto
+    nivel: 'facil',                     // dificuldade
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A LATITUDE de um ponto indica a distância angular desse ponto em relação:', // pergunta
     alternativas: [                     // opções
@@ -3272,6 +3440,7 @@ const BancoQuestoes = [
     id: 'g12',                          // identificador único
     materia: 'Geografia',               // matéria
     tema: 'Agrária — concentração de terras', // assunto
+    nivel: 'dificil',                   // dificuldade
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A elevada concentração de terras no Brasil (poucos donos de muitas terras) tem como marco histórico principal:', // pergunta
     alternativas: [                     // opções
@@ -3285,5 +3454,818 @@ const BancoQuestoes = [
     explicacao: 'A Lei de Terras (1850) passou a exigir registro e compra das terras devolutas — barrando o acesso dos libertos e dos pobres à terra e consolidando o latifúndio herdado das sesmarias e capitanias.', // explicação
     dica: 'Raiz histórica que o ENEM cobra: capitanias/sesmarias já concentravam, e a Lei de Terras de 1850 selou o processo. Libertos NUNCA receberam terra — isso sustenta a questão agrária até hoje.', // pegadinha
     video: 'lei de terras 1850 concentração fundiária brasil resumo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — LÍNGUA PORTUGUESA (p30 a p34) ===================== */
+  {
+    id: 'p30',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Conectivos — conclusão',     // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Complete: "O candidato gabaritou o simulado; ___, foi aprovado."', // pergunta
+    alternativas: [                     // opções
+      'mas',
+      'porque',
+      'portanto',
+      'embora',
+      'contudo'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A segunda oração é consequência lógica da primeira (gabaritou → aprovado): conjunção conclusiva (portanto, logo, assim). Mas/contudo/embora marcam oposição; porque marca causa.', // explicação
+    dica: 'Conclusivo atende por "logo" e "portanto": se a segunda parte é o RESULTADO da primeira, é conclusão — não confunda com causa (porque), que aponta o motivo, não o resultado.', // pegadinha
+    video: 'conjunções conclusivas portanto logo para concurso' // busca no YouTube
+  },
+  {
+    id: 'p31',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Acentuação diferencial (pôde x pode)', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Assinale a frase correta quanto ao uso de "pôde/pode":', // pergunta
+    alternativas: [                     // opções
+      'Ele pode resolver a questão ontem, mas não quis.',
+      'Ele pôde resolver a questão ontem e gabaritou.',
+      'Ele pôde resolver a questão amanhã, se quiser.',
+      'Ele pode resolveu a questão ontem.',
+      'Ele pôde vai resolver a questão ontem.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Pôde" (com acento) é pretérito perfeito — ação concluída no passado: ontem ele pôde. "Pode" (sem acento) é presente ou possibilidade futura: hoje ele pode. O acento diferencia os tempos verbais.', // explicação
+    dica: 'Regra de bolso da FCC: passado tem acento (pôde), presente não tem (pode). A alternativa "pôde amanhã" junta passado com futuro — impossível.', // pegadinha
+    video: 'diferença entre pôde e pode acento diferencial concurso' // busca no YouTube
+  },
+  {
+    id: 'p32',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Partícula "se" — apassivador x indeterminador', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Em "Alugam-se salas para estudo", a partícula "se" e o sujeito são, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'Índice de indeterminação do sujeito; sujeito indeterminado',
+      'Partícula apassivadora; "salas" é o sujeito paciente',
+      'Pronome reflexivo; o sujeito é "o locador"',
+      'Conjunção integrante; o sujeito é oculto',
+      'Partícula expletiva; o sujeito é "estudo"'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Alugar" é transitivo direto: VTD + "se" = partícula apassivadora, e a frase está em voz passiva ("salas são alugadas") — "salas" é o sujeito. Já em "precisa-se de professores" (VTI), o "se" é índice de indeterminação.', // explicação
+    dica: 'Chave da FGV: verbo pede objeto DIRETO + se → apassivador (existe sujeito: é o objeto virado sujeito). Verbo pede preposição (VTI) + se → índice de indeterminação (sujeito indeterminado).', // pegadinha
+    video: 'partícula se apassivador índice indeterminação sujeito concurso' // busca no YouTube
+  },
+  {
+    id: 'p33',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Concordância — "um dos que"', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Complete: "Ele foi um dos candidatos que ___ aprovados na primeira fase."', // pergunta
+    alternativas: [                     // opções
+      'foi',
+      'foram',
+      'será',
+      'é',
+      'era'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Com "um dos que", o pronome relativo "que" retoma o conjunto plural ("dos candidatos"): "foram aprovados" — ele pertence ao grupo dos aprovados. O singular só se justificaria para isolar o indivíduo, uso minoritário.', // explicação
+    dica: 'Pegadinha clássica: "um dos que" pede PLURAL na maioria das bancas, porque o "que" se refere ao grupo inteiro. Quem marca "foi" concordou só com "um" — é a isca.', // pegadinha
+    video: 'concordância um dos que foi ou foram para concurso' // busca no YouTube
+  },
+  {
+    id: 'p34',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Aposto x vocativo',          // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Na frase "Prestem atenção, candidatos, a prova já começou", o termo "candidatos" é:', // pergunta
+    alternativas: [                     // opções
+      'Aposto',
+      'Vocativo',
+      'Adjunto adverbial',
+      'Sujeito',
+      'Complemento nominal'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Candidatos" é o chamado, a invocação dirigida aos ouvintes: vocativo — sempre separado por vírgula. Aposto explicaria um termo anterior ("a prova, exame decisivo"); o sujeito da ordem é "vocês".', // explicação
+    dica: 'Pergunta simples que resolve tudo: o termo CHAMA alguém? Vocativo. EXPLICA outro termo? Aposto. A Vunesp adora colocar os dois na mesma questão.', // pegadinha
+    video: 'diferença entre aposto e vocativo para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — MATEMÁTICA (m29 a m33) ===================== */
+  {
+    id: 'm29',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Operações com decimais',     // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O resultado de 0,7 + 0,35 + 1,05 é:', // pergunta
+    alternativas: [                     // opções
+      '1,75',
+      '2,10',
+      '2,15',
+      '1,90',
+      '2,05'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Alinhe as vírgulas e complete com zeros: 0,70 + 0,35 + 1,05.',
+      'Some os centésimos: 70 + 35 + 105 = 210 centésimos.',
+      'Resultado: 2,10.'
+    ],
+    explicacao: 'O erro típico é alinhar os números pela direita como se fossem inteiros. Com as vírgulas alinhadas, a conta vira soma de centésimos: 210/100 = 2,10.', // explicação
+    dica: 'Sempre iguale o número de casas decimais com zeros antes de somar (0,7 vira 0,70). A alternativa "2,05" pega quem ignorou o alinhamento das vírgulas.', // pegadinha
+    video: 'soma de números decimais vírgula alinhada concurso' // busca no YouTube
+  },
+  {
+    id: 'm30',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Média ponderada',            // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Um candidato fez 3 provas: nota 6 (peso 1), nota 8 (peso 2) e nota 7 (peso 2). A média ponderada dele é:', // pergunta
+    alternativas: [                     // opções
+      '7,0',
+      '7,2',
+      '7,5',
+      '8,0',
+      '6,8'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Multiplique cada nota pelo peso: 6×1 = 6; 8×2 = 16; 7×2 = 14.',
+      'Some os produtos: 6 + 16 + 14 = 36.',
+      'Divida pela soma dos pesos: 36 ÷ (1 + 2 + 2) = 36 ÷ 5 = 7,2.'
+    ],
+    explicacao: 'Média ponderada dá mais força às notas de peso maior: as duas provas de peso 2 puxam a média para cima da média simples (7,0) — que a banca deixa de isca na alternativa "a".', // explicação
+    dica: 'Peso funciona como repetição: nota 8 com peso 2 equivale a tirar 8 duas vezes. A média simples (7,0) é SEMPRE a resposta errada quando os pesos diferem.', // pegadinha
+    video: 'média ponderada para concurso como calcular' // busca no YouTube
+  },
+  {
+    id: 'm31',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Sistema — problema contextual', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um lápis e uma borracha custam juntos R$ 4,50. O lápis custa R$ 1,50 a mais que a borracha. Quanto custa a borracha?', // pergunta
+    alternativas: [                     // opções
+      'R$ 1,00',
+      'R$ 1,50',
+      'R$ 2,00',
+      'R$ 2,50',
+      'R$ 3,00'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Monte as equações: L + B = 4,50 e L = B + 1,50.',
+      'Substitua: (B + 1,50) + B = 4,50 → 2B = 3,00.',
+      'B = R$ 1,50 (e o lápis, R$ 3,00).'
+    ],
+    explicacao: 'O problema esconde um sistema de duas equações. Substituindo o preço do lápis, sobra 2B = 3,00, logo a borracha custa R$ 1,50.', // explicação
+    dica: 'A alternativa "R$ 3,00" é o preço do LÁPIS — a banca pergunta a borracha e deixa a resposta do lápis esperando o apressado. Sempre confira O QUE foi perguntado.', // pegadinha
+    video: 'sistema de equações problemas para concurso' // busca no YouTube
+  },
+  {
+    id: 'm32',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Conjuntos numéricos — irracionais', // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Qual dos números abaixo é IRRACIONAL?', // pergunta
+    alternativas: [                     // opções
+      '0,333...',
+      '√2',
+      '−7',
+      '3/4',
+      '√49'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Irracionais têm representação decimal infinita e NÃO periódica: √2 ≈ 1,4142... Dízimas (0,333...), inteiros, frações e raízes exatas (√49 = 7) são racionais.', // explicação
+    dica: 'Teste rápido: virou fração ou dízima periódica? Racional. Raiz inexata ou π? Irracional. A banca planta √49 no meio — parece irracional, mas vale 7.', // pegadinha
+    video: 'números racionais e irracionais conjuntos concurso' // busca no YouTube
+  },
+  {
+    id: 'm33',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Equação do 2º grau — problema', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Um terreno retangular tem comprimento 3 m maior que a largura e área de 40 m². A largura do terreno é:', // pergunta
+    alternativas: [                     // opções
+      '4 m',
+      '5 m',
+      '8 m',
+      '10 m',
+      '13 m'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Chame a largura de x; o comprimento é x + 3.',
+      'Área: x(x + 3) = 40 → x² + 3x − 40 = 0.',
+      'Por soma e produto: raízes que somam −3 e multiplicam −40 → 5 e −8.',
+      'Descarte a negativa: largura = 5 m.'
+    ],
+    explicacao: 'A área gera a equação x² + 3x − 40 = 0, com raízes 5 e −8 — medida negativa não existe, sobra 5 m de largura (e 8 m de comprimento: 5 × 8 = 40 ✓).', // explicação
+    dica: 'Sempre teste a resposta no enunciado: 5 × (5 + 3) = 40 ✓. A raiz negativa (−8) vira alternativa para fisgar quem esquece de descartar soluções impossíveis.', // pegadinha
+    video: 'equação do segundo grau problemas de área concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — RACIOCÍNIO LÓGICO (r23 a r27) ===================== */
+  {
+    id: 'r23',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência de Fibonacci',     // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na sequência 1, 1, 2, 3, 5, 8, ..., o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '10',
+      '11',
+      '12',
+      '13',
+      '16'
+    ],
+    correta: 3,                         // índice da certa
+    passos: [                           // passo a passo
+      'Observe o padrão: cada termo é a soma dos dois anteriores.',
+      '5 + 8 = 13.'
+    ],
+    explicacao: 'É a sequência de Fibonacci: 1+1=2, 1+2=3, 2+3=5, 3+5=8, 5+8=13. Uma das sequências mais cobradas em provas de todos os níveis.', // explicação
+    dica: 'Se a diferença entre termos não é constante nem multiplicativa, teste somar os dois últimos — sequências de Fibonacci disfarçadas enganam quem procura só PA ou PG.', // pegadinha
+    video: 'sequência de fibonacci raciocínio lógico concurso' // busca no YouTube
+  },
+  {
+    id: 'r24',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Argumentação — modus tollens', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Premissas: "Se chove, a aula é cancelada." e "A aula não foi cancelada." A conclusão válida é:', // pergunta
+    alternativas: [                     // opções
+      'Choveu.',
+      'Não choveu.',
+      'A aula foi cancelada.',
+      'Choveu só um pouco.',
+      'Não é possível concluir nada.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'É o modus tollens: se p → q e q NÃO aconteceu, então p também não aconteceu — a aula não foi cancelada, logo não choveu. É a contrapositiva em ação.', // explicação
+    dica: 'Par inseparável: confirmou p → confirma q (modus ponens); negou q → nega p (modus tollens). Negar p não prova nada sobre q — cuidado com a falácia da negação do antecedente.', // pegadinha
+    video: 'modus tollens argumentação lógica para concurso' // busca no YouTube
+  },
+  {
+    id: 'r25',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Verdades e mentiras — auto-referência', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Ana e Bruno: um sempre diz a verdade e o outro sempre mente. Ana diz: "Nós dois somos mentirosos." Quem diz a verdade?', // pergunta
+    alternativas: [                     // opções
+      'Ana diz a verdade e Bruno mente',
+      'Bruno diz a verdade e Ana mente',
+      'Os dois dizem a verdade',
+      'Os dois mentem',
+      'Impossível determinar'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Teste Ana verdadeira: então os dois seriam mentirosos — incluindo ela, que mentiria dizendo a verdade. Contradição.',
+      'Teste Ana mentirosa: a frase "somos dois mentirosos" é falsa — logo não são dois mentirosos.',
+      'Como Ana mente, quem diz a verdade é Bruno: um mente, o outro fala verdade. Consistente.'
+    ],
+    explicacao: 'Ana NÃO pode ser a verdadeira: dizer "somos dois mentirosos" se tornaria mentira na própria boca. Então Ana mente, e a negativa da frase dela garante que só um mente — ela. Bruno fala a verdade.', // explicação
+    dica: 'Em verdades e mentiras, teste cada hipótese até achar a que não gera contradição. Declarações auto-referentes ("nós dois mentimos") são as mais traiçoeiras da FGV.', // pegadinha
+    video: 'verdades e mentiras raciocínio lógico para concurso' // busca no YouTube
+  },
+  {
+    id: 'r26',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Associações — 4 pessoas',    // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Ana, Bia, Caio e Davi estudam matérias diferentes: português, matemática, direito e informática. Ana não estuda português nem informática. Bia estuda direito. Caio não estuda matemática. O que Ana estuda?', // pergunta
+    alternativas: [                     // opções
+      'Português',
+      'Matemática',
+      'Direito',
+      'Informática',
+      'Não é possível determinar'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Bia estuda direito (dado direto).',
+      'Ana não estuda português nem informática → sobram matemática e direito; direito já é de Bia.',
+      'Logo Ana estuda matemática. (Caio fica entre português e informática; Davi, com o resto.)'
+    ],
+    explicacao: 'Basta a primeira eliminação: das quatro matérias, Ana só pode matemática ou direito — e direito é de Bia. Ana = matemática.', // explicação
+    dica: 'Em associações, comece pelo dado CERTO (Bia = direito) e depois pelas proibições — cada cruzamento que você elimina destrava o próximo.', // pegadinha
+    video: 'associações lógicas quatro elementos tabela concurso' // busca no YouTube
+  },
+  {
+    id: 'r27',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Diagramas — proposição "nenhum"', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se a proposição "nenhum político é honesto" for verdadeira, é correto concluir que:', // pergunta
+    alternativas: [                     // opções
+      'Todo honesto é político',
+      'Algum político é honesto',
+      'Nenhum honesto é político',
+      'Todo político é desonesto',
+      'Algum honesto é político'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Nenhum A é B" permite a conversão: "nenhum B é A" — se os conjuntos não se tocam, a separação vale nos dois sentidos. As alternativas com "algum" ou "todo" extrapolam a premissa.', // explicação
+    dica: 'Nos diagramas: "nenhum A é B" = dois círculos separados — a conversão é livre. Mas "todo A é B" NÃO permite "todo B é A" — círculo dentro do outro não é simétrico.', // pegadinha
+    video: 'nenhum todo algum diagramas lógicos para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — INFORMÁTICA (i21 a i24) ===================== */
+  {
+    id: 'i21',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Word — atalhos de alinhamento', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No Word em português, o atalho para CENTRALIZAR um parágrafo é:', // pergunta
+    alternativas: [                     // opções
+      'Ctrl + J',
+      'Ctrl + E',
+      'Ctrl + Q',
+      'Ctrl + G',
+      'Ctrl + T'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ctrl + E centraliza (E de "Em relação ao centro", mnemônico da Microsoft). Ctrl + J justifica; Ctrl + Q alinha à esquerda; Ctrl + G alinha à direita; Ctrl + T abre a janela de fonte.', // explicação
+    dica: 'Quarteto decorado da IBFC: E=centrE? — pense "E" no meio; J=Justificar; Q=esQuerda; G=direita (G de direita em pt-BR). A banca embaralha as quatro letras.', // pegadinha
+    video: 'atalhos alinhamento word ctrl e ctrl j concurso' // busca no YouTube
+  },
+  {
+    id: 'i22',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança — autenticação em dois fatores', // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A autenticação em dois fatores (2FA) aumenta a segurança da conta porque:', // pergunta
+    alternativas: [                     // opções
+      'Obriga o usuário a criar duas senhas iguais',
+      'Exige uma segunda prova de identidade além da senha, como um código no celular',
+      'Duplica a velocidade do login',
+      'Libera o acesso sem senha em computadores conhecidos',
+      'Envia a senha por e-mail automaticamente'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O 2FA combina algo que você SABE (senha) com algo que você TEM (celular/token) ou É (biometria): mesmo que a senha vaze, o invasor não entra sem o segundo fator.', // explicação
+    dica: 'Os três fatores possíveis: o que você sabe, o que você tem, o que você é. Duas senhas iguais NÃO são dois fatores — são o mesmo fator duas vezes.', // pegadinha
+    video: 'autenticação de dois fatores 2fa como funciona' // busca no YouTube
+  },
+  {
+    id: 'i23',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Arquivos compactados (.zip)', // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um arquivo com extensão .zip serve para:', // pergunta
+    alternativas: [                     // opções
+      'Executar programas do Windows',
+      'Agrupar vários arquivos em um só, compactados para ocupar menos espaço',
+      'Abrir documentos de texto formatados',
+      'Tocar vídeos em alta definição',
+      'Fazer backup automático na nuvem'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O .zip é um contêiner: junta vários arquivos e pastas em um pacote só e ainda comprime para ficar menor — ideal para enviar por e-mail. Precisa ser descompactado para usar o conteúdo.', // explicação
+    dica: 'Extensões que a IBFC confunde: .zip/.rar (compactação), .exe (executável), .pdf (documento), .mp4 (vídeo). Um .zip NÃO executa nada sozinho — e todo .exe recebido por e-mail merece desconfiança.', // pegadinha
+    video: 'o que é arquivo zip compactar descompactar' // busca no YouTube
+  },
+  {
+    id: 'i24',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Protocolos — HTTP x HTTPS',  // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A principal diferença entre HTTP e HTTPS é que o HTTPS:', // pergunta
+    alternativas: [                     // opções
+      'É mais rápido para carregar páginas pesadas',
+      'Criptografa o tráfego entre o navegador e o servidor',
+      'Só funciona em redes corporativas',
+      'É um protocolo exclusivo para e-mails',
+      'Dispensa o uso de navegadores'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "S" é de segurança: o HTTPS usa TLS/SSL para criptografar os dados trocados — quem intercepta a rede vê só ruído. O cadeado no navegador indica a conexão cifrada.', // explicação
+    dica: 'A FCC mistura protocolos: HTTP/HTTPS (páginas web), FTP (transferência de arquivos), SMTP (envio de e-mail), POP3/IMAP (recebimento). HTTPS não é "mais rápido" — é mais seguro.', // pegadinha
+    video: 'diferença http https protocolos para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO CONSTITUCIONAL (c17 a c20) ===================== */
+  {
+    id: 'c17',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Art. 5º — direito de reunião', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Sobre o direito de reunião (art. 5º, XVI), a Constituição garante reunião pacífica, sem armas, em local aberto ao público:', // pergunta
+    alternativas: [                     // opções
+      'Mediante autorização prévia da polícia',
+      'Sem necessidade de autorização, bastando aviso prévio à autoridade competente',
+      'Somente durante o dia e em vias públicas',
+      'Apenas para sindicatos e partidos políticos',
+      'Desde que haja menos de cem participantes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Constituição exige apenas AVISO PRÉVIO (para garantir outra reunião no mesmo local), não autorização — pedir permissão do Estado esvaziaria o direito. Reunião armada ou fechada ao público sai da proteção.', // explicação
+    dica: 'A IBFC troca "aviso prévio" por "autorização prévia" — parece a mesma coisa e não é: avisar é informar; autorizar é pedir licença. Só o aviso é exigido.', // pegadinha
+    video: 'direito de reunião art 5 constituição aviso prévio concurso' // busca no YouTube
+  },
+  {
+    id: 'c18',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Lei complementar x ordinária', // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A diferença CORRETA entre lei complementar e lei ordinária é:', // pergunta
+    alternativas: [                     // opções
+      'A lei complementar exige maioria absoluta para aprovação; a ordinária, maioria simples',
+      'A lei ordinária exige maioria absoluta; a complementar, maioria simples',
+      'A lei complementar só pode tratar de matéria tributária',
+      'A lei ordinária não pode ser vetada pelo Presidente',
+      'As duas têm o mesmo quórum e diferem apenas no nome'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Lei complementar precisa de maioria absoluta (metade mais um de TODOS os membros da casa); lei ordinária, de maioria simples (maioria dos presentes). A complementar também trata só das matérias que a CF reserva a ela.', // explicação
+    dica: 'Quóruns que a FCC embaralha: emenda constitucional (3/5), complementar (absoluta), ordinária (simples). Grave a escala EC > LC > LO.', // pegadinha
+    video: 'lei complementar e lei ordinária diferença quórum concurso' // busca no YouTube
+  },
+  {
+    id: 'c19',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Concurso público — validade', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Segundo a Constituição (art. 37, III), a validade do concurso público é de até:', // pergunta
+    alternativas: [                     // opções
+      'Um ano, improrrogável',
+      'Dois anos, prorrogável uma única vez por igual período',
+      'Quatro anos, sem prorrogação',
+      'Cinco anos, renovável',
+      'Tempo indeterminado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O texto constitucional é literal: validade de até dois anos, prorrogável UMA vez por igual período — no máximo quatro anos no total. A classificação dentro das vagas é direito do candidato aprovado.', // explicação
+    dica: 'A IBFC cobra os números soltos: 2 anos + 1 prorrogação de até 2 = máximo 4. Confundir com o mandato presidencial (4 anos) é a pegadinha clássica.', // pegadinha
+    video: 'validade do concurso público dois anos art 37 concurso' // busca no YouTube
+  },
+  {
+    id: 'c20',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Cláusulas pétreas',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'São cláusulas pétreas (imunes a emenda abolitiva), EXCETO:', // pergunta
+    alternativas: [                     // opções
+      'O voto direto, secreto, universal e periódico',
+      'A separação dos Poderes',
+      'Os direitos e garantias individuais',
+      'A forma federativa de Estado',
+      'O mandato presidencial de quatro anos'
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O art. 60, §4º, protege quatro coisas: forma federativa; voto direto, secreto, universal e periódico; separação dos Poderes; e direitos/garantias individuais. O mandato de 4 anos NÃO está na lista — já foi de 5 e de 6 anos.', // explicação
+    dica: 'Mnemônico da FGV: FÓDI-VOSI — FOrma federativa, DIreitos individuais, VOto (direto, secreto...), SÍ separação de poderes. O mandato de 4 anos já mudou antes, logo não é pétreo.', // pegadinha
+    video: 'cláusulas pétreas art 60 constituição para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO ADMINISTRATIVO (a16 a a19) ===================== */
+  {
+    id: 'a16',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poderes — hierárquico',      // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O poder que permite à Administração organizar e escalonar as funções, dar ordens e fiscalizar os subordinados é o:', // pergunta
+    alternativas: [                     // opções
+      'Poder disciplinar',
+      'Poder hierárquico',
+      'Poder de polícia',
+      'Poder regulamentar',
+      'Poder de veto'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O poder hierárquico estrutura a Administração em níveis: o superior distribui tarefas, ordena, delega e fiscaliza os inferiores. Disciplinar pune faltas internas; polícia limita atividade de terceiros; regulamentar edita decretos.', // explicação
+    dica: 'Pense no organograma: hierarquia = relação chefe-subordinado (ordenar, delegar, avocar, fiscalizar). Se a questão fala em punir servidor, é disciplinar; em limitar o particular, é polícia.', // pegadinha
+    video: 'poderes administrativos hierárquico disciplinar regulamentar concurso' // busca no YouTube
+  },
+  {
+    id: 'a17',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Princípio da legalidade',    // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O princípio da legalidade, aplicado à Administração Pública, significa que ela:', // pergunta
+    alternativas: [                     // opções
+      'Pode fazer tudo o que a lei não proíbe expressamente',
+      'Só pode agir quando a lei autoriza ou determina, ao contrário do particular',
+      'Cria leis conforme a conveniência de cada gestor',
+      'Está acima da lei por representar o interesse público',
+      'Segue apenas a Constituição, ignorando leis ordinárias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para o particular, a regra é a autonomia (pode tudo o que não é proibido); para a Administração, é a SUBMISSÃO legal: ela só atua onde a lei manda ou permite — não pode criar obrigações nem prerrogativas por conta própria.', // explicação
+    dica: 'A invertida da FCC: a alternativa "pode tudo que a lei não proíbe" vale para VOCÊ, não para o órgão público. Administração = só o permitido; particular = tudo menos o proibido.', // pegadinha
+    video: 'princípio da legalidade administração e particular concurso' // busca no YouTube
+  },
+  {
+    id: 'a18',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Anulação x revogação',       // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A Administração REVOGA um ato administrativo quando o ato é:', // pergunta
+    alternativas: [                     // opções
+      'Ilegal, por vício em qualquer elemento',
+      'Válido, mas se tornou inconveniente ou inoportuno para o interesse público',
+      'Nulo desde o início, por falta de forma',
+      'Praticado por agente sem competência',
+      'Contrário à finalidade pública'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Revogação = juízo de conveniência sobre ato VÁLIDO (efeitos só para frente, ex tunc não vale). Anulação (ou invalidação) é para ato ILEGAL — retira os efeitos desde a origem (ex tunc).', // explicação
+    dica: 'Fórmula da FCC: ANULAÇÃO = ato ilegal (apaga o passado); REVOGAÇÃO = ato válido, mas inoportuno (só adiante). Juiz não revoga — só a própria Administração revoga.', // pegadinha
+    video: 'anulação e revogação ato administrativo diferença concurso' // busca no YouTube
+  },
+  {
+    id: 'a19',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Regime jurídico — supremacia e indisponibilidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O regime jurídico administrativo caracteriza-se, principalmente, por:', // pergunta
+    alternativas: [                     // opções
+      'Igualdade absoluta entre Administração e particulares',
+      'Supremacia do interesse público e indisponibilidade — prerrogativas e obrigações que o particular não tem',
+      'Liberdade total para o Administrador escolher suas obrigações',
+      'Submissão da lei às decisões administrativas',
+      'Renúncia do Estado ao controle dos próprios atos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'São os dois pilares do regime: SUPREMACIA (a Administração tem prerrogativas acima do particular — cláusulas exorbitantes, executividade) e INDISPONIBILIDADE (o interesse público não pode ser negociado nem abandonado).', // explicação
+    dica: 'O par nunca vem separado na CESPE: supremacia = a Administração pode mais; indisponibilidade = ela NÃO pode abrir mão do interesse público. Poder de um lado, dever do outro.', // pegadinha
+    video: 'supremacia e indisponibilidade regime jurídico administrativo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — ATUALIDADES (t15 a t18) ===================== */
+  {
+    id: 't15',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'El Niño e La Niña',          // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O fenômeno El Niño consiste em:', // pergunta
+    alternativas: [                     // opções
+      'O resfriamento anômalo das águas do Pacífico equatorial',
+      'O aquecimento anômalo das águas do Pacífico equatorial, alterando chuvas e secas no mundo',
+      'Um ciclone tropical do Atlântico Norte',
+      'A passagem de um cometa pela órbita terrestre',
+      'O derretimento das calotas polares no verão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'El Niño = aquecimento anormal do Pacífico equatorial na costa do Peru, que bagunça os regimes de chuva (seca no Nordeste brasileiro, excesso no Sul). La Niña é o oposto: resfriamento das mesmas águas.', // explicação
+    dica: 'A banca inverte os irmãos: El Niño = QUENTE (mais chuva no Sul do Brasil, seca no Norte/Nordeste); La Niña = FRIO. Associe "niño" com "quente" — os dois têm til mental.', // pegadinha
+    video: 'el niño e la niña diferenças efeitos brasil resumo' // busca no YouTube
+  },
+  {
+    id: 't16',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Censo IBGE 2022',            // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Segundo o Censo 2022 do IBGE, a população do Brasil é de aproximadamente:', // pergunta
+    alternativas: [                     // opções
+      '180 milhões',
+      '203 milhões',
+      '215 milhões',
+      '230 milhões',
+      '250 milhões'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Censo 2022 contou 203.080.756 brasileiros — abaixo das projeções anteriores, o que surpreendeu e virou notícia. O país cresce menos de 1% ao ano e está envelhecendo.', // explicação
+    dica: 'Número para decorar: ~203 milhões. A banca oferece projeções antigas (215+ mi) que as estimativas anteriores sugeriam — o Censo real foi MENOR que o esperado.', // pegadinha
+    video: 'censo 2022 ibge população brasileira resultados' // busca no YouTube
+  },
+  {
+    id: 't17',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Regulação da inteligência artificial', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O projeto de regulação da inteligência artificial no Brasil (PL 2.338/2023), inspirado no modelo europeu, adota principalmente:', // pergunta
+    alternativas: [                     // opções
+      'A proibição total de sistemas de IA no país',
+      'Uma abordagem baseada em risco, vetando usos de risco excessivo e exigindo transparência dos demais',
+      'A liberação completa da IA sem qualquer regra',
+      'A criação de uma IA pública obrigatória para órgãos federais',
+      'A responsabilização dos usuários finais, nunca dos desenvolvedores'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O texto aprovado no Senado segue o AI Act europeu: classifica sistemas por risco (excessivo = proibido, como reconhecimento facial em massa; alto = regras e relatórios rígidos) e cria governança e direitos dos afetados.', // explicação
+    dica: 'A pegadinha é o extremo: nem "proíbe tudo" nem "libera tudo" — a regulação é BASEADA EM RISCO. Se a alternativa é absoluta, desconfie.', // pegadinha
+    video: 'pl 2338 regulação inteligência artificial brasil resumo' // busca no YouTube
+  },
+  {
+    id: 't18',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia — taxa Selic',      // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A taxa Selic, notícia frequente na economia, é:', // pergunta
+    alternativas: [                     // opções
+      'O imposto federal cobrado sobre importações',
+      'A taxa básica de juros da economia, definida pelo Copom do Banco Central',
+      'O índice oficial de inflação do país',
+      'A cotação oficial do dólar comercial',
+      'O salário mínimo calculado pelo governo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Selic é a taxa básica de juros, definida a cada 45 dias pelo Copom: sobe para conter inflação (esfria o consumo) e desce para estimular a economia. A inflação medida oficial é o IPCA — não a Selic.', // explicação
+    dica: 'A IBFC troca Selic com IPCA de propósito: Selic = juros (Copom decide); IPCA = inflação (IBGE mede). Copom se reúne 8 vezes por ano.', // pegadinha
+    video: 'o que é a taxa selic copom como funciona resumo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — HISTÓRIA DO BRASIL (h13 a h16) ===================== */
+  {
+    id: 'h13',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Primeiro Reinado — abdicação', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Primeiro Reinado (1822-1831) terminou quando:', // pergunta
+    alternativas: [                     // opções
+      'D. Pedro I abdicou ao trono em favor do filho',
+      'A República foi proclamada pelos militares',
+      'D. Pedro II assumiu o poder aos 14 anos',
+      'O imperador foi deposto pela Confederação do Equador',
+      'Portugal reconquistou o Brasil colonial'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Em 7 de abril de 1831, pressionado pela oposição e pelas crises, D. Pedro I abdicou em favor do filho de 5 anos (futuro D. Pedro II) e partiu para Portugal — abrindo o Período Regencial.', // explicação
+    dica: 'Cronologia que a banca embaralha: 1822 independência → 1831 abdicação → 1831-40 regências → 1840 golpe da maioridade → 1889 república. A república veio 58 ANOS depois da abdicação.', // pegadinha
+    video: 'abdicação de dom pedro I 1831 primeiro reinado resumo' // busca no YouTube
+  },
+  {
+    id: 'h14',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Período Regencial',          // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Entre a abdicação de D. Pedro I (1831) e a maioridade de D. Pedro II (1840), o Brasil foi governado por:', // pergunta
+    alternativas: [                     // opções
+      'Uma junta militar permanente',
+      'Regências, já que o herdeiro do trono era menor de idade',
+      'O Congresso Nacional diretamente',
+      'Um presidente eleito pelo povo',
+      'A família real portuguesa à distância'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Como o herdeiro tinha 5 anos, regentes assumiram o poder (regência trina depois una). Foi o período mais rebelde do Império: Cabanagem, Sabinada, Farroupilha e Balaiada explodiram nas províncias.', // explicação
+    dica: 'O vestibular liga regências às revoltas regionais (Farroupilha no RS, Cabanagem no PA, Sabinada na BA, Balaiada no MA). Regencial = império SEM imperador adulto, não república.', // pegadinha
+    video: 'período regencial revoltas regenciais resumo história' // busca no YouTube
+  },
+  {
+    id: 'h15',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Semana de Arte Moderna',     // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922, realizada no Teatro Municipal de São Paulo, marcou:', // pergunta
+    alternativas: [                     // opções
+      'A inauguração da primeira universidade pública do país',
+      'O início do Modernismo brasileiro e a ruptura com a estética acadêmica tradicional',
+      'A fundação do Partido Comunista Brasileiro',
+      'A assinatura da primeira Constituição republicana',
+      'O fim oficial da escravidão nas artes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Em fevereiro de 1922, artistas e escritores (Oswald e Mário de Andrade, Anita Malfatti, Tarsila do Amaral) apresentaram propostas que rompiam com a arte acadêmica: nasceu o Modernismo — nacionalismo, liberdade formal e linguagem do povo.', // explicação
+    dica: 'Tripla que cai junta: Semana de 22 (Modernismo) + Revolução de 30 (Vargas) + tenentismo dos anos 20. Não confunda 1922 (arte) com 1930 (política).', // pegadinha
+    video: 'semana de arte moderna 1922 modernismo resumo' // busca no YouTube
+  },
+  {
+    id: 'h16',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Abertura — Lei da Anistia',  // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Lei da Anistia de 1979, marco da abertura política da ditadura, determinou:', // pergunta
+    alternativas: [                     // opções
+      'A punição imediata dos torturadores do regime',
+      'A anistia de presos e exilados políticos, sem responsabilizar os agentes da repressão',
+      'O fim imediato do bipartidarismo e a volta das eleições diretas',
+      'A cassação dos mandatos de todos os governadores',
+      'A convocação da Assembleia Constituinte de 1988'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A anistia (Lei 6.683/79) libertou presos políticos e permitiu a volta dos exilados — mas foi "ampla, geral e irrestrita" também para os agentes do regime, que nunca foram punidos.', // explicação
+    dica: 'Nuance que o vestibular cobra: anistia foi para os DOIS lados — perseguidos E agentes do Estado. O Brasil, diferente da Argentina, não julgou seus torturadores.', // pegadinha
+    video: 'lei da anistia 1979 ditadura abertura política resumo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — GEOGRAFIA (g13 a g17) ===================== */
+  {
+    id: 'g13',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Biomas — Mata Atlântica',    // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O bioma brasileiro mais devastado historicamente, hoje reduzido a pequenos fragmentos (cerca de 12% da área original), é a:', // pergunta
+    alternativas: [                     // opções
+      'Amazônia',
+      'Mata Atlântica',
+      'Caatinga',
+      'Pantanal',
+      'Pampa'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Mata Atlântica cobria o litoral do Nordeste ao Sul — justamente onde o Brasil se urbanizou e industrializou. Restam fragmentos; Amazônia e Pantanal sofrem pressão, mas retêm áreas contínuas maiores.', // explicação
+    dica: 'Pegadinha: maior bioma (Amazônia) ≠ mais devastado (Mata Atlântica). A colonização começou pelo litoral — foi o primeiro bioma a "pagar a conta".', // pegadinha
+    video: 'mata atlântica bioma devastado fragmentos resumo' // busca no YouTube
+  },
+  {
+    id: 'g14',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Transição demográfica',      // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O envelhecimento da população brasileira (queda da fecundidade somada ao aumento da expectativa de vida) tende a provocar:', // pergunta
+    alternativas: [                     // opções
+      'O aumento da oferta de vagas em escolas infantis',
+      'A ampliação da proporção de idosos e a pressão sobre previdência e saúde pública',
+      'A redução do número de aposentados no país',
+      'O crescimento da taxa de natalidade',
+      'A diminuição da população economicamente ativa do mundo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Menos nascimentos + viver mais = pirâmide etária invertendo: cresce a parcela de idosos sustentada por menos trabalhadores ativos — o que pressiona a previdência e demanda mais saúde e cuidados.', // explicação
+    dica: 'O ENEM adora a pirâmide: base fina (menos jovens) + topo largo (mais idosos) = transição demográfica avançada. A consequência central é sempre a conta previdenciária.', // pegadinha
+    video: 'transição demográfica envelhecimento população brasil resumo' // busca no YouTube
+  },
+  {
+    id: 'g15',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Bacias hidrográficas',       // assunto
+    nivel: 'facil',                     // dificuldade
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A maior bacia hidrográfica do Brasil — e do mundo — é a bacia:', // pergunta
+    alternativas: [                     // opções
+      'Do Rio São Francisco',
+      'Do Rio Paraná',
+      'Amazônica',
+      'Do Rio Tocantins',
+      'Do Rio da Prata'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A bacia Amazônica drena ~6 milhões de km² (cerca de 63% do território nacional e partes de países vizinhos) e reúne os maiores rios do planeta em volume de água.', // explicação
+    dica: 'A IBFC oferece "Rio da Prata" como isca: a bacia Platina é grande, mas formada por rios de fora (Paraná, Paraguai, Uruguai). Amazônica é a campeã absoluta das duas categorias.', // pegadinha
+    video: 'bacias hidrográficas do brasil bacia amazônica resumo' // busca no YouTube
+  },
+  {
+    id: 'g16',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Industrialização — concentração no Sudeste', // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A concentração histórica da indústria brasileira no Sudeste, sobretudo em São Paulo, explica-se principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'Incentivos governamentais criados nos anos 2000',
+      'Acumulação de capitais do ciclo do café, infraestrutura e proximidade do mercado consumidor',
+      'A proximidade das fronteiras comerciais com a Argentina',
+      'A obrigatoriedade legal das sedes industriais',
+      'A presença das maiores reservas minerais do país'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O café financiou ferrovias, portos e bancos paulistas; a imigração forneceu mão de obra; e a população formou mercado. O capital cafeeiro migrou para a indústria no século XX — acumulação histórica, não decreto.', // explicação
+    dica: 'Lógica ENEM: industrialização de SP = café (capital) + ferrovia + imigrantes (trabalho) + mercado. Incentivo estatal veio depois (polos de descentração), não explica a origem.', // pegadinha
+    video: 'concentração industrial são paulo sudeste café resumo' // busca no YouTube
+  },
+  {
+    id: 'g17',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Fronteiras agrícolas',       // assunto
+    nivel: 'medio',                     // dificuldade
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A expansão da soja e do gado sobre o Cerrado e a Amazônia ilustra geograficamente:', // pergunta
+    alternativas: [                     // opções
+      'A reforma agrária bem-sucedida no país',
+      'O avanço das fronteiras agrícolas e a pressão sobre os biomas',
+      'A redução da área plantada no Brasil',
+      'O fim do agronegócio de exportação',
+      'A urbanização dos centros históricos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fronteira agrícola é a faixa móvel onde a produção agropecuária avança sobre áreas ainda não incorporadas — primeiro o Cerrado (MATOPIBA), agora franjas da Amazônia, com desmatamento associado.', // explicação
+    dica: 'Termos do par: fronteira agrícola (avanço produtivo) x fronteira de pobreza (expansão urbana precária). O vestibular cobra a primeira ligada a soja, gado e desmatamento.', // pegadinha
+    video: 'fronteiras agrícolas cerrado amazônia soja resumo' // busca no YouTube
   }
 ];

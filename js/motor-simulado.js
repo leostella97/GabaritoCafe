@@ -31,7 +31,7 @@ const MotorSimulado = {
   },
 
   // Monta um simulado: filtra o banco e sorteia a quantidade pedida
-  montar({ quantidade, materias = [], banca = '', excluirIds = [], idsExatos = null }) {
+  montar({ quantidade, materias = [], banca = '', niveis = [], excluirIds = [], idsExatos = null }) {
     // Se vieram questões exatas (modo "refazer erradas"), usa só elas
     let pool = idsExatos
       ? BancoQuestoes.filter(q => idsExatos.includes(q.id))   // pega só os ids pedidos
@@ -47,6 +47,11 @@ const MotorSimulado = {
       pool = pool.filter(q => q.banca === banca);           // só questões no estilo da banca
     }
 
+    // Filtra pelos níveis de dificuldade, se o usuário escolheu algum
+    if (niveis.length > 0) {
+      pool = pool.filter(q => niveis.includes(q.nivel));    // só questões dos níveis escolhidos
+    }
+
     const sorteadas = this.embaralhar(pool).slice(0, quantidade); // sorteia e limita à quantidade
     return sorteadas.map(q => this.embaralharAlternativas(q));    // embaralha as alternativas de cada uma
   },
@@ -57,13 +62,16 @@ const MotorSimulado = {
   },
 
   // Conta quantas questões existem para uma combinação de filtros
-  contarDisponiveis({ materias = [], banca = '' }) {
+  contarDisponiveis({ materias = [], banca = '', niveis = [] }) {
     let pool = BancoQuestoes.slice();                       // começa com o banco inteiro
     if (materias.length > 0) {
       pool = pool.filter(q => materias.includes(q.materia)); // aplica o filtro de matérias
     }
     if (banca) {
       pool = pool.filter(q => q.banca === banca);           // aplica o filtro de banca
+    }
+    if (niveis.length > 0) {
+      pool = pool.filter(q => niveis.includes(q.nivel));    // aplica o filtro de dificuldade
     }
     return pool.length;                                     // devolve o total disponível
   },
@@ -85,5 +93,17 @@ const MotorSimulado = {
       contagem[q.banca] = (contagem[q.banca] || 0) + 1;     // soma uma questão na banca
     }
     return Object.keys(contagem).map(nome => ({ nome, quantidade: contagem[nome] })); // lista pronta
+  },
+
+  // Lista os níveis de dificuldade do banco na ordem fácil → difícil, com contagem
+  niveisDoBanco() {
+    const contagem = {};                                    // dicionário nível → quantidade
+    for (const q of BancoQuestoes) {                        // percorre todas as questões
+      contagem[q.nivel] = (contagem[q.nivel] || 0) + 1;     // soma uma questão no nível
+    }
+    // Ordem fixa de exibição (não alfabética)
+    return ['facil', 'medio', 'dificil']
+      .filter(n => contagem[n])                             // só níveis que existem no banco
+      .map(n => ({ nivel: n, quantidade: contagem[n] }));   // lista pronta
   }
 };

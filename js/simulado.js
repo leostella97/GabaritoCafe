@@ -17,6 +17,7 @@ const SimuladoUI = {
     timer: null,                    // referência do cronômetro (para parar depois)
     filtroMaterias: [],             // matérias escolhidas no filtro
     filtroBanca: '',                // banca escolhida no filtro
+    filtroNiveis: [],               // níveis de dificuldade escolhidos no filtro
     soEdital: false,                // se está filtrando pelas matérias do edital
     materiasEdital: [],             // matérias vindas da análise do edital
     ultimoResultado: null,         // último resultado salvo (para revisão)
@@ -79,6 +80,15 @@ const SimuladoUI = {
     }
     html += '</select></div>';                              // fecha select e campo
 
+    // Filtro de dificuldade: chips de múltipla escolha (fácil, médio, difícil)
+    html += '<div class="campo"><label>' + T('sim_nivel_l') + '</label>'; // rótulo traduzido
+    html += '<div class="chips-escolha" id="sim-niveis">';  // abre a fileira de níveis
+    for (const n of MotorSimulado.niveisDoBanco()) {        // percorre os níveis do banco
+      // Chip clicável com o nome do nível e a quantidade de questões dele
+      html += '<button type="button" class="chip-opcao" data-nivel="' + n.nivel + '">' + this.textoNivel(n.nivel) + ' <span class="chip-num">' + n.quantidade + '</span></button>'; // chip
+    }
+    html += '</div></div>';                                 // fecha fileira e campo
+
     // Caixa "usar matérias do edital" (aparece só se o edital foi analisado)
     if (e.materiasEdital.length > 0) {                      // se temos matérias do edital
       html += '<label style="display:flex;gap:0.5rem;align-items:center;font-weight:800;cursor:pointer">'; // abre a caixinha
@@ -133,6 +143,13 @@ const SimuladoUI = {
     document.getElementById('sim-banca').addEventListener('change', () => { // muda a banca
       this.atualizarDisponiveis();                          // atualiza o aviso
     });
+    // Cada chip de dificuldade liga/desliga o nível do simulado
+    caixa.querySelectorAll('#sim-niveis .chip-opcao').forEach(chip => { // percorre os chips
+      chip.addEventListener('click', () => {               // no clique
+        chip.classList.toggle('ativa');                     // marca/desmarca o nível
+        this.atualizarDisponiveis();                        // atualiza o aviso de disponíveis
+      });
+    });
     const checkEdital = document.getElementById('sim-so-edital'); // pega o check do edital
     if (checkEdital) {                                      // se o check existe
       checkEdital.addEventListener('change', () => this.atualizarDisponiveis()); // atualiza ao marcar
@@ -164,13 +181,15 @@ const SimuladoUI = {
       materias = Array.from(document.querySelectorAll('#sim-materias .chip-opcao.ativa')).map(c => c.dataset.materia); // pega as marcadas
     }
     const banca = (bancaSel && bancaSel.value) || '';       // banca escolhida (ou vazia)
-    return { materias, banca };                             // devolve o par de filtros
+    // Junta TODOS os níveis com o chip ligado (múltipla escolha)
+    const niveis = Array.from(document.querySelectorAll('#sim-niveis .chip-opcao.ativa')).map(c => c.dataset.nivel); // pega os marcados
+    return { materias, banca, niveis };                     // devolve os filtros
   },
 
   // Atualiza o texto "X questões disponíveis com esses filtros"
   atualizarDisponiveis() {
-    const { materias, banca } = this.filtrosAtuais();       // pega os filtros atuais
-    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca }); // conta questões
+    const { materias, banca, niveis } = this.filtrosAtuais(); // pega os filtros atuais
+    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca, niveis }); // conta questões
     const caixa = document.getElementById('sim-disponiveis'); // caixa do aviso
     if (!caixa) return;                                     // se não existe (não está na tela), sai
     // Monta o texto do aviso (traduzido, com o número de questões)
@@ -206,13 +225,15 @@ const SimuladoUI = {
       return;                                               // não começa
     }
     const quantidade = parseInt(selecionado.dataset.qtd, 10); // quantidade escolhida
-    const { materias, banca } = this.filtrosAtuais();       // filtros atuais
+    const { materias, banca, niveis } = this.filtrosAtuais(); // filtros atuais
     e.filtroMaterias = materias;                            // guarda no estado
     e.filtroBanca = banca;                                  // guarda no estado
+    e.filtroNiveis = niveis;                                // guarda no estado
     e.perguntas = MotorSimulado.montar({                    // sorteia as questões
       quantidade: quantidade,                               // tamanho pedido
       materias: materias,                                   // filtro de matérias
       banca: banca,                                         // filtro de banca
+      niveis: niveis,                                       // filtro de dificuldade
       excluirIds: [],                                       // sem exclusões (modo normal)
       idsExatos: null                                       // sem ids exatos (modo normal)
     });
@@ -262,6 +283,9 @@ const SimuladoUI = {
     html += '<span class="questao-numero">' + T('sim_questao', { n: indice + 1, total: e.perguntas.length }) + '</span>'; // numeração traduzida
     html += '<span class="chip materia">' + this.escape(q.materia) + '</span>'; // chip da matéria
     html += '<span class="chip caramelo">🎯 ' + this.escape(q.banca) + '</span>'; // chip do estilo de banca
+    if (q.nivel) {                                          // se a questão tem dificuldade marcada
+      html += '<span class="chip ' + this.classeNivel(q.nivel) + '">' + this.textoNivel(q.nivel) + '</span>'; // chip do nível
+    }
     html += '<span id="questao-relogio" class="questao-relogio">⏱ 00:00</span>'; // cronômetro
     html += '</div>';                                       // fecha o cabeçalho
 
@@ -298,6 +322,20 @@ const SimuladoUI = {
     document.getElementById('btn-responder').addEventListener('click', () => { // clique em responder
       this.responder(indice);                               // corrige e mostra o feedback
     });
+  },
+
+  // Devolve a classe de cor do chip de dificuldade (verde, âmbar ou vermelho)
+  classeNivel(nivel) {
+    if (nivel === 'facil') return 'verde';                  // fácil = verde
+    if (nivel === 'dificil') return 'vermelho';             // difícil = vermelho
+    return 'caramelo';                                      // médio (ou desconhecido) = caramelo
+  },
+
+  // Devolve o nome traduzido do nível (chaves literais para o validador enxergar)
+  textoNivel(nivel) {
+    if (nivel === 'facil') return T('nivel_facil');         // fácil
+    if (nivel === 'dificil') return T('nivel_dificil');     // difícil
+    return T('nivel_medio');                                // médio (ou desconhecido)
   },
 
   // Atualiza o relógio imediatamente (sem esperar o próximo segundo)

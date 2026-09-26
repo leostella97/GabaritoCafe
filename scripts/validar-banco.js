@@ -25,6 +25,8 @@ const BancoQuestoes = vm.runInContext('BancoQuestoes', contexto); // pega a cons
 let erros = 0;                          // contador de problemas encontrados
 const ids = new Set();                  // conjunto para detectar ids repetidos
 const materiasValidas = new Set();      // conjunto de matérias (para listar no fim)
+const niveisValidos = new Set(['facil', 'medio', 'dificil']); // dificuldades aceitas
+const enunciados = new Map();           // enunciado → id (detecta questões duplicadas)
 
 // Verifica cada questão
 for (const q of BancoQuestoes) {        // percorre todas as questões
@@ -35,8 +37,11 @@ for (const q of BancoQuestoes) {        // percorre todas as questões
   if (!q.materia) problemas.push('sem matéria');                 // falta matéria?
   else materiasValidas.add(q.materia);                           // guarda a matéria
   if (!q.tema) problemas.push('sem tema');                       // falta tema?
+  if (!q.nivel || !niveisValidos.has(q.nivel)) problemas.push('nível inválido ou ausente (use facil, medio ou dificil)'); // dificuldade ok?
   if (!q.banca) problemas.push('sem banca');                     // falta banca?
   if (!q.enunciado) problemas.push('sem enunciado');             // falta enunciado?
+  else if (enunciados.has(q.enunciado)) problemas.push('enunciado duplicado de ' + enunciados.get(q.enunciado)); // cópia de outra questão?
+  else enunciados.set(q.enunciado, q.id);                        // registra o enunciado
   if (!Array.isArray(q.alternativas) || q.alternativas.length < 2) problemas.push('alternativas insuficientes'); // faltam alternativas?
   if (typeof q.correta !== 'number' || q.correta < 0 || q.correta >= (q.alternativas || []).length) problemas.push('índice da correta inválido'); // correta aponta para fora da lista?
   if (!q.explicacao) problemas.push('sem explicação');           // falta explicação?
@@ -55,6 +60,10 @@ console.log('========== RELATÓRIO DO BANCO =========='); // cabeçalho
 console.log('Total de questões: ' + BancoQuestoes.length); // quantidade
 console.log('Problemas encontrados: ' + erros);            // problemas
 console.log('Matérias: ' + Array.from(materiasValidas).join(', ')); // lista de matérias
+// Distribuição por nível de dificuldade
+const porNivel = {};                    // nível → quantidade
+for (const q of BancoQuestoes) porNivel[q.nivel] = (porNivel[q.nivel] || 0) + 1; // conta
+console.log('Dificuldade: ' + ['facil', 'medio', 'dificil'].map(n => n + '=' + (porNivel[n] || 0)).join(' · ')); // resumo
 console.log('========================================='); // rodapé
 
 // Sai com código 1 se houver problemas (para uso em CI/automação)

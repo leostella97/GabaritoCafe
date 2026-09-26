@@ -172,6 +172,10 @@ const Idioma = {
       sim_materia_todas: 'Todas as matérias (prova misturada)', // opção padrão
       sim_banca_l: 'Estilo de banca (pegadinhas)',          // rótulo do filtro
       sim_banca_todas: 'Todas as bancas (misturado)',       // opção padrão
+      sim_nivel_l: 'Dificuldade (escolha uma ou mais)',     // rótulo do filtro de nível
+      nivel_facil: 'Fácil',                                 // nome do nível fácil
+      nivel_medio: 'Médio',                                 // nome do nível médio
+      nivel_dificil: 'Difícil',                             // nome do nível difícil
       sim_edital_check: '🎯 Usar só as matérias do meu edital ({n} detectadas)', // filtro do edital
       sim_materias_l: 'Matérias (escolha uma ou mais)',     // rótulo da múltipla escolha
       sim_todas: 'Selecionar todas',                        // marcar todas as matérias
@@ -408,6 +412,10 @@ const Idioma = {
       sim_materia_todas: 'All subjects (mixed test)',
       sim_banca_l: 'Exam board style (traps)',
       sim_banca_todas: 'All boards (mixed)',
+      sim_nivel_l: 'Difficulty (pick one or more)',
+      nivel_facil: 'Easy',
+      nivel_medio: 'Medium',
+      nivel_dificil: 'Hard',
       sim_edital_check: '🎯 Use only my notice subjects ({n} detected)',
       sim_materias_l: 'Subjects (pick one or more)',
       sim_todas: 'Select all',
@@ -644,6 +652,10 @@ const Idioma = {
       sim_materia_todas: 'Todas las materias (examen mezclado)',
       sim_banca_l: 'Estilo de comité (trampas)',
       sim_banca_todas: 'Todos los comités (mezclado)',
+      sim_nivel_l: 'Dificultad (elige una o más)',
+      nivel_facil: 'Fácil',
+      nivel_medio: 'Media',
+      nivel_dificil: 'Difícil',
       sim_edital_check: '🎯 Usar solo las materias de mi convocatoria ({n} detectadas)',
       sim_materias_l: 'Materias (elige una o más)',
       sim_todas: 'Seleccionar todas',

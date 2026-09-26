@@ -45,7 +45,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | 💡 **Tela de dicas** | 16 dicas importantes em 4 categorias (rotina, técnicas de estudo, hora da prova, corpo e véspera) + as dicas rápidas de prova. |
 | 🎯 **Onde focar agora** | O dashboard analisa seu histórico, aponta a matéria mais fraca e cria um simulado focado nela com um clique. |
 | 🗺️ **Plano de estudo** | Para cada matéria detectada, mostra o que mais cai e por onde começar (ou avisa honestamente se ainda não tem resumo daquela matéria). |
-| 📝 **Simulados** | 5, 10, 15, 20, 30 ou 50 questões, com filtro por **uma ou várias matérias** (chips de múltipla escolha, com a contagem de cada uma) e por estilo de banca. Alternativas sempre embaralhadas. |
+| 📝 **Simulados** | 5, 10, 15, 20, 30 ou 50 questões, com filtro por **uma ou várias matérias** (chips de múltipla escolha, com a contagem de cada uma), por estilo de banca e por **dificuldade** (fácil, médio e difícil). Alternativas sempre embaralhadas. |
 | ✅ **Correção comentada** | Acertou: explicação para consolidar. Errou: o que errou, o gabarito, o **passo a passo** e a **pegadinha da banca**. |
 | 🎥 **Aula no YouTube** | Toda questão tem um link "Assistir aula sobre o tema" que abre a busca do YouTube com a matéria certa. |
 | 🏁 **Resultado final** | Acertos, erros, aproveitamento, tempo de prova, desempenho por matéria e revisão das erradas (com a opção de **refazer só as erradas**). |
@@ -110,7 +110,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 168 questões comentadas
+│   ├── banco-questoes.js      # Banco com 208 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -146,6 +146,7 @@ Abra `js/banco-questoes.js` e cole um bloco novo **antes do último `];`**, segu
   id: 'p11',                                    // id único (não repita!)
   materia: 'Língua Portuguesa',                 // matéria (usada nos filtros)
   tema: 'Concordância verbal',                  // assunto da questão
+  nivel: 'medio',                               // dificuldade: 'facil', 'medio' ou 'dificil'
   banca: 'CESPE/Cebraspe',                      // banca cujo estilo inspira
   enunciado: 'Texto da pergunta...',            // a pergunta
   alternativas: ['opção A', 'opção B', '...'],  // 2 a 5 alternativas
@@ -216,7 +217,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 168 questões estão íntegras (ids, alternativas, campos)
+# Confere se todas as 208 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos
