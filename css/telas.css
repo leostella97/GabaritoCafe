@@ -11,6 +11,9 @@
   animation: aparecer 0.35s ease both; /* entra com fade suave */
 }
 
+/* O login é a exceção: ele usa GRID (texto à esquerda, login ao lado) */
+.tela-login.ativa { display: grid; } /* duas colunas lado a lado quando ativa */
+
 .area-app {                         /* casca do app logado */
   display: flex;                    /* lateral + conteúdo lado a lado */
   min-height: 100vh;                /* ocupa a tela toda */
@@ -564,7 +567,7 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
 
 /* ---------- Responsividade ---------- */
 @media (max-width: 900px) {         /* telas médias e pequenas */
-  .tela-login { grid-template-columns: 1fr; } /* login vira coluna única */
+  .tela-login.ativa { grid-template-columns: 1fr; } /* no celular, login vira coluna única (empilha) */
 
   .login-hero {                     /* hero encurta no celular */
     padding: 2.2rem 1.6rem;         /* respiro menor */
