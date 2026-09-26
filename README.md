@@ -261,7 +261,7 @@ node --check js/arquivo.js   # (um por um)
 
 Feito com ☕, carinho e muitas horas de estudo — **por estudantes, para estudantes**.
 
-Nenhum dado sai do seu navegador. Nenhuma propaganda. Nenhuma pegadinha fora da prova. 😉
+Nenhum dado sai do seu navegador. Nenhuma pegadinha fora da prova. 😉
 
 ---
 
