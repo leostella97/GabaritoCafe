@@ -4802,6 +4802,166 @@ const BancoQuestoes = [
     dica: 'Pegadinha de nome: papiloscopia = papilas (digitais); documentoscopia = documentos; grafoscopia = escrita. A banca mistura as técnicas forenses entre si.', // pegadinha
     video: 'papiloscopia impressões digitais perícia concurso' // busca no YouTube
   },
+  {
+    id: 'k05',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Escolas criminológicas',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A principal diferença entre a Escola Clássica e a Escola Positivista da criminologia é que:', // pergunta
+    alternativas: [                     // opções
+      'A Clássica explica o crime pelo livre-arbítrio; a Positivista, por fatores biológicos, psicológicos e sociais determinantes',
+      'A Clássica usa o método científico; a Positivista usa a lógica jurídica',
+      'A Positivista defende penas proporcionais ao crime',
+      'A Clássica estuda a personalidade do criminoso',
+      'As duas escolas pensam igual, só mudam de época'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A Escola CLÁSSICA (Beccaria) vê o crime como escolha — o homem é livre e a pena deve ser proporcional e certa. A POSITIVISTA (Lombroso, Ferri, Garofalo) vê o crime como fenômeno determinado por causas biológicas e sociais, estudado cientificamente.', // explicação
+    dica: 'O resumo que a CESPE usa: Clássica = direito penal do ATO e livre-arbítrio; Positivista = criminologia do AUTOR e determinismo. Inverter as escolas é a pegadinha número 1.', // pegadinha
+    video: 'escola clássica e positivista criminologia diferença concurso' // busca no YouTube
+  },
+  {
+    id: 'k06',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Lombroso — criminoso nato',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Cesare Lombroso ficou conhecido na criminologia por defender que:', // pergunta
+    alternativas: [                     // opções
+      'O crime nasce da miséria e da desigualdade social',
+      'O criminoso nasce predisposto — traços atávicos marcaria o "criminoso nato"',
+      'A punição deve ser sempre a mais dura possível',
+      'A sociedade fabrica o criminoso pelo rótulo',
+      'O crime é fruto da livre escolha racional'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lombroso, pai da antropologia criminal (Escola Positivista), escreveu "O Homem Delinquente": o criminoso seria um ser atávico, marcado por características físicas — hoje refutado, mas marco do método científico aplicado ao crime.', // explicação
+    dica: 'Autor x teoria na AOCP: Lombroso = criminoso nato (biologia); Becker = etiquetamento (rótulo social); Durkheim/Merton = anomia. Cada teoria tem seu dono.', // pegadinha
+    video: 'lombroso criminoso nato atavismo criminologia resumo' // busca no YouTube
+  },
+  {
+    id: 'k07',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Teoria do etiquetamento',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'A teoria do etiquetamento (labeling approach), associada a Howard Becker, afirma que:', // pergunta
+    alternativas: [                     // opções
+      'O criminoso nasce com predisposição genética',
+      'A sociedade produz o desvio ao rotular certas pessoas e grupos como criminosos',
+      'O crime é inevitável nas grandes cidades',
+      'A punição dissuade o criminoso por medo',
+      'O crime decorre da falta de normas sociais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Becker, nenhum ato é criminoso por natureza: é a REAÇÃO SOCIAL (o rótulo de "criminoso", "vagabundo") que consolida a identidade desviante e empurra a pessoa para a carreira do crime.', // explicação
+    dica: 'A FGV confunde etiquetamento com anomia: etiquetamento = o RÓTULO fabrica o desvio; anomia = a FALTA de norma deixa o caminho livre. São respostas opostas sobre "onde mora o crime".', // pegadinha
+    video: 'teoria do etiquetamento howard becker criminologia' // busca no YouTube
+  },
+  {
+    id: 'k08',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Anomia',                     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A anomia, conceito trabalhado por Durkheim e Merton, designa:', // pergunta
+    alternativas: [                     // opções
+      'A predisposição genética ao crime',
+      'O estado de enfraquecimento das normas sociais, quando metas culturais não podem ser alcançadas por meios legítimos',
+      'O medo coletivo da criminalidade',
+      'A doença mental do infrator',
+      'O excesso de leis penais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anomia = "falta de norma". Durkheim via a anomia como desregulação social; Merton adaptou: quando a sociedade cobra o sucesso mas fecha os meios legítimos, cresce a tensão — e a "inovação" (o crime) vira caminho alternativo.', // explicação
+    dica: 'A CESPE cobra a diferença: Durkheim = anomia da DESREGLAMENTAÇÃO social; Merton = anomia da TENSÃO entre metas (dinheiro/status) e meios legítimos. O verbo-chave é "enfraquecer as normas".', // pegadinha
+    video: 'anomia durkheim merton criminologia resumo concurso' // busca no YouTube
+  },
+  {
+    id: 'k09',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Indício x vestígio x prova', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Sobre os elementos da investigação criminal, é correto afirmar que o VESTÍGIO é:', // pergunta
+    alternativas: [                     // opções
+      'A certeza absoluta da autoria do crime',
+      'O material alterado ou deixado no local do crime que pode virar prova após a perícia',
+      'A confissão formal do suspeito',
+      'O depoimento da vítima ao delegado',
+      'A ordem judicial de busca'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vestígio é o que resta do crime no mundo material (mancha, fibra, projétil, digital); a perícia o transforma em PROVA. O INDÍCIO é circunstância que sugere um fato (mas não o prova sozinho). A prova é o que vale no processo.', // explicação
+    dica: 'A tríade que a FCC adora misturar: INDÍCIO (circunstância que indica), VESTÍGIO (material do crime), PROVA (o que embasa a decisão judicial). Vestígio vira prova; indício não é prova.', // pegadinha
+    video: 'indício vestígio prova diferença investigação criminal' // busca no YouTube
+  },
+  {
+    id: 'k10',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Sinais cadavéricos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A lividez cadavérica (livores) é o sinal de morte caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'O endurecimento dos músculos após a morte',
+      'O acúmulo de sangue nas partes mais baixas do corpo por gravidade',
+      'O resfriamento progressivo do corpo',
+      'A produção de gases pela putrefação',
+      'O desaparecimento dos reflexos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lividez (livores) é o sangue que desce por gravidade e mancha as regiões declives do corpo — aparece entre 20 min e 2h e se fixa por volta de 8-12h. Confunde-se com rigidez (músculos) e algor mortis (frio).', // explicação
+    dica: 'Tríade da morte que a AOCP troca: LIVIDEZ = sangue desce; RIGIDEZ = músculo enrijece; ALGOR MORTIS = corpo esfria. A ordem de aparecimento importa para estimar a hora da morte.', // pegadinha
+    video: 'lividez rigidez algor mortis sinais cadavéricos perícia' // busca no YouTube
+  },
+  {
+    id: 'k11',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Quesitos e quesitação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Os "quesitos" na perícia oficial são:', // pergunta
+    alternativas: [                     // opções
+      'Os instrumentos usados na coleta de provas',
+      'As perguntas formuladas pelo juiz ou pelas partes para o perito responder no laudo',
+      'Os achados fotográficos do local',
+      'As conclusões obrigatórias do perito',
+      'Os honorários dos assistentes técnicos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Quesitos são as perguntas técnicas que o juiz e as partes fazem ao perito — o laudo responde ponto por ponto. A quesitação é a fase em que esses quesitos são apresentados e discutidos.', // explicação
+    dica: 'A CESPE confunde quesito (pergunta ao perito) com quesitação (o ato de apresentar os quesitos). Lembre: quesito é a pergunta; quesitação é a formalização. E o assistente técnico é o perito particular das partes.', // pegadinha
+    video: 'quesitos quesitação perícia oficial concurso' // busca no YouTube
+  },
+  {
+    id: 'k12',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Balística forense',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A balística forense identifica a arma usada em um crime principalmente por meio:', // pergunta
+    alternativas: [                     // opções
+      'Do peso do projétil e do calibre do cano',
+      'Das estrias (marcas) que o raiamento do cano deixa no projétil, comparadas no microscópio de comparação',
+      'Do DNA do atirador na cápsula',
+      'Da cor do estojo deflagrado',
+      'Do barulho do disparo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cada cano tem estrias (micro-marcas) únicas que se imprimem no projétil — como uma impressão digital da arma. O exame confronta o projétil do crime com um disparo de teste da arma suspeita no microscópio de comparação.', // explicação
+    dica: 'A FCC confunde balística externa (trajetória do projétil no ar), interna (dentro do cano) e terminal/de efeitos (impacto no alvo). A IDENTIFICAÇÃO da arma vem das estrias — sempre.', // pegadinha
+    video: 'balística forense estrias projétil identificação arma' // busca no YouTube
+  },
 
   /* ===================== DIREITO PREVIDENCIÁRIO (matéria nova) ===================== */
   // TEAM_001: matéria nova focada no cargo de Técnico do Seguro Social (INSS)

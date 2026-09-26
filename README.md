@@ -112,7 +112,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 268 questões comentadas
+│   ├── banco-questoes.js      # Banco com 276 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -221,7 +221,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 268 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 276 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos

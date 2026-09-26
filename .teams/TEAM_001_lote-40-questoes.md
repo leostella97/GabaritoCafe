@@ -104,3 +104,20 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 ### Verificação
 - Teste funcional com edital sintético policial (PM/PRF): cargos ✓, inscrições/prova/TAF/resultado ✓, escolaridade Médio ✓, 7 requisitos ✓, pesos por matéria corretos ✓, confiança 100. Tribunais (superior): 93. Vestibular Univesp: 48 com matérias sem banco.
 - `validar-idiomas.js` ✅ · `node --check` nos 4 arquivos ✅
+
+---
+
+## Tarefa 5 — Reforço de Criminologia (268 → 276)
+
+### Pedido
+- "mais questões de criminologia"
+
+### O que foi feito
+- +8 questões de Criminologia (k05–k12), todas `ensino: 'superior'` — público: perito criminal e carreiras policiais.
+- Temas: escolas criminológicas (Clássica×Positivista), Lombroso/criminoso nato, teoria do etiquetamento (Becker), anomia (Durkheim/Merton), indício×vestígio×prova, sinais cadavéricos (lividez/rigidez/algor mortis), quesitos e quesitação, balística forense (estrias).
+- README: 268 → 276 nos dois pontos de contagem.
+
+### Verificação
+- `validar-banco.js` → 276 questões, 0 problemas | facil=77 · medio=172 · dificil=27 | ensino medio=233 · superior=43.
+- Criminologia: 4 → 12 questões.
+- `node --check` no banco ✅
