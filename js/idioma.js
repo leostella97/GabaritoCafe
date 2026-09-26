@@ -176,6 +176,9 @@ const Idioma = {
       nivel_facil: 'Fácil',                                 // nome do nível fácil
       nivel_medio: 'Médio',                                 // nome do nível médio
       nivel_dificil: 'Difícil',                             // nome do nível difícil
+      sim_ensino_l: 'Nível do concurso (escolha um ou mais)', // rótulo do filtro de ensino
+      ensino_medio: 'Nível médio',                          // nome do nível médio
+      ensino_superior: 'Nível superior',                    // nome do nível superior
       sim_edital_check: '🎯 Usar só as matérias do meu edital ({n} detectadas)', // filtro do edital
       sim_materias_l: 'Matérias (escolha uma ou mais)',     // rótulo da múltipla escolha
       sim_todas: 'Selecionar todas',                        // marcar todas as matérias
@@ -416,6 +419,9 @@ const Idioma = {
       nivel_facil: 'Easy',
       nivel_medio: 'Medium',
       nivel_dificil: 'Hard',
+      sim_ensino_l: 'Exam level (pick one or more)',
+      ensino_medio: 'High-school level',
+      ensino_superior: 'Higher-ed level',
       sim_edital_check: '🎯 Use only my notice subjects ({n} detected)',
       sim_materias_l: 'Subjects (pick one or more)',
       sim_todas: 'Select all',
@@ -656,6 +662,9 @@ const Idioma = {
       nivel_facil: 'Fácil',
       nivel_medio: 'Media',
       nivel_dificil: 'Difícil',
+      sim_ensino_l: 'Nivel del examen (elige uno o más)',
+      ensino_medio: 'Nivel medio',
+      ensino_superior: 'Nivel superior',
       sim_edital_check: '🎯 Usar solo las materias de mi convocatoria ({n} detectadas)',
       sim_materias_l: 'Materias (elige una o más)',
       sim_todas: 'Seleccionar todas',

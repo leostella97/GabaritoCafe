@@ -49,3 +49,30 @@
 - Teste funcional do motor com `niveis` → filtros combinados ok.
 - `node --check` nos 4 arquivos alterados → sintaxe ok.
 - README atualizado (208, filtro de dificuldade, campo `nivel` no template).
+
+---
+
+## Tarefa 3 — Nível de ensino + 60 questões por cargo (208 → 268)
+
+### Pedido
+- Separar por **nível de ensino** (médio/superior), além da dificuldade.
+- +60 questões focadas em cargos: agente administrativo, PF, PRF, perito criminal, analista/técnico de tribunais, consultor legislativo, INSS técnico, escriturário, técnico bancário, técnico judiciário, Petrobras operacional, Bacen, PM, polícia penal, GCM; e vestibulares (Univesp, Fuvest, FATEC, ENEM, Vunesp, Comvest, Coperve, Copeve, ETEC).
+- README: informar desenvolvimento com IA (SWE-2).
+
+### O que foi feito
+- Novo campo `ensino` ('medio' | 'superior') em TODAS as questões via script (deletado após uso — Regra 6). Regra: conteúdo universal/de nível médio e vestibulares → 'medio'; jurídico aprofundado típico de cargos superiores (c07,c10,c12,c14,c16,c18,c20 e a maior parte de administrativo) → 'superior'. Observação: a última questão do array (g17) não termina com `},` — o script falhou nela e o campo foi inserido à mão.
+- Filtro de nível de ensino no simulado: `MotorSimulado.montar`/`contarDisponiveis` aceitam `ensinos: []`; novo `ensinosDoBanco()`; UI ganha chips Nível médio/superior com contagem; a questão exibe chip 🎓 durante a prova.
+- i18n: chaves `sim_ensino_l`, `ensino_medio`, `ensino_superior` em pt/en/es via helper `textoEnsino()` com literais (mesmo motivo do `textoNivel`).
+- 3 matérias NOVAS: Direito Penal (d01–d12, carreiras policiais), Criminologia (k01–k04, perito), Direito Previdenciário (v01–v05, INSS técnico). Também adicionadas ao CATALOGO do `analise-edital.js` (22 → 24) para casar com editais desses cargos.
+- +60 questões: d01-d12, k01-k04, v01-v05, p35-p40, m34-m39 (financeira para bancos), r28-r31, i25-i28, c21-c26, a20-a23, t19-t21, h17-h19, g18-g20.
+- `validar-banco.js` exige `ensino` válido e imprime a distribuição.
+- README: nota de IA (SWE-2), 268 questões, campo `ensino` no template, filtro de nível na tabela de recursos, catálogo 24 matérias.
+
+### Verificação
+- `node scripts/validar-banco.js` → 268 questões, 0 problemas | facil=77 · medio=166 · dificil=25 | ensino medio=233 · superior=35 | 12 matérias.
+- `node scripts/validar-idiomas.js` → ✅ completo nos 3 idiomas (218 chaves).
+- `node --check` nos arquivos alterados → sintaxe ok.
+- Bug corrigido no lote: string com aspas simples internas em p35 (erro de sintaxe) — reescrita sem aspas.
+
+### Distribuição final por matéria
+Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitucional 26 · Administrativo 23 · Penal 12 · Atualidades 21 · História 19 · Geografia 20 · Previdenciário 5 · Criminologia 4

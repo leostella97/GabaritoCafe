@@ -26,6 +26,7 @@ let erros = 0;                          // contador de problemas encontrados
 const ids = new Set();                  // conjunto para detectar ids repetidos
 const materiasValidas = new Set();      // conjunto de matérias (para listar no fim)
 const niveisValidos = new Set(['facil', 'medio', 'dificil']); // dificuldades aceitas
+const ensinosValidos = new Set(['medio', 'superior']);       // níveis de ensino aceitos
 const enunciados = new Map();           // enunciado → id (detecta questões duplicadas)
 
 // Verifica cada questão
@@ -38,6 +39,7 @@ for (const q of BancoQuestoes) {        // percorre todas as questões
   else materiasValidas.add(q.materia);                           // guarda a matéria
   if (!q.tema) problemas.push('sem tema');                       // falta tema?
   if (!q.nivel || !niveisValidos.has(q.nivel)) problemas.push('nível inválido ou ausente (use facil, medio ou dificil)'); // dificuldade ok?
+  if (!q.ensino || !ensinosValidos.has(q.ensino)) problemas.push('ensino inválido ou ausente (use medio ou superior)'); // nível de ensino ok?
   if (!q.banca) problemas.push('sem banca');                     // falta banca?
   if (!q.enunciado) problemas.push('sem enunciado');             // falta enunciado?
   else if (enunciados.has(q.enunciado)) problemas.push('enunciado duplicado de ' + enunciados.get(q.enunciado)); // cópia de outra questão?
@@ -64,6 +66,10 @@ console.log('Matérias: ' + Array.from(materiasValidas).join(', ')); // lista de
 const porNivel = {};                    // nível → quantidade
 for (const q of BancoQuestoes) porNivel[q.nivel] = (porNivel[q.nivel] || 0) + 1; // conta
 console.log('Dificuldade: ' + ['facil', 'medio', 'dificil'].map(n => n + '=' + (porNivel[n] || 0)).join(' · ')); // resumo
+// Distribuição por nível de ensino
+const porEnsino = {};                   // ensino → quantidade
+for (const q of BancoQuestoes) porEnsino[q.ensino] = (porEnsino[q.ensino] || 0) + 1; // conta
+console.log('Ensino: ' + ['medio', 'superior'].map(e => e + '=' + (porEnsino[e] || 0)).join(' · ')); // resumo
 console.log('========================================='); // rodapé
 
 // Sai com código 1 se houver problemas (para uso em CI/automação)

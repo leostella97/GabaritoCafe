@@ -24,6 +24,8 @@ const AnaliseEdital = {
     { id: 'constitucional', rotulo: 'Direito Constitucional', padroes: ['DIREITO CONSTITUCIONAL', 'CONSTITUCIONAL'] }, // direito constitucional
     { id: 'administrativo', rotulo: 'Direito Administrativo', padroes: ['DIREITO ADMINISTRATIVO', 'ADMINISTRATIVO'] }, // direito administrativo
     { id: 'penal', rotulo: 'Direito Penal', padroes: ['DIREITO PENAL', 'CODIGO PENAL'] },                       // direito penal
+    { id: 'previdenciario', rotulo: 'Direito Previdenciário', padroes: ['DIREITO PREVIDENCIARIO', 'DIREITO PREVIDENCIÁRIO', 'PREVIDENCIA SOCIAL', 'PREVIDÊNCIA SOCIAL'] }, // direito previdenciário
+    { id: 'criminologia', rotulo: 'Criminologia', padroes: ['CRIMINOLOGIA', 'CRIMINALISTICA', 'CRIMINALÍSTICA', 'PERICIA CRIMINAL', 'PERÍCIA CRIMINAL'] }, // criminologia
     { id: 'civil', rotulo: 'Direito Civil', padroes: ['DIREITO CIVIL', 'CODIGO CIVIL'] },                       // direito civil
     { id: 'trabalho', rotulo: 'Direito do Trabalho', padroes: ['DIREITO DO TRABALHO', 'TRABALHISTA'] },          // direito do trabalho
     { id: 'atualidades', rotulo: 'Atualidades', padroes: ['ATUALIDADES', 'CONHECIMENTOS GERAIS', 'REALIDADE BRASILEIRA'] }, // atualidades

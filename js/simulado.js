@@ -18,6 +18,7 @@ const SimuladoUI = {
     filtroMaterias: [],             // matérias escolhidas no filtro
     filtroBanca: '',                // banca escolhida no filtro
     filtroNiveis: [],               // níveis de dificuldade escolhidos no filtro
+    filtroEnsinos: [],              // níveis de ensino (médio/superior) escolhidos no filtro
     soEdital: false,                // se está filtrando pelas matérias do edital
     materiasEdital: [],             // matérias vindas da análise do edital
     ultimoResultado: null,         // último resultado salvo (para revisão)
@@ -89,6 +90,15 @@ const SimuladoUI = {
     }
     html += '</div></div>';                                 // fecha fileira e campo
 
+    // Filtro de nível do concurso: chips de múltipla escolha (médio, superior)
+    html += '<div class="campo"><label>' + T('sim_ensino_l') + '</label>'; // rótulo traduzido
+    html += '<div class="chips-escolha" id="sim-ensinos">'; // abre a fileira de níveis de ensino
+    for (const en of MotorSimulado.ensinosDoBanco()) {      // percorre os níveis de ensino do banco
+      // Chip clicável com o nome do nível e a quantidade de questões dele
+      html += '<button type="button" class="chip-opcao" data-ensino="' + en.nivel + '">' + this.textoEnsino(en.nivel) + ' <span class="chip-num">' + en.quantidade + '</span></button>'; // chip
+    }
+    html += '</div></div>';                                 // fecha fileira e campo
+
     // Caixa "usar matérias do edital" (aparece só se o edital foi analisado)
     if (e.materiasEdital.length > 0) {                      // se temos matérias do edital
       html += '<label style="display:flex;gap:0.5rem;align-items:center;font-weight:800;cursor:pointer">'; // abre a caixinha
@@ -150,6 +160,13 @@ const SimuladoUI = {
         this.atualizarDisponiveis();                        // atualiza o aviso de disponíveis
       });
     });
+    // Cada chip de ensino liga/desliga o nível de concurso do simulado
+    caixa.querySelectorAll('#sim-ensinos .chip-opcao').forEach(chip => { // percorre os chips
+      chip.addEventListener('click', () => {               // no clique
+        chip.classList.toggle('ativa');                     // marca/desmarca o nível
+        this.atualizarDisponiveis();                        // atualiza o aviso de disponíveis
+      });
+    });
     const checkEdital = document.getElementById('sim-so-edital'); // pega o check do edital
     if (checkEdital) {                                      // se o check existe
       checkEdital.addEventListener('change', () => this.atualizarDisponiveis()); // atualiza ao marcar
@@ -183,13 +200,15 @@ const SimuladoUI = {
     const banca = (bancaSel && bancaSel.value) || '';       // banca escolhida (ou vazia)
     // Junta TODOS os níveis com o chip ligado (múltipla escolha)
     const niveis = Array.from(document.querySelectorAll('#sim-niveis .chip-opcao.ativa')).map(c => c.dataset.nivel); // pega os marcados
-    return { materias, banca, niveis };                     // devolve os filtros
+    // Junta TODOS os níveis de ensino com o chip ligado (múltipla escolha)
+    const ensinos = Array.from(document.querySelectorAll('#sim-ensinos .chip-opcao.ativa')).map(c => c.dataset.ensino); // pega os marcados
+    return { materias, banca, niveis, ensinos };            // devolve os filtros
   },
 
   // Atualiza o texto "X questões disponíveis com esses filtros"
   atualizarDisponiveis() {
-    const { materias, banca, niveis } = this.filtrosAtuais(); // pega os filtros atuais
-    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca, niveis }); // conta questões
+    const { materias, banca, niveis, ensinos } = this.filtrosAtuais(); // pega os filtros atuais
+    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca, niveis, ensinos }); // conta questões
     const caixa = document.getElementById('sim-disponiveis'); // caixa do aviso
     if (!caixa) return;                                     // se não existe (não está na tela), sai
     // Monta o texto do aviso (traduzido, com o número de questões)
@@ -225,15 +244,17 @@ const SimuladoUI = {
       return;                                               // não começa
     }
     const quantidade = parseInt(selecionado.dataset.qtd, 10); // quantidade escolhida
-    const { materias, banca, niveis } = this.filtrosAtuais(); // filtros atuais
+    const { materias, banca, niveis, ensinos } = this.filtrosAtuais(); // filtros atuais
     e.filtroMaterias = materias;                            // guarda no estado
     e.filtroBanca = banca;                                  // guarda no estado
     e.filtroNiveis = niveis;                                // guarda no estado
+    e.filtroEnsinos = ensinos;                              // guarda no estado
     e.perguntas = MotorSimulado.montar({                    // sorteia as questões
       quantidade: quantidade,                               // tamanho pedido
       materias: materias,                                   // filtro de matérias
       banca: banca,                                         // filtro de banca
       niveis: niveis,                                       // filtro de dificuldade
+      ensinos: ensinos,                                     // filtro de nível de ensino
       excluirIds: [],                                       // sem exclusões (modo normal)
       idsExatos: null                                       // sem ids exatos (modo normal)
     });
@@ -286,6 +307,9 @@ const SimuladoUI = {
     if (q.nivel) {                                          // se a questão tem dificuldade marcada
       html += '<span class="chip ' + this.classeNivel(q.nivel) + '">' + this.textoNivel(q.nivel) + '</span>'; // chip do nível
     }
+    if (q.ensino) {                                         // se a questão tem nível de ensino marcado
+      html += '<span class="chip">🎓 ' + this.textoEnsino(q.ensino) + '</span>'; // chip do nível de ensino
+    }
     html += '<span id="questao-relogio" class="questao-relogio">⏱ 00:00</span>'; // cronômetro
     html += '</div>';                                       // fecha o cabeçalho
 
@@ -336,6 +360,12 @@ const SimuladoUI = {
     if (nivel === 'facil') return T('nivel_facil');         // fácil
     if (nivel === 'dificil') return T('nivel_dificil');     // difícil
     return T('nivel_medio');                                // médio (ou desconhecido)
+  },
+
+  // Devolve o nome traduzido do nível de ensino (chaves literais para o validador enxergar)
+  textoEnsino(ensino) {
+    if (ensino === 'superior') return T('ensino_superior'); // superior
+    return T('ensino_medio');                               // médio (ou desconhecido)
   },
 
   // Atualiza o relógio imediatamente (sem esperar o próximo segundo)

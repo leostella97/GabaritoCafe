@@ -15,6 +15,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria (usada nos filtros do simulado)
     tema: 'Verbos impessoais (haver/fazer)', // assunto específico
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca cujo estilo inspirou a questão
     enunciado: 'Assinale a frase correta quanto à concordância verbal:', // texto da pergunta
     alternativas: [                     // opções de resposta
@@ -34,6 +35,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Crase',                      // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Complete corretamente: "Os candidatos chegaram ___ sala de provas às 13h."', // pergunta
     alternativas: [                     // opções
@@ -53,6 +55,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Regência verbal (preferir)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase que segue a norma culta:', // pergunta
     alternativas: [                     // opções
@@ -72,6 +75,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Uso dos porquês',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "Ninguém entendeu o ___ daquela decisão."', // pergunta
     alternativas: [                     // opções
@@ -90,6 +94,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Colocação pronominal',       // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase que obedece à norma culta:', // pergunta
     alternativas: [                     // opções
@@ -109,6 +114,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Pontuação (vírgula)',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em qual frase a vírgula está bem empregada?', // pergunta
     alternativas: [                     // opções
@@ -128,6 +134,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Interpretação de texto',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Leia o trecho: "Estudar todos os dias, nem que seja por meia hora, rende mais do que virar a noite na véspera. O cérebro consolida a memória aos poucos, como um café passado lentamente: a pressa queima o grão e amarga o resultado." A ideia central do texto é:', // pergunta
     alternativas: [                     // opções
@@ -147,6 +154,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância nominal',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "Seguem ___ os documentos solicitados."', // pergunta
     alternativas: [                     // opções
@@ -166,6 +174,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia (Acordo Ortográfico)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Segundo a ortografia oficial, qual grafia está correta?', // pergunta
     alternativas: [                     // opções
@@ -185,6 +194,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Acentuação gráfica',         // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Assinale a palavra grafada corretamente:', // pergunta
     alternativas: [                     // opções
@@ -206,6 +216,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Porcentagem',                // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em um concurso, 12.000 candidatos se inscreveram. No dia da prova, 25% faltaram. Quantos candidatos fizeram a prova?', // pergunta
     alternativas: [                     // opções
@@ -229,6 +240,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Regra de três composta',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Uma gráfica, com 4 impressoras, produz 600 provas em 3 horas. Mantendo o ritmo, quantas provas 6 impressoras produziriam em 2 horas?', // pergunta
     alternativas: [                     // opções
@@ -254,6 +266,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Juros simples',              // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Um estudante aplicou R$ 1.500,00 a juros simples de 2% ao mês. Qual será o montante após 8 meses?', // pergunta
     alternativas: [                     // opções
@@ -278,6 +291,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Juros compostos',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'R$ 10.000,00 aplicados a juros compostos de 10% ao ano renderão, em 2 anos, um montante de:', // pergunta
     alternativas: [                     // opções
@@ -302,6 +316,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Média aritmética',           // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'As notas de um candidato em 4 provas foram 7, 8, 9 e 10. A média aritmética dessas notas é:', // pergunta
     alternativas: [                     // opções
@@ -325,6 +340,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Equação do 1º grau',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Resolva a equação: 3(x − 2) = 2x + 4', // pergunta
     alternativas: [                     // opções
@@ -349,6 +365,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Sistema de equações',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No sistema abaixo, o valor de x é: { x + y = 20 ; x − y = 8 }', // pergunta
     alternativas: [                     // opções
@@ -373,6 +390,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Razão e proporção',          // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Uma sociedade divide R$ 150,00 entre dois sócios na razão 2 : 3. Quanto recebe o sócio com a parte maior?', // pergunta
     alternativas: [                     // opções
@@ -397,6 +415,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Área de figuras planas',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Uma sala retangular tem 6 m de comprimento por 4,5 m de largura. A área dessa sala é:', // pergunta
     alternativas: [                     // opções
@@ -420,6 +439,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Progressão aritmética',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Na progressão aritmética 2, 5, 8, 11, ..., o 12º termo é:', // pergunta
     alternativas: [                     // opções
@@ -446,6 +466,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Negação de proposições',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A negação lógica de "Todo candidato estuda" é:', // pergunta
     alternativas: [                     // opções
@@ -465,6 +486,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Equivalência lógica (contrapositiva)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'A proposição logicamente equivalente a "Se chove, então a rua molha" é:', // pergunta
     alternativas: [                     // opções
@@ -484,6 +506,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Leis de De Morgan',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A negação de "Estudo português e estudo matemática" é:', // pergunta
     alternativas: [                     // opções
@@ -503,6 +526,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequências lógicas',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na sequência 2, 6, 12, 20, 30, ..., o próximo termo é:', // pergunta
     alternativas: [                     // opções
@@ -527,6 +551,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Verdades e mentiras',        // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Ana, Bia e Caio fizeram uma prova. Apenas UM deles fala a verdade. Ana diz: "Bia mentiu." Bia diz: "Eu não menti." Caio diz: "Ana mentiu." Quem fala a verdade?', // pergunta
     alternativas: [                     // opções
@@ -551,6 +576,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Silogismos e diagramas',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Considere as premissas: "Todo servidor público é responsável" e "João é servidor público". Logo:', // pergunta
     alternativas: [                     // opções
@@ -570,6 +596,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Princípio multiplicativo',   // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Com 5 camisetas e 3 bermudas diferentes, quantas combinações de roupa é possível montar?', // pergunta
     alternativas: [                     // opções
@@ -593,6 +620,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Ordenação',                  // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Ana é mais alta que Bia. Bia é mais alta que Caio. Quem é a pessoa mais baixa?', // pergunta
     alternativas: [                     // opções
@@ -614,6 +642,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Excel — função MÉDIA',       // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Excel, para calcular a média dos valores do intervalo A1 até A10, utiliza-se a fórmula:', // pergunta
     alternativas: [                     // opções
@@ -633,6 +662,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Excel — atalhos',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Excel, o atalho de teclado que insere a SOMA automática (AutoSoma) é:', // pergunta
     alternativas: [                     // opções
@@ -652,6 +682,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Word em português — atalhos', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Word em português (padrão brasileiro), o atalho Ctrl + B serve para:', // pergunta
     alternativas: [                     // opções
@@ -671,6 +702,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Windows — atalhos',          // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Windows, o atalho Ctrl + Z serve para:', // pergunta
     alternativas: [                     // opções
@@ -690,6 +722,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Segurança — phishing',       // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Phishing é:', // pergunta
     alternativas: [                     // opções
@@ -709,6 +742,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Backup',                     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Backup é:', // pergunta
     alternativas: [                     // opções
@@ -728,6 +762,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Hardware — memória RAM',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Sobre a memória RAM, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -747,6 +782,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Navegação anônima',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Sobre a navegação anônima (modo privado) do navegador, é correto dizer:', // pergunta
     alternativas: [                     // opções
@@ -768,6 +804,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — inviolabilidade do domicílio', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Conforme o art. 5º da Constituição, pode-se entrar na casa de alguém sem o consentimento do morador:', // pergunta
     alternativas: [                     // opções
@@ -787,6 +824,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios constitucionais — Habeas Corpus', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'O Habeas Corpus é o remédio constitucional que protege:', // pergunta
     alternativas: [                     // opções
@@ -806,6 +844,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios constitucionais — Mandado de Segurança', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Cabe Mandado de Segurança para proteger:', // pergunta
     alternativas: [                     // opções
@@ -825,6 +864,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Nacionalidade',              // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'NÃO será brasileiro nato:', // pergunta
     alternativas: [                     // opções
@@ -844,6 +884,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 37 — princípios da Administração', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São princípios expressos da Administração Pública no art. 37 da Constituição:', // pergunta
     alternativas: [                     // opções
@@ -863,6 +904,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 6º — direitos sociais', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Qual alternativa NÃO está entre os direitos sociais do art. 6º da Constituição?', // pergunta
     alternativas: [                     // opções
@@ -882,6 +924,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Emenda à Constituição',      // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Uma proposta de emenda à Constituição precisa ser aprovada:', // pergunta
     alternativas: [                     // opções
@@ -903,6 +946,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Atributos do ato administrativo', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'NÃO é atributo do ato administrativo:', // pergunta
     alternativas: [                     // opções
@@ -922,6 +966,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Poder de polícia',           // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Poder de polícia é a atividade pela qual a Administração:', // pergunta
     alternativas: [                     // opções
@@ -941,6 +986,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Administração indireta',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Entre as entidades abaixo, a que possui personalidade jurídica de direito PRIVADO é:', // pergunta
     alternativas: [                     // opções
@@ -960,6 +1006,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Responsabilidade civil do Estado', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A responsabilidade civil do Estado pelos danos causados por seus agentes é, em regra:', // pergunta
     alternativas: [                     // opções
@@ -979,6 +1026,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Licitações (Lei 14.133/2021)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Segundo a Lei 14.133/2021 (nova Lei de Licitações), NÃO é uma modalidade de licitação:', // pergunta
     alternativas: [                     // opções
@@ -998,6 +1046,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Improbidade administrativa', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'A lei que trata da improbidade administrativa é a:', // pergunta
     alternativas: [                     // opções
@@ -1017,6 +1066,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Bens públicos',              // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Os bens públicos não podem ser adquiridos por usucapião porque são:', // pergunta
     alternativas: [                     // opções
@@ -1038,6 +1088,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Agenda 2030 e ODS',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A Agenda 2030 da ONU estabelece:', // pergunta
     alternativas: [                     // opções
@@ -1057,6 +1108,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Inteligência artificial',    // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O ChatGPT é um exemplo de:', // pergunta
     alternativas: [                     // opções
@@ -1076,6 +1128,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Matriz elétrica brasileira', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Sobre a matriz elétrica brasileira, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -1095,6 +1148,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'SUS e saúde pública',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'São princípios do SUS previstos na Lei 8.080/90:', // pergunta
     alternativas: [                     // opções
@@ -1114,6 +1168,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Cidadania — voto',           // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'No Brasil, o voto é obrigatório para quem tem:', // pergunta
     alternativas: [                     // opções
@@ -1133,6 +1188,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'COP e mudanças climáticas',  // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A COP (Conferência das Partes) é:', // pergunta
     alternativas: [                     // opções
@@ -1154,6 +1210,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Abolição da escravidão',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Lei Áurea, que aboliu a escravidão no Brasil, foi assinada em:', // pergunta
     alternativas: [                     // opções
@@ -1173,6 +1230,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Proclamação da República',   // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O primeiro presidente da República proclamada em 1889 foi:', // pergunta
     alternativas: [                     // opções
@@ -1192,6 +1250,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Era Vargas',                 // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A CLT (Consolidação das Leis do Trabalho) foi criada em 1943, durante:', // pergunta
     alternativas: [                     // opções
@@ -1211,6 +1270,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Independência do Brasil',    // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A independência do Brasil, em 7 de setembro de 1822, foi proclamada por:', // pergunta
     alternativas: [                     // opções
@@ -1230,6 +1290,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'República Velha',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'Na República Velha, a política do "café com leite" representava:', // pergunta
     alternativas: [                     // opções
@@ -1249,6 +1310,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Constituição de 1988',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Constituição de 1988 ficou conhecida como "Constituição Cidadã" porque:', // pergunta
     alternativas: [                     // opções
@@ -1270,6 +1332,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Climas do Brasil',           // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O clima predominante na Amazônia é o:', // pergunta
     alternativas: [                     // opções
@@ -1289,6 +1352,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Biomas brasileiros',         // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'O maior bioma brasileiro é:', // pergunta
     alternativas: [                     // opções
@@ -1308,6 +1372,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Densidade demográfica',      // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A densidade demográfica é calculada:', // pergunta
     alternativas: [                     // opções
@@ -1327,6 +1392,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Urbanização',                // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Êxodo rural é:', // pergunta
     alternativas: [                     // opções
@@ -1346,6 +1412,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Regiões do Brasil',          // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Segundo o IBGE, o Brasil é dividido em:', // pergunta
     alternativas: [                     // opções
@@ -1365,6 +1432,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Relevo brasileiro',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O Brasil não possui grandes cadeias montanhosas porque:', // pergunta
     alternativas: [                     // opções
@@ -1388,6 +1456,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Transitividade verbal',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase com a transitividade verbal correta:', // pergunta
     alternativas: [                     // opções
@@ -1407,6 +1476,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Conjunções — valor semântico', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Na frase "Estudou muito, mas não passou no exame", a conjunção "mas" expressa ideia de:', // pergunta
     alternativas: [                     // opções
@@ -1426,6 +1496,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Adjunto adnominal x complemento nominal', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Em "a construção do prédio levou dois anos", o termo "do prédio" exerce a função de:', // pergunta
     alternativas: [                     // opções
@@ -1445,6 +1516,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância com expressões partitivas', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "A maioria dos candidatos ___ satisfeita com o gabarito."', // pergunta
     alternativas: [                     // opções
@@ -1464,6 +1536,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Tempos verbais — pretérito', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Complete corretamente: "Quando o fiscal ___ (entrar), todos já estavam sentados."', // pergunta
     alternativas: [                     // opções
@@ -1483,6 +1556,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Semântica — polissemia',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A palavra "manga" em "a manga da camisa" e "a manga estava doce" ilustra um caso de:', // pergunta
     alternativas: [                     // opções
@@ -1502,6 +1576,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Uso de "meio"',              // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Assinale a frase correta quanto ao uso de "meio":', // pergunta
     alternativas: [                     // opções
@@ -1523,6 +1598,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Variação percentual',        // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um curso preparatório custava R$ 80,00 e passou a custar R$ 100,00. O aumento percentual foi de:', // pergunta
     alternativas: [                     // opções
@@ -1547,6 +1623,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Regra de três simples direta', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Se 3 canetas custam R$ 7,50, quanto custam 8 canetas iguais?', // pergunta
     alternativas: [                     // opções
@@ -1570,6 +1647,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Juros simples — taxa',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Aplicando R$ 2.000,00 a juros simples, um investidor recebeu R$ 240,00 de juros em 6 meses. A taxa mensal da aplicação foi de:', // pergunta
     alternativas: [                     // opções
@@ -1594,6 +1672,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Potenciação e radiciação',   // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O valor de √144 + 3² é:', // pergunta
     alternativas: [                     // opções
@@ -1618,6 +1697,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Mediana',                    // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'As idades de 5 amigos são 18, 20, 24, 26 e 30 anos. A mediana dessas idades é:', // pergunta
     alternativas: [                     // opções
@@ -1642,6 +1722,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Problemas de idade',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'João tem o dobro da idade de Maria. Daqui a 10 anos, a soma das idades dos dois será 50. Quantos anos Maria tem hoje?', // pergunta
     alternativas: [                     // opções
@@ -1668,6 +1749,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Conjunção e disjunção',      // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A proposição "Estudo português E matemática" será VERDADEIRA quando:', // pergunta
     alternativas: [                     // opções
@@ -1687,6 +1769,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Equivalência com "ou" (NEyMAR)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'A proposição "Se estudo, então passo" é equivalente a:', // pergunta
     alternativas: [                     // opções
@@ -1706,6 +1789,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequência de letras',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na sequência A, C, F, J, ..., a próxima letra é:', // pergunta
     alternativas: [                     // opções
@@ -1730,6 +1814,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Argumentação — modus ponens', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'Premissas: "Se bebo café, fico acordado." e "Bebi café." A conclusão logicamente válida é:', // pergunta
     alternativas: [                     // opções
@@ -1751,6 +1836,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Excel — referência absoluta', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Excel, a referência $A$1 em uma fórmula indica:', // pergunta
     alternativas: [                     // opções
@@ -1770,6 +1856,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Excel — função SOMASE',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Excel, a função =SOMASE(A1:A10;">5") faz o seguinte:', // pergunta
     alternativas: [                     // opções
@@ -1789,6 +1876,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Segurança — tipos de malware', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A principal diferença entre um vírus e um cavalo de Troia (trojan) é que o trojan:', // pergunta
     alternativas: [                     // opções
@@ -1810,6 +1898,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia (mas x mais)',    // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Complete corretamente: "Eu queria estudar, ___ estava muito cansado."', // pergunta
     alternativas: [                     // opções
@@ -1828,6 +1917,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Acentuação gráfica (hiato)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Assinale a alternativa em que TODAS as palavras estão grafadas corretamente:', // pergunta
     alternativas: [                     // opções
@@ -1847,6 +1937,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Regência do verbo assistir', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase correta quanto à regência do verbo "assistir" no sentido de "ver":', // pergunta
     alternativas: [                     // opções
@@ -1866,6 +1957,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Onde x aonde',               // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "A cidade ___ eu nasci é pequena."', // pergunta
     alternativas: [                     // opções
@@ -1885,6 +1977,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância com sujeito composto', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Assinale a frase correta:', // pergunta
     alternativas: [                     // opções
@@ -1904,6 +1997,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Uso de há x a (tempo)',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Complete: "___ dois anos que eu não viajo e daqui ___ três meses farei a prova."', // pergunta
     alternativas: [                     // opções
@@ -1923,6 +2017,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Vozes verbais',              // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A frase "O edital foi publicado pela banca" está na voz:', // pergunta
     alternativas: [                     // opções
@@ -1942,6 +2037,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Tipos de sujeito',           // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na frase "Choveu muito ontem na cidade", o sujeito é:', // pergunta
     alternativas: [                     // opções
@@ -1963,6 +2059,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Aumentos e descontos sucessivos', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um produto de R$ 200,00 teve um aumento de 10% e, depois, um desconto de 10%. O preço final é:', // pergunta
     alternativas: [                     // opções
@@ -1987,6 +2084,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Regra de três simples inversa', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Se 8 pedreiros constroem um muro em 6 dias, quantos dias 12 pedreiros, no mesmo ritmo, levariam para construir o mesmo muro?', // pergunta
     alternativas: [                     // opções
@@ -2013,6 +2111,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'MDC (divisão em partes iguais)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um professor tem 24 lápis vermelhos e 36 azuis e quer montar kits iguais, com o maior número possível de kits. Quantos kits ele fará?', // pergunta
     alternativas: [                     // opções
@@ -2037,6 +2136,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Área do círculo',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um jardim circular tem 10 m de diâmetro. Usando π = 3,14, a área desse jardim é aproximadamente:', // pergunta
     alternativas: [                     // opções
@@ -2061,6 +2161,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Probabilidade',              // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Em um sorteio com os números de 1 a 20, qual é a probabilidade de sair um múltiplo de 5?', // pergunta
     alternativas: [                     // opções
@@ -2085,6 +2186,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Divisão proporcional (regra de sociedade)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Dois sócios investiram R$ 2.000,00 e R$ 3.000,00. Ao fim do ano, o lucro de R$ 5.000,00 será dividido em:', // pergunta
     alternativas: [                     // opções
@@ -2110,6 +2212,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Progressão geométrica',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Na progressão geométrica 3, 6, 12, 24, ..., o 6º termo é:', // pergunta
     alternativas: [                     // opções
@@ -2134,6 +2237,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'MMC (problemas de encontro)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Dois ônibus partem juntos às 8h. Um passa no ponto a cada 15 minutos e o outro a cada 20 minutos. A que horas eles partirão juntos novamente?', // pergunta
     alternativas: [                     // opções
@@ -2161,6 +2265,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Tabela-verdade do condicional', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A proposição "Se estudo, então passo" só é FALSA quando:', // pergunta
     alternativas: [                     // opções
@@ -2180,6 +2285,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Anagramas e permutação',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Quantos anagramas diferentes tem a palavra CAFÉ (todas as letras distintas)?', // pergunta
     alternativas: [                     // opções
@@ -2204,6 +2310,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Ordenação',                  // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Ana é mais alta que Bia; Bia é mais alta que Caio; Caio é mais alto que Dani. Quem é a pessoa mais baixa?', // pergunta
     alternativas: [                     // opções
@@ -2223,6 +2330,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Negação de "algum"',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A negação da proposição "Algum candidato passou" é:', // pergunta
     alternativas: [                     // opções
@@ -2244,6 +2352,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Trabalho conjunto (torneiras)', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Uma torneira enche um tanque em 6 horas e outra enche o mesmo tanque em 3 horas. Abertas juntas, elas enchem o tanque em:', // pergunta
     alternativas: [                     // opções
@@ -2268,6 +2377,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequências alternadas',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Na sequência 1, 4, 2, 8, 3, 12, 4, ..., os dois próximos termos são:', // pergunta
     alternativas: [                     // opções
@@ -2295,6 +2405,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Windows — atalhos',          // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No Windows, o atalho Alt + Tab serve para:', // pergunta
     alternativas: [                     // opções
@@ -2314,6 +2425,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Excel — função SE',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Excel, a fórmula =SE(A1>=7;"Aprovado";"Reprovado") faz o seguinte:', // pergunta
     alternativas: [                     // opções
@@ -2333,6 +2445,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Extensões de arquivo',       // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'A extensão .xlsx corresponde a um arquivo de:', // pergunta
     alternativas: [                     // opções
@@ -2352,6 +2465,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Navegadores — cookies',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Sobre os cookies de navegador, é correto afirmar que:', // pergunta
     alternativas: [                     // opções
@@ -2371,6 +2485,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Segurança — firewall',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'A principal função de um firewall é:', // pergunta
     alternativas: [                     // opções
@@ -2392,6 +2507,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Direitos políticos — voto facultativo', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'No Brasil, o voto é FACULTATIVO para:', // pergunta
     alternativas: [                     // opções
@@ -2411,6 +2527,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — liberdade de expressão', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Segundo a Constituição, é livre a manifestação do pensamento, sendo:', // pergunta
     alternativas: [                     // opções
@@ -2430,6 +2547,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Competências (art. 22)',     // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Compete PRIVATIVAMENTE à União legislar sobre:', // pergunta
     alternativas: [                     // opções
@@ -2451,6 +2569,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Poder Executivo — mandato',  // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O mandato do Presidente da República é de:', // pergunta
     alternativas: [                     // opções
@@ -2470,6 +2589,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Segurança pública (art. 144)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'São órgãos de segurança pública previstos no art. 144 da Constituição, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -2491,6 +2611,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Princípios — impessoalidade', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Um prefeito nomeia seu sobrinho para um cargo em comissão. Esse ato viola diretamente o princípio da:', // pergunta
     alternativas: [                     // opções
@@ -2510,6 +2631,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Licitação — dispensa x inexigibilidade', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A contratação de um artista consagrado pela crítica especializada ou pela opinião pública é hipótese de:', // pergunta
     alternativas: [                     // opções
@@ -2529,6 +2651,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Provimento x vacância',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'São formas de PROVIMENTO de cargo público, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -2548,6 +2671,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Contratos — cláusulas exorbitantes', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São exemplos de cláusulas exorbitantes dos contratos administrativos:', // pergunta
     alternativas: [                     // opções
@@ -2569,6 +2693,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'ONU — Conselho de Segurança', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'São membros permanentes do Conselho de Segurança da ONU, com direito a veto:', // pergunta
     alternativas: [                     // opções
@@ -2588,6 +2713,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Acordo de Paris',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O Acordo de Paris, firmado em 2015, tem como objetivo central:', // pergunta
     alternativas: [                     // opções
@@ -2607,6 +2733,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'LGPD',                       // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A Lei Geral de Proteção de Dados (LGPD) trata:', // pergunta
     alternativas: [                     // opções
@@ -2626,6 +2753,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'PIX',                        // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Sobre o PIX, criado pelo Banco Central do Brasil, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -2648,6 +2776,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Classes de palavras — pronome relativo "que"', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Em "O candidato que estuda todos os dias aprende", a palavra "que" é:', // pergunta
     alternativas: [                     // opções
@@ -2667,6 +2796,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Coesão — referência anafórica', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'No trecho "O aluno comprou a apostila e levou-a para casa", o elemento "a" refere-se a:', // pergunta
     alternativas: [                     // opções
@@ -2686,6 +2816,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Ortografia — mal x mau / bem x bom', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Assinale a frase correta quanto ao uso de "mal" e "mau":', // pergunta
     alternativas: [                     // opções
@@ -2705,6 +2836,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Sinônimos — variante contextual', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'No trecho "o edital saiu de forma abrupta, sem aviso", a palavra "abrupta" pode ser substituída, sem prejuízo de sentido, por:', // pergunta
     alternativas: [                     // opções
@@ -2726,6 +2858,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Frações',                    // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um candidato estudou 3/5 de um edital de 200 tópicos. Quantos tópicos ainda faltam estudar?', // pergunta
     alternativas: [                     // opções
@@ -2749,6 +2882,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Conversão de unidades (tempo)', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um simulado durou 2 horas e 45 minutos. Quantos minutos durou o simulado?', // pergunta
     alternativas: [                     // opções
@@ -2772,6 +2906,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Equação do 2º grau',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'As raízes da equação x² − 5x + 6 = 0 são:', // pergunta
     alternativas: [                     // opções
@@ -2796,6 +2931,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Velocidade média',           // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um candidato dirigiu 240 km para prestar concurso e gastou 3 horas no trajeto. Qual foi a velocidade média da viagem?', // pergunta
     alternativas: [                     // opções
@@ -2821,6 +2957,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Calendários — dias da semana', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Se hoje é sábado, daqui a 100 dias será:', // pergunta
     alternativas: [                     // opções
@@ -2845,6 +2982,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Associações lógicas',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Ana, Bia e Caio bebem, cada um, uma bebida diferente: café, chá e suco. Ana não bebe chá. Bia não bebe suco. Caio não bebe café nem suco. Qual é a bebida de Ana?', // pergunta
     alternativas: [                     // opções
@@ -2869,6 +3007,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Conjuntos — união e interseção', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em uma turma de 40 alunos, 25 estudam inglês, 18 estudam espanhol e 10 estudam os dois idiomas. Quantos alunos não estudam nenhum dos dois?', // pergunta
     alternativas: [                     // opções
@@ -2892,6 +3031,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Quantificadores — todo/algum', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Se "todo aprovado estuda", então é correto concluir que:', // pergunta
     alternativas: [                     // opções
@@ -2913,6 +3053,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Internet — URL, IP e DNS',   // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Em "https://www.site.com.br/provas", o endereço completo é chamado de:', // pergunta
     alternativas: [                     // opções
@@ -2932,6 +3073,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'E-mail — campos Cc e Cco',   // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Ao enviar um e-mail, o campo "Cco" (Bcc) serve para:', // pergunta
     alternativas: [                     // opções
@@ -2951,6 +3093,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Armazenamento em nuvem',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Uma vantagem de guardar arquivos em nuvem (Google Drive, OneDrive) em relação ao disco local é:', // pergunta
     alternativas: [                     // opções
@@ -2970,6 +3113,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Internet x intranet',        // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A principal diferença entre internet e intranet é que a intranet:', // pergunta
     alternativas: [                     // opções
@@ -2991,6 +3135,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — proibição de prisão por dívida', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Segundo a Constituição, não haverá prisão civil por dívida, EXCETO a do:', // pergunta
     alternativas: [                     // opções
@@ -3010,6 +3155,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Nacionalidade — cargos privativos', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São cargos privativos de brasileiros NATOS, EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -3029,6 +3175,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Remédios — Habeas Data',     // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'O remédio constitucional que garante acesso a informações pessoais do próprio requerente em bancos de dados públicos é o:', // pergunta
     alternativas: [                     // opções
@@ -3048,6 +3195,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Seguridade social (art. 194)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Integram a seguridade social, segundo a Constituição:', // pergunta
     alternativas: [                     // opções
@@ -3069,6 +3217,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Ato discricionário x vinculado', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'O ato administrativo é DISCRICIONÁRIO quando:', // pergunta
     alternativas: [                     // opções
@@ -3088,6 +3237,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Elementos do ato administrativo', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Um ato administrativo praticado por agente sem competência legal tem vício no elemento:', // pergunta
     alternativas: [                     // opções
@@ -3107,6 +3257,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Princípio da autotutela',    // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O princípio que permite à Administração anular seus próprios atos ilegais, sem precisar ir ao Judiciário, é a:', // pergunta
     alternativas: [                     // opções
@@ -3126,6 +3277,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Serviço público — concessão x permissão', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Na CONCESSÃO de serviço público, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -3147,6 +3299,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Drex (moeda digital)',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O Drex, anunciado pelo Banco Central, é:', // pergunta
     alternativas: [                     // opções
@@ -3166,6 +3319,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Reforma tributária (EC 132/2023)', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'A reforma tributária sobre o consumo (EC 132/2023) prevê, em linhas gerais:', // pergunta
     alternativas: [                     // opções
@@ -3185,6 +3339,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Mercosul',                   // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'São membros plenos do Mercosul:', // pergunta
     alternativas: [                     // opções
@@ -3204,6 +3359,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Eleições — urna eletrônica', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Sobre as urnas eletrônicas brasileiras, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -3225,6 +3381,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Colonização — capitanias hereditárias', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O primeiro sistema administrativo usado por Portugal para ocupar o Brasil foi o das:', // pergunta
     alternativas: [                     // opções
@@ -3244,6 +3401,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Ditadura militar — AI-5',    // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O momento de maior repressão da ditadura militar é associado ao:', // pergunta
     alternativas: [                     // opções
@@ -3263,6 +3421,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Inconfidência Mineira',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A Inconfidência Mineira (1789) foi um movimento que:', // pergunta
     alternativas: [                     // opções
@@ -3282,6 +3441,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Segundo Reinado — Guerra do Paraguai', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Guerra do Paraguai (1864-1870) teve como consequência direta para o Brasil:', // pergunta
     alternativas: [                     // opções
@@ -3301,6 +3461,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Coronelismo e voto de cabresto', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Durante a República Velha, o "voto de cabresto" consistia em:', // pergunta
     alternativas: [                     // opções
@@ -3320,6 +3481,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Diretas Já',                 // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A campanha "Diretas Já" (1983-1984) mobilizou milhões de brasileiros exigindo:', // pergunta
     alternativas: [                     // opções
@@ -3341,6 +3503,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Hidrografia — rio Amazonas', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Sobre o rio Amazonas, é correto afirmar:', // pergunta
     alternativas: [                     // opções
@@ -3360,6 +3523,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Migrações internas',         // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'Entre as décadas de 1960 e 1980, o principal fluxo migratório interno no Brasil foi:', // pergunta
     alternativas: [                     // opções
@@ -3379,6 +3543,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Fusos horários do Brasil',   // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O território brasileiro abrange, atualmente, quantos fusos horários?', // pergunta
     alternativas: [                     // opções
@@ -3398,6 +3563,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Cartografia — escala',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Em um mapa de escala 1:100.000, uma distância de 5 cm no mapa corresponde, na realidade, a:', // pergunta
     alternativas: [                     // opções
@@ -3422,6 +3588,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Coordenadas — latitude e longitude', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A LATITUDE de um ponto indica a distância angular desse ponto em relação:', // pergunta
     alternativas: [                     // opções
@@ -3441,6 +3608,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Agrária — concentração de terras', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A elevada concentração de terras no Brasil (poucos donos de muitas terras) tem como marco histórico principal:', // pergunta
     alternativas: [                     // opções
@@ -3462,6 +3630,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Conectivos — conclusão',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Complete: "O candidato gabaritou o simulado; ___, foi aprovado."', // pergunta
     alternativas: [                     // opções
@@ -3481,6 +3650,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Acentuação diferencial (pôde x pode)', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Assinale a frase correta quanto ao uso de "pôde/pode":', // pergunta
     alternativas: [                     // opções
@@ -3500,6 +3670,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Partícula "se" — apassivador x indeterminador', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Em "Alugam-se salas para estudo", a partícula "se" e o sujeito são, respectivamente:', // pergunta
     alternativas: [                     // opções
@@ -3519,6 +3690,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Concordância — "um dos que"', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Complete: "Ele foi um dos candidatos que ___ aprovados na primeira fase."', // pergunta
     alternativas: [                     // opções
@@ -3538,6 +3710,7 @@ const BancoQuestoes = [
     materia: 'Língua Portuguesa',       // matéria
     tema: 'Aposto x vocativo',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Na frase "Prestem atenção, candidatos, a prova já começou", o termo "candidatos" é:', // pergunta
     alternativas: [                     // opções
@@ -3559,6 +3732,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Operações com decimais',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O resultado de 0,7 + 0,35 + 1,05 é:', // pergunta
     alternativas: [                     // opções
@@ -3583,6 +3757,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Média ponderada',            // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Um candidato fez 3 provas: nota 6 (peso 1), nota 8 (peso 2) e nota 7 (peso 2). A média ponderada dele é:', // pergunta
     alternativas: [                     // opções
@@ -3607,6 +3782,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Sistema — problema contextual', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um lápis e uma borracha custam juntos R$ 4,50. O lápis custa R$ 1,50 a mais que a borracha. Quanto custa a borracha?', // pergunta
     alternativas: [                     // opções
@@ -3631,6 +3807,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Conjuntos numéricos — irracionais', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'Qual dos números abaixo é IRRACIONAL?', // pergunta
     alternativas: [                     // opções
@@ -3650,6 +3827,7 @@ const BancoQuestoes = [
     materia: 'Matemática',              // matéria
     tema: 'Equação do 2º grau — problema', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Vunesp',                    // banca inspiradora
     enunciado: 'Um terreno retangular tem comprimento 3 m maior que a largura e área de 40 m². A largura do terreno é:', // pergunta
     alternativas: [                     // opções
@@ -3677,6 +3855,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Sequência de Fibonacci',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Na sequência 1, 1, 2, 3, 5, 8, ..., o próximo termo é:', // pergunta
     alternativas: [                     // opções
@@ -3700,6 +3879,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Argumentação — modus tollens', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Premissas: "Se chove, a aula é cancelada." e "A aula não foi cancelada." A conclusão válida é:', // pergunta
     alternativas: [                     // opções
@@ -3719,6 +3899,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Verdades e mentiras — auto-referência', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'Ana e Bruno: um sempre diz a verdade e o outro sempre mente. Ana diz: "Nós dois somos mentirosos." Quem diz a verdade?', // pergunta
     alternativas: [                     // opções
@@ -3743,6 +3924,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Associações — 4 pessoas',    // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'Ana, Bia, Caio e Davi estudam matérias diferentes: português, matemática, direito e informática. Ana não estuda português nem informática. Bia estuda direito. Caio não estuda matemática. O que Ana estuda?', // pergunta
     alternativas: [                     // opções
@@ -3767,6 +3949,7 @@ const BancoQuestoes = [
     materia: 'Raciocínio Lógico',       // matéria
     tema: 'Diagramas — proposição "nenhum"', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'Se a proposição "nenhum político é honesto" for verdadeira, é correto concluir que:', // pergunta
     alternativas: [                     // opções
@@ -3788,6 +3971,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Word — atalhos de alinhamento', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'No Word em português, o atalho para CENTRALIZAR um parágrafo é:', // pergunta
     alternativas: [                     // opções
@@ -3807,6 +3991,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Segurança — autenticação em dois fatores', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'A autenticação em dois fatores (2FA) aumenta a segurança da conta porque:', // pergunta
     alternativas: [                     // opções
@@ -3826,6 +4011,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Arquivos compactados (.zip)', // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Um arquivo com extensão .zip serve para:', // pergunta
     alternativas: [                     // opções
@@ -3845,6 +4031,7 @@ const BancoQuestoes = [
     materia: 'Informática',             // matéria
     tema: 'Protocolos — HTTP x HTTPS',  // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A principal diferença entre HTTP e HTTPS é que o HTTPS:', // pergunta
     alternativas: [                     // opções
@@ -3866,6 +4053,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Art. 5º — direito de reunião', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Sobre o direito de reunião (art. 5º, XVI), a Constituição garante reunião pacífica, sem armas, em local aberto ao público:', // pergunta
     alternativas: [                     // opções
@@ -3885,6 +4073,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Lei complementar x ordinária', // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A diferença CORRETA entre lei complementar e lei ordinária é:', // pergunta
     alternativas: [                     // opções
@@ -3904,6 +4093,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Concurso público — validade', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'Segundo a Constituição (art. 37, III), a validade do concurso público é de até:', // pergunta
     alternativas: [                     // opções
@@ -3923,6 +4113,7 @@ const BancoQuestoes = [
     materia: 'Direito Constitucional',  // matéria
     tema: 'Cláusulas pétreas',          // assunto
     nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FGV',                       // banca inspiradora
     enunciado: 'São cláusulas pétreas (imunes a emenda abolitiva), EXCETO:', // pergunta
     alternativas: [                     // opções
@@ -3944,6 +4135,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Poderes — hierárquico',      // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'O poder que permite à Administração organizar e escalonar as funções, dar ordens e fiscalizar os subordinados é o:', // pergunta
     alternativas: [                     // opções
@@ -3963,6 +4155,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Princípio da legalidade',    // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'O princípio da legalidade, aplicado à Administração Pública, significa que ela:', // pergunta
     alternativas: [                     // opções
@@ -3982,6 +4175,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Anulação x revogação',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'A Administração REVOGA um ato administrativo quando o ato é:', // pergunta
     alternativas: [                     // opções
@@ -4001,6 +4195,7 @@ const BancoQuestoes = [
     materia: 'Direito Administrativo',  // matéria
     tema: 'Regime jurídico — supremacia e indisponibilidade', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'superior',              // nível do concurso
     banca: 'CESPE/Cebraspe',            // banca inspiradora
     enunciado: 'O regime jurídico administrativo caracteriza-se, principalmente, por:', // pergunta
     alternativas: [                     // opções
@@ -4022,6 +4217,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'El Niño e La Niña',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'O fenômeno El Niño consiste em:', // pergunta
     alternativas: [                     // opções
@@ -4041,6 +4237,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Censo IBGE 2022',            // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Instituto AOCP',            // banca inspiradora
     enunciado: 'Segundo o Censo 2022 do IBGE, a população do Brasil é de aproximadamente:', // pergunta
     alternativas: [                     // opções
@@ -4060,6 +4257,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Regulação da inteligência artificial', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'FCC',                       // banca inspiradora
     enunciado: 'O projeto de regulação da inteligência artificial no Brasil (PL 2.338/2023), inspirado no modelo europeu, adota principalmente:', // pergunta
     alternativas: [                     // opções
@@ -4079,6 +4277,7 @@ const BancoQuestoes = [
     materia: 'Atualidades',             // matéria
     tema: 'Economia — taxa Selic',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'A taxa Selic, notícia frequente na economia, é:', // pergunta
     alternativas: [                     // opções
@@ -4100,6 +4299,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Primeiro Reinado — abdicação', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'O Primeiro Reinado (1822-1831) terminou quando:', // pergunta
     alternativas: [                     // opções
@@ -4119,6 +4319,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Período Regencial',          // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'Entre a abdicação de D. Pedro I (1831) e a maioridade de D. Pedro II (1840), o Brasil foi governado por:', // pergunta
     alternativas: [                     // opções
@@ -4138,6 +4339,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Semana de Arte Moderna',     // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A Semana de Arte Moderna de 1922, realizada no Teatro Municipal de São Paulo, marcou:', // pergunta
     alternativas: [                     // opções
@@ -4157,6 +4359,7 @@ const BancoQuestoes = [
     materia: 'História do Brasil',      // matéria
     tema: 'Abertura — Lei da Anistia',  // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A Lei da Anistia de 1979, marco da abertura política da ditadura, determinou:', // pergunta
     alternativas: [                     // opções
@@ -4178,6 +4381,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Biomas — Mata Atlântica',    // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O bioma brasileiro mais devastado historicamente, hoje reduzido a pequenos fragmentos (cerca de 12% da área original), é a:', // pergunta
     alternativas: [                     // opções
@@ -4197,6 +4401,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Transição demográfica',      // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'O envelhecimento da população brasileira (queda da fecundidade somada ao aumento da expectativa de vida) tende a provocar:', // pergunta
     alternativas: [                     // opções
@@ -4216,6 +4421,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Bacias hidrográficas',       // assunto
     nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'IBFC',                      // banca inspiradora
     enunciado: 'A maior bacia hidrográfica do Brasil — e do mundo — é a bacia:', // pergunta
     alternativas: [                     // opções
@@ -4235,6 +4441,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Industrialização — concentração no Sudeste', // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                 // nível do concurso
     banca: 'ENEM (vestibular)',         // banca inspiradora
     enunciado: 'A concentração histórica da indústria brasileira no Sudeste, sobretudo em São Paulo, explica-se principalmente por:', // pergunta
     alternativas: [                     // opções
@@ -4254,6 +4461,7 @@ const BancoQuestoes = [
     materia: 'Geografia',               // matéria
     tema: 'Fronteiras agrícolas',       // assunto
     nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
     banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
     enunciado: 'A expansão da soja e do gado sobre o Cerrado e a Amazônia ilustra geograficamente:', // pergunta
     alternativas: [                     // opções
@@ -4267,5 +4475,1265 @@ const BancoQuestoes = [
     explicacao: 'Fronteira agrícola é a faixa móvel onde a produção agropecuária avança sobre áreas ainda não incorporadas — primeiro o Cerrado (MATOPIBA), agora franjas da Amazônia, com desmatamento associado.', // explicação
     dica: 'Termos do par: fronteira agrícola (avanço produtivo) x fronteira de pobreza (expansão urbana precária). O vestibular cobra a primeira ligada a soja, gado e desmatamento.', // pegadinha
     video: 'fronteiras agrícolas cerrado amazônia soja resumo' // busca no YouTube
+  },
+
+  /* ===================== DIREITO PENAL (matéria nova) ===================== */
+  // TEAM_001: matéria nova para cargos policiais e de tribunais (PM, GCM, PP, PF, PRF, TJ)
+  {
+    id: 'd01',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Legítima defesa',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Sobre a legítima defesa (art. 25 do Código Penal), é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'Exige perigo iminente ou atual, agressão injusta e uso moderado dos meios de defesa',
+      'Pode ser usada contra qualquer provocação verbal',
+      'Admite reagir dias depois da agressão sofrida',
+      'Só é admitida para policiais em serviço',
+      'Autoriza o uso ilimitado da força'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A legítima defesa exige três requisitos juntos: agressão INJUSTA, perigo ATUAL ou IMINENTE, e uso MODERADO dos meios necessários. Agiu assim? A conduta deixa de ser crime (excludente de ilicitude).', // explicação
+    dica: 'A CESPE troca "atual ou iminente" por "futuro" — reagir depois que a agressão passou NÃO é legítima defesa, é vingança. E a moderação é sempre exigida.', // pegadinha
+    video: 'legítima defesa código penal requisitos para concurso' // busca no YouTube
+  },
+  {
+    id: 'd02',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Furto x roubo',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre furto e roubo está no uso de:', // pergunta
+    alternativas: [                     // opções
+      'Violência ou grave ameaça contra a pessoa — presente só no roubo',
+      'Escalada ou arrombamento — presente só no furto',
+      'Arma de fogo — presente só no roubo',
+      'Planejamento prévio — presente em ambos',
+      'Chave falsa — presente só no furto'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Roubo = subtrair coisa alheia mediante VIOLÊNCIA ou GRAVE AMEAÇA à pessoa (art. 157). Furto = subtrair SEM violência à pessoa (art. 155) — pode ter violência contra coisas, como arrombar uma vitrine.', // explicação
+    dica: 'Teste da IBFC: houve ameaça ou violência CONTRA A PESSOA? Roubo. Sem isso (nem arma importa, se ninguém foi intimidado), é furto — e furto com arma é qualificado, não roubo.', // pegadinha
+    video: 'diferença entre furto e roubo código penal concurso' // busca no YouTube
+  },
+  {
+    id: 'd03',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Flagrante delito',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Constitui flagrante PREPARADO (ou provocado):', // pergunta
+    alternativas: [                     // opções
+      'O crime descoberto logo depois, com prova do autor',
+      'A situação montada para induzir o suspeito a cometer o crime e prendê-lo no ato',
+      'A prisão feita dias depois com mandado judicial',
+      'O suspeito perseguido logo após o crime',
+      'O crime que acontece na presença de testemunhas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'No flagrante preparado, agentes provocam a situação para que o suspeito cometa o crime e seja preso — é válido quando a ação do agente não é a causa única do crime. Não confunda com flagrante esperado (vigilância sem provocação).', // explicação
+    dica: 'Quarteto da CESPE: PRÓPRIO (cometendo agora), IMPRÓPRIO (acabou de cometer, perseguido), PRESUMIDO (achado logo depois com objetos do crime), PREPARADO (armadilha montada pela polícia).', // pegadinha
+    video: 'espécies de flagrante próprio impróprio presumido preparado concurso' // busca no YouTube
+  },
+  {
+    id: 'd04',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Homicídio qualificado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O homicídio é QUALIFICADO quando cometido:', // pergunta
+    alternativas: [                     // opções
+      'Por motivo fútil ou torpe, mediante crueldade, ou que impossibilite a defesa da vítima',
+      'Somente quando há mais de uma vítima',
+      'Apenas quando o autor é reincidente',
+      'Sempre que a vítima for mulher',
+      'Quando cometido durante o dia'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O §2º do art. 121 qualifica o homicídio por motivo torpe/fútil, paga ou promessa, meio cruel (veneno, fogo, tortura), emboscada ou recurso que dificulte a defesa, e feminicídio. Pena: 12 a 30 anos (o simples é 6 a 20).', // explicação
+    dica: 'A FCC pega na diferenciação entre CULPOSO (sem intenção) e QUALIFICADO (com circunstância agravante). "Feminicídio" virou qualificadora própria em 2015 — atualidade que já cai.', // pegadinha
+    video: 'homicídio qualificado qualificadoras art 121 concurso' // busca no YouTube
+  },
+  {
+    id: 'd05',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Retroatividade da lei penal', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Sobre a aplicação da lei penal no tempo, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'A lei mais benéfica retroage sempre, inclusive para penas já executadas',
+      'A lei mais gravosa retroage para crimes anteriores',
+      'Abolitio criminis (a lei deixou de tipificar o fato) não afeta condenações antigas',
+      'A lei penal nunca pode retroagir, em hipótese alguma',
+      'O juiz pode escolher a lei que quiser aplicar'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Regra do art. 5º, XL: a lei não retroage, EXCETO para beneficiar o réu — e a benéfica alcança até pena em execução e efeitos de sentença transitada. Lei MAIS GRAVOSA nunca retroage.', // explicação
+    dica: 'A CESPE cobra o alcance da retroatividade benéfica: vale até para pena já cumprida (efeitos extrapenais) e para crime permanente (vale a lei do tempo da ação para o autor). "Nunca retroage" está errada — existe a exceção benéfica.', // pegadinha
+    video: 'retroatividade da lei penal lei mais benéfica concurso' // busca no YouTube
+  },
+  {
+    id: 'd06',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Peculato',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O funcionário público que se apropria de dinheiro público que tem sob sua guarda comete:', // pergunta
+    alternativas: [                     // opções
+      'Furto qualificado',
+      'Peculato',
+      'Estelionato',
+      'Corrupção passiva',
+      'Improbidade civil apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Peculato (art. 312) é o crime do funcionário público que se apropria de dinheiro ou bem público do qual tem a posse ou guarda em razão do cargo — o "desvio clássico" da administração.', // explicação
+    dica: 'Crimes de funcionário que a FCC mistura: peculato (apropria-se do que tem sob guarda), concussão (exige vantagem usando o cargo) e corrupção passiva (solicita/recebe vantagem). Peculato é com o que já está na mão.', // pegadinha
+    video: 'peculato crimes contra administração pública para concurso' // busca no YouTube
+  },
+  {
+    id: 'd07',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Abuso de autoridade',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Lei de Abuso de Autoridade (13.869/2019) alcança:', // pergunta
+    alternativas: [                     // opções
+      'Apenas policiais militares em serviço',
+      'Agentes públicos que, com finalidade específica de prejudicar, excedem suas atribuições',
+      'Qualquer cidadão que desacate um funcionário público',
+      'Somente autoridades com foro privilegiado',
+      'Exclusivamente servidores federais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei pune quem detém poder público (agentes de qualquer ente, servidores, militares, membros de Poderes e do MP) quando age com FINALIDADE ESPECÍFICA de prejudicar, beneficiar ou por capricho — não basta o mero excesso.', // explicação
+    dica: 'Ponto que a CESPE cobra da lei nova: exige a finalidade ESPECÍFICA (prejudicar, beneficiar ou satisfação pessoal). Erro funcional sem essa finalidade não configura o abuso.', // pegadinha
+    video: 'lei de abuso de autoridade 13869 resumo concurso' // busca no YouTube
+  },
+  {
+    id: 'd08',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Tentativa x consumação',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Há TENTATIVA de crime quando o agente:', // pergunta
+    alternativas: [                     // opções
+      'Consuma todos os atos e alcança o resultado',
+      'Inicia a execução e não consuma por circunstâncias alheias à sua vontade',
+      'Apenas planeja o crime mentalmente',
+      'Desiste livremente de continuar os atos executivos',
+      'Fere a vítima de propósito leve'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tentativa = iniciou a execução e não consumou por causas ALHEIAS à vontade (art. 14, II) — punível com pena reduzida de 1/3 a 2/3. Se desistir por livre vontade, é desistência voluntária (responde só pelos atos já praticados).', // explicação
+    dica: 'A banca troca tentativa com desistência: alheio à vontade = tentativa (pena reduzida); arrependimento próprio = desistência. E pensar/ameaçar não é tentativa — falta o início da execução.', // pegadinha
+    video: 'tentativa consumação desistência voluntária iter criminis' // busca no YouTube
+  },
+  {
+    id: 'd09',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'LEP — regimes penais',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Sobre os regimes de cumprimento de pena (Lei de Execução Penal), o regime SEMIABERTO caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'Cumprimento integral em penitenciária de segurança máxima',
+      'Possibilidade de trabalho externo durante o dia e retorno ao estabelecimento',
+      'Cumprimento domiciliar desde o início da pena',
+      'Dispensa de qualquer vigilância',
+      'Aplicação apenas a penas acima de 8 anos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'No semiaberto o condenado pode sair para trabalhar ou estudar durante o dia, retornando ao estabelecimento (colônia agrícola, industrial ou casa do albergado). Fechado = integral; aberto = casa de albergado sem recolhimento diário obrigatório de presídio.', // explicação
+    dica: 'Escada dos regimes da LEP: fechado (dentro do presídio), semiaberto (sai para trabalhar e volta), aberto (casa do albergado, quase livre). A banca troca semiaberto com aberto.', // pegadinha
+    video: 'regimes penais fechado semiaberto aberto lep concurso' // busca no YouTube
+  },
+  {
+    id: 'd10',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Inimputabilidade — menoridade', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Segundo a Constituição, são penalmente inimputáveis os menores de:', // pergunta
+    alternativas: [                     // opções
+      '16 anos',
+      '18 anos',
+      '21 anos',
+      '14 anos',
+      '12 anos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Menor de 18 anos não responde penalmente (art. 228 da CF) — pratica "ato infracional" e responde pelo ECA com medidas socioeducativas (internação, semiliberdade, advertência etc.), nunca com pena de prisão.', // explicação
+    dica: 'Pegadinha de número: inimputável penal < 18; voto facultativo 16-17; maioridade civil 18. A banca troca os marcos de propósito.', // pegadinha
+    video: 'inimputabilidade menor de 18 anos eca ato infracional' // busca no YouTube
+  },
+  {
+    id: 'd11',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Inquérito policial',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Sobre o inquérito policial, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'É a fase judicial que precede a sentença condenatória',
+      'É procedimento administrativo presidido pela autoridade policial para apurar indícios de crime',
+      'Substitui o processo penal em crimes leves',
+      'É dirigido pelo juiz de instrução desde o começo',
+      'Tem prazo único de 90 dias em todos os casos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O inquérito é fase ADMINISTRATIVA (não judicial), presidida pelo delegado, que reúne indícios para embasar a denúncia do Ministério Público. Requerido, ele preso: 10 dias (lei nova); solto: mais tempo conforme o caso.', // explicação
+    dica: 'Erros clássicos da CESPE: inquérito NÃO é processo (não é judicial), NÃO é obrigatório em todos os casos (MP pode dispensar) e o preso tem prazo de 10 dias — o pacote anticrime mudou isso em 2019.', // pegadinha
+    video: 'inquérito policial o que é fases para concurso' // busca no YouTube
+  },
+  {
+    id: 'd12',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Prisão preventiva x temporária', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A prisão TEMPORÁRIA difere da preventiva porque ela:', // pergunta
+    alternativas: [                     // opções
+      'Tem prazo máximo definido em lei e só cabe para crimes graves listados',
+      'Pode ser decretada por qualquer autoridade policial',
+      'Dura até o fim do processo',
+      'Só é aplicada a menores de idade',
+      'É determinada sempre por 5 anos'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A temporária é medida cautelar de curto prazo (5 dias, ou 30 em crimes hediondos/equiparados, prorrogáveis uma vez) e só cabe nos crimes do rol legal — para garantir a investigação. A preventiva não tem prazo fixo e decorre dos requisitos do art. 312 do CPP.', // explicação
+    dica: 'A FCC cobra os números: temporária = 5 dias (30 nos hediondos), prazo da PRISÃO em flagrante não existe (é situação, não modalidade). Somente juiz decreta prisão cautelar — delegado nunca.', // pegadinha
+    video: 'prisão temporária e preventiva diferença concurso' // busca no YouTube
+  },
+
+  /* ===================== CRIMINOLOGIA (matéria nova) ===================== */
+  // TEAM_001: matéria nova para perito criminal e carreiras policiais
+  {
+    id: 'k01',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Cadeia de custódia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A cadeia de custódia de vestígios (instituída pelo pacote anticrime, Lei 13.964/2019) serve para:', // pergunta
+    alternativas: [                     // opções
+      'Registrar a posse de armas dos policiais',
+      'Garantir a integridade do vestígio, documentando quem o recolheu, transportou e analisou',
+      'Vigiar o preso durante o cumprimento da pena',
+      'Autorizar a devolução de bens apreendidos',
+      'Organizar o arquivo de antecedentes criminais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A cadeia de custódia rastreia o caminho do vestígio desde a coleta no local até o laudo: quem achou, guardou, transportou e analisou — evita contaminação e garante a validade da prova pericial.', // explicação
+    dica: 'A quebra da cadeia pode invalidar a prova — é por isso que a CESPE pergunta os elos: coleta, acondicionamento, transporte, recebimento, processamento e armazenamento. Memorize a trilha.', // pegadinha
+    video: 'cadeia de custódia vestígios lei 13964 concurso' // busca no YouTube
+  },
+  {
+    id: 'k02',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Exame de corpo de delito',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O exame de corpo de delito é:', // pergunta
+    alternativas: [                     // opções
+      'A autópsia obrigatória em todas as mortes',
+      'A perícia que constata materialmente a infração e suas circunstâncias',
+      'O interrogatório do suspeito perante o delegado',
+      'A revista corporal feita na prisão em flagrante',
+      'A avaliação psicológica do acusado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Corpo de delito é o conjunto de vestígios que prova a materialidade do crime; o exame pericial correspondente é feito por peritos oficiais — nos crimes que deixam vestígio, é obrigatório para a confissão não suprir a falta do exame.', // explicação
+    dica: 'A FCC troca corpo de delito com autópsia: a autópsia é UMA das formas do exame de corpo de delito (morte violenta), não o conceito inteiro — o exame vale para qualquer vestígio.', // pegadinha
+    video: 'exame de corpo de delito perícia o que é concurso' // busca no YouTube
+  },
+  {
+    id: 'k03',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Vestígios e local de crime', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na preservação do local de crime, a conduta correta é:', // pergunta
+    alternativas: [                     // opções
+      'Remover os objetos antes da chegada da perícia para facilitar o trabalho',
+      'Isolar a área e não tocar em nada até a chegada dos peritos',
+      'Limpar o sangue para não assustar a família',
+      'Fotografar com flash sobre as impressões digitais',
+      'Permitir a entrada de curiosos que ajudem a testemunhar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Local de crime deve ser isolado e preservado: ninguém toca, move ou limpa nada — vestígio modificado pode perder valor probatório. A isolamento protege provas frágeis (digitais, fibras, fluidos).', // explicação
+    dica: 'Regra de ouro do perito: "olhe, não toque". A banca cria alternativas de "boa intenção" (limpar, recolher) — todas destroem prova. Só a preservação protege a investigação.', // pegadinha
+    video: 'preservação do local de crime vestígios concurso' // busca no YouTube
+  },
+  {
+    id: 'k04',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Papiloscopia',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A papiloscopia é a ciência forense que identifica pessoas por meio:', // pergunta
+    alternativas: [                     // opções
+      'Do exame de DNA do sangue',
+      'Das impressões digitais e papilares',
+      'Da arcada dentária',
+      'Do formato do crânio',
+      'Da caligrafia e assinatura'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Papiloscopia estuda as papilas dérmicas (as "digitais") — únicas em cada pessoa e imutáveis ao longo da vida. Datiloscopia é o estudo mais amplo das papilas; exame de DNA é outra técnica, não papiloscopia.', // explicação
+    dica: 'Pegadinha de nome: papiloscopia = papilas (digitais); documentoscopia = documentos; grafoscopia = escrita. A banca mistura as técnicas forenses entre si.', // pegadinha
+    video: 'papiloscopia impressões digitais perícia concurso' // busca no YouTube
+  },
+
+  /* ===================== DIREITO PREVIDENCIÁRIO (matéria nova) ===================== */
+  // TEAM_001: matéria nova focada no cargo de Técnico do Seguro Social (INSS)
+  {
+    id: 'v01',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Segurados obrigatórios',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'São segurados OBRIGATÓRIOS do Regime Geral de Previdência Social (RGPS):', // pergunta
+    alternativas: [                     // opções
+      'Empregados, trabalhadores avulsos, contribuintes individuais e domésticos',
+      'Apenas servidores públicos federais',
+      'Somente quem se inscreve voluntariamente',
+      'Apenas militares das Forças Armadas',
+      'Somente empresários com CNPJ'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Segurados obrigatórios do RGPS: empregado (inclui doméstico), trabalhador avulso, contribuinte individual (autônomo), segurado especial (rural familiar) e empregado/doméstico. O facultativo é quem contribui por opção (desempregado, estudante, dona de casa).', // explicação
+    dica: 'A CESPE troca obrigatório com facultativo: obrigatório = quem trabalha (empregado, avulso, individual, especial, doméstico); facultativo = quem não trabalha e contribui por escolha. Servidor público tem RPPS próprio, não RGPS.', // pegadinha
+    video: 'segurados obrigatórios rgps inss para concurso' // busca no YouTube
+  },
+  {
+    id: 'v02',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Carência',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Carência, no RGPS, é:', // pergunta
+    alternativas: [                     // opções
+      'O tempo que falta para a aposentadoria por idade',
+      'O número mínimo de contribuições mensais exigido para ter direito ao benefício',
+      'O período de graça após perder o emprego',
+      'O valor mínimo do salário de contribuição',
+      'A falta de registro em carteira'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Carência = número mínimo de contribuições mensais indispensáveis para pedir o benefício (aposentadoria por idade pede 180 meses; auxílio por incapacidade, 12). Difere do "período de graça", que é o tempo em que a qualidade de segurado se mantém parando de contribuir.', // explicação
+    dica: 'Confusão mortal da IBFC: carência (contribuições exigidas) x período de graça (tempo de proteção após parar de pagar — em regra 12 meses, podendo chegar a 36). Troque os dois e a questão sai errada.', // pegadinha
+    video: 'carência e período de graça inss para concurso' // busca no YouTube
+  },
+  {
+    id: 'v03',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Auxílio por incapacidade temporária', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O auxílio por incapacidade temporária (antigo auxílio-doença) é devido ao segurado que:', // pergunta
+    alternativas: [                     // opções
+      'Fica permanentemente incapaz de trabalhar',
+      'Fica temporariamente incapaz para o trabalho por mais de 15 dias consecutivos',
+      'Se aposenta por idade',
+      'Perde o emprego por justa causa',
+      'Sofre acidente de qualquer natureza, sem incapacidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O benefício exige incapacidade TEMPORÁRIA e mais de 15 dias de afastamento (para o empregado, os primeiros 15 dias são da empresa, e o INSS paga a partir do 16º). Incapacidade permanente gera aposentadoria por incapacidade — benefício diferente.', // explicação
+    dica: 'Número-chave: 15 dias. Antes de 15 é empresa; a partir do 16º é INSS. E cuidado: é temporário, não definitivo — a banca troca com aposentadoria por invalidez (hoje "aposentadoria por incapacidade permanente").', // pegadinha
+    video: 'auxílio por incapacidade temporária auxílio doença inss' // busca no YouTube
+  },
+  {
+    id: 'v04',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A pensão por morte é paga aos:', // pergunta
+    alternativas: [                     // opções
+      'Herdeiros testamentários do segurado',
+      'Dependentes do segurado falecido (cônjuge, filhos menores ou inválidos, pais e irmãos em certas condições)',
+      'Qualquer pessoa que convivia com o segurado',
+      'Apenas filhos maiores de 21 anos',
+      'Somente cônjuges com união estável formalizada em cartório'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dependentes em classes: 1ª (cônjuge, companheiro, filho menor de 21 ou inválido), 2ª (pais) e 3ª (irmãos menores/inválidos) — achado dependente numa classe, exclui as seguintes. Não é herança: é benefício previdenciário.', // explicação
+    dica: 'Ordem dos dependentes da CESPE: 1º cônjuge/companheiro/filhos (menor de 21 ou inválido), 2º pais, 3º irmãos. A existência de dependente na classe anterior exclui a próxima.', // pegadinha
+    video: 'pensão por morte dependentes inss ordem concurso' // busca no YouTube
+  },
+  {
+    id: 'v05',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Teto do INSS e salário de benefício', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "teto" do INSS representa:', // pergunta
+    alternativas: [                     // opções
+      'O salário mínimo garantido a todo segurado',
+      'O valor máximo de benefício pago pelo Regime Geral',
+      'A idade máxima para se aposentar',
+      'O limite de dependentes por segurado',
+      'O tempo máximo de contribuição contado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O teto é o limite máximo do salário de contribuição e dos benefícios do RGPS — quem ganha acima dele contribui só até o teto e não recebe benefício maior que isso. O valor é reajustado anualmente.', // explicação
+    dica: 'A IBFC troca teto com piso: teto = máximo (contribuição e benefício); piso = mínimo (nenhum benefício pode ser menor que o salário mínimo). Guarda os dois pólos.', // pegadinha
+    video: 'teto do inss salário de contribuição e benefício concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — LÍNGUA PORTUGUESA (p35 a p40) ===================== */
+  {
+    id: 'p35',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Inferência em texto',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Leia: "O edital exigia pontualidade. João, que chega atrasado, leu e riu." É correto INFERIR do texto que:', // pergunta
+    alternativas: [                     // opções
+      'O edital obriga todos os brasileiros à pontualidade',
+      'João achou graça porque ele mesmo descumpre a regra',
+      'João riu porque a regra é impossível',
+      'O texto diz que João será demitido',
+      'O edital foi anulado por João'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inferir é ler nas entrelinhas o que o texto não afirma literalmente: a graça está no contraste entre a exigência do edital e o comportamento de João. As demais alternativas extrapolam o texto.', // explicação
+    dica: 'Diferença que a CESPE cobra: o que está ESCRITO (compreensão) x o que se CONCLUI (inferência). A resposta de inferência usa a lógica do texto, nunca opinião externa.', // pegadinha
+    video: 'inferência e compreensão de texto para concurso' // busca no YouTube
+  },
+  {
+    id: 'p36',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Reescrita de frases',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: '"O servidor atendeu o público porque era seu dever." Mantendo o sentido, a frase pode ser reescrita como:', // pergunta
+    alternativas: [                     // opções
+      'O servidor atendeu o público apesar de ser seu dever.',
+      'O servidor atendeu o público, pois era seu dever.',
+      'O servidor atenderia o público se fosse seu dever.',
+      'O servidor atendeu o público quando deixou de ser dever.',
+      'O servidor atendeu o público para que fosse seu dever.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Porque" e "pois" são conjunções explicativas/causais com sentido equivalente aqui. "Apesar de" (concessiva), "se" (condicional) e "para que" (final) trocam a relação lógica — e a FGV adora isso.', // explicação
+    dica: 'Reescrita FGV = troca de conector. Identifique primeiro a relação original (causa, concessão, condição, finalidade) e só marque a alternativa que preserva a MESMA relação.', // pegadinha
+    video: 'reescrita de frases sentido e forma fgv concurso' // busca no YouTube
+  },
+  {
+    id: 'p37',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Ortografia — sessão/seção/cessão', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Complete: "A ___ de cinema começou atrasada; a ___ de fotos será publicada amanhã; a ___ dos bens foi homologada."', // pergunta
+    alternativas: [                     // opções
+      'seção, sessão, cessão',
+      'sessão, seção, cessão',
+      'cessão, sessão, seção',
+      'sessão, cessão, seção',
+      'seção, cessão, sessão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'SESSÃO = evento/reunião (sessão de cinema, sessão plenária). SEÇÃO = divisão/partes (seção de esportes, seção eleitoral). CESSÃO = ato de ceder, transferência (cessão de bens, cessão de crédito).', // explicação
+    dica: 'Macete da Vunesp: SESSÃO = assembleia/funcionamento ("sessão começa e termina"); SEÇÃO = fatiamento (seção do jornal); CESSÃO = doação/transferência jurídica.', // pegadinha
+    video: 'sessão seção cessão diferença para concurso' // busca no YouTube
+  },
+  {
+    id: 'p38',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Funções da linguagem',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A placa de trânsito "PARE" exerce predominantemente a função:', // pergunta
+    alternativas: [                     // opções
+      'Referencial',
+      'Emotiva',
+      'Conativa',
+      'Poética',
+      'Metalinguística'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A função conativa (apelativa) visa influenciar o comportamento do receptor — ordens, apelos, propagandas e placas de trânsito. Referencial informa; emotiva expressa sentimentos; poética trabalha a forma; metalinguística explica a própria língua.', // explicação
+    dica: 'Chave da AOCP: verbo no imperativo ou chamada à ação = conativa. A placa não informa — ela MANDA. Propaganda é sempre o exemplo favorito.', // pegadinha
+    video: 'funções da linguagem conativa emotiva para concurso' // busca no YouTube
+  },
+  {
+    id: 'p39',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Crase — casos especiais',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Em qual alternativa a crase está empregada incorretamente?', // pergunta
+    alternativas: [                     // opções
+      'Entreguei o relatório ao diretor.',
+      'Referi-me àquela servidora.',
+      'O aluno foi à escola.',
+      'As provas começaram à meia-noite.',
+      'Os dados foram enviados à ele.'
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Não há crase antes de pronome pessoal ("a ele" sem acento). "Ao diretor" (a+o), "àquela" (a+aquela), "à escola" (a+a) e "à meia-noite" (locução adverbial) estão todos corretos.', // explicação
+    dica: 'Casos em que a FCC NÃO admite crase: antes de pronome pessoal (a ele, a mim), antes de verbo (a estudar), antes de palavra masculina (a cavalo), e antes de pronomes indefinidos (a qualquer).', // pegadinha
+    video: 'crase casos proibidos antes de pronome para concurso' // busca no YouTube
+  },
+  {
+    id: 'p40',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Classes — numeral',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Em "os três primeiros colocados", "três" e "primeiros" são, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'Adjetivo e advérbio',
+      'Numeral cardinal e numeral ordinal',
+      'Pronome e artigo',
+      'Artigo e numeral',
+      'Preposição e conjunção'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Três" indica quantidade exata (numeral cardinal); "primeiros" indica ordem na série (numeral ordinal). Ambos pertencem à classe dos numerais — uma das dez classes de palavras.', // explicação
+    dica: 'A IBFC confunde numeral com adjetivo: cardinal (um, dois, três) conta; ordinal (primeiro, segundo) ordena; multiplicativo (dobro, triplo) multiplica; fracionário (metade, terço) divide.', // pegadinha
+    video: 'numerais cardinal ordinal multiplicativo fracionário concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — MATEMÁTICA (m34 a m39) ===================== */
+  {
+    id: 'm34',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Desconto simples comercial', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Um título de R$ 5.000,00 foi descontado 3 meses antes do vencimento, a uma taxa de desconto simples comercial de 2% ao mês. O valor recebido foi de:', // pergunta
+    alternativas: [                     // opções
+      'R$ 4.700,00',
+      'R$ 4.800,00',
+      'R$ 4.900,00',
+      'R$ 4.400,00',
+      'R$ 4.850,00'
+    ],
+    correta: 0,                         // índice da certa
+    passos: [                           // passo a passo
+      'Calcule o desconto: D = N × i × t = 5.000 × 0,02 × 3 = R$ 300,00.',
+      'Subtraia do valor nominal: 5.000 − 300 = R$ 4.700,00.'
+    ],
+    explicacao: 'No desconto simples comercial ("por fora"), o desconto incide sobre o valor NOMINAL: 2% × 3 meses = 6% de 5.000 = 300. Valor atual = 5.000 − 300 = 4.700.', // explicação
+    dica: 'No desconto simples, a taxa incide sempre sobre o valor cheio (nominal). Não confunda com juros: desconto subtrai antes, juros somam depois.', // pegadinha
+    video: 'desconto simples comercial para concurso fórmula' // busca no YouTube
+  },
+  {
+    id: 'm35',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Taxas equivalentes',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Qual taxa TRIMESTRAL de juros compostos equivale a 21% ao semestre?', // pergunta
+    alternativas: [                     // opções
+      '7% ao trimestre',
+      '10% ao trimestre',
+      '10,5% ao trimestre',
+      '12% ao trimestre',
+      '42% ao trimestre'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Um semestre tem 2 trimestres: busque i tal que (1 + i)² = 1,21.',
+      '√1,21 = 1,10.',
+      'i = 0,10 = 10% ao trimestre.'
+    ],
+    explicacao: 'Taxas equivalentes usam potenciação, não divisão: 10% ao trimestre compõe 1,1 × 1,1 = 1,21 = 21% ao semestre. A resposta errada "10,5%" vem da divisão por 2 — válida só no regime simples.', // explicação
+    dica: 'Regra de ouro: juros compostos = taxas equivalentes por raiz/potência; juros simples = taxas proporcionais por divisão. A banca espera que você divida 21 ÷ 2 e marque 10,5%.', // pegadinha
+    video: 'taxas equivalentes juros compostos para concurso' // busca no YouTube
+  },
+  {
+    id: 'm36',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Amortização — SAC x Price',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No Sistema de Amortização Constante (SAC), é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'As prestações são constantes ao longo do tempo',
+      'As amortizações são iguais em todas as parcelas',
+      'Os juros crescem a cada parcela',
+      'A primeira parcela é sempre a menor',
+      'O saldo devedor nunca diminui'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'No SAC, a AMORTIZAÇÃO é constante e a prestação decresce (o juro incide sobre o saldo, que cai). No Sistema Price (tabela Price), a prestação é fixa e a amortização cresce.', // explicação
+    dica: 'A CESPE troca os dois sistemas de propósito: SAC = amortização constante + prestação decrescente; Price = prestação constante + amortização crescente. Decore o par.', // pegadinha
+    video: 'sac e price sistemas de amortização diferença concurso' // busca no YouTube
+  },
+  {
+    id: 'm37',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Aumentos percentuais encadeados', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Uma população cresceu 10% ao ano durante dois anos seguidos. O crescimento percentual total no período foi de:', // pergunta
+    alternativas: [                     // opções
+      '20%',
+      '21%',
+      '22%',
+      '10%',
+      '15%'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Some 100% com cada aumento: 1,10 × 1,10.',
+      '1,10 × 1,10 = 1,21.',
+      '1,21 − 1 = 0,21 = 21%.'
+    ],
+    explicacao: 'Aumentos sucessivos se multiplicam (fator 1,10 ao quadrado), não se somam: o segundo aumento incide sobre o valor já crescido. Resultado: 21% de crescimento acumulado — a pegadinha é o "20%" da soma direta.', // explicação
+    dica: 'Atalho do vestibular: transforme % em fator (10% vira 1,10) e multiplique os fatores. Aumento+desconto é o irmão gêmeo que também não se anula — 10% depois −10% dá 0,99, não 1.', // pegadinha
+    video: 'aumentos percentuais sucessivos fator multiplicativo' // busca no YouTube
+  },
+  {
+    id: 'm38',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Porcentagem — cadeia de variações', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Uma cidade tinha 50.000 habitantes. Em um ano cresceu 4% e no ano seguinte diminuiu 2%. A população final é de:', // pergunta
+    alternativas: [                     // opções
+      '50.000',
+      '50.960',
+      '51.000',
+      '50.600',
+      '49.960'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Crescimento de 4%: 50.000 × 1,04 = 52.000.',
+      'Diminuição de 2% sobre o novo valor: 52.000 × 0,98 = 50.960.',
+      'População final: 50.960.'
+    ],
+    explicacao: 'O segundo porcentual incide sobre o valor JÁ alterado (52.000, não 50.000): 52.000 × 0,98 = 50.960. A alternativa "50.000" é a isca de quem acha que +4% e −2% se compensam.', // explicação
+    dica: 'Quando a base muda entre as variações, some os fatores por multiplicação, nunca por diferença simples. +4% depois −2% NÃO dá +2%: dá +1,92%.', // pegadinha
+    video: 'porcentagem encadeada variações para concurso' // busca no YouTube
+  },
+  {
+    id: 'm39',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Taxa nominal x efetiva',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Uma taxa nominal de 12% ao ano, com capitalização mensal, corresponde a uma taxa efetiva mensal de:', // pergunta
+    alternativas: [                     // opções
+      '12% ao mês',
+      '1% ao mês',
+      '6% ao mês',
+      '0,12% ao mês',
+      '1,2% ao mês'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Taxa nominal anual com capitalização mensal divide pelos 12 meses: 12% ÷ 12 = 1% ao mês efetivo. A nominal é um "letreiro"; a efetiva é a que realmente capitaliza.', // explicação
+    dica: 'A FCC planta a mesma taxa nominal com capitalizações diferentes: anual capitalizada anualmente = efetiva igual; anual capitalizada mensalmente = divide por 12. Confira sempre o período de capitalização.', // pegadinha
+    video: 'taxa nominal e efetiva juros compostos concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — RACIOCÍNIO LÓGICO (r28 a r31) ===================== */
+  {
+    id: 'r28',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Conjuntos — três conjuntos', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Em um concurso com 60 candidatos: 30 estudam português, 25 matemática, 15 lógica; 10 estudam português e matemática; 5 português e lógica; 5 matemática e lógica; e 2 estudam as três. Quantos candidatos não estudam nenhuma das três?', // pergunta
+    alternativas: [                     // opções
+      '5',
+      '7',
+      '8',
+      '10',
+      '12'
+    ],
+    correta: 2,                         // índice da certa
+    passos: [                           // passo a passo
+      'Use inclusão-exclusão para 3 conjuntos: |P∪M∪L| = |P|+|M|+|L| − |P∩M| − |P∩L| − |M∩L| + |P∩M∩L|.',
+      '30 + 25 + 15 − 10 − 5 − 5 + 2 = 52.',
+      'Subtraia do total: 60 − 52 = 8.'
+    ],
+    explicacao: 'Somando os três conjuntos, as interseções duplas foram contadas duas vezes (desconte uma vez cada) e a tripla, três vezes (desconte duas, mas some de volta uma porque ela foi subtraída a mais). Estudam ao menos uma: 52; não estudam: 8.', // explicação
+    dica: 'Fórmula pronta para 3 conjuntos: some tudo, tire os pares, devolva a interseção tripla. A banca planta o resultado sem o "+2" final (50 em vez de 52) — nesse caso a resposta sairia "10".', // pegadinha
+    video: 'três conjuntos inclusão exclusão diagrama venn concurso' // busca no YouTube
+  },
+  {
+    id: 'r29',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Relógios — atraso acumulado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um relógio atrasa 5 minutos por dia. Se está certo agora, em quantos dias estará exatamente 1 hora atrasado?', // pergunta
+    alternativas: [                     // opções
+      '6 dias',
+      '10 dias',
+      '12 dias',
+      '15 dias',
+      '20 dias'
+    ],
+    correta: 2,                         // índice da certa
+    passos: [                           // passo a passo
+      'Converta 1 hora em minutos: 60 minutos.',
+      'Divida pelo atraso diário: 60 ÷ 5 = 12 dias.'
+    ],
+    explicacao: 'Acumulando 5 minutos por dia, o relógio precisa de 12 dias para atrasar 60 minutos (1 hora).', // explicação
+    dica: 'Em problemas de relógio com atraso/adiantamento, converta TUDO para a mesma unidade (minutos) antes de dividir. A alternativa "10 dias" pega quem usou 50 minutos.', // pegadinha
+    video: 'problemas de relógio atraso raciocínio lógico concurso' // busca no YouTube
+  },
+  {
+    id: 'r30',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Associações — cidade e profissão', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Ana, Bia e Caio moram em SP, RJ e BH e são médico, professor e engenheiro (não nessa ordem). Ana não mora em SP nem em RJ. Bia não é médica. O médico mora no RJ. Então Caio:', // pergunta
+    alternativas: [                     // opções
+      'Mora em BH e é engenheiro',
+      'Mora no RJ e é médico',
+      'Mora em SP e é professor',
+      'Mora em BH e é médico',
+      'Mora no RJ e é professor'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Ana não mora em SP nem RJ → Ana mora em BH.',
+      'O médico mora no RJ; Bia não é médica → Bia não mora no RJ; como BH já é de Ana, Bia mora em SP.',
+      'Sobra RJ para Caio → Caio mora no RJ e, portanto, é o médico.'
+    ],
+    explicacao: 'Resolva pelas posições travadas: Ana em BH (única cidade que sobra para ela), Bia em SP (não é médica, logo não está no RJ). Resta RJ + médico para Caio.', // explicação
+    dica: 'Quando a pergunta une dois dados (cidade + profissão), resolva primeiro a parte que tem só UMA resposta (a cidade de Ana) e a profissão vem de brinde pelo vínculo dado.', // pegadinha
+    video: 'associações lógicas cidade profissão para concurso' // busca no YouTube
+  },
+  {
+    id: 'r31',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência — números primos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Na sequência 2, 3, 5, 7, 11, 13, ..., o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '14',
+      '15',
+      '16',
+      '17',
+      '19'
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'É a sequência dos números primos (divisíveis apenas por 1 e por si mesmos): depois de 13 vem 17. O "19" que vem depois também é primo — mas é o SEGUNDO próximo, não o primeiro.', // explicação
+    dica: 'Quando a diferença entre termos não é constante nem multiplicativa e a soma não fecha Fibonacci, teste primos, quadrados, cubos e potências — a Vunesp esconde primos em sequência "simples".', // pegadinha
+    video: 'sequência de números primos raciocínio lógico concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — INFORMÁTICA (i25 a i28) ===================== */
+  {
+    id: 'i25',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Redes — VPN',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma VPN (Rede Privada Virtual) permite:', // pergunta
+    alternativas: [                     // opções
+      'Acelerar a velocidade da internet',
+      'Criar um túnel criptografado e seguro sobre a rede pública para acessar uma rede privada remotamente',
+      'Compartilhar a senha do wi-fi com vizinhos',
+      'Bloquear o firewall da rede doméstica',
+      'Navegar sem qualquer endereço IP'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A VPN estende uma rede privada por cima da internet pública: o tráfego viaja num "túnel" criptografado, como se o dispositivo estivesse dentro da empresa — usada para home office e acesso remoto seguro.', // explicação
+    dica: 'A CESPE confunde VPN com proxy e com navegação anônima: VPN criptografa a conexão inteira até a rede de destino; ainda existe IP (o IP muda para o da rede/servidor VPN), não é anonimato absoluto.', // pegadinha
+    video: 'o que é vpn rede privada virtual para concurso' // busca no YouTube
+  },
+  {
+    id: 'i26',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Excel — função PROCV',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No Excel, a função PROCV serve para:', // pergunta
+    alternativas: [                     // opções
+      'Somar os valores de uma coluna',
+      'Procurar um valor na primeira coluna de uma tabela e retornar o dado de outra coluna da mesma linha',
+      'Criar gráficos automáticos',
+      'Proteger a planilha com senha',
+      'Converter texto em números'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PROCV (VLOOKUP) busca um valor na coluna mais à esquerda de um intervalo e devolve o conteúdo da coluna indicada naquela linha — a "lupa" do Excel para cruzar tabelas.', // explicação
+    dica: 'A FCC cobra os 4 argumentos: valor procurado, tabela, número da coluna e o VERDADEIRO/FALSO do final (FALSO = correspondência exata — quase sempre o desejado).', // pegadinha
+    video: 'procv vlookup excel para concurso' // busca no YouTube
+  },
+  {
+    id: 'i27',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Redes — LAN e WAN',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A sigla LAN designa uma rede que:', // pergunta
+    alternativas: [                     // opções
+      'Conecta computadores em área local, como uma residência ou escritório',
+      'Abrange cidades e países inteiros',
+      'Funciona apenas por satélite',
+      'É exclusiva de servidores de jogos',
+      'Não usa roteadores'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'LAN = Local Area Network: rede local que liga dispositivos próximos (casa, escritório, prédio). WAN = Wide Area Network, a que cobre grandes distâncias (a própria internet é a maior WAN).', // explicação
+    dica: 'Escada de cobertura que a IBFC repete: PAN (pessoal, bluetooth) < LAN (local) < MAN (cidade) < WAN (países/mundo). Decore o acrônimo pela letra do meio: L=local, W=wide.', // pegadinha
+    video: 'diferença entre lan wan man pan redes concurso' // busca no YouTube
+  },
+  {
+    id: 'i28',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'E-mail — protocolos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Os protocolos usados para ENVIAR e RECEBER e-mails são, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'SMTP e POP3/IMAP',
+      'POP3 e SMTP',
+      'HTTP e FTP',
+      'FTP e SMTP',
+      'DHCP e DNS'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'SMTP cuida do envio (Simple Mail Transfer Protocol); POP3 e IMAP cuidam do recebimento — POP baixa as mensagens para o aparelho, IMAP mantém no servidor sincronizado.', // explicação
+    dica: 'Macete da FCC: SMTP = "Saiu Meu e-mail, Trânsito de Mensagem" (envio). POP e IMAP recebem. E FTP é arquivo, não e-mail — clássica confusão das alternativas.', // pegadinha
+    video: 'protocolos de e-mail smtp pop3 imap concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO CONSTITUCIONAL (c21 a c26) ===================== */
+  {
+    id: 'c21',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Acumulação de cargos (art. 37)', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Segundo o art. 37 da Constituição, é permitido acumular remuneradamente:', // pergunta
+    alternativas: [                     // opções
+      'Dois cargos de professor',
+      'Dois cargos quaisquer, sem limite',
+      'Três cargos de professor',
+      'Um cargo de professor e um cargo administrativo',
+      'Dois cargos de técnico administrativo'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A regra é a vedação da acumulação, com três exceções: dois cargos de professor; um de professor com um técnico ou científico; e dois cargos privativos de profissional da saúde com profissões regulamentadas.', // explicação
+    dica: 'A IBFC cobra as 3 exceções exatas: professor+professor; professor+técnico/científico; saúde+saúde. "Professor + administrativo" NÃO entra — a exceção exige técnico/científico, não administrativo.', // pegadinha
+    video: 'acumulação de cargos públicos art 37 exceções concurso' // busca no YouTube
+  },
+  {
+    id: 'c22',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Nepotismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O nepotismo (nomeação de parentes para cargos na administração em que o agente tem poder) viola principalmente os princípios da:', // pergunta
+    alternativas: [                     // opções
+      'Legalidade e eficiência apenas',
+      'Impessoalidade e moralidade',
+      'Publicidade e supremacia',
+      'Autotutela e continuidade',
+      'Razoabilidade e ampla defesa'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nepotismo = usar o cargo para beneficiar parente: fere a impessoalidade (tratar todos igualmente) e a moralidade (agir conforme a ética). A Súmula Vinculante 13 detalha a vedação para cargos em comissão e funções de confiança.', // explicação
+    dica: 'A CESPE liga o caso concreto ao princípio: sobrinho do prefeito nomeado? Impessoalidade + moralidade (não existe um "princípio da não-parentalidade" — a resposta vem pelo par).', // pegadinha
+    video: 'nepotismo súmula vinculante 13 impessoalidade concurso' // busca no YouTube
+  },
+  {
+    id: 'c23',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Processo legislativo — veto', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Se o Presidente da República veta um projeto de lei, o Congresso pode derrubar o veto com:', // pergunta
+    alternativas: [                     // opções
+      'Maioria simples dos deputados presentes',
+      'Maioria absoluta dos deputados e senadores, em votação conjunta',
+      'Dois terços das duas casas',
+      'Três quintos do Senado apenas',
+      'A assinatura do presidente da Câmara'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O veto presidencial é derrubado por maioria absoluta dos membros de Cada Casa, em sessão conjunta do Congresso (art. 66). Se não apreciado em 30 dias, o veto sobrestima a pauta.', // explicação
+    dica: 'Quóruns que a FCC confunde: emenda constitucional = 3/5; derrubada de veto = maioria absoluta (metade mais um dos membros de cada casa). Simples é maioria dos PRESENTES — não serve para veto.', // pegadinha
+    video: 'veto presidencial maioria absoluta congresso art 66 concurso' // busca no YouTube
+  },
+  {
+    id: 'c24',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Poder Judiciário — tribunais', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'São órgãos do Poder Judiciário previstos no art. 92 da Constituição, EXCETO:', // pergunta
+    alternativas: [                     // opções
+      'Supremo Tribunal Federal',
+      'Superior Tribunal de Justiça',
+      'Tribunais Regionais Federais',
+      'Tribunal de Contas da União',
+      'Conselho Nacional de Justiça'
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O TCU NÃO é órgão do Judiciário — é órgão auxiliar do Congresso Nacional (fiscalização contábil, orçamentária e administrativa). O CNJ também é Judiciário (órgão de controle interno), embora não julgue processos.', // explicação
+    dica: 'Armadilha eterna da FCC: TCU = órgão auxiliar do LEGISLATIVO, nunca do Judiciário — ele "fiscaliza", não "julga". Já o CNJ é do Judiciário mesmo sem julgar.', // pegadinha
+    video: 'tribunais brasileiros art 92 tcu judiciário concurso' // busca no YouTube
+  },
+  {
+    id: 'c25',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Controle de constitucionalidade', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'A ação direta de inconstitucionalidade (ADI) serve para:', // pergunta
+    alternativas: [                     // opções
+      'Julgar crimes comuns de governadores',
+      'Declarar a inconstitucionalidade de lei ou ato normativo federal ou estadual perante o STF',
+      'Fiscalizar contas de prefeitos',
+      'Definir competências entre tribunais',
+      'Obrigar o juiz a julgar processo paralisado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ADI é o instrumento do controle abstrato/concentrado: pede ao STF que declare uma lei ou ato normativo (federal ou estadual) inconstitucional, com efeito geral (erga omnes) — só os legitimados do art. 103 podem propor.', // explicação
+    dica: 'A FGV troca ADI com ADC e ADPF: ADI (inconstitucional), ADC (ação de conformidade — declara CONSTITUCIONAL), ADPF (arguição de descumprimento de preceito fundamental). E só entes do art. 103 propõem.', // pegadinha
+    video: 'adi adc adpf controle de constitucionalidade concurso' // busca no YouTube
+  },
+  {
+    id: 'c26',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Art. 7º — direitos trabalhistas', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, EXCETO:', // pergunta
+    alternativas: [                     // opções
+      'Décimo terceiro salário',
+      'Férias anuais remuneradas com, pelo menos, um terço a mais que o salário normal',
+      'Aposentadoria compulsória aos 60 anos para todos',
+      'Jornada de 8 horas diárias e 44 semanais',
+      'Salário mínimo fixado em lei'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O art. 7º garante 13º salário, férias +1/3, jornada de 8h/44h semanais e salário mínimo — mas NÃO prevê aposentadoria compulsória aos 60 como direito universal (compulsória existe para servidores públicos aos 75).', // explicação
+    dica: 'A Vunesp usa a técnica do "inventado convincente": mistura direitos reais com um que parece razoável mas não existe. No rol do art. 7º, "compulsória aos 60" não aparece.', // pegadinha
+    video: 'direitos dos trabalhadores art 7 constituição concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO ADMINISTRATIVO (a20 a a23) ===================== */
+  {
+    id: 'a20',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Provimento — reversão e aproveitamento', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O retorno do aposentado por invalidez ao cargo quando cessa a incapacidade, ou do aposentado voluntário por interesse da Administração, chama-se:', // pergunta
+    alternativas: [                     // opções
+      'Readaptação',
+      'Reversão',
+      'Aproveitamento',
+      'Recondução',
+      'Reintegração'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'REVERSÃO = volta do aposentado (v de "velho" voltando). READAPTAÇÃO = servidor capaz muda de cargo por limitação. APROVEITAMENTO = retorna do cargo em disponibilidade. RECONDUÇÃO = volta por inabilitação em estágio probatório ou demissão ilegal em outro cargo.', // explicação
+    dica: 'Macete da IBFC com os R: ReVersão = Velho volta; ReAdaptação = Ajuste por limitação; ReCondução = quebra de Confiança (probatoriedade); ReIntegração = Injustiça revertida; AProveitamento = sobra na gaveta.', // pegadinha
+    video: 'reversão readaptação aproveitamento recondução concurso' // busca no YouTube
+  },
+  {
+    id: 'a21',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'PAD — processo administrativo disciplinar', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Para demitir um servidor estável por falta grave, a Administração deve abrir:', // pergunta
+    alternativas: [                     // opções
+      'Sindicância simples, com decisão do chefe imediato',
+      'Processo administrativo disciplinar com ampla defesa e contraditório',
+      'Processo judicial trabalhista',
+      'Inquérito policial',
+      'Avaliação de desempenho ordinária'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A demissão do estável exige PAD (processo administrativo disciplinar) com ampla defesa e contraditório — garantias do art. 5º, LV. Sem defesa, a demissão é nula; a sindicância serve para infrações leves.', // explicação
+    dica: 'A CESPE troca PAD com sindicância: PAD = penalidade grave (demissão, cassação de aposentadoria) e tem comissão de 3 servidores estáveis; sindicância = falta leve (advertência, suspensão até 30 dias).', // pegadinha
+    video: 'processo administrativo disciplinar pad servidor concurso' // busca no YouTube
+  },
+  {
+    id: 'a22',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Licitação — tipos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Na Lei 14.133/2021, são tipos de licitação previstos:', // pergunta
+    alternativas: [                     // opções
+      'Menor preço e melhor técnica',
+      'Maior preço e pior técnica',
+      'Apenas menor preço',
+      'Sorteio e menor tempo',
+      'Maior desconto e melhor apresentação'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A nova lei define os tipos (o critério de julgamento): menor preço; melhor técnica ou conteúdo artístico; técnica e preço; maior lance ou oferta; e maior desconto. Não confunda com as MODALIDADES (concorrência, pregão, diálogo competitivo etc.).', // explicação
+    dica: 'A FCC mistura TIPO (critério de julgamento — como vence) com MODALIDADE (forma da disputa — como se licita). Menor preço/técnica e preço/maior lance são tipos; pregão/concorrência/diálogo são modalidades.', // pegadinha
+    video: 'tipos de licitação menor preço melhor técnica lei 14133' // busca no YouTube
+  },
+  {
+    id: 'a23',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Controle da Administração',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O controle INTERNO da Administração Pública é exercido:', // pergunta
+    alternativas: [                     // opções
+      'Pelo Judiciário, que revoga atos ilegais',
+      'Pela própria Administração sobre seus órgãos e agentes (autocontrole, com a autotutela)',
+      'Apenas pelo Tribunal de Contas',
+      'Somente pelo Congresso Nacional',
+      'Pelas empresas contratadas fiscalizando o órgão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O controle interno é o que a própria Administração exerce sobre si (corregedorias, ouvidorias, autotutela): anula atos ilegais e revoga os inconvenientes. Judiciário e TCU são controle EXTERNO; o popular também existe (ações populares, audiências).', // explicação
+    dica: 'Três controles da CESPE: interno (ela mesma, com autotutela — pode anular E revogar), externo (legislativo com TCU, e judiciário — que só ANULA, nunca revoga) e popular (sociedade). O juiz nunca revoga: não julga conveniência.', // pegadinha
+    video: 'controle da administração interno externo judicial concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — ATUALIDADES (t19 a t21) ===================== */
+  {
+    id: 't19',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'BRICS',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Os países que formam o núcleo original do BRICS são:', // pergunta
+    alternativas: [                     // opções
+      'Brasil, Rússia, Índia, China e África do Sul',
+      'Brasil, Rússia, Itália, China e Suécia',
+      'Bolívia, Rússia, Índia, Chile e África do Sul',
+      'Brasil, Reino Unido, Índia, Canadá e Sudão',
+      'Brasil, Argentina, Índia, China e Nigéria'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'BRICS = Brasil, Rússia, Índia, China e África do Sul (o "S" entrou em 2010, o acrônimo era BRIC). Bloco de economias emergentes com o Novo Banco de Desenvolvimento — que vem se ampliando com novos membros.', // explicação
+    dica: 'A banca troca as iniciais: S é ÁFRICA DO SUL, não Suécia nem Sudão. E BRICS ≠ Mercosul ≠ ONU — é um fórum de cooperação econômica, não tratado de livre comércio.', // pegadinha
+    video: 'o que são os brics países membros resumo' // busca no YouTube
+  },
+  {
+    id: 't20',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia — IPCA',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O IPCA, divulgado mensalmente, é:', // pergunta
+    alternativas: [                     // opções
+      'O índice oficial de inflação do Brasil, medido pelo IBGE',
+      'A taxa de juros básica da economia',
+      'O imposto sobre produtos industrializados',
+      'O índice de preços das ações da Bolsa',
+      'A taxa de desemprego do país'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'IPCA = Índice Nacional de Preços ao Consumidor Amplo: o índice oficial da inflação, calculado pelo IBGE com a cesta de consumo das famílias de 1 a 40 salários mínimos. A meta de inflação do Banco Central é definida sobre ele.', // explicação
+    dica: 'Par que a IBFC sempre troca: IPCA mede INFLAÇÃO (IBGE); Selic é JUROS (Copom). E a meta de inflação é definida pelo Conselho Monetário Nacional, não pelo BC sozinho.', // pegadinha
+    video: 'o que é ipca inflação ibge resumo' // busca no YouTube
+  },
+  {
+    id: 't21',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Eleições — TSE',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O Tribunal Superior Eleitoral (TSE) é o órgão que:', // pergunta
+    alternativas: [                     // opções
+      'Julga crimes comuns cometidos por deputados federais',
+      'Dirige a Justiça Eleitoral, organiza as eleições e registra candidaturas e partidos',
+      'Fiscaliza as contas da União',
+      'Define os salários dos vereadores',
+      'Comanda as Forças Armadas durante as eleições'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O TSE é o topo da Justiça Eleitoral (com os TREs estaduais e os juízos eleitorais): registra partidos e candidaturas, supervisiona a votação e a totalização e julga os recursos eleitorais.', // explicação
+    dica: 'A FCC mistura tribunais: TSE = eleições; STF = constitucional; STJ = leis federais; TST = trabalhista; STM = militar. Cada tribunal tem seu "assunto" — troque e erre.', // pegadinha
+    video: 'tse tribunal superior eleitoral funções resumo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — HISTÓRIA DO BRASIL (h17 a h19) ===================== */
+  {
+    id: 'h17',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Revolução de 1930',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Revolução de 1930 encerrou a República Velha ao:', // pergunta
+    alternativas: [                     // opções
+      'Proclamar a independência',
+      'Impedir a posse de Júlio Prestes e levar Getúlio Vargas ao poder',
+      'Assinar a Lei Áurea',
+      'Implantar a ditadura militar de 1964',
+      'Criar a CLT'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Aliança Liberal (Vargas) perdeu a eleição de 1930 para Júlio Prestes (candidato do "café com leite"), mas um movimento armado depôs Washington Luís e impediu a posse — Vargas assumiu e ficou 15 anos.', // explicação
+    dica: 'Sequência que a banca embaralha: República Velha (1889-1930) → Revolução de 30 → Era Vargas (1930-45). A CLT é de 1943, dentro de Vargas — não "causou" a revolução.', // pegadinha
+    video: 'revolução de 1930 getúlio vargas república velha resumo' // busca no YouTube
+  },
+  {
+    id: 'h18',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'JK — Plano de Metas e Brasília', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O governo Juscelino Kubitschek (1956-1961) ficou marcado pelo:', // pergunta
+    alternativas: [                     // opções
+      'Plano de Metas ("50 anos em 5") e a construção de Brasília',
+      'Fim da escravidão',
+      'Início da ditadura militar',
+      'Programa de privatizações dos anos 90',
+      'Retorno da família real ao poder'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'JK prometeu desenvolver o país "50 anos em 5": industrialização pesada, automobilística e a transferência da capital para Brasília (inaugurada em 1960, projetada por Lúcio Costa e Niemeyer).', // explicação
+    dica: 'JK = otimismo + desenvolvimentismo + Brasília. A banca coloca "privatizações" (anos 90, FHC/Collor) como isca — cada era tem seu pacote econômico.', // pegadinha
+    video: 'governo jk plano de metas brasília resumo' // busca no YouTube
+  },
+  {
+    id: 'h19',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Segundo Reinado — economia cafeeira', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'No Segundo Reinado (1840-1889), a principal base econômica do Império era:', // pergunta
+    alternativas: [                     // opções
+      'A indústria automobilística',
+      'A cafeicultura do Vale do Paraíba e do Oeste Paulista, com trabalho escravo e depois imigrante',
+      'A mineração de ouro em Minas Gerais',
+      'A exploração de petróleo no litoral',
+      'O comércio de especiarias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O café sustentou o Império: do Vale do Paraíba (RJ/SP, com escravos) migrou para o Oeste Paulista, onde a imigração europeia (sobretudo italiana) foi substituindo a mão de obra escravizada depois de 1850.', // explicação
+    dica: 'A banca antecipa o ciclo: ouro = século XVIII (Minas colonial); café = XIX (Império); petróleo = XX. Cada produto tem seu século — troque e erre.', // pegadinha
+    video: 'ciclo do café segundo reinado economia resumo' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — GEOGRAFIA (g18 a g20) ===================== */
+  {
+    id: 'g18',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Problemas urbanos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O processo de "periferização" das cidades brasileiras refere-se a:', // pergunta
+    alternativas: [                     // opções
+      'O esvaziamento dos centros urbanos em favor do campo',
+      'O crescimento urbano desordenado, com habitação precária e falta de serviços nos limites da cidade',
+      'A criação de novas capitais planejadas',
+      'O retorno da população aos municípios pequenos',
+      'A demolição de favelas para construir parques'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A periferização é o empurrão da população pobre para os limites da cidade: moradia precária (favelas, ocupações, loteamentos irregulares), longe do emprego e sem saneamento/transporte adequados.', // explicação
+    dica: 'Termos do par do ENEM: periferização (segregação nos limites) x gentrificação (valorização que expulsa o pobre do centro renovado). Os dois produzem segregação urbana — em direções opostas.', // pegadinha
+    video: 'periferização e segregação urbana brasil resumo' // busca no YouTube
+  },
+  {
+    id: 'g19',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Setores da economia',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A agropecuária e a mineração pertencem ao setor da economia chamado:', // pergunta
+    alternativas: [                     // opções
+      'Primário',
+      'Secundário',
+      'Terciário',
+      'Quaternário',
+      'Informal'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Setor primário = extração da natureza (agricultura, pecuária, mineração, pesca). Secundário = indústria e transformação. Terciário = serviços e comércio (o maior empregador do Brasil).', // explicação
+    dica: 'A IBFC troca os setores de propósito: professor, médico e motorista são TERCIÁRIOS (serviços); fábrica é SECUNDÁRIO; fazenda e mina são PRIMÁRIO. Decore pela ordem do processo produtivo.', // pegadinha
+    video: 'setores da economia primário secundário terciário resumo' // busca no YouTube
+  },
+  {
+    id: 'g20',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Cartografia — projeções',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Ao representar a Terra esférica em um mapa plano, as projeções cartográficas sempre:', // pergunta
+    alternativas: [                     // opções
+      'Eliminam totalmente as distorções',
+      'Geram algum tipo de distorção de forma, área, distância ou direção',
+      'Aumentam o tamanho real dos países',
+      'Preservam perfeitamente todas as proporções',
+      'Só funcionam no hemisfério norte'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'É impossível "achatar" uma esfera sem deformar: cada projeção preserva uma propriedade (forma, área, distância ou direção) e sacrifica as demais — por isso existem várias projeções para usos diferentes.', // explicação
+    dica: 'A FCC cobra o par famoso: Mercator (preserva formas/direções, distorce áreas — Groenlândia gigante) x Peters (preserva áreas/proporções, distorce formas). Nenhuma projeção é perfeita — escolhe-se pela finalidade.', // pegadinha
+    video: 'projeções cartográficas mercator peters distorções resumo' // busca no YouTube
   }
 ];

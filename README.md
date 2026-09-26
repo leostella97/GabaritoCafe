@@ -2,6 +2,8 @@
 
 > **Estude com sabor de aprovação.**
 > Um sistema de estudos para concursos públicos e vestibulares que roda 100% no seu navegador: você importa o edital, descobre o que estudar, faz simulados com correção comentada e acompanha seu progresso — tudo num clima de cafeteria.
+>
+> 🤖 *Projeto desenvolvido com auxílio de inteligência artificial — modelo **SWE-2** (Devin, da Cognition).*
 
 ---
 
@@ -45,7 +47,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | 💡 **Tela de dicas** | 16 dicas importantes em 4 categorias (rotina, técnicas de estudo, hora da prova, corpo e véspera) + as dicas rápidas de prova. |
 | 🎯 **Onde focar agora** | O dashboard analisa seu histórico, aponta a matéria mais fraca e cria um simulado focado nela com um clique. |
 | 🗺️ **Plano de estudo** | Para cada matéria detectada, mostra o que mais cai e por onde começar (ou avisa honestamente se ainda não tem resumo daquela matéria). |
-| 📝 **Simulados** | 5, 10, 15, 20, 30 ou 50 questões, com filtro por **uma ou várias matérias** (chips de múltipla escolha, com a contagem de cada uma), por estilo de banca e por **dificuldade** (fácil, médio e difícil). Alternativas sempre embaralhadas. |
+| 📝 **Simulados** | 5, 10, 15, 20, 30 ou 50 questões, com filtro por **uma ou várias matérias** (chips de múltipla escolha, com a contagem de cada uma), por estilo de banca, por **dificuldade** (fácil, médio e difícil) e por **nível do concurso** (nível médio e nível superior). Alternativas sempre embaralhadas. |
 | ✅ **Correção comentada** | Acertou: explicação para consolidar. Errou: o que errou, o gabarito, o **passo a passo** e a **pegadinha da banca**. |
 | 🎥 **Aula no YouTube** | Toda questão tem um link "Assistir aula sobre o tema" que abre a busca do YouTube com a matéria certa. |
 | 🏁 **Resultado final** | Acertos, erros, aproveitamento, tempo de prova, desempenho por matéria e revisão das erradas (com a opção de **refazer só as erradas**). |
@@ -110,7 +112,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 208 questões comentadas
+│   ├── banco-questoes.js      # Banco com 268 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -147,6 +149,7 @@ Abra `js/banco-questoes.js` e cole um bloco novo **antes do último `];`**, segu
   materia: 'Língua Portuguesa',                 // matéria (usada nos filtros)
   tema: 'Concordância verbal',                  // assunto da questão
   nivel: 'medio',                               // dificuldade: 'facil', 'medio' ou 'dificil'
+  ensino: 'medio',                              // nível do concurso: 'medio' ou 'superior'
   banca: 'CESPE/Cebraspe',                      // banca cujo estilo inspira
   enunciado: 'Texto da pergunta...',            // a pergunta
   alternativas: ['opção A', 'opção B', '...'],  // 2 a 5 alternativas
@@ -173,7 +176,7 @@ A análise é uma **heurística honesta** (sem servidor, sem IA paga) — e fico
 1. **Texto**: o PDF é convertido em texto com PDF.js;
 2. **Normalização**: acentos viram letras simples e tudo vira maiúsculo (PDFs costumam bagunçar acentos);
 3. **Cargos**: procura a seção "DOS CARGOS/VAGAS", varre linhas com palavras típicas (Agente, Analista, Técnico, Professor...) e limpa numeração, salários e vagas — parando quando começa a próxima seção (para não confundir "requisitos" com "cargo");
-4. **Matérias**: compara o texto com um catálogo de **22 matérias** e marca quais já têm questões no banco. A comparação é por **palavra inteira**, então "ARITMÉTICA" não vira "ÉTICA" 😄;
+4. **Matérias**: compara o texto com um catálogo de **24 matérias** e marca quais já têm questões no banco. A comparação é por **palavra inteira**, então "ARITMÉTICA" não vira "ÉTICA" 😄;
 5. **Banca organizadora**: reconhece **18 bancas** (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, AOCP, IDECAN, QUADRIX...) e confirma pelo contexto ("banca", "organizadora", "realização");
 6. **Datas**: acha datas em dois formatos (12/03/2025 e "12 de março de 2025") e classifica cada uma pelo **contexto da própria linha**: inscrições, prova ou resultado. Com a data da prova, o app mostra a **contagem regressiva** em dias;
 7. **Números**: extrai vagas, faixa salarial, taxa de inscrição, número de questões e validade do concurso;
@@ -217,7 +220,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 208 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 268 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos
