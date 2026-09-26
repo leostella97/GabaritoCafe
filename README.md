@@ -81,7 +81,6 @@ O visual segue o nome: fundo creme, marrom de café torrado, caramelo nos destaq
 | **localStorage** | Contas, sessão, histórico e progresso |
 | **GitHub Pages** | Hospedagem gratuita (estática) |
 
-Nenhum framework, nenhum build, nenhuma dependência para instalar. É só abrir o `index.html` (ou publicar no GitHub Pages) e usar.
 
 ---
 
@@ -111,7 +110,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 128 questões comentadas
+│   ├── banco-questoes.js      # Banco com 168 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -127,64 +126,13 @@ gabarito-cafe/
 
 > 💡 **Por que separar a lógica da tela?** Arquivos como `analise-edital.js` e `motor-simulado.js` não tocam em nada visual — dá para testá-los com Node (é o que os scripts de `scripts/` fazem) e, no futuro, trocar a interface sem mexer no cérebro do app.
 
----
 
-## 🚀 Como rodar localmente
-
-**Opção 1 — o jeito mais preguiçoso (e honesto):**
-Dê dois cliques no `index.html` e pronto. (A leitura de PDF e as fontes usam internet; o resto funciona offline.)
-
-**Opção 2 — servidorzinho com Python** (recomendado, evita frescura de navegador):
-```bash
-python -m http.server 8080
-# abra http://localhost:8080
-```
-
-**Opção 3 — com Node:**
-```bash
-npx serve .
-```
-
----
-
-## 🐙 Como publicar no GitHub (isolado dos outros projetos)
-
-O projeto já é um repositório Git independente — ele **não interfere** em nenhum outro projeto seu, desde que você publique em um repositório novo.
-
-**Passo a passo (pela web):**
-1. Entre no GitHub e clique em **New repository**;
-2. Dê um nome bonito (ex.: `gabarito-cafe`);
-3. **NÃO marque** "Add a README" (o projeto já tem o dele);
-4. Crie e copie a URL do repositório (ex.: `https://github.com/seu-usuario/gabarito-cafe.git`).
-
-**Passo a passo (no terminal, dentro da pasta do projeto):**
-```bash
-# 1. Confira se você está na pasta certa (D:\dev\Gabarito Café)
-git status
-
-# 2. Conecte o repositório local ao remoto que você criou
-git remote add origin https://github.com/SEU-USUARIO/gabarito-cafe.git
-
-# 3. Envie tudo para o GitHub (branch main)
-git branch -M main
-git push -u origin main
-```
-
-**Publicar no GitHub Pages:**
-1. No repositório, vá em **Settings → Pages**;
-2. Em *Source*, escolha **Deploy from a branch** e a branch `main` (pasta `/ (root)`;
-3. Salve e aguarde ~1 minuto. Seu site ficará em:
-   `https://SEU-USUARIO.github.io/gabarito-cafe/`
-
-> ⚠️ **Mantenha o isolamento:** nunca rode `git init` nem publique esse projeto dentro de outro repositório. Ele já tem o próprio `.git` — cada projeto, seu cantinho.
-
----
 
 ## 🔒 Privacidade e segurança
 
 - **Tudo fica no seu navegador.** Contas, senhas (com hash SHA-256), histórico de simulados e o texto do edital são guardados no `localStorage` — nada é enviado para servidores.
 - O PDF do edital é lido **localmente** pela biblioteca PDF.js; o arquivo não sai do seu computador.
-- Isso **não é segurança bancária**: o hash de senha é proteção contra olho curioso, não contra alguém com acesso físico ao navegador. Para uso pessoal de estudos, é mais que suficiente (e é exatamente o que foi pedido no projeto).
+- Isso **não é segurança bancária**: o hash de senha é proteção contra olho curioso, não contra alguém com acesso físico ao navegador. Para uso pessoal de estudos, é mais que suficiente.
 - Quer apagar tudo? Limpe os dados do site nas configurações do navegador (chaves começando com `gc_`).
 
 ---
@@ -268,7 +216,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 128 questões estão íntegras (ids, alternativas, campos)
+# Confere se todas as 168 questões estão íntegras (ids, alternativas, campos)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos

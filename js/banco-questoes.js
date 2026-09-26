@@ -2510,5 +2510,780 @@ const BancoQuestoes = [
     explicacao: 'O PIX é o sistema de pagamentos instantâneos do Banco Central: transferências e pagamentos em segundos, 24 horas por dia, usando chave PIX, QR Code, dados bancários ou aproximação.', // explicação
     dica: 'PIX não é criptomoeda nem cartão: é um sistema de pagamento instantâneo com trilha bancária. A banca explora a confusão entre PIX e cripto.', // pegadinha
     video: 'o que é pix banco central como funciona' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — LÍNGUA PORTUGUESA (p26 a p29) ===================== */
+  // TEAM_001: novo lote de 40 questões (total: 168)
+  {
+    id: 'p26',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Classes de palavras — pronome relativo "que"', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Em "O candidato que estuda todos os dias aprende", a palavra "que" é:', // pergunta
+    alternativas: [                     // opções
+      'Conjunção integrante',
+      'Pronome relativo',
+      'Advérbio de modo',
+      'Preposição',
+      'Conjunção coordenativa'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "que" retoma "candidato" (antecedente) e introduz uma oração adjetiva — é pronome relativo. Teste clássico: dá para trocar por "o qual" (o candidato O QUAL estuda). Na conjunção integrante, a troca não funciona.', // explicação
+    dica: 'CESPE cobra essa distinção direto: "que" trocável por "o qual/a qual" = pronome relativo; "que" introduzindo oração substantiva ("espero que chova") = conjunção integrante.', // pegadinha
+    video: 'que pronome relativo ou conjunção integrante para concurso' // busca no YouTube
+  },
+  {
+    id: 'p27',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Coesão — referência anafórica', // assunto
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'No trecho "O aluno comprou a apostila e levou-a para casa", o elemento "a" refere-se a:', // pergunta
+    alternativas: [                     // opções
+      'O aluno',
+      'A apostila',
+      'A casa',
+      'O estudo',
+      'O material'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O pronome oblíquo "a" retoma "apostila", termo já citado — é referência anafórica (aponta para trás no texto). A FGV adora perguntar a quem o pronome se refere.', // explicação
+    dica: 'Para achar o referente, procure o substantivo mais próximo que combine em gênero e número com o pronome ("a" feminino singular → apostila). Não caia no primeiro substantivo da frase.', // pegadinha
+    video: 'coesão referencial anáfora pronome para concurso' // busca no YouTube
+  },
+  {
+    id: 'p28',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Ortografia — mal x mau / bem x bom', // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Assinale a frase correta quanto ao uso de "mal" e "mau":', // pergunta
+    alternativas: [                     // opções
+      'O aluno foi mau na prova de matemática.',
+      'O mal comportamento do aluno gerou advertência.',
+      'Ele está sempre de mau humor.',
+      'Fizeram mal julgamento do professor.',
+      'O professor é mal com os alunos.'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Mau" é adjetivo (oposto de bom): mau humor, mau comportamento. "Mal" é advérbio ou substantivo (oposto de bem/malefício): foi mal na prova, fez o mal. Troque por "bom/bem" para conferir.', // explicação
+    dica: 'Regra rápida da IBFC: MAU ↔ BOM (adjetivos), MAL ↔ BEM (advérbio). Se dá para trocar por "bom", é "mau" com U.', // pegadinha
+    video: 'diferença entre mal e mau para concurso' // busca no YouTube
+  },
+  {
+    id: 'p29',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Sinônimos — variante contextual', // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No trecho "o edital saiu de forma abrupta, sem aviso", a palavra "abrupta" pode ser substituída, sem prejuízo de sentido, por:', // pergunta
+    alternativas: [                     // opções
+      'gradual',
+      'repentina',
+      'lenta',
+      'parcial',
+      'definitiva'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Abrupto" significa súbito, repentino — algo que acontece de uma vez. "Gradual" e "lenta" são antônimos; "parcial" e "definitiva" fogem do sentido do contexto.', // explicação
+    dica: 'A FCC cobra sinônimo SEMPRE no contexto da frase, nunca de dicionário puro. Leia a frase inteira antes de marcar o sinônimo mais óbvio.', // pegadinha
+    video: 'sinônimos em contexto para concurso como resolver' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — MATEMÁTICA (m25 a m28) ===================== */
+  {
+    id: 'm25',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Frações',                    // assunto
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Um candidato estudou 3/5 de um edital de 200 tópicos. Quantos tópicos ainda faltam estudar?', // pergunta
+    alternativas: [                     // opções
+      '60',
+      '80',
+      '100',
+      '120',
+      '140'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Calcule o que já foi estudado: 3/5 de 200 = (200 ÷ 5) × 3 = 40 × 3 = 120.',
+      'Subtraia do total: 200 − 120 = 80 tópicos.'
+    ],
+    explicacao: '3/5 de 200 são 120 tópicos estudados; restam 80. A pergunta é sobre o que FALTA, não sobre o que já foi feito.', // explicação
+    dica: 'A alternativa "120" é o valor estudado — a Vunesp aposta que você marca a primeira conta que aparece. Confira o comando: estudou ou faltam?', // pegadinha
+    video: 'frações problemas para concurso como resolver' // busca no YouTube
+  },
+  {
+    id: 'm26',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Conversão de unidades (tempo)', // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um simulado durou 2 horas e 45 minutos. Quantos minutos durou o simulado?', // pergunta
+    alternativas: [                     // opções
+      '105 minutos',
+      '120 minutos',
+      '145 minutos',
+      '165 minutos',
+      '245 minutos'
+    ],
+    correta: 3,                         // índice da certa
+    passos: [                           // passo a passo
+      'Converta as horas: 2 h × 60 = 120 minutos.',
+      'Some os minutos restantes: 120 + 45 = 165 minutos.'
+    ],
+    explicacao: 'Cada hora tem 60 minutos: 2 horas são 120 minutos, mais os 45 avulsos, totalizam 165 minutos.', // explicação
+    dica: 'A alternativa "120" é só a conversão das horas — a IBFC deixa a conta incompleta de propósito. Converta tudo para a MESMA unidade antes de somar.', // pegadinha
+    video: 'conversão de unidades de tempo horas minutos para concurso' // busca no YouTube
+  },
+  {
+    id: 'm27',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Equação do 2º grau',         // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'As raízes da equação x² − 5x + 6 = 0 são:', // pergunta
+    alternativas: [                     // opções
+      'x = 1 e x = 6',
+      'x = 2 e x = 3',
+      'x = −2 e x = −3',
+      'x = 5 e x = 1',
+      'x = 6 e x = −1'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Por Bhaskara ou por soma e produto: dois números que somam 5 e multiplicam 6.',
+      '2 + 3 = 5 e 2 × 3 = 6.',
+      'As raízes são x = 2 e x = 3.'
+    ],
+    explicacao: 'Usando as relações de Girard: soma das raízes = −b/a = 5; produto = c/a = 6. Os números 2 e 3 satisfazem as duas condições — muito mais rápido que Bhaskara.', // explicação
+    dica: 'Soma e produto resolvem equações com raízes inteiras em segundos. A alternativa "−2 e −3" pega quem esquece que com produto positivo e soma positiva as duas raízes são positivas.', // pegadinha
+    video: 'equação do segundo grau soma e produto para concurso' // busca no YouTube
+  },
+  {
+    id: 'm28',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Velocidade média',           // assunto
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Um candidato dirigiu 240 km para prestar concurso e gastou 3 horas no trajeto. Qual foi a velocidade média da viagem?', // pergunta
+    alternativas: [                     // opções
+      '60 km/h',
+      '70 km/h',
+      '80 km/h',
+      '90 km/h',
+      '96 km/h'
+    ],
+    correta: 2,                         // índice da certa
+    passos: [                           // passo a passo
+      'Aplique a fórmula: velocidade média = distância ÷ tempo.',
+      'v = 240 ÷ 3 = 80 km/h.'
+    ],
+    explicacao: 'Velocidade média é a razão entre a distância total e o tempo total: 240 km em 3 horas dão 80 km/h.', // explicação
+    dica: 'Fórmula para decorar: v = Δs/Δt. A Vunesp inverte a conta nas alternativas erradas — quem divide 3 por 240 acha um número absurdo e desespera.', // pegadinha
+    video: 'velocidade média problemas para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — RACIOCÍNIO LÓGICO (r19 a r22) ===================== */
+  {
+    id: 'r19',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Calendários — dias da semana', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se hoje é sábado, daqui a 100 dias será:', // pergunta
+    alternativas: [                     // opções
+      'Domingo',
+      'Segunda-feira',
+      'Terça-feira',
+      'Quarta-feira',
+      'Sexta-feira'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Divida 100 por 7 (dias da semana): 100 = 7 × 14 + 2.',
+      'O resto é 2: basta avançar 2 dias a partir de sábado.',
+      'Sábado + 1 = domingo; sábado + 2 = segunda-feira.'
+    ],
+    explicacao: 'Em problemas de calendário, só o resto da divisão por 7 importa. 100 dias têm 14 semanas completas (que voltam para sábado) e sobram 2 dias: segunda-feira.', // explicação
+    dica: 'A CESPE adora números grandes para assustar: 100, 365, 1.000 dias. Divida por 7 e trabalhe só com o resto — semanas inteiras não mudam o dia.', // pegadinha
+    video: 'calendário dias da semana raciocínio lógico para concurso' // busca no YouTube
+  },
+  {
+    id: 'r20',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Associações lógicas',        // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Ana, Bia e Caio bebem, cada um, uma bebida diferente: café, chá e suco. Ana não bebe chá. Bia não bebe suco. Caio não bebe café nem suco. Qual é a bebida de Ana?', // pergunta
+    alternativas: [                     // opções
+      'Café',
+      'Chá',
+      'Suco',
+      'Café ou suco',
+      'Não é possível determinar'
+    ],
+    correta: 2,                         // índice da certa
+    passos: [                           // passo a passo
+      'Caio não bebe café nem suco → só sobra chá para Caio.',
+      'Restam café e suco para Ana e Bia. Bia não bebe suco → Bia fica com o café.',
+      'Sobra o suco para Ana (que não bebe chá, mas chá já é de Caio).'
+    ],
+    explicacao: 'Resolva por quem tem mais restrições: Caio só pode beber chá. Sobram café e suco; como Bia não bebe suco, ela fica com o café, e o suco sobra para Ana — que, aliás, não bebe chá mesmo.', // explicação
+    dica: 'Monte uma tabela (pessoas × bebidas) e marque X nas impossibilidades. Preencha primeiro quem tem MAIS restrições (Caio); o resto da tabela se resolve sozinho.', // pegadinha
+    video: 'associações lógicas problemas para concurso tabela' // busca no YouTube
+  },
+  {
+    id: 'r21',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Conjuntos — união e interseção', // assunto
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Em uma turma de 40 alunos, 25 estudam inglês, 18 estudam espanhol e 10 estudam os dois idiomas. Quantos alunos não estudam nenhum dos dois?', // pergunta
+    alternativas: [                     // opções
+      '5',
+      '7',
+      '8',
+      '10',
+      '12'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Use a fórmula: |I ∪ E| = |I| + |E| − |I ∩ E| = 25 + 18 − 10 = 33.',
+      'Subtraia do total: 40 − 33 = 7 alunos.'
+    ],
+    explicacao: 'Somando 25 + 18 = 43, os 10 alunos que estudam os dois foram contados duas vezes — desconte-os uma vez: 33 estudam ao menos um idioma. Os 7 restantes não estudam nenhum.', // explicação
+    dica: 'O erro clássico é somar 25 + 18 = 43 e marcar que "estourou a turma". A interseção ("estudam os dois") é o ajuste — sempre subtraia uma vez.', // pegadinha
+    video: 'conjuntos união interseção diagrama de venn para concurso' // busca no YouTube
+  },
+  {
+    id: 'r22',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Quantificadores — todo/algum', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se "todo aprovado estuda", então é correto concluir que:', // pergunta
+    alternativas: [                     // opções
+      'Quem estuda é aprovado',
+      'Quem não estuda não é aprovado',
+      'Algum aprovado não estuda',
+      'Todo estudioso é aprovado',
+      'Nenhum aprovado estuda'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Todo A é B" equivale à contrapositiva "quem não é B não é A": quem não estuda não pode ser aprovado. Inverter ("quem estuda é aprovado") é o erro clássico — o enunciado não garante isso.', // explicação
+    dica: 'CESPE explora a inversão indevida: "Todo aprovado estuda" NÃO quer dizer "Todo que estuda é aprovado". A contrapositiva preserva o sentido; a inversão, não.', // pegadinha
+    video: 'quantificadores todo algum nenhum lógica para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — INFORMÁTICA (i17 a i20) ===================== */
+  {
+    id: 'i17',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Internet — URL, IP e DNS',   // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Em "https://www.site.com.br/provas", o endereço completo é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'Endereço IP',
+      'URL',
+      'Servidor DNS',
+      'Cookie de sessão',
+      'Firewall'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'URL é o endereço completo de um recurso na web (protocolo + domínio + caminho). O IP é o número do servidor; o DNS é o serviço que traduz o domínio em IP; o "https" é o protocolo seguro.', // explicação
+    dica: 'A FCC mistura URL, IP e DNS na mesma questão: URL = o endereço que você digita; IP = o número por trás dele; DNS = a "agenda telefônica" que faz a tradução.', // pegadinha
+    video: 'o que é url ip dns diferença informática para concurso' // busca no YouTube
+  },
+  {
+    id: 'i18',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'E-mail — campos Cc e Cco',   // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Ao enviar um e-mail, o campo "Cco" (Bcc) serve para:', // pergunta
+    alternativas: [                     // opções
+      'Enviar cópia visível para todos os destinatários',
+      'Enviar cópia oculta: os demais destinatários não veem quem recebeu',
+      'Anexar arquivos grandes ao e-mail',
+      'Marcar o e-mail como urgente',
+      'Encaminhar a mensagem automaticamente'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cco = cópia oculta: quem está nesse campo recebe a mensagem, mas não aparece para os demais destinatários. Já o "Cc" envia cópia visível para todos.', // explicação
+    dica: 'Decore o par da IBFC: Cc = cópia VISÍVEL (com carbono); Cco = cópia OCULTA (com carbono oculto). A banca inverte os dois nas alternativas.', // pegadinha
+    video: 'campo cc cco bcc e-mail para concurso informática' // busca no YouTube
+  },
+  {
+    id: 'i19',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Armazenamento em nuvem',     // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma vantagem de guardar arquivos em nuvem (Google Drive, OneDrive) em relação ao disco local é:', // pergunta
+    alternativas: [                     // opções
+      'Os arquivos ficam inacessíveis fora do computador',
+      'O acesso de qualquer dispositivo conectado à internet, com sincronização automática',
+      'A impossibilidade de compartilhar arquivos com outras pessoas',
+      'A garantia de que os arquivos jamais serão apagados',
+      'O uso obrigatório de senha única para cada arquivo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nuvem = servidores remotos acessados pela internet: os arquivos ficam disponíveis em qualquer dispositivo, sincronizam sozinhos e facilitam o compartilhamento — sem depender de um único computador.', // explicação
+    dica: 'Pegadinha CESPE: "nuvem" NÃO é um lugar mágico — são servidores de outras pessoas. E o acesso exige internet (ou sincronização prévia); quem diz "funciona sempre offline" está errado.', // pegadinha
+    video: 'armazenamento em nuvem google drive onedrive para concurso' // busca no YouTube
+  },
+  {
+    id: 'i20',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Internet x intranet',        // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A principal diferença entre internet e intranet é que a intranet:', // pergunta
+    alternativas: [                     // opções
+      'É uma rede restrita a uma organização, com acesso limitado a usuários autorizados',
+      'É uma rede pública mundial acessível por qualquer pessoa',
+      'Funciona sem uso do protocolo TCP/IP',
+      'Não permite acesso a e-mail corporativo',
+      'Substitui a internet em todas as funções'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A intranet usa a mesma tecnologia da internet (TCP/IP, navegador, e-mail), mas é privada: restrita a funcionários de uma empresa ou órgão, geralmente acessada via login ou rede interna.', // explicação
+    dica: 'A CESPE vende a ideia de que intranet usa tecnologia diferente — errado: ela usa a MESMA tecnologia da internet; o que muda é quem pode acessar.', // pegadinha
+    video: 'diferença entre internet e intranet para concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO CONSTITUCIONAL (c13 a c16) ===================== */
+  {
+    id: 'c13',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Art. 5º — proibição de prisão por dívida', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Segundo a Constituição, não haverá prisão civil por dívida, EXCETO a do:', // pergunta
+    alternativas: [                     // opções
+      'Devedor de alimentos e do depositário infiel',
+      'Devedor de impostos e multas',
+      'Devedor de empréstimo bancário',
+      'Fiador em contrato de aluguel',
+      'Responsável por dano em acidente de trânsito'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O art. 5º, LXVII, prevê apenas DUAS exceções à prisão civil por dívida: o devedor voluntário de pensão alimentícia e o depositário infiel (quem não devolve o bem confiado).', // explicação
+    dica: 'A CESPE troca "depositário infiel" por "devedor de impostos" — imposto não gera prisão civil. Decore as duas únicas exceções: ALIMENTOS e DEPÓSITO INFIEL.', // pegadinha
+    video: 'prisão civil por dívida exceções art 5 constituição concurso' // busca no YouTube
+  },
+  {
+    id: 'c14',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Nacionalidade — cargos privativos', // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'São cargos privativos de brasileiros NATOS, EXCETO:', // pergunta
+    alternativas: [                     // opções
+      'Presidente da República',
+      'Ministro de Estado da Fazenda',
+      'Presidente do Senado Federal',
+      'Oficial-general das Forças Armadas',
+      'Ministro do Supremo Tribunal Federal'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 12, §3º, lista os cargos privativos de brasileiros natos: Presidente e Vice da República, presidentes da Câmara e do Senado, ministros do STF, carreira diplomática e oficial-general. Ministro da Fazenda não está na lista.', // explicação
+    dica: 'Macete da FCC: os cargos privativos têm um "G" a mais — general e diplomata; os demais são os "3 P" (Presidente da República, da Câmara, do Senado) mais STF. Ministro de Estado comum não entra.', // pegadinha
+    video: 'brasileiro nato cargos privativos art 12 constituição concurso' // busca no YouTube
+  },
+  {
+    id: 'c15',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Remédios — Habeas Data',     // assunto
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'O remédio constitucional que garante acesso a informações pessoais do próprio requerente em bancos de dados públicos é o:', // pergunta
+    alternativas: [                     // opções
+      'Habeas Corpus',
+      'Habeas Data',
+      'Mandado de Segurança',
+      'Ação Popular',
+      'Mandado de Injunção'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Habeas Data (art. 5º, LXXII) serve para conhecer ou retificar informações pessoais em bancos de dados públicos (ou de caráter público, como o Serasa). HC protege a locomoção; MS protege direito líquido e certo.', // explicação
+    dica: 'A FGV troca HC com HD de propósito: HC = ir e vir (locomoção); HD = informação (DATA = dado). Se a questão fala em "banco de dados" ou "retificar informação", é Habeas Data.', // pegadinha
+    video: 'habeas data remédios constitucionais para concurso' // busca no YouTube
+  },
+  {
+    id: 'c16',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Seguridade social (art. 194)', // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Integram a seguridade social, segundo a Constituição:', // pergunta
+    alternativas: [                     // opções
+      'Saúde, previdência social e assistência social',
+      'Saúde, educação e trabalho',
+      'Previdência, assistência e moradia',
+      'Saúde, habitação e saneamento',
+      'Assistência, alimentação e lazer'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O art. 194 define a seguridade social como um conjunto integrado de ações nas áreas de SAÚDE, PREVIDÊNCIA e ASSISTÊNCIA social. Educação, trabalho e moradia são direitos sociais (art. 6º), mas não integram a seguridade.', // explicação
+    dica: 'Decore a trinca PAS: Previdência + Assistência + Saúde = Seguridade. A IBFC enfia educação e moradia (que são do art. 6º) no meio para confundir.', // pegadinha
+    video: 'seguridade social saúde previdência assistência art 194 concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — DIREITO ADMINISTRATIVO (a12 a a15) ===================== */
+  {
+    id: 'a12',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Ato discricionário x vinculado', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O ato administrativo é DISCRICIONÁRIO quando:', // pergunta
+    alternativas: [                     // opções
+      'A lei deixa margem de juízo de conveniência e oportunidade ao administrador',
+      'A lei define rigorosamente todos os requisitos do ato',
+      'O administrador atua contra a vontade da lei',
+      'O ato é praticado por agente incompetente',
+      'O ato não produz efeitos jurídicos'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'No ato discricionário, a lei deixa liberdade de escolha (juízo de conveniência e oportunidade) no motivo e/ou no objeto — ex.: aplicar ou não uma sanção. No ato vinculado, tudo está predeterminado na lei.', // explicação
+    dica: 'Palavras-chave da CESPE: conveniência + oportunidade + mérito administrativo = discricionariedade. Se a lei amarrar todos os requisitos, é vinculado — sem liberdade.', // pegadinha
+    video: 'ato administrativo discricionário e vinculado diferença concurso' // busca no YouTube
+  },
+  {
+    id: 'a13',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Elementos do ato administrativo', // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Um ato administrativo praticado por agente sem competência legal tem vício no elemento:', // pergunta
+    alternativas: [                     // opções
+      'Forma',
+      'Motivo',
+      'Finalidade',
+      'Competência',
+      'Objeto'
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Os cinco elementos são: competência, finalidade, forma, motivo e objeto. Agente fora da sua competência gera vício de competência — em regra anulável (salvo convalidação).', // explicação
+    dica: 'Mnemônico da FCC: COM-FI-FOR-MO-OB — COmpetência, FInalidade, FORma, MOtivo, OBjeto. Identifique qual elemento a questão descreveu violado.', // pegadinha
+    video: 'elementos do ato administrativo competência finalidade forma concurso' // busca no YouTube
+  },
+  {
+    id: 'a14',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Princípio da autotutela',    // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio que permite à Administração anular seus próprios atos ilegais, sem precisar ir ao Judiciário, é a:', // pergunta
+    alternativas: [                     // opções
+      'Supremacia do interesse público',
+      'Indisponibilidade do interesse público',
+      'Autotutela',
+      'Presunção de legitimidade',
+      'Continuidade do serviço'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A autotutela (Súmulas 346 e 473 do STF) autoriza a Administração a anular atos ilegais e revogar atos inoportunos por conta própria, sem recorrer ao Judiciário.', // explicação
+    dica: 'Associação direta: autotutela = "guarda de si mesma" = anular (ilegal) ou revogar (inconveniente) ato próprio. Controle judicial não é autotutela.', // pegadinha
+    video: 'princípio da autotutela administração pública concurso' // busca no YouTube
+  },
+  {
+    id: 'a15',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Serviço público — concessão x permissão', // assunto
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Na CONCESSÃO de serviço público, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'É ato unilateral e precário, revogável a qualquer tempo',
+      'É contrato entre Administração e concessionária, precedido de licitação',
+      'Dispensa licitação por se tratar de ato administrativo simples',
+      'É proibida a remuneração do concessionário',
+      'É destinada apenas a servidores públicos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Concessão = contrato administrativo firmado após licitação, por prazo determinado; a concessionária se remunera pela tarifa cobrada do usuário (alienígena). A permissão é ato unilateral e precário, mais frágil.', // explicação
+    dica: 'Par que a FGV cobra: CONCESSÃO = contrato + licitação + prazo + tarifa; PERMISSÃO = ato unilateral + precário + revogável. A autorização é ainda mais simples: ato unilateral, sem licitação.', // pegadinha
+    video: 'concessão permissão autorização serviço público diferenças concurso' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — ATUALIDADES (t11 a t14) ===================== */
+  {
+    id: 't11',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Drex (moeda digital)',       // assunto
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O Drex, anunciado pelo Banco Central, é:', // pergunta
+    alternativas: [                     // opções
+      'Uma criptomoeda privada lançada por bancos digitais',
+      'A moeda digital do real (CBDC), emitida pelo Banco Central',
+      'Um novo sistema de transferências para substituir o PIX',
+      'Um cartão de crédito emitido pelo governo federal',
+      'Um índice de inflação para contratos bancários'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Drex é a versão digital do real (moeda digital de banco central — CBDC): mesmo valor do real físico, emitida e garantida pelo Banco Central, focada em contratos inteligentes e tokenização.', // explicação
+    dica: 'Trinca que a banca confunde: PIX (pagamento instantâneo), Drex (moeda digital do BC) e cripto privada (Bitcoin). Drex não substitui o PIX e não é criptomoeda.', // pegadinha
+    video: 'drex moeda digital banco central o que é' // busca no YouTube
+  },
+  {
+    id: 't12',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Reforma tributária (EC 132/2023)', // assunto
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A reforma tributária sobre o consumo (EC 132/2023) prevê, em linhas gerais:', // pergunta
+    alternativas: [                     // opções
+      'A criação de um imposto único sobre renda',
+      'A unificação de tributos sobre consumo em um IVA dual: CBS (federal) e IBS (estadual/municipal)',
+      'O fim de todos os impostos estaduais',
+      'A extinção do Imposto de Renda',
+      'A criação de contribuições municipais sobre serviços digitais apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A reforma substitui PIS/Cofins, ICMS, ISS (e parte do IPI) por um IVA dual: CBS (controle federal) e IBS (estados e municípios), com transição gradual até 2033 e cashback para baixa renda.', // explicação
+    dica: 'Cai muito em concurso de 2024-2026: lembre IVA dual = CBS + IBS. Se a alternativa disser "imposto único" ou "fim do ICMS imediato", está errada — a transição dura anos.', // pegadinha
+    video: 'reforma tributária emenda 132 cbs ibs resumo' // busca no YouTube
+  },
+  {
+    id: 't13',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Mercosul',                   // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'São membros plenos do Mercosul:', // pergunta
+    alternativas: [                     // opções
+      'Brasil, Argentina, Paraguai, Uruguai e Bolívia',
+      'Brasil, Argentina, Chile, Peru e Colômbia',
+      'Brasil, México, Argentina e Estados Unidos',
+      'Brasil, Argentina, Venezuela, Equador e Chile',
+      'Todos os países da América do Sul'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O Mercosul é um bloco econômico fundado em 1991 (Tratado de Assunção). Membros plenos: Brasil, Argentina, Paraguai, Uruguai e Bolívia (que concluiu a adesão). Venezuela está suspensa; Chile é associado.', // explicação
+    dica: 'A FCC mistura membros plenos com associados (Chile, Peru, Colômbia, Equador). E atenção: Mercosul não tem moeda comum — é união aduaneira, não monetária.', // pegadinha
+    video: 'mercosul membros plenos associados resumo' // busca no YouTube
+  },
+  {
+    id: 't14',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Eleições — urna eletrônica', // assunto
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Sobre as urnas eletrônicas brasileiras, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'Foram introduzidas em todas as eleições a partir de 1996',
+      'São conectadas à internet durante a votação para totalização em tempo real',
+      'Foram criadas pelo Congresso Nacional em 2010',
+      'São fabricadas exclusivamente no exterior',
+      'Permitem ao eleitor votar mais de uma vez com checagem digital'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'As urnas eletrônicas foram usadas em todas as eleições desde 1996, são criadas e fiscalizadas pelo TSE e ficam totalmente desconectadas da internet durante a votação — requisito de segurança.', // explicação
+    dica: 'A alternativa "conectadas à internet" é a pegadinha: as urnas funcionam OFFLINE; a totalização acontece depois, por mídia física e transmissão criptografada.', // pegadinha
+    video: 'urna eletrônica como funciona segurança tse' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — HISTÓRIA DO BRASIL (h07 a h12) ===================== */
+  {
+    id: 'h07',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Colonização — capitanias hereditárias', // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O primeiro sistema administrativo usado por Portugal para ocupar o Brasil foi o das:', // pergunta
+    alternativas: [                     // opções
+      'Capitanias hereditárias',
+      'Sesmarias rurais',
+      'Missões jesuíticas',
+      'Companhias de comércio',
+      'Províncias autônomas'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Em 1534, D. João III dividiu o litoral em 15 capitanias hereditárias doadas a particulares (donatários), com poderes quase absolutos. O sistema falhou em parte por ataques indígenas e falta de recursos.', // explicação
+    dica: 'Confusão clássica: capitanias hereditárias (colonização, 1534) x sesmarias (doação de TERRA para cultivo, dentro das capitanias). Capitania = governo; sesmaria = terra.', // pegadinha
+    video: 'capitanias hereditárias história do brasil resumo' // busca no YouTube
+  },
+  {
+    id: 'h08',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura militar — AI-5',    // assunto
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O momento de maior repressão da ditadura militar é associado ao:', // pergunta
+    alternativas: [                     // opções
+      'AI-1, de 1964',
+      'AI-5, de 1968',
+      'Pacote de Abril, de 1977',
+      'Ato Adicional, de 1969',
+      'Referendo de 1963'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O AI-5 (dezembro de 1968) fechou o Congresso, suspendeu direitos políticos e habeas corpus, endureceu a censura e abriu os "anos de chumbo" (1968-1974).', // explicação
+    dica: 'Atos Institucionais têm ordem: AI-1 (64, legitimou o golpe), AI-2 (65, bipartidarismo/Arena-MDB), AI-5 (68, fechou tudo). O vestibular adora a ordem cronológica.', // pegadinha
+    video: 'ai-5 ditadura militar anos de chumbo resumo' // busca no YouTube
+  },
+  {
+    id: 'h09',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Inconfidência Mineira',      // assunto
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Inconfidência Mineira (1789) foi um movimento que:', // pergunta
+    alternativas: [                     // opções
+      'Lutava pelo fim imediato da escravidão em todo o Brasil',
+      'Planejava a independência de Minas Gerais e a implantação de uma república',
+      'Queria a volta da família real a Portugal',
+      'Defendia a coroação de Dom Pedro I',
+      'Reivindicava anistia para os jesuítas expulsos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inspirada no Iluminismo, a Inconfidência reuniu elite mineira, militares e intelectuais contra a derrama (cobrança de tributos). Planejava a independência da capitania e uma república — o delator, Joaquim Silvério dos Reis, entregou todos. Tiradentes foi executado em 1792.', // explicação
+    dica: 'A banca troca o alvo do movimento: era separatista (Minas de Portugal), NÃO o fim da escravidão. "Independência do Brasil" em 1789 é anacronismo — o Brasil nem existia ainda.', // pegadinha
+    video: 'inconfidência mineira 1789 tiradentes resumo história' // busca no YouTube
+  },
+  {
+    id: 'h10',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Segundo Reinado — Guerra do Paraguai', // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Guerra do Paraguai (1864-1870) teve como consequência direta para o Brasil:', // pergunta
+    alternativas: [                     // opções
+      'A independência imediata do Paraguai',
+      'O fortalecimento do Exército e a crise entre militares e a monarquia',
+      'O fim da escravidão no mesmo ano',
+      'A proclamação da República',
+      'A anexação de todo o Paraguai'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A vitória (Tríplice Aliança: Brasil, Argentina e Uruguai) custou caro: milhares de mortos e um Exército fortalecido e insatisfeito — a "questão militar" ajudou a derrubar a monarquia em 1889.', // explicação
+    dica: 'A banca antecipa a República para 1870: a guerra terminou em 1870, mas a República só veio em 1889 — e justamente por causa do Exército fortalecido na guerra.', // pegadinha
+    video: 'guerra do paraguai consequências brasil resumo' // busca no YouTube
+  },
+  {
+    id: 'h11',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Coronelismo e voto de cabresto', // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Durante a República Velha, o "voto de cabresto" consistia em:', // pergunta
+    alternativas: [                     // opções
+      'Voto secreto e obrigatório para todos os cidadãos',
+      'Controle dos votos dos eleitores pelos coronéis, graças ao voto aberto',
+      'Sistema de votação por telefone nas cidades grandes',
+      'Voto exclusivo dos militares nas eleições estaduais',
+      'Escolha do presidente apenas pelos deputados federais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Como o voto era aberto (não secreto) e a fiscalização era dos próprios coronéis, os chefes locais controlavam "suas" agremiações de eleitores — cabresto = levar o eleitorado como se leva um animal.', // explicação
+    dica: 'O ENEM ama ligar coronelismo + voto aberto + República Velha. O voto secreto só veio em 1932 (Código Eleitoral) — marcar "voto secreto" em questão sobre República Velha é erro.', // pegadinha
+    video: 'coronelismo voto de cabresto república velha resumo' // busca no YouTube
+  },
+  {
+    id: 'h12',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Diretas Já',                 // assunto
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A campanha "Diretas Já" (1983-1984) mobilizou milhões de brasileiros exigindo:', // pergunta
+    alternativas: [                     // opções
+      'O impeachment do presidente Sarney',
+      'Eleições diretas para presidente, ainda na ditadura',
+      'A estatização das empresas privadas',
+      'O fim do voto obrigatório',
+      'A convocação da Constituinte de 1988'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As Diretas Já pediam a aprovação da emenda Dante de Oliveira (eleições diretas em 1984). A emenda foi REJEITADA no Congresso — e Tancredo Neves acabou eleito indiretamente pelo Colégio Eleitoral em 1985.', // explicação
+    dica: 'Pegadinha fina: o movimento pediu diretas, mas elas NÃO aconteceram naquele momento — Tancredo foi eleito indiretamente. A primeira eleição direta pós-ditadura foi só em 1989.', // pegadinha
+    video: 'diretas já 1984 tancredo neves resumo história' // busca no YouTube
+  },
+
+  /* ===================== LOTE NOVO — GEOGRAFIA (g07 a g12) ===================== */
+  {
+    id: 'g07',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Hidrografia — rio Amazonas', // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Sobre o rio Amazonas, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'É o rio mais longo do mundo, superando o Nilo em todos os critérios',
+      'É o rio mais caudaloso do mundo, com a maior bacia hidrográfica',
+      'Nasce em território brasileiro e deságua no rio Prata',
+      'Tem caudal menor que o do rio São Francisco',
+      'Não recebe afluentes fora do Brasil'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Amazonas é o rio mais caudaloso do planeta (≈20% da água doce que chega aos oceanos) e tem a maior bacia do mundo. O título de mais extenso é disputado com o Nilo — e nasce no Peru, não no Brasil.', // explicação
+    dica: 'A pegadinha é o "mais comprido": o Nilo disputa esse título. O que é incontestável: Amazonas = maior CAUDAL e maior BACIA. Nasce no Peru (rio Ucayali).', // pegadinha
+    video: 'rio amazonas maior caudal bacia hidrográfica geografia' // busca no YouTube
+  },
+  {
+    id: 'g08',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Migrações internas',         // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Entre as décadas de 1960 e 1980, o principal fluxo migratório interno no Brasil foi:', // pergunta
+    alternativas: [                     // opções
+      'Do Sudeste para o Norte agrícola',
+      'Do campo (sobretudo do Nordeste) para as metrópoles do Sudeste',
+      'Das capitais para o interior rural',
+      'Do Sul para o Nordeste litorâneo',
+      'Do Centro-Oeste para o Sul industrializado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O êxodo rural nordestino para São Paulo e outras metrópoles foi o maior movimento migratório do século XX no Brasil, puxado pela industrialização e empurrado pela seca e pela concentração de terras.', // explicação
+    dica: 'Fatores que caem juntos: êxodo rural = expulsão do campo (mecanização, seca) + atração urbana (indústria, serviços). Não confunda com a migração de retorno posterior.', // pegadinha
+    video: 'êxodo rural migrações internas brasil geografia resumo' // busca no YouTube
+  },
+  {
+    id: 'g09',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Fusos horários do Brasil',   // assunto
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O território brasileiro abrange, atualmente, quantos fusos horários?', // pergunta
+    alternativas: [                     // opções
+      'Dois',
+      'Três',
+      'Quatro',
+      'Cinco',
+      'Seis'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Brasil tem quatro fusos: o de Brasília (UTC−3), o de Mato Grosso/Amazônia (UTC−4), o do Acre e sudoeste do Amazonas (UTC−5) e o das ilhas oceânicas, como Fernando de Noronha (UTC−2).', // explicação
+    dica: 'Pegadinha de atualidade: entre 2008 e 2013 o Brasil chegou a ter apenas 3 fusos (o Acre perdeu o dele). Lei de 2013 restituiu o quarto fuso — confira o ano da prova!', // pegadinha
+    video: 'fusos horários do brasil quantos são geografia' // busca no YouTube
+  },
+  {
+    id: 'g10',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Cartografia — escala',       // assunto
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Em um mapa de escala 1:100.000, uma distância de 5 cm no mapa corresponde, na realidade, a:', // pergunta
+    alternativas: [                     // opções
+      '500 metros',
+      '5 quilômetros',
+      '50 quilômetros',
+      '500 quilômetros',
+      '5 metros'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Escala 1:100.000 significa que 1 cm no mapa = 100.000 cm na realidade.',
+      '5 cm × 100.000 = 500.000 cm na realidade.',
+      'Converta: 500.000 cm = 5.000 m = 5 km.'
+    ],
+    explicacao: 'Basta multiplicar a medida do mapa pelo denominador da escala e converter as unidades: 5 cm × 100.000 = 500.000 cm = 5 km.', // explicação
+    dica: 'Corta de zeros que cai muito: de cm para km são 5 zeros (cm→m = 2 zeros, m→km = 3 zeros). 500.000 cm corta 5 zeros e vira 5 km. A Vunesp coloca "50 km" e "500 m" de isca.', // pegadinha
+    video: 'escala cartográfica como calcular distância no mapa' // busca no YouTube
+  },
+  {
+    id: 'g11',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Coordenadas — latitude e longitude', // assunto
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A LATITUDE de um ponto indica a distância angular desse ponto em relação:', // pergunta
+    alternativas: [                     // opções
+      'À linha do Equador, para norte ou para sul',
+      'Ao meridiano de Greenwich, para leste ou para oeste',
+      'Ao Círculo Polar Ártico, para qualquer direção',
+      'Ao Trópico de Capricórnio, para leste',
+      'À Linha Internacional de Data, para norte'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Latitude = distância angular em relação ao Equador (0° a 90° N ou S). Longitude = distância angular em relação ao meridiano de Greenwich (0° a 180° E ou W). São elas que definem as coordenadas geográficas.', // explicação
+    dica: 'Macete: LATItude tem "LAT" de lado a lado (linhas horizontais, paralelas ao Equador). A FCC inverte latitude com longitude nas alternativas — grave qual é qual.', // pegadinha
+    video: 'latitude e longitude coordenadas geográficas resumo' // busca no YouTube
+  },
+  {
+    id: 'g12',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Agrária — concentração de terras', // assunto
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A elevada concentração de terras no Brasil (poucos donos de muitas terras) tem como marco histórico principal:', // pergunta
+    alternativas: [                     // opções
+      'A Lei de Terras de 1850, que passou a exigir compra das terras públicas',
+      'A Constituição de 1824, que aboliu a propriedade privada',
+      'A Abolição da escravidão, que distribuiu terras aos libertos',
+      'A Proclamação da República, que nacionalizou os latifúndios',
+      'O Estatuto da Cidade, que criou o zoneamento rural'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A Lei de Terras (1850) passou a exigir registro e compra das terras devolutas — barrando o acesso dos libertos e dos pobres à terra e consolidando o latifúndio herdado das sesmarias e capitanias.', // explicação
+    dica: 'Raiz histórica que o ENEM cobra: capitanias/sesmarias já concentravam, e a Lei de Terras de 1850 selou o processo. Libertos NUNCA receberam terra — isso sustenta a questão agrária até hoje.', // pegadinha
+    video: 'lei de terras 1850 concentração fundiária brasil resumo' // busca no YouTube
   }
 ];
