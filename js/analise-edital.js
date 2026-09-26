@@ -71,7 +71,169 @@ const AnaliseEdital = {
     { rotulo: 'Legalle', padroes: ['LEGALLE'] },                                     // Legalle
     { rotulo: 'IBGP', padroes: ['IBGP'] },                                           // IBGP
     { rotulo: 'Instituto Mais', padroes: ['INSTITUTO MAIS'] },                       // Instituto Mais
-    { rotulo: 'ENEM/Inep', padroes: ['ENEM', 'INEP'] }                               // ENEM (vestibular)
+    { rotulo: 'ENEM/Inep', padroes: ['ENEM', 'INEP'] },                              // ENEM (vestibular)
+    { rotulo: 'Fuvest/USP', padroes: ['FUVEST', 'FUNDACAO UNIVERSITARIA PARA O VESTIBULAR'] }, // Fuvest (USP)
+    { rotulo: 'Comvest/Unicamp', padroes: ['COMVEST', 'UNICAMP'] },                  // Comvest (Unicamp)
+    { rotulo: 'Univesp', padroes: ['UNIVESP', 'UNIVERSIDADE VIRTUAL DO ESTADO'] },   // Univesp
+    { rotulo: 'Copeve/UFMG', padroes: ['COPEVE', 'UFMG'] },                          // Copeve (UFMG)
+    { rotulo: 'Coperve/UFSC', padroes: ['COPERVE', 'UFSC'] },                        // Coperve (UFSC)
+    { rotulo: 'FATEC', padroes: ['FATEC', 'FACULDADE DE TECNOLOGIA'] },              // Fatec
+    { rotulo: 'ETEC', padroes: ['ETEC', 'ESCOLA TECNICA ESTADUAL'] }                 // Etec
+  ],
+
+  // ---------- Dicas de estratégia por banca ----------
+  // Quando o edital não identifica a banca, o usuário informa e recebe estas dicas
+  BANCAS_DICAS: [
+    {
+      rotulo: 'CESPE/Cebraspe',
+      aliases: ['CEBRASPE', 'CESPE', 'CEPS'],
+      dicas: [
+        'Formato certo/errado: cada erro desconta um acerto — não chute no escuro.',
+        'A palavra-exceção decide: "salvo", "exceto", "desde que", "ainda que" mudam o gabarito.',
+        'Lei seca + jurisprudência: ela cobra o texto literal E a aplicação dele.',
+        'Cuidado com "sempre/nunca/todos" — os absolutos são a pegadinha preferida.'
+      ]
+    },
+    {
+      rotulo: 'FGV',
+      aliases: ['FGV', 'FUNDACAO GETULIO VARGAS', 'GETULIO VARGAS'],
+      dicas: [
+        'Português pesado: exige interpretação contextual, sinonímia fina e reescrita de frase.',
+        'Gosta das exceções e dos "pode/deve" — atenção ao que é obrigação e o que é faculdade.',
+        'Cobra doutrina e jurisprudência — saber o conceito importa mais que decorar.',
+        'Enunciados longos: sublinhe o pedido antes de ler as alternativas.'
+      ]
+    },
+    {
+      rotulo: 'FCC',
+      aliases: ['FCC', 'FUNDACAO CARLOS CHAGAS', 'CARLOS CHAGAS'],
+      dicas: [
+        'Lei seca na veia: copia artigo ao pé da letra — decore prazos, números e palavras exatas.',
+        'Questões diretas e objetivas: a resposta está no texto legal, não na interpretação.',
+        'Erros de um detalhe só: troca um verbo, um prazo ou um inciso.',
+        'Repita a leitura dos artigos mais cobrados do edital — ela recicla os mesmos.'
+      ]
+    },
+    {
+      rotulo: 'Vunesp',
+      aliases: ['VUNESP', 'FUNDACAO PARA O VESTIBULAR'],
+      dicas: [
+        'Enunciados longos com caso prático: leia o exemplo e encaixe o conceito.',
+        'Formato "julgue o item": trate cada assertiva separadamente — um item não anula o outro.',
+        'Jurisprudência atual aparece bastante — siga os informativos do STF/STJ.',
+        'Nas pegadinhas, troca a ordem dos artigos e inverte competências.'
+      ]
+    },
+    {
+      rotulo: 'IBFC',
+      aliases: ['IBFC', 'INSTITUTO BRASILEIRO DE FORMACAO'],
+      dicas: [
+        'Forte em nível médio e prefeituras: gramática normativa e lei seca dominam.',
+        'Cobre a literalidade — decore prazos, percentuais e nomes exatos das leis.',
+        'Enunciados curtos: o erro costuma estar num detalhe pequeno.',
+        'Atualidades e conhecimentos gerais têm peso real — revise notícias do ano.'
+      ]
+    },
+    {
+      rotulo: 'Instituto AOCP',
+      aliases: ['AOCP', 'INSTITUTO AOCP'],
+      dicas: [
+        'Prefeituras e níveis médio/fundamental: decoreba de lei e português técnico.',
+        'Repete padrões: as mesmas leis e os mesmos artigos voltam de concurso em concurso.',
+        'Pegadinha de "troca-o-artigo": altera um número ou uma competência da lei.',
+        'Faça provas anteriores da própria AOCP — a repetição é alta.'
+      ]
+    },
+    {
+      rotulo: 'Cesgranrio',
+      aliases: ['CESGRANRIO'],
+      dicas: [
+        'Bancos e Petrobras: português contextual + matemática financeira aplicada.',
+        'Interpretação acima da decoreba: ela quer o raciocínio por trás do conceito.',
+        'Redação/dissertação em muitos cargos — treine texto dissertativo.',
+        'Cuidado com a "alternativa parcialmente certa" — leia a última palavra.'
+      ]
+    },
+    {
+      rotulo: 'Consulplan',
+      aliases: ['CONSULPLAN'],
+      dicas: [
+        'Municípios e prefeituras: legislação municipal e orgânica local têm peso alto.',
+        'Português normativo forte — gramática aplicada à lei.',
+        'Questões de nível médio com decoreba direta.',
+        'Leia a lei orgânica do município — ela é a seção mais mortal do edital.'
+      ]
+    },
+    {
+      rotulo: 'QUADRIX',
+      aliases: ['QUADRIX'],
+      dicas: [
+        'Forte no DF e região: questões objetivas de lei seca e decoreba.',
+        'Os erros vêm da troca de palavras pequenas — "pode" x "deve", "e" x "ou".',
+        'História e geografia do DF caem em vários editais — revise o local.',
+        'Faça provas anteriores — os padrões de redação se repetem.'
+      ]
+    },
+    {
+      rotulo: 'IDECAN',
+      aliases: ['IDECAN'],
+      dicas: [
+        'Prefeituras menores: questões literais de lei, nível médio e fundamental.',
+        'Interpretação direta — sem rodeios na alternativa.',
+        'Lei orgânica municipal e estatuto do servidor locais são o coração do edital.',
+        'Atenção a datas, prazos e percentuais — ela cobra os números.'
+      ]
+    },
+    {
+      rotulo: 'ENEM/Inep',
+      aliases: ['ENEM', 'INEP'],
+      dicas: [
+        'Questões gigantes de contexto: a resposta está no texto-base — leia com calma.',
+        'Competências e habilidades: não é decoreba, é aplicação do conteúdo.',
+        'Interdisciplinar: uma questão pode misturar história, geografia e atualidades.',
+        'Redação dissertativo-argumentativa vale muito — treine a estrutura.'
+      ]
+    },
+    {
+      rotulo: 'Fuvest/USP',
+      aliases: ['FUVEST', 'USP', 'FUNDACAO UNIVERSITARIA PARA O VESTIBULAR'],
+      dicas: [
+        'Interpretação profunda e leitura fina: os enunciados são longos e exigentes.',
+        'Literatura obrigatória: as 9 leituras da lista caem — leia com antecedência.',
+        'Questões contextualizadas com texto de apoio — ancoragem no texto é tudo.',
+        '2ª fase dissertativa: treine resposta argumentada com repertório.'
+      ]
+    },
+    {
+      rotulo: 'Comvest/Unicamp',
+      aliases: ['COMVEST', 'UNICAMP'],
+      dicas: [
+        'Casos contextualizados longos: o enunciado já ensina — use-o na resposta.',
+        'Interdisciplinar real: biologia com química, história com geografia.',
+        'Literatura obrigatória forte: as leituras da Unicamp são cobrança clássica.',
+        'Respostas dissertativas na 2ª fase — treine a escrita científica.'
+      ]
+    },
+    {
+      rotulo: 'Univesp',
+      aliases: ['UNIVESP', 'UNIVERSIDADE VIRTUAL DO ESTADO'],
+      dicas: [
+        'Vestibular de padrão Vunesp: questões objetivas com contextualização.',
+        'Base do ensino médio: o conteúdo segue o currículo paulista.',
+        'Redação com tema de atualidade — acompanhe notícias do ano.',
+        'Prova única por ano: cada ponto conta mais — revise os erros das anteriores.'
+      ]
+    },
+    {
+      rotulo: 'Outra banca',
+      aliases: [],                                                                    // fallback genérico
+      dicas: [
+        'Baixe as provas anteriores da mesma banca — o estilo se repete.',
+        'Estude o edital dela com atenção ao número de questões por matéria.',
+        'Perceba o padrão de cobrança: lei seca, interpretação ou caso prático.',
+        'Treine o formato (certo/errado, múltipla escolha, julgue-o-item) da prova.'
+      ]
+    }
   ],
 
   // ---------- Palavras típicas de nome de cargo ----------
@@ -271,6 +433,23 @@ const AnaliseEdital = {
       }
     }
     return null;                                            // não achou banca
+  },
+
+  // Acha as dicas de uma banca pelo nome informado (ou digitado pelo usuário)
+  // Devolve o conjunto de dicas — ou o fallback genérico quando não reconhece
+  dicasDaBanca(nome) {
+    const normal = this.normalizar(nome);                   // normaliza o que o usuário digitou
+    const generica = this.BANCAS_DICAS[this.BANCAS_DICAS.length - 1]; // última entrada = fallback
+    if (!normal) return null;                               // campo vazio — nada a dizer
+    for (const banca of this.BANCAS_DICAS) {                // percorre o catálogo de dicas
+      if (banca.aliases.length === 0) continue;             // pula a entrada genérica
+      for (const alias of banca.aliases) {                  // testa cada apelido
+        if (normal.indexOf(alias) !== -1) {                 // digitou o nome ou apelido?
+          return { rotulo: banca.rotulo, dicas: banca.dicas, conhecida: true }; // banca conhecida
+        }
+      }
+    }
+    return { rotulo: nome, dicas: generica.dicas, conhecida: false }; // desconhecida — dicas genéricas
   },
 
   // ---------- DATAS ----------

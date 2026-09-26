@@ -148,3 +148,40 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - Teste funcional do motor: simulado de 10 questões montado para cada matéria nova; chips de matéria/banca/nível/ensino funcionando.
 - `validar-idiomas.js` ✅ 224 chaves × 3 | `node --check` ✅ nos 3 arquivos.
 - Temp `_tmp_teste.js` removido após o teste.
+
+---
+
+## Tarefa 7 — Matérias de serviço público + dicas por banca manual (491 → 559)
+
+### Pedido
+- "gere mais de 15 questões de: Direito Previdenciário, Legislação, Ética, Administração, Contabilidade; na análise do edital/manual do aluno caso banca não for identificada permitir usuário colocar sistema analise dá dicas sobre ela"
+
+### O que foi feito
+- **+68 questões** em cinco frentes:
+  - Direito Previdenciário +4 (v17–v20 → total 20): teto INSS, qualidade de segurado/período de graça, aposentadoria por idade pós-2019, prova da pensão.
+  - **Legislação** (matéria nova, lg01–lg16): Lei 8.112, licitações 14.133, improbidade, ECA, 9.784, Maria da Penha, acumulação de cargos, vacatio legis, prescrição×decadência, ato administrativo, PAD, equilíbrio econômico-financeiro, Estatuto PCD, LGPD, Estatuto do Idoso.
+  - **Ética** (matéria nova, et01–et16): ética×moral×direito, Decreto 1.171, impessoalidade, conflito de interesses, virtude, sigilo, moralidade administrativa, recursos públicos, brindes, comissão de ética, transparência, assédio, legal×ético, dever de informar, decoro, bem comum.
+  - **Administração** (matéria nova, ad01–ad16): Fayol, Taylor, PODC, Weber, níveis organizacionais, departamentalização, Maslow, lideranças, PDCA, SWOT, público×privado, comunicação, competências (CHA), organograma, inovação, cultura.
+  - **Contabilidade** (matéria nova, ct01–ct16): equação fundamental, partidas dobradas, balanço, DRE, lançamentos, circulante×não circulante, depreciação, capital de giro, ativo circulante, a pagar×a receber, conciliação, competência×caixa, lucro bruto×líquido, DFC, provisões, PL.
+
+### Banca manual + dicas (o segundo pedido)
+- `analise-edital.js`:
+  - `BANCAS` +7 detecções de vestibular: Fuvest/USP, Comvest/Unicamp, Univesp, Copeve/UFMG, Coperve/UFSC, FATEC, ETEC — o "manual do aluno" agora identifica a organizadora.
+  - Novo `BANCAS_DICAS` (14 entradas + fallback genérico): dicas de estratégia por banca (formato, estilo de cobrança, pegadinhas típicas).
+  - Novo `dicasDaBanca(nome)`: normaliza a entrada, casa por alias e devolve `{rotulo, dicas, conhecida}` — desconhecida cai no fallback honesto.
+- `edital.js`:
+  - Banca detectada → exibe dicas inline além do botão "ver pegadinhas".
+  - Banca ausente → campo de texto + botão "Analisar"; `blocoDicasBanca` renderiza as dicas com `escape()` em tudo que o usuário digita.
+- `idioma.js`: 6 chaves novas × 3 idiomas (`ed_banca_manual_l/ph/btn`, `ed_dicas_t`, `ed_banca_desconhecida`).
+
+### Verificação
+- `validar-banco.js` → **559 questões, 0 problemas** | 28 matérias | facil=138 · medio=371 · dificil=50 | ensino medio=487 · superior=72.
+- Motor: 10 questões montam em cada matéria nova; Previdenciário=20, demais novas=16 (piso >15 mantido).
+- `dicasDaBanca`: FCC/cebraspe/Fundação Getulio Vargas/Vunesp → `conhecida:true`; "Banca XYZ" → fallback `conhecida:false`; vazio → null.
+- `extrairBanca` em texto Comvest detecta "Comvest/Unicamp" ✅.
+- `validar-idiomas.js` ✅ 229×3 | `node --check` ✅ nos 4 arquivos.
+
+### Próximos passos possíveis
+- Persistir a banca manual no localStorage para pré-selecionar o filtro de banca do simulado (hoje não vinculamos: banca manual sem questões correspondentes zeraria o filtro).
+- Expandir `BANCAS_DICAS` para mais bancas municipais.
+- Temp `_tmp_banca.js` e `_tmp_motor.js` removidos após os testes.

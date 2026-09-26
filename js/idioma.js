@@ -241,6 +241,11 @@ const Idioma = {
       ed_banca_t: '🏦 Banca organizadora',                   // seção
       ed_banca_ver: '🕵️ Ver as pegadinhas dessa banca',      // botão
       ed_banca_nenhuma: 'Não identifiquei a banca neste texto. Dá uma olhada no edital — saber a banca muda sua estratégia!', // aviso
+      ed_banca_manual_l: 'Sabe qual é a banca? Digite o nome e eu te dou as dicas de prova:', // rótulo do campo manual
+      ed_banca_manual_ph: 'Ex.: FCC, Cespe, Vunesp, FGV...', // placeholder do campo manual
+      ed_banca_manual_btn: 'Analisar',                      // botão do campo manual
+      ed_dicas_t: 'Dicas da',                               // título das dicas (nome da banca vem depois)
+      ed_banca_desconhecida: 'Essa banca não está no meu catálogo — então aqui vão as dicas que valem para qualquer banca:', // aviso do fallback
       ed_datas_t: '📅 Datas importantes',                    // seção
       ed_sem_datas: 'Não encontrei datas no texto. Confere no PDF do edital!', // aviso
       ed_data_inscricoes: 'Inscrições',                      // rótulo
@@ -490,6 +495,11 @@ const Idioma = {
       ed_banca_t: '🏦 Exam board',
       ed_banca_ver: '🕵️ See this board’s traps',
       ed_banca_nenhuma: 'I could not identify the board in this text. Take a look at the notice — knowing the board changes your strategy!',
+      ed_banca_manual_l: 'Know the board? Type its name and I’ll give you exam tips:',
+      ed_banca_manual_ph: 'E.g.: FCC, Cespe, Vunesp, FGV...',
+      ed_banca_manual_btn: 'Analyze',
+      ed_dicas_t: 'Tips for',
+      ed_banca_desconhecida: 'This board is not in my catalog — so here are tips that work for any board:',
       ed_datas_t: '📅 Important dates',
       ed_sem_datas: 'I found no dates in the text. Check the notice PDF!',
       ed_data_inscricoes: 'Applications',
@@ -739,6 +749,11 @@ const Idioma = {
       ed_banca_t: '🏦 Comité organizador',
       ed_banca_ver: '🕵️ Ver las trampas de este comité',
       ed_banca_nenhuma: 'No identifiqué el comité en este texto. ¡Revisa la convocatoria — conocer al comité cambia tu estrategia!',
+      ed_banca_manual_l: '¿Sabes cuál es el comité? Escribe el nombre y te doy consejos de examen:',
+      ed_banca_manual_ph: 'Ej.: FCC, Cespe, Vunesp, FGV...',
+      ed_banca_manual_btn: 'Analizar',
+      ed_dicas_t: 'Consejos para',
+      ed_banca_desconhecida: 'Este comité no está en mi catálogo — así que aquí van consejos que sirven para cualquier comité:',
       ed_datas_t: '📅 Fechas importantes',
       ed_sem_datas: 'No encontré fechas en el texto. ¡Revisa el PDF de la convocatoria!',
       ed_data_inscricoes: 'Inscripciones',

@@ -151,8 +151,22 @@ const EditalUI = {
       html += '<p style="font-weight:900;font-size:1.1rem;color:var(--cafe);margin:0.3rem 0">' + this.escape(analise.banca.rotulo) + '</p>'; // nome da banca
       html += '<p class="texto-suave" style="font-size:0.8rem">…' + this.escape(analise.banca.trecho) + '…</p>'; // trecho de onde tiramos
       html += '<button class="botao botao-contorno pequeno" id="btn-ver-banca">' + T('ed_banca_ver') + '</button>'; // botão para as pegadinhas
+      // Dicas de estratégia dessa banca (quando o catálogo a conhece)
+      const auto = AnaliseEdital.dicasDaBanca(analise.banca.rotulo); // busca dicas pelo rótulo detectado
+      if (auto && auto.conhecida) {                         // só exibe quando reconhecemos a banca
+        html += this.blocoDicasBanca(auto);                 // desenha a lista de dicas
+      }
     } else {                                                // se não identificamos
       html += '<p class="texto-suave">' + T('ed_banca_nenhuma') + '</p>'; // avisa
+      // Campo manual: o usuário digita a banca e recebe dicas do catálogo
+      html += '<div class="campo" style="margin-top:0.6rem">'; // abre o campo
+      html += '<label for="input-banca-manual">' + T('ed_banca_manual_l') + '</label>'; // rótulo do input
+      html += '<div style="display:flex;gap:0.5rem">';      // linha input+botão
+      html += '<input id="input-banca-manual" type="text" data-i18n-ph="ed_banca_manual_ph" placeholder="' + this.escape(T('ed_banca_manual_ph')) + '" style="flex:1">'; // campo de texto
+      html += '<button class="botao botao-contorno pequeno" id="btn-banca-manual" type="button">' + T('ed_banca_manual_btn') + '</button>'; // botão de análise
+      html += '</div>';                                     // fecha a linha
+      html += '<div id="dicas-banca-manual"></div>';        // onde as dicas são desenhadas
+      html += '</div>';                                     // fecha o campo
     }
     // Datas importantes + contagem regressiva
     html += '<div class="titulo-secao" style="margin:1.2rem 0 0.6rem"><h3>' + T('ed_datas_t') + '</h3></div>'; // subtítulo
@@ -258,6 +272,37 @@ const EditalUI = {
     if (btnBanca) {                                         // se o botão existe
       btnBanca.addEventListener('click', () => App.irPara('bancas')); // leva para a tela de bancas
     }
+
+    // Liga o botão da banca manual (quando o edital não diz quem organiza)
+    const btnManual = document.getElementById('btn-banca-manual'); // pega o botão criado
+    if (btnManual) {                                        // se o botão existe
+      btnManual.addEventListener('click', () => {           // no clique
+        const campo = document.getElementById('input-banca-manual'); // o input da banca
+        const destino = document.getElementById('dicas-banca-manual'); // onde desenhar as dicas
+        if (!campo || !destino) return;                     // segurança: elementos devem existir
+        const info = AnaliseEdital.dicasDaBanca(campo.value); // busca dicas pelo nome digitado
+        if (!info) {                                        // campo vazio
+          destino.innerHTML = '';                           // limpa as dicas
+          return;                                           // e para por aqui
+        }
+        destino.innerHTML = this.blocoDicasBanca(info);     // desenha as dicas achadas
+      });
+    }
+  },
+
+  // Desenha o bloco de dicas de uma banca (detectada ou digitada pelo usuário)
+  blocoDicasBanca(info) {
+    let html = '<div class="nota" style="margin-top:0.8rem">'; // caixinha de dicas
+    html += '<p style="font-weight:900;font-size:0.85rem;margin:0 0 0.4rem">🕵️ ' + T('ed_dicas_t') + ' <span style="color:var(--cafe)">' + this.escape(info.rotulo) + '</span></p>'; // título com o nome
+    if (!info.conhecida) {                                  // se a banca não está no catálogo
+      html += '<p class="texto-suave" style="font-size:0.78rem;margin:0 0 0.4rem">' + T('ed_banca_desconhecida') + '</p>'; // explica que são dicas gerais
+    }
+    html += '<ul style="margin:0;padding-left:1.1rem">';    // abre a lista
+    for (const dica of info.dicas) {                        // percorre as dicas
+      html += '<li style="font-size:0.82rem;margin-bottom:0.25rem">' + this.escape(dica) + '</li>'; // cada dica
+    }
+    html += '</ul></div>';                                  // fecha lista e caixa
+    return html;                                            // devolve o HTML pronto
   },
 
   // Traduz a escolaridade do edital em filtro de ensino do simulado

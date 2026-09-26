@@ -43,7 +43,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | Funcionalidade | Como funciona |
 |---|---|
 | 📄 **Importação de edital** | Arraste o PDF do edital/manual do candidato (ou cole o texto). O app lê o PDF direto no navegador com PDF.js. |
-| 🔍 **Análise inteligente do edital** | Detecta cargos (incluindo carreiras famosas: PF, PRF, PM, GCM, polícia penal, tribunais, INSS, bancário...), matérias e o **peso de cada uma na prova** (×20, ×15...), **banca organizadora**, **datas** (inscrições, prova, **TAF** e resultado — com contagem regressiva), **vagas, salário, taxa, número de questões, validade, carga horária e cadastro reserva**, escolaridade exigida (que já sugere o filtro de nível do simulado), **requisitos típicos** (CNH, TAF, antecedentes, toxicológico...) e o **conteúdo programático tópico por tópico** — com nota de confiança de 0 a 100. |
+| 🔍 **Análise inteligente do edital** | Detecta cargos (incluindo carreiras famosas: PF, PRF, PM, GCM, polícia penal, tribunais, INSS, bancário...), matérias e o **peso de cada uma na prova** (×20, ×15...), **banca organizadora** — com **dicas de prova da banca** e, se o edital não a identificar, você digita o nome e o sistema entrega as dicas —, **datas** (inscrições, prova, **TAF** e resultado — com contagem regressiva), **vagas, salário, taxa, número de questões, validade, carga horária e cadastro reserva**, escolaridade exigida (que já sugere o filtro de nível do simulado), **requisitos típicos** (CNH, TAF, antecedentes, toxicológico...) e o **conteúdo programático tópico por tópico** — com nota de confiança de 0 a 100. |
 | 💡 **Tela de dicas** | 16 dicas importantes em 4 categorias (rotina, técnicas de estudo, hora da prova, corpo e véspera) + as dicas rápidas de prova. |
 | 🎯 **Onde focar agora** | O dashboard analisa seu histórico, aponta a matéria mais fraca e cria um simulado focado nela com um clique. |
 | 🗺️ **Plano de estudo** | Para cada matéria detectada, mostra o que mais cai e por onde começar (ou avisa honestamente se ainda não tem resumo daquela matéria). |
@@ -112,7 +112,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 491 questões comentadas
+│   ├── banco-questoes.js      # Banco com 559 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -221,7 +221,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 491 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 559 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos

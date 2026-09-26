@@ -10288,5 +10288,1379 @@ const BancoQuestoes = [
     explicacao: 'Massa = quantidade de matéria (não muda em lugar nenhum). Peso = força gravitacional sobre a massa (P = m·g): na Lua g ≈ 1,6 m/s² → o astronauta de 70 kg "pesa" ~1/6 do peso terrestre, mas tem a mesma massa.', // explicação
     dica: 'O ENEM testa a confusão: massa (kg) é intrínseca; peso (N) depende do planeta. Balança mede massa; dinamômetro mede peso (força). "Perdi 5 kg" na vida real quer dizer 5 kg de massa — mas o físico diria que você pesa menos.', // pegadinha
     video: 'peso e massa diferença gravidade lua resumo' // busca no YouTube
+  },
+
+  /* ===================== DIREITO PREVIDENCIÁRIO — reforço (v17 a v20) ===================== */
+  {
+    id: 'v17',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Teto do INSS',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O "teto do INSS" é:',   // pergunta
+    alternativas: [                     // opções
+      'O valor mínimo da aposentadoria',
+      'O limite máximo do salário de contribuição e dos benefícios pagos pelo regime geral',
+      'O teto do prédio do INSS',
+      'A idade máxima para se aposentar',
+      'O número máximo de dependentes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O teto do INSS é o valor máximo: nenhum segurado do regime geral pode contribuir nem receber benefício acima dele (reajustado anualmente pelo INPC). Acima do teto, quem quiser precisa de previdência privada ou regime próprio.', // explicação
+    dica: 'A prova confunde com o SALÁRIO MÍNIMO (o PISO do benefício). Teto = o máximo que o INSS paga; salário mínimo = o mínimo que o benefício pode ser (regra constitucional). Contribuição também respeita o teto.', // pegadinha
+    video: 'teto do inss limite benefício contribuição resumo' // busca no YouTube
+  },
+  {
+    id: 'v18',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Qualidade de segurado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Um trabalhador que perde o emprego e para de contribuir perde a "qualidade de segurado":', // pergunta
+    alternativas: [                     // opções
+      'Imediatamente, no dia seguinte à demissão',
+      'Após o período de graça — em regra, 12 meses sem contribuição (podendo chegar a 36 em casos específicos)',
+      'Nunca — a qualidade é vitalícia',
+      'Só após 10 anos',
+      'Só quando se aposenta'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A qualidade de segurado mantém-se por um "período de graça" após a última contribuição: 12 meses em regra, +12 se tiver 120 contribuições sem perda, +12 se desempregado involuntário — até 36 meses. Perdendo a qualidade, não há mais direito aos benefícios.', // explicação
+    dica: 'A CESPE adora os prazos: 12 meses base +12 por 120 contribuições +12 por desemprego comprovado = até 36 meses de graça. E a qualidade se recupera: basta voltar a contribuir (com contagens específicas).', // pegadinha
+    video: 'qualidade de segurado período de graça inss resumo' // busca no YouTube
+  },
+  {
+    id: 'v19',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Aposentadoria por idade',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'Após a Reforma de 2019, a regra geral da aposentadoria por idade no INSS exige:', // pergunta
+    alternativas: [                     // opções
+      'Qualquer idade com 5 anos de contribuição',
+      'Idade mínima (62 mulher / 65 homem) + tempo mínimo de contribuição',
+      'Só 30 anos de contribuição',
+      'Apenas 60 anos de idade para todos',
+      'Não há mais aposentadoria por idade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A regra geral pós-2019 combina idade + contribuição: mulher 62 anos com 15 de contribuição; homem 65 com 15 (para os já no sistema) ou 20 (para quem entrou depois). Não basta a idade — precisa também do tempo mínimo.', // explicação
+    dica: 'Padrão de prova: idade (62/65) + contribuição (15, podendo ser 20 para homem novo no sistema). As regras de transição suavizam para quem já contribuía — não confunda com a regra permanente.', // pegadinha
+    video: 'aposentadoria por idade requisitos reforma 2019 resumo' // busca no YouTube
+  },
+  {
+    id: 'v20',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Prova da pensão por morte',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Para receber a pensão por morte, o dependente precisa comprovar:', // pergunta
+    alternativas: [                     // opções
+      'Apenas a certidão de óbito do segurado',
+      'A qualidade de segurado do falecido + a dependência econômica (presumida para cônjuge/companheiro e filhos)',
+      'O testamento',
+      'O emprego atual',
+      'A nacionalidade brasileira'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dois requisitos: o falecido tinha QUALIDADE DE SEGURADO no dia da morte, e o requerente era DEPENDENTE. A dependência econômica de cônjuge, companheiro e filhos menores de 21 é PRESUMIDA (não precisa provar); pais e irmãos precisam provar.', // explicação
+    dica: 'A CESPE cobra a presunção: cônjuge, companheiro e filho menor = dependência presumida; pai, mãe e irmão = precisam provar a dependência. E atenção à qualidade de segurado no DIA da morte.', // pegadinha
+    video: 'pensão por morte dependência presumida prova resumo' // busca no YouTube
+  },
+
+  /* ===================== LEGISLAÇÃO (matéria nova — leis federais de concursos) ===================== */
+  {
+    id: 'lg01',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 8.112 — nomeação e posse', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Pela Lei 8.112/90, a investidura no cargo público ocorre com a:', // pergunta
+    alternativas: [                     // opções
+      'Posse',
+      'Nomeação',
+      'Entrada em exercício',
+      'Publicação do edital',
+      'Promoção'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A NOMEAÇÃO é o ato que investe no cargo (você vira nomeado e tem 30 dias para tomar posse). A POSSE é o ato de assinar e assumir (você vira servidor); o EXERCÍCIO é o início do trabalho efetivo (15 dias após a posse).', // explicação
+    dica: 'A tríade da FCC: nomeação → posse (30 dias) → exercício (15 dias). Investidura = nomeação; servidor = posse; trabalho = exercício. Não tomar posse no prazo = nomeação sem efeito.', // pegadinha
+    video: 'lei 8112 nomeação posse exercício diferença resumo' // busca no YouTube
+  },
+  {
+    id: 'lg02',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 8.112 — licenças',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Na Lei 8.112/90, a licença por motivo de doença em pessoa da família concede ao servidor:', // pergunta
+    alternativas: [                     // opções
+      'Até 60 dias sem remuneração',
+      'Até 60 dias remunerados + até 90 dias sem remuneração',
+      'Até 1 ano remunerado',
+      'Até 30 dias remunerados',
+      'Licença ilimitada'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Licença por motivo de doença em pessoa da família (art. 83): até 60 dias REMUNERADOS, prorrogáveis por até 90 dias SEM remuneração — total até 150 dias. O servidor não conta o tempo para aposentadoria na parte sem remuneração.', // explicação
+    dica: 'Licenças que a FCC troca: doença da família (60+90), afastamento do cônjuge (por tempo indeterminado, sem remuneração), atividade política (sem remuneração, exceto o período eleitoral). A licença-prêmio foi extinta no federal.', // pegadinha
+    video: 'lei 8112 licenças motivo de doença família resumo' // busca no YouTube
+  },
+  {
+    id: 'lg03',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Licitações — modalidades', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na Lei 14.133/21 (nova lei de licitações), a modalidade "pregão" destina-se à aquisição de:', // pergunta
+    alternativas: [                     // opções
+      'Obras e serviços complexos de engenharia',
+      'Bens e serviços comuns, cujo padrão de desempenho pode ser objetivamente definido',
+      'Serviços técnicos profissionais especializados',
+      'Aluguéis de imóveis',
+      'Todas as compras'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pregão = bens e serviços COMUNS (objetivamente definidos: computador, limpeza, vigilância). A disputa é pelo menor preço ou maior desconto. Obras complexas = concorrência; serviços técnicos especializados = concurso ou diálogo competitivo.', // explicação
+    dica: 'A CESPE troca as modalidades: pregão (comuns, menor preço), concorrência (qualquer, sobretudo obras), concurso (trabalho técnico/artístico — prêmio), diálogo competitivo (complexo), leilão (venda de bens). "Comum" é a palavra-chave do pregão.', // pegadinha
+    video: 'lei 14133 modalidades pregão concorrência resumo' // busca no YouTube
+  },
+  {
+    id: 'lg04',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Improbidade administrativa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O agente público que usa o cargo para enriquecer ilicitamente, pela Lei 8.429/92, está sujeito a:', // pergunta
+    alternativas: [                     // opções
+      'Apenas demissão',
+      'Perda da função, perda dos bens ilícitos, ressarcimento do dano, multa e proibição de contratar com o poder público',
+      'Prisão imediata',
+      'Aposentadoria compulsória',
+      'Apenas advertência'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei de Improbidade pune na esfera CIVIL (não penal): perda dos bens acrescidos ilicitamente, ressarcimento, perda da função pública, multa, suspensão dos direitos políticos e proibição de contratar com o poder público.', // explicação
+    dica: 'A CESPE marca: improbidade é ação CIVIL (não cadeia automática) — a prisão vem só se houver crime separado. Enriquecimento ilícito, lesão aos cofres e atentado aos princípios são os três blocos da lei.', // pegadinha
+    video: 'lei de improbidade administrativa 8429 sanções resumo' // busca no YouTube
+  },
+  {
+    id: 'lg05',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'ECA — prioridade absoluta',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O Estatuto da Criança e do Adolescente (Lei 8.069/90) garante a crianças e adolescentes:', // pergunta
+    alternativas: [                     // opções
+      'Prioridade relativa',
+      'Prioridade absoluta — preferência na formulação de políticas públicas e na prestação de serviços',
+      'Direito a voto',
+      'Apenas educação gratuita',
+      'Isenção total de leis'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ECA consagra a PRIORIDADE ABSOLUTA: crianças e adolescentes vêm primeiro na formulação de políticas, na destinação de recursos e na prestação de serviços (saúde, alimentação, filas). É o princípio do art. 4º.', // explicação
+    dica: 'A AOCP troca "absoluta" por "relativa" ou "especial". No ECA é SEMPRE absoluta. E criança = até 12 anos incompletos; adolescente = 12 a 18.', // pegadinha
+    video: 'eca prioridade absoluta criança adolescente resumo' // busca no YouTube
+  },
+  {
+    id: 'lg06',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 9.784 — processo administrativo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A Lei 9.784/99 regula o processo administrativo no âmbito:', // pergunta
+    alternativas: [                     // opções
+      'Municipal apenas',
+      'Federal — administração pública federal direta, autárquica e fundacional',
+      'Estadual apenas',
+      'Privado',
+      'Judiciário'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A 9.784 é o "regimento interno" do processo administrativo FEDERAL: como abrir processo, prazos, intimações, defesa do interessado, recursos e revisão. Estados e municípios têm leis próprias (que em geral a copiam).', // explicação
+    dica: 'Dica da FCC: o âmbito é FEDERAL — mas praticamente todos os estados replicam a 9.784. O objetivo da lei é proteger os direitos do administrado E cumprir os fins da administração.', // pegadinha
+    video: 'lei 9784 processo administrativo federal resumo' // busca no YouTube
+  },
+  {
+    id: 'lg07',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei Maria da Penha',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Lei Maria da Penha (11.340/06) protege a mulher contra:', // pergunta
+    alternativas: [                     // opções
+      'Discriminação salarial apenas',
+      'A violência doméstica e familiar',
+      'Assédio somente no trabalho',
+      'Crimes no trânsito',
+      'Qualquer crime contra mulher'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei 11.340 combate a violência DOMÉSTICA e FAMILIAR contra a mulher: no lar, por parentesco, por vínculo de afeto ou por ter morado junto. Medidas protetivas, agressão em flagrante, prisão do agressor — é lei de proteção integral.', // explicação
+    dica: 'A IBFC restringe o âmbito: a lei é para violência doméstica/familiar — não cobre assédio na rua ou no trabalho de estranhos. E aplica-se à mulher em relação de afetividade, mesmo sem casamento.', // pegadinha
+    video: 'lei maria da penha violência doméstica resumo' // busca no YouTube
+  },
+  {
+    id: 'lg08',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Acumulação de cargos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A Constituição permite ao servidor acumular, com remuneração, os seguintes cargos:', // pergunta
+    alternativas: [                     // opções
+      'Dois cargos administrativos iguais',
+      'Dois cargos de professor; um de professor + um técnico/científico; dois cargos de saúde — sempre com compatibilidade de horários',
+      'Quaisquer dois cargos',
+      'Nenhum — é proibido',
+      'Três cargos de professor'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CF só autoriza a acumulação remunerada em 3 hipóteses: 2 cargos de PROFESSOR; 1 professor + 1 técnico/científico; 2 de profissionais de SAÚDE com regulamentação — sempre respeitando a compatibilidade de horários.', // explicação
+    dica: 'A FCC enumera as hipóteses e inventa uma quarta — memorize as três: 2 professor | professor+técnico/científico | 2 saúde. Fora disso, só com mandato eletivo (vereador) ou reserva militar.', // pegadinha
+    video: 'acumulação de cargos públicos permitida constituição resumo' // busca no YouTube
+  },
+  {
+    id: 'lg09',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Vacatio legis',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Quando uma lei diz "entra em vigor 90 dias após sua publicação", esse intervalo se chama:', // pergunta
+    alternativas: [                     // opções
+      'Vacatio legis — o período entre a publicação e o início da vigência',
+      'Prazo prescricional',
+      'Período de graça',
+      'Decurso de prazo',
+      'Lapso temporal'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Vacatio legis = "férias da lei": o tempo entre a publicação e o início da vigência, dado para que todos conheçam e se adaptem à nova regra. A lei existe, mas ainda não produz efeitos.', // explicação
+    dica: 'A CESPE confunde com outros prazos: vacatio = lei publicada que ainda não vale; vigência = quando já vale; revogação = quando para de valer. O termo latino é cobrança literal.', // pegadinha
+    video: 'vacatio legis vigência de lei resumo concurso' // busca no YouTube
+  },
+  {
+    id: 'lg10',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Prescrição x decadência',    // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A diferença entre prescrição e decadência é que a prescrição atinge:', // pergunta
+    alternativas: [                     // opções
+      'O próprio direito, que nasce morto',
+      'A pretensão — a possibilidade de exigir judicialmente, quando o direito não foi exercido por certo tempo',
+      'A obrigação',
+      'A punição só',
+      'O contrato'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PRESCRIÇÃO = você tem o direito mas perdeu a PRETENSÃO de cobrá-lo por não agir a tempo (a dívida existe, mas não dá para judicializar). DECADÊNCIA = o próprio direito morre pelo decurso do prazo (ex.: anular um ato).', // explicação
+    dica: 'Macete da FCC: PRESCRIÇÃO mata a pretensão (o direito continua); DECADÊNCIA mata o direito em si. A decadência pode ser alegada de ofício pelo juiz; a prescrição, em regra, precisa ser provocada.', // pegadinha
+    video: 'prescrição decadência diferença direito resumo' // busca no YouTube
+  },
+  {
+    id: 'lg11',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Ato administrativo — elementos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O elemento que indica O OBJETIVO a ser alcançado pelo ato administrativo é o:', // pergunta
+    alternativas: [                     // opções
+      'Motivo',
+      'Fim (finalidade) — o interesse público que a lei determina',
+      'Forma',
+      'Competência',
+      'Objeto'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os 5 elementos do ato administrativo: competência (quem pode), finalidade (para quê — o fim legal), forma (como), motivo (por quê — os fatos) e objeto (sobre o quê). A finalidade é o objetivo determinado pela lei.', // explicação
+    dica: 'A CESPE troca motivo x finalidade: MOTIVO = a situação de fato que originou (o porquê imediato); FINALIDADE = o resultado legal pretendido (interesse público). "CO-FO-FO-MO-OB" decora os cinco.', // pegadinha
+    video: 'elementos do ato administrativo finalidade motivo resumo' // busca no YouTube
+  },
+  {
+    id: 'lg12',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'PAD — processo administrativo disciplinar', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No PAD da Lei 8.112, a fase em que o servidor apresenta sua defesa formal chama-se:', // pergunta
+    alternativas: [                     // opções
+      'Sindicância',
+      'Instrução — depois do indiciamento, o servidor faz defesa escrita em 10 dias',
+      'Julgamento',
+      'Arquivamento',
+      'Notificação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O PAD tem fases: instauração → inquérito (instrução, com indiciamento e defesa escrita em 10 dias) → relatório → julgamento. A defesa escrita é o momento formal de o servidor se manifestar.', // explicação
+    dica: 'A FCC cobra os prazos do PAD: sindicância (investigação preliminar) ≠ PAD (processo formal). Defesa escrita = 10 dias. PAD pode resultar em advertência, suspensão, demissão ou cassação de aposentadoria.', // pegadinha
+    video: 'pad processo administrativo disciplinar fases resumo' // busca no YouTube
+  },
+  {
+    id: 'lg13',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Contratos administrativos',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "equilíbrio econômico-financeiro" do contrato administrativo garante ao contratado:', // pergunta
+    alternativas: [                     // opções
+      'Lucro garantido sempre',
+      'Reajuste do preço quando fatos extraordinários quebram a relação estabelecida na licitação',
+      'Isenção de multa',
+      'Contrato vitalício',
+      'Aumento automático anual'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O contrato administrativo preserva a paridade inicial: se fatos extraordinários ou imprevisíveis (ou atos do governo) desequilibram a equação, o contratado tem direito a recomposição — aumento ou compensação.', // explicação
+    dica: 'A CESPE testa quando o equilíbrio se quebra: fato extraordinário (imprevisível) ou ato do próprio poder público (fato do príncipe). A recomposição NÃO é lucro a mais — é repor a condição inicial do contrato.', // pegadinha
+    video: 'equilíbrio econômico financeiro contrato administrativo resumo' // busca no YouTube
+  },
+  {
+    id: 'lg14',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto da Pessoa com Deficiência', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Lei 13.146/15 (Estatuto da Pessoa com Deficiência) garante, entre outros direitos:', // pergunta
+    alternativas: [                     // opções
+      'Só aposentadoria especial',
+      'Acessibilidade, atendimento prioritário e cota de 2% a 5% dos cargos em concursos públicos',
+      'Isenção total de impostos',
+      'Vaga garantida em qualquer emprego',
+      'Prioridade só em hospitais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Estatuto materializa a Convenção de Nova York: acessibilidade universal, atendimento prioritário, tecnologia assistiva e cota de 2-5% dos cargos públicos para pessoas com deficiência — reservados os cargos de provimento efetivo.', // explicação
+    dica: 'A IBFC cobra a cota: 2% a 5% dos cargos efetivos nos concursos públicos. "Atendimento prioritário" vale para banco, repartição e saúde — é uma proteção ampla, não só reserva de vagas.', // pegadinha
+    video: 'estatuto pessoa com deficiência cota concurso resumo' // busca no YouTube
+  },
+  {
+    id: 'lg15',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'LGPD — proteção de dados',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei Geral de Proteção de Dados (LGPD, Lei 13.709/18) garante ao titular dos dados o direito de:', // pergunta
+    alternativas: [                     // opções
+      'Vender os próprios dados',
+      'Consentir ou não com o uso dos seus dados pessoais e exigir acesso, correção e exclusão',
+      'Usar dados de terceiros livremente',
+      'Ficar anônimo em todas as situações',
+      'Ser pago por empresas que coletam dados'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A LGPD centra-se no consentimento e nos direitos do titular: saber quem tem seus dados, para que usam, corrigir, apagar, portar e revogar o consentimento. Empresas precisam de base legal para tratar dados pessoais.', // explicação
+    dica: 'Direitos do titular na prova: acesso, correção, anonização/bloqueio, eliminação, portabilidade e revogação do consentimento. Dados sensíveis (saúde, raça, religião, biometria) têm proteção reforçada.', // pegadinha
+    video: 'lgpd direitos do titular consentimento resumo' // busca no YouTube
+  },
+  {
+    id: 'lg16',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Idoso',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O Estatuto do Idoso (Lei 10.741/03) protege a pessoa com:', // pergunta
+    alternativas: [                     // opções
+      '50 anos ou mais',
+      '60 anos ou mais',
+      '65 anos ou mais',
+      '70 anos ou mais',
+      'Aposentadoria qualquer'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Estatuto protege quem tem 60+ anos: prioridade especial, gratuidade no transporte interestadual (comprovada a pobreza), descontos, reserva de vagas e direitos na saúde e na família. Aos 80+, prioridade especializada.', // explicação
+    dica: 'A AOCP testa a idade: 60 anos é o marco do Estatuto (não 65, que é do BPC). Aos 80, a prioridade vira "especializada" — atendimento antes de todos. Transporte interestadual gratuito exige comprovar renda ≤ 2 salários mínimos.', // pegadinha
+    video: 'estatuto do idoso direitos prioridade resumo' // busca no YouTube
+  },
+
+  /* ===================== ÉTICA (matéria nova — serviço público e profissional) ===================== */
+  {
+    id: 'et01',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética x moral x direito',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A diferença entre ética e moral é que a ética é:', // pergunta
+    alternativas: [                     // opções
+      'O conjunto de regras escritas',
+      'A reflexão filosófica/teórica sobre os valores; a moral é o conjunto de normas vividas de fato por uma sociedade',
+      'O mesmo que a lei',
+      'O sentimento religioso',
+      'Apenas costumes antigos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MORAL = o conjunto de normas e valores que uma sociedade vive de fato (a prática). ÉTICA = a reflexão sobre esses valores (a teoria — "é certo fazer isso?"). Direito = as normas escritas e coercitivas. Ética pensa; moral age; lei obriga.', // explicação
+    dica: 'Macete da FCC: ética é da TEORIA (filosofia moral), moral é da PRÁTICA (o que se faz). A lei pode ser imoral (escravidão legal) — ética e direito nem sempre coincidem.', // pegadinha
+    video: 'ética moral direito diferença filosofia resumo' // busca no YouTube
+  },
+  {
+    id: 'et02',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Código de ética do servidor', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O Código de Ética Profissional do Servidor Público (Decreto 1.171/94) tem como objetivo principal:', // pergunta
+    alternativas: [                     // opções
+      'Aumentar o salário',
+      'Orientar a conduta do servidor no exercício do cargo, garantindo dignidade e decoro',
+      'Criar benefícios',
+      'Punir criminalmente',
+      'Regular férias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Decreto 1.171/94 é o código de ética do servidor federal: lista deveres (desempenho, cortesia, lealdade ao órgão) e vedações (ausentar-se, usar cargo para benefício próprio, faltar a verdade). Serve de guia de conduta, não de lei penal.', // explicação
+    dica: 'A AOCP confunde código de ética com lei: o código ORIENTA conduta (violação = falta ética/apuração pela comissão de ética) — a punição legal vem da 8.112. O código inclui os "deveres" e as "vedações" do servidor.', // pegadinha
+    video: 'código de ética servidor público decreto 1171 resumo' // busca no YouTube
+  },
+  {
+    id: 'et03',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Impessoalidade',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio da impessoalidade no serviço público exige que o servidor:', // pergunta
+    alternativas: [                     // opções
+      'Trate mal os cidadãos',
+      'Atue sem favorecimentos nem perseguições — atendendo a todos de forma igual e com o fim público',
+      'Não cumpra ordens',
+      'Seja amigo de todos',
+      'Trabalhe sem uniforme'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Impessoalidade = a finalidade é o bem público, não a pessoa: o servidor não pode favorecer conhecidos nem perseguir desafetos, e deve tratar os administrados com isonomia. Violação = ato com finalidade privada.', // explicação
+    dica: 'A IBFC restringe: impessoalidade NÃO é frieza — é ausência de favorecimento/perseguição. O ato do servidor não é dele — é do órgão (por isso a autoria é da administração).', // pegadinha
+    video: 'impessoalidade princípio serviço público resumo' // busca no YouTube
+  },
+  {
+    id: 'et04',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conflito de interesses',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Conflito de interesses ocorre quando o servidor:', // pergunta
+    alternativas: [                     // opções
+      'Discute com o chefe',
+      'Tem interesse particular que pode comprometer a imparcialidade no exercício da função pública',
+      'Tira férias longas',
+      'Recebe elogios',
+      'Muda de setor'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conflito de interesses = a decisão oficial do servidor pode beneficiá-lo particularmente (julgar a própria empresa, contratar o parente, avaliar amigo). A Lei 12.813/13 rege o tema no executivo federal — a regra é: declarar e se afastar.', // explicação
+    dica: 'A CESPE valoriza a conduta esperada: o servidor deve DECLARAR o conflito e impedir-se de agir. O problema não é ter o interesse — é agir como se não houvesse conflito.', // pegadinha
+    video: 'conflito de interesses servidor público resumo' // busca no YouTube
+  },
+  {
+    id: 'et05',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética da virtude',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A ética da virtude de Aristóteles define a pessoa ética como aquela que:', // pergunta
+    alternativas: [                     // opções
+      'Obedece por medo',
+      'Cultiva hábitos virtuosos e busca o equilíbrio — a virtude se torna "segunda natureza"',
+      'Segue só as leis escritas',
+      'Pensa só no lucro',
+      'Imita os outros'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Aristóteles, a ética não é cálculo — é caráter: o virtuoso age bem por hábito e equilíbrio (o meio-termo entre os extremos). A excelência moral se treina como um músculo.', // explicação
+    dica: 'A Unicamp contrapõe as éticas: virtude (Aristóteles — caráter), deontologia (Kant — dever), utilitarismo (Mill — consequência). A pergunta-chave da virtude é "que tipo de pessoa devo ser?", não "que regra seguir?".', // pegadinha
+    video: 'ética da virtude aristóteles caráter resumo' // busca no YouTube
+  },
+  {
+    id: 'et06',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Sigilo profissional',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O sigilo profissional obriga o servidor a:', // pergunta
+    alternativas: [                     // opções
+      'Contar tudo aos colegas',
+      'Não revelar informações protegidas dos administrados obtidas no exercício da função',
+      'Esconder crimes sempre',
+      'Mentir para proteger o órgão',
+      'Não trabalhar com dados'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sigilo = proteger informações sensíveis (dados de cidadãos, investigações, saúde, dados fiscais) obtidas pela função. Revelar sem justificativa legal = falta ética e ilícito funcional. O dever é de DISCRIÇÃO.', // explicação
+    dica: 'Limite do sigilo da AOCP: não cobre crime nem ordem ilegal — o servidor pode e deve relatar ilícitos ao órgão competente. O sigilo é dever com exceções legais, não pacto de silêncio absoluto.', // pegadinha
+    video: 'sigilo profissional servidor público dever resumo' // busca no YouTube
+  },
+  {
+    id: 'et07',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Moralidade administrativa',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A moralidade administrativa exige que a administração pública:', // pergunta
+    alternativas: [                     // opções
+      'Seja sempre lenta',
+      'Atue dentro da lei E conforme a honestidade, a boa-fé e a lealdade — não basta legalidade formal',
+      'Priorize amigos',
+      'Esconda erros',
+      'Imite a iniciativa privada'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moralidade = legalidade + eticidade: não basta cumprir a lei na forma — o ato deve ser honesto, leal e de boa-fé. "Moralidade" é o M do LIMPE constitucional e está na Lei de Improbidade como princípio violável.', // explicação
+    dica: 'A CESPE diferencia: ato LEGAL pode ser IMORAL (legal mas desonesto = anulável). O desvio de finalidade é o exemplo: licitação formalmente legal mas dirigida para favorecer alguém.', // pegadinha
+    video: 'moralidade administrativa legalidade boa-fé resumo' // busca no YouTube
+  },
+  {
+    id: 'et08',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Uso de recursos públicos',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Usar o veículo oficial para passeio no fim de semana viola a ética do servidor porque:', // pergunta
+    alternativas: [                     // opções
+      'O carro é velho',
+      'Os recursos públicos só podem ser usados para o interesse público, nunca para fins privados',
+      'O servidor não sabe dirigir',
+      'O veículo é novo',
+      'É permitido aos chefes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O patrimônio da repartição (carro, telefone, material, servidores) é do povo — usar para proveito pessoal é desvio ético (e pode virar peculato se for apropriação). A regra: recurso público é para fim público.', // explicação
+    dica: 'Exemplos que a AOCP usa: carro oficial para passeio, telefone para ligação pessoal, servidor para serviço doméstico, material de escritório para casa — todos desvios de finalidade dos recursos.', // pegadinha
+    video: 'uso de recursos públicos ética servidor desvio resumo' // busca no YouTube
+  },
+  {
+    id: 'et09',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Brindes e presentes',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Um fornecedor da repartição oferece um presente caro ao servidor responsável pela licitação. A conduta ética é:', // pergunta
+    alternativas: [                     // opções
+      'Aceitar de bom grado',
+      'Recusar — presentes que comprometam a imparcialidade criam conflito de interesses e podem configurar ilícito',
+      'Aceitar só se for barato',
+      'Dividir com os colegas',
+      'Devolver só se descobrirem'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brindes de fornecedor/prestador comprometem a imparcialidade — criam vínculo que pode virar favorecimento. O código de ética e a lei vedação receber vantagens de quem tem interesse em decisão do servidor. Recusar e registrar é a regra.', // explicação
+    dica: 'A CESPE testa a fronteira: cortesia cultural (caneta, café, brinde institucional de baixo valor) x presente de valor que visa influenciar. A regra segura: valor, contexto de decisão e relação com o interesse do doador.', // pegadinha
+    video: 'brindes presentes servidor público ética resumo' // busca no YouTube
+  },
+  {
+    id: 'et10',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Comissão de ética',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A comissão de ética de um órgão público existe para:', // pergunta
+    alternativas: [                     // opções
+      'Demite servidores diretamente',
+      'Orientar e aconselhar sobre a conduta ética, além de apurar infrações éticas e aplicar a censura ética',
+      'Dar aumentos',
+      'Fazer a prova de concurso',
+      'Escolher o chefe'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As comissões de ética dos órgãos (Decreto 1.171) fazem duas funções: aconselham o servidor sobre dilemas éticos e apuram infrações — podendo aplicar a CENSURA ÉTICA (a única punição que cabe a elas; a demissão é da administração via PAD).', // explicação
+    dica: 'A AOCP confunde os papéis: comissão de ética = censura ética apenas; PAD = punição administrativa (advertência a demissão); crime = juiz. A comissão não demite — orienta e censura.', // pegadinha
+    video: 'comissão de ética censura ética servidor resumo' // busca no YouTube
+  },
+  {
+    id: 'et11',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Transparência',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A transparência na administração pública é o princípio de que:', // pergunta
+    alternativas: [                     // opções
+      'Os atos públicos devem ser públicos e acessíveis ao cidadão, salvo as exceções legais de sigilo',
+      'O governo pode tudo em segredo',
+      'Só o servidor vê os dados',
+      'A informação é de propriedade do órgão',
+      'Os dados devem ser sempre fechados'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Publicidade/transparência = os atos e gastos do poder público devem ser conhecíveis pelo cidadão — a regra é abrir, e a exceção é o sigilo legal (dados pessoais, segurança). A LAI (Lei de Acesso à Informação) operacionaliza isso.', // explicação
+    dica: 'O ENEM cruza transparência com controle social: é pelo acesso à informação que o cidadão fiscaliza o poder. LAI = acesso a informações produzidas/custodiadas pelo Estado, com exceções tipificadas em lei.', // pegadinha
+    video: 'transparência administração pública lai resumo' // busca no YouTube
+  },
+  {
+    id: 'et12',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Assédio no serviço público', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O assédio moral no trabalho do servidor público é caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'Uma reclamação isolada',
+      'Condutas abusivas repetitivas e sistemáticas que degradam o ambiente e a dignidade do trabalhador',
+      'Elogios excessivos',
+      'A rotina normal de cobrança',
+      'Férias negadas uma vez'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assédio moral = comportamento abusivo REPETIDO (não fato isolado): humilhações, isolamento, tarefas impossíveis, gritos constantes. Uma reclamação pontual ou uma cobrança legítima não configura — é o padrão continuado que lesa a dignidade.', // explicação
+    dica: 'A CESPE distingue: assédio MORAL (degrada o trabalhador, geralmente chefia para baixo) × assédio SEXUAL (conotação sexual, crime) × conduta abusiva comum (fato isolado). A repetição é o elemento-chave.', // pegadinha
+    video: 'assédio moral trabalho servidor público resumo' // busca no YouTube
+  },
+  {
+    id: 'et13',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Legal x ético',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A escravidão no Brasil colonial era legal mas era uma violação ética. Isso mostra que:', // pergunta
+    alternativas: [                     // opções
+      'Tudo que é legal é ético',
+      'O legal nem sempre coincide com o ético — a moralidade pode exigir mais do que a lei',
+      'A ética depende da lei',
+      'A lei é sempre injusta',
+      'Não há relação entre os dois'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A legalidade e a moralidade não são a mesma coisa: a lei pode legitimar injustiças (escravidão, apartheid), e uma ação ética pode ser ilegal num regime injusto. A ética muitas vezes exige mais do que o que a lei manda.', // explicação
+    dica: 'A Fuvest cobra a reflexão: leis injustas existiram na história — a consciência ética do indivíduo/grupo pode (e deve) questioná-las. Ética critica; direito regula. Nem tudo legal é moral, nem tudo moral está na lei.', // pegadinha
+    video: 'ética e legalidade nem todo legal é moral resumo' // busca no YouTube
+  },
+  {
+    id: 'et14',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Dever de informar',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um cidadão pede informação sobre seus próprios dados na repartição. O dever ético do servidor é:', // pergunta
+    alternativas: [                     // opções
+      'Negar por comodidade',
+      'Informar de forma clara e completa — acesso à informação é direito do cidadão',
+      'Mandar voltar outro dia sempre',
+      'Cobrar pela informação',
+      'Falar em juridiquês para confundir'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O dever de informar decorre da publicidade e do respeito ao administrado: dar informação precisa, clara e completa sobre o que diz respeito ao cidadão. Negligenciar ou dificultar de propósito é falta ética.', // explicação
+    dica: 'A IBFC testa o tom: informar bem ≠ dar resposta vaga — é ser claro, honesto e completo. A LAI reforça: informação pública deve ser divulgada de forma acessível e transparente.', // pegadinha
+    video: 'dever de informar cidadão serviço público ética' // busca no YouTube
+  },
+  {
+    id: 'et15',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conduta decorosa',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O servidor que usa linguagem chula com um cidadão na recepção viola o dever ético de:', // pergunta
+    alternativas: [                     // opções
+      'Pontualidade',
+      'Urbanidade e decoro — tratar o administrado com respeito e cortesia',
+      'Sigilo',
+      'Economia',
+      'Fidelidade ao órgão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Decoro e urbanidade são deveres do servidor: tratar o público com respeito, paciência e linguagem adequada — a função pública exige dignidade no trato. Linguagem chula, gritos e desdém são faltas éticas.', // explicação
+    dica: 'Deveres de conduta da AOCP: urbanidade (polidez), decoro (dignidade), honestidade, lealdade ao órgão, pontualidade, assiduidade. Cada um pega uma situação diferente — o cidadão maltratado cai em urbanidade/decoro.', // pegadinha
+    video: 'decoro urbanidade servidor público atendimento resumo' // busca no YouTube
+  },
+  {
+    id: 'et16',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Cidadania no serviço público', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'A ética no serviço público tem como finalidade última:', // pergunta
+    alternativas: [                     // opções
+      'O enriquecimento do servidor',
+      'O bem comum e o respeito à dignidade do cidadão — o servidor existe para servir à sociedade',
+      'A burocracia',
+      'O lucro do órgão',
+      'A conveniência do governo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ética pública aponta para o bem comum: o servidor é servidor PÚBLICO — a função existe para servir ao cidadão, não para benefício próprio. Toda a ética do cargo tem esse norte: a dignidade de quem é atendido.', // explicação
+    dica: 'A Univesp lembra a lógica de fundo: público → do povo → para o povo. Quando a questão perguntar "para quê serve a ética do servidor?", a resposta sempre volta ao interesse público e ao cidadão.', // pegadinha
+    video: 'ética serviço público bem comum cidadão resumo' // busca no YouTube
+  },
+
+  /* ===================== ADMINISTRAÇÃO (matéria nova — gestão e teorias organizacionais) ===================== */
+  {
+    id: 'ad01',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Fayol — teoria clássica',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Henri Fayol, pai da teoria clássica da administração, definiu as funções administrativas como:', // pergunta
+    alternativas: [                     // opções
+      'Só produzir e vender',
+      'Prever, organizar, comandar, coordenar e controlar (POCCC)',
+      'Lucrar e crescer',
+      'Contratar e demitir',
+      'Planejar e executar apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fayol (1916) mapeou a administração de cima para baixo: prever (planejar), organizar, comandar, coordenar e controlar — o POCCC, que evoluiu depois para as 4 funções do processo administrativo moderno.', // explicação
+    dica: 'A CESPE troca Fayol com Taylor: Fayol olhou o TODO da empresa (de cima para baixo — direção); Taylor olhou o CHÃO de fábrica (de baixo para cima — a tarefa). Memorize a dupla.', // pegadinha
+    video: 'fayol teoria clássica administração pocc resumo' // busca no YouTube
+  },
+  {
+    id: 'ad02',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Taylor — administração científica', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A administração científica de Frederick Taylor propunha:', // pergunta
+    alternativas: [                     // opções
+      'Trabalho artesanal',
+      'Estudo da tarefa, tempos e movimentos e seleção do "melhor método" para racionalizar a produção',
+      'Participação democrática',
+      'Fim das máquinas',
+      'Decisão por consenso'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Taylor analisou o trabalho no chão de fábrica: mediu tempos e movimentos, achou a "one best way" e criou a divisão rígida de tarefas (cada um faz uma parte, repetidamente) — a base do fordismo e da linha de montagem.', // explicação
+    dica: 'Taylor = científica (tarefa/eficiência do operário); Fayol = clássica (administração/estrutura). O fordismo aplicou Taylor: linha de montagem, padronização, cada trabalhador na sua estação.', // pegadinha
+    video: 'taylor administração científica tempos movimentos resumo' // busca no YouTube
+  },
+  {
+    id: 'ad03',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Processo administrativo',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'As quatro funções do processo administrativo clássico são:', // pergunta
+    alternativas: [                     // opções
+      'Comprar, vender, estocar, enviar',
+      'Planejar, organizar, dirigir e controlar',
+      'Falar, escrever, calcular, viajar',
+      'Contratar, treinar, pagar, demitir',
+      'Nascer, crescer, morrer'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O processo administrativo cíclico: PLANEJAR (onde ir) → ORGANIZAR (como estruturar) → DIRIGIR (liderar a execução) → CONTROLAR (medir e corrigir). Toda a administração passa por esse ciclo.', // explicação
+    dica: 'P-O-D-C é a sigla de prova da AOCP. Planejar define o objetivo; organizar aloca recursos e pessoas; dirigir coordena e motiva; controlar compara o real com o planejado e ajusta.', // pegadinha
+    video: 'processo administrativo planejar organizar dirigir controlar' // busca no YouTube
+  },
+  {
+    id: 'ad04',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Weber — burocracia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A burocracia de Max Weber, como modelo ideal de organização, se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'Amadorismo',
+      'Hierarquia, regras formais, impessoalidade, competência técnica e carreira por mérito',
+      'Caudilhos',
+      'Amizades pessoais',
+      'Improviso total'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Weber, a burocracia é o modelo LEGAL e RACIONAL: cargos com hierarquia e competência definidos, regras escritas, impessoalidade (o cargo, não a pessoa) e promoção por mérito — o oposto do favorecimento patrimonial.', // explicação
+    dica: 'A Unicamp ressalva: "burocracia" para Weber é modelo EFICIENTE, não sinônimo de lerdeza — é a organização que funciona por regras e mérito, não por costumes ou laços pessoais.', // pegadinha
+    video: 'weber burocracia ideal administração resumo' // busca no YouTube
+  },
+  {
+    id: 'ad05',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Níveis organizacionais',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'As decisões sobre a missão e o futuro de longo prazo da organização são feitas no nível:', // pergunta
+    alternativas: [                     // opções
+      'Operacional',
+      'Estratégico (cúpula/direção) — o tático converte em planos e o operacional executa',
+      'Administrativo',
+      'Auxiliar',
+      'De base'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Três níveis: ESTRATÉGICO (alta direção — define visão e rumo, longo prazo), TÁTICO (gerência — traduz em planos e departamentos) e OPERACIONAL (execução — as tarefas do dia a dia).', // explicação
+    dica: 'A CESPE troca os níveis: estratégico = topo/longuíssimo prazo; tático = meio/prazo médio; operacional = base/curto. "Visão, missão e valores" é decisão estratégica.', // pegadinha
+    video: 'níveis organizacionais estratégico tático operacional' // busca no YouTube
+  },
+  {
+    id: 'ad06',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Departamentalização',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Uma empresa dividida em vendas, produção, financeiro e RH está departamentalizada por:', // pergunta
+    alternativas: [                     // opções
+      'Geografia',
+      'Função — a forma clássica de agrupar pela atividade desempenhada',
+      'Produto',
+      'Cliente',
+      'Processo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Departamentalização FUNCIONAL = agrupar pelas funções (vendas, produção, RH, financeiro). As outras formas: por produto (linha de produtos), por cliente (segmentos), por geografia (regiões) e por processo (etapas do trabalho).', // explicação
+    dica: 'A FCC descreve o cenário e pergunta o critério: "vendas/RH/financeiro" = FUNÇÃO; "Norte/Sul" = GEOGRÁFICA; "linha A/linha B" = PRODUTO; "VIP/varejo" = CLIENTE. Olhe o critério de agrupamento.', // pegadinha
+    video: 'departamentalização funcional produto cliente resumo' // busca no YouTube
+  },
+  {
+    id: 'ad07',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Maslow — hierarquia das necessidades', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na pirâmide de Maslow, a necessidade que só aparece como motivador após as anteriores serem satisfeitas é a de:', // pergunta
+    alternativas: [                     // opções
+      'Fisiologia (fome, sede)',
+      'Autorrealização — desenvolver o potencial pessoal, no topo da pirâmide',
+      'Comida',
+      'Sono',
+      'Abrigo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A pirâmide de Maslow ordena as necessidades de baixo para cima: fisiológicas → segurança → sociais (pertencimento) → estima → AUTORREALIZAÇÃO (realizar o potencial). As de baixo precisam estar satisfeitas para a de cima motivar.', // explicação
+    dica: 'A ordem do ENEM: fisiologia (base) → segurança → social → estima → autorrealização (topo). Pessoa faminta não se motiva por reconhecimento — as necessidades se sobrepõem.', // pegadinha
+    video: 'pirâmide de maslow hierarquia necessidades resumo' // busca no YouTube
+  },
+  {
+    id: 'ad08',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Estilos de liderança',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O líder que decide sozinho, sem consultar a equipe, pratica o estilo:', // pergunta
+    alternativas: [                     // opções
+      'Democrático',
+      'Autocrático — concentra a decisão, a comunicação desce de cima para baixo',
+      'Liberal',
+      'Situacional',
+      'Servidor'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Autocrático = decisão centralizada no líder; democrático = decide em grupo; liberal/laissez-faire = deixa a equipe livre. Nenhum é "o melhor" em tudo — o estilo certo depende da situação (liderança situacional).', // explicação
+    dica: 'A AOCP descreve a cena e pergunta o estilo: "decide sozinho" = autocrático; "vota com a equipe" = democrático; "deixa cada um resolver" = liberal. A liderança situacional ajusta o estilo ao momento.', // pegadinha
+    video: 'estilos de liderança autocrática democrática liberal' // busca no YouTube
+  },
+  {
+    id: 'ad09',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'PDCA — ciclo da qualidade',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O ciclo PDCA da qualidade é formado pelas etapas:', // pergunta
+    alternativas: [                     // opções
+      'Produzir, Desenvolver, Comprar, Ajustar',
+      'Planejar (Plan), Executar (Do), Verificar (Check) e Agir (Act)',
+      'Pensar, Decidir, Cortar, Analisar',
+      'Preparar, Decorar, Calcular, Ajustar',
+      'Propor, Discutir, Construir, Arrumar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PDCA (Deming) = ciclo contínuo de melhoria: Planejar a mudança → Executar → Verificar os resultados → Agir padronizando ou corrigindo — e recomeça. É a base da gestão da qualidade total.', // explicação
+    dica: 'A CESPE cobra a ordem e as palavras em inglês: Plan-Do-Check-Act. O "Act" padroniza o que funcionou e reinicia o ciclo — a qualidade é melhoria contínua, não projeto com fim.', // pegadinha
+    video: 'ciclo pdca plan do check act qualidade resumo' // busca no YouTube
+  },
+  {
+    id: 'ad10',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Análise SWOT',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Na matriz SWOT de planejamento estratégico, os pontos "forças" e "fraquezas" avaliam:', // pergunta
+    alternativas: [                     // opções
+      'O ambiente externo',
+      'O ambiente INTERNO da organização (forças e fraquezas); as oportunidades e ameaças olham para fora',
+      'A concorrência apenas',
+      'O governo',
+      'A economia mundial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'SWOT cruza dois eixos: INTERNO (forças/Strengths e fraquezas/Weaknesses — o que a organização controla) e EXTERNO (oportunidades/Opportunities e ameaças/Threats — o que ela não controla). Estratégia = usar forças nas oportunidades e proteger fraquezas das ameaças.', // explicação
+    dica: 'A FCC troca os quadrantes: força e fraqueza são INTERNAS; oportunidade e ameaça são EXTERNAS. Uma empresa boa num mercado em crescimento cruza força+oportunidade.', // pegadinha
+    video: 'análise swot forças fraquezas oportunidades ameaças' // busca no YouTube
+  },
+  {
+    id: 'ad11',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Administração pública x privada', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença essencial entre administrar no setor público e no privado está no:', // pergunta
+    alternativas: [                     // opções
+      'Tamanho da empresa',
+      'Fim perseguido — o público visa o interesse coletivo e segue regras de lei; o privado visa lucro e autonomia',
+      'Uso de computador',
+      'Número de funcionários',
+      'Existência de chefe'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O setor público administra para o bem comum e está preso à lei, à legalidade e à supremacia do interesse público; o privado administra para o lucro, com liberdade e foco no eficiente — princípios diferentes.', // explicação
+    dica: 'A IBDC resume: público = supremacia do interesse público + indisponibilidade + legalidade estrita; privado = liberdade + lucro + iniciativa. As teorias administrativas valem para os dois, mas os fins divergem.', // pegadinha
+    video: 'administração pública vs privada diferenças resumo' // busca no YouTube
+  },
+  {
+    id: 'ad12',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Comunicação organizacional', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A comunicação organizacional "ascendente" é a que vai:', // pergunta
+    alternativas: [                     // opções
+      'Do chefe para o subordinado',
+      'Do subordinado para a chefia — feedbacks, sugestões e reclamações que sobem na hierarquia',
+      'Entre colegas do mesmo nível',
+      'De fora para dentro',
+      'Só por e-mail'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ascendente = sobe (subordinado → chefe): sugestões, queixas, feedbacks, dados de produção. Descendente = desce (ordens, metas, feedbacks da chefia). Horizontal = entre pares; diagonal = entre níveis e áreas diferentes.', // explicação
+    dica: 'Mapa da AOCP: desce = descendente (ordem); sobe = ascendente (sugestão); entre pares = horizontal/lateral; entre áreas diferentes = diagonal/transversal. A caixa de sugestões é ascendente clássica.', // pegadinha
+    video: 'comunicação organizacional ascendente descendente horizontal' // busca no YouTube
+  },
+  {
+    id: 'ad13',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão por competências',    // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A gestão por competências foca em:', // pergunta
+    alternativas: [                     // opções
+      'Apenas no diploma',
+      'O conjunto de conhecimentos, habilidades e atitudes (CHA) que a pessoa mobiliza para gerar resultados',
+      'Somente no tempo de casa',
+      'Na aparência física',
+      'Na obediência cega'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = CHA (Conhecimento + Habilidade + Atitude): não basta saber (conhecimento), é preciso fazer (habilidade) e querer (atitude). A gestão por competências mapeia o CHA do cargo e desenvolve/avalia as pessoas por ele.', // explicação
+    dica: 'A CESPE cobra o trio: C = conhecimento (saber), H = habilidade (saber fazer), A = atitude (querer fazer). Faltando um, a competência não se completa — diploma só não basta.', // pegadinha
+    video: 'gestão por competências cha conhecimento habilidade atitude' // busca no YouTube
+  },
+  {
+    id: 'ad14',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Organograma',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O organograma é a representação gráfica de:', // pergunta
+    alternativas: [                     // opções
+      'A produção mensal',
+      'A estrutura hierárquica da organização — cargos, setores e linhas de autoridade',
+      'As vendas anuais',
+      'A planta do prédio',
+      'O fluxo de caixa'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O organograma desenha a estrutura: quem responde a quem (hierarquia), quais são os setores/departamentos e como as autoridades se ligam. É o "mapa" visual da organização formal.', // explicação
+    dica: 'A IBFC pede o que o organograma NÃO mostra: ele desenha a estrutura formal, mas não as relações informais (a "organização informal") nem o desempenho — é só a hierarquia e os vínculos.', // pegadinha
+    video: 'organograma estrutura hierárquica organização resumo' // busca no YouTube
+  },
+  {
+    id: 'ad15',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Inovação organizacional',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A inovação organizacional se distingue da simples melhoria porque:', // pergunta
+    alternativas: [                     // opções
+      'Custa mais caro',
+      'Introduz algo significativamente novo (produto, processo, organização ou marketing) — não é só ajuste incremental',
+      'É só para startups',
+      'Muda a fachada',
+      'Não precisa de equipe'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inovar = trazer algo novo de valor real (produto inédito, processo transformado, modelo de negócio novo). Melhoria incremental ajusta o existente; inovação muda o jogo. Ambos são necessários, mas são coisas diferentes.', // explicação
+    dica: 'O ENEM diferencia: melhoria contínua (Kaizen/PDCA) = pequenos ajustes constantes; inovação = salto de valor. As duas convivem — uma empresa madura melhora o dia a dia e inova nas bordas.', // pegadinha
+    video: 'inovação organizacional vs melhoria contínua resumo' // busca no YouTube
+  },
+  {
+    id: 'ad16',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Cultura organizacional',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A cultura organizacional é formada por:', // pergunta
+    alternativas: [                     // opções
+      'Apenas o manual da empresa',
+      'O conjunto de valores, crenças, rituais e práticas compartilhados que orientam como as pessoas agem',
+      'O salário dos funcionários',
+      'A decoração do escritório',
+      'A lei trabalhista'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cultura organizacional = "o jeito como as coisas se fazem aqui": valores, símbolos, rituais, histórias e práticas tácitas compartilhadas que moldam o comportamento — mais forte que qualquer manual escrito.', // explicação
+    dica: 'A Unicamp diferencia cultura de clima: cultura = o DNA profundo (valores, "como somos"); clima = o sentimento do momento (satisfação, humor do ambiente). Cultura muda devagar; clima, rápido.', // pegadinha
+    video: 'cultura organizacional valores rituais resumo' // busca no YouTube
+  },
+
+  /* ===================== CONTABILIDADE (matéria nova — Bacen, tribunais, bancos) ===================== */
+  {
+    id: 'ct01',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Ativo, passivo e patrimônio líquido', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na equação fundamental da contabilidade, o patrimônio líquido é calculado por:', // pergunta
+    alternativas: [                     // opções
+      'Ativo + Passivo',
+      'Ativo − Passivo — o que sobra para os sócios depois de pagar as dívidas',
+      'Passivo − Ativo',
+      'Ativo ÷ Passivo',
+      'Receita − Lucro'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Equação fundamental: ATIVO = PASSIVO + PL → PL = Ativo − Passivo. Ativo = bens e direitos (o que tem); Passivo = obrigações (o que deve); PL = o que sobra dos sócios. Se PL negativo = "passivo a descoberto" (falência técnica).', // explicação
+    dica: 'A CESPE cobra os termos: ATIVO = bens+direitos; PASSIVO = obrigações; PL = riqueza residual dos sócios. PL negativo = patrimônio líquido negativo = a empresa deve mais do que tem.', // pegadinha
+    video: 'ativo passivo patrimônio líquido equação contábil resumo' // busca no YouTube
+  },
+  {
+    id: 'ct02',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Débito e crédito',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No método das partidas dobradas, toda aplicação de recurso tem uma origem. Isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'Só se debita',
+      'Para cada débito existe um crédito de igual valor — o sistema é autoequilibrado',
+      'Débito é bom e crédito é ruim',
+      'Crédito é sempre dinheiro entrando',
+      'Débito é só para despesas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Partidas dobradas: não existe débito sem crédito — toda entrada de recurso tem uma saída correspondente. Comprar estoque a prazo = débito no estoque e crédito em fornecedores. O balanço sempre fecha: A = P + PL.', // explicação
+    dica: 'Confusão mortal da FCC: na contabilidade, "débito" e "crédito" NÃO têm o sentido de bom/ruim — são só os dois lados. No ATIVO, débito aumenta; no PASSIVO e PL, crédito aumenta. Receita é crédito; despesa é débito.', // pegadinha
+    video: 'partidas dobradas débito crédito contabilidade resumo' // busca no YouTube
+  },
+  {
+    id: 'ct03',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Balanço patrimonial',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O balanço patrimonial é a demonstração contábil que mostra:', // pergunta
+    alternativas: [                     // opções
+      'O lucro do ano',
+      'A foto do patrimônio numa data — ativo, passivo e patrimônio líquido num instante',
+      'Só o caixa',
+      'As vendas do mês',
+      'A folha de pagamento'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O balanço patrimonial é uma FOTO: o patrimônio numa data (ativo do lado esquerdo, passivo+PL do direito — equilíbrio). A DRE mostra o FILME (resultado de um período: receitas menos despesas = lucro ou prejuízo).', // explicação
+    dica: 'A CESPE troca os demonstrativos: BALANÇO = foto instantânea do patrimônio (estático); DRE = resultado do período (dinâmico); DFC = fluxo de caixa (entradas/saídas); DMPL = variações do patrimônio líquido.', // pegadinha
+    video: 'balanço patrimonial ativo passivo demonstrativo resumo' // busca no YouTube
+  },
+  {
+    id: 'ct04',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'DRE — resultado do exercício', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A DRE (Demonstração do Resultado do Exercício) apura:', // pergunta
+    alternativas: [                     // opções
+      'O caixa disponível',
+      'O lucro ou prejuízo do período — receitas menos custos e despesas',
+      'O valor dos bens',
+      'As dívidas de longo prazo',
+      'O capital social'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DRE = o filme do período: começa na receita líquida, desconta custos (CMV) → lucro bruto; despesas operacionais → lucro operacional; impostos e participações → LUCRO LÍQUIDO. É a resposta a "quanto a empresa ganhou".', // explicação
+    dica: 'A FCC testa a cascata da DRE: receita líquida → (−CMV) → lucro bruto → (−despesas operacionais) → lucro operacional → (−imposto/participações) → lucro líquido. Não é caixa — é resultado econômico.', // pegadinha
+    video: 'dre demonstração resultado lucro bruto líquido resumo' // busca no YouTube
+  },
+  {
+    id: 'ct05',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Lançamento contábil',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Comprar mercadoria a prazo por R$ 5.000 gera o lançamento:', // pergunta
+    alternativas: [                     // opções
+      'Débito em caixa e crédito em fornecedores',
+      'Débito no estoque/mercadorias e crédito em fornecedores (a pagar) — mesma conta, mesmo valor',
+      'Só débito no estoque',
+      'Crédito no estoque',
+      'Débito em vendas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A mercadoria ENTRA (aumenta o estoque = débito numa conta de ativo) e a obrigação com o fornecedor NASCE (aumenta o passivo = crédito em fornecedores a pagar). Débito e crédito iguais — partidas dobradas.', // explicação
+    dica: 'A CESPE troca as contas: débito sempre no que AUMENTA de ativo/despesa; crédito no que aumenta de passivo/receita/PL. "A prazo" = fornecedores (passivo), não caixa; "à vista" = caixa.', // pegadinha
+    video: 'lançamento contábil estoque fornecedores partidas dobradas' // busca no YouTube
+  },
+  {
+    id: 'ct06',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Circulante x não circulante', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'No balanço, os bens e obrigações são separados em circulantes e não circulantes pelo prazo de:', // pergunta
+    alternativas: [                     // opções
+      '6 meses',
+      '12 meses — até um ano é circulante; acima é não circulante',
+      '24 meses',
+      '36 meses',
+      '5 anos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CIRCULANTE = realizável/exigível até 12 meses (caixa, estoque, clientes a receber, fornecedores a pagar). NÃO CIRCULANTE = além de um ano (imobilizado, investimentos de longo prazo, dívidas longas). O corte é de 12 meses.', // explicação
+    dica: 'Detalhe da FCC: no ATIVO a ordem é liquidez (mais líquido primeiro); no PASSIVO é vencimento. Caixa, banco e estoque são circulantes; máquinas, imóveis de uso e empréstimos longos são não circulantes.', // pegadinha
+    video: 'ativo circulante não circulante 12 meses resumo' // busca no YouTube
+  },
+  {
+    id: 'ct07',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Depreciação',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A depreciação de uma máquina representa:', // pergunta
+    alternativas: [                     // opções
+      'O valor de venda',
+      'A perda de valor do bem pelo uso e pelo tempo — custo distribuído ao longo da vida útil',
+      'O preço de compra',
+      'O seguro do bem',
+      'O imposto sobre o bem'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Depreciação = a "gastura" do bem de uso: a máquina de R$ 100 mil com vida útil de 10 anos custa R$ 10 mil por ano na contabilidade. Espalha o custo no tempo — o ativo vale menos a cada ano que passa.', // explicação
+    dica: 'Depreciação NÃO é despesa de caixa — é contábil (a máquina já foi paga). Linear = valor igual por ano. O cálculo: (custo − valor residual) ÷ vida útil. Terrenos NÃO depreciam.', // pegadinha
+    video: 'depreciação máquina vida útil contabilidade resumo' // busca no YouTube
+  },
+  {
+    id: 'ct08',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Capital de giro',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O capital de giro de uma empresa corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'O imobilizado',
+      'Os recursos que mantêm a operação do dia a dia — ativo circulante menos passivo circulante (capital de giro líquido)',
+      'O dinheiro na poupança do dono',
+      'As ações em bolsa',
+      'O patrimônio dos sócios'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Capital de giro = dinheiro que "gira" a operação: caixa, estoque, clientes a receber menos as contas a pagar (ativo circulante − passivo circulante). Se for negativo, a empresa não tem fôlego de caixa — risco de quebrar.', // explicação
+    dica: 'A FCC cobra o sinal: capital de giro líquido POSITIVO = ativo circulante cobre as dívidas de curto prazo; NEGATIVO = risco de insolvência. Empresa lucrativa pode quebrar por falta de giro (liquidez ≠ lucro).', // pegadinha
+    video: 'capital de giro liquidez corrente resumo' // busca no YouTube
+  },
+  {
+    id: 'ct09',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Ativo circulante',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'São exemplos de ativo circulante:', // pergunta
+    alternativas: [                     // opções
+      'Imóveis da fábrica',
+      'Caixa, estoque, clientes a receber e aplicações de curto prazo',
+      'Terrenos',
+      'Patentes',
+      'Empréstimos longos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ativo circulante = o que vira dinheiro até 12 meses: caixa, banco, estoque, duplicatas/clientes a receber, aplicações financeiras de curto prazo. Imóvel, máquina e patente são não circulantes (uso de longo prazo).', // explicação
+    dica: 'A IBFC mistura ativo e passivo na lista: "empréstimos a pagar longo" é passivo não circulante; "clientes a receber" é ativo circulante. Sempre pergunte: é um bem/direito (ativo) ou obrigação (passivo)?', // pegadinha
+    video: 'ativo circulante caixa estoque clientes resumo' // busca no YouTube
+  },
+  {
+    id: 'ct10',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Contas a pagar x a receber', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: '"Clientes a receber" e "fornecedores a pagar" representam, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'Direito e direito',
+      'Um direito (vendas a prazo a receber) e uma obrigação (compras a prazo a pagar)',
+      'Obrigação e obrigação',
+      'Despesa e receita',
+      'Lucro e prejuízo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Clientes a receber = o que os clientes nos devem (direito/ativo). Fornecedores a pagar = o que devemos aos fornecedores (obrigação/passivo). Um é dinheiro que entra; o outro, que sai.', // explicação
+    dica: 'A AOCP troca os lados: "a receber" = ativo (direito nosso); "a pagar" = passivo (obrigação nossa). A conta precede a natureza: quem recebe é direito, quem paga é dívida.', // pegadinha
+    video: 'contas a pagar a receber direito obrigação resumo' // busca no YouTube
+  },
+  {
+    id: 'ct11',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Conciliação bancária',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A conciliação bancária serve para:', // pergunta
+    alternativas: [                     // opções
+      'Cobrar o cliente',
+      'Comparar o saldo contábil da empresa com o extrato do banco e ajustar as diferenças (cheques não compensados, tarifas, juros)',
+      'Pedir empréstimo',
+      'Fechar o caixa',
+      'Pagar fornecedores'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conciliação = fazer "bater" o controle interno com o extrato: o que a empresa registrou x o que o banco lançou. As diferenças (cheque emitido que ainda não compensou, tarifa descontada, juros creditados) são ajustadas para os dois convergirem.', // explicação
+    dica: 'As causas clássicas da diferença: cheques em trânsito, tarifas bancárias, juros, devoluções, depósitos ainda não lançados pelo banco. A conciliação é controle de caixa — mensal no mínimo.', // pegadinha
+    video: 'conciliação bancária extrato saldo contábil resumo' // busca no YouTube
+  },
+  {
+    id: 'ct12',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Regime de competência',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No regime de competência, a receita e a despesa são reconhecidas:', // pergunta
+    alternativas: [                     // opções
+      'Quando o dinheiro entra ou sai',
+      'Quando ocorre o fato econômico (a venda ou o consumo), independentemente do pagamento',
+      'Só quando o cliente paga',
+      'No fim do ano',
+      'Quando dá vontade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = a receita/despesa é reconhecida quando o FATO acontece: venda a prazo gera receita hoje (com cliente a receber), não quando o dinheiro chega. Regime de caixa = só quando o dinheiro muda de mão.', // explicação
+    dica: 'A CESPE diferencia os dois: competência (oficial para empresas — fato ocorrido) × caixa (pagamento/recebimento). Aluguel pago antecipadamente = despesa do período de uso, não do pagamento.', // pegadinha
+    video: 'regime de competência caixa contabilidade resumo' // busca no YouTube
+  },
+  {
+    id: 'ct13',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Lucro bruto x líquido',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Uma empresa vendeu R$ 100 mil com custo das mercadorias de R$ 60 mil e despesas de R$ 25 mil. O lucro líquido é:', // pergunta
+    alternativas: [                     // opções
+      'R$ 40 mil',
+      'R$ 15 mil — 100 (receita) − 60 (CMV) − 25 (despesas)',
+      'R$ 100 mil',
+      'R$ 75 mil',
+      'R$ 25 mil'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Lucro bruto = receita − custo das mercadorias: 100 − 60 = 40 mil.',
+      'Lucro líquido = lucro bruto − despesas operacionais: 40 − 25 = 15 mil.'
+    ],
+    explicacao: 'Lucro bruto (40 mil) é o que sobra da venda depois do custo do produto; o lucro líquido (15 mil) é o que resta depois de TODAS as despesas (administrativas, vendas, impostos). A margem líquida é 15%.', // explicação
+    dica: 'A IBFC confunde os três: bruto = receita − CMV (só o custo da mercadoria); operacional = bruto − despesas operacionais; líquido = o que sobra para os sócios depois de tudo (incluindo impostos).', // pegadinha
+    video: 'lucro bruto líquido cmv margem contabilidade resumo' // busca no YouTube
+  },
+  {
+    id: 'ct14',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Fluxo de caixa',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A Demonstração dos Fluxos de Caixa (DFC) mostra:', // pergunta
+    alternativas: [                     // opções
+      'O lucro do ano',
+      'As entradas e saídas de dinheiro do caixa no período — operacional, investimento e financiamento',
+      'O patrimônio líquido',
+      'Só as vendas',
+      'O imposto de renda'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A DFC detalha o DINHEIRO que entrou e saiu (caixa), separando em três fluxos: operacional (vendas, salários), investimento (compra/venda de bens) e financiamento (empréstimos, capital dos sócios). É o acompanhamento da liquidez.', // explicação
+    dica: 'A DFC não é o lucro: empresa lucrativa pode ter caixa negativo (vendeu a prazo) e empresa no prejuízo pode ter caixa positivo (vendeu imóvel). O fluxo separa por atividade: operacional, investimento e financiamento.', // pegadinha
+    video: 'demonstração fluxo de caixa dfc operacional resumo' // busca no YouTube
+  },
+  {
+    id: 'ct15',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Provisões',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Uma provisão para devedores duvidosos (PDD) reconhece:', // pergunta
+    alternativas: [                     // opções
+      'A venda futura',
+      'A perda esperada em clientes a receber — parte do que provavelmente não será pago',
+      'O imposto a pagar',
+      'O salário dos funcionários',
+      'A depreciação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A PDD é uma "reserva" no ativo: se parte dos clientes a receber provavelmente não vai pagar (inadimplência esperada), a contabilidade já desconta essa perda estimada — o cliente a receber aparece pelo valor líquido real.', // explicação
+    dica: 'Provisão ≠ reserva: PROVISÃO = passivo/redutora de ativo para perda esperada (PDD, processos, garantias); RESERVA = parte do patrimônio líquido (reserva legal, de lucros). A FCC troca os dois de propósito.', // pegadinha
+    video: 'provisão pdd devedores duvidosos reserva resumo' // busca no YouTube
+  },
+  {
+    id: 'ct16',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Patrimônio líquido — componentes', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O patrimônio líquido das empresas inclui:', // pergunta
+    alternativas: [                     // opções
+      'Só o caixa',
+      'Capital social, reservas de capital e de lucros, ajustes de avaliação patrimonial, lucros ou prejuízos acumulados e ações em tesouraria',
+      'Apenas o lucro do ano',
+      'O estoque',
+      'As dívidas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O PL é a "riqueza dos sócios": capital social (o que investiram) + reservas (partes do lucro guardadas) + ajustes de avaliação (atualizações de valor) + lucros/prejuízos acumulados − ações em tesouraria (ações próprias compradas).', // explicação
+    dica: 'A CESPE enumera os componentes do PL e pede um que NÃO pertence: dívidas e estoque são ativo/passivo — não PL. Reserva LEGAL é obrigatória (5% do lucro líquido, até limites); reserva de lucros é por estatuto/assembleia.', // pegadinha
+    video: 'patrimônio líquido capital social reservas resumo' // busca no YouTube
   }
 ];
