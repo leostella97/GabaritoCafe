@@ -206,10 +206,14 @@
   gap: 0.5rem;                      /* espaço entre barras */
   height: 160px;                    /* altura do gráfico */
   padding-top: 1rem;                /* respiro acima */
+  max-width: 520px;                 /* TEAM_001: teto de largura aproxima as colunas */
+  margin: 0 auto;                   /* TEAM_001: centraliza o grupo no cartão */
+  justify-content: center;          /* TEAM_001: com poucas provas, agrupa no centro */
 }
 
 .grafico .coluna {                  /* cada coluna (uma prova) */
   flex: 1;                          /* divide a largura */
+  max-width: 52px;                  /* TEAM_001: poucas provas também ficam juntas */
   display: flex;                    /* coluna */
   flex-direction: column;           /* barra em cima, rótulo embaixo */
   align-items: center;              /* centralizado */
