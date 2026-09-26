@@ -121,3 +121,30 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - `validar-banco.js` → 276 questões, 0 problemas | facil=77 · medio=172 · dificil=27 | ensino medio=233 · superior=43.
 - Criminologia: 4 → 12 questões.
 - `node --check` no banco ✅
+
+---
+
+## Tarefa 6 — Grade de vestibulares + piso de 16 por matéria (276 → 491)
+
+### Pedido
+- "inclua questões de: literatura, inglês, espanhol, artes, educação física, fisiologia, geografia, filosofia, sociologia, biologia, economia, química, física" + "mais de 15 questões por matéria"
+
+### O que foi feito
+- +215 questões em **dois blocos**, completando a grade de vestibulares (ENEM, Fuvest, Unicamp/Comvest, Univesp, Vunesp, Coperve, FATEC/ETEC):
+  - **12 matérias novas** (l, e, s, ar, ef, fs, fl, so, b, ec, qm, f): Literatura, Inglês, Espanhol, Artes, Educação Física, Fisiologia, Filosofia, Sociologia, Biologia, Economia, Química e Física — 16 cada.
+  - **Reforço das existentes para o piso de 16**: Geografia +4 (g21–g24), Direito Penal +4 (d13–d16), Criminologia +4 (k13–k16), Direito Previdenciário +11 (v06–v16).
+- Conteúdo vestibular: escolas literárias + autores (Romantismo→Clarice), falsos cognatos e gramática de inglês/espanhol, vanguardas e arte brasileira (Semana 22, Antropofagia, Aleijadinho, Oiticica), aeróbio×anaeróbio + OMS + regras de esportes, sistemas do corpo (sinapse→pele), clássicos da filosofia (Sócrates→bioética), Marx/Durkheim/Weber + temas atuais, célula→biotecnologia, macro básica (Selic, PIB, Gini) e física/química do ensino médio.
+- `g23` virou União Europeia após o validador flagrar duplicata com `t13` (Mercosul).
+
+### Integrações
+- `analise-edital.js` catálogo 24 → **32 matérias** (espanhol, literatura, artes, ed. física, fisiologia, filosofia, sociologia, economia) — editais de vestibular agora casam com as novas questões.
+- `dados-temas.js` vestibular 7 → **16 entradas**: plano de estudo ganhou resumo + 3 tópicos por matéria nova (frequência, porquê e como estudar).
+- Todas as novas questões com `ensino: 'medio'` (conteúdo de ensino médio/vestibular); penal/criminologia/previdenciário superiores mantiveram `superior` onde aplicável.
+- README: 276 → 491; catálogo 24 → 32.
+
+### Verificação
+- `validar-banco.js` → **491 questões, 0 problemas** | 24 matérias | facil=122 · medio=323 · dificil=46 | ensino medio=438 · superior=53.
+- Menor matéria do banco = 16 questões (Física e demais novas) — piso "mais de 15" atendido em TODAS.
+- Teste funcional do motor: simulado de 10 questões montado para cada matéria nova; chips de matéria/banca/nível/ensino funcionando.
+- `validar-idiomas.js` ✅ 224 chaves × 3 | `node --check` ✅ nos 3 arquivos.
+- Temp `_tmp_teste.js` removido após o teste.

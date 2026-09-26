@@ -35,6 +35,14 @@ const AnaliseEdital = {
     { id: 'fisica', rotulo: 'Física', padroes: ['FISICA', 'FÍSICA'] },                                           // física
     { id: 'quimica', rotulo: 'Química', padroes: ['QUIMICA', 'QUÍMICA'] },                                       // química
     { id: 'ingles', rotulo: 'Inglês', padroes: ['LINGUA INGLESA', 'INGLES', 'INGLÊS'] },                         // inglês
+    { id: 'espanhol', rotulo: 'Espanhol', padroes: ['LINGUA ESPANHOLA', 'ESPANHOL'] },                           // espanhol
+    { id: 'literatura', rotulo: 'Literatura', padroes: ['LITERATURA'] },                                         // literatura
+    { id: 'artes', rotulo: 'Artes', padroes: ['ARTES', 'EDUCACAO ARTISTICA', 'EDUCAÇÃO ARTÍSTICA'] },             // artes
+    { id: 'edfisica', rotulo: 'Educação Física', padroes: ['EDUCACAO FISICA', 'EDUCAÇÃO FÍSICA', 'ED FISICA'] },  // educação física
+    { id: 'fisiologia', rotulo: 'Fisiologia', padroes: ['FISIOLOGIA'] },                                         // fisiologia
+    { id: 'filosofia', rotulo: 'Filosofia', padroes: ['FILOSOFIA'] },                                            // filosofia
+    { id: 'sociologia', rotulo: 'Sociologia', padroes: ['SOCIOLOGIA'] },                                         // sociologia
+    { id: 'economia', rotulo: 'Economia', padroes: ['ECONOMIA', 'CIENCIAS ECONOMICAS', 'CIÊNCIAS ECONÔMICAS'] },  // economia
     { id: 'legislacao', rotulo: 'Legislação', padroes: ['LEGISLACAO', 'LEGISLAÇÃO', 'REGIME JURIDICO', 'ESTATUTO DOS SERVIDORES', 'LEI ORGANICA'] }, // legislação
     { id: 'redacao', rotulo: 'Redação', padroes: ['REDACAO', 'REDAÇÃO', 'PROVA DISCURSIVA'] },                   // redação
     { id: 'etica', rotulo: 'Ética', padroes: ['ETICA', 'ÉTICA NO SERVICO PUBLICO', 'CODIGO DE ETICA'] },          // ética

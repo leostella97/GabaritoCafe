@@ -171,6 +171,96 @@ const DadosTemas = {
         { nome: 'Ligações químicas', frequencia: 3, porque: 'Iônica x covalente é conceito rápido e frequente.', como: 'Metal + ametal = ligação iônica; ametal + ametal = covalente. Decore os exemplos clássicos (NaCl, H₂O).' },
         { nome: 'Química orgânica', frequencia: 4, porque: 'Funções (álcool, cetona...) e reações básicas caem muito no ENEM.', como: 'Monte flashcards das funções orgânicas com um exemplo do cotidiano (etanol, acetona, ácido acético).' }
       ]
+    },
+    {
+      materia: 'Literatura',             // nome da matéria
+      icone: '📚',                       // emoji
+      resumo: 'Escolas literárias com autores e obras: Romantismo, Realismo e Modernismo respondem pela maioria.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Romantismo (Alencar, indianismo)', frequencia: 5, porque: 'Iracema e O Guarani são leitura obrigatória das bancas.', como: 'Associe cada obra ao tipo de herói: índio idealizado (indianismo), burguês (romance urbano), sofredor (ultrarromântico).' },
+        { nome: 'Realismo e Machado de Assis', frequencia: 5, porque: 'Brás Cubas e Dom Casmurro são cobrança clássica da Fuvest.', como: 'Saiba o narrador de cada obra: defunto-narrador (Brás Cubas) e narrador que duvida (Bentinho).' },
+        { nome: 'Modernismo e a Semana de 22', frequencia: 4, porque: 'Marco da arte brasileira — cai contextualizado com artes.', como: 'Decore o trio: Mário (Macunaíma), Oswald (Antropofagia) e Anita Malfatti (pintura) — e o que a Semana rompeu.' }
+      ]
+    },
+    {
+      materia: 'Inglês',                 // nome da matéria
+      icone: '🗽',                       // emoji
+      resumo: 'Interpretação de texto + falsos cognatos: a prova mede leitura, não fluência.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Falsos cognatos', frequencia: 5, porque: 'Pretend, actually, library caem em toda prova.', como: 'Faça lista de falsos amigos por bloco: verbos, substantivos e adjetivos — são os mesmos há anos.' },
+        { nome: 'Tempos verbais-chave', frequencia: 4, porque: 'Present perfect e simple past decidem metade das questões.', como: 'Regra bolso: data definida = simple past; sem data = present perfect.' },
+        { nome: 'Estratégia de leitura', frequencia: 4, porque: 'O ENEM cobra inferência, não tradução palavra a palavra.', como: 'Leia as alternativas primeiro, marque palavras-chave (verbos e números) e cace-as no texto.' }
+      ]
+    },
+    {
+      materia: 'Espanhol',               // nome da matéria
+      icone: '🌎',                       // emoji
+      resumo: 'Ser/estar, por/para e falsos cognatos são a espinha dorsal da prova.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Ser x estar', frequencia: 5, porque: 'A alternativa que troca o verbo troca o sentido do adjetivo.', como: 'Permanente/identidade = ser; temporário/estado/lugar = estar. "Es aburrido" x "está aburrido" muda tudo.' },
+        { nome: 'Falsos cognatos', frequencia: 4, porque: 'Embarazada e largo enganam quem confia no parecido.', como: 'Estude a lista com frases completas — o contexto revela o sentido real.' },
+        { nome: 'Por x para', frequencia: 4, porque: 'O erro mais cobrado da gramática espanhola.', como: 'Para = destino/finalidade; por = causa/preço/meio. "Gracias por" é a cola.' }
+      ]
+    },
+    {
+      materia: 'Artes',                  // nome da matéria
+      icone: '🎨',                       // emoji
+      resumo: 'Vanguardas europeias + arte brasileira (Semana de 22, Antropofagia, Aleijadinho) são o eixo.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Vanguardas (Cubismo, Surrealismo)', frequencia: 5, porque: 'Cada movimento tem uma palavra-chave que a banca troca.', como: 'Cubismo = geometria; Futurismo = velocidade; Surrealismo = sonho. Monte um quadro comparativo.' },
+        { nome: 'Semana de 22 e Antropofagia', frequencia: 5, porque: 'Marco da arte nacional — cai com literatura e história.', como: 'Ligue os pontos: 1922 (Semana) → 1928 (Manifesto Antropofágico + Abaporu) → "devorar para criar".' },
+        { nome: 'Barroco mineiro e Aleijadinho', frequencia: 4, porque: 'O ciclo do ouro explica a arte colonial brasileira.', como: 'Associe: ouro de Minas → igrejas e esculturas em pedra-sabão → profetas de Congonhas.' }
+      ]
+    },
+    {
+      materia: 'Educação Física',        // nome da matéria
+      icone: '🏃',                       // emoji
+      resumo: 'Aptidão física, tipos de exercício e saúde pública — curto, técnico e muito cobrado.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Aeróbio x anaeróbio', frequencia: 5, porque: 'A classificação do esporte é a questão mais batida.', como: 'Liga oxigênio + duração: longo e leve = aeróbio; curto e intenso = anaeróbio. Maratonista x velocista.' },
+        { nome: 'Componentes da aptidão', frequencia: 4, porque: 'Força, resistência, flexibilidade e composição corporal caem em provas de PM.', como: 'Decore os 4 da saúde; velocidade/agilidade são da aptidão esportiva.' },
+        { nome: 'OMS e sedentarismo', frequencia: 4, porque: 'Números de atividade física caem contextualizados no ENEM.', como: 'Adulto: 150 min/semana moderada; criança: 60 min/dia. Sedentarismo = fator de risco cardiovascular.' }
+      ]
+    },
+    {
+      materia: 'Fisiologia',             // nome da matéria
+      icone: '🫀',                       // emoji
+      resumo: 'Sistemas do corpo humano: circulatório, nervoso e endócrino são os mais cobrados.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Circulação dupla e coração', frequencia: 5, porque: 'Lado direito x esquerdo do coração é pegadinha clássica.', como: 'Decore o desenho: direito → pulmão; esquerdo → corpo. Hematose acontece nos alvéolos.' },
+        { nome: 'Sistema nervoso', frequencia: 4, porque: 'Neurônio e sinapse caem aplicados (drogas, neurotransmissores).', como: 'Ordem: dendrito recebe → corpo processa → axônio manda → sinapse química libera neurotransmissor.' },
+        { nome: 'Sistema endócrino', frequencia: 4, porque: 'Insulina e adrenalina aparecem em contextos do dia a dia.', como: 'Cada glândula um hormônio: pâncreas (insulina), tireoide (tiroxina), adrenal (adrenalina).' }
+      ]
+    },
+    {
+      materia: 'Filosofia',              // nome da matéria
+      icone: '🤔',                       // emoji
+      resumo: 'Platão, Sócrates e as éticas (Kant x utilitarismo) respondem a maior parte das questões.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Mito da caverna (Platão)', frequencia: 5, porque: 'A alegoria mais cobrada do vestibular brasileiro.', como: 'Sombras = aparência; subida dolorosa = filosofia; sol = verdade. Leitura política: massa x elite.' },
+        { nome: 'Ética: Kant x utilitarismo', frequencia: 5, porque: 'As duas éticas opostas são o enunciado de toda questão moral.', como: 'Kant = dever/universalidade; utilitarista = consequência/maior felicidade. Não misture.' },
+        { nome: 'Sócrates e a maiêutica', frequencia: 4, porque: 'O método do "parto das ideias" cai como conceito.', como: 'Ironia desmonta, maiêutica constrói: perguntas sucessivas fazem o outro descobrir a verdade sozinho.' }
+      ]
+    },
+    {
+      materia: 'Sociologia',             // nome da matéria
+      icone: '👥',                       // emoji
+      resumo: 'Os três clássicos (Marx, Durkheim, Weber) + temas atuais como cidadania e cultura.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Durkheim — fato social', frequencia: 5, porque: 'Exterior, geral e coercitivo são as três palavras-chave.', como: 'Teste cada alternativa: se é escolha individual, não é fato social.' },
+        { nome: 'Marx — alienação e mais-valia', frequencia: 5, porque: 'A exploração do trabalho é tema de todo ano.', como: 'Alienação = perder o produto e o processo; mais-valia = trabalho não pago. São conceitos irmãos.' },
+        { nome: 'Weber — ação social e dominação', frequencia: 4, porque: 'O terceiro clássico completa o trio.', como: 'Ação social tem SENTIDO para quem age; dominação tradicional/legal/carismática são os tipos.' }
+      ]
+    },
+    {
+      materia: 'Economia',               // nome da matéria
+      icone: '💹',                       // emoji
+      resumo: 'Conceitos básicos de macro: inflação, PIB, Selic e mercado — o que o Bacen e os bancos cobram.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Inflação, PIB e Selic', frequencia: 5, porque: 'O trio macro que não sai das provas.', como: 'Inflação = preços sobem; PIB = bens finais produzidos; Selic sobe = conter inflação (crédito caro).' },
+        { nome: 'Oferta e demanda', frequencia: 4, porque: 'A lei mais básica — e a mais errada sob pressão.', como: 'Demanda e preço andam juntos; oferta e preço, opostos. Desenhe o gráfico mental.' },
+        { nome: 'Mercados e moeda', frequencia: 4, porque: 'Câmbio e tipos de mercado caem nos bancos.', como: 'Real valorizado = importação barata, exportação difícil; monopólio = um vendedor só.' }
+      ]
     }
   ],
 

@@ -5895,5 +5895,4398 @@ const BancoQuestoes = [
     explicacao: 'É impossível "achatar" uma esfera sem deformar: cada projeção preserva uma propriedade (forma, área, distância ou direção) e sacrifica as demais — por isso existem várias projeções para usos diferentes.', // explicação
     dica: 'A FCC cobra o par famoso: Mercator (preserva formas/direções, distorce áreas — Groenlândia gigante) x Peters (preserva áreas/proporções, distorce formas). Nenhuma projeção é perfeita — escolhe-se pela finalidade.', // pegadinha
     video: 'projeções cartográficas mercator peters distorções resumo' // busca no YouTube
+  },
+
+  /* ===================== LITERATURA (matéria nova — vestibulares) ===================== */
+  // TEAM_001: matéria nova para vestibulares (ENEM, Fuvest, Comvest, Univesp, ETEC...)
+  {
+    id: 'l01',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Romantismo indianista',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O indianismo, característica do Romantismo brasileiro, valorizava:', // pergunta
+    alternativas: [                     // opções
+      'O índio como herói idealizado e símbolo da identidade nacional',
+      'A vida urbana e a crítica social',
+      'A fidelidade aos modelos europeus',
+      'O verso livre e a linguagem coloquial',
+      'A sátira aos costumes da corte'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O indianismo (Alencar, Gonçalves Dias) fez do indígena o herói nacional idealizado — nobre, corajoso, ligado à natureza — numa fase em que o Brasil buscava identidade própria pós-independência. Obras: "O Guarani", "Iracema", "Ubirajara".', // explicação
+    dica: 'A banca troca os Romantismos: indianismo (herói indígena idealizado) x urbano/mal-do-século (eu lírico sofredor — Álvares de Azevedo). Iracema e O Guarani são do primeiro.', // pegadinha
+    video: 'romantismo brasileiro indianismo alencar gonçalves dias resumo' // busca no YouTube
+  },
+  {
+    id: 'l02',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Realismo — Machado de Assis', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Memórias Póstumas de Brás Cubas (1881), de Machado de Assis, marcou o início do Realismo brasileiro e é famosa por:', // pergunta
+    alternativas: [                     // opções
+      'Ser narrada por um defunto que conta a própria vida após morrer',
+      'Descrever as conquistas da independência',
+      'Ser um poema épico sobre o índio',
+      'Ter sido escrita em versos livres',
+      'Louvar a natureza brasileira'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Brás Cubas é o "defunto-autor": morto, ele narra a própria vida com ironia, pessimismo e distanciamento — marca do Realismo (olhar crítico sobre a sociedade), que rompe com o idealismo romântico.', // explicação
+    dica: 'Romantismo idealiza; Realismo ironiza e critica. Machado é o nome do Realismo psicológico — a Vunesp adora o narrador morto e o marco de 1881.', // pegadinha
+    video: 'memórias póstumas de brás cubas machado de assis realismo' // busca no YouTube
+  },
+  {
+    id: 'l03',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Semana de Arte Moderna',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922 marcou o início do Modernismo brasileiro, movimento que propunha:', // pergunta
+    alternativas: [                     // opções
+      'O retorno ao Barroco',
+      'A valorização da cultura nacional, a ruptura com o passado e a liberdade formal (verso livre)',
+      'A cópia fiel dos modelos portugueses',
+      'A proibição da sátira',
+      'A separação total entre arte e política'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Semana de 22 (no Teatro Municipal de SP) reuniu escritores e artistas que defendiam arte nacional, linguagem coloquial, verso livre e ruptura com a tradição — início do Modernismo brasileiro (Mário e Oswald de Andrade, Anita Malfatti, Tarsila).', // explicação
+    dica: 'Datas do ENEM: 1922 = Semana de Arte Moderna (Modernismo); 1881 = Brás Cubas (Realismo). E o verso livre é modernista — Parnasianismo é o extremo oposto (forma perfeita).', // pegadinha
+    video: 'semana de arte moderna 1922 modernismo resumo' // busca no YouTube
+  },
+  {
+    id: 'l04',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Barroco',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'O Barroco brasileiro (século XVII) é marcado pelo conflito entre razão e fé e teve como autores principais:', // pergunta
+    alternativas: [                     // opções
+      'Machado de Assis e Guimarães Rosa',
+      'Gregório de Matos e padre Antônio Vieira',
+      'Oswald e Mário de Andrade',
+      'Almeida Garrett e José de Alencar',
+      'Carlos Drummond e Cecília Meireles'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Barroco expressa a tensão homem/Deus, pecado/perdão, corpo/espírito — figuras: Gregório de Matos (poeta, "Boca do Inferno") e Antônio Vieira (orador e prosador). Na arte, corresponde ao século de Aleijadinho e ao ouro de Minas.', // explicação
+    dica: 'Escola x século x autores: a banca mistura Barroco (XVII, fé×razão, Matos/Vieira) com Arcadismo (XVIII, pastoreio, Tomás Antônio Gonzaga) e Romantismo (XIX, indianismo). A cola é o PAR de autores.', // pegadinha
+    video: 'barroco brasileiro gregório de matos antônio vieira resumo' // busca no YouTube
+  },
+
+  /* ===================== INGLÊS (matéria nova — vestibulares) ===================== */
+  {
+    id: 'e01',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Falsos cognatos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Na frase "She pretended to sleep during the class", o verbo "pretended" significa:', // pergunta
+    alternativas: [                     // opções
+      'Pretendeu',
+      'Fingiu',
+      'Teve a intenção de',
+      'Preferiu',
+      'Aparentou estar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Pretend" é falso cognato: significa FINGIR, não pretender. Para "pretender/ter intenção", o inglês usa "to intend". A frase quer dizer "ela fingiu estar dormindo durante a aula".', // explicação
+    dica: 'Os falsos cognatos que mais caem: pretend = fingir (pretender = intend); actually = na verdade (atualmente = nowadays); push = empurrar (puxe = pull); library = biblioteca (livraria = bookstore).', // pegadinha
+    video: 'falsos cognatos inglês pretend actually para vestibular' // busca no YouTube
+  },
+  {
+    id: 'e02',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Present perfect',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Qual alternativa usa corretamente o present perfect?', // pergunta
+    alternativas: [                     // opções
+      'I have visited Paris in 2020.',
+      'I have visited Paris before.',
+      'I have went to Paris.',
+      'She have been to Paris.',
+      'They has visited Paris.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O present perfect ("I have visited") indica experiência de vida sem data definida — com data marcada ("in 2020") usa o simple past ("I visited"). "have went" é erro (deve ser "have been/gone"); "she have" e "they has" quebram a concordância.', // explicação
+    dica: 'Regra de bolso da Fatec: data definida? Simple past. Sem data ("ever", "never", "before", "already", "yet")? Present perfect. O "in 2020" na alternativa A é a isca clássica.', // pegadinha
+    video: 'present perfect e simple past inglês para vestibular' // busca no YouTube
+  },
+  {
+    id: 'e03',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Verbos modais',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na frase "You must wear a seat belt", o modal "must" expressa:', // pergunta
+    alternativas: [                     // opções
+      'Sugestão',
+      'Obrigação',
+      'Permissão',
+      'Possibilidade',
+      'Capacidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Must" expressa obrigação forte (você é obrigado). "Should" é conselho; "may/might" é permissão ou possibilidade; "can" é capacidade. Cinto de segurança é lei — obrigação.', // explicação
+    dica: 'Par favorito do ENEM: must (obrigação forte) x have to (obrigação externa, regra) x should (conselho). E must not = proibido; do not have to = não é obrigatório (são opostos diferentes!).', // pegadinha
+    video: 'verbos modais inglês must have to should para vestibular' // busca no YouTube
+  },
+  {
+    id: 'e04',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Compreensão de texto',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Coperve (UFSC)',            // banca inspiradora
+    enunciado: 'Leia: "The flight was cancelled due to the heavy rain." A frase informa que:', // pergunta
+    alternativas: [                     // opções
+      'O voo foi cancelado por causa da chuva forte',
+      'O voo atrasou por causa do vento',
+      'A chuva atrapalhou o aeroporto inteiro',
+      'O voo decolou mesmo com a tempestade',
+      'A viagem foi remarcada para o dia seguinte'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Vocabulário-chave: cancelled = cancelado; due to = por causa de; heavy rain = chuva forte. Alternativas com "atrasou" (delayed), "vento" (wind) e "remarcada" (rescheduled) trocam as palavras-chave.', // explicação
+    dica: 'Em leitura de inglês, a banca troca VOCÁBULO-CHAVE de função: cancelled ≠ delayed ≠ rescheduled. Sublinhe os verbos antes de marcar.', // pegadinha
+    video: 'inglês interpretação de texto vocabulário para vestibular' // busca no YouTube
+  },
+
+  /* ===================== ESPANHOL (matéria nova — vestibulares) ===================== */
+  {
+    id: 's01',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Por x para',                 // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Qual frase em espanhol usa corretamente "por" e "para"?', // pergunta
+    alternativas: [                     // opções
+      'Este regalo es por ti, compré para ti.',
+      'Este regalo es para ti; lo compré por cincuenta pesos.',
+      'Trabajo por mi familia mañana.',
+      'Lo hice para la telefonía.',
+      'Gracias para tu ayuda.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Para" indica destino/finalidade (regalo para ti = para você); "por" indica preço, causa, meio ou troca (compré por cincuenta = paguei cinquenta). "Gracias por" é a forma certa (gracias para é erro comum).', // explicação
+    dica: 'Macete do vestibular: PARA = destino/prazo/finalidade; POR = causa/preço/troca/meio/duração. "Gracias por" (causa) e "trabaja para" (empregador) são os exemplos que as bancas mais cobram.', // pegadinha
+    video: 'por e para espanhol diferença para vestibular' // busca no YouTube
+  },
+  {
+    id: 's02',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Ser x estar',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Em espanhol, a frase "María está cansada" usa "estar" (e não "ser") porque:', // pergunta
+    alternativas: [                     // opções
+      'Ser é para coisas permanentes e estar, para estados temporários',
+      'Estar é sempre errado com cansaço',
+      'Ser é só para o passado',
+      'Estar é só para lugares',
+      'Não há diferença'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'SER marca características permanentes/essenciais (ser brasileiro, ser alto); ESTAR marca estados e condições temporárias (estar cansado, estar doente, estar em casa). "Está cansada" = está num estado temporário.', // explicação
+    dica: 'A banca usa o caso que muda de sentido: "es aburrido" (ele é chato, permanente) x "está aburrido" (ele está entediado, temporário). Ser/estar podem trocar o significado do adjetivo.', // pegadinha
+    video: 'ser y estar español diferencia para vestibular' // busca no YouTube
+  },
+  {
+    id: 's03',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Falsos cognatos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A palavra espanhola "embarazada" significa:', // pergunta
+    alternativas: [                     // opções
+      'Embaraçada (enrolada)',
+      'Envergonhada',
+      'Grávida',
+      'Confusa',
+      'Doente'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Embarazada = GRÁVIDA (não embaraçada!). Para "envergonhada", o espanhol usa "avergonzada". É o falso cognato mais famoso do espanhol — e o ENEM adora cobrá-lo.', // explicação
+    dica: 'Falsos cognatos espanhóis clássicos: embarazada = grávida; largo = comprido (não largo); oficina = escritório; exquisito = delicioso (não esquisito); sopa = sopa. ⚠️ "Rato" em espanhol é "momento" e não o ratinho (ratón).', // pegadinha
+    video: 'falsos cognatos espanhol embarazada largo para vestibular' // busca no YouTube
+  },
+  {
+    id: 's04',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Hay, ahí, ¡ay!',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete corretamente: "___ una farmacia cerca, está por ___ y, ___, cerró temprano!"', // pergunta
+    alternativas: [                     // opções
+      'Ahí, hay, ¡ay!',
+      'Hay, ahí, ¡ay!',
+      '¡Ay!, hay, ahí',
+      'Hay, ¡ay!, ahí',
+      'Ahí, ¡ay!, hay'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'HAY = há/existe (de haber); AHÍ = ali/lá (lugar); ¡AY! = exclamação de dor ou surpresa. "HAY una farmacia" (existe), "está por AHÍ" (por lá), "¡AY!, cerró" (exclamação).', // explicação
+    dica: 'Trio homófono que toda prova de espanhol cobra: HAY (verbo), AHÍ (lugar), ¡AY! (exclamação). Mesmo som, funções totalmente diferentes — e a banca embaralha de propósito.', // pegadinha
+    video: 'hay ahí ay español diferencia para vestibular' // busca no YouTube
+  },
+
+  /* ===================== ARTES (matéria nova — vestibulares) ===================== */
+  {
+    id: 'ar01',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cubismo',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Cubismo, vanguarda artística de início do século XX, caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'Pintar o movimento e a velocidade das máquinas',
+      'Fragmentar objetos em formas geométricas e mostrar vários pontos de vista ao mesmo tempo',
+      'Representar sonhos e o inconsciente',
+      'Copiar a natureza com realismo absoluto',
+      'Usar apenas cores primárias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cubismo (Picasso e Braque, ~1907) quebra o objeto em planos geométricos e junta várias visões na mesma tela — "Les Demoiselles d\'Avignon" é o marco. Velocidade = Futurismo; sonhos = Surrealismo.', // explicação
+    dica: 'Vanguardas que o ENEM embaralha: Cubismo (geometria/fragmentação), Futurismo (movimento/velocidade), Surrealismo (sonho/inconsciente), Expressionismo (emoção/distorção). Cada uma tem uma palavra-chave.', // pegadinha
+    video: 'cubismo picasso vanguardas artísticas resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'ar02',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Antropofagia — Tarsila',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'O Manifesto Antropofágico (1928) e a tela "Abaporu" (Tarsila do Amaral) defendiam:', // pergunta
+    alternativas: [                     // opções
+      'A rejeição total de qualquer influência estrangeira',
+      'Devorar a cultura estrangeira e a nacional para criar uma arte genuinamente brasileira',
+      'A arte sem assunto e só geométrica',
+      'A imitação fiel da Renascença',
+      'A pintura religiosa colonial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Antropofagia (Oswald de Andrade + Tarsila) usava a metáfora do "comer": digerir a cultura estrangeira e a indígena para criar algo genuinamente brasileiro — não copiar, mas transformar. "Abaporu" (o homem que come gente) é o ícone.', // explicação
+    dica: 'A Unicamp cobra o PAR: Manifesto Antropofágico (texto de Oswald, 1928) + Abaporu (tela de Tarsila, 1928). Antropofagia ≠ xenofobia — é deglutição, não rejeição do estrangeiro.', // pegadinha
+    video: 'antropofagia abaporu tarsila do amaral oswald resumo' // busca no YouTube
+  },
+  {
+    id: 'ar03',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Aleijadinho — barroco mineiro', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Aleijadinho (Antônio Francisco Lisboa), mestre do barroco mineiro, é famoso por:', // pergunta
+    alternativas: [                     // opções
+      'As telas da Semana de Arte Moderna',
+      'As esculturas em pedra-sabão dos profetas, no santuário de Congonhas',
+      'O projeto urbano de Brasília',
+      'A pintura abstrata geométrica',
+      'As xilogravuras nordestinas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aleijadinho esculpiu os 12 Profetas em pedra-sabão no santuário do Bom Jesus de Matosinhos (Congonhas, MG) — obra-prima do barroco colonial brasileiro. Apesar da doença que deformava seu corpo, esculpiu até o fim da vida.', // explicação
+    dica: 'A Fuvest liga Aleijadinho ao ciclo do ouro de Minas e à pedra-sabão. Não confunda com Anita Malfatti e Tarsila (modernistas do século XX) nem com Oscar Niemeyer (arquiteto de Brasília).', // pegadinha
+    video: 'aleijadinho profetas congonhas barroco brasileiro resumo' // busca no YouTube
+  },
+  {
+    id: 'ar04',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Elementos da linguagem visual', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'São elementos básicos da linguagem visual:', // pergunta
+    alternativas: [                     // opções
+      'Linha, cor, forma, textura e volume',
+      'Ritmo, rima e métrica',
+      'Melodia, harmonia e timbre',
+      'Tema, enredo e narrador',
+      'Proposição e conclusão'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Os elementos da linguagem visual são linha, ponto, cor, forma, textura, luz/sombra e volume. Ritmo/melodia são da música; tema/enredo são da literatura; proposição é da lógica.', // explicação
+    dica: 'O ENEM testa o básico: arte visual usa cor, linha, forma — o resto vem emprestado de outras artes como isca. Se a alternativa tem "rima" ou "melodia", não é visual.', // pegadinha
+    video: 'elementos da linguagem visual artes para vestibular' // busca no YouTube
+  },
+
+  /* ===================== EDUCAÇÃO FÍSICA (matéria nova — vestibulares e cargos PM) ===================== */
+  {
+    id: 'ef01',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Exercício aeróbio x anaeróbio', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A diferença entre exercício aeróbio e anaeróbio está em:', // pergunta
+    alternativas: [                     // opções
+      'Aeróbio usa oxigênio para produzir energia em esforço prolongado; anaeróbio produz energia rápida sem oxigênio em esforço curto e intenso',
+      'Aeróbio é só natação; anaeróbio é só musculação',
+      'Aeróbio cansa mais que anaeróbio',
+      'Anaeróbio é sempre seguro para cardíacos',
+      'Não existe diferença fisiológica'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Aeróbio = longo e moderado com oxigênio (corrida leve, ciclismo). Anaeróbio = curto e intenso sem depender de oxigênio (sprint, musculação pesada) — gera ácido lático. Corredor de maratona = aeróbio; velocista = anaeróbio.', // explicação
+    dica: 'O ENEM contextualiza: quem corre maratona desenvolve fibras lentas (aeróbias); quem faz sprint, fibras rápidas (anaeróbias). "Musculação é anaeróbica" e "jogar futebol é misto" são as pegadinhas de exemplo.', // pegadinha
+    video: 'exercício aeróbio e anaeróbio diferença para vestibular' // busca no YouTube
+  },
+  {
+    id: 'ef02',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Aptidão física',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'São componentes da aptidão física relacionada à saúde:', // pergunta
+    alternativas: [                     // opções
+      'Força, resistência cardiorrespiratória, flexibilidade e composição corporal',
+      'Velocidade e agilidade apenas',
+      'Somente força muscular',
+      'Coordenação e equilíbrio exclusivamente',
+      'Técnica esportiva e refino do gesto'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A aptidão física "de saúde" é composta por 4 pilares: força muscular, resistência cardiorrespiratória (aeróbia), flexibilidade e composição corporal. Velocidade, agilidade e equilíbrio são da aptidão ESPORTIVA (desempenho), não da saúde.', // explicação
+    dica: 'A AOCP troca os dois grupos: aptidão de SAÚDE (força, resistência, flexibilidade, composição corporal) x aptidão de DESEMPENHO (velocidade, agilidade, coordenação, equilíbrio, potência). Guarda os 4 da saúde.', // pegadinha
+    video: 'componentes da aptidão física saúde desempenho concurso' // busca no YouTube
+  },
+  {
+    id: 'ef03',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'OMS — atividade física',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Segundo a OMS, a recomendação mínima de atividade física para adultos é de:', // pergunta
+    alternativas: [                     // opções
+      '30 minutos por semana',
+      '150 minutos de atividade moderada por semana',
+      '60 minutos diários de alta intensidade',
+      '10 minutos por dia',
+      '300 minutos por dia'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A OMS recomenda 150 a 300 minutos semanais de atividade aeróbia moderada (ou 75-150 de vigorosa) para adultos — o equivalente a ~30 min por dia útil. Crianças e adolescentes: ~60 min diários.', // explicação
+    dica: 'Números OMS para guardar: adulto = 150-300 min moderada SEMANA (não dia); criança/adolescente = ~60 min/dia; sedentarismo é fator de risco para doenças crônicas — tema recorrente no ENEM.', // pegadinha
+    video: 'oms recomendação atividade física semanal saúde' // busca no YouTube
+  },
+  {
+    id: 'ef04',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Olimpíadas — origem',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Os Jogos Olímpicos nasceram:', // pergunta
+    alternativas: [                     // opções
+      'Na Roma imperial, como espetáculo de gladiadores',
+      'Na Grécia antiga, em Olímpia, como festival religioso e esportivo em honra a Zeus',
+      'No Egito dos faraós',
+      'Na Inglaterra vitoriana',
+      'No Brasil colonial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os Jogos Olímpicos nasceram na antiga Olímpia (Grécia) — tradicionalmente em 776 a.C. — como festival religioso e atlético em homenagem a Zeus. A era moderna começou em 1896, com Pierre de Coubertin.', // explicação
+    dica: 'Datas: Grécia antiga (776 a.C., Olímpia) × era moderna (1896, Atenas — Coubertin). A banca troca o festival religioso grego com os jogos romanos (gladiadores = luta mortal, não esporte).', // pegadinha
+    video: 'origem dos jogos olímpicos grécia antiga resumo' // busca no YouTube
+  },
+
+  /* ===================== FISIOLOGIA (matéria nova — vestibulares e saúde) ===================== */
+  {
+    id: 'fs01',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Neurônio e sinapse',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na sinapse entre dois neurônios, a informação passa de um para o outro principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'Contato elétrico direto entre as células',
+      'Neurotransmissores liberados na fenda sináptica',
+      'Troca de sangue entre os neurônios',
+      'Vibração óssea do crânio',
+      'Impulso que pula pelo ar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Na sinapse química (a mais comum), o impulso elétrico do primeiro neurônio libera neurotransmissores (dopamina, serotonina, acetilcolina...) na fenda sináptica, que ativam o neurônio seguinte.', // explicação
+    dica: 'A banca confunde sinapse com "junção dos corpos": a fenda sináptica NÃO é contato físico — é o espaço onde os neurotransmissores viajam. Dopamina e serotonina são exemplos famosos.', // pegadinha
+    video: 'neurônio sinapse neurotransmissores resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'fs02',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Homeostase',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'A homeostase é a capacidade do organismo de:', // pergunta
+    alternativas: [                     // opções
+      'Produzir anticorpos',
+      'Manter o meio interno em equilíbrio (temperatura, glicose, pH) apesar das mudanças externas',
+      'Reproduzir-se',
+      'Digerir alimentos',
+      'Realizar fotossíntese'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Homeostase = manter o meio interno estável: temperatura (~37°C), glicose, pH do sangue, pressão, água. Quando faz calor, suamos; quando a glicose sobe, a insulina age — tudo para manter o equilíbrio interno.', // explicação
+    dica: 'A Unicamp amarra homeostase a exemplos: suor quando faz calor, insulina quando a glicose sobe, respiração acelerada quando o CO2 acumula. Homeostase é SEMPRE equilíbrio interno.', // pegadinha
+    video: 'homeostase equilíbrio interno fisiologia resumo' // busca no YouTube
+  },
+  {
+    id: 'fs03',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Circulação dupla',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Na circulação humana, a "pequena circulação" corresponde ao trajeto:', // pergunta
+    alternativas: [                     // opções
+      'Coração → corpo → coração',
+      'Coração → pulmão → coração',
+      'Pulmão → corpo → pulmão',
+      'Cérebro → coração → cérebro',
+      'Fígado → rim → coração'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pequena circulação (pulmonar): ventrículo direito → artéria pulmonar → pulmão (hematose) → veia pulmonar → átrio esquerdo. Grande circulação (sistêmica): ventrículo esquerdo → aorta → corpo → veias cavas → átrio direito.', // explicação
+    dica: 'A Vunesp inverte os lados: lado DIREITO do coração = sangue venoso (vai ao pulmão); lado ESQUERDO = sangue arterial (vai ao corpo). Decore: direito para o pulmão, esquerdo para o corpo.', // pegadinha
+    video: 'pequena e grande circulação coração pulmão resumo' // busca no YouTube
+  },
+  {
+    id: 'fs04',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Contração muscular',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A contração do músculo esquelético acontece quando:', // pergunta
+    alternativas: [                     // opções
+      'Os neurônios motores mandam impulso elétrico que libera cálcio e faz actina e miosina deslizarem uma sobre a outra',
+      'O músculo aumenta de volume por força própria',
+      'O osso se contrai e puxa o músculo',
+      'A pele aperta o músculo',
+      'O sangue enche o músculo de oxigênio'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O impulso nervoso chega ao músculo, libera cálcio, e as proteínas actina e miosina deslizam uma sobre a outra encurtando o sarcômero — mecanismo que gasta ATP (energia).', // explicação
+    dica: 'Ponto avançado da Fuvest: o cálcio é o "gatilho" da contração (ele libera os sítios da actina). O músculo não "gera" movimento sozinho — depende de neurônio motor + cálcio + ATP.', // pegadinha
+    video: 'contração muscular actina miosina cálcio resumo' // busca no YouTube
+  },
+
+  /* ===================== FILOSOFIA (matéria nova — vestibulares) ===================== */
+  {
+    id: 'fl01',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Nascimento da filosofia',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A filosofia nasceu na Grécia antiga (séc. VI a.C.) como a passagem:', // pergunta
+    alternativas: [                     // opções
+      'Do logos ao mito',
+      'Do mito ao logos — da explicação sobrenatural para a explicação racional',
+      'Da fé à magia',
+      'Do império à república',
+      'Da escrita à oralidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A filosofia nasce quando os gregos trocam a explicação mítica (deuses fazem chover) pela explicação racional — o logos: observação, argumentação e busca de causas naturais (arché) para os fenômenos.', // explicação
+    dica: 'A ordem é SEMPRE mito → logos, nunca o contrário. Os pré-socráticos (Tales, Heráclito) buscavam a arché (princípio natural das coisas: água, fogo, ar...). Platão e Aristóteles vêm depois.', // pegadinha
+    video: 'nascimento da filosofia mito ao logos grécia resumo' // busca no YouTube
+  },
+  {
+    id: 'fl02',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Sócrates — maiêutica',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O método socrático da maiêutica ("parto das ideias") consiste em:', // pergunta
+    alternativas: [                     // opções
+      'Dar a resposta pronta ao aluno',
+      'Fazer perguntas que levam o interlocutor a descobrir a verdade por si mesmo',
+      'Decorar os textos antigos',
+      'Debater sempre a favor da maioria',
+      'Escrever tratados de matemática'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A maiêutica de Sócrates (o "parteira" de ideias, filho de parteira): por perguntas sucessivas, o interlocutor "dá à luz" o conhecimento que já tinha dentro de si — como a parteira ajuda o bebê a nascer.', // explicação
+    dica: 'Sócrates não deixou textos — quem escreveu sobre ele foi Platão. "Conhece-te a ti mesmo" + "só sei que nada sei" são dele. A banca confunde ironia (desmontar a falsa sabedoria) com maiêutica (fazer nascer a verdade).', // pegadinha
+    video: 'sócrates maiêutica ironia conhece-te a ti mesmo' // busca no YouTube
+  },
+  {
+    id: 'fl03',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Kant — imperativo categórico', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O imperativo categórico de Kant afirma que devemos agir de modo que:', // pergunta
+    alternativas: [                     // opções
+      'O resultado da ação seja sempre o mais prazeroso',
+      'A nossa ação possa valer como lei universal para todos',
+      'Obedeçamos às ordens sem questionar',
+      'Sigamos sempre o costume do nosso povo',
+      'Busquemos a felicidade acima de tudo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Kant, a moralidade está no DEVER, não nas consequências: aja de modo que a máxima da sua ação possa ser universalizada — se a regra que você segue pudesse ser lei para todos, é moral. Não minta, porque a mentira universal destruiria a verdade.', // explicação
+    dica: 'A Fuvest opõe as éticas: KANT = dever/intenção (universalidade); UTILITARISTAS = consequência (maior felicidade para o maior número). "É pelas consequências" nunca é Kant.', // pegadinha
+    video: 'imperativo categórico kant ética do dever resumo' // busca no YouTube
+  },
+  {
+    id: 'fl04',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Mito da caverna',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'No "Mito da caverna" de Platão, as sombras projetadas na parede representam:', // pergunta
+    alternativas: [                     // opções
+      'O conhecimento verdadeiro',
+      'A aparência — a realidade ilusória que os prisioneiros tomam por verdade',
+      'A virtude dos governantes',
+      'A felicidade dos justos',
+      'Os deuses do Olimpo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os prisioneiros veem só as sombras na parede e acham que são a realidade — é a alegoria de como confundimos aparência com verdade. Sair da caverna = ascensão ao conhecimento; o sol = o bem e a verdade.', // explicação
+    dica: 'Leitura política do ENEM: o mito critica quem aceita a opinião sem questionar. As sombras = senso comum/aparência; a subida dolorosa = educação/filosofia. Quem volta a contar a verdade é desacreditado.', // pegadinha
+    video: 'mito da caverna platão alegoria resumo vestibular' // busca no YouTube
+  },
+
+  /* ===================== SOCIOLOGIA (matéria nova — vestibulares) ===================== */
+  {
+    id: 'so01',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Fato social — Durkheim',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para Durkheim, "fato social" é aquilo que:', // pergunta
+    alternativas: [                     // opções
+      'Depende da vontade individual de cada pessoa',
+      'Existe fora do indivíduo, é geral e exerce coerção (pressão) sobre ele',
+      'Só acontece nas tribos antigas',
+      'É fruto da biologia humana',
+      'É sempre escolha consciente'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O fato social de Durkheim tem 3 marcas: é EXTERIOR (existe independente de mim), é GERAL (está na sociedade toda) e exerce COERÇÃO (me obriga a seguir — língua, lei, costumes). Você não escolhe falar português ou seguir leis.', // explicação
+    dica: 'Marca tripla do ENEM: exterior + geral + coercitivo. Se a alternativa diz "escolha individual" ou "da consciência de cada um", NÃO é fato social — é opção pessoal.', // pegadinha
+    video: 'fato social durkheim exterior geral coercitivo resumo' // busca no YouTube
+  },
+  {
+    id: 'so02',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Alienação do trabalho — Marx', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Para Marx, o trabalhador é "alienado" no capitalismo porque:', // pergunta
+    alternativas: [                     // opções
+      'Trabalha pouco e ganha muito',
+      'Se separa do produto do seu trabalho, que não lhe pertence e retorna como mais-valia para o dono',
+      'Não sabe trabalhar em equipe',
+      'Prefere o ócio ao trabalho',
+      'Vive isolado das máquinas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A alienação marxista: o operário produz algo que não é seu — o produto vai para o dono dos meios de produção, e o lucro (mais-valia) vem do trabalho não pago. O trabalhador perde o controle sobre o que faz e sobre o processo.', // explicação
+    dica: 'Marx: alienação = perder o produto e o processo do trabalho; mais-valia = a diferença entre o que o trabalhador produz e o que recebe. A banca confunde alienação (sociologia) com doença mental — não é.', // pegadinha
+    video: 'alienação do trabalho marx mais-valia resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'so03',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Indústria cultural',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A "indústria cultural" (Adorno e Horkheimer, Escola de Frankfurt) critica:', // pergunta
+    alternativas: [                     // opções
+      'A arte popular produzida por comunidades',
+      'A produção da cultura como mercadoria em massa, que padroniza o gosto e distrai o público do pensamento crítico',
+      'A falta de museus nas cidades',
+      'O excesso de criatividade na publicidade',
+      'A gratuidade dos meios de comunicação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Adorno e Horkheimer viam o cinema, a TV e a música industrial como mercadoria: a cultura vira produto padronizado, feita para entreter e entorpecer — não para formar. A massa consome passivamente e deixa de pensar criticamente.', // explicação
+    dica: 'Escola de Frankfurt = teoria crítica. Indústria cultural ≠ "indústria de cultura" inocente: a palavra denuncia que a arte passou a obedecer à lógica do mercado (lucro), não da criação livre.', // pegadinha
+    video: 'indústria cultural adorno horkheimer escola de frankfurt' // busca no YouTube
+  },
+  {
+    id: 'so04',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Etnocentrismo',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Julgar a cultura de outro povo pelos valores da própria cultura é atitude chamada:', // pergunta
+    alternativas: [                     // opções
+      'Relativismo cultural',
+      'Etnocentrismo',
+      'Multiculturalismo',
+      'Universalismo',
+      'Alteridade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Etnocentrismo = ver o mundo a partir da SUA cultura como se fosse a única certa — julgar o outro como "errado" ou "primitivo". O oposto é o relativismo cultural: entender cada cultura em seus próprios termos.', // explicação
+    dica: 'Par do ENEM: etnocentrismo (minha cultura é a medida) × relativismo cultural (cada cultura se entende por si). O relativismo NÃO diz que tudo é certo — diz que julgamos pelo contexto do outro.', // pegadinha
+    video: 'etnocentrismo e relativismo cultural sociologia resumo' // busca no YouTube
+  },
+
+  /* ===================== BIOLOGIA (matéria nova — vestibulares) ===================== */
+  {
+    id: 'b01',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Célula procariótica x eucariótica', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'A principal diferença entre célula procariótica e eucariótica é:', // pergunta
+    alternativas: [                     // opções
+      'A procariótica tem parede celular e a eucariótica não',
+      'A eucariótica tem núcleo definido por membrana; a procariótica tem o material genético solto no citoplasma',
+      'A procariótica é maior',
+      'A eucariótica não tem ribossomos',
+      'A procariótica tem mitocôndrias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Eucariótica = núcleo envolto por membrana (eu = verdadeiro, karyon = núcleo). Procariótica = sem núcleo delimitado, DNA solto no citoplasma — bactérias e arqueias. Plantas, animais e fungos são eucariontes.', // explicação
+    dica: 'A banca troca as peças: procarióticas são SIMPLES e pequenas (bactéria); eucarióticas são complexas e maiores (nós). E atenção: ambas têm ribossomo — só a eucariótica tem organelas membranosas.', // pegadinha
+    video: 'célula procariótica e eucariótica diferença vestibular' // busca no YouTube
+  },
+  {
+    id: 'b02',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Fotossíntese',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na fotossíntese, as plantas usam a luz solar para transformar:', // pergunta
+    alternativas: [                     // opções
+      'Oxigênio e glicose em gás carbônico e água',
+      'Gás carbônico e água em glicose e oxigênio',
+      'Nitrogênio em proteínas',
+      'Glicose em luz solar',
+      'Água em energia térmica'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fotossíntese: CO2 + água + luz → glicose + O2. A clorofila captura a luz no cloroplasto; a planta fabrica seu alimento (glicose) e libera o oxigênio que respiramos. A respiração celular é o caminho inverso.', // explicação
+    dica: 'O ENEM cruza fotossíntese com respiração: fotossíntese PRODUZ glicose e O2 (de dia, no cloroplasto); respiração celular CONSOME glicose e O2 produzindo ATP (todo dia, na mitocôndria). Plantas fazem as duas.', // pegadinha
+    video: 'fotossíntese clorofila equação resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'b03',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Genética — Lei de Mendel',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'No cruzamento de dois heterozigotos Aa × Aa (A = dominante, a = recessivo), a proporção fenotípica esperada na descendência é:', // pergunta
+    alternativas: [                     // opções
+      '1:1',
+      '3:1 (três dominantes para um recessivo)',
+      '9:3:3:1',
+      '2:1',
+      'Todos iguais'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Aa × Aa gera os genótipos: AA, Aa, aA e aa (quadro de Punnett).',
+      'AA, Aa e aA têm fenótipo DOMINANTE (A domina): 3 em 4.',
+      'aa tem fenótipo recessivo: 1 em 4.',
+      'Proporção fenotípica: 3 dominantes : 1 recessivo (3:1).'
+    ],
+    explicacao: 'Cruzando heterozigotos, o quadro de Punnett dá 1 AA : 2 Aa : 1 aa — fenótipos 3:1 (a recessiva só aparece no "aa"). A proporção 9:3:3:1 é de DOIS genes em heterozigose (AaBb × AaBb).', // explicação
+    dica: 'A Fuvest confunde os quadros: Aa×Aa (um gene) = 3:1 fenotípico / 1:2:1 genotípico; AaBb×AaBb (dois genes) = 9:3:3:1. Conte os genes da questão antes de marcar.', // pegadinha
+    video: 'primeira lei de mendel quadro de punnett proporção 3:1' // busca no YouTube
+  },
+  {
+    id: 'b04',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Cadeia alimentar',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa cadeia alimentar, o fluxo de energia é:', // pergunta
+    alternativas: [                     // opções
+      'Bidirecional e reciclável',
+      'Unidirecional — do produtor para os consumidores, dissipando-se como calor a cada nível',
+      'Circular entre os decompositores',
+      'Sempre crescente de um nível para o outro',
+      'Fixo, sem perdas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A energia flui de um nível para o outro SEM voltar: produtor (planta) → herbívoro → carnívoro → decompositores. A cada passo, ~90% se perde como calor — por isso as cadeias têm poucos elos e o topo é escasso.', // explicação
+    dica: 'O ENEM cobra a "pirâmide": energia diminui a cada nível (~10% passa adiante), então o topo da cadeia (predador) tem menos indivíduos. E os decompositores reciclam MATÉRIA, não energia.', // pegadinha
+    video: 'cadeia alimentar fluxo de energia pirâmide resumo' // busca no YouTube
+  },
+
+  /* ===================== ECONOMIA (matéria nova — Bacen, bancos e vestibulares) ===================== */
+  {
+    id: 'ec01',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Oferta e demanda',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Se a demanda por um produto aumenta e a oferta se mantém igual, a tendência do preço é:', // pergunta
+    alternativas: [                     // opções
+      'Cair',
+      'Subir',
+      'Ficar estável',
+      'Zerar',
+      'Depender do imposto'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lei da oferta e da demanda: mais gente querendo a mesma quantidade empurra o preço para cima (escassez relativa). Demanda baixa com oferta igual tende a baixar o preço.', // explicação
+    dica: 'As quatro combinações da FCC: demanda sobe + oferta igual → preço sobe; demanda cai → preço cai; oferta sobe → preço cai; oferta cai → preço sobe. Demanda e preço andam na MESMA direção; oferta e preço, em direções opostas.', // pegadinha
+    video: 'lei da oferta e demanda economia básica resumo' // busca no YouTube
+  },
+  {
+    id: 'ec02',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Inflação e deflação',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A inflação é definida como:', // pergunta
+    alternativas: [                     // opções
+      'A queda generalizada e contínua dos preços',
+      'O aumento generalizado e contínuo dos preços, com perda do poder de compra da moeda',
+      'A alta do salário mínimo',
+      'A emissão de moeda nova',
+      'O aumento do desemprego'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inflação = aumento GENERALIZADO e CONTÍNUO de preços — não é um produto caro, é tudo subindo de forma persistente, e a moeda valendo menos (você compra menos com o mesmo dinheiro). Deflação é o contrário (preços caindo de forma geral).', // explicação
+    dica: 'Termos da CESPE: inflação (preços sobem), deflação (preços caem), desinflação (inflação positiva diminuindo), estagflação (inflação + desemprego). O detalhe é "generalizado e contínuo" — preço de um bem só não é inflação.', // pegadinha
+    video: 'inflação deflação desinflação diferença economia resumo' // busca no YouTube
+  },
+  {
+    id: 'ec03',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'PIB',                        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Produto Interno Bruto (PIB) mede:', // pergunta
+    alternativas: [                     // opções
+      'A riqueza total acumulada de um país desde sua fundação',
+      'O valor de todos os bens e serviços finais produzidos em um país durante um período',
+      'O dinheiro em circulação no país',
+      'A dívida total do governo',
+      'O total exportado menos o importado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PIB = soma dos bens e serviços FINAIS produzidos no território em um período (ano/trimestre). "Interno" = produzido dentro do país; "final" = sem contar etapas intermediárias (evita contar o trigo, a farinha E o pão).', // explicação
+    dica: 'A IBFC confunde PIB com PNB: PIB conta o que é produzido NO país (mesmo por estrangeiro); PNB conta o que é produzido POR brasileiros (mesmo fora). E "bens finais" é o que evita a contagem dupla.', // pegadinha
+    video: 'o que é pib produto interno bruto resumo concurso' // busca no YouTube
+  },
+  {
+    id: 'ec04',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Taxa Selic',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Quando o Banco Central quer conter a inflação, a política monetária típica é:', // pergunta
+    alternativas: [                     // opções
+      'Baixar a taxa Selic para estimular o consumo',
+      'Subir a taxa Selic, encarecendo o crédito e reduzindo a demanda',
+      'Imprimir mais dinheiro',
+      'Aumentar o salário mínimo',
+      'Congelar o câmbio'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Selic alta = crédito caro → menos consumo e investimento → demanda esfria → preços sobem menos. É o instrumento clássico do Banco Central para segurar a inflação (o efeito colateral é frear a economia).', // explicação
+    dica: 'A CESPE inverte a lógica de propósito: Selic SOBE para segurar inflação (esfria a economia); Selic CAI para estimular crescimento (mas pode acender a inflação). Juro alto atrai capital estrangeiro também.', // pegadinha
+    video: 'taxa selic e inflação política monetária resumo' // busca no YouTube
+  },
+
+  /* ===================== QUÍMICA (matéria nova — vestibulares) ===================== */
+  {
+    id: 'q01',                          // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Átomo e número atômico',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'O número atômico (Z) de um elemento corresponde:', // pergunta
+    alternativas: [                     // opções
+      'À soma de prótons e nêutrons',
+      'Ao número de prótons do núcleo',
+      'Ao número de elétrons da última camada',
+      'À massa do átomo em gramas',
+      'À carga do núcleo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Z = número de PRÓTONS — é a identidade do elemento (carbono tem Z=6, sempre). A soma prótons+nêutrons é a massa (A). Em átomo neutro, Z também indica o número de elétrons.', // explicação
+    dica: 'A banca troca Z com A: Z = prótons (identidade); A = prótons + nêutrons (massa); nêutrons = A − Z. Isótopos = mesmo Z, A diferente (carbono-12 e carbono-14).', // pegadinha
+    video: 'número atômico prótons nêutrons massa resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'q02',                          // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Ligações químicas',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A ligação química do cloreto de sódio (NaCl), o sal de cozinha, é do tipo:', // pergunta
+    alternativas: [                     // opções
+      'Covalente — os átomos compartilham elétrons',
+      'Iônica — o metal doa um elétron para o ametal',
+      'Metálica — mar de elétrons livres',
+      'De hidrogênio — moléculas se atraem',
+      'De coordenação — entre proteínas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sódio (metal, tende a DOAR) + cloro (ametal, tende a RECEBER): o Na entrega um elétron ao Cl, formando Na+ e Cl− que se atraem — ligação iônica, típica dos sais. Compartilhamento (ametal+ametal) é covalente, como na água.', // explicação
+    dica: 'Regra do ENEM: metal + ametal = iônica (transfere elétron); ametal + ametal = covalente (compartilha); metal + metal = metálica. NaCl, CaCO3, MgO são iônicos; H2O, CO2, O2 são covalentes.', // pegadinha
+    video: 'ligação iônica covalente metálica diferença vestibular' // busca no YouTube
+  },
+  {
+    id: 'q03',                          // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'pH — ácidos e bases',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Uma solução com pH 3 é:', // pergunta
+    alternativas: [                     // opções
+      'Básica',
+      'Ácida',
+      'Neutra',
+      'Salina',
+      'Indicativa de água destilada'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Escala pH: menor que 7 = ácido; igual a 7 = neutro; maior que 7 = básico. pH 3 é ácido forte (ex.: limão, vinagre). Quanto mais perto de 0, mais ácido; mais perto de 14, mais básico.', // explicação
+    dica: 'A Unicamp amarra ao cotidiano: estômago (pH ~2, ácido), água pura (7), sangue (~7,4, levemente básico), sabonete/água sanitária (básicos). Guarda o marco do 7.', // pegadinha
+    video: 'ph escala ácidos e bases resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'q04',                          // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Estequiometria',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na equação balanceada 2 H₂ + O₂ → 2 H₂O, quantos mols de H₂ são necessários para reagir com 1 mol de O₂?', // pergunta
+    alternativas: [                     // opções
+      '1 mol',
+      '2 mols',
+      '0,5 mol',
+      '4 mols',
+      '3 mols'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Leia os coeficientes da equação balanceada: 2 H₂ para 1 O₂.',
+      'A proporção em mols é 2:1.',
+      'Para 1 mol de O₂ são necessários 2 mols de H₂.'
+    ],
+    explicacao: 'Os coeficientes da equação balanceada dão a proporção em mol: 2 H₂ : 1 O₂ : 2 H₂O. Estequiometria é a "regra de três da química" — sempre a proporção dos coeficientes.', // explicação
+    dica: 'Erro clássico: ler "2 H₂" como "2 gramas" — coeficiente é MOL, não massa. Se a questão pedir gramas, multiplique pela massa molar (H₂ = 2 g/mol → 2 mols de H₂ = 4 g).', // pegadinha
+    video: 'estequiometria proporção em mol regra de três vestibular' // busca no YouTube
+  },
+
+  /* ===================== FÍSICA (matéria nova — vestibulares) ===================== */
+  {
+    id: 'f01',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Leis de Newton',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um ônibus freia bruscamente e os passageiros são jogados para a frente. Isso ilustra:', // pergunta
+    alternativas: [                     // opções
+      'A segunda lei de Newton (F = m·a)',
+      'A primeira lei de Newton — a inércia: o corpo tende a manter o movimento que tinha',
+      'A terceira lei de Newton (ação e reação)',
+      'A lei da gravitação universal',
+      'A conservação da energia'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inércia (1ª lei): o corpo mantém o estado de movimento se nenhuma força resultante o altera. O ônibus freou, mas os passageiros continuam com a velocidade que tinham — por isso são "empurrados" para a frente.', // explicação
+    dica: 'Decore pelas situações do ENEM: frenagem → passageiro vai para frente (inércia); arrancada → corpo vai para trás (inércia). Cinto de segurança existe justamente por causa da 1ª lei.', // pegadinha
+    video: 'primeira lei de newton inércia exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'f02',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Energia cinética e potencial', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Numa queda livre (sem atrito), a energia mecânica de um corpo:', // pergunta
+    alternativas: [                     // opções
+      'Aumenta porque a velocidade cresce',
+      'Diminui porque a altura diminui',
+      'Conserva-se — a energia potencial transforma-se em cinética',
+      'Zera no ponto mais baixo',
+      'Transforma-se em energia elétrica'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Sem atrito, a energia mecânica se conserva: o que o corpo perde de potencial (m·g·h, pela altura) ganha de cinética (½m·v², pela velocidade). A energia não aparece nem some — ela muda de forma.', // explicação
+    dica: 'A Fatec cobra a conservação em montanha-russa e queda livre: em cima, mais potencial e menos cinética; embaixo, menos potencial e mais cinética. A soma (mecânica) é constante sem atrito.', // pegadinha
+    video: 'energia cinética e potencial conservação queda livre' // busca no YouTube
+  },
+  {
+    id: 'f03',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Lei de Ohm',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Um resistor de 4 Ω é ligado a uma bateria de 12 V. A corrente que atravessa o circuito é de:', // pergunta
+    alternativas: [                     // opções
+      '48 A',
+      '3 A',
+      '0,33 A',
+      '16 A',
+      '8 A'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Lei de Ohm: V = R × i (tensão = resistência × corrente).',
+      'Isole a corrente: i = V ÷ R.',
+      'i = 12 ÷ 4 = 3 A.'
+    ],
+    explicacao: 'i = V/R. Com 12 volts e 4 ohms, a corrente é 3 amperes. As alternativas "48" (12×4) e "0,33" (4÷12) são as trocas de operação típicas da banca.', // explicação
+    dica: 'Macete do triângulo V-R-i: cobre quem você quer achar e faz a conta com os dois que sobram. Quer i? V÷R. Quer R? V÷i. Quer V? R×i.', // pegadinha
+    video: 'lei de ohm v=ri exercício corrente tensão resistência' // busca no YouTube
+  },
+  {
+    id: 'f04',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Óptica — reflexão e refração', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um lápis mergulhado num copo com água parece "quebrado" na superfície. Esse fenômeno é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'Reflexão',
+      'Refração',
+      'Difração',
+      'Interferência',
+      'Dispersão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A luz muda de velocidade ao passar do ar para a água e desvia o caminho — a refração cria a ilusão do lápis "quebrado". A reflexão é a luz voltando (espelho); a difração, a luz contornando obstáculos.', // explicação
+    dica: 'Exemplos do ENEM para refração: lápis quebrado na água, piscina que parece mais rasa, miragem no asfalto quente. Espelho e imagem no vidro são reflexão — não misture.', // pegadinha
+    video: 'refração da luz lápis na água fenômeno resumo' // busca no YouTube
+  },
+
+  /* ===================== GEOGRAFIA — lote extra (g21 a g24) ===================== */
+  {
+    id: 'g21',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Energias renováveis no Brasil', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A energia eólica no Brasil cresceu especialmente na região:', // pergunta
+    alternativas: [                     // opções
+      'Sul, pela proximidade com o oceano',
+      'Nordeste, pelos ventos constantes no litoral e no sertão',
+      'Norte, pela força dos rios',
+      'Centro-Oeste, pelos chapadões',
+      'Sudeste, pela densidade industrial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Nordeste lidera a eólica brasileira: ventos fortes e constantes (alisios) no litoral e no sertão, terrenos amplos e complementaridade com a seca — os parques enchem justamente quando as hidrelétricas enfrentam falta de água.', // explicação
+    dica: 'O ENEM cobra o casamento: eólica (Nordeste) + solar (seca/sol do sertão) como fontes que COMPLEMENTAM a hidrelétrica em estiagem. E a matriz brasileira segue mais limpa que a média mundial por causa das hidrelétricas.', // pegadinha
+    video: 'energia eólica nordeste brasil complementaridade resumo' // busca no YouTube
+  },
+  {
+    id: 'g22',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Migrações internacionais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Refugiados e migrantes se distinguem juridicamente porque o refugiado:', // pergunta
+    alternativas: [                     // opções
+      'Muda de país por vontade econômica',
+      'Foge de perseguição, conflito ou violação de direitos e tem proteção legal internacional (status de refugiado)',
+      'Trabalha ilegalmente no exterior',
+      'Tem dupla cidadania automática',
+      'Volta sempre ao país de origem'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O refugiado é quem cruza a fronteira fugindo de perseguição (raça, religião, nacionalidade, opinião política) ou conflito grave — tem status legal e não pode ser devolvido ao perigo (non-refoulement). O migrante comum muda por trabalho/qualidade de vida, sem essa proteção específica.', // explicação
+    dica: 'A Unicamp cobra a diferença: refugiado = fuga de perigo (proteção legal); migrante econômico = busca de melhor vida; deslocado interno = fugiu mas não cruzou fronteira. Brasil recebeu muitos venezuelanos como refugiados.', // pegadinha
+    video: 'diferença entre refugiado migrante e deslocado resumo' // busca no YouTube
+  },
+  {
+    id: 'g23',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Blocos econômicos — União Europeia', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A União Europeia se caracteriza como um bloco econômico que possui:', // pergunta
+    alternativas: [                     // opções
+      'Apenas livre comércio entre os países membros',
+      'Moeda única (euro) adotada pela maioria dos membros e livre circulação de pessoas',
+      'Membros na América do Sul',
+      'Uma única língua oficial para todos',
+      'Exclusão do Reino Unido desde a fundação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A UE é o bloco mais integrado do mundo: mercado único, livre circulação de pessoas (Espaço Schengen) e moeda comum — o euro, usado pela maioria (não todos). O Reino Unido SAIU do bloco no Brexit (2020), mas esteve dentro por décadas.', // explicação
+    dica: 'Comparação que a IBFC adora: Mercosul = união aduaneira (sem moeda comum); UE = união econômica e monetária (euro + Schengen). E Brexit = o Reino Unido SAIU, não "nunca esteve".', // pegadinha
+    video: 'união europeia euro schengen brexit resumo geografia' // busca no YouTube
+  },
+  {
+    id: 'g24',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Geotecnologias — GPS e GIS', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O SIG/GIS (Sistema de Informação Geográfica) difere do GPS porque o SIG:', // pergunta
+    alternativas: [                     // opções
+      'Localiza a posição por satélite',
+      'Organiza, analisa e cruza dados georreferenciados em camadas (mapas temáticos)',
+      'Mede a velocidade do vento',
+      'Fotografa a superfície por satélite',
+      'Calcula rotas de carro'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'GPS diz ONDE você está (coordenadas); o SIG/GIS guarda e analisa O QUE tem ali: cruza camadas de mapas (solo, uso da terra, saneamento, crimes, dengue) para auxiliar decisões de planejamento e gestão pública.', // explicação
+    dica: 'O ENEM separa as três tecnologias: GPS = localização; sensoriamento remoto = captura de imagens/dados à distância; SIG/GIS = análise e cruzamento desses dados em camadas. "SIG pensa, GPS localiza, sensoriamento vê".', // pegadinha
+    video: 'sig gis gps sensoriamento remoto diferença resumo' // busca no YouTube
+  },
+
+  /* ===================== DIREITO PENAL — completando para 16 (d13 a d16) ===================== */
+  {
+    id: 'd13',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes contra a honra',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Atribuir a alguém, falsamente, a prática de crime é o delito de:', // pergunta
+    alternativas: [                     // opções
+      'Difamação',
+      'Injúria',
+      'Calúnia',
+      'Estelionato',
+      'Falsa identidade'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Calúnia (art. 138) = imputar FALSAMENTE crime a alguém — a honra é atingida pela invenção. Difamação (139) = fato desonroso (não necessariamente crime); injúria (140) = ofensa à dignidade no rosto da pessoa. O trio é cobrança padrão de polícia.', // explicação
+    dica: 'O triângulo da honra: calúnia = inventa crime; difamação = fala mal de fato (não crime); injúria = ofende na cara. Lembre: CA-lúnia = Crime Atribuído.', // pegadinha
+    video: 'calúnia difamação injúria diferenças direito penal resumo' // busca no YouTube
+  },
+  {
+    id: 'd14',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Estelionato x apropriação indébita', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A diferença essencial entre estelionato (art. 171) e apropriação indébita (art. 168) está em:', // pergunta
+    alternativas: [                     // opções
+      'O valor do bem envolvido',
+      'A forma como o bem é obtido: o estelionato usa fraude/engano; a apropriação é de bem recebido licitamente e não devolvido',
+      'A idade da vítima',
+      'O tipo de bem (móvel x imóvel)',
+      'O local do crime'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estelionato = obter vantagem ilícita EM PREJUÍZO ALHEIO por artifício enganoso (fraude ativa — a vítima é induzida a entregar). Apropriação indébita = recebeu o bem licitamente (depósito, comissão) e depois se recusou a devolver — o "se apega".', // explicação
+    dica: 'A FCC adora o exemplo do cheque sem fundo: se a vítima entrega o bem porque foi enganada = estelionato; se recebeu licitamente e se recusa a devolver = apropriação indébita. O "entrou de boa-fé" é a chave.', // pegadinha
+    video: 'estelionato e apropriação indébita diferença direito penal' // busca no YouTube
+  },
+  {
+    id: 'd15',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Corrupção — ativa, passiva e concussão', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O funcionário que EXIGE vantagem indevida usando o cargo (sem que ninguém ofereça) comete:', // pergunta
+    alternativas: [                     // opções
+      'Corrupção passiva',
+      'Corrupção ativa',
+      'Concussão',
+      'Peculato',
+      'Prevaricação'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Concussão (art. 316) = o funcionário EXIGE vantagem — a iniciativa e a pressão partem dele. Corrupção passiva (317) = ele SOLICITA ou recebe oferta; corrupção ativa (333) = o particular que oferece.', // explicação
+    dica: 'A CESPE testa o verbo: EXIGIR = concussão (funcionário impõe); SOLICITAR/RECEBER = corrupção passiva; OFERECER = ativa. "Exigir" é a palavra-sinal de concussão.', // pegadinha
+    video: 'concussão corrupção ativa passiva peculato diferença' // busca no YouTube
+  },
+  {
+    id: 'd16',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Culpa — modalidades',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'O motorista que responde por homicídio culposo no trânsito (sem intenção) agiu por:', // pergunta
+    alternativas: [                     // opções
+      'Dolo direto',
+      'Culpa — imprudência, negligência ou imperícia',
+      'Dolo eventual',
+      'Preterdolo',
+      'Responsabilidade civil apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Culpa = agir sem intenção de produzir o resultado, por IMPRUDÊNCIA (agir sem cuidado), NEGLIGÊNCIA (omissão do dever) ou IMPERÍCIA (falta de técnica). O motorista que causa morte sem querer responde por homicídio culposo.', // explicação
+    dica: 'Trio da culpa da AOCP: imprudência = ação arriscada; negligência = não fazer o que devia; imperícia = não saber fazer. Dolo = querer o resultado; culpa = não querer mas causar por descuido.', // pegadinha
+    video: 'dolo e culpa imprudência negligência imperícia direito penal' // busca no YouTube
+  },
+
+  /* ===================== CRIMINOLOGIA — completando para 16 (k13 a k16) ===================== */
+  {
+    id: 'k13',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Controle social',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A família, a escola e a igreja são exemplos de controle social:', // pergunta
+    alternativas: [                     // opções
+      'Formal',
+      'Informal',
+      'Repressivo',
+      'Preventivo jurídico',
+      'De Estado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Controle social informal = mecanismos não institucionalizados que moldam o comportamento (família, escola, costumes, opinião pública). Formal = leis, polícia, tribunais — o Estado em ação.', // explicação
+    dica: 'A AOCP divide em dois sacos: formal (Estado: polícia, juiz, prisão) x informal (sociedade: família, escola, religião, vergonha pública). Repressivo = após o crime; preventivo = antes.', // pegadinha
+    video: 'controle social formal informal criminologia resumo' // busca no YouTube
+  },
+  {
+    id: 'k14',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Toxicologia forense',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A toxicologia forense, em uma perícia de morte suspeita, tem como objetivo principal:', // pergunta
+    alternativas: [                     // opções
+      'Determinar a hora da morte',
+      'Identificar a presença de substâncias químicas (drogas, venenos, medicamentos) no organismo',
+      'Reconstituir a cena do crime',
+      'Analisar impressões digitais',
+      'Fotografar o local'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Toxicologia forense = detectar e medir substâncias químicas no corpo (tela tóxica, sangue, cabelo, vísceras) — venenos, drogas, medicamentos, álcool. Determina se houve intoxicação ou envenenamento.', // explicação
+    dica: 'Não confunda com tanatologia (estuda a morte em si) e tanatoscopia (sinais cadavéricos). Toxicologia = substâncias no corpo. O material vai ao laboratório, não ao IML comum.', // pegadinha
+    video: 'toxicologia forense detecção de substâncias perícia resumo' // busca no YouTube
+  },
+  {
+    id: 'k15',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Genética forense — DNA',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O uso de DNA em investigação criminal fundamenta-se no fato de que:', // pergunta
+    alternativas: [                     // opções
+      'Todo mundo tem o mesmo DNA',
+      'O DNA de cada pessoa é único (exceto gêmeos idênticos), permitindo identificar vestígios biológicos',
+      'O DNA muda com a idade',
+      'O DNA só está no sangue',
+      'O teste de DNA é inválido em juízo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O DNA nuclear é praticamente único por indivíduo (gêmeos monozigóticos compartilham o mesmo). Sangue, sêmen, cabelo com raiz, saliva — qualquer vestígio biológico pode identificar o autor. O teste é prova robusta e admissível.', // explicação
+    dica: 'Detalhes da FCC: gêmeos idênticos têm o MESMO DNA; o DNA mitocondrial vem só da mãe; o DNA está em qualquer célula com núcleo — não só sangue. E o teste é válido como prova.', // pegadinha
+    video: 'dna forense genética perícia criminal resumo' // busca no YouTube
+  },
+  {
+    id: 'k16',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'O perito no processo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O perito criminal, no processo penal, atua como:', // pergunta
+    alternativas: [                     // opções
+      'Advogado do Estado',
+      'Auxiliar da justiça — produz prova técnica sem julgar a culpa',
+      'Investigador que prende suspeitos',
+      'Testemunha de defesa',
+      'Substituto do juiz'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O perito é auxiliar da justiça: fornece parecer técnico (laudo) sobre o vestígio/materialidade, sem opinar sobre culpa — a decisão é do juiz. Ele é imparcial por lei (não é de defesa nem de acusação).', // explicação
+    dica: 'A CESPE testa o papel do perito: técnico e imparcial, auxiliar da justiça. Quem acusa é o MP; quem defende é o advogado; quem julga é o juiz. O perito só diz "o que a ciência mostra" no vestígio.', // pegadinha
+    video: 'papel do perito criminal auxiliar da justiça resumo' // busca no YouTube
+  },
+
+  /* ===================== DIREITO PREVIDENCIÁRIO — completando para 16 (v06 a v16) ===================== */
+  {
+    id: 'v06',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefício por incapacidade permanente', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O segurado que perde permanentemente a capacidade de trabalhar por doença ou acidente tem direito à:', // pergunta
+    alternativas: [                     // opções
+      'Aposentadoria por tempo de contribuição',
+      'Aposentadoria por incapacidade permanente (antiga aposentadoria por invalidez)',
+      'Pensão por morte',
+      'Salário-maternidade',
+      'Auxílio-reclusão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Incapacidade TOTAL e PERMANENTE para o trabalho → aposentadoria por incapacidade permanente (renomeada da antiga aposentadoria por invalidez). A temporária (parcial) gera auxílio por incapacidade.', // explicação
+    dica: 'A banca troca permanente x temporário: permanente = aposentadoria por incapacidade (recebe até morrer); temporário = auxílio por incapacidade temporária (antigo auxílio-doença, recebe só enquanto incapaz).', // pegadinha
+    video: 'aposentadoria por incapacidade permanente inss resumo' // busca no YouTube
+  },
+  {
+    id: 'v07',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Salário-maternidade',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O salário-maternidade é devido à segurada do INSS:', // pergunta
+    alternativas: [                     // opções
+      'Apenas se ela contribuir há 20 anos',
+      'Por 120 dias a partir do parto (ou adoção), independentemente de carência em alguns casos',
+      'Somente para servidora pública',
+      'Apenas para gestante de risco',
+      'Só se for o primeiro filho'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Salário-maternidade = 120 dias a partir do parto, aborto não-criminoso, adoção ou guarda para fins de adoção. Para segurada empregada/MEI, não exige carência — nasce com a filiação (o evento basta).', // explicação
+    dica: 'Detalhe da prova: adoção também gera salário-maternidade (120 dias para adoção de criança de qualquer idade — houve extensão legal). E o segurado facultativo/contribuinte individual precisa de 10 contribuições.', // pegadinha
+    video: 'salário-maternidade inss 120 dias requisitos resumo' // busca no YouTube
+  },
+  {
+    id: 'v08',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'BPC — benefício assistencial', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O BPC (benefício de prestação continuada) difere da aposentadoria porque:', // pergunta
+    alternativas: [                     // opções
+      'Exige 30 anos de contribuição',
+      'É assistencial — não exige contribuição, mas sim idoso 65+ ou pessoa com deficiência de baixa renda',
+      'Só servidores públicos recebem',
+      'É pago pelo empregador',
+      'Depende do salário do requerente'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BPC = benefício ASSISTENCIAL (LOAS): garante 1 salário mínimo mensal a idosos 65+ ou pessoas com deficiência de longa data, de família com renda per capita inferior a 1/4 do SM. Não exige contribuição ao INSS.', // explicação
+    dica: 'BPC ≠ aposentadoria: BPC é para quem NÃO contribuiu (assistência); aposentadoria é para quem contribuiu (previdência). BPC não deixa pensão por morte e não paga 13º.', // pegadinha
+    video: 'bpc benefício de prestação continuada loas resumo' // busca no YouTube
+  },
+  {
+    id: 'v09',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Contribuição facultativa',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'Uma dona de casa sem renda própria que quer se aposentar pelo INSS pode contribuir como:', // pergunta
+    alternativas: [                     // opções
+      'Segurado empregado',
+      'Segurado facultativo — contribuição voluntária por alíquota sobre o salário de contribuição',
+      'Segurado especial rural',
+      'Dependente',
+      'Contribuinte individual obrigatório'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sem vínculo de trabalho, a pessoa pode se filiar VOLUNTARIAMENTE como segurado facultativo: paga uma alíquota (em geral 20% sobre o salário escolhido, ou ~5-11% em modalidades reduzidas) e acumula tempo de contribuição.', // explicação
+    dica: 'Segurado EMPREGADO = vínculo obrigatório; FACULTATIVO = sem vínculo, contribui por opção (donas de casa, estudantes, desempregados que querem se proteger); ESPECIAL RURAL = agricultor familiar; INDIVIDUAL = autônomo/profissional liberal.', // pegadinha
+    video: 'segurado facultativo inss contribuição voluntária resumo' // busca no YouTube
+  },
+  {
+    id: 'v10',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Reforma de 2019 — regras de transição', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Reforma da Previdência de 2019 (EC 103) criou "regras de transição" porque:', // pergunta
+    alternativas: [                     // opções
+      'A Constituição não permite aposentadoria',
+      'Quem já contribuía antes da reforma não pode perder todo o tempo acumulado — as regras suavizam a migração para o novo sistema',
+      'A reforma não valeu para ninguém',
+      'As aposentadorias antigas foram revogadas',
+      'Só o setor privado foi atingido'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Quem já estava no sistema não pode simplesmente migrar para a regra nova "seca" — as regras de transição (pedágio, idade progressiva, pontos) dão caminhos intermediários que respeitam o tempo já contribuído.', // explicação
+    dica: 'A CESPE cobra a lógica: direito adquirido + expectativa de direito. As regras de transição protegem quem já contribuía — não são benefício a mais, são forma suave de ir do sistema antigo ao novo.', // pegadinha
+    video: 'reforma da previdência 2019 regras de transição resumo' // busca no YouTube
+  },
+  {
+    id: 'v11',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Segurado especial rural',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O agricultor familiar que trabalha sozinho ou em regime de economia familiar no campo é considerado:', // pergunta
+    alternativas: [                     // opções
+      'Segurado facultativo',
+      'Segurado especial — contribuição indireta pela receita bruta da atividade, com requisitos mais brandos para aposentar',
+      'Segurado empregado',
+      'Isento de qualquer proteção previdenciária',
+      'Dependente do cônjuge'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Segurado ESPECIAL = produtor rural, pescador artesanal ou indígena em regime de economia familiar (sem empregado permanente). Contribui indiretamente (na venda da produção) e se aposenta por idade rural (60 homem/55 mulher) com requisitos reduzidos.', // explicação
+    dica: 'Características do especial: economia FAMILIAR (não pode ter empregado efetivo), terra própria ou arrendada, e a contribuição é sobre a produção — não mensal como o individual. Idade rural = reduzida.', // pegadinha
+    video: 'segurado especial rural inss agricultor familiar resumo' // busca no YouTube
+  },
+  {
+    id: 'v12',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Acidente de trabalho',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'O trabalhador que sofre acidente que gera incapacidade definitiva parcial (perde um dedo, por exemplo) tem direito ao:', // pergunta
+    alternativas: [                     // opções
+      'Auxílio por incapacidade temporária (substituto do salário)',
+      'Auxílio-acidente — indenização mensal por sequelas que reduzem a capacidade de trabalho',
+      'Pensão por morte',
+      'Seguro-desemprego',
+      'Aposentadoria por idade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Auxílio-ACIDENTE = indenização paga ao segurado que teve acidente e ficou com SEQUELA que reduz a capacidade de trabalho (não impede de trabalhar). O auxílio por incapacidade temporária é para quem NÃO pode trabalhar durante a recuperação.', // explicação
+    dica: 'A distinção clássica: auxílio por incapacidade temporária = você NÃO pode trabalhar (substitui o salário); auxílio-acidente = você PODE trabalhar mas ficou com sequela (indenização). A doença ocupacional equipara-se a acidente de trabalho.', // pegadinha
+    video: 'auxílio-acidente vs auxílio por incapacidade inss resumo' // busca no YouTube
+  },
+  {
+    id: 'v13',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Aposentadoria especial',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'A aposentadoria especial do INSS destina-se ao segurado que trabalha:', // pergunta
+    alternativas: [                     // opções
+      'Em qualquer função administrativa',
+      'Exposto a agentes nocivos à saúde (insalubridade, periculosidade ou ruído), com tempo reduzido conforme o agente',
+      'Somente à noite',
+      'Em trabalho rural qualquer',
+      'Com contrato temporário'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aposentadoria especial = para quem trabalha exposto a agentes nocivos: químicos, biológicos, ruído, periculosidade (vigilante armado, eletricidade). Quanto mais grave o agente, menor o tempo exigido (15, 20 ou 25 anos).', // explicação
+    dica: 'Exemplos de prova: vigilante armado (periculosidade), frentista (inflamável), radiologista (radiação), enfermeiro (agentes biológicos). O PPP (Perfil Profissiográfico Previdenciário) é o documento que comprova a exposição.', // pegadinha
+    video: 'aposentadoria especial insalubridade periculosidade inss' // busca no YouTube
+  },
+  {
+    id: 'v14',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte — rateio',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'INSS / bancas previdenciárias', // banca inspiradora
+    enunciado: 'Um segurado deixa esposa e dois filhos menores como dependentes. A pensão por morte é:', // pergunta
+    alternativas: [                     // opções
+      'Paga integralmente à esposa',
+      'Dividida em partes iguais entre todos os dependentes habilitados',
+      'Paga só ao filho mais velho',
+      'Dividida por metade para a esposa e metade para os filhos',
+      'Convertida em aposentadoria'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A pensão é dividida igualmente entre os dependentes habilitados (esposa + filhos menores de 21 ou inválidos). Se um dependente perde a condição (maior de 21, casa), a parte dele reverte para os demais.', // explicação
+    dica: 'Ordem dos dependentes: 1ª classe = cônjuge/companheiro e filhos menores de 21 ou inválidos; 2ª classe = pais; 3ª classe = irmãos menores de 21 ou inválidos. A pensão só sobe para a classe seguinte se a anterior estiver vazia.', // pegadinha
+    video: 'pensão por morte divisão entre dependentes inss resumo' // busca no YouTube
+  },
+  {
+    id: 'v15',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Licença-maternidade por adoção', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O servidor público que adota uma criança tem direito à licença-maternidade/paternidade?', // pergunta
+    alternativas: [                     // opções
+      'Não, adoção não gera licença',
+      'Sim — a lei estende a licença-maternidade à adoção/guarda para fins de adoção',
+      'Só se a criança tiver menos de 1 ano',
+      'Apenas o pai tem direito',
+      'Só no setor privado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CF e a lei estendem a licença-maternidade (120 dias) à adoção e à guarda judicial para fins de adoção — a mãe/pai adotivo tem os mesmos direitos do biológico, porque o objetivo é o vínculo, não o parto.', // explicação
+    dica: 'A IBFC testa se você sabe que adoção GERA licença. A lei 12.010/2009 equiparou adoção a parto para o INSS e o serviço público. O pai adotivo também tem direito à licença-paternidade (5 dias).', // pegadinha
+    video: 'licença-maternidade adoção servidor público direito' // busca no YouTube
+  },
+  {
+    id: 'v16',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Filiação e inscrição no INSS', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A diferença entre "filiação" e "inscrição" no INSS é que:', // pergunta
+    alternativas: [                     // opções
+      'São sinônimos',
+      'Filiação é o vínculo do segurado com a previdência (automático pelo trabalho ou voluntário); inscrição é o número/NIT que identifica o contribuinte',
+      'Filiação é só para aposentados',
+      'Inscrição garante benefício automaticamente',
+      'Filiação exige pagamento mensal'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'FILIAÇÃO = o vínculo jurídico do segurado ao regime (empregado filia-se automaticamente ao trabalhar; facultativo, ao se inscrever). INSCRIÇÃO = o número (NIT/PIS/NIS) que identifica o contribuinte no sistema. Filiação ≠ garantia de benefício.', // explicação
+    dica: 'Confusão clássica da CESPE: estar filiado ≠ ter direito ao benefício (precisa também de carência/qualidade de segurado); ter inscrição ≠ contribuir (o número é só identificação).', // pegadinha
+    video: 'filiação inscrição nit inss diferença resumo' // busca no YouTube
+  },
+
+  /* ===================== LITERATURA — completando para 16 (l05 a l16) ===================== */
+  {
+    id: 'l05',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Arcadismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'O Arcadismo brasileiro (séc. XVIII) valorizava a vida simples no campo. "Marília de Dirceu" é a obra de:', // pergunta
+    alternativas: [                     // opções
+      'Gregório de Matos',
+      'Tomás Antônio Gonzaga',
+      'José de Alencar',
+      'Machado de Assis',
+      'Castro Alves'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Arcadismo = idealização do campo, pastores, natureza serena — reação ao excesso barroco. Tomás Antônio Gonzaga escreveu "Marília de Dirceu", lírica em que o pastor Dirceu canta o amor por Marília. Bocage e Cláudio Manuel são outros arcádicos.', // explicação
+    dica: 'Pares que a banca troca: Barroco (XVII, conflito fé×razão, Gregório de Matos) x Arcadismo (XVIII, campo idealizado, Gonzaga). "Marília" não é de Gregório de Matos — ele escrevia sátira e poemas sacros.', // pegadinha
+    video: 'arcadismo tomás antônio gonzaga marília de dirceu resumo' // busca no YouTube
+  },
+  {
+    id: 'l06',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Naturalismo — O Cortiço',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: '"O Cortiço" (1890), de Aluísio Azevedo, representa o Naturalismo brasileiro ao retratar:', // pergunta
+    alternativas: [                     // opções
+      'O índio como herói nacional',
+      'A vida no cortiço carioca e a tese de que meio e hereditariedade determinam o comportamento humano',
+      'O amor idealizado da aristocracia',
+      'As viagens marítimas portuguesas',
+      'A vida pastoral do interior'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Naturalismo radicaliza o Realismo: o homem é determinado por raça, meio e momento — "O Cortiço" mostra o morro carioca, a pobreza e a "bestialização" dos personagens pelo meio. Personagens como Rita Baiana e João Romão viram arquétipos.', // explicação
+    dica: 'Realismo x Naturalismo: os dois criticam a sociedade, mas o Naturalismo adiciona o determinismo científico — o personagem é "produto do meio". O Cortiço é o romance canônico; Dom Casmurro é realista.', // pegadinha
+    video: 'o cortiço aluísio azevedo naturalismo resumo' // busca no YouTube
+  },
+  {
+    id: 'l07',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Parnasianismo',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Parnasianismo valorizava acima de tudo:', // pergunta
+    alternativas: [                     // opções
+      'A mensagem social engajada',
+      'A forma perfeita — "arte pela arte", sonetos rigorosos e linguagem rebuscada',
+      'A linguagem do povo',
+      'A improvisação poética',
+      'A prosa romântica'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Parnasianismo = culto à FORMA: sonetos de estrutura rígida, vocabulário erudito, "arte pela arte" (a beleza é o fim, não a mensagem). Olavo Bilac é o expoente ("Profissão de Fé" é o manifesto prático).', // explicação
+    dica: 'Escolas em sequência no fim do séc. XIX: Parnasianismo (forma perfeita, Bilac) × Simbolismo (musicalidade, sugestão, Cruz e Sousa) — quase opostos. A banca adora o contraste entre "arte pela arte" (parnasiana) e o verso livre moderno.', // pegadinha
+    video: 'parnasianismo olavo bilac forma perfeita resumo' // busca no YouTube
+  },
+  {
+    id: 'l08',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Simbolismo',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Simbolismo de Cruz e Sousa ("Missal", "Broquéis") se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'Descrição realista da favela',
+      'Musicalidade, sinestesia, misticismo e sugestão do inefável',
+      'Sátira política',
+      'Narrativa histórica',
+      'Verso colonial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Simbolismo busca sugerir o invisível: musicalidade do verso, sinestesia (misturar sentidos — "cor que soa"), misticismo e evasão. Cruz e Sousa ("O Poeta Negro") é o grande nome; escreveu "Emparedado" e "Carnavais".', // explicação
+    dica: 'Símbolo-chave da Cruz e Sousa: a cor BRANCA (misticismo) e os sinéstesias. A banca embaralha com Parnasianismo: simbolismo é sugestão e música; parnasianismo é forma perfeita e descrição fria.', // pegadinha
+    video: 'simbolismo cruz e sousa poesia resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'l09',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Poesia concreta',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A poesia concreta (anos 1950, Haroldo e Augusto de Campos, Décio Pignatari) inovou ao:', // pergunta
+    alternativas: [                     // opções
+      'Usar rimas ricas e forma fixa',
+      'Valorizar a forma visual do poema — a disposição das palavras na página cria o sentido',
+      'Imitar a poesia grega',
+      'Proibir experimentação',
+      'Rejeitar a tipografia'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A poesia concreta explora o aspecto VISUAL e espacial do verso: as palavras desenhadas na página fazem parte do sentido ("velocidade", "beija coca cola" de Décio). É vanguarda literária — o leitor "vê" o poema, não só lê.', // explicação
+    dica: 'Poesia concreta vs. concretismo musical? A banca associa à forma: o poema concreto não é sobre algo — ele É o objeto. Augusto e Haroldo de Campos = os irmãos que revolucionaram a página.', // pegadinha
+    video: 'poesia concreta campos pignatari forma visual resumo' // busca no YouTube
+  },
+  {
+    id: 'l10',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Literatura de cordel',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A literatura de cordel, tradição nordestina, caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'Livros acadêmicos encadernados',
+      'Folhetos impressos pendurados em corda, com histórias rimadas e xilogravura na capa',
+      'Poesia escrita na parede',
+      'Romances de banca',
+      'Cartilhas escolares'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cordel = folhetos de histórias populares em versos (geralmente sextilhas), com capa em xilogravura, vendidos pendurados em cordas nas feiras — Patativa do Assaré, Leandro Gomes de Barros. É voz do sertão e patrimônio cultural.', // explicação
+    dica: 'O ENEM valoriza cordel como cultura popular: sextilha (estrofe de 6 versos), xilogravura na capa, narrativa oral. E tem rosto feminino forte — as cordelistas vêm crescendo muito.', // pegadinha
+    video: 'literatura de cordel nordeste patativa do assaré resumo' // busca no YouTube
+  },
+  {
+    id: 'l11',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Guimarães Rosa',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: '"Grande Sertão: Veredas" (1956), de João Guimarães Rosa, narra a história de:', // pergunta
+    alternativas: [                     // opções
+      'Capitu e Bentinho',
+      'Riobaldo, jagunço que narra suas aventuras e seu amor por Diadorim no sertão',
+      'Macunaíma na cidade grande',
+      'Budas e santos do interior',
+      'O sertão durante a Canudos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Riobaldo Tatarana, jagunço velho, conta sua vida a um interlocutor silencioso: guerras de jagunços, pacto com o diabo e o amor velado por Diadorim (que é mulher). Rosa revolucionou a língua — criou um idioma próprio, "o sertão é dentro da gente".', // explicação
+    dica: 'A Fuvest cobra o giro: Diadorim é MULHER (revelação final) e o romance é uma longa confissão oral de Riobaldo. Guimarães Rosa inventou uma linguagem — não tente traduzir palavra por palavra.', // pegadinha
+    video: 'grande sertão veredas guimarães rosa riobaldo resumo' // busca no YouTube
+  },
+  {
+    id: 'l12',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Carlos Drummond de Andrade', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: '"No meio do caminho tinha uma pedra / tinha uma pedra no meio do caminho" é de:', // pergunta
+    alternativas: [                     // opções
+      'Cecília Meireles',
+      'Carlos Drummond de Andrade',
+      'Manuel Bandeira',
+      'Mário Quintana',
+      'Vinicius de Moraes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O poema "No meio do caminho" (de "Alguma Poesia", 1930) repete o verso como um tique — Drummond mostra a obsessão e a simplicidade da memória. É a marca do poeta mineiro que escrevia sobre o cotidiano, o desconforto e a lembrança.', // explicação
+    dica: 'Drummond = "poeta das coisas simples" com dificuldade de se comunicar ("poema de sete faces"). Manuel Bandeira também é modernista, mas o verso da pedra é marca registrada do Drummond.', // pegadinha
+    video: 'carlos drummond de andrade no meio do caminho resumo' // busca no YouTube
+  },
+  {
+    id: 'l13',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Mal-do-século — ultrarromantismo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Álvares de Azevedo, poeta do "mal-do-século", escreveu versos marcados por:', // pergunta
+    alternativas: [                     // opções
+      'Otimismo e patriotismo',
+      'Angústia, pessimismo, evasão e fascínio pela morte',
+      'Exaltação do índio',
+      'Sátira política',
+      'Descrição da natureza tropical'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ultrarromantismo/mal-do-século exagera o sentimento: sofrimento amoroso, tédio, evasão e morte — "Lira dos Vinte Anos" de Álvares de Azevedo (morto aos 20) e "Cancioneiro" de Casimiro de Abreu.', // explicação
+    dica: 'O romantismo tem fases: indianismo (Alencar, idealização) → social (Castro Alves, condoreiro/escravidão) → ultrarromântico (Álvares de Azevedo, mal-do-século). O "eu lírico sofredor" é o terceiro.', // pegadinha
+    video: 'ultrarromantismo álvares de azevedo mal-do-século resumo' // busca no YouTube
+  },
+  {
+    id: 'l14',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Teatro brasileiro',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Nelson Rodrigues revolucionou o teatro brasileiro com "Vestido de Noiva" (1943), obra que:', // pergunta
+    alternativas: [                     // opções
+      'Narra as guerras de Canudos',
+      'Mistura realidade, memória e delírio de Alaíde, mulher atropelada que revisita sua vida',
+      'Reconta o mito grego de Orfeu',
+      'Critica o coronelismo do sertão',
+      'Dramatiza a independência'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Vestido de Noiva" junta três planos — realidade (o atropelamento), memória (o passado de Alaíde) e alucinação (seu delírio) — e explora a psicologia da mulher brasileira. Nelson Rodrigues ("o anjo pornográfico") fez o teatro mais psicanalítico do país.', // explicação
+    dica: 'Nelson Rodrigues é o dramaturgo obsessivo: traição, família, culpa e hipocrisia burguesa. "Vestido de Noiva" é o marco do teatro moderno brasileiro; "O Beijo no Asfalto" é outra obra famosa.', // pegadinha
+    video: 'nelson rodrigues vestido de noiva teatro brasileiro' // busca no YouTube
+  },
+  {
+    id: 'l15',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Dom Casmurro — a dúvida',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A grande questão de "Dom Casmurro" (Machado de Assis) que nunca se resolve é:', // pergunta
+    alternativas: [                     // opções
+      'Se Ezequiel era filho de Escobar',
+      'Se Capitu traiu Bentinho — o narrador acusa, mas o leitor nunca tem prova',
+      'Quem matou Escobar',
+      'O paradeiro de Capitu',
+      'A identidade do narrador'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bentinho (Dom Casmurro) narra a história da sua vida e convence o leitor de que Capitu o traiu com Escobar — mas TUDO é o ponto de vista dele. Machado deixa a dúvida de propósito: a "traição" pode ser só ciúme e invenção do narrador.', // explicação
+    dica: 'A Fuvest adora: o narrador é PARTE interessada — tudo que sabemos vem de Bentinho, que tinha motivo para condenar Capitu. "Capitu traiu?" é a pergunta sem resposta da literatura brasileira.', // pegadinha
+    video: 'dom casmurro capitu traiu bentinho debate resumo' // busca no YouTube
+  },
+  {
+    id: 'l16',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Clarice Lispector',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Clarice Lispector, uma das maiores escritoras do século XX, é conhecida por:', // pergunta
+    alternativas: [                     // opções
+      'A poesia de cordel',
+      'O fluxo de consciência e a exploração do mundo interior feminino',
+      'Os romances históricos',
+      'A dramaturgia de revista',
+      'A sátira política'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Clarice escreve com fluxo de consciência — entra na mente dos personagens, na epifania, na solidão feminina ("A Hora da Estrela", "Perto do Coração Selvagem", "Laços de Família"). Ela é a voz da intimidade na prosa brasileira.', // explicação
+    dica: 'A Unicamp liga Clarice ao modernismo psicológico: não é ação, é reflexão — "o instante que passa". Macabéa em "A Hora da Estrela" é a nordestina invisível que o narrador Rodrigo S.M. conta.', // pegadinha
+    video: 'clarice lispector a hora da estrela resumo' // busca no YouTube
+  },
+
+  /* ===================== INGLÊS — completando para 16 (e05 a e16) ===================== */
+  {
+    id: 'e05',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'There is / there are',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "___ three books on the table."', // pergunta
+    alternativas: [                     // opções
+      'There is',
+      'There are',
+      'It is',
+      'They is',
+      'Has'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"There are" para plural (three books); "there is" para singular (there is a book). Equivale a "há/existe" — a escolha depende do número do que vem depois.', // explicação
+    dica: 'Padrão da Univesp: singular = there is; plural = there are. E "there is" com lista ("there is a book and two pens") usa o mais próximo para a concordância.', // pegadinha
+    video: 'there is there are inglês para vestibular' // busca no YouTube
+  },
+  {
+    id: 'e06',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Comparativos',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Complete: "My house is ___ than yours."', // pergunta
+    alternativas: [                     // opções
+      'big',
+      'bigger',
+      'biggest',
+      'more big',
+      'most big'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Adjetivos curtos (uma sílaba) ganham -er + than: big → bigger than. Adjetivos longos usam more + adj: more beautiful than. "More big" é o erro comum de quem mistura as duas regras.', // explicação
+    dica: 'Macete: curto → -er (big/bigger, fast/faster); longo → more (beautiful/more beautiful). Irregulares: good→better, bad→worse, far→farther/further. Superlativo usa -est ou most.', // pegadinha
+    video: 'comparativo e superlativo inglês adjetivos vestibular' // busca no YouTube
+  },
+  {
+    id: 'e07',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Superlativos',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Complete: "This is ___ movie I have ever seen."', // pergunta
+    alternativas: [                     // opções
+      'the better',
+      'the best',
+      'the most best',
+      'better than',
+      'more good'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Ever seen" pede superlativo: the best (irregular de good). "The better" é comparativo; "the most best" é redundância de regra. Superlativo sempre com "the".', // explicação
+    dica: 'Isca clássica: comparativo com "the" = the better/more X; superlativo = the best/most X. "Ever" (alguma vez) pede superlativo na vida toda.', // pegadinha
+    video: 'superlativo inglês best most para vestibular' // busca no YouTube
+  },
+  {
+    id: 'e08',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Preposições de tempo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Coperve (UFSC)',            // banca inspiradora
+    enunciado: 'Complete: "I was born ___ 1995 ___ April ___ Monday."', // pergunta
+    alternativas: [                     // opções
+      'in, in, on',
+      'on, in, in',
+      'in, on, in',
+      'at, in, on',
+      'in, on, at'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'IN para anos, meses, estações e períodos (in 1995, in April); ON para dias e datas (on Monday, on April 5); AT para horas e pontos (at 8, at night).', // explicação
+    dica: 'A regra é de tamanho: IN = grande (ano, mês); ON = dia/data; AT = hora. "At night" é exceção (seria "in the night" lógica, mas o inglês usa "at").', // pegadinha
+    video: 'preposições in on at tempo inglês resumo' // busca no YouTube
+  },
+  {
+    id: 'e09',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Artigos a/an/the',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "___ apple a day keeps ___ doctor away."', // pergunta
+    alternativas: [                     // opções
+      'A, a',
+      'An, the',
+      'The, a',
+      'An, a',
+      'A, the'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'AN antes de som de vogal (an apple — apple começa com som vocálico); THE para o específico ("the doctor" — o médico em geral). "A" para som de consoante.', // explicação
+    dica: 'Regra do som, não da letra: "an hour" (h mudo → som vocálico), "a university" (som de consoante "yu"). A banca testa "an honest" e "a European".', // pegadinha
+    video: 'artigos a an the inglês regras vestibular' // busca no YouTube
+  },
+  {
+    id: 'e10',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Phrasal verbs',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Em "I am looking for my keys", o phrasal verb "look for" significa:', // pergunta
+    alternativas: [                     // opções
+      'Olhar para',
+      'Procurar',
+      'Cuidar de',
+      'Esperar por',
+      'Parecer'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phrasal verbs mudam de sentido com a preposição: look for = procurar; look after = cuidar; look at = olhar para; look forward to = aguardar com expectativa. "I am looking for" = estou procurando.', // explicação
+    dica: 'Os que o ENEM mais cobra: look for (procurar), look after (cuidar), give up (desistir), put off (adiar), take off (decolar/tirar), get along (dar-se bem). O sentido vem do conjunto verbo+partícula.', // pegadinha
+    video: 'phrasal verbs inglês look for give up resumo' // busca no YouTube
+  },
+  {
+    id: 'e11',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Voz passiva',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: '"The book was written by Machado de Assis" é uma frase em:', // pergunta
+    alternativas: [                     // opções
+      'Voz ativa',
+      'Voz passiva — o sujeito (the book) recebe a ação; o agente (by Machado) aparece depois',
+      'Presente contínuo',
+      'Futuro próximo',
+      'Imperativo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Voz passiva: o sujeito RECEBE a ação (o livro "foi escrito"). Estrutura: be + particípio (was written). O agente vem com "by" (by Machado). A ativa seria "Machado de Assis wrote the book".', // explicação
+    dica: 'Marcador da passiva: be (is/are/was/were/been) + particípio (done/written/made). O "by" é a pista do agente — se aparece "by someone", é passiva.', // pegadinha
+    video: 'voz passiva inglês be particípio resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'e12',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Will x going to',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Qual frase usa "going to" corretamente para um plano já decidido?', // pergunta
+    alternativas: [                     // opções
+      'I will probably go to the party.',
+      'I am going to visit my grandmother tomorrow — we already bought the tickets.',
+      'It will rain someday.',
+      'I will help you.',
+      'She wills to study.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Going to" indica PLANO ou decisão já tomada antes de falar (já comprei as passagens → decisão prévia). "Will" é promessa/decisão espontânea no momento da fala ou previsão.', // explicação
+    dica: 'A distinção: GOING TO = plano anterior (decidi antes); WILL = decisão do momento/promessa ("I will help you"). Evidência visual (nuvens escuras) = going to ("it is going to rain").', // pegadinha
+    video: 'will vs going to futuro inglês resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'e13',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Wh-questions',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "___ do you live? — In São Paulo."', // pergunta
+    alternativas: [                     // opções
+      'What',
+      'When',
+      'Where',
+      'Why',
+      'Who'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A resposta é um lugar (São Paulo) → WHERE (onde). What=o que, when=quando, why=por que, who=quem. Cada wh- word pede um tipo de resposta.', // explicação
+    dica: 'Mapa das wh-words: what (coisa), when (tempo), where (lugar), why (motivo), who (pessoa), how (modo), which (escolha), whose (posse). Resposta "In São Paulo" = lugar = where.', // pegadinha
+    video: 'wh questions what where when why inglês' // busca no YouTube
+  },
+  {
+    id: 'e14',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Much / many',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Coperve (UFSC)',            // banca inspiradora
+    enunciado: 'Complete: "How ___ water do you drink?" e "How ___ books did you read?"', // pergunta
+    alternativas: [                     // opções
+      'many, much',
+      'much, many',
+      'many, many',
+      'much, much',
+      'a lot, many'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MUCH para incontáveis (water, money, time); MANY para contáveis (books, people, cars). "How much water" / "how many books". "A lot of" funciona para os dois.', // explicação
+    dica: 'Regra do contável: se dá para contar (books, apples) → many; se não dá (water, money, information, advice) → much. A banca testa "information" — é incontável em inglês!', // pegadinha
+    video: 'much many countables uncountables inglês resumo' // busca no YouTube
+  },
+  {
+    id: 'e15',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Advérbios de frequência',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Qual frase coloca o advérbio de frequência na posição correta?', // pergunta
+    alternativas: [                     // opções
+      'I always am tired.',
+      'I am always tired.',
+      'Always I am tired.',
+      'I am tired always.',
+      'Always tired I am.'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Advérbios de frequência (always, usually, often, never) vão: ANTES do verbo comum (I always work), mas DEPOIS do verbo be (I am always tired). "Always I am" e "always am" são os erros típicos.', // explicação
+    dica: 'Posição com be: depois (am always, is never). Com verbo comum: antes (always work, never eat). Com auxiliar: entre auxiliar e principal (have always done).', // pegadinha
+    video: 'advérbios de frequência posição inglês resumo' // busca no YouTube
+  },
+  {
+    id: 'e16',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Leitura — inferência',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Leia: "Although she studied hard, Maria failed the exam. The teacher suggested more practice." O texto sugere que:', // pergunta
+    alternativas: [                     // opções
+      'Maria passou no exame',
+      'Maria não estudou o suficiente',
+      'Maria reprovou mesmo estudando muito — o professor recomendou mais treino',
+      'O professor reprovou Maria por inveja',
+      'Maria desistiu do curso'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O conectivo "although" (= embora) sinaliza concessão: reprovou APESAR de estudar — não por falta de estudo. "Suggested more practice" = o remédio é treinar mais. Inferência leve, mas a palavra-chave é o "although".', // explicação
+    dica: 'Conectivos que mudam o sentido do texto: although/though/despite (concessão), however/but (contraste), because/since (causa), therefore/so (consequência). Identificar o conectivo resolve metade da questão.', // pegadinha
+    video: 'conectivos inglês although however because interpretação' // busca no YouTube
+  },
+
+  /* ===================== ESPANHOL — completando para 16 (s05 a s16) ===================== */
+  {
+    id: 's05',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pretérito perfecto x indefinido', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Em espanhol, "Esta mañana he desayunado" usa o pretérito perfecto porque:', // pergunta
+    alternativas: [                     // opções
+      'A ação é muito antiga',
+      'A ação está ligada ao presente — "esta mañana" ainda faz parte de hoje',
+      'É sempre o tempo de todas as ações passadas',
+      'É o futuro',
+      'É o condicional'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Perfecto (he desayunado) = ação passada COM vínculo ao presente (este/esta mañana, hoy, siempre). Indefinido (desayuné) = ação terminada e distante (ayer, el año pasado). O marcador de tempo decide.', // explicação
+    dica: 'Macete: "hoy, esta mañana, esta semana" → perfecto (he visto); "ayer, en 2020, el año pasado" → indefinido (vi). A Unicamp troca os marcadores de tempo como isca.', // pegadinha
+    video: 'pretérito perfecto indefinido español diferencia vestibular' // busca no YouTube
+  },
+  {
+    id: 's06',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gustar e similares',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "A María ___ gusta el chocolate."', // pergunta
+    alternativas: [                     // opções
+      'me',
+      'te',
+      'le',
+      'lo',
+      'la'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Gustar" é verbo invertido: a coisa gostada é o sujeito e a pessoa recebe o pronome indireto (me, te, le, nos, os, les). "A María LE gusta el chocolate" = chocolate agrada a María. Concorda com o objeto (el chocolate).', // explicação
+    dica: 'Verbos com a mesma estrutura: gustar, encantar, molestar, interesar — todos invertem (me gusta, nos encanta). O artigo "a María" indica destinatário → pronome indireto LE.', // pegadinha
+    video: 'verbo gustar espanhol pronome indireto resumo' // busca no YouTube
+  },
+  {
+    id: 's07',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Demonstrativos',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Coperve (UFSC)',            // banca inspiradora
+    enunciado: 'Complete: "___ libro que está allá lejos es mío."', // pergunta
+    alternativas: [                     // opções
+      'Este',
+      'Ese',
+      'Aquel',
+      'Estos',
+      'Esos'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Este = perto de quem fala; ese = perto de quem ouve/médio; aquel = longe dos dois. "Allá lejos" pede aquel — o grau máximo de distância. Concorda em gênero/número com "libro" (aquel, masculino singular).', // explicação
+    dica: 'Tabela da distância: este (aqui/perto), ese (aí/médio), aquel (ali/longe). No plural: estos, esos, aquellos. "Allá lejos" sempre aquel.', // pegadinha
+    video: 'demonstrativos este ese aquel espanhol resumo' // busca no YouTube
+  },
+  {
+    id: 's08',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Verbos irregulares',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Qual é a forma correta do presente de "tener" para "yo"?', // pergunta
+    alternativas: [                     // opções
+      'tieno',
+      'tengo',
+      'teno',
+      'tenges',
+      'tienes'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tener é irregular: yo TENGO, tú tienes, él tiene, nosotros tenemos, ellos tienen. A primeira pessoa muda a raiz (teng-). "Tienes" é a segunda pessoa.', // explicação
+    dica: 'Os irregulares mais cobrados: tener (tengo), hacer (hago), salir (salgo), poner (pongo), conocer (conozco), decir (digo) — todos mudam na primeira pessoa do presente.', // pegadinha
+    video: 'verbos irregulares presente espanhol tener hacer resumo' // busca no YouTube
+  },
+  {
+    id: 's09',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Concordância de gênero',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "___ problema es grave; ___ solución es fácil."', // pergunta
+    alternativas: [                     // opções
+      'La, el',
+      'El, la',
+      'El, el',
+      'La, la',
+      'Lo, la'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Problema é masculino (termina em -ma, exceção grega) → EL problema; solución é feminino (termina em -ción) → LA solución. Palavras em -ma/-pa/-ta são masculinas: el problema, el mapa, el planeta.', // explicação
+    dica: 'Iscas de gênero em espanhol: EL problema/mapa/día/mano (exceções); LA mano é um caso raro. Terminações -ción, -dad, -tad = femininas; -o, -ma = masculinas.', // pegadinha
+    video: 'gênero espanhol masculino feminino exceções resumo' // busca no YouTube
+  },
+  {
+    id: 's10',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Mais falsos cognatos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A palavra espanhola "oficina" significa:', // pergunta
+    alternativas: [                     // opções
+      'Oficina mecânica apenas',
+      'Escritório',
+      'Farmácia',
+      'Fábrica',
+      'Aula'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Oficina em espanhol = escritório (local de trabalho administrativo). Para a oficina mecânica do carro, o espanhol usa "taller". Outros: "largo" = comprido, "sopa" = sopa (mas "sopresa" = surpresa).', // explicação
+    dica: 'Lista ENEM: oficina = escritório; largo = comprido; exquisito = delicioso; cera = vela/cera; desgracia = desgraça/desventura; atender = atender/prestar atenção. "Rato" = momento, não o ratinho.', // pegadinha
+    video: 'falsos cognatos espanhol oficina largo lista vestibular' // busca no YouTube
+  },
+  {
+    id: 's11',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Interrogativos',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "___ vives? — En Madrid."', // pergunta
+    alternativas: [                     // opções
+      'Qué',
+      'Cómo',
+      'Dónde',
+      'Cuándo',
+      'Quién'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A resposta é um lugar (Madrid) → DÓNDE (onde). Qué=o que, cómo=como, cuándo=quando, quién=quem. Os acentos nos interrogativos são obrigatórios.', // explicação
+    dica: 'Mapa dos interrogativos: qué (coisa), quién (pessoa), dónde (lugar), cuándo (tempo), cómo (modo), por qué (motivo), cuál (escolha). "En Madrid" = lugar = dónde.', // pegadinha
+    video: 'interrogativos espanhol qué dónde cuándo resumo' // busca no YouTube
+  },
+  {
+    id: 's12',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pronomes de objeto',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Complete: "Veo a mi hermano y ___ ayudo."', // pergunta
+    alternativas: [                     // opções
+      'lo',
+      'le',
+      'la',
+      'se',
+      'me'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A quem se ajuda? A él → pronome de objeto INDIRETO: le ayudo (ajudo A ele). "Lo" é objeto direto (lo veo = o vejo). "La" é feminino. A ajuda é ação "a alguém" → indireto.', // explicação
+    dica: 'Objeto DIRETO (o/la/los/las) = quem recebe a ação (lo veo = vejo ele); INDIRETO (le/les) = a quem (le ayudo = ajudo A ele). A preposição "a" antes do pronome é a pista do indireto.', // pegadinha
+    video: 'pronomes objeto direto indireto espanhol lo le resumo' // busca no YouTube
+  },
+  {
+    id: 's13',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Futuro próximo — ir a + infinitivo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: '"Voy a estudiar medicina" expressa:', // pergunta
+    alternativas: [                     // opções
+      'Uma ação no passado',
+      'Um plano futuro próximo ou intenção',
+      'Uma ordem',
+      'Uma condição',
+      'Um desejo impossível'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Ir a + infinitivo" forma o futuro próximo (voy a estudiar = vou estudar) — plano/intenção já pensada, equivalente ao português "vou fazer". O futuro simples (estudiaré) é mais formal ou distante.', // explicação
+    dica: 'Em espanhol como em português: "voy a + inf" = futuro imediato/íntimo. O futuro simples (estudiaré, hablaré) é mais formal. Ir é irregular: voy, vas, va, vamos, van.', // pegadinha
+    video: 'futuro próximo ir a infinitivo espanhol resumo' // busca no YouTube
+  },
+  {
+    id: 's14',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Possessivos',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Complete: "Este es ___ libro." (o livro é meu)', // pergunta
+    alternativas: [                     // opções
+      'mi',
+      'tu',
+      'su',
+      'mí',
+      'yo'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Posse antes do substantivo usa o adjetivo possessivo: MI libro (meu), TU libro (teu), SU libro (dele/deles). "Mí" (com acento) é pronome depois de preposição ("para mí"). "Yo" é sujeito.', // explicação
+    dica: 'Possessivo adjetivo: mi/mis, tu/tus, su/sus, nuestro, vuestro — concorda em número com a COISA possuída (mis libros), não com o dono. Cuidado com "su" ambíguo (dele/dela/deles).', // pegadinha
+    video: 'possessivos espanhol mi tu su resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 's15',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Preposições de lugar',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: '"El gato está ___ la mesa." (o gato está SOBRE a mesa)', // pergunta
+    alternativas: [                     // opções
+      'debajo de',
+      'encima de / sobre',
+      'detrás de',
+      'dentro de',
+      'al lado de'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sobre/em cima = encima de ou sobre. Debajo de = embaixo; detrás de = atrás; dentro de = dentro; al lado de = ao lado. Cada preposição localiza o gato numa posição diferente.', // explicação
+    dica: 'O ENEM testa o par encima/debajo (cima/baixo) e delante/detrás (frente/trás). "Sobre" é mais formal; "encima de" é o uso comum. Desenhe a cena mental para não trocar.', // pegadinha
+    video: 'preposiciones de lugar espanhol encima debajo detrás resumo' // busca no YouTube
+  },
+  {
+    id: 's16',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Leitura — inferência',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Leia: "Aunque llegó tarde, Juan pudo entrar a la reunión." O texto informa que:', // pergunta
+    alternativas: [                     // opções
+      'Juan chegou cedo',
+      'Juan não entrou na reunião',
+      'Juan entrou na reunião apesar de ter chegado tarde',
+      'A reunião foi cancelada',
+      'Juan se desculpou'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Aunque" (= embora) cria concessão: entrou APESAR do atraso. "Pudo entrar" = conseguiu entrar. A banca testa se você entende a força do conectivo concessivo.', // explicação
+    dica: 'Conectivos espanhóis: aunque (embora), pero (mas), porque (porque), por eso (por isso), sin embargo (no entanto), entonces (então). Marque o conectivo antes de escolher.', // pegadinha
+    video: 'conectivos espanhol aunque pero porque interpretación' // busca no YouTube
+  },
+
+  /* ===================== ARTES — completando para 16 (ar05 a ar16) ===================== */
+  {
+    id: 'ar05',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Renascimento',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'O Renascimento (séculos XV-XVI) colocou o homem no centro da arte. São exemplos de artistas renascentistas:', // pergunta
+    alternativas: [                     // opções
+      'Picasso e Dalí',
+      'Leonardo da Vinci e Michelangelo',
+      'Tarsila e Anita Malfatti',
+      'Aleijadinho e Mestre Vitalino',
+      'Monet e Van Gogh'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Renascimento = retorno aos modelos greco-romanos + humanismo (homem como medida) + técnicas de perspectiva e anatomia. Leonardo ("Mona Lisa", "Última Ceia") e Michelangelo ("Davi", Capela Sistina) são o topo; Rafael e Botticelli completam.', // explicação
+    dica: 'A banca mistura períodos: Renascimento (XV-XVI, humanismo) × Barroco (XVII, dramaticidade) × Impressionismo (XIX, luz) × Modernismo (XX, ruptura). Leonardo e Michelangelo são renascentistas puros.', // pegadinha
+    video: 'renascimento leonardo da vinci michelangelo arte resumo' // busca no YouTube
+  },
+  {
+    id: 'ar06',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Impressionismo',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Impressionismo (Monet, Renoir, Degas) revolucionou a pintura ao:', // pergunta
+    alternativas: [                     // opções
+      'Pintar apenas retratos da realeza',
+      'Capturar a luz e a impressão momentânea da cena, com pinceladas soltas e cores puras',
+      'Copiar a fotografia com precisão',
+      'Usar só preto e branco',
+      'Pintar temas religiosos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os impressionistas saíram do ateliê para pintar ao ar livre, perseguindo a LUZ do momento — pinceladas visíveis, cores sem mistura prévia, cenas do cotidiano. "Impression, soleil levant" (Monet) deu nome ao movimento.', // explicação
+    dica: 'O ENEM liga o nome ao conceito: impressionismo = "impressão" fugaz do instante (luz, clima). Não é falta de técnica — é técnica de capturar a luz. Pós-impressionismo (Van Gogh, Cézanne) vem depois.', // pegadinha
+    video: 'impressionismo monet luz pintura resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'ar07',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Expressionismo',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Edvard Munch, autor de "O Grito", representa o Expressionismo, movimento que:', // pergunta
+    alternativas: [                     // opções
+      'Pinta a beleza ideal',
+      'Distorce a realidade para expressar a emoção e a angústia interior',
+      'Usa apenas formas geométricas',
+      'Reproduz fotografias',
+      'Evita qualquer figura humana'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Expressionismo = a emoção dita a forma: cores intensas, linhas distorcidas, figuras deformadas para gritar a angústia interior. "O Grito" de Munch é o ícone da angústia moderna — não é sobre o que se vê, é sobre o que se sente.', // explicação
+    dica: 'Expressionismo (emoção/distorção) × Impressionismo (luz/momento) × Cubismo (geometria/fragmentos). A palavra-chave de cada vanguarda resolve 90% das questões.', // pegadinha
+    video: 'expressionismo munch o grito arte resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'ar08',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Surrealismo',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Surrealismo (Salvador Dalí, René Magritte) explorava:', // pergunta
+    alternativas: [                     // opções
+      'O realismo social',
+      'O inconsciente, os sonhos e o irracional — imagens ilógicas combinadas',
+      'A técnica do ponto',
+      'A arte religiosa',
+      'A natureza-morta'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Surrealismo (anos 1920-30) mergulha no inconsciente freudiano: relógios derretidos ("A Persistência da Memória" de Dalí), rostos ocultos, cenários oníricos — a arte do sonho e do ilógico.', // explicação
+    dica: 'Surrealismo = sonho/inconsciente (Dalí, Magritte, Miró). Os relógios derretidos de Dalí são a imagem-assinatura. Dadaísmo (anti-arte, Duchamp) é o irmão provocador — não confunda.', // pegadinha
+    video: 'surrealismo dalí magritte sonho arte resumo' // busca no YouTube
+  },
+  {
+    id: 'ar09',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte naïf e popular',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A arte naïf ("ingênua"), como a das pintoras do ciclo brasileiro, caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'Técnica acadêmica refinada',
+      'Espontaneidade, cores vivas e ausência de perspectiva formal — arte de quem não estudou a técnica',
+      'Abstração total',
+      'Cópia dos mestres europeus',
+      'Uso só de mármore'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Naïf = "ingênuo": o artista sem formação acadêmica pinta com o instinto — cores alegres, perspectiva "errada", cenas do cotidiano e da memória. No Brasil, ligada à arte popular e à autoexpressão fora dos circuitos formais.', // explicação
+    dica: 'O ENEM valoriza a arte popular como legítima: naïf não é "arte ruim" — é linguagem própria. Vitalino (escultura em barro), Djanira e as pintoras de São Paulo são referências.', // pegadinha
+    video: 'arte naïf popular brasileira resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'ar10',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Xilogravura',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A xilogravura, arte presente nas capas da literatura de cordel, é:', // pergunta
+    alternativas: [                     // opções
+      'Pintura sobre tela',
+      'Gravura feita entalhando-se madeira, que recebe tinta e é prensada no papel',
+      'Escultura em pedra',
+      'Fotografia em preto e branco',
+      'Desenho a lápis'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Xilogravura = entalhe em madeira: entalha-se a imagem (o que fica em relevo pega tinta), cobre-se de tinta e pressiona-se contra o papel. As capas de cordel e a obra de J. Borges popularizaram a técnica.', // explicação
+    dica: 'Técnicas de gravura que a banca compara: xilogravura (madeira) × litografia (pedra) × serigrafia (tela, usada no pop art de Warhol). J. Borges é o mestre da xilo nordestina.', // pegadinha
+    video: 'xilogravura literatura de cordel técnica resumo' // busca no YouTube
+  },
+  {
+    id: 'ar11',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte urbana — grafite',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Grafite e pichação são frequentemente confundidos, mas se diferenciam porque o grafite:', // pergunta
+    alternativas: [                     // opções
+      'É sempre ilegal',
+      'É uma forma artística com intenção estética, muitas vezes autorizada',
+      'Só usa a assinatura do autor',
+      'É feito em papel',
+      'Não usa spray'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Grafite = arte urbana com intenção estética (murais, mensagens sociais), muitas vezes legal e comissionada (Os Gêmeos, Kobra). Pichação = a assinatura/tag, geralmente ilegal, marcando território — objeto de debate urbano, não obra.', // explicação
+    dica: 'O ENEM contextualiza: grafite legal é reconhecido como arte (arte urbana, street art); pichação é ato de marcação. A diferença está na INTENÇÃO estética, não no material.', // pegadinha
+    video: 'grafite pichação diferença arte urbana resumo' // busca no YouTube
+  },
+  {
+    id: 'ar12',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Barroco europeu',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A pintura barroca europeia (Caravaggio, Velázquez, Rubens) se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'Serenidade e simplicidade',
+      'Dramaticidade, contraste forte de luz e sombra (claro-escuro) e movimento',
+      'Formas geométricas',
+      'Cores pastel',
+      'Abstração total'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Barroco do século XVII quer emocionar: claro-escuro (chiaroscuro de Caravaggio), cenas em movimento, tensão e teatralidade — a arte da Contrarreforma e dos reis absolutos. Velázquez ("Las Meninas") é o exemplo complexo.', // explicação
+    dica: 'Renascimento (equilíbrio, harmonia) × Barroco (drama, luz e sombra, movimento). Caravaggio = o mestre do claro-escuro; Vermeer usa luz mais suave mas é também barroco holandês.', // pegadinha
+    video: 'barroco europeu caravaggio claro-escuro resumo' // busca no YouTube
+  },
+  {
+    id: 'ar13',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte indígena e grafismo',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O grafismo indígena brasileiro (pintura corporal, cerâmica) é entendido pelos povos originários como:', // pergunta
+    alternativas: [                     // opções
+      'Mera decoração',
+      'Linguagem visual que identifica grupo, função e espiritualidade — arte ligada ao corpo e à cosmologia',
+      'Imitação da arte europeia',
+      'Publicidade',
+      'Arte só para venda'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para os povos indígenas, o grafismo é linguagem: cada padrão na pele e na cerâmica marca grupo, gênero, ocasião e relação espiritual — arte integrada à vida, não objeto separado. A arte keniata/krahô e a cerâmica marajoara são exemplos.', // explicação
+    dica: 'O ENEM combate a ideia de "arte ingênua indígena": é um sistema simbólico sofisticado. O padrão na pele identifica quem é a pessoa — como um RG visual e uma oração ao mesmo tempo.', // pegadinha
+    video: 'grafismo indígena arte corporal significado resumo' // busca no YouTube
+  },
+  {
+    id: 'ar14',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Modernismo nas artes visuais', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A exposição de Anita Malfatti (1917) e a Semana de Arte Moderna (1922) marcaram a arte brasileira porque:', // pergunta
+    alternativas: [                     // opções
+      'Copiaram a pintura colonial',
+      'Introduziram o modernismo — cores fortes, formas distorcidas e valorização do Brasil — e romperam com o academicismo',
+      'Proibiram a escultura',
+      'Rejeitaram a cultura popular',
+      'Voltaram ao barroco'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anita Malfatti trouxe o expressionismo para o Brasil (escandalizou o público em 1917); a Semana de 22 consolidou a ruptura com a arte acadêmica. Tarsila, Di Cavalcanti e Oswald Goeldi foram os outros pilares da "invasão modernista".', // explicação
+    dica: 'Sequência: Anita Malfatti escandaliza (1917) → Semana de 22 consolida → "Abaporu" de Tarsila (1928) vira ícone. Monteiro Lobato criticou Anita em 1917 e depois virou defensor — ironia famosa.', // pegadinha
+    video: 'anita malfatti semana de 22 modernismo artes resumo' // busca no YouTube
+  },
+  {
+    id: 'ar15',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Bauhaus e design',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A escola Bauhaus (Alemanha, 1919-1933) revolucionou o design ao defender que:', // pergunta
+    alternativas: [                     // opções
+      'O ornamento é essencial',
+      'A forma deve seguir a função — design funcional, simples e produzível em série',
+      'A arte deve ser elitista',
+      'O artesanato deve desaparecer',
+      'A cor deve ser proibida'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bauhaus = "forma segue função": o objeto bonito é o que funciona bem, com linhas simples, sem ornamento supérfluo, feito para a indústria. É a base de todo o design moderno (móveis, tipografia, arquitetura).', // explicação
+    dica: 'Herança da Bauhaus: o prédio sem decoração (funcionalista), a cadeira de tubo de aço, a tipografia limpa. Walter Gropius fundou; a escola fechou com os nazistas. O "menos é mais" vem dessa tradição.', // pegadinha
+    video: 'bauhaus forma segue função design resumo' // busca no YouTube
+  },
+  {
+    id: 'ar16',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte contemporânea — instalação', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'As "penetráveis" e os "parangolés" de Hélio Oiticica são arte contemporânea porque:', // pergunta
+    alternativas: [                     // opções
+      'São pinturas de cavalete',
+      'Convidam o espectador a atravessar, vestir e participar — a obra depende da ação do público',
+      'São esculturas de mármore',
+      'Reproduzem o Renascimento',
+      'São só fotografias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hélio Oiticica fez a arte sair do suporte: os parangolés são capas/bandeiras que só "existem" vestidos e dançados; os penetráveis são espaços que o público atravessa. A obra precisa do CORPO do espectador — a "vivência" substitui o objeto.', // explicação
+    dica: 'Arte contemporânea brasileira: Oiticica (participação corporal), Lygia Clark (sensorial), Adriana Varejão (azulejo e história). O ENEM valoriza a obra que exige a ação do espectador — não é quadro na parede.', // pegadinha
+    video: 'hélio oiticica parangolé penetrável arte contemporânea' // busca no YouTube
+  },
+
+  /* ===================== EDUCAÇÃO FÍSICA — completando para 16 (ef05 a ef16) ===================== */
+  {
+    id: 'ef05',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Aquecimento e alongamento',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'Aquecimento antes do exercício serve principalmente para:', // pergunta
+    alternativas: [                     // opções
+      'Emagrecer mais rápido',
+      'Elevar a temperatura corporal, aumentar o fluxo sanguíneo e preparar músculos e articulações para o esforço',
+      'Alongar os ossos',
+      'Substituir o treino',
+      'Relaxar após o treino'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O aquecimento prepara o corpo: eleva a temperatura, aumenta fluxo sanguíneo aos músculos, melhora a mobilidade articular e reduz o risco de lesão. O alongamento flexiona os músculos; o aquecimento prepara o corpo todo.', // explicação
+    dica: 'A banca confunde os dois: AQUECIMENTO = prepara o corpo (antes, geral); ALONGAMENTO = flexiona músculos (antes e depois, local). Volta à calma = desaceleração final, não aquecimento.', // pegadinha
+    video: 'aquecimento e alongamento diferença exercício resumo' // busca no YouTube
+  },
+  {
+    id: 'ef06',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Frequência cardíaca máxima', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A fórmula mais comum para estimar a frequência cardíaca máxima em adultos é:', // pergunta
+    alternativas: [                     // opções
+      '100 + idade',
+      '220 − idade',
+      '180 − peso',
+      '200 − altura',
+      '120 + pulso'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'FCmáx = 220 − idade. Uma pessoa de 30 anos tem FCmáx estimada de 190 bpm. As zonas de treino usam percentuais desse valor (60-70% aeróbio leve, 70-80% moderado, 80-90% intenso).', // explicação
+    dica: 'A CESPE testa a conta: com 40 anos, FCmáx = 180; zona de queima de gordura ≈ 60-70% = 108-126 bpm. A fórmula é estimativa — testes reais medem a FCmáx de verdade.', // pegadinha
+    video: 'frequência cardíaca máxima 220 menos idade zona treino' // busca no YouTube
+  },
+  {
+    id: 'ef07',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Músculos agonista e antagonista', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quando você flexiona o cotovelo (biceps curl), o bíceps é o agonista e o tríceps é o:', // pergunta
+    alternativas: [                     // opções
+      'Sinergista',
+      'Antagonista — o músculo que se relaxa para permitir o movimento oposto',
+      'Estabilizador',
+      'Ligamento',
+      'Tendão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Agonista = o músculo que faz o movimento (bíceps flexiona); antagonista = o que relaxa e se opõe (tríceps estica). Quando você ESTICA o braço, os papéis invertem: tríceps é o agonista. Sinergista ajuda; estabilizador segura a postura.', // explicação
+    dica: 'Pares agonista/antagonista que a Fuvest cobra: bíceps (flexiona) × tríceps (estende); quadríceps (estende joelho) × isquiotibiais (flexiona joelho); peitoral (empurra) × dorsais (puxa).', // pegadinha
+    video: 'músculo agonista antagonista bíceps tríceps resumo' // busca no YouTube
+  },
+  {
+    id: 'ef08',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Regras do futebol',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'No futebol, o impedimento ocorre quando o atacante:', // pergunta
+    alternativas: [                     // opções
+      'Toca a bola com a mão',
+      'Está à frente do penúltimo adversário no momento do passe, sem bola e mais perto do gol',
+      'Chuta a bola para fora',
+      'Faz gol de fora da área',
+      'Dribla o goleiro'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Impedimento = o jogador está em posição irregular (à frente da linha do penúltimo defensor, sem bola) no instante em que o companheiro toca/passa a bola. Posição + participação no lance = falta marcada.', // explicação
+    dica: 'Detalhes da regra que a AOCP testa: NÃO há impedimento em tiro de meta, lateral ou escanteio; estar em posição irregular só pune se o jogador participar do lance. VAR veio para revisar esses lances.', // pegadinha
+    video: 'regra do impedimento futebol explicação simples' // busca no YouTube
+  },
+  {
+    id: 'ef09',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Regras do vôlei',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'No vôlei, cada equipe pode tocar a bola no máximo:', // pergunta
+    alternativas: [                     // opções
+      '1 vez',
+      '2 vezes',
+      '3 vezes (o bloqueio não conta)',
+      '4 vezes',
+      '5 vezes'
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Regra dos 3 toques: a equipe tem até 3 contatos para passar a bola ao outro lado — em geral recepção (1), levantamento (2), ataque (3). O toque do bloqueio NÃO conta como um dos três.', // explicação
+    dica: 'Números do vôlei que a AOCP cobra: 3 toques por equipe, 6 jogadores em quadra, set até 25 pontos (vantagem de 2), tie-break até 15. Rodízio a cada ponto conquistado no saque adversário.', // pegadinha
+    video: 'regras do vôlei toques bloqueio pontos resumo' // busca no YouTube
+  },
+  {
+    id: 'ef10',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Sono e recuperação',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O descanso e o sono são parte essencial do treino porque:', // pergunta
+    alternativas: [                     // opções
+      'O músculo só cresce dormindo, mas qualquer sono basta',
+      'A recuperação muscular, a consolidação do treino e a liberação de hormônios anabólicos acontecem durante o sono profundo',
+      'O sono queima gordura',
+      'O descanso é perda de tempo',
+      'O exercício noturno dispensa sono'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O treino "quebra" o músculo; o sono e o descanso é quando ele se reconstrói mais forte — síntese proteica e liberação de GH (hormônio do crescimento) no sono profundo. Sem descanso, o corpo não progride e entra em overtraining.', // explicação
+    dica: 'O ENEM trata descanso como parte do treino, não luxo: microlesões musculares → reparação no sono → hipertrofia. Overtraining = efeito de treinar sem recuperar (queda de desempenho, lesões, insônia).', // pegadinha
+    video: 'sono e recuperação muscular hipertrofia resumo' // busca no YouTube
+  },
+  {
+    id: 'ef11',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Hidratação no exercício',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Durante exercício prolongado, a recomendação sobre hidratação é:', // pergunta
+    alternativas: [                     // opções
+      'Beber água só quando tiver sede intensa',
+      'Beber líquidos antes, durante e depois — a sede é sinal tardio de desidratação',
+      'Evitar qualquer líquido durante',
+      'Beber só bebidas energéticas',
+      'Reidratar só no dia seguinte'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A sede aparece quando você já está parcialmente desidratado — por isso a regra é beber regularmente antes, durante e depois do esforço, não esperar a sede. Em esforço > 1h, eletrólitos (sódio) ajudam.', // explicação
+    dica: 'Sinais de desidratação que a Univesp cobra: urina escura, tontura, cãibras, pele seca, queda de desempenho. "Esperar a sede" é o erro clássico — ela é alarme tardio.', // pegadinha
+    video: 'hidratação exercício físico desidratação resumo' // busca no YouTube
+  },
+  {
+    id: 'ef12',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Sedentarismo e obesidade',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O sedentarismo é considerado fator de risco principalmente porque:', // pergunta
+    alternativas: [                     // opções
+      'Garante boa saúde',
+      'Está associado a doenças cardiovasculares, diabetes tipo 2, obesidade e mortalidade prematura',
+      'Fortalece os ossos',
+      'Melhora a pressão arterial',
+      'Não tem relação com doenças'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sedentarismo (falta de atividade física) é fator de risco independente para infarto, AVC, diabetes tipo 2, obesidade, osteoporose e alguns cânceres — a OMS o classifica como um dos principais fatores de mortalidade global.', // explicação
+    dica: 'O ENEM contextualiza: sedentarismo ≠ falta de esporte apenas — é padrão de vida (sentado o dia todo). Mesmo quem treina 1h e passa 10h sentado tem risco ("sedentário ativo"). Solução: mover-se ao longo do dia.', // pegadinha
+    video: 'sedentarismo risco cardiovascular oms resumo' // busca no YouTube
+  },
+  {
+    id: 'ef13',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte paralímpico',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A classificação funcional nos esportes paralímpicos serve para:', // pergunta
+    alternativas: [                     // opções
+      'Separar os atletas por idade',
+      'Agrupar competidores pelo grau e tipo de limitação, equilibrando a disputa',
+      'Dar vantagem aos mais fortes',
+      'Eliminar a competição',
+      'Uniformizar o treino'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A classificação funcional é o "peso do boxe" paralímpico: agrupa atletas pelo impacto da deficiência na função esportiva — não pelo diagnóstico, mas pelo que a pessoa consegue fazer. Garante que a disputa seja justa.', // explicação
+    dica: 'A AOCP testa o conceito: a classificação é FUNCIONAL (o que o corpo faz), não médica (qual é a doença). Nadador com paraplegia compete com quem tem limitação equivalente, não com quem tem a mesma doença.', // pegadinha
+    video: 'classificação funcional esporte paralímpico resumo' // busca no YouTube
+  },
+  {
+    id: 'ef14',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Capoeira — cultura corporal', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A capoeira, patrimônio cultural imaterial brasileiro (UNESCO), nasceu:', // pergunta
+    alternativas: [                     // opções
+      'Na Europa medieval',
+      'Entre os escravizados africanos no Brasil colonial — mistura de luta, dança, música e resistência',
+      'Nos Estados Unidos',
+      'Na Índia',
+      'Como esporte olímpico'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A capoeira nasceu da resistência dos africanos escravizados no Brasil: a luta disfarçada de dança e música (berimbau, canto, roda) — expressão corporal que mistura jogo, luta e cultura afro-brasileira. Em 2014 a UNESCO a reconheceu como patrimônio imaterial.', // explicação
+    dica: 'O ENEM enquadra a capoeira como cultura corporal + resistência: não é "esporte" no sentido europeu — é manifestação social. O berimbau comanda o jogo; a roda é o espaço ritual.', // pegadinha
+    video: 'capoeira história patrimônio unesco cultura resumo' // busca no YouTube
+  },
+  {
+    id: 'ef15',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Ginástica artística x rítmica', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A diferença entre ginástica artística e rítmica está em que a rítmica:', // pergunta
+    alternativas: [                     // opções
+      'Usa aparelhos fixos (barra, argolas)',
+      'É disputada com aparelhos portáteis (corda, arco, bola, maças, fita) e elementos de dança',
+      'É só para homens',
+      'Não é esporte olímpico',
+      'Usa piscina'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Artística = aparelhos fixos (solo, salto, barras, argolas, cavalo) — Rebeca Andrade é a referência. Rítmica = manejo de aparelhos portáteis (bola, fita, arco, maças, corda) com dança e flexibilidade — feminino no programa olímpico.', // explicação
+    dica: 'Os 5 aparelhos da rítmica que a AOCP cobra: corda, arco, bola, maças e fita. A artística tem 6 aparelhos masculinos e 4 femininos. Rebeca Andrade é da ARTÍSTICA (solo e salto), não da rítmica.', // pegadinha
+    video: 'ginástica artística rítmica diferença aparelhos resumo' // busca no YouTube
+  },
+  {
+    id: 'ef16',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Judô — origem e espírito',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'O judô foi criado no Japão por Jigoro Kano em 1882, baseado no princípio de:', // pergunta
+    alternativas: [                     // opções
+      'Força bruta e socos',
+      'Usar a força do adversário contra ele (máxima eficiência) e o bem mútuo',
+      'Autodefesa armada',
+      'Luta de chão apenas',
+      'Competição mortal'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Kano tirou as técnicas perigosas do jiu-jitsu e criou o "caminho da suavidade": seiryoku zenyo (melhor uso da energia — aproveitar a força do outro) e jita kyoei (prosperidade mútua). Brasil domina o judô olímpico: Aurélio Miguel, Sarah Menezes.', // explicação
+    dica: 'Judô ("caminho suave") ≠ jiu-jitsu (lutas de chão, Brasil). Os dois princípios do Kano — eficiência e bem mútuo — são o que torna o judô filosofia além de esporte.', // pegadinha
+    video: 'judô jigoro kano princípios resumo história' // busca no YouTube
+  },
+
+  /* ===================== FISIOLOGIA — completando para 16 (fs05 a fs16) ===================== */
+  {
+    id: 'fs05',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema digestório',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A absorção da maior parte dos nutrientes (açúcares, aminoácidos, vitaminas) acontece no:', // pergunta
+    alternativas: [                     // opções
+      'Estômago',
+      'Intestino delgado — as vilosidades aumentam a superfície de absorção',
+      'Intestino grosso',
+      'Esôfago',
+      'Fígado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O intestino delgado é o órgão da absorção: suas vilosidades e microvilosidades multiplicam a superfície (uns 200 m²) e os nutrientes passam para o sangue. O estômago inicia a digestão da proteína; o grosso absorve água e forma fezes.', // explicação
+    dica: 'Papéis do tubo digestivo que a banca troca: boca (amilase, começa o carboidrato) → estômago (ácido + pepsina, proteína) → delgado (enzimas + absorção) → grosso (água, vitaminas K, fezes).', // pegadinha
+    video: 'intestino delgado absorção vilosidades digestão resumo' // busca no YouTube
+  },
+  {
+    id: 'fs06',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema respiratório',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'A hematose — a troca de O2 e CO2 entre o ar e o sangue — ocorre nos:', // pergunta
+    alternativas: [                     // opções
+      'Brônquios',
+      'Alvéolos pulmonares',
+      'Traqueia',
+      'Vértebras',
+      'Artérias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os alvéolos são os saquinhos de ar onde acontece a hematose: O2 do ar difunde para o sangue dos capilares; CO2 vai do sangue para o ar. Milhões de alvéolos criam uma superfície de ~70 m² para a troca.', // explicação
+    dica: 'A Unicamp desce o tubo: fossas nasais → faringe → laringe → traqueia → brônquios → bronquíolos → ALVÉOLOS (a troca). Só os alvéolos trocam gases; o resto é via de passagem.', // pegadinha
+    video: 'alvéolos hematose troca gasosa pulmão resumo' // busca no YouTube
+  },
+  {
+    id: 'fs07',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema excretor — rim',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'A unidade funcional do rim, onde o sangue é filtrado e a urina é formada, chama-se:', // pergunta
+    alternativas: [                     // opções
+      'Neurônio',
+      'Néfron',
+      'Alvéolo',
+      'Vilosidade',
+      'Fibra'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O néfron é a "fábrica" do rim (cada rim tem ~1 milhão): o glomérulo filtra o sangue e os túbulos reabsorvem o que serve (água, glicose, sais) — o resto vira urina. Rim = filtro + balanceador de água e sais.', // explicação
+    dica: 'A Vunesp testa o nome do filtro: néfron (não neurônio!). O glomérulo filtra; os túbulos reabsorvem; a uretra e os ureteres conduzem a urina — não filtram nada.', // pegadinha
+    video: 'néfron rim filtração urina resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'fs08',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema endócrino — insulina', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Após uma refeição rica em carboidrato, a glicose do sangue sobe. O hormônio que a baixa, fazendo-a entrar nas células, é:', // pergunta
+    alternativas: [                     // opções
+      'Adrenalina',
+      'Insulina',
+      'Glucagon',
+      'Cortisol',
+      'Tiroxina'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O pâncreas libera INSULINA quando a glicose sobe — ela abre a porta das células para a glicose entrar e baixa a taxa no sangue. O GLUCAGON faz o oposto (sobe a glicose no jejum). Diabetes tipo 1 = falta de insulina; tipo 2 = resistência a ela.', // explicação
+    dica: 'Par antagônico do pâncreas: INSULINA (glucose para dentro da célula, baixa o sangue) × GLUCAGON (glucose do fígado para o sangue, sobe). Diabetes tipo 1 = produção falha; tipo 2 = célula não responde.', // pegadinha
+    video: 'insulina glucagon pâncreas glicose diabetes resumo' // busca no YouTube
+  },
+  {
+    id: 'fs09',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema imune — anticorpos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Os anticorpos são produzidos por:', // pergunta
+    alternativas: [                     // opções
+      'Hemácias',
+      'Linfócitos B — células brancas que reconhecem o antígeno e fabricam anticorpos específicos',
+      'Plaquetas',
+      'Neurônios',
+      'Células musculares'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Linfócitos B amadurecem e viram plasmócitos que fabricam anticorpos — proteínas em Y que se encaixam no antígeno específico como chave na fechadura. Os linfócitos T fazem a imunidade celular; as hemácias transportam oxigênio.', // explicação
+    dica: 'Diferenças que a banca confunde: hemácia (vermelha) = leva O2; leucócito (branco) = defesa — linfócito B faz anticorpo, T coordena/destrói células; plaqueta = coagulação. Vacina "ensina" o B a fazer o anticorpo.', // pegadinha
+    video: 'anticorpos linfócitos imunologia resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'fs10',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema nervoso — divisões', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O sistema nervoso se divide em central e periférico. O central inclui:', // pergunta
+    alternativas: [                     // opções
+      'Apenas os nervos dos braços',
+      'O encéfalo e a medula espinhal — os centros de processamento',
+      'Só os sentidos',
+      'Os músculos',
+      'Os órgãos internos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'SNC (sistema nervoso central) = encéfalo (cérebro, cerebelo, tronco) + medula espinhal — processa. SNP (periférico) = os nervos e gânglios que ligam o corpo ao SNC. A medula é a "autoestrada" entre corpo e cérebro.', // explicação
+    dica: 'A Fuvest subdivide: SNC (cérebro+medula) vs SNP (nervos). Dentro do periférico, o autônomo (simpático — acelera) e parassimpático (calma) controlam órgãos sem você pensar.', // pegadinha
+    video: 'sistema nervoso central periférico encéfalo medula resumo' // busca no YouTube
+  },
+  {
+    id: 'fs11',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sangue — componentes',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'O sangue é formado por plasma (líquido) e elementos figurados. As hemácias (glóbulos vermelhos) têm como função:', // pergunta
+    alternativas: [                     // opções
+      'Coagular',
+      'Transportar oxigênio (via hemoglobina) e gás carbônico',
+      'Produzir anticorpos',
+      'Digerir bactérias',
+      'Formar a medula óssea'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hemácias = transporte de O2 (a hemoglobina com ferro captura o oxigênio nos pulmões e solta nos tecidos) e parte do CO2 de volta. Leucócitos = defesa; plaquetas = coagulação; plasma = o líquido que carrega tudo.', // explicação
+    dica: 'Quadro de prova: hemácia = vermelha = O2; leucócito = branca = defesa; plaqueta = fragmento = coagula. A anemia é falta de hemácias/hemoglobina — por isso a pessoa fica cansada.', // pegadinha
+    video: 'componentes do sangue hemácias leucócitos plaquetas resumo' // busca no YouTube
+  },
+  {
+    id: 'fs12',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema esquelético',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Além de dar forma e proteger órgãos, o osso tem a função de:', // pergunta
+    alternativas: [                     // opções
+      'Produzir calor',
+      'Fabricar células do sangue na medula óssea vermelha',
+      'Bombear o sangue',
+      'Filtrar toxinas',
+      'Produzir saliva'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A medula óssea VERMELHA, dentro dos ossos, é onde nascem hemácias, leucócitos e plaquetas (hematopoiese) — o osso é a "fábrica de sangue". A medula AMARELA armazena gordura.', // explicação
+    dica: 'Ossos têm 5 funções de prova: sustentação, proteção, movimento (alavanca), hematopoiese (medula vermelha) e reserva de cálcio/fósforo. Osteoporose = perda de cálcio → ossos porosos e frágeis.', // pegadinha
+    video: 'sistema esquelético ossos medula hematopoiese resumo' // busca no YouTube
+  },
+  {
+    id: 'fs13',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Tipos de músculo',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'O músculo do coração (miocárdio) pertence ao tipo:', // pergunta
+    alternativas: [                     // opções
+      'Esquelético — voluntário e estriado',
+      'Cardíaco — estriado e involuntário',
+      'Liso — involuntário e liso',
+      'Tendíneo',
+      'Adiposo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Três tipos de músculo: esquelético (voluntário, estriado — move os ossos), cardíaco (involuntário, estriado — só no coração, nunca descansa) e liso (involuntário, não estriado — órgãos internos, vasos, intestino).', // explicação
+    dica: 'Matriz da Vunesp: esquelético = estriado+voluntário; cardíaco = estriado+involuntário; liso = liso+involuntário. O coração é o único lugar do músculo cardíaco — por isso infarto é tão grave.', // pegadinha
+    video: 'tipos de músculo esquelético cardíaco liso resumo' // busca no YouTube
+  },
+  {
+    id: 'fs14',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema reprodutor — hormônios', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Na mulher, os principais hormônios sexuais produzidos pelos ovários são:', // pergunta
+    alternativas: [                     // opções
+      'Insulina e glucagon',
+      'Estrogênio e progesterona — controlam o ciclo menstrual e a gravidez',
+      'Adrenalina e cortisol',
+      'Melatonina e tiroxina',
+      'Testosterona e dopamina'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estrogênio (desenvolve características femininas, 1ª metade do ciclo) e progesterona (prepara o útero para a gravidez, 2ª metade) são produzidos pelos ovários. FSH e LH da hipófise comandam o ciclo.', // explicação
+    dica: 'A Unicamp amarra a dança hormonal: FSH (hipófise) amadurece o óvulo → ovários liberam estrogênio → LH dispara a ovulação → progesterona prepara o útero. Testosterona é principalmente masculina (testículos).', // pegadinha
+    video: 'hormônios femininos estrogênio progesterona ciclo resumo' // busca no YouTube
+  },
+  {
+    id: 'fs15',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sentidos — visão',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na visão, a luz atravessa a córnea e o cristalino e forma a imagem invertida na:', // pergunta
+    alternativas: [                     // opções
+      'Íris',
+      'Retina — onde cones e bastonetes transformam a luz em impulso nervoso',
+      'Pupila',
+      'Córnea',
+      'Esclera'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A RETINA é a "tela" do olho: tem fotorreceptores (cones = cor e detalhe; bastonetes = luz fraca) que convertem a luz em sinal elétrico para o nervo óptico levar ao cérebro — que revira a imagem de cabeça para cima.', // explicação
+    dica: 'Percurso da luz: córnea → pupila (abertura) → cristalino (lente que foca) → retina (sensores). Miopia = imagem se forma antes da retina (não enxerga longe); hipermetropia = atrás (não enxerga perto).', // pegadinha
+    video: 'retina cones bastonetes visão miopia resumo' // busca no YouTube
+  },
+  {
+    id: 'fs16',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Pele — camadas e funções',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'A pele, maior órgão do corpo, tem como funções:', // pergunta
+    alternativas: [                     // opções
+      'Só embelezar',
+      'Barreira contra patógenos, regulação de temperatura (suor), sensibilidade ao tato e produção de vitamina D',
+      'Produzir sangue',
+      'Respirar como os pulmões',
+      'Armazenar ar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A pele é multifuncional: barreira física (1ª linha de defesa), termorreguladora (suor esfria, calafrio aquece), sensorial (tato, dor, temperatura) e produz vitamina D com a luz solar. Epiderme (externa) + derme (vasos, nervos, glândulas).', // explicação
+    dica: 'A Univesp lista as funções: proteção, termorregulação, sensação, vitamina D e impermeabilização. Camadas: epiderme (fora, queratina), derme (meio, vasos/nervos), hipoderme (embaixo, gordura/isolante).', // pegadinha
+    video: 'pele epiderme derme hipoderme funções resumo' // busca no YouTube
+  },
+
+  /* ===================== FILOSOFIA — completando para 16 (fl05 a fl16) ===================== */
+  {
+    id: 'fl05',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Platão — dois mundos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Para Platão, o mundo que percebemos pelos sentidos é:', // pergunta
+    alternativas: [                     // opções
+      'O mundo verdadeiro',
+      'O mundo sensível — cópia imperfeita do mundo inteligível das ideias',
+      'O único que existe',
+      'O mundo das formas',
+      'Igual ao mundo das ideias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Platão divide a realidade: mundo SENSÍVEL (o que vemos e tocamos — imperfeito, mutável, ilusão) e mundo INTELIGÍVEL (as ideias/formas perfeitas — a verdade, acessível só pela razão). A cadeira real é cópia da "ideia de cadeira".', // explicação
+    dica: 'Dualismo platônico: sensível (baixo, mutável) = opinião (doxa); inteligível (alto, perfeito) = conhecimento (episteme). Aristóteles, seu aluno, "desceu" as ideias para dentro das coisas.', // pegadinha
+    video: 'platão mundo sensível inteligível teoria das ideias' // busca no YouTube
+  },
+  {
+    id: 'fl06',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Aristóteles — ética do meio-termo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para Aristóteles, a virtude ética é o meio-termo entre dois vícios. A coragem, por exemplo, é o equilíbrio entre:', // pergunta
+    alternativas: [                     // opções
+      'Mentira e verdade',
+      'Covardia e temeridade — entre não enfrentar nada e ser imprudente',
+      'Amor e ódio',
+      'Riqueza e pobreza',
+      'Silêncio e grito'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ética aristotélica busca a eudaimonia (felicidade/florescimento) pela virtude — e a virtude é o meio-termo entre excesso e falta. Coragem = entre covardia (falta) e temeridade (excesso); generosidade = entre avareza e prodigalidade.', // explicação
+    dica: 'Pares que o ENEM cobra: coragem (covardia × temeridade), generosidade (avareza × esbanjamento), temperança (insensibilidade × libertinagem). A virtude NÃO é extremo — é equilíbrio.', // pegadinha
+    video: 'aristóteles ética meio-termo virtude resumo' // busca no YouTube
+  },
+  {
+    id: 'fl07',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Descartes — cogito',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: '"Penso, logo existo" (cogito ergo sum) de Descartes é a certeza que resistiu à:', // pergunta
+    alternativas: [                     // opções
+      'Magia',
+      'Dúvida metódica — duvidar de tudo até sobrar o indubitável: eu duvido, logo penso, logo existo',
+      'Fé cega',
+      'Ciência experimental',
+      'Tradição'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Descartes duvida de TUDO (sentidos, sonhos, gênio maligno) procurando uma verdade que não seja contestável — e acha: "se estou pensando/duvidando, eu existo". O cogito é o ponto de partida do racionalismo.', // explicação
+    dica: 'Racionalismo x Empirismo: Descartes (razão/dúvida, "penso") × Locke e Hume (sensação/experiência, "o conhecimento vem dos sentidos"). A Fuvest pede essa oposição com frequência.', // pegadinha
+    video: 'descartes cogito penso logo existo dúvida metódica' // busca no YouTube
+  },
+  {
+    id: 'fl08',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Empirismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para os empiristas (Locke, Hume), o conhecimento humano vem de:', // pergunta
+    alternativas: [                     // opções
+      'Deus',
+      'Da experiência sensorial — a mente nasce uma "tábula rasa" que a experiência escreve',
+      'Das ideias inatas',
+      'Da geometria',
+      'Da revelação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Empirismo: não existem ideias inatas — a mente nasce como uma folha em branco (tabula rasa) e a experiência pelos sentidos a preenche. O conhecimento se constrói do que vimos, ouvimos, sentimos — não de verdades dadas.', // explicação
+    dica: 'O opositor do empirismo é o racionalismo (Descartes): razão e ideias inatas x sentidos e experiência. "Inato" = nasce com você (racionalista); "adquirido" = vem da experiência (empirista).', // pegadinha
+    video: 'empirismo locke hume tabula rasa experiência resumo' // busca no YouTube
+  },
+  {
+    id: 'fl09',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Nietzsche — vontade de potência', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quando Nietzsche diz "Deus está morto", ele quer dizer que:', // pergunta
+    alternativas: [                     // opções
+      'Deus foi assassinado',
+      'Os valores tradicionais e religiosos perderam o centro da cultura ocidental — e cabe ao homem criar seus próprios valores',
+      'A ciência provou que Deus não existe',
+      'As igrejas fecharam',
+      'O mal venceu'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nietzsche não celebra a morte literal de Deus — diagnostica que a moral e a religião tradicionais deixaram de ser fundamento. Com o vácuo, o homem deve criar seus valores (o "super-homem" = quem se torna criador de valores, não seguidor).', // explicação
+    dica: 'Conceitos de Nietzsche em prova: "Deus está morto" (crise dos valores), vontade de potência (impulso criador da vida), eterno retorno, moral de senhores x de escravos. O "super-homem" não é super-herói — é o criador de valores.', // pegadinha
+    video: 'nietzsche deus está morto vontade de potência resumo' // busca no YouTube
+  },
+  {
+    id: 'fl10',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Existencialismo — Sartre',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para Sartre, "a existência precede a essência" significa que o homem:', // pergunta
+    alternativas: [                     // opções
+      'Nasce com destino traçado por Deus',
+      'Nasce primeiro e depois se define pelas suas escolhas — somos o que fazemos de nós, condenados a ser livres',
+      'Não tem liberdade',
+      'É determinado pela genética',
+      'Copia a essência dos outros'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O existencialismo de Sartre: a caneta tem essência antes de existir (foi feita para escrever); o homem não — ele existe primeiro e cria sua essência pelas escolhas. Liberdade é condenação: somos responsáveis por tudo que somos.', // explicação
+    dica: 'A diferença existencialista: essência→existência (objeto fabricado) x existência→essência (homem). "Condenado a ser livre" = não pode escapar da escolha. Simone de Beauvoir e Camus compartilham o movimento.', // pegadinha
+    video: 'sartre existência precede essência existencialismo resumo' // busca no YouTube
+  },
+  {
+    id: 'fl11',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Contrato social',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os contratualistas explicam a origem do Estado como:', // pergunta
+    alternativas: [                     // opções
+      'Criação divina',
+      'Um pacto — os indivíduos abrem mão de parte da liberdade natural em troca de segurança e direitos',
+      'Conquista militar',
+      'Acidente histórico',
+      'Evolução biológica'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Contratualismo = o Estado nasce de um contrato: saímos do "estado de natureza" e entregamos poder ao soberano/leis em troca de proteção. Hobbes (medo da guerra), Locke (direitos naturais) e Rousseau (vontade geral) deram versões diferentes.', // explicação
+    dica: 'Os três em comparação: HOBBES = homem é lobo do homem, precisa de Estado absoluto (Leviatã); LOCKE = direitos naturais (vida, liberdade, propriedade) — pai do liberalismo; ROUSSEAU = homem nasce bom, sociedade corrompe — vontade geral.', // pegadinha
+    video: 'contratualistas hobbes locke rousseau estado resumo' // busca no YouTube
+  },
+  {
+    id: 'fl12',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Maquiavel — razão de estado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: '"O Príncipe" de Maquiavel ficou famoso por defender que o governante:', // pergunta
+    alternativas: [                     // opções
+      'Deve ser sempre gentil',
+      'Pode usar meios moralmente questionáveis para garantir o poder e a ordem do Estado — "os fins justificam os meios"',
+      'Deve abdicar do poder',
+      'Deve ser escolhido por sorteio',
+      'Deve ignorar a guerra'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Maquiavel separou a política da moral: para manter o Estado, o príncipe pode usar a força e a astúcia — "é melhor ser temido que amado, se não der para ser os dois". A eficácia do poder vale mais que a aparência de virtude.', // explicação
+    dica: 'Cuidado: "maquiavélico" virou sinônimo de manipulador, mas Maquiavel descrevia a realidade do poder — não pregava maldade. "Virtù" (habilidade do príncipe) × "fortuna" (sorte) é o par que a Unicamp cobra.', // pegadinha
+    video: 'maquiavel o príncipe razão de estado resumo' // busca no YouTube
+  },
+  {
+    id: 'fl13',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Estoicismo',                 // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O estoicismo (Zenão, Epicteto, Marco Aurélio) ensina que a sabedoria é:', // pergunta
+    alternativas: [                     // opções
+      'Evitar qualquer prazer',
+      'Distinguir o que depende de nós (nossa reação) do que não depende (o externo) — e aceitar serenamente o segundo',
+      'Não sentir nada',
+      'Acumular riqueza',
+      'Lutar contra tudo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O estoico divide o mundo em "o que eu controlo" (minhas opiniões, reações, escolhas) e "o que não controlo" (clima, morte, opinião alheia). A paz vem de não desperdiçar energia no incontrolável e cultivar a virtude no controlável.', // explicação
+    dica: 'A "dicotomia do controle" é o mantra estoico — não é apatia nem frieza, é foco no que depende de você. Marco Aurélio (imperador romano) escreveu "Meditações" como diário estoico.', // pegadinha
+    video: 'estoicismo dicotomia do controle marco aurélio resumo' // busca no YouTube
+  },
+  {
+    id: 'fl14',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Utilitarismo',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O utilitarismo de Bentham e Mill julga a moralidade de uma ação pelo:', // pergunta
+    alternativas: [                     // opções
+      'Dever universal',
+      'Resultado — a ação certa é a que produz a maior felicidade para o maior número',
+      'Respeito às tradições',
+      'Mandamento divino',
+      'Razão pura'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Utilitarismo = ética da consequência: a ação moralmente certa é a que gera maior utilidade/felicidade para o maior número de pessoas. "O maior bem para o maior número" é o critério — não a intenção, mas o resultado.', // explicação
+    dica: 'Oposição da Fuvest: UTILITARISMO (consequência, Bentham/Mill) × KANT (dever, intenção). O utilitarista sacrificaria poucos para salvar muitos; o kantiano diria que pessoas não são meios.', // pegadinha
+    video: 'utilitarismo bentham mill maior felicidade resumo' // busca no YouTube
+  },
+  {
+    id: 'fl15',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Ceticismo',                  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'A atitude cética, na filosofia, consiste em:', // pergunta
+    alternativas: [                     // opções
+      'Aceitar tudo sem crítica',
+      'Suspender o juízo e questionar a possibilidade de um conhecimento absoluto e certo',
+      'Negar a existência do mundo',
+      'Acreditar em tudo que se lê',
+      'Seguir a tradição sem questionar'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ceticismo (Pirro, depois Hume) suspende o juízo: diante da dificuldade de ter certezas absolutas, o cético não afirma nem nega — investiga e fica em aberto. É uma postura crítica, não pessimismo.', // explicação
+    dica: 'Ceticismo ≠ negar tudo: o cético SUSPENDE o juízo (não decide), enquanto o negacionista nega sem prova. Na prática do vestibular, ceticismo = "duvido que tenhamos certeza absoluta" — atitude saudável de questionar.', // pegadinha
+    video: 'ceticismo filosofia suspensão do juízo resumo' // busca no YouTube
+  },
+  {
+    id: 'fl16',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Bioética',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A bioética, ramo da filosofia aplicada, debate questões como:', // pergunta
+    alternativas: [                     // opções
+      'Impostos sobre remédios',
+      'Aborto, eutanásia, pesquisa com células-tronco, experimentos em humanos e distribuição de recursos na saúde',
+      'Agricultura orgânica',
+      'Direito do trabalho',
+      'História da medicina'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A bioética aplica a filosofia moral aos dilemas da vida e da saúde: aborto, eutanásia, células-tronco, pesquisa em humanos, transplantes, recursos escassos no SUS. Os princípios clássicos: autonomia, beneficência, não-maleficência e justiça.', // explicação
+    dica: 'Os 4 princípios da bioética de prova: autonomia (a pessoa decide sobre seu corpo), beneficência (fazer o bem), não-maleficência (não causar dano), justiça (distribuir com equidade). O ENEM contextualiza com o SUS.', // pegadinha
+    video: 'bioética princípios aborto eutanásia resumo vestibular' // busca no YouTube
+  },
+
+  /* ===================== SOCIOLOGIA — completando para 16 (so05 a so16) ===================== */
+  {
+    id: 'so05',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Weber — ação social e dominação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Para Max Weber, uma ação é "social" quando:', // pergunta
+    alternativas: [                     // opções
+      'Envolve várias pessoas',
+      'Tem sentido para quem age e é orientada pelo comportamento dos outros',
+      'Ocorre na rua',
+      'Tem lei que a regule',
+      'É impulsiva'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Weber, ação social = ação dotada de SENTIDO para o agente e orientada pelos outros. Chorar sozinho por tristeza não é ação social; chorar na frente dos outros para comover é — tem sentido e mira o outro.', // explicação
+    dica: 'Os 4 tipos de ação de Weber: racional com relação a fins (meio mais eficaz), racional com relação a valores (convicção), afetiva (emoção) e tradicional (costume). A moderna é a racional-fins.', // pegadinha
+    video: 'max weber ação social tipos resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'so06',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Comte — positivismo',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O positivismo de Auguste Comte, pai da sociologia, defendia que o conhecimento deveria ser:', // pergunta
+    alternativas: [                     // opções
+      'Baseado na fé',
+      'Científico — observável, verificável e ordenado pela lei do progresso',
+      'Místico',
+      'Traduzido dos mitos',
+      'Intuitivo apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Comte criou a palavra "sociologia" e propôs que ela fosse ciência positiva: observável, verificável, que descobre leis da sociedade como a física descobre leis da natureza. "Ordem e progresso" (na bandeira do Brasil) é lema positivista.', // explicação
+    dica: 'Lei dos três estados de Comte: teológico (deuses explicam) → metafísico (abstrações) → positivo (ciência/fatos). A bandeira brasileira tem "Ordem e Progresso" porque os republicanos admiravam Comte.', // pegadinha
+    video: 'auguste comte positivismo lei dos três estados resumo' // busca no YouTube
+  },
+  {
+    id: 'so07',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Socialização',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O processo pelo qual a pessoa aprende as normas, valores e costumes de sua sociedade desde criança chama-se:', // pergunta
+    alternativas: [                     // opções
+      'Evolução biológica',
+      'Socialização',
+      'Industrialização',
+      'Urbanização',
+      'Burocratização'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Socialização = aprendizado do ser social: a criança absorve língua, valores, papéis e normas pela família (primária), escola, amigos e mídia (secundária). É como o "nós" vira o que somos — não nascemos sociais, tornamo-nos.', // explicação
+    dica: 'Primária (infância, família — forma a identidade) x secundária (escola, trabalho, grupos — especializa). Feral children (crianças selvagens) são a prova extrema: sem socialização, não se desenvolve a humanidade plena.', // pegadinha
+    video: 'socialização primária secundária sociologia resumo' // busca no YouTube
+  },
+  {
+    id: 'so08',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Estratificação e mobilidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Mobilidade social ascendente ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'Uma pessoa fica mais rica na mesma profissão',
+      'Uma pessoa muda de posição na hierarquia social para um status superior',
+      'A população envelhece',
+      'O país cresce',
+      'Alguém muda de cidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mobilidade social = mudança de posição na estratificação: o filho de operário que vira médico subiu (ascendente); quem perde status desce (descendente). Estratificação = a hierarquia de classes; mobilidade = mover-se nela.', // explicação
+    dica: 'Tipos que a Unicamp compara: ascendente (sobe) × descendente (desce); intergeracional (entre gerações — filho de faxineiro vira juiz) × intrageracional (na vida da pessoa). Castas (Índia) = sistema fechado, sem mobilidade.', // pegadinha
+    video: 'mobilidade social estratificação sociologia resumo' // busca no YouTube
+  },
+  {
+    id: 'so09',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Instituições sociais',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Família, escola, igreja e Estado são chamados de instituições sociais porque:', // pergunta
+    alternativas: [                     // opções
+      'São prédios grandes',
+      'São estruturas duradouras que organizam o comportamento e transmitem papéis e normas',
+      'São empresas',
+      'São ilegais',
+      'Mudam todos os dias'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Instituição social = padrão estável e duradouro de relações que organiza a vida coletiva: a família socializa, a escola ensina, a igreja dá sentido, o Estado governa. Elas persistem além das pessoas que passam por elas.', // explicação
+    dica: 'A instituição não é o prédio nem as pessoas — é o CONJUNTO de regras e papéis que se mantém. A "escola" como instituição existe mesmo que todos os alunos troquem todo ano.', // pegadinha
+    video: 'instituições sociais família escola estado sociologia' // busca no YouTube
+  },
+  {
+    id: 'so10',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Movimentos sociais',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os movimentos sociais (sem-terra, negro, feminista, ambientalista) se caracterizam por:', // pergunta
+    alternativas: [                     // opções
+      'Ação individual de cada cidadão',
+      'Ação coletiva organizada para pressionar por mudanças sociais e direitos',
+      'Ter sempre partido político',
+      'Usar só a violência',
+      'Ser instituições do Estado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Movimento social = ação coletiva fora das instituições formais que luta por demandas comuns (terra, igualdade racial, direito das mulheres, ambiente). Agem por pressão pública, protesto e mobilização — não são o Estado nem partidos.', // explicação
+    dica: 'O ENEM diferencia: movimento social (sociedade civil pressionando, MST, Fridays for Future) × partido político (busca o poder estatal) × ONG (organização formal). O movimento pode virar partido, mas nasce da base.', // pegadinha
+    video: 'movimentos sociais sociologia exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'so11',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Cultura — material e imaterial', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Os elementos da cultura de um povo se dividem em material e imaterial. É exemplo de cultura IMATERIAL:', // pergunta
+    alternativas: [                     // opções
+      'Uma igreja colonial',
+      'O frevo, a capoeira e os saberes tradicionais',
+      'Um monumento histórico',
+      'Um prédio antigo',
+      'Um museu'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cultura material = os objetos físicos (monumentos, utensílios, prédios); imaterial = os saberes, festas, músicas, rituais e técnicas que se passam de geração em geração (frevo, capoeira, acarajé, festas juninas). A UNESCO protege os dois.', // explicação
+    dica: 'Exemplos de patrimônio imaterial brasileiro: frevo, capoeira, acarajé das baianas, feira de Caruaru, ofício das baianas de acarajé, Círio de Nazaré. Material: igrejas, centros históricos, obras.', // pegadinha
+    video: 'cultura material imaterial patrimônio exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'so12',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Globalização',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A globalização contemporânea é marcada principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'O isolamento dos países',
+      'A integração acelerada de economias, culturas e fluxos (pessoas, capitais, informação) entre regiões',
+      'O fim das fronteiras físicas',
+      'A volta ao feudalismo',
+      'A produção só local'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Globalização = integração dos mercados, culturas e pessoas por tecnologia (internet, transporte) — a produção fragmentada entre países, a cultura circulando e as crises se espalhando. "Aldeia global" (McLuhan) resume: tudo conectado.', // explicação
+    dica: 'O ENEM mostra as duas faces: globalização aproxima (comunicação, comércio) E acentua desigualdades (riqueza concentrada, periferia explorada). Nem é boa nem ruim — é processo com efeitos contraditórios.', // pegadinha
+    video: 'globalização características efeitos sociologia resumo' // busca no YouTube
+  },
+  {
+    id: 'so13',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Classe social',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'A diferença entre "classe" (Marx) e "estamento" (Weber) é que a classe se define pela:', // pergunta
+    alternativas: [                     // opções
+      'Cor da pele',
+      'Posição na produção econômica — o estamento inclui estilo de vida e prestígio social',
+      'Religião',
+      'Região do país',
+      'Idade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Marx, classe = posição na produção (quem possui os meios = burguesia; quem só tem o trabalho = proletariado). Weber ampliou: além da economia, há ESTAMENTO (prestígio, estilo de vida — um médico rico x um pequeno comerciante rico têm classes iguais, estamentos diferentes) e partido (poder político).', // explicação
+    dica: 'Marx = economia decide a classe; Weber = três dimensões (classe economia + estamento prestígio + partido poder). Um milionário sem estudo pode ter classe alta e estamento médio — a Unicamp adora essa distinção.', // pegadinha
+    video: 'classe social marx estamento weber diferença resumo' // busca no YouTube
+  },
+  {
+    id: 'so14',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Identidade social',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A identidade social de uma pessoa se constrói principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'Genética pura',
+      'Interação social — a pessoa se reconhece pelos grupos a que pertence e pelo olhar dos outros',
+      'Destino',
+      'Vontade divina',
+      'Isolamento'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A identidade não nasce pronta — se constrói na interação: quem sou eu depende de como os outros me veem e dos grupos a que pertenço (família, nação, gênero, religião). "Eu" é sempre social — sou o que o outro me permite ser.', // explicação
+    dica: 'O "eu" de Charles Cooley (espelho social): imaginamos como os outros nos veem e nos moldamos. Identidade nacional, de gênero, de classe — todas construídas socialmente, não naturais.', // pegadinha
+    video: 'identidade social construção sociologia resumo' // busca no YouTube
+  },
+  {
+    id: 'so15',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Solidariedade mecânica x orgânica', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Para Durkheim, a sociedade moderna se mantém unida por "solidariedade orgânica", que é:', // pergunta
+    alternativas: [                     // opções
+      'A semelhança entre todos os membros',
+      'A interdependência da divisão do trabalho — cada um depende da função especializada do outro',
+      'A força da religião',
+      'A proximidade territorial',
+      'O parentesco'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Solidariedade MECÂNICA (sociedades simples): união pela SEMELHANÇA — todos parecidos, mesma religião. ORGÂNICA (moderna): união pela DIFERENÇA e interdependência — você precisa do médico, do padeiro, do motorista porque cada um faz uma coisa.', // explicação
+    dica: 'O nome engana: "orgânica" é a moderna (como órgãos diferentes formando um corpo); "mecânica" é a antiga (peças iguais). Padrões: mecânica = direito repressivo (punir quem quebra); orgânica = direito restitutivo (reparar o dano).', // pegadinha
+    video: 'durkheim solidariedade mecânica orgânica resumo' // busca no YouTube
+  },
+  {
+    id: 'so16',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Cidadania',                  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A cidadania plena inclui os direitos:', // pergunta
+    alternativas: [                     // opções
+      'Apenas civis (ir e vir)',
+      'Civis (liberdade), políticos (votar e ser votado) e sociais (saúde, educação, trabalho)',
+      'Só políticos',
+      'Apenas econômicos',
+      'Somente os de consumo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Marshall classificou a cidadania em três dimensões: direitos CIVIS (liberdade individual, propriedade, justiça), POLÍTICOS (voto, participação) e SOCIAIS (saúde, educação, trabalho, bem-estar). Cidadania plena = os três juntos.', // explicação
+    dica: 'O ENEM liga as três dimensões à história: civis (séc XVIII, iluminismo), políticos (XIX, sufrágio), sociais (XX, Estado de bem-estar). No Brasil, a CF/88 garante os três — mas a efetivação social segue o debate.', // pegadinha
+    video: 'cidadania direitos civis políticos sociais marshall resumo' // busca no YouTube
+  },
+
+  /* ===================== BIOLOGIA — completando para 16 (b05 a b16) ===================== */
+  {
+    id: 'b05',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'DNA — estrutura',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'A molécula de DNA tem a forma de dupla hélice, e suas bases nitrogenadas se pareiam assim:', // pergunta
+    alternativas: [                     // opções
+      'A com C, T com G',
+      'A com T e C com G (adenina-timina, citosina-guanina)',
+      'A com G',
+      'Todas se pareiam igual',
+      'A com U'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A dupla hélice de DNA pareia as bases por pontes de hidrogênio: adenina com timina (A-T, duas pontes) e citosina com guanina (C-G, três pontes). A quantidade de A sempre iguala a de T, e a de C iguala a de G.', // explicação
+    dica: 'Macete da Unicamp: A-T são par romântico; C-G são par romântico (e mais forte, 3 pontes de hidrogênio). No RNA, a timina (T) é trocada por uracila (U) — então no RNA A pareia com U.', // pegadinha
+    video: 'dna dupla hélice bases nitrogenadas pareamento resumo' // busca no YouTube
+  },
+  {
+    id: 'b06',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Proteínas',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'As proteínas são formadas por cadeias de:', // pergunta
+    alternativas: [                     // opções
+      'Glicose',
+      'Aminoácidos ligados por ligações peptídicas',
+      'Ácidos graxos',
+      'Nucleotídeos',
+      'Vitaminas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Proteína = sequência de aminoácidos unidos por ligações peptídicas. As funções são vastas: enzimas aceleram reações, anticorpos defendem, hormônios (insulina) regulam, colágeno estrutura, miosina contrai o músculo.', // explicação
+    dica: 'O ENEM cobra a versatilidade: proteína pode ser enzima, hormônio, anticorpo, estrutura (queratina do cabelo) ou transporte (hemoglobina). E são "quebradas" na digestão para virar aminoácidos de novo.', // pegadinha
+    video: 'proteínas aminoácidos ligação peptídica funções resumo' // busca no YouTube
+  },
+  {
+    id: 'b07',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Mitocôndria — respiração celular', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A mitocôndria é chamada de "casa de força da célula" porque é onde ocorre:', // pergunta
+    alternativas: [                     // opções
+      'A fotossíntese',
+      'A respiração celular — a quebra da glicose com O2 para produzir ATP (energia)',
+      'A síntese de proteínas',
+      'A digestão celular',
+      'A reprodução'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A respiração celular acontece na mitocôndria: a glicose é "queimada" com O2 produzindo ATP (a moeda de energia da célula), CO2 e água. Células com muito gasto (músculo, coração) têm muitas mitocôndrias.', // explicação
+    dica: 'Par de organelas da Fuvest: MITOCÔNDRIA = respiração celular (produz ATP em todas as células); CLOROPLASTO = fotossíntese (só plantas/algas). As duas fazem energia, mas de jeitos opostos.', // pegadinha
+    video: 'mitocôndria respiração celular atp resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'b08',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Ecossistema',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um ecossistema é formado por:', // pergunta
+    alternativas: [                     // opções
+      'Apenas os animais',
+      'Os fatores bióticos (seres vivos) e abióticos (água, luz, solo, clima) em interação',
+      'Só as plantas',
+      'Apenas o clima',
+      'Somente o solo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ecossistema = comunidade biótica (produtores, consumidores, decompositores) + fatores abióticos (água, luz, temperatura, solo, pH) interagindo em equilíbrio. Um lago, uma floresta, um aquário são exemplos.', // explicação
+    dica: 'Hierarquia da ecologia do ENEM: indivíduo → população → comunidade → ecossistema → biosfera. "Biótico" = vivo; "abiótico" = não vivo (água, luz, solo).', // pegadinha
+    video: 'ecossistema fatores bióticos abióticos resumo' // busca no YouTube
+  },
+  {
+    id: 'b09',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Eutrofização',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A eutrofização de um lago — excesso de nutrientes, em geral por esgoto e fertilizante — causa:', // pergunta
+    alternativas: [                     // opções
+      'Água cristalina',
+      'Proliferação de algas, morte delas por apodrecimento e consumo do oxigênio — matando os peixes',
+      'Aumento da biodiversidade',
+      'Purisma da água',
+      'Aumento do oxigênio'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nutriente demais (fósforo/nitrogênio de esgoto e agrotóxicos) alimenta uma explosão de algas; quando elas morrem, as bactérias que as decompõem consomem o O2 da água — os peixes asfixiam. O lago fica verde e "morto".', // explicação
+    dica: 'Sequência do ENEM: nutriente → alga explode → alga morre → bactéria decompõe consumindo O2 → peixe morre por asfixia. A causa raiz é poluição orgânica/fertilizante — não falta de oxigênio natural.', // pegadinha
+    video: 'eutrofização lagos algas oxigênio peixes resumo' // busca no YouTube
+  },
+  {
+    id: 'b10',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Espécies invasoras',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O javali e o mexilhão-dourado são "espécies invasoras" no Brasil porque:', // pergunta
+    alternativas: [                     // opções
+      'São brasileiros nativos',
+      'Foram introduzidos pelo homem, não têm predadores locais e desequilibram o ecossistema ao competir com as espécies nativas',
+      'São muito raros',
+      'Vivem só em cativeiro',
+      'Foram descobertos recentemente'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Espécie invasora = exótica (de fora) que se espalha sem controle porque não tem predadores naturais e compete/come as nativas — quebrando o equilíbrio do ecossistema. Javali, mexilhão-dourado, capim-gordura e azevém são exemplos.', // explicação
+    dica: 'A banca diferencia: exótica × invasora × nativa. Nem toda exótica é invasora (muitas se mantêm); a invasora se espalha e causa dano. O javali, destruído por ter sido "solto", virou peste no sul.', // pegadinha
+    video: 'espécies invasoras javali mexilhão dourado resumo' // busca no YouTube
+  },
+  {
+    id: 'b11',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Taxonomia',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Na classificação científica (Lineu), o gênero e a espécie do ser humano são escritos:', // pergunta
+    alternativas: [                     // opções
+      'homo sapiens (tudo minúsculo)',
+      'Homo sapiens (gênero maiúsculo, espécie minúscula, em itálico)',
+      'HOMO SAPIENS',
+      'Homo Sapiens',
+      'sapiens Homo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A regra binomial de Lineu: Gênero com inicial maiúscula + epíteto específico minúsculo, em itálico — Homo sapiens, Canis familiaris, Felis catus. É o nome científico universal que evita a confusão dos nomes populares.', // explicação
+    dica: 'A hierarquia da Univesp: Reino → Filo → Classe → Ordem → Família → Gênero → Espécie (do mais amplo ao mais específico). Macete: "Rei Filósofo Clássico Ordenou Famílias de Gênios e Espécies".', // pegadinha
+    video: 'taxonomia classificação lineu reino filo espécie resumo' // busca no YouTube
+  },
+  {
+    id: 'b12',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Vírus',                      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os vírus são considerados seres "no limite da vida" porque:', // pergunta
+    alternativas: [                     // opções
+      'São bactérias pequenas',
+      'São estruturas acelulares — sem citoplasma, sem metabolismo próprio — que só se reproduzem dentro de uma célula hospedeira',
+      'Fotossintetizam',
+      'Têm núcleo',
+      'Vivem sozinhos na natureza'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O vírus não é célula: é só material genético (DNA ou RNA) em uma cápsula de proteína (capsídeo). Ele não come, não respira, não se reproduz sozinho — "sequestra" a maquinaria de uma célula para se copiar. Por isso vacinas previnem e antibióticos NÃO funcionam.', // explicação
+    dica: 'Ponto crítico do ENEM: antibiótico mata bactéria (célula), NÃO mata vírus. Contra vírus, o corpo usa vacina (previne) e antivirais; a resposta imune que resolve. Vírus = parasita intracelular obrigatório.', // pegadinha
+    video: 'vírus estrutura reprodução por que antibiótico não funciona' // busca no YouTube
+  },
+  {
+    id: 'b13',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Vacinas — imunologia',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma vacina funciona porque:', // pergunta
+    alternativas: [                     // opções
+      'Injeta o vírus vivo forte',
+      'Apresenta antígenos (partes inativas do patógeno) que ensinam o sistema imune a produzir anticorpos e memória',
+      'Mata todas as bactérias do corpo',
+      'Substitui o sangue',
+      'Cura a doença já instalada'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A vacina é um "ensaio": mostra um pedaço inofensivo do patógeno (antígeno) para os linfócitos B produzirem anticorpos e deixarem células de memória. Se o patógeno real chegar depois, a defesa já está pronta.', // explicação
+    dica: 'Vacina = PREVENÇÃO (imuniza antes); soro = TRATAMENTO (anticorpos prontos para emergência — ex.: soro antiofídico); antibiótico = mata bactéria. O ENEM testa a diferença vacina x soro com frequência.', // pegadinha
+    video: 'como funciona a vacina anticorpos memória resumo' // busca no YouTube
+  },
+  {
+    id: 'b14',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Classificação dos seres vivos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Os seres vivos são agrupados em reinos. As bactérias pertencem ao reino:', // pergunta
+    alternativas: [                     // opções
+      'Animalia',
+      'Monera — organismos procariontes e unicelulares',
+      'Fungi',
+      'Plantae',
+      'Protista'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sistema de 5 reinos (Whittaker): Monera (procariontes — bactérias e arqueias), Protista (eucariontes unicelulares — protozoários, algas unicelulares), Fungi (fungos — heterótrofos decompositores), Plantae (plantas) e Animalia (animais).', // explicação
+    dica: 'Os 5 reinos que a Univesp cobra: Monera (bactéria), Protista (ameba, protozoário), Fungi (cogumelo, mofo), Plantae (plantas), Animalia (nós). Vírus não tem reino — não é célula.', // pegadinha
+    video: 'cinco reinos seres vivos monera protista fungi resumo' // busca no YouTube
+  },
+  {
+    id: 'b15',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Biotecnologia',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A produção de insulina por bactérias modificadas (introduzindo o gene humano na bactéria) é exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'Seleção natural',
+      'Engenharia genética — manipulação do DNA para obter produtos úteis',
+      'Fermentação simples',
+      'Reprodução sexuada',
+      'Clonagem humana'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Engenharia genética = cortar e colar genes: coloca-se o gene humano da insulina no DNA da bactéria, que passa a produzir insulina em larga escala. Transgênicos (soja resistente), CRISPR e insulina recombinante são biotecnologia.', // explicação
+    dica: 'O ENEM contextualiza: transgênico = organismo com gene de outra espécie (soja com gene de resistência); clonagem = cópia genética (ovelha Dolly); engenharia genética = a técnica do recorte e cola do DNA.', // pegadinha
+    video: 'engenharia genética insulina bactéria transgênico resumo' // busca no YouTube
+  },
+  {
+    id: 'b16',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Respiração celular',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'A respiração celular aeróbica produz ATP a partir de:', // pergunta
+    alternativas: [                     // opções
+      'Água e luz solar',
+      'Glicose e oxigênio — rendendo gás carbônico e água como produtos',
+      'Nitrogênio',
+      'Gordura apenas',
+      'DNA'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Respiração celular = o inverso da fotossíntese: C6H12O6 + O2 → CO2 + H2O + ATP. A célula "queima" a glicose com oxigênio para extrair energia — todos os seres aeróbicos fazem isso na mitocôndria.', // explicação
+    dica: 'A Unicamp pede a diferença: FOTOSSÍNTESE (só plantas) guarda energia na glicose; RESPIRAÇÃO (plantas e animais) libera a energia da glicose. A planta fotossintetiza de dia e respira sempre.', // pegadinha
+    video: 'respiração celular glicose oxigênio atp resumo' // busca no YouTube
+  },
+
+  /* ===================== ECONOMIA — completando para 16 (ec05 a ec16) ===================== */
+  {
+    id: 'ec05',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Custos fixo e variável',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O aluguel da fábrica, que se paga produzindo ou não, é custo:', // pergunta
+    alternativas: [                     // opções
+      'Variável',
+      'Fixo — não depende da quantidade produzida',
+      'Marginal',
+      'Total',
+      'De oportunidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Custo fixo = existe mesmo com produção zero (aluguel, salário administrativo, seguro). Custo variável = muda com a quantidade (matéria-prima, energia das máquinas). Marginal = custo de produzir mais uma unidade.', // explicação
+    dica: 'Exemplos da CESPE: aluguel, depreciação, salário fixo = FIXO; matéria-prima, embalagem, hora extra por peça = VARIÁVEL. O "custo de oportunidade" é conceito diferente — o que se perde pela escolha.', // pegadinha
+    video: 'custo fixo variável marginal economia resumo' // busca no YouTube
+  },
+  {
+    id: 'ec06',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Bens substitutos e complementares', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Manteiga e margarina são bens:', // pergunta
+    alternativas: [                     // opções
+      'Complementares',
+      'Substitutos — satisfazem a mesma necessidade e um pode trocar o outro',
+      'Superiores',
+      'Inferiores',
+      'De luxo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Substitutos = um substitui o outro (manteiga × margarina, carne × frango, ônibus × metrô): se o preço de um sobe, a demanda do outro aumenta. Complementares = se usam juntos (impressora × cartucho, carro × gasolina).', // explicação
+    dica: 'A IBFC testa os pares: café×açúcar (complementares), manteiga×margarina (substitutos), tênis×meia (complementares). A reação: se o preço do substituto sobe, sua demanda cai e a do outro sobe.', // pegadinha
+    video: 'bens substitutos e complementares economia resumo' // busca no YouTube
+  },
+  {
+    id: 'ec07',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Estruturas de mercado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O mercado das teles no Brasil (poucas empresas grandes dominando) é um exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'Concorrência perfeita',
+      'Oligopólio — poucos vendedores dominam o mercado',
+      'Monopólio',
+      'Monopsônio',
+      'Economia solidária'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Oligopólio = poucos grandes vendedores dominam (teles, montadoras, bancos). Monopólio = um só vendedor; concorrência perfeita = muitos vendedores iguais (modelo teórico); monopsônio = um só comprador.', // explicação
+    dica: 'A FCC desenha o espectro: concorrência perfeita (muitos) → competição monopolística → oligopólio (poucos) → monopólio (um). Teles e montadoras são oligopólios; saneamento municipal, monopólio natural.', // pegadinha
+    video: 'oligopólio monopólio concorrência perfeita resumo' // busca no YouTube
+  },
+  {
+    id: 'ec08',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Tipos de desemprego',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O trabalhador desempregado porque sua função foi automatizada por uma máquina exemplifica o desemprego:', // pergunta
+    alternativas: [                     // opções
+      'Friccional',
+      'Estrutural — a vaga desapareceu por mudança na estrutura da economia (tecnologia, realocação)',
+      'Sazonal',
+      'Cíclico',
+      'Voluntário'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estrutural = a vaga sumiu por transformação da economia (automação, mudança de setor) — exige requalificação. Friccional = transição entre empregos; sazonal = época do ano (safra, Natal); cíclico = recessão.', // explicação
+    dica: 'Os 4 tipos da CESPE: friccional (entre empregos), estrutural (vaga acabou por tecnologia/setor), sazonal (época — agricultura, turismo), cíclico (crise econômica). O estrutural é o mais sério.', // pegadinha
+    video: 'tipos de desemprego friccional estrutural sazonal resumo' // busca no YouTube
+  },
+  {
+    id: 'ec09',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Juros simples x compostos',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença fundamental entre juros simples e compostos é que nos compostos:', // pergunta
+    alternativas: [                     // opções
+      'O juro incide sempre só sobre o capital inicial',
+      'O juro incide sobre o capital + os juros já acumulados — o "juros sobre juros"',
+      'Não há juros',
+      'O prazo não importa',
+      'A taxa é sempre 1%'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Simples: juro sempre sobre o capital inicial (cresce em linha reta). Compostos: juro sobre o saldo atual (cresce exponencialmente — "juro sobre juro"). Investimentos e dívidas usam compostos.', // explicação
+    dica: 'Na prática: R$ 1.000 a 10% ao mês. Simples: mês 1 = 1.100, mês 2 = 1.200, mês 3 = 1.300. Compostos: mês 1 = 1.100, mês 2 = 1.210, mês 3 = 1.331. O composto cresce cada vez mais rápido.', // pegadinha
+    video: 'juros simples e compostos diferença resumo concurso' // busca no YouTube
+  },
+  {
+    id: 'ec10',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Balança comercial',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Um país tem superávit na balança comercial quando:', // pergunta
+    alternativas: [                     // opções
+      'Importa mais do que exporta',
+      'Exporta mais (em valor) do que importa',
+      'Não comercializa',
+      'Só importa',
+      'Fecha as fronteiras'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Balança comercial = exportações − importações. Superávit = exporta mais (entra mais dólar); déficit = importa mais. O Brasil historicamente tem superávit graças às commodities (soja, minério).', // explicação
+    dica: 'A FCC embaralha com o "balanço de pagamentos" (mais amplo — inclui serviços e capitais). A balança COMERCIAL é só bens físicos. Superávit ≠ sempre bom; déficit ≠ sempre ruim — depende do contexto.', // pegadinha
+    video: 'balança comercial exportação importação superávit resumo' // busca no YouTube
+  },
+  {
+    id: 'ec11',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Câmbio — valorização do real', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Quando o real se valoriza frente ao dólar (o dólar cai):', // pergunta
+    alternativas: [                     // opções
+      'As exportações brasileiras ficam mais caras e difíceis; as importações, mais baratas',
+      'As exportações ficam mais baratas',
+      'O turismo internacional brasileiro encarece',
+      'Os importados ficam mais caros',
+      'O Brasil deixa de exportar'
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Real forte = dólar barato: importar fica mais barato (celular, trigo, tecnologia), mas exportar fica mais difícil — nossos produtos custam mais caro em dólar lá fora. E viajar para fora fica mais barato.', // explicação
+    dica: 'A lógica da CESPE: real VALORIZADO favorece importador e turista; real DESVALORIZADO (dólar alto) favorece exportador (soja ganha mais em reais) e turismo vindo ao Brasil. Cada lado tem seu público.', // pegadinha
+    video: 'câmbio real valorizado exportação importação resumo' // busca no YouTube
+  },
+  {
+    id: 'ec12',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'PIB per capita',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O PIB per capita é obtido por:', // pergunta
+    alternativas: [                     // opções
+      'PIB × população',
+      'PIB ÷ população — medida da produção média por habitante',
+      'População ÷ PIB',
+      'PIB + inflação',
+      'PIB − desemprego'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PIB per capita = PIB total ÷ número de habitantes. É uma média — não mostra distribuição: um país pode ter PIB alto e concentração extrema (o Brasil tem PIB per capita médio, mas desigualdade enorme).', // explicação
+    dica: 'Cuidado da IBFC: PIB per capita ALTO não significa vida boa para todos — mede a média, não a distribuição. Países com alta renda per capita e muita pobreza revelam a desigualdade escondida na média.', // pegadinha
+    video: 'pib per capita média por habitante resumo' // busca no YouTube
+  },
+  {
+    id: 'ec13',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Impostos diretos e indiretos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O imposto de renda sobre a pessoa física é um imposto:', // pergunta
+    alternativas: [                     // opções
+      'Indireto',
+      'Direto — incide sobre a renda/patrimônio de quem paga, sem repassar',
+      'Sobre consumo',
+      'Ad valorem',
+      'Estadual apenas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Direto = sobre a renda/patrimônio da pessoa (IRPF, IPVA, IPTU) — quem ganha/possui paga diretamente. Indireto = embutido no preço do bem/serviço (ICMS, IPI, ISS) — o contribuinte repassa para o consumidor.', // explicação
+    dica: 'Exemplos da CESPE: DIRETOS = IRPF, IPVA, IPTU; INDIRETOS = ICMS, IPI, ISS, PIS/COFINS. Os indiretos são considerados mais injustos (o pobre paga a mesma taxa do rico ao comprar).', // pegadinha
+    video: 'impostos diretos indiretos icms ipi irpf resumo' // busca no YouTube
+  },
+  {
+    id: 'ec14',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Coeficiente de Gini',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O índice de Gini mede:', // pergunta
+    alternativas: [                     // opções
+      'A inflação',
+      'A desigualdade de renda — vai de 0 (todos iguais) a 1 (uma pessoa com tudo)',
+      'O crescimento do PIB',
+      'O desemprego',
+      'A balança comercial'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gini = medida de desigualdade de renda: 0 = igualdade perfeita (todos com a mesma renda); 1 = desigualdade máxima (uma pessoa com tudo). O Brasil tem ~0,53 — um dos mais desiguais do mundo.', // explicação
+    dica: 'O ENEM cruza Gini com desenvolvimento: Brasil tem PIB per capita médio MAS Gini alto — a riqueza é concentrada. Países como Noruega têm Gini ~0,25; Brasil e África do Sul, acima de 0,50.', // pegadinha
+    video: 'índice gini desigualdade renda resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'ec15',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Política fiscal',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Em recessão, a política fiscal expansionista típica do governo é:', // pergunta
+    alternativas: [                     // opções
+      'Cortar gastos e subir juros',
+      'Aumentar os gastos públicos e/ou reduzir impostos para estimular a economia',
+      'Congelar salários',
+      'Parar de investir',
+      'Fechar o Banco Central'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fiscal expansionista = mais gasto público (obras, programas) + menos imposto → mais dinheiro circulando → demanda sobe → emprego e produção. O oposto (contracionista) freia a economia para conter inflação.', // explicação
+    dica: 'As duas políticas: FISCAL (gastos/impostos do governo) × MONETÁRIA (Selic do Banco Central). Para combater recessão: expansionista nas duas (mais gasto + Selic baixa); contra inflação: contracionista nas duas.', // pegadinha
+    video: 'política fiscal expansionista contracionista resumo' // busca no YouTube
+  },
+  {
+    id: 'ec16',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Déficit público',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O déficit primário do governo ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'A arrecadação supera os gastos',
+      'Os gastos (sem juros da dívida) superam a arrecadação de impostos',
+      'O governo não gasta nada',
+      'O país não tem dívida',
+      'A inflação é zero'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Déficit PRIMÁRIO = gastos correntes e de investimento − arrecadação (sem contar os juros da dívida). Se os juros entram na conta, vira déficit NOMINAL. Superávit primário = o governo arrecada mais do que gasta (sinal de contas saudáveis).', // explicação
+    dica: 'Primário x nominal: primário = sem juros (o "resultado do esforço"); nominal = com juros (o total). O Brasil busca superávit primário para não deixar a dívida pública explodir.', // pegadinha
+    video: 'déficit primário nominal contas públicas resumo' // busca no YouTube
+  },
+
+  /* ===================== QUÍMICA — completando para 16 (qm05 a qm16) ===================== */
+  {
+    id: 'qm05',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Tabela periódica — grupos',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Na tabela periódica, os elementos da coluna 1 (Li, Na, K...) são chamados de:', // pergunta
+    alternativas: [                     // opções
+      'Gases nobres',
+      'Metais alcalinos — têm um elétron na última camada e reagem vigorosamente com água',
+      'Halogênios',
+      'Calcogênios',
+      'Metais de transição'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Coluna 1 = metais alcalinos (Li, Na, K, Rb, Cs): um elétron na camada de valência, muito reativos (explodem com água), maleáveis e não encontrados puros na natureza. A última coluna (18) é dos gases nobres (estáveis).', // explicação
+    dica: 'Famílias que a Unicamp cobra: alcalinos (coluna 1), alcalinos terrosos (coluna 2), halogênios (coluna 17 — F, Cl, Br), gases nobres (coluna 18 — He, Ne, Ar). A posição na tabela diz o comportamento.', // pegadinha
+    video: 'tabela periódica famílias alcalinos halogênios resumo' // busca no YouTube
+  },
+  {
+    id: 'qm06',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Ligação metálica',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os metais conduzem eletricidade porque sua ligação metálica forma:', // pergunta
+    alternativas: [                     // opções
+      'Moléculas isoladas',
+      'Um "mar de elétrons" — elétrons livres que fluem pelo metal',
+      'Íons fixos',
+      'Covalências rígidas',
+      'Gases presos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Na ligação metálica, os átomos do metal cedem seus elétrons de valência para um "mar de elétrons" compartilhado — elétrons livres que carregam a corrente e o calor. Por isso metal conduz, brilha e é maleável.', // explicação
+    dica: 'As 3 ligações: IÔNICA (metal+ametal, transfere — sal), COVALENTE (ametal+ametal, compartilha — água), METÁLICA (metal+metal, mar de elétrons — cobre). Só a metálica explica a condutividade no sólido.', // pegadinha
+    video: 'ligação metálica mar de elétrons condutividade resumo' // busca no YouTube
+  },
+  {
+    id: 'qm07',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Mol e massa molar',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A massa molar da água (H₂O, com H=1 e O=16) é:', // pergunta
+    alternativas: [                     // opções
+      '10 g/mol',
+      '18 g/mol (2×1 + 16)',
+      '17 g/mol',
+      '20 g/mol',
+      '16 g/mol'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Massa molar = soma das massas atômicas de cada átomo da fórmula.',
+      'H₂O = 2 hidrogênios (2×1) + 1 oxigênio (16).',
+      '2 + 16 = 18 g/mol.'
+    ],
+    explicacao: 'Massa molar = soma das massas atômicas da fórmula: H₂O = 2(1) + 16 = 18 g/mol. Um mol de água pesa 18 gramas e contém 6,02×10²³ moléculas (número de Avogadro).', // explicação
+    dica: 'Cálculos clássicos da Fuvest: H₂O=18, CO₂=44, O₂=32, CaCO₃=100, NaCl=58,5 g/mol. O mol é a "ponte" entre massa e número de partículas — treine regra de três.', // pegadinha
+    video: 'mol massa molar avogadro química resumo vestibular' // busca no YouTube
+  },
+  {
+    id: 'qm08',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Mudanças de estado',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Quando a água do copo evapora, ela passa do estado:', // pergunta
+    alternativas: [                     // opções
+      'Sólido para líquido',
+      'Líquido para gasoso — evaporação/vaporização',
+      'Gasoso para sólido',
+      'Sólido para gasoso',
+      'Líquido para sólido'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Líquido → gasoso = evaporação (superfície, em qualquer temperatura) ou ebulição (todo o líquido, a 100°C para a água). Sublimação = sólido direto para gás (gelo seco); condensação = gás para líquido.', // explicação
+    dica: 'Mapa das mudanças que a banca embaralha: fusão (sólido→líquido), vaporização (líquido→gás), condensação (gás→líquido), solidificação (líquido→sólido), sublimação (sólido↔gás). O gás de cozinha é o isqueiro da vida real.', // pegadinha
+    video: 'mudanças de estado físico fusão vaporização resumo' // busca no YouTube
+  },
+  {
+    id: 'qm09',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Misturas — separação',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para separar o sal dissolvido na água do mar, o método adequado é:', // pergunta
+    alternativas: [                     // opções
+      'Filtração',
+      'Destilação — evapora-se a água e condensa-se de volta, deixando o sal',
+      'Decantação',
+      'Centrifugação',
+      'Peneiração'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sal dissolvido não sai por filtro (mistura homogênea). A DESTILAÇÃO separa: a água evapora, condensa e é recolhida pura; o sal fica no balão. Nas salinas, a evaporação solar faz o mesmo (sem recolher a água).', // explicação
+    dica: 'Métodos de separação por tipo de mistura: filtração (sólido+líquido, heterogênea — café), decantação (líquidos que não se misturam — óleo+água), destilação (sólido dissolvido ou líquidos — sal+água, álcool+água).', // pegadinha
+    video: 'métodos de separação misturas filtração destilação resumo' // busca no YouTube
+  },
+  {
+    id: 'qm10',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Tipos de reação',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'A reação 2H₂O → 2H₂ + O₂ (quebra de uma substância em outras) é do tipo:', // pergunta
+    alternativas: [                     // opções
+      'Síntese',
+      'Decomposição — uma substância se divide em duas ou mais',
+      'Dupla troca',
+      'Combustão',
+      'Substituição'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Decomposição (análise) = uma substância vira várias (AB → A + B) — a eletrólise da água é o exemplo: corrente elétrica quebra a água em H₂ e O₂. Síntese é o inverso (A + B → AB).', // explicação
+    dica: 'Os tipos da Unicamp: síntese (junta: 2+1 → 1), decomposição (divide: 1 → 2+1), simples troca (um elemento troca: A + BC → AC + B), dupla troca (dois compostos trocam: AB + CD → AD + CB).', // pegadinha
+    video: 'tipos de reação química síntese decomposição resumo' // busca no YouTube
+  },
+  {
+    id: 'qm11',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Concentração de soluções',   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A molaridade (mol/L) de uma solução de NaCl com 2 mols dissolvidos em 4 litros é:', // pergunta
+    alternativas: [                     // opções
+      '8 mol/L',
+      '0,5 mol/L',
+      '2 mol/L',
+      '4 mol/L',
+      '1 mol/L'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Molaridade = mols de soluto ÷ litros de solução.',
+      'M = 2 mols ÷ 4 L.',
+      'M = 0,5 mol/L.'
+    ],
+    explicacao: 'M = n/V: 2 mols em 4 litros = 0,5 mol/L. A molaridade diz quantos mols de soluto há por litro de solução — medida central da química analítica.', // explicação
+    dica: 'A Fuvest testa o inverso: quanto mais soluto por litro, mais concentrada. Erro comum: dividir volume por mol ou confundir massa em gramas com mols. Sempre converta grama → mol pela massa molar.', // pegadinha
+    video: 'molaridade concentração mol por litro cálculo resumo' // busca no YouTube
+  },
+  {
+    id: 'qm12',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Hidrocarbonetos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os hidrocarbonetos são compostos formados apenas por:', // pergunta
+    alternativas: [                     // opções
+      'Carbono e oxigênio',
+      'Carbono e hidrogênio',
+      'Hidrogênio e nitrogênio',
+      'Carbono e enxofre',
+      'Oxigênio e hidrogênio'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hidrocarboneto = só carbono + hidrogênio: metano (CH4, gás natural), gasolina, etano, propano, benzeno. Se tiver O, N ou outro elemento, é derivado (álcool, cetona...). Os combustíveis fósseis são hidrocarbonetos.', // explicação
+    dica: 'Nomenclatura da prova: metano (1 C), etano (2), propano (3), butano (4), pentano (5). Ligações simples = "-ano" (alcano); dupla = "-eno" (alceno); tripla = "-ino" (alcino). O gás de cozinha é propano+butano.', // pegadinha
+    video: 'hidrocarbonetos metano propano alceno alcino resumo' // busca no YouTube
+  },
+  {
+    id: 'qm13',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Funções orgânicas',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'O álcool etílico (etanol) e a acetona pertencem às funções orgânicas:', // pergunta
+    alternativas: [                     // opções
+      'As duas são álcoois',
+      'Etanol = álcool (OH na cadeia); acetona = cetona (C=O no meio da cadeia)',
+      'As duas são ácidos',
+      'Etanol = éster; acetona = éter',
+      'As duas são fenóis'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Álcool tem -OH ligado a carbono saturado (etanol do álcool); cetona tem C=O dupla no MEIO da cadeia (acetona, removedor de esmalte); ácido carboxílico tem COOH (vinagre/ácido acético); éster dá aroma de frutas.', // explicação
+    dica: 'Funções clássicas da Unicamp: álcool (OH), cetona (C=O no meio), aldeído (C=O na ponta), ácido carboxílico (COOH), éster (COO, aroma), éter (O entre carbonos). Decore o grupo funcional de cada uma.', // pegadinha
+    video: 'funções orgânicas álcool cetona ácido éster resumo' // busca no YouTube
+  },
+  {
+    id: 'qm14',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Catalisador',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um catalisador acelera uma reação química porque:', // pergunta
+    alternativas: [                     // opções
+      'É consumido na reação',
+      'Oferece um caminho alternativo com energia de ativação menor — e não é consumido',
+      'Aumenta a temperatura',
+      'É o produto final',
+      'Impede a reação'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O catalisador abre um "atalho" para a reação: diminui a energia de ativação (a "colina" que os reagentes precisam subir) sem ser consumido — sai intacto. As enzimas do corpo são catalisadores biológicos.', // explicação
+    dica: 'Pontos do ENEM: catalisador NÃO é consumido (reutilizável), NÃO muda o equilíbrio nem o rendimento — só acelera. Inibidor = o contrário (retarda). O catalisador do escapamento do carro converte gases poluentes.', // pegadinha
+    video: 'catalisador energia de ativação reação resumo' // busca no YouTube
+  },
+  {
+    id: 'qm15',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Chuva ácida',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A chuva ácida é causada principalmente pela emissão de:', // pergunta
+    alternativas: [                     // opções
+      'Vapor de água',
+      'Óxidos de enxofre (SOx) e de nitrogênio (NOx) — que viram ácidos na atmosfera',
+      'CO2 sozinho',
+      'Poeira comum',
+      'Oxigênio'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Indústrias e carros queimam combustível fóssil liberando SOx (enxofre) e NOx (nitrogênio); na atmosfera viram ácido sulfúrico e nítrico e descem com a chuva — corroem monumentos, acidificam lagos e matam plantas.', // explicação
+    dica: 'O ENEM separa os poluentes: chuva ácida = SOx/NOx (enxofre e nitrogênio); efeito estufa = CO2/CH4 (carbono); buraco na camada de ozônio = CFCs (clorofluorcarbonos). Cada problema tem seu gás.', // pegadinha
+    video: 'chuva ácida sox nox poluição química resumo' // busca no YouTube
+  },
+  {
+    id: 'qm16',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Polímeros',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Os polímeros (plásticos, borrachas, proteínas) são:', // pergunta
+    alternativas: [                     // opções
+      'Moléculas pequenas',
+      'Macromoléculas formadas pela repetição de unidades menores chamadas monômeros',
+      'Metais',
+      'Gases',
+      'Íons'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Polímero = macromolécula de "contas" repetidas (monômeros): o polietileno (sacola) repete o eteno; o PVC repete cloreto de vinila; as proteínas repetem aminoácidos; o amido repete glicose. Uns são sintéticos, outros naturais.', // explicação
+    dica: 'Polímeros naturais que a banca testa: proteína (aminoácidos), amido/celulose (glicose), DNA (nucleotídeos), borracha natural (isopreno). Sintéticos: PE, PVC, PET, nylon, poliestireno (isopor).', // pegadinha
+    video: 'polímeros monômeros plástico proteína resumo' // busca no YouTube
+  },
+
+  /* ===================== FÍSICA — completando para 16 (f05 a f16) ===================== */
+  {
+    id: 'f05',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'MRU — velocidade constante', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'Um carro percorre 240 km em 3 horas em movimento uniforme. Sua velocidade média é:', // pergunta
+    alternativas: [                     // opções
+      '60 km/h',
+      '80 km/h',
+      '120 km/h',
+      '90 km/h',
+      '720 km/h'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Velocidade média = distância ÷ tempo.',
+      'v = 240 km ÷ 3 h.',
+      'v = 80 km/h.'
+    ],
+    explicacao: 'MRU = velocidade constante: v = Δs/Δt. 240 km em 3 h dão 80 km/h. Se o movimento é uniforme, a velocidade média é igual à instantânea.', // explicação
+    dica: 'As três formas da fórmula: v = d/t (velocidade), d = v·t (distância), t = d/v (tempo). Se a questão pede tempo de viagem, use a terceira. Unidade: km/h ÷ 3,6 = m/s.', // pegadinha
+    video: 'mru velocidade média distância tempo exercício' // busca no YouTube
+  },
+  {
+    id: 'f06',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'MRUV — aceleração',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'No MRUV, a aceleração de 2 m/s² significa que a velocidade do corpo:', // pergunta
+    alternativas: [                     // opções
+      'Fica constante',
+      'Aumenta 2 m/s a cada segundo',
+      'Diminui 2 m/s a cada segundo',
+      'É de 2 m/s sempre',
+      'Zera após 2 segundos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aceleração = variação da velocidade por tempo (a = Δv/Δt). 2 m/s² = a velocidade cresce 2 m/s a cada segundo que passa: 0→2→4→6 m/s. Se fosse −2, seria frenagem.', // explicação
+    dica: 'A Fatec confunde velocidade com aceleração: v = 2 m/s (anda 2 m por segundo) x a = 2 m/s² (ganha 2 m/s por segundo). O "por segundo ao quadrado" é a pista da aceleração.', // pegadinha
+    video: 'mruv aceleração velocidade variação resumo' // busca no YouTube
+  },
+  {
+    id: 'f07',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Terceira lei — ação e reação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Ao remar, o barco avança porque o remo empurra a água para trás e a água empurra o barco para frente. Isso é a:', // pergunta
+    alternativas: [                     // opções
+      'Primeira lei de Newton',
+      'Terceira lei — ação e reação: a toda ação corresponde uma reação igual e oposta',
+      'Lei da gravidade',
+      'Lei da inércia',
+      'Conservação da energia'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '3ª lei (ação-reação): forças vêm em pares — se você empurra a água para trás, ela empurra você para a frente com a mesma força e sentido contrário. Caminhar, foguete, natação e tiro de canhão seguem o mesmo princípio.', // explicação
+    dica: 'Detalhe da 3ª lei que o ENEM explora: ação e reação agem em CORPOS DIFERENTES (remo na água, água no barco) — por isso não se anulam no mesmo objeto. Forças no mesmo corpo podem cancelar; ação/reação, não.', // pegadinha
+    video: 'terceira lei de newton ação e reação exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'f08',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Pressão',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'Uma faca afiada corta melhor que uma cega porque a pressão:', // pergunta
+    alternativas: [                     // opções
+      'Não depende da área',
+      'Aumenta quando a mesma força é aplicada numa área menor',
+      'Diminui com a área pequena',
+      'Não existe na faca',
+      'Depende do peso da faca'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pressão = força ÷ área (P = F/A). Com a mesma força, a lâmina fina (área menor) concentra a pressão e corta — é por isso que a agulha fura e o dedo, não. Salto fino e atado de neve seguem o mesmo princípio.', // explicação
+    dica: 'Exemplos da Fatec: salto de agulha (área mínima → pressão máxima, fura o chão); botas de neve largas (área grande → afunda menos); prego na ponta (fura); pregos na tábua inteira (não fura — cama de faquir).', // pegadinha
+    video: 'pressão força área faca afiada salto agulha resumo' // busca no YouTube
+  },
+  {
+    id: 'f09',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Empuxo — Arquimedes',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Comvest (Unicamp)',         // banca inspiradora
+    enunciado: 'Um navio de aço flutua porque o empuxo da água sobre ele é:', // pergunta
+    alternativas: [                     // opções
+      'Zero',
+      'Igual ao peso do volume de água que o casco desloca',
+      'Menor que o peso do navio',
+      'Só no oceano',
+      'Indiferente ao formato'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Princípio de Arquimedes: o empuxo é igual ao peso do fluido deslocado. O aço do navio é denso, mas o casco oco desloca muito volume de água — a densidade média do conjunto fica menor que a da água e ele flutua.', // explicação
+    dica: 'O truque do aço: o metal é mais denso que a água (afunda sozinho), mas o casco oco cria uma densidade média menor — é a mesma física do barco de papel. Iceberg flutua porque o gelo é menos denso que a água.', // pegadinha
+    video: 'empuxo arquimedes navio flutua densidade resumo' // busca no YouTube
+  },
+  {
+    id: 'f10',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Transmissão de calor',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A garrafa térmica conserva o líquido quente porque:', // pergunta
+    alternativas: [                     // opções
+      'É mágica',
+      'Tem paredes duplas com vácuo que bloqueiam a condução e a convecção do calor',
+      'Tem cor clara',
+      'É de vidro',
+      'Gera calor'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O vácuo entre as paredes da garrafa térmica bloqueia a condução (não há matéria para passar calor) e a convecção (não há fluido para circular). A prata reflete a radiação — três mecanismos de calor bloqueados.', // explicação
+    dica: 'Os 3 modos de transmissão: CONDUÇÃO (contato direto, colher na panela), CONVECÇÃO (fluido circulando, ar condicionado, água fervendo), RADIAÇÃO (onda eletromagnética, sol, lareira). O vácuo só deixa passar radiação.', // pegadinha
+    video: 'transmissão de calor condução convecção radiação resumo' // busca no YouTube
+  },
+  {
+    id: 'f11',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Ondas — elementos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Na onda, o comprimento de onda (λ) é:', // pergunta
+    alternativas: [                     // opções
+      'A altura da crista',
+      'A distância entre duas cristas consecutivas (ou dois pontos iguais do ciclo)',
+      'A velocidade da onda',
+      'O número de ciclos por segundo',
+      'A amplitude'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Comprimento de onda (λ) = distância de um ciclo completo — crista a crista, vale a vale, ou ponto a ponto correspondente. Amplitude = altura (energia); frequência = ciclos por segundo (Hz); período = tempo de um ciclo.', // explicação
+    dica: 'Os 4 elementos que a Unicamp mistura: λ (tamanho do ciclo), amplitude (altura/energia), frequência f (Hz — inverso do período), período T (tempo do ciclo). v = λ·f é a equação fundamental.', // pegadinha
+    video: 'onda comprimento de onda amplitude frequência resumo' // busca no YouTube
+  },
+  {
+    id: 'f12',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Som — propagação',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Univesp (vestibular)',      // banca inspiradora
+    enunciado: 'O som não se propaga no vácuo porque ele é uma onda:', // pergunta
+    alternativas: [                     // opções
+      'Eletromagnética',
+      'Mecânica — precisa de um meio material (ar, água, sólido) para vibrar',
+      'De luz',
+      'Rápida demais',
+      'Lenta demais'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Som = onda mecânica: viaja pelo empurra-empurra das partículas do meio. No vácuo não há partículas para vibrar — por isso no espaço o som não se propaga ("no espaço ninguém ouve seu grito" — a física do Alien).', // explicação
+    dica: 'Par que a Univesp separa: som = mecânica (precisa de meio); luz = eletromagnética (viaja no vácuo). E a velocidade: som ~340 m/s no ar, mais rápido em sólido; luz = 300 mil km/s — a luz é MUITO mais rápida.', // pegadinha
+    video: 'som onda mecânica vácuo propagação resumo' // busca no YouTube
+  },
+  {
+    id: 'f13',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Corrente contínua x alternada', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FATEC/ETEC (vestibular)',   // banca inspiradora
+    enunciado: 'A eletricidade da tomada de casa é corrente alternada (CA), que se diferencia da contínua (CC) porque:', // pergunta
+    alternativas: [                     // opções
+      'Flui num único sentido',
+      'Os elétrons invertem o sentido periodicamente — o que permite transmitir a alta tensão e reduzir perdas',
+      'Não é eletricidade',
+      'Só existe em pilhas',
+      'É mais lenta'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CA = corrente que oscila de sentido (60 Hz no Brasil — 60 ciclos por segundo) — fácil de elevar e abaixar a tensão com transformadores, essencial para transmitir longe. CC = sentido único (pilha, bateria, celular).', // explicação
+    dica: 'Por que a rede usa CA: transformador só funciona com corrente variável — sobe a tensão para a transmissão (menos perda por aquecimento) e desce para a casa. Bateria e celular são CC; tomada é CA.', // pegadinha
+    video: 'corrente alternada contínua tomada pilha diferença resumo' // busca no YouTube
+  },
+  {
+    id: 'f14',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Potência e consumo elétrico', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um chuveiro de 5.500 W ligado por 1 hora consome:', // pergunta
+    alternativas: [                     // opções
+      '5,5 W',
+      '5,5 kWh de energia — potência × tempo',
+      '55 kWh',
+      '0,55 kWh',
+      '550 kWh'
+    ],
+    correta: 1,                         // índice da certa
+    passos: [                           // passo a passo
+      'Energia = potência × tempo.',
+      '5.500 W = 5,5 kW.',
+      '5,5 kW × 1 h = 5,5 kWh.'
+    ],
+    explicacao: 'Energia = P × t. 5,5 kW × 1 h = 5,5 kWh — a conta de luz cobra por kWh consumido. Chuveiro, ar-condicionado e secador são os "vilões" da conta porque têm potência alta.', // explicação
+    dica: 'O ENEM cobra a conta real: kWh = kW × horas. 1.000 W = 1 kW. Aparelho potente + tempo longo = conta alta. O chuveiro de 5.500 W por 30 min/dia num mês consome ~82 kWh.', // pegadinha
+    video: 'potência elétrica consumo kwh conta de luz resumo' // busca no YouTube
+  },
+  {
+    id: 'f15',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Espelhos e lentes',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Unicamp (Comvest)',         // banca inspiradora
+    enunciado: 'Os óculos de quem é míope usam lentes:', // pergunta
+    alternativas: [                     // opções
+      'Convergentes — juntam a luz',
+      'Divergentes — espalham a luz para trás do foco e corrigem a imagem que se forma antes da retina',
+      'Prismáticas',
+      'Cilíndricas',
+      'Espelhadas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Miopia = a imagem se forma ANTES da retina (não enxerga longe): a lente DIVERGENTE joga o foco para trás, na retina. Hipermetropia (não enxerga perto) usa CONVERGENTE. Astigmatismo usa cilíndrica.', // explicação
+    dica: 'Padrão óptico da Unicamp: miopia → divergente; hipermetropia → convergente; astigmatismo → cilíndrica (corrige a córnea torta). Na miopia, "ver longe" é o problema.', // pegadinha
+    video: 'miopia lente divergente hipermetropia convergente resumo' // busca no YouTube
+  },
+  {
+    id: 'f16',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Peso x massa',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na Lua, a massa de um astronauta e o seu peso:', // pergunta
+    alternativas: [                     // opções
+      'Os dois ficam iguais à Terra',
+      'A massa permanece a mesma; o peso diminui porque a gravidade lunar é menor',
+      'Os dois dobram',
+      'A massa some',
+      'O peso aumenta'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Massa = quantidade de matéria (não muda em lugar nenhum). Peso = força gravitacional sobre a massa (P = m·g): na Lua g ≈ 1,6 m/s² → o astronauta de 70 kg "pesa" ~1/6 do peso terrestre, mas tem a mesma massa.', // explicação
+    dica: 'O ENEM testa a confusão: massa (kg) é intrínseca; peso (N) depende do planeta. Balança mede massa; dinamômetro mede peso (força). "Perdi 5 kg" na vida real quer dizer 5 kg de massa — mas o físico diria que você pesa menos.', // pegadinha
+    video: 'peso e massa diferença gravidade lua resumo' // busca no YouTube
   }
 ];
