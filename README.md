@@ -3,7 +3,7 @@
 > **Estude com sabor de aprovação.**
 > Um sistema de estudos para concursos públicos e vestibulares que roda 100% no seu navegador: você importa o edital, descobre o que estudar, faz simulados com correção comentada e acompanha seu progresso — tudo num clima de cafeteria.
 >
-> 🤖 *Projeto desenvolvido com auxílio de inteligência artificial — modelo **SWE-2** (Devin, da Cognition).*
+> 🤖 *Projeto desenvolvido com auxílio de inteligência artificial
 
 ---
 
