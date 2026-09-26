@@ -59,6 +59,14 @@
 - **Commits sem atribuição do Devin**: o usuário pediu (2026-09-26) para remover
   `Generated with [Devin]` e `Co-Authored-By: Devin` das mensagens de commit.
 
+### Limpeza executada (2026-09-26)
+- `git filter-branch --msg-filter` removeu os trailers `Generated with [Devin]` e
+  `Co-Authored-By: Devin` de **todos os 33 commits** do `main` (19 tinham a marca).
+- Nenhum commit era *autorado* pelo bot — Devin era só co-autor no trailer.
+- `git push --force-with-lease` publicou o histórico reescrito; `refs/original/*`
+  (backup local do filter-branch) foi apagado em seguida.
+- Opção sem squash/commit vazio: preserva o histórico de 33 commits; hashes mudaram.
+
 ## Observações / handoff
 - O SW só passa a valer depois do primeiro carregamento online (comportamento padrão de PWA).
 - Atualizações de arquivos propagam via stale-while-revalidate: primeiro acesso serve o cache,
