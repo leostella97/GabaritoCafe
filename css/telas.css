@@ -240,6 +240,19 @@
   overflow: hidden;                 /* corta se passar */
 }
 
+/* TEAM_001: coluna fantasma — traço tracejado onde uma prova nova pode entrar */
+.grafico .coluna.fantasma .barra {
+  background: transparent;                    /* sem preenchimento */
+  border: 2px dashed var(--marrom-suave);     /* contorno tracejado */
+  opacity: 0.45;                              /* discreto: é um convite, não um dado */
+  height: 26%;                                /* altura simbólica de "espaço a preencher" */
+  min-height: 20px;                           /* nunca some de verdade */
+}
+
+.grafico .coluna.fantasma .rotulo {
+  color: transparent;                         /* ponto invisível só para alinhar a coluna */
+}
+
 .linha-materia {                    /* linha de desempenho por matéria */
   display: grid;                    /* nome + barra + percentual */
   grid-template-columns: 150px 1fr 52px; /* colunas fixas */

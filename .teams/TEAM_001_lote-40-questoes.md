@@ -315,3 +315,18 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 ### Verificação
 - Script: concursos 51 visíveis + 69 extras (17 botões) | vestibular 45 + 37 (15 botões) | 0 tópicos malformados.
 - `node --check` em dados-temas.js e conteudo.js ✅ | `validar-idiomas.js` ✅.
+
+---
+
+## Tarefa 13 — "Sua evolução": traços nos lugares vazios
+
+### Pedido
+- "melhore a aparencia do gráfico 'sua evolução' não tem coluna coloque traços para indicar que pode adicionar mais fazendo mais"
+
+### O que foi feito
+- `dashboard.js`: após as colunas reais (até 10 últimas provas), renderiza `10 - ultimas.length` colunas `.fantasma` — traço tracejado + tooltip traduzido (`dash_vaga`) convidando a fazer mais simulados.
+- `telas.css`: `.coluna.fantasma .barra` — borda tracejada `--marrom-suave`, 45% de opacidade, altura simbólica 26%; rótulo invisível para manter o alinhamento.
+- `idioma.js`: chave `dash_vaga` ×3 (pt/en/es).
+
+### Verificação
+- `validar-idiomas.js` ✅ | `node --check` ✅.

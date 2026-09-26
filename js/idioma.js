@@ -135,6 +135,7 @@ const Idioma = {
       dash_evolucao_sub: 'Percentual de acertos nos últimos simulados (o último é o {pct}% de hoje).', // legenda
       dash_materia: '📚 Como você está por matéria',        // seção
       dash_materia_vazio: 'Faz um simulado por matéria para ver seu desempenho aqui.', // sem dados
+      dash_vaga: 'Espaço livre: faça mais simulados para preencher aqui', // dica do lugar vazio do gráfico
 
       // Edital
       ed_zona_t: 'Bota o edital na mesa',                   // título da zona de upload
@@ -398,6 +399,7 @@ const Idioma = {
       dash_evolucao_sub: 'Accuracy in your latest mock tests (the last one is today’s {pct}%).',
       dash_materia: '📚 How you are doing by subject',
       dash_materia_vazio: 'Take a mock test by subject to see your performance here.',
+      dash_vaga: 'Free slot: take more mock tests to fill it',
 
       // Exam notice
       ed_zona_t: 'Put the exam notice on the table',
@@ -661,6 +663,7 @@ const Idioma = {
       dash_evolucao_sub: 'Porcentaje de aciertos en los últimos simulacros (el último es el {pct}% de hoy).',
       dash_materia: '📚 Cómo vas por materia',
       dash_materia_vazio: 'Haz un simulacro por materia para ver tu rendimiento aquí.',
+      dash_vaga: 'Espacio libre: haz más simulacros para llenarlo',
 
       // Convocatoria
       ed_zona_t: 'Pon la convocatoria sobre la mesa',

@@ -88,6 +88,14 @@ const DashboardUI = {
       html += '<span class="rotulo">' + data + '</span>';   // data embaixo
       html += '</div>';                                     // fecha a coluna
     }
+    // TEAM_001: lugares vazios ganham traços tracejados — o espaço espera provas novas
+    const vagas = 10 - ultimas.length;                      // quantas colunas faltam para 10
+    for (let i = 0; i < vagas; i++) {                       // uma coluna fantasma por vaga
+      html += '<div class="coluna fantasma" title="' + T('dash_vaga') + '">'; // espaço reservado
+      html += '<div class="barra"></div>';                  // o traço tracejado
+      html += '<span class="rotulo">·</span>';              // rótulo vazio (mantém alinhamento)
+      html += '</div>';                                     // fecha o fantasma
+    }
     html += '</div></div>';                                 // fecha gráfico e cartão
 
     // ---- Desempenho por matéria (de todo o histórico) ----
