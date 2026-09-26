@@ -294,3 +294,24 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - `validar-banco.js` ✅ **1.074 questões / 0 problemas / 29 matérias** (facil=289, medio=717, dificil=68; medio=955, superior=119).
 - Contagem por matéria: zero duplicatas; as 19 afetadas todas >30.
 - `validar-idiomas.js` ✅ | `testar-analise.js` ✅ | `node --check` em todos os 15 JS ✅.
+
+---
+
+## Tarefa 12 — Temas que caem: +72 tópicos e "Ver mais…" por cartão
+
+### Pedido
+- "temas que caem: complete mais os tópicos das matérias, mostre o primeiro grupo e abaixo texto 'Ver mais...' clica mostra o resto"
+
+### O que foi feito
+- `dados-temas.js`: **+72 tópicos** distribuídos nas 32 matérias — todas agora com 5-8 tópicos (antes 3-6):
+  - Concursos (17 matérias): Portuguesa +2, Matemática +2, Raciocínio +2, Informática +2, Constitucional +2, Administrativo +2, Atualidades +2, Legislação +2, Ética +2, Penal +2, Previdenciário +2, Criminologia +3, Civil +3, Trabalho +3, Administração +2, Contabilidade +2, Pedagogia +2
+  - Vestibular (15 matérias): Redação +3, História +2, Geografia +2, Biologia +3, Física +3, Química +3, Literatura +3, Inglês +2, Espanhol +2, Artes +2, Ed. Física +2, Fisiologia +2, Filosofia +2, Sociologia +2, Economia +2
+  - Temas novos: classes de palavras, figuras de linguagem, MMC/MDC, calendários, LGPD, art. 144 (segurança), concessões, geopolítica, ECA, LAI, nepotismo, dosimetria, Maria da Penha, papiloscopia, balística, prescrição/decadência civil, reforma 2017, ACT/CCT, PPP, citologia, fotossíntese, imunologia, óptica, ondas, tabela periódica, pH, Barroco/Arcadismo, Naturalismo, conectivos EN/ES, arte contemporânea/indígena, regras de esporte, Aristóteles, contratualistas, indústria cultural, Marshall, mercado financeiro, comércio internacional…
+- `conteudo.js` `mostrar()`: renderiza só os **3 primeiros tópicos** visíveis; os demais ganham `.tema-extra` (escondido); cartões com >3 tópicos recebem botão `.ver-mais.tema-ver-mais`. Listener **delegado** em `#lista-temas` alterna `.aberto` no cartão e troca o rótulo — funciona nas duas abas sem religar.
+- `css/componentes.css`: `.tema-extra {display:none}`, `.cartao.aberto .tema-extra {display:block}`, respiro do botão.
+- i18n: reutiliza `ed_ver_mais`/`ed_ver_menos` (já existentes ×3) — zero chaves novas.
+- `css/telas.css`: gráfico "Sua evolução" — `.grafico` limitado a 520px centralizado + `.coluna` teto 52px (tarefa anterior "aproxime as colunas").
+
+### Verificação
+- Script: concursos 51 visíveis + 69 extras (17 botões) | vestibular 45 + 37 (15 botões) | 0 tópicos malformados.
+- `node --check` em dados-temas.js e conteudo.js ✅ | `validar-idiomas.js` ✅.

@@ -20,7 +20,9 @@ const DadosTemas = {
         { nome: 'Crase', frequencia: 4, porque: 'É clássica, tem regra decorável e a banca sabe que você confunde "a" com "à".', como: 'Troque a palavra por uma masculina: se aparecer "ao", tem crase. "Vou à praia" → "Vou ao clube".' },
         { nome: 'Pontuação (especialmente vírgula)', frequencia: 4, porque: 'Uma vírgula muda o sentido, e a banca cobra exatamente isso.', como: 'Nunca separe sujeito de verbo. Releia em voz alta: onde você respira, a vírgula costuma morar.' },
         { nome: 'Regência verbal e nominal', frequencia: 3, porque: 'Verbos como "assistir", "preferir" e "visar" são os queridinhos das bancas.', como: 'Faça fichas dos verbos que mudam de sentido conforme a preposição (assistir o / assistir a).' },
-        { nome: 'Colocação pronominal', frequencia: 3, porque: 'Cai direto na FCC e na FGV, quase sempre com palavra negativa atraindo o pronome.', como: 'Decore os gatilhos de próclise: palavras negativas, advérbios e pronomes relativos puxam o pronome para antes do verbo.' }
+        { nome: 'Colocação pronominal', frequencia: 3, porque: 'Cai direto na FCC e na FGV, quase sempre com palavra negativa atraindo o pronome.', como: 'Decore os gatilhos de próclise: palavras negativas, advérbios e pronomes relativos puxam o pronome para antes do verbo.' },
+        { nome: 'Classes de palavras e morfologia', frequencia: 4, porque: 'Pronomes, conjunções e afixos aparecem em análise e reescrita de frases.', como: 'Decore a função de cada classe: pronome substitui o nome, conjunção liga orações, artigo determina. Identifique-as no texto real.' },
+        { nome: 'Figuras de linguagem', frequencia: 3, porque: 'Metáfora, metonímia e hipérbole caem na interpretação.', como: 'Metáfora = comparação implícita; metonímia = parte pelo todo; hipérbole = exagero. Um exemplo do cotidiano para cada.' }
       ]
     },
     {
@@ -33,7 +35,9 @@ const DadosTemas = {
         { nome: 'Juros simples e compostos', frequencia: 4, porque: 'Cai em quase todo edital que tem matemática financeira.', como: 'Simples: J = C·i·t. Composto: M = C·(1+i)^t. Grave as fórmulas e faça 10 questões de cada.' },
         { nome: 'Média aritmética', frequencia: 4, porque: 'É rápida de cobrar e rende questão "de graça" para quem treinou.', como: 'Some tudo e divida pela quantidade. Em média ponderada, não esqueça de multiplicar pelos pesos.' },
         { nome: 'Equações e sistemas do 1º grau', frequencia: 3, porque: 'Aparece disfarçada em probleminhas de texto.', como: 'Traduza o texto: "o dobro de x mais 5" vira 2x + 5. Depois isole o x sem medo.' },
-        { nome: 'Razão, proporção e divisão proporcional', frequencia: 3, porque: 'Divide lucro, mistura tinta e paga herança: a banca ama.', como: 'Some as partes da razão e divida o total por essa soma para achar o valor de uma "parte".' }
+        { nome: 'Razão, proporção e divisão proporcional', frequencia: 3, porque: 'Divide lucro, mistura tinta e paga herança: a banca ama.', como: 'Some as partes da razão e divida o total por essa soma para achar o valor de uma "parte".' },
+        { nome: 'MMC e MDC', frequencia: 3, porque: 'Problemas de ciclo e divisão exata rendem questão rápida.', como: 'MDC divide juntos; MMC encontra o reencontro dos ciclos. Fature nos primos e monte a tabelinha.' },
+        { nome: 'Expressões numéricas e potências', frequencia: 4, porque: 'A ordem das operações é o erro mais clássico.', como: 'Parênteses → potência → multiplicação/divisão → soma/subtração. Treine a ordem até virar automático.' }
       ]
     },
     {
@@ -45,7 +49,9 @@ const DadosTemas = {
         { nome: 'Sequências lógicas', frequencia: 4, porque: 'Aparece em toda prova e vale ponto rápido para quem enxerga o padrão.', como: 'Olhe a diferença entre termos seguidos antes de inventar fórmula: quase sempre é soma ou multiplicação.' },
         { nome: 'Diagramas lógicos (todo/algum/nenhum)', frequencia: 4, porque: 'Questão clássica de "todo A é B" que confunde geral.', como: 'Desenhe círculos! "Todo A é B" = círculo A dentro do B. O desenho resolve sem decorar.' },
         { nome: 'Verdades e mentiras', frequencia: 3, porque: 'Parece charada, mas tem método: testar cada hipótese.', como: 'Supõe que o primeiro diz a verdade e vê se o resto se sustenta. Se quebrar, troca a hipótese.' },
-        { nome: 'Contagem e princípio multiplicativo', frequencia: 3, porque: 'Questão de combinar camiseta com calça que todo mundo erra por desatenção.', como: 'Multiplique as escolhas independentes. Se a ordem importar, é arranjo; se não, combinação.' }
+        { nome: 'Contagem e princípio multiplicativo', frequencia: 3, porque: 'Questão de combinar camiseta com calça que todo mundo erra por desatenção.', como: 'Multiplique as escolhas independentes. Se a ordem importar, é arranjo; se não, combinação.' },
+        { nome: 'Calendários e contagem de dias', frequencia: 3, porque: '"Que dia da semana será daqui a N dias?" cai direto.', como: 'Divida por 7 e trabalhe com o resto: 30 dias = 4 semanas + 2 dias para frente.' },
+        { nome: 'Silogismo e argumentação', frequencia: 3, porque: '"Se todo A é B e todo B é C..." é modelo fixo da banca.', como: 'Desenhe os círculos: encaixe as premissas e só conclua o que o desenho forçar.' }
       ]
     },
     {
@@ -57,7 +63,9 @@ const DadosTemas = {
         { nome: 'Segurança da informação', frequencia: 4, porque: 'Phishing, malware e backup caem em toda prova recente.', como: 'Entenda os golpes: phishing imita banco e pede seus dados; backup é cópia de segurança. Relacione exemplos reais.' },
         { nome: 'Atalhos e Windows', frequencia: 4, porque: 'É o "ponto fácil" que a banca dá para quem usa o computador no dia a dia.', como: 'Decore os clássicos: Ctrl+C copiar, Ctrl+V colar, Ctrl+Z desfazer, Alt+Tab trocar janela, Alt+= soma no Excel.' },
         { nome: 'Internet e navegadores', frequencia: 3, porque: 'Modo anônimo e HTTP/HTTPS são perguntas certeiras.', como: 'Guarde: modo anônimo não esconde sua navegação do provedor, só do histórico local.' },
-        { nome: 'Hardware básico', frequencia: 3, porque: 'RAM, SSD e processador aparecem em questões conceituais.', como: 'RAM é memória volátil (some ao desligar); SSD é armazenamento. Uma frase para cada peça resolve.' }
+        { nome: 'Hardware básico', frequencia: 3, porque: 'RAM, SSD e processador aparecem em questões conceituais.', como: 'RAM é memória volátil (some ao desligar); SSD é armazenamento. Uma frase para cada peça resolve.' },
+        { nome: 'Word e editores de texto', frequencia: 3, porque: 'Atalhos de formatação são perguntas frequentes.', como: 'Ctrl+N negrito, Ctrl+S sublinhado, Ctrl+I itálico. Treine no programa de verdade.' },
+        { nome: 'LGPD e privacidade digital', frequencia: 4, porque: 'A lei de dados virou assunto certo em provas recentes.', como: 'Saiba os direitos do titular (acesso, correção, exclusão) e os papéis: controlador decide, operador executa.' }
       ]
     },
     {
@@ -69,7 +77,9 @@ const DadosTemas = {
         { nome: 'Remédios constitucionais (HC, MS, HD)', frequencia: 4, porque: 'Toda banca pergunta "qual remédio para qual direito".', como: 'Decore a tríade: Habeas Corpus = liberdade de locomoção; Mandado de Segurança = direito líquido e certo; Habeas Data = informações pessoais.' },
         { nome: 'Nacionalidade', frequencia: 4, porque: 'As exceções (estrangeiro a serviço do país) são pegadinha clássica.', como: 'Monte uma tabela: nato x naturalizado, com as exceções de cada caso. A exceção é a questão.' },
         { nome: 'Administração pública (art. 37)', frequencia: 4, porque: 'Os princípios LIMPE caem em TODA prova, inclusive de português e ética.', como: 'Decore LIMPE: Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência — e o que cada um significa.' },
-        { nome: 'Organização dos poderes', frequencia: 3, porque: 'Separação de poderes e competências aparecem com frequência.', como: 'Faça um mapa mental com Legislativo, Executivo e Judiciário e a função típica de cada um.' }
+        { nome: 'Organização dos poderes', frequencia: 3, porque: 'Separação de poderes e competências aparecem com frequência.', como: 'Faça um mapa mental com Legislativo, Executivo e Judiciário e a função típica de cada um.' },
+        { nome: 'Direitos sociais (art. 6º-11)', frequencia: 4, porque: 'Saúde, educação e trabalho caem todo ano — e o rol é exemplificativo.', como: 'Decore os direitos sociais: saúde, educação, trabalho, moradia, lazer, segurança, previdência, proteção à maternidade e à infância, assistência.' },
+        { nome: 'Segurança pública (art. 144)', frequencia: 3, porque: 'PF, PRF, PM e GCM cobram as competências de cada órgão.', como: 'PF = polícia judiciária da União; PRF = rodovias federais; PM = policiamento ostensivo; GCM = proteção de bens municipais. Um papel por força.' }
       ]
     },
     {
@@ -81,7 +91,9 @@ const DadosTemas = {
         { nome: 'Poderes administrativos', frequencia: 4, porque: 'Poder de polícia é disparado o mais cobrado.', como: 'Poder de polícia = Estado limitando direitos em nome do coletivo. Pense em fiscalização, alvará e multa.' },
         { nome: 'Licitações (Lei 14.133/2021)', frequencia: 4, porque: 'A lei nova virou febre nas provas recentes.', como: 'Decore as 5 modalidades novas: pregão, concorrência, concurso, leilão e diálogo competitivo.' },
         { nome: 'Responsabilidade civil do Estado', frequencia: 4, porque: 'O art. 37, §6º da CF é clássico de prova.', como: 'Guarde: o Estado responde objetivamente (não precisa provar culpa) pelos danos de seus agentes.' },
-        { nome: 'Improbidade administrativa (Lei 8.429)', frequencia: 4, porque: 'As três espécies de ato ímprobo caem muito.', como: 'Decore os 3 tipos: enriquecimento ilícito, prejuízo ao erário e violação de princípios.' }
+        { nome: 'Improbidade administrativa (Lei 8.429)', frequencia: 4, porque: 'As três espécies de ato ímprobo caem muito.', como: 'Decore os 3 tipos: enriquecimento ilícito, prejuízo ao erário e violação de princípios.' },
+        { nome: 'Organização administrativa', frequencia: 3, porque: 'Autarquia, fundação e empresa pública se confundem.', como: 'Autarquia = direito público, criada por lei; fundação = pública ou privada; empresa pública = 100% estatal; SEM = capital misto.' },
+        { nome: 'Serviços públicos e concessões', frequencia: 4, porque: 'Delegação e concessão caem contextualizados.', como: 'Concessão = licitação + contrato para empresa privada; permissão = precária e revogável. O serviço continua público.' }
       ]
     },
     {
@@ -93,7 +105,9 @@ const DadosTemas = {
         { nome: 'Tecnologia e inteligência artificial', frequencia: 4, porque: 'IA generativa virou pergunta padrão de atualidades.', como: 'Entenda o básico: IA generativa cria conteúdo novo (texto, imagem) a partir de padrões aprendidos.' },
         { nome: 'Saúde e SUS', frequencia: 3, porque: 'Universalidade, integralidade e equidade caem até em prova de prefeitura.', como: 'Decore os 3 princípios do SUS e o que cada um significa na prática.' },
         { nome: 'Economia brasileira', frequencia: 3, porque: 'Inflação, juros e emprego aparecem contextualizados.', como: 'Inflação = aumento generalizado de preços. Quando ela sobe, o Banco Central sobe os juros. Ponto.' },
-        { nome: 'Cidadania e democracia', frequencia: 3, porque: 'Voto, direitos e deveres são clássicos de prova cidadã.', como: 'Guarde as idades: voto obrigatório dos 18 aos 70; facultativo aos 16-17 e acima de 70.' }
+        { nome: 'Cidadania e democracia', frequencia: 3, porque: 'Voto, direitos e deveres são clássicos de prova cidadã.', como: 'Guarde as idades: voto obrigatório dos 18 aos 70; facultativo aos 16-17 e acima de 70.' },
+        { nome: 'Geopolítica e conflitos atuais', frequencia: 4, porque: 'Guerras e blocos aparecem contextualizados em objetivas e redação.', como: 'Mapeie os conflitos do ano: quem são os lados, o que está em jogo e o papel dos organismos internacionais.' },
+        { nome: 'Eleições e sistema eleitoral', frequencia: 3, porque: 'Voto, urna eletrônica e TSE são temas de cidadania.', como: 'TSE organiza as eleições; maioria absoluta elege em 1º turno presidente, governador e prefeito (cidades >200 mil).' }
       ]
     },
     {
@@ -105,7 +119,9 @@ const DadosTemas = {
         { nome: 'Lei Orgânica / leis municipais', frequencia: 4, porque: 'Concurso de prefeitura cobra a lei local na veia.', como: 'Imprima a lei orgânica do município e grife prazos e competências: é decoreba pura.' },
         { nome: 'Lei 8.112 (regime federal)', frequencia: 5, porque: 'Nomeação, posse, licenças e PAD são clássicos de nível médio.', como: 'Decore os prazos: 30 dias para posse, 15 para exercício; e as licenças que mais caem.' },
         { nome: 'Lei de licitações (14.133)', frequencia: 4, porque: 'A lei nova virou febre nas provas recentes.', como: 'Decore as 5 modalidades e para que serve cada uma: pregão é bens e serviços comuns.' },
-        { nome: 'LGPD e proteção de dados', frequencia: 3, porque: 'Lei recente que já virou pergunta padrão.', como: 'Foque nos direitos do titular: consentimento, acesso, correção e exclusão dos dados.' }
+        { nome: 'LGPD e proteção de dados', frequencia: 3, porque: 'Lei recente que já virou pergunta padrão.', como: 'Foque nos direitos do titular: consentimento, acesso, correção e exclusão dos dados.' },
+        { nome: 'Improbidade (Lei 8.429)', frequencia: 4, porque: 'Os três tipos de ato ímprobo caem disfarçados de situação.', como: 'Enriquecimento ilícito (o mais grave), prejuízo ao erário e violação de princípios — cada um com sua pena.' },
+        { nome: 'ECA — criança e adolescente', frequencia: 4, porque: 'Proteção integral e prioridade caem em concursos de prefeitura.', como: 'Criança = até 12 anos; adolescente = 12-18; prioridade absoluta no atendimento; direito à vida, saúde e educação.' }
       ]
     },
     {
@@ -117,7 +133,9 @@ const DadosTemas = {
         { nome: 'Código de ética (Decreto 1.171)', frequencia: 5, porque: 'A lista de deveres e vedações do servidor é decoreba certa.', como: 'Leia o decreto original: são só 4 páginas e a banca copia os incisos.' },
         { nome: 'Conflito de interesses', frequencia: 4, porque: 'Situação-problema clássica das provas de ética.', como: 'Regra prática: o servidor deve declarar o conflito e se impedir de agir — memorize isso.' },
         { nome: 'Comissão de ética e censura', frequencia: 4, porque: 'As bancas confundem censura ética com demissão de propósito.', como: 'Guarde: comissão de ética só aplica CENSURA; demissão é do PAD; crime é do juiz.' },
-        { nome: 'Ética x moral x direito', frequencia: 3, porque: 'Conceituação que abre toda prova de ética.', como: 'Moral = a prática vivida; ética = a reflexão sobre ela; direito = a norma escrita. Uma frase para cada.' }
+        { nome: 'Ética x moral x direito', frequencia: 3, porque: 'Conceituação que abre toda prova de ética.', como: 'Moral = a prática vivida; ética = a reflexão sobre ela; direito = a norma escrita. Uma frase para cada.' },
+        { nome: 'Acesso à informação (LAI)', frequencia: 4, porque: 'Transparência pública é tema quente nas provas.', como: 'Todo cidadão pode pedir informação pública sem justificar; o sigilo só vale nos casos da lei (segurança, intimidade).' },
+        { nome: 'Nepotismo e moralidade', frequencia: 4, porque: 'A Súmula Vinculante 13 é pegadinha clássica.', como: 'Nepotismo = parente em cargo comissionado, direto ou cruzado — vedado; ferir a moralidade é ato ímprobo.' }
       ]
     },
     {
@@ -129,7 +147,9 @@ const DadosTemas = {
         { nome: 'Crimes contra a administração', frequencia: 5, porque: 'Peculato e corrupção são assinatura da CESPE.', como: 'Peculato = desvio do que já está sob sua guarda; corrupção passiva = pedir/receber vantagem. Decore os verbos.' },
         { nome: 'Legítima defesa e excludentes', frequencia: 4, porque: 'PM, GCM e penal cobram os requisitos na veia.', como: 'Decore: uso moderado dos meios necessários + repelir injusta agressão atual/iminente. Excesso = pune.' },
         { nome: 'Flagrante e prisão', frequencia: 4, porque: 'Qualquer cidadão pode prender em flagrante — a banca adora.', como: 'Flagrante = faculdade (não crime não prender). Só juiz decreta preventiva.' },
-        { nome: 'LEP — execução penal', frequencia: 4, porque: 'Regimes e progressão são o coração de polícia penal.', como: 'Aberto = albergue domiciliar; semiaberto = trabalho fora; fechado = presídio. Progressão = bom comportamento + fração da pena.' }
+        { nome: 'LEP — execução penal', frequencia: 4, porque: 'Regimes e progressão são o coração de polícia penal.', como: 'Aberto = albergue domiciliar; semiaberto = trabalho fora; fechado = presídio. Progressão = bom comportamento + fração da pena.' },
+        { nome: 'Dosimetria e regimes de pena', frequencia: 4, porque: 'PM e polícia penal cobram as três fases e os limites de cada regime.', como: '1ª fase = circunstâncias do art. 59; 2ª = agravantes/atenuantes; 3ª = causas de aumento/diminuição. Fechado >8 anos, semiaberto 4-8, aberto até 4.' },
+        { nome: 'Maria da Penha e crimes hediondos', frequencia: 4, porque: 'Medida protetiva e hediondez são presença garantida.', como: 'Protetiva = urgência judicial para proteger a vítima; hediondos (estupro, latrocínio, tráfico) = insuscetíveis de fiança e anistia.' }
       ]
     },
     {
@@ -141,7 +161,9 @@ const DadosTemas = {
         { nome: 'Carência e qualidade de segurado', frequencia: 5, porque: 'Os prazos (12/24/36 meses) são pegadinha garantida.', como: 'Carência = contribuições mínimas para pedir o benefício; qualidade = estar na graça do sistema. Não misture.' },
         { nome: 'Benefícios (aposentadorias, auxílios)', frequencia: 5, porque: 'Auxílio por incapacidade, aposentadorias e salário-maternidade caem sempre.', como: 'Monte a tabela: cada benefício tem idade/carência próprias. BPC é assistencial — não exige contribuição.' },
         { nome: 'Pensão por morte', frequencia: 4, porque: 'A dependência presumida é pegadinha clássica.', como: 'Cônjuge, companheiro e filho menor = dependência presumida; pais e irmãos precisam provar.' },
-        { nome: 'Reforma de 2019 e transição', frequencia: 4, porque: 'As regras novas são o que a banca cobra agora.', como: 'Guarde as idades (62/65) + contribuição mínima e saiba que transição protege quem já estava no sistema.' }
+        { nome: 'Reforma de 2019 e transição', frequencia: 4, porque: 'As regras novas são o que a banca cobra agora.', como: 'Guarde as idades (62/65) + contribuição mínima e saiba que transição protege quem já estava no sistema.' },
+        { nome: 'Período de graça e teto do INSS', frequencia: 4, porque: 'Os prazos que mantêm a qualidade de segurado são cobrados ao pé da letra.', como: 'Graça = até 12 meses sem contribuir mantendo direitos (36 para desempregado/BPC); o teto limita qualquer benefício.' },
+        { nome: 'Auxílio por incapacidade', frequencia: 4, porque: 'A diferença entre auxílio comum e acidentário é clássica.', como: 'Acidentário = decorre de acidente de trabalho (estabilidade de 12 meses ao voltar); comum = qualquer incapacidade. Carência de 12 contribuições, salvo acidente.' }
       ]
     },
     {
@@ -152,7 +174,10 @@ const DadosTemas = {
         { nome: 'Escolas criminológicas', frequencia: 5, porque: 'Clássica x Positivista é a questão mais batida.', como: 'Beccaria (livre-arbítrio, lei) x Lombroso (determinismo, criminoso). Um autor por escola.' },
         { nome: 'Cadeia de custódia', frequencia: 4, porque: 'Perito e investigador precisam dominar o rastro da prova.', como: 'A cadeia garante que a prova não foi alterada: quem coletou, transportou e guardou — cada elo importa.' },
         { nome: 'Vestígio x prova', frequencia: 4, porque: 'A diferença conceitual cai literal.', como: 'Vestígio = o que sobrou do crime; indício = o que sugere; prova = o que convence o juiz. Ordem crescente.' },
-        { nome: 'Corpo de delito e quesitos', frequencia: 3, porque: 'Terminologia de perícia aparece em editais policiais.', como: 'Corpo de delito = o conjunto de vestígios que materializa o crime; quesitos são as perguntas que o juiz faz ao perito.' }
+        { nome: 'Corpo de delito e quesitos', frequencia: 3, porque: 'Terminologia de perícia aparece em editais policiais.', como: 'Corpo de delito = o conjunto de vestígios que materializa o crime; quesitos são as perguntas que o juiz faz ao perito.' },
+        { nome: 'Perícias e corpo de delito', frequencia: 4, porque: 'A terminologia pericial cai literal nas provas policiais.', como: 'Corpo de delito = o conjunto de vestígios que materializa o crime; necropsia é para cadáver; quesitos são as perguntas do juiz ao perito.' },
+        { nome: 'Papiloscopia e balística', frequencia: 4, porque: 'Digital e projétil são as perícias mais citadas.', como: 'Papiloscopia compara cristas (arcos, presilhas, verticilos); balística compara as estrias que o cano deixa na ogiva.' },
+        { nome: 'Penas e medidas de segurança', frequencia: 3, porque: 'O sistema sancionador aparece em provas de PP e polícia.', como: 'Pena privativa = para o imputável; medida de segurança = internação do inimputável perigoso (doença mental). Dois destinos diferentes.' }
       ]
     },
     {
@@ -163,7 +188,10 @@ const DadosTemas = {
         { nome: 'Capacidade civil', frequencia: 4, porque: 'Absoluta/relativa incapacidade é pegadinha de idade.', como: 'Decore: absoluta até 16; relativa 16-18, 70+, prodigalidade... Plena aos 18 (com emancipação como exceção).' },
         { nome: 'Obrigações e inadimplemento', frequencia: 4, porque: 'Dar, fazer, não fazer e a mora são conceitos-chave.', como: 'Mora = atraso culposo; inadimplemento = descumprimento. O credor pode exigir perdas e danos.' },
         { nome: 'Responsabilidade civil', frequencia: 4, porque: 'Dano, nexo e culpa são os elementos cobrados.', como: 'Responsabilidade subjetiva = precisa de culpa/dolo; objetiva = basta o dano+ nexo (atividade de risco).' },
-        { nome: 'Contratos', frequencia: 3, porque: 'Elementos e vícios do contrato aparecem em tribunal.', como: 'Elementos: agente capaz + objeto lícito + forma prescrita. Vício de consentimento = coação, erro, dolo.' }
+        { nome: 'Contratos', frequencia: 3, porque: 'Elementos e vícios do contrato aparecem em tribunal.', como: 'Elementos: agente capaz + objeto lícito + forma prescrita. Vício de consentimento = coação, erro, dolo.' },
+        { nome: 'Bens e propriedade', frequencia: 3, porque: 'Posse x propriedade e os tipos de bem caem em tribunais.', como: 'Posse = fato (detém a coisa); propriedade = direito (é o dono). Imóvel = terra; móvel = se desloca; bem de família = protegido.' },
+        { nome: 'Família e sucessões', frequencia: 3, porque: 'Herança, legítima e testamento são clássicos.', como: 'Legítima = metade reservada aos herdeiros necessários (descendentes, ascendentes, cônjuge); o testamento só dispõe da outra metade.' },
+        { nome: 'Prescrição e decadência', frequencia: 4, porque: 'Os prazos dos direitos civis são pegadinha de tribunal.', como: 'Prescrição = prazo para agir (perde a pretensão, mas o direito vive); decadência = prazo do direito (perde o direito em si).' }
       ]
     },
     {
@@ -174,7 +202,10 @@ const DadosTemas = {
         { nome: 'Jornada e horas extras', frequencia: 5, porque: '8 horas/dia, 44/semana e o adicional de 50% são decoreba certa.', como: 'Jornada padrão = 8h/dia e 44h/semana; extra = +50% em dia útil, +100% em feriado/domingo (regra).' },
         { nome: 'Férias e 13º salário', frequencia: 4, porque: 'Direitos anuais com prazos cobrados.', como: 'Férias = 30 dias a cada 12 meses + 1/3 constitucional; 13º = um salário por ano, em 2 parcelas.' },
         { nome: 'FGTS e rescisão', frequencia: 4, porque: 'Demissão sem justa causa x com justa causa rende questão.', como: 'FGTS = 8% do salário depositado; sem justa causa = 40% de multa; justa causa = perde a multa e o saque.' },
-        { nome: 'Princípios trabalhistas', frequencia: 3, porque: 'Proteção, norma mais favorável e irrenunciabilidade caem na teoria.', como: 'A CLT protege o hipossuficiente: direitos trabalhistas são irrenunciáveis e a norma melhor para o trabalhador prevalece.' }
+        { nome: 'Princípios trabalhistas', frequencia: 3, porque: 'Proteção, norma mais favorável e irrenunciabilidade caem na teoria.', como: 'A CLT protege o hipossuficiente: direitos trabalhistas são irrenunciáveis e a norma melhor para o trabalhador prevalece.' },
+        { nome: 'Reforma trabalhista (13.467/2017)', frequencia: 4, porque: 'As mudanças novas são o alvo atual das bancas.', como: 'Negociado pode flexibilizar jornada, banco de horas e intervalo — mas nunca os mínimos (salário mínimo, FGTS, 13º, licenças).' },
+        { nome: 'Negociação coletiva (ACT e CCT)', frequencia: 4, porque: 'A diferença acordo x convenção é pergunta certa.', como: 'ACT = sindicato + empresa específica; CCT = sindicato x sindicato (vale para a categoria toda). Os dois têm força de norma.' },
+        { nome: 'Prescrição trabalhista', frequencia: 4, porque: 'Os prazos para reclamar são decoreba.', como: '5 anos durante o vínculo e 2 anos após a rescisão para ajuizar — e só alcança os 5 anos anteriores ao processo.' }
       ]
     },
     {
@@ -186,7 +217,9 @@ const DadosTemas = {
         { nome: 'Processo administrativo (PODC)', frequencia: 5, porque: 'Planejar, organizar, dirigir e controlar caem sempre.', como: 'Memorize o ciclo: planear o objetivo → organizar recursos → dirigir pessoas → controlar resultados.' },
         { nome: 'Motivação (Maslow, Herzberg)', frequencia: 4, porque: 'A pirâmide de Maslow é a teoria mais cobrada.', como: 'Fisiologia → segurança → social → estima → autorrealização. As de baixo vêm primeiro.' },
         { nome: 'Liderança e estilos', frequencia: 4, porque: 'Autocrático, democrático e liberal são questões de cena.', como: 'Autocrático decide sozinho; democrático decide em grupo; liberal deixa livre. Associe um exemplo a cada.' },
-        { nome: 'Qualidade (PDCA, SWOT)', frequencia: 3, porque: 'Ferramentas de gestão caem contextualizadas.', como: 'PDCA = Plan-Do-Check-Act; SWOT = forças/fraquezas (internas) e oportunidades/ameaças (externas).' }
+        { nome: 'Qualidade (PDCA, SWOT)', frequencia: 3, porque: 'Ferramentas de gestão caem contextualizadas.', como: 'PDCA = Plan-Do-Check-Act; SWOT = forças/fraquezas (internas) e oportunidades/ameaças (externas).' },
+        { nome: 'Gestão de qualidade e processos', frequencia: 3, porque: 'Kaizen, 6 sigma e BPM aparecem contextualizados.', como: '6 sigma = reduzir defeitos a 3,4 por milhão; Kaizen = melhoria contínua; BPM = gestão por processos. Uma frase por sigla.' },
+        { nome: 'Administração pública x privada', frequencia: 4, porque: 'As diferenças de gestão pública caem em cargos administrativos.', como: 'Público = legalidade estrita e interesse coletivo; privado = liberdade contratual e lucro. O gestor público não pode "fazer o que quiser".' }
       ]
     },
     {
@@ -198,7 +231,9 @@ const DadosTemas = {
         { nome: 'Partidas dobradas', frequencia: 5, porque: 'Débito e crédito confundem metade dos candidatos.', como: 'Não é bom/ruim: débito aumenta ativo/despesa; crédito aumenta passivo/receita/PL. Toda entrada tem saída.' },
         { nome: 'Balanço e DRE', frequencia: 4, porque: 'A foto x o filme é a analogia mais cobrada.', como: 'Balanço = foto do patrimônio numa data; DRE = resultado do período (receitas − despesas = lucro).' },
         { nome: 'Circulante x não circulante', frequencia: 4, porque: 'O corte de 12 meses é pegadinha certa.', como: 'Circulante = até 12 meses; acima = não circulante. Estoque e caixa são circulantes; imobilizado não.' },
-        { nome: 'Depreciação e capital de giro', frequencia: 3, porque: 'Aparecem em cargos de nível superior.', como: 'Depreciação = desgaste do bem ao longo da vida útil; giro = ativo circulante − passivo circulante.' }
+        { nome: 'Depreciação e capital de giro', frequencia: 3, porque: 'Aparecem em cargos de nível superior.', como: 'Depreciação = desgaste do bem ao longo da vida útil; giro = ativo circulante − passivo circulante.' },
+        { nome: 'Índices financeiros', frequencia: 4, porque: 'Liquidez e endividamento são as contas mais cobradas.', como: 'Liquidez corrente = AC/PC (maior que 1 = folga); endividamento = Passivo/Ativo. Duas frações respondem muita questão.' },
+        { nome: 'Lançamentos e livros contábeis', frequencia: 3, porque: 'Diário e razão aparecem na teoria.', como: 'Diário = registro cronológico fato a fato; razão = o extrato de cada conta. O lançamento traz data, débito, crédito e histórico.' }
       ]
     },
     {
@@ -209,7 +244,9 @@ const DadosTemas = {
         { nome: 'LDB (Lei 9.394/96)', frequencia: 5, porque: 'A lei de diretrizes é a matéria mais cobrada de pedagogia.', como: 'Decore os níveis (básica e superior), os anos da básica e a gestão democrática da escola pública.' },
         { nome: 'Teorias da aprendizagem', frequencia: 4, porque: 'Piaget, Vygotsky e Paulo Freire caem em toda prova.', como: 'Piaget = estágios do desenvolvimento; Vygotsky = interação social; Freire = educação libertadora. Um resumo de cada.' },
         { nome: 'Currículo e avaliação', frequencia: 4, porque: 'BNCC e os tipos de avaliação rendem questões diretas.', como: 'Avaliação diagnóstica (início), formativa (durante) e somativa (final): um propósito para cada.' },
-        { nome: 'Didática e planejamento', frequencia: 3, porque: 'Plano de aula e metodologias ativas são tendência.', como: 'Metodologia ativa = aluno protagonista; o plano de aula tem objetivo, conteúdo, método e avaliação.' }
+        { nome: 'Didática e planejamento', frequencia: 3, porque: 'Plano de aula e metodologias ativas são tendência.', como: 'Metodologia ativa = aluno protagonista; o plano de aula tem objetivo, conteúdo, método e avaliação.' },
+        { nome: 'ECA e inclusão escolar', frequencia: 4, porque: 'Proteção à infância e educação especial são padrão.', como: 'Educação inclusiva = matricular e adaptar para todos; o ECA garante o direito à educação da criança e do adolescente.' },
+        { nome: 'Gestão democrática e PPP', frequencia: 4, porque: 'A gestão democrática da escola e o projeto político-pedagógico caem em redes públicas.', como: 'PPP = o projeto da escola construído com a comunidade; gestão democrática = participação de pais, alunos e comunidade.' }
       ]
     }
   ],
@@ -223,7 +260,10 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Estrutura dissertativa-argumentativa', frequencia: 5, porque: 'É o formato exigido pelo ENEM e pela maioria das bancas.', como: 'Decore o esqueleto: introdução com tese, 2 parágrafos de desenvolvimento com repertório e conclusão com proposta.' },
         { nome: 'Repertório sociocultural', frequencia: 5, porque: 'Sem citação/referência consistente, a nota trava.', como: 'Tenha 10 repertórios coringa (filmes, livros, dados) que servem para vários temas e use 1 por parágrafo.' },
-        { nome: 'Temas de atualidades', frequencia: 4, porque: 'A redação quase sempre parte de uma notícia do ano.', como: 'Toda semana escreva uma redação sobre a manchete mais importante do Brasil.' }
+        { nome: 'Temas de atualidades', frequencia: 4, porque: 'A redação quase sempre parte de uma notícia do ano.', como: 'Toda semana escreva uma redação sobre a manchete mais importante do Brasil.' },
+        { nome: 'Conclusão com proposta de intervenção', frequencia: 5, porque: 'O ENEM exige os 5 elementos da proposta — faltar um zera a competência 5.', como: 'Ação + agente + meio + finalidade + detalhamento: memorize a fórmula e encaixe no problema do tema.' },
+        { nome: 'Coesão e conectivos', frequencia: 4, porque: 'Texto sem elo entre ideias perde ponto na competência 4.', como: 'Monte estoque de conectores: adição (além disso), oposição (entretanto), causa (por isso), conclusão (logo).' },
+        { nome: 'Argumentação e contra-argumento', frequencia: 4, porque: 'Tese sem defesa vira opinião — a banca cobra a estrutura.', como: 'Cada parágrafo = 1 argumento + 1 prova + 1 ligação com a tese. Antecipe o "mas" do leitor e responda.' }
       ]
     },
     {
@@ -234,7 +274,9 @@ const DadosTemas = {
         { nome: 'Escravidão e abolição (Lei Áurea, 1888)', frequencia: 5, porque: 'Cai sempre, junto com as leis anteriores (Ventre Livre, Sexagenários).', como: 'Monte a linha do tempo das leis abolicionistas: 1850 (Eusébio de Queirós) → 1871 → 1885 → 1888.' },
         { nome: 'República Velha e a política do café com leite', frequencia: 4, porque: 'Combina com o nosso tema! Alternância SP-MG é pergunta clássica.', como: 'Entenda o pacto: São Paulo (café) e Minas (leite) revezavam a presidência entre 1894 e 1930.' },
         { nome: 'Era Vargas (1930-1945)', frequencia: 4, porque: 'CLT, Estado Novo e trabalhismo caem em toda prova.', como: 'Decore as fases: Governo Provisório (30-34), Constitucional (34-37), Estado Novo (37-45). CLT é de 1943.' },
-        { nome: 'Ditadura militar (1964-1985)', frequencia: 4, porque: 'AI-5, censura e abertura política são presença garantida.', como: 'Construa a linha do tempo dos presidentes militares e marque o AI-5 (1968) como o ponto de endurecimento.' }
+        { nome: 'Ditadura militar (1964-1985)', frequencia: 4, porque: 'AI-5, censura e abertura política são presença garantida.', como: 'Construa a linha do tempo dos presidentes militares e marque o AI-5 (1968) como o ponto de endurecimento.' },
+        { nome: 'Período colonial e capitanias', frequencia: 4, porque: 'Pau-brasil, cana e ouro estruturam toda a história nacional.', como: 'Linha do tempo: 1500 → 1530 capitanias → cana no Nordeste → ouro em Minas (séc. XVIII) → corte no Rio (1808).' },
+        { nome: 'Independência e Império', frequencia: 4, porque: 'Primeiro e Segundo Reinado têm questões próprias.', como: '1822 independência; 1º Reinado (22-31); Regências (31-40); 2º Reinado (40-89) com Paraguai e abolição.' }
       ]
     },
     {
@@ -245,7 +287,9 @@ const DadosTemas = {
         { nome: 'Clima e biomas brasileiros', frequencia: 5, porque: 'Clima da Amazônia (equatorial) e domínio do bioma Amazônia são pergunta batida.', como: 'Faça um mapa e cole em cada região seu clima e bioma. Amazonas = equatorial, quente e úmido.' },
         { nome: 'Urbanização e êxodo rural', frequencia: 4, porque: 'O Brasil virou urbano no século XX e a banca cobra esse processo.', como: 'Êxodo rural = migração campo → cidade. Associa com industrialização dos anos 1950-80.' },
         { nome: 'Demografia e densidade', frequencia: 3, porque: 'Densidade demográfica (hab/km²) cai como conta ou como conceito.', como: 'Decore a fórmula: população ÷ área. E lembre: Brasil é populoso, mas pouco povoado no interior.' },
-        { nome: 'Geopolítica e globalização', frequencia: 3, porque: 'Blocos econômicos (Mercosul) e tensões atuais aparecem contextualizados.', como: 'Saiba o básico: Mercosul é bloco sul-americano; a ONU tem órgãos como a Assembleia Geral e o Conselho de Segurança.' }
+        { nome: 'Geopolítica e globalização', frequencia: 3, porque: 'Blocos econômicos (Mercosul) e tensões atuais aparecem contextualizados.', como: 'Saiba o básico: Mercosul é bloco sul-americano; a ONU tem órgãos como a Assembleia Geral e o Conselho de Segurança.' },
+        { nome: 'Relevo e hidrografia', frequencia: 4, porque: 'Bacias e formações do relevo caem em prova objetiva.', como: 'Decore as grandes bacias: Amazônica (a maior do mundo), São Francisco (a do interior), Paraná/Paraguai (a das fronteiras).' },
+        { nome: 'Agropecuária e fronteira agrícola', frequencia: 4, porque: 'Soja, cerrado e MATOPIBA são temas atuais.', como: 'Fronteira agrícola = avanço do cultivo sobre cerrado e Amazônia; associe com desmatamento e agronegócio.' }
       ]
     },
     {
@@ -255,7 +299,10 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Ecologia (cadeias, ciclos, impactos)', frequencia: 5, porque: 'É o queridinho do ENEM: sustentabilidade + biomas.', como: 'Entenda fluxo de energia (produtor → consumidor) e o efeito estufa natural vs. intensificado.' },
         { nome: 'Genética básica', frequencia: 4, porque: 'Heredograma e leis de Mendel caem com regularidade.', como: 'Treine cruzamentos simples (Aa × Aa) e monte quadros de Punnett até ficar automático.' },
-        { nome: 'Fisiologia humana', frequencia: 3, porque: 'Sistemas (circulatório, digestório) aparecem de forma aplicada.', como: 'Uma função por sistema: coração bombeia, pulmão troca gases, rim filtra. Relacione com situações do cotidiano.' }
+        { nome: 'Fisiologia humana', frequencia: 3, porque: 'Sistemas (circulatório, digestório) aparecem de forma aplicada.', como: 'Uma função por sistema: coração bombeia, pulmão troca gases, rim filtra. Relacione com situações do cotidiano.' },
+        { nome: 'Citologia e organelas', frequencia: 4, porque: 'A célula e suas partes abrem toda prova de biologia.', como: 'Membrana protege, citoplasma metaboliza, núcleo guarda o DNA, mitocôndria faz energia, ribossomo monta proteína. Uma função por organela.' },
+        { nome: 'Fotossíntese e respiração', frequencia: 4, porque: 'Os dois processos se cruzam e a banca adora a diferença.', como: 'Fotossíntese: CO₂ + água + luz → glicose + O₂ (cloroplasto). Respiração: glicose + O₂ → CO₂ + água + ATP (mitocôndria).' },
+        { nome: 'Imunologia e vacinas', frequencia: 4, porque: 'Anticorpo, vacina e soro caem contextualizados.', como: 'Vacina = antígeno que previne (antes); soro = anticorpo pronto que trata (depois). Um para prevenir, outro para curar.' }
       ]
     },
     {
@@ -265,7 +312,10 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Mecânica (cinemática e leis de Newton)', frequencia: 5, porque: 'MRU, MRUV e as 3 leis de Newton caem em todo vestibular.', como: 'Decore as equações do MRUV e treine interpretar gráficos de posição e velocidade.' },
         { nome: 'Energia e trabalho', frequencia: 4, porque: 'Conservação de energia é o caminho mais rápido em várias questões.', como: 'Guarde: energia mecânica = cinética + potencial; sem atrito, ela se conserva.' },
-        { nome: 'Eletricidade', frequencia: 4, porque: 'Lei de Ohm e potência aparecem todo ano.', como: 'V = R·i e P = V·i. Duas fórmulas resolvem metade das questões de circuito.' }
+        { nome: 'Eletricidade', frequencia: 4, porque: 'Lei de Ohm e potência aparecem todo ano.', como: 'V = R·i e P = V·i. Duas fórmulas resolvem metade das questões de circuito.' },
+        { nome: 'Óptica e espelhos', frequencia: 4, porque: 'Reflexão e refração são o bloco clássico.', como: 'Reflexão = a luz volta ao mesmo meio (espelho); refração = muda de meio e desvia (lente, copo de água).' },
+        { nome: 'Ondas', frequencia: 3, porque: 'Comprimento, frequência e velocidade rendem questão direta.', como: 'V = λ·f: velocidade = comprimento de onda × frequência. Som precisa de meio; luz viaja no vácuo.' },
+        { nome: 'Termologia', frequencia: 4, porque: 'Calor, temperatura e escalas caem todo ano.', como: 'Calor = energia térmica em trânsito; temperatura = grau de agitação. Conversões: °C→K soma 273; °F = 1,8·°C + 32.' }
       ]
     },
     {
@@ -275,7 +325,10 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Estequiometria', frequencia: 4, porque: 'É a "regra de três da química" e cai todo ano.', como: 'Balanceie a equação, ache a proporção em mol e converta para gramas com a massa molar. Passo a passo sempre.' },
         { nome: 'Ligações químicas', frequencia: 3, porque: 'Iônica x covalente é conceito rápido e frequente.', como: 'Metal + ametal = ligação iônica; ametal + ametal = covalente. Decore os exemplos clássicos (NaCl, H₂O).' },
-        { nome: 'Química orgânica', frequencia: 4, porque: 'Funções (álcool, cetona...) e reações básicas caem muito no ENEM.', como: 'Monte flashcards das funções orgânicas com um exemplo do cotidiano (etanol, acetona, ácido acético).' }
+        { nome: 'Química orgânica', frequencia: 4, porque: 'Funções (álcool, cetona...) e reações básicas caem muito no ENEM.', como: 'Monte flashcards das funções orgânicas com um exemplo do cotidiano (etanol, acetona, ácido acético).' },
+        { nome: 'Tabela periódica', frequencia: 4, porque: 'Famílias e tendências são a base de tudo.', como: 'Coluna = família (1A alcalinos, 7A halogênios, 8A gases nobres); período = camadas. Raio cresce para baixo e para a esquerda.' },
+        { nome: 'Soluções e concentração', frequencia: 4, porque: 'Molaridade e diluição são conta garantida.', como: 'M = mol/L de soluto. Diluir = acrescentar solvente — use M₁·V₁ = M₂·V₂.' },
+        { nome: 'Ácidos, bases e pH', frequencia: 4, porque: 'A escala de pH cai contextualizada (chuva ácida, estômago).', como: 'pH <7 ácido, =7 neutro, >7 básico — e cada unidade vale 10×. Ácido doa H⁺; base doa OH⁻.' }
       ]
     },
     {
@@ -285,7 +338,10 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Romantismo (Alencar, indianismo)', frequencia: 5, porque: 'Iracema e O Guarani são leitura obrigatória das bancas.', como: 'Associe cada obra ao tipo de herói: índio idealizado (indianismo), burguês (romance urbano), sofredor (ultrarromântico).' },
         { nome: 'Realismo e Machado de Assis', frequencia: 5, porque: 'Brás Cubas e Dom Casmurro são cobrança clássica da Fuvest.', como: 'Saiba o narrador de cada obra: defunto-narrador (Brás Cubas) e narrador que duvida (Bentinho).' },
-        { nome: 'Modernismo e a Semana de 22', frequencia: 4, porque: 'Marco da arte brasileira — cai contextualizado com artes.', como: 'Decore o trio: Mário (Macunaíma), Oswald (Antropofagia) e Anita Malfatti (pintura) — e o que a Semana rompeu.' }
+        { nome: 'Modernismo e a Semana de 22', frequencia: 4, porque: 'Marco da arte brasileira — cai contextualizado com artes.', como: 'Decore o trio: Mário (Macunaíma), Oswald (Antropofagia) e Anita Malfatti (pintura) — e o que a Semana rompeu.' },
+        { nome: 'Barroco e Arcadismo', frequencia: 3, porque: 'As escolas anteriores ao Romantismo fecham o mapa.', como: 'Barroco = contraste e conflito (Gregório de Matos); Arcadismo = pastoril e simplicidade (Cláudio Manuel da Costa). Contexto colonial.' },
+        { nome: 'Naturalismo e Parnasianismo', frequencia: 3, porque: 'O Cortiço e a "arte pela arte" caem contextualizados.', como: 'Naturalismo = determinismo científico (Aluísio Azevedo); Parnasianismo = forma perfeita (Olavo Bilac). Um é tese, outro é estética.' },
+        { nome: 'Poesia moderna (2ª e 3ª gerações)', frequencia: 4, porque: 'Drummond e João Cabral são cobrança de elite (Fuvest, Unicamp).', como: '2ª geração = lírica e engajada (Drummond); 3ª = experimental e social (João Cabral). Um verso marcante de cada autor.' }
       ]
     },
     {
@@ -295,7 +351,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Falsos cognatos', frequencia: 5, porque: 'Pretend, actually, library caem em toda prova.', como: 'Faça lista de falsos amigos por bloco: verbos, substantivos e adjetivos — são os mesmos há anos.' },
         { nome: 'Tempos verbais-chave', frequencia: 4, porque: 'Present perfect e simple past decidem metade das questões.', como: 'Regra bolso: data definida = simple past; sem data = present perfect.' },
-        { nome: 'Estratégia de leitura', frequencia: 4, porque: 'O ENEM cobra inferência, não tradução palavra a palavra.', como: 'Leia as alternativas primeiro, marque palavras-chave (verbos e números) e cace-as no texto.' }
+        { nome: 'Estratégia de leitura', frequencia: 4, porque: 'O ENEM cobra inferência, não tradução palavra a palavra.', como: 'Leia as alternativas primeiro, marque palavras-chave (verbos e números) e cace-as no texto.' },
+        { nome: 'Conectivos e marcadores', frequencia: 4, porque: 'However, therefore e although decidem a inferência do texto.', como: 'Liste os conectores por função: adição (furthermore), contraste (however), consequência (therefore), condição (unless).' },
+        { nome: 'Vocabulário de temas recorrentes', frequencia: 4, porque: 'Tecnologia, saúde e meio ambiente são os textos do ENEM.', como: 'Monte glossário por tema: health (disease, treatment), tech (AI, privacy), environment (pollution, sustainable).' }
       ]
     },
     {
@@ -305,7 +363,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Ser x estar', frequencia: 5, porque: 'A alternativa que troca o verbo troca o sentido do adjetivo.', como: 'Permanente/identidade = ser; temporário/estado/lugar = estar. "Es aburrido" x "está aburrido" muda tudo.' },
         { nome: 'Falsos cognatos', frequencia: 4, porque: 'Embarazada e largo enganam quem confia no parecido.', como: 'Estude a lista com frases completas — o contexto revela o sentido real.' },
-        { nome: 'Por x para', frequencia: 4, porque: 'O erro mais cobrado da gramática espanhola.', como: 'Para = destino/finalidade; por = causa/preço/meio. "Gracias por" é a cola.' }
+        { nome: 'Por x para', frequencia: 4, porque: 'O erro mais cobrado da gramática espanhola.', como: 'Para = destino/finalidade; por = causa/preço/meio. "Gracias por" é a cola.' },
+        { nome: 'Verbos irregulares-chave', frequencia: 4, porque: 'Ser, estar, tener e hacer no presente confundem muito.', como: 'Conjugue os 4 por dia: soy/eres/es/somos/son; estoy/estás/está/estamos/están. Pratique dentro de frases.' },
+        { nome: 'Vocabulário jornalístico', frequencia: 3, porque: 'As provas usam textos de notícia — o vocabulário se repete.', como: 'Palavras de notícia: gobierno, medida, derecho, informe, política. Leia um jornal em espanhol por semana.' }
       ]
     },
     {
@@ -315,7 +375,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Vanguardas (Cubismo, Surrealismo)', frequencia: 5, porque: 'Cada movimento tem uma palavra-chave que a banca troca.', como: 'Cubismo = geometria; Futurismo = velocidade; Surrealismo = sonho. Monte um quadro comparativo.' },
         { nome: 'Semana de 22 e Antropofagia', frequencia: 5, porque: 'Marco da arte nacional — cai com literatura e história.', como: 'Ligue os pontos: 1922 (Semana) → 1928 (Manifesto Antropofágico + Abaporu) → "devorar para criar".' },
-        { nome: 'Barroco mineiro e Aleijadinho', frequencia: 4, porque: 'O ciclo do ouro explica a arte colonial brasileira.', como: 'Associe: ouro de Minas → igrejas e esculturas em pedra-sabão → profetas de Congonhas.' }
+        { nome: 'Barroco mineiro e Aleijadinho', frequencia: 4, porque: 'O ciclo do ouro explica a arte colonial brasileira.', como: 'Associe: ouro de Minas → igrejas e esculturas em pedra-sabão → profetas de Congonhas.' },
+        { nome: 'Arte contemporânea brasileira', frequencia: 4, porque: 'Tropicália, neoconcretismo e arte urbana caem no ENEM.', como: 'Hélio Oiticica (participação do público), Lygia Clark (arte sensorial), grafite como linguagem urbana. Uma obra por nome.' },
+        { nome: 'Arte indígena e afro-brasileira', frequencia: 4, porque: 'A valorização das matrizes é tendência nas provas.', como: 'Associe: grafismo indígena, arte sacra afro-barroca (Aleijadinho), capoeira e umbigada como expressões de resistência.' }
       ]
     },
     {
@@ -325,7 +387,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Aeróbio x anaeróbio', frequencia: 5, porque: 'A classificação do esporte é a questão mais batida.', como: 'Liga oxigênio + duração: longo e leve = aeróbio; curto e intenso = anaeróbio. Maratonista x velocista.' },
         { nome: 'Componentes da aptidão', frequencia: 4, porque: 'Força, resistência, flexibilidade e composição corporal caem em provas de PM.', como: 'Decore os 4 da saúde; velocidade/agilidade são da aptidão esportiva.' },
-        { nome: 'OMS e sedentarismo', frequencia: 4, porque: 'Números de atividade física caem contextualizados no ENEM.', como: 'Adulto: 150 min/semana moderada; criança: 60 min/dia. Sedentarismo = fator de risco cardiovascular.' }
+        { nome: 'OMS e sedentarismo', frequencia: 4, porque: 'Números de atividade física caem contextualizados no ENEM.', como: 'Adulto: 150 min/semana moderada; criança: 60 min/dia. Sedentarismo = fator de risco cardiovascular.' },
+        { nome: 'Regras dos esportes coletivos', frequencia: 4, porque: 'Futsal, vôlei e basquete caem como regra pura.', como: 'Futsal = quadra, 5 jogadores; vôlei = 6 com rotação; basquete = 5 e cesta de 2 ou 3 pontos. Um número por modalidade.' },
+        { nome: 'Olimpíadas e grandes eventos', frequencia: 3, porque: 'A história dos jogos cai contextualizada.', como: 'Olimpíada moderna desde 1896, ciclo de 4 anos; o Brasil sediou 2016. Ligue esporte + sociedade + política.' }
       ]
     },
     {
@@ -335,7 +399,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Circulação dupla e coração', frequencia: 5, porque: 'Lado direito x esquerdo do coração é pegadinha clássica.', como: 'Decore o desenho: direito → pulmão; esquerdo → corpo. Hematose acontece nos alvéolos.' },
         { nome: 'Sistema nervoso', frequencia: 4, porque: 'Neurônio e sinapse caem aplicados (drogas, neurotransmissores).', como: 'Ordem: dendrito recebe → corpo processa → axônio manda → sinapse química libera neurotransmissor.' },
-        { nome: 'Sistema endócrino', frequencia: 4, porque: 'Insulina e adrenalina aparecem em contextos do dia a dia.', como: 'Cada glândula um hormônio: pâncreas (insulina), tireoide (tiroxina), adrenal (adrenalina).' }
+        { nome: 'Sistema endócrino', frequencia: 4, porque: 'Insulina e adrenalina aparecem em contextos do dia a dia.', como: 'Cada glândula um hormônio: pâncreas (insulina), tireoide (tiroxina), adrenal (adrenalina).' },
+        { nome: 'Sistema imunológico', frequencia: 4, porque: 'Anticorpos, vacinas e imunidade caem contextualizados.', como: 'Imunidade inata = a barreira que já existe; adaptativa = os anticorpos que a vacina treina antes da infecção.' },
+        { nome: 'Respiratório e excretor', frequencia: 3, porque: 'Hematose e filtração renal fecham o mapa do corpo.', como: 'Respiratório: ar → pulmão → alvéolo (hematose). Excretor: rim → néfron filtra → uréter → bexiga. Um caminho por sistema.' }
       ]
     },
     {
@@ -345,7 +411,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Mito da caverna (Platão)', frequencia: 5, porque: 'A alegoria mais cobrada do vestibular brasileiro.', como: 'Sombras = aparência; subida dolorosa = filosofia; sol = verdade. Leitura política: massa x elite.' },
         { nome: 'Ética: Kant x utilitarismo', frequencia: 5, porque: 'As duas éticas opostas são o enunciado de toda questão moral.', como: 'Kant = dever/universalidade; utilitarista = consequência/maior felicidade. Não misture.' },
-        { nome: 'Sócrates e a maiêutica', frequencia: 4, porque: 'O método do "parto das ideias" cai como conceito.', como: 'Ironia desmonta, maiêutica constrói: perguntas sucessivas fazem o outro descobrir a verdade sozinho.' }
+        { nome: 'Sócrates e a maiêutica', frequencia: 4, porque: 'O método do "parto das ideias" cai como conceito.', como: 'Ironia desmonta, maiêutica constrói: perguntas sucessivas fazem o outro descobrir a verdade sozinho.' },
+        { nome: 'Aristóteles e o meio-termo', frequencia: 4, porque: 'A virtude como equilíbrio fecha a tríade grega com Platão e Sócrates.', como: 'Virtude = justa medida entre excessos (coragem fica entre covardia e temeridade). Eudaimonia = a vida florescente.' },
+        { nome: 'Contrato social (Hobbes, Locke, Rousseau)', frequencia: 4, porque: 'Os contratualistas explicam a origem do Estado e caem todo ano.', como: 'Hobbes = Estado forte contra o caos; Locke = direitos naturais; Rousseau = vontade geral. Um livro por autor.' }
       ]
     },
     {
@@ -355,7 +423,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Durkheim — fato social', frequencia: 5, porque: 'Exterior, geral e coercitivo são as três palavras-chave.', como: 'Teste cada alternativa: se é escolha individual, não é fato social.' },
         { nome: 'Marx — alienação e mais-valia', frequencia: 5, porque: 'A exploração do trabalho é tema de todo ano.', como: 'Alienação = perder o produto e o processo; mais-valia = trabalho não pago. São conceitos irmãos.' },
-        { nome: 'Weber — ação social e dominação', frequencia: 4, porque: 'O terceiro clássico completa o trio.', como: 'Ação social tem SENTIDO para quem age; dominação tradicional/legal/carismática são os tipos.' }
+        { nome: 'Weber — ação social e dominação', frequencia: 4, porque: 'O terceiro clássico completa o trio.', como: 'Ação social tem SENTIDO para quem age; dominação tradicional/legal/carismática são os tipos.' },
+        { nome: 'Indústria cultural', frequencia: 4, porque: 'A cultura como mercadoria (Adorno) é tema clássico do ENEM.', como: 'Cultura de massa = produção industrial que padroniza o gosto. Relacione com séries, hits e redes sociais de hoje.' },
+        { nome: 'Cidadania e direitos (Marshall)', frequencia: 4, porque: 'Civil, político e social de T.H. Marshall caem direto.', como: 'Civil (séc. XVIII — liberdade), político (XIX — voto), social (XX — previdência e escola). A ordem dos direitos.' }
       ]
     },
     {
@@ -365,7 +435,9 @@ const DadosTemas = {
       topicos: [                         // tópicos
         { nome: 'Inflação, PIB e Selic', frequencia: 5, porque: 'O trio macro que não sai das provas.', como: 'Inflação = preços sobem; PIB = bens finais produzidos; Selic sobe = conter inflação (crédito caro).' },
         { nome: 'Oferta e demanda', frequencia: 4, porque: 'A lei mais básica — e a mais errada sob pressão.', como: 'Demanda e preço andam juntos; oferta e preço, opostos. Desenhe o gráfico mental.' },
-        { nome: 'Mercados e moeda', frequencia: 4, porque: 'Câmbio e tipos de mercado caem nos bancos.', como: 'Real valorizado = importação barata, exportação difícil; monopólio = um vendedor só.' }
+        { nome: 'Mercados e moeda', frequencia: 4, porque: 'Câmbio e tipos de mercado caem nos bancos.', como: 'Real valorizado = importação barata, exportação difícil; monopólio = um vendedor só.' },
+        { nome: 'Mercado financeiro', frequencia: 4, porque: 'Bolsa, ações e renda fixa x variável caem nas provas bancárias.', como: 'Renda fixa = retorno conhecido (poupança, CDB); variável = oscila (ações). A bolsa é o mercado secundário de ações.' },
+        { nome: 'Comércio internacional', frequencia: 3, porque: 'Câmbio e balança comercial aparecem contextualizados.', como: 'Exportar mais que importar = superávit; real valorizado deixa a importação barata. O Brasil exporta commodities.' }
       ]
     }
   ],

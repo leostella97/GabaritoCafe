@@ -43,23 +43,37 @@ const ConteudoUI = {
     const mostrar = (lista) => {                            // recebe a lista de matérias
       const area = document.getElementById('lista-temas');  // pega a área da lista
       let conteudo = '<div class="grade-temas">';           // abre a grade
+      const LIMITE_VISIVEL = 3;                             // TEAM_001: só os 3 primeiros tópicos aparecem
       for (const materia of lista) {                        // percorre as matérias
         conteudo += '<div class="cartao aparecer">';        // abre o cartão
         conteudo += '<h3>' + materia.icone + ' ' + this.escape(materia.materia) + '</h3>'; // título
         conteudo += '<p class="texto-suave" style="font-size:0.88rem">' + this.escape(materia.resumo) + '</p>'; // resumo
-        for (const topico of materia.topicos) {             // percorre os tópicos
-          conteudo += '<div class="tema-topico">';          // abre o bloco do tópico
+        materia.topicos.forEach((topico, i) => {            // percorre os tópicos
+          const escondido = i >= LIMITE_VISIVEL ? ' tema-extra' : ''; // TEAM_001: os demais ficam recolhidos
+          conteudo += '<div class="tema-topico' + escondido + '">'; // abre o bloco do tópico
           conteudo += '<span class="topico-nome">' + this.escape(topico.nome) + '</span> '; // nome do tópico
           conteudo += '<span class="xicaras">' + '☕'.repeat(topico.frequencia) + '</span>'; // xícaras = frequência
           conteudo += '<p style="font-size:0.85rem;margin:0.2rem 0">' + T('temas_porque') + this.escape(topico.porque) + '</p>'; // motivo de cair
           conteudo += '<div class="tema-como">✍️ ' + this.escape(topico.como) + '</div>'; // como estudar
           conteudo += '</div>';                             // fecha o bloco
+        });
+        if (materia.topicos.length > LIMITE_VISIVEL) {      // TEAM_001: tem tópico escondido?
+          conteudo += '<button type="button" class="ver-mais tema-ver-mais">' + T('ed_ver_mais') + '</button>'; // botão que revela
         }
         conteudo += '</div>';                               // fecha o cartão
       }
       conteudo += '</div>';                                 // fecha a grade
       area.innerHTML = conteudo;                            // despeja a lista
     };
+
+    // TEAM_001: delegação do "Ver mais…" — funciona nas duas abas sem religar
+    document.getElementById('lista-temas').addEventListener('click', (e) => { // clique na lista
+      const btn = e.target.closest('.tema-ver-mais');       // foi no botão "Ver mais…"?
+      if (!btn) return;                                   // clique fora dele: ignora
+      const cartao = btn.closest('.cartao');              // o cartão dono do botão
+      const aberto = cartao.classList.toggle('aberto');   // alterna o estado aberto/fechado
+      btn.textContent = aberto ? T('ed_ver_menos') : T('ed_ver_mais'); // troca o rótulo
+    });
 
     // Liga as abas
     document.getElementById('aba-concursos').addEventListener('click', () => { // aba concursos

@@ -720,3 +720,7 @@
 }
 
 .ver-mais:hover { color: var(--caramelo); } /* acende no hover */
+
+.tema-extra { display: none; }            /* TEAM_001: tópicos além do 3º ficam recolhidos */
+.cartao.aberto .tema-extra { display: block; } /* TEAM_001: o "Ver mais…" revela o restante */
+.tema-ver-mais { display: inline-block; margin-top: 0.5rem; } /* TEAM_001: respiro do botão */
