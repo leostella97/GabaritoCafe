@@ -84,6 +84,17 @@ const DadosBancas = {
       comoSeDarBem: 'Mantenha o hábito diário de notícias e faça os simulados da banca no site dela. O básico bem treinado aprova.' // estratégia
     },
     {
+      nome: 'CEBRASP',                         // nome da banca
+      perfil: 'O instituto paulista dos GCMs e prefeituras: provas objetivas de nível médio e fundamental com muita legislação e raciocínio lógico. Se o seu sonho é ser Guarda Civil Municipal em SP, é com ela que você vai lutar.', // perfil
+      pegadinhas: [                            // pegadinhas
+        'Cobra a Lei 13.022/14 (Estatuto da GCM) ao pé da letra — deveres, atribuições e vedações.',
+        'Legislação municipal e leis penais com troca de um detalhe no meio do artigo.',
+        'RLM com enunciado de historinha: a conta é fácil, a leitura é a pegadinha.',
+        'Português normativo pesado: concordância e regência em frases do dia a dia.'
+      ],
+      comoSeDarBem: 'Decore a Lei 13.022 inteira (é curta e cai muito), resolva as provas antigas da CEBRASP de GCMs e treine RLM todos os dias. Literalidade é o jogo.' // estratégia
+    },
+    {
       nome: 'ENEM (vestibular)',               // nome da banca
       perfil: 'Não é concurso, mas é a "banca" do vestibular: tudo contextualizado, textos longos, interpretação acima de decoreba e resistência física para 5h30 de prova.', // perfil
       pegadinhas: [                            // pegadinhas

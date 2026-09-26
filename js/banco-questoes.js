@@ -7047,7 +7047,7 @@ const BancoQuestoes = [
     tema: 'Culpa — modalidades',        // assunto
     nivel: 'medio',                     // dificuldade
     ensino: 'medio',                    // nível do concurso
-    banca: 'Instituto AOCP',            // banca inspiradora
+    banca: 'CEBRASP',            // banca inspiradora
     enunciado: 'O motorista que responde por homicídio culposo no trânsito (sem intenção) agiu por:', // pergunta
     alternativas: [                     // opções
       'Dolo direto',
@@ -10459,7 +10459,7 @@ const BancoQuestoes = [
     tema: 'ECA — prioridade absoluta',  // assunto
     nivel: 'facil',                     // dificuldade
     ensino: 'medio',                    // nível do concurso
-    banca: 'Instituto AOCP',            // banca inspiradora
+    banca: 'CEBRASP',            // banca inspiradora
     enunciado: 'O Estatuto da Criança e do Adolescente (Lei 8.069/90) garante a crianças e adolescentes:', // pergunta
     alternativas: [                     // opções
       'Prioridade relativa',
@@ -10679,7 +10679,7 @@ const BancoQuestoes = [
     tema: 'Estatuto do Idoso',          // assunto
     nivel: 'facil',                     // dificuldade
     ensino: 'medio',                    // nível do concurso
-    banca: 'Instituto AOCP',            // banca inspiradora
+    banca: 'CEBRASP',            // banca inspiradora
     enunciado: 'O Estatuto do Idoso (Lei 10.741/03) protege a pessoa com:', // pergunta
     alternativas: [                     // opções
       '50 anos ou mais',
@@ -11662,5 +11662,327 @@ const BancoQuestoes = [
     explicacao: 'O PL é a "riqueza dos sócios": capital social (o que investiram) + reservas (partes do lucro guardadas) + ajustes de avaliação (atualizações de valor) + lucros/prejuízos acumulados − ações em tesouraria (ações próprias compradas).', // explicação
     dica: 'A CESPE enumera os componentes do PL e pede um que NÃO pertence: dívidas e estoque são ativo/passivo — não PL. Reserva LEGAL é obrigatória (5% do lucro líquido, até limites); reserva de lucros é por estatuto/assembleia.', // pegadinha
     video: 'patrimônio líquido capital social reservas resumo' // busca no YouTube
+  },
+
+  /* ===================== DIREITO DO TRABALHO (matéria nova — tribunais, prefeituras, GCM) ===================== */
+  {
+    id: 'tr01',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Vínculo de emprego',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O que diferencia o EMPREGADO do trabalhador autônomo, pela CLT?', // pergunta
+    alternativas: [                     // opções
+      'O salário mais alto',
+      'A subordinação — o empregado trabalha sob as ordens e o controle do empregador',
+      'A quantidade de horas',
+      'A idade',
+      'O uniforme'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O vínculo de emprego exige 5 requisitos: pessoa física, pessoalidade, habitualidade (não eventual), onerosidade (salário) e SUBORDINAÇÃO — o empregado obedece às ordens e horários do patrão. O autônomo é dono do próprio trabalho.', // explicação
+    dica: 'A CESPE testa cada requisito: habitualidade (todo dia ou rotina fixa — não bico), pessoalidade (não pode mandar outro no lugar), subordinação (o essencial). PJ com subordinação = vínculo reconhecido (pejotização é fraude).', // pegadinha
+    video: 'vínculo de emprego requisitos clt subordinação resumo' // busca no YouTube
+  },
+  {
+    id: 'tr02',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Jornada e hora extra',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A jornada máxima normal do trabalhador urbano, pela Constituição, é de:', // pergunta
+    alternativas: [                     // opções
+      '8 horas/dia e 40 horas/semana',
+      '8 horas/dia e 44 horas/semana',
+      '10 horas/dia e 50 horas/semana',
+      '6 horas/dia e 30 horas/semana',
+      '12 horas/dia sem limite'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 7º, XIII da CF: jornada normal até 8h/dia e 44h/semana (o "8×44"). Além disso = hora extra com adicional mínimo de 50%. Escala 12×36 é permitida por acordo/convenção.', // explicação
+    dica: 'A FCC troca os números: 40h é de servidor, 36h de algumas categorias — a regra CLT é 44h. Hora extra = +50% em dia útil, +100% em feriado/domingo (regra geral). E o limite extra é de 2h/dia.', // pegadinha
+    video: 'jornada de trabalho 44 horas hora extra resumo' // busca no YouTube
+  },
+  {
+    id: 'tr03',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Intervalo intrajornada',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CEBRASP',                   // banca inspiradora
+    enunciado: 'Para uma jornada acima de 6 horas, o intervalo de almoço mínimo é de:', // pergunta
+    alternativas: [                     // opções
+      '15 minutos',
+      '1 hora (com limite máximo de 2 horas)',
+      '30 minutos',
+      '3 horas',
+      '20 minutos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Jornada acima de 6h = intervalo de 1h a 2h (intrajornada — no meio do expediente). Jornada de 4h a 6h = só 15 minutos. Não conceder o intervalo gera indenização do período suprimido com adicional de 50%.', // explicação
+    dica: 'A CEBRASP testa os dois cortes: até 4h não tem intervalo; 4h-6h = 15min; acima de 6h = 1-2h. E o intervalo não conta como jornada — é tempo livre do trabalhador.', // pegadinha
+    video: 'intervalo intrajornada almoço clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr04',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Férias',                     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'As férias anuais do empregado CLT correspondem a:', // pergunta
+    alternativas: [                     // opções
+      '15 dias remunerados',
+      '30 dias remunerados + 1/3 do salário como adicional constitucional',
+      '20 dias sem remuneração',
+      '10 dias por semestre',
+      'Depende do chefe'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A cada 12 meses trabalhados (período aquisitivo), o empregado tem direito a 30 dias de férias + o "terço constitucional" (1/3 do salário de férias como adicional — art. 7º, XVII da CF). Férias em até 3 períodos após a reforma.', // explicação
+    dica: 'A FCC cobra o 1/3 constitucional (NÃO é 30% a mais de salário no mês — é adicional sobre a remuneração das férias). E as faltas injustificadas reduzem os dias de férias (acima de 32 faltas = perde o direito).', // pegadinha
+    video: 'férias clt 30 dias um terço constitucional resumo' // busca no YouTube
+  },
+  {
+    id: 'tr05',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: '13º salário',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CEBRASP',                   // banca inspiradora
+    enunciado: 'O 13º salário (gratificação natalina) corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'Metade do salário',
+      'Um salário inteiro por ano, pago em duas parcelas (proporcional aos meses trabalhados)',
+      'Um mês de férias extra',
+      'Um bônus opcional do patrão',
+      '13 salários por ano'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O 13º é um salário completo por ano de trabalho, calculado por fração de 1/12 por mês trabalhado (mínimo 15 dias no mês conta). Pago em 2 parcelas: a 1ª até novembro e a 2ª até 20 de dezembro (com descontos).', // explicação
+    dica: 'A CEBRASP testa a proporcionalidade: quem entrou em julho recebe 6/12 (metade); fração de 15+ dias no mês conta como mês inteiro. A 2ª parcela desconta INSS e IR.', // pegadinha
+    video: '13º salário cálculo parcelas clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr06',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'FGTS',                       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O FGTS depositado pelo empregador equivale a:', // pergunta
+    alternativas: [                     // opções
+      '5% do salário',
+      '8% do salário mensal, depositado em conta vinculada que o empregado não pode sacar à vontade',
+      '10% descontado do salário',
+      '20% pago anualmente',
+      'Um salário por ano'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O empregador deposita 8% do salário numa conta vinculada do trabalhador (Caixa) — NÃO sai do salário, é por conta do empregador. O saque só em hipóteses legais: demissão sem justa causa, aposentadoria, imóvel próprio...', // explicação
+    dica: 'Dois números que a FCC troca: depósito 8% (do empregador, não desconta do salário) e multa de 40% sobre o FGTS na demissão SEM justa causa. Apprentiz é 2%. E não confundir com INSS (esse desconta do salário).', // pegadinha
+    video: 'fgts 8% multa 40% demissão resumo' // busca no YouTube
+  },
+  {
+    id: 'tr07',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Aviso prévio',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O aviso prévio na demissão sem justa causa serve para:', // pergunta
+    alternativas: [                     // opções
+      'Avisar os colegas',
+      'Dar tempo ao trabalhador de procurar novo emprego (ou indenizar se ele não trabalhar o período) — 30 dias + 3 por ano de casa',
+      'Punir o empregado',
+      'Negociar a demissão',
+      'Fazer exame demissional'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aviso prévio = aviso da demissão com 30 dias de antecedência + 3 dias por ano completo de empresa (máximo 90 dias). Trabalhado (cumpre avisando) ou indenizado (sai na hora, recebe o período). Justa causa dispensa.', // explicação
+    dica: 'A CESPE cobra o cálculo: 30 dias + 3/ano até o teto de 90. Quem pede demissão também deve aviso (ou desconta). E o aviso só vale para demissão SEM justa causa e rescisão indireta — a justa causa é saída imediata.', // pegadinha
+    video: 'aviso prévio 30 dias 3 por ano cálculo resumo' // busca no YouTube
+  },
+  {
+    id: 'tr08',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Justa causa',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O empregado demitido por justa causa (por falta grave sua) perde:', // pergunta
+    alternativas: [                     // opções
+      'Nada — recebe tudo normal',
+      'Aviso prévio, 13º proporcional, férias proporcionais, multa de 40% do FGTS e o saque do fundo',
+      'O direito a novo emprego',
+      'O FGTS inteiro (vai embora)',
+      'Só as férias vencidas'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justa causa é a demissão mais pesada: o empregado sai com saldo de salário + férias VENCIDAS — e perde aviso prévio, 13º proporcional, férias proporcionais, a multa de 40% e o saque do FGTS (o dinheiro continua lá, mas não libera).', // explicação
+    dica: 'A FCC mistura os direitos: FGTS depositado não some — só não pode sacar. E enumerar as faltas graves (art. 482): abandono de emprego (30 dias), embriaguez em serviço, mau procedimento, condenação criminal definitiva...', // pegadinha
+    video: 'justa causa direitos perdidos clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr09',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Pedido de demissão',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Quando o empregado pede demissão (iniciativa dele), ele recebe:', // pergunta
+    alternativas: [                     // opções
+      'Todas as verbas rescisórias e a multa',
+      'Saldo de salário, férias vencidas + proporcionais e 13º proporcional — mas não aviso prévio indenizado nem a multa do FGTS',
+      'Nada',
+      'Só o salário do mês',
+      'Dobro de tudo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'No pedido de demissão o trabalhador recebe saldo de salário + férias vencidas e proporcionais + 13º proporcional. PERDE: aviso prévio (se não cumprir, desconta!), a multa de 40% e o saque do FGTS.', // explicação
+    dica: 'Comparativo de rescisões da CESPE: sem justa causa = tudo; justa causa = quase nada; pedido = meio-termo (recebe o proporcional, perde o "prêmio" — aviso prévio e multa).', // pegadinha
+    video: 'pedido de demissão verbas rescisórias resumo' // busca no YouTube
+  },
+  {
+    id: 'tr10',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Norma mais favorável',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O princípio da norma mais favorável no Direito do Trabalho determina que:', // pergunta
+    alternativas: [                     // opções
+      'A lei mais antiga vale sempre',
+      'Entre normas que regulam a mesma matéria, prevalece a que mais beneficia o trabalhador',
+      'O contrato vence a lei',
+      'O costume da empresa é lei',
+      'A norma internacional nunca se aplica'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Direito do Trabalho protege o hipossuficiente: entre a CLT, a convenção coletiva e o contrato, aplica-se a regra mais favorável ao trabalhador (a mais benéfica, não a mais recente nem a mais antiga).', // explicação
+    dica: 'A FCC testa a aplicação prática: convenção coletiva pode SUPERAR a lei se for mais favorável (ex.: adicional maior). E o contrato não pode reduzir direitos legais — a norma mais favorável limita a liberdade contratual.', // pegadinha
+    video: 'norma mais favorável princípio trabalhista resumo' // busca no YouTube
+  },
+  {
+    id: 'tr11',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Adicionais (noturno, insalubre, perigoso)', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CEBRASP',                   // banca inspiradora
+    enunciado: 'O adicional de periculosidade (trabalho com explosivos, energia, segurança pessoal) é de:', // pergunta
+    alternativas: [                     // opções
+      '10% do salário',
+      '30% do salário-base',
+      '50% da hora extra',
+      '20% do salário mínimo',
+      'R$ 200 fixos'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Periculosidade = 30% do salário-base (vigilante, eletricista, explosivos, motoboy). Insalubridade = 10/20/40% do salário mínimo conforme o grau. Noturno urbano = +20% da hora diurna.', // explicação
+    dica: 'A CEBRASP confunde os três: NOTURNO = +20% hora (trabalho urbano 22h-5h); PERICULOSIDADE = +30% salário-base; INSALUBRIDADE = +10/20/40% salário mínimo. Não se acumulam periculosidade e insalubridade — escolhe um.', // pegadinha
+    video: 'adicional noturno insalubridade periculosidade clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr12',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contrato de experiência',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'O contrato de experiência (período de prova) pode durar no máximo:', // pergunta
+    alternativas: [                     // opções
+      '30 dias',
+      '90 dias — por prazo determinado, dentro da regra dos contratos temporários',
+      '6 meses',
+      '1 ano',
+      'Indeterminado'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O contrato de experiência é por prazo determinado: até 90 dias no máximo, podendo ser prorrogado UMA vez (ex.: 45+45). Se passar disso, vira contrato por prazo indeterminado automaticamente.', // explicação
+    dica: 'A FCC troca com outros prazos: contrato temporário geral = até 2 anos; experiência = até 90 dias; aprendiz = até 2 anos também. E no fim da experiência não precisa de aviso prévio nem justa causa.', // pegadinha
+    video: 'contrato de experiência 90 dias clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr13',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Rescisão indireta',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A rescisão indireta do contrato de trabalho acontece quando:', // pergunta
+    alternativas: [                     // opções
+      'O empregado falta ao trabalho',
+      'A falta grave é cometida pelo EMPREGADOR — é a "justa causa" do patrão',
+      'O contrato vence',
+      'A empresa fecha sem culpa',
+      'O empregado pede demissão'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rescisão indireta = falta grave do EMPREGADOR (exigir serviços proibidos, tratar o empregado com desídia, não pagar salário, expor a risco) — o empregado "demite" o patrão e recebe todas as verbas como se fosse sem justa causa.', // explicação
+    dica: 'A CESPE troca os sujeitos: justa causa = falta do EMPREGADO; rescisão indireta = falta do EMPREGADOR (mesmas verbas da demissão sem justa causa). Precisa de decisão judicial reconhecendo a falta.', // pegadinha
+    video: 'rescisão indireta justa causa do empregador resumo' // busca no YouTube
+  },
+  {
+    id: 'tr14',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estabilidade provisória',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'A estabilidade provisória da gestante impede a demissão:', // pergunta
+    alternativas: [                     // opções
+      'Só durante a licença-maternidade',
+      'Da confirmação da gravidez até 5 meses após o parto — mesmo se a empresa souber depois',
+      'Por 1 ano depois do parto',
+      'Só com aviso prévio',
+      'Nunca existe estabilidade'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A gestante tem estabilidade provisória: da confirmação da gravidez até 5 meses depois do parto — e vale mesmo se a demissão acontecer sem que ela ou a empresa soubessem da gravidez (dirigida a garantir o bebê).', // explicação
+    dica: 'A FCC pergunta o alcance: a estabilidade protege até demissão por arbitrariedade — só cai por justa causa. E vale para a empregada doméstica e também para a adoção (guarda) no mesmo período.', // pegadinha
+    video: 'estabilidade gestante 5 meses pós parto resumo' // busca no YouTube
+  },
+  {
+    id: 'tr15',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Prescrição trabalhista',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Para cobrar verbas trabalhistas, o empregado tem de entrar com a ação até:', // pergunta
+    alternativas: [                     // opções
+      '1 ano após o fim do contrato',
+      '2 anos após a extinção do contrato — e a ação alcança verbas dos últimos 5 anos',
+      '10 anos',
+      '6 meses',
+      'Não há prazo'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dois prazos juntos: ação até 2 ANOS após o fim do vínculo (prescrição bienal); e a ação só alcança verbas dos últimos 5 ANOS (quinquenal). Passou, perde — é regra de morte do direito trabalhista.', // explicação
+    dica: 'A CESPE cobra o par 2+5: 2 anos para entrar com a ação e, entrando, só cobra os 5 anos anteriores. Menor de 18 e FGTS têm regras especiais — mas o geral é 2+5.', // pegadinha
+    video: 'prescrição trabalhista 2 anos 5 anos resumo' // busca no YouTube
+  },
+  {
+    id: 'tr16',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Reforma trabalhista (2017)', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A reforma trabalhista de 2017 (Lei 13.467) trouxe, entre as novidades:', // pergunta
+    alternativas: [                     // opções
+      'Fim do 13º salário',
+      'Trabalho intermitente, teletrabalho regulamentado e prevalência de negociação coletiva em vários pontos',
+      'Aumento do salário mínimo',
+      'Fim da CLT',
+      'Jornada ilimitada'
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A reforma modernizou a CLT: trabalho intermitente (por horas/convocação), teletrabalho com regras próprias, negociação coletiva com força sobre a lei em temas específicos, férias fracionáveis em até 3 períodos e contribuição sindical facultativa.', // explicação
+    dica: 'A AOCP testa as polêmicas: negociado sobre o legislado (dentro de limites — direitos irrenunciáveis continuam), férias em até 3 partes (mínimo 14+5+5) e o trabalho intermitente (paga por hora/convocação).', // pegadinha
+    video: 'reforma trabalhista 2017 intermitente teletrabalho resumo' // busca no YouTube
   }
 ];

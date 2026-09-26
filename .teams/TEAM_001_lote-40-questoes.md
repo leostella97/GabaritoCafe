@@ -226,3 +226,27 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 ### Verificação
 - Script de cobertura: 0 matérias do CATALOGO e 0 do banco sem plano; `planoDeMateria` das 5 novas gera `plano-corpo` + `ver-mais` com resumo real.
 - `validar-idiomas.js` ✅ (238×3) | `validar-banco.js` 559/0 ✅ | `node --check` ✅.
+
+---
+
+## Tarefa 10 — Banca CEBRASP, Direito do Trabalho e matérias editáveis no simulado do edital
+
+### Pedido
+- "inclua a banca cebrasp; inclua: Direito Penal, Direito do Trabalho, Legislação, Ética, Administração; gerar simulado com questões do edital tela hora do simulado permitir usuário alterar matérias"
+
+### O que foi feito
+- `banco-questoes.js`: **+16 questões de Direito do Trabalho** (tr01–tr16) — CLT art.7º/jornada/férias/décimo, FGTS, estabilidades, adicionais, aviso prévio, dispensa, Banco do Brasil/Nubank/LGPD-adjacentes — total do banco: **575 questões / 29 matérias**. Relabel CEBRASP em 3 questões municipais (d16, lg05, lg16) — total CEBRASP no banco: 6 (3 novas trabalhistas + 3 relabeladas).
+- `analise-edital.js`: `BANCAS` + CEBRASP (padrões `CEBRASP`, `CENTRO BRASILEIRO DE APOIO`); `BANCAS_DICAS` + entrada CEBRASP (dicas de GCM/prefeitura SP, Lei 13.022, LEP, Maria da Penha).
+- `dados-bancas.js`: + CEBRASP na tela de bancas (perfil, 4 pegadinhas, estratégia) — agora 10 bancas.
+- `simulado.js` — **matérias do edital passaram a ser editáveis**:
+  - `filtrosAtuais()`: chips `.ativa` sempre mandam — o atalho "if checked → materiasEdital" que ignorava a seleção foi removido.
+  - `atualizarDisponiveis()`: chips não esmaecem mais; se a seleção divergir do conjunto do edital, o check `sim-so-edital` desmarca sozinho.
+  - Listener do check: marcar = pré-seleciona exatamente as matérias do edital nos chips (atalho), desmarcar = libera edição.
+- `css/componentes.css`: `.chip-opcao.desativado` removido (classe morta — nenhum consumidor restava).
+- Matérias do pedido já existiam: Penal(16), Legislação(16), Ética(16), Administração(16); só Trabalho faltava.
+- `README.md`: 559→575, 9→10 bancas.
+
+### Verificação
+- Teste funcional (stub DOM): chips do edital pré-marcados; desmarcar Legislação + marcar Ética → `filtrosAtuais` devolve {Penal, Ética} e o check desmarca; re-marcar o check restaura exatamente o conjunto do edital; motor monta 8 questões só das matérias alteradas.
+- `bancasDoBanco()` inclui CEBRASP (6 questões); simulado de Direito do Trabalho monta 10.
+- `validar-banco.js` ✅ 575/0/29 matérias | `validar-idiomas.js` ✅ | `node --check` ✅.

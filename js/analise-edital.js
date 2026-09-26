@@ -62,6 +62,7 @@ const AnaliseEdital = {
     { rotulo: 'FUMARC', padroes: ['FUMARC'] },                                       // FUMARC
     { rotulo: 'Instituto AOCP', padroes: ['AOCP'] },                                 // AOCP
     { rotulo: 'IDECAN', padroes: ['IDECAN'] },                                       // IDECAN
+    { rotulo: 'CEBRASP', padroes: ['CEBRASP', 'CENTRO BRASILEIRO DE APOIO E SELECAO'] }, // CEBRASP (GCM/prefeituras SP)
     { rotulo: 'QUADRIX', padroes: ['QUADRIX'] },                                     // QUADRIX
     { rotulo: 'CESGRANRIO', padroes: ['CESGRANRIO'] },                               // Cesgranrio
     { rotulo: 'Consulplan', padroes: ['CONSULPLAN'] },                               // Consulplan
@@ -182,6 +183,16 @@ const AnaliseEdital = {
         'Interpretação direta — sem rodeios na alternativa.',
         'Lei orgânica municipal e estatuto do servidor locais são o coração do edital.',
         'Atenção a datas, prazos e percentuais — ela cobra os números.'
+      ]
+    },
+    {
+      rotulo: 'CEBRASP',
+      aliases: ['CEBRASP', 'CENTRO BRASILEIRO DE APOIO'],
+      dicas: [
+        'A banca dos GCMs e prefeituras de São Paulo: nível médio/fundamental com muita legislação.',
+        'Decoreba de lei: Estatuto da GCM (Lei 13.022), LEP, Maria da Penha e leis municipais caem sempre.',
+        'Raciocínio lógico e português normativo têm peso real — não negligencie.',
+        'Prova objetiva direta: faça provas anteriores da própria CEBRASP, ela repete modelos.'
       ]
     },
     {

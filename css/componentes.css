@@ -588,11 +588,6 @@
   color: #fff7ea;                   /* texto creme */
 }
 
-.chip-opcao.desativado {            /* quando o filtro do edital manda */
-  opacity: 0.4;                     /* esmaece */
-  pointer-events: none;             /* e não responde ao clique */
-}
-
 .chip-num {                         /* bolinha com a quantidade de questões */
   background: var(--creme-escuro);  /* fundo creme */
   border-radius: 999px;             /* pílula */

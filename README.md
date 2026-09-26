@@ -52,7 +52,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | 🎥 **Aula no YouTube** | Toda questão tem um link "Assistir aula sobre o tema" que abre a busca do YouTube com a matéria certa. |
 | 🏁 **Resultado final** | Acertos, erros, aproveitamento, tempo de prova, desempenho por matéria e revisão das erradas (com a opção de **refazer só as erradas**). |
 | 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, gráfico de evolução e desempenho por matéria. |
-| 🕵️ **Bancas** | 9 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. |
+| 🕵️ **Bancas** | 10 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, CEBRASP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. |
 | 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. |
 | 🔐 **Login local** | Criar conta, entrar ou modo visitante. Senhas guardadas com hash — tudo no localStorage do navegador. |
 | 🌙 **Tema claro / escuro** | Botão que troca o visual na hora (tema escuro "café à noite", bem confortável de madrugada) e guarda a escolha. |
@@ -112,7 +112,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 559 questões comentadas
+│   ├── banco-questoes.js      # Banco com 575 questões comentadas
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -177,7 +177,7 @@ A análise é uma **heurística honesta** (sem servidor, sem IA paga) — e fico
 2. **Normalização**: acentos viram letras simples e tudo vira maiúsculo (PDFs costumam bagunçar acentos);
 3. **Cargos**: procura a seção "DOS CARGOS/VAGAS", varre linhas com palavras típicas (Agente, Analista, Técnico, Professor...) e limpa numeração, salários e vagas — parando quando começa a próxima seção (para não confundir "requisitos" com "cargo");
 4. **Matérias**: compara o texto com um catálogo de **32 matérias** e marca quais já têm questões no banco. A comparação é por **palavra inteira**, então "ARITMÉTICA" não vira "ÉTICA" 😄;
-5. **Banca organizadora**: reconhece **18 bancas** (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, AOCP, IDECAN, QUADRIX...) e confirma pelo contexto ("banca", "organizadora", "realização");
+5. **Banca organizadora**: reconhece **19 bancas** (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, AOCP, IDECAN, QUADRIX...) e confirma pelo contexto ("banca", "organizadora", "realização");
 6. **Datas**: acha datas em dois formatos (12/03/2025 e "12 de março de 2025") e classifica cada uma pelo **contexto da própria linha**: inscrições, prova ou resultado. Com a data da prova, o app mostra a **contagem regressiva** em dias;
 7. **Números**: extrai vagas, faixa salarial, taxa de inscrição, número de questões e validade do concurso;
 8. **Escolaridade**: identifica os níveis exigidos (Fundamental, Médio, Superior);
@@ -221,7 +221,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 559 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 575 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos

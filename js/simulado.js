@@ -170,7 +170,14 @@ const SimuladoUI = {
     });
     const checkEdital = document.getElementById('sim-so-edital'); // pega o check do edital
     if (checkEdital) {                                      // se o check existe
-      checkEdital.addEventListener('change', () => this.atualizarDisponiveis()); // atualiza ao marcar
+      checkEdital.addEventListener('change', () => {        // ao marcar/desmarcar
+        if (checkEdital.checked) {                          // marcou: os chips assumem exatamente as matérias do edital
+          caixa.querySelectorAll('#sim-materias .chip-opcao').forEach(chip => { // percorre os chips
+            chip.classList.toggle('ativa', e.materiasEdital.includes(chip.dataset.materia)); // marca só as do edital
+          });
+        }
+        this.atualizarDisponiveis();                        // atualiza o aviso de disponíveis
+      });
     }
     document.getElementById('btn-comecar').addEventListener('click', () => { // clique em começar
       this.comecar();                                       // inicia o jogo
@@ -193,18 +200,11 @@ const SimuladoUI = {
     this.atualizarDisponiveis();                            // preenche o aviso inicial
   },
 
-  // Calcula os filtros atuais (matérias marcadas nos chips + banca) 
+  // Calcula os filtros atuais (matérias marcadas nos chips + banca)
   filtrosAtuais() {
-    const e = this.estado;                                  // atalho para o estado
     const bancaSel = document.getElementById('sim-banca');  // select de banca
-    const checkEdital = document.getElementById('sim-so-edital'); // check do edital
-    let materias = [];                                      // lista de matérias filtradas
-    if (checkEdital && checkEdital.checked) {               // se o filtro do edital está ligado
-      materias = e.materiasEdital.slice();                  // usa as matérias do edital
-    } else {                                                // senão, usa as matérias marcadas
-      // Junta TODAS as matérias com o chip ligado (múltipla escolha)
-      materias = Array.from(document.querySelectorAll('#sim-materias .chip-opcao.ativa')).map(c => c.dataset.materia); // pega as marcadas
-    }
+    // Junta TODAS as matérias com o chip ligado (múltipla escolha) — os chips sempre mandam
+    const materias = Array.from(document.querySelectorAll('#sim-materias .chip-opcao.ativa')).map(c => c.dataset.materia); // pega as marcadas
     const banca = (bancaSel && bancaSel.value) || '';       // banca escolhida (ou vazia)
     // Junta TODOS os níveis com o chip ligado (múltipla escolha)
     const niveis = Array.from(document.querySelectorAll('#sim-niveis .chip-opcao.ativa')).map(c => c.dataset.nivel); // pega os marcados
@@ -224,18 +224,20 @@ const SimuladoUI = {
     caixa.textContent = T('sim_disp', { n: disponiveis }) + complemento; // aviso humanizado
     // Atualiza o contador de matérias escolhidas
     const contador = document.getElementById('sim-contador'); // contador da seleção
-    const checkEdital = document.getElementById('sim-so-edital'); // check do edital
-    const usandoEdital = !!(checkEdital && checkEdital.checked); // está usando o filtro do edital?
     if (contador) {                                         // se o contador existe na tela
       // Mais de uma matéria: plural | uma matéria: singular | nenhuma: todas
       contador.textContent = materias.length > 1
         ? T('sim_sel_n', { n: materias.length })            // plural
         : (materias.length === 1 ? T('sim_sel_1') : T('sim_materia_todas')); // singular ou todas
     }
-    // Quando o filtro do edital está ligado, os chips ficam esmaecidos (não valem)
-    document.querySelectorAll('#sim-materias .chip-opcao').forEach(chip => { // percorre os chips
-      chip.classList.toggle('desativado', usandoEdital);    // esmaece se o edital manda
-    });
+    // Desmarca o check do edital se a seleção manual já divergiu das matérias dele
+    const checkEdital = document.getElementById('sim-so-edital'); // check do edital
+    if (checkEdital && checkEdital.checked && this.estado.materiasEdital.length > 0) { // se o edital manda
+      const selecionadas = new Set(materias);               // matérias marcadas agora
+      const edital = this.estado.materiasEdital;            // as do edital
+      const iguais = edital.length === selecionadas.size && edital.every(m => selecionadas.has(m)); // seleção é exatamente a do edital?
+      if (!iguais) checkEdital.checked = false;             // divergiu → desmarca o check
+    }
     // Desabilita os botões de quantidade maiores que o estoque
     document.querySelectorAll('.sim-quantidade').forEach(btn => { // percorre os botões
       const qtd = parseInt(btn.dataset.qtd, 10);            // quantidade do botão
