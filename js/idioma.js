@@ -296,7 +296,35 @@ const Idioma = {
       dash_fraco_btn: 'Treinar {materia} (10 questões)',     // botão
       dash_fraco_bom: 'Você está indo bem em todas as matérias treinadas! Que tal aumentar o número de questões no próximo simulado?', // elogio
       dash_fraco_pouco: 'Responda algumas questões em cada matéria e eu descubro aqui onde você precisa focar. 🕵️', // sem dados
-      toast_treino: 'Bora treinar {materia}! 📝'             // aviso
+      toast_treino: 'Bora treinar {materia}! 📝',            // aviso
+
+      // PWA — instalação do app
+      pwa_instalar: '📲 Instalar o app',                     // TEAM_002: botão de instalação
+      pwa_ios: 'No iPhone: toque em Compartilhar ⬆ e depois em "Adicionar à Tela de Início".', // TEAM_002: instrução iOS
+      toast_instalado: 'Gabarito Café instalado! Agora é só abrir pelo ícone ☕', // TEAM_002: aviso
+
+      // Revisão — tela das erradas + lembretes
+      nav_revisao: '🔁 Revisão',                             // TEAM_002: item do menu
+      tela_revisao_t: 'Hora da revisão',                     // TEAM_002: título do topo
+      tela_revisao_s: 'As questões que escaparam voltam aqui até você dominar.', // TEAM_002: legenda
+      rev_t: 'Seu caderno de erros ☕',                       // TEAM_002: título do cartão
+      rev_sub: 'Tudo que você errou nos simulados espera aqui uma segunda dose.', // TEAM_002: legenda
+      rev_pendentes: '{n} questões esperando revisão',       // TEAM_002: contagem
+      rev_vazio: 'Nenhuma questão pendente — você está em dia! ✅', // TEAM_002: resumo zerado
+      rev_vazio_t: 'Caderno limpinho!',                      // TEAM_002: título do vazio
+      rev_vazio_x: 'Você não tem questões erradas esperando revisão. Faz um simulado e o que escapar aparece aqui.', // TEAM_002: convite
+      rev_vazio_btn: '📝 Fazer um simulado',                 // TEAM_002: CTA do vazio
+      rev_btn_nova: '🔁 Nova revisão ({n})',                 // TEAM_002: monta simulado das erradas
+      rev_btn_detalhes: '🔍 Detalhes',                       // TEAM_002: abre a lista explicada
+      rev_lembrar: 'Lembrar em:',                            // TEAM_002: rótulo dos lembretes
+      rev_dias: '{n} dias',                                  // TEAM_002: rótulo de cada prazo
+      rev_vencido: '⏰ Tá na hora de revisar! {n} questões esperando você.', // TEAM_002: lembrete vencido
+      rev_toast_lembrete: 'Anotado! Te lembro em {n} dias. 📅', // TEAM_002: lembrete agendado
+      rev_toast_lembrete_off: 'Lembrete de {n} dias desligado.', // TEAM_002: lembrete cancelado
+      rev_toast_nova: 'Revisão na mesa: {n} questões! 🔁',   // TEAM_002: revisão montada
+      rev_detalhes_t: 'O que precisa melhorar',              // TEAM_002: seção de detalhes
+      rev_errou: 'errou {n}×',                               // TEAM_002: selo de repetição do erro
+      sim_ir_revisao: '🔁 Revisão'                           // TEAM_002: atalho na tela de resultado
     },
 
     /* ================= ENGLISH ================= */
@@ -560,7 +588,35 @@ const Idioma = {
       dash_fraco_btn: 'Train {materia} (10 questions)',
       dash_fraco_bom: 'You are doing well in every subject you practised! How about increasing the number of questions in your next mock test?',
       dash_fraco_pouco: 'Answer a few questions in each subject and I will figure out here where you need to focus. 🕵️',
-      toast_treino: 'Let’s train {materia}! 📝'
+      toast_treino: 'Let’s train {materia}! 📝',
+
+      // PWA — app installation
+      pwa_instalar: '📲 Install the app',                    // TEAM_002: install button
+      pwa_ios: 'On iPhone: tap Share ⬆ and then "Add to Home Screen".', // TEAM_002: iOS instructions
+      toast_instalado: 'Gabarito Café installed! Just open it from the icon ☕', // TEAM_002: toast
+
+      // Review — missed questions screen + reminders
+      nav_revisao: '🔁 Review',                              // TEAM_002: menu item
+      tela_revisao_t: 'Review time',                         // TEAM_002: top title
+      tela_revisao_s: 'The questions that slipped away come back here until you master them.', // TEAM_002: subtitle
+      rev_t: 'Your mistake notebook ☕',                      // TEAM_002: card title
+      rev_sub: 'Everything you missed in mock tests waits here for a second shot.', // TEAM_002: subtitle
+      rev_pendentes: '{n} questions waiting for review',     // TEAM_002: count
+      rev_vazio: 'No pending questions — you are all caught up! ✅', // TEAM_002: zero summary
+      rev_vazio_t: 'Clean notebook!',                        // TEAM_002: empty title
+      rev_vazio_x: 'You have no missed questions waiting for review. Take a mock test and whatever slips shows up here.', // TEAM_002: invite
+      rev_vazio_btn: '📝 Take a mock test',                  // TEAM_002: empty CTA
+      rev_btn_nova: '🔁 New review ({n})',                   // TEAM_002: builds mock test from misses
+      rev_btn_detalhes: '🔍 Details',                        // TEAM_002: opens explained list
+      rev_lembrar: 'Remind me in:',                          // TEAM_002: reminders label
+      rev_dias: '{n} days',                                  // TEAM_002: each interval label
+      rev_vencido: '⏰ Time to review! {n} questions waiting for you.', // TEAM_002: due reminder
+      rev_toast_lembrete: 'Done! I will remind you in {n} days. 📅', // TEAM_002: reminder set
+      rev_toast_lembrete_off: '{n}-day reminder turned off.', // TEAM_002: reminder cancelled
+      rev_toast_nova: 'Review served: {n} questions! 🔁',    // TEAM_002: review built
+      rev_detalhes_t: 'What to improve',                     // TEAM_002: details section
+      rev_errou: 'missed {n}×',                              // TEAM_002: error count badge
+      sim_ir_revisao: '🔁 Review'                            // TEAM_002: shortcut on result screen
     },
 
     /* ================= ESPAÑOL ================= */
@@ -824,7 +880,35 @@ const Idioma = {
       dash_fraco_btn: 'Entrenar {materia} (10 preguntas)',
       dash_fraco_bom: '¡Vas bien en todas las materias practicadas! ¿Qué tal aumentar la cantidad de preguntas en el próximo simulacro?',
       dash_fraco_pouco: 'Responde algunas preguntas de cada materia y descubriré aquí dónde necesitas enfocarte. 🕵️',
-      toast_treino: '¡Vamos a entrenar {materia}! 📝'
+      toast_treino: '¡Vamos a entrenar {materia}! 📝',
+
+      // PWA — instalación de la app
+      pwa_instalar: '📲 Instalar la app',                    // TEAM_002: botón de instalación
+      pwa_ios: 'En el iPhone: toca Compartir ⬆ y luego "Añadir a pantalla de inicio".', // TEAM_002: instrucción iOS
+      toast_instalado: '¡Gabarito Café instalado! Ábrelo desde el ícono ☕', // TEAM_002: aviso
+
+      // Repaso — pantalla de fallos + recordatorios
+      nav_revisao: '🔁 Repaso',                              // TEAM_002: ítem del menú
+      tela_revisao_t: 'Hora de repasar',                     // TEAM_002: título superior
+      tela_revisao_s: 'Las preguntas que se te escaparon vuelven aquí hasta que las domines.', // TEAM_002: subtítulo
+      rev_t: 'Tu cuaderno de errores ☕',                     // TEAM_002: título de la tarjeta
+      rev_sub: 'Todo lo que fallaste en los simulacros espera aquí una segunda dosis.', // TEAM_002: subtítulo
+      rev_pendentes: '{n} preguntas esperando repaso',       // TEAM_002: conteo
+      rev_vazio: '¡Sin preguntas pendientes — estás al día! ✅', // TEAM_002: resumen en cero
+      rev_vazio_t: '¡Cuaderno limpio!',                      // TEAM_002: título de vacío
+      rev_vazio_x: 'No tienes preguntas falladas esperando repaso. Haz un simulacro y lo que se escape aparece aquí.', // TEAM_002: invitación
+      rev_vazio_btn: '📝 Hacer un simulacro',                // TEAM_002: CTA de vacío
+      rev_btn_nova: '🔁 Nuevo repaso ({n})',                 // TEAM_002: arma simulacro con fallos
+      rev_btn_detalhes: '🔍 Detalles',                       // TEAM_002: abre la lista explicada
+      rev_lembrar: 'Recordar en:',                           // TEAM_002: rótulo de recordatorios
+      rev_dias: '{n} días',                                  // TEAM_002: rótulo de cada plazo
+      rev_vencido: '⏰ ¡Es hora de repasar! {n} preguntas te esperan.', // TEAM_002: recordatorio vencido
+      rev_toast_lembrete: '¡Anotado! Te recuerdo en {n} días. 📅', // TEAM_002: recordatorio agendado
+      rev_toast_lembrete_off: 'Recordatorio de {n} días apagado.', // TEAM_002: recordatorio cancelado
+      rev_toast_nova: '¡Repaso servido: {n} preguntas! 🔁',  // TEAM_002: repaso armado
+      rev_detalhes_t: 'Qué mejorar',                         // TEAM_002: sección de detalles
+      rev_errou: 'fallaste {n}×',                            // TEAM_002: sello de repetición del fallo
+      sim_ir_revisao: '🔁 Repaso'                            // TEAM_002: atajo en la pantalla de resultado
     }
   },
 

@@ -51,12 +51,14 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | ✅ **Correção comentada** | Acertou: explicação para consolidar. Errou: o que errou, o gabarito, o **passo a passo** e a **pegadinha da banca**. |
 | 🎥 **Aula no YouTube** | Toda questão tem um link "Assistir aula sobre o tema" que abre a busca do YouTube com a matéria certa. |
 | 🏁 **Resultado final** | Acertos, erros, aproveitamento, tempo de prova, desempenho por matéria e revisão das erradas (com a opção de **refazer só as erradas**). |
+| 🔁 **Revisão** | Tela própria que junta as questões erradas de todos os simulados: **Nova revisão** monta um simulado só com elas, **Detalhes** mostra cada uma com explicação, passo a passo, pegadinha e aula no YouTube, e os checkboxes **"Lembrar em"** (3, 5, 7 ou 30 dias) agendam lembretes — passado o prazo, o site avisa (torrada + 🔔 no menu). Quem acerta na revisão sai da lista. |
 | 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, gráfico de evolução e desempenho por matéria. |
 | 🕵️ **Bancas** | 10 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, CEBRASP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. |
 | 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. |
 | 🔐 **Login local** | Criar conta, entrar ou modo visitante. Senhas guardadas com hash — tudo no localStorage do navegador. |
 | 🌙 **Tema claro / escuro** | Botão que troca o visual na hora (tema escuro "café à noite", bem confortável de madrugada) e guarda a escolha. |
 | 🌎 **Três idiomas** | Português 🇧🇷, English 🇺🇸 e Español 🇪🇸 com bandeirinhas. A interface toda é traduzida; o conteúdo das questões fica em português (são provas brasileiras). |
+| 📲 **PWA instalável** | Instale o Gabarito Café no celular ou no computador como um app (botão "Instalar o app") e estude **offline**: o service worker guarda todo o app em cache no primeiro acesso. No iPhone: Compartilhar → "Adicionar à Tela de Início". |
 | 🎨 **Tema café** | Cores de café torrado, caramelo e creme, fontes artesanais (Fraunces + Nunito + Caveat), post-its de dica, vapor animado no logo e microtextos em tom de estudante. |
 
 ---
@@ -81,6 +83,7 @@ O visual segue o nome: fundo creme, marrom de café torrado, caramelo nos destaq
 | **PDF.js** (via CDN) | Ler o texto do PDF do edital no navegador |
 | **Google Fonts** (Fraunces, Nunito, Caveat) | Tipografia artesanal |
 | **localStorage** | Contas, sessão, histórico e progresso |
+| **Service Worker + Web App Manifest** | PWA instalável e uso offline (cache dos arquivos locais) |
 | **GitHub Pages** | Hospedagem gratuita (estática) |
 
 
@@ -91,11 +94,17 @@ O visual segue o nome: fundo creme, marrom de café torrado, caramelo nos destaq
 ```
 gabarito-cafe/
 ├── index.html                 # Página única com todas as telas (login + app)
+├── manifest.webmanifest       # Manifesto do PWA (nome, cores, ícones, instalação)
+├── sw.js                      # Service worker: cache do app e modo offline
 ├── README.md                  # Este guia
 ├── .gitignore                 # O que o Git deve ignorar
 ├── assets/
 │   ├── logo.svg               # Logo: xícara de café com o "visto" (gabarito)
 │   ├── icone.svg              # Favicon da aba do navegador
+│   ├── icone-192.png          # Ícone do app instalado (192×192)
+│   ├── icone-512.png          # Ícone do app instalado (512×512)
+│   ├── icone-512-mascara.png  # Ícone maskable 512×512 (Android adapta a forma)
+│   ├── icone-apple.png        # Ícone da Tela de Início do iOS (180×180)
 │   ├── bandeira-br.svg        # Bandeira do Brasil (seletor de idioma)
 │   ├── bandeira-us.svg        # Bandeira dos EUA (seletor de idioma)
 │   └── bandeira-es.svg        # Bandeira da Espanha (seletor de idioma)
@@ -118,8 +127,10 @@ gabarito-cafe/
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
 │   ├── conteudo.js            # Telas de bancas, temas e dicas
 │   ├── simulado.js            # Tela do simulado (config → questões → resultado)
+│   ├── revisao.js             # Tela de revisão: erradas acumuladas + lembretes
 │   ├── dashboard.js           # Tela de progresso
-│   └── app.js                 # "Gerente": rotas, login, avisos e inicialização
+│   ├── app.js                 # "Gerente": rotas, login, avisos e inicialização
+│   └── pwa.js                 # Registro do service worker e botão "Instalar o app"
 └── scripts/
     ├── validar-banco.js       # (dev) Confere a integridade das questões
     ├── validar-idiomas.js     # (dev) Confere se as traduções estão completas
@@ -250,8 +261,8 @@ node --check js/arquivo.js   # (um por um)
 - [ ] Questões com imagens (gráficos, tabelas, figuras)
 - [ ] Modo "prova completa" com tempo regressivo e cartão-resposta
 - [ ] Importar questões de arquivos JSON do usuário
-- [ ] Revisão espaçada (reaparecer questões erradas após X dias)
-- [ ] PWA (instalar no celular e usar offline)
+- [x] Revisão espaçada (reaparecer questões erradas após X dias) ~~(feito — tela Revisão com lembretes de 3/5/7/30 dias)~~
+- [x] PWA (instalar no celular e usar offline) ~~(feito!)~~
 - [x] Tema escuro "café à noite" ~~(feito!)~~
 - [x] Interface em inglês e espanhol ~~(feito!)~~
 

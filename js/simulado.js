@@ -487,6 +487,7 @@ const SimuladoUI = {
       banca: e.filtroBanca,                                 // filtro de banca usado
       refazendo: e.refazendo,                               // se foi refazer
       porMateria: porMateria,                               // desempenho por matéria
+      idsPerguntas: e.perguntas.map(q => q.id),             // TEAM_002: ids tentados (revisão sabe o que foi corrigido)
       erradas: erradas.map(item => ({                       // erradas (versão enxuta para salvar)
         id: item.pergunta.id,                               // id da questão
         materia: item.pergunta.materia,                     // matéria
@@ -593,6 +594,7 @@ const SimuladoUI = {
       html += '<button id="btn-refazer" class="botao botao-contorno">' + T('sim_refazer', { n: resultado.erradas.length }) + '</button>'; // botão refazer
     }
     html += '<button id="btn-novo" class="botao botao-primario">' + T('sim_novo') + '</button>'; // botão novo simulado
+    html += '<button id="btn-ir-revisao" class="botao botao-fantasma">' + T('sim_ir_revisao') + '</button>'; // TEAM_002: atalho para a tela de revisão
     html += '<button id="btn-ir-dashboard" class="botao botao-fantasma">' + T('sim_ir_dash') + '</button>'; // botão dashboard
     html += '</div>';                                       // fecha a fileira
 
@@ -615,6 +617,7 @@ const SimuladoUI = {
 
     // Liga os botões de ação
     document.getElementById('btn-novo').addEventListener('click', () => this.abrir({})); // novo simulado
+    document.getElementById('btn-ir-revisao').addEventListener('click', () => App.irPara('revisao')); // TEAM_002: abre a revisão
     document.getElementById('btn-ir-dashboard').addEventListener('click', () => { // ir para o dashboard
       DashboardUI.renderizar();                             // atualiza o dashboard
       App.irPara('dashboard');                              // navega
@@ -651,24 +654,29 @@ const SimuladoUI = {
     }
   },
 
-  // Modo "refazer as erradas": monta um simulado só com as questões erradas
-  refazerErradas(resultado) {
-    const ids = resultado.erradas.map(item => item.id);     // ids das questões erradas
+  // Monta um jogo com uma lista exata de ids (usado por "refazer" e pela tela de revisão)
+  montarJogoComIds(ids) {
     const e = this.estado;                                  // atalho para o estado
-    e.refazendo = true;                                     // marca o modo refazer
-    e.perguntas = MotorSimulado.montar({                    // sorteia só as erradas
+    e.refazendo = true;                                     // TEAM_002: marca o modo refazer/revisão
+    e.perguntas = MotorSimulado.montar({                    // sorteia só os ids pedidos
       quantidade: ids.length,                               // todas elas
       materias: [],                                         // sem filtro de matéria
       banca: '',                                            // sem filtro de banca
       excluirIds: [],                                       // sem exclusões
-      idsExatos: ids                                        // exatamente as erradas
+      idsExatos: ids                                        // exatamente as questões pedidas
     });
     e.respostas = new Array(e.perguntas.length).fill(-1);   // zera as respostas
     e.fase = 'jogo';                                        // entra no jogo
     e.comecouEm = Date.now();                               // marca o início
-    App.torrada(T('toast_refazer', { n: ids.length }), 'sucesso'); // avisa
     this.renderizarPergunta(0);                             // mostra a primeira
     this.iniciarTimer();                                    // liga o cronômetro
+  },
+
+  // Modo "refazer as erradas": monta um simulado só com as questões erradas
+  refazerErradas(resultado) {
+    const ids = resultado.erradas.map(item => item.id);     // ids das questões erradas
+    this.montarJogoComIds(ids);                             // TEAM_002: monta o jogo com esses ids
+    App.torrada(T('toast_refazer', { n: ids.length }), 'sucesso'); // avisa
   },
 
   // Foge do HTML (segurança)

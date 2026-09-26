@@ -726,3 +726,42 @@
 .tema-extra { display: none; }            /* TEAM_001: tópicos além do 3º ficam recolhidos */
 .cartao.aberto .tema-extra { display: block; } /* TEAM_001: o "Ver mais…" revela o restante */
 .tema-ver-mais { display: inline-block; margin-top: 0.5rem; } /* TEAM_001: respiro do botão */
+
+/* ---------- Botão "Instalar app" (PWA) ---------- */
+
+.btn-instalar {                            /* TEAM_002: botão de instalação do app */
+  width: 100%;                             /* ocupa a largura toda, como os vizinhos */
+  margin-top: 0.6rem;                      /* respiro acima do botão */
+}
+
+/* ---------- Revisão: lembretes "lembrar em" e sino no menu ---------- */
+
+.lembrete-chip {                           /* TEAM_002: checkbox em forma de pílula */
+  display: inline-flex;                    /* caixinha + texto alinhados */
+  align-items: center;                     /* centraliza na vertical */
+  gap: 0.4rem;                             /* respiro entre a caixinha e o texto */
+  padding: 0.45rem 0.85rem;                /* área clicável confortável */
+  border-radius: 999px;                    /* pílula */
+  border: 2px solid var(--borda);          /* borda discreta quando desmarcado */
+  background: var(--superficie);           /* fundo claro */
+  color: var(--cafe-escuro);               /* texto escuro */
+  font-weight: 700;                        /* firme */
+  font-size: 0.88rem;                      /* discreto */
+  cursor: pointer;                         /* mãozinha */
+  transition: all 0.15s ease;              /* reação suave */
+}
+
+.lembrete-chip:hover { border-color: var(--caramelo); } /* TEAM_002: acende no hover */
+
+.lembrete-chip.ativa {                     /* TEAM_002: prazo agendado */
+  background: var(--cafe);                 /* fundo café */
+  border-color: var(--cafe);               /* borda café */
+  color: #fff7ea;                          /* texto creme */
+}
+
+.lembrete-chip input { accent-color: var(--cafe); } /* TEAM_002: caixinha no tom café */
+
+.item-menu.aviso::after {                  /* TEAM_002: sino de lembrete vencido no menu */
+  content: '🔔';                           /* sininho chamativo */
+  margin-left: auto;                       /* empurra para a ponta direita do item */
+}

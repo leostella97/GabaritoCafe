@@ -16,6 +16,7 @@ const App = {
     dashboard: { titulo: 'tela_dashboard_t', sub: 'tela_dashboard_s' }, // dashboard
     edital: { titulo: 'tela_edital_t', sub: 'tela_edital_s' },          // edital
     simulado: { titulo: 'tela_simulado_t', sub: 'tela_simulado_s' },    // simulado
+    revisao: { titulo: 'tela_revisao_t', sub: 'tela_revisao_s' },       // TEAM_002: revisão
     bancas: { titulo: 'tela_bancas_t', sub: 'tela_bancas_s' },          // bancas
     temas: { titulo: 'tela_temas_t', sub: 'tela_temas_s' },             // temas
     dicas: { titulo: 'tela_dicas_t', sub: 'tela_dicas_s' }              // dicas
@@ -61,6 +62,7 @@ const App = {
     // Redesenha o conteúdo conforme a tela
     if (tela === 'dashboard') DashboardUI.renderizar();     // dashboard
     if (tela === 'simulado') SimuladoUI.atualizarIdioma();  // simulado (config/perguntas/resultado)
+    if (tela === 'revisao') RevisaoUI.renderizar();         // TEAM_002: revisão
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // temas
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // dicas importantes
@@ -139,6 +141,7 @@ const App = {
     document.getElementById('area-app').classList.remove('oculto'); // mostra o app
     this.atualizarPerfil();                                 // nome, foco e saudação
     this.irPara('dashboard');                               // começa no dashboard
+    RevisaoUI.avisarVencidos();                             // TEAM_002: lembra a revisão se o prazo passou
   },
 
   // Atualiza nome do usuário, foco e saudação do topo
@@ -180,6 +183,7 @@ const App = {
     if (tela === 'dashboard') DashboardUI.renderizar();     // dashboard sempre recalculado
     if (tela === 'edital') EditalUI.iniciar();              // liga os eventos do edital (idempotente)
     if (tela === 'simulado' && document.getElementById('tela-simulado').innerHTML.trim() === '') SimuladoUI.abrir({}); // simulado vazio abre a configuração
+    if (tela === 'revisao') RevisaoUI.renderizar();         // TEAM_002: desenha a revisão
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // desenha as bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // desenha os temas
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // desenha as dicas importantes
