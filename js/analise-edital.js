@@ -67,7 +67,44 @@ const AnaliseEdital = {
   ],
 
   // ---------- Palavras típicas de nome de cargo ----------
-  PALAVRAS_CARGO: ['AGENTE', 'ANALISTA', 'ASSISTENTE', 'AUXILIAR', 'TECNICO', 'PROFESSOR', 'AUDITOR', 'OFICIAL', 'GUARDA', 'MOTORISTA', 'ENFERMEIRO', 'FISCAL', 'INSPETOR', 'ESCRIVAO', 'DELEGADO', 'PERITO', 'RECEPCIONISTA', 'SECRETARIO', 'ENGENHEIRO', 'ADVOGADO', 'CONTADOR', 'MEDICO', 'ODONTOLOGO', 'ARQUITETO', 'ADMINISTRADOR', 'COZINHEIRO', 'PORTEIRO', 'ZELADOR', 'VIGIA', 'SERVENTE', 'PEDREIRO', 'ELETRICISTA', 'GARI', 'JARDINEIRO', 'PSICOLOGO', 'BIBLIOTECARIO', 'FARMACEUTICO', 'NUTRICIONISTA', 'FONOAUDIOLOGO', 'PROCURADOR', 'SOCORRISTA'],
+  PALAVRAS_CARGO: ['AGENTE', 'ANALISTA', 'ASSISTENTE', 'AUXILIAR', 'TECNICO', 'PROFESSOR', 'AUDITOR', 'OFICIAL', 'GUARDA', 'MOTORISTA', 'ENFERMEIRO', 'FISCAL', 'INSPETOR', 'ESCRIVAO', 'DELEGADO', 'PERITO', 'RECEPCIONISTA', 'SECRETARIO', 'ENGENHEIRO', 'ADVOGADO', 'CONTADOR', 'MEDICO', 'ODONTOLOGO', 'ARQUITETO', 'ADMINISTRADOR', 'COZINHEIRO', 'PORTEIRO', 'ZELADOR', 'VIGIA', 'SERVENTE', 'PEDREIRO', 'ELETRICISTA', 'GARI', 'JARDINEIRO', 'PSICOLOGO', 'BIBLIOTECARIO', 'FARMACEUTICO', 'NUTRICIONISTA', 'FONOAUDIOLOGO', 'PROCURADOR', 'SOCORRISTA', 'SOLDADO', 'ESCRITURARIO', 'CONSULTOR', 'POLICIAL', 'PENITENCIARIO', 'BOMBEIRO', 'MONITOR', 'LEGISLATIVO', 'OPERADOR', 'BANCARIO'],
+
+  // ---------- Cargos conhecidos (reconhecimento direto por nome) ----------
+  // Editais de carreiras famosas citam o cargo completo — detectamos pelo nome exato
+  CARGOS_CONHECIDOS: [
+    { rotulo: 'Agente Administrativo', padroes: ['AGENTE ADMINISTRATIVO'] },                         // agente administrativo
+    { rotulo: 'Agente da Polícia Federal', padroes: ['AGENTE DE POLICIA FEDERAL', 'AGENTE FEDERAL'] }, // PF
+    { rotulo: 'Policial Rodoviário Federal', padroes: ['POLICIAL RODOVIARIO FEDERAL', 'RODOVIARIO FEDERAL'] }, // PRF
+    { rotulo: 'Perito Criminal', padroes: ['PERITO CRIMINAL'] },                                     // perito criminal
+    { rotulo: 'Perito Oficial', padroes: ['PERITO OFICIAL'] },                                       // perito oficial
+    { rotulo: 'Analista Judiciário', padroes: ['ANALISTA JUDICIARIO'] },                             // analista de tribunais
+    { rotulo: 'Técnico Judiciário', padroes: ['TECNICO JUDICIARIO'] },                               // técnico de tribunais
+    { rotulo: 'Analista de Tribunal', padroes: ['ANALISTA DE TRIBUNAL', 'ANALISTA DO TRIBUNAL'] },   // analista de tribunal
+    { rotulo: 'Consultor Legislativo', padroes: ['CONSULTOR LEGISLATIVO'] },                         // consultor legislativo
+    { rotulo: 'Técnico do Seguro Social', padroes: ['TECNICO DO SEGURO SOCIAL'] },                   // INSS técnico
+    { rotulo: 'Escriturário', padroes: ['ESCRITURARIO'] },                                           // escriturário (BB/Caixa)
+    { rotulo: 'Técnico Bancário', padroes: ['TECNICO BANCARIO'] },                                   // técnico bancário (Caixa)
+    { rotulo: 'Técnico de Operações', padroes: ['TECNICO DE OPERACOES', 'TÉCNICO(A) DE OPERAÇÕES'] }, // Petrobras operacional
+    { rotulo: 'Técnico do Banco Central', padroes: ['TECNICO DO BANCO CENTRAL', 'TECNICO DO BACEN'] }, // Bacen técnico
+    { rotulo: 'Soldado', padroes: ['SOLDADO'] },                                                     // soldado PM/bombeiro
+    { rotulo: 'Polícia Penal', padroes: ['POLICIA PENAL', 'POLICIAL PENAL', 'AGENTE PENITENCIARIO', 'AGENTE DE SEGURANCA PENITENCIARIA'] }, // polícia penal
+    { rotulo: 'Guarda Civil Municipal', padroes: ['GUARDA CIVIL MUNICIPAL', 'GUARDA MUNICIPAL'] }      // GCM
+  ],
+
+  // ---------- Requisitos típicos detectados no texto ----------
+  // Cada item tem o rótulo do chip e os padrões que o acusam no edital
+  REQUISITOS: [
+    { rotulo: 'CNH / habilitação', padroes: ['CNH', 'CARTEIRA NACIONAL DE HABILITACAO', 'HABILITACAO NA CATEGORIA'] }, // habilitação
+    { rotulo: 'Título de eleitor', padroes: ['TITULO DE ELEITOR'] },                               // título de eleitor
+    { rotulo: 'Quitação militar', padroes: ['QUITACAO MILITAR', 'SERVICO MILITAR', 'RESERVISTA'] }, // quitação militar
+    { rotulo: 'Antecedentes criminais', padroes: ['ANTECEDENTES CRIMINAIS', 'CERTIDAO DE ANTECEDENTES', 'BONS ANTECEDENTES', 'FIDONEIDADE'] }, // antecedentes
+    { rotulo: 'Exame toxicológico', padroes: ['TOXICOLOGICO'] },                                   // toxicológico
+    { rotulo: 'Avaliação médica/psicológica', padroes: ['EXAME MEDICO', 'EXAMES MEDICOS', 'PSICOTECNICO', 'EXAME PSICOLOGICO', 'AVALIACAO PSICOLOGICA'] }, // médico/psico
+    { rotulo: 'Investigação social', padroes: ['INVESTIGACAO SOCIAL', 'VIDA PREGRESSA', 'SINDICANCIA DE VIDA PREGRESSA'] }, // investigação social (PF!)
+    { rotulo: 'Teste físico (TAF)', padroes: ['TAF', 'APTIDAO FISICA', 'TESTE FISICO', 'CAPACIDADE FISICA'] }, // TAF
+    { rotulo: 'Altura mínima', padroes: ['ALTURA MINIMA', 'ESTATURA MINIMA'] },                    // altura mínima
+    { rotulo: 'Curso de formação', padroes: ['CURSO DE FORMACAO'] }                                // curso de formação
+  ],
 
   // ---------- Meses em português (para datas escritas por extenso) ----------
   MESES: { JANEIRO: 1, FEVEREIRO: 2, MARCO: 3, ABRIL: 4, MAIO: 5, JUNHO: 6, JULHO: 7, AGOSTO: 8, SETEMBRO: 9, OUTUBRO: 10, NOVEMBRO: 11, DEZEMBRO: 12 },
@@ -115,6 +152,7 @@ const AnaliseEdital = {
           id: materia.id,                                   // id da matéria
           rotulo: materia.rotulo,                           // nome bonito da matéria
           temBanco: BancoQuestoes.some(q => q.materia === materia.rotulo), // temos questões dela?
+          questoes: this.pesoDaMateria(normal, materia),    // quantas questões o edital dá para ela (ou null)
           topicos: []                                       // tópicos do edital (preenchido depois)
         });
       }
@@ -122,12 +160,45 @@ const AnaliseEdital = {
     return achadas;                                         // devolve as matérias achadas
   },
 
+  // Descobre quantas questões o edital dá para uma matéria
+  // ("Língua Portuguesa: 10 questões" ou "10 questões de Matemática")
+  pesoDaMateria(normal, materia) {
+    const linhas = normal.split('\n');                      // quebra em linhas
+    for (const linha of linhas) {                           // percorre as linhas
+      for (const padrao of materia.padroes) {               // percorre os padrões da matéria
+        const posMateria = this.acharPadrao(linha, padrao); // onde a matéria aparece na linha
+        if (posMateria === -1) continue;                    // não citada nesta linha, próxima
+        // Pega números seguidos de "questões" NA MESMA LINHA — e fica com o MAIS PERTO da matéria
+        // (editais listam várias matérias na mesma linha: "Português: 20; Matemática: 15")
+        const contagens = Array.from(linha.matchAll(/(\d{1,3})\s*QUEST[OES]/g)); // todos os "N questões"
+        if (contagens.length === 0) break;                  // linha sem contagem, para nesta linha
+        let melhor = null;                                  // melhor candidato até agora
+        for (const m of contagens) {                        // percorre as contagens da linha
+          const dist = Math.abs(m.index - posMateria);      // distância até o nome da matéria
+          if (!melhor || dist < melhor.dist) melhor = { dist, qtd: parseInt(m[1], 10) }; // fica com a mais perto
+        }
+        if (melhor && melhor.dist <= 60 && melhor.qtd >= 1 && melhor.qtd <= 200) return melhor.qtd; // perto o suficiente?
+      }
+    }
+    return null;                                            // não achou contagem para a matéria
+  },
+
   // ---------- CARGOS ----------
   // Tenta identificar os cargos citados no edital
   extrairCargos(texto) {
     const linhas = String(texto).split(/\r?\n/).map(l => l.trim()).filter(Boolean); // quebra em linhas limpas
     const normLinhas = linhas.map(l => this.normalizar(l)); // versão normalizada de cada linha
+    const normalTexto = this.normalizar(texto);             // texto inteiro normalizado (para os conhecidos)
     const candidatos = new Set();                           // conjunto (evita repetidos)
+    const vistosNorm = new Set();                           // conjunto normalizado (evita "Analista" + "ANALISTA")
+
+    // Primeiro: procura os cargos conhecidos pelo nome exato (funciona sem seção de vagas)
+    for (const conhecido of this.CARGOS_CONHECIDOS) {       // percorre a lista de cargos famosos
+      if (conhecido.padroes.some(p => this.contemPadrao(normalTexto, p))) { // o nome aparece como palavra?
+        candidatos.add(conhecido.rotulo);                   // registra o nome bonito
+        vistosNorm.add(this.normalizar(conhecido.rotulo));  // registra a forma normalizada
+      }
+    }
 
     // Procura a seção de cargos para começar a varrer dali
     const indice = normLinhas.findIndex(l => /(DOS CARGOS|CARGOS|VAGAS|EMPREGOS)/.test(l) && l.length < 40); // acha o cabeçalho
@@ -149,11 +220,15 @@ const AnaliseEdital = {
         const limpo = linha.replace(/[|\t]+/g, ' ')         // troca separadores de tabela por espaço
           .replace(/\s{2,}/g, ' ')                          // junta espaços duplos
           .replace(/[-–:]?\s*R\$\s?[\d.,]+\s*$/i, '')       // corta "R$ 2.500,00" do fim (antes das vagas!)
-          .replace(/[-–:]?\s*\d{1,3}(\.\d{3})*(,\d+)?\s*(VAGAS?|VAGA)\s*$/i, '') // corta "10 vagas" do fim
+          .replace(/[-–:]?\s*\d+(\.\d{3})*(,\d+)?\s*(VAGAS?|VAGA)\s*$/i, '') // corta "2000 vagas" do fim
           .replace(/^\d+(\.\d+)*[-–:.)]?\s*/, '')           // corta a numeração do início ("1.1 ")
           .replace(/[-–:]\s*$/g, '')                        // corta separador órfão no fim
           .trim();                                          // limpa as pontas
-        if (limpo.length >= 4) candidatos.add(limpo.slice(0, 70)); // guarda o cargo (limitado a 70 chars)
+        const limpoNorm = this.normalizar(limpo);           // forma normalizada para deduplicar
+        if (limpo.length >= 4 && !vistosNorm.has(limpoNorm)) { // novo e válido?
+          candidatos.add(limpo.slice(0, 70));               // guarda o cargo (limitado a 70 chars)
+          vistosNorm.add(limpoNorm);                        // marca como visto
+        }
       }
     }
 
@@ -214,14 +289,14 @@ const AnaliseEdital = {
       // Formato numérico: 12/03/2025, 12-03-2025, 12.03.2025
       for (const m of linha.matchAll(/\b(\d{1,2})[\/.\-](\d{1,2})[\/.\-](\d{2,4})\b/g)) { // percorre as ocorrências
         const data = this.paraData(m[1], m[2], m[3]);       // monta a data
-        if (data) achadas.push({ data, pos: achadas.length, contexto: contexto }); // guarda com contexto
+        if (data) achadas.push({ data, pos: achadas.length, contexto: contexto, linha: linha }); // guarda com contexto
       }
       // Formato por extenso: "12 de marco de 2025"
       for (const m of linha.matchAll(/\b(\d{1,2})\s+DE\s+([A-Z]+)\s+DE\s+(\d{4})\b/g)) { // percorre as ocorrências
         const mes = this.MESES[m[2]];                       // traduz o nome do mês
         if (!mes) continue;                                 // mês desconhecido, ignora
         const data = this.paraData(m[1], mes, m[3]);        // monta a data
-        if (data) achadas.push({ data, pos: achadas.length, contexto: contexto }); // guarda com contexto
+        if (data) achadas.push({ data, pos: achadas.length, contexto: contexto, linha: linha }); // guarda com contexto
       }
     }
     return achadas;                                         // já sai em ordem de aparição no texto
@@ -230,14 +305,25 @@ const AnaliseEdital = {
   // Separa as datas importantes: inscrições, prova e resultado
   extrairDatas(texto) {
     const todas = this.coletarDatas(texto);                 // todas as datas com contexto
-    const datas = { inscricoesInicio: null, inscricoesFim: null, prova: null, resultado: null, total: todas.length }; // pacote
+    const datas = { inscricoesInicio: null, inscricoesFim: null, prova: null, taf: null, resultado: null, total: todas.length }; // pacote
     if (todas.length === 0) return datas;                   // sem datas, devolve vazio
 
-    // Marca cada data com o "papel" que o contexto sugere
+    // Marca cada data com o "papel" que o contexto sugere.
+    // Regra: a PRÓPRIA linha manda; só usa o contexto herdado (linha anterior)
+    // quando a linha da data não fala de nenhum assunto — assim a "prova" não
+    // vira "inscrição" só porque veio logo depois da seção de inscrições.
+    const reInscricao = /(INSCRI|ISENCAO)/;                  // família inscrição
+    const reTaf = /(TAF|APTIDAO FISICA|TESTE FISICO|CAPACIDADE FISICA)/; // família teste físico
+    const reProva = /(PROVA|APLICACAO|REALIZACAO|EXAME|AVALIACAO)/;      // família prova
+    const reResultado = /(GABARITO|RESULTADO|CLASSIFICACAO|HOMOLOGACAO|RECURSO)/; // família resultado
     for (const item of todas) {                             // percorre as datas
-      item.ehInscricao = /(INSCRI|ISENCAO)/.test(item.contexto); // fala de inscrição?
-      item.ehProva = /(PROVA|APLICACAO|REALIZACAO|EXAME|AVALIACAO)/.test(item.contexto) && !item.ehInscricao; // fala de prova?
-      item.ehResultado = /(GABARITO|RESULTADO|CLASSIFICACAO|HOMOLOGACAO|RECURSO)/.test(item.contexto); // fala de resultado?
+      const linha = item.linha || item.contexto;            // a linha da própria data
+      const linhaTemPapel = reInscricao.test(linha) || reTaf.test(linha) || reProva.test(linha) || reResultado.test(linha); // linha já tem assunto?
+      const base = linhaTemPapel ? linha : item.contexto;   // se tem, ela manda; senão, herda da anterior
+      item.ehInscricao = reInscricao.test(base);            // fala de inscrição?
+      item.ehTaf = reTaf.test(base);                        // fala de teste físico?
+      item.ehProva = reProva.test(base) && !item.ehInscricao && !item.ehTaf; // fala de prova?
+      item.ehResultado = reResultado.test(base);            // fala de resultado?
     }
 
     // Inscrições: pega a primeira e a última data de inscrição em ordem
@@ -253,6 +339,10 @@ const AnaliseEdital = {
     const resultados = todas.filter(d => d.ehResultado);    // só as de resultado
     if (resultados.length > 0) datas.resultado = resultados[resultados.length - 1].data; // última
 
+    // TAF (teste físico): primeira data marcada como física
+    const tafs = todas.filter(d => d.ehTaf);                // só as de teste físico
+    if (tafs.length > 0) datas.taf = tafs[0].data;          // primeira delas
+
     return datas;                                           // devolve o pacote de datas
   },
 
@@ -260,7 +350,7 @@ const AnaliseEdital = {
   // Extrai os números importantes: vagas, salário, taxa, questões e validade
   extrairNumeros(texto) {
     const normal = this.normalizar(texto);                  // texto normalizado
-    const numeros = { vagas: null, salarioMin: null, salarioMax: null, taxa: null, questoes: null, validade: null }; // pacote
+    const numeros = { vagas: null, salarioMin: null, salarioMax: null, taxa: null, questoes: null, validade: null, cargaHoraria: null, cadastroReserva: false }; // pacote
 
     // Vagas: o maior "N vagas" encontrado (o total costuma ser o maior)
     const vagas = Array.from(normal.matchAll(/(\d{1,4})\s*VAGAS?/g)).map(m => parseInt(m[1], 10)); // todas as ocorrências
@@ -286,6 +376,13 @@ const AnaliseEdital = {
     const mValidade = normal.match(/VALIDADE[^.]{0,40}?(\d{1,2})\s*(ANOS?|MESES?)/); // procura
     if (mValidade) numeros.validade = { quantidade: parseInt(mValidade[1], 10), unidade: /ANO/.test(mValidade[2]) ? 'anos' : 'meses' }; // guarda
 
+    // Carga horária semanal: "carga horária de 40 horas" ou "40h semanais"
+    const mHoras = normal.match(/CARGA HORARIA[^.]{0,60}?(\d{1,3})\s*(HORAS|H)(?![A-Z])/) || normal.match(/(\d{1,3})\s*(HORAS|H)\s*SEMANAIS?/); // procura
+    if (mHoras) numeros.cargaHoraria = parseInt(mHoras[1], 10); // guarda as horas semanais
+
+    // Cadastro reserva: o edital prevê cadastro de reserva?
+    numeros.cadastroReserva = /CADASTRO\s+(DE\s+)?RESERVA/.test(normal); // true/false
+
     return numeros;                                         // devolve o pacote de números
   },
 
@@ -301,10 +398,30 @@ const AnaliseEdital = {
   extrairEscolaridade(texto) {
     const normal = this.normalizar(texto);                  // texto normalizado
     const niveis = [];                                      // lista de níveis achados
+    // Forma 1: a palavra-chave perto de "nível/ensino/escolaridade" (caso clássico do edital)
     if (/(NIVEL|ENSINO|ESCOLARIDADE)[^.]{0,40}FUNDAMENTAL/.test(normal)) niveis.push('Fundamental'); // fundamental
     if (/(NIVEL|ENSINO|ESCOLARIDADE)[^.]{0,40}MEDIO/.test(normal)) niveis.push('Médio');             // médio
     if (/(NIVEL|ENSINO|ESCOLARIDADE)[^.]{0,40}SUPERIOR/.test(normal)) niveis.push('Superior');       // superior
+    // Forma 2 (plano B): expressões soltas que entregam o nível sozinhas
+    if (niveis.length === 0) {                              // só tenta se a forma 1 não achou
+      if (/\bFUNDAMENTAL\s+COMPLETO\b|\bENSINO\s+FUNDAMENTAL\b/.test(normal)) niveis.push('Fundamental'); // fundamental solto
+      if (/\bMEDIO\s+COMPLETO\b|\bENSINO\s+MEDIO\b|\bNIVEL\s+MEDIO\b/.test(normal)) niveis.push('Médio'); // médio solto
+      if (/\bSUPERIOR\s+COMPLETO\b|\bFORMACAO\s+SUPERIOR\b|\bCURSO\s+SUPERIOR\b|\bGRADUACAO\b|\bDIPLOMA\b/.test(normal)) niveis.push('Superior'); // superior solto
+    }
     return niveis;                                          // devolve os níveis
+  },
+
+  // ---------- REQUISITOS ----------
+  // Detecta requisitos típicos do edital (CNH, título de eleitor, quitação, TAF...)
+  extrairRequisitos(texto) {
+    const normal = this.normalizar(texto);                  // texto normalizado
+    const achados = [];                                     // lista de requisitos achados
+    for (const req of this.REQUISITOS) {                    // percorre o catálogo de requisitos
+      if (req.padroes.some(p => this.contemPadrao(normal, p))) { // algum padrão apareceu como palavra?
+        achados.push(req.rotulo);                           // guarda o rótulo do requisito
+      }
+    }
+    return achados;                                         // devolve os requisitos
   },
 
   // ---------- CONTEÚDO PROGRAMÁTICO TÓPICO A TÓPICO ----------
@@ -425,6 +542,11 @@ const AnaliseEdital = {
     if (analise.numeros.questoes) nota += 4;                // achou o número de questões
     if (analise.numeros.vagas) nota += 4;                   // achou o total de vagas
     if (analise.programa.length > 0) nota += 8;             // separou o conteúdo programático
+    if (analise.escolaridade.length > 0) nota += 4;         // descobriu a escolaridade
+    if (analise.requisitos && analise.requisitos.length > 0) nota += 3; // achou requisitos típicos
+    if (analise.datas.taf) nota += 2;                       // achou a data do TAF
+    if (analise.materias.some(m => m.questoes)) nota += 3;  // achou o peso de alguma matéria
+    if (analise.numeros.cargaHoraria || analise.numeros.cadastroReserva) nota += 2; // detalhes de jornada/reserva
     // Junta os tópicos do programa dentro de cada matéria
     for (const item of analise.programa) {                  // percorre o programa
       const alvo = analise.materias.find(m => m.rotulo === item.rotulo); // acha a matéria correspondente
@@ -437,9 +559,9 @@ const AnaliseEdital = {
   // Faz tudo de uma vez e devolve o pacote completo
   analisar(texto) {
     if (!texto || String(texto).trim().length < 40) {       // texto curto demais para analisar
-      return { titulo: '', cargos: [], materias: [], trechos: [], programa: [], banca: null, // devolve vazio
-        datas: { inscricoesInicio: null, inscricoesFim: null, prova: null, resultado: null, total: 0 },
-        numeros: { vagas: null, salarioMin: null, salarioMax: null, taxa: null, questoes: null, validade: null },
+      return { titulo: '', cargos: [], materias: [], trechos: [], programa: [], banca: null, requisitos: [], // devolve vazio
+        datas: { inscricoesInicio: null, inscricoesFim: null, prova: null, taf: null, resultado: null, total: 0 },
+        numeros: { vagas: null, salarioMin: null, salarioMax: null, taxa: null, questoes: null, validade: null, cargaHoraria: null, cadastroReserva: false },
         escolaridade: [], confianca: 0, caracteres: 0, valido: false }; // pacote vazio
     }
 
@@ -455,6 +577,7 @@ const AnaliseEdital = {
       datas: this.extrairDatas(texto),                      // datas importantes
       numeros: this.extrairNumeros(texto),                  // números do edital
       escolaridade: this.extrairEscolaridade(texto),        // escolaridade exigida
+      requisitos: this.extrairRequisitos(texto),            // requisitos típicos detectados
       caracteres: String(texto).length,                     // tamanho do texto lido
       valido: true                                          // análise válida
     };

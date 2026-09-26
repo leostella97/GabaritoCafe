@@ -183,6 +183,15 @@ const EditalUI = {
         }
         html += '</div>';                                   // fecha a fileira
       }
+      // Requisitos típicos detectados (CNH, TAF, quitação, antecedentes...)
+      if (analise.requisitos && analise.requisitos.length > 0) { // se achamos requisitos
+        html += '<p style="font-weight:900;font-size:0.85rem;margin:0.9rem 0 0.3rem">' + T('ed_requisitos_t') + '</p>'; // rótulo
+        html += '<div class="lista-chips">';                // fileira de chips
+        for (const req of analise.requisitos) {             // percorre os requisitos
+          html += '<span class="chip">' + this.escape(req) + '</span>'; // chip de cada requisito
+        }
+        html += '</div>';                                   // fecha a fileira
+      }
     } else {                                                // se não achamos
       html += '<p class="texto-suave">' + T('ed_cargos_vazio') + '</p>'; // pede ajuda
     }
@@ -194,7 +203,8 @@ const EditalUI = {
     if (analise.materias.length > 0) {                      // se achamos matérias
       html += '<div class="lista-chips">';                  // abre a fileira de chips
       for (const materia of analise.materias) {             // percorre as matérias
-        const rotulo = materia.rotulo + (materia.temBanco ? ' ✓' : ' 🕮'); // marca as que têm questões
+        const peso = materia.questoes ? ' (×' + materia.questoes + ')' : ''; // peso da matéria no edital, se achado
+        const rotulo = materia.rotulo + peso + (materia.temBanco ? ' ✓' : ' 🕮'); // marca peso e se temos questões
         html += '<span class="chip ' + (materia.temBanco ? 'verde' : '') + '">' + this.escape(rotulo) + '</span>'; // chip de cada matéria
       }
       html += '</div>';                                     // fecha a fileira
@@ -237,7 +247,8 @@ const EditalUI = {
         const materias = this.ultimaAnalise.materias        // matérias detectadas
           .filter(m => m.temBanco)                          // só as que têm questões
           .map(m => m.rotulo);                              // pega os nomes
-        SimuladoUI.abrir({ materias: materias, origem: 'edital' }); // abre o simulado filtrado
+        const ensinos = this.ensinosDoEdital(this.ultimaAnalise); // nível de ensino sugerido pelo edital
+        SimuladoUI.abrir({ materias: materias, ensinos: ensinos, origem: 'edital' }); // abre o simulado filtrado
         App.irPara('simulado');                             // navega para a tela do simulado
       });
     }
@@ -247,6 +258,15 @@ const EditalUI = {
     if (btnBanca) {                                         // se o botão existe
       btnBanca.addEventListener('click', () => App.irPara('bancas')); // leva para a tela de bancas
     }
+  },
+
+  // Traduz a escolaridade do edital em filtro de ensino do simulado
+  // Só sugere quando o edital pede UM único nível (senão fica livre)
+  ensinosDoEdital(analise) {
+    const esc = analise.escolaridade || [];                 // níveis achados no edital
+    if (esc.length !== 1) return [];                        // nenhum ou mais de um: sem sugestão
+    if (esc[0] === 'Superior') return ['superior'];         // só superior → filtra superior
+    return ['medio'];                                       // só médio ou fundamental → filtra médio
   },
 
   // Desenha as datas importantes com contagem regressiva para a prova
@@ -260,6 +280,7 @@ const EditalUI = {
       linhas.push({ rotulo: T('ed_data_inscricoes'), valor: periodo, destaque: false }); // adiciona a linha
     }
     if (fmt(d.prova)) linhas.push({ rotulo: T('ed_data_prova'), valor: fmt(d.prova), destaque: true }); // data da prova
+    if (fmt(d.taf)) linhas.push({ rotulo: T('ed_data_taf'), valor: fmt(d.taf), destaque: false }); // teste físico
     if (fmt(d.resultado)) linhas.push({ rotulo: T('ed_data_resultado'), valor: fmt(d.resultado), destaque: false }); // resultado
 
     if (linhas.length === 0) return '<p class="texto-suave">' + T('ed_sem_datas') + '</p>'; // nada achado
@@ -305,6 +326,8 @@ const EditalUI = {
       const unidade = n.validade.unidade === 'anos' ? T('ed_anos') : T('ed_meses'); // traduz a unidade
       linhas.push({ rotulo: T('ed_num_validade'), valor: n.validade.quantidade + ' ' + unidade }); // valor
     }
+    if (n.cargaHoraria) linhas.push({ rotulo: T('ed_num_horas'), valor: n.cargaHoraria + 'h/' + T('ed_semana') }); // carga horária
+    if (n.cadastroReserva) linhas.push({ rotulo: T('ed_num_cr'), valor: T('ed_cr_sim') }); // cadastro reserva
     if (linhas.length === 0) return '<p class="texto-suave">' + T('ed_numeros_vazio') + '</p>'; // nada achado
 
     let html = '<div class="lista-datas">';                 // abre a lista

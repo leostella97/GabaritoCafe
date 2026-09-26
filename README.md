@@ -43,7 +43,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | Funcionalidade | Como funciona |
 |---|---|
 | 📄 **Importação de edital** | Arraste o PDF do edital/manual do candidato (ou cole o texto). O app lê o PDF direto no navegador com PDF.js. |
-| 🔍 **Análise inteligente do edital** | Detecta cargos, matérias, **banca organizadora**, **datas** (com contagem regressiva para a prova), **vagas, salário, taxa, número de questões e validade**, escolaridade exigida e o **conteúdo programático tópico por tópico** — com nota de confiança de 0 a 100. |
+| 🔍 **Análise inteligente do edital** | Detecta cargos (incluindo carreiras famosas: PF, PRF, PM, GCM, polícia penal, tribunais, INSS, bancário...), matérias e o **peso de cada uma na prova** (×20, ×15...), **banca organizadora**, **datas** (inscrições, prova, **TAF** e resultado — com contagem regressiva), **vagas, salário, taxa, número de questões, validade, carga horária e cadastro reserva**, escolaridade exigida (que já sugere o filtro de nível do simulado), **requisitos típicos** (CNH, TAF, antecedentes, toxicológico...) e o **conteúdo programático tópico por tópico** — com nota de confiança de 0 a 100. |
 | 💡 **Tela de dicas** | 16 dicas importantes em 4 categorias (rotina, técnicas de estudo, hora da prova, corpo e véspera) + as dicas rápidas de prova. |
 | 🎯 **Onde focar agora** | O dashboard analisa seu histórico, aponta a matéria mais fraca e cria um simulado focado nela com um clique. |
 | 🗺️ **Plano de estudo** | Para cada matéria detectada, mostra o que mais cai e por onde começar (ou avisa honestamente se ainda não tem resumo daquela matéria). |
@@ -183,7 +183,8 @@ A análise é uma **heurística honesta** (sem servidor, sem IA paga) — e fico
 8. **Escolaridade**: identifica os níveis exigidos (Fundamental, Médio, Superior);
 9. **Conteúdo programático**: recorta a seção e separa os **tópicos que o edital pede, matéria por matéria** — aquilo vira chips na tela do edital e um aviso marca o que já tem questões no banco;
 10. **Confiança**: dá uma nota de 0 a 100 mostrando o quanto entendeu do edital (cargos, matérias, banca, datas, números e programa), com barra colorida na tela;
-11. **Plano**: cruza as matérias com os "temas que mais caem" e ainda dá uma **orientação de ritmo** conforme os dias que faltam para a prova (reta final, meio de caminho ou base com calma).
+11. **Plano**: cruza as matérias com os "temas que mais caem" e ainda dá uma **orientação de ritmo** conforme os dias que faltam para a prova (reta final, meio de caminho ou base com calma);
+12. **Integração com o simulado**: o botão "gerar simulado" já leva as matérias do edital **e** marca o nível de ensino certo (médio/superior) conforme a escolaridade exigida.
 
 **Limitação honesta:** editais com tabelas muito complexas ou PDFs "escaneados" (imagem sem texto) podem não sair perfeitos. Nesses casos o campo **"cola o texto aqui"** resolve — a análise funciona igual.
 

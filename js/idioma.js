@@ -160,7 +160,7 @@ const Idioma = {
       ed_cola_ph: 'Cole aqui o conteúdo do edital (conteúdo programático, cargos, requisitos...)', // exemplo
       ed_cola_btn: '🔍 Analisar texto colado',              // botão
       ed_foco_t: 'Meu foco 🎯',                             // seção do foco
-      ed_foco_label: 'Qual cargo você vai disputar?',       // rótulo
+      ed_foco_label: 'Qual cargo/vaga você vai disputar?',  // rótulo
       ed_foco_ph: 'Ex.: Técnico Administrativo, Auditor Fiscal, Medicina...', // exemplo
       ed_foco_btn: 'Guardar foco',                          // botão
 
@@ -245,6 +245,7 @@ const Idioma = {
       ed_sem_datas: 'Não encontrei datas no texto. Confere no PDF do edital!', // aviso
       ed_data_inscricoes: 'Inscrições',                      // rótulo
       ed_data_prova: 'Data da prova',                        // rótulo
+      ed_data_taf: 'Teste físico (TAF)',                     // rótulo
       ed_data_resultado: 'Resultado final',                  // rótulo
       ed_contagem: 'Contagem regressiva',                    // rótulo
       ed_faltam: 'Faltam {dias} dias para a prova!',         // contador
@@ -256,10 +257,15 @@ const Idioma = {
       ed_num_taxa: 'Taxa de inscrição',                      // rótulo
       ed_num_questoes: 'Questões da prova',                  // rótulo
       ed_num_validade: 'Validade do concurso',               // rótulo
+      ed_num_horas: 'Carga horária semanal',                 // rótulo
+      ed_semana: 'semana',                                   // unidade
+      ed_num_cr: 'Cadastro reserva',                         // rótulo
+      ed_cr_sim: '✓ Previsto',                               // valor
       ed_numeros_vazio: 'Não encontrei os números (vagas, salário...) neste texto.', // aviso
       ed_anos: 'anos',                                       // unidade
       ed_meses: 'meses',                                     // unidade
       ed_escolaridade_t: '🎓 Escolaridade exigida',          // seção
+      ed_requisitos_t: '🧾 Requisitos detectados',           // seção
       ed_programa_t: '📖 O que o edital pede em cada matéria', // seção
       ed_programa_sub: 'Estes são os tópicos que o próprio edital lista. Comece pelos que você domina menos:', // explicação
       ed_programa_vazio: 'Não consegui separar o conteúdo programático por matéria. Cola o texto do edital no campo abaixo que eu tento de novo!', // aviso
@@ -403,7 +409,7 @@ const Idioma = {
       ed_cola_ph: 'Paste the notice content here (syllabus, positions, requirements...)',
       ed_cola_btn: '🔍 Analyse pasted text',
       ed_foco_t: 'My goal 🎯',
-      ed_foco_label: 'Which position are you going for?',
+      ed_foco_label: 'Which position/vacancy are you going for?',
       ed_foco_ph: 'E.g.: Administrative Technician, Tax Auditor, Medicine...',
       ed_foco_btn: 'Save goal',
 
@@ -488,6 +494,7 @@ const Idioma = {
       ed_sem_datas: 'I found no dates in the text. Check the notice PDF!',
       ed_data_inscricoes: 'Applications',
       ed_data_prova: 'Test date',
+      ed_data_taf: 'Physical test (TAF)',
       ed_data_resultado: 'Final result',
       ed_contagem: 'Countdown',
       ed_faltam: '{dias} days to go until the test!',
@@ -499,10 +506,15 @@ const Idioma = {
       ed_num_taxa: 'Application fee',
       ed_num_questoes: 'Test questions',
       ed_num_validade: 'Validity of the exam',
+      ed_num_horas: 'Weekly workload',
+      ed_semana: 'week',
+      ed_num_cr: 'Reserve list',
+      ed_cr_sim: '✓ Yes',
       ed_numeros_vazio: 'I could not find the numbers (vacancies, salary...) in this text.',
       ed_anos: 'years',
       ed_meses: 'months',
       ed_escolaridade_t: '🎓 Required education',
+      ed_requisitos_t: '🧾 Requirements spotted',
       ed_programa_t: '📖 What the notice asks in each subject',
       ed_programa_sub: 'These are the topics the notice itself lists. Start with the ones you master the least:',
       ed_programa_vazio: 'I could not split the syllabus by subject. Paste the notice text in the field below and I will try again!',
@@ -646,7 +658,7 @@ const Idioma = {
       ed_cola_ph: 'Pega aquí el contenido de la convocatoria (programa, puestos, requisitos...)',
       ed_cola_btn: '🔍 Analizar texto pegado',
       ed_foco_t: 'Mi meta 🎯',
-      ed_foco_label: '¿A qué puesto vas?',
+      ed_foco_label: '¿Qué puesto/vacante vas a disputar?',
       ed_foco_ph: 'Ej.: Técnico Administrativo, Auditor Fiscal, Medicina...',
       ed_foco_btn: 'Guardar meta',
 
@@ -731,6 +743,7 @@ const Idioma = {
       ed_sem_datas: 'No encontré fechas en el texto. ¡Revisa el PDF de la convocatoria!',
       ed_data_inscricoes: 'Inscripciones',
       ed_data_prova: 'Fecha del examen',
+      ed_data_taf: 'Prueba física (TAF)',
       ed_data_resultado: 'Resultado final',
       ed_contagem: 'Cuenta regresiva',
       ed_faltam: '¡Faltan {dias} días para el examen!',
@@ -742,10 +755,15 @@ const Idioma = {
       ed_num_taxa: 'Tasa de inscripción',
       ed_num_questoes: 'Preguntas del examen',
       ed_num_validade: 'Validez del concurso',
+      ed_num_horas: 'Jornada semanal',
+      ed_semana: 'semana',
+      ed_num_cr: 'Lista de reserva',
+      ed_cr_sim: '✓ Previsto',
       ed_numeros_vazio: 'No encontré los números (vacantes, salario...) en este texto.',
       ed_anos: 'años',
       ed_meses: 'meses',
       ed_escolaridade_t: '🎓 Escolaridad exigida',
+      ed_requisitos_t: '🧾 Requisitos detectados',
       ed_programa_t: '📖 Lo que la convocatoria pide en cada materia',
       ed_programa_sub: 'Estos son los temas que la propia convocatoria enumera. Empieza por los que dominas menos:',
       ed_programa_vazio: 'No pude separar el programa por materia. ¡Pega el texto de la convocatoria en el campo de abajo y lo intento otra vez!',

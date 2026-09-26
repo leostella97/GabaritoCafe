@@ -76,3 +76,31 @@
 
 ### Distribuição final por matéria
 Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitucional 26 · Administrativo 23 · Penal 12 · Atualidades 21 · História 19 · Geografia 20 · Previdenciário 5 · Criminologia 4
+
+---
+
+## Tarefa 4 — Rótulo "cargo/vaga" + melhorias na análise do edital
+
+### Pedido
+- Trocar "Qual cargo você vai disputar?" → "Qual cargo/vaga você vai disputar?" (pt/en/es + index.html).
+- "Melhore a análise do edital."
+
+### O que foi feito (analise-edital.js)
+- `CARGOS_CONHECIDOS`: 17 carreiras reconhecidas pelo nome exato (agente administrativo, PF, PRF, perito criminal/oficial, analista e técnico judiciário/tribunal, consultor legislativo, INSS técnico, escriturário, técnico bancário, técnico de operações, técnico do Bacen, soldado, polícia penal/agente penitenciário, GCM) — funciona mesmo sem seção de vagas.
+- `PALAVRAS_CARGO` ampliada (soldado, escriturário, consultor, policial, penitenciário, bombeiro, monitor, legislativo, operador, bancário).
+- `REQUISITOS` + `extrairRequisitos`: chips de requisitos típicos (CNH, título de eleitor, quitação militar, antecedentes, toxicológico, exame médico/psicológico, investigação social, TAF, altura mínima, curso de formação).
+- Datas: novo campo `taf` (teste físico); correção de bug — a linha da própria data agora manda no papel (antes a linha anterior contaminava: "prova" virava "inscrição" e a prova sumia).
+- Números: `cargaHoraria` (horas semanais) e `cadastroReserva` (booleano).
+- Matérias: `pesoDaMateria` — detecta "Matéria: N questões" escolhendo a contagem MAIS PERTO do nome na linha (várias matérias por linha OK).
+- Escolaridade: fallback para "médio completo", "ensino médio", "superior completo", "graduação", "diploma".
+- `calcularConfianca`: novos sinais (escolaridade +4, requisitos +3, taf +2, pesos +3, horas/reserva +2).
+- Dedup de cargos por forma normalizada (evita "Soldado" + "SOLDADO PM 2ª CLASSE" e acento/sem acento); corte de vagas aceita "2000 vagas" (era só até 999).
+
+### Integração edital → simulado
+- `EditalUI.ensinosDoEdital`: se o edital exige UM único nível, o botão "gerar simulado" já marca o chip de nível de ensino (Médio/Fundamental→medio, Superior→superior); `SimuladoUI.abrir` aceita `ensinos` e pré-marca os chips.
+- edital.js: chips de requisitos, linha do TAF, carga horária e cadastro reserva, peso "(×N)" nos chips de matéria.
+- i18n: `ed_data_taf`, `ed_num_horas`, `ed_semana`, `ed_num_cr`, `ed_cr_sim`, `ed_requisitos_t` em pt/en/es.
+
+### Verificação
+- Teste funcional com edital sintético policial (PM/PRF): cargos ✓, inscrições/prova/TAF/resultado ✓, escolaridade Médio ✓, 7 requisitos ✓, pesos por matéria corretos ✓, confiança 100. Tribunais (superior): 93. Vestibular Univesp: 48 com matérias sem banco.
+- `validar-idiomas.js` ✅ · `node --check` nos 4 arquivos ✅

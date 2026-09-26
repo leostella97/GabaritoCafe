@@ -31,6 +31,7 @@ const SimuladoUI = {
     this.estado.filtroMaterias = opcoes.materias || [];     // matérias iniciais (do edital, se houver)
     this.estado.materiasEdital = opcoes.materias || [];     // guarda as matérias do edital
     this.estado.soEdital = !!(opcoes.materias && opcoes.materias.length); // liga o filtro do edital se veio
+    this.estado.filtroEnsinos = opcoes.ensinos || [];       // nível de ensino sugerido (edital)
     this.estado.filtroBanca = '';                           // banca começa sem filtro
     this.estado.refazendo = false;                          // não é refazer
     this.renderizarConfig();                                // desenha a configuração
@@ -179,6 +180,13 @@ const SimuladoUI = {
     if (e.filtroMaterias.length > 0) {                      // se o simulado já foi aberto com matérias
       caixa.querySelectorAll('#sim-materias .chip-opcao').forEach(chip => { // percorre os chips
         if (e.filtroMaterias.includes(chip.dataset.materia)) chip.classList.add('ativa'); // marca os escolhidos
+      });
+    }
+
+    // Marca os chips de nível de ensino sugeridos (pela escolaridade do edital)
+    if (e.filtroEnsinos.length > 0) {                       // se o simulado veio com nível sugerido
+      caixa.querySelectorAll('#sim-ensinos .chip-opcao').forEach(chip => { // percorre os chips
+        if (e.filtroEnsinos.includes(chip.dataset.ensino)) chip.classList.add('ativa'); // marca os escolhidos
       });
     }
 
