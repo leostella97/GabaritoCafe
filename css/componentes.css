@@ -697,13 +697,15 @@
 .plano-corpo {                        /* corpo do item do plano, cortado em 2 linhas */
   display: -webkit-box;               /* caixa flexível antiga (exigida pelo clamp) */
   -webkit-box-orient: vertical;       /* empilha o conteúdo */
-  -webkit-line-clamp: 2;              /* mostra só 2 linhas */
+  -webkit-line-clamp: 2;              /* mostra só 2 linhas (webkit) */
+  line-clamp: 2;                      /* TEAM_001: mesma regra na propriedade padrão */
   overflow: hidden;                   /* esconde o que passar */
 }
 
 .plano-corpo.aberto {                 /* item expandido */
   display: block;                     /* volta a ser bloco normal */
-  -webkit-line-clamp: unset;          /* sem corte */
+  -webkit-line-clamp: unset;          /* sem corte (webkit) */
+  line-clamp: unset;                  /* TEAM_001: sem corte (padrão) */
   overflow: visible;                  /* mostra tudo */
 }
 
