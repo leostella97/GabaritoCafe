@@ -696,3 +696,32 @@
 
 .topico-detalhe p { margin: 0 0 0.5rem; } /* respiro entre blocos */
 .topico-detalhe .link-video { display: inline-block; margin-top: 0.2rem; } /* vídeo embaixo */
+
+/* ---------- "Ver mais…" no plano de estudo ---------- */
+
+.plano-corpo {                        /* corpo do item do plano, cortado em 2 linhas */
+  display: -webkit-box;               /* caixa flexível antiga (exigida pelo clamp) */
+  -webkit-box-orient: vertical;       /* empilha o conteúdo */
+  -webkit-line-clamp: 2;              /* mostra só 2 linhas */
+  overflow: hidden;                   /* esconde o que passar */
+}
+
+.plano-corpo.aberto {                 /* item expandido */
+  display: block;                     /* volta a ser bloco normal */
+  -webkit-line-clamp: unset;          /* sem corte */
+  overflow: visible;                  /* mostra tudo */
+}
+
+.ver-mais {                           /* o botão "Ver mais…" */
+  border: none;                       /* sem borda */
+  background: transparent;            /* transparente */
+  color: var(--cafe);                 /* cor café */
+  font-size: 0.8rem;                  /* miúdo */
+  font-weight: 900;                   /* firme */
+  cursor: pointer;                    /* mãozinha */
+  padding: 0.15rem 0;                 /* respiro fino */
+  text-decoration: underline dotted var(--caramelo); /* sublinhado pontilhado */
+  text-underline-offset: 3px;         /* respiro da linha */
+}
+
+.ver-mais:hover { color: var(--caramelo); } /* acende no hover */

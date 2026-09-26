@@ -77,6 +77,12 @@ const EditalUI = {
     resultado.addEventListener('click', (e) => {              // clique na matéria
       const alvo = e.target.closest('.materia-nome[data-materia]'); // nome clicável
       if (alvo) this.abrirModalMateria(alvo.dataset.materia); // abre o modal dela
+      const mais = e.target.closest('.ver-mais');           // botão "Ver mais…"
+      if (mais) {                                           // clicou no expandir
+        const corpo = mais.parentElement.querySelector('.plano-corpo'); // o corpo do item
+        const aberto = corpo.classList.toggle('aberto');    // alterna o estado
+        mais.textContent = aberto ? T('ed_ver_menos') : T('ed_ver_mais'); // troca o rótulo
+      }
     });
     resultado.addEventListener('keydown', (e) => {            // acessível por teclado
       if (e.key !== 'Enter' && e.key !== ' ') return;         // só Enter e espaço
@@ -281,6 +287,14 @@ const EditalUI = {
 
     caixa.innerHTML = html;                                 // despeja o HTML na tela
 
+    // Liga o "Ver mais…" dos itens do plano que passam de 2 linhas
+    for (const corpo of caixa.querySelectorAll('.plano-corpo')) { // percorre os corpos colapsáveis
+      if (corpo.scrollHeight > corpo.clientHeight + 2) {    // conteúdo cortado?
+        const botao = corpo.parentElement.querySelector('.ver-mais'); // botão irmão
+        if (botao) botao.classList.remove('oculto');        // mostra o "Ver mais…"
+      }
+    }
+
     // Liga o botão de gerar simulado (se ele existe)
     const btn = document.getElementById('btn-simulado-edital'); // pega o botão criado
     if (btn) {                                              // se o botão existe
@@ -463,16 +477,21 @@ const EditalUI = {
     // Procura a matéria nos temas de concursos e de vestibular
     const fonte = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta as duas listas
       .find(t => t.materia === rotuloMateria);              // acha pelo nome
-    if (!fonte) {                                           // matéria sem resumo pronto no app
-      return '<div class="plano-item"><span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + this.escape(rotuloMateria) + '</span><br><span class="texto-suave">' + T('ed_plano_sem_resumo') + '</span></div>'; // item honesto e clicável
-    }
+    // Monta o item: nome clicável + corpo colapsável em 2 linhas + "Ver mais…"
     let html = '<div class="plano-item">';                  // abre o item
-    html += '<span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + fonte.icone + ' ' + this.escape(rotuloMateria) + '</span>'; // nome clicável com emoji
-    html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + this.escape(fonte.resumo) + '</p>'; // resumo da matéria
-    html += '<p style="font-size:0.85rem"><strong>' + T('ed_plano_comeca') + '</strong> '; // abre a lista de tópicos
-    const top = fonte.topicos.slice(0, 3);                  // pega os 3 tópicos que mais caem
-    html += top.map(t => this.escape(t.nome)).join(' · ');  // junta com pontinhos
-    html += '.</p>';                                        // fecha a lista
+    html += '<span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + (fonte ? fonte.icone + ' ' : '') + this.escape(rotuloMateria) + '</span>'; // nome clicável
+    html += '<div class="plano-corpo">';                    // abre o corpo colapsável
+    if (!fonte) {                                           // matéria sem resumo pronto no app
+      html += '<span class="texto-suave">' + T('ed_plano_sem_resumo') + '</span>'; // item honesto
+    } else {                                                // matéria com resumo
+      html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + this.escape(fonte.resumo) + '</p>'; // resumo da matéria
+      html += '<p style="font-size:0.85rem"><strong>' + T('ed_plano_comeca') + '</strong> '; // abre a lista de tópicos
+      const top = fonte.topicos.slice(0, 3);                // pega os 3 tópicos que mais caem
+      html += top.map(t => this.escape(t.nome)).join(' · '); // junta com pontinhos
+      html += '.</p>';                                      // fecha a lista
+    }
+    html += '</div>';                                       // fecha o corpo
+    html += '<button type="button" class="ver-mais oculto">' + T('ed_ver_mais') + '</button>'; // botão "Ver mais…" escondido
     html += '</div>';                                       // fecha o item
     return html;                                            // devolve o bloco
   },

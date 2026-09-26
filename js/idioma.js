@@ -146,7 +146,7 @@ const Idioma = {
       ed_curto_aviso: 'Hmm, o texto estava curto demais para analisar. Tenta colar mais conteúdo (o edital inteiro, de preferência).', // texto curto
       ed_resumo: 'Seu edital em resumo',                    // título do resumo
       ed_sem_trechos: 'Não consegui separar seções claras, mas olha o que encontrei abaixo. 👇', // sem seções
-      ed_cargos_t: '💼 Cargos que encontrei',               // seção de cargos
+      ed_cargos_t: '💼 Cargos/Vagas que encontrei',               // seção de cargos
       ed_cargos_vazio: 'Não consegui identificar cargos automaticamente (alguns editais usam tabelas complexas). Dá uma conferida no PDF e me diz o cargo no campo "Meu foco" lá embaixo. 👇', // sem cargos
       ed_materias_t: '📚 Matérias que identifiquei',        // seção de matérias
       ed_materias_vazio: 'Não identifiquei matérias nesse texto. Pode ser um edital com formatação diferente — confere o PDF e, se quiser, usa o campo de colar texto com o conteúdo programático.', // sem matérias
@@ -246,6 +246,8 @@ const Idioma = {
       ed_banca_manual_btn: 'Analisar',                      // botão do campo manual
       ed_dicas_t: 'Dicas da',                               // título das dicas (nome da banca vem depois)
       ed_banca_desconhecida: 'Essa banca não está no meu catálogo — então aqui vão as dicas que valem para qualquer banca:', // aviso do fallback
+      ed_ver_mais: 'Ver mais…',                         // expande o item do plano
+      ed_ver_menos: 'Ver menos',                        // recolhe o item do plano
       ed_modal_dica: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
       ed_modal_edital: 'Tópicos que o edital pede', // rótulo da lista do edital
       ed_modal_campeoes: 'Os que mais caem',        // rótulo da lista do catálogo
@@ -407,7 +409,7 @@ const Idioma = {
       ed_curto_aviso: 'Hmm, that text was too short to analyse. Try pasting more content (the whole notice, preferably).',
       ed_resumo: 'Your exam notice in short',
       ed_sem_trechos: 'I couldn’t separate clear sections, but look what I found below. 👇',
-      ed_cargos_t: '💼 Positions I found',
+      ed_cargos_t: '💼 Positions/Vacancies I found',
       ed_cargos_vazio: 'I couldn’t identify positions automatically (some notices use complex tables). Check the PDF and tell me your position in the "My goal" field below. 👇',
       ed_materias_t: '📚 Subjects I identified',
       ed_materias_vazio: 'I didn’t identify subjects in this text. It may be a notice with a different layout — check the PDF and, if you want, paste the syllabus in the text field.',
@@ -507,6 +509,8 @@ const Idioma = {
       ed_banca_manual_btn: 'Analyze',
       ed_dicas_t: 'Tips for',
       ed_banca_desconhecida: 'This board is not in my catalog — so here are tips that work for any board:',
+      ed_ver_mais: 'See more…',
+      ed_ver_menos: 'See less',
       ed_modal_dica: 'Tap a topic to open the explanation and a video lesson',
       ed_modal_edital: 'Topics the notice asks for',
       ed_modal_campeoes: 'Most frequent ones',
@@ -668,7 +672,7 @@ const Idioma = {
       ed_curto_aviso: 'Mmm, el texto era muy corto para analizar. Intenta pegar más contenido (la convocatoria completa, si es posible).',
       ed_resumo: 'Tu convocatoria en resumen',
       ed_sem_trechos: 'No pude separar secciones claras, pero mira lo que encontré abajo. 👇',
-      ed_cargos_t: '💼 Puestos que encontré',
+      ed_cargos_t: '💼 Puestos/Vacantes que encontré',
       ed_cargos_vazio: 'No pude identificar puestos automáticamente (algunas convocatorias usan tablas complejas). Revisa el PDF y dime tu puesto en el campo "Mi meta" de abajo. 👇',
       ed_materias_t: '📚 Materias que identifiqué',
       ed_materias_vazio: 'No identifiqué materias en este texto. Puede ser una convocatoria con otro formato — revisa el PDF y, si quieres, pega el programa en el campo de texto.',
@@ -768,6 +772,8 @@ const Idioma = {
       ed_banca_manual_btn: 'Analizar',
       ed_dicas_t: 'Consejos para',
       ed_banca_desconhecida: 'Este comité no está en mi catálogo — así que aquí van consejos que sirven para cualquier comité:',
+      ed_ver_mais: 'Ver más…',
+      ed_ver_menos: 'Ver menos',
       ed_modal_dica: 'Toca un tema para abrir la explicación y una clase en video',
       ed_modal_edital: 'Temas que la convocatoria pide',
       ed_modal_campeoes: 'Los más frecuentes',

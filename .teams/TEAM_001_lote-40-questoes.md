@@ -208,3 +208,21 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - Teste funcional em Node (stubs de DOM): modal abre com as duas listas; "Urbanização" do edital casou com "Urbanização e êxodo rural" do catálogo; tópico desconhecido cai no fallback; matéria só-catálogo e só-edital abrem normal; XSS em nome de tópico sai escapado.
 - `validar-idiomas.js` ✅ | `validar-banco.js` 559/0 ✅ | `node --check` ✅.
 - Temps `_tmp_modal*.js` removidos.
+
+---
+
+## Tarefa 9 — "Cargos/Vagas", plano completo e "Ver mais…"
+
+### Pedido
+- "altere 'Cargos que encontrei' para 'Cargos/Vagas que encontrei'; complete mais matérias na seção 'Por onde começar (plano de estudo)' se passar de duas linhas, coloque 'Ver mais...' onde mostra o restante, mostre apenas o que há de matéria no edital/manual do aluno"
+
+### O que foi feito
+- `idioma.js`: `ed_cargos_t` → "Cargos/Vagas que encontrei" (pt), "Positions/Vacancies" (en), "Puestos/Vacantes" (es).
+- `dados-temas.js`: **+10 entradas de concursos** — Legislação, Ética, Direito Penal, Direito Previdenciário, Criminologia, Direito Civil, Direito do Trabalho, Administração, Contabilidade e Pedagogia, cada uma com resumo + 4-5 tópicos (`frequencia/porque/como`). A entrada morta "Legislação e Ética" (nenhum rótulo do CATALOGO casava com ela) virou Legislação + Ética separadas. Cobertura: **as 32 matérias do CATALOGO e as 28 do banco têm plano** (antes faltavam 10 — caíam no fallback "sem resumo").
+- "Ver mais…" no plano: `planoDeMateria` agora envolve o conteúdo em `.plano-corpo` (CSS `-webkit-line-clamp: 2`); após o render, cada corpo com `scrollHeight > clientHeight` ganha o botão `.ver-mais` visível; clique alterna `.aberto` e troca o rótulo Ver mais ↔ Ver menos. Delegação no mesmo listener de `#edital-resultado`.
+- i18n: `ed_ver_mais`/`ed_ver_menos` ×3.
+- O plano já iterava só `analise.materias` (matérias detectadas no edital) — requisito "mostre apenas o que há no edital" mantido e reforçado.
+
+### Verificação
+- Script de cobertura: 0 matérias do CATALOGO e 0 do banco sem plano; `planoDeMateria` das 5 novas gera `plano-corpo` + `ver-mais` com resumo real.
+- `validar-idiomas.js` ✅ (238×3) | `validar-banco.js` 559/0 ✅ | `node --check` ✅.

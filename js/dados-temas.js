@@ -97,13 +97,119 @@ const DadosTemas = {
       ]
     },
     {
-      materia: 'Legislação e Ética',     // nome da matéria
+      materia: 'Legislação',             // nome da matéria
       icone: '📜',                       // emoji
-      resumo: 'Aqui o edital manda: cada órgão tem sua lei. Mas ética no serviço público é quase universal.', // resumo
+      resumo: 'Aqui o edital manda: cada órgão tem sua lei — e a banca copia o texto dela ao pé da letra.', // resumo
       topicos: [                         // tópicos
-        { nome: 'Ética no serviço público', frequencia: 4, porque: 'Impessoalidade, moralidade e conflito de interesses caem em todo lugar.', como: 'Pense em situações: servidor usando o cargo para benefício próprio = violação. Relacione com o art. 37 da CF.' },
         { nome: 'Estatuto do servidor (lei do edital)', frequencia: 5, porque: 'Quando está no edital, é a matéria que mais derruba candidato.', como: 'Baixe a lei exata do edital e leia os artigos de deveres, proibições e penalidades — as bancas copiam o texto.' },
-        { nome: 'Lei Orgânica / leis municipais', frequencia: 4, porque: 'Concurso de prefeitura cobra a lei local na veia.', como: 'Imprima a lei orgânica do município e grife prazos e competências: é decoreba pura.' }
+        { nome: 'Lei Orgânica / leis municipais', frequencia: 4, porque: 'Concurso de prefeitura cobra a lei local na veia.', como: 'Imprima a lei orgânica do município e grife prazos e competências: é decoreba pura.' },
+        { nome: 'Lei 8.112 (regime federal)', frequencia: 5, porque: 'Nomeação, posse, licenças e PAD são clássicos de nível médio.', como: 'Decore os prazos: 30 dias para posse, 15 para exercício; e as licenças que mais caem.' },
+        { nome: 'Lei de licitações (14.133)', frequencia: 4, porque: 'A lei nova virou febre nas provas recentes.', como: 'Decore as 5 modalidades e para que serve cada uma: pregão é bens e serviços comuns.' },
+        { nome: 'LGPD e proteção de dados', frequencia: 3, porque: 'Lei recente que já virou pergunta padrão.', como: 'Foque nos direitos do titular: consentimento, acesso, correção e exclusão dos dados.' }
+      ]
+    },
+    {
+      materia: 'Ética',                  // nome da matéria
+      icone: '🤝',                       // emoji
+      resumo: 'Parece senso comum, mas a banca cobra os nomes técnicos: código de ética, conflito de interesses e censura.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Ética no serviço público', frequencia: 5, porque: 'Impessoalidade, moralidade e conflito de interesses caem em todo lugar.', como: 'Pense em situações: servidor usando o cargo para benefício próprio = violação. Relacione com o art. 37 da CF.' },
+        { nome: 'Código de ética (Decreto 1.171)', frequencia: 5, porque: 'A lista de deveres e vedações do servidor é decoreba certa.', como: 'Leia o decreto original: são só 4 páginas e a banca copia os incisos.' },
+        { nome: 'Conflito de interesses', frequencia: 4, porque: 'Situação-problema clássica das provas de ética.', como: 'Regra prática: o servidor deve declarar o conflito e se impedir de agir — memorize isso.' },
+        { nome: 'Comissão de ética e censura', frequencia: 4, porque: 'As bancas confundem censura ética com demissão de propósito.', como: 'Guarde: comissão de ética só aplica CENSURA; demissão é do PAD; crime é do juiz.' },
+        { nome: 'Ética x moral x direito', frequencia: 3, porque: 'Conceituação que abre toda prova de ética.', como: 'Moral = a prática vivida; ética = a reflexão sobre ela; direito = a norma escrita. Uma frase para cada.' }
+      ]
+    },
+    {
+      materia: 'Direito Penal',          // nome da matéria
+      icone: '🚨',                       // emoji
+      resumo: 'Carreiras policiais vivem disso: crimes contra o patrimônio e a administração respondem pela maior parte.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Crimes contra o patrimônio', frequencia: 5, porque: 'Furto, roubo e estelionato se confundem de propósito na prova.', como: 'Monte a tríade: furto (sem violência), roubo (violência grave), estelionato (engano). Um exemplo de cada.' },
+        { nome: 'Crimes contra a administração', frequencia: 5, porque: 'Peculato e corrupção são assinatura da CESPE.', como: 'Peculato = desvio do que já está sob sua guarda; corrupção passiva = pedir/receber vantagem. Decore os verbos.' },
+        { nome: 'Legítima defesa e excludentes', frequencia: 4, porque: 'PM, GCM e penal cobram os requisitos na veia.', como: 'Decore: uso moderado dos meios necessários + repelir injusta agressão atual/iminente. Excesso = pune.' },
+        { nome: 'Flagrante e prisão', frequencia: 4, porque: 'Qualquer cidadão pode prender em flagrante — a banca adora.', como: 'Flagrante = faculdade (não crime não prender). Só juiz decreta preventiva.' },
+        { nome: 'LEP — execução penal', frequencia: 4, porque: 'Regimes e progressão são o coração de polícia penal.', como: 'Aberto = albergue domiciliar; semiaberto = trabalho fora; fechado = presídio. Progressão = bom comportamento + fração da pena.' }
+      ]
+    },
+    {
+      materia: 'Direito Previdenciário', // nome da matéria
+      icone: '🏦',                       // emoji
+      resumo: 'A matéria do INSS: segurados, carência e benefícios respondem quase tudo na prova de técnico.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Segurados e dependência', frequencia: 5, porque: 'A cadeia segurado → benefício → dependente é a espinha dorsal.', como: 'Decore as classes: empregado/avulso/contribuinte individual são obrigatórios; facultativo é por opção.' },
+        { nome: 'Carência e qualidade de segurado', frequencia: 5, porque: 'Os prazos (12/24/36 meses) são pegadinha garantida.', como: 'Carência = contribuições mínimas para pedir o benefício; qualidade = estar na graça do sistema. Não misture.' },
+        { nome: 'Benefícios (aposentadorias, auxílios)', frequencia: 5, porque: 'Auxílio por incapacidade, aposentadorias e salário-maternidade caem sempre.', como: 'Monte a tabela: cada benefício tem idade/carência próprias. BPC é assistencial — não exige contribuição.' },
+        { nome: 'Pensão por morte', frequencia: 4, porque: 'A dependência presumida é pegadinha clássica.', como: 'Cônjuge, companheiro e filho menor = dependência presumida; pais e irmãos precisam provar.' },
+        { nome: 'Reforma de 2019 e transição', frequencia: 4, porque: 'As regras novas são o que a banca cobra agora.', como: 'Guarde as idades (62/65) + contribuição mínima e saiba que transição protege quem já estava no sistema.' }
+      ]
+    },
+    {
+      materia: 'Criminologia',           // nome da matéria
+      icone: '🔬',                       // emoji
+      resumo: 'A ciência do crime para peritos e policiais: escolas, vestígios e cadeia de custódia são os campeões.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Escolas criminológicas', frequencia: 5, porque: 'Clássica x Positivista é a questão mais batida.', como: 'Beccaria (livre-arbítrio, lei) x Lombroso (determinismo, criminoso). Um autor por escola.' },
+        { nome: 'Cadeia de custódia', frequencia: 4, porque: 'Perito e investigador precisam dominar o rastro da prova.', como: 'A cadeia garante que a prova não foi alterada: quem coletou, transportou e guardou — cada elo importa.' },
+        { nome: 'Vestígio x prova', frequencia: 4, porque: 'A diferença conceitual cai literal.', como: 'Vestígio = o que sobrou do crime; indício = o que sugere; prova = o que convence o juiz. Ordem crescente.' },
+        { nome: 'Corpo de delito e quesitos', frequencia: 3, porque: 'Terminologia de perícia aparece em editais policiais.', como: 'Corpo de delito = o conjunto de vestígios que materializa o crime; quesitos são as perguntas que o juiz faz ao perito.' }
+      ]
+    },
+    {
+      materia: 'Direito Civil',          // nome da matéria
+      icone: '📖',                       // emoji
+      resumo: 'Tribunais cobram a base: pessoas, obrigações e responsabilidade civil são os três pilares.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Capacidade civil', frequencia: 4, porque: 'Absoluta/relativa incapacidade é pegadinha de idade.', como: 'Decore: absoluta até 16; relativa 16-18, 70+, prodigalidade... Plena aos 18 (com emancipação como exceção).' },
+        { nome: 'Obrigações e inadimplemento', frequencia: 4, porque: 'Dar, fazer, não fazer e a mora são conceitos-chave.', como: 'Mora = atraso culposo; inadimplemento = descumprimento. O credor pode exigir perdas e danos.' },
+        { nome: 'Responsabilidade civil', frequencia: 4, porque: 'Dano, nexo e culpa são os elementos cobrados.', como: 'Responsabilidade subjetiva = precisa de culpa/dolo; objetiva = basta o dano+ nexo (atividade de risco).' },
+        { nome: 'Contratos', frequencia: 3, porque: 'Elementos e vícios do contrato aparecem em tribunal.', como: 'Elementos: agente capaz + objeto lícito + forma prescrita. Vício de consentimento = coação, erro, dolo.' }
+      ]
+    },
+    {
+      materia: 'Direito do Trabalho',    // nome da matéria
+      icone: '⚒️',                       // emoji
+      resumo: 'CLT pura: jornada, férias, FGTS e rescisão são o que a prova de técnico cobra.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Jornada e horas extras', frequencia: 5, porque: '8 horas/dia, 44/semana e o adicional de 50% são decoreba certa.', como: 'Jornada padrão = 8h/dia e 44h/semana; extra = +50% em dia útil, +100% em feriado/domingo (regra).' },
+        { nome: 'Férias e 13º salário', frequencia: 4, porque: 'Direitos anuais com prazos cobrados.', como: 'Férias = 30 dias a cada 12 meses + 1/3 constitucional; 13º = um salário por ano, em 2 parcelas.' },
+        { nome: 'FGTS e rescisão', frequencia: 4, porque: 'Demissão sem justa causa x com justa causa rende questão.', como: 'FGTS = 8% do salário depositado; sem justa causa = 40% de multa; justa causa = perde a multa e o saque.' },
+        { nome: 'Princípios trabalhistas', frequencia: 3, porque: 'Proteção, norma mais favorável e irrenunciabilidade caem na teoria.', como: 'A CLT protege o hipossuficiente: direitos trabalhistas são irrenunciáveis e a norma melhor para o trabalhador prevalece.' }
+      ]
+    },
+    {
+      materia: 'Administração',          // nome da matéria
+      icone: '📊',                       // emoji
+      resumo: 'Teorias de gestão: Fayol, Taylor e Weber são o trio que toda banca testa.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Fayol x Taylor x Weber', frequencia: 5, porque: 'O trio clássico aparece disfarçado em todo edital.', como: 'Fayol = funções do administrador (POCCC); Taylor = eficiência da tarefa; Weber = burocracia ideal. Um retrato de cada.' },
+        { nome: 'Processo administrativo (PODC)', frequencia: 5, porque: 'Planejar, organizar, dirigir e controlar caem sempre.', como: 'Memorize o ciclo: planear o objetivo → organizar recursos → dirigir pessoas → controlar resultados.' },
+        { nome: 'Motivação (Maslow, Herzberg)', frequencia: 4, porque: 'A pirâmide de Maslow é a teoria mais cobrada.', como: 'Fisiologia → segurança → social → estima → autorrealização. As de baixo vêm primeiro.' },
+        { nome: 'Liderança e estilos', frequencia: 4, porque: 'Autocrático, democrático e liberal são questões de cena.', como: 'Autocrático decide sozinho; democrático decide em grupo; liberal deixa livre. Associe um exemplo a cada.' },
+        { nome: 'Qualidade (PDCA, SWOT)', frequencia: 3, porque: 'Ferramentas de gestão caem contextualizadas.', como: 'PDCA = Plan-Do-Check-Act; SWOT = forças/fraquezas (internas) e oportunidades/ameaças (externas).' }
+      ]
+    },
+    {
+      materia: 'Contabilidade',          // nome da matéria
+      icone: '📒',                       // emoji
+      resumo: 'Bancos e tribunais cobram a base: equação patrimonial, partidas dobradas e os demonstrativos.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'Equação fundamental (A = P + PL)', frequencia: 5, porque: 'A fórmula que abre toda prova de contabilidade.', como: 'Ativo = bens+direitos; Passivo = obrigações; PL = o que sobra dos sócios. Exercite a conta mental.' },
+        { nome: 'Partidas dobradas', frequencia: 5, porque: 'Débito e crédito confundem metade dos candidatos.', como: 'Não é bom/ruim: débito aumenta ativo/despesa; crédito aumenta passivo/receita/PL. Toda entrada tem saída.' },
+        { nome: 'Balanço e DRE', frequencia: 4, porque: 'A foto x o filme é a analogia mais cobrada.', como: 'Balanço = foto do patrimônio numa data; DRE = resultado do período (receitas − despesas = lucro).' },
+        { nome: 'Circulante x não circulante', frequencia: 4, porque: 'O corte de 12 meses é pegadinha certa.', como: 'Circulante = até 12 meses; acima = não circulante. Estoque e caixa são circulantes; imobilizado não.' },
+        { nome: 'Depreciação e capital de giro', frequencia: 3, porque: 'Aparecem em cargos de nível superior.', como: 'Depreciação = desgaste do bem ao longo da vida útil; giro = ativo circulante − passivo circulante.' }
+      ]
+    },
+    {
+      materia: 'Pedagogia',              // nome da matéria
+      icone: '🏫',                       // emoji
+      resumo: 'Edital de professor: teorias da aprendizagem e a legislação educacional são o núcleo.', // resumo
+      topicos: [                         // tópicos
+        { nome: 'LDB (Lei 9.394/96)', frequencia: 5, porque: 'A lei de diretrizes é a matéria mais cobrada de pedagogia.', como: 'Decore os níveis (básica e superior), os anos da básica e a gestão democrática da escola pública.' },
+        { nome: 'Teorias da aprendizagem', frequencia: 4, porque: 'Piaget, Vygotsky e Paulo Freire caem em toda prova.', como: 'Piaget = estágios do desenvolvimento; Vygotsky = interação social; Freire = educação libertadora. Um resumo de cada.' },
+        { nome: 'Currículo e avaliação', frequencia: 4, porque: 'BNCC e os tipos de avaliação rendem questões diretas.', como: 'Avaliação diagnóstica (início), formativa (durante) e somativa (final): um propósito para cada.' },
+        { nome: 'Didática e planejamento', frequencia: 3, porque: 'Plano de aula e metodologias ativas são tendência.', como: 'Metodologia ativa = aluno protagonista; o plano de aula tem objetivo, conteúdo, método e avaliação.' }
       ]
     }
   ],
