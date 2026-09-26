@@ -96,6 +96,10 @@ gabarito-cafe/
 ├── index.html                 # Página única com todas as telas (login + app)
 ├── manifest.webmanifest       # Manifesto do PWA (nome, cores, ícones, instalação)
 ├── sw.js                      # Service worker: cache do app e modo offline
+├── privacidade.html           # Política de Privacidade (exigida pelo AdSense)
+├── ads.txt                    # Declaração de vendedores de anúncio (ver nota no arquivo)
+├── robots.txt                 # Libera o rastreamento dos buscadores
+├── sitemap.xml                # Mapa das páginas públicas para o Google
 ├── README.md                  # Este guia
 ├── .gitignore                 # O que o Git deve ignorar
 ├── assets/
@@ -130,7 +134,8 @@ gabarito-cafe/
 │   ├── revisao.js             # Tela de revisão: erradas acumuladas + lembretes
 │   ├── dashboard.js           # Tela de progresso
 │   ├── app.js                 # "Gerente": rotas, login, avisos e inicialização
-│   └── pwa.js                 # Registro do service worker e botão "Instalar o app"
+│   ├── pwa.js                 # Registro do service worker e botão "Instalar o app"
+│   └── anuncios.js            # Liga os blocos de anúncio do Google AdSense
 └── scripts/
     ├── validar-banco.js       # (dev) Confere a integridade das questões
     ├── validar-idiomas.js     # (dev) Confere se as traduções estão completas

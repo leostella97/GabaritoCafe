@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v1';                 // TEAM_002: cache versionado do app
+const CACHE = 'gabarito-cafe-v2';                 // TEAM_002: cache versionado do app
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
@@ -19,6 +19,7 @@ const CACHE = 'gabarito-cafe-v1';                 // TEAM_002: cache versionado 
 const ARQUIVOS = [                                // TEAM_002: precache do app inteiro
   './',                                           // raiz (index.html)
   'index.html',                                   // página única do app
+  'privacidade.html',                             // política de privacidade (AdSense)
   'manifest.webmanifest',                         // manifesto do PWA
   'css/base.css',                                 // estilos base
   'css/componentes.css',                          // estilos de componentes
@@ -41,6 +42,7 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'js/dashboard.js',                              // tela de progresso
   'js/app.js',                                    // gerente do app
   'js/pwa.js',                                    // instalação do PWA
+  'js/anuncios.js',                               // blocos de anúncio AdSense
   'assets/logo.svg',                              // logo da xícara
   'assets/icone.svg',                             // favicon
   'assets/bandeira-br.svg',                       // bandeira PT

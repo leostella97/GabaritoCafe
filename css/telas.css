@@ -157,6 +157,16 @@
   text-align: center;               /* centralizado */
 }
 
+.login-legal {                      /* TEAM_002: linha do link de privacidade */
+  margin: 0.5rem 0 0;               /* respiro pequeno */
+  font-size: 0.78rem;               /* miúdo */
+  text-align: center;               /* centralizado */
+}
+
+.login-legal a {                    /* link propriamente dito */
+  color: var(--cafe-medio);         /* cor de link do café */
+}
+
 /* ---------- Dashboard ---------- */
 .dash-cabecalho {                   /* cartão de boas-vindas */
   display: flex;                    /* texto + ilustração */

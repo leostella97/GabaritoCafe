@@ -144,6 +144,21 @@
 
         <!-- Aviso honesto sobre onde os dados ficam -->
         <p class="login-aviso" data-i18n="login_aviso">🔒 Contas e resultados ficam salvos apenas neste navegador (localStorage). Nada vai para servidores.</p>
+
+        <!-- TEAM_002: link da política de privacidade (exigido pelo AdSense) -->
+        <p class="login-legal"><a href="privacidade.html" target="_blank" rel="noopener" data-i18n="rodape_priv">Política de Privacidade</a></p>
+      </div>
+
+      <!-- TEAM_002: bloco de anúncio AdSense da tela de login (a mais vista).
+           Troque data-ad-slot pelo ID do bloco criado no painel do AdSense. -->
+      <div class="anuncio">
+        <span class="anuncio-rotulo" data-i18n="ads_rotulo">Publicidade</span>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2430276497312227"
+             data-ad-slot="0000000000"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
       </div>
     </div>
   </section>
@@ -193,6 +208,8 @@
         <!-- TEAM_002: segundo botão de instalar (dentro do app, mesmo grupo .btn-instalar) -->
         <button class="botao botao-contorno pequeno btn-instalar oculto" type="button" data-i18n="pwa_instalar">📲 Instalar o app</button>
         <button id="btn-sair" class="botao botao-fantasma pequeno" type="button" data-i18n="btn_sair">↩ Sair da conta</button>
+        <!-- TEAM_002: link da política de privacidade também dentro do app -->
+        <a class="link-privacidade" href="privacidade.html" target="_blank" rel="noopener" data-i18n="rodape_priv">Política de Privacidade</a>
       </div>
     </aside>
 
@@ -259,8 +276,20 @@
       <!-- Tela: Dicas importantes (montada pelo JavaScript) -->
       <section id="tela-dicas" class="tela"></section>
 
-      <!-- Rodapé carinhoso -->
-      <footer class="rodape" data-i18n="rodape">Feito com ☕ e muitas horas de estudo — Gabarito Café · seus dados ficam só com você</footer>
+      <!-- TEAM_002: bloco de anúncio persistente, visível em todas as telas
+           internas logo acima do rodapé. Troque data-ad-slot pelo ID real. -->
+      <div class="anuncio">
+        <span class="anuncio-rotulo" data-i18n="ads_rotulo">Publicidade</span>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2430276497312227"
+             data-ad-slot="0000000000"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+
+      <!-- Rodapé carinhoso (data-i18n no span para não apagar o link ao lado) -->
+      <footer class="rodape"><span data-i18n="rodape">Feito com ☕ e muitas horas de estudo — Gabarito Café · seus dados ficam só com você</span> · <a href="privacidade.html" target="_blank" rel="noopener" data-i18n="rodape_priv">Política de Privacidade</a></footer>
     </main>
   </div>
 
@@ -292,5 +321,7 @@
   <script src="js/app.js"></script>
   <!-- TEAM_002: instalação do PWA — registra o sw.js e liga os botões "Instalar app" -->
   <script src="js/pwa.js"></script>
+  <!-- TEAM_002: liga os blocos de anúncio do AdSense (ignora slots pendentes) -->
+  <script src="js/anuncios.js"></script>
 </body>
 </html>

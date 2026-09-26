@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEAM_002: mapa do site para o Google indexar as páginas públicas -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://leostella97.github.io/GabaritoCafe/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://leostella97.github.io/GabaritoCafe/privacidade.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

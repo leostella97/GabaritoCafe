@@ -1,0 +1,6 @@
+# TEAM_002: declara ao Google quem pode vender anúncio neste domínio.
+# ATENÇÃO: o Google só lê o ads.txt na RAIZ do domínio
+# (leostella97.github.io/ads.txt). Copie este arquivo para o
+# repositório "leostella97.github.io" — aqui ele serve de backup
+# e fica pronto para um domínio próprio no futuro.
+google.com, pub-2430276497312227, DIRECT, f08c47fec0942fa0

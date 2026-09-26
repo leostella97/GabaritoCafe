@@ -299,6 +299,34 @@
   font-size: 0.9rem;                /* discreto */
 }
 
+.rodape a {                         /* link do rodapé (privacidade) */
+  color: var(--cafe-medio);         /* mesma cor dos links do app */
+}
+
+/* ---------- Bloco de anúncio (AdSense) ---------- */
+.anuncio {                          /* TEAM_002: espaço do anúncio */
+  margin: 1.6rem 0 0;               /* respiro acima */
+  text-align: center;               /* anúncio centralizado */
+  min-height: 0;                    /* encolhe se o bloco ficar vazio */
+}
+
+.anuncio-rotulo {                   /* TEAM_002: selo "Publicidade" */
+  display: block;                   /* linha própria */
+  font-size: 0.7rem;                /* bem miúdo */
+  letter-spacing: 0.08em;           /* espaçado */
+  text-transform: uppercase;        /* caixa alta */
+  color: var(--marrom-suave);       /* discreto */
+  margin-bottom: 0.4rem;            /* colado no anúncio */
+}
+
+.link-privacidade {                 /* TEAM_002: link de privacidade na lateral */
+  display: block;                   /* linha própria */
+  margin-top: 0.6rem;               /* respiro */
+  font-size: 0.75rem;               /* miúdo */
+  color: var(--marrom-suave);       /* apagado */
+  text-align: center;               /* centralizado */
+}
+
 /* ---------- Notas informativas ---------- */
 .nota {                             /* aviso discreto em fundo creme */
   background: var(--creme-escuro);  /* fundo creme escuro */

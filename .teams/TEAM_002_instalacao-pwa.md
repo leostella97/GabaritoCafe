@@ -67,6 +67,39 @@
   (backup local do filter-branch) foi apagado em seguida.
 - Opção sem squash/commit vazio: preserva o histórico de 33 commits; hashes mudaram.
 
+---
+
+## Tarefa 3 — Aprovação e exibição de anúncios (AdSense)
+
+### Pedido
+- "já coloquei o necessário do google adsense nos arquivos, quero ganhar dinheiro,
+  exibir anuncios no site, melhore para o google aceitar não ter nenhum erro problema"
+
+### O que faltava / o que foi feito
+- **ads.txt** criado (`google.com, pub-2430276497312227, DIRECT, f08c47fec0942fa0`).
+  ⚠️ **Google só lê na raiz do domínio** → o usuário precisa copiá-lo para o
+  repositório `leostella97/leostella97.github.io` (publica em
+  `leostella97.github.io/ads.txt`). O mesmo vale para `robots.txt`.
+- **robots.txt + sitemap.xml** — rastreamento liberado e mapa com index + privacidade.
+- **privacidade.html** — política com as cláusulas exigidas pelo AdSense:
+  cookies de fornecedores terceiros (Google), Ads Settings e aboutads.info/choices,
+  localStorage, contato via GitHub. Página estática com a paleta do app.
+- **Blocos de anúncio**: 2 × `<ins class="adsbygoogle">` responsivos
+  (login — página mais vista — e persistente acima do rodapé interno) com
+  selo "Publicidade" (i18n `ads_rotulo`). `data-ad-slot` está como `0000000000`:
+  **pendente do usuário criar blocos "Display" no painel do AdSense e colar o ID**.
+  Alternativa sem slot: ativar "Anúncios automáticos" no AdSense (o script já está no head).
+- **js/anuncios.js** — empurra `adsbygoogle.push({})` só em slots configurados
+  (placeholder é ignorado sem erro de console).
+- Links da política: login (`.login-legal`), rodapé do conteúdo (span separado
+  para o i18n não apagar o `<a>`) e rodapé da lateral (`.link-privacidade`).
+- **sw.js**: cache → `gabarito-cafe-v2`; precache + `privacidade.html` + `js/anuncios.js`.
+  AdSense segue passando direto na rede (origens desconhecidas não são cacheadas).
+
+### Verificação
+- `node --check` anuncios.js/sw.js/idioma.js ✅ · validar-idiomas 265×3 ✅ ·
+  precache completo em disco ✅.
+
 ## Observações / handoff
 - O SW só passa a valer depois do primeiro carregamento online (comportamento padrão de PWA).
 - Atualizações de arquivos propagam via stale-while-revalidate: primeiro acesso serve o cache,

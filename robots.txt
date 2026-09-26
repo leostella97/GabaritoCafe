@@ -1,0 +1,6 @@
+# TEAM_002: libera o rastreamento para o Google poder avaliar o site.
+# Também precisa estar na raiz do domínio (ver aviso em ads.txt).
+User-agent: *
+Allow: /
+
+Sitemap: https://leostella97.github.io/GabaritoCafe/sitemap.xml

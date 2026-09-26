@@ -60,6 +60,8 @@ const Idioma = {
       saudacao_tarde: 'Boa tarde',                          // saudação da tarde
       saudacao_noite: 'Boa noite',                          // saudação da noite
       rodape: 'Feito com ☕ e muitas horas de estudo — Gabarito Café · seus dados ficam só com você', // rodapé
+      rodape_priv: 'Política de Privacidade',              // TEAM_002: link da política (AdSense)
+      ads_rotulo: 'Publicidade',                           // TEAM_002: rótulo acima dos anúncios
       tema_titulo: 'Alternar tema claro/escuro',            // dica do botão de tema
       idioma_titulo: 'Escolher idioma',                     // dica do seletor de idioma
 
@@ -352,6 +354,8 @@ const Idioma = {
       saudacao_tarde: 'Good afternoon',
       saudacao_noite: 'Good evening',
       rodape: 'Made with ☕ and many study hours — Gabarito Café · your data stays with you',
+      rodape_priv: 'Privacy Policy',                       // TEAM_002: privacy link (AdSense)
+      ads_rotulo: 'Advertisement',                         // TEAM_002: label above ads
       tema_titulo: 'Toggle light/dark theme',
       idioma_titulo: 'Choose language',
 
@@ -644,6 +648,8 @@ const Idioma = {
       saudacao_tarde: 'Buenas tardes',
       saudacao_noite: 'Buenas noches',
       rodape: 'Hecho con ☕ y muchas horas de estudio — Gabarito Café · tus datos se quedan contigo',
+      rodape_priv: 'Política de Privacidad',               // TEAM_002: enlace de privacidad (AdSense)
+      ads_rotulo: 'Publicidad',                            // TEAM_002: rótulo sobre los anuncios
       tema_titulo: 'Cambiar tema claro/oscuro',
       idioma_titulo: 'Elegir idioma',
 
