@@ -207,8 +207,7 @@
   height: 160px;                    /* altura do gráfico */
   padding-top: 1rem;                /* respiro acima */
   max-width: 520px;                 /* TEAM_001: teto de largura aproxima as colunas */
-  margin: 0 auto;                   /* TEAM_001: centraliza o grupo no cartão */
-  justify-content: center;          /* TEAM_001: com poucas provas, agrupa no centro */
+  justify-content: flex-start;      /* TEAM_001: alinha à esquerda — provas novas entram à direita */
 }
 
 .grafico .coluna {                  /* cada coluna (uma prova) */
