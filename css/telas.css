@@ -206,8 +206,8 @@
   gap: 0.5rem;                      /* espaço entre barras */
   height: 160px;                    /* altura do gráfico */
   padding-top: 1rem;                /* respiro acima */
-  max-width: 520px;                 /* TEAM_001: teto de largura aproxima as colunas */
   justify-content: flex-start;      /* TEAM_001: alinha à esquerda — provas novas entram à direita */
+  width: 100%;                      /* TEAM_001: traço corre até o padding direito do cartão */
 }
 
 .grafico .coluna {                  /* cada coluna (uma prova) */
