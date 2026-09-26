@@ -71,6 +71,33 @@ const EditalUI = {
 
     // Pré-preenche o campo de foco com o que já estava salvo
     document.getElementById('edital-cargo').value = Auth.focoAtual(); // carrega o foco salvo
+
+    // Delegação: clique (ou Enter) no nome da matéria abre o modal de tópicos
+    const resultado = document.getElementById('edital-resultado'); // caixa do resultado
+    resultado.addEventListener('click', (e) => {              // clique na matéria
+      const alvo = e.target.closest('.materia-nome[data-materia]'); // nome clicável
+      if (alvo) this.abrirModalMateria(alvo.dataset.materia); // abre o modal dela
+    });
+    resultado.addEventListener('keydown', (e) => {            // acessível por teclado
+      if (e.key !== 'Enter' && e.key !== ' ') return;         // só Enter e espaço
+      const alvo = e.target.closest('.materia-nome[data-materia]'); // nome clicável
+      if (alvo) { e.preventDefault(); this.abrirModalMateria(alvo.dataset.materia); } // abre o modal
+    });
+
+    // Modal: fecha no X, no véu escuro e na tecla Esc
+    const modal = document.getElementById('modal-materia');   // o véu do modal
+    document.getElementById('modal-fechar').addEventListener('click', () => this.fecharModal()); // botão X
+    modal.addEventListener('click', (e) => {                  // clique no véu
+      if (e.target === modal) this.fecharModal();             // só fecha clicando fora da caixa
+    });
+    document.addEventListener('keydown', (e) => {             // tecla Esc
+      if (e.key === 'Escape') this.fecharModal();             // fecha o modal
+    });
+    // Delegação dos tópicos: clique abre/fecha a explicação + aula embaixo
+    document.getElementById('modal-conteudo').addEventListener('click', (e) => { // clique no conteúdo
+      const alvo = e.target.closest('.topico-item');          // tópico clicável
+      if (alvo) this.alternarTopico(alvo);                    // abre ou fecha o detalhe
+    });
   },
 
   // Recebe o arquivo PDF e cuida de todo o fluxo de leitura
@@ -393,7 +420,7 @@ const EditalUI = {
     let html = '<p class="texto-suave" style="font-size:0.85rem">' + T('ed_programa_sub') + '</p>'; // explicação
     for (const materia of comTopicos) {                     // percorre as matérias com tópicos
       html += '<div class="plano-item">';                   // abre o bloco da matéria
-      html += '<span class="materia-nome">' + this.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome da matéria
+      html += '<span class="materia-nome clicavel" data-materia="' + this.escape(materia.rotulo) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + this.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome clicável da matéria
       html += '<div class="lista-topicos">';                // abre a lista de tópicos
       for (const topico of materia.topicos) {               // percorre os tópicos do edital
         html += '<span class="chip">' + this.escape(topico) + '</span>'; // chip de cada tópico
@@ -437,10 +464,10 @@ const EditalUI = {
     const fonte = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta as duas listas
       .find(t => t.materia === rotuloMateria);              // acha pelo nome
     if (!fonte) {                                           // matéria sem resumo pronto no app
-      return '<div class="plano-item"><span class="materia-nome">' + this.escape(rotuloMateria) + '</span><br><span class="texto-suave">' + T('ed_plano_sem_resumo') + '</span></div>'; // item honesto
+      return '<div class="plano-item"><span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + this.escape(rotuloMateria) + '</span><br><span class="texto-suave">' + T('ed_plano_sem_resumo') + '</span></div>'; // item honesto e clicável
     }
     let html = '<div class="plano-item">';                  // abre o item
-    html += '<span class="materia-nome">' + fonte.icone + ' ' + this.escape(rotuloMateria) + '</span>'; // nome com emoji
+    html += '<span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + fonte.icone + ' ' + this.escape(rotuloMateria) + '</span>'; // nome clicável com emoji
     html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + this.escape(fonte.resumo) + '</p>'; // resumo da matéria
     html += '<p style="font-size:0.85rem"><strong>' + T('ed_plano_comeca') + '</strong> '; // abre a lista de tópicos
     const top = fonte.topicos.slice(0, 3);                  // pega os 3 tópicos que mais caem
@@ -448,6 +475,84 @@ const EditalUI = {
     html += '.</p>';                                        // fecha a lista
     html += '</div>';                                       // fecha o item
     return html;                                            // devolve o bloco
+  },
+
+  // Abre o modal de uma matéria: tópicos do edital + os que mais caem
+  abrirModalMateria(rotulo) {
+    // Procura o resumo e os tópicos-chave dessa matéria nos dois catálogos
+    const plano = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta os catálogos
+      .find(t => t.materia === rotulo);                            // acha pelo nome
+    // E o que o edital pediu dela (tópicos extraídos do texto)
+    const materiaEdital = this.ultimaAnalise                       // se já analisamos um edital
+      ? this.ultimaAnalise.materias.find(m => m.rotulo === rotulo) // pega a matéria detectada
+      : null;                                                    // senão fica sem
+    this.modalMateria = { rotulo: rotulo, plano: plano };          // guarda o contexto aberto
+
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">' + (plano ? plano.icone + ' ' : '') + this.escape(rotulo) + '</h3>'; // título com emoji
+    if (plano) {                                                  // se tem resumo pronto
+      html += '<p style="font-size:0.85rem;margin:0.4rem 0 0.6rem">' + this.escape(plano.resumo) + '</p>'; // mostra o resumo
+    }
+    html += '<p class="texto-suave" style="font-size:0.78rem;margin:0 0 0.7rem">' + T('ed_modal_dica') + '</p>'; // ensina o uso
+
+    // Lista 1: os tópicos que o EDITAL pede (texto extraído do PDF)
+    if (materiaEdital && materiaEdital.topicos && materiaEdital.topicos.length > 0) { // se achamos tópicos no edital
+      html += '<p style="font-weight:900;font-size:0.8rem;margin:0.5rem 0 0.4rem">📄 ' + T('ed_modal_edital') + '</p>'; // rótulo da seção
+      for (const topico of materiaEdital.topicos) {               // percorre os tópicos do edital
+        html += '<button type="button" class="topico-item" data-topico="' + this.escape(topico) + '">' + this.escape(topico) + '</button>'; // cada tópico clicável
+      }
+    }
+    // Lista 2: os tópicos que MAIS CAEM (catálogo do app, com explicação pronta)
+    if (plano && plano.topicos.length > 0) {                      // se temos tópicos-chave
+      html += '<p style="font-weight:900;font-size:0.8rem;margin:0.6rem 0 0.4rem">🔥 ' + T('ed_modal_campeoes') + '</p>'; // rótulo da seção
+      for (const topico of plano.topicos) {                       // percorre os campeões
+        html += '<button type="button" class="topico-item" data-topico="' + this.escape(topico.nome) + '">' + this.escape(topico.nome) + '</button>'; // cada tópico clicável
+      }
+    }
+
+    document.getElementById('modal-conteudo').innerHTML = html;   // despeja no modal
+    document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal
+  },
+
+  // Fecha o modal da matéria
+  fecharModal() {
+    document.getElementById('modal-materia').classList.add('oculto'); // esconde o modal
+  },
+
+  // Abre/fecha a explicação + aula de um tópico (estilo sanfona, um por vez)
+  alternarTopico(botao) {
+    const modal = document.getElementById('modal-conteudo');      // conteúdo do modal
+    const jaAberto = botao.classList.contains('aberto');          // este tópico já estava aberto?
+    modal.querySelectorAll('.topico-item.aberto').forEach(b => b.classList.remove('aberto')); // fecha os marcados
+    modal.querySelectorAll('.topico-detalhe').forEach(d => d.remove()); // remove os detalhes abertos
+    if (jaAberto) return;                                         // clicou no aberto → só fecha
+    botao.classList.add('aberto');                                // marca como aberto
+    botao.insertAdjacentHTML('afterend', this.detalheTopico(botao.dataset.topico)); // insere o detalhe embaixo
+  },
+
+  // Monta a explicação de um tópico: por que cai + como estudar + aula
+  detalheTopico(nome) {
+    let info = null;                                              // tópico encontrado no catálogo
+    const plano = this.modalMateria ? this.modalMateria.plano : null; // plano da matéria aberta
+    if (plano) {                                                  // se temos catálogo dela
+      const alvo = AnaliseEdital.normalizar(nome);                // normaliza o nome clicado
+      info = plano.topicos.find(t => {                            // procura o tópico equivalente
+        const n = AnaliseEdital.normalizar(t.nome);               // normaliza o do catálogo
+        return n === alvo || n.indexOf(alvo) !== -1 || alvo.indexOf(n) !== -1; // igual ou contido
+      });
+    }
+    let html = '<div class="topico-detalhe">';                    // abre a caixinha
+    if (info) {                                                   // achamos explicação pronta
+      html += '<p><strong>' + T('ed_topico_porque') + ':</strong> ' + this.escape(info.porque) + '</p>'; // por que cai
+      html += '<p><strong>' + T('ed_topico_como') + ':</strong> ' + this.escape(info.como) + '</p>'; // como estudar
+    } else {                                                      // sem explicação — honesto
+      html += '<p>' + T('ed_topico_generico') + '</p>';           // orientação genérica
+    }
+    // Link da aula: busca do YouTube com matéria + tópico
+    const busca = (this.modalMateria ? this.modalMateria.rotulo + ' ' : '') + nome + ' resumo'; // termo de busca
+    const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a busca
+    html += '<a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(nome) }) + '</a>'; // link da aula
+    html += '</div>';                                             // fecha a caixinha
+    return html;                                                  // devolve o HTML
   },
 
   // Foge do HTML (segurança ao exibir texto do PDF na tela)

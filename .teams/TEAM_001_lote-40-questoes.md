@@ -185,3 +185,26 @@ Português 40 · Matemática 39 · Raciocínio 31 · Informática 28 · Constitu
 - Persistir a banca manual no localStorage para pré-selecionar o filtro de banca do simulado (hoje não vinculamos: banca manual sem questões correspondentes zeraria o filtro).
 - Expandir `BANCAS_DICAS` para mais bancas municipais.
 - Temp `_tmp_banca.js` e `_tmp_motor.js` removidos após os testes.
+
+---
+
+## Tarefa 8 — Modal interativo de matéria/tópicos na análise do edital
+
+### Pedido
+- "seção 'Por onde começar (plano de estudo)' e 'O que o edital pede em cada matéria' clicar na matéria abre modal tópicos clicar tópicos abre explicação abaixo vídeo"
+
+### O que foi feito
+- `index.html`: modal `#modal-materia` com `#modal-fechar` (X) e `#modal-conteudo`.
+- `css/componentes.css`: `.modal` (véu fixo), `.modal-caixa` (máx. 560px, scroll 80vh), `.modal-fechar`, `.materia-nome.clicavel` (cursor + sublinhado pontilhado), `.topico-item` (botões de tópico), `.topico-detalhe` (régua caramelo + explicação).
+- `js/edital.js`:
+  - `blocoPrograma` e `planoDeMateria` (inclusive fallback sem resumo): `materia-nome` virou clicável (`data-materia`, `role="button"`, `tabindex="0"`).
+  - `iniciar()`: delegação de clique/teclado em `#edital-resultado` para `.materia-nome[data-materia]`; fechar modal por X, véu e Esc; delegação de `.topico-item` em `#modal-conteudo`.
+  - `abrirModalMateria(rotulo)`: monta o modal com resumo do catálogo + lista "Tópicos que o edital pede" (strings extraídas do PDF) + lista "Os que mais caem" (catálogo `DadosTemas`).
+  - `alternarTopico(botao)`: sanfona — um detalhe aberto por vez.
+  - `detalheTopico(nome)`: casa o nome do tópico (normalizado, substring nos dois sentidos) com o catálogo → mostra "Por que cai" + "Como estudar"; sem match → fallback honesto; sempre fecha com `link-video` do YouTube (`matéria + tópico + resumo`).
+- `idioma.js`: +7 chaves × 3 (`ed_modal_dica`, `ed_modal_edital`, `ed_modal_campeoes`, `ed_topico_porque/como/generico`, `modal_fechar`).
+
+### Verificação
+- Teste funcional em Node (stubs de DOM): modal abre com as duas listas; "Urbanização" do edital casou com "Urbanização e êxodo rural" do catálogo; tópico desconhecido cai no fallback; matéria só-catálogo e só-edital abrem normal; XSS em nome de tópico sai escapado.
+- `validar-idiomas.js` ✅ | `validar-banco.js` 559/0 ✅ | `node --check` ✅.
+- Temps `_tmp_modal*.js` removidos.

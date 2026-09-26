@@ -237,6 +237,14 @@
     </main>
   </div>
 
+  <!-- Modal da matéria: clicar no nome abre os tópicos; clicar no tópico abre explicação + aula -->
+  <div id="modal-materia" class="modal oculto" role="dialog" aria-modal="true">
+    <div class="modal-caixa">
+      <button id="modal-fechar" class="modal-fechar" type="button" data-i18n-title="modal_fechar" title="Fechar" aria-label="Fechar">✕</button>
+      <div id="modal-conteudo"></div>
+    </div>
+  </div>
+
   <!-- Scripts em ordem de dependência (dados antes, lógica depois) -->
   <script src="js/armazenamento.js"></script>
   <script src="js/idioma.js"></script>

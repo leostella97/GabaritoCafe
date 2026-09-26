@@ -246,6 +246,13 @@ const Idioma = {
       ed_banca_manual_btn: 'Analisar',                      // botão do campo manual
       ed_dicas_t: 'Dicas da',                               // título das dicas (nome da banca vem depois)
       ed_banca_desconhecida: 'Essa banca não está no meu catálogo — então aqui vão as dicas que valem para qualquer banca:', // aviso do fallback
+      ed_modal_dica: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
+      ed_modal_edital: 'Tópicos que o edital pede', // rótulo da lista do edital
+      ed_modal_campeoes: 'Os que mais caem',        // rótulo da lista do catálogo
+      ed_topico_porque: 'Por que cai',              // explicação: importância do tópico
+      ed_topico_como: 'Como estudar',               // explicação: estratégia do tópico
+      ed_topico_generico: 'Ainda não tenho um resumo pronto deste tópico — resolva questões dele e confira a aula abaixo:', // fallback sem resumo
+      modal_fechar: 'Fechar',                       // título do botão X do modal
       ed_datas_t: '📅 Datas importantes',                    // seção
       ed_sem_datas: 'Não encontrei datas no texto. Confere no PDF do edital!', // aviso
       ed_data_inscricoes: 'Inscrições',                      // rótulo
@@ -500,6 +507,13 @@ const Idioma = {
       ed_banca_manual_btn: 'Analyze',
       ed_dicas_t: 'Tips for',
       ed_banca_desconhecida: 'This board is not in my catalog — so here are tips that work for any board:',
+      ed_modal_dica: 'Tap a topic to open the explanation and a video lesson',
+      ed_modal_edital: 'Topics the notice asks for',
+      ed_modal_campeoes: 'Most frequent ones',
+      ed_topico_porque: 'Why it appears',
+      ed_topico_como: 'How to study',
+      ed_topico_generico: 'I don’t have a ready summary for this topic yet — solve questions on it and check the lesson below:',
+      modal_fechar: 'Close',
       ed_datas_t: '📅 Important dates',
       ed_sem_datas: 'I found no dates in the text. Check the notice PDF!',
       ed_data_inscricoes: 'Applications',
@@ -754,6 +768,13 @@ const Idioma = {
       ed_banca_manual_btn: 'Analizar',
       ed_dicas_t: 'Consejos para',
       ed_banca_desconhecida: 'Este comité no está en mi catálogo — así que aquí van consejos que sirven para cualquier comité:',
+      ed_modal_dica: 'Toca un tema para abrir la explicación y una clase en video',
+      ed_modal_edital: 'Temas que la convocatoria pide',
+      ed_modal_campeoes: 'Los más frecuentes',
+      ed_topico_porque: 'Por qué aparece',
+      ed_topico_como: 'Cómo estudiar',
+      ed_topico_generico: 'Todavía no tengo un resumen listo de este tema — resuelve preguntas y mira la clase de abajo:',
+      modal_fechar: 'Cerrar',
       ed_datas_t: '📅 Fechas importantes',
       ed_sem_datas: 'No encontré fechas en el texto. ¡Revisa el PDF de la convocatoria!',
       ed_data_inscricoes: 'Inscripciones',

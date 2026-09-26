@@ -612,3 +612,87 @@
   gap: 0.4rem;                      /* respiro */
   align-items: center;              /* centraliza na vertical */
 }
+
+/* ---------- Modal da matéria (tópicos → explicação + vídeo) ---------- */
+
+.materia-nome.clicavel {            /* nome de matéria que abre o modal */
+  cursor: pointer;                  /* mãozinha */
+  text-decoration: underline dotted var(--caramelo); /* sublinhado pontilhado discreto */
+  text-underline-offset: 4px;       /* respiro entre texto e linha */
+}
+
+.materia-nome.clicavel:hover { color: var(--caramelo); } /* acende no hover */
+
+.modal {                            /* véu escuro atrás do modal */
+  position: fixed;                  /* cobre a tela toda */
+  inset: 0;                         /* cola nos quatro cantos */
+  background: rgba(61, 43, 31, 0.55); /* café escuro translúcido */
+  display: flex;                    /* centraliza a caixa */
+  align-items: center;              /* meio na vertical */
+  justify-content: center;          /* meio na horizontal */
+  padding: 1rem;                    /* respiro nas bordas */
+  z-index: 60;                      /* por cima de tudo */
+}
+
+.modal-caixa {                      /* a cartolina do modal */
+  position: relative;               /* âncora do botão fechar */
+  background: var(--superficie);    /* fundo quase branco */
+  border-radius: var(--raio);       /* cantos arredondados */
+  box-shadow: var(--sombra-media);  /* sombra de elemento flutuante */
+  width: min(560px, 100%);          /* largura máxima confortável */
+  max-height: 80vh;                 /* não estoura a tela */
+  overflow-y: auto;                 /* rola se ficar alto */
+  padding: 1.4rem 1.3rem;           /* respiro interno */
+}
+
+.modal-fechar {                     /* o X de fechar */
+  position: absolute;               /* flutua no canto */
+  top: 0.7rem;                      /* distância do topo */
+  right: 0.8rem;                    /* distância da direita */
+  border: none;                     /* sem borda */
+  background: transparent;          /* transparente */
+  color: var(--marrom-suave);       /* marrom apagado */
+  font-size: 1.15rem;               /* visível */
+  cursor: pointer;                  /* mãozinha */
+  line-height: 1;                   /* sem altura extra */
+}
+
+.modal-fechar:hover { color: var(--vermelho); } /* avermelha no hover */
+
+.topico-item {                      /* tópico clicável dentro do modal */
+  display: block;                   /* um por linha */
+  width: 100%;                      /* linha inteira clicável */
+  text-align: left;                 /* texto à esquerda */
+  border: 2px solid var(--borda);   /* moldura leve */
+  background: var(--creme);         /* fundo creme */
+  color: var(--cafe-escuro);        /* texto escuro */
+  border-radius: var(--raio-pequeno); /* cantos pequenos */
+  padding: 0.55rem 0.7rem;          /* respiro interno */
+  margin-bottom: 0.4rem;            /* espaço entre itens */
+  font-size: 0.88rem;               /* leitura confortável */
+  font-weight: 700;                 /* firme */
+  cursor: pointer;                  /* mãozinha */
+  transition: border-color 0.2s, transform 0.2s; /* animação suave */
+}
+
+.topico-item:hover {                /* tópico em destaque */
+  border-color: var(--caramelo);    /* borda caramelo */
+  transform: translateX(3px);       /* desliza levemente */
+}
+
+.topico-item.aberto {               /* tópico com detalhe aberto */
+  border-color: var(--cafe);        /* borda café */
+  background: var(--creme-escuro);  /* fundo alternado */
+}
+
+.topico-detalhe {                   /* explicação + vídeo abaixo do tópico */
+  border-left: 3px solid var(--caramelo); /* régua lateral caramelo */
+  background: var(--superficie);    /* fundo quase branco */
+  border-radius: 0 var(--raio-pequeno) var(--raio-pequeno) 0; /* cantos de um lado só */
+  padding: 0.7rem 0.8rem;           /* respiro interno */
+  margin: -0.2rem 0 0.6rem;         /* colada no tópico de cima */
+  font-size: 0.85rem;               /* leitura confortável */
+}
+
+.topico-detalhe p { margin: 0 0 0.5rem; } /* respiro entre blocos */
+.topico-detalhe .link-video { display: inline-block; margin-top: 0.2rem; } /* vídeo embaixo */
