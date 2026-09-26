@@ -55,6 +55,10 @@
 - Teste em Node (stubs): pendentes = só q2 após q1 corrigida ✅; lembretes agenda/vence/cancela ✅.
 - `node --check` nos alterados ✅ · `validar-idiomas.js` ✅ 263×3 · `validar-banco.js` 1074/0 ✅.
 
+## Preferência do usuário
+- **Commits sem atribuição do Devin**: o usuário pediu (2026-09-26) para remover
+  `Generated with [Devin]` e `Co-Authored-By: Devin` das mensagens de commit.
+
 ## Observações / handoff
 - O SW só passa a valer depois do primeiro carregamento online (comportamento padrão de PWA).
 - Atualizações de arquivos propagam via stale-while-revalidate: primeiro acesso serve o cache,
