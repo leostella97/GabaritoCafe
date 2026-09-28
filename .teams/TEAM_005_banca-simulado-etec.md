@@ -119,3 +119,39 @@
 ### Verificação
 - `validar-banco` **1279/0** ✅ a cada bloco (facil=329, medio=872,
   dificil=78; medio=1118, superior=161) · `node --check` ✅ por bloco.
+
+---
+
+## Rodada 5 — "gere mais 100 questões para todas as matérias" (lote 4)
+
+### Distribuição
+- **+100 questões** (1.279 → **1.379**), mesma regra de balanceamento:
+  +4 nas 13 menores e +3 nas 16 restantes → todas as 29 matérias ficam
+  entre 36 e 55 questões.
+- Temas novos evitando repetição; ajuste no caminho: comentário errado de
+  `// correta` na 1ª alternativa de t38 (o índice correto, 1, já estava
+  certo — só o comentário mentia) corrigido antes do commit.
+
+### Commits separados (a pedido do usuário)
+1. `b3dcc8d` bloco jurídico +27: c41–44, a38–41, v35–38, et43–45, d48–50,
+   tr51–53, k49–51, lg46–48.
+2. `56cd873` bloco humanas +27: h34–37, g39–42, t36–39, fl56–58,
+   so47–49, ar50–52, l55–57, s45–47.
+3. `0b47ed2` bloco exatas +26: m48–50, r41–44, qm41–44, f42–45,
+   ct42–45, ec54–56, i43–46.
+4. `f37f02f` bloco línguas/saúde/gestão +20: p49–51, e43–46, b53–55,
+   fs44–46, ef43–46, ad52–54.
+5. (docs) README 1.279→1.379 · `sw.js` v8→v9 · este log.
+
+### Limite do arquivo (análise pedida)
+- `banco-questoes.js` agora mede **1,88 MB** (≈1,36 KB/questão média).
+  Ainda carrega bem no navegador local, mas **passou a marca de decisão
+  do lote anterior (~2 MB) está próxima** — o próximo lote de 100
+  deixará o arquivo em ~2,3 MB.
+- TODO(TEAM_005): antes do próximo grande lote, avaliar split do banco:
+  um arquivo por bloco temático (`banco-juridico.js`, `banco-exatas.js`…)
+  ou lazy-load sob demanda na montagem do simulado — sem pressa, mas o
+  ponto de inflexão é aqui (1.400–1.500 questões).
+
+### Verificação
+- `validar-banco` **1379/0** ✅ por bloco · `node --check` ✅.
