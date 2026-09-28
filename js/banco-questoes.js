@@ -27350,4 +27350,544 @@ const BancoQuestoes = [
     dica: 'Copeve traduz literal: reflexivo ≠ passivo. "Me levanto" = eu (a mim mesmo) levanto — ação volta ao sujeito. Em português também existe (eu me lavo), mas o espanhol usa MUITO mais.', // pegadinha
     video: 'verbos reflexivos espanhol me se resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 4, bloco 3/4 EXATAS: Matemática m48–50,
+  // Raciocínio r41–44, Química qm41–44, Física f42–45,
+  // Contabilidade ct42–45, Economia ec54–56, Informática i43–46.
+  // ============================================================
+
+  // ---- Matemática (m48–m50) ----
+  {
+    id: 'm48',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Função quadrática — vértice', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Uma empresa tem lucro L(x) = −x² + 10x, com x em milhares de unidades. O lucro MÁXIMO ocorre em:', // pergunta
+    alternativas: [                     // opções
+      'x = 0', // opção
+      'x = 10', // opção
+      'x = 25', // opção
+      'x = 5 — o vértice da parábola, em x = −b/2a = −10/(2·(−1)) = 5', // correta
+      'x = 100', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Função quadrática com a<0 tem máximo no vértice: xᵥ = −b/2a = −10/−2 = 5. O lucro máximo é L(5) = −25 + 50 = 25. O vértice é sempre o ponto de máximo/mínimo da parábola.', // explicação
+    dica: 'FUNDATEC joga −10 ou x=0: o vértice está no MEIO das raízes — L(x)=x(10−x) tem raízes 0 e 10, vértice em x=5. Sinal do a define se é máximo (a<0) ou mínimo (a>0).', // pegadinha
+    video: 'vertice parabola funcao quadratica maximo resumo' // busca no YouTube
+  },
+  {
+    id: 'm49',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Escala cartográfica',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Num mapa de escala 1:100.000, uma distância de 5 cm no papel corresponde na realidade a:', // pergunta
+    alternativas: [                     // opções
+      '5.000 m = 5 km — cada cm no mapa vale 1 km na realidade (100.000 cm)', // correta
+      '500 m', // opção
+      '50 km', // opção
+      '5.000 km', // opção
+      '50 m', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Escala 1:100.000 significa 1 cm no mapa = 100.000 cm reais = 1 km. 5 cm × 100.000 cm = 500.000 cm = 5.000 m = 5 km. Converter cm para km divide por 100.000.', // explicação
+    dica: 'Selecon brinca com as casas: 1:100.000 → 1 cm = 1 km exatos (100.000 cm = 1 km). A conversão cm→km divide por 10⁵ — decore e não erre de zero. 5 cm → 5 km.', // pegadinha
+    video: 'escala cartografica mapa cm km resumo' // busca no YouTube
+  },
+  {
+    id: 'm50',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Logaritmo — definição',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O logaritmo de 100 na base 10 é:', // pergunta
+    alternativas: [                     // opções
+      '10', // opção
+      '1', // opção
+      '2 — porque 10² = 100 (o log pergunta "a que potência a base deve ser elevada")', // correta
+      '100', // opção
+      '50', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'log₁₀ 100 = 2, pois 10 elevado a 2 = 100. Log = o EXPONENTE que a base precisa para gerar o número. log 1000 = 3, log 1 = 0, log 10 = 1 — padrão potência de 10.', // explicação
+    dica: 'IBGP inverte a pergunta: log não é a raiz nem a divisão — é "10 elevado a QUANTO dá 100?". Resposta: o expoente 2. Caso-base: log da base = 1; log de 1 = 0 (qualquer base).', // pegadinha
+    video: 'logaritmo definicao base 10 resumo' // busca no YouTube
+  },
+
+  // ---- Raciocínio Lógico (r41–r44) ----
+  {
+    id: 'r41',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Posições em corrida',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Em uma corrida, você ultrapassa quem está em 2º lugar. Em que posição você fica?', // pergunta
+    alternativas: [                     // opções
+      '1º lugar', // opção
+      '3º lugar', // opção
+      'último', // opção
+      'líder absoluto', // opção
+      '2º lugar — ultrapassou o 2º colocado, assumindo a posição dele', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O clássico da pegadinha: ultrapassar o 2º faz você ocupar a posição DELE (2º) — não o 1º. Para virar 1º, precisaria ultrapassar quem está na frente de todos.', // explicação
+    dica: 'FUNDATEC cobra o que a intuição erra: quase todo mundo diz "1º". Ultrapassar alguém = assumir a posição dela. Ultrapassou o 2º → você é o novo 2º, o outro caiu para 3º.', // pegadinha
+    video: 'ultrapassar segundo lugar corrida pegadinha resumo' // busca no YouTube
+  },
+  {
+    id: 'r42',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência — soma de dígitos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na sequência 11, 13, 17, 25, 32, ... — em que cada termo é o anterior mais a soma de seus dígitos — o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '37 — 32 + (3+2) = 32 + 5 = 37', // correta
+      '40', // opção
+      '36', // opção
+      '39', // opção
+      '41', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Regra: próximo = anterior + soma dos dígitos do anterior: 11+(1+1)=13; 13+(1+3)=17; 17+(1+7)=25; 25+(2+5)=32; 32+(3+2)=37. As diferenças não seguem padrão simples — a regra mora na soma dos dígitos.', // explicação
+    dica: 'Copeve força a diferença errada: +2, +4, +8, +7... sem lógica visível. Quando a diferença "embaralha", procure regras nos dígitos (soma, produto, inversão) — aqui é soma dos dígitos do termo anterior.', // pegadinha
+    video: 'sequencia numerica soma digitos logica resumo' // busca no YouTube
+  },
+  {
+    id: 'r43',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Conjunção — tabela-verdade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A proposição composta "p E q" (conjunção) só é verdadeira quando:', // pergunta
+    alternativas: [                     // opções
+      'p ou q é verdadeira', // opção
+      'p é falsa', // opção
+      'ambas são verdadeiras — uma falsa já torna a conjunção falsa', // correta
+      'são iguais', // opção
+      'pelo menos uma é falsa', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A conjunção (E) exige as duas partes verdadeiras — V∧V = V; qualquer F derruba o todo. É o contrário da disjunção (OU), que só é falsa quando as duas são falsas.', // explicação
+    dica: 'Selecon troca E × OU: E = exigente (precisa das DUAS); OU = tolerante (basta uma). A pegadinha é "pelo menos uma" — isso é disjunção. Conjunção é a porta "só com as duas chaves".', // pegadinha
+    video: 'conjuncao tabela verdade p e q resumo' // busca no YouTube
+  },
+  {
+    id: 'r44',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Verdade e mentira — guardas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Duas portas, uma para a saída e outra para a armadilha. Dois guardas: um só diz a verdade, outro só mente. A pergunta que resolve é:', // pergunta
+    alternativas: [                     // opções
+      '"Qual porta é a correta?" direto a um guarda', // opção
+      '"O que o OUTRO guarda diria sobre a porta da saída?" — e escolhe a porta contrária, pois a resposta sempre aponta a errada', // correta
+      '"Você mente?"', // opção
+      '"Qual é o seu nome?"', // opção
+      '"As duas portas são iguais?"', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Perguntando a um guarda o que o outro diria, o sincero aponta a porta falsa (o mentiroso mente) e o mentiroso também aponta a falsa (inverte a resposta do sincero). Faça o oposto: a saída é a porta NÃO indicada.', // explicação
+    dica: 'Instituto Mais testa a dupla negação: uma mentira anula a verdade — sincero que repassa mentira ou mentiroso que inverte verdade dão a MESMA porta (a errada). Trabalhe com o inverso da resposta.', // pegadinha
+    video: 'enigma dois guardas portas verdade mentira resumo' // busca no YouTube
+  },
+
+  // ---- Química (qm41–qm44) ----
+  {
+    id: 'qm41',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Modelo atômico — camadas',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No modelo de Bohr, os elétrons ocupam:', // pergunta
+    alternativas: [                     // opções
+      'o núcleo junto aos prótons', // opção
+      'qualquer lugar do átomo', // opção
+      'órbitas/níveis de energia definidos ao redor do núcleo — saltam de nível absorvendo ou emitindo energia', // correta
+      'só a última camada', // opção
+      'um mar de cargas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Bohr (1913): elétrons circulam em órbitas quantizadas (níveis K, L, M...); absorver energia faz o elétron "subir" de nível (estado excitado) e ao voltar emite luz de cor específica — base do espectro e dos fogos de artifício.', // explicação
+    dica: 'FUNDATEC mistura modelos atômicos: Dalton = bola maciça; Thomson = pudim de passas; Rutherford = núcleo positivo + eletrosfera; Bohr = órbitas quantizadas. "Nível/camada/quantizado" = Bohr.', // pegadinha
+    video: 'modelo atomico bohr niveis eletrons resumo' // busca no YouTube
+  },
+  {
+    id: 'qm42',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Ligação iônica x covalente', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A diferença essencial entre ligação iônica e covalente é que:', // pergunta
+    alternativas: [                     // opções
+      'não há diferença', // opção
+      'na iônica há transferência de elétrons (metal + ametal, formando íons); na covalente os átomos COMPARTILHAM pares de elétrons (entre ametais)', // correta
+      'a covalente é sempre com metal', // opção
+      'a iônica é sempre líquida', // opção
+      'a covalente forma cátions', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Iônica = metal cede e ametal recebe elétrons → íons atraídos (NaCl, CaF₂) — sólido, alto ponto de fusão, conduz em solução. Covalente = ametais dividem pares de elétrons (H₂O, CO₂) — moléculas.', // explicação
+    dica: 'Copeve testa o "quem faz o quê": TRANSFERÊNCIA = iônica (metal→ametal); COMPARTILHAMENTO = covalente (ametal+ametal ou H). Detalhe que cai: NaCl em água conduz eletricidade; açúcar (covalente) não.', // pegadinha
+    video: 'ligacao ionica covalente diferenca resumo' // busca no YouTube
+  },
+  {
+    id: 'qm43',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Gases — lei de Boyle',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A lei de Boyle (a temperatura constante) afirma que pressão e volume de um gás são:', // pergunta
+    alternativas: [                     // opções
+      'diretamente proporcionais', // opção
+      'iguais', // opção
+      'constantes', // opção
+      'independentes', // opção
+      'inversamente proporcionais — se o volume dobra, a pressão cai pela metade (P·V = constante)', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Boyle: P₁V₁ = P₂V₂ a temperatura constante — comprimir o gás (metade do volume) dobra a pressão. É por isso que uma seringa fechada "empurra de volta" e que um balão estoura ao subir (pressão externa cai, volume cresce).', // explicação
+    dica: 'Selecon troca a proporção: P e V são INVERSOS em Boyle (P·V constante); volume e temperatura são DIRETOS em Charles; pressão e temperatura diretos em Gay-Lussac. Não misture as três leis dos gases.', // pegadinha
+    video: 'lei de boyle pressao volume gas resumo' // busca no YouTube
+  },
+  {
+    id: 'qm44',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Álcoois e combustíveis',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O etanol usado como combustível no Brasil (álcool dos carros flex) é produzido principalmente a partir de:', // pergunta
+    alternativas: [                     // opções
+      'petróleo', // opção
+      'carvão mineral', // opção
+      'cana-de-açúcar — fermentação do açúcar por leveduras', // correta
+      'milho americano', // opção
+      'algas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O etanol brasileiro vem da fermentação do caldo da cana (a levedura transforma açúcar em álcool + CO₂) — é renovável e sucede o Proálcool (1975), primeira política de biocombustível em larga escala do mundo.', // explicação
+    dica: 'Instituto Mais coloca a fonte americana como distrator: EUA usam milho; BRASIL usa cana (e agora milho no Centro-Oeste). E diferencie: metanol ≠ etanol — o metanol é tóxico e não é combustível automotivo brasileiro.', // pegadinha
+    video: 'etanol cana fermentacao biocombustivel resumo' // busca no YouTube
+  },
+
+  // ---- Física (f42–f45) ----
+  {
+    id: 'f42',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Calor latente',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Ao derreter gelo a 0 °C até virar água a 0 °C, a temperatura não sobe porque:', // pergunta
+    alternativas: [                     // opções
+      'o calor latente da fusão está sendo usado para quebrar as ligações do sólido, não para elevar a temperatura', // correta
+      'o termômetro falha', // opção
+      'a água não absorve calor', // opção
+      'o gelo é isolante', // opção
+      'a pressão bloqueia', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Na mudança de fase o calor fornecido vai para VENCER as ligações, não para acelerar moléculas — a temperatura fica travada. Calor latente de fusão do gelo = ~80 cal/g; o mesmo vale na ebulição (vaporização).', // explicação
+    dica: 'FUNDATEC acha o fenômeno "estranho": durante fusão ou ebulição o calor é REAL, mas vai para mudar o estado — curva de aquecimento tem PATAMAR. Temperatura só sobe quando a fase acabou.', // pegadinha
+    video: 'calor latente mudanca fase patamar resumo' // busca no YouTube
+  },
+  {
+    id: 'f43',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Refração — aplicações',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Um objeto dentro d\'água parece mais raso/próximo do que está — é o mesmo motivo de a piscina parecer mais rasa. O fenômeno é:', // pergunta
+    alternativas: [                     // opções
+      'reflexão total', // opção
+      'dispersão da luz', // opção
+      'a refração — a luz que sai da água para o ar muda de direção (afasta-se da normal), fazendo o objeto parecer mais alto', // correta
+      'a difração', // opção
+      'o arco-íris', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A luz do objeto viaja da água (mais refringente) para o ar (menos) e se desvia da normal: o olho "estica" o raio em linha reta e o objeto aparece mais raso. Mesma causa da miragem e do lápis quebrado no copo.', // explicação
+    dica: 'Copeve troca refração por reflexão: "parecer raso" = DESVIO da luz ao mudar de meio — refração. Reflexão = espelho/eco de luz; difração = contornar obstáculo; dispersão = separar cores (arco-íris).', // pegadinha
+    video: 'refracao piscina rasa miragem desvio resumo' // busca no YouTube
+  },
+  {
+    id: 'f44',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Olho humano — defeitos',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Na miopia, a imagem dos objetos distantes forma-se:', // pergunta
+    alternativas: [                     // opções
+      'depois da retina', // opção
+      'na córnea', // opção
+      'antes da retina — corrigida com lente divergente (negativa)', // correta
+      'no cristalino', // opção
+      'na íris', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Miopia = globo ocular "comprido" ou convergência excessiva: a imagem de longe foca ANTES da retina → correção com lente divergente. Na hipermetropia foca ATRÁS → lente convergente; no astigmatismo a córnea é irregular.', // explicação
+    dica: 'IBGP troca os pares: miopia = antes da retina + divergente; hipermetropia = depois + convergente; astigmatismo = córnea irregular + cilíndrica. "Divergente separa os raios" é a chave.', // pegadinha
+    video: 'miopia hipermetropia lente divergente resumo' // busca no YouTube
+  },
+  {
+    id: 'f45',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Movimento circular',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Um carro fazendo uma curva em movimento circular precisa de:', // pergunta
+    alternativas: [                     // opções
+      'força centrífuga para dentro', // opção
+      'nenhuma força', // opção
+      'força para fora', // opção
+      'apenas velocidade constante', // opção
+      'uma força resultante dirigida ao centro da trajetória — a força centrípeta (o atrito dos pneus)', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Movimento circular exige força centrípeta apontando ao centro — no carro é o atrito do pneu com o asfalto; na Lua é a gravidade. "Centrífuga" não é força real no referencial inercial — é a sensação de ser jogado para fora.', // explicação
+    dica: 'Instituto Mais inventa a centrífuga: ela é a SENSAÇÃO (referencial não inercial), não uma força. O que faz o corpo curvar é o centro — atrito no carro, gravidade na órbita, tensão na corda.', // pegadinha
+    video: 'forca centripeta movimento circular curva resumo' // busca no YouTube
+  },
+
+  // ---- Contabilidade (ct42–ct45) ----
+  {
+    id: 'ct42',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Índice de liquidez',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O índice de liquidez corrente, dado por ativo circulante ÷ passivo circulante, mede:', // pergunta
+    alternativas: [                     // opções
+      'o lucro anual', // opção
+      'a dívida total', // opção
+      'a capacidade de pagar as obrigações de curto prazo com os ativos de curto prazo — acima de 1 significa folga', // correta
+      'o preço das ações', // opção
+      'o patrimônio total', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Liquidez corrente = AC/PC: se der > 1, a empresa tem mais recursos de curto prazo do que dívidas de curto prazo (capaz de pagar). < 1 acende alerta de solvência. Há também a seca (exclui estoques) e a imediata (só disponibilidades).', // explicação
+    dica: 'FUNDATEC embaralha os indicadores: corrente = tudo de curto prazo; seca = sem estoque; imediata = só caixa. Índice < 1 não é falência certa, mas é alerta clássico de prova.', // pegadinha
+    video: 'indice liquidez corrente ativo passivo resumo' // busca no YouTube
+  },
+  {
+    id: 'ct43',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Natureza das contas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na contabilidade, contas de natureza devedora são aquelas que:', // pergunta
+    alternativas: [                     // opções
+      'só existem no passivo', // opção
+      'são sempre contas de receita', // opção
+      'são retificadoras do ativo', // opção
+      'aumentam o resultado', // opção
+      'aumentam com débitos e diminuem com créditos — em regra, as contas de ATIVO, custos e despesas', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'A natureza define o "lado natural" da conta: ativo e despesas/custos são de natureza DEVEDORA (crescem debitando); passivo, patrimônio líquido e receitas são CREDORAS (crescem creditando).', // explicação
+    dica: 'Copeve inverte a natureza: ATIVO e DESPESA = devedora (débito aumenta); PASSIVO, PL e RECEITA = credora. Macete de prova: "compras a prazo" debita estoque (devedora) e credita fornecedores (credora).', // pegadinha
+    video: 'natureza devedora credora contas resumo' // busca no YouTube
+  },
+  {
+    id: 'ct44',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Contas retificadoras',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Uma conta retificadora (ou redutora) é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'aumenta o saldo do grupo a que pertence — ex.: depreciação acumulada (reduz o ativo) ou capital a realizar (reduz o PL)', // correta
+      'só aparece na DRE', // opção
+      'não afeta o patrimônio', // opção
+      'elimina uma conta do razão', // opção
+      'só existe no caixa', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A retificadora é conta do grupo com saldo INVERTIDO — fica dentro do grupo, mas reduz seu valor: depreciação acumulada e PDD retificam o ativo; capital a realizar e prejuízo acumulado retificam o PL.', // explicação
+    dica: 'Selecon nega a função: retificadora NÃO é eliminada — ela SUBTRAI dentro do mesmo grupo, com sinal contrário (credora no ativo, devedora no PL). Não confunda com conta de compensação.', // pegadinha
+    video: 'contas retificadoras depreciacao acumulada resumo' // busca no YouTube
+  },
+  {
+    id: 'ct45',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Margem de lucro',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A diferença entre margem bruta e margem líquida é que:', // pergunta
+    alternativas: [                     // opções
+      'são sempre iguais', // opção
+      'a bruta = receita líquida menos o CMV dividido pela receita; a líquida = lucro final (após todas as despesas) dividido pela receita', // correta
+      'a líquida é maior que a bruta', // opção
+      'a bruta desconta impostos', // opção
+      'a líquida é sobre o caixa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Margem bruta = (receita − CMV)/receita: quanto sobra antes das despesas operacionais. Margem líquida = lucro final/receita: o que realmente fica depois de despesas, impostos e financeiro — sempre menor que a bruta.', // explicação
+    dica: 'Instituto Mais joga a ordem invertida: LÍQUIDA ≤ BRUTA sempre (a líquida sai da bruta subtraindo despesas). E a margem é sobre a RECEITA — não sobre o lucro nem sobre o custo.', // pegadinha
+    video: 'margem bruta liquida diferenca dre resumo' // busca no YouTube
+  },
+
+  // ---- Economia (ec54–ec56) ----
+  {
+    id: 'ec54',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Funções da moeda',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'As três funções clássicas da moeda são:', // pergunta
+    alternativas: [                     // opções
+      'apenas comprar e vender', // opção
+      'guardar e gastar', // opção
+      'pagar e emprestar', // opção
+      'meio de troca, unidade de conta (medida de valor) e reserva de valor', // correta
+      'crédito e débito', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A moeda facilita o escambo: é MEIO DE TROCA (aceita nas transações), UNIDADE DE CONTA (precifica e compara) e RESERVA DE VALOR (guarda poder de compra ao longo do tempo).', // explicação
+    dica: 'FUNDATEC fragmenta as funções: são três juntas — troca, conta e reserva. Na hiperinflação a função "reserva de valor" colapsa — o dinheiro perde poder de compra rápido.', // pegadinha
+    video: 'funcoes da moeda meio troca reserva valor resumo' // busca no YouTube
+  },
+  {
+    id: 'ec55',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Banco Central — autonomia',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A autonomia formal do Banco Central do Brasil, estabelecida em 2021, significa que:', // pergunta
+    alternativas: [                     // opções
+      'o BC virou empresa privada', // opção
+      'o BC agora emite dinheiro sem limite', // opção
+      'o BC tem autonomia formal (lei complementar) para definir a política monetária e fixar a Selic, com mandatos fixos para seus dirigentes', // correta
+      'o BC deixou de existir', // opção
+      'o BC é subordinado ao Congresso', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A LC 179/2021 deu autonomia formal ao BC: dirigentes com mandatos fixos (não coincidentes com o do presidente) e missão clara de estabilidade de preços. A Selic segue sendo definida pelo Copom.', // explicação
+    dica: 'Copeve cobra o sentido da autonomia: não é independência política absoluta — é MANDATO fixo e instrumento da política monetária sem interferência direta do Executivo. Copom continua a decidir a Selic.', // pegadinha
+    video: 'banco central autonomia selic copom resumo' // busca no YouTube
+  },
+  {
+    id: 'ec56',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Ciclos econômicos',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O ciclo econômico é composto por fases que se alternam; a fase de "recessão" é quando:', // pergunta
+    alternativas: [                     // opções
+      'o PIB atinge seu máximo', // opção
+      'há inflação zero permanente', // opção
+      'a atividade econômica contrai — produção, consumo e emprego caem por dois ou mais trimestres', // correta
+      'o salário cresce sempre', // opção
+      'o câmbio fica estável', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O ciclo: expansão → pico → recessão (queda de atividade: menos produção, consumo, emprego) → fundo → recuperação. Recessão técnica costuma ser definida por dois trimestres seguidos de queda do PIB.', // explicação
+    dica: 'Instituto Mais confunde com "desaceleração": recessão é CONTRAÇÃO (PIB negativo), não só crescer menos. Depressão = recessão longa e profunda. O indicador de prova: dois trimestres de queda.', // pegadinha
+    video: 'recessao ciclo economico pib resumo' // busca no YouTube
+  },
+
+  // ---- Informática (i43–i46) ----
+  {
+    id: 'i43',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Excel — funções estatísticas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No Excel, para saber o MAIOR valor de um intervalo, usa-se a função:', // pergunta
+    alternativas: [                     // opções
+      'MÉDIA()', // opção
+      'SOMA()', // opção
+      'SE()', // opção
+      'CONT.SE()', // opção
+      'MÁXIMO() — enquanto MÍNIMO() dá o menor e CONT.NÚM() conta os números', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'MÁXIMO() devolve o maior valor do intervalo; MÍNIMO(), o menor; MÉDIA(), a média; CONT.NÚM(), quantos números há; CONT.VALORES(), células não vazias; CONT.SE(), quantos atendem a um critério.', // explicação
+    dica: 'FUNDATEC mistura a família "M": MÁXIMO é o maior; MÍNIMO o menor; MED é a mediana; MÉDIA a média; MAIOR(intervalo,k) dá o k-ésimo maior. Cuidado: "MAXIMO" sem acento não funciona no Excel em PT.', // pegadinha
+    video: 'excel funcoes maximo minimo contnum resumo' // busca no YouTube
+  },
+  {
+    id: 'i44',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Hardware — CPU',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A CPU (processador) é o componente que:', // pergunta
+    alternativas: [                     // opções
+      'guarda arquivos permanentemente', // opção
+      'executa as instruções dos programas — o "cérebro" que calcula, decide e coordena as demais peças', // correta
+      'mostra imagens na tela', // opção
+      'é a memória do PC', // opção
+      'alimenta a energia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CPU processa instruções: busca da memória, decodifica e executa (ULA para contas, UC para controle). Clock (GHz) e núcleos medem desempenho; cache é a memória ultrarrápida dentro do processador.', // explicação
+    dica: 'Copeve confunde CPU com os outros: processador EXECUTA; memória RAM guarda temporariamente; SSD/HD guarda permanente; GPU processa imagem; fonte alimenta. "Cérebro" e "instruções" = CPU.', // pegadinha
+    video: 'cpu processador funcao componentes resumo' // busca no YouTube
+  },
+  {
+    id: 'i45',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Redes — Wi-Fi',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O Wi-Fi é a tecnologia que permite conectar dispositivos à rede:', // pergunta
+    alternativas: [                     // opções
+      'somente com fio', // opção
+      'por satélite apenas', // opção
+      'por Bluetooth', // opção
+      'sem fio, por ondas de rádio emitidas pelo roteador — o nome popular das redes locais sem fio (padrão 802.11)', // correta
+      'por cabo elétrico', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Wi-Fi = rede local sem fio (WLAN, padrão IEEE 802.11): o roteador emite o sinal por rádio nas faixas 2,4 GHz e 5 GHz. Diferente de Bluetooth (curto alcance, pareamento) e de dados móveis (4G/5G, celular).', // explicação
+    dica: 'Selecon confunde as tecnologias sem fio: Wi-Fi = rede local (roteador); Bluetooth = curto alcance (fone/teclado); 4G/5G = operadora de celular; NFC = centímetros. Wi-Fi NÃO é a internet — é o acesso à rede.', // pegadinha
+    video: 'wifi rede sem fio roteador resumo' // busca no YouTube
+  },
+  {
+    id: 'i46',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Periféricos',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Periféricos são os dispositivos que se conectam ao computador; é exemplo de periférico de SAÍDA:', // pergunta
+    alternativas: [                     // opções
+      'teclado', // opção
+      'mouse', // opção
+      'a impressora (e o monitor) — dispositivos que apresentam dados ao usuário', // correta
+      'scanner', // opção
+      'microfone', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Entrada = mandam dados para o PC (teclado, mouse, scanner, microfone); saída = o PC envia dados para fora (monitor, impressora, caixas de som); há híbridos (touchscreen, pendrive como armazenamento).', // explicação
+    dica: 'Instituto Mais troca entrada × saída: ENTRADA = vai para dentro (teclado, mouse, scanner, microfone, webcam); SAÍDA = vem para fora (monitor, impressora, fone). A classificação é do ponto de vista DO COMPUTADOR.', // pegadinha
+    video: 'perifericos entrada saida impressora resumo' // busca no YouTube
+  },
 ];
