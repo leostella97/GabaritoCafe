@@ -28308,4 +28308,2742 @@ const BancoQuestoes = [
     dica: 'Instituto Mais confunde com publicidade comum: endo = INTERNO. Não é anúncio ao público — é o marketing da empresa para seus funcionários (campanha interna, clima, comunicação). Cliente feliz começa com colaborador engajado.', // pegadinha
     video: 'endomarketing marketing interno engajamento resumo' // busca no YouTube
   },
+
+  /* ===================== MATRIZ — ENEM (10+ por matéria) ===================== */
+  {
+    id: 'p52',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Variação linguística e registro', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Num grupo de WhatsApp da família, alguém escreve: "vc vem hj? bjs". O uso de "vc", "hj" e "bjs" nesse contexto é:', // pergunta
+    alternativas: [                     // opções
+      'um erro grave que compromete a comunicação', // opção
+      'adequado — a situação informal permite abreviações e marcas da oralidade', // correta
+      'uma prova de que a língua portuguesa está se degradando', // opção
+      'inaceitável em qualquer situação de escrita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A adequação linguística depende do contexto: numa conversa informal entre familiares, abreviações como "vc" e "hj" cumprem bem a função de comunicar. O ENEM cobra que você saiba julgar o registro pela situação, não por regra fixa.', // explicação
+    dica: 'Pegadinha clássica: marcar "erro" porque "não é culto". O ENEM defende que TODA variedade é legítima — o que muda é a adequação ao contexto.', // pegadinha
+    video: 'variação linguística registro formal informal enem' // busca no YouTube
+  },
+  {
+    id: 'p53',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Funções da linguagem',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'No verso "Eu choro a saudade que me aperta o peito", a linguagem está centrada nas emoções de quem fala. Essa é a função:', // pergunta
+    alternativas: [                     // opções
+      'referencial', // opção
+      'fática', // opção
+      'emotiva (ou expressiva)', // correta
+      'metalinguística', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A função emotiva (ou expressiva) é centrada no emissor: o eu-lírico coloca sentimentos em primeiro plano. Referencial foca no contexto/fato; fática, no canal; metalinguística usa a língua para falar dela mesma.', // explicação
+    dica: 'Truque do ENEM: procure a "pessoa da linguagem". 1ª pessoa + sentimento = emotiva. Informação objetiva = referencial. Poema sobre poesia = metalinguística.', // pegadinha
+    video: 'funções da linguagem emotiva referencial enem' // busca no YouTube
+  },
+  {
+    id: 'p54',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Coesão e conjunções',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Em "Ele estudou muito; portanto, foi aprovado", o conectivo "portanto" estabelece relação de:', // pergunta
+    alternativas: [                     // opções
+      'oposição', // opção
+      'conclusão', // correta
+      'alternância', // opção
+      'condição', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Portanto" é conjunção conclusiva: apresenta o resultado lógico do que foi dito antes. Oposição = mas/contudo; alternância = ou; condição = se/caso.', // explicação
+    dica: 'O ENEM cobra o VALOR do conectivo, não a decoreba da lista. Substitua mentalmente: se dá para trocar por "por isso" ou "logo", é conclusão.', // pegadinha
+    video: 'conjunções conclusivas coesão textual enem' // busca no YouTube
+  },
+  {
+    id: 'p55',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Figuras de linguagem',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Em "Aquela cidade é um formigueiro de gente", o recurso de comparar a cidade a um formigueiro sem usar "como" é:', // pergunta
+    alternativas: [                     // opções
+      'metáfora', // correta
+      'comparação (ou símile)', // opção
+      'hipérbole', // opção
+      'personificação', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Metáfora é a comparação subentendida, sem conectivo ("é um formigueiro"). Comparação/símile usa "como", "tal qual". Hipérbole é exagero; personificação dá traços humanos a seres inanimados.', // explicação
+    dica: 'Distinção favorita do ENEM: tem "como/que nem" = comparação; fusionou os dois termos sem conectivo = metáfora.', // pegadinha
+    video: 'metáfora e comparação diferença figuras de linguagem' // busca no YouTube
+  },
+  {
+    id: 'p56',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Gênero textual: charge',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A charge é um gênero que circula em jornais e redes sociais. Seu principal objetivo comunicativo é:', // pergunta
+    alternativas: [                     // opções
+      'informar com neutralidade os fatos do dia', // opção
+      'criticar com humor situações políticas e sociais do presente', // correta
+      'ensinar gramática por meio de desenhos', // opção
+      'divertir sem nenhuma intenção crítica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A charge usa humor, exagero e ironia para criticar fatos políticos/sociais atuais — diferente da tirinha (cotidiano, humor sem crítica necessária) e do cartum (humor atemporal).', // explicação
+    dica: 'O ENEM adora charge → cartum → tirinha. Charge = atualidade + crítica; cartum = humor universal; tirinha = narrativa em quadros.', // pegadinha
+    video: 'charge cartum tirinha diferenças enem' // busca no YouTube
+  },
+  {
+    id: 'p57',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Intertextualidade e paródia', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma propaganda recria o poema "No meio do caminho" de Carlos Drummond, trocando "tinha uma pedra" por "tinha um desconto", para vender um produto. Esse recurso é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'plágio literário', // opção
+      'paráfrase', // opção
+      'paródia — intertextualidade que recria outro texto com função nova (aqui, cômica/comercial)', // correta
+      'resumo crítico', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Paródia é a recriação de um texto conhecido mudando sua função (sério → cômico, poético → comercial). Paráfrase repete o sentido com outras palavras; intertextualidade é o nome geral do diálogo entre textos.', // explicação
+    dica: 'O ENEM cobra a DIFERENÇA: paráfrase mantém o sentido; paródia desvia o sentido (geralmente para o humor ou a crítica). Propaganda citando poema = paródia.', // pegadinha
+    video: 'intertextualidade paródia paráfrase enem' // busca no YouTube
+  },
+  {
+    id: 'p58',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Denotação e conotação',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Em "Ele é um pão!" (falando de uma pessoa gentil), a palavra "pão" está empregada em sentido:', // pergunta
+    alternativas: [                     // opções
+      'denotativo — seu significado literal de alimento', // opção
+      'conotativo — sentido figurado de "pessoa boa, querida"', // correta
+      'técnico — termo da panificação', // opção
+      'ambíguo — erro de vocabulário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Denotação = sentido de dicionário; conotação = sentido figurado criado pelo contexto. "Pão" aplicado a pessoa não fala de alimento, mas de qualidade afetiva.', // explicação
+    dica: 'Regra rápida: se o sentido literal faz sentido na frase, é denotação; se você precisa "traduzir" a imagem, é conotação.', // pegadinha
+    video: 'denotação e conotação diferença enem' // busca no YouTube
+  },
+  {
+    id: 'p59',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Coesão referencial',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Em "O governo anunciou o corte. Isso gerou protestos", o pronome "isso" retoma:', // pergunta
+    alternativas: [                     // opções
+      'a palavra "governo"', // opção
+      'a palavra "protestos"', // opção
+      'toda a informação anterior (o anúncio do corte)', // correta
+      'um fato futuro ainda não mencionado', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Isso" é pronome demonstrativo anafórico: retoma um enunciado inteiro já apresentado (a decisão de cortar), não só uma palavra. É recurso de coesão que evita repetição.', // explicação
+    dica: 'O ENEM pergunta "o que o termo retoma". Dica: "isso" quase sempre retoma a FRASE/ideia anterior inteira; "esse/essa" pode retomar um substantivo.', // pegadinha
+    video: 'coesão referencial isso anafórico enem' // busca no YouTube
+  },
+  {
+    id: 'p60',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Preconceito linguístico',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um candidato fala "os menino" numa entrevista informal. Sob a ótica da linguística, a atitude correta é:', // pergunta
+    alternativas: [                     // opções
+      'ridicularizar o falante, pois a fala prova falta de estudo', // opção
+      'reconhecer que é uma variedade legítima do português, adequada a contextos informais, embora não seja a norma culta', // correta
+      'corrigir a fala para que ele nunca mais repita o "erro"', // opção
+      'ignorar, pois variedade linguística não existe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A sociolinguística (base do ENEM) entende que toda variedade regional/social é sistemática e legítima — "os menino" segue regras próprias. Preconceito linguístico é discriminar o falante por sua variedade. Norma culta é uma entre as variedades, exigida em contextos formais.', // explicação
+    dica: 'Bandeira do ENEM: "variedade ≠ erro". Erro é usar a variedade informal em contexto que pede a culta (ex.: redação oficial) — não o falar em si.', // pegadinha
+    video: 'preconceito linguístico variedade norma culta enem' // busca no YouTube
+  },
+  {
+    id: 'p61',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Estratégias argumentativas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Num artigo de opinião, o autor escreve: "Segundo o IBGE, 11 milhões de brasileiros vivem em favelas" e, em seguida, defende políticas habitacionais. Citar a estatística é recurso que serve para:', // pergunta
+    alternativas: [                     // opções
+      'emocionar o leitor com uma história pessoal', // opção
+      'dar credibilidade ao argumento por meio de dado de autoridade reconhecida', // correta
+      'confundir o leitor com números complexos', // opção
+      'adornar o texto sem função argumentativa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Citar dados de institutos reconhecidos (IBGE, universidades, órgãos oficiais) é o recurso argumentativo chamado "argumento de autoridade" ou "prova concreta" — empresta credibilidade e objetividade à tese.', // explicação
+    dica: 'Na redação do ENEM vale o mesmo: citação de dados/de autores = reforço argumentativo. Nas questões, perceba SEMPRE para que serve cada elemento do texto.', // pegadinha
+    video: 'estratégias argumentativas argumento de autoridade enem' // busca no YouTube
+  },
+  {
+    id: 'm51',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Porcentagem (desconto)',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma loja anuncia 30% de desconto em uma mochila de R$ 150,00. O preço final é:', // pergunta
+    alternativas: [                     // opções
+      'R$ 45,00', // opção
+      'R$ 95,00', // opção
+      'R$ 105,00', // correta
+      'R$ 120,00', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '30% de 150 = 0,30 × 150 = R$ 45 de desconto. Preço final: 150 − 45 = R$ 105. Atalho: pagar 70% → 0,70 × 150 = 105.', // explicação
+    dica: 'O ENEM coloca o VALOR DO DESCONTO (45) como alternativa — quem para na metade do cálculo erra. Leia o que a questão pede: desconto ou preço final?', // pegadinha
+    video: 'porcentagem desconto como calcular enem' // busca no YouTube
+  },
+  {
+    id: 'm52',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Regra de três simples',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma receita para 4 pessoas usa 300 g de farinha. Para servir 10 pessoas mantendo a proporção, serão necessários:', // pergunta
+    alternativas: [                     // opções
+      '600 g', // opção
+      '750 g', // correta
+      '900 g', // opção
+      '1.200 g', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regra de três direta: 4 pessoas → 300 g; 10 pessoas → x. x = (300 × 10) / 4 = 750 g.', // explicação
+    dica: 'Sempre teste se é direta ou inversa: mais pessoas precisam de mais farinha → direta (multiplica cruzado). Se fosse "menos tempo com mais máquinas" → inversa.', // pegadinha
+    video: 'regra de três simples direta enem' // busca no YouTube
+  },
+  {
+    id: 'm53',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Escala em mapas',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Num mapa de escala 1:50.000, duas cidades aparecem a 4 cm de distância. A distância real entre elas é:', // pergunta
+    alternativas: [                     // opções
+      '200 m', // opção
+      '2 km', // correta
+      '20 km', // opção
+      '200 km', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Escala 1:50.000 → 1 cm no mapa = 50.000 cm reais = 0,5 km. Então 4 cm × 0,5 km = 2 km.', // explicação
+    dica: 'Conversão que o ENEM cobra: cm → km. 1 km = 100.000 cm. Divida os centímetros reais por 100.000 para ter km.', // pegadinha
+    video: 'escala de mapa como calcular distância real enem' // busca no YouTube
+  },
+  {
+    id: 'm54',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Média aritmética',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para ser aprovado, um aluno precisa de média 6,0 em 4 provas. Ele tirou 5,0, 7,0 e 6,5 nas três primeiras. Na última prova precisa de pelo menos:', // pergunta
+    alternativas: [                     // opções
+      '5,0', // opção
+      '5,5', // correta
+      '6,0', // opção
+      '6,5', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Média 6,0 em 4 provas → soma precisa ser 24. Já tem 5 + 7 + 6,5 = 18,5. Faltam 24 − 18,5 = 5,5.', // explicação
+    dica: 'Método ENEM: multiplique a média desejada pelo número de provas para achar a soma total, depois subtraia o que já obteve.', // pegadinha
+    video: 'média aritmética quanto preciso tirar enem' // busca no YouTube
+  },
+  {
+    id: 'm55',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Volume do cubo',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma caixa-d’água cúbica tem 1 metro de aresta. Sua capacidade total é de:', // pergunta
+    alternativas: [                     // opções
+      '10 litros', // opção
+      '100 litros', // opção
+      '1.000 litros', // correta
+      '10.000 litros', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Volume = 1 m × 1 m × 1 m = 1 m³. E 1 m³ equivale a 1.000 litros — conversão que o ENEM cobra direto.', // explicação
+    dica: 'Decore a ponte: 1 m³ = 1.000 L; 1 dm³ = 1 L; 1 cm³ = 1 mL. A questão sempre dá ou pede essa conversão.', // pegadinha
+    video: 'volume cubo metro cúbico litros enem' // busca no YouTube
+  },
+  {
+    id: 'm56',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Juros simples',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um valor de R$ 1.000,00 aplicado a juros simples de 2% ao mês por 6 meses rende um montante de:', // pergunta
+    alternativas: [                     // opções
+      'R$ 1.012,00', // opção
+      'R$ 1.060,00', // opção
+      'R$ 1.120,00', // correta
+      'R$ 1.126,00', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'J = C × i × t = 1.000 × 0,02 × 6 = R$ 120 de juros. Montante = 1.000 + 120 = R$ 1.120. (1.126 seria juros compostos — o distrator clássico.)', // explicação
+    dica: 'O ENEM oferece o resultado dos juros COMPOSTOS como alternativa: SIMPLES = juros só sobre o capital; COMPOSTOS = juros sobre juros. Confira o regime antes de calcular.', // pegadinha
+    video: 'juros simples fórmula como calcular enem' // busca no YouTube
+  },
+  {
+    id: 'm57',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Probabilidade simples',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa urna há 4 bolas vermelhas e 6 azuis. Retirando uma bola ao acaso, a probabilidade de ser vermelha é:', // pergunta
+    alternativas: [                     // opções
+      '4/6', // opção
+      '2/5', // correta
+      '4/4', // opção
+      '6/10', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Probabilidade = favoráveis / possíveis = 4 vermelhas / 10 bolas = 4/10 = 2/5 (simplificada).', // explicação
+    dica: 'O ENEM oferece 4/6 como distrator — quem divide favorável por desfavorável erra. O denominador é sempre o TOTAL de casos.', // pegadinha
+    video: 'probabilidade urna bolas como calcular enem' // busca no YouTube
+  },
+  {
+    id: 'm58',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Leitura de tabela',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Consumo de energia de uma casa: jan 180 kWh, fev 210 kWh, mar 195 kWh, abr 240 kWh. O maior aumento em relação ao mês anterior ocorreu entre:', // pergunta
+    alternativas: [                     // opções
+      'janeiro e fevereiro', // opção
+      'fevereiro e março', // opção
+      'março e abril', // correta
+      'não houve aumento', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Variações: jan→fev = +30; fev→mar = −15 (queda); mar→abr = +45. Maior aumento: março→abril.', // explicação
+    dica: 'Questão de gráfico/tabela no ENEM mede leitura, não conta difícil. Calcule as variações mês a mês — e cuidado com o sinal negativo.', // pegadinha
+    video: 'interpretação de gráficos e tabelas enem' // busca no YouTube
+  },
+  {
+    id: 'm59',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Razão e proporção',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para pintar uma parede, mistura-se tinta azul e branca na razão 3:2. Com 9 litros de tinta azul, quantos litros de branca são necessários?', // pergunta
+    alternativas: [                     // opções
+      '4 L', // opção
+      '6 L', // correta
+      '8 L', // opção
+      '12 L', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Razão 3:2 → a cada 3 de azul, 2 de branca. 9 L de azul = 3 × 3 partes; logo branca = 3 × 2 = 6 L.', // explicação
+    dica: 'Pense em "partes": se a parte azul vale 3 e temos 9, cada parte vale 3 — multiplique pela outra parte.', // pegadinha
+    video: 'razão e proporção exercícios enem' // busca no YouTube
+  },
+  {
+    id: 'm60',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'MMC no cotidiano',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Dois ônibus partem do terminal ao mesmo tempo: um a cada 12 minutos, outro a cada 18 minutos. Voltarão a partir juntos após:', // pergunta
+    alternativas: [                     // opções
+      '6 minutos', // opção
+      '30 minutos', // opção
+      '36 minutos', // correta
+      '216 minutos', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'MMC(12, 18) = 36: é o menor tempo múltiplo comum dos dois intervalos — o reencontro.', // explicação
+    dica: 'Reencontro/coincidência = MMC (mínimo). Divisão em partes iguais/máximo possível = MDC. O ENEM troca os dois de propósito.', // pegadinha
+    video: 'mmc reencontro ônibus enem' // busca no YouTube
+  },
+  {
+    id: 'r45',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência numérica',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Observe a sequência: 3, 7, 15, 31, 63, ... O próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '95', // opção
+      '127', // correta
+      '126', // opção
+      '94', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Cada termo é o anterior × 2 + 1: 3→7, 7→15, 15→31, 31→63 → 63×2+1 = 127. (Padrão: 2ⁿ − 1.)', // explicação
+    dica: 'Primeira técnica a tentar: diferenças entre termos vizinhos. Se a diferença forma padrão próprio, você achou a lei.', // pegadinha
+    video: 'sequência numérica padrão como resolver' // busca no YouTube
+  },
+  {
+    id: 'r46',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Princípio multiplicativo',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma pessoa tem 3 camisetas e 4 calças. Quantas combinações diferentes de roupa ela pode montar?', // pergunta
+    alternativas: [                     // opções
+      '7', // opção
+      '12', // correta
+      '24', // opção
+      '81', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Princípio multiplicativo: cada camiseta combina com cada calça → 3 × 4 = 12 combinações.', // explicação
+    dica: '"E" entre escolhas independentes = multiplica; "OU" entre alternativas excludentes = soma. Camiseta E calça = 3×4.', // pegadinha
+    video: 'princípio multiplicativo análise combinatória' // busca no YouTube
+  },
+  {
+    id: 'r47',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Verdades e mentiras',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Ana diz: "Beto mentiu." Beto diz: "Caio mentiu." Caio diz: "Ana e Beto mentiram." Se apenas um diz a verdade, quem é?', // pergunta
+    alternativas: [                     // opções
+      'Ana', // opção
+      'Beto', // correta
+      'Caio', // opção
+      'Impossível saber', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Testando: se Ana diz a verdade → Beto mente → "Caio mentiu" é falso → Caio verdade → "Ana e Beto mentiram" seria verdade → contradição (Ana verdade). Se Beto diz a verdade → Caio mente → "Ana e Beto mentiram" é falso → nem ambos mentem → Ana pode mentir → Ana mente → "Beto mentiu" é falso → Beto diz a verdade. Consistente: só Beto verdade.', // explicação
+    dica: 'Questão de verdade/mentira = teste de hipóteses. Assuma cada um como o único sincero e veja onde a contradição NÃO aparece.', // pegadinha
+    video: 'verdades e mentiras raciocínio lógico como resolver' // busca no YouTube
+  },
+  {
+    id: 'r48',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Calendário',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Se 1º de março cai numa segunda-feira, o dia 29 de março do mesmo ano será:', // pergunta
+    alternativas: [                     // opções
+      'domingo', // opção
+      'segunda-feira', // correta
+      'sábado', // opção
+      'terça-feira', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Do dia 1 ao dia 29 são 28 dias = exatamente 4 semanas. Mesma data 4 semanas depois cai no mesmo dia: segunda-feira.', // explicação
+    dica: 'Atalho de calendário: divida os dias decorridos por 7 — o resto é quantos dias avança na semana. 28 ÷ 7 = resto 0 → mesmo dia.', // pegadinha
+    video: 'calendário dia da semana raciocínio lógico' // busca no YouTube
+  },
+  {
+    id: 'r49',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Princípio das gavetas',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa gaveta há meias de 3 cores, misturadas no escuro. Quantas meias preciso retirar para GARANTIR um par da mesma cor?', // pergunta
+    alternativas: [                     // opções
+      '2', // opção
+      '3', // opção
+      '4', // correta
+      '6', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'No pior cenário, as 3 primeiras saem de cores diferentes. A 4ª repete obrigatoriamente uma das cores → par garantido. (Casa dos pombos: n cores → n+1 retiradas.)', // explicação
+    dica: '"Garantir" = pior caso possível, não sorte. Fórmula rápida: número de categorias + 1.', // pegadinha
+    video: 'princípio das gavetas casa dos pombos meias' // busca no YouTube
+  },
+  {
+    id: 'r50',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Diagrama de Venn',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa turma de 30 alunos, 18 jogam futebol, 15 jogam vôlei e 8 praticam os dois. Quantos jogam APENAS futebol?', // pergunta
+    alternativas: [                     // opções
+      '10', // correta
+      '15', // opção
+      '18', // opção
+      '7', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Só futebol = futebol − ambos = 18 − 8 = 10. (Só vôlei = 15 − 8 = 7; nenhum = 30 − 10 − 7 − 8 = 5.)', // explicação
+    dica: 'Erro típico: somar 18 + 15 = 33 > 30 e travar. Comece SEMPRE pela interseção (8) e subtraia dos totais.', // pegadinha
+    video: 'diagrama de venn conjuntos como resolver' // busca no YouTube
+  },
+  {
+    id: 'r51',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência de letras',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Complete a sequência de letras: B, E, H, K, ...', // pergunta
+    alternativas: [                     // opções
+      'M', // opção
+      'N', // correta
+      'O', // opção
+      'L', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Salto fixo de +3 no alfabeto: B(2) → E(5) → H(8) → K(11) → N(14). Sequência aritmética de razão 3 aplicada às letras.', // explicação
+    dica: 'Numere as letras (A=1, B=2...) e calcule as diferenças — vira uma sequência numérica comum.', // pegadinha
+    video: 'sequência de letras raciocínio lógico padrão' // busca no YouTube
+  },
+  {
+    id: 'r52',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Problema de idades',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Hoje o pai tem 40 anos e o filho, 10. Daqui a quantos anos o pai terá o dobro da idade do filho?', // pergunta
+    alternativas: [                     // opções
+      '10 anos', // opção
+      '15 anos', // opção
+      '20 anos', // correta
+      '30 anos', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Seja x os anos que passam: 40 + x = 2 × (10 + x) → 40 + x = 20 + 2x → x = 20. Verificação: pai 60, filho 30 = dobro. ✓', // explicação
+    dica: 'Monte a equação com as DUAS idades avançando x anos juntas — o erro clássico é envelhecer só o filho.', // pegadinha
+    video: 'problema de idades equação raciocínio lógico' // busca no YouTube
+  },
+  {
+    id: 'r53',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Permutação com restrição',   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Cinco amigos formam uma fila. Se Carlos insiste em ser o primeiro, de quantas maneiras a fila pode ser organizada?', // pergunta
+    alternativas: [                     // opções
+      '120', // opção
+      '24', // correta
+      '20', // opção
+      '5', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Carlos fixo na 1ª posição → restam 4 pessoas para 4 lugares: 4! = 4×3×2×1 = 24 maneiras.', // explicação
+    dica: 'Com restrição, trave primeiro quem tem exigência e permute o resto. 5! = 120 seria sem restrição — o distrator.', // pegadinha
+    video: 'permutação com restrição fila como resolver' // busca no YouTube
+  },
+  {
+    id: 'r54',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Negação de proposições',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A negação de "Todos os alunos foram aprovados" é:', // pergunta
+    alternativas: [                     // opções
+      'Nenhum aluno foi aprovado', // opção
+      'Todos os alunos foram reprovados', // opção
+      'Pelo menos um aluno não foi aprovado', // correta
+      'Apenas um aluno foi aprovado', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Negar "todos" NÃO é dizer "nenhum" — basta que um falhe para a afirmação original cair. "Todos" ↔ negação "pelo menos um não" (existe um que não).', // explicação
+    dica: 'Tabela de negações que a banca ama: TODO↔pelo menos um não; NENHUM↔pelo menos um sim; E↔OU (negando as partes). "Todos foram aprovados" ≠ "nenhum aprovado".', // pegadinha
+    video: 'negação de proposições todo nenhum raciocínio lógico' // busca no YouTube
+  },
+  {
+    id: 'i47',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Bolha de filtro',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Nas redes sociais, o usuário tende a ver só conteúdos parecidos com o que já curtiu, porque os algoritmos priorizam o que gera engajamento. Esse fenômeno é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'viralização orgânica', // opção
+      'bolha de filtro (ou bolha social)', // correta
+      'alfabetização digital', // opção
+      'modo anônimo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A "filter bubble" (bolha de filtro) é o isolamento informacional criado pelos algoritmos: mostram o que você já concorda, reforçando opiniões e escondendo visões contrárias — um dos temas de atualidade favoritos do ENEM.', // explicação
+    dica: 'O ENEM cobra os efeitos sociais da tecnologia: bolha → polarização e fake news. Questões pedem o conceito ou suas consequências para o debate público.', // pegadinha
+    video: 'bolha de filtro algoritmos redes sociais enem' // busca no YouTube
+  },
+  {
+    id: 'i48',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Combate a fake news',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Antes de compartilhar uma notícia impactante, a atitude mais responsável é:', // pergunta
+    alternativas: [                     // opções
+      'repostar rápido para avisar os contatos', // opção
+      'checar a fonte, a data e buscar a mesma notícia em veículos confiáveis ou agências de checagem', // correta
+      'confiar se vier de um conhecido', // opção
+      'desconfiar apenas se não tiver imagem', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A verificação básica contra desinformação: fonte confiável, data correta, busca cruzada em veículos jornalísticos e checadores (Aos Fatos, Lupa, Comprova). Fonte conhecida não garante conteúdo verdadeiro.', // explicação
+    dica: 'O ENEM trata fake news como problema de educação midiática: a resposta certa quase sempre envolve "verificar antes de compartilhar" — nunca "censurar" ou "confiar em quem conheço".', // pegadinha
+    video: 'fake news como identificar verificação enem' // busca no YouTube
+  },
+  {
+    id: 'i49',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança digital',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para proteger uma conta de e-mail além da senha, a medida mais eficaz é:', // pergunta
+    alternativas: [                     // opções
+      'usar a data de nascimento como senha', // opção
+      'ativar a autenticação em dois fatores (2FA)', // correta
+      'anotar a senha num papel na carteira', // opção
+      'trocar a senha só uma vez por ano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A autenticação em dois fatores exige senha + segunda prova (código no celular, app, biometria). Mesmo que a senha vaze, o invasor não entra sem o segundo fator.', // explicação
+    dica: 'Senha forte = longa e única (12+ caracteres, misturando tipos). 2FA = o "cadeado extra" que o ENEM valoriza como boa prática digital.', // pegadinha
+    video: 'autenticação dois fatores segurança digital' // busca no YouTube
+  },
+  {
+    id: 'i50',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Phishing',                   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Você recebe SMS dizendo "Seu banco: conta bloqueada, clique aqui" com um link estranho. Isso é provavelmente:', // pergunta
+    alternativas: [                     // opções
+      'um serviço legítimo do banco', // opção
+      'phishing — tentativa de roubar seus dados com uma página falsa', // correta
+      'uma atualização automática de segurança', // opção
+      'spam inofensivo que pode ser clicado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phishing = "pescaria" de dados: mensagem falsa imitando banco/loja/governo leva a site clonado que rouba senhas e cartões. Bancos de verdade não pedem dados por link de SMS.', // explicação
+    dica: 'Sinais de phishing que o ENEM lista: urgência artificial ("bloqueado!", "última chance"), remetente estranho, link encurtado ou com erro de português. Nunca clique — abra o app oficial.', // pegadinha
+    video: 'phishing golpe como identificar segurança' // busca no YouTube
+  },
+  {
+    id: 'i51',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Planilhas eletrônicas',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa planilha, as notas de um aluno estão em A1:A4. A fórmula que calcula a média das quatro notas é:', // pergunta
+    alternativas: [                     // opções
+      '=SOMA(A1:A4)', // opção
+      '=MEDIA(A1:A4) ou =MÉDIA(A1:A4)', // correta
+      '=A1+A4/2', // opção
+      '=MÁXIMO(A1:A4)-MÍNIMO(A1:A4)', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A função MÉDIA (MEDIA no Excel em inglês/AVERAGE) soma o intervalo e divide pela quantidade: (A1+A2+A3+A4)/4. SOMA só totaliza; a 3ª opção divide só o último termo.', // explicação
+    dica: 'Planilha no ENEM vem contextualizada (boletim, gastos). Fórmulas básicas cobradas: SOMA, MÉDIA, MÁXIMO, MÍNIMO, SE. Sempre começam com "=".', // pegadinha
+    video: 'planilha excel função média básico' // busca no YouTube
+  },
+  {
+    id: 'i52',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Computação em nuvem',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Salvar o TCC no Google Drive em vez de só no pendrive traz como principal vantagem:', // pergunta
+    alternativas: [                     // opções
+      'o arquivo ficar eternamente gratuito e ilimitado', // opção
+      'acesso ao arquivo de qualquer dispositivo conectado, com cópia de segurança fora do seu aparelho', // correta
+      'impossibilidade de o arquivo ser apagado', // opção
+      'o computador ficar mais rápido', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nuvem = armazenamento em servidores remotos via internet: o arquivo acompanha a conta, não o dispositivo, e funciona como backup se o aparelho quebrar ou se perder.', // explicação
+    dica: 'Não confunda: nuvem ≠ internet grátis nem segurança absoluta — depende de senha/2FA. A vantagem cobrada é disponibilidade + backup remoto.', // pegadinha
+    video: 'computação em nuvem o que é vantagens' // busca no YouTube
+  },
+  {
+    id: 'i53',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'LGPD e dados pessoais',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei Geral de Proteção de Dados (LGPD) garante ao cidadão, principalmente:', // pergunta
+    alternativas: [                     // opções
+      'internet gratuita como direito fundamental', // opção
+      'controle sobre como empresas e órgãos coletam, usam e guardam seus dados pessoais', // correta
+      'o fim de toda publicidade na internet', // opção
+      'anonimato obrigatório em todas as redes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A LGPD (Lei 13.709/2018) exige consentimento e finalidade clara para usar dados pessoais, dando ao titular direitos de acesso, correção e exclusão — proteção contra uso abusivo.', // explicação
+    dica: 'O ENEM liga LGPD a cidadania digital. Lembre os pilares: consentimento, finalidade declarada, dados sensíveis com proteção reforçada (saúde, origem racial, religião).', // pegadinha
+    video: 'lgpd o que é dados pessoais resumo' // busca no YouTube
+  },
+  {
+    id: 'i54',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Pesquisa confiável na web',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para um trabalho escolar, a fonte de informação MAIS confiável na internet costuma ser:', // pergunta
+    alternativas: [                     // opções
+      'o primeiro link do buscador, seja qual for', // opção
+      'sites institucionais e acadêmicos (.gov, .edu, artigos com autor e data identificados)', // correta
+      'posts de rede social com muitos likes', // opção
+      'páginas sem autor, mas com visual bonito', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Credibilidade na web vem de: instituição identificável (governo, universidade, imprensa profissional), autor com nome, data de publicação e referências. Likes medem popularidade, não verdade.', // explicação
+    dica: 'O ENEM cobra letramento digital: checar QUEM publica, QUANDO e COM QUE provas. Anônimo + apelativo + sem data = desconfie.', // pegadinha
+    video: 'pesquisa na internet fontes confiáveis' // busca no YouTube
+  },
+  {
+    id: 'i55',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Tecnologia assistiva',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um estudante cego usa um programa que lê em voz alta tudo que aparece na tela. Essa tecnologia é chamada de:', // pergunta
+    alternativas: [                     // opções
+      'reconhecimento facial', // opção
+      'leitor de tela — tecnologia assistiva de acessibilidade', // correta
+      'tradução automática', // opção
+      'teclado virtual', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Leitores de tela (NVDA, JAWS, TalkBack, VoiceOver) convertem o conteúdo visual em áudio ou braille — exemplo de tecnologia assistiva que promove inclusão digital de pessoas com deficiência.', // explicação
+    dica: 'O ENEM adora tecnologia + inclusão: leitor de tela (visual), legendas e LIBRAS digital (auditiva), teclados adaptados (motora). Acessibilidade é tema recorrente.', // pegadinha
+    video: 'tecnologia assistiva leitor de tela acessibilidade' // busca no YouTube
+  },
+  {
+    id: 'i56',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Pegada digital',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O conjunto de rastros que deixamos online — posts, curtidas, fotos marcadas, histórico de buscas — é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'cache do navegador', // opção
+      'pegada digital (digital footprint)', // correta
+      'memória RAM virtual', // opção
+      'cookie de sessão', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A pegada digital reúne tudo que registramos (voluntário ou coletado) e permanece pesquisável — afeta reputação, emprego e privacidade. Apagar um post não garante que não haja cópias.', // explicação
+    dica: 'Tema de atualidade digital do ENEM: "o que vai para a rede fica". Gerenciar pegada = revisar privacidade, pensar antes de postar, lembrar que prints eternizam.', // pegadinha
+    video: 'pegada digital o que é privacidade internet' // busca no YouTube
+  },
+  {
+    id: 't40',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Acordo de Paris',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Acordo de Paris (2015) tem como meta central:', // pergunta
+    alternativas: [                     // opções
+      'proibir todo desmatamento no mundo imediatamente', // opção
+      'conter o aquecimento global bem abaixo de 2 °C, buscando limitar a 1,5 °C, por meio de metas nacionais voluntárias (NDCs)', // correta
+      'distribuir recursos financeiros igualmente entre os países', // opção
+      'extinguir os combustíveis fósseis até 2030', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Acordo de Paris (COP21) fixou o teto de +2 °C (meta ambiciosa 1,5 °C) em relação à era pré-industrial, com cada país apresentando sua NDC — contribuição nacionalmente determinada.', // explicação
+    dica: 'O ENEM confunde com o Protocolo de Kyoto (1997): Kyoto tinha metas obrigatórias só para países ricos; Paris inclui todos com metas voluntárias. Ano de Paris = 2015.', // pegadinha
+    video: 'acordo de paris o que é metas clima' // busca no YouTube
+  },
+  {
+    id: 't41',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Agenda 2030 e ODS',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Agenda 2030 da ONU reúne os Objetivos de Desenvolvimento Sustentável (ODS). Ao todo são:', // pergunta
+    alternativas: [                     // opções
+      '8 objetivos', // opção
+      '17 objetivos', // correta
+      '30 objetivos', // opção
+      '100 objetivos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'São 17 ODS com prazo até 2030: erradicação da pobreza, fome zero, saúde, educação, igualdade de gênero, água limpa, energia, trabalho decente, indústria, redução de desigualdades, cidades sustentáveis, consumo responsável, clima, oceanos, vida terrestre, paz/justiça e parcerias.', // explicação
+    dica: 'Número decorado: 17 ODS / 2030. E lembre que valem para TODOS os países (diferente dos 8 Objetivos do Milênio, focados nos pobres).', // pegadinha
+    video: 'ods agenda 2030 17 objetivos resumo' // busca no YouTube
+  },
+  {
+    id: 't42',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Inteligência artificial',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O avanço das IAs generativas (texto, imagem, código) acendeu um debate global sobre:', // pergunta
+    alternativas: [                     // opções
+      'a proibição imediata de qualquer algoritmo', // opção
+      'regulação — trabalho, direitos autorais, viés algorítmico e uso responsável da tecnologia', // correta
+      'a extinção dos empregos de escritório no mesmo ano', // opção
+      'a substituição completa dos professores por robôs', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O debate real é regulatório: impactos no emprego, autoria de conteúdo gerado, vieses reproduzidos pelos modelos, transparência e responsabilidade — o Brasil discutiu um marco legal de IA.', // explicação
+    dica: 'O ENEM foge de exageros: respostas com "proibição total" ou "fim dos empregos já" são distratores. O tom certo é "regulamentar e aproveitar com responsabilidade".', // pegadinha
+    video: 'inteligência artificial regulação debate enem' // busca no YouTube
+  },
+  {
+    id: 't43',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Transição energética',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na matriz elétrica brasileira, as fontes que mais cresceram na última década foram:', // pergunta
+    alternativas: [                     // opções
+      'carvão mineral e nuclear', // opção
+      'solar e eólica', // correta
+      'diesel e gás natural', // opção
+      'lenho e carvão vegetal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil, já forte em hidrelétricas, viu explodir a geração solar (incluindo telhados) e eólica (Nordeste) — transição energética combinada com fontes renováveis abundantes.', // explicação
+    dica: 'Matriz brasileira = maioria renovável (hidráulica domina, mas sol e vento crescem mais rápido). O ENEM compara com matrizes mundiais ainda fósseis.', // pegadinha
+    video: 'transição energética brasil solar eólica' // busca no YouTube
+  },
+  {
+    id: 't44',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Saúde pública e vacinação',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A queda na cobertura vacinal infantil no Brasil preocupa as autoridades de saúde porque:', // pergunta
+    alternativas: [                     // opções
+      'vacinas causam mais doenças que previnem', // opção
+      'permite o retorno de doenças antes controladas ou erradicadas, como sarampo e poliomielite', // correta
+      'aumenta o custo das vacinas importadas', // opção
+      'obriga o SUS a comprar seringas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cobertura vacinal baixa quebra a imunidade coletiva: doenças eliminadas voltam a circular (o Brasil já viu ressurgimento do sarampo). O SUS oferece o calendário completo gratuitamente.', // explicação
+    dica: 'Conceito-chave: imunidade de rebanho — vacinar-se protege também quem não pode se vacinar. O ENEM sempre liga vacina a bem coletivo, não escolha individual neutra.', // pegadinha
+    video: 'cobertura vacinal brasil importância vacinas sus' // busca no YouTube
+  },
+  {
+    id: 't45',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia circular',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A economia circular propõe, em contraste com o modelo "extrair–produzir–descartar":', // pergunta
+    alternativas: [                     // opções
+      'aumentar a extração de matérias-primas para gerar empregos', // opção
+      'manter materiais em uso pelo maior tempo possível — reutilização, reparo, reciclagem e design sem desperdício', // correta
+      'substituir toda reciclagem por aterros sanitários', // opção
+      'importar resíduos de outros países', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Economia circular = fechar o ciclo: produtos projetados para durar, serem consertados e reciclados, transformando "lixo" em insumo — oposta ao modelo linear de descarte.', // explicação
+    dica: 'Palavras-chave que denunciam a resposta certa: reciclar, reutilizar, reparar, ecodesign, logística reversa (Lei 12.305/2010 institui a Política Nacional de Resíduos Sólidos).', // pegadinha
+    video: 'economia circular o que é resumo' // busca no YouTube
+  },
+  {
+    id: 't46',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Segurança alimentar',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Brasil voltou ao Mapa da Fome da ONU no início dos anos 2020. "Insegurança alimentar grave" significa:', // pergunta
+    alternativas: [                     // opções
+      'comer alimentos ultraprocessados ocasionalmente', // opção
+      'a família passar fome ou ter restrição severa e contínua de alimentos', // correta
+      'preferir comida de fast-food a caseira', // opção
+      'não ter acesso a restaurantes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Escala Brasileira de Insegurança Alimentar mede graus: leve (preocupação/qualidade), moderada (quantidade reduzida) e grave (fome). Segurança alimentar é direito constitucional (EC, art. 6º).', // explicação
+    dica: 'O ENEM diferencia insegurança alimentar de má alimentação: insegurança = falta/incerteza de comida; má alimentação = má qualidade. Fome = grau grave.', // pegadinha
+    video: 'insegurança alimentar mapa da fome brasil' // busca no YouTube
+  },
+  {
+    id: 'ad55',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Ciclo PDCA',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma escola quer melhorar o desempenho no ENEM: planeja metas, aplica o plano, mede os resultados e ajusta o que falhou. Esse ciclo de melhoria contínua é o:', // pergunta
+    alternativas: [                     // opções
+      'organograma funcional', // opção
+      'ciclo PDCA (Plan–Do–Check–Act)', // correta
+      'diagrama de Gantt', // opção
+      'fluxo de caixa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PDCA = Planejar, Executar (Do), Verificar (Check) e Agir/padronizar (Act). É a base da melhoria contínua da qualidade — repetido em espiral para elevar resultados.', // explicação
+    dica: 'PDCA aparece disfarçado de historinha: "planejou → fez → mediu → corrigiu" = PDCA. Não confunda com cronograma (Gantt) ou organograma (cargos).', // pegadinha
+    video: 'ciclo pdca planejamento melhoria contínua' // busca no YouTube
+  },
+  {
+    id: 'ad56',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Empreendedorismo social',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma empresa que lucra reciclando resíduos e contratando catadores como sócios exemplifica:', // pergunta
+    alternativas: [                     // opções
+      'empreendedorismo social — negócio que une lucro e impacto positivo na comunidade', // correta
+      'monopólio natural', // opção
+      'economia informal ilegal', // opção
+      'terceirização predatória', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Empreendedorismo social (negócio de impacto) busca resolver problema social/ambiental com sustentabilidade financeira própria — diferente da ONG (sem lucro) e da empresa tradicional (só lucro).', // explicação
+    dica: 'O ENEM adora o eixo "economia + cidadania": lucro não é vilão quando o propósito é social. Cooperativas e startups sociais são os exemplos clássicos.', // pegadinha
+    video: 'empreendedorismo social negócio de impacto' // busca no YouTube
+  },
+  {
+    id: 'ad57',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Liderança e trabalho em equipe', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Num projeto em grupo, o líder que mais engaja a equipe tende a ser aquele que:', // pergunta
+    alternativas: [                     // opções
+      'centraliza todas as decisões e pune erros', // opção
+      'delega tarefas, ouve ideias e distribui o mérito', // correta
+      'faz tudo sozinho para garantir a qualidade', // opção
+      'deixa o grupo sem direção para não pressionar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Liderança eficaz moderna (situacional/participativa) equilibra direção e autonomia: comunica o objetivo, distribui responsabilidades e reconhece o grupo. Chefia autoritária desmotiva; "ausência total" é omissão, não liderança.', // explicação
+    dica: 'O ENEM contrasta chefe × líder: chefe manda pelo cargo; líder influencia pelo exemplo e pela escuta. A opção "humana e colaborativa" costuma ser a certa.', // pegadinha
+    video: 'liderança e trabalho em equipe diferença chefe líder' // busca no YouTube
+  },
+  {
+    id: 'ad58',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão do tempo',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na matriz de prioridades (urgente × importante), a tarefa "estudar o conteúdo que mais cai" classifica-se como:', // pergunta
+    alternativas: [                     // opções
+      'urgente e importante — fazer agora', // opção
+      'importante, mas não urgente — planejar e fazer com constância', // correta
+      'urgente e não importante — delegar', // opção
+      'nem urgente nem importante — eliminar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Na matriz de Eisenhower, o quadrante "importante/não urgente" é onde mora o crescimento: estudar com antecedência evita crises (urgências). Quem só apaga incêndio nunca constrói.', // explicação
+    dica: 'Pegadinha: marcar "urgente" porque a prova está chegando. Urgente = prazo vencendo AGORA; preparação contínua é importante e não-urgente — o quadrante do planejamento.', // pegadinha
+    video: 'matriz de eisenhower urgente importante gestão tempo' // busca no YouTube
+  },
+  {
+    id: 'ad59',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Cooperativismo',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Cooperativas de trabalho (agricultura familiar, catadores, transporte) caracterizam-se por:', // pergunta
+    alternativas: [                     // opções
+      'serem empresas do governo com fins lucrativos', // opção
+      'propriedade coletiva dos associados, decisões democráticas e repartição dos resultados conforme a participação', // correta
+      'distribuir lucros apenas ao fundador', // opção
+      'dispensar qualquer registro legal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Na cooperativa, os sócios são donos e trabalhadores: cada um vota igualmente (1 associado = 1 voto), e as sobras são divididas conforme a participação — economia solidária em ação.', // explicação
+    dica: 'Diferença cobrada: empresa comum → voto por ação/capital; cooperativa → 1 pessoa 1 voto. E sobras ≠ lucro de acionista: retornam a quem cooperou.', // pegadinha
+    video: 'cooperativa como funciona economia solidária' // busca no YouTube
+  },
+  {
+    id: 'ad60',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Produtividade',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Duas padarias usam a mesma quantidade de farinha. A que produz mais pães de qualidade com a mesma matéria-prima tem maior:', // pergunta
+    alternativas: [                     // opções
+      'produtividade — mais resultado com os mesmos insumos', // correta
+      'faturamento bruto garantido', // opção
+      'estoque parado', // opção
+      'capital social', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Produtividade = relação produção/insumo: entregue mais (ou igual) usando menos (ou o mesmo). É diferente de lucro e de faturamento — é eficiência no uso dos recursos.', // explicação
+    dica: 'O ENEM troca produtividade por lucratividade: produtividade fala de EFICIÊNCIA (insumo → saída); lucro fala de dinheiro. Um processo pode ser produtivo e ainda dar prejuízo.', // pegadinha
+    video: 'produtividade o que é eficiência administração' // busca no YouTube
+  },
+  {
+    id: 'ad61',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Inovação',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma comunidade cria horta coletiva em terreno baldio usando garrafas PET como canteiros. Organizacionalmente, isso é exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'improvisação sem valor administrativo', // opção
+      'inovação — solução criativa com recursos disponíveis para resolver um problema real', // correta
+      'resistência à tecnologia', // opção
+      'economia de subsistência improdutiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inovar não exige tecnologia de ponta: é implementar ideia nova que gera valor (aqui, comida + ocupação do espaço) com os recursos à mão. Reutilizar PET é inovação de processo frugal.', // explicação
+    dica: 'O ENEM desmistifica inovação = high-tech. Se a alternativa liga criatividade a solução prática/barata para problema real, está no espírito da "inovação frugal".', // pegadinha
+    video: 'inovação o que é inovação frugal exemplos' // busca no YouTube
+  },
+  {
+    id: 'ct46',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Receita, despesa e saldo',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Num orçamento familiar, quando a soma das receitas do mês supera a soma das despesas, tem-se:', // pergunta
+    alternativas: [                     // opções
+      'déficit', // opção
+      'superávit — sobra que pode virar poupança ou investimento', // correta
+      'equilíbrio contábil', // opção
+      'insolvência', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Receita > despesa = superávit (sobra). Receita < despesa = déficit. Equilíbrio = iguais. Insolvência = não conseguir pagar as dívidas — estágio mais grave que o déficit.', // explicação
+    dica: 'Vale para família, empresa e governo: o ENEM usa os mesmos termos no Orçamento público (superávit primário) e na casa de qualquer um.', // pegadinha
+    video: 'superávit déficit orçamento familiar conceito' // busca no YouTube
+  },
+  {
+    id: 'ct47',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Ativo e passivo',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'No patrimônio de uma família, a "casa própria quitada" e o "financiamento a pagar do carro" são classificados, respectivamente, como:', // pergunta
+    alternativas: [                     // opções
+      'passivo e ativo', // opção
+      'ativo e passivo — bem que se tem × obrigação que se deve', // correta
+      'ambos ativos', // opção
+      'ambos passivos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ativo = bens e direitos (o que se tem ou a receber). Passivo = obrigações (o que se deve). A casa quitada é bem; o financiamento em aberto é dívida — mesmo que o carro "em uso" pareça bem, o que está registrado aqui é a obrigação.', // explicação
+    dica: 'Pegadinha comum: "carro é ativo ou passivo?" Depende do enquadramento — o bem é ativo; a dívida do financiamento é passivo. A questão separa os dois de propósito.', // pegadinha
+    video: 'ativo e passivo contabilidade diferença' // busca no YouTube
+  },
+  {
+    id: 'ct48',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Orçamento pessoal 50-30-20', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A regra de orçamento "50-30-20" sugere dividir a renda líquida em:', // pergunta
+    alternativas: [                     // opções
+      '50% dívidas, 30% lazer, 20% aluguel', // opção
+      '50% necessidades, 30% desejos/lazer, 20% poupança e quitação de dívidas', // correta
+      '50% poupança, 30% necessidades, 20% lazer', // opção
+      '50% lazer, 30% dívidas, 20% necessidades', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '50-30-20: metade para o essencial (moradia, alimentação, transporte), 30% para qualidade de vida (lazer, desejos), 20% para o futuro (reserva, investimento, amortizar dívidas).', // explicação
+    dica: 'Resposta certa segue a lógica: necessidade primeiro, lazer depois, poupança sempre. Se a alternativa coloca lazer ou dívida na maior fatia, está errada.', // pegadinha
+    video: 'regra 50 30 20 orçamento pessoal' // busca no YouTube
+  },
+  {
+    id: 'ct49',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Juros simples × compostos',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Numa dívida de cartão de crédito, os juros são compostos — ou seja:', // pergunta
+    alternativas: [                     // opções
+      'calculados apenas sobre o valor inicial, sempre', // opção
+      'incidem sobre o saldo já acrescido dos juros anteriores — "juros sobre juros"', // correta
+      'são proibidos por lei no Brasil', // opção
+      'diminuem com o tempo automaticamente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Juros compostos recalculam sobre o montante acumulado: a dívida cresce em progressão geométrica — por isso a fatura mínima do cartão vira bola de neve.', // explicação
+    dica: 'O ENEM liga isso à vida real: rotativo do cartão e cheque especial = juros compostos altíssimos. Simples = linha reta; compostos = curva que acelera.', // pegadinha
+    video: 'juros compostos cartão de crédito dívida' // busca no YouTube
+  },
+  {
+    id: 'ct50',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Fluxo de caixa',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um pequeno comerciante anota dia a dia tudo que entra e sai de dinheiro para saber se pode pagar o fornecedor no fim do mês. Esse controle é chamado de:', // pergunta
+    alternativas: [                     // opções
+      'balanço patrimonial', // opção
+      'fluxo de caixa — registro das entradas e saídas por período', // correta
+      'inventário físico', // opção
+      'escrituração fiscal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fluxo de caixa acompanha o dinheiro que efetivamente entra e sai, projetando se haverá caixa para honrar compromissos — diferente do balanço (foto do patrimônio) e da DRE (resultado do período).', // explicação
+    dica: 'Macete: fluxo de caixa fala de DINHEIRO no tempo; DRE fala de LUCRO (regime de competência — vendeu, conta, mesmo sem receber). Empresa pode ter lucro e quebrar por falta de caixa.', // pegadinha
+    video: 'fluxo de caixa o que é controle financeiro' // busca no YouTube
+  },
+  {
+    id: 'ct51',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Demonstração de resultados', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma pastelaria fatura R$ 10.000, gasta R$ 4.000 em ingredientes e R$ 3.500 em aluguel/salários. O lucro do período é:', // pergunta
+    alternativas: [                     // opções
+      'R$ 10.000', // opção
+      'R$ 6.000', // opção
+      'R$ 2.500', // correta
+      'R$ 7.500', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Lucro = receita − custos − despesas = 10.000 − 4.000 − 3.500 = R$ 2.500. Faturar não é lucrar: é preciso descontar custos (insumos) e despesas (estrutura).', // explicação
+    dica: 'Distratores clássicos: 10.000 (confunde faturamento com lucro), 6.000 (esquece as despesas fixas). Lucro = sobra depois de TUDO.', // pegadinha
+    video: 'lucro receita custo despesa diferença dre' // busca no YouTube
+  },
+  {
+    id: 'ct52',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Documentos fiscais',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A nota fiscal é documento importante porque:', // pergunta
+    alternativas: [                     // opções
+      'serve só para trocar produtos com defeito', // opção
+      'registra oficialmente a operação, garante direitos do consumidor e comprova o recolhimento de tributos', // correta
+      'é exigida apenas em lojas de luxo', // opção
+      'substitui o contrato de trabalho', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A nota fiscal formaliza a venda: prova a compra (garantia, troca pelo CDC), permite à empresa registrar receita corretamente e é base do recolhimento de impostos — sonegar é emitir sem nota.', // explicação
+    dica: 'O ENEM liga nota fiscal a cidadania tributária: "sem nota, sem garantia" e "sem nota, sonegação". A função social do documento é o recorte cobrado.', // pegadinha
+    video: 'nota fiscal para que serve consumidor tributos' // busca no YouTube
+  },
+  {
+    id: 'ct53',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Débito × crédito',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Comprar no cartão de CRÉDITO difere do débito porque:', // pergunta
+    alternativas: [                     // opções
+      'o valor sai na hora da conta corrente', // opção
+      'é um pagamento futuro — usa-se limite concedido e a fatura vence no mês seguinte', // correta
+      'não gera registro de gasto', // opção
+      'é sempre isento de juros', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Débito = dinheiro que sai na hora da conta. Crédito = empréstimo instantâneo: o banco paga agora e você paga na fatura — atrasar aciona juros compostos altíssimos (rotativo).', // explicação
+    dica: '"Isento de juros" é armadilha: só se pagar a fatura INTEGRAL até o vencimento. Pagou mínimo ou atrasou → rotativo, um dos juros mais caros do país.', // pegadinha
+    video: 'diferença débito crédito cartão rotativo' // busca no YouTube
+  },
+  {
+    id: 'ct54',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Patrimônio líquido',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'João tem casa de R$ 300 mil e carro de R$ 40 mil, mas deve R$ 90 mil de financiamento. Seu patrimônio líquido é:', // pergunta
+    alternativas: [                     // opções
+      'R$ 340.000', // opção
+      'R$ 250.000', // correta
+      'R$ 430.000', // opção
+      'R$ 90.000', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Patrimônio líquido = ativos − passivos = (300 + 40) − 90 = R$ 250 mil. É a "riqueza de verdade": o que sobraria se vendesse tudo e pagasse todas as dívidas.', // explicação
+    dica: 'O distrator 340 mil é a soma bruta dos bens — quem esquece de subtrair a dívida erra. PL é sempre bens e direitos MENOS obrigações.', // pegadinha
+    video: 'patrimônio líquido como calcular ativo passivo' // busca no YouTube
+  },
+  {
+    id: 'ct55',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Inflação e poder de compra', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Se a inflação do ano foi de 10% e sua poupança rendeu 6%, na prática seu dinheiro:', // pergunta
+    alternativas: [                     // opções
+      'cresceu 4% em poder de compra', // opção
+      'perdeu poder de compra — rendeu menos que a inflação', // correta
+      'dobrou de valor', // opção
+      'ficou exatamente igual', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rentabilidade real ≈ rendimento − inflação = 6% − 10% = −4%: o dinheiro "cresceu" no papel, mas compra menos do que comprava. Inflação é o imposto invisível.', // explicação
+    dica: 'O ENEM distingue rendimento NOMINAL de REAL: só conta o que sobra acima da inflação. Por isso guardar dinheiro "embaixo do colchão" = prejuízo certo.', // pegadinha
+    video: 'inflação poder de compra rentabilidade real' // busca no YouTube
+  },
+  {
+    id: 'k52',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Fatores sociais da violência', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os estudos de criminalidade no Brasil apontam como principal correlação da violência urbana:', // pergunta
+    alternativas: [                     // opções
+      'tamanho da população das cidades', // opção
+      'desigualdade socioeconômica e exclusão de jovens da periferia', // correta
+      'clima e temperatura das regiões', // opção
+      'quantidade de delegacias por habitante', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A literatura criminológica e os dados (Atlas da Violência) ligam a letalidade a desigualdade, pobreza, falta de acesso a educação/trabalho e presença do crime organizado — não ao "tamanho" da cidade em si.', // explicação
+    dica: 'O ENEM recusa explicações "naturais" ou simplistas: a resposta sociológica certa passa por desigualdade, exclusão e políticas públicas — nunca por "violência é genética/cultural do povo".', // pegadinha
+    video: 'violência urbana fatores sociais desigualdade' // busca no YouTube
+  },
+  {
+    id: 'k53',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Vitimização',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A "vitimização secundária" ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'a vítima é assaltada pela segunda vez', // opção
+      'instituições que deveriam acolher (polícia, hospitais, Justiça) humilham ou desacreditam a vítima, agravando o trauma', // correta
+      'o criminoso atinge mais de uma vítima', // opção
+      'a família da vítima sofre luto prolongado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vitimização primária = o crime em si; secundária = a revitimização pelo Estado/sociedade (delegado que duvida da vítima de estupro, hospital que demora, processo que expõe). O dano vem do sistema que deveria proteger.', // explicação
+    dica: 'Distinga os graus: primária (o crime), secundária (instituições traumatizam de novo), tercária (estigma social da vizinhança/mídia). A Maria da Penha criou juizados e delegacias especializadas justamente contra isso.', // pegadinha
+    video: 'vitimização primária secundária criminologia' // busca no YouTube
+  },
+  {
+    id: 'k54',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Justiça restaurativa',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A justiça restaurativa propõe, como alternativa ao modelo puramente punitivo:', // pergunta
+    alternativas: [                     // opções
+      'penas mais longas e rigorosas', // opção
+      'a reparação do dano e o diálogo entre ofensor, vítima e comunidade', // correta
+      'a eliminação de qualquer responsabilização do autor', // opção
+      'julgar crimes graves sem advogado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justiça restaurativa foca em consertar o dano: o ofensor reconhece o erro, repara a vítima (material ou simbolicamente) e a comunidade participa da reintegração — aplicada no Brasil em varas de violência doméstica e infância.', // explicação
+    dica: 'Não confunda com impunidade: a responsabilização existe, mas o fim é reparar e reintegrar, não só punir. O ENEM a coloca como resposta ao encarceramento em massa.', // pegadinha
+    video: 'justiça restaurativa o que é mediação' // busca no YouTube
+  },
+  {
+    id: 'k55',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Encarceramento em massa',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Brasil tem uma das maiores populações carcerárias do mundo. Os críticos do "encarceramento em massa" apontam como problema central:', // pergunta
+    alternativas: [                     // opções
+      'as prisões serem confortáveis demais', // opção
+      'prisões superlotadas que funcionam como "escolas do crime", presos provisórios sem condenação e reincidência alta', // correta
+      'a existência de penas alternativas', // opção
+      'o baixo custo do sistema prisional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A crítica: aprisionar em massa (incluindo presos provisórios e pequenos delitos) não reduz o crime — expõe o preso a facções, não ressocializa e produz reincidência, além de custar caro ao Estado.', // explicação
+    dica: 'O ENEM costuma apresentar a tese da "escola do crime": prisão superlotada + falta de ressocialização = agravamento, não solução. Contraponto = penas alternativas e justiça restaurativa.', // pegadinha
+    video: 'encarceramento em massa brasil sistema prisional' // busca no YouTube
+  },
+  {
+    id: 'k56',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Vitimologia',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A vitimologia é o ramo da criminologia que estuda:', // pergunta
+    alternativas: [                     // opções
+      'apenas a personalidade do criminoso', // opção
+      'a vítima, sua relação com o crime e os impactos sofridos', // correta
+      'só os crimes contra o patrimônio', // opção
+      'as técnicas de investigação forense', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vitimologia = o estudo da vítima: por que certas pessoas/grupos são mais vitimizados, relação vítima-ofensor, danos físicos/psicológicos/sociais e direitos da vítima no processo.', // explicação
+    dica: 'A banca troca os objetos: criminologia estuda o crime/criminoso; vitimologia, a VÍTIMA; medicina legal/forense, a prova do corpo de delito. Cada um tem seu objeto.', // pegadinha
+    video: 'vitimologia o que estuda criminologia' // busca no YouTube
+  },
+  {
+    id: 'k57',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Prevenção do crime',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A prevenção PRIMÁRIA da criminalidade é aquela que atua:', // pergunta
+    alternativas: [                     // opções
+      'punindo rigorosamente os condenados', // opção
+      'antes do crime — escola de qualidade, lazer, iluminação pública e oportunidades para jovens', // correta
+      'monitorando apenas os já condenados', // opção
+      'aumentando o efetivo de prisões', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prevenção primária age nas causas (educação, esporte, urbanização, emprego); secundária foca em grupos/situações de risco; terciária evita a reincidência (ressocialização).', // explicação
+    dica: 'Mnemônico da prova: 1ª = antes de todos (população); 2ª = quem já está em risco; 3ª = quem já cometeu. Punir = repressão, não prevenção primária.', // pegadinha
+    video: 'prevenção primária secundária terciária crime' // busca no YouTube
+  },
+  {
+    id: 'k58',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Violência doméstica',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A violência doméstica contra a mulher é considerada um problema de saúde pública e segurança porque:', // pergunta
+    alternativas: [                     // opções
+      'ocorre só em famílias de baixa renda', // opção
+      'é crime que atravessa classes sociais, com ciclo de violência que exige resposta do Estado (medidas protetivas, delegacias especializadas)', // correta
+      'deve ser resolvida apenas dentro de casa', // opção
+      'só configura crime quando há lesão física grave', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A violência doméstica inclui física, psicológica, moral, sexual e patrimonial — atinge todas as classes e exige rede de proteção: a Lei Maria da Penha (11.340/2006) criou medidas protetivas e juizados especializados.', // explicação
+    dica: 'Duas armadilhas: "só lesão física é crime" (as 5 formas da Lei Maria da Penha contam) e "é assunto privado" — é exatamente contra essa cultura que a lei existe.', // pegadinha
+    video: 'violência doméstica lei maria da penha tipos' // busca no YouTube
+  },
+  {
+    id: 'k59',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Crime e mídia',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Programas policialescos que exploram crimes violentos o dia inteiro produzem, segundo pesquisas:', // pergunta
+    alternativas: [                     // opções
+      'redução real da criminalidade', // opção
+      'sensação de insegurança maior que a realidade estatística e apoio a políticas puramente punitivas', // correta
+      'maior confiança da população na polícia', // opção
+      'informação qualificada sobre o sistema de justiça', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sensacionalismo midiático amplifica a percepção de risco (moral panic): quem assiste mais acha que o crime é maior do que os dados mostram — e isso empurra apoio a "soluções" de mais prisão e violência policial.', // explicação
+    dica: 'O ENEM cobra a crítica midiática: mídia espetaculariza o crime (entretenimento), distorce a estatística e pressiona por punitivismo em vez de prevenção.', // pegadinha
+    video: 'mídia e violência sensacionalismo pânico moral' // busca no YouTube
+  },
+  {
+    id: 'k60',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Reincidência',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os programas de ressocialização (trabalho e estudo dentro e fora da prisão) são defendidos porque:', // pergunta
+    alternativas: [                     // opções
+      'aumentam a arrecadação do Estado', // opção
+      'reduzem a reincidência — quem sai com qualificação e vínculo tem menos chance de reincidir', // correta
+      'eliminam a necessidade de tribunais', // opção
+      'servem só para crimes de colarinho branco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A evidência é que preso que estuda e trabalha dentro do sistema volta a delinquir menos: a pena sem ressocialização produz o ciclo prisão → crime → prisão.', // explicação
+    dica: 'No Brasil, trabalho e estudo na prisão também remem (reduzem) a pena — 3 dias de trabalho ou estudo = 1 dia a menos. O argumento do ENEM é sempre o da redução da reincidência.', // pegadinha
+    video: 'ressocialização reincidência sistema prisional' // busca no YouTube
+  },
+  {
+    id: 'k61',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Feminicídio',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O feminicídio — homicídio da mulher por razões da condição de sexo feminino — tornou-se crime qualificado no Brasil para:', // pergunta
+    alternativas: [                     // opções
+      'aumentar a pena de todos os homicídios', // opção
+      'dar nome e gravidade próprios à morte motivada por misoginia, permitindo políticas e estatísticas específicas', // correta
+      'reduzir processos por homicídio comum', // opção
+      'punir crimes de honra do passado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei 13.104/2015 incluiu o feminicídio como qualificadora do homicídio e crime hediondo: o objetivo é visibilizar a motivação de gênero (controle, ciúme, "punir" a mulher) e orientar prevenção.', // explicação
+    dica: 'Homicídio "comum" vs feminicídio: a diferença está na MOTIVAÇÃO (razões da condição de mulher). Tipificar permitiu medir o fenômeno — antes, sumia nas estatísticas gerais.', // pegadinha
+    video: 'feminicídio lei 13.104 motivação gênero' // busca no YouTube
+  },
+  {
+    id: 'a42',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Impessoalidade',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um prefeito coloca sua foto gigante em outdoors anunciando obras da prefeitura como "realização minha". O princípio ferido é o da:', // pergunta
+    alternativas: [                     // opções
+      'legalidade', // opção
+      'impessoalidade — a obra é do Estado, não do gestor que a promove', // correta
+      'moralidade', // opção
+      'eficiência', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A impessoalidade veda a promoção pessoal do agente: a obra é da Administração, paga com dinheiro público — não é favor nem feito do prefeito. Publicidade institucional não pode virar propaganda eleitoral.', // explicação
+    dica: 'Pegadinha comum: "publicidade do ato" ≠ "promoção da pessoa". Informar a obra = dever de transparência; usar a obra para se promover = violação da impessoalidade.', // pegadinha
+    video: 'princípio da impessoalidade administração promoção pessoal' // busca no YouTube
+  },
+  {
+    id: 'a43',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Publicidade e transparência', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Portal da Transparência, que mostra quanto o governo gasta e com quem, existe para:', // pergunta
+    alternativas: [                     // opções
+      'cobrir multas de moradores', // opção
+      'permitir o controle social dos gastos públicos pela população', // correta
+      'substituir o orçamento aprovado pela Câmara', // opção
+      'divulgar propaganda do governo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O princípio da publicidade exige que os atos públicos sejam divulgados — salvo sigilo legal (ex.: segurança de dados pessoais). Transparência permite fiscalização e é ferramenta anticorrupção.', // explicação
+    dica: 'Publicidade ≠ propaganda: publicar gastos é obrigação; usar o portal para se gabar é propaganda, vedada pela impessoalidade. A transparência serve ao cidadão, não ao gestor.', // pegadinha
+    video: 'portal da transparência controle social gastos públicos' // busca no YouTube
+  },
+  {
+    id: 'a44',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Licitação e isonomia',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A prefeitura precisa contratar uma obra e abre disputa pública em que qualquer empresa apta pode participar em igualdade. Essa regra existe para:', // pergunta
+    alternativas: [                     // opções
+      'aumentar o preço da obra', // opção
+      'garantir igualdade de condições e a proposta mais vantajosa para o interesse público', // correta
+      'dar preferência à empresa do prefeito', // opção
+      'dispensar a análise técnica da proposta', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A licitação materializa os princípios da isonomia e da impessoalidade: todos competem em pé de igualdade e vence quem oferece melhor proposta (menor preço, melhor técnica ou ambos) — evita favorecimento e superfaturamento.', // explicação
+    dica: 'O ENEM liga licitação a probidade: direcionar a disputa para "amigo do rei" viola isonomia e moralidade. Exceções legais (dispensa, inexigibilidade) existem, mas são a regra ao contrário.', // pegadinha
+    video: 'licitação isonomia princípios concurso obras' // busca no YouTube
+  },
+  {
+    id: 'a45',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Concurso público',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O concurso público é a regra para acessar cargos efetivos no serviço público porque:', // pergunta
+    alternativas: [                     // opções
+      'é mais barato que contratar por indicação', // opção
+      'garante igualdade de acesso pelo mérito, conforme a Constituição (art. 37)', // correta
+      'permite trocar servidores a cada eleição', // opção
+      'acelera o preenchimento de cargos de confiança', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 37, II da CF exige aprovação em concurso para cargo efetivo — materializa a isonomia: entra quem demonstra mérito, não quem tem padrinho político. Cargos de confiança (livre exoneração) são exceção para direção/assessoramento.', // explicação
+    dica: 'Confusão típica: cargo efetivo ≠ cargo em comissão/confiança. Efetivo pede concurso; comissão é nomeação livre para funções de chefia — não pode virar "cabide de empregos".', // pegadinha
+    video: 'concurso público isonomia artigo 37 constituição' // busca no YouTube
+  },
+  {
+    id: 'a46',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Serviços públicos essenciais', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Água encanada, saneamento e saúde de urgência são serviços públicos essenciais. Isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'o Estado pode interrompê-los quando quiser', // opção
+      'a prestação deve ser contínua — não podem parar, mesmo quando delegados a concessionárias privadas', // correta
+      'são sempre gratuitos para todos', // opção
+      'só empresas privadas podem prestá-los', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Serviço essencial exige continuidade, regularidade e acesso universal: a interrupção fere direitos básicos. O Estado pode delegar a execução (concessão), mas responde pela qualidade — controle tarifário e obrigações do contrato.', // explicação
+    dica: 'Gratuidade ≠ essencialidade: água é essencial e cobrada (com tarifa social para pobres). Essencialidade = não pode faltar; gratuidade = não pode cobrar. Nem sempre juntas.', // pegadinha
+    video: 'serviços públicos essenciais concessão continuidade' // busca no YouTube
+  },
+  {
+    id: 'a47',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Moralidade administrativa',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um servidor desvia material do posto de saúde para uso próprio. Mesmo que a lei não liste esse desvio específico como infração, ele viola o princípio da:', // pergunta
+    alternativas: [                     // opções
+      'legalidade — pois toda ação precisa de lei específica', // opção
+      'moralidade — honestidade e boa-fé exigidas do agente público', // correta
+      'eficiência — gastar mais rápido', // opção
+      'publicidade — divulgar os atos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moralidade administrativa = agir com lealdade e ética além do texto da lei: não basta "não ser crime", é preciso conduta compatível com a função pública. Desvio de material público viola moralidade mesmo fora de um tipo penal específico.', // explicação
+    dica: 'A banca diferencia legalidade (fazer só o que a lei permite) de moralidade (agir com honestidade e lealdade). Os dois são pilares — uma coisa não substitui a outra.', // pegadinha
+    video: 'moralidade administrativa princípio legalidade' // busca no YouTube
+  },
+  {
+    id: 'a48',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Supremacia do interesse público', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Estado pode desapropriar um imóvel para construir um hospital, pagando justa indenização ao dono. Esse poder decorre da:', // pergunta
+    alternativas: [                     // opções
+      'autotutela — julgar a própria ação', // opção
+      'supremacia do interesse público — o coletivo prevalece sobre o privado, dentro da lei', // correta
+      'liberdade contratual', // opção
+      'inércia do Judiciário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A supremacia do interesse público é o princípio que justifica prerrogativas do Estado (desapropriação, poder de polícia, requisição) — sempre limitado pela lei, pelo devido processo e pela justa compensação.', // explicação
+    dica: 'Supremacia NÃO é arbitrariedade: o interesse público prevalece, mas com freios legais (indenização, motivação, contraditório). A banca troca "supremacia" por "absolutismo" como distrator.', // pegadinha
+    video: 'supremacia interesse público desapropriação' // busca no YouTube
+  },
+  {
+    id: 'a49',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Controle social e ouvidorias', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'As ouvidorias públicas e conselhos gestores (saúde, assistência) existem para:', // pergunta
+    alternativas: [                     // opções
+      'substituir o voto nas eleições', // opção
+      'canalizar a participação do cidadão no controle e na melhoria das políticas públicas', // correta
+      'nomear cargos de confiança', // opção
+      'julgar crimes do funcionalismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Controle social = participação direta do cidadão na gestão: ouvidorias recebem reclamações e sugestões, conselhos deliberam sobre políticas — mecanismo de democracia participativa previsto na CF (art. 37, §3º e outros).', // explicação
+    dica: 'Diferencie: controle interno (o próprio órgão fiscaliza), controle externo (Legislativo/Tribunal de Contas) e controle social (cidadão participa). A ouvidoria é ferramenta do social.', // pegadinha
+    video: 'controle social ouvidoria participação cidadão' // busca no YouTube
+  },
+  {
+    id: 'a50',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Eficiência e desburocratização', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O aplicativo gov.br, que reúne serviços como CNH digital e assinatura eletrônica, materializa o princípio da:', // pergunta
+    alternativas: [                     // opções
+      'hierarquia', // opção
+      'eficiência — mais serviço ao cidadão com menos burocracia e custo', // correta
+      'centralização administrativa', // opção
+      'reserva legal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A eficiência (incluída no art. 37 pela EC 19/1998) busca otimizar o uso dos recursos públicos: digitalizar reduz fila, papel e deslocamento — desburocratização orientada ao usuário.', // explicação
+    dica: 'Eficiência ≠ só "economizar": inclui qualidade do serviço, rapidez e acesso. Uma fila digital mais justa é eficiência — e o ENEM trata isso como inclusão cidadã.', // pegadinha
+    video: 'princípio da eficiência desburocratização gov.br' // busca no YouTube
+  },
+  {
+    id: 'a51',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poder de polícia',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A vigilância sanitária fecha um restaurante com cozinha em condições insalubres. Essa atuação do Estado é exercício do:', // pergunta
+    alternativas: [                     // opções
+      'poder legislativo', // opção
+      'poder de polícia — limitar direitos individuais em prol do interesse coletivo', // correta
+      'poder judiciário', // opção
+      'poder moderador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Poder de polícia administrativa = restringir atividades privadas (fechar restaurante insalubre, fiscalizar obra, impor norma de trânsito) para proteger saúde, segurança e ordem coletivas — poder típico da Administração.', // explicação
+    dica: 'Não confunda com polícia militar/judiciária: "polícia" aqui é função administrativa de fiscalização (vigilância sanitária, CREA, DETRAN), não investigação criminal.', // pegadinha
+    video: 'poder de polícia administrativo vigilância sanitária' // busca no YouTube
+  },
+  {
+    id: 'c45',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos fundamentais',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Os direitos fundamentais da Constituição de 1988 são chamados de "cláusulas pétreas" porque:', // pergunta
+    alternativas: [                     // opções
+      'podem ser alterados por lei simples', // opção
+      'não podem ser abolidos nem por emenda constitucional', // correta
+      'só valem para cidadãos maiores de idade', // opção
+      'dependem de decreto do presidente para existir', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 60, §4º: nenhuma emenda pode abolir direitos e garantias individuais, o voto (direto, secreto, universal, periódico), a separação de poderes e o federalismo — núcleo imutável da Constituição.', // explicação
+    dica: '"Imutável" não é absoluto: pode-se EMENDAR para ampliar direitos, só não para aboli-los. A banca adora a sutil diferença "não podem ser abolidos" × "não podem ser alterados".', // pegadinha
+    video: 'cláusulas pétreas direitos fundamentais artigo 60' // busca no YouTube
+  },
+  {
+    id: 'c46',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Voto e cidadania',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'No Brasil, o voto é obrigatório para a maioria, mas facultativo para:', // pergunta
+    alternativas: [                     // opções
+      'todos os universitários', // opção
+      '16 e 17 anos, maiores de 70 e analfabetos', // correta
+      'funcionários públicos', // opção
+      'moradores de capitais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 14: voto facultativo para analfabetos, maiores de 70 anos e jovens de 16/17 anos. Obrigatório dos 18 aos 70 para os demais — alistamento aos 16 é possível.', // explicação
+    dica: 'A banca inverte: "obrigatório a partir de 16" é a pegadinha. Marque: alistar aos 16 = pode; votar aos 18 = deve. Obrigatório ≠ facultativo.', // pegadinha
+    video: 'voto obrigatório facultativo constituição 16 anos' // busca no YouTube
+  },
+  {
+    id: 'c47',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Liberdade de expressão',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A liberdade de expressão no Brasil encontra limites quando:', // pergunta
+    alternativas: [                     // opções
+      'alguém se sente ofendido com qualquer opinião', // opção
+      'o discurso incita crimes (racismo, violência) ou viola direitos de terceiros (honra, privacidade) — aí entra a responsabilização', // correta
+      'o governo discorda do conteúdo', // opção
+      'o conteúdo é impopular nas redes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Liberdade de expressão é direito fundamental, mas não absoluto: o próprio art. 5º veda anonimato e prevê responsabilidade por dano. Racismo é crime inafiançável; discurso de ódio e calúnia/difamação têm consequências.', // explicação
+    dica: 'O ENEM testa o equilíbrio: nem "tudo pode" (impunidade) nem "tudo censurável" (autoritarismo). Incitação a crime e discurso de ódio cruzam a linha legal; opinião impopular, não.', // pegadinha
+    video: 'liberdade de expressão limites discurso de ódio' // busca no YouTube
+  },
+  {
+    id: 'c48',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Igualdade formal × material', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'As cotas raciais na universidade são defensáveis constitucionalmente porque a igualdade pode exigir:', // pergunta
+    alternativas: [                     // opções
+      'tratar todos exatamente igual, sem qualquer distinção', // opção
+      'tratar desigualmente os desiguais na medida de suas desigualdades — ações afirmativas para corrigir desvantagem histórica', // correta
+      'beneficiar sempre os mais ricos para compensar impostos', // opção
+      'aplicar privilégios permanentes e hereditários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aristóteles → Rui Barbosa: igualdade material = tratar diferente para nivelar. Cotas são ação afirmativa temporária para corrigir a exclusão histórica — o STF as declarou constitucionais (Lei 12.711/2012).', // explicação
+    dica: 'A banca troca "igualdade" por "mesmice": igualdade formal = lei igual para todos no papel; material = medidas para alcançar equidade real. Cotas são o exemplo clássico.', // pegadinha
+    video: 'igualdade formal material cotas ação afirmativa' // busca no YouTube
+  },
+  {
+    id: 'c49',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Separação de poderes',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Executivo propõe, o Legislativo aprova e o Judiciário julga — e cada um fiscaliza o outro. Esse desenho institucional é o sistema de:', // pergunta
+    alternativas: [                     // opções
+      'voto de lista', // opção
+      'freios e contrapesos (checks and balances)', // correta
+      'mandato imperativo', // opção
+      'federalismo fiscal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Freios e contrapesos = nenhum poder é absoluto: o Executivo veta leis, o Legislativo derruba vetos e aprova contas, o Judiciário declara inconstitucionalidade. Independência + controle mútuo.', // explicação
+    dica: 'O ENEM distingue separação (cada um com sua função) de freios e contrapesos (cada um limita o outro). Juntos, evitam a concentração de poder — legado de Montesquieu.', // pegadinha
+    video: 'separação de poderes freios contrapesos' // busca no YouTube
+  },
+  {
+    id: 'c50',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos sociais',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O art. 6º da Constituição lista educação, saúde, trabalho, moradia e segurança como direitos sociais. Isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'são apenas sugestões de política pública', // opção
+      'o Estado tem o dever de prover esses serviços e o cidadão pode exigir judicialmente', // correta
+      'dependem da vontade do prefeito da cidade', // opção
+      'só valem para quem paga imposto de renda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Direitos sociais são direitos fundamentais de segunda dimensão: geram dever estatal de prestar (escola, hospital, saneamento) e podem ser cobrados em juízo — não são mera recomendação.', // explicação
+    dica: '"Só sugestão" é o distrator favorito: direito social cria obrigação do Estado. A limitação real é a "reserva do possível" (o que o orçamento permite) — não a vontade política.', // pegadinha
+    video: 'direitos sociais artigo 6 constituição saúde educação' // busca no YouTube
+  },
+  {
+    id: 'c51',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Habeas corpus',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Uma pessoa presa sem flagrante e sem ordem judicial válida pode pedir, para recuperar a liberdade:', // pergunta
+    alternativas: [                     // opções
+      'mandado de segurança', // opção
+      'habeas corpus — proteção contra prisão ilegal', // correta
+      'habeas data', // opção
+      'mandado de injunção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Habeas corpus = remédio contra violação de liberdade de locomoção (prisão ilegal, ameaça de prisão). Qualquer pessoa pode impetrar — é gratuito e rápido por natureza.', // explicação
+    dica: 'Remédios constitucionais confundidos: habeas corpus (liberdade de ir e vir), habeas data (acesso a dados seus), mandado de segurança (direito certo contra ilegalidade), injunção (falta de norma que impeça direito).', // pegadinha
+    video: 'habeas corpus o que é prisão ilegal' // busca no YouTube
+  },
+  {
+    id: 'c52',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Nacionalidade',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O filho de brasileiros que nasce no exterior é:', // pergunta
+    alternativas: [                     // opções
+      'estrangeiro até se naturalizar', // opção
+      'brasileiro nato se for registrado em consulado ou vier residir no Brasil', // correta
+      'apátrida — sem nacionalidade', // opção
+      'brasileiro naturalizado automaticamente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 12: brasileiro nato é quem nasce no Brasil (ius soli, salvo filho de estrangeiro a serviço de seu país) e o filho de brasileiro no exterior registrado no consulado ou que venha residir no Brasil (ius sanguinis).', // explicação
+    dica: 'Nato × naturalizado: nato não perde a nacionalidade; naturalizado pode perdê-la em hipóteses específicas. Filho de brasileiro no exterior precisa de registro ou residência — não é automático.', // pegadinha
+    video: 'nacionalidade brasileiro nato ius soli sanguinis' // busca no YouTube
+  },
+  {
+    id: 'c53',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Estado laico',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Brasil é um Estado laico. Isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'é proibido ter religião no país', // opção
+      'o Estado não adota religião oficial, garante liberdade de culto e protege todos os credos igualmente', // correta
+      'as escolas públicas devem ensinar uma religião', // opção
+      'o presidente precisa ser de uma fé específica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Laicidade = separação institucional entre Estado e religião: o Estado é neutro e garante a liberdade de crença, culto e organização religiosa — inclusive para quem não tem religião.', // explicação
+    dica: 'Laico ≠ ateu: o Estado não impõe nem proíbe fé; garante pluralidade. Distratores confundem "Estado laico" com "Estado contra a religião" — é "neutro entre elas".', // pegadinha
+    video: 'estado laico liberdade religiosa constituição' // busca no YouTube
+  },
+  {
+    id: 'c54',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Participação popular',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Plebiscito, referendo e iniciativa popular são mecanismos de:', // pergunta
+    alternativas: [                     // opções
+      'democracia representativa apenas', // opção
+      'democracia semidireta — o povo decide diretamente em temas específicos', // correta
+      'poder moderador do Executivo', // opção
+      'controle dos partidos políticos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CF combina representação (votar em deputados) com participação direta: plebiscito e referendo (consulta popular sobre ato legislativo/administrativo) e iniciativa popular (o povo propõe lei com assinaturas).', // explicação
+    dica: 'Plebiscito × referendo: plebiscito = consulta ANTES (sobre uma proposta/ato a criar); referendo = ratifica DEPOIS (aprova ou rejeita lei já feita). A ordem cronológica é a diferença cobrada.', // pegadinha
+    video: 'plebiscito referendo iniciativa popular diferença' // busca no YouTube
+  },
+  {
+    id: 'd51',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Maioridade penal',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'No Brasil, a maioridade penal é aos 18 anos. Quem comete ato infracional antes disso responde por:', // pergunta
+    alternativas: [                     // opções
+      'crime, podendo ser preso em presídio comum', // opção
+      'ato infracional, sujeito a medidas socioeducativas (internação, liberdade assistida) — regime do ECA, não prisão comum', // correta
+      'multa administrativa apenas', // opção
+      'nada — menor é sempre inimputável e solto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ECA trata atos de menores como "infracionais" (não crimes): aplicam-se medidas socioeducativas (internação em regime próprio, até 3 anos, máx. aos 21). Reduzir a maioridade penal exigiria PEC e enfrenta o debate da cláusula pétrea.', // explicação
+    dica: 'Distração mortal: "menor comete crime" está tecnicamente errado — o nome jurídico é ATO INFRACIONAL. E a resposta é socioeducativa, não impunidade.', // pegadinha
+    video: 'maioridade penal 18 anos eca ato infracional' // busca no YouTube
+  },
+  {
+    id: 'd52',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Legítima defesa',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Reagir a uma agressão injusta, atual e iminente, com meios moderados, configura legítima defesa quando:', // pergunta
+    alternativas: [                     // opções
+      'a agressão já terminou há dias e a vítima vai atrás para revidar', // opção
+      'a reação é proporcional à agressão em curso e visa repeli-la — exclui o crime', // correta
+      'o agressor é mais fraco fisicamente', // opção
+      'a defesa usa qualquer meio disponível, mesmo desproporcional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Legítima defesa (art. 25 CP) exige: agressão injusta + atual ou iminente + reação moderada/proporcional + repelir o ataque. Se a agressão acabou, é vingança — crime. Excesso de defesa pode punir.', // explicação
+    dica: 'Palavras-chave cobradas: "atual ou iminente" (não passada nem futura distante) e "moderadamente" (proporcional). Defesa após o fim da agressão vira revide — não legítima defesa.', // pegadinha
+    video: 'legítima defesa requisitos artigo 25 código penal' // busca no YouTube
+  },
+  {
+    id: 'd53',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Penas alternativas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Penas alternativas à prisão (prestação de serviços à comunidade, limitação de fim de semana) existem para:', // pergunta
+    alternativas: [                     // opções
+      'aumentar a população carcerária', // opção
+      'ressocializar sem o dano do encarceramento, para crimes menos graves', // correta
+      'punir mais severamente os ricos', // opção
+      'eliminar qualquer consequência do crime', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As penas alternativas (Lei 9.714/1998) substituem a privativa de liberdade em delitos leves/primários: prestam-se à comunidade, limita-se o fim de semana — preserva vínculos sociais e reduz reincidência.', // explicação
+    dica: 'Não é impunidade: a pena existe, só muda a forma. E o benefício depende de requisitos (pena ≤ 4 anos, crime sem violência, não reincidente) — critérios que a banca troca.', // pegadinha
+    video: 'penas alternativas prestação serviços comunidade' // busca no YouTube
+  },
+  {
+    id: 'd54',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes cibernéticos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Invasão de dispositivo informático para obter dados é crime previsto na chamada:', // pergunta
+    alternativas: [                     // opções
+      'Lei Carolina Dieckmann (12.737/2012)', // correta
+      'Lei Maria da Penha', // opção
+      'Lei de Drogas', // opção
+      'Lei de Execução Penal', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A Lei Carolina Dieckmann (2012) tipificou a invasão de dispositivo informático no art. 154-A do CP — nome da atriz cujas fotos foram roubadas de seu computador.', // explicação
+    dica: 'Crimes digitais têm "lei com nome de gente": Carolina Dieckmann (invasão), Rosa Weber (divulgação de cena íntima com consentimento/falsa), João e várias outras — a banca cobra a associação.', // pegadinha
+    video: 'lei carolina dieckmann crime informático invasão' // busca no YouTube
+  },
+  {
+    id: 'd55',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Roubo × furto',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A diferença entre furto e roubo está no:', // pergunta
+    alternativas: [                     // opções
+      'valor da coisa subtraída', // opção
+      'uso de violência ou grave ameaça — furto é subtração sem violência; roubo, com violência/ameaça à pessoa', // correta
+      'horário do crime', // opção
+      'tipo de objeto levado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Furto (art. 155): subtrair coisa móvel alheia sem violência à pessoa. Roubo (art. 157): subtrair com violência ou grave ameaça — daí pena muito maior. Estelionato usa fraude, sem violência nem subtração direta.', // explicação
+    dica: 'Macete: furto = pega sem a pessoa resistir (bolso, casa vazia); roubo = confronta a vítima. "Arrombou a casa de dia e levou" = furto qualificado, não roubo (se não havia ninguém).', // pegadinha
+    video: 'roubo furto diferença violência grave ameaça' // busca no YouTube
+  },
+  {
+    id: 'd56',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Culpabilidade',              // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A culpabilidade penal é afastada (o agente não pode ser punido) quando, no momento do fato, ele era:', // pergunta
+    alternativas: [                     // opções
+      'maior de 21 anos', // opção
+      'inimputável — doente mental ou menor de idade, sem plena capacidade de entender o ilícito', // correta
+      'desempregado há mais de 1 ano', // opção
+      'analfabeto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inimputáveis (art. 26 CP): doente mental/deficiente sem capacidade de entender o ilícito e menores de 18 (que respondem pelo ECA). Embriaguez acidental total também pode excluir — a dolosa, não.', // explicação
+    dica: 'Imputável = pode ser responsabilizado; inimputável = não (internação/sanção educativa). A banca troca: bêbado que escolheu beber É imputável (embriaguez voluntária); doente mental comprovado, não.', // pegadinha
+    video: 'inimputabilidade culpabilidade código penal' // busca no YouTube
+  },
+  {
+    id: 'd57',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Dosimetria da pena',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Ao fixar a pena, o juiz deve considerar circunstâncias judiciais como:', // pergunta
+    alternativas: [                     // opções
+      'o salário da vítima', // opção
+      'culpabilidade, antecedentes, conduta social, personalidade, motivos e consequências do crime', // correta
+      'a opinião da mídia sobre o caso', // opção
+      'apenas o tempo decorrido desde o fato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A 1ª fase da dosimetria (art. 59 CP) considera: culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias e consequências do crime + comportamento da vítima — tudo para individualizar a pena.', // explicação
+    dica: 'Decore os 8 fatores do art. 59 — a banca troca um por algo externo (mídia, pressão popular, riqueza). Reincidência entra como agravante depois, não na 1ª fase.', // pegadinha
+    video: 'dosimetria da pena artigo 59 circunstâncias judiciais' // busca no YouTube
+  },
+  {
+    id: 'd58',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Lei de Drogas — usuário × traficante', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na Lei 11.343/2006, quem porta droga para consumo pessoal é tratado, em regra, como:', // pergunta
+    alternativas: [                     // opções
+      'traficante — prisão de 5 a 15 anos', // opção
+      'usuário — sem pena de prisão; advertência, serviços comunitários ou medida educativa', // correta
+      'inimputável — nenhuma consequência', // opção
+      'culpado de crime hediondo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O usuário (art. 28) não vai para a cadeia: penas alternativas. O traficante (art. 33) tem pena de 5 a 15 anos. O critério legal para distinguir é a finalidade (consumo × comércio) — não a quantidade isolada.', // explicação
+    dica: 'A controvérsia real: a lei não fixa quantidade limite, então a distinção fica subjetiva — criticada por gerar encarceramento desigual (usuário pobre tratado como traficante).', // pegadinha
+    video: 'lei de drogas usuário traficante artigo 28 33' // busca no YouTube
+  },
+  {
+    id: 'd59',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Feminicídio (tipificação)',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O homicídio da mulher "por razões da condição do sexo feminino" é classificado no CP como:', // pergunta
+    alternativas: [                     // opções
+      'homicídio simples', // opção
+      'homicídio qualificado — feminicídio, também hediondo', // correta
+      'lesão corporal seguida de morte', // opção
+      'crime culposo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 121, §2º-A CP (Lei 13.104/2015): feminicídio qualifica o homicídio quando envolve violência doméstica, menosprezo/discriminação à condição de mulher — e é hediondo (pena maior, sem fiança).', // explicação
+    dica: 'Qualificadora ≠ tipo novo autônomo: feminicídio É homicídio qualificado, não crime separado. Situações: na família/domésticas OU por menosprezo à condição de mulher.', // pegadinha
+    video: 'feminicídio qualificadora homicídio código penal' // busca no YouTube
+  },
+  {
+    id: 'd60',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Presunção de inocência',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A presunção de inocência (art. 5º, LVII) garante que:', // pergunta
+    alternativas: [                     // opções
+      'ninguém pode ser investigado sem prova', // opção
+      'ninguém é considerado culpado até o trânsito em julgado de sentença penal condenatória', // correta
+      'o acusado não pode ser preso em hipótese alguma', // opção
+      'a polícia não pode ouvir testemunhas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ninguém é "culpado" antes do trânsito em julgado — decisão definitiva, sem mais recursos. Prisões cautelares (flagrante, preventiva, temporária) são possíveis antes, mas não significam culpa.', // explicação
+    dica: 'Trânsito em julgado ≠ condenação de 1ª instância: só quando acabam TODOS os recursos. O ENEM explora a diferença — "condenado" no júri ainda não é "culpado" definitivo.', // pegadinha
+    video: 'presunção de inocência trânsito em julgado' // busca no YouTube
+  },
+  {
+    id: 'v39',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Função social da previdência', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A previdência social (INSS) existe no Brasil, fundamentalmente, para:', // pergunta
+    alternativas: [                     // opções
+      'arrecadar impostos para obras públicas', // opção
+      'proteger o trabalhador e sua família quando ele não pode trabalhar (velhice, doença, invalidez, morte)', // correta
+      'financiar campanhas eleitorais', // opção
+      'controlar a inflação do país', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A previdência é seguro social obrigatório: quem contribui recebe proteção nas perdas de capacidade de trabalho — aposentadorias, auxílios, pensão por morte, salário-maternidade. Solidariedade intergeracional: quem trabalha financia quem está aposentado.', // explicação
+    dica: 'Previdência ≠ assistência: previdência exige CONTRIBUIÇÃO; assistência (BPC/LOAS) é gratuita para quem precisa sem ter contribuído. A banca troca os dois.', // pegadinha
+    video: 'previdência social inss para que serve' // busca no YouTube
+  },
+  {
+    id: 'v40',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Reforma da Previdência 2019', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A principal mudança trazida pela Emenda Constitucional 103/2019 (reforma da Previdência) foi:', // pergunta
+    alternativas: [                     // opções
+      'acabar com a aposentadoria por idade', // opção
+      'instituir idade mínima obrigatória (62 mulher / 65 homem) e acabar com a aposentadoria só por tempo de contribuição', // correta
+      'liberar aposentadoria aos 50 anos', // opção
+      'transferir o INSS para bancos privados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A reforma de 2019 criou idade mínima progressiva/permanente: 62 mulheres e 65 homens + tempo mínimo de contribuição — acabou a aposentadoria só por tempo de contribuição para quem entrou depois.', // explicação
+    dica: 'Antes da reforma dava para aposentar sem idade mínima (só tempo de contribuição + fator). Depois: idade + tempo. O ENEM cobra a mudança de paradigma.', // pegadinha
+    video: 'reforma da previdência 2019 idade mínima' // busca no YouTube
+  },
+  {
+    id: 'v41',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'BPC/LOAS',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um idoso de 68 anos, pobre e que nunca contribuiu ao INSS, pode receber 1 salário mínimo pelo:', // pergunta
+    alternativas: [                     // opções
+      'aposentadoria por idade', // opção
+      'BPC/LOAS — benefício assistencial que não exige contribuição', // correta
+      'seguro-desemprego', // opção
+      'abono salarial', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BPC (Benefício de Prestação Continuada, LOAS) = assistencial: 1 SM/mês para idoso 65+ ou pessoa com deficiência de família de baixa renda — sem ter contribuído. Diferente da aposentadoria, que exige carência.', // explicação
+    dica: 'Critério de renda: família com renda per capita < 1/4 do SM (podendo flexibilizar judicialmente). BPC não tem 13º e não gera pensão — é assistência, não previdência.', // pegadinha
+    video: 'bpc loas benefício assistencial idoso' // busca no YouTube
+  },
+  {
+    id: 'v42',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Tipos de segurado',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A dona de casa que quer se aposentar pelo INSS deve contribuir como:', // pergunta
+    alternativas: [                     // opções
+      'segurado empregado — vínculo obrigatório', // opção
+      'segurado facultativo — contribui voluntariamente por alíquota sobre o salário escolhido', // correta
+      'segurado especial rural', // opção
+      'dependente — não precisa contribuir', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Facultativo = quem não tem vínculo obrigatório e escolhe pagar (dona de casa, estudante, desempregado): alíquota de 20% sobre o salário de contribuição ou plano simplificado (~11%/5% conforme renda).', // explicação
+    dica: 'Categorias que a banca embaralha: empregado (obrigatório pelo vínculo), contribuinte individual (autônomo), especial rural (produção familiar), facultativo (voluntário) e dependente (cônjuge/filhos — beneficiário, não paga).', // pegadinha
+    video: 'segurado facultativo inss como contribuir' // busca no YouTube
+  },
+  {
+    id: 'v43',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Auxílio por incapacidade',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um trabalhador doente que precisa se afastar por mais de 15 dias tem direito ao:', // pergunta
+    alternativas: [                     // opções
+      'seguro-desemprego', // opção
+      'auxílio por incapacidade temporária (antigo auxílio-doença) — desde que tenha qualidade de segurado e carência de 12 contribuições', // correta
+      'salário-maternidade', // opção
+      'abono do PIS', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A incapacidade temporária (não definitiva) para o trabalho dá auxílio por incapacidade: perícia médica do INSS + carência de 12 contribuições (há exceções: acidente de trabalho e doenças graves listadas não exigem carência).', // explicação
+    dica: 'Auxílio por incapacidade TEMPORÁRIA (auxílio-doença) ≠ aposentadoria por incapacidade PERMANENTE (invalidez). E os 15 primeiros dias de afastamento são pagos pelo EMPREGADOR, não pelo INSS.', // pegadinha
+    video: 'auxílio por incapacidade inss carência 12 meses' // busca no YouTube
+  },
+  {
+    id: 'v44',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Quando um segurado do INSS morre, os dependentes (cônjuge, filhos menores ou inválidos) podem receber:', // pergunta
+    alternativas: [                     // opções
+      'auxílio-reclusão', // opção
+      'pensão por morte — benefício que substitui a renda do segurado falecido', // correta
+      'salário-maternidade', // opção
+      'seguro-desemprego', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pensão por morte = proteção dos dependentes: filhos até 21 (ou inválidos), cônjuge/companheiro com regras de tempo de união e contribuição — dividida entre dependentes e proporcional ao benefício do falecido.', // explicação
+    dica: 'Auxílio-reclusão é diferente: pagava-se aos dependentes do preso em regime fechado — reforma de 2019 restringiu muito (só baixa renda). Pensão por morte é o benefício da perda do provedor.', // pegadinha
+    video: 'pensão por morte inss dependentes regras' // busca no YouTube
+  },
+  {
+    id: 'v45',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Salário-maternidade',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O salário-maternidade pago pelo INSS cobre, em regra:', // pergunta
+    alternativas: [                     // opções
+      '60 dias', // opção
+      '120 dias (4 meses) para seguradas empregadas, contribuintes e em outras situações previstas', // correta
+      '30 dias', // opção
+      '180 dias para todos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '120 dias é a regra geral do salário-maternidade (empregada recebe do INSS via empregador; contribuinte individual/facultativa com carência de 10 contribuições). Empresa cidadã pode estender a 180.', // explicação
+    dica: 'A adoção também dá direito (adoção de criança maior não reduz o prazo). E o segurado desempregado mantém a qualidade por período de graça — detalhes que a banca cobra.', // pegadinha
+    video: 'salário maternidade inss 120 dias quem tem direito' // busca no YouTube
+  },
+  {
+    id: 'v46',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Período de graça',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um trabalhador que perde o emprego e para de contribuir ao INSS mantém a "qualidade de segurado" por:', // pergunta
+    alternativas: [                     // opções
+      'somente 30 dias', // opção
+      '12 meses em regra — período de graça que pode chegar a 36 meses em casos específicos', // correta
+      'para sempre', // opção
+      'só enquanto durar o seguro-desemprego', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Período de graça = tempo em que o segurado continua protegido sem pagar: 12 meses após a última contribuição, +12 se tiver 120 contribuições, +12 em desemprego involuntário comprovado — até 36 meses.', // explicação
+    dica: 'Carência ≠ período de graça: carência = quantas contribuições mínimas para pedir benefício; graça = quanto tempo dura a proteção depois de parar de pagar. A banca troca os conceitos.', // pegadinha
+    video: 'período de graça inss qualidade de segurado' // busca no YouTube
+  },
+  {
+    id: 'v47',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Previdência pública × privada', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A diferença entre a aposentadoria do INSS e um plano de previdência privada (PGBL/VGBL) está principalmente em:', // pergunta
+    alternativas: [                     // opções
+      'a privada ser obrigatória para todos', // opção
+      'a pública ser regime obrigatório do trabalhador (solidariedade entre gerações); a privada ser voluntária e individual (cada um poupa para si)', // correta
+      'a pública depender de sorteio', // opção
+      'a privada pagar pensão por morte automática', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'INSS = regime público obrigatório de repartição: trabalhadores ativos financiam os aposentados de hoje. Previdência privada = capitalização voluntária individual — você poupa para o próprio futuro.', // explicação
+    dica: 'Repartição × capitalização é o par cobrado: repartição = solidariedade (eu pago quem está aposentado); capitalização = poupança própria (eu acumulo para mim).', // pegadinha
+    video: 'previdência pública privada repartição capitalização' // busca no YouTube
+  },
+  {
+    id: 'v48',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regra de pontos',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A regra de pontos da aposentadoria exige que a soma da idade com o tempo de contribuição atinja uma pontuação mínima. Isso permite que:', // pergunta
+    alternativas: [                     // opções
+      'qualquer um se aposente aos 50 anos', // opção
+      'quem começou a trabalhar cedo possa se aposentar antes, somando idade + contribuição', // correta
+      'a aposentadoria deixe de existir', // opção
+      'o INSS pare de pagar benefícios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A pontuação (idade + tempo de contribuição) funciona como alternativa à idade mínima: quem contribuiu desde jovem pode alcançar a soma exigida antes dos 62/65 — equilibrando quem tem longa vida de trabalho.', // explicação
+    dica: 'A pontuação mínima sobe progressivamente (era 86/96, chega a 90/100+). É uma das regras de transição da reforma — não vale para quem entrou depois de 2019.', // pegadinha
+    video: 'regra de pontos aposentadoria como funciona' // busca no YouTube
+  },
+  {
+    id: 'tr54',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Carteira assinada e direitos', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A carteira de trabalho assinada é importante porque:', // pergunta
+    alternativas: [                     // opções
+      'serve só como documento de identidade', // opção
+      'formaliza o vínculo e garante direitos: férias, 13º, FGTS, aviso prévio e proteção contra demissão arbitrária', // correta
+      'obriga o empregado a trabalhar de graça no primeiro mês', // opção
+      'impede o empregado de pedir demissão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O registro formaliza a relação de emprego e dá acesso aos direitos da CLT + FGTS + seguro-desemprego. Trabalho informal (sem registro) priva o trabalhador dessa proteção — ainda que os direitos possam ser cobrados judicialmente.', // explicação
+    dica: 'O ENEM trata carteira assinada como conquista histórica (CLT de 1943) e recorte da informalidade — quase metade dos trabalhadores brasileiros está fora dela.', // pegadinha
+    video: 'carteira assinada direitos clt vínculo' // busca no YouTube
+  },
+  {
+    id: 'tr55',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Jornada e horas extras',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A jornada padrão da CLT é de 44 horas semanais (8 diárias). Hora extra é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'é obrigatória e sem adicional', // opção
+      'ultrapassa a jornada normal e deve ser paga com adicional mínimo de 50%', // correta
+      'pode ser feita ilimitadamente', // opção
+      'vale apenas para gerentes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 7º, XVI: hora extra com adicional de no mínimo 50% (domingos/feriados, 100%). Limite: 2 extras por dia. Banco de horas pode compensar em acordo.', // explicação
+    dica: 'Os números cobrados: 44h/semana, 8h/dia, máx. 2h extras, +50% (dias normais) e +100% (domingo/feriado). A banca troca os percentuais.', // pegadinha
+    video: 'hora extra 50% jornada clt 44 horas' // busca no YouTube
+  },
+  {
+    id: 'tr56',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Férias',                     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'As férias do trabalhador CLT, após 12 meses, são de:', // pergunta
+    alternativas: [                     // opções
+      '10 dias sem remuneração', // opção
+      '30 dias remunerados + adicional de 1/3 constitucional', // correta
+      '15 dias', // opção
+      '60 dias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 7º, XVII: férias anuais remuneradas com adicional de pelo menos 1/3 — "1/3 constitucional". Podem ser fracionadas em até 3 períodos (reforma trabalhista).', // explicação
+    dica: 'Os 30 dias precisam de 12 meses de trabalho (período aquisitivo) + são gozados nos 12 meses seguintes (concessivo). Perder o prazo paga em dobro — detalhe cobrado.', // pegadinha
+    video: 'férias clt 30 dias um terço constitucional' // busca no YouTube
+  },
+  {
+    id: 'tr57',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: '13º salário',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O 13º salário, pago em até duas parcelas no fim do ano, corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'um bônus por produtividade', // opção
+      'um salário extra por ano trabalhado — gratificação natalina proporcional aos meses trabalhados', // correta
+      'desconto para o INSS', // opção
+      'adiantamento do salário de janeiro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '13º = gratificação natalina (Lei 4.090/1962): a cada mês trabalhado (≥15 dias) conta 1/12 do salário — quem trabalhou o ano todo recebe um salário inteiro extra.', // explicação
+    dica: 'Proporcionalidade é a pegadinha: trabalhou 6 meses → 6/12 do salário. E a 1ª parcela pode vir com as férias; a 2ª vence em dezembro.', // pegadinha
+    video: '13º salário como funciona proporcional' // busca no YouTube
+  },
+  {
+    id: 'tr58',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'FGTS',                       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O FGTS (8% do salário depositado pela empresa) pode ser sacado quando o trabalhador:', // pergunta
+    alternativas: [                     // opções
+      'quiser, a qualquer momento', // opção
+      'é demitido sem justa causa, compra casa própria, se aposenta ou em outras hipóteses legais', // correta
+      'sai de férias', // opção
+      'pede aumento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O FGTS é uma poupança compulsória de proteção: saca-se na demissão sem justa causa, compra da casa, aposentadoria, doença grave — e o trabalhador demitido sem justa causa ainda recebe multa de 40% sobre o saldo.', // explicação
+    dica: 'Pegadinha: FGTS não sai do seu bolso — o EMPREGADOR deposita 8% por cima do salário. E pedir demissão ≠ sacar FGTS: só sem justa causa.', // pegadinha
+    video: 'fgts quando sacar multa 40%' // busca no YouTube
+  },
+  {
+    id: 'tr59',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Uberização e trabalho de aplicativo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O debate sobre motoristas e entregadores de aplicativo no Brasil gira em torno de:', // pergunta
+    alternativas: [                     // opções
+      'todos serem funcionários com carteira', // opção
+      'reconhecer ou não vínculo de emprego — e como proteger quem trabalha na informalidade por plataforma', // correta
+      'proibir os aplicativos', // opção
+      'obrigar os trabalhadores a serem autônomos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A "uberização" = trabalho intermediado por app sem vínculo formal: o debate é se são autônomos ou empregados disfarçados, e como garantir proteção social (aposentadoria, acidente) — tema legislativo atual.', // explicação
+    dica: 'O ENEM cobra o debate, não uma resposta única: existem propostas de regulamentação (lei 12.587/22 para motoristas? Ainda em discussão). O essencial = informalidade digital e proteção social.', // pegadinha
+    video: 'uberização trabalho aplicativo vínculo debate' // busca no YouTube
+  },
+  {
+    id: 'tr60',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Trabalho infantil',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Constituição proíbe trabalho de menores de:', // pergunta
+    alternativas: [                     // opções
+      '18 anos', // opção
+      '16 anos — salvo aprendiz a partir dos 14', // correta
+      '14 anos em qualquer função', // opção
+      '12 anos na agricultura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 7º, XXXIII: proibido trabalho de menor de 16 anos, salvo aprendiz a partir dos 14 (condição de estar na escola). Noturno, perigoso e insalubre: proibido a menores de 18.', // explicação
+    dica: 'Três idades-chave: 14 = aprendiz permitido; 16 = trabalho diurno comum; 18 = qualquer trabalho (inclusive noturno/perigoso). O ENEM troca as idades como distrator.', // pegadinha
+    video: 'trabalho infantil idade mínima aprendiz constituição' // busca no YouTube
+  },
+  {
+    id: 'tr61',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Verbas rescisórias',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Na demissão sem justa causa, o trabalhador recebe, além do saldo de salário:', // pergunta
+    alternativas: [                     // opções
+      'apenas as férias vencidas', // opção
+      'aviso prévio indenizado, 13º e férias proporcionais + 1/3, saldo e multa de 40% do FGTS e seguro-desemprego', // correta
+      'só o transporte para casa', // opção
+      'nada — é o fim do vínculo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Demissão sem justa causa = rescisão completa: aviso prévio (30 dias + 3 por ano de casa), proporcionais, FGTS+40% e seguro-desemprego. Justa causa = quase tudo se perde.', // explicação
+    dica: 'Tipos de saída mudam o pacote: sem justa causa (tudo), pedido de demissão (só saldo + proporcionais, sem FGTS/seguro), justa causa (quase nada). A banca compara os três.', // pegadinha
+    video: 'verbas rescisórias demissão sem justa causa' // busca no YouTube
+  },
+  {
+    id: 'tr62',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estabilidade da gestante',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A empregada gestante tem garantia de emprego:', // pergunta
+    alternativas: [                     // opções
+      'só nos primeiros 3 meses de gravidez', // opção
+      'da confirmação da gravidez até 5 meses após o parto — estabilidade provisória', // correta
+      'apenas se trabalhar há 5 anos', // opção
+      'nunca — pode ser demitida a qualquer momento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A estabilidade da gestante (CF art. 10, II, "b" do ADCT) protege contra demissão arbitrária/sem justa causa desde a confirmação da gravidez até 5 meses pós-parto — proteção contra discriminação.', // explicação
+    dica: 'Os 5 meses do ADCT são provisórios e constitucionais. Adotante também tem estabilidade análoga. Demitir grávida sem justa causa = indenização do período todo.', // pegadinha
+    video: 'estabilidade gestante 5 meses adct' // busca no YouTube
+  },
+  {
+    id: 'tr63',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Terceirização',              // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Após a Lei 13.429/2017, a terceirização no Brasil passou a:', // pergunta
+    alternativas: [                     // opções
+      'ser proibida em qualquer caso', // opção
+      'ser permitida inclusive para a atividade-fim da empresa, com responsabilidade subsidiária do contratante', // correta
+      'só valer para vigilância', // opção
+      'substituir o vínculo empregatício', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A reforma liberou a terceirização da atividade-fim (antes era só atividade-meio): quem contrata não é dono do vínculo, mas responde subsidiariamente se a terceirizada não pagar.', // explicação
+    dica: 'Atividade-meio (limpeza, segurança) × atividade-fim (o negócio principal): a lei de 2017 liberou as duas, mas a responsabilidade subsidiária protege o terceirizado — a banca adora a diferença.', // pegadinha
+    video: 'terceirização lei 13.429 atividade fim meio' // busca no YouTube
+  },
+  {
+    id: 'h38',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Abolição e pós-1888',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei Áurea (1888) libertou os escravizados sem indenização aos ex-senhores — e os libertos foram deixados à própria sorte, sem terra nem inclusão. O ENEM usa isso para mostrar que:', // pergunta
+    alternativas: [                     // opções
+      'a abolição foi perfeita e igualitária', // opção
+      'a liberdade formal sem políticas de inclusão (terra, trabalho, educação) manteve a exclusão — a "liberdade vigiada" virou marginalização social duradoura', // correta
+      'os libertos tiveram terras doadas', // opção
+      'o racismo acabou imediatamente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A abolição libertou, mas não incluiu: sem reforma agrária nem acesso à cidadania plena, ex-escravizados viraram trabalhadores pobres nas periferias — raiz histórica da desigualdade racial brasileira.', // explicação
+    dica: 'O ENEM cobra a abolição "incompleta": lei mudou o status jurídico, mas o Estado não reparou 350 anos de escravidão — por isso cotas e políticas afirmativas são debatidas como reparação tardia.', // pegadinha
+    video: 'lei áurea abolição exclusão pós-escravidão enem' // busca no YouTube
+  },
+  {
+    id: 'h39',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura militar — AI-5',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Ato Institucional nº 5 (1968) marcou a fase mais dura da ditadura porque:', // pergunta
+    alternativas: [                     // opções
+      'restaurou a democracia', // opção
+      'fechou o Congresso, suspendeu habeas corpus para crimes políticos e intensificou a censura e a repressão', // correta
+      'criou o voto direto', // opção
+      'acabou com a censura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O AI-5 deu poderes excepcionais ao presidente: fechar Congresso, cassar mandatos, intervir em estados e suspender garantias — inaugurou o período de tortura sistemática, censura e desaparecimentos.', // explicação
+    dica: 'Cronologia ENEM: 1964 golpe → AI-2 (bipartidarismo) → 1968 AI-5 (repressão dura) → "milagre econômico" → abertura lenta → 1985 fim (sem eleição direta até 1989).', // pegadinha
+    video: 'ai-5 ditadura militar anos de chumbo' // busca no YouTube
+  },
+  {
+    id: 'lg49',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'ECA — prioridade absoluta',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Estatuto da Criança e do Adolescente (Lei 8.069/1990) estabelece que crianças e adolescentes têm:', // pergunta
+    alternativas: [                     // opções
+      'os mesmos direitos de adultos apenas', // opção
+      'prioridade absoluta — atendimento, proteção e recursos preferenciais em qualquer política pública', // correta
+      'direitos só a partir dos 12 anos', // opção
+      'responsabilidade penal como adultos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ECA coloca criança (0-12) e adolescente (12-18) como sujeitos de direitos com prioridade constitucional absoluta: saúde, educação, proteção vêm antes — doutrina da proteção integral.', // explicação
+    dica: '"Prioridade absoluta" é a expressão-chave do ECA — acima de idosos, de orçamento, de tudo. Menor de 18 NÃO é imputável (ato infracional, não crime).', // pegadinha
+    video: 'eca prioridade absoluta criança adolescente' // busca no YouTube
+  },
+  {
+    id: 'lg50',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei Maria da Penha',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei Maria da Penha (11.340/2006) criou, como inovação principal:', // pergunta
+    alternativas: [                     // opções
+      'o fim da prisão para agressores', // opção
+      'medidas protetivas de urgência (afastamento do agressor, proibição de contato) e juizados especializados em violência doméstica', // correta
+      'pensão alimentícia obrigatória', // opção
+      'a proibição de divórcio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei mudou a resposta estatal: em 48h o juiz pode determinar medidas protetivas (afastamento do lar, proibição de aproximação), criou juizados e delegacias especializadas — e fez da violência doméstica crime de ação pública incondicionada.', // explicação
+    dica: 'Antes da lei, violência doméstica "leve" era contravenção com cesta básica como pena. Maria da Penha = proteção imediata + criminalização séria — a inovação é a medida protetiva de urgência.', // pegadinha
+    video: 'lei maria da penha medidas protetivas urgência' // busca no YouTube
+  },
+  {
+    id: 'lg51',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Idoso',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Pelo Estatuto da Pessoa Idosa (Lei 10.741/2003), quem tem 65+ tem direito a:', // pergunta
+    alternativas: [                     // opções
+      'pagar meia-entrada só no cinema', // opção
+      'gratuidade no transporte coletivo urbano, prioridade no atendimento e reserva de vagas em estacionamentos', // correta
+      'aposentadoria automática do INSS', // opção
+      'isenção total de impostos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Estatuto garante gratuidade no transporte coletivo urbano (interestadual há vagas gratuitas ou desconto), atendimento preferencial, 5% de vagas em estacionamentos e prioridade na tramitação de processos.', // explicação
+    dica: 'Detalhe cobrado: gratuidade urbana = lei federal obrigatória; interestadual = 2 vagas por veículo ou desconto de 50%. A isenção de IPTU/IPVA depende de lei municipal/estadual — não é automática.', // pegadinha
+    video: 'estatuto do idoso direitos transporte gratuito' // busca no YouTube
+  },
+  {
+    id: 'lg52',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Código de Defesa do Consumidor', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Comprou um celular com defeito de fábrica e a loja se recusa a trocar. Pelo CDC, o consumidor tem direito a:', // pergunta
+    alternativas: [                     // opções
+      'aceitar o defeito — comprou, é dele', // opção
+      'reparação do produto, troca por outro ou devolução do dinheiro — escolha do consumidor', // correta
+      'apenas desconto na próxima compra', // opção
+      'procurar o fabricante, nunca a loja', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O CDC (Lei 8.078/1990) dá ao consumidor a tríade: conserto em 30 dias; se não resolver, troca, devolução ou abatimento — e a loja responde solidariamente com o fabricante (não pode empurrar para o outro).', // explicação
+    dica: 'Responsabilidade é SOLIDÁRIA: a loja não pode mandar você "reclamar com a fábrica" — ambas respondem juntas. Prazo para reclamar de vício: 90 dias (durável).', // pegadinha
+    video: 'cdc direito do consumidor troca defeito loja' // busca no YouTube
+  },
+  {
+    id: 'lg53',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de cotas',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei 12.711/2012 (Lei de Cotas) reserva vagas em universidades federais para:', // pergunta
+    alternativas: [                     // opções
+      'apenas estudantes ricos', // opção
+      'alunos de escola pública, com subcota por renda e por autodeclaração racial (pretos, pardos, indígenas)', // correta
+      'somente filhos de funcionários', // opção
+      'estrangeiros', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei reserva metade das vagas de federais/IFs a egressos de escola pública — dividida entre renda ≤1,5 SM per capita e demais, com proporção de autodeclarados pretos/pardos/indígenas conforme a demografia estadual.', // explicação
+    dica: 'Dois filtros: escola pública (o grande portão) + renda + raça. O STF declarou constitucional como ação afirmativa de reparação — temporária, não privilégio permanente.', // pegadinha
+    video: 'lei de cotas lei 12711 como funciona' // busca no YouTube
+  },
+  {
+    id: 'lg54',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'LGPD',                       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Pela LGPD (Lei 13.709/2018), uma empresa só pode tratar dados pessoais com:', // pergunta
+    alternativas: [                     // opções
+      'liberdade total — dados são públicos', // opção
+      'base legal (consentimento, obrigação legal, execução de contrato...) e finalidade declarada ao titular', // correta
+      'pagamento ao titular dos dados', // opção
+      'autorização da polícia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A LGPD exige base legal para tratar dados: consentimento é a mais comum, mas há outras (contrato, obrigação legal, interesse legítimo). O titular tem direitos de acesso, correção, exclusão e portabilidade.', // explicação
+    dica: 'Dados sensíveis (saúde, raça, religião, política, biometria) têm proteção reforçada — quase sempre exigem consentimento específico. A ANPD fiscaliza e multa.', // pegadinha
+    video: 'lgpd bases legais consentimento dados sensíveis' // busca no YouTube
+  },
+  {
+    id: 'lg55',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto da Pessoa com Deficiência', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei Brasileira de Inclusão (13.146/2015) introduziu, como novidade, a avaliação da deficiência considerando:', // pergunta
+    alternativas: [                     // opções
+      'apenas o diagnóstico médico', // opção
+      'o modelo biopsicossocial — impedimento + barreiras sociais e atitudinais que impedem a participação plena', // correta
+      'só a capacidade de trabalho', // opção
+      'a renda da família', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A LBI mudou o paradigma: deficiência não é só o corpo — é o impedimento combinado com barreiras urbanísticas, atitudinais e tecnológicas que excluem. A avaliação considera o ambiente, não só o laudo.', // explicação
+    dica: 'Antes era o "modelo médico" (a deficiência está na pessoa); a LBI adota o modelo social (a sociedade que exclui). Inclusão = remover barreiras, não "consertar" a pessoa.', // pegadinha
+    video: 'lbi lei brasileira inclusão modelo biopsicossocial' // busca no YouTube
+  },
+  {
+    id: 'lg56',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Crimes Ambientais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A Lei 9.605/1998 (Crimes Ambientais) prevê que desmatamento ilegal e poluição podem gerar:', // pergunta
+    alternativas: [                     // opções
+      'apenas advertência verbal', // opção
+      'responsabilidade penal (prisão), civil (reparação) e administrativa (multas, embargo) — três esferas independentes', // correta
+      'só multa pequena', // opção
+      'impossibilidade de punição a empresas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei pune nas três esferas de forma independente: penal (prisão/multa), civil (obrigação de reparar o dano — sem limite de valor) e administrativa (IBAMA: multa, embargo, suspensão). E pessoa JURÍDICA pode ser condenada.', // explicação
+    dica: 'Detalhe único do direito ambiental brasileiro: a empresa pode responder penalmente por crime ambiental (raro no direito penal, normalmente só pessoa física). As três responsabilidades correm juntas.', // pegadinha
+    video: 'lei crimes ambientais 9605 três responsabilidades' // busca no YouTube
+  },
+  {
+    id: 'lg57',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Desarmamento',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'O Estatuto do Desarmamento (Lei 10.826/2003) estabeleceu, como regra geral para civis:', // pergunta
+    alternativas: [                     // opções
+      'proibição total de armas no país', // opção
+      'requisitos rigorosos para posse/porte (registro, capacidade técnica, necessidade comprovada) e controle rigoroso do comércio', // correta
+      'liberação completa do porte', // opção
+      'armas apenas para policiais aposentados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Estatuto permitiu a posse (em casa/trabalho) mediante cadastro no SINARM e requisitos, e o porte (na rua) apenas em casos de efetiva necessidade — endureceu o controle sem proibir completamente.', // explicação
+    dica: 'Posse ≠ porte: posse = ter em casa/local de trabalho; porte = andar armado na rua — excepcional. Referendo de 2005 rejeitou a proibição total da venda: o controle rigoroso ficou.', // pegadinha
+    video: 'estatuto do desarmamento posse porte diferença' // busca no YouTube
+  },
+  {
+    id: 'et46',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética × moral',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Filosoficamente, a diferença entre ética e moral é que:', // pergunta
+    alternativas: [                     // opções
+      'são sinônimos absolutos', // opção
+      'a moral é o conjunto de regras de uma sociedade; a ética é a reflexão sobre essas regras e os princípios que as justificam', // correta
+      'a moral é individual; a ética é divina', // opção
+      'a ética é o cumprimento da lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moral = o "como se faz" costumeiro de um grupo (regras concretas de certo/errado); ética = a reflexão filosófica sobre esses costumes — questiona o porquê. A moral varia entre sociedades; a ética busca fundamentos universais.', // explicação
+    dica: 'Macete clássico: moral é o mapa; ética é a bússola que o questiona. A ética pergunta "isso é justo?", a moral responde "assim se faz aqui". O ENEM cobra a distinção.', // pegadinha
+    video: 'ética e moral diferença filosofia' // busca no YouTube
+  },
+  {
+    id: 'et47',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética no cotidiano',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Furar fila, jogar lixo na rua e "dar um jeitinho" são exemplos cotidianos que a ética questiona porque:', // pergunta
+    alternativas: [                     // opções
+      'são ilegais em qualquer país', // opção
+      'benefícios individuais conquistados às custas do bem coletivo corroem a confiança que sustenta a vida em sociedade', // correta
+      'são eficientes e inteligentes', // opção
+      'dependem da opinião de cada um', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "jeitinho brasileiro" é analisado eticamente como falta de consideração coletiva: o ganho individual imediato gera custo social (desigualdade, desconfiança). A ética avalia o que aconteceria se todos fizessem.', // explicação
+    dica: 'O ENEM desmonta o "jeitinho": nem sempre é simpatia — é muitas vezes privilégio disfarçado de esperteza. Universalizável? Se todos furarem, não há fila.', // pegadinha
+    video: 'jeitinho brasileiro ética vida cotidiana' // busca no YouTube
+  },
+  {
+    id: 'et48',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conflito de interesses',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Um fiscal de obra é dono da empresa que ele mesmo deveria fiscalizar. Isso configura:', // pergunta
+    alternativas: [                     // opções
+      'situação normal e aceitável', // opção
+      'conflito de interesses — o interesse privado compromete a imparcialidade do julgamento público', // correta
+      'iniciativa privada saudável', // opção
+      'legalidade plena', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conflito de interesses = quando o interesse pessoal interfere no dever de decidir imparcialmente. A solução ética é declarar o impedimento e se afastar da decisão — não "administrar" os dois.', // explicação
+    dica: 'A banca cobra a solução: declarar-se impedido/suspeito é a resposta ética padrão. "Eu consigo separar" não basta — a aparência de parcialidade já compromete.', // pegadinha
+    video: 'conflito de interesses ética serviço público' // busca no YouTube
+  },
+  {
+    id: 'et49',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética digital',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Compartilhar fake news "só por diversão", mesmo sabendo que é falsa, é eticamente problemático porque:', // pergunta
+    alternativas: [                     // opções
+      'não é — se é mentira inofensiva, pode', // opção
+      'a desinformação destrói a confiança na informação pública e pode causar dano real (saúde, eleição, reputação)', // correta
+      'só é problema se a polícia descobrir', // opção
+      'a internet é terra sem lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ética digital avalia o impacto do compartilhamento: desinformação corrói o debate democrático e pode matar (fake de saúde), fraudar (eleições) e destruir vidas (calúnia viral).', // explicação
+    dica: '"Sabendo que é falso" agrava a conduta: há dolo. Mesmo sem má intenção, quem espalha sem checar responde pela negligência ética — a responsabilidade é do compartilhador também.', // pegadinha
+    video: 'ética digital fake news responsabilidade compartilhar' // busca no YouTube
+  },
+  {
+    id: 'et50',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Empatia',                    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A empatia — colocar-se no lugar do outro — é valorizada como base ética porque:', // pergunta
+    alternativas: [                     // opções
+      'nos obriga a concordar com tudo', // opção
+      'permite compreender o impacto das nossas ações sobre o outro antes de agir', // correta
+      'significa sentir pena das pessoas', // opção
+      'é uma habilidade só de psicólogos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A empatia é o "teste mental" do outro lado: imaginar como a minha ação afeta quem a recebe — fundamento da regra de ouro ("não faça ao outro o que não quer para si") e das éticas do cuidado.', // explicação
+    dica: 'Empatia ≠ simpatia (simpatia = afinidade/gostar; empatia = entender o lugar do outro, mesmo discordando). A filosofia moral a trata como fundamento da reciprocidade.', // pegadinha
+    video: 'empatia ética regra de ouro colocar-se no lugar' // busca no YouTube
+  },
+  {
+    id: 'et51',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Integridade acadêmica',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Copiar texto da internet e apresentar como próprio num trabalho é:', // pergunta
+    alternativas: [                     // opções
+      'pesquisa inteligente', // opção
+      'plágio — violação da integridade acadêmica e dos direitos autorais', // correta
+      'citação indireta permitida', // opção
+      'válido se mudar uma palavra', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Plágio = usar a obra alheia sem creditar. A integridade acadêmica exige citação (direta com aspas; indireta com referência) — é tanto falha ética quanto violação legal de direito autoral.', // explicação
+    dica: 'Citação indireta ≠ copiar mudando palavras: mesmo paráfrase precisa da fonte. Mudar "algumas palavras" continua sendo plágio. A honestidade está na atribuição, não na disfarce.', // pegadinha
+    video: 'plágio integridade acadêmica citação' // busca no YouTube
+  },
+  {
+    id: 'et52',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética ambiental',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'A ética ambiental propõe que decisões de hoje devem considerar:', // pergunta
+    alternativas: [                     // opções
+      'só o lucro da geração atual', // opção
+      'as gerações futuras e o equilíbrio dos ecossistemas — responsabilidade intergeracional', // correta
+      'apenas as leis ambientais', // opção
+      'o custo imediato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A responsabilidade intergeracional (Hans Jonas) amplia a ética: minhas escolhas hoje afetam quem nem nasceu — sustentabilidade é obrigação moral, não opção de mercado.', // explicação
+    dica: 'Conceito-chave do ENEM: desenvolvimento sustentável = "satisfazer as necessidades do presente sem comprometer as futuras gerações" (Relatório Brundtland, 1987) — definição memorizada.', // pegadinha
+    video: 'ética ambiental sustentabilidade gerações futuras' // busca no YouTube
+  },
+  {
+    id: 'et53',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Imperativo categórico',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Para Kant, uma ação só é moralmente correta se puder ser universalizada — "age de modo que a tua ação possa ser lei para todos". Isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'o fim justifica os meios', // opção
+      'mentir é sempre errado — se todos mentissem, a promessa deixaria de fazer sentido', // correta
+      'depende das consequências', // opção
+      'o certo é o que beneficia a maioria', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O imperativo categórico de Kant: teste a máxima da ação — se universalizada geraria contradição ou mundo indesejado (mentira universal destrói a confiança que sustenta a própria mentira), é imoral. Dever acima de consequência.', // explicação
+    dica: 'Kant = deontologia (o dever comanda); oposto do utilitarismo (consequência comanda). A banca troca os dois — "consequência para a maioria" é Stuart Mill, não Kant.', // pegadinha
+    video: 'kant imperativo categórico universalizar' // busca no YouTube
+  },
+  {
+    id: 'et54',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Nepotismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'ENEM (vestibular)',         // banca inspiradora
+    enunciado: 'Nomear o primo desqualificado para cargo público fere a ética administrativa porque:', // pergunta
+    alternativas: [                     // opções
+      'é permitido desde que seja parente', // opção
+      'o nepotismo troca o mérito pelo favor — viola a impessoalidade e a isonomia do acesso ao cargo', // correta
+      'só é problema se o primo roubar', // opção
+      'é incentivo familiar legítimo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nepotismo = nomear por parentesco, não por mérito — viola diretamente a impessoalidade (não pode usar o cargo para favorecer) e a isonomia (quem estudou perde a vaga para o primo). A Súmula Vinculante 13 proíbe.', // explicação
+    dica: 'Nepotismo cruzado também é vedado: o prefeito nomeia o parente do governador, e vice-versa. O problema não é a competência do nomeado — é o critério da escolha.', // pegadinha
+    video: 'nepotismo súmula vinculante 13 impessoalidade' // busca no YouTube
+  },
 ];
