@@ -25266,4 +25266,544 @@ const BancoQuestoes = [
     dica: 'Copeve troca o sujeito: na passiva, quem aparece primeiro NÃO é o agente — "la casa fue construida" = a casa foi construída (não construiu). "Se venden casas" = passiva com "se", equivalente ao "vendem-se casas".', // pegadinha
     video: 'voz pasiva espanhol ser participio se venden resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 3, bloco 3/4 EXATAS: Matemática m45–47,
+  // Raciocínio r37–40, Química qm37–40, Física f38–41,
+  // Contabilidade ct38–41, Economia ec51–53, Informática i39–42.
+  // ============================================================
+
+  // ---- Matemática (m45–m47) ----
+  {
+    id: 'm45',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Função afim — tarifa',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Um táxi cobra bandeirada fixa de R$ 6,00 mais R$ 4,00 por quilômetro rodado. A função que dá o preço P de uma corrida de x km é:', // pergunta
+    alternativas: [                     // opções
+      'P(x) = 4x', // opção
+      'P(x) = 6x', // opção
+      'P(x) = 6 + 4x — a bandeirada é o termo fixo e o preço por km é o coeficiente', // correta
+      'P(x) = 4 + 6x', // opção
+      'P(x) = 6 − 4x', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Função afim: P(x) = b + a·x, onde b = valor fixo (bandeirada 6) e a = taxa por unidade (4 por km). 10 km custam 6 + 4·10 = R$ 46 — teste numérico confirma.', // explicação
+    dica: 'FUNDATEC troca a posição dos termos: o FIXO (bandeirada) é o termo sem x; o VARIÁVEL (por km) multiplica x. Marca 4+6x? Errou: a bandeirada não multiplica quilômetro.', // pegadinha
+    video: 'funcao afim bandeirada taxi problema resumo' // busca no YouTube
+  },
+  {
+    id: 'm46',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Teorema de Pitágoras',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Uma escada de 5 metros está apoiada numa parede, com a base a 3 metros da parede. A altura que a escada alcança é:', // pergunta
+    alternativas: [                     // opções
+      '2 m', // opção
+      '3,5 m', // opção
+      '5 m', // opção
+      '√34 ≈ 5,83 m', // opção
+      '4 m — a terna 3-4-5 resolve: 3² + 4² = 5²', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'A escada é a hipotenusa (5), a base é um cateto (3): h² = 5² − 3² = 25 − 9 = 16 → h = 4 m. É a terna pitagórica clássica 3-4-5.', // explicação
+    dica: 'Selecon coloca a soma dos quadrados como distrator (√34): cateto se calcula SUBTRAINDO, não somando. Memorize as ternas: 3-4-5, 5-12-13, 8-15-17.', // pegadinha
+    video: 'teorema de pitagoras escada terna 345 resumo' // busca no YouTube
+  },
+  {
+    id: 'm47',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Probabilidade — dados',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Ao lançar dois dados comuns, a probabilidade de a soma ser 7 é:', // pergunta
+    alternativas: [                     // opções
+      '6/36 = 1/6 — os pares (1,6), (2,5), (3,4), (4,3), (5,2) e (6,1) somam 7 em 36 resultados', // correta
+      '1/36', // opção
+      '7/36', // opção
+      '1/12', // opção
+      '2/6', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Dois dados dão 36 resultados equiprováveis. Soma 7 acontece em 6 deles: (1,6) (2,5) (3,4) (4,3) (5,2) (6,1). 6/36 = 1/6 ≈ 16,7% — é a soma mais provável.', // explicação
+    dica: 'IBGP tenta "1/6 de 7 = 1/36": pares ORDENADOS contam — (3,4) e (4,3) são resultados distintos. Tabela 6×6 ajuda a visualizar os 36 pares; o 7 aparece na diagonal.', // pegadinha
+    video: 'probabilidade dois dados soma sete resumo' // busca no YouTube
+  },
+
+  // ---- Raciocínio Lógico (r37–r40) ----
+  {
+    id: 'r37',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Negação do condicional',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A negação da proposição "Se chove, então levo guarda-chuva" é:', // pergunta
+    alternativas: [                     // opções
+      'Se não chove, não levo guarda-chuva', // opção
+      'Se levo guarda-chuva, então chove', // opção
+      'Chove ou levo guarda-chuva', // opção
+      'Chove E não levo guarda-chuva — a negação do se-então mantém a 1ª e nega a 2ª', // correta
+      'Não chove e não levo guarda-chuva', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Negar "p → q" = "p ∧ ¬q" (o famoso "MANÉ": MAntém a 1ª E NEga a 2ª). O se-então só é falso quando a premissa acontece e a consequência não — choveu e ninguém levou guarda-chuva.', // explicação
+    dica: 'FUNDATEC cobra o clássico: negação de se-então NÃO é outro se-então — é E (conjunção). Macete MANÉ/MANE: mantém a 1ª e nega a 2ª. "Se não... então não" é distrator certeiro.', // pegadinha
+    video: 'negacao condicional mane se entao resumo' // busca no YouTube
+  },
+  {
+    id: 'r38',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequência — quadrados',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na sequência 1, 4, 9, 16, 25, ... o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '30', // opção
+      '36 — são os quadrados perfeitos: 1², 2², 3², 4², 5², 6²', // correta
+      '32', // opção
+      '49', // opção
+      '27', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A sequência é n²: 1, 4, 9, 16, 25, 36. Também dá para ver pelas diferenças ímpares: +3, +5, +7, +9, +11 — cada salto cresce 2.', // explicação
+    dica: 'Copeve oferece a diferença errada: quem soma +7 no último chega a 32. Sempre teste os DOIS padrões — potências (n²) e diferenças (+ímpares crescentes). 36, não 30 nem 32.', // pegadinha
+    video: 'sequencia numerica quadrados perfeitos resumo' // busca no YouTube
+  },
+  {
+    id: 'r39',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Silogismo — validade',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Se "todo médico é estudioso" e "alguns estudiosos são músicos", então é possível concluir:', // pergunta
+    alternativas: [                     // opções
+      'algum médico é músico', // opção
+      'todo músico é médico', // opção
+      'nenhum médico é músico', // opção
+      'todos os médicos são músicos', // opção
+      'nada se pode concluir sobre médicos e músicos — os conjuntos podem não se tocar', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Premissa 1: médicos ⊂ estudiosos. Premissa 2: alguns estudiosos são músicos — mas nada diz se são os mesmos estudiosos médicos. O conjunto dos médicos pode ficar de fora dos músicos: conclusão inválida.', // explicação
+    dica: 'Selecon força a conclusão intuitiva: "alguns estudiosos são músicos" NÃO garante que os médicos (subconjunto) estejam nesse "alguns". Desenhe os diagramas — a dúvida vira resposta.', // pegadinha
+    video: 'silogismo diagramas todo alguns validade resumo' // busca no YouTube
+  },
+  {
+    id: 'r40',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Princípio aditivo',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Um restaurante oferece 3 tipos de salada OU 4 tipos de prato quente (escolhe-se apenas um). Quantas opções diferentes existem?', // pergunta
+    alternativas: [                     // opções
+      '12 (3 × 4)', // opção
+      '3', // opção
+      '7 — pelo princípio aditivo, escolhas excludentes somam: 3 + 4', // correta
+      '4', // opção
+      '81', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Princípio ADITIVO: quando você escolhe UMA coisa dentre grupos excludentes (salada OU quente), as opções se SOMAM: 3 + 4 = 7. Se fosse salada E quente junto, multiplicaria: 3 × 4 = 12.', // explicação
+    dica: 'Instituto Mais arma a multiplicação: E = multiplica (um de cada); OU = soma (um ou outro). "Apenas um prato" é a trava do enunciado — leia se a escolha é simultânea ou excludente.', // pegadinha
+    video: 'principio aditivo multiplicativo combinatoria resumo' // busca no YouTube
+  },
+
+  // ---- Química (qm37–qm40) ----
+  {
+    id: 'qm37',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Óxidos',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O gás carbônico (CO₂), responsável pelo efeito estufa, é quimicamente classificado como:', // pergunta
+    alternativas: [                     // opções
+      'óxido básico', // opção
+      'óxido ácido (anidrido) — reage com água formando ácido carbônico', // correta
+      'óxido neutro', // opção
+      'peróxido', // opção
+      'sal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Óxido ácido/anidrido: CO₂ + H₂O → H₂CO₃; com base forma sal + água. Por isso o excesso de CO₂ acidifica o oceano. Óxidos básicos são de metais (CaO, Na₂O); neutros não reagem (CO, N₂O, NO).', // explicação
+    dica: 'FUNDATEC testa o trio: básico = metal (cal, CaO); ácido = ametal (CO₂, SO₃) — esses causam chuva ácida; neutro = nem reage (CO). Pergunta-chave: o que reage com água dando ácido? Óxido ácido.', // pegadinha
+    video: 'oxidos acido basico neutro co2 resumo' // busca no YouTube
+  },
+  {
+    id: 'qm38',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Pilhas — oxirredução',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Numa pilha eletroquímica, a energia elétrica é gerada por uma reação de:', // pergunta
+    alternativas: [                     // opções
+      'neutralização', // opção
+      'precipitação', // opção
+      'fusão nuclear', // opção
+      'oxirredução espontânea — a oxidação no ânodo e a redução no cátodo criam fluxo de elétrons', // correta
+      'evaporação', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A pilha converte energia química em elétrica via oxirredução espontânea: no ÂNODO o agente se OXIDA (perde elétrons), no CÁTODO o outro REDUZ (ganha). Macete: AÕ = Ânodo-Oxidação; CÁTODO-redução.', // explicação
+    dica: 'Copeve troca os polos: ânodo = OXIDA (perde elétron), cátodo = REDUZ (ganha). Na pilha o ânodo é o polo NEGATIVO; na eletrólise inverte (o ânodo fica positivo, mas ainda oxida).', // pegadinha
+    video: 'pilha oxirreducao anodo catodo resumo' // busca no YouTube
+  },
+  {
+    id: 'qm39',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Radioatividade',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A "meia-vida" de um isótopo radioativo é:', // pergunta
+    alternativas: [                     // opções
+      'o tempo até a metade dos átomos de uma amostra se desintegrar', // correta
+      'o tempo de validade de um medicamento', // opção
+      'a metade da massa atômica', // opção
+      'o tempo para criar o elemento', // opção
+      'a duração de uma reação química comum', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Meia-vida = tempo para metade dos átomos radioativos decair: após 1 meia-vida restam 50%, após 2 restam 25%, e assim por diante. Serve para datar fósseis (carbono-14, ~5.730 anos) e dosar radiofármacos.', // explicação
+    dica: 'Selecon brinca com "metade": não é metade do tempo nem da massa — é o TEMPO para a ATIVIDADE cair pela metade. Regra do dedo: n meias-vidas → fração restante = 1/2ⁿ.', // pegadinha
+    video: 'meia vida radioatividade carbono 14 resumo' // busca no YouTube
+  },
+  {
+    id: 'qm40',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Química do cotidiano — bases', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A soda cáustica usada em produtos de limpeza e desentupidores é quimicamente:', // pergunta
+    alternativas: [                     // opções
+      'um ácido forte (HCl)', // opção
+      'um sal (NaCl)', // opção
+      'um óxido', // opção
+      'um álcool', // opção
+      'uma base forte — o hidróxido de sódio (NaOH), que dissolve gorduras por saponificação', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'NaOH = hidróxido de sódio, base forte: reage com gordura formando sabão (saponificação) — por isso desentope canos e limpa fornos. É corrosiva: manejo exige luvas e cuidado.', // explicação
+    dica: 'Instituto Mais joga nomes comerciais × químicos: soda cáustica = NaOH (base); vinagre = ácido acético; sal de cozinha = NaCl; água sanitária = hipoclorito de sódio. "Cáustica" = corrói/base forte.', // pegadinha
+    video: 'soda caustica naoh base cotidiano resumo' // busca no YouTube
+  },
+
+  // ---- Física (f38–f41) ----
+  {
+    id: 'f38',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Conservação de energia',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Numa montanha-russa ideal (sem atrito), ao descer do ponto mais alto, a energia potencial do carrinho:', // pergunta
+    alternativas: [                     // opções
+      'desaparece no ar', // opção
+      'fica constante', // opção
+      'transforma-se em energia cinética — a energia mecânica total se conserva', // correta
+      'aumenta', // opção
+      'vira energia elétrica', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Sem atrito, energia mecânica se conserva: no alto é quase toda potencial (mgh); na descida converte-se em cinética (mv²/2) — máxima velocidade no ponto mais baixo. Com atrito, parte vira calor.', // explicação
+    dica: 'FUNDATEC sugere perda de energia: energia não "some" — CONVERTE. Sem atrito: mgh alto = mv²/2 embaixo. A energia cinética máxima está no ponto mais BAIXO, não no mais alto.', // pegadinha
+    video: 'conservacao energia mecanica montanha russa resumo' // busca no YouTube
+  },
+  {
+    id: 'f39',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Dilatação térmica',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'As juntas de dilatação vistas em pontes e trilhos existem porque:', // pergunta
+    alternativas: [                     // opções
+      'são decorativas', // opção
+      'reduzem o peso da estrutura', // opção
+      'servem de drenagem', // opção
+      'facilitam a pintura', // opção
+      'os materiais se expandem com o calor — sem folga, a estrutura enverga, trinca ou se deforma', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Dilatação térmica: quase todo material aumenta de dimensão quando aquecido (ΔL = α·L·ΔT). Trilhos e pontes ganham folgas para absorver a expansão no calor — do contrário, a compressão os enverga.', // explicação
+    dica: 'Copeve coloca funções falsas (drenagem, decoração): a junta é FOLGA térmica. Mesma lógica do termômetro, do fio que balança no poste no verão e da tampa de vidro que solta na água quente.', // pegadinha
+    video: 'dilatacao termica juntas pontes trilhos resumo' // busca no YouTube
+  },
+  {
+    id: 'f40',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Trabalho mecânico',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Uma força de 10 N desloca um corpo por 5 m na mesma direção e sentido. O trabalho realizado é:', // pergunta
+    alternativas: [                     // opções
+      '2 J', // opção
+      '15 J', // opção
+      '0,5 J', // opção
+      '50 J — W = F · d = 10 N × 5 m', // correta
+      '500 J', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Trabalho = força × deslocamento (na mesma direção): W = F·d·cosθ; com θ = 0°, cos = 1 → W = 10 × 5 = 50 joules. Se a força for perpendicular ao movimento (ex.: carregar mala na horizontal), o trabalho é zero.', // explicação
+    dica: 'IBGP cobra a fórmula e a condição: W = F·d só vale na direção da força. Força sem deslocamento = trabalho zero; força perpendicular = trabalho zero também. Joule = newton × metro.', // pegadinha
+    video: 'trabalho mecanico forca deslocamento joule resumo' // busca no YouTube
+  },
+  {
+    id: 'f41',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Pressão atmosférica',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O experimento de Torricelli, com a coluna de mercúrio, mediu pela primeira vez:', // pergunta
+    alternativas: [                     // opções
+      'a velocidade da luz', // opção
+      'a pressão atmosférica — cerca de 760 mmHg (1 atm) ao nível do mar', // correta
+      'o ponto de fusão do gelo', // opção
+      'a aceleração da gravidade', // opção
+      'a densidade do ar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Torricelli (1643) inverteu um tubo de mercúrio numa cuba: a coluna parou em ~76 cm — o peso do ar empurrava o Hg. Nasceu o barômetro e a medida 760 mmHg = 1 atm = ~10⁵ Pa ao nível do mar.', // explicação
+    dica: 'Instituto Mais troca os experimentos clássicos: Torricelli = pressão atmosférica (barômetro); Galileu = queda/plano inclinado; Cavendish = G. "760 mmHg" é a assinatura de Torricelli.', // pegadinha
+    video: 'torricelli pressao atmosferica barometro resumo' // busca no YouTube
+  },
+
+  // ---- Contabilidade (ct38–ct41) ----
+  {
+    id: 'ct38',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Depreciação x amortização x exaustão', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Depreciação, amortização e exaustão diferem porque se aplicam, respectivamente, a:', // pergunta
+    alternativas: [                     // opções
+      'todos ao mesmo tipo de bem', // opção
+      'só a imóveis', // opção
+      'bens tangíveis (máquinas, veículos), bens intangíveis (marcas, software) e recursos naturais (minas, florestas)', // correta
+      'apenas ao passivo', // opção
+      'só ao caixa', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Os três são "cargas" que alocam o custo ao longo do tempo: DEPRECIAÇÃO para ativo tangível (desgaste de máquina), AMORTIZAÇÃO para intangível (patente, marca) e EXAUSTÃO para recursos naturais que se esgotam (mina, jazida).', // explicação
+    dica: 'FUNDATEC embaralha os três: lembre T-I-N — Tangível deprecia, Intangível amortiza, Natural exaure. Todos reduzem o valor contábil do ativo e viram despesa no resultado.', // pegadinha
+    video: 'depreciacao amortizacao exaustao diferenca resumo' // busca no YouTube
+  },
+  {
+    id: 'ct39',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Avaliação de estoques',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'No método PEPS (FIFO) de avaliação de estoques:', // pergunta
+    alternativas: [                     // opções
+      'usa o valor da última compra', // opção
+      'usa a média de todas as compras', // opção
+      'despreza os custos', // opção
+      'usa o preço de mercado', // opção
+      'a primeira mercadoria que entra é a primeira que sai — o estoque final fica com os custos mais recentes', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'PEPS = Primeiro que Entra, Primeiro que Sai (FIFO em inglês): as saídas são custeadas pelas unidades mais antigas; o estoque final reflete os preços mais recentes. UEPS (LIFO) é o inverso — e não é aceito fiscalmente no Brasil.', // explicação
+    dica: 'Copeve troca PEPS × UEPS × Média: PEPS = sai o mais antigo, fica o mais novo; UEPS = sai o mais novo (proibido para IR); MP = custo médio ponderado. Em inflação, PEPS dá CMV menor e lucro maior.', // pegadinha
+    video: 'peps ueps media ponderada estoque resumo' // busca no YouTube
+  },
+  {
+    id: 'ct40',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'CMV na DRE',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Na Demonstração do Resultado do Exercício (DRE), o CMV (Custo da Mercadoria Vendida) representa:', // pergunta
+    alternativas: [                     // opções
+      'o custo das mercadorias efetivamente vendidas no período, subtraído da receita para chegar ao lucro bruto', // correta
+      'o estoque total', // opção
+      'o imposto sobre vendas', // opção
+      'a receita líquida', // opção
+      'o capital social', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'CMV = custo do que foi efetivamente vendido (estoque inicial + compras − estoque final). Na DRE: Receita líquida − CMV = Lucro bruto. O estoque que sobrou vai para o balanço — só o vendido vira custo.', // explicação
+    dica: 'Selecon confunde CMV com estoque: CMV sai do QUE FOI VENDIDO, não do que está na prateleira. Fórmula-mãe: CMV = EI + C − EF. Lucro bruto = receita − CMV; líquido vem depois das despesas.', // pegadinha
+    video: 'cmv custo mercadoria vendida dre lucro bruto resumo' // busca no YouTube
+  },
+  {
+    id: 'ct41',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Auditoria contábil',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A auditoria independente das demonstrações contábeis tem por finalidade:', // pergunta
+    alternativas: [                     // opções
+      'fazer a contabilidade da empresa', // opção
+      'pagar os impostos', // opção
+      'aprovar os orçamentos', // opção
+      'verificar se as demonstrações refletem adequadamente a realidade — emitindo opinião imparcial sobre sua confiabilidade', // correta
+      'demissão de funcionários', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O auditor independente examina registros e demonstrações para opinar se estão livres de distorções relevantes e seguem as normas — garantia externa para investidores, bancos e fisco. Auditor não prepara: ele confere.', // explicação
+    dica: 'Instituto Mais troca papel: auditor NÃO faz a contabilidade (seria conflito de interesses) — ele EXAMINA e opina. Auditoria interna × externa: externa é independente e obrigatória para empresas de capital aberto.', // pegadinha
+    video: 'auditoria contabil independente finalidade resumo' // busca no YouTube
+  },
+
+  // ---- Economia (ec51–ec53) ----
+  {
+    id: 'ec51',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Protecionismo',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O protecionismo comercial de um país consiste em:', // pergunta
+    alternativas: [                     // opções
+      'eliminar todas as tarifas', // opção
+      'criar barreiras — tarifas, cotas, subsídios — para proteger a indústria nacional da concorrência estrangeira', // correta
+      'abrir o mercado sem regras', // opção
+      'proibir o turismo', // opção
+      'aumentar os impostos de renda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Protecionismo = política de "proteger" a produção interna: imposto de importação, cota, exigência técnica, subsídio. O oposto é o livre-comércio. Trade-off da prova: protege empregos locais, mas encarece produtos e reduz eficiência.', // explicação
+    dica: 'FUNDATEC inverte protecionismo × livre-comércio: proteger = fechar/taxar; livre = abrir/tarifa zero. Exemplo histórico brasileiro: a "reserva de mercado" da informática nos anos 80.', // pegadinha
+    video: 'protecionismo livre comercio tarifas resumo' // busca no YouTube
+  },
+  {
+    id: 'ec52',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Bolha especulativa',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Uma "bolha especulativa" no mercado financeiro ou imobiliário acontece quando:', // pergunta
+    alternativas: [                     // opções
+      'os juros ficam negativos', // opção
+      'o governo congela preços', // opção
+      'a economia cresce devagar', // opção
+      'o preço de um ativo sobe muito acima do seu valor real por expectativa e especulação — até estourar em queda brusca', // correta
+      'há muita poupança', // opção
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Bolha = preço inflado por otimismo contagiante (todo mundo compra porque "vai subir"), descolado do valor real. Estoura quando a confiança quebra — como a crise imobiliária de 2008 ou a tulipa holandesa de 1637.', // explicação
+    dica: 'IBGP descreve crises comuns: a marca da bolha é PREÇO ≠ VALOR + expectativa irracional. Gatilho e efeito: sobe demais → estoura → recessão. Tulipas de 1637 e imóveis de 2008 são os exemplos de prova.', // pegadinha
+    video: 'bolha especulativa crise 2008 tulipas resumo' // busca no YouTube
+  },
+  {
+    id: 'ec53',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Microcrédito',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O microcrédito é um instrumento de inclusão financeira que consiste em:', // pergunta
+    alternativas: [                     // opções
+      'empréstimos de pequenos valores a empreendedores de baixa renda, com garantias simplificadas', // correta
+      'empréstimos bilionários a bancos', // opção
+      'doação de dinheiro do governo', // opção
+      'cartão de crédito sem limite', // opção
+      'poupança obrigatória', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Microcrédito = empréstimo pequeno e simplificado para quem não tem garantias tradicionais — capital de giro de ambulante, costureira, MEI. O modelo ganhou fama com Muhammad Yunus (Grameen Bank), Nobel da Paz de 2006.', // explicação
+    dica: 'Instituto Mais confunde com doação: microcrédito é EMPRÉSTIMO — pequeno, com juros acessíveis e garantia simplificada. Referência imbatível: Muhammad Yunus + Grameen + Nobel da Paz 2006.', // pegadinha
+    video: 'microcredito muhammad yunus inclusao financeira resumo' // busca no YouTube
+  },
+
+  // ---- Informática (i39–i42) ----
+  {
+    id: 'i39',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Excel — formatação condicional', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A formatação condicional do Excel permite:', // pergunta
+    alternativas: [                     // opções
+      'apagar células automaticamente', // opção
+      'imprimir mais rápido', // opção
+      'alterar automaticamente a aparência da célula (cor, fonte) conforme o valor — ex.: pintar de vermelho notas abaixo de 6', // correta
+      'criar senha na planilha', // opção
+      'somar os valores', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Formatação condicional muda o FORMATO conforme uma regra: "se o valor < 6, fundo vermelho". O valor não muda — só a aparência. Serve para destacar metas, alertas e padrões sem fórmula.', // explicação
+    dica: 'FUNDATEC confunde formatar com calcular: formatação condicional MUDA A COR, não o valor — não soma, não apaga, não filtra. O gatilho é "destacar visualmente conforme regra".', // pegadinha
+    video: 'excel formatacao condicional cor celula resumo' // busca no YouTube
+  },
+  {
+    id: 'i40',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Hardware — SSD x HD',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A principal diferença entre um SSD e um HD tradicional é que:', // pergunta
+    alternativas: [                     // opções
+      'o SSD tem disco giratório mais rápido', // opção
+      'o SSD usa memória flash sem partes móveis — mais rápido, silencioso e resistente a impactos, embora mais caro por GB', // correta
+      'o HD é uma placa de vídeo', // opção
+      'o SSD é o processador', // opção
+      'não há diferença', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'HD = disco magnético girando com braço leitor (mecânico); SSD = chips de memória flash, sem partes móveis — liga o sistema e abre arquivos muito mais rápido, mas custa mais por gigabyte.', // explicação
+    dica: 'Copeve inverte: quem tem disco girando é o HD; o SSD é "sólido" (solid-state), sem peças móveis. Resumo da prova: SSD = rápido e caro; HD = lento e barato por GB.', // pegadinha
+    video: 'ssd vs hd diferenca memoria flash resumo' // busca no YouTube
+  },
+  {
+    id: 'i41',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Sistemas operacionais',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O Linux diferencia-se do Windows principalmente por ser:', // pergunta
+    alternativas: [                     // opções
+      'um antivírus', // opção
+      'um editor de texto', // opção
+      'um tipo de processador', // opção
+      'um sistema operacional de código aberto e gratuito, com várias distribuições (Ubuntu, Mint, Debian)', // correta
+      'um navegador web', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Linux é SO livre e de código aberto: qualquer um pode usar, estudar e distribuir — por isso tem "distribuições" (Ubuntu, Mint, Debian, Fedora). Windows é proprietário (Microsoft, pago/licenciado). Android e servidores rodam Linux.', // explicação
+    dica: 'Selecon mistura software e hardware: Linux é SISTEMA OPERACIONAL, não programa nem peça. Palavra-chave: "código aberto" e "distribuições" = Linux; padrão proprietário = Windows.', // pegadinha
+    video: 'linux sistema operacional codigo aberto resumo' // busca no YouTube
+  },
+  {
+    id: 'i42',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança — senhas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Uma senha considerada forte é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'tem só números iguais', // opção
+      'é o nome do usuário', // opção
+      'usa só letras minúsculas', // opção
+      'combina letras maiúsculas e minúsculas, números e símbolos, com bom comprimento e sem dados pessoais óbvios', // correta
+      'é "123456" ou "senha"', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Senha forte: longa (12+), misturando maiúsculas/minúsculas/números/símbolos, única por serviço e sem nome, data ou "123456". Gestor de senhas + autenticação em 2 fatores completam a proteção.', // explicação
+    dica: 'Instituto Mais lista as senhas mais vazadas do mundo como distrator: "123456", "senha", "qwerty". Regra: comprimento e variedade valem mais que trocar com frequência; 2FA é a camada extra.', // pegadinha
+    video: 'senha forte seguranca autenticacao resumo' // busca no YouTube
+  },
 ];
