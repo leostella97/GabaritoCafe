@@ -27890,4 +27890,422 @@ const BancoQuestoes = [
     dica: 'Instituto Mais troca entrada × saída: ENTRADA = vai para dentro (teclado, mouse, scanner, microfone, webcam); SAÍDA = vem para fora (monitor, impressora, fone). A classificação é do ponto de vista DO COMPUTADOR.', // pegadinha
     video: 'perifericos entrada saida impressora resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 4, bloco 4/4 LÍNGUAS/SAÚDE/GESTÃO:
+  // Português p49–51, Inglês e43–46, Biologia b53–55,
+  // Fisiologia fs44–46, Educação Física ef43–46, Administração ad52–54.
+  // ============================================================
+
+  // ---- Língua Portuguesa (p49–p51) ----
+  {
+    id: 'p49',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Objeto indireto — lhe',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Em "Entreguei o documento a ele" reescrito como "Entreguei-lhe o documento", o pronome "lhe" exerce função de:', // pergunta
+    alternativas: [                     // opções
+      'objeto direto', // opção
+      'sujeito', // opção
+      'objeto indireto — "lhe" substitui complemento regido por preposição (a ele)', // correta
+      'adjunto adnominal', // opção
+      'predicativo', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Lhe" é o pronome oblíquo do objeto INDIRETO: substitui "a ele/ela/você" — "dou-lhe o livro" = dou o livro a ele. O objeto DIRETO usa o/a/os/as — "eu o vi". A confusão "eu vi ele" x "vi-o" é a pegadinha.', // explicação
+    dica: 'FUNDATEC troca os dois objetos: LHE só vale para objeto indireto (verbo + preposição: dar A, obedecer A); objeto direto = o/a/os/as. "Eu lhe vi" é erro clássico — ver é objeto direto (eu o vi).', // pegadinha
+    video: 'pronome lhe objeto indireto resumo' // busca no YouTube
+  },
+  {
+    id: 'p50',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Verbos defectivos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Os verbos defectivos — como "colorir", "falir" e "explodir" (no sentido de estourar) — são chamados assim porque:', // pergunta
+    alternativas: [                     // opções
+      'não possuem conjugação completa — faltam algumas pessoas/tempos que soariam estranhos ou foram abolidos pelo uso', // correta
+      'são sempre irregulares', // opção
+      'têm significado duplo', // opção
+      'são sempre transitivos', // opção
+      'são só verbos auxiliares', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Verbos defectivos faltam conjugações: "eu coloro" soa estranho e não se usa — só vão as formas normais (tu colores, eles colorem...). Outros defectivos: falir, adequar, reaver, explodir (no sentido de estourar). "Haver" no sentido de existir é o mais cobrado.', // explicação
+    dica: 'IBGP confunde defectivo com irregular: irregular muda a FORMA (eu faço, eu vou); defectivo PERDE a conjugação (não há "eu coloro"). "Falir" só se conjuga nas 3as pessoas — ninguém diz "eu falo".', // pegadinha
+    video: 'verbos defectivos colorir falir resumo' // busca no YouTube
+  },
+  {
+    id: 'p51',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Advérbios',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os advérbios são palavras que:', // pergunta
+    alternativas: [                     // opções
+      'substituem nomes', // opção
+      'modificam o verbo, o adjetivo ou o próprio advérbio — indicando tempo, lugar, modo, intensidade ou negação', // correta
+      'concordam em gênero e número', // opção
+      'sempre terminam em -mente', // opção
+      'são apenas de modo', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Advérbio é palavra invariável que modifica ação/qualidade: tempo (hoje, já, logo), lugar (aqui, ali), modo (bem, mal, lentamente), intensidade (muito, bastante), negação (não, jamais), afirmação e dúvida.', // explicação
+    dica: 'Copeve reduz o rol: advérbio não é só "-mente" — há muitos sem (hoje, aqui, muito, não). E é INVARIÁVEL: "a aluna muito estudiosa" — muito não vira "muita" mesmo com feminino.', // pegadinha
+    video: 'adverbios tempo lugar modo intensidade resumo' // busca no YouTube
+  },
+
+  // ---- Inglês (e43–e46) ----
+  {
+    id: 'e43',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Present perfect — just/already/yet', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Os advérbios just, already e yet no present perfect significam, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'nunca, sempre, talvez', // opção
+      'agora há pouco/acabou de, já, ainda/já (yet em negativa/pergunta)', // correta
+      'ontem, hoje, amanhã', // opção
+      'sempre, nunca, às vezes', // opção
+      'aqui, ali, lá', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'JUST = acabou de ("I\'ve just arrived"); ALREADY = já ("I\'ve already eaten"); YET = ainda/já em negativa e pergunta ("Have you finished yet?", "I haven\'t finished yet"). São os marcadores do present perfect.', // explicação
+    dica: 'FUNDATEC troca yet × already: YET é de negativa/pergunta e vai no FIM; ALREADY é de afirmativa e fica no meio (have already done). "Just" = acabou de, imediatamente antes.', // pegadinha
+    video: 'present perfect just already yet resumo' // busca no YouTube
+  },
+  {
+    id: 'e44',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Imperativo',                 // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'As frases "Open the door" e "Don\'t be late" são exemplos de:', // pergunta
+    alternativas: [                     // opções
+      'perguntas', // opção
+      'futuro', // opção
+      'condicionais', // opção
+      'declarações', // opção
+      'imperativo — ordem ou instrução direta, sem sujeito explícito', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O imperativo usa o verbo base sem sujeito — "Open!", "Sit down", "Don\'t touch". O "Don\'t" forma a ordem negativa. É o modo dos comandos, das instruções e dos avisos de segurança.', // explicação
+    dica: 'Selecon confunde com pergunta ou declaração: imperativo NÃO tem sujeito — começa direto no verbo. "Please + verbo" é a versão polida; "Don\'t/Let\'s" são os formatos negativo e sugestivo.', // pegadinha
+    video: 'imperativo ingles ordem instrucao resumo' // busca no YouTube
+  },
+  {
+    id: 'e45',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Possessivos — whose/\'s',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Para perguntar "de quem é", usa-se o possessivo:', // pergunta
+    alternativas: [                     // opções
+      'who', // opção
+      'which', // opção
+      'whose — "Whose book is this?" = de quem é este livro?', // correta
+      'what', // opção
+      'where', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'WHOSE = de quem — posse. Já o genitivo saxão ("\'s") marca posse no possuidor: "Maria\'s car" = o carro de Maria. Diferente do who (quem) e do which (qual).', // explicação
+    dica: 'Copeve troca whose × who: WHOSE pede posse (de quem); WHO pede sujeito (quem). E o \'s: "John\'s book" — atenção que também é contração de is (John\'s tall). Contexto desempata.', // pegadinha
+    video: 'whose genitivo saxao possessivo ingles resumo' // busca no YouTube
+  },
+  {
+    id: 'e46',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Contáveis x incontáveis',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Em inglês, "fewer" e "less" se usam corretamente assim:', // pergunta
+    alternativas: [                     // opções
+      'fewer para substantivos CONTÁVEIS (fewer cars) e less para INCONTÁVEIS (less water)', // correta
+      'less para tudo', // opção
+      'fewer para líquidos', // opção
+      'são sinônimos exatos', // opção
+      'less só para pessoas', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'FEWER = contáveis (fewer cars, fewer people); LESS = incontáveis (less water, less time, less money). Igual a many/much: many para o que se conta, much para o que se mede. O inglês separa rigorosamente.', // explicação
+    dica: 'Instituto Mais inverte: "less cars" é o erro de nativo e de prova — correto é FEWER cars. Regra do dedo: pode numerar (car, book, person)? fewer. Não pode (água, dinheiro, tempo)? less.', // pegadinha
+    video: 'fewer less contaveis incontaveis ingles resumo' // busca no YouTube
+  },
+
+  // ---- Biologia (b53–b55) ----
+  {
+    id: 'b53',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Decompositores',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Os decompositores — fungos e bactérias — têm como papel ecológico:', // pergunta
+    alternativas: [                     // opções
+      'produzir energia solar', // opção
+      'serem o topo da cadeia', // opção
+      'não ter função ecológica', // opção
+      'decompor a matéria orgânica morta, devolvendo nutrientes ao solo para que produtores os reutilizem — fechando os ciclos', // correta
+      'fixar nitrogênio do ar', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Decompositores quebram restos e excretas: transformam matéria orgânica em nutrientes minerais que voltam ao solo/água — fechando o ciclo do carbono, do nitrogênio e dos demais. Sem eles, a matéria ficaria "trancada" nos mortos.', // explicação
+    dica: 'FUNDATEC joga a cadeia errada: decompositores não são "topo" nem produtores — são os RECICLADORES. Sem decomposição, nutrientes não voltam e a teia trava. Fungos + bactérias = a dupla da prova.', // pegadinha
+    video: 'decompositores fungos bacterias ciclo resumo' // busca no YouTube
+  },
+  {
+    id: 'b54',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Verminoses e saneamento',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'As verminoses (ascaridíase, esquistossomose, ancilostomíase) estão ligadas principalmente a:', // pergunta
+    alternativas: [                     // opções
+      'contato com animais domésticos', // opção
+      'falta de saneamento básico, água contaminada e higiene precária — contágio por ovos/larvas no solo ou na água', // correta
+      'ar condicionado', // opção
+      'alimentos importados', // opção
+      'herança genética', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os vermes se transmitem por ovos/larvas em água, solo ou alimento contaminados — o saneamento básico (esgoto, água tratada) e a higiene são a prevenção. Crescem onde a infraestrutura sanitária falha.', // explicação
+    dica: 'IBGP troca vetor por causalidade: verminose não é genética nem de ar-condicionado — é de SANEAMENTO. "Água contaminada + solo + higiene" é o trio da prevenção. Chikungunya (aedes) é doença diferente.', // pegadinha
+    video: 'verminoses saneamento agua contaminada resumo' // busca no YouTube
+  },
+  {
+    id: 'b55',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Células-tronco',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'As células-tronco são células com a capacidade de:', // pergunta
+    alternativas: [                     // opções
+      'produzir anticorpos', // opção
+      'transportar oxigênio', // opção
+      'serem sempre vegetais', // opção
+      'existirem só no sangue', // opção
+      'se diferenciarem em outros tipos de célula — autorrenovando-se e especializando-se (osso, sangue, pele...) conforme o corpo precisa', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Células-tronco são as "mestras": não diferenciadas, dividem-se indefinidamente e dão origem a células especializadas. No adulto ficam na medula e no cordão umbilical; as embrionárias são pluripotentes. Promessa de terapia celular.', // explicação
+    dica: 'Copeve inventa restrições: não são só do sangue nem só embrionárias — existem nos tecidos adultos (medula óssea, gordura) e no cordão. "Pluripotente" = gera muitos tipos; "totipotente" = gera qualquer tecido do embrião.', // pegadinha
+    video: 'celulas tronco pluripotente medula resumo' // busca no YouTube
+  },
+
+  // ---- Fisiologia (fs44–fs46) ----
+  {
+    id: 'fs44',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Enzimas digestivas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Na digestão humana, a enzima que inicia a quebra dos carboidratos na boca é:', // pergunta
+    alternativas: [                     // opções
+      'a pepsina', // opção
+      'a lipase', // opção
+      'a amilase salivar (ptialina) — começa a digerir o amido ainda na boca', // correta
+      'a tripsina', // opção
+      'o ácido clorídrico', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A digestão química começa na boca: a ptialina (amilase salivar) quebra o amido. No estômago a pepsina (com HCl) ataca proteínas; no intestino, tripsina, lipase e o suco pancreático terminam o serviço.', // explicação
+    dica: 'FUNDATEC troca enzima por órgão: pepsina = ESTÔMAGO/proteína; amilase = BOCA/carboidrato; lipase = gordura no intestino; tripsina = proteína no intestino. HCl é ácido, não enzima — abre a pepsina.', // pegadinha
+    video: 'enzimas digestivas amilase pepsina resumo' // busca no YouTube
+  },
+  {
+    id: 'fs45',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Arco reflexo',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O reflexo — como retirar a mão de algo quente antes mesmo de sentir a dor — acontece porque:', // pergunta
+    alternativas: [                     // opções
+      'o cérebro decide rápido', // opção
+      'a medula espinhal gera a resposta automática antes de o sinal chegar ao cérebro (arco reflexo)', // correta
+      'a dor viaja devagar', // opção
+      'o músculo decide', // opção
+      'é uma reação de medo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O arco reflexo: estímulo → neurônio sensitivo → medula → neurônio motor → resposta — sem passar pelo cérebro. Por isso você tira a mão ANTES de "sentir" a dor (o sinal sobe depois, para o cérebro registrar).', // explicação
+    dica: 'Selecon inverte a ordem: primeiro vem a ação (medula), depois a consciência (cérebro). Reflexo = proteção rápida — reflexo patelar (martelinho no joelho) é o teste clássico do neurologista.', // pegadinha
+    video: 'arco reflexo medula espinhal resposta resumo' // busca no YouTube
+  },
+  {
+    id: 'fs46',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sentidos — olfato',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O olfato humano funciona pela detecção de moléculas químicas do ar na:', // pergunta
+    alternativas: [                     // opções
+      'língua', // opção
+      'orelha', // opção
+      'pele', // opção
+      'mucosa olfativa no teto da cavidade nasal — onde neurônios receptores mandam o sinal direto ao bulbo olfatório', // correta
+      'boca', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'As moléculas odoríferas sobem à mucosa olfativa (topo do nariz) e ativam neurônios receptores que levam o sinal ao bulbo olfatório e ao cérebro — é por isso que o olfato se liga tanto à memória e à emoção (sistema límbico).', // explicação
+    dica: 'Instituto Mais troca olfato por paladar: olfato = NARIZ (quimiorreceptor de ar); paladar = LÍNGUA (papilas). O sabor que sentimos é na verdade olfato+paladar juntos — gripe tampa o olfato e "a comida perde o gosto".', // pegadinha
+    video: 'olfato mucosa olfativa bulbo resumo' // busca no YouTube
+  },
+
+  // ---- Educação Física (ef43–ef46) ----
+  {
+    id: 'ef43',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Maratona — origem',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A maratona, prova de 42,195 km, tem nome e origem em:', // pergunta
+    alternativas: [                     // opções
+      'uma cidade espanhola', // opção
+      'a lenda do soldado grego que correu de Maratona a Atenas para anunciar a vitória sobre os persas', // correta
+      'um imperador romano', // opção
+      'um médico sueco', // opção
+      'um festival inglês', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lenda: Fidípides correu os ~40 km de Maratona a Atenas anunciando a vitória de 490 a.C. — e morreu ao chegar. A prova entrou nas Olimpíadas de 1896 e o 42,195 km foi fixado em Londres 1908.', // explicação
+    dica: 'FUNDATEC inventa origens: o nome vem da BATALHA/CIDADE de Maratona (Grécia), não de pessoa. E os 42,195 km foram padronizados em Londres 1908 (para a rainha ver a chegada) — não é o número "exato" da lenda.', // pegadinha
+    video: 'maratona origem fidipides 42 km resumo' // busca no YouTube
+  },
+  {
+    id: 'ef44',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Novos esportes olímpicos',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Skate e surfe entraram no programa olímpico recentemente (Tóquio 2020), o que mostra:', // pergunta
+    alternativas: [                     // opções
+      'o fim dos esportes tradicionais', // opção
+      'só esportes americanos', // opção
+      'esportes de inverno', // opção
+      'proibição de esportes urbanos', // opção
+      'a atualização do programa olímpico com esportes urbanos e de estilo de vida, buscando público jovem — Rayssa Leal levou o Brasil ao pódio no skate', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O COI abriu o programa para atrair o público jovem: skate, surfe, escalada e breaking entraram nos jogos de Tóquio 2020 e Paris 2024. Rayssa Leal (skate, bronze aos 13 anos) é o rosto brasileiro da mudança.', // explicação
+    dica: 'IBGP cobra a inovação: o programa olímpico NÃO é fixo — entram e saem esportes (baseball saiu, skate entrou). E o gancho Brasil: Rayssa Leal na final do skate street em Tóquio é o fato de atualidade esportiva.', // pegadinha
+    video: 'skate surfe olimpiadas toquio rayssa leal resumo' // busca no YouTube
+  },
+  {
+    id: 'ef45',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte eletrônico (eSports)', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Os eSports (esportes eletrônicos) são competições:', // pergunta
+    alternativas: [                     // opções
+      'somente de consoles antigos', // opção
+      'que não exigem treino', // opção
+      'organizadas de videogame, com equipes profissionais, treinamento, torneios e transmissão — com exigências de reflexo, estratégia e trabalho em equipe', // correta
+      'apenas de celular', // opção
+      'ilegais no Brasil', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O eSport é competição profissional de videogame (League of Legends, CS, Valorant, FIFA): atletas treinam horas por dia, técnicos analisam e há torneios com prêmios milionários e público de arenas. É indústria global do entretenimento.', // explicação
+    dica: 'Selecon reduz a "jogo": eSport é PROFISSIONAL — salário, treinador, psicólogo, análise de dados, torneio. A discussão de prova: é "esporte" ou não? O Brasil já regulamentou; a exigência física é menor, mas a mental/tática é real.', // pegadinha
+    video: 'esports esporte eletronico profissional resumo' // busca no YouTube
+  },
+  {
+    id: 'ef46',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte mental — xadrez',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O xadrez é reconhecido como "esporte da mente" porque:', // pergunta
+    alternativas: [                     // opções
+      'não exige concentração', // opção
+      'é só um passatempo', // opção
+      'é proibido em escolas', // opção
+      'tem treinamento, competição e preparação mental rigorosa — a Federação Internacional reconhece-o como esporte', // correta
+      'é um jogo de azar', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A FIDE e o COI tratam o xadrez como esporte da mente: ranking, regras, competições e preparação física/mental de jogadores que treinam horas. Xeque-mate = o rei capturado em condição irreversível.', // explicação
+    dica: 'Instituto Mais joga "jogo de azar" e "passatempo" como distrator: xadrez é esporte de habilidade mental pura — sem sorte, com treino e ranking. Os movimentos das peças são a base escolar do jogo.', // pegadinha
+    video: 'xadrez esporte da mente treinamento resumo' // busca no YouTube
+  },
+
+  // ---- Administração (ad52–ad54) ----
+  {
+    id: 'ad52',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Missão, visão e valores',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No planejamento estratégico, a "visão" de uma organização é:', // pergunta
+    alternativas: [                     // opções
+      'o que ela vende hoje', // opção
+      'a missão histórica', // opção
+      'a lista de funcionários', // opção
+      'a imagem do futuro desejado — onde a organização quer chegar em longo prazo; a missão é o propósito atual e os valores são os princípios', // correta
+      'o organograma', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A tríade do planejamento: MISSÃO = razão de existir (o que faz hoje, para quem); VISÃO = onde quer chegar (o futuro aspirado); VALORES = os princípios que guiam a conduta. Definem a identidade e orientam a estratégia.', // explicação
+    dica: 'FUNDATEC troca missão × visão: MISSÃO é o presente/propósito ("o que fazemos"); VISÃO é o futuro ("onde vamos"); VALORES são os princípios ("como nos comportamos"). A ordem da prova é missão → visão → valores.', // pegadinha
+    video: 'missao visao valores planejamento estrategico resumo' // busca no YouTube
+  },
+  {
+    id: 'ad53',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Indicadores — KPI',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Um KPI (Key Performance Indicator) é:', // pergunta
+    alternativas: [                     // opções
+      'um software de RH', // opção
+      'um indicador-chave de desempenho — métrica quantificável que mede se a organização está atingindo o objetivo (ex.: taxa de entrega no prazo)', // correta
+      'um tipo de banco', // opção
+      'uma multa fiscal', // opção
+      'um benefício social', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'KPI = a métrica que importa para o objetivo: vendas, tempo de resposta, taxa de defeito, NPS, absenteísmo. Um bom KPI é específico, mensurável e ligado à meta — dá o norte do painel de controle.', // explicação
+    dica: 'Copeve confunde KPI com meta: KPI é a MÉDIDA do progresso, não a meta em si — meta é "chegar a 95%", KPI é "taxa de entrega no prazo". Nem toda métrica é KPI: só as que estão ligadas ao resultado estratégico.', // pegadinha
+    video: 'kpi indicador chave desempenho metrica resumo' // busca no YouTube
+  },
+  {
+    id: 'ad54',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Endomarketing',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O endomarketing é a estratégia de:', // pergunta
+    alternativas: [                     // opções
+      'vender só dentro da empresa', // opção
+      'fazer propaganda externa', // opção
+      'só usar redes sociais', // opção
+      'motivar salários altos', // opção
+      'usar o marketing voltado ao público interno — engajar, comunicar e alinhar os próprios funcionários, que são os "primeiros clientes"', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Endomarketing = marketing "para dentro": comunicação interna, capacitação, programas de reconhecimento e alinhamento da equipe à missão — funcionário engajado atende melhor o cliente externo.', // explicação
+    dica: 'Instituto Mais confunde com publicidade comum: endo = INTERNO. Não é anúncio ao público — é o marketing da empresa para seus funcionários (campanha interna, clima, comunicação). Cliente feliz começa com colaborador engajado.', // pegadinha
+    video: 'endomarketing marketing interno engajamento resumo' // busca no YouTube
+  },
 ];
