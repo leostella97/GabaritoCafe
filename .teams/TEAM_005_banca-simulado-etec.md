@@ -185,3 +185,34 @@
   118q). Rótulos detectados (Vunesp, CEBRASP, FATEC/ETEC…) inalterados.
 - `node --check` nos 3 js ✅ · `validar-idiomas` 276×3 ✅ ·
   `validar-banco` 1379/0 ✅ · `testar-analise` 10/10 ✅.
+
+---
+
+## Rodada 7 — filtros ligados no simulado (pedido do usuário)
+
+### Pedido
+- "linkar as informações": matéria → mostra bancas/dificuldades/níveis dela;
+  banca → matérias/dificuldades/níveis dela; dificuldade →
+  matérias/bancas/níveis; nível → matérias/bancas/dificuldades. E no edital
+  a banca detectada já gera simulado por banca (já existia — rodada 1).
+
+### O que mudou
+- `js/motor-simulado.js`: novo `facetas(filtros)` — conta as opções de cada
+  dimensão (matéria, banca, nível, ensino) **ignorando o próprio filtro**
+  (modelo de busca facetada: sem isso, marcar "FCC" zeraria as outras
+  bancas e seria impossível trocar).
+- `js/simulado.js`: `atualizarDisponiveis` agora aplica as facetas — os
+  `chip-num` de matéria/dificuldade/ensino mostram a contagem filtrada e
+  chips com 0 ficam `disabled` (exceto os ativos, para permitir desmarcar);
+  o select de banca reescreve o rótulo `nome (n)` e desabilita opções
+  zeradas (exceto a escolhida).
+- `css/componentes.css`: `.chip-opcao:disabled` (esmaecido + not-allowed).
+- `js/idioma.js`: +1 chave ×3 (276→277): `sim_ligados` — nota explicando
+  que os números se atualizam com os filtros.
+- `sw.js`: v10 → v11. README: linha de simulados documenta filtros ligados.
+
+### Verificação
+- Teste em Node (vm): Física → 11 bancas, níveis facil+médio, ensinos
+  médio+superior; Física+CEBRASP → níveis zeram sem travar o chip ativo;
+  FUNDATEC → 29 matérias. `node --check` ✅ · `validar-idiomas` 277×3 ✅ ·
+  `validar-banco` 1379/0 ✅ · `testar-analise` 10/10 ✅.

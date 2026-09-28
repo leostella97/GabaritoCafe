@@ -189,6 +189,7 @@ const Idioma = {
       sim_limpar: 'Limpar',                                 // limpar a seleção
       sim_sel_1: '1 matéria selecionada',                   // contador (singular)
       sim_sel_n: '{n} matérias selecionadas',               // contador (plural)
+      sim_ligados: '🔗 Os números ao lado de cada opção se atualizam conforme os filtros escolhidos — e o que zerar fica desabilitado.', // TEAM_005: dica dos filtros ligados
       sim_disp: '☕ Com esses filtros temos {n} questões no estoque. ', // aviso de estoque
       sim_disp_poucas: 'Relaxa os filtros para liberar mais!', // estoque baixo
       sim_disp_ok: 'Escolhe o tamanho aí em cima.',         // estoque ok
@@ -494,6 +495,7 @@ const Idioma = {
       sim_limpar: 'Clear',
       sim_sel_1: '1 subject selected',
       sim_sel_n: '{n} subjects selected',
+      sim_ligados: '🔗 The numbers next to each option update as you pick filters — whatever hits zero gets disabled.', // TEAM_005: linked filters hint
       sim_disp: '☕ With these filters we have {n} questions in stock. ',
       sim_disp_poucas: 'Loosen the filters to unlock more!',
       sim_disp_ok: 'Pick the size up there.',
@@ -799,6 +801,7 @@ const Idioma = {
       sim_limpar: 'Limpiar',
       sim_sel_1: '1 materia seleccionada',
       sim_sel_n: '{n} materias seleccionadas',
+      sim_ligados: '🔗 Los números junto a cada opción se actualizan según los filtros elegidos — lo que llegue a cero se deshabilita.', // TEAM_005: dica de filtros ligados
       sim_disp: '☕ Con estos filtros tenemos {n} preguntas en stock. ',
       sim_disp_poucas: '¡Relaja los filtros para liberar más!',
       sim_disp_ok: 'Elige el tamaño ahí arriba.',

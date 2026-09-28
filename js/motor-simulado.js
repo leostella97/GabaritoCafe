@@ -84,6 +84,34 @@ const MotorSimulado = {
     return pool.length;                                     // devolve o total disponível
   },
 
+  // TEAM_005: contagens facetadas — cada dimensão conta suas opções ignorando
+  // o próprio filtro (senão marcar "FCC" zeraria as outras bancas e você não
+  // poderia trocar). Assim os chips/select mostram "o que ainda dá" a cada
+  // seleção: matéria → bancas/níveis/ensinos; banca → matérias/níveis/ensinos...
+  facetas({ materias = [], banca = '', niveis = [], ensinos = [] }) {
+    // Uma questão passa quando atende TODOS os filtros, menos o ignorado na vez
+    const passa = (q, ignorar) =>
+      (ignorar === 'materias' || materias.length === 0 || materias.includes(q.materia)) && // filtro de matérias (ou ignora)
+      (ignorar === 'banca'    || !banca           || q.banca === banca) &&                 // filtro de banca (ou ignora)
+      (ignorar === 'niveis'   || niveis.length === 0 || niveis.includes(q.nivel)) &&       // filtro de dificuldade (ou ignora)
+      (ignorar === 'ensinos'  || ensinos.length === 0 || ensinos.includes(q.ensino));      // filtro de ensino (ou ignora)
+    const contar = (ignorar, campo) => {                    // conta um campo sob os demais filtros
+      const contagem = {};                                  // dicionário valor → quantidade
+      for (const q of BancoQuestoes) {                      // percorre todas as questões
+        if (passa(q, ignorar)) {                            // passou nos outros filtros?
+          contagem[q[campo]] = (contagem[q[campo]] || 0) + 1; // soma no valor do campo
+        }
+      }
+      return contagem;                                      // devolve o dicionário
+    };
+    return {                                                // um dicionário por dimensão
+      materias: contar('materias', 'materia'),              // matérias possíveis com os demais filtros
+      bancas:   contar('banca', 'banca'),                   // bancas possíveis
+      niveis:   contar('niveis', 'nivel'),                  // dificuldades possíveis
+      ensinos:  contar('ensinos', 'ensino')                 // níveis de ensino possíveis
+    };
+  },
+
   // Lista as matérias que existem no banco (com contagem de questões)
   materiasDoBanco() {
     const contagem = {};                                    // dicionário matéria → quantidade

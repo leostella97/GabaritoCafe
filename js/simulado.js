@@ -107,6 +107,9 @@ const SimuladoUI = {
       html += T('sim_edital_check', { n: e.materiasEdital.length }) + '</label>'; // rótulo traduzido
     }
 
+    // TEAM_005: aviso de que os números se atualizam conforme os filtros
+    html += '<p class="texto-suave" style="font-size:0.8rem;margin:0.2rem 0 0">' + T('sim_ligados') + '</p>'; // dica dos filtros ligados
+
     // Aviso de quantas questões estão disponíveis com os filtros atuais
     html += '<div id="sim-disponiveis" class="nota" style="margin-top:1rem"></div>'; // caixa de aviso
 
@@ -249,6 +252,32 @@ const SimuladoUI = {
       const qtd = parseInt(btn.dataset.qtd, 10);            // quantidade do botão
       btn.disabled = qtd > disponiveis;                     // desabilita se faltar estoque
     });
+
+    // TEAM_005: filtros ligados — as contagens de cada dimensão refletem os
+    // outros filtros ativos (escolheu matéria → bancas/níveis/ensinos encolhem;
+    // escolheu banca → matérias/níveis/ensinos encolhem; e assim por diante).
+    const fac = MotorSimulado.facetas({ materias, banca, niveis, ensinos }); // contagens facetadas
+    const ligarChips = (seletor, dado, dicionario) => {     // atualiza uma fileira de chips
+      document.querySelectorAll(seletor).forEach(chip => {  // percorre os chips
+        const n = dicionario[chip.dataset[dado]] || 0;      // contagem sob os demais filtros
+        const num = chip.querySelector('.chip-num');        // bolinha de quantidade
+        if (num) num.textContent = n;                       // atualiza o número
+        chip.disabled = n === 0 && !chip.classList.contains('ativa'); // zera? só desabilita se não estiver marcado
+      });
+    };
+    ligarChips('#sim-materias .chip-opcao', 'materia', fac.materias); // matérias sob banca+níveis+ensinos
+    ligarChips('#sim-niveis .chip-opcao', 'nivel', fac.niveis);       // dificuldades sob matérias+banca+ensinos
+    ligarChips('#sim-ensinos .chip-opcao', 'ensino', fac.ensinos);    // ensinos sob matérias+banca+níveis
+    // O select de banca mostra quantas questões cada banca tem sob os demais filtros
+    const selBanca = document.getElementById('sim-banca');  // o dropdown de banca
+    if (selBanca) {                                         // se existe na tela
+      Array.from(selBanca.options).forEach(op => {          // percorre as opções
+        if (!op.value) return;                              // a opção "todas" não tem contagem
+        const n = fac.bancas[op.value] || 0;                // contagem sob matérias+níveis+ensinos
+        op.textContent = op.value + ' (' + n + ')';         // refaz o rótulo com o número filtrado
+        op.disabled = n === 0 && !op.selected;              // zera? só desabilita se não for a escolhida
+      });
+    }
   },
 
   // Inicia o jogo: sorteia questões e mostra a primeira

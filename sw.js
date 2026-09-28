@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v10';                // TEAM_005: bump — modal de banca (clique → dicas + simulado + aula)
+const CACHE = 'gabarito-cafe-v11';                // TEAM_005: bump — filtros ligados no simulado (contagens facetadas)
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona

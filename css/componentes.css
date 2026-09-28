@@ -610,6 +610,12 @@
 
 .chip-opcao:hover { border-color: var(--caramelo); } /* acende no hover */
 
+.chip-opcao:disabled {                /* TEAM_005: filtro ligado zerou a opção */
+  opacity: 0.45;                      /* esmaecida */
+  cursor: not-allowed;                /* cursor de bloqueado */
+}
+.chip-opcao:disabled:hover { border-color: var(--borda); } /* sem hover quando zerada */
+
 .chip-opcao.ativa {                 /* matéria marcada */
   background: var(--cafe);          /* fundo café */
   border-color: var(--cafe);        /* borda café */
