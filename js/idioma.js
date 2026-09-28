@@ -227,6 +227,11 @@ const Idioma = {
       // Bancas e temas
       bancas_intro: 'Conhecer a banca é metade do caminho: cada uma tem manias, e aqui a gente expõe todas. 🕵️', // introdução
       bancas_pegadinhas_t: 'Pegadinhas favoritas:',         // rótulo da lista
+      bancas_cartao: 'Toque para ver as pegadinhas, a estratégia e montar um simulado desta banca', // TEAM_005: dica do cartão clicável
+      bancas_modal_questoes: 'Esta banca tem {n} questões no banco do Gabarito Café.', // TEAM_005: contagem no modal
+      bancas_modal_simulado: 'Montar simulado só com questões desta banca', // TEAM_005: botão do modal
+      bancas_modal_sem: 'Esta banca ainda não tem questões no banco — mas as dicas já ajudam.', // TEAM_005: sem questões
+      bancas_modal_aula: '▶️ Assistir vídeos sobre esta banca no YouTube', // TEAM_005: link de aulas
       conteudo_aviso: 'ℹ️ O conteúdo de estudo (resumos, pegadinhas e questões) é em português, porque são provas brasileiras.', // aviso de conteúdo
       temas_aba_concursos: '🎯 Concursos',                  // aba
       temas_aba_vest: '🎓 Vestibular',                      // aba
@@ -527,6 +532,11 @@ const Idioma = {
       // Boards and topics
       bancas_intro: 'Knowing the exam board is half the way: each one has quirks, and here we expose them all. 🕵️',
       bancas_pegadinhas_t: 'Favourite traps:',
+      bancas_cartao: 'Tap to see the traps, the strategy and build a mock exam with this board', // TEAM_005: clickable card hint
+      bancas_modal_questoes: 'This board has {n} questions in the Gabarito Café bank.', // TEAM_005: count in the modal
+      bancas_modal_simulado: 'Build a mock exam with only this board’s questions', // TEAM_005: modal button
+      bancas_modal_sem: 'This board has no questions in the bank yet — but the tips already help.', // TEAM_005: no questions
+      bancas_modal_aula: '▶️ Watch videos about this board on YouTube', // TEAM_005: lessons link
       conteudo_aviso: 'ℹ️ The study content (summaries, traps and questions) is in Portuguese, because these are Brazilian exams.',
       temas_aba_concursos: '🎯 Public exams',
       temas_aba_vest: '🎓 University entrance',
@@ -827,6 +837,11 @@ const Idioma = {
       // Comités y temas
       bancas_intro: 'Conocer al comité es la mitad del camino: cada uno tiene manías, y aquí las mostramos todas. 🕵️',
       bancas_pegadinhas_t: 'Trampas favoritas:',
+      bancas_cartao: 'Toca para ver las trampas, la estrategia y armar un simulacro de este comité', // TEAM_005: dica de la tarjeta
+      bancas_modal_questoes: 'Este comité tiene {n} preguntas en el banco de Gabarito Café.', // TEAM_005: conteo en el modal
+      bancas_modal_simulado: 'Armar simulacro solo con preguntas de este comité', // TEAM_005: botón del modal
+      bancas_modal_sem: 'Este comité aún no tiene preguntas en el banco — pero los consejos ya ayudan.', // TEAM_005: sin preguntas
+      bancas_modal_aula: '▶️ Ver videos sobre este comité en YouTube', // TEAM_005: enlace de clases
       conteudo_aviso: 'ℹ️ El contenido de estudio (resúmenes, trampas y preguntas) está en portugués, porque son exámenes brasileños.',
       temas_aba_concursos: '🎯 Oposiciones',
       temas_aba_vest: '🎓 Selectividad',

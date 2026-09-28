@@ -545,6 +545,19 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
   display: flex;                    /* coluna */
   flex-direction: column;           /* empilha conteúdo */
   gap: 0.7rem;                      /* respiro interno */
+  cursor: pointer;                  /* TEAM_005: mãozinha — abre o modal da banca */
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s; /* animação suave */
+}
+
+.banca-cartao:hover {               /* TEAM_005: avisa que o box é clicável */
+  border-color: var(--caramelo);    /* borda caramelo */
+  box-shadow: var(--sombra-media);  /* sombra de elemento flutuante */
+  transform: translateY(-2px);      /* sobe levemente */
+}
+
+.banca-cartao:focus-visible {       /* TEAM_005: foco por teclado (tabindex=0) */
+  outline: 3px solid var(--caramelo); /* contorno caramelo */
+  outline-offset: 2px;              /* respiro do contorno */
 }
 
 .banca-nome {                       /* nome da banca */

@@ -14,20 +14,68 @@ const ConteudoUI = {
     html += '<div class="nota" style="margin-bottom:1rem">' + T('conteudo_aviso') + '</div>'; // aviso de conteúdo em PT
     html += '<div class="grade-bancas">';                   // abre a grade de cartões
     for (const banca of DadosBancas.bancas) {               // percorre as bancas
-      html += '<div class="cartao banca-cartao aparecer">'; // abre o cartão
+      // TEAM_005: cartão clicável — abre o modal da banca (dicas + simulado + vídeo)
+      html += '<div class="cartao banca-cartao aparecer" data-banca="' + this.escape(banca.nome) + '" role="button" tabindex="0" title="' + T('bancas_cartao') + '">'; // abre o cartão clicável
       html += '<div class="banca-nome">' + this.escape(banca.nome) + '</div>'; // nome da banca
       html += '<p class="banca-perfil">' + this.escape(banca.perfil) + '</p>'; // perfil da banca
-      html += '<p style="font-weight:900;font-size:0.9rem">' + T('bancas_pegadinhas_t') + '</p>'; // título da lista
-      html += '<ul class="banca-lista">';                   // abre a lista de pegadinhas
-      for (const pegadinha of banca.pegadinhas) {           // percorre as pegadinhas
-        html += '<li>' + this.escape(pegadinha) + '</li>';  // item de pegadinha
-      }
-      html += '</ul>';                                      // fecha a lista
-      html += '<div class="banca-dica">💡 ' + this.escape(banca.comoSeDarBem) + '</div>'; // estratégia
+      html += '<p class="texto-suave" style="font-size:0.8rem;margin:0">🕵️ ' + T('bancas_cartao') + '</p>'; // dica de clique
       html += '</div>';                                     // fecha o cartão
     }
     html += '</div>';                                       // fecha a grade
     caixa.innerHTML = html;                                 // despeja na tela
+
+    // TEAM_005: clique no cartão abre o modal da banca (delegação na grade)
+    caixa.addEventListener('click', (e) => {                // clique na tela
+      const cartao = e.target.closest('.banca-cartao');     // foi num cartão de banca?
+      if (cartao) this.abrirModalBanca(cartao.dataset.banca); // abre o modal dela
+    });
+    // Enter/Espaço no cartão focado também abre (acessibilidade)
+    caixa.addEventListener('keydown', (e) => {              // tecla na tela
+      if (e.key !== 'Enter' && e.key !== ' ') return;       // só Enter e espaço
+      const cartao = e.target.closest('.banca-cartao');     // num cartão de banca?
+      if (cartao && e.target === cartao) {                  // foco no cartão em si
+        e.preventDefault();                                 // evita rolagem no espaço
+        this.abrirModalBanca(cartao.dataset.banca);         // abre o modal dela
+      }
+    });
+  },
+
+  // TEAM_005: modal da banca — perfil, pegadinhas, estratégia, simulado e aula
+  abrirModalBanca(nome) {
+    EditalUI.iniciarModal();                                // garante a fiação do modal em qualquer tela
+    const banca = DadosBancas.bancas.find(b => b.nome === nome); // acha a banca no catálogo
+    if (!banca) return;                                     // banca desconhecida? sai
+    // Casa o nome exibido com o nome que o banco de questões usa
+    const nomeNoBanco = EditalUI.bancaBancoDaDetectada(nome); // "CESPE / Cebraspe" → "CESPE/Cebraspe"
+    const infoBanco = nomeNoBanco                           // tem nome no banco?
+      ? MotorSimulado.bancasDoBanco().find(b => b.nome === nomeNoBanco) : null; // pega a contagem
+
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">🕵️ ' + this.escape(banca.nome) + '</h3>'; // título
+    html += '<p class="banca-perfil">' + this.escape(banca.perfil) + '</p>'; // perfil da banca
+    html += '<p style="font-weight:900;font-size:0.9rem;margin:0.8rem 0 0.3rem">' + T('bancas_pegadinhas_t') + '</p>'; // título da lista
+    html += '<ul class="banca-lista">';                     // abre a lista de pegadinhas
+    for (const pegadinha of banca.pegadinhas) {             // percorre as pegadinhas
+      html += '<li>' + this.escape(pegadinha) + '</li>';    // item de pegadinha
+    }
+    html += '</ul>';                                        // fecha a lista
+    html += '<div class="banca-dica">💡 ' + this.escape(banca.comoSeDarBem) + '</div>'; // estratégia
+
+    // Bloco de ações: simulado filtrado pela banca (quando ela tem questões no banco)
+    html += '<div style="margin-top:1rem">';                // abre a área de ações
+    if (infoBanco) {                                        // a banca tem questões no banco?
+      html += '<p class="texto-suave" style="font-size:0.85rem;margin:0 0 0.5rem">' + T('bancas_modal_questoes', { n: infoBanco.quantidade }) + '</p>'; // contagem de questões
+      html += '<button type="button" class="botao" data-sim-banca="' + this.escape(infoBanco.nome) + '">🎯 ' + T('bancas_modal_simulado') + '</button>'; // botão do simulado
+    } else {                                                // sem questões da banca
+      html += '<p class="texto-suave" style="font-size:0.85rem;margin:0 0 0.5rem">' + T('bancas_modal_sem') + '</p>'; // aviso honesto
+    }
+    // Link de aulas: busca do YouTube sobre a banca
+    const busca = 'banca ' + banca.nome + ' concurso dicas pegadinhas'; // termo da busca
+    const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a URL
+    html += '<a class="link-video" style="margin-top:0.6rem" href="' + url + '" target="_blank" rel="noopener">' + T('bancas_modal_aula') + '</a>'; // link de aulas
+    html += '</div>';                                       // fecha a área de ações
+
+    document.getElementById('modal-conteudo').innerHTML = html; // despeja no modal
+    document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal
   },
 
   // Desenha a tela de temas que mais caem

@@ -122,6 +122,13 @@ const EditalUI = {
       // TEAM_003: "todos os tópicos" volta da explicação para a visão da matéria
       const todos = e.target.closest('.link-todos-topicos');  // link de voltar aos tópicos
       if (todos) this.abrirModalMateria(todos.dataset.materia); // reabre o modal da matéria
+      // TEAM_005: botão "montar simulado" do modal de banca (tela Bancas)
+      const simBanca = e.target.closest('[data-sim-banca]');  // botão de simulado da banca
+      if (simBanca) {                                         // se clicou nele
+        this.fecharModal();                                   // fecha o modal
+        SimuladoUI.abrir({ banca: simBanca.dataset.simBanca, origem: 'bancas' }); // abre o simulado filtrado
+        App.irPara('simulado');                               // navega para a tela do simulado
+      }
     });
   },
 
@@ -387,8 +394,12 @@ const EditalUI = {
   bancaBancoDaDetectada(rotulo) {
     if (!rotulo) return '';                                 // sem banca detectada, sem sugestão
     const normal = AnaliseEdital.normalizar(rotulo);        // rótulo normalizado
+    // TEAM_005: achata os espaços em volta da "/" para igualar "CESPE / Cebraspe"
+    // e "CESPE/Cebraspe" — sem isso a contenção jogava CEBRASP no lugar.
+    const achatar = s => AnaliseEdital.normalizar(s).replace(/\s*\/\s*/g, '/'); // normaliza + achata a barra
+    const plano = achatar(rotulo);                          // rótulo achatado
     const bancas = MotorSimulado.bancasDoBanco();           // bancas que existem no banco
-    let alvo = bancas.find(b => AnaliseEdital.normalizar(b.nome) === normal); // 1) igualdade exata
+    let alvo = bancas.find(b => achatar(b.nome) === plano); // 1) igualdade exata (com "/" achatada)
     if (!alvo) {                                            // não achou exata? tenta contenção
       const candidatas = bancas.filter(b => {               // nomes que se contêm
         const n = AnaliseEdital.normalizar(b.nome);         // nome do banco normalizado

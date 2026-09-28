@@ -155,3 +155,33 @@
 
 ### Verificação
 - `validar-banco` **1379/0** ✅ por bloco · `node --check` ✅.
+
+---
+
+## Rodada 6 — modal da banca na tela "Bancas" (pedido do usuário)
+
+### O que mudou
+- `js/conteudo.js`: cartões de banca viraram clicáveis (`data-banca`,
+  role=button, tabindex) — clique ou Enter/Espaço abre `abrirModalBanca`,
+  que reusa o modal compartilhado `#modal-materia`: perfil completo,
+  pegadinhas, estratégia, contagem de questões no banco, botão
+  `data-sim-banca` "montar simulado só com questões desta banca" e link de
+  aulas no YouTube. Cartão fica resumido (nome + perfil + dica de clique).
+- `js/edital.js`: a delegação do modal ganhou o ramo `[data-sim-banca]` →
+  fecha o modal + `SimuladoUI.abrir({banca})` + `App.irPara('simulado')`.
+- **Bug corrigido em `bancaBancoDaDetectada`**: "CESPE / Cebraspe" (nome de
+  exibição, com espaços) caía na contenção e mapeava para **CEBRASP**
+  (que é substring de "CEBRASPE" e era o nome mais curto). Nova etapa de
+  igualdade exata achata espaços em volta da "/" (`\s*\/\s*` → `/`).
+- `js/idioma.js`: +5 chaves ×3 idiomas (271→276): `bancas_cartao`,
+  `bancas_modal_questoes`, `bancas_modal_simulado`, `bancas_modal_sem`,
+  `bancas_modal_aula`.
+- `css/telas.css`: `.banca-cartao` ganhou cursor/hover/focus como
+  `.tema-cartao`. `sw.js`: v9 → v10. README: linha de bancas atualizada.
+
+### Verificação
+- Mapeamento testado em Node (vm): as 10 bancas da tela casam com o nome
+  certo no banco — antes, CESPE/Cebraspe ia para CEBRASP (18q em vez de
+  118q). Rótulos detectados (Vunesp, CEBRASP, FATEC/ETEC…) inalterados.
+- `node --check` nos 3 js ✅ · `validar-idiomas` 276×3 ✅ ·
+  `validar-banco` 1379/0 ✅ · `testar-analise` 10/10 ✅.
