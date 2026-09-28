@@ -45,7 +45,8 @@ const ConteudoUI = {
       let conteudo = '<div class="grade-temas">';           // abre a grade
       const LIMITE_VISIVEL = 3;                             // TEAM_001: só os 3 primeiros tópicos aparecem
       for (const materia of lista) {                        // percorre as matérias
-        conteudo += '<div class="cartao aparecer">';        // abre o cartão
+        // TEAM_004: o box inteiro abre o modal da matéria — data-materia + role/tabindex para teclado
+        conteudo += '<div class="cartao tema-cartao aparecer" data-materia="' + this.escape(materia.materia) + '" role="button" tabindex="0" title="' + T('temas_cartao') + '">'; // abre o cartão clicável
         conteudo += '<h3>' + materia.icone + ' ' + this.escape(materia.materia) + '</h3>'; // título
         conteudo += '<p class="texto-suave" style="font-size:0.88rem">' + this.escape(materia.resumo) + '</p>'; // resumo
         materia.topicos.forEach((topico, i) => {            // percorre os tópicos
@@ -76,10 +77,26 @@ const ConteudoUI = {
         return;                                             // e não cai no "Ver mais…"
       }
       const btn = e.target.closest('.tema-ver-mais');       // foi no botão "Ver mais…"?
-      if (!btn) return;                                   // clique fora dele: ignora
-      const cartao = btn.closest('.cartao');              // o cartão dono do botão
-      const aberto = cartao.classList.toggle('aberto');   // alterna o estado aberto/fechado
-      btn.textContent = aberto ? T('ed_ver_menos') : T('ed_ver_mais'); // troca o rótulo
+      if (btn) {                                          // clicou no expandir
+        const dono = btn.closest('.cartao');              // o cartão dono do botão
+        const aberto = dono.classList.toggle('aberto');   // alterna o estado aberto/fechado
+        btn.textContent = aberto ? T('ed_ver_menos') : T('ed_ver_mais'); // troca o rótulo
+        return;                                         // TEAM_004: não cai no clique do cartão
+      }
+      // TEAM_004: clique no resto do box abre o modal da matéria (lista de tópicos)
+      const cartao = e.target.closest('.tema-cartao');    // foi dentro de um cartão de matéria?
+      if (cartao) EditalUI.abrirModalMateria(cartao.dataset.materia); // abre o modal dela
+    });
+
+    // TEAM_004: Enter/Espaço no cartão focado abre o modal da matéria (teclado)
+    document.getElementById('lista-temas').addEventListener('keydown', (e) => { // tecla na lista
+      if (e.key !== 'Enter' && e.key !== ' ') return;       // só Enter e espaço
+      const cartao = e.target.closest('.tema-cartao');      // num cartão de matéria?
+      // Só quando o foco é o próprio cartão — botões internos cuidam de si
+      if (cartao && e.target === cartao) {                  // foco no cartão em si
+        e.preventDefault();                                 // evita rolagem no espaço
+        EditalUI.abrirModalMateria(cartao.dataset.materia); // abre o modal dela
+      }
     });
 
     // Liga as abas

@@ -93,6 +93,18 @@ const EditalUI = {
       if (alvo) { e.preventDefault(); this.abrirModalMateria(alvo.dataset.materia); } // abre o modal
     });
 
+    this.iniciarModal();                                    // liga os eventos do modal (também em edital)
+  },
+
+  // TEAM_004: liga os eventos do modal (✕, véu, Esc e cliques internos).
+  // Separado de iniciar() porque o modal abre fora da tela do edital também
+  // (ex.: "Temas que caem") — antes só ligava ao visitar o edital e o modal
+  // ficava travado nas outras telas. Idempotente; abrirModalMateria e
+  // abrirModalTopico chamam para garantir a fiação em qualquer tela.
+  iniciarModal() {
+    if (this._modalLigado) return;                            // já ligado? Não duplica eventos
+    this._modalLigado = true;                                 // marca como ligado para sempre
+
     // Modal: fecha no X, no véu escuro e na tecla Esc
     const modal = document.getElementById('modal-materia');   // o véu do modal
     document.getElementById('modal-fechar').addEventListener('click', () => this.fecharModal()); // botão X
@@ -507,6 +519,7 @@ const EditalUI = {
 
   // Abre o modal de uma matéria: tópicos do edital + os que mais caem
   abrirModalMateria(rotulo) {
+    this.iniciarModal();                                        // TEAM_004: garante a fiação em qualquer tela
     // Procura o resumo e os tópicos-chave dessa matéria nos dois catálogos
     const plano = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta os catálogos
       .find(t => t.materia === rotulo);                            // acha pelo nome
@@ -577,6 +590,7 @@ const EditalUI = {
 
   // Abre o modal direto num tópico (clique no chip da seção "O que o edital pede")
   abrirModalTopico(rotuloMateria, nomeTopico) {
+    this.iniciarModal();                                        // TEAM_004: garante a fiação em qualquer tela
     // Procura o plano da matéria nos dois catálogos (mesmo critério de abrirModalMateria)
     const plano = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta os catálogos
       .find(t => t.materia === rotuloMateria);                     // acha pelo nome

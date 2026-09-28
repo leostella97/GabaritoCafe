@@ -767,6 +767,23 @@
 .cartao.aberto .tema-extra { display: block; } /* TEAM_001: o "Ver mais…" revela o restante */
 .tema-ver-mais { display: inline-block; margin-top: 0.5rem; } /* TEAM_001: respiro do botão */
 
+/* TEAM_004: box de matéria clicável — clique abre o modal da matéria */
+.tema-cartao {                            /* cartão de matéria na tela de temas */
+  cursor: pointer;                        /* mãozinha no box inteiro */
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s; /* animação suave */
+}
+
+.tema-cartao:hover {                      /* avisa que o box é clicável */
+  border-color: var(--caramelo);          /* borda caramelo */
+  box-shadow: var(--sombra-media);        /* sombra de elemento flutuante */
+  transform: translateY(-2px);            /* sobe levemente */
+}
+
+.tema-cartao:focus-visible {              /* foco por teclado (tabindex=0) */
+  outline: 3px solid var(--caramelo);     /* contorno caramelo */
+  outline-offset: 2px;                    /* respiro do contorno */
+}
+
 /* ---------- Botão "Instalar app" (PWA) ---------- */
 
 .btn-instalar {                            /* TEAM_002: botão de instalação do app */

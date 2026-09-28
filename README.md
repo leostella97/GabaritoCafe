@@ -54,7 +54,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | 🔁 **Revisão** | Tela própria que junta as questões erradas de todos os simulados: **Nova revisão** monta um simulado só com elas, **Detalhes** mostra cada uma com explicação, passo a passo, pegadinha e aula no YouTube, e os checkboxes **"Lembrar em"** (3, 5, 7 ou 30 dias) agendam lembretes — passado o prazo, o site avisa (torrada + 🔔 no menu). Quem acerta na revisão sai da lista. |
 | 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, gráfico de evolução e desempenho por matéria. |
 | 🕵️ **Bancas** | 10 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, CEBRASP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. |
-| 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. |
+| 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. **Clicar no cartão abre o modal da matéria com todos os tópicos; clicar num tópico abre a explicação (por que cai + como estudar) e um link de aula no YouTube.** |
 | 🔐 **Login local** | Criar conta, entrar ou modo visitante. Senhas guardadas com hash — tudo no localStorage do navegador. |
 | 🌙 **Tema claro / escuro** | Botão que troca o visual na hora (tema escuro "café à noite", bem confortável de madrugada) e guarda a escolha. |
 | 🌎 **Três idiomas** | Português 🇧🇷, English 🇺🇸 e Español 🇪🇸 com bandeirinhas. A interface toda é traduzida; o conteúdo das questões fica em português (são provas brasileiras). |

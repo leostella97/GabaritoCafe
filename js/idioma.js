@@ -230,6 +230,7 @@ const Idioma = {
       temas_aba_concursos: '🎯 Concursos',                  // aba
       temas_aba_vest: '🎓 Vestibular',                      // aba
       temas_porque: 'Por quê: ',                             // rótulo do motivo
+      temas_cartao: 'Clique no cartão para ver os tópicos da matéria', // TEAM_004: dica do box clicável
 
       // Tela de dicas
       nav_dicas: '💡 Dicas',                                 // item do menu
@@ -525,6 +526,7 @@ const Idioma = {
       temas_aba_concursos: '🎯 Public exams',
       temas_aba_vest: '🎓 University entrance',
       temas_porque: 'Why: ',
+      temas_cartao: 'Click the card to see the subject topics', // TEAM_004: clickable box hint
 
       // Tips screen
       nav_dicas: '💡 Tips',
@@ -820,6 +822,7 @@ const Idioma = {
       temas_aba_concursos: '🎯 Oposiciones',
       temas_aba_vest: '🎓 Selectividad',
       temas_porque: '¿Por qué? ',
+      temas_cartao: 'Toca la tarjeta para ver los temas de la materia', // TEAM_004: pista de la tarjeta
 
       // Pantalla de consejos
       nav_dicas: '💡 Consejos',
