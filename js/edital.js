@@ -77,6 +77,9 @@ const EditalUI = {
     resultado.addEventListener('click', (e) => {              // clique na matéria
       const alvo = e.target.closest('.materia-nome[data-materia]'); // nome clicável
       if (alvo) this.abrirModalMateria(alvo.dataset.materia); // abre o modal dela
+      // TEAM_003: clique no chip de tópico da seção "O que o edital pede" abre o modal direto na explicação
+      const chip = e.target.closest('.chip-topico[data-topico]'); // tópico clicável do programa
+      if (chip) this.abrirModalTopico(chip.dataset.materia, chip.dataset.topico); // abre o modal do tópico
       const mais = e.target.closest('.ver-mais');           // botão "Ver mais…"
       if (mais) {                                           // clicou no expandir
         const corpo = mais.parentElement.querySelector('.plano-corpo'); // o corpo do item
@@ -103,6 +106,9 @@ const EditalUI = {
     document.getElementById('modal-conteudo').addEventListener('click', (e) => { // clique no conteúdo
       const alvo = e.target.closest('.topico-item');          // tópico clicável
       if (alvo) this.alternarTopico(alvo);                    // abre ou fecha o detalhe
+      // TEAM_003: "todos os tópicos" volta da explicação para a visão da matéria
+      const todos = e.target.closest('.link-todos-topicos');  // link de voltar aos tópicos
+      if (todos) this.abrirModalMateria(todos.dataset.materia); // reabre o modal da matéria
     });
   },
 
@@ -437,7 +443,8 @@ const EditalUI = {
       html += '<span class="materia-nome clicavel" data-materia="' + this.escape(materia.rotulo) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + this.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome clicável da matéria
       html += '<div class="lista-topicos">';                // abre a lista de tópicos
       for (const topico of materia.topicos) {               // percorre os tópicos do edital
-        html += '<span class="chip">' + this.escape(topico) + '</span>'; // chip de cada tópico
+        // TEAM_003: chip clicável — abre o modal com a explicação e a aula do tópico
+        html += '<button type="button" class="chip chip-topico" data-materia="' + this.escape(materia.rotulo) + '" data-topico="' + this.escape(topico) + '" title="' + T('ed_modal_dica') + '">' + this.escape(topico) + '</button>'; // chip clicável de cada tópico
       }
       html += '</div>';                                     // fecha a lista
       html += '</div>';                                     // fecha o bloco
@@ -548,18 +555,20 @@ const EditalUI = {
     botao.insertAdjacentHTML('afterend', this.detalheTopico(botao.dataset.topico)); // insere o detalhe embaixo
   },
 
-  // Monta a explicação de um tópico: por que cai + como estudar + aula
-  detalheTopico(nome) {
-    let info = null;                                              // tópico encontrado no catálogo
+  // Procura no catálogo da matéria aberta o tópico equivalente ao nome clicado
+  infoDoTopico(nome) {
     const plano = this.modalMateria ? this.modalMateria.plano : null; // plano da matéria aberta
-    if (plano) {                                                  // se temos catálogo dela
-      const alvo = AnaliseEdital.normalizar(nome);                // normaliza o nome clicado
-      info = plano.topicos.find(t => {                            // procura o tópico equivalente
-        const n = AnaliseEdital.normalizar(t.nome);               // normaliza o do catálogo
-        return n === alvo || n.indexOf(alvo) !== -1 || alvo.indexOf(n) !== -1; // igual ou contido
-      });
-    }
-    let html = '<div class="topico-detalhe">';                    // abre a caixinha
+    if (!plano) return null;                                      // sem catálogo, sem explicação
+    const alvo = AnaliseEdital.normalizar(nome);                  // normaliza o nome clicado
+    return plano.topicos.find(t => {                              // procura o tópico equivalente
+      const n = AnaliseEdital.normalizar(t.nome);                 // normaliza o do catálogo
+      return n === alvo || n.indexOf(alvo) !== -1 || alvo.indexOf(n) !== -1; // igual ou contido
+    }) || null;                                                   // devolve o tópico ou nada
+  },
+
+  // Monta o miolo da explicação: por que cai + como estudar (ou fallback) + aula
+  explicacaoTopico(info, nome) {
+    let html = '';                                                // acumulador de HTML
     if (info) {                                                   // achamos explicação pronta
       html += '<p><strong>' + T('ed_topico_porque') + ':</strong> ' + this.escape(info.porque) + '</p>'; // por que cai
       html += '<p><strong>' + T('ed_topico_como') + ':</strong> ' + this.escape(info.como) + '</p>'; // como estudar
@@ -570,8 +579,27 @@ const EditalUI = {
     const busca = (this.modalMateria ? this.modalMateria.rotulo + ' ' : '') + nome + ' resumo'; // termo de busca
     const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a busca
     html += '<a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(nome) }) + '</a>'; // link da aula
-    html += '</div>';                                             // fecha a caixinha
-    return html;                                                  // devolve o HTML
+    return html;                                                  // devolve o miolo
+  },
+
+  // Monta a explicação de um tópico para a sanfona do modal da matéria
+  detalheTopico(nome) {
+    // TEAM_003: o miolo foi extraído para explicacaoTopico (usado também pelo modal do tópico)
+    return '<div class="topico-detalhe">' + this.explicacaoTopico(this.infoDoTopico(nome), nome) + '</div>'; // caixinha com o miolo
+  },
+
+  // Abre o modal direto num tópico (clique no chip da seção "O que o edital pede")
+  abrirModalTopico(rotuloMateria, nomeTopico) {
+    // Procura o plano da matéria nos dois catálogos (mesmo critério de abrirModalMateria)
+    const plano = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta os catálogos
+      .find(t => t.materia === rotuloMateria);                     // acha pelo nome
+    this.modalMateria = { rotulo: rotuloMateria, plano: plano };   // guarda o contexto aberto
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">📌 ' + this.escape(nomeTopico) + '</h3>'; // título: o tópico
+    html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.7rem">' + (plano ? plano.icone + ' ' : '') + this.escape(rotuloMateria) + '</p>'; // matéria de origem
+    html += '<div class="topico-explicacao">' + this.explicacaoTopico(this.infoDoTopico(nomeTopico), nomeTopico) + '</div>'; // explicação + aula
+    html += '<button type="button" class="ver-mais link-todos-topicos" data-materia="' + this.escape(rotuloMateria) + '">' + T('ed_modal_todos', { materia: this.escape(rotuloMateria) }) + '</button>'; // volta aos tópicos
+    document.getElementById('modal-conteudo').innerHTML = html;    // despeja no modal
+    document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal
   },
 
   // Foge do HTML (segurança ao exibir texto do PDF na tela)

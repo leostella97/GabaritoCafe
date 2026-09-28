@@ -720,6 +720,25 @@
 .topico-detalhe p { margin: 0 0 0.5rem; } /* respiro entre blocos */
 .topico-detalhe .link-video { display: inline-block; margin-top: 0.2rem; } /* vídeo embaixo */
 
+/* TEAM_003: tópico do edital clicável + explicação direta no modal */
+.chip-topico {                      /* chip de tópico que abre o modal */
+  transition: border-color 0.15s, transform 0.15s; /* reação suave */
+}
+
+.chip-topico:hover {                /* avisa que o tópico é clicável */
+  border-color: var(--caramelo);    /* borda caramelo */
+  transform: translateY(-1px);      /* levanta levemente */
+}
+
+.topico-explicacao {                /* explicação do tópico aberto direto no modal */
+  border-left: 3px solid var(--caramelo); /* mesma régua do detalhe da sanfona */
+  padding: 0.2rem 0 0.2rem 0.8rem;  /* respiro só na esquerda */
+  margin-bottom: 0.7rem;            /* separa do link "todos os tópicos" */
+}
+
+.topico-explicacao p { margin: 0 0 0.5rem; }        /* respiro entre blocos */
+.topico-explicacao .link-video { margin-top: 0.2rem; } /* vídeo embaixo */
+
 /* ---------- "Ver mais…" no plano de estudo ---------- */
 
 .plano-corpo {                        /* corpo do item do plano, cortado em 2 linhas */

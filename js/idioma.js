@@ -254,6 +254,7 @@ const Idioma = {
       ed_modal_dica: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
       ed_modal_edital: 'Tópicos que o edital pede', // rótulo da lista do edital
       ed_modal_campeoes: 'Os que mais caem',        // rótulo da lista do catálogo
+      ed_modal_todos: '← Todos os tópicos de {materia}', // TEAM_003: volta da explicação à lista da matéria
       ed_topico_porque: 'Por que cai',              // explicação: importância do tópico
       ed_topico_como: 'Como estudar',               // explicação: estratégia do tópico
       ed_topico_generico: 'Ainda não tenho um resumo pronto deste tópico — resolva questões dele e confira a aula abaixo:', // fallback sem resumo
@@ -548,6 +549,7 @@ const Idioma = {
       ed_modal_dica: 'Tap a topic to open the explanation and a video lesson',
       ed_modal_edital: 'Topics the notice asks for',
       ed_modal_campeoes: 'Most frequent ones',
+      ed_modal_todos: '← All topics in {materia}',
       ed_topico_porque: 'Why it appears',
       ed_topico_como: 'How to study',
       ed_topico_generico: 'I don’t have a ready summary for this topic yet — solve questions on it and check the lesson below:',
@@ -842,6 +844,7 @@ const Idioma = {
       ed_modal_dica: 'Toca un tema para abrir la explicación y una clase en video',
       ed_modal_edital: 'Temas que la convocatoria pide',
       ed_modal_campeoes: 'Los más frecuentes',
+      ed_modal_todos: '← Todos los temas de {materia}',
       ed_topico_porque: 'Por qué aparece',
       ed_topico_como: 'Cómo estudiar',
       ed_topico_generico: 'Todavía no tengo un resumen listo de este tema — resuelve preguntas y mira la clase de abajo:',

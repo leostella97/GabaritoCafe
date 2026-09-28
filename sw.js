@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v2';                 // TEAM_002: cache versionado do app
+const CACHE = 'gabarito-cafe-v3';                 // TEAM_003: bump — js/edital+idioma e componentes.css mudaram
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
