@@ -24703,4 +24703,567 @@ const BancoQuestoes = [
     dica: 'Instituto Mais troca porte × posse: POSSE irregular dentro de casa = infração menor; PORTAR fora = crime grave. Registro ≠ porte: o registro vale em casa; sair armado exige o porte (excepcional).', // pegadinha
     video: 'estatuto desarmamento porte posse arma crime resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 3, bloco 2/4 HUMANAS: História h30–33,
+  // Geografia g35–38, Atualidades t32–35, Filosofia fl53–55,
+  // Sociologia so44–46, Artes ar47–49, Literatura l52–54,
+  // Espanhol s42–44.
+  // ============================================================
+
+  // ---- História do Brasil (h30–h33) ----
+  {
+    id: 'h30',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Vinda da corte (1808)',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A transferência da família real e da corte portuguesa para o Rio de Janeiro, em 1808, foi provocada por:', // pergunta
+    alternativas: [                     // opções
+      'a proclamação da República', // opção
+      'a Guerra do Paraguai', // opção
+      'o descobrimento de ouro', // opção
+      'a fuga do bloqueio continental imposto por Napoleão Bonaparte — e resultou na abertura dos portos às nações amigas', // correta
+      'uma epidemia em Lisboa', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Napoleão decretou o bloqueio continental e invadiu Portugal: a corte fugiu ao Brasil com escolta inglesa. Consequências diretas: abertura dos portos (1808), elevação do Brasil a Reino Unido (1815) e instalação da máquina de Estado — base da independência.', // explicação
+    dica: 'FUNDATEC troca a causa: quem expulsou a corte foi NAPOLEÃO (bloqueio continental), não a peste nem a Espanha. Decore o combo 1808: chegada + portos abertos; 1815 = Reino Unido de Portugal, Brasil e Algarves.', // pegadinha
+    video: 'vinda da familia real 1808 abertura portos resumo' // busca no YouTube
+  },
+  {
+    id: 'h31',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Guerra dos Canudos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Guerra dos Canudos (1896-1897) foi:', // pergunta
+    alternativas: [                     // opções
+      'a destruição pelo Exército da comunidade sertaneja liderada por Antônio Conselheiro na Bahia — retratada em "Os Sertões", de Euclides da Cunha', // correta
+      'uma batalha contra o Paraguai', // opção
+      'uma revolta operária em São Paulo', // opção
+      'o levante que proclamou a República', // opção
+      'uma guerra entre indígenas', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'No sertão baiano, Antônio Conselheiro reuniu milhares de pobres em Canudos; o governo republicano viu ameaça "monarquista" e mandou 4 expedições militares que arrasaram o povoado. Euclides da Cunha cobriu a guerra e escreveu Os Sertões.', // explicação
+    dica: 'Copeve vincula obra e evento: Canudos = Antônio Conselheiro + Bahia + 1897 + "Os Sertões". Não confunda com Contestado (1912-16, sul, comunidade messiânica semelhante, outra guerra).', // pegadinha
+    video: 'guerra dos canudos antonio conselheiro os sertoes resumo' // busca no YouTube
+  },
+  {
+    id: 'h32',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Tenentismo — Coluna Prestes', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A Coluna Prestes (1925-1927), ligada ao movimento tenentista, foi:', // pergunta
+    alternativas: [                     // opções
+      'uma tropa do governo federal', // opção
+      'uma marcha militar rebelde de jovens oficiais (tenentes) pelo interior do país, que ajudou a desgastar a República Velha', // correta
+      'um comboio de imigrantes', // opção
+      'uma caravana de famílias reais', // opção
+      'a guarda presidencial de Vargas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tenentes insatisfeitos com a oligarquia e o voto fraudado marcharam ~25 mil km pelo interior (São Paulo ao Nordeste) pregando reforma. A marcha da Coluna Prestes/Miguel Costa não derrubou o governo, mas legitimou o tenentismo, que desembocou na Revolução de 1930.', // explicação
+    dica: 'Selecon inverte os lados: a Coluna era REBELDE contra o governo — não tropa legalista. Conexão da prova: tenentismo → Coluna Prestes → fim da República Velha → Revolução de 30.', // pegadinha
+    video: 'coluna prestes tenentismo republica velha resumo' // busca no YouTube
+  },
+  {
+    id: 'h33',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Censura na ditadura',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Durante a ditadura militar, a censura no Brasil funcionava de forma que:', // pergunta
+    alternativas: [                     // opções
+      'não existia controle estatal', // opção
+      'só o cinema era controlado', // opção
+      'apenas livros eram proibidos', // opção
+      'a liberdade de imprensa era total', // opção
+      'jornais, música, cinema e teatro sofriam censura PRÉVIA — censors barravam ou recortavam conteúdo antes da publicação', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Após o AI-5 a censura ficou institucionalizada: censores federais nos jornais aprovavam o conteúdo antes de circular, vetavam músicas (Chico Buarque virou "Julinho da Adelaide"), piadas e cenas. Jornais protestaram com espaços em branco e receitas.', // explicação
+    dica: 'Instituto Mais testa o MODO: era censura PRÉVIA (antes de publicar), não só punição depois. Marcas da época: "Censurado" estampado, receita de bolo no lugar de notícia, artistas com pseudônimos.', // pegadinha
+    video: 'censura previa ditadura militar imprensa musica resumo' // busca no YouTube
+  },
+
+  // ---- Geografia (g35–g38) ----
+  {
+    id: 'g35',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Bioma Cerrado',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O Cerrado, segundo maior bioma brasileiro, é hoje uma das frentes de maior desmatamento porque:', // pergunta
+    alternativas: [                     // opções
+      'é deserto sem valor', // opção
+      'é o centro do agronegócio de soja e milho — a savana é derrubada para lavoura, apesar de concentrar nascentes de grandes bacias', // correta
+      'fica totalmente protegido', // opção
+      'não tem relevância hídrica', // opção
+      'é área apenas de pecuária de corte extensiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cerrado é a savana mais rica do mundo e berço das nascentes das bacias do Prata, São Francisco e Tocantins. É a fronteira agrícola do momento (soja/milho no MATOPIBA) — perde vegetação nativa em ritmo igual ou maior que a Amazônia.', // explicação
+    dica: 'FUNDATEC reduz o Cerrado a "pasto sem valor": é o bioma-berço das águas — a "caixa d’água do Brasil". Banca costuma cobrar MATOPIBA (Maranhão, Tocantins, Piauí, Bahia) como fronteira agrícola do Cerrado.', // pegadinha
+    video: 'cerrado bioma desmatamento matopiba resumo' // busca no YouTube
+  },
+  {
+    id: 'g36',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Êxodo rural',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O êxodo rural brasileiro das décadas de 1950 a 1980 — o movimento massivo do campo para as cidades — foi impulsionado principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'pelo turismo rural', // opção
+      'pela volta da agricultura familiar', // opção
+      'pela escassez de terras nas cidades', // opção
+      'pela mecanização do campo, concentração de terras e industrialização urbana que atraiu mão de obra', // correta
+      'pelo fim das cidades', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Trator e capital substituíram braço no campo (êxodo "expulso") e a indústria/urbanização puxaram a população para as capitais — o Brasil passou de rural-majoritário a mais de 80% urbano. Resultado: inchaço das periferias e das metrópoles.', // explicação
+    dica: 'Copeve junta causa × efeito: êxodo rural alimentou a urbanização acelerada e a favelização. Quem expulsa = mecanização/latifúndio; quem atrai = indústria/emprego urbano — a dupla pressão é a resposta.', // pegadinha
+    video: 'exodo rural urbanizacao brasil resumo' // busca no YouTube
+  },
+  {
+    id: 'g37',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Bacia do São Francisco',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O rio São Francisco, chamado de "Velho Chico", é importante porque:', // pergunta
+    alternativas: [                     // opções
+      'é o maior do mundo em volume', // opção
+      'nasce na Amazônia', // opção
+      'é todo ele no Sul do país', // opção
+      'nasce em Minas Gerais (Serra da Canastra), atravessa o sertão seco até o Atlântico entre Alagoas e Sergipe — vital para irrigação e energia no Nordeste', // correta
+      'deságua no rio Amazonas', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O São Francisco nasce na Serra da Canastra (MG) e corta ~2.700 km de áreas semiáridas, abastecendo Sobradinho e outras hidrelétricas; o projeto de transposição desvia parte de suas águas para o sertão — polêmico e emblemático.', // explicação
+    dica: 'IBGP troca nascente e foz: São Francisco = Canastra MG → Atlântico AL/SE. "Deságua no Amazonas" é cilada (o Amazonas é outra bacia). A transposição para o sertão nordestino é o gancho de atualidades.', // pegadinha
+    video: 'rio sao francisco transposicao velho chico resumo' // busca no YouTube
+  },
+  {
+    id: 'g38',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Estrutura fundiária',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'No campo brasileiro, "latifúndio" e "minifúndio" designam, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'propriedade coletiva e propriedade estatal', // opção
+      'terras indígenas e reservas', // opção
+      'grande propriedade (muitas vezes improdutiva ou monocultora) e pequena propriedade de agricultura familiar', // correta
+      'cidades grandes e pequenas', // opção
+      'minas e fábricas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A estrutura fundiária brasileira é concentrada: poucos latifúndios grandes ocupam a maior parte da terra, enquanto milhões de minifúndios familiares dividem o resto — é o coração das disputas por reforma agrária.', // explicação
+    dica: 'Instituto Mais troca a escala: latifúndio = GRANDE; minifúndio = PEQUENO. Quem mais produz alimento para o mercado interno? A agricultura familiar nos minifúndios — contraste clássico de prova.', // pegadinha
+    video: 'latifundio minifundio estrutura fundiaria resumo' // busca no YouTube
+  },
+
+  // ---- Atualidades (t32–t35) ----
+  {
+    id: 't32',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Conflito Israel–Palestina',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O conflito em Gaza, deflagrado em outubro de 2023, colocou no centro do debate internacional:', // pergunta
+    alternativas: [                     // opções
+      'a Otan', // opção
+      'a guerra fria', // opção
+      'a crise dos mísseis', // opção
+      'o BRICS', // opção
+      'a crise humanitária na Faixa de Gaza, os reféns, o cessar-fogo e a discussão sobre os dois Estados', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O ataque do Hamas (7/10/2023) e a resposta militar de Israel em Gaza geraram crise humanitária, debate sobre cessar-fogo e a retomada da discussão da solução de dois Estados — com reflexos em todo o Oriente Médio.', // explicação
+    dica: 'FUNDATEC traz guerras erradas como distrator: Gaza = Israel×Hamas (2023); Ucrânia = Rússia×Ucrânia (2022). Não misture. "Dois Estados" = a saída discutida para israelenses e palestinos.', // pegadinha
+    video: 'conflito israel palestina gaza 2023 resumo' // busca no YouTube
+  },
+  {
+    id: 't33',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Inteligência artificial',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O avanço da inteligência artificial generativa (ChatGPT e similares) gerou como debate central:', // pergunta
+    alternativas: [                     // opções
+      'a proibição total de computadores', // opção
+      'o impacto no trabalho, na educação, nos direitos autorais e a discussão sobre regulação da tecnologia', // correta
+      'a extinção da internet', // opção
+      'apenas videogames', // opção
+      'nenhum impacto prático', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A IA generativa escreve textos, imagens e código — e levanta questões de emprego (automação), educação (uso por alunos), direitos autorais dos criadores e marcos regulatórios (PL 2338 no Brasil, AI Act na União Europeia).', // explicação
+    dica: 'IBGP reduz a IA a "novidade sem impacto" ou a "fim de tudo": o debate é equilíbrio — ferramenta poderosa que precisa de regulação, não proibição. Lembre dos marcos: AI Act da UE e o PL de IA no Congresso.', // pegadinha
+    video: 'inteligencia artificial generativa regulacao resumo' // busca no YouTube
+  },
+  {
+    id: 't34',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Energia solar',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A expansão da energia solar no Brasil — com painéis em telhados e usinas no Nordeste — já a coloca como:', // pergunta
+    alternativas: [                     // opções
+      'uma fonte irrelevante', // opção
+      'a principal fonte do país', // opção
+      'proibida pela legislação', // opção
+      'uma das maiores fontes da matriz elétrica, impulsionada pela geração distribuída e pelo clima tropical', // correta
+      'energia nuclear', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A solar explodiu: minigeração em telhados + usinas gigantes no Nordeste fizeram-na uma das maiores fontes da matriz (atrás da hidrelétrica e disputando com a eólica). Clima tropical + custo caindo = motor da expansão.', // explicação
+    dica: 'Selecon cobra a posição na matriz: hidrelétrica segue nº1; solar/eólica saltaram para o topo do resto. "Principal fonte" é exagero, "irrelevante" é erro — a resposta é a ascensão, não o primeiro lugar.', // pegadinha
+    video: 'energia solar brasil matriz eletrica crescimento resumo' // busca no YouTube
+  },
+  {
+    id: 't35',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Acordo Mercosul–UE',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O acordo de livre-comércio entre Mercosul e União Europeia, negociado por mais de 20 anos e firmado em 2019, segue pendente de:', // pergunta
+    alternativas: [                     // opções
+      'assinatura dos presidentes', // opção
+      'tradução para o inglês', // opção
+      'abandono total', // opção
+      'redação inicial', // opção
+      'ratificação pelos parlamentos e países-membros, que enfrenta resistência de setores agrícolas europeus e demandas ambientais', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O acordo político foi fechado em 2019 e o texto finalizado em 2024, mas só entra em vigor após ratificação pelos parlamentos dos blocos — com resistência de agricultores europeus e cobranças ambientais (desmatamento amazônico) como obstáculos.', // explicação
+    dica: 'Copeve cobra o estágio do processo: NEGOCIADO e ASSINADO, mas não está valendo — falta ratificação. Obstáculos de prova: agricultores franceses + exigências ambientais sobre o Mercosul.', // pegadinha
+    video: 'acordo mercosul uniao europeia ratificacao resumo' // busca no YouTube
+  },
+
+  // ---- Filosofia (fl53–fl55) ----
+  {
+    id: 'fl53',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Hobbes — Leviatã',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Para Thomas Hobbes, o "estado de natureza" é a condição em que:', // pergunta
+    alternativas: [                     // opções
+      'todos vivem em paz e abundância', // opção
+      'o homem é lobo do homem — a guerra de todos contra todos só termina com o contrato que cria o Leviatã, o Estado forte', // correta
+      'o paraíso original', // opção
+      'a natureza é sempre benigna', // opção
+      'o rei já governa por direito divino', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hobbes (Leviatã, 1651): sem Estado, o medo e o egoísmo geram "guerra de todos contra todos" — a vida é "solitária, pobre, brutal e curta". O contrato social entrega poder absoluto ao soberano (Leviatã) para garantir a paz.', // explicação
+    dica: 'FUNDATEC inverte o estado de natureza: Hobbes = guerra; Rousseau = bom selvagem corrompido pela sociedade; Locke = liberdade natural com propriedade. Contrato social existe nos três — o que muda é o PORQUÊ.', // pegadinha
+    video: 'hobbes leviata estado de natureza resumo' // busca no YouTube
+  },
+  {
+    id: 'fl54',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Arendt — banalidade do mal', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A expressão "banalidade do mal", criada por Hannah Arendt ao observar o julgamento de Eichmann, significa que:', // pergunta
+    alternativas: [                     // opções
+      'o mal é sempre monstruoso e evidente', // opção
+      'o mal inexiste no mundo', // opção
+      'apenas psicopatas cometem atrocidades', // opção
+      'o mal é uma escolha livre de todos', // opção
+      'o mal pode ser cometido por pessoas comuns que abrem mão de pensar e obedecem ordens burocráticas', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Arendt viu em Eichmann (organizador da deportação nazista) não um monstro, mas um funcionário obediente que "não pensava". A tese: o mal extremo pode nascer da superficialidade — quem não reflete sobre o próprio ato cumpre ordens criminosas.', // explicação
+    dica: 'Copeve cobra o contra-intuitivo: "banalidade" não é que o mal seja banal — é que o AGENTE é banal, um burocrata sem reflexão. A "banalidade" mora na falta de pensamento, não na gravidade do crime.', // pegadinha
+    video: 'hannah arendt banalidade do mal eichmann resumo' // busca no YouTube
+  },
+  {
+    id: 'fl55',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Voltaire — tolerância',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Voltaire, expoente do Iluminismo, ficou célebre pela defesa de:', // pergunta
+    alternativas: [                     // opções
+      'do absolutismo de direito divino', // opção
+      'da tolerância religiosa e da liberdade de expressão — à qual se atribui a máxima "posso não concordar com o que dizes, mas defenderei até a morte o teu direito de dizê-lo"', // correta
+      'do feudalismo', // opção
+      'do comunismo soviético', // opção
+      'da escravidão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Voltaire (1694-1778) combateu o fanatismo e a intolerância religiosa ("Écrasez l’infâme") e defendeu liberdade de expressão, imprensa e consciência — ícone do Iluminismo francês contra a monarquia absoluta e o clericalismo.', // explicação
+    dica: 'IBGP associa o pensador à causa errada: Voltaire = tolerância + liberdade; Maquiavel = razão de Estado; Rousseau = contrato/bom selvagem; Montesquieu = separação dos poderes. A frase do "discordo mas defendo" é a assinatura dele.', // pegadinha
+    video: 'voltaire tolerancia liberdade iluminismo resumo' // busca no YouTube
+  },
+
+  // ---- Sociologia (so44–so46) ----
+  {
+    id: 'so44',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Castells — sociedade em rede', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Manuel Castells, ao tratar da "sociedade em rede" da era da informação, argumenta que:', // pergunta
+    alternativas: [                     // opções
+      'a internet é irrelevante para a economia', // opção
+      'apenas os países ricos mudaram', // opção
+      'o tempo parou de correr', // opção
+      'as redes de informação e comunicação passaram a organizar a economia, o trabalho e a política — criando a "sociedade em rede" e o "espaço de fluxos"', // correta
+      'os meios de comunicação acabaram', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Em "A Era da Informação", Castells mostra que a base da sociedade contemporânea são redes digitais: dinheiro, trabalho e poder circulam pelo "espaço de fluxos" — globalização e novas exclusões (quem está fora da rede fica de fora).', // explicação
+    dica: 'FUNDATEC nega a tese no distrator: quem diz que a internet "não mudou nada" contradiz Castells. A dupla da prova: sociedade em REDE + espaço de fluxos — e a inclusão digital como fronteira da desigualdade.', // pegadinha
+    video: 'castells sociedade em rede espaco de fluxos resumo' // busca no YouTube
+  },
+  {
+    id: 'so45',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Gênero e patriarcado',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A sociologia do gênero entende o "patriarcado" como:', // pergunta
+    alternativas: [                     // opções
+      'um governo só de homens idosos', // opção
+      'um tipo de religião', // opção
+      'um sistema social historicamente construído que concentra poder e autoridade nos homens e subordina as mulheres — não um destino biológico', // correta
+      'uma doutrina econômica', // opção
+      'a divisão natural de tarefas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O patriarcado é a estrutura social que distribui poder, prestígio e recursos desigualmente por gênero — e que se reproduz por socialização, não por biologia. Os movimentos feministas e as políticas públicas o contestam e transformam.', // explicação
+    dica: 'Copeve traz o "natural" como distrator: para a sociologia, papéis de gênero são CONSTRUÍDOS socialmente — mudam com a história. "Destino biológico" é exatamente o que a disciplina contesta.', // pegadinha
+    video: 'patriarcado genero sociologia resumo' // busca no YouTube
+  },
+  {
+    id: 'so46',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Exclusão social',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O conceito de exclusão social refere-se a:', // pergunta
+    alternativas: [                     // opções
+      'apenas a pobreza monetária', // opção
+      'a quarentena de doentes', // opção
+      'a situação de grupos impedidos de exercer plenamente direitos e participar da vida social — por pobreza, preconceito, moradia ou acesso a serviços', // correta
+      'o exílio de criminosos', // opção
+      'a expulsão escolar apenas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Exclusão social vai além da renda: é a barreira que impede o exercício da cidadania — saúde, educação, moradia, trabalho, reconhecimento. Racismo, machismo e precariedade produzem e reproduzem a exclusão.', // explicação
+    dica: 'Instituto Mais reduz a exclusão a "falta de dinheiro": ela é MULTIDIMENSIONAL — há quem tenha renda e seja excluído por raça, deficiência ou gênero. Inclusão ≠ apenas emprego — é acesso pleno à cidadania.', // pegadinha
+    video: 'exclusao social conceito sociologia resumo' // busca no YouTube
+  },
+
+  // ---- Artes (ar47–ar49) ----
+  {
+    id: 'ar47',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Anita Malfatti',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A exposição de Anita Malfatti em 1917, atacada por Monteiro Lobato ("Paranoia ou mistificação?"), é marco porque:', // pergunta
+    alternativas: [                     // opções
+      'foi o primeiro show de rock do país', // opção
+      'introduziu as vanguardas modernistas na pintura brasileira e catalisou o movimento que explodiu na Semana de 1922', // correta
+      'inaugurou o barroco', // opção
+      'vendeu quadros ao rei de Portugal', // opção
+      'encerrava a arte acadêmica de vez', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anita trouxe expressionismo/cubismo para São Paulo em 1917; a crítica conservadora (Lobato) reagiu com fúria, e o debate alimentou a Semana de Arte Moderna de 1922. Obras como "O Homem Amarelo" são ícones do modernismo.', // explicação
+    dica: 'FUNDATEC cobra a ligação 1917→1922: a exposição "fracassada" de Anita é o rastilho da Semana. Monteiro Lobato, hoje escritor clássico, era o CRÍTICO CONSERVADOR que atacou — a ironia é tema de prova.', // pegadinha
+    video: 'anita malfatti 1917 modernismo semana resumo' // busca no YouTube
+  },
+  {
+    id: 'ar48',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Sebastião Salgado',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O fotógrafo brasileiro Sebastião Salgado é mundialmente reconhecido por:', // pergunta
+    alternativas: [                     // opções
+      'suas pinturas abstratas', // opção
+      'esculturas de bronze', // opção
+      'quadrinhos', // opção
+      'filmagens de novelas', // opção
+      'suas fotografias em preto e branco de temas sociais e ambientais — Êxodos, Trabalhadores, Gênesis e o projeto Instituto Terra de reflorestamento', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Salgado retratou o trabalho e a migração humanos (Serra Pelada, Êxodos) em preto e branco denso; depois virou-se à natureza (Gênesis) e restaurou a Mata Atlântica de sua fazenda no Instituto Terra — unindo arte e ambientalismo.', // explicação
+    dica: 'IBGP troca a mídia: Salgado é FOTÓGRAFO (P&B documental), não pintor. As três obras-gancho: Trabalhadores, Êxodos, Gênesis — e o Instituto Terra mostra que a foto vira ação ambiental.', // pegadinha
+    video: 'sebastiao salgado fotografia genesis instituto terra resumo' // busca no YouTube
+  },
+  {
+    id: 'ar49',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Choro',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O choro, gênero musical nascido no Rio de Janeiro do século XIX, caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'ser apenas canto de lamentação', // opção
+      'instrumentos de orquestra sinfônica apenas', // opção
+      'instrumentalismo virtuoso e improvisação, com flauta, cavaquinho, violão e bandolim — considerado a primeira música urbana genuinamente brasileira', // correta
+      'ser ritmo importado da Europa', // opção
+      'uso exclusivo de tambores', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O choro ("chorinho") nasceu carioca no século XIX — antes do samba e da bossa — com virtuosismo instrumental e improvisação em roda. Pixinguinha é o gigante ("Carinhoso", "Rosa"); vive revalorização como patrimônio nacional.', // explicação
+    dica: 'Copeve joga com o nome enganoso: choro não é música triste nem vocal — é INSTRUMENTAL e cheio de ginga. Cronologia que a prova cobra: choro → samba → bossa nova → tropicália.', // pegadinha
+    video: 'choro chorinho pixinguinha musica brasileira resumo' // busca no YouTube
+  },
+
+  // ---- Literatura (l52–l54) ----
+  {
+    id: 'l52',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Memórias Póstumas de Brás Cubas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: '"Memórias Póstumas de Brás Cubas" (1881), de Machado de Assis, inova a literatura brasileira por:', // pergunta
+    alternativas: [                     // opções
+      'ser o primeiro romance nacional', // opção
+      'ser um poema épico', // opção
+      'ser escrita em verso rimado', // opção
+      'ser um romance picaresco do século XVI', // opção
+      'ser narrada por um "defunto autor" — Brás Cubas escreve após a morte, com ironia cética que inaugura o Realismo brasileiro', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Brás Cubas narra a própria vida DO TÚMULO ("não um autor defunto, mas um defunto autor"), com capítulos curtos, digressões e ironia implacável sobre a elite. O livro inaugura a fase realista de Machado e o Realismo no Brasil.', // explicação
+    dica: 'FUNDATEC joga o truque do narrador: defunto AUTOR ≠ autor defunto — ele conta DEPOIS de morrer. Marcos: 1881 abre o Realismo brasileiro; ironia e pessimismo são as marcas machadianas.', // pegadinha
+    video: 'memorias postumas bras cubas machado resumo' // busca no YouTube
+  },
+  {
+    id: 'l53',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Carolina de Jesus — Quarto de Despejo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Quarto de Despejo — Diário de uma Favelada" (1960), de Carolina Maria de Jesus, é significativo porque:', // pergunta
+    alternativas: [                     // opções
+      'é ficção científica premiada', // opção
+      'foi escrito por uma acadêmica', // opção
+      'trata da vida na realeza', // opção
+      'é o diário real de uma catadora de papel negra na favela do Canindé, que virou best-seller internacional e deu voz à fome e à pobreza', // correta
+      'é um manual de economia doméstica', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Carolina, catadora negra e mãe solo, registrou a fome, a discriminação e a vida na favela do Canindé (SP) num diário que vendeu milhões e saiu em 40 países — retrato cru da desigualdade e marco da literatura de testemunho.', // explicação
+    dica: 'Copeve inverte o valor: o livro é importante justamente por ser REAL e de autora marginalizada — não apesar disso. "Diário", "favela", "catadora" e "fome" são as palavras-gancho.', // pegadinha
+    video: 'carolina de jesus quarto de despejo resumo' // busca no YouTube
+  },
+  {
+    id: 'l54',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Manoel de Barros',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Manoel de Barros, poeta do Pantanal reconhecido tardiamente, é conhecido por uma poesia:', // pergunta
+    alternativas: [                     // opções
+      'de inspiração greco-latina', // opção
+      'que exalta "coisas desimportantes" — o cotidiano, a infância, o lixo e a natureza — com linguagem simples e inventiva ("Livro sobre Nada")', // correta
+      'exclusivamente política', // opção
+      'em língua estrangeira', // opção
+      'de formas fixas rigorosas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Manoel de Barros (1916-2014) escreveu do Pantanal sobre o miúdo e o desprezado — "as coisas sem importância" — com sintaxe inventada e humor; comparado a Saint-Exupéry e premiado, é patrimônio da poesia contemporânea.', // explicação
+    dica: 'Instituto Mais troca a estética: não é forma fixa nem erudição — é o "lixo", a "criança", o "nada". Referência-chave: "Livro sobre Nada" e o Pantanal como cenário.', // pegadinha
+    video: 'manoel de barros poesia livro sobre nada resumo' // busca no YouTube
+  },
+
+  // ---- Espanhol (s42–s44) ----
+  {
+    id: 's42',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pretérito pluscuamperfecto', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O pretérito pluscuamperfecto ("había hablado") expressa:', // pergunta
+    alternativas: [                     // opções
+      'ação futura', // opção
+      'hábito presente', // opção
+      'uma ação concluída ANTES de outra ação passada — equivalente ao "tinha/havia falado"', // correta
+      'descrição de cenário', // opção
+      'ordem ao interlocutor', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O pluscuamperfecto = "había" + particípio: marca uma ação anterior a outra passada — "Cuando llegué, él ya había salido" (quando cheguei, ele já tinha saído). É o passado do passado.', // explicação
+    dica: 'FUNDATEC confunde com o indefinido e o imperfecto: PLUSCUAMPERFECTO = passado ANTES do passado (había + particípio). "Ya había..." é a pista no texto.', // pegadinha
+    video: 'preterito pluscuamperfecto habia participio resumo' // busca no YouTube
+  },
+  {
+    id: 's43',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pronomes relativos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Em espanhol, "el libro QUE compré ayer", o pronome relativo "que" funciona:', // pergunta
+    alternativas: [                     // opções
+      'como interrogativo (o quê)', // opção
+      'como conjunção de causa', // opção
+      'como advérbio de lugar', // opção
+      'como pronome pessoal', // opção
+      'para ligar a oração ao antecedente (o livro) — equivalente a "que" em português', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: '"Que" é o relativo mais comum: "el libro que compré" = o livro que comprei. Com preposição e pessoa usa-se "quien"; "cuyo" = cujo (concorda com a coisa possuída). Atenção: "qué" com acento é interrogativo.', // explicação
+    dica: 'IBGP mistura que/qué/quien/cuyo: QUE sem acento = relativo; QUÉ com acento = pergunta; QUIEN = quem (pessoas); CUYO = cujo (concorda com o possuído — "el libro cuya autora").', // pegadinha
+    video: 'pronombres relativos que quien cuyo espanhol resumo' // busca no YouTube
+  },
+  {
+    id: 's44',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Voz passiva',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A frase "La casa fue construida en 1990" é exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'voz passiva — o paciente (a casa) é o sujeito e recebe a ação', // correta
+      'voz ativa', // opção
+      'imperativo', // opção
+      'oración interrogativa', // opção
+      'pretérito imperfecto', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Voz passiva em espanhol = ser + particípio ("fue construida") ou a construção com "se" ("se construyó la casa", "se venden casas"). O sujeito sofre a ação, não a pratica — como em português.', // explicação
+    dica: 'Copeve troca o sujeito: na passiva, quem aparece primeiro NÃO é o agente — "la casa fue construida" = a casa foi construída (não construiu). "Se venden casas" = passiva com "se", equivalente ao "vendem-se casas".', // pegadinha
+    video: 'voz pasiva espanhol ser participio se venden resumo' // busca no YouTube
+  },
 ];
