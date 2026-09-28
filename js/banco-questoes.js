@@ -31046,4 +31046,3293 @@ const BancoQuestoes = [
     dica: 'Nepotismo cruzado também é vedado: o prefeito nomeia o parente do governador, e vice-versa. O problema não é a competência do nomeado — é o critério da escolha.', // pegadinha
     video: 'nepotismo súmula vinculante 13 impessoalidade' // busca no YouTube
   },
+
+  /* ===================== MATRIZ — FUVEST/UNICAMP ===================== */
+  {
+    id: 'p62',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Interpretação de texto',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quando Machado de Assis narra a vida de Brás Cubas "do túmulo", o narrador morto produz, acima de tudo:', // pergunta
+    alternativas: [                     // opções
+      'suspense policial', // opção
+      'ironia — a distância do narrador permite criticar a sociedade e a própria vaidade humana', // correta
+      'terror gótico', // opção
+      'relato religioso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O narrador defunto de "Memórias Póstumas de Brás Cubas" olha a vida com desencanto: a morte o libera da vaidade — a ironia machadiana desmonta a elite oitocentista e a pretensão humana.', // explicação
+    dica: 'Machado = ironia + pessimismo filosófico + crítica à elite. A "alternativa bonita" que o elogia ("suspense", "religião") é o distrator da Fuvest.', // pegadinha
+    video: 'memórias póstumas brás cubas ironia narrador defunto' // busca no YouTube
+  },
+  {
+    id: 'p63',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Classes de palavras — função', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Em "Cheguei tarde demais", a palavra "demais" funciona como:', // pergunta
+    alternativas: [                     // opções
+      'adjetivo', // opção
+      'advérbio de intensidade modificando "tarde"', // correta
+      'conjunção', // opção
+      'pronome indefinido', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Demais" aqui intensifica o advérbio "tarde" — funciona como advérbio de intensidade. Em "os demais alunos" seria pronome indefinido: a classe depende do papel na frase.', // explicação
+    dica: 'A Fuvest cobra função, não decoreba de classe: a mesma palavra muda de classe conforme o contexto. Pergunte: "demais" modifica o quê? Um adjetivo/verbo/advérbio = advérbio.', // pegadinha
+    video: 'classes de palavras função no contexto fuvest' // busca no YouTube
+  },
+  {
+    id: 'p64',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Semântica — sentido contextual', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Em "O médico disse que o exame era grave" — "grave" pode significar "importante" ou "de resultado ruim". Essa dupla interpretação é:', // pergunta
+    alternativas: [                     // opções
+      'erro de concordância', // opção
+      'ambiguidade (ou polissemia explorada pelo contexto)', // correta
+      'neologismo', // opção
+      'figura de linguagem obrigatória', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Polissemia = uma palavra com vários sentidos possíveis; a ambiguidade ocorre quando o contexto não resolve qual vale — recurso usado em humor, propaganda e poesia, mas ruído em texto informativo.', // explicação
+    dica: 'Ambiguidade pode ser vício (duplo sentido indesejado) ou recurso (trocadilho intencional). A Fuvest pergunta se é defeito ou efeito — depende da intenção do texto.', // pegadinha
+    video: 'ambiguidade polissemia sentido contextual' // busca no YouTube
+  },
+  {
+    id: 'p65',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Literatura — Romantismo',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O indianismo de José de Alencar ("Iracema", "O Guarani") constrói o indígena como herói nacional. Esse movimento serviu, no Romantismo, para:', // pergunta
+    alternativas: [                     // opções
+      'retratar fielmente a cultura indígena real', // opção
+      'inventar um passado mítico que desse identidade ao Brasil recém-independente', // correta
+      'criticar o Imperador', // opção
+      'copiar os romances europeus sem adaptação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O indianismo romântico idealizou o indígena como "bom selvagem" para fabricar uma identidade nacional — projeto literário de fundação do país, não retrato etnográfico fiel.', // explicação
+    dica: 'Alencar não descrevia o indígena real: criava um mito útil à nação recém-formada. A Fuvest pergunta a FUNÇÃO do indianismo — resposta: construção de identidade nacional.', // pegadinha
+    video: 'indianismo alencar romantismo identidade nacional' // busca no YouTube
+  },
+  {
+    id: 'p66',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Modernismo 1922',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922 propôs, entre outras coisas:', // pergunta
+    alternativas: [                     // opções
+      'a volta ao Barroco', // opção
+      'a ruptura com o academicismo e a valorização da fala brasileira e do nacional crítico', // correta
+      'a imitação dos modelos portugueses', // opção
+      'a defesa da poesia parnasiana', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Modernismo de 22 rompeu com o verso fixo e a linguagem empolada: valorizou a oralidade brasileira, o nacional crítico (não ufanista) e a experimentação — Mario e Oswald de Andrade como nomes centrais.', // explicação
+    dica: 'A pegadinha: "nacional" romântico era idealizante; o moderno é crítico e irreverente ("antropofagia" = devorar a cultura estrangeira e criar algo brasileiro). Diferença cobrada.', // pegadinha
+    video: 'semana de arte moderna 1922 modernismo' // busca no YouTube
+  },
+  {
+    id: 'p67',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Sintaxe — função do pronome relativo', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Em "O livro QUE comprei é bom", o pronome relativo "que" exerce a função de:', // pergunta
+    alternativas: [                     // opções
+      'sujeito de "comprei"', // opção
+      'objeto direto de "comprei", retomando "livro"', // correta
+      'complemento nominal', // opção
+      'predicativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Que" retoma "livro" e, dentro da oração adjetiva, faz o papel de objeto direto de "comprei" (eu comprei O LIVRO). Para achar a função, substitua o pronome pelo antecedente na oração.', // explicação
+    dica: 'Técnica da Fuvest: isole a oração adjetiva e reescreva com o antecedente — "eu comprei o livro" → o livro é objeto direto → "que" também é.', // pegadinha
+    video: 'pronome relativo função sintática que' // busca no YouTube
+  },
+  {
+    id: 'p68',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Gênero: artigo de opinião',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O artigo de opinião, gênero cobrado em vestibulares, caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'ser imparcial como uma notícia', // opção
+      'defender um ponto de vista com argumentos — exposição da tese e tentativa de convencimento', // correta
+      'narrar fatos sem posicionamento', // opção
+      'informar preços e serviços', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O artigo de opinião é texto argumentativo assinado: apresenta uma tese, sustenta com argumentos e tenta convencer o leitor — marca de autor (1ª pessoa possível) e linguagem persuasiva.', // explicação
+    dica: 'Artigo de opinião ≠ notícia: a notícia informa; o artigo defende. A Fuvest cobra o gênero para a própria redação — saber a diferença evita escrever "notícia" quando pedem argumentação.', // pegadinha
+    video: 'artigo de opinião características gênero' // busca no YouTube
+  },
+  {
+    id: 'p69',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Modo subjuntivo',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Em "Talvez ele venha" × "Ele virá", a diferença de modo verbal expressa:', // pergunta
+    alternativas: [                     // opções
+      'o mesmo fato certo', // opção
+      'subjuntivo (venha) marca hipótese/possibilidade; indicativo (virá) marca fato presumido como certo', // correta
+      'erro de conjugação', // opção
+      'passado × futuro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Subjuntivo = o mundo do possível/desejável/dubitado (talvez venha, espero que venha); indicativo = o mundo do fato/certificado (ele virá). A escolha do modo muda o grau de certeza do enunciado.', // explicação
+    dica: 'Sinais de subjuntivo: "talvez", "que", "se", "embora", "caso". A Fuvest cobra o efeito de sentido: trocar o modo altera a afirmação — certeza virou dúvida.', // pegadinha
+    video: 'modo subjuntivo indicativo diferença sentido' // busca no YouTube
+  },
+  {
+    id: 'p70',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Interlocução e ironia',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Num texto que diz "que belo desempenho!" sobre um governo desastroso, o recurso usado é:', // pergunta
+    alternativas: [                     // opções
+      'elogio sincero', // opção
+      'ironia — dizer o contrário do que se pensa para criticar', // correta
+      'metáfora', // opção
+      'eufemismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ironia = enunciar o oposto do sentido real, confiando que o contexto desfaça a "verdade" literal. É a arma principal da crítica literária e do humor — exige do leitor a leitura da intenção.', // explicação
+    dica: 'Ironia se detecta pelo MISMATCH entre o dito e a situação: "belo" sobre desastre. Sem contexto, a frase literal engana — por isso o ENEM/Fuvest cobram a leitura do contexto.', // pegadinha
+    video: 'ironia figura de pensamento interpretação' // busca no YouTube
+  },
+  {
+    id: 'p71',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Norma e uso — concordância ideológica', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Em "Fazem anos que não o vejo" (fala cotidiana), a concordância desvia da norma culta porque:', // pergunta
+    alternativas: [                     // opções
+      '"fazer" concorda sempre com o tempo', // opção
+      '"fazer" indicando tempo decorrido é impessoal — a norma culta exige "faz anos", e a fala pluraliza por influência do plural seguinte', // correta
+      'o plural é obrigatório com "anos"', // opção
+      'é um erro de ortografia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Fazer" de tempo é impessoal (sempre singular: faz anos, fazia anos). A fala cotidiana pluraliza por atração ("anos" ao lado) — desvio comum que a norma culta não admite.', // explicação
+    dica: 'Haver (existir) e fazer (tempo) são os dois impessoais mais cobrados: ficam na 3ª pessoa do singular SEMPRE, mesmo com plural depois. "Fazem dois anos" é a pegadinha eterna.', // pegadinha
+    video: 'verbo fazer tempo impessoal concordância' // busca no YouTube
+  },
+  {
+    id: 'm61',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Função afim contextualizada', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um táxi cobra R$ 5,00 de bandeirada + R$ 2,50 por km. A função do preço P por distância x é:', // pergunta
+    alternativas: [                     // opções
+      'P = 5x + 2,50', // opção
+      'P = 2,50x + 5 — custo fixo (intercepto) + taxa por km (coeficiente angular)', // correta
+      'P = 7,50x', // opção
+      'P = 5 + 2,50 − x', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Função afim y = ax + b: a taxa variável (2,50 por km) é o coeficiente angular a; a bandeirada fixa (5) é o intercepto b — o valor quando x = 0. P = 2,5x + 5.', // explicação
+    dica: 'Fuvest cobra a leitura do modelo: FIXO = b (independe de x), VARIÁVEL = a (multiplica x). A alternativa 5x + 2,5 inverte os papéis — distrator clássico.', // pegadinha
+    video: 'função afim táxi custo fixo variável' // busca no YouTube
+  },
+  {
+    id: 'm62',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Função quadrática — vértice', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um projétil segue h(x) = −x² + 8x (altura em metros). A altura máxima atingida é:', // pergunta
+    alternativas: [                     // opções
+      '8 m', // opção
+      '16 m', // correta
+      '4 m', // opção
+      '64 m', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A parábola abre para baixo (a < 0) → vértice = máximo. x_v = −b/2a = −8/(2×−1) = 4. h(4) = −16 + 32 = 16 m.', // explicação
+    dica: 'Máximo/mínimo de quadrática = VÉRTICE: x_v = −b/2a e y_v = −Δ/4a. A Fuvest adora "lançamento de projétil" e "lucro máximo" — sempre o mesmo vértice.', // pegadinha
+    video: 'vértice parábola máximo mínimo função quadrática' // busca no YouTube
+  },
+  {
+    id: 'm63',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Progressão aritmética',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um cinema tem 20 poltronas na 1ª fileira e cada fileira seguinte tem 2 a mais. A 10ª fileira tem:', // pergunta
+    alternativas: [                     // opções
+      '40 poltronas', // opção
+      '38 poltronas', // correta
+      '36 poltronas', // opção
+      '30 poltronas', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'PA: aₙ = a₁ + (n−1)·r = 20 + (10−1)×2 = 20 + 18 = 38. Razão r = 2, primeiro termo a₁ = 20.', // explicação
+    dica: 'PA = soma constante (aₙ = a₁ + (n−1)r); PG = multiplicação constante (aₙ = a₁·qⁿ⁻¹). "Cada fileira tem 2 a mais" = PA; "dobra a cada dia" = PG. Não confunda as fórmulas.', // pegadinha
+    video: 'progressão aritmética termo geral fórmula' // busca no YouTube
+  },
+  {
+    id: 'm64',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Geometria — área do círculo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Uma praça circular tem raio de 10 m. Sua área, usando π ≈ 3, é:', // pergunta
+    alternativas: [                     // opções
+      '30 m²', // opção
+      '60 m²', // opção
+      '300 m²', // correta
+      '100 m²', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Área do círculo = π·r² = 3 × 10² = 3 × 100 = 300 m². (Se usasse π·r — o comprimento — sairia 60: o distrator típico.)', // explicação
+    dica: 'Área usa r²; comprimento (perímetro) usa 2πr. Trocar as fórmulas é o erro mais comum — a Fuvest coloca os dois resultados como alternativas.', // pegadinha
+    video: 'área do círculo fórmula pi raio quadrado' // busca no YouTube
+  },
+  {
+    id: 'm65',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Teorema de Pitágoras',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Uma escada de 5 m está apoiada numa parede, com a base a 3 m do muro. A que altura ela toca a parede?', // pergunta
+    alternativas: [                     // opções
+      '3 m', // opção
+      '4 m', // correta
+      '5 m', // opção
+      '8 m', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pitágoras: hipotenusa² = cateto² + cateto² → 5² = 3² + h² → 25 = 9 + h² → h² = 16 → h = 4 m (terno pitagórico 3-4-5).', // explicação
+    dica: 'Decore os ternos: 3-4-5, 5-12-13, 8-15-17 — a prova usa sempre esses para não precisar de raiz feia. E a hipotenusa é sempre o LADO MAIOR, oposto ao ângulo reto.', // pegadinha
+    video: 'teorema de pitágoras escada parede exercício' // busca no YouTube
+  },
+  {
+    id: 'm66',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Equação do 2º grau',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As raízes de x² − 5x + 6 = 0 são:', // pergunta
+    alternativas: [                     // opções
+      '5 e 6', // opção
+      '2 e 3', // correta
+      '−2 e −3', // opção
+      '1 e 6', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Por soma e produto: números que somam 5 e multiplicam 6 = 2 e 3. (Bhaskara: Δ = 25−24 = 1; x = (5±1)/2 = 3 e 2.)', // explicação
+    dica: 'Soma e produto resolvem sem fórmula: raízes r₁+r₂ = −b/a e r₁·r₂ = c/a. Teste mental antes de Bhaskara — mais rápido e confere o sinal.', // pegadinha
+    video: 'equação segundo grau soma produto raízes' // busca no YouTube
+  },
+  {
+    id: 'm67',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Logaritmo',                  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Se log₂ 8 = x, então x vale:', // pergunta
+    alternativas: [                     // opções
+      '2', // opção
+      '3', // correta
+      '4', // opção
+      '16', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Logaritmo pergunta "a que expoente elevo a base?": 2ˣ = 8 → 2³ = 8 → x = 3. O log é o inverso da exponenciação.', // explicação
+    dica: 'log_b a = c ⟺ b^c = a. Memorize a equivalência: o resultado de um log é sempre um EXPOENTE. Base comum no ENEM: escala Richter, pH, decibéis — todos logarítmicos.', // pegadinha
+    video: 'logaritmo definição como calcular' // busca no YouTube
+  },
+  {
+    id: 'm68',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Porcentagem sucessiva',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um produto sofre aumento de 10% e depois desconto de 10%. O preço final em relação ao inicial:', // pergunta
+    alternativas: [                     // opções
+      'fica igual', // opção
+      'fica 1% menor', // correta
+      'fica 1% maior', // opção
+      'fica 10% menor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aumento e desconto não se cancelam porque incidem sobre bases diferentes: 100 → 110 → 110 × 0,9 = 99. Resultado: −1%. Variação líquida = 1,1 × 0,9 = 0,99.', // explicação
+    dica: 'PEGADINHA CLÁSSICA: +10% depois −10% ≠ 0. Percentuais sucessivos multiplicam os fatores (1,1 × 0,9), nunca somam/subtraem — a base muda a cada passo.', // pegadinha
+    video: 'aumento e desconto sucessivo porcentagem pegadinha' // busca no YouTube
+  },
+  {
+    id: 'm69',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Mediana',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As idades de 5 jogadores são: 18, 20, 22, 25, 40. A mediana é:', // pergunta
+    alternativas: [                     // opções
+      '25', // opção
+      '22', // correta
+      '20', // opção
+      '25,5', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mediana = valor central da lista ORDENADA: com 5 valores, é o 3º (22). A média seria 25 — puxada pelo 40 extremo; a mediana resiste a outliers.', // explicação
+    dica: 'Mediana × média: a mediana é o "do meio" e NÃO sofre com valores extremos — por isso é usada para renda. Se a lista tiver número par de dados, mediana = média dos dois centrais.', // pegadinha
+    video: 'mediana estatística diferença média outlier' // busca no YouTube
+  },
+  {
+    id: 'm70',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Probabilidade condicional',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Numa caixa há 3 moedas de R$1 e 2 de R$0,50. Retirando duas sem reposição, a chance de saírem duas de R$1 é:', // pergunta
+    alternativas: [                     // opções
+      '3/5', // opção
+      '3/10', // correta
+      '6/25', // opção
+      '1/2', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sem reposição muda o denominador: P(1ª R$1) = 3/5; P(2ª R$1 | já saiu uma) = 2/4. Multiplicando: 3/5 × 2/4 = 6/20 = 3/10.', // explicação
+    dica: '"Sem reposição" = o espaço amostral DIMINUI a cada retirada (condicional). "Com reposição" = eventos independentes. O distrator 6/25 = (3/5)² seria COM reposição.', // pegadinha
+    video: 'probabilidade sem reposição condicional' // busca no YouTube
+  },
+  {
+    id: 'r55',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Proposições — negação de "se... então"', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A negação de "Se estudo, então passo" é:', // pergunta
+    alternativas: [                     // opções
+      'Se não estudo, então não passo', // opção
+      'Estudo e não passo', // correta
+      'Não estudo e passo', // opção
+      'Se passo, então estudo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A negação do condicional p→q é p ∧ ¬q: mantém a primeira E nega a segunda. "Se estudo então passo" é falsa só quando "estudo e não passo".', // explicação
+    dica: 'Erro clássico: negar "se...então" com outro "se...então" (inversão). Regra: p→q só falha quando p acontece e q não — por isso a negação é conjunção (E), não outro condicional.', // pegadinha
+    video: 'negação condicional se então p e não q' // busca no YouTube
+  },
+  {
+    id: 'r56',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Equivalência lógica',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A contrapositiva de "Se chove, então a rua fica molhada" — que tem o mesmo valor lógico — é:', // pergunta
+    alternativas: [                     // opções
+      'Se não chove, a rua não molha', // opção
+      'Se a rua não ficou molhada, então não choveu', // correta
+      'Se a rua molhou, então choveu', // opção
+      'Chove e a rua não molha', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Contrapositiva de p→q = ¬q→¬p: inverte a ordem E nega os dois. É a única equivalência sempre válida do condicional — "inverte e nega".', // explicação
+    dica: 'As pegadinhas: "se não chove, não molha" = negação da primeira (falácia); "se molhou, choveu" = inversão (falácia). Só a contrapositiva (nega-invertida) preserva a lógica.', // pegadinha
+    video: 'contrapositiva equivalência lógica condicional' // busca no YouTube
+  },
+  {
+    id: 'r57',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Silogismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: '"Todo brasileiro é sul-americano. Todo paulista é brasileiro. Logo:" — a conclusão válida é:', // pergunta
+    alternativas: [                     // opções
+      'todo sul-americano é paulista', // opção
+      'todo paulista é sul-americano', // correta
+      'algum brasileiro não é paulista', // opção
+      'nenhum paulista é sul-americano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Silogismo categórico: Paulista ⊂ Brasileiro ⊂ Sul-americano → Paulista ⊂ Sul-americano. A inclusão transita — a conclusão lógica segue a cadeia de conjuntos.', // explicação
+    dica: 'Desenhe os conjuntos concêntricos: dentro de dentro = dentro. "Todo A é B; todo B é C → todo A é C". O distrator "todo sul-americano é paulista" inverte a inclusão.', // pegadinha
+    video: 'silogismo todo algum nenhum diagramas' // busca no YouTube
+  },
+  {
+    id: 'r58',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Arranjo',                    // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quantos pódios diferentes (1º, 2º, 3º) podem sair de uma corrida com 8 atletas?', // pergunta
+    alternativas: [                     // opções
+      '56', // opção
+      '336', // correta
+      '24', // opção
+      '512', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Arranjo (ordem importa — 1º ≠ 2º): A₈,₃ = 8 × 7 × 6 = 336. Cada posição escolhida remove um atleta da próxima.', // explicação
+    dica: 'Ordem importa → arranjo/permutação; ordem não importa → combinação (divida pelo fatorial do grupo). Pódio = arranjo: "1º de ouro" é diferente de "3º de bronze".', // pegadinha
+    video: 'arranjo análise combinatória pódio ordem' // busca no YouTube
+  },
+  {
+    id: 'r59',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Combinação',                 // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'De 6 pessoas, quantas comissões de 3 podem ser formadas (sem distinção de cargo)?', // pergunta
+    alternativas: [                     // opções
+      '120', // opção
+      '20', // correta
+      '18', // opção
+      '216', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Combinação (ordem não importa — mesma comissão): C₆,₃ = 6!/(3!×3!) = 20. Se fosse arranjo daria 120 = 6×5×4 — a comissão ABC é a mesma que BCA.', // explicação
+    dica: 'Teste mental: trocar a ordem dos escolhidos muda o resultado? Comissão/grupo = não → combinação (divide por n!). Senha/fila/pódio = sim → arranjo.', // pegadinha
+    video: 'combinação comissão ordem não importa' // busca no YouTube
+  },
+  {
+    id: 'r60',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Tabela-verdade — conectivos', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: '"Estudei E passei" só é falsa quando:', // pergunta
+    alternativas: [                     // opções
+      'as duas partes são falsas', // opção
+      'pelo menos uma das partes é falsa — a conjunção exige que TODAS sejam verdadeiras', // correta
+      'a primeira é verdadeira', // opção
+      'nunca é falsa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A conjunção (E) é exigente: V∧V=V; qualquer F torna tudo falso. Já a disjunção (OU) é generosa: basta uma V. Resumo: E = todas; OU = pelo menos uma.', // explicação
+    dica: 'Tabela-resumo que salva: E = só V se tudo V; OU = só F se tudo F; → = só F se V→F; ↔ = V quando iguais; ⊻ (ou exclusivo) = V quando diferentes.', // pegadinha
+    video: 'tabela verdade conectivos e ou se então' // busca no YouTube
+  },
+  {
+    id: 'r61',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Associação lógica',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Ana, Bia e Cátia usam vestidos azul, rosa e verde. Ana não usa azul; Bia usa rosa. Logo Cátia usa:', // pergunta
+    alternativas: [                     // opções
+      'rosa', // opção
+      'azul', // correta
+      'verde', // opção
+      'impossível saber', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bia = rosa. Ana não usa azul e rosa já é de Bia → Ana = verde. Sobrou azul para Cátia. Associação = eliminar as possibilidades cruzadas.', // explicação
+    dica: 'Método: monte a grade (pessoas × atributos) e marque ✗ onde a pista nega e ✓ onde afirma — a lógica elimina até sobrar 1:1.', // pegadinha
+    video: 'associação lógica grade eliminar possibilidades' // busca no YouTube
+  },
+  {
+    id: 'r62',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Lógica de argumentação',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Premissas: "Se estudo, passo" e "Estudei". A conclusão válida é:', // pergunta
+    alternativas: [                     // opções
+      'não passei', // opção
+      'passei — modus ponens: confirmar a condição obriga a consequência', // correta
+      'passei ou não passei', // opção
+      'estudei pouco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Modus ponens: p→q + p ⟹ q. A forma válida de confirmar o antecedente. (O inverso — negar a consequência para negar o antecedente — é o modus tollens.)', // explicação
+    dica: 'As duas formas válidas: p→q, p ∴ q (modus ponens) e p→q, ¬q ∴ ¬p (modus tollens). As inválidas: afirmar a consequente ou negar o antecedente — não concluem nada.', // pegadinha
+    video: 'modus ponens tollens argumento válido lógica' // busca no YouTube
+  },
+  {
+    id: 'r63',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Múltiplos e divisores',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O número de divisores positivos de 36 é:', // pergunta
+    alternativas: [                     // opções
+      '6', // opção
+      '9', // correta
+      '12', // opção
+      '36', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '36 = 2² × 3². Número de divisores = (2+1) × (2+1) = 9: são 1, 2, 3, 4, 6, 9, 12, 18, 36. O truque do expoente+1 evita listar tudo.', // explicação
+    dica: 'Regra: fatora em primos, soma 1 a cada expoente e multiplica. Rápido e não esquece o 1 nem o próprio número — os dois sempre contam.', // pegadinha
+    video: 'número de divisores fatoração expoente' // busca no YouTube
+  },
+  {
+    id: 'r64',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Quantificadores',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Se "Nenhum político é confiável" é verdade, então necessariamente:', // pergunta
+    alternativas: [                     // opções
+      'algum político é confiável', // opção
+      'nenhum confiável é político — a proposição "nenhum A é B" equivale a "nenhum B é A"', // correta
+      'todo político é confiável', // opção
+      'alguns não-políticos são confiáveis', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Nenhum A é B" é simétrica: se os conjuntos não se tocam, vale nos dois sentidos (nenhum político é confiável ⟺ nenhum confiável é político). Já "todo A é B" NÃO é reversível.', // explicação
+    dica: 'Comutam: "nenhum A é B" e "algum A é B" podem inverter. "Todo A é B" NÃO pode virar "todo B é A" (todo paulista é brasileiro ≠ todo brasileiro é paulista).', // pegadinha
+    video: 'quantificadores todo nenhum algum lógica' // busca no YouTube
+  },
+  {
+    id: 'i57',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Hardware — componentes',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A diferença entre memória RAM e armazenamento (SSD/HD) é:', // pergunta
+    alternativas: [                     // opções
+      'não há diferença prática', // opção
+      'a RAM é volátil e rápida — trabalho ativo; o SSD guarda os dados permanentemente, mesmo desligado', // correta
+      'o HD é mais rápido que a RAM', // opção
+      'a RAM guarda os arquivos para sempre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'RAM = memória de trabalho (volátil, velocíssima, apaga ao desligar); armazenamento = arquivo permanente (SSD mais rápido que HD mecânico). RAM maior = mais programas simultâneos sem travar.', // explicação
+    dica: 'Analogia da prova: RAM = mesa de trabalho (espaço para o que você usa AGORA); SSD = armário (onde guarda tudo). Desligou, a mesa esvazia; o armário fica.', // pegadinha
+    video: 'memória ram vs ssd hd diferença volátil' // busca no YouTube
+  },
+  {
+    id: 'i58',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Sistemas operacionais',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O sistema operacional (Windows, Linux, Android) é o software que:', // pergunta
+    alternativas: [                     // opções
+      'serve só para editar textos', // opção
+      'gerencia o hardware e cria a plataforma sobre a qual rodam os aplicativos', // correta
+      'é um tipo de vírus', // opção
+      'substitui a internet', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O SO é a camada intermediária: controla CPU, memória, arquivos e dispositivos, e oferece a base para os programas — sem ele, o computador não "fala" com os aplicativos.', // explicação
+    dica: 'Software livre × proprietário: Linux/Android = código aberto modificável; Windows/macOS = proprietário fechado. O ENEM cobra a distinção e o papel do SO como "chefe do hardware".', // pegadinha
+    video: 'sistema operacional o que faz linux windows' // busca no YouTube
+  },
+  {
+    id: 'i59',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Internet × web',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Internet e World Wide Web (www) são coisas diferentes porque:', // pergunta
+    alternativas: [                     // opções
+      'são sinônimos exatos', // opção
+      'a internet é a infraestrutura de rede; a web é um serviço que roda sobre ela (páginas via navegador)', // correta
+      'a web é mais antiga que a internet', // opção
+      'a internet só funciona por cabo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A internet (anos 70) é a rede física/global; a web (1991, Tim Berners-Lee) é o serviço de hipertexto que usamos no navegador. Outros serviços rodam na internet sem ser "web": e-mail, FTP, apps.', // explicação
+    dica: 'Macete: internet = a estrada; web = os carros que trafegam nela (um dos serviços). E-mail é internet, não web — a distinção é cobrada.', // pegadinha
+    video: 'internet world wide web diferença história' // busca no YouTube
+  },
+  {
+    id: 'i60',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Cookies e rastreamento',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Os cookies que os sites pedem para aceitar servem principalmente para:', // pergunta
+    alternativas: [                     // opções
+      'acelerar o processador', // opção
+      'guardar preferências e rastrear a navegação — login persistente, carrinho e publicidade direcionada', // correta
+      'proteger contra vírus', // opção
+      'aumentar a velocidade da internet', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cookies são arquivos que os sites gravam no seu navegador: úteis (manter login, carrinho) e de rastreamento (perfil de publicidade). A LGPD exige consentimento para os não essenciais.', // explicação
+    dica: 'Cookies de 1ª parte (o próprio site) ≠ de 3ª parte (redes de anúncio que te seguem). O aviso de cookies aparece por causa da LGPD/GDPR — o consentimento é o ponto legal.', // pegadinha
+    video: 'cookies o que são rastreamento lgpd' // busca no YouTube
+  },
+  {
+    id: 'i61',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Malware — tipos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O ransomware é o golpe que:', // pergunta
+    alternativas: [                     // opções
+      'rouba a senha do wi-fi do vizinho', // opção
+      'sequestra os arquivos por criptografia e exige pagamento para liberar', // correta
+      'acelera o computador', // opção
+      'faz propaganda gratuita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ransomware criptografa os dados da vítima e cobra resgate (geralmente em criptomoeda). A defesa principal é backup offline — pagar não garante devolução e financia o crime.', // explicação
+    dica: 'Tipos cobrados: vírus (se replica), worm (se espalha sozinho), trojan (disfarçado de programa útil), ransomware (sequestra dados), spyware (espiona), phishing (isca por mensagem).', // pegadinha
+    video: 'ransomware sequestro dados como se proteger' // busca no YouTube
+  },
+  {
+    id: 'i62',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Editores — formatação',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Num editor de textos, para centralizar um título, criar lista numerada e colocar palavra em negrito usa-se, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'Ctrl+E (centralizar), botão de lista, Ctrl+N (negrito)', // correta
+      'Ctrl+N, Ctrl+E, botão de lista', // opção
+      'só com o mouse, nunca teclado', // opção
+      'menu Arquivo em todas', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Atalhos padrão do Word/Writer: Ctrl+E = centralizar (E de "centrE" na lógica inglesa center), Ctrl+N = negrito (bold), Ctrl+S = salvar, Ctrl+Z = desfazer — o conjunto que a prova adora.', // explicação
+    dica: 'Os atalhos cobrados: Ctrl+S salvar, Ctrl+Z desfazer, Ctrl+N negrito, Ctrl+E centralizar, Ctrl+J justificar, Ctrl+P imprimir. O inglês explica a maioria (bold → N? Na verdade N de eNfatizar — decore como está).', // pegadinha
+    video: 'atalhos teclado word ctrl e j s centralizar' // busca no YouTube
+  },
+  {
+    id: 'i63',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Algoritmo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um algoritmo, no sentido da computação, é:', // pergunta
+    alternativas: [                     // opções
+      'um programa de computador pronto', // opção
+      'uma sequência finita e ordenada de passos para resolver um problema — a receita que o programa executa', // correta
+      'um tipo de hardware', // opção
+      'uma rede social', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Algoritmo = procedimento passo a passo que transforma entrada em saída (receita de bolo é o exemplo clássico). O programa é a implementação dele numa linguagem; o computador só executa algoritmos.', // explicação
+    dica: 'O ENEM humaniza: algoritmo existe fora do computador — fazer café, trocar pneu seguem algoritmos. A distinção cobrada é: algoritmo = a ideia; programa = a ideia codificada.', // pegadinha
+    video: 'algoritmo o que é lógica programação receita' // busca no YouTube
+  },
+  {
+    id: 'i64',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Deepfake',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As "deepfakes" — vídeos sintéticos que colocam o rosto de alguém dizendo o que nunca disse — representam um desafio porque:', // pergunta
+    alternativas: [                     // opções
+      'são brincadeira inofensiva', // opção
+      'tornam a verificação de imagens quase impossível e podem destruir reputações ou fraudar eleições', // correta
+      'só existem em filmes de Hollywood', // opção
+      'ajudam a detectar mentiras', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Deepfakes usam IA para sintetizar áudio/vídeo realistas — ameaça à prova visual ("ver para crer" deixa de bastar), arma de desinformação, vingança e fraude eleitoral.', // explicação
+    dica: 'O ENEM liga deepfake à crise da evidência: a solução cobrada é verificação de fonte + forense digital + regulação — nunca "impossível de identificar" como resposta final.', // pegadinha
+    video: 'deepfake inteligência artificial vídeo falso' // busca no YouTube
+  },
+  {
+    id: 'i65',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Criptografia',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O cadeado 🔒 e o "https" no endereço de um site significam que:', // pergunta
+    alternativas: [                     // opções
+      'o site é do governo', // opção
+      'a conexão é criptografada — o que você envia não pode ser lido por quem intercepta o caminho', // correta
+      'o site é gratuito', // opção
+      'a página não tem vírus', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'HTTPS = HTTP + criptografia TLS: os dados viajam embaralhados entre você e o servidor. Não garante que o site é honesto (site de golpe também tem cadeado) — só que a CONEXÃO é protegida.', // explicação
+    dica: 'Cadeado ≠ site confiável: phishing usa https também. O cadeado protege o caminho, não a intenção — verifique sempre o endereço digitado.', // pegadinha
+    video: 'https criptografia cadeado site seguro' // busca no YouTube
+  },
+  {
+    id: 'i66',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Exclusão digital',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "exclusão digital" no Brasil afeta principalmente:', // pergunta
+    alternativas: [                     // opções
+      'quem tem o celular mais novo', // opção
+      'populações pobres, rurais e idosas — sem acesso a internet, aparelho ou letramento para usar os serviços que migraram ao digital', // correta
+      'apenas as grandes empresas', // opção
+      'quem mora em capitais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Exclusão digital = falta de acesso (infraestrutura, custo) + falta de habilidade (letramento digital). Quando serviços essenciais viram "só pelo app", quem está fora perde cidadania — o digital amplia a desigualdade existente.', // explicação
+    dica: 'O ENEM trata a inclusão digital como questão social: não basta ter sinal — precisa de aparelho, habilidade e serviço acessível. A resposta sempre liga tecnologia à desigualdade.', // pegadinha
+    video: 'exclusão digital desigualdade acesso internet brasil' // busca no YouTube
+  },
+  {
+    id: 't47',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Mudanças climáticas',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O efeito estufa é problema quando intensificado por:', // pergunta
+    alternativas: [                     // opções
+      'a própria existência do fenômeno natural', // opção
+      'a queima de combustíveis fósseis e o desmatamento — gases retêm mais calor do que o natural', // correta
+      'o ciclo da água', // opção
+      'a fotossíntese', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O efeito estufa é natural e necessário (sem ele, a Terra seria congelada). O problema é a INTENSIFICAção: CO₂ e metano extras da queima de fósseis e do desmatamento elevam a temperatura média — aquecimento global antropogênico.', // explicação
+    dica: 'Distinga: efeito estufa = fenômeno natural bom; aquecimento global = seu excesso por causa humana; mudança climática = as consequências (eventos extremos, nível do mar).', // pegadinha
+    video: 'efeito estufa aquecimento global diferença' // busca no YouTube
+  },
+  {
+    id: 't48',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'BRICS e ordem multipolar',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O bloco dos BRICS (Brasil, Rússia, Índia, China, África do Sul + novos membros) representa, na geopolítica atual:', // pergunta
+    alternativas: [                     // opções
+      'uma aliança militar ocidental', // opção
+      'um contraponto dos países emergentes ao domínio das potências tradicionais (G7) — demanda por ordem multipolar', // correta
+      'um tratado de livre comércio do hemisfério norte', // opção
+      'uma organização ambiental', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os BRICS agrupam economias emergentes que pedem reforma das instituições globais (ONU, FMI, Banco Mundial) e criaram o Novo Banco de Desenvolvimento — expressam a transição para um mundo multipolar.', // explicação
+    dica: 'BRICS ≠ bloco comercial fechado nem aliança militar: é fórum de coordenação de emergentes. A expansão (Irã, Etiópia, Egito, Emirados, Indonésia) reforça o peso do "Sul Global".', // pegadinha
+    video: 'brics o que é ordem multipolar geopolítica' // busca no YouTube
+  },
+  {
+    id: 't49',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Inteligência artificial e trabalho', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A automação por IA levanta o debate sobre "desemprego tecnológico". A análise mais equilibrada aponta que:', // pergunta
+    alternativas: [                     // opções
+      'todos os empregos vão desaparecer em 5 anos', // opção
+      'a IA elimina tarefas e transforma ocupações — o problema real é a (re)qualificação da força de trabalho, não o fim do trabalho', // correta
+      'a IA não afeta empregos de escritório', // opção
+      'máquinas nunca substituíram humanos antes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Historiadores do trabalho comparam com revoluções industriais anteriores: máquinas destruíram cargos mas criaram outros — o gargalo é a transição (quem perde não é quem ganha). O debate atual é regulamentar e requalificar.', // explicação
+    dica: 'Resposta ENEM = nunca a extrema ("fim dos empregos" nem "não muda nada"): destruição criativa — tarefas somem, ocupações se adaptam, novas surgem. O foco é a desigualdade da transição.', // pegadinha
+    video: 'ia e futuro do trabalho desemprego tecnológico' // busca no YouTube
+  },
+  {
+    id: 't50',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Amazônia e desmatamento',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O desmatamento da Amazônia preocupa globalmente porque a floresta:', // pergunta
+    alternativas: [                     // opções
+      'não tem importância climática', // opção
+      'regula o clima continental, abriga a maior biodiversidade do mundo e influencia o regime de chuvas do país ("rios voadores")', // correta
+      'é só uma questão estética', // opção
+      'não pertence ao Brasil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Amazônia evapotranspira "rios voadores" que irrigam o Centro-Sul; guarda carbono que, liberado, acelera o aquecimento; e concentra ~10% das espécies conhecidas — o desmate ameaça o ponto de não-retorno.', // explicação
+    dica: 'Conceito ENEM: "rios voadores" — a floresta gera a chuva que sustenta o agronegócio do Sudeste/Centro-Oeste. Desmatar a Amazônia prejudica o próprio agro que a pressiona.', // pegadinha
+    video: 'amazônia desmatamento rios voadores clima' // busca no YouTube
+  },
+  {
+    id: 't51',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Guerra na Ucrânia',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A invasão russa da Ucrânia (2022) gerou impacto global principalmente em:', // pergunta
+    alternativas: [                     // opções
+      'somente na Europa, sem efeitos no Brasil', // opção
+      'energia (gás), grãos (trigo) e fertilizantes — encarecendo alimentos e combustíveis no mundo todo', // correta
+      'somente no turismo', // opção
+      'nenhum impacto fora da região', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rússia e Ucrânia são grandes exportadores de energia, trigo e fertilizantes: a guerra e as sanções dispararam preços globais — crise de segurança alimentar e energética, sentida inclusive no Brasil.', // explicação
+    dica: 'O ENEM liga conflitos a cadeias globais: mundo globalizado = guerra local com efeito planetário. Pense em "o que a região produz" — energia/grãos/fertilizantes é a tríade.', // pegadinha
+    video: 'guerra ucrânia impacto global energia grãos' // busca no YouTube
+  },
+  {
+    id: 't52',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Saúde mental pós-pandemia',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A pandemia de covid-19 evidenciou como problema de saúde pública, além do vírus:', // pergunta
+    alternativas: [                     // opções
+      'somente a fome', // opção
+      'a crise de saúde mental — ansiedade, depressão e burnout dispararam com o isolamento e a precariedade', // correta
+      'o excesso de exercício físico', // opção
+      'o surgimento de alergias novas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O isolamento, o luto e a insegurança econômica ampliaram transtornos mentais — adolescentes e profissionais de saúde como grupos críticos. Saúde mental virou pauta de política pública e de trabalho.', // explicação
+    dica: 'O ENEM trata a pandemia como evento multiestressor: não só biológico, mas social (educação interrompida, desemprego) e psicológico — a resposta certa é sistêmica.', // pegadinha
+    video: 'saúde mental pós pandemia burnout ansiedade' // busca no YouTube
+  },
+  {
+    id: 't53',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Energia e crise hídrica',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As crises de apagão/bandeiras tarifárias no Brasil ocorrem principalmente porque:', // pergunta
+    alternativas: [                     // opções
+      'o país não tem rios', // opção
+      'a matriz depende de hidrelétricas — a seca esvazia os reservatórios e dispara as térmicas mais caras', // correta
+      'o sol não funciona à noite', // opção
+      'o consumo residencial é proibido', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil depende historicamente de hidrelétricas: sem chuva, aciona termelétricas caras e poluentes (bandeiras vermelhas) ou corre risco de racionamento — a diversificação (solar, eólica) é a resposta.', // explicação
+    dica: 'O ENEM liga clima a energia: seca ≠ falta de planejamento apenas — é a dependência de uma fonte vulnerável. Solar e eólica crescem como diversificação da matriz.', // pegadinha
+    video: 'crise hídrica bandeiras tarifárias hidrelétrica' // busca no YouTube
+  },
+  {
+    id: 't54',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia verde',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O conceito de "economia verde" defende que:', // pergunta
+    alternativas: [                     // opções
+      'crescimento e ambiente são incompatíveis', // opção
+      'é possível gerar renda reduzindo impactos — tecnologias limpas, agricultura sustentável e empregos verdes', // correta
+      'a natureza não deve ser usada', // opção
+      'apenas florestas merecem proteção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Economia verde = conciliar desenvolvimento e sustentabilidade: energia limpa, bioeconomia, agricultura de baixo carbono, empregos na restauração — crescer sem destruir a base que sustenta a economia.', // explicação
+    dica: 'O ENEM rejeita a falsa dicotomia "economia OU meio ambiente": a resposta certa mostra que a preservação também gera valor (bioeconomia da Amazônia, turismo ecológico, carbono).', // pegadinha
+    video: 'economia verde desenvolvimento sustentável' // busca no YouTube
+  },
+  {
+    id: 't55',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Polarização política',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A polarização política recente no Brasil e no mundo é amplificada por:', // pergunta
+    alternativas: [                     // opções
+      'a imprensa tradicional apenas', // opção
+      'algoritmos de redes sociais que recompensam conteúdo extremo e criam bolhas de confirmação', // correta
+      'a existência de partidos políticos', // opção
+      'a burocracia excessiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As redes otimizam engajamento: conteúdo que indigna prende atenção, então o algoritmo entrega mais do extremo — bolha de filtro + radicalização. Somam-se desinformação e decline da confiança institucional.', // explicação
+    dica: 'O ENEM não culpa a tecnologia sozinha: a polarização tem raízes sociais (desigualdade, desconfiança), amplificadas por plataformas. A resposta é multifatorial.', // pegadinha
+    video: 'polarização política bolha filtro redes sociais' // busca no YouTube
+  },
+  {
+    id: 't56',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Demografia — envelhecimento', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A transição demográfica brasileira — queda de fertilidade e aumento da expectativa de vida — traz como desafio:', // pergunta
+    alternativas: [                     // opções
+      'a superpopulação jovem', // opção
+      'o envelhecimento populacional: menos trabalhadores financiando mais idosos — pressão sobre previdência e saúde', // correta
+      'o aumento da mortalidade infantil', // opção
+      'a explosão da natalidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil envelhece rápido: a razão de dependência sobe (mais idosos por trabalhador), pressionando previdência e saúde — a mesma dinâmica de Japão e Europa, mas em país mais pobre.', // explicação
+    dica: 'Pirâmide etária do ENEM: base estreita (menos filhos) + topo largo (mais velhos) = país que envelhece. Consequência cobrada: sustentabilidade da previdência e demanda por cuidado geriátrico.', // pegadinha
+    video: 'envelhecimento populacional transição demográfica brasil' // busca no YouTube
+  },
+  {
+    id: 'a52',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Princípio da legalidade',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'No Estado de Direito, a Administração difere do particular porque:', // pergunta
+    alternativas: [                     // opções
+      'pode fazer tudo que a lei não proíbe', // opção
+      'só pode agir onde a lei autoriza — ao contrário do cidadão, que pode tudo que não é proibido', // correta
+      'não precisa seguir nenhuma lei', // opção
+      'depende só da vontade do gestor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A legalidade administrativa é invertida: o particular age livremente salvo proibição; o administrador só age com autorização legal — não tem "vontade própria", executa a lei.', // explicação
+    dica: 'A banca troca as pontas: "Administração pode tudo que não é proibido" = ERRADO. Isso vale para o cidadão; para o gestor público, só o que a lei permite.', // pegadinha
+    video: 'princípio da legalidade administração particular' // busca no YouTube
+  },
+  {
+    id: 'a53',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Atos administrativos',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um ato administrativo vinculado é aquele em que:', // pergunta
+    alternativas: [                     // opções
+      'o gestor escolhe livremente o conteúdo', // opção
+      'a lei define todos os requisitos — não há margem de escolha', // correta
+      'só vale com assinatura do presidente', // opção
+      'depende da conveniência do servidor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ato vinculado = a lei fixa tudo (competência, forma, motivo, objeto): o agente só aplica. Ato discricionário = a lei deixa margem de mérito (conveniência/oportunidade) — ex.: nomear um secretário.', // explicação
+    dica: 'Vinculado × discricionário é o par cobrado: aprovado em concurso → NOME é vinculado (a lei obriga); multar no limite de velocidade é vinculado; decidir o valor dentro da faixa é discricionário.', // pegadinha
+    video: 'ato administrativo vinculado discricionário' // busca no YouTube
+  },
+  {
+    id: 'a54',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poderes da Administração',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O poder disciplinar permite à Administração:', // pergunta
+    alternativas: [                     // opções
+      'multar qualquer cidadão', // opção
+      'punir internamente seus servidores e contratados com vínculo específico', // correta
+      'prender infratores de trânsito', // opção
+      'editar leis', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Poder disciplinar = sanção interna sobre quem tem vínculo (servidor, concessionário): advertência, suspensão, demissão. Sobre o cidadão comum vale o poder de polícia — a banca troca os dois.', // explicação
+    dica: 'Disciplinar = dentro (vínculo); polícia = fora (cidadão). Um guarda municipal multa o carro = poder de polícia; pune o colega que falta = disciplinar.', // pegadinha
+    video: 'poder disciplinar poder de polícia diferença' // busca no YouTube
+  },
+  {
+    id: 'a55',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Organização administrativa', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Autarquias, fundações e empresas públicas formam a administração indireta porque:', // pergunta
+    alternativas: [                     // opções
+      'são empresas privadas', // opção
+      'o Estado cria entidades com personalidade própria para executar funções descentralizadas, mantendo controle final', // correta
+      'não prestam serviço público', // opção
+      'pertencem a outros países', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Descentralização: o Estado cria entes especializados (autarquia = INSS; fundação = Funai; empresa pública = Correios) com pessoa jurídica própria — mas sob tutela (controle finalístico) do ente criador.', // explicação
+    dica: 'Diferenças cobradas: autarquia = lei cria, serviço público; empresa pública/sociedade de economia mista = explora atividade econômica (Correios, Banco do Brasil); fundação = fins sociais/culturais.', // pegadinha
+    video: 'administração indireta autarquia empresa pública' // busca no YouTube
+  },
+  {
+    id: 'a56',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Bens públicos',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Praias, praças e estradas são "bens de uso comum do povo" — isso significa que:', // pergunta
+    alternativas: [                     // opções
+      'podem ser vendidos a particulares livremente', // opção
+      'qualquer cidadão pode usá-los sem autorização especial — são inalienáveis enquanto conservarem a destinação', // correta
+      'só o governo pode usar', // opção
+      'não pertencem a ninguém', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bens de uso comum = acesso direto e gratuito de todos (rua, praça, praia) — inalienáveis e impenhoráveis. Bens de uso especial (prédios de repartição) e dominicais (terra sem destinação) são as outras categorias.', // explicação
+    dica: 'Três classes cobradas: uso comum (praia/rua — todos usam), uso especial (quartel/prefeitura — uso do serviço) e dominical (patrimônio disponível — pode ser vendido). Praia NUNCA é privada.', // pegadinha
+    video: 'bens públicos uso comum dominical inalienável' // busca no YouTube
+  },
+  {
+    id: 'a57',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Improbidade administrativa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um prefeito que usa dinheiro da merenda para fins próprios comete, pela Lei 8.429/1992:', // pergunta
+    alternativas: [                     // opções
+      'apenas infração ética sem punição', // opção
+      'improbidade administrativa — enriquecimento ilícito ou dano ao erário, com perda de função, multa e suspensão de direitos', // correta
+      'crime político eleitoral apenas', // opção
+      'falta leve corrigível', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei de Improbidade sanciona civil-administrativamente o agente que lesa o erário ou se enriquece ilicitamente: sanções = devolução, multa, perda do cargo e proibição de novos cargos por anos.', // explicação
+    dica: 'Improbidade ≠ crime penal (mas pode coexistir): a lei 8.429 é cível/administrativa — o processo corre nos dois planos. Enriquecimento ilícito = modalidade mais grave.', // pegadinha
+    video: 'improbidade administrativa lei 8429 sanções' // busca no YouTube
+  },
+  {
+    id: 'a58',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Regime jurídico dos servidores', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A estabilidade do servidor público efetivo (após 3 anos de estágio probatório) significa:', // pergunta
+    alternativas: [                     // opções
+      'nunca poder ser demitido, mesmo por crime', // opção
+      'só perder o cargo por sentença judicial, processo administrativo ou insuficiência de desempenho — proteção contra perseguição política', // correta
+      'não precisar mais trabalhar', // opção
+      'salário vitalício sem avaliação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A estabilidade (art. 41 CF) não é emprego eterno: o estável pode ser demitido por PAD com contraditório, sentença judicial transitada ou avaliação periódica insuficiente — a garantia é contra demissão política.', // explicação
+    dica: '"Estável ≠ intocável" é a pegadinha: demissão por PAD e por desempenho existe. A estabilidade protege a função (e o serviço), não a impunidade do servidor.', // pegadinha
+    video: 'estabilidade servidor público artigo 41 estágio' // busca no YouTube
+  },
+  {
+    id: 'a59',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Desapropriação',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Para desapropriar um terreno e construir uma escola, o Estado deve, obrigatoriamente:', // pergunta
+    alternativas: [                     // opções
+      'tomar o bem sem compensação', // opção
+      'declarar utilidade pública e pagar justa indenização prévia ao proprietário', // correta
+      'pedir permissão ao vizinho', // opção
+      'esperar o dono morrer', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A desapropriação exige: interesse/utilidade pública declarado + indenização justa e prévia em dinheiro — o dono recebe antes de sair. Propriedade não é absoluta, mas a perda é compensada.', // explicação
+    dica: 'Prévia + justa + em dinheiro: os três requisitos. A função social da propriedade justifica tomar; a justa indenização protege o proprietário — os dois princípios em equilíbrio.', // pegadinha
+    video: 'desapropriação indenização utilidade pública' // busca no YouTube
+  },
+  {
+    id: 'a60',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Controle da Administração',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Tribunal de Contas (da União, dos Estados) exerce controle:', // pergunta
+    alternativas: [                     // opções
+      'interno — é órgão do Executivo', // opção
+      'externo — auxilia o Legislativo a fiscalizar o Executivo (contas, licitações, gestão)', // correta
+      'judicial — condena corruptos a prisão', // opção
+      'social — reúne cidadãos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O TC é órgão auxiliar do Legislativo (controle externo): examina contas públicas, licitações e gestão — técnico e independente. Não julga crime: quem condena é o Judiciário.', // explicação
+    dica: 'Três controles confundidos: interno (o próprio órgão se fiscaliza), externo (Legislativo + TC), judicial (juiz anula atos). O TC não é tribunal "de julgar gente" — julga CONTAS.', // pegadinha
+    video: 'tribunal de contas controle externo fiscalização' // busca no YouTube
+  },
+  {
+    id: 'a61',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Processo administrativo',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Antes de demitir um servidor por falta grave, a Administração é obrigada a garantir:', // pergunta
+    alternativas: [                     // opções
+      'nada — pode demitir imediatamente', // opção
+      'processo administrativo com ampla defesa e contraditório — o acusado pode se defender antes da punição', // correta
+      'apenas aviso verbal', // opção
+      'votação entre os colegas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PAD (Processo Administrativo Disciplinar) = devido processo na esfera administrativa: o servidor só é punido após defesa plena — contraditório e ampla defesa são direitos constitucionais (art. 5º, LV).', // explicação
+    dica: 'Mesmo na punição administrativa vale a Constituição: contraditório = ouvir a outra parte; ampla defesa = usar todos os meios de prova. Demissão sumária = nulidade.', // pegadinha
+    video: 'pad processo administrativo ampla defesa contraditório' // busca no YouTube
+  },
+  {
+    id: 'c55',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Forma de governo e federação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A República Federativa do Brasil adota presidencialismo e federalismo. Isso implica:', // pergunta
+    alternativas: [                     // opções
+      'o presidente manda nos estados', // opção
+      'União, estados e municípios têm autonomia própria e competências divididas — nenhum pode abolir o outro', // correta
+      'os municípios são subordinados ao estado', // opção
+      'o federalismo é opcional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O federalismo reparte competências (legislativas e administrativas) entre União, estados/DF e municípios — entes autônomos, não hierárquicos. A federação é cláusula pétrea: não pode virar unitarismo.', // explicação
+    dica: 'O Brasil é federação com centralização histórica (União concentra recursos). Município é ente federativo com autonomia — não "departamento do estado". Detalhe cobrado.', // pegadinha
+    video: 'federalismo brasileiro autonomia estados municípios' // busca no YouTube
+  },
+  {
+    id: 'c56',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direito de greve',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O direito de greve dos servidores públicos no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'é totalmente proibido', // opção
+      'é reconhecido pela Constituição, mas a regulamentação específica do funcionalismo ainda é pendente — e serviços essenciais têm limites', // correta
+      'vale só para operários', // opção
+      'isenta de qualquer regra', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 37, VII garante o direito de greve ao servidor, mas a lei específica nunca foi plenamente regulamentada — o STF aplica analogia à lei do setor privado (Lei 7.783/89), com limites para serviços essenciais.', // explicação
+    dica: 'Greve de servidor existe, mas é o "patinho regulatório": autorizada na CF, sem lei própria completa. Serviços essenciais (saúde, segurança) têm restrições maiores.', // pegadinha
+    video: 'greve servidor público direito constitucional' // busca no YouTube
+  },
+  {
+    id: 'c57',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Mandado de segurança',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Um candidato aprovado dentro das vagas de um concurso é preterido pela administração. O remédio para proteger esse direito líquido e certo é:', // pergunta
+    alternativas: [                     // opções
+      'habeas corpus', // opção
+      'mandado de segurança — protege direito líquido e certo contra ilegalidade ou abuso de poder', // correta
+      'habeas data', // opção
+      'ação popular apenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mandado de segurança = remédio contra ilegalidade/abuso de poder que lesiona direito líquido e certo não coberto por HC ou HD. Nomeação de aprovado em concurso é o caso clássico.', // explicação
+    dica: 'Direito líquido e certo = provado de imediato, sem produção longa. Diferença: MS = ilegalidade contra direito certo; HC = liberdade de ir/vir; HD = acesso aos seus dados.', // pegadinha
+    video: 'mandado de segurança direito líquido certo' // busca no YouTube
+  },
+  {
+    id: 'c58',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Ação popular',               // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O cidadão que quer anular ato que lesa o patrimônio público ou a moralidade pode propor:', // pergunta
+    alternativas: [                     // opções
+      'ações criminais privadas', // opção
+      'ação popular — instrumento de participação que isenta de custas e permite ao cidadão defender o interesse coletivo', // correta
+      'habeas corpus coletivo', // opção
+      'mandado de injunção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ação popular (CF art. 5º, LXXIII) empodera qualquer cidadão para anular ato lesivo ao patrimônio público, moralidade, meio ambiente e patrimônio histórico — gratuita (sem custas) salvo má-fé.', // explicação
+    dica: 'Requisitos do autor: ser CIDADÃO (eleitor em dia) — não precisa ser lesado pessoalmente. É o instrumento do "controle popular" da administração — a banca adora a isenção de custas.', // pegadinha
+    video: 'ação popular cidadão patrimônio público moralidade' // busca no YouTube
+  },
+  {
+    id: 'c59',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direito à educação',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Constituição trata a educação como:', // pergunta
+    alternativas: [                     // opções
+      'serviço opcional do Estado', // opção
+      'direito de todos e dever do Estado e da família — acesso obrigatório e universal', // correta
+      'privilégio de quem paga', // opção
+      'responsabilidade exclusiva dos pais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 205-208: educação = direito de todos e dever do Estado e da família — ensino fundamental obrigatório e gratuito, com oferta pública universal. É direito social que se exige judicialmente.', // explicação
+    dica: 'O Estado "oferece", a família "efetiva": a escola é dever compartilhado — o poder público cria a vaga, os pais matriculam. Não matricular filho viola o dever familiar.', // pegadinha
+    video: 'direito à educação constituição artigo 205' // busca no YouTube
+  },
+  {
+    id: 'c60',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Devido processo legal',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O devido processo legal (art. 5º, LIV) garante que ninguém seja privado de liberdade ou bens sem:', // pergunta
+    alternativas: [                     // opções
+      'pagar fiança', // opção
+      'processo justo: contraditório, ampla defesa, juiz natural e prova legal — os pilares do processo justo', // correta
+      'confissão', // opção
+      'autorização do chefe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O devido processo é o guarda-chuva do processo justo: juiz natural, contraditório (ouvir os dois lados), ampla defesa (todos os meios de prova), defensoria gratuita e prova lícita.', // explicação
+    dica: 'Devido processo ≠ só no criminal: vale para qualquer ato estatal que afete direitos (licitação, multa, PAD). Prova ilegal (escuta sem autorização) contamina e deve ser descartada.', // pegadinha
+    video: 'devido processo legal contraditório ampla defesa' // busca no YouTube
+  },
+  {
+    id: 'c61',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos políticos',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "paridade de direitos" entre o voto obrigatório e o facultativo é garantida porque:', // pergunta
+    alternativas: [                     // opções
+      'o facultativo não conta na urna', // opção
+      'todo voto (obrigatório ou facultativo) tem o mesmo peso — e o alistamento facultativo aos 16 já permite votar', // correta
+      'o facultativo vale metade', // opção
+      'o voto do jovem é simbólico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O voto facultativo (16-17, 70+, analfabetos) conta integralmente — a paridade de direitos significa que, uma vez exercido, o voto vale igual. O que muda é a obrigação, não o valor.', // explicação
+    dica: 'Pegadinha sutil: "facultativo" é sobre a OBRIGAÇÃO de votar, não sobre o PESO do voto. Analfabeto vota facultativamente e seu voto conta como qualquer outro.', // pegadinha
+    video: 'voto facultativo peso igual paridade direitos' // busca no YouTube
+  },
+  {
+    id: 'c62',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Função social da propriedade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A função social da propriedade (CF art. 5º, XXIII e art. 182) permite que:', // pergunta
+    alternativas: [                     // opções
+      'o dono faça o que quiser com o bem', // opção
+      'imóvel urbano ocioso ou rural improdutivo possa ser destinado/desapropriado — a propriedade deve cumprir papel coletivo', // correta
+      'a propriedade privada seja abolida', // opção
+      'só terras públicas tenham regras', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A propriedade é direito garantido, MAS condicionado à função social: o prédio urbano vazio pode ser parcelado/edificado compulsoriamente ou desapropriado; a terra rural improdutiva pode ser usada na reforma agrária.', // explicação
+    dica: 'Direito à propriedade ≠ direito absoluto: a CF equilibra — garante o bem, exige a função social. A reforma agrária urbana (Estatuto da Cidade) é o instrumento.', // pegadinha
+    video: 'função social da propriedade reforma urbana agrária' // busca no YouTube
+  },
+  {
+    id: 'c63',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Controle de constitucionalidade', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quando o STF declara, em ADI, que uma lei é inconstitucional, a decisão vale:', // pergunta
+    alternativas: [                     // opções
+      'só para o autor da ação', // opção
+      'erga omnes — para todos, com efeito vinculante a todo o Judiciário e à Administração', // correta
+      'apenas no estado de origem', // opção
+      'como sugestão ao Congresso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O controle concentrado (ADI, ADC, ADPF, ADO) produz efeito erga omnes: a lei sai do ordenamento para todos. No controle difuso, qualquer juiz pode não aplicar a lei no caso concreto — mas ela segue vigente para os demais.', // explicação
+    dica: 'Concentrado × difuso: concentrado = um tribunal decide para TODOS (STF/ADI); difuso = cada juiz decide no SEU caso (eficácia só entre as partes). Os dois coexistem no Brasil.', // pegadinha
+    video: 'controle constitucionalidade adi erga omnes difuso' // busca no YouTube
+  },
+  {
+    id: 'c64',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direito de reunião e associação', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Manifestações pacíficas em via pública são permitidas pela Constituição desde que:', // pergunta
+    alternativas: [                     // opções
+      'tenham autorização da polícia', // opção
+      'sejam pacíficas, sem armas, e com aviso prévio à autoridade — não precisa de autorização, só de comunicação', // correta
+      'tenham apoio de partido político', // opção
+      'ocorram só em locais fechados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 5º, XVI: reunião pacífica, sem armas, em local aberto = direito — exige apenas AVISO PRÉVIO à autoridade (para organização do espaço), não autorização. A polícia não pode proibir.', // explicação
+    dica: 'Aviso ≠ autorização: comunicar é dever; pedir licença, não. A limitação real é pacífica + sem armas. Autorização seria censura prévia — incompatível com a democracia.', // pegadinha
+    video: 'direito de reunião manifestação aviso prévio constituição' // busca no YouTube
+  },
+  {
+    id: 'd61',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Dolo × culpa',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O motorista que mata um pedestre por dirigir embriagado responde por homicídio:', // pergunta
+    alternativas: [                     // opções
+      'doloso — quis matar', // opção
+      'culposo — não quis o resultado, mas agiu com imperícia/negligência (assume o risco)', // correta
+      'sem crime — foi acidente', // opção
+      'apenas infração de trânsito', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dolo = querer o resultado; culpa = produzi-lo sem querer, por imperícia, imprudência ou negligência. Dirigir bêbado mata sem intenção — culpa (homicídio culposo no trânsito, Lei 20... art. 302 CTB).', // explicação
+    dica: 'A lei pode punir a culpa onde existe previsão específica (trânsito, medicina). Não há "homicídio doloso acidental": ou se quis (dolo) ou se criou o risco sem querer (culpa).', // pegadinha
+    video: 'dolo culpa diferença homicídio trânsito' // busca no YouTube
+  },
+  {
+    id: 'd62',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crime tentado',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Atirar e errar o alvo — a bala não atinge ninguém — configura:', // pergunta
+    alternativas: [                     // opções
+      'nada — não houve dano', // opção
+      'homicídio tentado — a execução iniciou, mas o resultado não ocorreu por circunstância alheia à vontade', // correta
+      'lesão corporal apenas', // opção
+      'crime impossível', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A tentativa (art. 14, II CP) pune quem inicia a execução e não consuma por circunstância alheia à vontade: atirou para matar, errou — punível com pena reduzida de 1/3 a 2/3.', // explicação
+    dica: 'Iter criminis: cogitação (pensar — não pune) → preparação → execução iniciada → consumação. A tentativa está no meio — os atos já são de execução, o resultado é que faltou.', // pegadinha
+    video: 'crime tentado iter criminis execução' // busca no YouTube
+  },
+  {
+    id: 'd63',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Legítima defesa — excesso',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Quem, ao se defender, passa do ponto — mata quem só dava um empurrão — comete:', // pergunta
+    alternativas: [                     // opções
+      'legítima defesa plena', // opção
+      'excesso doloso ou culposo de legítima defesa — responde pelo excesso', // correta
+      'crime isento', // opção
+      'estado de necessidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A legítima defesa exige moderação: defender-se desproporcionalmente é excesso (art. 23, parágrafo único CP) — punível pelo excesso, doloso ou culposo. Não é isenção total.', // explicação
+    dica: 'O "quanto pode" da defesa: o meio tem de ser o NECESSÁRIO para repelir a agressão — se a vítima desmaia e você continua batendo, virou excesso. Proporcionalidade é a régua.', // pegadinha
+    video: 'excesso legítima defesa proporcionalidade' // busca no YouTube
+  },
+  {
+    id: 'd64',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Prisão em flagrante',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A prisão em flagrante é admitida quando alguém:', // pergunta
+    alternativas: [                     // opções
+      'cometeu crime há um ano e a polícia descobriu agora', // opção
+      'está cometendo, acabou de cometer ou é encontrado logo após com objetos que indiquem a autoria', // correta
+      'parece suspeito na rua', // opção
+      'tem antecedentes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Flagrante = a captura no calor do crime: praticando, acabou de praticar, sendo perseguido logo após ou achado com instrumentos que façam presumir a autoria (CPP art. 302).', // explicação
+    dica: 'Qualquer pessoa pode prender em flagrante ("qualquer do povo", CPP 301) — não é privilégio policial. Depois do flagrante, o registro na delegacia é obrigatório e imediato.', // pegadinha
+    video: 'prisão em flagrante hipóteses cpp 302' // busca no YouTube
+  },
+  {
+    id: 'd65',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Corrupção passiva × ativa',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O empresário que oferece propina ao fiscal e o fiscal que aceita cometem, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'o mesmo crime', // opção
+      'corrupção ativa (quem oferece) e corrupção passiva (quem aceita) — dois crimes espelhados', // correta
+      'só o fiscal comete crime', // opção
+      'apenas improbidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Corrupção ativa = oferecer/prometer vantagem ao funcionário (art. 333); corrupção passiva = o funcionário solicitar ou receber (art. 317). Os dois lados do balcão respondem por crimes distintos.', // explicação
+    dica: 'Ativa = quem corrompe (oferta); passiva = quem se corrompe (aceita). E peculato = o funcionário que desvia dinheiro público — terceiro vértice do triângulo da corrupção pública.', // pegadinha
+    video: 'corrupção ativa passiva peculato diferença' // busca no YouTube
+  },
+  {
+    id: 'd66',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes contra a honra',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Acusar alguém falsamente de crime nas redes sociais é o crime de:', // pergunta
+    alternativas: [                     // opções
+      'injúria', // opção
+      'calúnia — imputar fato definido como crime a quem não cometeu', // correta
+      'difamação apenas', // opção
+      'não é crime se for verdade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Calúnia (art. 138) = acusar falsamente de crime. Difamação (139) = atribuir fato desonroso. Injúria (140) = ofender a dignidade diretamente. Na internet há agravante — divulgação amplificada.', // explicação
+    dica: 'Trinca de honra: calúnia = fato CRIME falso; difamação = fato DESONROSO (não crime); injúria = XINGO/qualidade. Exceção da verdade só existe na calúnia contra o Presidente e em processo judicial.', // pegadinha
+    video: 'calúnia difamação injúria diferença crimes honra' // busca no YouTube
+  },
+  {
+    id: 'd67',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Estelionato',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O golpe do "falso amor" na internet — emocionar a vítima para pedir dinheiro — é o crime de:', // pergunta
+    alternativas: [                     // opções
+      'roubo', // opção
+      'estelionato — obter vantagem ilícita induzindo a vítima ao erro por fraude', // correta
+      'furto', // opção
+      'apenas engano civil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estelionato (art. 171) = o "golpe": engano artificioso que leva a vítima a entregar voluntariamente o dinheiro — diferente do furto (pega sem a vítima saber) e do roubo (com violência).', // explicação
+    dica: 'O golpista faz a vítima AGIR: PIX "para o filho doente", depósito "para liberar prêmio". A vítima entrega por engano — é a essência do estelionato, crime das fraudes digitais.', // pegadinha
+    video: 'estelionato golpe fraude artigo 171' // busca no YouTube
+  },
+  {
+    id: 'd68',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Prescrição',                 // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A prescrição penal ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'o réu é inocentado', // opção
+      'o Estado perde o direito de punir pelo excesso de tempo decorrido — a punição prescreve', // correta
+      'a vítima desiste da queixa', // opção
+      'o crime é muito grave', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prescrição = decadência do ius puniendi pelo tempo: a pena máxima do crime fixa o prazo (quanto maior a pena, maior o prazo). Crimes imprescritíveis no Brasil: racismo e ação de grupos armados contra a ordem constitucional.', // explicação
+    dica: 'Prescrição ≠ perdão/anistia: é a extinção do poder de punir pelo tempo + inércia do Estado. A CF tornou racismo IMPRESCRITÍVEL — ação de grupos armados também (art. 5º, XLIII-XLIV).', // pegadinha
+    video: 'prescrição penal prazo imprescritível' // busca no YouTube
+  },
+  {
+    id: 'd69',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Lavagem de dinheiro',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: '"Lavar dinheiro" significa:', // pergunta
+    alternativas: [                     // opções
+      'limpar notas manchadas', // opção
+      'disfarçar a origem ilícita de recursos para que pareçam legais — ocultação de bens do crime', // correta
+      'depositar no banco', // opção
+      'investir em ações', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lavagem (Lei 9.613/1998) = transformar dinheiro sujo em aparentemente limpo: ciclos de ocultação → integração → legitimização (empresas de fachada, laranjas, cripto).', // explicação
+    dica: 'As três fases cobradas: colocação (entra no sistema), ocultação (circular para embaralhar a origem) e integração (volta como "legal" — imóvel, empresa). Precisa de crime antecedente.', // pegadinha
+    video: 'lavagem de dinheiro etapas ocultação integração' // busca no YouTube
+  },
+  {
+    id: 'd70',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Execução penal — progressão', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A progressão de regime (fechado → semiaberto → aberto) busca:', // pergunta
+    alternativas: [                     // opções
+      'aumentar o sofrimento', // opção
+      'a ressocialização gradual — retorno progressivo à sociedade conforme mérito do preso', // correta
+      'economia de dinheiro público', // opção
+      'substituir a sentença', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei de Execução Penal faz o condenado "descer" degraus: cumprida parte da pena (frações maiores para hediondos), com bom comportamento e prova de ressocialização, avança — não é automático.', // explicação
+    dica: 'A progressão exige FRAÇÃO da pena + requisitos objetivos/subjetivos — crimes hediondos pedem fração maior (2/5 ou 3/5). Não é direito absoluto: é prêmio pelo mérito.', // pegadinha
+    video: 'progressão de regime execução penal fração' // busca no YouTube
+  },
+  {
+    id: 'v49',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Carência',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A carência no INSS é:', // pergunta
+    alternativas: [                     // opções
+      'o tempo de espera na fila do INSS', // opção
+      'o número mínimo de contribuições mensais indispensáveis para pedir o benefício', // correta
+      'o valor da contribuição', // opção
+      'o tempo de permanência no emprego', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Carência = a "mensalidade mínima" exigida: aposentadoria por idade pede 180 contribuições (15 anos); auxílio por incapacidade, 12. Sem a carência, não há benefício — mesmo filiado.', // explicação
+    dica: 'Carência ≠ tempo de espera na fila: é requisito de elegibilidade (quantas vezes contribuiu). E há exceções: acidente de trabalho e doenças graves listadas dispensam carência.', // pegadinha
+    video: 'carência inss 180 contribuições requisito' // busca no YouTube
+  },
+  {
+    id: 'v50',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regime geral × próprio',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O RGPS (INSS) cobre os trabalhadores da iniciativa privada; os servidores públicos efetivos vinculam-se a:', // pergunta
+    alternativas: [                     // opções
+      'também ao INSS', // opção
+      'RPPS — regime próprio de previdência social de cada ente federativo', // correta
+      'previdência privada obrigatória', // opção
+      'o INSS e a previdência privada juntos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'RGPS = INSS (empregados privados, facultativos...); RPPS = regime próprio dos servidores efetivos da União/estados/municípios — cada ente tem o seu, com regras próprias de cálculo.', // explicação
+    dica: 'A sigla salva: RGPS (geral) = INSS = iniciativa privada; RPPS (próprio) = servidores públicos. Após reformas, RPPS tem limite/teto próprio e fundos complementares.', // pegadinha
+    video: 'rgps rpps regime geral próprio diferença' // busca no YouTube
+  },
+  {
+    id: 'v51',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Auxílio-reclusão atual',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Após a Reforma de 2019, o auxílio-reclusão (dependente do preso em regime fechado):', // pergunta
+    alternativas: [                     // opções
+      'continua igual para todos', // opção
+      'foi mantido apenas para segurados de baixa renda — critério de renda do segurado, não do dependente', // correta
+      'acabou totalmente', // opção
+      'passou a ser pago pelo presídio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A reforma restringiu o auxílio-reclusão: só se o segurado preso era de baixa renda. Muitos dependentes de presos com renda média perderam — mudança criticada como penalização da família.', // explicação
+    dica: 'Auxílio-reclusão ≠ pensão: paga-se aos dependentes enquanto o segurado está preso em regime fechado; solta, acaba. E era do INSS (não do presídio).', // pegadinha
+    video: 'auxílio reclusão reforma 2019 baixa renda' // busca no YouTube
+  },
+  {
+    id: 'v52',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Custeio da seguridade',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O "déficit da previdência" é debatido porque o sistema reparte — quem trabalha hoje paga quem está aposentado. O problema estrutural é:', // pergunta
+    alternativas: [                     // opções
+      'o INSS gasta com festas', // opção
+      'a inversão demográfica: cada vez menos trabalhadores por aposentado — a conta não fecha sem ajuste', // correta
+      'não existe problema real', // opção
+      'os aposentados ganham demais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regime de repartição simples depende da razão ativos/aposentados: o Brasil envelhece (razão despenca), então a matemática aperta — reforma, idade mínima e equilíbrio são a resposta (e a polêmica).', // explicação
+    dica: 'Repartição ≠ capitalização: num sistema de repartição, o seu dinheiro não fica guardado para você — financia os atuais. Quando você aposentar, os jovens de então pagam.', // pegadinha
+    video: 'déficit previdência repartição demográfica' // busca no YouTube
+  },
+  {
+    id: 'v53',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Segurado especial rural',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O pequeno produtor rural em regime de economia familiar contribui à previdência:', // pergunta
+    alternativas: [                     // opções
+      'mensalmente como empregado', // opção
+      'indiretamente — sobre a receita bruta da produção, com requisitos de aposentadoria mais acessíveis (idade rural)', // correta
+      'não contribui nunca', // opção
+      'como contribuinte individual urbano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O segurado especial (produtor/pescador/indígena em regime familiar) contribui na comercialização da produção — não paga mensalidade; a aposentadoria rural tem idade reduzida (60/55) e requisitos próprios.', // explicação
+    dica: 'Detalhe cobrado: "economia familiar" = sem empregado permanente. Se contratar empregado fixo, perde a condição de especial e vira contribuinte individual.', // pegadinha
+    video: 'segurado especial rural inss aposentadoria' // busca no YouTube
+  },
+  {
+    id: 'v54',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Revisão da vida toda',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "revisão da vida toda" discutia incluir no cálculo da aposentadoria:', // pergunta
+    alternativas: [                     // opções
+      'só os salários após 1994', // opção
+      'também os salários anteriores a julho/1994 (início do Plano Real) — em tese elevando benefícios de quem ganhava bem antes', // correta
+      'o décimo terceiro no cálculo', // opção
+      'a herança recebida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei da reforma de 1999 limitou o cálculo aos salários pós-1994; a revisão pedia contar os anteriores também (melhores para alguns). O STF em 2022 negou a revisão como regra geral — polêmica encerrada.', // explicação
+    dica: 'O marco de julho/1994 = Plano Real (moeda nova): os salários em outra moeda complicavam o cálculo. Quem ganhava bem antes de 94 podia ter benefício melhor — mas o STF decidiu contra.', // pegadinha
+    video: 'revisão da vida toda plano real aposentadoria' // busca no YouTube
+  },
+  {
+    id: 'v55',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Acidente de trabalho',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O acidente de trabalho, para fins previdenciários, abrange:', // pergunta
+    alternativas: [                     // opções
+      'só acidente dentro da fábrica', // opção
+      'o acidente no exercício do trabalho + os equiparados: trajeto casa-trabalho (regra histórica, hoje discutida), doença ocupacional e acidente em trabalho externo', // correta
+      'apenas acidentes fatais', // opção
+      'só quando há culpa do empregador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Acidente de trabalho (Lei 8.213/91) inclui o fato no exercício + equiparações: doença ocupacional, acidente de trajeto, esforço súbito — gera auxílio por incapacidade acidentário (sem carência) e estabilidade de 12 meses.', // explicação
+    dica: 'Vantagens do enquadramento acidentário: não exige carência, dá estabilidade pós-retorno (12 meses) e o cálculo pode ser melhor. A prova compara com incapacidade comum.', // pegadinha
+    video: 'acidente de trabalho equiparado trajeto estabilidade' // busca no YouTube
+  },
+  {
+    id: 'v56',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Fator previdenciário',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O fator previdenciário (1999) foi criado para:', // pergunta
+    alternativas: [                     // opções
+      'aumentar todas as aposentadorias', // opção
+      'desestimular aposentadoria precoce — reduz o valor para quem aposenta jovem/saudável, aumenta para quem contribui mais', // correta
+      'abolir a idade mínima', // opção
+      'premiar só funcionários públicos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O fator cruza idade + contribuição + expectativa de vida: quanto mais jovem se aposenta, maior a "penalidade" no valor — a reforma de 2019 o substituiu por regras de pontos/idade mínima.', // explicação
+    dica: 'O fator era o "moderador" sem idade mínima: aposentava-se por tempo de contribuição, mas o fator cortava o valor. Depois de 2019, a idade mínima o tornou em grande parte obsoleto.', // pegadinha
+    video: 'fator previdenciário como funciona cálculo' // busca no YouTube
+  },
+  {
+    id: 'v57',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Teto do INSS',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O teto do INSS é o:', // pergunta
+    alternativas: [                     // opções
+      'valor mínimo do benefício', // opção
+      'limite máximo do salário de contribuição e do benefício pago pelo regime geral', // correta
+      'piso salarial nacional', // opção
+      'valor médio das aposentadorias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O teto é a fronteira superior do RGPS: ninguém contribui nem recebe acima dele — reajustado anualmente pelo INPC. Quem quer aposentadoria maior precisa de previdência privada ou regime próprio.', // explicação
+    dica: 'Teto × piso: teto = o máximo do INSS; piso = nenhum benefício pode ser menor que 1 salário mínimo. A banca troca os dois extremos constantemente.', // pegadinha
+    video: 'teto inss limite máximo benefício' // busca no YouTube
+  },
+  {
+    id: 'v58',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Qualidade de segurado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Ter "qualidade de segurado" significa:', // pergunta
+    alternativas: [                     // opções
+      'ser uma pessoa honesta', // opção
+      'estar protegido pelo sistema — contribuindo ou dentro do período de graça', // correta
+      'ter o CPF regular', // opção
+      'estar empregado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Qualidade de segurado = vínculo protetivo ativo: contribuindo OU dentro do período de graça (12 meses em regra após parar). Perdida a qualidade, não há benefício ainda que tenha carência acumulada.', // explicação
+    dica: 'Distinga os dois requisitos: carência (quantas contribuições mínimas) × qualidade (estar coberto agora). Você pode ter 30 anos de contribuição e perder a qualidade se ficar anos sem pagar.', // pegadinha
+    video: 'qualidade de segurado inss período graça' // busca no YouTube
+  },
+  {
+    id: 'tr64',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Justa causa',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A demissão por justa causa exige:', // pergunta
+    alternativas: [                     // opções
+      'a vontade do empregador', // opção
+      'falta grave do empregado que torne insustentável a continuidade — prevista na lei, com proporcionalidade', // correta
+      'o fim do contrato', // opção
+      'a substituição por máquina', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A justa causa (art. 482 CLT) é a resposta extrema: falta grave (roubo, abandono, embriaguez habitual, agressão) que quebra a confiança — exige prova, gravidade real e imediatidade (não pode "guardar" a falta).', // explicação
+    dica: 'Proporcionalidade + imediatidade são os limites: punição progressiva exigida antes (advertência → suspensão → justa causa). "Guardar a falta" para usar depois invalida a justa causa.', // pegadinha
+    video: 'justa causa demissão clt artigo 482' // busca no YouTube
+  },
+  {
+    id: 'tr65',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Trabalho noturno',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O trabalho noturno urbano (22h às 5h) tem regras especiais porque:', // pergunta
+    alternativas: [                     // opções
+      'é mais produtivo', // opção
+      'é mais desgastante — adicional de 20% e hora reduzida (52min30s contam como 1h)', // correta
+      'é proibido para todos', // opção
+      'vale só para seguranças', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O trabalho noturno desgasta mais: adicional de 20% sobre a hora diurna + a "hora ficta" (52min30s contam como hora cheia, aumentando a remuneração efetiva).', // explicação
+    dica: 'Os números cobrados: noturno urbano = 22h–5h, +20% e hora de 52min30s. Rural é diferente (21h e +25%). Proibido para menores de 18.', // pegadinha
+    video: 'trabalho noturno adicional 20% hora ficta' // busca no YouTube
+  },
+  {
+    id: 'tr66',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Assédio moral',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O assédio moral no trabalho difere de uma "cobrança dura" porque:', // pergunta
+    alternativas: [                     // opções
+      'cobrança nunca é assédio', // opção
+      'o assédio é conduta abusiva repetitiva (humilhação, isolamento, metas impossíveis) que degrada — não a exigência legítima de resultado', // correta
+      'só existe se houver agressão física', // opção
+      'só ocorre em empresa privada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assédio moral = exposição repetida a situações humilhantes/constrangedoras que degradam — distinto do poder diretivo normal (cobrar metas, corrigir erros). A repetição + a finalidade de abalar é o marcador.', // explicação
+    dica: 'A fronteira cobrada: cobrar pode; humilhar não. Assédio sexual = componente sexual; moral = humilhação sistemática. No serviço público também existe (Lei 12.527/11 fala em responsabilização).', // pegadinha
+    video: 'assédio moral trabalho humilhação repetitiva' // busca no YouTube
+  },
+  {
+    id: 'tr67',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contrato de experiência',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O contrato de experiência (período de teste) pode durar no máximo:', // pergunta
+    alternativas: [                     // opções
+      '15 dias', // opção
+      '90 dias — podendo ser dividido em até 2 períodos', // correta
+      '1 ano', // opção
+      'é ilimitado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O contrato de experiência testa a adaptação: máximo 90 dias, dividível em até 2 períodos (ex.: 45+45). Passado isso sem rescisão, vira contrato por prazo indeterminado.', // explicação
+    dica: 'Os limites cobrados: 90 dias total / 2 períodos. Terminado sem motivo, a rescisão tem regras próprias (aviso indenizado, metade do que faltaria). É o único contrato de trabalho "de teste".', // pegadinha
+    video: 'contrato de experiência 90 dias clt' // busca no YouTube
+  },
+  {
+    id: 'tr68',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Intervalo intrajornada',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Para uma jornada de 8 horas, o intervalo mínimo para refeição é:', // pergunta
+    alternativas: [                     // opções
+      '15 minutos', // opção
+      '1 hora (podendo ser reduzido a 30 min por acordo coletivo ou ordem ministerial)', // correta
+      '2 horas', // opção
+      'não há obrigação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Jornada acima de 6h = intervalo mínimo de 1h (até 2h); até 6h = 15 minutos. Redução para 30 min depende de previsão legal/acordo — não é escolha do patrão.', // explicação
+    dica: 'A regra mudou com a reforma: antes, 1h era mínimo absoluto; hoje, pode descer a 30min por instrumento coletivo. A falta do intervalo gera pagamento extra como hora extra.', // pegadinha
+    video: 'intervalo intrajornada almoço clt 1 hora' // busca no YouTube
+  },
+  {
+    id: 'tr69',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Teletrabalho',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Após a reforma trabalhista, o teletrabalho (home office) é regulado assim:', // pergunta
+    alternativas: [                     // opções
+      'não tem regras — é informal', // opção
+      'tem regime próprio: contrato escrito, e o controle de jornada depende de se há marcação de horário — com proteção de saúde e ergonomia', // correta
+      'o empregador paga todas as contas da casa', // opção
+      'é proibido no Brasil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O teletrabalho tem capítulo próprio na CLT (art. 75-A ss.): contrato escrito, jornada controlável ou não conforme o modelo, direito à desconexão e regras de ergonomia — questões do trabalho remoto moderno.', // explicação
+    dica: 'O ponto jurídico sensível: com controle de jornada (ponto eletrônico) = hora extra conta; por produção/tarefa = sem controle de jornada. "Direito à desconexão" = não ser cobrado fora do horário.', // pegadinha
+    video: 'teletrabalho home office clt jornada' // busca no YouTube
+  },
+  {
+    id: 'tr70',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Norma coletiva',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A reforma de 2017 deu força ao "negociado sobre o legislado" — ou seja:', // pergunta
+    alternativas: [                     // opções
+      'acordos coletivos passaram a prevalecer sobre a lei em temas como jornada e parcelamento de férias, com limites', // correta
+      'acordos podem abolir o salário mínimo', // opção
+      'sindicatos foram extintos', // opção
+      'a lei deixou de existir', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A reforma elevou a negociação coletiva: convenção/acordo podem dispor sobre jornada (12×36), banco de horas, teletrabalho, plano de cargos — respeitados os direitos inderrogáveis (FGTS, salário mínimo, saúde/segurança, normas de saúde).', // explicação
+    dica: 'O que NUNCA pode ser negociado para baixo: núcleo duro do art. 611-B (FGTS, salário mínimo, normas de saúde/segurança, seguro-desemprego, normas de proteção). Fora isso, o sindicato pode ajustar.', // pegadinha
+    video: 'negociado sobre legislado reforma 2017 acordo' // busca no YouTube
+  },
+  {
+    id: 'tr71',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Seguro-desemprego',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O seguro-desemprego é pago ao trabalhador:', // pergunta
+    alternativas: [                     // opções
+      'que pediu demissão', // opção
+      'demitido sem justa causa — assistência temporária (3 a 5 parcelas) enquanto procura recolocação', // correta
+      'em férias', // opção
+      'aposentado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Seguro-desemprego = benefício da demissão involuntária (sem justa causa): 3 a 5 parcelas conforme o tempo de vínculo — rede de proteção durante a transição, não renda permanente.', // explicação
+    dica: 'Só sem justa causa dá seguro-desemprego; pedido de demissão não dá nem seguro nem FGTS de saque (só saldo futuro). O "acordo" (demissão consensual) dá direito reduzido.', // pegadinha
+    video: 'seguro desemprego quem tem direito parcelas' // busca no YouTube
+  },
+  {
+    id: 'tr72',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Princípio da proteção',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'No Direito do Trabalho, quando duas interpretações da lei são possíveis, adota-se a que favorece o empregado. Esse é o princípio:', // pergunta
+    alternativas: [                     // opções
+      'da legalidade estrita', // opção
+      'da proteção — o Direito do Trabalho corrige a desigualdade de forças entre patrão e empregado', // correta
+      'da livre iniciativa', // opção
+      'da igualdade formal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O princípio protetivo corrige a hipossuficiência do trabalhador: aplica-se in dubio pro operario (na dúvida, interpreta a favor do empregado), norma mais favorável e condição mais benéfica.', // explicação
+    dica: 'A lógica da matéria: patrão e empregado não são iguais na relação — a lei equilibra com proteção. Daí as três regras: norma mais favorável, condição mais benéfica e interpretação pro-operário.', // pegadinha
+    video: 'princípio protetivo direito trabalho norma favorável' // busca no YouTube
+  },
+  {
+    id: 'tr73',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estágio',                    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O estágio, pela Lei 11.788/2008, difere de emprego porque:', // pergunta
+    alternativas: [                     // opções
+      'é emprego de menor salário', // opção
+      'é ato educativo supervisionado — não cria vínculo empregatício se obedecer aos requisitos legais', // correta
+      'só existe em faculdades de medicina', // opção
+      'não pode ser remunerado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O estágio é pedagógico: termo de compromisso entre estudante, instituição de ensino e empresa — remuneração é opcional (salvo obrigatório). Se vira "trabalho disfarçado" (produzir sem aprender), o vínculo pode ser reconhecido.', // explicação
+    dica: 'Estágio fraudulento = reconhece vínculo e cobra verbas. Sinais de abuso: sem supervisor pedagógico, metas de produção, substituição de funcionário — o estágio deve educar, não explorar mão de obra barata.', // pegadinha
+    video: 'estágio lei 11788 vínculo empregatício' // busca no YouTube
+  },
+  {
+    id: 'k62',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Escola de Chicago — ecologia', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Escola de Chicago explicou o crime urbano como resultado de:', // pergunta
+    alternativas: [                     // opções
+      'traços biológicos do criminoso', // opção
+      'a desorganização social de certas zonas da cidade — não a pessoa, mas o ambiente', // correta
+      'a psicologia individual', // opção
+      'a vontade divina', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Escola de Chicago (anos 1920-40) mapeou o crime por bairro: zonas de transição (pobreza, instabilidade, heterogeneidade) produziam crime — inovou ao localizar a causa no espaço social, não no indivíduo.', // explicação
+    dica: 'Virada paradigmática: Lombroso via o crime no corpo; Chicago, no bairro. Desorganização social = vínculos frágeis, escola pública ruim, economia informal — o mapa do crime.', // pegadinha
+    video: 'escola de chicago ecologia social crime' // busca no YouTube
+  },
+  {
+    id: 'k63',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Etiquetamento (labelling)',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A teoria do etiquetamento (labelling approach) afirma que ser rotulado "criminoso" pode:', // pergunta
+    alternativas: [                     // opções
+      'reduzir a criminalidade por vergonha', // opção
+      'reforçar a identidade de "delinquente" — o estigma empurra a pessoa para o papel que lhe foi colado', // correta
+      'ter efeito nulo sobre a pessoa', // opção
+      'ser apenas construção mental sem consequências', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Labelling (Becker, Goffman): a etiqueta social ("bandido") é internalizada — a pessoa acaba agindo conforme o rótulo, e a sociedade a trata como tal. Profecia autorrealizável: a reação social produz mais crime.', // explicação
+    dica: 'O argumento provocativo: a resposta estatal (prisão, estigma) pode fabricar mais criminalidade do que previne. Por isso essa teoria fundamenta a justiça restaurativa e a desjudicialização de delitos menores.', // pegadinha
+    video: 'teoria do etiquetamento labelling criminologia' // busca no YouTube
+  },
+  {
+    id: 'k64',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Cifra negra',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "cifra negra" (ou oculta) da criminalidade refere-se a:', // pergunta
+    alternativas: [                     // opções
+      'crimes resolvidos pela polícia', // opção
+      'crimes que acontecem mas nunca chegam à estatística oficial — vítimas não denunciam por medo, desconfiança ou tabu', // correta
+      'crimes cometidos por policiais', // opção
+      'estatísticas oficiais exatas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A cifra oculta é o abismo entre crime real e crime registrado: violência doméstica, estupro, corrupção e crimes de colarinho branco são subnotificados — as estatísticas oficiais mostram só a ponta.', // explicação
+    dica: 'O crime que não vira boletim não entra no dado: violência íntima (vergonha), crime corporativo (invisível) e abuso em instituições são os maiores buracos da estatística.', // pegadinha
+    video: 'cifra negra criminalidade subnotificação' // busca no YouTube
+  },
+  {
+    id: 'k65',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Crime de colarinho branco',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O crime de "colarinho branco" (Sutherland) refere-se a:', // pergunta
+    alternativas: [                     // opções
+      'crimes de rua', // opção
+      'crimes praticados por pessoas de status elevado no exercício de sua ocupação — corrupção corporativa, fraude financeira, sonegação', // correta
+      'crimes violentos', // opção
+      'só tráfico de drogas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sutherland (1939) mostrou que o crime não é só do "pobre": fraudes, cartéis, sonegação e crimes ambientais praticados por respeitáveis profissionais custam mais que os de rua — mas são pouco punidos.', // explicação
+    dica: 'O viés do sistema: roubo de celular = prisão; fraude bilionária = acordo/multa. A criminologia crítica cobra essa seletividade — "o crime do colarinho branco machuca mais e pune menos".', // pegadinha
+    video: 'crime colarinho branco sutherland corporativo' // busca no YouTube
+  },
+  {
+    id: 'k66',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Anomia',                     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A teoria da anomia (Durkheim/Merton) explica o crime como:', // pergunta
+    alternativas: [                     // opções
+      'resultado de má índole', // opção
+      'a frustração quando a sociedade promove metas culturais (sucesso, riqueza) mas bloqueia os meios legítimos de alcançá-las', // correta
+      'uma doença hereditária', // opção
+      'falta de leis', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Merton adaptou Durkheim: a sociedade "vende" o sonho (ficar rico = sucesso), mas fecha os caminhos legítimos para quem está na base — o bloqueio produz "inovação" = crime como atalho para a meta cultural.', // explicação
+    dica: 'Cinco adaptações de Merton: conformidade (meio+meta), inovação (meta sim, meio ilícito — o crime), ritualismo, retirada e rebelião. O traficante "inovou" para a meta que lhe era negada.', // pegadinha
+    video: 'anomia merton durkheim teoria tensão crime' // busca no YouTube
+  },
+  {
+    id: 'k67',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Penas — função',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A criminologia crítica questiona o "mito da prisão" porque:', // pergunta
+    alternativas: [                     // opções
+      'a prisão é eficaz na ressocialização', // opção
+      'a prisão não cumpre o que promete (não ressocializa, não intimida, seleciona os pobres) — funciona mais como controle social dos marginalizados', // correta
+      'as prisões são confortáveis', // opção
+      'o crime aumentou porque faltam presídios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A teoria crítica (Wacquant, Zaffaroni) mostra que a prisão moderna gerencia a pobreza, não a criminalidade: encarcera o excluído, não o causador do maior dano social — função de controle, não de justiça.', // explicação
+    dica: 'Dado que fundamenta: a maioria dos presos brasileiros é jovem, negro, pobre e de baixa escolaridade — enquanto o crime econômico/financeiro raramente encarcera. A banca cobra essa seletividade.', // pegadinha
+    video: 'criminologia crítica prisão controle social' // busca no YouTube
+  },
+  {
+    id: 'k68',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Violência de gênero',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O "ciclo da violência doméstica" descreve o padrão que mantém a vítima presa:', // pergunta
+    alternativas: [                     // opções
+      'briga → separação → fim', // opção
+      'tensão crescente → explosão de violência → "lua de mel" (arrependimento/promessas) → nova tensão', // correta
+      'violência constante sem pausas', // opção
+      'só agressão física', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ciclo (Lenore Walker) prende a vítima: após a agressão, o agressor se desculpa e promete mudar ("lua de mel"), a tensão volta a acumular e explode de novo — a alternância gera dependência e negação.', // explicação
+    dica: 'Entender o ciclo explica por que a vítima "não sai": a fase de arrependimento parece real e o controle financeiro/psicológico cria aprisionamento — não é fraqueza, é padrão reconhecido.', // pegadinha
+    video: 'ciclo da violência doméstica fases lua de mel' // busca no YouTube
+  },
+  {
+    id: 'k69',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Prevenção situacional',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A prevenção situacional do crime — iluminar praças, câmeras, design urbano — funciona na lógica de:', // pergunta
+    alternativas: [                     // opções
+      'reformar o criminoso', // opção
+      'dificultar a oportunidade — sem alvo fácil nem ambiente permissivo, o crime diminui independente do autor', // correta
+      'punir exemplarmente', // opção
+      'apenas enfeitar a cidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A criminologia ambiental (CPTED) muda o cenário, não o criminoso: iluminação, olhos na rua, câmeras e desenho urbano reduzem a oportunidade — crime precisa de autor + alvo + ausência de guardião.', // explicação
+    dica: '"Triângulo do crime": autor motivado + alvo adequado + ausência de controle. Tirar um vértice impede o crime — a prevenção situacional ataca o alvo e o guardião, não o autor.', // pegadinha
+    video: 'prevenção situacional crime cpted oportunidade' // busca no YouTube
+  },
+  {
+    id: 'k70',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Tortura e Estado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A tortura praticada por agentes do Estado (policiais, agentes prisionais) é agravada porque:', // pergunta
+    alternativas: [                     // opções
+      'não é crime quando praticada por autoridade', // opção
+      'o Estado tem o dever de proteger — quando seu agente tortura, viola a própria missão e corrói a legitimidade democrática', // correta
+      'produz prova confiável', // opção
+      'é permitida em flagrante', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A tortura por agente público é crime gravíssimo (Lei 9.455/97, inafiançável e insuscetível de graça/anistia) — o Estado torturador trai a própria razão de existir e produz prova inválida.', // explicação
+    dica: 'Tortura no Brasil = crime INAFIANÇÁVEL e INSUSCETÍVEL de graça/anistia (CF art. 5º, XLIII). Confissão por tortura = prova nula. A Convenção da ONU a veda absolutamente.', // pegadinha
+    video: 'tortura lei 9455 inafiançável crime estado' // busca no YouTube
+  },
+  {
+    id: 'k71',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Teoria das janelas quebradas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A teoria das "janelas quebradas" sugere que:', // pergunta
+    alternativas: [                     // opções
+      'vidros quebrados devem ser multados', // opção
+      'a desordem visível (vandalismo, sujeira) sinaliza abandono e convida a crimes piores — manter a ordem no pequeno previne o grande', // correta
+      'polícia deve ignorar delitos menores', // opção
+      'a criminalidade é aleatória', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Wilson e Kelling: a janela quebrada não reparada diz "ninguém liga" — convida ao vandalismo maior. A ordem visível no cotidiano seria barreira ao crime. Controvertida: criticada por justificar policiamento agressivo e criminalizar a pobreza.', // explicação
+    dica: 'A crítica cobrada: a teoria serviu ao "tolerância zero" de Nova York — acusada de legitimar abordagem seletiva (revistar pobre/negro) e de confundir desordem com criminalidade. O ENEM a apresenta com seus críticos.', // pegadinha
+    video: 'teoria janelas quebradas wilson críticas' // busca no YouTube
+  },
+  {
+    id: 'ct56',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Balanço patrimonial',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O balanço patrimonial representa:', // pergunta
+    alternativas: [                     // opções
+      'o movimento diário de caixa', // opção
+      'uma "fotografia" do patrimônio numa data: bens e direitos (ativo) de um lado, obrigações e patrimônio líquido (passivo + PL) do outro', // correta
+      'o lucro do mês', // opção
+      'a folha de pagamento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O balanço é estático: fotografa a situação patrimonial na data de encerramento. Ativo = o que a empresa TEM; passivo = o que DEVE a terceiros; PL = o que deve aos sócios (a "riqueza real").', // explicação
+    dica: 'Equação fundamental: ATIVO = PASSIVO + PL (bens = obrigações + capital próprio). Balanço = foto; DRE = filme (resultado ao longo do período).', // pegadinha
+    video: 'balanço patrimonial ativo passivo pl equação' // busca no YouTube
+  },
+  {
+    id: 'ct57',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Débito e crédito (partidas)', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na partida dobrada, cada lançamento contábil exige:', // pergunta
+    alternativas: [                     // opções
+      'só uma conta', // opção
+      'ao menos um débito e um crédito de igual valor — nada nasce do nada nem some para lugar nenhum', // correta
+      'sempre dois débitos', // opção
+      'assinatura do contador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O método das partidas dobradas = conservação: todo débito tem um crédito correspondente de mesmo valor. Compra de estoque a prazo: débito no estoque (entra bem), crédito no fornecedor (nasce dívida).', // explicação
+    dica: '"Débito" na contabilidade ≠ cartão de débito: é só o lado esquerdo da conta. Regra: aumento de ativo = débito; aumento de passivo/PL/receita = crédito. O balanço sempre fecha porque nada se cria do zero.', // pegadinha
+    video: 'partidas dobradas débito crédito contabilidade' // busca no YouTube
+  },
+  {
+    id: 'ct58',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Depreciação',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Uma máquina de R$ 100 mil que dura 10 anos "perde" R$ 10 mil de valor por ano. Esse reconhecimento contábil é:', // pergunta
+    alternativas: [                     // opções
+      'prejuízo anual', // opção
+      'depreciação — apropriação do custo do bem ao longo de sua vida útil', // correta
+      'desconto comercial', // opção
+      'amortização de dívida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Depreciação = distribuir o custo do bem imobilizado ao longo dos anos de uso (a máquina não "gasta" num dia só). Reconhece a perda de valor como despesa — mesmo sem saída de caixa.', // explicação
+    dica: 'Depreciação (bens tangíveis: máquina, carro) × amortização (intangíveis: marca, patente) × exaustão (recursos naturais: mina, floresta). O trio cobrado.', // pegadinha
+    video: 'depreciação amortização exaustão diferença' // busca no YouTube
+  },
+  {
+    id: 'ct59',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Regime de competência',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Vendi em dezembro a prazo, recebo só em janeiro. Pelo regime de competência, a receita é de:', // pergunta
+    alternativas: [                     // opções
+      'janeiro — quando o dinheiro entra', // opção
+      'dezembro — o regime de competência registra o fato quando ele acontece, independente do recebimento', // correta
+      'metade em cada mês', // opção
+      'quando emitir a nota', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = contabiliza no momento do fato gerador (vendeu, entregou, incorreu) — não quando o dinheiro muda de mão. O regime de caixa (pelo pagamento) é a alternativa, usada em contextos específicos.', // explicação
+    dica: 'Competência = fato aconteceu → contabiliza (venda a prazo entra no mês da venda); caixa = dinheiro moveu → contabiliza. A empresa pode ter lucro na competência e quebrar no caixa.', // pegadinha
+    video: 'regime de competência caixa contabilidade' // busca no YouTube
+  },
+  {
+    id: 'ct60',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Custo fixo × variável',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O aluguel da fábrica e a matéria-prima por peça são, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'ambos variáveis', // opção
+      'custo fixo (aluguel, mesmo parado) e custo variável (matéria-prima, proporcional à produção)', // correta
+      'ambos fixos', // opção
+      'despesa financeira e custo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Custo fixo = não muda com o volume (aluguel, salário fixo, seguro); variável = muda com a produção (matéria-prima, energia da máquina, embalagem). Essencial para calcular o ponto de equilíbrio.', // explicação
+    dica: 'Fixo = paga mesmo produzindo zero; variável = só existe se produzir. A confusão clássica: depreciação da máquina é custo fixo, mesmo que a máquina trabalhe.', // pegadinha
+    video: 'custo fixo variável ponto equilíbrio' // busca no YouTube
+  },
+  {
+    id: 'ct61',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Ponto de equilíbrio',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O ponto de equilíbrio de uma empresa é:', // pergunta
+    alternativas: [                     // opções
+      'quando sobra lucro máximo', // opção
+      'o volume de vendas em que a receita cobre exatamente todos os custos e despesas — abaixo dá prejuízo, acima dá lucro', // correta
+      'o preço de venda', // opção
+      'a maior produção possível', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PE = custos/despesas fixos ÷ margem de contribuição unitária: a quantidade "zero a zero". Gerencialmente é a meta mínima — vender menos do que o PE é operar no vermelho.', // explicação
+    dica: 'Margem de contribuição = preço − custo variável unitário (o que sobra de cada unidade para pagar o fixo). PE não é meta de lucro — é o mínimo para não perder.', // pegadinha
+    video: 'ponto de equilíbrio margem contribuição' // busca no YouTube
+  },
+  {
+    id: 'ct62',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Estoque — inventário',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O inventário periódico vs o permanente diferem porque:', // pergunta
+    alternativas: [                     // opções
+      'não há diferença', // opção
+      'o periódico conta o estoque só no fim do período; o permanente registra cada entrada/saída em tempo real', // correta
+      'o periódico é mais moderno', // opção
+      'o permanente não usa computador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inventário periódico = a empresa só sabe o estoque quando conta fisicamente no fechamento; permanente = sistema registra cada movimento — mais controle, mas exige sistema informatizado.', // explicação
+    dica: 'O permanente permite calcular o CMV (custo da mercadoria vendida) a cada venda — essencial para gestão moderna. O periódico serve a pequenos negócios sem ERP.', // pegadinha
+    video: 'inventário periódico permanente cmv estoque' // busca no YouTube
+  },
+  {
+    id: 'ct63',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Liquidez',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Uma empresa com R$ 200 mil em ativo circulante e R$ 100 mil em passivo circulante tem índice de liquidez corrente:', // pergunta
+    alternativas: [                     // opções
+      '0,5', // opção
+      '2,0 — tem o dobro de recursos de curto prazo em relação às dívidas de curto prazo', // correta
+      '1,0', // opção
+      '100%', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Liquidez corrente = ativo circulante ÷ passivo circulante = 200/100 = 2: para cada real devido no curto prazo, há dois disponíveis — folga financeira saudável.', // explicação
+    dica: 'Interpretação: >1 = folga; =1 = limite; <1 = deve mais do que tem a curto prazo (risco). Mas atenção: estoque grande infla o ativo sem ser dinheiro rápido — existe a "liquidez seca" (sem estoque) para ajustar.', // pegadinha
+    video: 'liquidez corrente índice análise balanço' // busca no YouTube
+  },
+  {
+    id: 'ct64',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Demonstrações contábeis',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Qual demonstrativo contábil apura o lucro ou prejuízo do período, confrontando receitas com custos e despesas?', // pergunta
+    alternativas: [                     // opções
+      'o patrimônio numa data', // opção
+      'receitas menos custos e despesas = lucro ou prejuízo do PERÍODO', // correta
+      'o dinheiro em caixa', // opção
+      'as dívidas de curto prazo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DRE = o "filme" do resultado: vendas → custo do produto → despesas → lucro líquido. Diferente do balanço (a "foto" do patrimônio numa data) e do fluxo de caixa (dinheiro que moveu).', // explicação
+    dica: 'Tríade cobrada: Balanço (foto patrimonial), DRE (resultado do período — lucro), DFC (fluxo de caixa — movimento de dinheiro). Lucro ≠ dinheiro: a empresa lucra na DRE e quebra no caixa.', // pegadinha
+    video: 'dre demonstração resultado lucro diferença' // busca no YouTube
+  },
+  {
+    id: 'ct65',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Auditoria contábil',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A auditoria independente das demonstrações contábeis serve para:', // pergunta
+    alternativas: [                     // opções
+      'fazer a contabilidade da empresa', // opção
+      'dar credibilidade externa — um terceiro sem vínculo confere se os números estão corretos e conformes', // correta
+      'pagar os impostos', // opção
+      'decidir os preços', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O auditor independente (externo, sem conflito) examina se as demonstrações refletem a realidade — seu parecer é o selo de confiança para investidores, bancos e mercado.', // explicação
+    dica: 'Auditor interno × externo: interno é funcionário da empresa (melhora processos); externo é independente (opina sobre as demonstrações). Auditor que audita o que ele mesmo fez perde a independência.', // pegadinha
+    video: 'auditoria independente demonstrações contábeis' // busca no YouTube
+  },
+  {
+    id: 'ad62',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Funções administrativas',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As quatro funções clássicas da administração (Fayol/Chiavenato) são:', // pergunta
+    alternativas: [                     // opções
+      'vender, produzir, pagar, cobrar', // opção
+      'planejar, organizar, dirigir e controlar', // correta
+      'contratar, demitir, pagar, premiar', // opção
+      'comprar, estocar, vender, lucrar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PODC: Planejar (definir objetivos e meios), Organizar (estruturar recursos e tarefas), Dirigir (liderar e motivar pessoas), Controlar (medir e corrigir) — o ciclo administrativo.', // explicação
+    dica: 'Mnemônico PODC. A banca descreve a função e pede o nome: "definir metas" = planejar; "distribuir tarefas" = organizar; "motivar e comandar" = dirigir; "comparar com o previsto" = controlar.', // pegadinha
+    video: 'funções administrativas podc fayol' // busca no YouTube
+  },
+  {
+    id: 'ad63',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Níveis hierárquicos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na pirâmide organizacional, o nível ESTRATÉGICO (alta direção) cuida de:', // pergunta
+    alternativas: [                     // opções
+      'executar as tarefas do dia a dia', // opção
+      'decisões de longo prazo e direção da empresa — missão, visão, grandes investimentos', // correta
+      'supervisionar operários', // opção
+      'preencher formulários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estratégico (diretoria): longo prazo, decisões amplas, rumo da organização. Tático (gerências): traduz a estratégia em planos departamentais. Operacional: execução do dia a dia.', // explicação
+    dica: 'Estratégico = topo (que fazer); tático = meio (como fazer); operacional = base (fazer). A banca descreve o nível e pede o nome — longo prazo/direção = estratégico.', // pegadinha
+    video: 'níveis organizacionais estratégico tático operacional' // busca no YouTube
+  },
+  {
+    id: 'ad64',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Motivação — Maslow',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na pirâmide de Maslow, o funcionário que já tem salário e estabilidade busca, na sequência:', // pergunta
+    alternativas: [                     // opções
+      'necessidades fisiológicas', // opção
+      'necessidades sociais e de estima — pertencimento, reconhecimento, respeito', // correta
+      'só a sobrevivência', // opção
+      'a autorealização, direto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Maslow: fisiológicas → segurança → sociais → estima → autorrealização. Quem tem base e segurança procura pertencimento (social) e reconhecimento (estima) — o degrau seguinte.', // explicação
+    dica: 'A ordem é cobrada: base fisiológica, depois segurança, depois social, depois estima e no topo autorrealização. Cada nível só motiva quando o anterior está satisfeito — não se pula degrau.', // pegadinha
+    video: 'pirâmide de maslow hierarquia necessidades' // busca no YouTube
+  },
+  {
+    id: 'ad65',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Liderança — estilos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O líder situacional adapta o estilo conforme:', // pergunta
+    alternativas: [                     // opções
+      'seu humor', // opção
+      'a maturidade da equipe: diretivo para novatos, persuasivo/coach para em desenvolvimento, participativo para maduros, delegador para autônomos', // correta
+      'o dia da semana', // opção
+      'o tamanho da empresa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A liderança situacional (Hersey/Blanchard) diz que não existe "o melhor estilo": depende da prontidão do liderado — ordenar quem não sabe, persuadir quem sabe mas falta confiança, compartilhar quem sabe e delegar quem domina.', // explicação
+    dica: 'Quatro estilos = quatro maturidades: E1 direção (não sabe/não quer), E2 coach (não sabe/quer), E3 participação (sabe/não quer), E4 delegação (sabe/quer). O líder dança conforme o liderado.', // pegadinha
+    video: 'liderança situacional hersey blanchard estilos' // busca no YouTube
+  },
+  {
+    id: 'ad66',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Cultura organizacional',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A cultura organizacional de uma empresa é:', // pergunta
+    alternativas: [                     // opções
+      'o organograma oficial', // opção
+      'o conjunto de valores, rituais, crenças e "jeito de fazer" compartilhado — o que realmente se pratica, não o que está no papel', // correta
+      'a decoração do escritório', // opção
+      'o regulamento interno', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cultura = "como as coisas funcionam aqui de verdade": valores compartilhados, rituais, histórias, tolerâncias. Pode ser forte/fraca, tóxica ou saudável — e é mais difícil de mudar que a estrutura formal.', // explicação
+    dica: 'Cultura ≠ missão escrita: a missão está no quadro, a cultura está no corredor. A banca adora o contraste entre "o que se diz" e "o que se faz" — cultura é o que se faz.', // pegadinha
+    video: 'cultura organizacional valores rituais empresa' // busca no YouTube
+  },
+  {
+    id: 'ad67',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Departamentalização',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Uma empresa que organiza em "financeiro, produção, comercial e RH" usa departamentalização:', // pergunta
+    alternativas: [                     // opções
+      'por produto', // opção
+      'funcional — agrupa por especialidade/função', // correta
+      'por cliente', // opção
+      'matricial', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Departamentalização funcional = agrupa quem faz a mesma função: especialização e eficiência interna, mas cria "silos" (cada departamento fala consigo). Por produto, região ou cliente são alternativas.', // explicação
+    dica: 'Critério de agrupamento é a chave: mesma FUNÇÃO = funcional; mesmo PRODUTO = divisional por produto; mesma REGIÃO = geográfica; mesmo CLIENTE = por mercado. Matricial = cruzamento de dois.', // pegadinha
+    video: 'departamentalização funcional produto matricial' // busca no YouTube
+  },
+  {
+    id: 'ad68',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Poder × autoridade',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Poder e autoridade diferem porque:', // pergunta
+    alternativas: [                     // opções
+      'são sinônimos', // opção
+      'autoridade é o direito formal de mandar (vem do cargo); poder é a capacidade real de influenciar — que pode existir sem cargo', // correta
+      'o poder vem do contrato', // opção
+      'a autoridade é sempre ilegítima', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Autoridade = formal e descendente (o cargo confere); poder = informal, pode vir do conhecimento, do carisma, da rede de relações — um especialista sem cargo pode ter mais poder que um chefe sem credibilidade.', // explicação
+    dica: 'Max Weber tipificou a autoridade legítima em: tradicional (costume), carismática (líder inspirador) e legal-racional (cargo/regra — a base da burocracia moderna).', // pegadinha
+    video: 'poder autoridade diferença weber organização' // busca no YouTube
+  },
+  {
+    id: 'ad69',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Feedback e avaliação',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O feedback eficaz no trabalho é aquele que:', // pergunta
+    alternativas: [                     // opções
+      'critica a pessoa, não o comportamento', // opção
+      'é específico, oportuno, focado no comportamento (não na pessoa) e aponta caminho de melhoria', // correta
+      'é dado em público para servir de exemplo', // opção
+      'só elogia, nunca corrige', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bom feedback descreve o fato ("o relatório saiu atrasado"), o impacto ("atrasou o cliente") e a expectativa ("para a próxima, me avise antes") — específico, em particular, construtivo.', // explicação
+    dica: 'Os antiexemplos: feedback genérico ("você é desleixado"), tardio (meses depois), em público (humilhação) ou só emocional. "Elogio em público, correção em particular" é a regra.', // pegadinha
+    video: 'feedback eficaz comportamento comunicação' // busca no YouTube
+  },
+  {
+    id: 'ad70',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Tomada de decisão',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A decisão "racional limitada" (Herbert Simon) reconhece que o gestor real:', // pergunta
+    alternativas: [                     // opções
+      'sempre tem informação perfeita e escolhe o ótimo', // opção
+      'decide "bem o suficiente" (satisficing) — nunca tem todo o tempo nem toda a informação para a escolha perfeita', // correta
+      'não usa dados', // opção
+      'delega todas as decisões', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Simon ganhou o Nobel mostrando que o decisor real não é o "homem econômico" perfeito: com tempo/informação limitados, escolhe a primeira opção satisfatória — não a melhor teórica.', // explicação
+    dica: 'Maximizar = achar a melhor possível (ideal, caro, lento); satisfazer = aceitar a que resolve (real, prático). O ENEM/Fuvest cobra a diferença entre o modelo ideal e a decisão real.', // pegadinha
+    video: 'racionalidade limitada simon satisficing decisão' // busca no YouTube
+  },
+  {
+    id: 'h40',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Independência',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Independência do Brasil (1822) diferiu da maioria das independências hispânicas porque:', // pergunta
+    alternativas: [                     // opções
+      'foi feita pelo povo armado', // opção
+      'ocorreu sem ruptura dinástica — o próprio príncipe português assumiu o trono, preservando elites e unidade territorial', // correta
+      'acabou com a escravidão na hora', // opção
+      'foi instigada pelos Estados Unidos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'D. Pedro, príncipe de Portugal, proclamou a independência — manutenção da família real e da elite colonial no poder: rompeu-se a metrópole, não a ordem social (escravidão e latifúndio seguiram).', // explicação
+    dica: '"Independência ou morte" sem guerra nacional ampla: a permanência do monarca português tornou a transição conservadora — território unido, elite intacta, escravismo preservado.', // pegadinha
+    video: 'independência brasil 1822 conservadora d. pedro' // busca no YouTube
+  },
+  {
+    id: 'h41',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Escravidão',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A abolição da escravidão (1888) deixou os libertos, na maioria:', // pergunta
+    alternativas: [                     // opções
+      'com terra própria garantida', // opção
+      'sem terra, sem educação e sem política de inserção — libertados formalmente, abandonados socialmente', // correta
+      'com direitos plenos imediatos', // opção
+      'contratados com salário digno', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei Áurea libertou sem programa de reinserção: sem terra, escola ou reparação, o negro foi marginalizado no mercado informal — o racismo estrutural brasileiro nasce dessa "abolição incompleta".', // explicação
+    dica: 'Abolição "incompleta" é a tese cobrada: fim jurídico sem cidadania real. Estratégia dos senhores = imigração europeia subsidiada para substituir o negro e embranquecer a força de trabalho.', // pegadinha
+    video: 'lei áurea 1888 abolição incompleta racismo' // busca no YouTube
+  },
+  {
+    id: 'h42',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Canudos',                    // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Guerra de Canudos (1896-97) foi a destruição, pelo Exército republicano, de:', // pergunta
+    alternativas: [                     // opções
+      'uma rebelião de escravos', // opção
+      'o arraial de Antônio Conselheiro — comunidade do sertão baiano que vivia à margem da República, confundida com revolta monarquista', // correta
+      'um forte de quilombolas', // opção
+      'uma invasão paraguaia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Canudos era uma comunidade pobre e religiosa no sertão — a República interpretou a autonomia como ameaça monarquista e enviou três expedições, todas derrotadas; a quarta massacrou a população. "Os Sertões" de Euclides documentou.', // explicação
+    dica: 'Canudos como metáfora: a República "civilizada" massacrando o Brasil profundo que ela não entendia — O ENEM/Fuvest cobra o contraste entre a elite liberal costeira e o sertanejo ignorado pelo Estado.', // pegadinha
+    video: 'guerra de canudos conselheiro euclides da cunha' // busca no YouTube
+  },
+  {
+    id: 'h43',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'República Velha',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "política do café-com-leite" (República Velha, 1889-1930) foi a alternância entre:', // pergunta
+    alternativas: [                     // opções
+      'monarquistas e republicanos', // opção
+      'oligarquias de São Paulo (café) e Minas Gerais (leite) — coronelismo e voto de cabresto garantindo o poder', // correta
+      'industriais e banqueiros', // opção
+      'partidos de esquerda e direita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'República oligárquica: o poder alternava entre as elites dos dois maiores estados, sustentada pelo coronelismo rural (voto de cabresto, fraudes) — sem eleição real, sem povo votando.', // explicação
+    dica: 'Pilares da República Velha: coronelismo, voto aberto (facilitava coerção), fraudes e a "política dos governadores". A ruptura em 1930 veio quando SP e MG quebraram o acordo.', // pegadinha
+    video: 'café com leite república velha coronelismo' // busca no YouTube
+  },
+  {
+    id: 'h44',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Era Vargas',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Era Vargas (1930-45) foi marcada pela criação de:', // pergunta
+    alternativas: [                     // opções
+      'um regime comunista', // opção
+      'direitos trabalhistas (CLT), previdência, voto feminino e indústria estatal — mas sob ditadura do Estado Novo (1937-45)', // correta
+      'um regime parlamentarista', // opção
+      'livre comércio com Portugal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vargas é o paradoxo: modernizou (trabalho regulado, indústria de base como CSN, voto feminino 1932) ao mesmo tempo que governou ditatorialmente no Estado Novo (1937-45) — censura, DIP, tortura.', // explicação
+    dica: 'Vargas "pai dos pobres e mãe dos ricos" — protegeu o trabalhador E reprimiu o comunismo/anarquismo, alinhando-se ao fascismo no Estado Novo e aos Aliados na 2ª Guerra. Essa ambiguidade é a alma cobrada.', // pegadinha
+    video: 'era vargas clt estado novo 1937 trabalhismo' // busca no YouTube
+  },
+  {
+    id: 'h45',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura militar',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O AI-5 (1968) na ditadura militar brasileira:', // pergunta
+    alternativas: [                     // opções
+      'legalizou os partidos políticos', // opção
+      'fechou o Congresso, impôs censura, suspendeu habeas corpus para crimes políticos e deu poderes ditatoriais ao presidente', // correta
+      'acabou com a ditadura', // opção
+      'só alterou a economia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O AI-5 marcou os "anos de chumbo": Congresso fechado, habeas corpus suspenso para crimes políticos, intervenção nos estados e corte de direitos — endurecimento máximo do regime, auge da repressão.', // explicação
+    dica: 'Cronologia cobrada: 1964 golpe → AI-1, AI-2... → AI-5 em 1968 (endurecimento) → "milagre econômico" com arrocho → abertura lenta (Geisel/Figueiredo) → Diretas Já 1984 → fim 1985.', // pegadinha
+    video: 'ai-5 ditadura militar anos de chumbo 1968' // busca no YouTube
+  },
+  {
+    id: 'h46',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Guerras mundiais e Brasil',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na 2ª Guerra Mundial, o Brasil:', // pergunta
+    alternativas: [                     // opções
+      'permaneceu neutro até o fim', // opção
+      'rompeu com o Eixo após ataques a navios e enviou a FEB (Força Expedicionária) para lutar na Itália — sendo a única nação latino-americana em combate na Europa', // correta
+      'aliou-se à Alemanha', // opção
+      'só forneceu alimentos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Depois de neutralidade e flerte com o Eixo, o Brasil declarou guerra em 1942 após torpedeamento de navios mercantes — a FEB lutou na Itália, único contingente latino-americano em combate.', // explicação
+    dica: 'Contradição histórica: o Brasil lutou pela democracia na Europa enquanto vivia a ditadura do Estado Novo em casa — pressão que contribuiu para a redemocratização pós-1945.', // pegadinha
+    video: 'brasil segunda guerra feb itália vargas' // busca no YouTube
+  },
+  {
+    id: 'h47',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Constituição de 1988',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Carta Magna de 1988 é apelidada de "Constituição Cidadã" em razão de:', // pergunta
+    alternativas: [                     // opções
+      'acabou com os partidos', // opção
+      'redemocratizou o país e ampliou direitos fundamentais — votos, liberdades, saúde como direito, proteção a minorias', // correta
+      'foi escrita pelos militares', // opção
+      'aboliu a federação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Constituinte de 1988 encerrou o regime militar e criou a ordem democrática atual: direitos amplos, SUS, voto aos 16 anos, participação popular — "cidadã" por expandir a cidadania para além do voto.', // explicação
+    dica: 'Marcos da cidadã: SUS como direito de todos, voto facultativo aos 16, remédios constitucionais, proteção indígena e meio ambiente. O STF guardião da CF — as regras que regem hoje.', // pegadinha
+    video: 'constituição 1988 cidadã redemocratização' // busca no YouTube
+  },
+  {
+    id: 'g44',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Urbanização brasileira',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A urbanização acelerada do Brasil pós-1950 produziu como resultado espacial típico:', // pergunta
+    alternativas: [                     // opções
+      'cidades perfeitamente planejadas', // opção
+      'periferias precárias e segregação socioespacial — centro rico + bordas pobres com infraestrutura deficitária', // correta
+      'crescimento rural proporcional', // opção
+      'distribuição igualitária', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O êxodo rural + industrialização concentraram milhões nas cidades sem planejamento: favelização, loteamentos irregulares, periferia sem saneamento — o "inchaço urbano" das metrópoles.', // explicação
+    dica: 'Segregação socioespacial = a cidade formal (ricos, infraestrutura) vs a informal (periferia, faltando tudo) — não é acaso, é fruto da especulação imobiliária e do abandono do pobre pelo Estado.', // pegadinha
+    video: 'urbanização brasileira favelização segregação' // busca no YouTube
+  },
+  {
+    id: 'g45',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Questão agrária',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A concentração fundiária no Brasil — poucos donos de muita terra — tem raiz histórica em:', // pergunta
+    alternativas: [                     // opções
+      'na Constituição de 1988', // opção
+      'nas sesmarias coloniais e na Lei de Terras de 1850, que transformou terra em mercadoria ao invés de concedê-la aos trabalhadores', // correta
+      'na industrialização recente', // opção
+      'nas reformas agrárias feitas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei de Terras (1850) obrigou a COMPRAR terra pública — barrando o acesso do liberto e do imigrante ao próprio meio de sustento; latifúndio e minifúndio passaram a coexistir, e a questão agrária se cristalizou.', // explicação
+    dica: 'O paradoxo do latifúndio brasileiro: grandes propriedades improdutivas ao lado de milhões sem terra — herança da colonização e da lei que vendeu terra a quem já tinha dinheiro.', // pegadinha
+    video: 'lei de terras 1850 concentração fundiária brasil' // busca no YouTube
+  },
+  {
+    id: 'g46',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Amazônia — devastação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O desmatamento na Amazônia é impulsionado principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'turismo ecológico', // opção
+      'agropecuária (pasto e soja), garimpo, madeira ilegal e especulação fundiária — a chamada "fronteira agrícola" avançando', // correta
+      'manejo sustentável', // opção
+      'reservas indígenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "arco do desmatamento" avança com pecuária extensiva, soja, mineração e extração ilegal de madeira — e a grilagem (apropriação fraudulenta de terra pública) precede a produção, especulando com a terra.', // explicação
+    dica: 'Ordem causal cobrada: estrada abre → grileiro entra → madeireiro extrai → gado ocupa → soja consolida. A pecuária é o maior vetor histórico, embora a soja apareça mais na mídia.', // pegadinha
+    video: 'desmatamento amazônia arco desmatamento causas' // busca no YouTube
+  },
+  {
+    id: 'g47',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Migrações brasileiras',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O êxodo nordestino para o Sudeste nas décadas de 1950-80 deveu-se a:', // pergunta
+    alternativas: [                     // opções
+      'programa oficial de distribuição', // opção
+      'fatores repulsivos (seca, latifúndio, falta de oportunidade) + atrativos (indústria paulista, construção civil)', // correta
+      'guerra civil no Nordeste', // opção
+      'incentivo fiscal do governo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Push-pull: a seca e a concentração de terra "empurravam" o nordestino; a industrialização de São Paulo e Brasília "puxavam" — retirantes que construíram o Sudeste e enfrentaram preconceito.', // explicação
+    dica: 'Migração interna é sempre empurra-puxa: quem sai é "empurrado" por falta de terra/trabalho e "puxado" por promessa de emprego. O retirante é símbolo do Brasil desigual.', // pegadinha
+    video: 'êxodo rural nordestino migração sudeste' // busca no YouTube
+  },
+  {
+    id: 'g48',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Globalização',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A globalização é um processo desigual porque:', // pergunta
+    alternativas: [                     // opções
+      'beneficia todos igualmente', // opção
+      'integra mercados e fluxos, mas concentra riqueza e decisão nos países centrais — a periferia fornece matéria-prima e mão de obra barata', // correta
+      'acabou com as fronteiras', // opção
+      'impede a migração', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A globalização intensifica fluxos (mercadoria, capital, informação), mas assimétricos: o centro detém tecnologia, finanças e decisões; a periferia entra como fornecedora de matéria-prima e mercado consumidor.', // explicação
+    dica: 'Globalização ≠ aldeia igualitária: quem comanda a tecnologia e o capital captura mais valor. A divisão internacional do trabalho mantém o Sul subordinado — crítica da "exploração globalizada".', // pegadinha
+    video: 'globalização desigual centro periferia' // busca no YouTube
+  },
+  {
+    id: 'g49',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Clima e mudanças climáticas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As "ilhas de calor" nas metrópoles brasileiras são causadas por:', // pergunta
+    alternativas: [                     // opções
+      'a proximidade do Equador', // opção
+      'concreto e asfalto absorvendo calor, falta de vegetação, poluição — o centro urbano fica graus acima da periferia arborizada', // correta
+      'o aquecimento do oceano', // opção
+      'erupções vulcânicas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ilha de calor é o fenômeno urbano: superfícies artificiais retêm calor, árvores poucas não refrescam, o ar poluído aprisiona a radiação — o centro pode ficar 3-5°C mais quente que a zona rural vizinha.', // explicação
+    dica: 'O antídoto é a "infraestrutura verde": parques, árvores, água e superfícies permeáveis — requalificação urbana que também melhora o bem-estar. Clima urbano ≠ clima global, mas ambos esquentam.', // pegadinha
+    video: 'ilha de calor urbana causas vegetação' // busca no YouTube
+  },
+  {
+    id: 'g50',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Geopolítica do Brasil',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O papel geopolítico do Brasil no século XXI oscila entre:', // pergunta
+    alternativas: [                     // opções
+      'hegemonia mundial garantida', // opção
+      'potência regional (Mercosul, BRICS, biodiversidade) e dependência tecnológica — país intermediário entre o centro e a periferia', // correta
+      'isolamento total', // opção
+      'submissão militar aos EUA', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil é "potência emergente": maior economia da América Latina, agricultura global, Amazônia e BRICS — mas segue dependente de tecnologia, com indústria frágil e desigualdade interna. Nem centro nem periferia pura.', // explicação
+    dica: 'Os trunfos brasileiros: território, biodiversidade, agricultura, estabilidade diplomática. As fraquezas: desindustrialização, dependência tecnológica, desigualdade. "Potência continental com vulnerabilidade interna".', // pegadinha
+    video: 'geopolítica brasil potência regional brics' // busca no YouTube
+  },
+  {
+    id: 'lg58',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Idoso',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Estatuto do Idoso (Lei 10.741/2003) protege pessoas a partir de:', // pergunta
+    alternativas: [                     // opções
+      '55 anos', // opção
+      '60 anos — idade legal que garante prioridade, gratuidade em transporte e direitos especiais', // correta
+      '65 anos', // opção
+      '70 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O estatuto vale dos 60 anos: prioridade em filas e atendimento, meia-entrada cultural, gratuidade no transporte coletivo urbano e proteção contra abandono e violência.', // explicação
+    dica: 'Marco de 60 anos (CF art. 230). "Prioridade" é a palavra-chave: atendimento preferencial não é favor, é direito. Abandono de idoso pela família é crime.', // pegadinha
+    video: 'estatuto do idoso 60 anos direitos prioridade' // busca no YouTube
+  },
+  {
+    id: 'lg59',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Maria da Penha',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Lei Maria da Penha (11.340/2006) combate a violência doméstica criando, entre outros instrumentos:', // pergunta
+    alternativas: [                     // opções
+      'apenas multas ao agressor', // opção
+      'medidas protetivas de urgência — afastamento do lar, proibição de contato, proteção a filhos — decididas pelo juiz em 48h', // correta
+      'somente prisão imediata', // opção
+      'mediação obrigatória entre o casal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei criou a resposta rápida: a medida protetiva ordena em até 48h que o agressor se afaste, não se aproxime e não contate a vítima — sem depender de sentença de condenação.', // explicação
+    dica: 'A violência doméstica legal abrange 5 formas: física, psicológica, sexual, patrimonial e moral — não só "agressão física". E a lei vale para relações domésticas (não só marido/mulher).', // pegadinha
+    video: 'lei maria da penha medida protetiva 48h' // busca no YouTube
+  },
+  {
+    id: 'lg60',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Drogas',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Pela Lei de Drogas (11.343/2006), portar pequena quantidade para uso próprio resulta em:', // pergunta
+    alternativas: [                     // opções
+      'prisão em regime fechado', // opção
+      'penas alternativas (advertência, prestação de serviços, medida educativa) — não prisão, distinguindo usuário de traficante', // correta
+      'nenhuma consequência legal', // opção
+      'internação compulsória sempre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O usuário não vai preso: recebe advertência, serviço comunitário ou medida educativa. O traficante, sim, responde com reclusão de 5 a 15 anos. A lei tenta separar doença (uso) de crime (tráfico).', // explicação
+    dica: 'Critério que separa usuário de traficante: quantidade + circunstâncias (não só peso). A lei foi modificada em 2024 pelo STF descriminalizando parcialmente o porte de maconha para uso — tema atual.', // pegadinha
+    video: 'lei de drogas usuário traficante diferença pena' // busca no YouTube
+  },
+  {
+    id: 'lg61',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Código de Defesa do Consumidor', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Pelo CDC, em compra fora do estabelecimento (internet, catálogo), o consumidor tem:', // pergunta
+    alternativas: [                     // opções
+      'nenhum direito de devolução', // opção
+      'direito de arrependimento — 7 dias para desistir com reembolso integral', // correta
+      '30 dias para qualquer troca', // opção
+      'só troca por defeito', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 49 do CDC: em compra fora da loja (e-commerce, telefone), o consumidor pode desistir em 7 dias, com devolução total inclusive do frete — proteção porque não viu o produto fisicamente.', // explicação
+    dica: 'O arrependimento vale SÓ para compra fora do estabelecimento — em loja física, não existe "7 dias para trocar" como direito legal (a troca por gosto é política da loja). Pegadinha clássica.', // pegadinha
+    video: 'cdc direito arrependimento 7 dias compra online' // busca no YouTube
+  },
+  {
+    id: 'lg62',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei da Ficha Limpa',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Lei da Ficha Limpa (Lei Complementar 135/2010) torna inelegível o candidato:', // pergunta
+    alternativas: [                     // opções
+      'que tiver qualquer processo em andamento', // opção
+      'condenado por órgão coletivo (segunda instância) por crimes como improbidade, corrupção, abuso de poder — mesmo sem trânsito final', // correta
+      'apenas após condenação definitiva no STF', // opção
+      'que for denunciado em rede social', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inovação da lei: basta a condenação por órgão COLETIVO (tribunal, não juiz único) para barrar a candidatura por 8 anos — não precisa esgotar todos os recursos. Originou-se de iniciativa popular.', // explicação
+    dica: 'Ponto cobrado: "condenação em órgão coletivo" = tribunal com mais de um julgador. A lei nasceu de projeto de lei de iniciativa popular (1,3 milhão de assinaturas) — exemplo de participação legislativa.', // pegadinha
+    video: 'lei ficha limpa inelegibilidade órgão coletivo' // busca no YouTube
+  },
+  {
+    id: 'lg63',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Marco Civil da Internet',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Marco Civil da Internet (Lei 12.965/2014) consagrou no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'a censura prévia de conteúdo', // opção
+      'a neutralidade de rede — provedores não podem privilegiar ou limitar tráfego por conteúdo, origem ou serviço', // correta
+      'o fim da privacidade online', // opção
+      'a obrigação de identificar todos os usuários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Neutralidade de rede = a operadora não pode tratar diferente os pacotes: streaming, torrent e e-mail fluem na mesma velocidade — preserva a internet como plataforma aberta e não discriminatória.', // explicação
+    dica: 'Neutralidade ≠ anonimato total: o Marco Civil também exige guarda de registros de acesso (logs) por prazo, equilibrando privacidade e investigação. Zero-rating (WhatsApp grátis) é o debate contínuo.', // pegadinha
+    video: 'marco civil internet neutralidade de rede' // busca no YouTube
+  },
+  {
+    id: 'lg64',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Desarmamento',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O Estatuto do Desarmamento (Lei 10.826/2003) regulamenta no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'a venda livre de armas', // opção
+      'registro, porte e comercialização de armas de fogo e munição — exigindo requisitos rigorosos para o cidadão comum', // correta
+      'apenas armas militares', // opção
+      'só caça esportiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O estatuto restringe: SINARM registro, teste de capacidade técnica e psicológica, comprovação de necessidade, idade mínima 25 anos — o porte de arma em via pública é exceção legal, não direito.', // explicação
+    dica: 'Posse ≠ porte: posse = manter a arma em casa/trabalho (registrada); porte = sair com ela na rua (muito restrito). O estatuto é flexibilizado/endurecido por decretos conforme o governo — tema político sensível.', // pegadinha
+    video: 'estatuto desarmamento posse porte arma requisitos' // busca no YouTube
+  },
+  {
+    id: 'lg65',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Acesso à Informação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Lei de Acesso à Informação (LAI, 12.527/2011) garante que o cidadão:', // pergunta
+    alternativas: [                     // opções
+      'precisa de advogado para pedir dados públicos', // opção
+      'pode solicitar informações de qualquer órgão público sem justificar o motivo — transparência como regra', // correta
+      'só acessa dados depois de autorização judicial', // opção
+      'só acessa seus próprios dados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A LAI torna a publicidade a regra e o sigilo a exceção: qualquer pessoa pede informação a órgãos públicos sem motivar — exceções: segurança nacional, dados pessoais e segredos protegidos.', // explicação
+    dica: 'Transparência ativa × passiva: ativa = o órgão publica espontaneamente (portal da transparência); passiva = o cidadão pede. Dados pessoais ficam protegidos — a LAI convive com a LGPD.', // pegadinha
+    video: 'lei acesso informação lai transparência' // busca no YouTube
+  },
+  {
+    id: 'lg66',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei do Feminicídio',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O feminicídio (Lei 13.104/2015) é o homicídio qualificado quando a mulher é morta:', // pergunta
+    alternativas: [                     // opções
+      'em qualquer circunstância', // opção
+      'em razão da condição de sexo feminino — contexto doméstico, menosprezo ou discriminação à condição de mulher', // correta
+      'por desconhecido na rua', // opção
+      'em acidente doméstico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O feminicídio é qualificadora do homicídio: quando a motivação é a condição de mulher (violência doméstica, menosprezo/discriminação de gênero). Penas mais graves e hediondez reconhecida.', // explicação
+    dica: 'Nem toda mulher assassinada é feminicídio: precisa do elemento de gênero (violência doméstica ou discriminação). O marido que mata a esposa = feminicídio; a mulher vítima de latrocínio comum = homicídio.', // pegadinha
+    video: 'feminicídio lei 13104 qualificadora homicídio' // busca no YouTube
+  },
+  {
+    id: 'lg67',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei dos Planos de Saúde',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A Lei 9.656/1998 (planos de saúde) obriga a operadora a cobrir:', // pergunta
+    alternativas: [                     // opções
+      'qualquer tratamento que o médico indique', // opção
+      'o rol de procedimentos da ANS — lista mínima obrigatória de consultas, exames e tratamentos', // correta
+      'só emergências', // opção
+      'só consultas básicas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O rol da ANS lista a cobertura obrigatória mínima — o que está nele o plano tem de pagar. Em 2022 o STJ decidiu que o rol é "taxativo" (só o listado), mas a lei segue sendo atualizada.', // explicação
+    dica: 'Rol taxativo vs exemplificativo foi a polêmica: a ANS lista o mínimo; o debate era se tratamentos fora da lista deviam ser cobertos. O STJ fixou taxativo — decisão criticada por pacientes.', // pegadinha
+    video: 'lei planos de saúde rol ans cobertura obrigatória' // busca no YouTube
+  },
+  {
+    id: 'et55',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética × moral',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A distinção clássica entre ética e moral aponta que:', // pergunta
+    alternativas: [                     // opções
+      'são sinônimos absolutos', // opção
+      'moral é o conjunto de costumes e regras de um grupo; ética é a reflexão filosófica sobre esses valores', // correta
+      'ética é lei, moral é opinião', // opção
+      'moral é universal, ética é individual', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moral = o "é" dos costumes (regras vividas, socialmente impostas); ética = o "pensar" sobre eles (filosofia, questionamento). A moral pode ser cega; a ética questiona por que agimos assim.', // explicação
+    dica: 'Mnemônico: moral é prática (o que se faz), ética é teoria (o que se pensa). Uma sociedade pode ter moral rígida e pouca ética — segue regras sem refletir sobre elas.', // pegadinha
+    video: 'ética moral diferença filosofia' // busca no YouTube
+  },
+  {
+    id: 'et56',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Imperativo categórico',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O imperativo categórico de Kant diz que devo agir segundo uma máxima que:', // pergunta
+    alternativas: [                     // opções
+      'me traga vantagem', // opção
+      'eu possa querer que se torne lei universal — agir como se minha atitude valesse para todos', // correta
+      'seja aprovada pela maioria', // opção
+      'produza a maior felicidade geral', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Kant propõe o teste da universalização: "e se TODOS fizessem isso?". Mentir para escapar de problema falha — se todos mentissem, a palavra perderia sentido. Dever por dever, não por consequência.', // explicação
+    dica: 'Kant é deontologista (dever), não utilitarista (consequência): mentir para salvar a vida seria imoral para Kant estrito — porque a regra "mentir" não pode ser universal. Contraste com o "maior bem para o maior número".', // pegadinha
+    video: 'imperativo categórico kant universalização dever' // busca no YouTube
+  },
+  {
+    id: 'et57',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Utilitarismo',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O utilitarismo (Bentham, Mill) avalia a ação moral por:', // pergunta
+    alternativas: [                     // opções
+      'a intenção do agente', // opção
+      'as consequências — a ação certa é a que produz a maior felicidade para o maior número de pessoas', // correta
+      'a tradição religiosa', // opção
+      'o costume local', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O utilitarismo é consequencialista: não importa a intenção, conta o resultado — maximizar o bem-estar agregado. Sacrificar um para salvar cem seria aceitável na lógica pura.', // explicação
+    dica: 'O dilema do bonde (trolley problem) é o laboratório do utilitarismo: desviar o trem mata 1 em vez de 5 — "certo" pelo cálculo, mas viola o dever kantiano de não usar a pessoa como meio.', // pegadinha
+    video: 'utilitarismo bentham mill maior felicidade' // busca no YouTube
+  },
+  {
+    id: 'et58',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética aristotélica',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Para Aristóteles, a virtude ética é adquirida:', // pergunta
+    alternativas: [                     // opções
+      'por nascimento', // opção
+      'pelo hábito — a "justa medida" entre excessos se constrói com a prática repetida de boas ações', // correta
+      'pela leitura de leis', // opção
+      'pelo medo da punição', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aristóteles: ninguém nasce corajoso — torna-se corajoso agindo com coragem. A virtude é hexis (disposição adquirida) que busca o "mesótes", o meio-termo: a coragem é o meio entre a covardia e a temeridade.', // explicação
+    dica: 'Virtude = meio-termo: generosidade fica entre a avareza e o desperdício; honestidade entre a dissimulação e a indiscrição. Ética aristotélica é "de hábito" — não de regras, de caráter forjado.', // pegadinha
+    video: 'ética aristóteles virtude hábito meio termo' // busca no YouTube
+  },
+  {
+    id: 'et59',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética profissional',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O código de ética profissional de uma categoria serve para:', // pergunta
+    alternativas: [                     // opções
+      'decorar artigos de lei', // opção
+      'orientar a conduta no exercício da profissão — deveres, vedações e responsabilidades que protegem o público', // correta
+      'definir salários', // opção
+      'escolher quem entra na profissão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O código profissional traduz a ética para o ofício: sigilo do médico, sigilo do advogado, vedação de conflito de interesse — protege a sociedade e dá padrão de accountability ao profissional.', // explicação
+    dica: 'Sigilo profissional = dever legal e ético: médico não expõe paciente, advogado não revela defesa, jornalista protege fonte. Violar não é só "falta de educação" — pode gerar processo ético e penal.', // pegadinha
+    video: 'código de ética profissional sigilo conduta' // busca no YouTube
+  },
+  {
+    id: 'et60',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conflito de interesses',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Há conflito de interesses quando:', // pergunta
+    alternativas: [                     // opções
+      'duas pessoas discordam', // opção
+      'o interesse pessoal do agente pode comprometer a imparcialidade da decisão pública que ele toma', // correta
+      'alguém tem opinião forte', // opção
+      'há disputa entre departamentos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O conflito surge quando decisor e beneficiado se confundem: o prefeito licitar para a empresa do irmão, o fiscal julgar caso do amigo — o dever é declarar impedimento e sair da decisão.', // explicação
+    dica: 'Não é crime existir o conflito — é agir SEM se declarar suspeito. A solução ética/legal é o impedimento: "estou em conflito, decido outro". Manter-se no caso é improbidade.', // pegadinha
+    video: 'conflito de interesses impedimento ética pública' // busca no YouTube
+  },
+  {
+    id: 'et61',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Corrupção cotidiana',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A "pequena corrupção" do dia a dia (furar fila, subornar guarda, sonegar) contribui para:', // pergunta
+    alternativas: [                     // opções
+      'nada — não afeta a grande corrupção', // opção
+      'normalizar a cultura da vantagem indevida — a tolerância social aos pequenos desvios sustenta os grandes', // correta
+      'apenas questões de educação', // opção
+      'problemas exclusivamente privados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ética cotidiana é o piso da cultura política: quem tolera a "malandragem" no pequeno legitima a corrupção no grande. Não é proporção matemática, mas de valores normalizados.', // explicação
+    dica: 'O argumento filosófico: não se combate a corrupção grande aceitando a pequena — os dois fenômenos compartilham a mesma lógica ("vantagem particular sobre regra pública").', // pegadinha
+    video: 'pequena corrupção cultura vantagem ética' // busca no YouTube
+  },
+  {
+    id: 'et62',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Bioética',                   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A bioética discute, entre outros limites da ciência:', // pergunta
+    alternativas: [                     // opções
+      'a velocidade da internet', // opção
+      'o que a ciência pode/deve fazer com a vida — eutanásia, manipulação genética, pesquisa com embriões, triagem em UTIs', // correta
+      'a regulamentação de redes sociais', // opção
+      'a ética do esporte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A bioética nasce quando a técnica permite mais do que a moral responde: editar DNA (CRISPR), prolongar a morte, decidir quem recebe o leito — perguntas que a ciência não responde sozinha.', // explicação
+    dica: 'Princípios bioéticos clássicos (Beauchamp): autonomia (decidir sobre si), beneficência (fazer o bem), não-maleficência (não prejudicar) e justiça (distribuir equitativamente). O leito de UTI escasso tensiona os quatro.', // pegadinha
+    video: 'bioética princípios autonomia beneficência' // busca no YouTube
+  },
+  {
+    id: 'et63',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética ambiental',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A ética ambiental propõe que a natureza tenha:', // pergunta
+    alternativas: [                     // opções
+      'valor apenas econômico', // opção
+      'valor intrínseco — a floresta e os animais merecem proteção além de sua utilidade para o ser humano', // correta
+      'proteção só quando afeta o homem', // opção
+      'nenhuma consideração moral', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Do antropocentrismo (natureza só serve ao homem) ao biocentrismo (toda vida tem valor): a ética ambiental expande o círculo moral — árvore e animal importam por si, não só porque nos são úteis.', // explicação
+    dica: 'Três graduações cobradas: antropocêntrica (natureza = recurso), biocêntrica (vida tem valor) e ecocêntrica (o ecossistema todo importa). Os direitos dos animais e da natureza entram no debate moderno.', // pegadinha
+    video: 'ética ambiental antropocentrismo biocentrismo' // busca no YouTube
+  },
+  {
+    id: 'ef47',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Princípios do treinamento',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O princípio da sobrecarga no treinamento físico significa:', // pergunta
+    alternativas: [                     // opções
+      'treinar sempre no limite máximo', // opção
+      'o organismo só se adapta se receber um estímulo acima do habitual — carga progressiva gera adaptação', // correta
+      'carregar peso acima do peso corporal', // opção
+      'treinar até a exaustão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sem estímulo maior que o costumeiro, o corpo não muda: aumentar gradualmente carga, volume ou intensidade força a adaptação (músculo mais forte, coração mais eficiente).', // explicação
+    dica: 'Sobrecarga ≠ excesso: é PROGRESSIVA — um pouco além do habitual, não no máximo. A ultrapassagem do limite lesiona; a abaixo do habitual não treina. Junto com especificidade e individualidade, é um princípio basilar.', // pegadinha
+    video: 'princípio sobrecarga treinamento progressivo' // busca no YouTube
+  },
+  {
+    id: 'ef48',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Aptidão física',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'As valências físicas básicas para a saúde incluem:', // pergunta
+    alternativas: [                     // opções
+      'apenas força e velocidade', // opção
+      'resistência cardiorrespiratória, força, flexibilidade e composição corporal', // correta
+      'só a velocidade', // opção
+      'apenas a força máxima', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aptidão física relacionada à saúde = 4 componentes: resistência (cardio), força/resistência muscular, flexibilidade e composição corporal — o mínimo para um corpo funcional.', // explicação
+    dica: 'Aptidão para saúde ≠ aptidão para esporte: saúde = cardio + força + flexibilidade + composição; esporte adiciona velocidade, potência, agilidade, coordenação. A prova cobra essa distinção.', // pegadinha
+    video: 'valências físicas aptidão saúde resistência' // busca no YouTube
+  },
+  {
+    id: 'ef49',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Sedentarismo e saúde',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A OMS recomenda, para adultos, no mínimo:', // pergunta
+    alternativas: [                     // opções
+      '30 minutos de exercício por mês', // opção
+      '150 minutos semanais de atividade aeróbica moderada (ou 75 intensa) + fortalecimento 2x por semana', // correta
+      'exercício só aos fins de semana', // opção
+      'uma hora por dia de corrida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A OMS fixa o mínimo protetivo: 150 minutos moderados (caminhada rápida, bike leve) ou 75 vigorosos por semana, mais musculação — abaixo disso, o sedentarismo já eleva risco cardiovascular e metabólico.', // explicação
+    dica: '"Ativo" ≠ "atleta": a meta OMS é de proteção cardiovascular — caminhar rápido conta. O sedentarismo é fator de risco independente: exercitar-se 1h não anula 23h sentado — é preciso quebrar o tempo parado.', // pegadinha
+    video: 'oms atividade física 150 minutos sedentarismo' // busca no YouTube
+  },
+  {
+    id: 'ef50',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte e sociedade',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O esporte, além da saúde, tem papel social de:', // pergunta
+    alternativas: [                     // opções
+      'apenas entretenimento', // opção
+      'inclusão, educação de valores, construção de identidade coletiva e mobilidade social — especialmente em projetos comunitários', // correta
+      'competição pura', // opção
+      'substituir a escola', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O esporte educa (regras, cooperação, respeito ao adversário), inclui (projetos sociais tiram jovens da vulnerabilidade) e constrói pertencimento — além de ser canal de ascensão social.', // explicação
+    dica: 'O olhar crítico do ENEM/Fuvest: esporte também reproduz desigualdade (poucos "chegam"), serve à propaganda política e pode ser mercantilizado — não é só heroísmo, tem a face do negócio.', // pegadinha
+    video: 'esporte inclusão social educação valores' // busca no YouTube
+  },
+  {
+    id: 'f47',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Energia — conservação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Ao deixar cair um objeto, a energia potencial gravitacional se transforma em:', // pergunta
+    alternativas: [                     // opções
+      'calor', // opção
+      'energia cinética — quanto mais alto, maior a velocidade de chegada ao solo', // correta
+      'energia elétrica', // opção
+      'energia sonora apenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ep = mgh converte em Ec = mv²/2: a altura vira velocidade. Num sistema ideal (sem atrito), a energia mecânica total se conserva — a conta exata sai de Ec = Ep perdida.', // explicação
+    dica: 'Conservação mecânica só vale sem atrito: com resistência do ar, parte vira calor — a energia não "some", se transforma. O ENEM adora a montanha-russa ou o pêndulo como exemplos.', // pegadinha
+    video: 'conservação energia potencial cinética queda' // busca no YouTube
+  },
+  {
+    id: 'f48',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Leis de Newton',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'O cinto de segurança protege em freada brusca porque a primeira lei de Newton (inércia) diz que:', // pergunta
+    alternativas: [                     // opções
+      'o corpo tende a ficar parado', // opção
+      'o corpo em movimento tende a continuar em movimento — sem o cinto, você segue à velocidade do carro mesmo quando ele para', // correta
+      'a força é igual à massa vezes aceleração', // opção
+      'ação e reação se cancelam', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inércia: seu corpo mantém o estado de movimento — o carro freia, você continua a 60 km/h até que algo o pare (o cinto, idealmente; o para-brisa, tragicamente).', // explicação
+    dica: 'Não é "força para frente": não há força jogando você — é a INÉRCIA mantendo o movimento. O cinto aplica a força externa que te para junto com o carro.', // pegadinha
+    video: 'primeira lei newton inércia cinto segurança' // busca no YouTube
+  },
+  {
+    id: 'f49',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Eletricidade — circuito',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Na instalação residencial brasileira, as lâmpadas são ligadas em paralelo porque:', // pergunta
+    alternativas: [                     // opções
+      'consomem menos energia', // opção
+      'cada uma recebe a tensão total da rede e funciona independente — uma queimada não apaga as outras', // correta
+      'ficam mais fracas', // opção
+      'economizam fio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Em paralelo, cada componente tem os dois pontos ligados direto à fonte: todos recebem 127V/220V completos, e o caminho aberto de um não interrompe os demais. Série dividiria a tensão e apagaria tudo se um queimasse.', // explicação
+    dica: 'Série × paralelo: série = mesmo corrente, tensão dividida, um quebra e tudo apaga (enfeite de Natal antigo); paralelo = mesma tensão, corrente dividida, independência. Casa = paralelo sempre.', // pegadinha
+    video: 'circuito série paralelo lâmpadas casa tensão' // busca no YouTube
+  },
+  {
+    id: 'f50',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Calor e temperatura',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Deitar em areia quente e depois em pedra quente numa praia ensina que:', // pergunta
+    alternativas: [                     // opções
+      'a areia está sempre mais quente', // opção
+      'materiais diferentes com a mesma temperatura têm calor específico distinto — a areia esquenta/esfria mais rápido', // correta
+      'a pedra absorve mais sol', // opção
+      'a temperatura é igual e a sensação também', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Calor específico = quanto calor é preciso para elevar 1 kg de 1°C: areia tem baixo (esquenta rápido de dia, esfria à noite), água tem alto (demora a mudar) — por isso o mar modera o clima litorâneo.', // explicação
+    dica: 'A brisa marítima é consequência: de dia a areia aquece rápido, o ar sobe, o vento vem do mar; à noite inverte — a água segura o calor que a areia perdeu. Calor específico explica o ciclo.', // pegadinha
+    video: 'calor específico areia mar brisa' // busca no YouTube
+  },
+  {
+    id: 'fs47',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Homeostase',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'Suar no calor e tremer no frio são exemplos de:', // pergunta
+    alternativas: [                     // opções
+      'reações aleatórias do corpo', // opção
+      'homeostase — mecanismos de retroalimentação que mantêm a temperatura corporal interna estável (~36,5°C)', // correta
+      'sintomas de doença', // opção
+      'resposta apenas psicológica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Homeostase = o corpo se regula: suor evapora e resfria quando esquenta; tremor muscular gera calor quando esfria — feedback negativo mantendo a condição interna estável apesar do ambiente.', // explicação
+    dica: 'Feedback negativo = o mecanismo mais comum: o resultado inibe o estímulo (suor esfria → para de suar). Feedback positivo amplifica (contração do parto estimula mais contração). Temperatura, glicose e pH seguem o negativo.', // pegadinha
+    video: 'homeostase temperatura feedback negativo suor' // busca no YouTube
+  },
+  {
+    id: 'g51',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Fontes de energia',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Fuvest / Unicamp (vestibular)', // banca inspiradora
+    enunciado: 'A matriz energética brasileira se distingue das do mundo desenvolvido porque:', // pergunta
+    alternativas: [                     // opções
+      'depende do carvão mineral', // opção
+      'é majoritariamente renovável — hidrelétrica domina a geração, com biomassa e biocombustíveis relevantes', // correta
+      'usa só energia nuclear', // opção
+      'importa toda a eletricidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil é exceção: ~45% de renováveis na matriz (média mundial ~15%), com hidrelétricas como base + etanol/biodiesel e expansão de eólica/solar — vantagem climática, mas dependência de chuva cria vulnerabilidade.', // explicação
+    dica: 'A "vantagem verde" tem custo: a seca compromete hidrelétricas (crise de 2021) e o etanol compete com alimentos por terra. A expansão eólica do Nordeste é a fronteira atual.', // pegadinha
+    video: 'matriz energética brasileira renovável hidrelétrica' // busca no YouTube
+  },
 ];

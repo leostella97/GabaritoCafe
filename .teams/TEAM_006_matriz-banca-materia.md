@@ -26,7 +26,17 @@
 ## Progresso
 | Banca | Questões novas | Status |
 | :---- | :------------- | :----- |
-| (a preencher) | | |
+| ENEM (vestibular) | +144 (18 células) | ✅ commit `6bbb644` — todas as células ≥10 |
+| Fuvest / Unicamp (vestibular) | +173 (15 células + fechamento de 6 parciais) | ✅ commit pendente — todas as células ≥10 |
+
+## Notas de execução
+- ENEM: 144 questões em 5 chunks; corrigidos 2 enunciados duplicados
+  (r45/r51) antes do commit. Validador: 1523/0.
+- Fuvest: déficit era 165 em 19 células; +173 porque algumas células já
+  tinham parte coberta e o remanescente fechou Legislação (0→10), Ética
+  (1→10), Ed. Física/Física (6→10), Fisiologia/Geografia (9→10).
+  Corrigidos 2 duplicados (ct64→ct20, h47→h06) reescrevendo o enunciado.
+  Validador: 1696/0.
 
 ## TODO(TEAM_006) — continuação
 - Rodar `node scripts/deficit-matriz.js` e pegar a próxima banca da lista.
