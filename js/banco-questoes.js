@@ -23010,4 +23010,1134 @@ const BancoQuestoes = [
     dica: 'IDECAN coloca professores e militares como distratores — eles têm regras PRÓPRIAS (professor tem aposentadoria especial própria; militar segue estatuto). "Insalubre/perigoso + tempo menor" = especial do INSS.', // pegadinha
     video: 'aposentadoria especial insalubridade ppp resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 2: +55 questões nas matérias que seguem menores
+  // (História, Previdenciário, Atualidades, Administrativo, Geografia,
+  // Constitucional, Física, Informática, Ed. Física, Ética, Fisiologia).
+  // Estreiam bancas novas: FUNDATEC, Copeve/UFMG, Selecon, IBGP,
+  // Instituto Mais — passam a existir nos dropdowns de filtro.
+  // ============================================================
+
+  // ---- História do Brasil (h25–h29) ----
+  {
+    id: 'h25',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura militar',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O Ato Institucional nº 5 (AI-5), de 1968, foi o instrumento que:', // pergunta
+    alternativas: [                     // opções
+      'restaurou a democracia no país', // opção
+      'convocou eleições diretas para presidente', // opção
+      'fechou o Congresso, cassou mandatos, suspendeu o habeas corpus e endureceu a repressão', // correta
+      'acabou com a censura prévia', // opção
+      'criou o Congresso Constituinte' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O AI-5 (dez/1968) inaugurou a fase mais dura da ditadura: recesso do Congresso, intervenção nos estados e municípios, cassações, habeas corpus suspenso para crimes políticos e censura total. Durou até 1978.', // explicação
+    dica: 'FUNDATEC inverte o sentido dos atos: qualquer alternativa que fale em "abrir", "democratizar" ou "eleger" está errada — o AI-5 FECHOU tudo. Associe: AI-5 = aperto máximo, anos de chumbo.', // pegadinha
+    video: 'ai5 1968 ditadura militar anos de chumbo resumo' // busca no YouTube
+  },
+  {
+    id: 'h26',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Era Vargas',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Consolidação das Leis do Trabalho (CLT), de 1943, representou:', // pergunta
+    alternativas: [                     // opções
+      'apenas o fim dos sindicatos', // opção
+      'a abolição do trabalho infantil de qualquer forma', // opção
+      'um acordo internacional', // opção
+      'a unificação dos direitos trabalhistas — jornada de 8 horas, férias, salário mínimo, carteira assinada — sob o Estado', // correta
+      'o fim da aposentadoria rural' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A CLT de Getúlio Vargas reuniu num só texto os direitos já esparsos: jornada de 8h, repouso semanal, férias, salário mínimo, carteira de trabalho — com sindicalismo controlado pelo Estado (peleguismo).', // explicação
+    dica: 'Copeve cobra o DUPLO sentido: a CLT deu direitos, mas amarrou o sindicato ao governo. Não confunda a data: CLT = 1943; salário mínimo veio antes (1940); férias e 8h são da CLT.', // pegadinha
+    video: 'clt 1943 getulio vargas direitos trabalhistas resumo' // busca no YouTube
+  },
+  {
+    id: 'h27',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Brasil colônia',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A chegada dos portugueses ao Brasil, em 22 de abril de 1500, foi comandada por:', // pergunta
+    alternativas: [                     // opções
+      'Pedro Álvares Cabral', // correta
+      'Cristóvão Colombo', // opção
+      'Vasco da Gama', // opção
+      'Fernão de Magalhães', // opção
+      'Américo Vespúcio' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A frota de Pedro Álvares Cabral aportou em Porto Seguro (BA) em 22/04/1500. Colombo chegou ao Caribe em 1492; Vasco da Gama abriu o caminho às Índias em 1498; Vespúcio deu nome à América.', // explicação
+    dica: 'Selecon mistura os navegadores da época: Cabral = Brasil 1500; Colombo = América espanhola 1492; Vasco da Gama = Índia 1498; Vespúcio = nomeou a América. Data + nome é o par cobrado.', // pegadinha
+    video: 'chegada portugueses brasil 1500 cabral resumo' // busca no YouTube
+  },
+  {
+    id: 'h28',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Quilombo dos Palmares',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O Quilombo dos Palmares, maior símbolo de resistência à escravidão no Brasil colonial:', // pergunta
+    alternativas: [                     // opções
+      'foi uma revolta urbana no Rio de Janeiro', // opção
+      'abrigou milhares de escravizados fugidos por quase um século na Serra da Barriga (AL), sendo destruído em 1694; seu líder Zumbi virou símbolo da resistência negra', // correta
+      'era uma comunidade de índios da Amazônia', // opção
+      'recebeu apoio oficial da Coroa portuguesa', // opção
+      'existiu apenas no século XIX' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Palmares formou-se na Serra da Barriga (Alagoas) no século XVII: um conjunto de povoados com milhares de fugidos que resistiu a dezenas de expedições até a destruição em 1694-95. Zumbi, último líder, foi morto em 20/11/1695 — data do Dia da Consciência Negra.', // explicação
+    dica: 'IBGP mistura tempo e lugar: Palmares = SÉCULO XVII, Alagoas (não XIX, não Amazônia). E não foi revolta de um dia — foi ESTADO alternativo por ~100 anos. Zumbi + 20 de novembro é o par imbatível.', // pegadinha
+    video: 'quilombo dos palmares zumbi resistencia resumo' // busca no YouTube
+  },
+  {
+    id: 'h29',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Período militar',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O período brasileiro compreendido entre 1964 e 1985 corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'ao Império de Pedro II', // opção
+      'à República Velha', // opção
+      'ao Estado Novo de Vargas', // opção
+      'à redemocratização plena', // opção
+      'à ditadura civil-militar instaurada pelo golpe de 31 de março/1º de abril de 1964', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O golpe de 1964 depôs João Goulart e instalou 21 anos de regime militar com cinco presidentes-generais (Castelo Branco a Figueiredo), censura, perseguição e AI-5 — encerrado com a abertura gradual e a eleição indireta de Tancredo Neves em 1985.', // explicação
+    dica: 'Instituto Mais mistura os blocos: Império 1822–89, República Velha 1889–1930, Vargas 1930–45, democracia 1946–64, DITADURA 1964–85. A data limite 1985 (Tancredo) é o que fecha a conta.', // pegadinha
+    video: 'ditadura militar brasil 1964 1985 resumo' // busca no YouTube
+  },
+
+  // ---- Direito Previdenciário (v26–v30) ----
+  {
+    id: 'v26',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A pensão por morte do INSS é devida:', // pergunta
+    alternativas: [                     // opções
+      'a qualquer parente do falecido', // opção
+      'somente ao cônjuge', // opção
+      'apenas se o falecido já estivesse aposentado', // opção
+      'aos dependentes do segurado falecido — cônjuge/companheiro, filhos menores ou inválidos, pais e irmãos menores, na ordem legal', // correta
+      'ao inventor do inventário' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Pensão por morte vai aos DEPENDENTES (quem dependia economicamente): classe 1 = cônjuge, companheiro e filhos menores de 21 ou inválidos; classe 2 = pais; classe 3 = irmãos menores. Pode haver carência conforme o tempo de contribuição e o tipo de morte.', // explicação
+    dica: 'FUNDATEC troca "dependente" por "parente" — não é qualquer familiar: segue a ordem das classes e a condição de dependente econômico. E cuidado: o falecido precisava ser SEGURADO (contribuinte ou recebendo benefício).', // pegadinha
+    video: 'pensao por morte dependentes classes requisitos resumo' // busca no YouTube
+  },
+  {
+    id: 'v27',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Salário-maternidade',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O salário-maternidade do INSS é devido:', // pergunta
+    alternativas: [                     // opções
+      'à segurada em caso de nascimento, adoção ou guarda para adoção — por 120 dias', // correta
+      'somente a servidores públicos federais', // opção
+      'ao pai de qualquer criança', // opção
+      'apenas por 60 dias', // opção
+      'só a quem contribuiu por 10 anos' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Salário-maternidade: 120 dias para a segurada (empregada, contribuinte individual, MEI etc.) em nascimento, aborto não criminoso, adoção ou guarda. Segurada especial (rural) tem 1 SM. Empresa de direito público paga 180 dias.', // explicação
+    dica: 'Copeve confunde duração: regra = 120 dias; empresa aderente ao Empresa Cidadã = estende para 180; servidora pública federal = 180 por estatuto. "Só CLT" e "60 dias" são distratores.', // pegadinha
+    video: 'salario maternidade 120 dias requisitos resumo' // busca no YouTube
+  },
+  {
+    id: 'v28',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regimes de previdência',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O microempreendedor individual (MEI) que recolhe a contribuição mensal é segurado:', // pergunta
+    alternativas: [                     // opções
+      'do regime próprio dos servidores', // opção
+      'apenas do INSS militar', // opção
+      'de nenhum regime previdenciário', // opção
+      'somente do seguro privado', // opção
+      'do Regime Geral de Previdência Social (RGPS), com direito aos benefícios do INSS', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O MEI é contribuinte individual do RGPS: pagando a guia mensal (alíquota reduzida sobre o mínimo), tem direito a aposentadoria por idade, salário-maternidade, auxílio por incapacidade e pensão por morte aos dependentes.', // explicação
+    dica: 'Selecon cobra regime × beneficiário: RGPS = trabalhadores privados e autônomos (MEI, CLT); RPPS = servidores estatutários da União; militares = sistema próprio. MEI paga MENOS, mas fica dentro do RGPS.', // pegadinha
+    video: 'mei previdencia rgps beneficios resumo' // busca no YouTube
+  },
+  {
+    id: 'v29',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Revisão de benefício',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A chamada "revisão da vida toda" pretendia recalcular aposentadorias:', // pergunta
+    alternativas: [                     // opções
+      'aplicando nova idade mínima', // opção
+      'excluindo os salários menores', // opção
+      'incluindo no cálculo as contribuições anteriores a julho de 1994 (início do real), que a lei descartava', // correta
+      'somente para servidores militares', // opção
+      'apenas corrigindo pela inflação do ano' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A lei 9.876/99 calculava o benefício só com salários pós-julho/94. A "vida toda" pedia TODAS as contribuições na média — vantajosa para quem ganhava bem antes do real. O STF decidiu a favor (2022) e depois a modulação/limites foram rediscutidos.', // explicação
+    dica: 'IBGP cobra a data-corte: julho de 1994 = plano real. Regra da transição valia para quem contribuiu antes; a revisão só ajudava quem ganhava MAIS antes de 94. Não era revisão geral de todos os benefícios.', // pegadinha
+    video: 'revisao da vida toda inss julho 1994 resumo' // busca no YouTube
+  },
+  {
+    id: 'v30',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Auxílio-reclusão',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O auxílio-reclusão é pago:', // pergunta
+    alternativas: [                     // opções
+      'a qualquer preso do país', // opção
+      'aos dependentes do segurado de baixa renda recolhido à prisão em regime FECHADO', // correta
+      'ao próprio preso em regime aberto', // opção
+      'somente a policiais presos', // opção
+      'por tempo indeterminado, sem condições' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Auxílio-reclusão vai aos DEPENDENTES do segurado preso em regime fechado, desde que a renda do segurado seja baixa (até limite legal). Sai quando ele passa ao semiaberto/aberto ou sai da prisão — não é para o preso, é para a família.', // explicação
+    dica: 'Instituto Mais testa os dois gatilhos: regime FECHADO + segurado de BAIXA RENDA. Semiaberto em diante não gera o benefício. E pega quem acha que é dinheiro "para o preso" — é para os dependentes.', // pegadinha
+    video: 'auxilio reclusao dependentes regime fechado resumo' // busca no YouTube
+  },
+
+  // ---- Atualidades (t27–t31) ----
+  {
+    id: 't27',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Geopolítica',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A guerra Rússia–Ucrânia, iniciada em 2022, teve como principal impacto global:', // pergunta
+    alternativas: [                     // opções
+      'o fim da União Europeia', // opção
+      'a saída do Brasil dos BRICS', // opção
+      'a dissolução da ONU', // opção
+      'a independência de novos países europeus', // opção
+      'a pressão sobre os preços de energia e alimentos no mundo (gás, trigo, fertilizantes)', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Rússia (grande fornecedor de gás e petróleo) e Ucrânia/Rússia (celeiro de trigo e fertilizantes) ficaram em guerra → choque nos preços globais de energia, grãos e insumos agrícolas, refletindo na inflação mundial.', // explicação
+    dica: 'Questões de guerra em "atualidades" cobram o EFEITO ECONÔMICO, não o desfecho militar. Padrão: Rússia+Ucrânia = energia + trigo + fertilizante caros. Distrator: fim de bloco/ONU — nada disso aconteceu.', // pegadinha
+    video: 'guerra ucrania impacto economia energia trigo resumo' // busca no YouTube
+  },
+  {
+    id: 't28',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Meio ambiente — COP',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A COP30, conferência do clima da ONU realizada em novembro de 2025, aconteceu em:', // pergunta
+    alternativas: [                     // opções
+      'Belém (PA), na região amazônica', // correta
+      'Rio de Janeiro (RJ)', // opção
+      'São Paulo (SP)', // opção
+      'Brasília (DF)', // opção
+      'Manaus (AM)' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A 30ª Conferência das Partes (COP30) foi sediada por Belém do Pará em novembro de 2025 — primeira COP na Amazônia, com a floresta no centro das discussões de clima e financiamento.', // explicação
+    dica: 'IBGP troca a cidade-sede por capitais famosas ou Manaus (a "óbvia" da Amazônia). Decore o par: COP30 = Belém 2025; a Rio+20 (Rio, 2012) e a Eco-92 (Rio, 1992) são as conferências "de Rio".', // pegadinha
+    video: 'cop30 belem conferencia clima resumo' // busca no YouTube
+  },
+  {
+    id: 't29',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia e política fiscal', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O "arcabouço fiscal", regra que substituiu o teto de gastos, busca:', // pergunta
+    alternativas: [                     // opções
+      'acabar com todos os impostos', // opção
+      'aumentar o salário dos servidores', // opção
+      'limitar o crescimento das despesas do governo em linha com a receita, visando controlar a dívida pública', // correta
+      'imprimir mais dinheiro', // opção
+      'privatizar todas as estatais' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O arcabouço fiscal (2023) substituiu o teto rígido: as despesas só podem crescer dentro de limites atrelados ao crescimento da receita e à meta de resultado primário — o objetivo é frear o endividamento sem travar o gasto essencial.', // explicação
+    dica: 'Selecon cobra a DIFERENÇA do teto: teto congelava despesa real; arcabouço permite crescer, mas dentro da trava ligada à receita. Resposta-padrão: "controle do gasto + meta de dívida".', // pegadinha
+    video: 'arcabouco fiscal teto de gastos diferenca resumo' // busca no YouTube
+  },
+  {
+    id: 't30',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Energia e clima',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A discussão brasileira sobre "crise hídrica" e risco de apagão está ligada principalmente a:', // pergunta
+    alternativas: [                     // opções
+      'excesso de usinas nucleares', // opção
+      'falta de petróleo para termelétricas', // opção
+      'fim das hidrelétricas do país', // opção
+      'a forte dependência de usinas hidrelétricas combinada a períodos de seca prolongada que esvaziam reservatórios', // correta
+      'o consumo de energia dos vizinhos' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A matriz elétrica brasileira depende de hidrelétricas (~60%). Secas severas baixam os reservatórios → acionam-se termelétricas caras (bandeiras tarifárias) e surge o fantasma do racionamento, como em 2001 e 2021.', // explicação
+    dica: 'Copeve conecta clima + energia: o Brasil tem matriz "limpa" mas REFÉM da chuva. Crise hídrica = reservatório vazio + térmica ligada + bandeira vermelha na conta de luz.', // pegadinha
+    video: 'crise hidrica hidreletricas apagao bandeiras resumo' // busca no YouTube
+  },
+  {
+    id: 't31',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Saúde pública',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O Sistema Único de Saúde (SUS) garante:', // pergunta
+    alternativas: [                     // opções
+      'atendimento só para quem contribui ao INSS', // opção
+      'saúde pública gratuita e universal — qualquer pessoa no Brasil pode ser atendida', // correta
+      'apenas hospitais privados', // opção
+      'só vacinas importadas', // opção
+      'atendimento pago com reembolso' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O SUS, da CF/88, é o maior sistema público universal do mundo: atendimento integral e gratuito para TODOS (sem precisar contribuir) — da vacina e do posto de saúde ao transplante de órgãos.', // explicação
+    dica: 'Instituto Mais testa o princípio: UNIVERSAL e GRATUITO — não depende de contribuição, vínculo empregatício nem nacionalidade. "Só contribuinte" e "reembolso" são os distratores padrão.', // pegadinha
+    video: 'sus sistema unico de saude universal resumo' // busca no YouTube
+  },
+
+  // ---- Direito Administrativo (a29–a33) ----
+  {
+    id: 'a29',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Organização administrativa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A administração pública DIRETA é formada por:', // pergunta
+    alternativas: [                     // opções
+      'autarquias e fundações', // opção
+      'empresas públicas e concessionárias', // opção
+      'os próprios entes federados e seus órgãos — União, estados, DF, municípios com ministérios e secretarias', // correta
+      'apenas bancos estatais', // opção
+      'apenas o Legislativo' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Direta = os entes políticos em si (União, estados, DF, municípios) com seus órgãos (ministérios, secretarias). INDIRETA = as entidades criadas por lei: autarquias, fundações, empresas públicas e sociedades de economia mista.', // explicação
+    dica: 'A pegadinha é jogar autarquia na direta. Fórmula: direta = órgãos dos entes federados; indireta = FASE (fundações, autarquias, sociedades de economia mista, empresas públicas).', // pegadinha
+    video: 'administracao direta indireta orgaos entidades resumo' // busca no YouTube
+  },
+  {
+    id: 'a30',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Lei de Licitações',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Lei nº 14.133/2021 representa, para as licitações brasileiras:', // pergunta
+    alternativas: [                     // opções
+      'apenas uma norma sobre obras públicas', // opção
+      'uma lei municipal sem efeito geral', // opção
+      'a revogação apenas do pregão', // opção
+      'um código tributário', // opção
+      'a nova lei geral de licitações e contratos, que unificou e substituiu a Lei 8.666/93 e a lei do RDC', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'A Lei 14.133/21 é a nova regra-mãe de licitações e contratos administrativos: incorporou pregão, RDC e a 8.666 num texto só, com fase de planejamento, diálogo competitivo, contratação integrada e governança de contratos.', // explicação
+    dica: 'Copeve testa número de lei: 14.133 = licitações nova; 8.666 = antiga (revogada em dez/2023); 13.303 = estatais; 4.320 = direito financeiro. Confundir o número é a pegadinha clássica.', // pegadinha
+    video: 'lei 14133 nova lei licitacoes diferencas 8666 resumo' // busca no YouTube
+  },
+  {
+    id: 'a31',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Improbidade administrativa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Sobre a improbidade administrativa (Lei 8.429/92, alterada em 2021), é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'pune apenas crimes eleitorais', // opção
+      'sançiona o agente que enriquece ilicitamente, causa lesão ao erário ou atenta contra princípios — e, desde 2021, exige DOLO na conduta', // correta
+      'só vale para empresas privadas', // opção
+      'gera apenas advertência verbal', // opção
+      'foi revogada pela nova lei de licitações' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei de Improbidade pune atos do agente público (e particulares que induzem) em três eixos: enriquecimento ilícito, dano ao erário e atentado a princípios. Pela reforma de 2021, só DOLO configura improbidade — culpa não mais basta. Sanções: perda de bens, função e direitos.', // explicação
+    dica: 'Selecon cobra a novidade de 2021: antes cabia improbidade por CULPA grave; agora só DOLO. Memorize também as penas: suspensão de direitos, ressarcimento e perda da função — não é "crime comum", é ação civil.', // pegadinha
+    video: 'improbidade administrativa lei 8429 dolo resumo' // busca no YouTube
+  },
+  {
+    id: 'a32',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Serviços públicos',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O serviço público pode ser prestado por:', // pergunta
+    alternativas: [                     // opções
+      'apenas órgãos da administração direta', // opção
+      'só empresas privadas', // opção
+      'exclusivamente militares', // opção
+      'administração direta, autarquias, empresas públicas, sociedades de economia mista e particulares delegados (concessionárias/permissionárias)', // correta
+      'apenas o Poder Judiciário' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Serviço público é a atividade prestada POR ou POR ORDEM do Estado: pode ser direta (órgãos), indireta (autarquias/empresas) ou delegada ao particular (concessão, permissão, autorização — ex.: transporte coletivo, telefonia).', // explicação
+    dica: 'IBGP reduz o serviço a "só Estado direto" ou "só privado" — ambos errados. A chave é a DELEGAÇÃO: o particular presta em nome do Estado mediante contrato, sob tarifa e fiscalização.', // pegadinha
+    video: 'servico publico concessao permissao autorizacao resumo' // busca no YouTube
+  },
+  {
+    id: 'a33',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Servidor público — estabilidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A estabilidade do servidor público efetivo (após o estágio probatório) significa que ele:', // pergunta
+    alternativas: [                     // opções
+      'só pode perder o cargo por sentença judicial transitada em julgado, PAD ou avaliação insuficiente de desempenho com assegurada ampla defesa', // correta
+      'nunca pode ser demitido em hipótese alguma', // opção
+      'pode ser demitido a qualquer momento', // opção
+      'só pode ser demitido por ordem do presidente', // opção
+      'perde a estabilidade a cada eleição' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Estabilidade (art. 41 CF) após 3 anos de probatório: o servidor só sai por sentença judicial transitada, processo administrativo com defesa ou avaliação periódica insuficiente (também com defesa). Não é vitaliciedade absoluta — é proteção contra demissão arbitrária.', // explicação
+    dica: 'Instituto Mais joga "nunca pode ser demitido" — é a pegadinha clássica. Estabilidade ≠ emprego garantido pra sempre: existem vias legais de desligamento (sentença, PAD, avaliação).', // pegadinha
+    video: 'estabilidade servidor publico estagio probatorio resumo' // busca no YouTube
+  },
+
+  // ---- Geografia (g30–g34) ----
+  {
+    id: 'g30',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Amazônia',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O principal motor direto do desmatamento na Amazônia brasileira é:', // pergunta
+    alternativas: [                     // opções
+      'o turismo ecológico', // opção
+      'a construção de escolas', // opção
+      'a pesca artesanal', // opção
+      'a pecuária extensiva, a grilagem de terras e o avanço agrícola abrindo pastos e lavouras', // correta
+      'os parques nacionais' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A maior parte da floresta derrubada vira PASTO — pecuária extensiva responde pela maior fatia, precedida ou seguida de grilagem, extração ilegal de madeira e lavoura. Estradas abrem o caminho do corte.', // explicação
+    dica: 'FUNDATEC coloca causas nobres como distrator: o vilão medido pelo INPE é pecuária+grilagem+agricultura na fronteira (o "arco do desmatamento"). Madeira ilegal vem primeiro, mas quem fica com a terra é o gado.', // pegadinha
+    video: 'desmatamento amazonia causas pecuaria grilagem resumo' // busca no YouTube
+  },
+  {
+    id: 'g31',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Regiões brasileiras',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Semiárido brasileiro, zona de clima seco caracterizada pela Caatinga, localiza-se predominantemente:', // pergunta
+    alternativas: [                     // opções
+      'no interior do Nordeste, abrangendo sertões de vários estados da região', // correta
+      'no litoral do Sul', // opção
+      'na Amazônia ocidental', // opção
+      'no Pantanal mato-grossense', // opção
+      'no litoral de São Paulo' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O Semiárido é o sertão do interior nordestino (também norte de MG): chuvas escassas e irregulares, Caatinga e secas periódicas. Oficialmente delimitado pelo governo para políticas de convivência com a seca.', // explicação
+    dica: 'Copeve desloca a região: Semiárido = INTERIOR do NE, não o litoral (Zona da Mata é úmida/cana). E não é "deserto" — Caatinga é bioma com vegetação adaptada à seca.', // pegadinha
+    video: 'semiarido nordestino caatinga seca resumo' // busca no YouTube
+  },
+  {
+    id: 'g32',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Capitais e cidades',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A capital do Brasil, cidade planejada inaugurada em 21 de abril de 1960, é:', // pergunta
+    alternativas: [                     // opções
+      'Rio de Janeiro', // opção
+      'Salvador', // opção
+      'Brasília — projetada por Lucio Costa e Oscar Niemeyer, no Planalto Central', // correta
+      'São Paulo', // opção
+      'Belo Horizonte' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Brasília inaugurou em 21/04/1960, substituindo o Rio de Janeiro como capital — plano de Lucio Costa (urbanismo) e Niemeyer (arquitetura), na intenção de "interiorizar" o desenvolvimento.', // explicação
+    dica: 'Selecon troca capitais históricas: Salvador (primeira, até 1763), Rio (1763–1960), Brasília (desde 1960). Bônus: Belo Horizonte também é planejada, mas é capital mineira (1897).', // pegadinha
+    video: 'brasilia capital historia lucio costa niemeyer resumo' // busca no YouTube
+  },
+  {
+    id: 'g33',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Amazônia — fronteira agrícola', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A expressão "arco do desmatamento" na Amazônia designa:', // pergunta
+    alternativas: [                     // opções
+      'uma reserva indígena em arco', // opção
+      'o formato da bacia do rio Solimões', // opção
+      'o trecho preservado da floresta', // opção
+      'o mapa das rodovias federais', // opção
+      'a faixa de avanço do desmatamento que contorna o sul e o leste da floresta, de Rondônia e Mato Grosso até o Pará e o Maranhão', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O "arco" é a borda sul e leste da Amazônia onde a fronteira agrícola avança — RO, MT, PA, TO e oeste do Maranhão concentram a maior parte do desmatamento anual, seguindo as rodovias e a ocupação.', // explicação
+    dica: 'IBGP descreve formas erradas (bacia, reserva): "arco" é a CURVA de devastação na borda — ao contrário do "coração" preservado da floresta no noroeste. Lembre: arco = borda sul/leste onde o gado avança.', // pegadinha
+    video: 'arco do desmatamento amazonia fronteira resumo' // busca no YouTube
+  },
+  {
+    id: 'g34',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Hidrografia e energia',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Os rios mais aproveitados para a geração hidrelétrica no Brasil são os de:', // pergunta
+    alternativas: [                     // opções
+      'planície, lentos e rasos', // opção
+      'planalto, com desníveis de relevo que favorecem grandes quedas e barragens', // correta
+      'apenas a Amazônia', // opção
+      'regime torrencial do litoral', // opção
+      'apenas rios internacionais' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O potencial hidrelétrico está nos rios de planalto — desníveis geram velocidade e queda (São Francisco, Paraná, Tocantins). A Amazônia tem o MAIOR potencial teórico, mas os rios correm em planície e a logística ambiental/social limita.', // explicação
+    dica: 'Instituto Mais confunde "rio caudaloso" com "rio hidrelétrico": não é o volume que manda — é a QUEDA + volume. Amazonas tem vazão gigante e pouca queda; Tietê/Paraná têm desníveis de planalto.', // pegadinha
+    video: 'rios planalto hidreletricas potencial resumo' // busca no YouTube
+  },
+
+  // ---- Direito Constitucional (c32–c36) ----
+  {
+    id: 'c32',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Remédios constitucionais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O mandado de segurança serve para:', // pergunta
+    alternativas: [                     // opções
+      'prender o acusado', // opção
+      'pedir habeas corpus coletivo', // opção
+      'anular eleição', // opção
+      'cobrar dívida do Estado', // opção
+      'proteger direito líquido e certo ameaçado por ilegalidade ou abuso de poder de autoridade', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Mandado de segurança (art. 5º, LXIX) = remédio para direito líquido e certo — provado de plano — violado por ato ilegal ou abusivo de autoridade. Não cabe quando houver habeas corpus ou habeas data.', // explicação
+    dica: 'A trilha dos remédios que a banca troca: HC = liberdade de ir e vir; HD = dados pessoais; MS = direito líquido e certo; mandado de injunção = falta de norma. "Líquido e certo" é a assinatura do MS.', // pegadinha
+    video: 'mandado de seguranca direito liquido e certo resumo' // busca no YouTube
+  },
+  {
+    id: 'c33',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Fundamentos da República',   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'São fundamentos da República Federativa do Brasil (art. 1º da CF):', // pergunta
+    alternativas: [                     // opções
+      'apenas a soberania', // opção
+      'soberania, cidadania, dignidade da pessoa humana, valor social do trabalho e da livre iniciativa, e pluralismo político', // correta
+      'somente os três poderes', // opção
+      'apenas o voto universal', // opção
+      'a religião oficial' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 1º lista cinco fundamentos: soberania, cidadania, dignidade da pessoa humana, valor social do trabalho e da livre iniciativa, e pluralismo político (o "SO-CI-DI-VA-PLU" das doutrinas).', // explicação
+    dica: 'Copeve corta o rol: "apenas soberania" e "só três poderes" são os erros clássicos. Os 5 fundamentos são do art. 1º; o art. 4º (relações internacionais) é o irmão que sempre troca.', // pegadinha
+    video: 'fundamentos republica artigo 1 socidivaplu resumo' // busca no YouTube
+  },
+  {
+    id: 'c34',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'A Constituição de 1988',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A Constituição de 1988 ficou conhecida como "Constituição Cidadã" principalmente porque:', // pergunta
+    alternativas: [                     // opções
+      'acabou com o voto obrigatório', // opção
+      'foi escrita pelo presidente Sarney sozinho', // opção
+      'devolveu a ditadura', // opção
+      'ampliou direitos fundamentais, participação popular e garantias sociais depois de 21 anos de regime autoritário', // correta
+      'privatizou todas as estatais' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O apelido veio de Ulysses Guimarães, presidente da Constituinte: a CF/88 reagiu à ditadura ampliando direitos civis, sociais e políticos, criando o SUS, piso de direitos trabalhistas, voto direto e participação popular.', // explicação
+    dica: 'Selecon joga o contexto inverso: "Cidadã" = resposta aos 21 anos de autoritarismo com MAIS direitos, não menos. Também é a mais longa em vigor da história constitucional brasileira.', // pegadinha
+    video: 'constituicao 1988 cidada ulysses direitos resumo' // busca no YouTube
+  },
+  {
+    id: 'c35',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Remédios constitucionais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O habeas data é o remédio constitucional que serve para:', // pergunta
+    alternativas: [                     // opções
+      'garantir acesso a informações pessoais em bancos de dados de entidades públicas e retificá-las', // correta
+      'libertar quem sofre constrangimento ilegal', // opção
+      'impedir a criação de impostos', // opção
+      'suspender qualquer lei do Congresso', // opção
+      'convocar plebiscito' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Habeas data (art. 5º, LXXII): conhecer ou retificar dados seus em bancos de dados públicos ou de uso compartilhado. É o remédio da LGPD constitucional — o cidadão controla a informação que o poder guarda sobre ele.', // explicação
+    dica: 'IBGP troca HC × HD: habeas CORPUS protege o corpo (ir e vir); habeas DATA protege os DADOS (ver e corrigir). Se o enunciado fala em "banco de dados", "informação pessoal" — é HD.', // pegadinha
+    video: 'habeas data remedio constitucional dados resumo' // busca no YouTube
+  },
+  {
+    id: 'c36',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Forma de Estado e de governo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A forma de Estado, a forma de governo e o sistema de governo do Brasil são, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'monarquia, república e parlamentarismo', // opção
+      'unitário, presidencialismo e república', // opção
+      'federação, república e presidencialismo', // correta
+      'república, federação e parlamentarismo', // opção
+      'federação, monarquia e parlamentarismo' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Estado FEDERATIVO (União+estados+municípios), forma de governo REPÚBLICA (chefe de Estado eletivo e temporário) e sistema PRESIDENCIALISTA (o presidente acumula chefe de Estado e de governo, com separação de poderes).', // explicação
+    dica: 'A sequência "F.R.P." é o gabarito-mãe: Federação, República, Presidencialismo — nessa ordem (estado, forma, sistema). O Brasil testou parlamentarismo (1961-63) e o plebiscito de 1993 confirmou república+presidencialismo.', // pegadinha
+    video: 'forma estado federacao republica presidencialismo resumo' // busca no YouTube
+  },
+
+  // ---- Física (f33–f37) ----
+  {
+    id: 'f33',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Unidades do SI',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A unidade de potência no Sistema Internacional, equivalente a um joule por segundo, é:', // pergunta
+    alternativas: [                     // opções
+      'newton', // opção
+      'watt', // correta
+      'joule', // opção
+      'volt', // opção
+      'ampère' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Potência = energia (ou trabalho) ÷ tempo: 1 W = 1 J/s. Newton é força; joule é energia; volt é tensão elétrica; ampère é corrente. A lâmpada de 60 W gasta 60 J por segundo.', // explicação
+    dica: 'FUNDATEC embaralha as unidades "de energia": watt mede a taxa (J/s), joule mede a quantidade. Dica da conta de luz: kWh é energia (1000 W × 3600 s), kW é potência.', // pegadinha
+    video: 'unidades si watt joule potencia resumo' // busca no YouTube
+  },
+  {
+    id: 'f34',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Queda livre',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'No vácuo (sem resistência do ar), dois corpos soltos da mesma altura — uma pena e uma bola de ferro — chegam ao solo:', // pergunta
+    alternativas: [                     // opções
+      'a bola primeiro, por ser mais pesada', // opção
+      'a pena primeiro, por ser mais leve', // opção
+      'a bola primeiro, pelo atrito', // opção
+      'juntos — no vácuo não há resistência do ar e ambos caem com a mesma aceleração g', // correta
+      'nunca chegam, ficam flutuando' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Galileu e a demonstração da Apollo 15: sem ar, massa não importa — tudo cai com g ≈ 9,8 m/s². A pena chega depois na Terra porque o ar a retarda; no vácuo, empata com a bola.', // explicação
+    dica: 'A pegadinha é o "mais pesado cai primeiro" — vale com ar, não no vácuo. Copeve adora o exemplo pena×martelo da Lua: o astronauta largou os dois e chegaram juntos ao solo lunar.', // pegadinha
+    video: 'queda livre vacuo galileu pena martelo resumo' // busca no YouTube
+  },
+  {
+    id: 'f35',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Ondas e luz',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A velocidade da luz no vácuo é de aproximadamente:', // pergunta
+    alternativas: [                     // opções
+      '300.000 km/s (3 × 10⁸ m/s) — a maior velocidade possível', // correta
+      '340 m/s — a velocidade do som', // opção
+      '1.000 km/h', // opção
+      'a do som multiplicada por 10', // opção
+      'a mesma da terra em órbita' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'c ≈ 3 × 10⁸ m/s = 300.000 km/s: dá a volta à Terra ~7,5 vezes por segundo. Pela relatividade de Einstein, é o limite máximo de velocidade do universo. O som (340 m/s) é ~um milhão de vezes mais lento.', // explicação
+    dica: 'Selecon mistura c com a velocidade do som: trovão depois do raio é a prova prática — você vê a luz "na hora" e o som demora ~3 s por km. c = 300.000 km/s; som = 340 m/s.', // pegadinha
+    video: 'velocidade da luz 300 mil km por segundo resumo' // busca no YouTube
+  },
+  {
+    id: 'f36',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Leis de Newton',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A primeira lei de Newton (lei da inércia) afirma que:', // pergunta
+    alternativas: [                     // opções
+      'todo corpo acelera para sempre', // opção
+      'a força é sempre zero', // opção
+      'só vale no espaço', // opção
+      'a massa cria a velocidade', // opção
+      'um corpo mantém seu estado de repouso ou de movimento retilíneo uniforme, a menos que uma força resultante atue sobre ele', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Inércia: sem força resultante, o corpo "teima" em continuar como está — parado segue parado, em MRU segue em MRU. É por isso que você é jogado para frente quando o ônibus freia (seu corpo tenta manter o movimento).', // explicação
+    dica: 'IBGP troca as leis: 1ª = inércia (tendência a manter o estado); 2ª = F = m·a; 3ª = ação e reação. "Corpo acelerando para sempre" contradiz a inércia — movimento não precisa de força para ser mantido.', // pegadinha
+    video: 'primeira lei newton inercia exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'f37',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Termodinâmica',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Quando dois corpos a temperaturas diferentes são postos em contato, o calor flui:', // pergunta
+    alternativas: [                     // opções
+      'do frio para o quente, espontaneamente', // opção
+      'para os dois lados igualmente', // opção
+      'do corpo mais quente para o mais frio, até que atinjam o equilíbrio térmico', // correta
+      'somente pelo ar, nunca pelo contato', // opção
+      'para cima, sempre' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O calor (energia térmica em trânsito) passa espontaneamente do mais quente ao mais frio até as temperaturas igualarem — o equilíbrio térmico. É a 2ª lei da termodinâmica: o sentido é esse, não o contrário.', // explicação
+    dica: 'A pegadinha é "o frio passa para o quente" — frio NÃO flui, é a energia (calor) que migra. E "para cima" vale para o ar quente SUBIR (convecção), não para o calor entre corpos em contato.', // pegadinha
+    video: 'calor equilibrio termico segunda lei termodinamica resumo' // busca no YouTube
+  },
+
+  // ---- Informática (i34–i38) ----
+  {
+    id: 'i34',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Planilhas — referências',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No Excel, a referência de célula escrita como "$A$1" é:', // pergunta
+    alternativas: [                     // opções
+      'uma referência relativa', // opção
+      'um nome de função', // opção
+      'um erro de digitação', // opção
+      'uma referência absoluta — coluna e linha travadas, que não mudam ao copiar a fórmula', // correta
+      'apenas uma moeda' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O cifrão trava a referência: $A$1 = absoluta (coluna e linha fixas); $A1 = coluna fixa; A$1 = linha fixa; A1 = relativa (muda ao arrastar/copiar). É como o "$" segura o endereço no lugar.', // explicação
+    dica: 'FUNDATEC confunde absoluta × relativa × mista. Regra do dedo: quantos "$"? Dois = tudo travado; um = mista; nenhum = relativa. Copie a fórmula mentalmente para a célula ao lado e veja o que mudou.', // pegadinha
+    video: 'excel referencia absoluta relativa cifrao resumo' // busca no YouTube
+  },
+  {
+    id: 'i35',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança de dados',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "backup" de dados serve para:', // pergunta
+    alternativas: [                     // opções
+      'acelerar o computador', // opção
+      'guardar uma cópia de segurança dos arquivos para recuperá-los em caso de perda, ataque ou falha', // correta
+      'apagar os dados antigos', // opção
+      'duplicar o processador', // opção
+      'esconder vírus' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Backup = cópia de segurança em local separado (nuvem, HD externo): se o original é perdido por falha, ransomware ou acidente, a cópia restaura. A regra clássica é 3-2-1: 3 cópias, 2 mídias, 1 fora do local.', // explicação
+    dica: 'Copeve troca backup com antivírus e com "limpeza de disco": backup não impede o ataque — recupera DEPOIS dele. E cópia no mesmo disco não é backup: precisa ser fora/ou offline.', // pegadinha
+    video: 'backup regra 3 2 1 seguranca dados resumo' // busca no YouTube
+  },
+  {
+    id: 'i36',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Software básico',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O programa usado para navegar na internet, acessando páginas e sites, é o:', // pergunta
+    alternativas: [                     // opções
+      'editor de texto', // opção
+      'antivírus', // opção
+      'gerenciador de downloads', // opção
+      'sistema operacional', // opção
+      'navegador (browser) — como Chrome, Firefox ou Edge', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Navegador/browser = o software que interpreta páginas web (Chrome, Firefox, Edge, Safari). O sistema operacional é a base do computador; editor de texto cria documentos; o buscador (Google) é site, não programa.', // explicação
+    dica: 'Selecon troca navegador com buscador: Chrome/Firefox/Edge são browsers; Google e Bing são sites de BUSCA dentro do browser. "Qual programa acessa sites" = sempre o navegador.', // pegadinha
+    video: 'navegador browser diferenca motor busca resumo' // busca no YouTube
+  },
+  {
+    id: 'i37',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Computação em nuvem',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A "computação em nuvem" (cloud computing) é:', // pergunta
+    alternativas: [                     // opções
+      'o uso de serviços e armazenamento pela internet em servidores remotos — sem depender só do seu computador', // correta
+      'apenas o Wi-Fi da casa', // opção
+      'um tipo de antena meteorológica', // opção
+      'o hardware do monitor', // opção
+      'um programa grátis de desenho' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Nuvem = computação como serviço via internet: arquivos no Google Drive/OneDrive, software como serviço (SaaS), servidores alugados (AWS, Azure). Você acessa de qualquer dispositivo — os dados não moram só na sua máquina.', // explicação
+    dica: 'IBGP confunde nuvem com rede local e com peças físicas: nuvem = REMOTO e pago/por assinatura quando grande. Exemplos-fetiche da prova: Drive, Dropbox, Netflix como SaaS.', // pegadinha
+    video: 'computacao em nuvem cloud saas resumo' // busca no YouTube
+  },
+  {
+    id: 'i38',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Extensões de arquivo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A extensão de arquivo padrão de um documento de texto criado no Microsoft Word é:', // pergunta
+    alternativas: [                     // opções
+      '.pdf', // opção
+      '.xlsx', // opção
+      '.docx', // correta
+      '.pptx', // opção
+      '.jpg' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '.docx = documento do Word (desde o Office 2007; .doc é o antigo). .pdf = documento de leitura universal; .xlsx = planilha do Excel; .pptx = apresentação do PowerPoint; .jpg = imagem.', // explicação
+    dica: 'Instituto Mais embaralha as extensões do Office: docX é texto, XlsX é planilha, PptX é slide. Mnemônico: o "x" final = versão moderna de cada um. PDF é o primo "não editável".', // pegadinha
+    video: 'extensoes de arquivo docx xlsx pdf resumo' // busca no YouTube
+  },
+
+  // ---- Educação Física (ef34–ef38) ----
+  {
+    id: 'ef34',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Capacidades físicas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O treinamento aeróbico trabalha principalmente:', // pergunta
+    alternativas: [                     // opções
+      'a força máxima dos músculos', // opção
+      'a flexibilidade das articulações', // opção
+      'a capacidade cardiorrespiratória — usa oxigênio para gerar energia em esforços prolongados como corrida, ciclismo e natação', // correta
+      'a velocidade de sprint', // opção
+      'somente o alongamento' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Aeróbico = "com oxigênio": esforços de intensidade moderada e duração longa (correr, pedalar, nadar) que treinam coração e pulmão. Anaeróbico = esforços curtos e intensos (sprint, levantamento) sem depender de O₂.', // explicação
+    dica: 'FUNDATEC troca aeróbico × anaeróbico × força: pense na DURAÇÃO — longo e leve = aeróbico (resistência); curto e explosivo = anaeróbico. Coração que aguenta o ritmo é o alvo do aeróbico.', // pegadinha
+    video: 'treino aerobico anaerobico diferenca resumo' // busca no YouTube
+  },
+  {
+    id: 'ef35',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Capacidades físicas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A flexibilidade, como capacidade física, é:', // pergunta
+    alternativas: [                     // opções
+      'a velocidade de reação', // opção
+      'a força de agarrar', // opção
+      'o equilíbrio estático', // opção
+      'o fôlego prolongado', // opção
+      'a amplitude possível de movimento nas articulações — trabalhada por alongamento e mobilidade', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Flexibilidade = a amplitude articular disponível — quão longe a articulação se move sem lesão. Treina-se por alongamento, mobilidade e, em atletas, movimentos amplos. Diminui com sedentarismo e idade.', // explicação
+    dica: 'Copeve mistura as capacidades físicas: força, resistência, velocidade, flexibilidade, agilidade, equilíbrio, coordenação. "Amplitude articular" é a assinatura da flexibilidade.', // pegadinha
+    video: 'flexibilidade amplitude articular alongamento resumo' // busca no YouTube
+  },
+  {
+    id: 'ef36',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Treinamento e segurança',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O aquecimento realizado antes do exercício físico serve principalmente para:', // pergunta
+    alternativas: [                     // opções
+      'preparar o corpo elevando a temperatura muscular e a mobilidade, reduzindo o risco de lesões', // correta
+      'apenas cansar o atleta', // opção
+      'substituir o treino principal', // opção
+      'resfriar os músculos', // opção
+      'alongar depois do esforço' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O aquecimento sobe a temperatura, aumenta o fluxo de sangue nos músculos e solta as articulações — o corpo sai do "repouso" para o esforço com menos chance de estiramento e lesão. O desaquecimento volta tudo devagar.', // explicação
+    dica: 'Selecon inverte a ordem: aquecimento é ANTES (ativa), desaquecimento é DEPOIS (relaxa). E aquecer não é só esticar parado — é movimento leve que sobe o ritmo cardíaco.', // pegadinha
+    video: 'aquecimento antes exercicio prevencao lesoes resumo' // busca no YouTube
+  },
+  {
+    id: 'ef37',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esportes coletivos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'No voleibol, o jogador chamado "líbero" tem como característica:', // pergunta
+    alternativas: [                     // opções
+      'ser o capitão do time', // opção
+      'ser o especialista em defesa e recepção, com uniforme diferente, que não pode atacar nem sacar', // correta
+      'ser o levantador titular', // opção
+      'jogar na rede', // opção
+      'marcar os pontos' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O líbero é o defensor especialista: veste uniforme de cor diferente, substitui jogadores de trás livremente e NÃO pode sacar, atacar nem bloquear. Entrou na regra nos anos 1990 para valorizar a defesa.', // explicação
+    dica: 'IBGP troca o líbero com levantador e atacante: lembre das proibições — não ataca, não bloqueia, não saca e veste cor diferente. No futebol, "líbero" já foi o zagueiro que saía jogando — esporte diferente!', // pegadinha
+    video: 'libero volei funcao regras resumo' // busca no YouTube
+  },
+  {
+    id: 'ef38',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Fisiologia do exercício',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A síndrome do "overtraining" (supertreinamento) ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'o atleta descansa demais', // opção
+      'o treino é curto e leve', // opção
+      'só acontece com sedentários', // opção
+      'o volume ou a intensidade do treino superam a capacidade de recuperação, derrubando desempenho, sono e imunidade', // correta
+      'é o mesmo que aquecimento' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Overtraining = treinar mais do que o corpo consegue se recuperar: queda de rendimento, fadiga crônica, alterações de sono/humor, lesões e imunidade baixa. A solução é descanso e periodização — não mais treino.', // explicação
+    dica: 'Instituto Mais inverte a lógica "mais = melhor": o progresso vem no EQUILÍBRIO estresse+descanso. Sintoma-chave na prova: performance caindo apesar do treino intenso — é overtraining, não falta de esforço.', // pegadinha
+    video: 'overtraining supertreinamento sintomas recuperacao resumo' // busca no YouTube
+  },
+
+  // ---- Ética (et35–et39) ----
+  {
+    id: 'et35',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conflito de interesses',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No serviço público, o "conflito de interesses" acontece quando:', // pergunta
+    alternativas: [                     // opções
+      'o servidor trabalha muito', // opção
+      'há greve de funcionários', // opção
+      'o servidor discorda do chefe', // opção
+      'o chefe muda de cargo', // opção
+      'o agente decide em matéria em que tem interesse pessoal em jogo — o que exige sua declaração de impedimento', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Conflito de interesses = o julgamento do agente fica comprometido porque ele tem ganho pessoal ou de familiares na decisão. A regra é se declarar impedido e afastar-se da decisão — agir mesmo assim é falta ética.', // explicação
+    dica: 'FUNDATEC mistura "conflito" com briga comum: não é desentendimento, é INTERESSE PRÓPRIO na matéria decidida (ex.: licitar para empresa da família). Impedimento = ética; esconder = infração.', // pegadinha
+    video: 'conflito de interesses servico publico etica resumo' // busca no YouTube
+  },
+  {
+    id: 'et36',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética no serviço público',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Código de Ética do servidor público (Decreto 1.171/94) exige, entre outros:', // pergunta
+    alternativas: [                     // opções
+      'apenas o cumprimento de ordens sem questionar', // opção
+      'o uso do cargo para benefícios pessoais', // opção
+      'probidade, cortesia no atendimento, sigilo quando a lei pedir e publicidade dos atos quando exigida', // correta
+      'a exclusividade do trabalho presencial', // opção
+      'apenas o pagamento de tributos' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Decreto 1.171/94 lista os deveres éticos: desempenho com probidade e dedicação ao bem comum, cortesia com o público, sigilo sobre informações protegidas, publicidade dos próprios atos, respeito à hierarquia e às leis.', // explicação
+    dica: 'Copeve adora o "apenas" — qualquer dever reduzido a um só item está errado. O código é amplo: probidade + cortesia + sigilo (quando a lei manda) + publicidade (quando ela exige). Equilíbrio entre sigilo e transparência é a chave.', // pegadinha
+    video: 'codigo de etica servidor decreto 1171 resumo' // busca no YouTube
+  },
+  {
+    id: 'et37',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética × moral',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A diferença clássica entre ética e moral é que:', // pergunta
+    alternativas: [                     // opções
+      'a ética é a reflexão teórica sobre a conduta; a moral é o conjunto de normas vividas e impostas pela sociedade', // correta
+      'são sempre sinônimas', // opção
+      'ética é só para religiões', // opção
+      'moral nunca muda', // opção
+      'ética é crime previsto em lei' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Ética = a teoria que estuda e questiona o que é certo/errado (filosofia prática); moral = as regras concretas que uma sociedade segue no dia a dia — e que variam de lugar e época. A lei aproxima, mas não é a mesma coisa.', // explicação
+    dica: 'Selecon embaralha os pares: teoria (ética) × prática (moral); universal/permanente (ética) × particular/mutável (moral). "Ética é lei" e "moral não muda" são os dois erros de prova.', // pegadinha
+    video: 'diferenca etica e moral filosofia resumo' // busca no YouTube
+  },
+  {
+    id: 'et38',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Nepotismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O nepotismo vedado pela administração é:', // pergunta
+    alternativas: [                     // opções
+      'contratar qualquer funcionário', // opção
+      'promover por mérito', // opção
+      'trabalhar em órgão público', // opção
+      'nomear parente para cargo em comissão ou função gratificada em razão do parentesco, sem critério técnico', // correta
+      'pagar imposto' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Nepotismo = favorecer parente ou cônjuge em nomeação para cargo em comissão/função de confiança, violando a impessoalidade. A Súmula Vinculante 13 do STF o proíbe nos três poderes — nomear por parentesco é o vício, não o parente concursado.', // explicação
+    dica: 'IBGP troca o ponto: o problema não é o parente trabalhar lá — é a nomeação POR parentesco em cargo de confiança. Parente aprovado em concurso é legítimo; nomeado por laço familiar é nepotismo.', // pegadinha
+    video: 'nepotismo sumula vinculante 13 impessoalidade resumo' // busca no YouTube
+  },
+  {
+    id: 'et39',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Transparência pública',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O princípio da publicidade/transparência na administração exige que:', // pergunta
+    alternativas: [                     // opções
+      'todos os atos sejam secretos', // opção
+      'os atos do governo sejam públicos e o cidadão tenha acesso às informações, salvo exceções legais de sigilo', // correta
+      'só os servidores vejam os documentos', // opção
+      'as contas sejam sempre confidenciais', // opção
+      'nenhum documento seja publicado' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Publicidade (art. 37 CF e Lei 12.527/11 — LAI): os atos administrativos devem ser públicos e acessíveis ao cidadão; sigilo só em exceções legais (intimidade, segurança nacional). É a regra que sustenta o controle social do governo.', // explicação
+    dica: 'Instituto Mais inverte o princípio: transparência = regra, sigilo = EXCEÇÃO. A LAI garante o acesso sem precisar justificar o motivo do pedido — esse detalhe cai em prova de ética.', // pegadinha
+    video: 'lei de acesso a informacao transparencia publicidade resumo' // busca no YouTube
+  },
+
+  // ---- Fisiologia (fs36–fs40) ----
+  {
+    id: 'fs36',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistemas do corpo',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O sistema do corpo responsável por transportar oxigênio e nutrientes aos tecidos é o:', // pergunta
+    alternativas: [                     // opções
+      'sistema digestório', // opção
+      'sistema nervoso', // opção
+      'sistema urinário', // opção
+      'sistema cardiovascular — coração e vasos que bombeiam o sangue com oxigênio e nutrientes', // correta
+      'sistema reprodutor' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O sistema cardiovascular (coração + artérias + veias + capilares) bombeia o sangue que leva O₂ dos pulmões e nutrientes do intestino a cada célula, recolhendo CO₂ e resíduos de volta.', // explicação
+    dica: 'FUNDATEC joga os sistemas: quem transporta = circulatório; quem ABSORVE nutrientes = digestório; quem comanda = nervoso; quem filtra = urinário. Sangue viaja em vasos — é o cardíaco+vascular.', // pegadinha
+    video: 'sistema cardiovascular transporte oxigenio resumo' // busca no YouTube
+  },
+  {
+    id: 'fs37',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema endócrino',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A insulina, hormônio produzido pelo pâncreas, tem como função:', // pergunta
+    alternativas: [                     // opções
+      'regular a glicemia — permitir que a glicose entre nas células, baixando o açúcar do sangue', // correta
+      'digerir as proteínas', // opção
+      'produzir bile', // opção
+      'filtrar a urina', // opção
+      'aumentar a pressão arterial' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A insulina é a "chave" que abre a célula para a glicose entrar: depois de comer, a glicemia sobe, o pâncreas libera insulina e o açúcar sai do sangue. Diabetes = falta (tipo 1) ou resistência (tipo 2) à insulina.', // explicação
+    dica: 'Copeve troca insulina com glucagon — que faz o INVERSO (sobe a glicemia, do pâncreas também). Diabetes tipo 1 = pâncreas não produz; tipo 2 = corpo não responde bem à insulina.', // pegadinha
+    video: 'insulina pancreas glicemia diabetes resumo' // busca no YouTube
+  },
+  {
+    id: 'fs38',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema urinário',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A unidade funcional do rim, responsável por filtrar o sangue e formar a urina, é:', // pergunta
+    alternativas: [                     // opções
+      'o glóbulo vermelho', // opção
+      'o neurônio', // opção
+      'o alvéolo', // opção
+      'o folículo', // opção
+      'o néfron', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O néfron é a "unidade de filtragem" — cada rim tem ~1 milhão deles: o glomérulo filtra o sangue e os túbulos reabsorvem o que presta (água, glicose, sais), deixando a urina sair. Rim falhado = hemodiálise.', // explicação
+    dica: 'Selecon troca unidades dos órgãos: néfron = rim; neurônio = cérebro; alvéolo = pulmão; folículo = pele/ovário. Decore os pares "órgão–unidade funcional" — é a forma preferida de cobrar.', // pegadinha
+    video: 'nefron rim filtracao urina resumo' // busca no YouTube
+  },
+  {
+    id: 'fs39',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sangue',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A hemoglobina dos glóbulos vermelhos tem a função de:', // pergunta
+    alternativas: [                     // opções
+      'defender o corpo de vírus', // opção
+      'coagular o sangue nos ferimentos', // opção
+      'carregar oxigênio dos pulmões até os tecidos do corpo', // correta
+      'produzir hormônios', // opção
+      'digerir gorduras' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Hemoglobina = proteína com ferro das hemácias que se liga ao O₂ nos pulmões e o solta nos tecidos. Pouca hemoglobina = anemia (cansaço, palidez); o ferro da dieta é matéria-prima dela.', // explicação
+    dica: 'IBGP troca as funções do sangue: transporte de O₂ = hemácias/hemoglobina; defesa = glóbulos brancos; coagulação = plaquetas. Anemia e ferro aparecem como contexto — o papel é sempre carregar oxigênio.', // pegadinha
+    video: 'hemoglobina globulos vermelhos oxigenio anemia resumo' // busca no YouTube
+  },
+  {
+    id: 'fs40',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema nervoso',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O sistema nervoso autônomo simpático prepara o corpo para:', // pergunta
+    alternativas: [                     // opções
+      'a digestão e o descanso', // opção
+      'a reação de "luta ou fuga" — coração acelerado, pupilas dilatadas e adrenalina', // correta
+      'somente o sono', // opção
+      'a fome', // opção
+      'a cura de feridas' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O simpático é o "acelerador" do corpo diante de estresse/perigo: dispara adrenalina, sobe os batimentos e a pressão, dilata pupilas e bronquíolos. O parassimpático é o oposto — "descanso e digestão".', // explicação
+    dica: 'Instituto Mais troca os dois: SIMPÁTICO = alerta/luta-fuga; PARASSIMPÁTICO = calma/digestão. Adrenalina no sangue é a assinatura do simpático — use isso para marcar sem dúvida.', // pegadinha
+    video: 'sistema nervoso simpatico parassimpatico resumo' // busca no YouTube
+  },
 ];

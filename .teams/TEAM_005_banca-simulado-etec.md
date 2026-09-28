@@ -64,3 +64,26 @@
 - `validar-banco` **1124/0** ✅ (facil=301, medio=750, dificil=73;
   medio=991, superior=133) · `node --check` ✅.
 - Dropdown `bancasDoBanco()` agora lista 23 opções (antes 17).
+
+---
+
+## Rodada 3 — "gere mais questões" (2º lote)
+
+### O que mudou
+- **+55 questões** (1.124 → **1.179**) nas 11 matérias que seguiam menores:
+  História h25–29, Previdenciário v26–30, Atualidades t27–31,
+  Administrativo a29–33, Geografia g30–34, Constitucional c32–36,
+  Física f33–37, Informática i34–38, Educação Física ef34–38,
+  Ética et35–39, Fisiologia fs36–40.
+- Estreiam **5 bancas do catálogo** que ainda não tinham questões: FUNDATEC,
+  Copeve/UFMG, Selecon, IBGP e Instituto Mais — 11 cada, passam a aparecer
+  nos dropdowns de filtro (edital e simulado).
+- Enunciado de h28 reformulado para Quilombo dos Palmares/Zumbi (a 1ª versão,
+  Inconfidência Mineira, duplicava h09).
+- `README.md`: 1.124 → 1.179 (2 referências). `sw.js`: bump v6 → v7.
+
+### Verificação
+- `validar-banco` **1179/0** ✅ (facil=313, medio=791, dificil=75;
+  medio=1037, superior=142) · `node --check` ✅ ·
+  `testar-analise` 10/10 ✅ · `validar-idiomas` 271 chaves ×3 ✅.
+- Bancas distintas no banco: **28** (23 no lote anterior).
