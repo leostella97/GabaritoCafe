@@ -25806,4 +25806,422 @@ const BancoQuestoes = [
     dica: 'Instituto Mais lista as senhas mais vazadas do mundo como distrator: "123456", "senha", "qwerty". Regra: comprimento e variedade valem mais que trocar com frequência; 2FA é a camada extra.', // pegadinha
     video: 'senha forte seguranca autenticacao resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 3, bloco 4/4 LÍNGUAS/SAÚDE/GESTÃO:
+  // Português p46–48, Inglês e39–42, Biologia b50–52,
+  // Fisiologia fs41–43, Educação Física ef39–42, Administração ad49–51.
+  // ============================================================
+
+  // ---- Língua Portuguesa (p46–p48) ----
+  {
+    id: 'p46',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Ortografia — hífen',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Pelo Acordo Ortográfico vigente, a palavra escrita CORRETAMENTE com hífen é:', // pergunta
+    alternativas: [                     // opções
+      'anteontem', // opção (sem hífen)
+      'paraquedas', // opção (sem hífen)
+      'bem-vindo — o hífen se mantém em compostos como "bem-vindo", "meia-noite" e "guarda-chuva"', // correta
+      'supermercado', // opção (sem hífen)
+      'antirracista', // opção (sem hífen)
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O hífen ficou restrito: compostos consagrados (bem-vindo, meia-noite, guarda-chuva, cor-de-rosa) e alguns prefixos (ex-, pós-, pré-). Já "anteontem", "paraquedas", "supermercado" e "antirracista" perderam o hífen pelo Acordo.', // explicação
+    dica: 'FUNDATEC cobra o que MUDOU: anteontem e paraquedas NÃO têm mais hífen; prefixo + vogal igual perde (antirracista, autoestima é diferente — manteve). Quando a banca pede "com hífen", procure o composto consagrado.', // pegadinha
+    video: 'hifen novo acordo ortografico regras resumo' // busca no YouTube
+  },
+  {
+    id: 'p47',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Regência nominal',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A regência nominal está CORRETA em:', // pergunta
+    alternativas: [                     // opções
+      'o professor tem aversão a injustiças — "aversão" pede a preposição "a"', // correta
+      'o professor tem aversão de injustiças', // opção
+      'o professor tem aversão para injustiças', // opção
+      'o professor tem aversão em injustiças', // opção
+      'o professor tem aversão por injustiças', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Regência nominal = preposição que o nome exige: "aversão A", "respeito A", "propenso A", "afeto A", "capaz DE", "avesso A". Cada nome tem sua preposição — e trocá-la altera a correção ou o sentido.', // explicação
+    dica: 'IBGP gira as preposições: "aversão A" é o par fixo (como "aversão a médico" da O Castro Alves). Decore os pares-clássicos: preferir A, respeito A, avesso A, capaz DE, obediente A.', // pegadinha
+    video: 'regencia nominal aversao a preposicao resumo' // busca no YouTube
+  },
+  {
+    id: 'p48',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Período composto — orações', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'No período "Embora chova, sairei", a oração "embora chova" é classificada como:', // pergunta
+    alternativas: [                     // opções
+      'oração coordenada explicativa', // opção
+      'oração principal', // opção
+      'oração coordenada adversativa', // opção
+      'oração subordinada adverbial concessiva — expressa ideia contrária que não impede a ação', // correta
+      'oração subordinada substantiva', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: '"Embora" é conjunção concessiva: introduz uma ressalva que não impede o fato — "mesmo que chova, sairei". Família concessiva: embora, ainda que, mesmo que, posto que, conquanto.', // explicação
+    dica: 'Copeve troca concessiva × adversativa: adversativa é COORDENADA (mas, porém, contudo) sem dependência; concessiva é SUBORDINADA adverbial (embora, ainda que) — uma oração dentro da outra.', // pegadinha
+    video: 'oracao subordinada concessiva embora resumo' // busca no YouTube
+  },
+
+  // ---- Inglês (e39–e42) ----
+  {
+    id: 'e39',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Present perfect continuous', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A frase "I have been studying English for three years" expressa:', // pergunta
+    alternativas: [                     // opções
+      'uma ação totalmente passada', // opção
+      'uma ação iniciada no passado que continua no presente (ou acabou agora) — traduzível como "estudo há três anos"', // correta
+      'um plano para o futuro', // opção
+      'uma ordem', // opção
+      'um hábito diário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Present perfect continuous (have/has been + ing): ação que começou no passado e SEGUE até agora — "for/since" são as marcas ("for three years", "since 2020"). Em português, equivale ao nosso "há três anos que estudo".', // explicação
+    dica: 'FUNDATEC confunde com past simple: "studied for three years" fecha a ação no passado; "have been studying" mantém-na viva. Palavra-gatilho: FOR/SINCE + -ing = perfect continuous.', // pegadinha
+    video: 'present perfect continuous have been studying resumo' // busca no YouTube
+  },
+  {
+    id: 'e40',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Modais — obrigação',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: '"You must wear a seatbelt" e "You have to wear a seatbelt" expressam, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'capacidade e habilidade', // opção
+      'permissão e proibição', // opção
+      'passado e futuro', // opção
+      'possibilidade e certeza', // opção
+      'obrigação — "must" vem da autoridade/dever do falante e "have to" de regra externa', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'MUST = obrigação sentida por quem fala (ou regra formal); HAVE TO = obrigação imposta por norma/lei externa. Na prática se confundem. Negativas divergem: mustn\'t = proibido; don\'t have to = não precisa.', // explicação
+    dica: 'Selecon testa a negativa: "mustn\'t" = NÃO PODE (proibido); "don\'t have to" = NÃO PRECISA (dispensado). Afirmativa são quase iguais; na negativa o sentido muda totalmente — é a pegadinha clássica.', // pegadinha
+    video: 'must have to mustnt dont have to resumo' // busca no YouTube
+  },
+  {
+    id: 'e41',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Voz passiva com modal',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A estrutura de "The report must be signed today" é:', // pergunta
+    alternativas: [                     // opções
+      'voz ativa com modal', // opção
+      'um imperativo', // opção
+      'voz passiva com modal — modal + be + particípio (must be signed)', // correta
+      'presente contínuo', // opção
+      'condicional', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Passiva com modal: modal + be + particípio passado — "must be signed", "can be done", "should be finished". O objeto da ação vira sujeito: o relatório RECEBE a assinatura, não assina.', // explicação
+    dica: 'Copeve confunde "must be" com presente contínuo: contínuo = be + -ing ("is being signed" é passiva contínua); passiva com modal = modal + BE + particípio. Procure o be+particípio.', // pegadinha
+    video: 'passive voice modal must be signed ingles resumo' // busca no YouTube
+  },
+  {
+    id: 'e42',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Preposições de lugar',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Em "The cat is ___ the table", para dizer que o gato está EM CIMA da mesa, a preposição correta é:', // pergunta
+    alternativas: [                     // opções
+      'on — sobre/em cima (tocando a superfície)', // correta
+      'under', // opção
+      'between', // opção
+      'behind', // opção
+      'in', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'ON = sobre/em cima, com contato (on the table). UNDER = embaixo; IN = dentro; BETWEEN = entre dois; BEHIND = atrás; OVER = acima sem tocar. Em inglês, a posição física dita a preposição.', // explicação
+    dica: 'Instituto Mais traz a família das preposições espaciais: ON (em cima, tocando) × OVER (acima, sem tocar) × ABOVE (mais alto) × UNDER (embaixo). "On the table" é o modelo de prova.', // pegadinha
+    video: 'preposicoes lugar ingles on under between resumo' // busca no YouTube
+  },
+
+  // ---- Biologia (b50–b52) ----
+  {
+    id: 'b50',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Grupos sanguíneos — ABO',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No sistema ABO de grupos sanguíneos, o tipo chamado "receptor universal" (pode receber de todos) é:', // pergunta
+    alternativas: [                     // opções
+      'O', // opção
+      'A', // opção
+      'B', // opção
+      'AB — não possui aglutininas anti-A nem anti-B no plasma, por isso pode receber dos quatro tipos', // correta
+      'só O negativo', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'AB+ (positivo) é o receptor universal: tem aglutinogênios A e B nas hemácias e NENHUMA aglutinina no plasma — recebe de todos. O− é o doador universal: não tem aglutinogênios, por isso pode doar a todos.', // explicação
+    dica: 'FUNDATEC inverte doador × receptor: O− DOA para todos (doador universal); AB+ RECEBE de todos (receptor universal). O par O−/AB+ é o mais cobrado — troque um pelo outro e a resposta inverte.', // pegadinha
+    video: 'sistema abo doador receptor universal resumo' // busca no YouTube
+  },
+  {
+    id: 'b51',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Relações ecológicas — mutualismo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A relação entre a abelha e a flor — a abelha se alimenta e a flor é polinizada — é exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'predatismo', // opção
+      'mutualismo — ambos os organismos são beneficiados pela relação', // correta
+      'parasitismo', // opção
+      'competição', // opção
+      'canibalismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mutualismo = interação em que os dois ganham: a abelha recolhe néctar (alimento) e, no processo, poliniza a flor (reprodução). Outros exemplos: líquen (alga+fungo), micorrizas, peixe-palhaço e anêmona.', // explicação
+    dica: 'Copeve troca os sinais da relação: mutualismo = +/+; parasitismo = +/−; competição = −/−; comensalismo = +/0. A abelha+flor é +/+ puro — os dois saem ganhando.', // pegadinha
+    video: 'mutualismo relacoes ecologicas abelha flor resumo' // busca no YouTube
+  },
+  {
+    id: 'b52',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Reprodução vegetal — polinização', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A polinização das plantas com flores é o processo de:', // pergunta
+    alternativas: [                     // opções
+      'a fotossíntese da pétala', // opção
+      'a absorção de água pelas raízes', // opção
+      'a respiração das folhas', // opção
+      'a queda das folhas no outono', // opção
+      'transferência do pólen ao estigma da flor — por vento, abelhas ou outros agentes — permitindo a fecundação', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Polinização = o grão de pólen (gameta masculino) chega ao estigma (parte feminina): pode ser pelo vento (anemofilia), água ou animais (zoofilia — abelhas, pássaros, morcegos). Depois da fecundação nascem fruto e semente.', // explicação
+    dica: 'Instituto Mais confunde processos vegetais: polinização = transporte do PÓLEN à flor (reprodução); fotossíntese = fabricação de alimento com luz; germinação = semente brotando. A queda de polinizadores (abelhas) ameaça a produção de alimentos.', // pegadinha
+    video: 'polinizacao plantas flores abelhas resumo' // busca no YouTube
+  },
+
+  // ---- Fisiologia (fs41–fs43) ----
+  {
+    id: 'fs41',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sentidos — audição',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No ouvido humano, a estrutura que converte a vibração sonora em sinal nervoso é:', // pergunta
+    alternativas: [                     // opções
+      'o tímpano', // opção
+      'o martelo, a bigorna e o estribo', // opção
+      'a cóclea (caracol), com suas células ciliadas', // correta
+      'o canal auditivo', // opção
+      'a orelha externa', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A cóclea é o órgão espiral do ouvido interno: líquido e células ciliadas transformam a vibração mecânica (dos ossinhos martelo, bigorna e estribo) em impulso elétrico que o nervo auditivo leva ao cérebro.', // explicação
+    dica: 'FUNDATEC lista o caminho do som como distrator: canal → tímpano → OSSINHOS (amplificam) → CÓCLEA (converte em sinal) → nervo. A pergunta "onde vira impulso" = cóclea, sempre.', // pegadinha
+    video: 'coclea audicao celulas ciliadas resumo' // busca no YouTube
+  },
+  {
+    id: 'fs42',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Fígado — funções',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O fígado é um órgão multifuncional que:', // pergunta
+    alternativas: [                     // opções
+      'produz bile, metaboliza nutrientes, armazena glicogênio e desintoxica o sangue de álcool e medicamentos', // correta
+      'apenas digere gordura', // opção
+      'só filtra a urina', // opção
+      'bombeia o sangue', // opção
+      'produz insulina exclusivamente', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O fígado faz de tudo: produz bile (emulsiona gordura), processa carboidrato/proteína/gordura, guarda glicogênio e vitaminas, fabrica proteínas do sangue e neutraliza toxinas (álcool, remédios). Lesões hepáticas afetam tudo isso.', // explicação
+    dica: 'Copeve reduz o fígado a uma função — é a pegadinha "apenas/só": o fígado é multieixo (bile + metabolismo + detox + reserva). E cuidado: INSULINA é do pâncreas, não do fígado.', // pegadinha
+    video: 'figado funcoes bile detoxificacao resumo' // busca no YouTube
+  },
+  {
+    id: 'fs43',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Articulações',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'As articulações móveis — como joelho e cotovelo — permitem movimentos amplos porque possuem:', // pergunta
+    alternativas: [                     // opções
+      'ossos totalmente fundidos', // opção
+      'apenas músculos', // opção
+      'nenhum tecido de amortecimento', // opção
+      'cartilagem lisa, ligamentos e líquido sinovial que lubrifica e reduz o atrito', // correta
+      'somente tendões', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Articulação sinovial (móvel): extremidades ósseas cobertas de cartilagem, cápsula com líquido sinovial lubrificando e ligamentos dando estabilidade. O desgaste da cartilagem gera osteoartrite; inflamação gera artrite.', // explicação
+    dica: 'Instituto Mais mistura os "l" do aparelho locomotor: LIGAMENTO liga osso a osso; TENDÃO liga músculo a osso; líquido sinovial lubrifica. Articulações fixas (crânio) não têm cavidade nem movimento.', // pegadinha
+    video: 'articulacoes sinovial cartilagem ligamentos resumo' // busca no YouTube
+  },
+
+  // ---- Educação Física (ef39–ef42) ----
+  {
+    id: 'ef39',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Handebol — regras',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'No handebol, o jogador de linha NÃO pode:', // pergunta
+    alternativas: [                     // opções
+      'passar a bola', // opção
+      'fintar o adversário', // opção
+      'quicar a bola', // opção
+      'arremessar ao gol', // opção
+      'entrar na área do goleiro nem segurar a bola por mais de 3 segundos ou dar mais de 3 passos com ela sem quicar', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'No handebol: só o goleiro fica na área (a "meia-lua"); jogador de linha que pisa dentro é falta. Outros limites: 3 segundos segurando e 3 passos sem quicar — violar qualquer um é perda de posse.', // explicação
+    dica: 'FUNDATEC confunde com basquete: no handebol há ÁREA do goleiro proibida para linha; os números são 3-3-3 (3 segundos, 3 passos — e o gol só vale fora da área). Não confundir com a trave do futsal.', // pegadinha
+    video: 'handebol regras area goleiro 3 segundos resumo' // busca no YouTube
+  },
+  {
+    id: 'ef40',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Futsal x futebol',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O futsal difere do futebol de campo principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'ter gol maior', // opção
+      'ser jogado em quadra menor, com bola mais pesada, 5 jogadores por time, tempo em cronômetro e acúmulo de faltas', // correta
+      'ter 11 jogadores', // opção
+      'ser jogado na grama', // opção
+      'usar os pés', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Futsal = futebol de salão: quadra dura e menor, 5 por time (1 goleiro + 4 de linha), bola menor e mais pesada (quica menos), tempo corrido de 2×20 min e, a partir de 5-6 faltas coletivas, falta direta sem barreira.', // explicação
+    dica: 'IBGP troca quantidade: futsal = 5 jogadores; futebol de campo = 11. Bola diferente é a marca do futsal (mais pesada, não quica) — pensada para o piso duro da quadra.', // pegadinha
+    video: 'futsal regras diferenca futebol quadra resumo' // busca no YouTube
+  },
+  {
+    id: 'ef41',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Pilates',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O método Pilates, criado por Joseph Pilates, enfatiza:', // pergunta
+    alternativas: [                     // opções
+      'levantamento de peso máximo', // opção
+      'corrida de alta velocidade', // opção
+      'fortalecimento do centro do corpo (core), controle do movimento, respiração e postura', // correta
+      'artes marciais', // opção
+      'natação competitiva', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Pilates = exercício de controle ("Contrology"): fortalece o "powerhouse" — core: abdômen, lombar e pelve — com movimentos precisos, respiração ritmada e alinhamento postural. Usado em reabilitação e condicionamento.', // explicação
+    dica: 'Copeve troca Pilates com yoga e musculação: Pilates = força+controle+respiração no CORE (máquinas ou solo); yoga = posturas + meditação; musculação = carga/massa. "Powerhouse" e "centro" são as palavras-gancho.', // pegadinha
+    video: 'pilates metodo core postura respiracao resumo' // busca no YouTube
+  },
+  {
+    id: 'ef42',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte adaptado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O esporte adaptado (paradesporto) tem como princípio:', // pergunta
+    alternativas: [                     // opções
+      'excluir pessoas com deficiência', // opção
+      'ser apenas recreativo, sem competição', // opção
+      'ser idêntico ao esporte convencional', // opção
+      'proibir adaptações', // opção
+      'garantir a participação esportiva de pessoas com deficiência, adaptando regras, equipamentos e classificações por funcionalidade', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O paradesporto adapta regras e materiais (cadeiras de rodas, próteses, guias, bolas sonoras) e classifica os atletas por funcionalidade para manter a competição justa — dos Jogos Paralímpicos às escolas.', // explicação
+    dica: 'Instituto Mais sugere versão "light" sem competição: paradesporto é COMPETITIVO e de alto rendimento — só adapta as ferramentas e a classificação funcional. O esporte paraolímpico é a vitrine mundial.', // pegadinha
+    video: 'esporte adaptado paralimpico inclusao resumo' // busca no YouTube
+  },
+
+  // ---- Administração (ad49–ad51) ----
+  {
+    id: 'ad49',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão de projetos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Na gestão de projetos, a "tripla restrição" (ou triângulo de ferro) é formada por:', // pergunta
+    alternativas: [                     // opções
+      'chefe, equipe e cliente', // opção
+      'lucro, imposto e custo', // opção
+      'risco, sorte e tempo', // opção
+      'escopo, prazo e custo — ajustar um vértice impacta os outros', // correta
+      'marketing, vendas e lucro', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O triângulo de ferro do gerenciamento de projetos (PMBOK): escopo (o quê), tempo/prazo (quando) e custo (quanto) — com a qualidade no centro. Mais escopo no mesmo prazo = mais custo ou menos qualidade.', // explicação
+    dica: 'FUNDATEC troca os vértices: são sempre ESCOPO + TEMPO + CUSTO (qualidade no meio). Pegadinha clássica: encurtar prazo mantendo escopo exige mais custo/recursos — não dá para ter tudo.', // pegadinha
+    video: 'tripla restricao escopo prazo custo projeto resumo' // busca no YouTube
+  },
+  {
+    id: 'ad50',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Cinco forças de Porter',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O modelo das cinco forças de Michael Porter, usado para analisar a competitividade de um setor, inclui:', // pergunta
+    alternativas: [                     // opções
+      'apenas clientes e vendas', // opção
+      'só o governo e o clima', // opção
+      'qualidade, motivação e liderança', // opção
+      'recursos naturais apenas', // opção
+      'rivalidade entre concorrentes, ameaça de novos entrantes, ameaça de substitutos, poder dos fornecedores e poder dos clientes', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'As 5 forças de Porter medem a atratividade de um setor: rivalidade dos atuais, entrada de novos players, produtos substitutos, poder de barganha dos fornecedores e poder de barganha dos compradores. Setor atrativo = forças fracas.', // explicação
+    dica: 'IBGP confunde com SWOT: Porter analisa o MERCADO externo (5 forças de competição); SWOT mistura interno (forças/fraquezas) e externo (oportunidades/ameaças). Novo entrante e substituto são os "invasores" do modelo.', // pegadinha
+    video: 'cinco forcas de porter competitividade resumo' // busca no YouTube
+  },
+  {
+    id: 'ad51',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Benchmarking',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O benchmarking, ferramenta da gestão da qualidade, consiste em:', // pergunta
+    alternativas: [                     // opções
+      'copiar o concorrente por inteiro', // opção
+      'comparar os próprios processos com as melhores práticas de referência (mesmo fora do setor) para buscar melhoria contínua', // correta
+      'espionar a concorrência', // opção
+      'apenas medir o lucro', // opção
+      'demissão de funcionários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Benchmarking = medir-se contra o melhor: você compara seus processos e indicadores com referências de excelência — do mesmo setor ou de fora — para aprender e melhorar. Não é cópia literal nem espionagem: é aprendizado estruturado.', // explicação
+    dica: 'Instituto Mais joga "copiar" e "espionar" como distrator: benchmarking é COMPARAR para melhorar — adapta a prática boa à sua realidade, não replica. Pode ser interno, competitivo ou funcional (de outro setor).', // pegadinha
+    video: 'benchmarking melhoria continua melhores praticas resumo' // busca no YouTube
+  },
 ];
