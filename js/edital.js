@@ -77,8 +77,8 @@ const EditalUI = {
     resultado.addEventListener('click', (e) => {              // clique na matéria
       const alvo = e.target.closest('.materia-nome[data-materia]'); // nome clicável
       if (alvo) this.abrirModalMateria(alvo.dataset.materia); // abre o modal dela
-      // TEAM_003: clique no chip de tópico da seção "O que o edital pede" abre o modal direto na explicação
-      const chip = e.target.closest('.chip-topico[data-topico]'); // tópico clicável do programa
+      // TEAM_003: clique num tópico (chip do programa ou nome no plano) abre o modal direto na explicação
+      const chip = e.target.closest('[data-topico]');         // qualquer tópico clicável da tela
       if (chip) this.abrirModalTopico(chip.dataset.materia, chip.dataset.topico); // abre o modal do tópico
       const mais = e.target.closest('.ver-mais');           // botão "Ver mais…"
       if (mais) {                                           // clicou no expandir
@@ -102,10 +102,11 @@ const EditalUI = {
     document.addEventListener('keydown', (e) => {             // tecla Esc
       if (e.key === 'Escape') this.fecharModal();             // fecha o modal
     });
-    // Delegação dos tópicos: clique abre/fecha a explicação + aula embaixo
+    // Delegação dos tópicos do modal: clique mostra a explicação + aula do tópico
     document.getElementById('modal-conteudo').addEventListener('click', (e) => { // clique no conteúdo
-      const alvo = e.target.closest('.topico-item');          // tópico clicável
-      if (alvo) this.alternarTopico(alvo);                    // abre ou fecha o detalhe
+      // TEAM_003: tópico da lista abre a mesma visão do chip (explicação + aula no modal)
+      const alvo = e.target.closest('.topico-item');          // tópico clicável da lista
+      if (alvo) this.abrirModalTopico(alvo.dataset.materia, alvo.dataset.topico); // mostra a explicação
       // TEAM_003: "todos os tópicos" volta da explicação para a visão da matéria
       const todos = e.target.closest('.link-todos-topicos');  // link de voltar aos tópicos
       if (todos) this.abrirModalMateria(todos.dataset.materia); // reabre o modal da matéria
@@ -494,7 +495,8 @@ const EditalUI = {
       html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + this.escape(fonte.resumo) + '</p>'; // resumo da matéria
       html += '<p style="font-size:0.85rem"><strong>' + T('ed_plano_comeca') + '</strong> '; // abre a lista de tópicos
       const top = fonte.topicos.slice(0, 3);                // pega os 3 tópicos que mais caem
-      html += top.map(t => this.escape(t.nome)).join(' · '); // junta com pontinhos
+      // TEAM_003: cada nome de tópico vira botão — clique abre o modal com explicação + aula
+      html += top.map(t => '<button type="button" class="topico-texto" data-materia="' + this.escape(rotuloMateria) + '" data-topico="' + this.escape(t.nome) + '" title="' + T('ed_modal_dica') + '">' + this.escape(t.nome) + '</button>').join(' · '); // junta com pontinhos
       html += '.</p>';                                      // fecha a lista
     }
     html += '</div>';                                       // fecha o corpo
@@ -524,14 +526,16 @@ const EditalUI = {
     if (materiaEdital && materiaEdital.topicos && materiaEdital.topicos.length > 0) { // se achamos tópicos no edital
       html += '<p style="font-weight:900;font-size:0.8rem;margin:0.5rem 0 0.4rem">📄 ' + T('ed_modal_edital') + '</p>'; // rótulo da seção
       for (const topico of materiaEdital.topicos) {               // percorre os tópicos do edital
-        html += '<button type="button" class="topico-item" data-topico="' + this.escape(topico) + '">' + this.escape(topico) + '</button>'; // cada tópico clicável
+        // TEAM_003: data-materia junto — o clique abre a explicação sem depender de estado
+        html += '<button type="button" class="topico-item" data-materia="' + this.escape(rotulo) + '" data-topico="' + this.escape(topico) + '">' + this.escape(topico) + '</button>'; // cada tópico clicável
       }
     }
     // Lista 2: os tópicos que MAIS CAEM (catálogo do app, com explicação pronta)
     if (plano && plano.topicos.length > 0) {                      // se temos tópicos-chave
       html += '<p style="font-weight:900;font-size:0.8rem;margin:0.6rem 0 0.4rem">🔥 ' + T('ed_modal_campeoes') + '</p>'; // rótulo da seção
       for (const topico of plano.topicos) {                       // percorre os campeões
-        html += '<button type="button" class="topico-item" data-topico="' + this.escape(topico.nome) + '">' + this.escape(topico.nome) + '</button>'; // cada tópico clicável
+        // TEAM_003: data-materia junto — o clique abre a explicação sem depender de estado
+        html += '<button type="button" class="topico-item" data-materia="' + this.escape(rotulo) + '" data-topico="' + this.escape(topico.nome) + '">' + this.escape(topico.nome) + '</button>'; // cada tópico clicável
       }
     }
 
@@ -542,17 +546,6 @@ const EditalUI = {
   // Fecha o modal da matéria
   fecharModal() {
     document.getElementById('modal-materia').classList.add('oculto'); // esconde o modal
-  },
-
-  // Abre/fecha a explicação + aula de um tópico (estilo sanfona, um por vez)
-  alternarTopico(botao) {
-    const modal = document.getElementById('modal-conteudo');      // conteúdo do modal
-    const jaAberto = botao.classList.contains('aberto');          // este tópico já estava aberto?
-    modal.querySelectorAll('.topico-item.aberto').forEach(b => b.classList.remove('aberto')); // fecha os marcados
-    modal.querySelectorAll('.topico-detalhe').forEach(d => d.remove()); // remove os detalhes abertos
-    if (jaAberto) return;                                         // clicou no aberto → só fecha
-    botao.classList.add('aberto');                                // marca como aberto
-    botao.insertAdjacentHTML('afterend', this.detalheTopico(botao.dataset.topico)); // insere o detalhe embaixo
   },
 
   // Procura no catálogo da matéria aberta o tópico equivalente ao nome clicado
@@ -580,12 +573,6 @@ const EditalUI = {
     const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a busca
     html += '<a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(nome) }) + '</a>'; // link da aula
     return html;                                                  // devolve o miolo
-  },
-
-  // Monta a explicação de um tópico para a sanfona do modal da matéria
-  detalheTopico(nome) {
-    // TEAM_003: o miolo foi extraído para explicacaoTopico (usado também pelo modal do tópico)
-    return '<div class="topico-detalhe">' + this.explicacaoTopico(this.infoDoTopico(nome), nome) + '</div>'; // caixinha com o miolo
   },
 
   // Abre o modal direto num tópico (clique no chip da seção "O que o edital pede")

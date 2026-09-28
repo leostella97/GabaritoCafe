@@ -703,24 +703,7 @@
   transform: translateX(3px);       /* desliza levemente */
 }
 
-.topico-item.aberto {               /* tópico com detalhe aberto */
-  border-color: var(--cafe);        /* borda café */
-  background: var(--creme-escuro);  /* fundo alternado */
-}
-
-.topico-detalhe {                   /* explicação + vídeo abaixo do tópico */
-  border-left: 3px solid var(--caramelo); /* régua lateral caramelo */
-  background: var(--superficie);    /* fundo quase branco */
-  border-radius: 0 var(--raio-pequeno) var(--raio-pequeno) 0; /* cantos de um lado só */
-  padding: 0.7rem 0.8rem;           /* respiro interno */
-  margin: -0.2rem 0 0.6rem;         /* colada no tópico de cima */
-  font-size: 0.85rem;               /* leitura confortável */
-}
-
-.topico-detalhe p { margin: 0 0 0.5rem; } /* respiro entre blocos */
-.topico-detalhe .link-video { display: inline-block; margin-top: 0.2rem; } /* vídeo embaixo */
-
-/* TEAM_003: tópico do edital clicável + explicação direta no modal */
+/* TEAM_003: tópico clicável (chip ou texto) + explicação direta no modal */
 .chip-topico {                      /* chip de tópico que abre o modal */
   transition: border-color 0.15s, transform 0.15s; /* reação suave */
 }
@@ -729,6 +712,16 @@
   border-color: var(--caramelo);    /* borda caramelo */
   transform: translateY(-1px);      /* levanta levemente */
 }
+
+.topico-texto {                     /* nome de tópico clicável dentro de texto corrido */
+  color: var(--cafe);               /* cor café de destaque */
+  font-weight: 800;                 /* firme */
+  padding: 0;                       /* sem respiro extra no meio da frase */
+  text-decoration: underline dotted var(--caramelo); /* pontilhado = clicável (mesmo do nome da matéria) */
+  text-underline-offset: 3px;       /* respiro da linha */
+}
+
+.topico-texto:hover { color: var(--caramelo); } /* acende no hover */
 
 .topico-explicacao {                /* explicação do tópico aberto direto no modal */
   border-left: 3px solid var(--caramelo); /* mesma régua do detalhe da sanfona */

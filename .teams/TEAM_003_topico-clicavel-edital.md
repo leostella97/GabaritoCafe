@@ -26,5 +26,23 @@
 - `node --check` edital.js/idioma.js ✅ · `validar-idiomas.js` ✅ (248 usadas/266) · `validar-banco.js` 1074/0 ✅ · `testar-analise.js` 10/10 ✅.
 
 ## Observações / handoff
-- Os tópicos da seção "Por onde começar" (plano) continuam texto corrido dentro de `.plano-corpo` — explicação acessível via clique no nome da matéria (modal da matéria). Se pedirem, mesma técnica se aplica.
-- `sw.js` cacheia os JS/CSS: ao publicar, considerar bump do `CACHE` (TEAM_002 cuidou do SW — verificar versão).
+- `sw.js` cacheia os JS/CSS: bump do `CACHE` feito (v2 → v3).
+
+---
+
+## Rodada 2 — Tópico clicável em TODOS os lugares
+
+### Pedido
+- "também: sem clicar na matéria, clicando no tópico, abre modal com explicação e link para youtube pesquisa tópico" — estender o clique direto para onde mais houver tópico.
+
+### O que mudou
+- **"Por onde começar" (plano)**: os 3 nomes de tópico no texto "Comece por:" viraram `<button class="topico-texto" data-materia data-topico>` (estilo: texto com sublinhado pontilhado caramelo — mesmo affordance do nome de matéria, mas para tópico).
+- **Modal da matéria**: `.topico-item` ganhou `data-materia`; o clique agora chama `abrirModalTopico` (mesma visão do chip) em vez da sanfona — comportamento unificado. O link "← Todos os tópicos de {matéria}" devolve a lista.
+- **"Temas que caem"** (`conteudo.js`): `.topico-nome` virou `<button class="topico-nome topico-texto">`; delegação em `#lista-temas` antes do "Ver mais…".
+- **Sanfona removida** (Regra 6): `alternarTopico`, `detalheTopico` e o CSS `.topico-detalhe`/`.topico-item.aberto` saíram — `abrirModalTopico` é a única visão de explicação.
+- **Tema escuro**: `.topico-texto` e `.ver-mais` entraram na regra de clareamento (texto `--cafe` some no fundo escuro → `--caramelo-claro`).
+- Delegação em `#edital-resultado` generalizada para `[data-topico]` (cobre chip e botão de texto).
+
+### Verificação
+- Teste funcional Node (`_tmp_topico_tudo.js`, deletado): 12/12 ✅ — chips, plano, modal da matéria, temas, fallback e remoção da sanfona.
+- `validar-idiomas` ✅ · `validar-banco` 1074/0 ✅ · `testar-analise` ✅ · `node --check` ✅.

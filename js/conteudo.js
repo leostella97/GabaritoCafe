@@ -51,7 +51,8 @@ const ConteudoUI = {
         materia.topicos.forEach((topico, i) => {            // percorre os tópicos
           const escondido = i >= LIMITE_VISIVEL ? ' tema-extra' : ''; // TEAM_001: os demais ficam recolhidos
           conteudo += '<div class="tema-topico' + escondido + '">'; // abre o bloco do tópico
-          conteudo += '<span class="topico-nome">' + this.escape(topico.nome) + '</span> '; // nome do tópico
+          // TEAM_003: nome do tópico clicável — abre o modal com explicação + aula no YouTube
+          conteudo += '<button type="button" class="topico-nome topico-texto" data-materia="' + this.escape(materia.materia) + '" data-topico="' + this.escape(topico.nome) + '" title="' + T('ed_modal_dica') + '">' + this.escape(topico.nome) + '</button> '; // nome clicável do tópico
           conteudo += '<span class="xicaras">' + '☕'.repeat(topico.frequencia) + '</span>'; // xícaras = frequência
           conteudo += '<p style="font-size:0.85rem;margin:0.2rem 0">' + T('temas_porque') + this.escape(topico.porque) + '</p>'; // motivo de cair
           conteudo += '<div class="tema-como">✍️ ' + this.escape(topico.como) + '</div>'; // como estudar
@@ -68,6 +69,12 @@ const ConteudoUI = {
 
     // TEAM_001: delegação do "Ver mais…" — funciona nas duas abas sem religar
     document.getElementById('lista-temas').addEventListener('click', (e) => { // clique na lista
+      // TEAM_003: clique no nome do tópico abre o modal com explicação + aula
+      const alvoTopico = e.target.closest('[data-topico]'); // foi num tópico clicável?
+      if (alvoTopico) {                                     // se foi
+        EditalUI.abrirModalTopico(alvoTopico.dataset.materia, alvoTopico.dataset.topico); // abre o modal do tópico
+        return;                                             // e não cai no "Ver mais…"
+      }
       const btn = e.target.closest('.tema-ver-mais');       // foi no botão "Ver mais…"?
       if (!btn) return;                                   // clique fora dele: ignora
       const cartao = btn.closest('.cartao');              // o cartão dono do botão
