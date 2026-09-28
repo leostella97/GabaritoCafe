@@ -26787,4 +26787,567 @@ const BancoQuestoes = [
     dica: 'Instituto Mais restringe o acesso: qualquer um com interesse legítimo pode intervir — e a CF veda expressamente o ANÔNIMO na petição/processo. O detalhe "vedado o anonimato" é a armadilha de prova.', // pegadinha
     video: 'lei 9784 processo administrativo interessados resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 4, bloco 2/4 HUMANAS: História h34–37,
+  // Geografia g39–42, Atualidades t36–39, Filosofia fl56–58,
+  // Sociologia so47–49, Artes ar50–52, Literatura l55–57,
+  // Espanhol s45–47.
+  // ============================================================
+
+  // ---- História do Brasil (h34–h37) ----
+  {
+    id: 'h34',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Revolução Farroupilha',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A Revolução Farroupilha (1835-1845), no Rio Grande do Sul, foi:', // pergunta
+    alternativas: [                     // opções
+      'uma revolta de escravos urbanos', // opção
+      'a maior revolta do período regencial — gaúchos declararam a República Rio-Grandense contra os impostos imperiais sobre o charque e os produtos locais', // correta
+      'um golpe de D. Pedro I', // opção
+      'uma guerra com o Uruguai', // opção
+      'um movimento do século XVIII', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Farroupilha foi a mais longa revolta regencial: os farrapos proclamaram a República Rio-Grandense (1836-45) por conta dos tributos do Império e da concorrência do charque platino. Terminou por acordo de pacificação; Bento Gonçalves é o líder-símbolo.', // explicação
+    dica: 'FUNDATEC cobra data e lugar: 1835-45 = PERÍODO REGENCIAL (Interino/Maioridade). E não confunda com Cabanagem (Pará) nem Sabinada (Bahia) — são revoltas irmãs do mesmo período, mas a Farroupilha durou 10 anos.', // pegadinha
+    video: 'revolucao farroupilha rio grande resumo' // busca no YouTube
+  },
+  {
+    id: 'h35',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Guerra do Contestado',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Guerra do Contestado (1912-1916), travada na fronteira entre Paraná e Santa Catarina, envolveu:', // pergunta
+    alternativas: [                     // opções
+      'as tropas de Canudos', // opção
+      'a fronteira com o Uruguai', // opção
+      'a guerra do Paraguai', // opção
+      'um conflito de terra', // opção
+      'a revolta de caboclos deslocados pela construção da ferrovia e pela ervas — com forte componente messiânico — contra as autoridades de SC e PR', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Caboclos expulsos pela ferrovia (Estrada de Ferro São Paulo–Rio Grande) e pela especulação de terras se reuniram em povoados messiânicos; os governos dos estados e o Exército esmagaram a revolta. É "Canudos do Sul" — luta de terra e esperança religiosa.', // explicação
+    dica: 'Copeve funde Canudos × Contestado: os dois são revoltas messiânicas do sertão, mas Canudos = BA 1896-97 (Conselheiro, "Os Sertões") e Contestado = PR/SC 1912-16 (ferrovia + monge João Maria).', // pegadinha
+    video: 'guerra do contestado parana santa catarina resumo' // busca no YouTube
+  },
+  {
+    id: 'h36',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Governo Jango — renúncia',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O governo de João Goulart (Jango), 1961-1964, terminou com:', // pergunta
+    alternativas: [                     // opções
+      'sua reeleição', // opção
+      'uma crise com o Paraguai', // opção
+      'o golpe civil-militar de 31 de março de 1964, que depôs o presidente e inaugurou a ditadura', // correta
+      'uma guerra externa', // opção
+      'um referendo popular', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Jango assumiu após a renúncia de Jânio Quadros; o "parlamentarismo" lhe foi imposto e, com a volta ao presidencialismo (plebiscito de 1963), ele lançou as reformas de base. O golpe de 31/03/1964 o depôs — e aí nasceram os 21 anos de ditadura.', // explicação
+    dica: 'IBGP cobra a sequência: Jânio RENUNCIA (1961) → Jango assume com parlamentarismo → plebiscito de 1963 devolve o presidencialismo → GOLPE de 1964. "Reformas de base" era o programa que assustou as elites.', // pegadinha
+    video: 'joao goulart jango golpe 1964 resumo' // busca no YouTube
+  },
+  {
+    id: 'h37',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Encilhamento',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O "Encilhamento", crise econômica do início da República (1890-91), foi causado por:', // pergunta
+    alternativas: [                     // opções
+      'a emissão descontrolada de moeda e a especulação financeira sob o governo de Deodoro/Rui Barbosa', // correta
+      'a criação do Banco do Brasil', // opção
+      'a abolição da escravatura', // opção
+      'a guerra do Paraguai', // opção
+      'a independência do Brasil', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O Encilhamento: o ministro Rui Barbosa liberou crédito e emissão de moeda para "industrializar" — gerou inflação, especulação na bolsa e bancos quebrando. O nome vem de "encilhar" (amansar cavalos para vender caro).', // explicação
+    dica: 'Instituto Mais coloca crises de outras datas: Encilhamento = 1890-91, primeiros anos da República, governo Deodoro. Não é a crise do café nem a de 1929 — é a especulação + moeda solta do início republicano.', // pegadinha
+    video: 'encilhamento 1890 republica especulacao resumo' // busca no YouTube
+  },
+
+  // ---- Geografia (g39–g42) ----
+  {
+    id: 'g39',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Bioma Pantanal',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O Pantanal, maior planície alagada do mundo, é caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'ser um deserto', // opção
+      'ficar no litoral', // opção
+      'o regime de cheias sazonais — alaga na época das chuvas e recua na seca, sustentando rica biodiversidade', // correta
+      'não ter animais', // opção
+      'estar inteiramente no Chile', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Pantanal (MT/MS) é planície de inundação do rio Paraguai: inunda no período chuvoso, vaza na seca — ciclo que sustenta uma das maiores concentrações de vida selvagem das Américas. O fogo e o avanço da fronteira ameaçam o bioma.', // explicação
+    dica: 'FUNDATEC descreve o lugar errado: Pantanal não é litoral nem deserto — é planície ALUVIAL interiorana. E o sistema é de PULSO: cheia e vazante todos os anos — não é "brejo" permanente.', // pegadinha
+    video: 'pantanal planicie alagada biodiversidade resumo' // busca no YouTube
+  },
+  {
+    id: 'g40',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Aquífero Guarani',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Aquífero Guarani, uma das maiores reservas de água doce subterrânea do mundo, situa-se:', // pergunta
+    alternativas: [                     // opções
+      'inteiramente na Amazônia', // opção
+      'apenas no Brasil', // opção
+      'no subsolo de Brasil, Argentina, Paraguai e Uruguai — motivo de disputas sobre gestão e da assinatura do Acordo Guarani', // correta
+      'na Antártica', // opção
+      'na costa do Nordeste', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Guarani fica sob 4 países (Brasil ~2/3, Argentina, Paraguai, Uruguai) e abastece cidades do Sul e do Centro-Oeste. É tema de geopolítica da água: o Acordo Guarani (2010) regula a gestão compartilhada.', // explicação
+    dica: 'Copeve confunde "reserva subterrânea" com "Amazônia": o Guarani está no SUL/CENTRO-OESTE, não na floresta. E a pegadinha internacional: NÃO é só brasileiro — quatro países dividem.', // pegadinha
+    video: 'aquifero guarani reserva agua subterranea resumo' // busca no YouTube
+  },
+  {
+    id: 'g41',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Bioma Pampa',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O Pampa (campos sulinos), único bioma presente apenas no Rio Grande do Sul, é marcado por:', // pergunta
+    alternativas: [                     // opções
+      'floresta densa e úmida', // opção
+      'grande floresta tropical', // opção
+      'vegetação de campos gramíneos com gado extensivo — os "pampas gaúchos" que inspiram a cultura do gaúcho', // correta
+      'deserto de dunas', // opção
+      'montanhas nevadas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Pampa é a estepe subtropical do RS: campos de gramíneas com relevo suave, pecuária histórica e cultura gaúcha. Apesar de pouco protegido, é rico em biodiversidade — e sofre com o avanço da soja e do reflorestamento.', // explicação
+    dica: 'Selecon confunde com Cerrado/Mata: Pampa = CAMPO (gramínea) no extremo sul — não tem floresta densa. É o único bioma exclusivo de UM estado (RS); a Amazônia e o Cerrado passam por vários.', // pegadinha
+    video: 'pampa bioma rio grande do sul resumo' // busca no YouTube
+  },
+  {
+    id: 'g42',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Massas de ar do Brasil',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'As massas de ar que atuam sobre o Brasil explicam, por exemplo, que:', // pergunta
+    alternativas: [                     // opções
+      'o clima é sempre igual', // opção
+      'não há frentes frias', // opção
+      'as massas equatoriais trazem calor e umidade e a polar atlântica provoca as frentes frias e as geadas no inverno', // correta
+      'só o Pacífico influencia o país', // opção
+      'o ar é todo polar', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Brasil é palco da Massa Equatorial Atlântica (quente e úmida, do Atlântico Norte), da Continental (seca, interior) e da Polar Atlântica (fria, das frentes frias do Sul). O encontro delas gera chuvas, friagem e geadas.', // explicação
+    dica: 'Instituto Mais descreve um país "só quente": a polar atlântica prova que não — as geadas no Sul/Sudeste vêm dela. Decore: equatorial = calor+umidade; continental = seca; polar = frio. O encontro forma frentes.', // pegadinha
+    video: 'massas de ar brasil equatorial polar frentes resumo' // busca no YouTube
+  },
+
+  // ---- Atualidades (t36–t39) ----
+  {
+    id: 't36',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Envelhecimento populacional', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O envelhecimento acelerado da população brasileira — reflexo da queda da fecundidade e maior longevidade — pressiona:', // pergunta
+    alternativas: [                     // opções
+      'somente os berçários', // opção
+      'a previdência, a saúde e a estrutura de trabalho — com menos jovens para cada idoso, o sistema previdenciário e o mercado de trabalho precisam se adaptar', // correta
+      'o aumento da natalidade', // opção
+      'o turismo de aventura', // opção
+      'a construção de escolas primárias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A razão de dependência muda: mais idosos por jovem ativo → mais gasto com aposentadorias e saúde crônica, menos contribuintes — pressão que está no centro das reformas da previdência e do debate sobre longevidade no trabalho.', // explicação
+    dica: 'FUNDATEC troca causa × consequência: não é mais nascimento (o oposto — fecundidade cai); é a pirâmide INVERTENDO. A prova pede o impacto: previdência + saúde + mercado de trabalho.', // pegadinha
+    video: 'envelhecimento populacional brasil previdencia resumo' // busca no YouTube
+  },
+  {
+    id: 't37',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Golpes digitais e segurança', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A explosão dos golpes digitais (phishing, falso central de atendimento, "golpe do PIX", perfis clonados) evidencia a necessidade de:', // pergunta
+    alternativas: [                     // opções
+      'abandonar a internet', // opção
+      'educação digital do usuário — nunca compartilhar códigos, desconfiar de urgência, verificar canais oficiais e autenticar em dois fatores', // correta
+      'não existem golpes digitais', // opção
+      'pagamento só em dinheiro', // opção
+      'um computador sem senha', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Os golpes exploram o usuário (engenharia social), não só a técnica: links falsos, "banco ligando", PIX na pressa, perfis clonados no WhatsApp. Defesa = desconfiar de urgência, não passar códigos, verificar o canal oficial e ativar 2FA.', // explicação
+    dica: 'IBGP vende "tecnologia resolve": a maioria dos golpes é ENGENHARIA SOCIAL — o elo fraco é o humano, não o sistema. Regra de ouro: instituição séria nunca pede senha/código por telefone ou link.', // pegadinha
+    video: 'golpes digitais phishing pix seguranca resumo' // busca no YouTube
+  },
+  {
+    id: 't38',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Corrida espacial comercial', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A nova corrida espacial do século XXI caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'envolver apenas agências públicas como antigamente', // opção
+      'a entrada de empresas privadas (SpaceX, Blue Origin) junto às agências públicas (NASA, CNSA) e os planos de voltar à Lua (programa Artemis) e ir a Marte', // correta
+      'o fim dos satélites', // opção
+      'ser exclusivamente brasileira', // opção
+      'estar suspensa desde os anos 70', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diferente da corrida EUA–URSS, agora há gigantes privadas: SpaceX (foguetes reutilizáveis, Starlink), Blue Origin, Virgin Galactic, além da NASA (Artemis — retorno à Lua) e da China (estações, Lua, Marte). Starlink já cobre a internet do país.', // explicação
+    dica: 'Selecon troca época: 1960s era só Estado (Apollo/Soyuz); hoje é ESTADO + PRIVADO — SpaceX domina lançamentos. E a meta atual não é só a Lua: é Marte e a internet orbital (Starlink) — tema quente de atualidades.', // pegadinha
+    video: 'corrida espacial privada spacex artemis resumo' // busca no YouTube
+  },
+  {
+    id: 't39',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Guerra comercial — tarifas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A guerra de tarifas entre Estados Unidos e China, com cobrança recíproca de taxas sobre produtos, é um caso de:', // pergunta
+    alternativas: [                     // opções
+      'livre-comércio total', // opção
+      'acordo de fronteiras', // opção
+      'um tratado de paz', // opção
+      'isolacionismo de ambos', // opção
+      'disputa comercial por protecionismo e poder econômico — com reflexos em cadeias globais, preços e relações internacionais', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Desde 2018, EUA e China trocam tarifas e restrições (chips, terras raras, energia) — é o duelo pela liderança tecnológica. Afeta o Brasil: soja e minério ganham mercado, mas a tensão encarece insumos e desvia comércio.', // explicação
+    dica: 'Copeve transforma o conflito em "cooperação": tarifa × tarifa é protecionismo em retaliação — não é livre-comércio. Gancho com o Brasil: a guerra comercial abre espaço para exportadores brasileiros (soja, carne).', // pegadinha
+    video: 'guerra comercial eua china tarifas resumo' // busca no YouTube
+  },
+
+  // ---- Filosofia (fl56–fl58) ----
+  {
+    id: 'fl56',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Espinosa — afetos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Na filosofia de Espinosa, os afetos e a liberdade se relacionam porque:', // pergunta
+    alternativas: [                     // opções
+      'os afetos não existem', // opção
+      'a liberdade é ausência de leis', // opção
+      'somos livres quando entendemos as causas dos nossos afetos — paixões nascem da ignorância; conhecê-las nos torna ativos e livres', // correta
+      'o corpo não influencia a mente', // opção
+      'a liberdade é a vontade divina', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Para Espinosa (Ética, 1677), não há livre-arbítrio vazio: agimos por paixões quando ignoramos suas causas; compreender os afetos (alegria/tristeza/desejo) os converte em ação — "a liberdade é a necessidade conhecida".', // explicação
+    dica: 'FUNDATEC lê liberdade como "fazer o que quero": Espinosa diz o contrário — quem ignora o porquê do que sente é escravo da paixão; quem entende se liberta. Conatus = a tendência de perseverar no ser.', // pegadinha
+    video: 'espinosa afetos liberdade etica resumo' // busca no YouTube
+  },
+  {
+    id: 'fl57',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Diógenes — cinismo',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Diógenes de Sinope, o filósofo do barril que "procurava um homem honesto com uma lanterna", representa o cinismo ao:', // pergunta
+    alternativas: [                     // opções
+      'viver de luxo no palácio', // opção
+      'viver em pobreza radical e desprezo às convenções sociais — a "vida segundo a natureza" contra a hipocrisia', // correta
+      'fundar uma religião', // opção
+      'escrever um tratado de economia', // opção
+      'ser tutor de Alexandre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os cínicos (Diógenes, Antístenes) pregavam a autossuficiência e a vida conforme a natureza, rejeitando riqueza, pudor e convenções — Diógenes morava num barril e provocava o poder (a resposta a Alexandre: "saia do meu sol").', // explicação
+    dica: 'Copeve confunde cinismo filosófico com o sentido pejorativo moderno: o cínico antigo era idealista radical — recusava o que a sociedade chamava de valor. Lanterna ao meio-dia = busca pelo homem autêntico/honesto.', // pegadinha
+    video: 'diogenes cinico barril alexandre lanterna resumo' // busca no YouTube
+  },
+  {
+    id: 'fl58',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Confúcio — ética das relações', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O pensamento de Confúcio, base da ética chinesa, centra-se em:', // pergunta
+    alternativas: [                     // opções
+      'na revolução violenta', // opção
+      'na guerra permanente', // opção
+      'no ateísmo radical', // opção
+      'na anarquia', // opção
+      'nas relações humanas harmoniosas — respeito à hierarquia, à família e ao ritual (li), com a virtude do governante como exemplo social', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Confúcio (séc. VI a.C.) ensinou que a harmonia social nasce das relações corretas: os cinco vínculos (governante-súdito, pai-filho, marido-mulher, irmãos, amigos), o respeito aos ritos e a virtude (ren) de quem governa — o bom líder governa pelo exemplo.', // explicação
+    dica: 'IBGP descreve o contrário: Confúcio não é revolução nem anarquia — é ORDEM pelas relações e pelo ritual. Palavra-chave: "li" (rito/decoro) + governante virtuoso. Influência: tudo na China, na Coreia, no Vietnã.', // pegadinha
+    video: 'confucio etica relacoes li resumo' // busca no YouTube
+  },
+
+  // ---- Sociologia (so47–so49) ----
+  {
+    id: 'so47',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Weber — burocracia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Para Max Weber, a burocracia como forma de dominação legal-racional é marcada por:', // pergunta
+    alternativas: [                     // opções
+      'o poder pessoal do monarca', // opção
+      'a tradição do ancião', // opção
+      'impessoalidade — cargos com regras, hierarquia formal, nomeação por mérito, escritos e separação entre o cargo e o agente', // correta
+      'a ausência total de regras', // opção
+      'o carisma do líder', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Na dominação legal-racional de Weber, manda a regra, não a pessoa: hierarquia por ofício, competências definidas, tudo escrito e separado do ocupante — o "cargo" sobrevive ao dono. Difere do carismático e do tradicional.', // explicação
+    dica: 'FUNDATEC troca os três tipos de dominação weberianos: TRADICIONAL = costume (patriarca); CARISMÁTICA = dom do líder; LEGAL-RACIONAL/burocrática = regra escrita. "Impessoalidade" é a assinatura da burocracia.', // pegadinha
+    video: 'weber burocracia dominação legal racional resumo' // busca no YouTube
+  },
+  {
+    id: 'so48',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Sociedade de consumo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "sociedade de consumo" (Baudrillard) é analisada sociologicamente como aquela em que:', // pergunta
+    alternativas: [                     // opções
+      'não há produção', // opção
+      'o consumo é proibido', // opção
+      'só se consome o necessário', // opção
+      'todos são agricultores', // opção
+      'consumir vira forma de identidade e status — as mercadorias ganham valor de signo e a publicidade molda desejos e relações sociais', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Para Baudrillard, consumimos não só o objeto mas o SÍMBOLO (a marca, o status): o valor de signo supera o de uso. A publicidade e a mídia produzem necessidades — consumir vira linguagem social e identidade.', // explicação
+    dica: 'Copeve troca valor de uso × valor de signo: não é o que o objeto FAZ, é o que SIGNIFICA (o carro como status). E a crítica: a "sociedade de consumo" cria o desejo — não apenas satisfaz necessidades reais.', // pegadinha
+    video: 'sociedade de consumo baudrillard signo resumo' // busca no YouTube
+  },
+  {
+    id: 'so49',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Uberização do trabalho',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A "uberização do trabalho" designa:', // pergunta
+    alternativas: [                     // opções
+      'a volta da escravidão legal', // opção
+      'somente o trabalho de motoristas', // opção
+      'o aumento de vínculos CLT', // opção
+      'a flexibilização e precarização do trabalho mediado por plataformas digitais, sem vínculo formal e com tarifa decidida pelo aplicativo', // correta
+      'o fim dos aplicativos', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Uberização = o trabalho organizado por apps (transporte, entrega, serviços): o trabalhador é "parceiro" sem carteira, recebe por corrida/tarefa e o algoritmo fixa preço e ritmo — gerando debate sobre vínculo, direitos e autonomia real.', // explicação
+    dica: 'Instituto Mais nega a precarização: "flexibilidade" é o lado apresentado; o lado sociológico é a falta de vínculo, previdência e controle sobre o preço. A banca cobra os dois: autonomia aparente × desproteção real.', // pegadinha
+    video: 'uberizacao trabalho plataformas gig economy resumo' // busca no YouTube
+  },
+
+  // ---- Artes (ar50–ar52) ----
+  {
+    id: 'ar50',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte rupestre — Capivara',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A arte rupestre da Serra da Capivara (PI), Patrimônio Mundial da Unesco, é importante porque:', // pergunta
+    alternativas: [                     // opções
+      'é do período colonial', // opção
+      'apresenta pinturas pré-históricas com milhares de anos — o maior conjunto das Américas, essencial à pesquisa sobre o povoamento do continente', // correta
+      'são esculturas romanas', // opção
+      'é um museu de artes plásticas', // opção
+      'é uma lenda sem vestígios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Serra da Capivara guarda milhares de pinturas e gravuras rupestres (pré-históricas, até ~25 mil anos) em rochedos — pesquisa da arqueóloga Niède Guidon. Questiona e enriquece a teoria do povoamento das Américas.', // explicação
+    dica: 'FUNDATEC desloca época e lugar: arte rupestre é PRÉ-HISTÓRICA (não colonial, não moderna). Serra da Capivara = Piauí, Niède Guidon, Unesco 1991. "Pedra furada" e pinturas de caça/dança são os ícones.', // pegadinha
+    video: 'serra da capivara arte rupestre pre historia resumo' // busca no YouTube
+  },
+  {
+    id: 'ar51',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Samba de raiz',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O samba, reconhecido como patrimônio cultural brasileiro, tem origem:', // pergunta
+    alternativas: [                     // opções
+      'na música erudita europeia', // opção
+      'na música do sertão', // opção
+      'na corte portuguesa', // opção
+      'na cultura indígena pura', // opção
+      'nas tradições africanas dos escravizados e no batuque, urbanizado no Rio de Janeiro com a Bahia como raiz ancestral', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O samba nasce do batuque africano e das práticas dos negros na Bahia; migrou com os "baianos" para o Rio (Cidade Nova/Estácio) e se urbanizou no início do século XX. Samba de raiz = a vertente tradicional, com partido-alto e roda.', // explicação
+    dica: 'IBGP apaga a raiz: samba = herança AFRICANA urbanizada no RIO — "partido alto", "Estácio", "baianas da Tia Ciata" são os marcos. Não veio da corte nem do sertão — é cultura da diáspora negra.', // pegadinha
+    video: 'samba de raiz origem africana rio resumo' // busca no YouTube
+  },
+  {
+    id: 'ar52',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Dança — clássico x contemporâneo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A diferença básica entre o balé clássico e a dança contemporânea é que:', // pergunta
+    alternativas: [                     // opções
+      'o balé é improvisado', // opção
+      'a contemporânea usa sapatilhas de ponta', // opção
+      'o balé segue técnica rigorosa codificada (posições, ponta, sapatilhas), enquanto a contemporânea busca liberdade de movimento e expressão do chão ao pé descalço', // correta
+      'não há diferença', // opção
+      'a contemporânea é só luta', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O balé clássico nasceu nas cortes com codificação rigorosa: cinco posições, ponta, en dehors, sapatilhas. A dança contemporânea (séc. XX, Isadora Duncan, Martha Graham) rompeu a forma — movimento livre, pés descalços, expressão individual.', // explicação
+    dica: 'Selecon inverte as características: clássico = TÉCNICA E POSTURA codificada; contemporâneo = LIBERDADE e expressão. Isadora Duncan dançava descalça contra o balé — é o marco da ruptura.', // pegadinha
+    video: 'bale classico danca contemporanea diferenca resumo' // busca no YouTube
+  },
+
+  // ---- Literatura (l55–l57) ----
+  {
+    id: 'l55',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'O Primo Basílio — Eça',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: '"O Primo Basílio" (1878), de Eça de Queirós, é o retrato crítico:', // pergunta
+    alternativas: [                     // opções
+      'da corte do Brasil imperial', // opção
+      'da vida camponesa feliz', // opção
+      'da burguesia lisboeta e da hipocrisia do casamento — adultério de Luísa denunciado pelo criado Juliana', // correta
+      'de uma guerra medieval', // opção
+      'das navegações portuguesas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Eça satiriza a elite de Lisboa: a dona de casa Luísa, entediada, entrega-se ao primo Basílio; a criada Juliana a chantageia e a expõe — quadro realista/naturalista da hipocrisia burguesa e da condição feminina. "Os Maias" é do mesmo ciclo.', // explicação
+    dica: 'FUNDATEC desloca cenário e autor: é LISBOA (Portugal), não Brasil — e Eça é o realismo português (Machado o brasileiro). O trio da trama: Luísa + Basílio + a chantagem de Juliana.', // pegadinha
+    video: 'o primo basilio eca de queiros resumo' // busca no YouTube
+  },
+  {
+    id: 'l56',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Grande Sertão: Veredas',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Grande Sertão: Veredas" (1956), de Guimarães Rosa, é o romance narrado por:', // pergunta
+    alternativas: [                     // opções
+      'Riobaldo — o ex-jagunço que conta ao interlocutor a vida no sertão, o pacto e o amor por Diadorim', // correta
+      'um narrador onisciente', // opção
+      'uma criança da cidade', // opção
+      'o capataz', // opção
+      'um forasteiro europeu', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Riobaldo Tatarana, jagunço aposentado, narra a um interlocutor silencioso as guerras de jagunços, o suposto pacto com o demônio e o amor velado por Diadorim — num português recriado ("sertanês"), obra-prima do regionalismo universal.', // explicação
+    dica: 'Copeve cobra a forma narrativa: é MONOLOGO de Riobaldo (primeira pessoa) — não onisciente. Detalhes-índice: "Diadorim" (a revelação final), o pacto com o diabo, a linguagem inventada ("não sei se o diabo existe...").', // pegadinha
+    video: 'grande sertao veredas riobaldo guimaraes rosa resumo' // busca no YouTube
+  },
+  {
+    id: 'l57',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'A Moreninha — Macedo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: '"A Moreninha" (1844), de Joaquim Manuel de Macedo, é considerado o primeiro romance romântico propriamente brasileiro por:', // pergunta
+    alternativas: [                     // opções
+      'ser tragédia grega', // opção
+      'ser um romance gótico', // opção
+      'narrar o idílio entre Augusto e Carolina na ilha de Paquetá — sentimentalismo e idealização amorosa na paisagem nacional', // correta
+      'ser um texto de divulgação científica', // opção
+      'ser autobiografia de Machado', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Macedo lança o romance romântico nacional: a promessa de infância, o medalhão, a ilha de Paquetá (RJ) e o amor idealizado de Augusto e Carolina — sentimentalismo romântico adaptado ao cenário brasileiro.', // explicação
+    dica: 'Instituto Mais confunde com indianismo de Alencar: A Moreninha é romance URBANO/doméstico (Paquetá, médicos em cena) — "primeiro romance romântico brasileiro" é o rótulo de prova. O "medalhão" e a promessa de casamento são os objetos.', // pegadinha
+    video: 'a moreninha joaquim manuel macedo resumo' // busca no YouTube
+  },
+
+  // ---- Espanhol (s45–s47) ----
+  {
+    id: 's45',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Condicional simples',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Em "Yo hablaría con él", o condicional simples ("hablaría") expressa:', // pergunta
+    alternativas: [                     // opções
+      'um fato consumado', // opção
+      'uma ordem', // opção
+      'uma ação hipotética ou de cortesia — "eu falaria com ele", dependente de uma condição', // correta
+      'o futuro certo', // opção
+      'o pretérito remoto', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O condicional (-ría) marca hipótese, pedido polido ("¿Podría...?") ou ação futura vista do passado: "hablaría" = falaria, "¿Podría ayudarme?" = poderia me ajudar? Formado com o infinitivo + -ía.', // explicação
+    dica: 'FUNDATEC troca condicional × futuro: FUTURO (hablaré) = fará mesmo; CONDICIONAL (hablaría) = faria SE... A terminação -ía no infinitivo é a marca — e o uso de cortesia é o preferido das bancas.', // pegadinha
+    video: 'condicional espanhol hablaria cortesia resumo' // busca no YouTube
+  },
+  {
+    id: 's46',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Preposição "a" pessoal',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Em espanhol, quando o objeto direto é uma pessoa, a gramática exige a chamada "a personal":', // pergunta
+    alternativas: [                     // opções
+      'ignorar o objeto', // opção
+      'usar o artigo "el"', // opção
+      'omitir a preposição', // opção
+      'sempre usar "de"', // opção
+      'preceder o objeto com "a" — "Veo A María" (Vejo a Maria), construção sem equivalente em português', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O "a personal" marca o objeto direto quando é pessoa (ou animal estimado/coletivo humano): "Veo a María", "Amo a mi perro". Não existe em português — por isso é a construção que mais pega brasileiros.', // explicação
+    dica: 'IBGP cobra a diferença entre línguas: "vejo Maria" em português vira "veo A María" em espanhol — a preposição aparece só com PESSOAS. Sem pessoa, sem "a": "veo la casa".', // pegadinha
+    video: 'a personal espanhol objeto direto pessoa resumo' // busca no YouTube
+  },
+  {
+    id: 's47',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Verbos reflexivos',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'No espanhol, os verbos reflexivos como "levantarse", "ducharse" e "vestirse" indicam que:', // pergunta
+    alternativas: [                     // opções
+      'o sujeito realiza a ação sobre si mesmo — "me levanto" = eu me levanto', // correta
+      'a ação é passiva', // opção
+      'a ação é futura', // opção
+      'a ação é formal', // opção
+      'a ação é plural apenas', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Verbo reflexivo: o sujeito pratica e recebe a ação — me levanto, te duchas, se viste. O pronome (me, te, se, nos, os, se) acompanha a conjugação. Rotina diária usa reflexivos para ações do próprio corpo.', // explicação
+    dica: 'Copeve traduz literal: reflexivo ≠ passivo. "Me levanto" = eu (a mim mesmo) levanto — ação volta ao sujeito. Em português também existe (eu me lavo), mas o espanhol usa MUITO mais.', // pegadinha
+    video: 'verbos reflexivos espanhol me se resumo' // busca no YouTube
+  },
 ];
