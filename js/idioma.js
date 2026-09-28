@@ -109,6 +109,7 @@ const Idioma = {
       toast_edital_erro: 'Não consegui ler o PDF. Tenta colar o texto abaixo!', // falha no PDF
       toast_cola_curto: 'Cola um pedaço maior do edital aí — precisa de conteúdo para analisar!', // texto curto
       toast_qtd: 'Escolhe a quantidade de questões primeiro! 😉', // sem quantidade
+      toast_sim_banca: 'Escolhe uma banca no dropdown para montar o simulado!', // TEAM_005: sem banca escolhida
       toast_refazer: 'Bora refazer as {n} que escaparam! 🔄', // refazer erradas
       toast_idioma: 'Idioma: {idioma}',                     // idioma trocado
       toast_tema_escuro: 'Tema escuro ligado 🌙',           // tema escuro
@@ -250,6 +251,9 @@ const Idioma = {
       ed_banca_manual_btn: 'Analisar',                      // botão do campo manual
       ed_dicas_t: 'Dicas da',                               // título das dicas (nome da banca vem depois)
       ed_banca_desconhecida: 'Essa banca não está no meu catálogo — então aqui vão as dicas que valem para qualquer banca:', // aviso do fallback
+      ed_sim_banca_l: 'Fazer simulado só com questões de uma banca (opcional):', // TEAM_005: rótulo do dropdown
+      ed_sim_banca_sel: 'Escolha a banca…',               // TEAM_005: opção vazia do dropdown
+      ed_sim_banca_btn: 'Montar simulado',                // TEAM_005: botão do dropdown
       ed_ver_mais: 'Ver mais…',                         // expande o item do plano
       ed_ver_menos: 'Ver menos',                        // recolhe o item do plano
       ed_modal_dica: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
@@ -405,6 +409,7 @@ const Idioma = {
       toast_edital_erro: 'I couldn’t read that PDF. Try pasting the text below!',
       toast_cola_curto: 'Paste a bigger chunk of the notice — I need content to analyse!',
       toast_qtd: 'Pick the number of questions first! 😉',
+      toast_sim_banca: 'Pick a board in the dropdown to build the mock test!', // TEAM_005
       toast_refazer: 'Let’s redo the {n} you missed! 🔄',
       toast_idioma: 'Language: {idioma}',
       toast_tema_escuro: 'Dark theme on 🌙',
@@ -546,6 +551,9 @@ const Idioma = {
       ed_banca_manual_btn: 'Analyze',
       ed_dicas_t: 'Tips for',
       ed_banca_desconhecida: 'This board is not in my catalog — so here are tips that work for any board:',
+      ed_sim_banca_l: 'Take a mock test with questions from one board (optional):', // TEAM_005
+      ed_sim_banca_sel: 'Choose the board…',              // TEAM_005
+      ed_sim_banca_btn: 'Build mock test',                // TEAM_005
       ed_ver_mais: 'See more…',
       ed_ver_menos: 'See less',
       ed_modal_dica: 'Tap a topic to open the explanation and a video lesson',
@@ -701,6 +709,7 @@ const Idioma = {
       toast_edital_erro: 'No pude leer ese PDF. ¡Intenta pegar el texto abajo!',
       toast_cola_curto: '¡Pega un trozo más grande de la convocatoria — necesito contenido para analizar!',
       toast_qtd: '¡Elige primero la cantidad de preguntas! 😉',
+      toast_sim_banca: '¡Elige un comité en el desplegable para armar el simulacro!', // TEAM_005
       toast_refazer: '¡Vamos a rehacer las {n} que fallaste! 🔄',
       toast_idioma: 'Idioma: {idioma}',
       toast_tema_escuro: 'Tema oscuro activado 🌙',
@@ -842,6 +851,9 @@ const Idioma = {
       ed_banca_manual_btn: 'Analizar',
       ed_dicas_t: 'Consejos para',
       ed_banca_desconhecida: 'Este comité no está en mi catálogo — así que aquí van consejos que sirven para cualquier comité:',
+      ed_sim_banca_l: 'Hacer simulacro solo con preguntas de un comité (opcional):', // TEAM_005
+      ed_sim_banca_sel: 'Elige el comité…',               // TEAM_005
+      ed_sim_banca_btn: 'Armar simulacro',                // TEAM_005
       ed_ver_mais: 'Ver más…',
       ed_ver_menos: 'Ver menos',
       ed_modal_dica: 'Toca un tema para abrir la explicación y una clase en video',

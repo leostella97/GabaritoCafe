@@ -220,6 +220,22 @@ const EditalUI = {
       html += '<div id="dicas-banca-manual"></div>';        // onde as dicas são desenhadas
       html += '</div>';                                     // fecha o campo
     }
+    // TEAM_005: simulado por banca (opcional) — dropdown com as bancas do banco.
+    // Vem pré-selecionada quando a detectada existe no banco de questões;
+    // se a detecção errou (ou não achou banca), o usuário escolhe a certa aqui.
+    const bancaSugerida = this.bancaBancoDaDetectada(analise.banca && analise.banca.rotulo); // detectada → nome no banco
+    html += '<div class="campo" style="margin-top:0.8rem">'; // abre o campo
+    html += '<label for="sim-banca-edital">' + T('ed_sim_banca_l') + '</label>'; // rótulo traduzido
+    html += '<div style="display:flex;gap:0.5rem">';        // linha select + botão
+    html += '<select id="sim-banca-edital" style="flex:1">'; // abre o select
+    html += '<option value="">' + T('ed_sim_banca_sel') + '</option>'; // opção "escolha"
+    for (const b of MotorSimulado.bancasDoBanco()) {        // percorre as bancas do banco
+      const marcada = b.nome === bancaSugerida ? ' selected' : ''; // pré-seleciona a detectada
+      html += '<option value="' + this.escape(b.nome) + '"' + marcada + '>' + this.escape(b.nome) + ' (' + b.quantidade + ')</option>'; // opção com contagem
+    }
+    html += '</select>';                                    // fecha o select
+    html += '<button class="botao botao-contorno pequeno" id="btn-sim-banca" type="button">' + T('ed_sim_banca_btn') + '</button>'; // botão de montar
+    html += '</div></div>';                                 // fecha linha e campo
     // Datas importantes + contagem regressiva
     html += '<div class="titulo-secao" style="margin:1.2rem 0 0.6rem"><h3>' + T('ed_datas_t') + '</h3></div>'; // subtítulo
     html += this.blocoDatas(analise);                       // desenha as datas e o contador
@@ -348,6 +364,46 @@ const EditalUI = {
         destino.innerHTML = this.blocoDicasBanca(info);     // desenha as dicas achadas
       });
     }
+
+    // TEAM_005: liga o botão "montar simulado desta banca" (dropdown do cartão da banca)
+    const btnSimBanca = document.getElementById('btn-sim-banca'); // pega o botão criado
+    if (btnSimBanca) {                                      // se o botão existe
+      btnSimBanca.addEventListener('click', () => {         // no clique
+        const sel = document.getElementById('sim-banca-edital'); // o dropdown de banca
+        if (!sel || !sel.value) {                           // nenhuma banca escolhida?
+          App.torrada(T('toast_sim_banca'), 'erro');        // avisa para escolher uma
+          return;                                           // não segue
+        }
+        SimuladoUI.abrir({ banca: sel.value, origem: 'edital' }); // abre o simulado já com a banca filtrada
+        App.irPara('simulado');                             // navega para a tela do simulado
+      });
+    }
+  },
+
+  // TEAM_005: converte o rótulo da banca detectada ("Vunesp", "FATEC") no nome
+  // que o banco de questões usa ("Vunesp", "FATEC/ETEC (vestibular)").
+  // Ordem: igualdade exata → nomes que se contêm (prefere o mais curto) →
+  // primeiro nome antes da "/" contido no banco ("COMVEST" → "Unicamp (Comvest)").
+  bancaBancoDaDetectada(rotulo) {
+    if (!rotulo) return '';                                 // sem banca detectada, sem sugestão
+    const normal = AnaliseEdital.normalizar(rotulo);        // rótulo normalizado
+    const bancas = MotorSimulado.bancasDoBanco();           // bancas que existem no banco
+    let alvo = bancas.find(b => AnaliseEdital.normalizar(b.nome) === normal); // 1) igualdade exata
+    if (!alvo) {                                            // não achou exata? tenta contenção
+      const candidatas = bancas.filter(b => {               // nomes que se contêm
+        const n = AnaliseEdital.normalizar(b.nome);         // nome do banco normalizado
+        return n.includes(normal) || normal.includes(n);    // um contém o outro?
+      });
+      alvo = candidatas.sort((a, b) => a.nome.length - b.nome.length)[0]; // prefere o mais curto (o puro, não o combinado)
+    }
+    if (!alvo) {                                            // ainda não? tenta o nome principal
+      const principal = normal.split('/')[0].trim();        // "COMVEST/UNICAMP" → "COMVEST"
+      if (principal.length >= 3) {                          // evita sigla curta demais
+        const candidatas = bancas.filter(b => AnaliseEdital.normalizar(b.nome).includes(principal)); // contém o principal?
+        alvo = candidatas.sort((a, b) => a.nome.length - b.nome.length)[0]; // prefere o mais curto
+      }
+    }
+    return alvo ? alvo.nome : '';                           // devolve o nome no banco (ou vazio)
   },
 
   // Desenha o bloco de dicas de uma banca (detectada ou digitada pelo usuário)

@@ -430,20 +430,33 @@ const AnaliseEdital = {
 
   // ---------- BANCA ORGANIZADORA ----------
   // Descobre qual banca vai organizar o concurso (se o edital disser)
+  // TEAM_005: casa o apelido como PALAVRA INTEIRA — antes o indexOf achava
+  // "ETEC" dentro de "DETECÇÃO"/"DETECTOR" e qualquer edital saía como Etec.
+  // Agora todas as ocorrências entram na disputa: ganha quem tem declaração de
+  // banca colada no nome ("banca organizadora: FGV"); no empate, a primeira do texto.
   extrairBanca(texto) {
     const normal = this.normalizar(texto);                  // texto normalizado
+    let melhor = null;                                      // melhor candidata até agora
     for (const banca of this.BANCAS) {                      // percorre as bancas conhecidas
       for (const padrao of banca.padroes) {                 // percorre os apelidos
-        const pos = normal.indexOf(padrao);                 // onde o apelido aparece
-        if (pos === -1) continue;                           // não apareceu, tenta o próximo
-        // Olha uma janelinha em volta para ver se o contexto é mesmo de banca
-        const janela = normal.slice(Math.max(0, pos - 160), pos + 160); // texto em volta
-        if (/(BANCA|ORGANIZADORA|ORGANIZACAO|REALIZACAO|APLICACAO|COMISSAO|EXECUCAO|INSTITUTO|FUNDACAO|EMPRESA)/.test(janela)) { // contexto certo?
-          return { rotulo: banca.rotulo, trecho: this.limparTrecho(janela) }; // devolve a banca achada
+        const alvo = this.normalizar(padrao);               // normaliza o apelido
+        const regex = new RegExp('\\b' + this.escaparRegex(alvo) + '\\b', 'g'); // palavra inteira, todas as ocorrências
+        for (const m of normal.matchAll(regex)) {           // percorre cada ocorrência do apelido
+          const pos = m.index;                              // onde ela apareceu
+          const janela = normal.slice(Math.max(0, pos - 160), pos + 160); // contexto largo em volta
+          const perto = normal.slice(Math.max(0, pos - 60), pos + 60);  // contexto curto em volta
+          // Contexto forte = a linha declara "banca/organizadora" colada no nome
+          const declarada = /(BANCA|ORGANIZADORA|ORGANIZACAO)/.test(perto); // declaração explícita?
+          const contexto = /(BANCA|ORGANIZADORA|ORGANIZACAO|REALIZACAO|APLICACAO|COMISSAO|EXECUCAO|INSTITUTO|FUNDACAO|EMPRESA)/.test(janela); // contexto certo?
+          if (!contexto) continue;                          // menção sem contexto de banca — ignora
+          const forca = declarada ? 2 : 1;                  // declaração explícita pesa o dobro
+          if (!melhor || forca > melhor.forca || (forca === melhor.forca && pos < melhor.pos)) { // achou candidata melhor?
+            melhor = { rotulo: banca.rotulo, trecho: this.limparTrecho(janela), pos: pos, forca: forca }; // guarda a candidata
+          }
         }
       }
     }
-    return null;                                            // não achou banca
+    return melhor ? { rotulo: melhor.rotulo, trecho: melhor.trecho } : null; // devolve a vencedora (ou nada)
   },
 
   // Acha as dicas de uma banca pelo nome informado (ou digitado pelo usuário)

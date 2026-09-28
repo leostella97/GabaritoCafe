@@ -32,7 +32,7 @@ const SimuladoUI = {
     this.estado.materiasEdital = opcoes.materias || [];     // guarda as matérias do edital
     this.estado.soEdital = !!(opcoes.materias && opcoes.materias.length); // liga o filtro do edital se veio
     this.estado.filtroEnsinos = opcoes.ensinos || [];       // nível de ensino sugerido (edital)
-    this.estado.filtroBanca = '';                           // banca começa sem filtro
+    this.estado.filtroBanca = opcoes.banca || '';           // TEAM_005: banca pré-escolhida (edital) ou sem filtro
     this.estado.refazendo = false;                          // não é refazer
     this.renderizarConfig();                                // desenha a configuração
   },
@@ -195,6 +195,12 @@ const SimuladoUI = {
       caixa.querySelectorAll('#sim-ensinos .chip-opcao').forEach(chip => { // percorre os chips
         if (e.filtroEnsinos.includes(chip.dataset.ensino)) chip.classList.add('ativa'); // marca os escolhidos
       });
+    }
+
+    // TEAM_005: pré-seleciona a banca que veio de fora (dropdown do edital)
+    if (e.filtroBanca) {                                    // se veio banca sugerida
+      const selBanca = document.getElementById('sim-banca'); // o dropdown de banca
+      if (selBanca) selBanca.value = e.filtroBanca;         // marca a banca escolhida
     }
 
     this.atualizarDisponiveis();                            // preenche o aviso inicial

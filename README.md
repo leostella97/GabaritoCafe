@@ -3,7 +3,7 @@
 > **Estude com sabor de aprovação.**
 > Um sistema de estudos para concursos públicos e vestibulares que roda 100% no seu navegador: você importa o edital, descobre o que estudar, faz simulados com correção comentada e acompanha seu progresso — tudo num clima de cafeteria.
 >
-> 🤖 *Projeto desenvolvido com auxílio de inteligência artificial
+> *Um projeto de Leonardo Stella de Oliveira*
 
 ---
 
@@ -43,7 +43,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | Funcionalidade | Como funciona |
 |---|---|
 | 📄 **Importação de edital** | Arraste o PDF do edital/manual do candidato (ou cole o texto). O app lê o PDF direto no navegador com PDF.js. |
-| 🔍 **Análise inteligente do edital** | Detecta cargos (incluindo carreiras famosas: PF, PRF, PM, GCM, polícia penal, tribunais, INSS, bancário...), matérias e o **peso de cada uma na prova** (×20, ×15...), **banca organizadora** — com **dicas de prova da banca** e, se o edital não a identificar, você digita o nome e o sistema entrega as dicas —, **datas** (inscrições, prova, **TAF** e resultado — com contagem regressiva), **vagas, salário, taxa, número de questões, validade, carga horária e cadastro reserva**, escolaridade exigida (que já sugere o filtro de nível do simulado), **requisitos típicos** (CNH, TAF, antecedentes, toxicológico...) e o **conteúdo programático tópico por tópico** — cada tópico é clicável e abre um **modal com explicação e aula no YouTube** — com nota de confiança de 0 a 100. |
+| 🔍 **Análise inteligente do edital** | Detecta cargos (incluindo carreiras famosas: PF, PRF, PM, GCM, polícia penal, tribunais, INSS, bancário...), matérias e o **peso de cada uma na prova** (×20, ×15...), **banca organizadora** — com **dicas de prova da banca**, um **dropdown opcional para montar simulado só com questões daquela banca** e, se o edital não a identificar, você digita o nome e o sistema entrega as dicas —, **datas** (inscrições, prova, **TAF** e resultado — com contagem regressiva), **vagas, salário, taxa, número de questões, validade, carga horária e cadastro reserva**, escolaridade exigida (que já sugere o filtro de nível do simulado), **requisitos típicos** (CNH, TAF, antecedentes, toxicológico...) e o **conteúdo programático tópico por tópico** — cada tópico é clicável e abre um **modal com explicação e aula no YouTube** — com nota de confiança de 0 a 100. |
 | 💡 **Tela de dicas** | 16 dicas importantes em 4 categorias (rotina, técnicas de estudo, hora da prova, corpo e véspera) + as dicas rápidas de prova. |
 | 🎯 **Onde focar agora** | O dashboard analisa seu histórico, aponta a matéria mais fraca e cria um simulado focado nela com um clique. |
 | 🗺️ **Plano de estudo** | Para cada matéria detectada, mostra o que mais cai e por onde começar (ou avisa honestamente se ainda não tem resumo daquela matéria). Clicar no nome da matéria abre um **modal com os tópicos**; clicar num tópico abre a **explicação (por que cai + como estudar) e um link de aula no YouTube**. |
@@ -193,7 +193,7 @@ A análise é uma **heurística honesta** (sem servidor, sem IA paga) — e fico
 2. **Normalização**: acentos viram letras simples e tudo vira maiúsculo (PDFs costumam bagunçar acentos);
 3. **Cargos**: procura a seção "DOS CARGOS/VAGAS", varre linhas com palavras típicas (Agente, Analista, Técnico, Professor...) e limpa numeração, salários e vagas — parando quando começa a próxima seção (para não confundir "requisitos" com "cargo");
 4. **Matérias**: compara o texto com um catálogo de **32 matérias** e marca quais já têm questões no banco. A comparação é por **palavra inteira**, então "ARITMÉTICA" não vira "ÉTICA" 😄;
-5. **Banca organizadora**: reconhece **19 bancas** (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, AOCP, IDECAN, QUADRIX...) e confirma pelo contexto ("banca", "organizadora", "realização");
+5. **Banca organizadora**: reconhece **26 bancas** (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, AOCP, IDECAN, QUADRIX...) por **palavra inteira** com contexto ("banca", "organizadora") — "detecção" não vira mais "ETEC" — e declarações explícitas ("banca organizadora: X") pesam mais que citações soltas;
 6. **Datas**: acha datas em dois formatos (12/03/2025 e "12 de março de 2025") e classifica cada uma pelo **contexto da própria linha**: inscrições, prova ou resultado. Com a data da prova, o app mostra a **contagem regressiva** em dias;
 7. **Números**: extrai vagas, faixa salarial, taxa de inscrição, número de questões e validade do concurso;
 8. **Escolaridade**: identifica os níveis exigidos (Fundamental, Médio, Superior);
@@ -275,7 +275,7 @@ node --check js/arquivo.js   # (um por um)
 
 ## 💚 Créditos
 
-Feito com ☕, carinho e muitas horas de estudo — **por estudantes, para estudantes**.
+**Leonardo Stella de Oliveira** — feito com ☕, carinho e muitas horas de estudo, **por estudantes, para estudantes**.
 
 Nenhum dado sai do seu navegador. Nenhuma pegadinha fora da prova. 😉
 
