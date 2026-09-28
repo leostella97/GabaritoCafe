@@ -24140,4 +24140,567 @@ const BancoQuestoes = [
     dica: 'Instituto Mais troca os dois: SIMPÁTICO = alerta/luta-fuga; PARASSIMPÁTICO = calma/digestão. Adrenalina no sangue é a assinatura do simpático — use isso para marcar sem dúvida.', // pegadinha
     video: 'sistema nervoso simpatico parassimpatico resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 3 (+100, todas as matérias), bloco 1/4 JURÍDICO:
+  // Constitucional c37–40, Administrativo a34–37, Previdenciário v31–34,
+  // Ética et40–42, Penal d45–47, Trabalho tr48–50, Criminologia k46–48,
+  // Legislação lg43–45.
+  // ============================================================
+
+  // ---- Direito Constitucional (c37–c40) ----
+  {
+    id: 'c37',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direito de greve',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Sobre o direito de greve do servidor público civil, a Constituição de 1988 estabelece que:', // pergunta
+    alternativas: [                     // opções
+      'é absolutamente proibido a servidores', // opção
+      'é garantido e exercido nos termos e nos limites definidos em lei específica', // correta
+      'dispensa qualquer lei para seu exercício', // opção
+      'só existe para militares', // opção
+      'é idêntico ao do setor privado, sem limites', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 37, VII: ao servidor civil é garantido o direito de greve, exercido "nos termos e nos limites definidos em lei específica". Como a lei complementar que regulamenta ainda não existe, o STF autoriza greve, com cautelas e sem abuso.', // explicação
+    dica: 'FUNDATEC joga os extremos: "proibido" e "sem limites" são ambos errados. A fórmula da CF: DIREITO SIM, mas nos limites da lei específica — pendente de regulamentação não significa inexistência.', // pegadinha
+    video: 'direito de greve servidor publico artigo 37 resumo' // busca no YouTube
+  },
+  {
+    id: 'c38',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Propriedade e função social', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O princípio da função social da propriedade (art. 5º, XXIII) significa que:', // pergunta
+    alternativas: [                     // opções
+      'a propriedade pode ser tomada sem indenização a qualquer tempo', // opção
+      'só existe propriedade privada urbana', // opção
+      'a propriedade é garantida desde que cumpra sua função social — o descumprimento pode gerar desapropriação', // correta
+      'o Estado não pode adquirir bens', // opção
+      'terra produtiva pode ser desapropriada para reforma agrária', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O direito de propriedade é garantido, MAS condicionado: a propriedade deve atender sua função social. Terra improdutiva pode ser desapropriada para reforma agrária (com indenização em títulos); urbana sem função pode ser objeto de instrumentos do Estatuto da Cidade.', // explicação
+    dica: 'Copeve inverte a exceção: para reforma agrária é a terra IMPRODUTIVA que pode ser desapropriada — produtiva não. E "sem indenização" é errado: sempre há indenização (em títulos para reforma agrária).', // pegadinha
+    video: 'funcao social da propriedade desapropriacao resumo' // busca no YouTube
+  },
+  {
+    id: 'c39',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Intervenção federal',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'A intervenção federal nos estados, prevista nos arts. 34 e 35 da CF, é medida que:', // pergunta
+    alternativas: [                     // opções
+      'é usada em casos excepcionais — como repelir invasão estrangeira, manter a integridade nacional ou garantir a ordem — executada por interventor nomeado', // correta
+      'substitui a federação permanentemente', // opção
+      'pode ser decretada por qualquer prefeito', // opção
+      'é igual ao estado de defesa', // opção
+      'acontece a cada mudança de governo', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A intervenção é excepcionalidade constitucional: a União entra no estado (e o estado no município) em hipóteses fechadas do art. 34 — invasão, grave perturbação da ordem, não pagamento de dívida etc. Dura o tempo necessário e é exercida por interventor.', // explicação
+    dica: 'Selecon confunde intervenção com estado de defesa/sítio: intervenção = União assume a administração do estado; estado de defesa = restringe direitos localizadamente. As causas do art. 34 são rol fechado — não basta "vontade" do governo.', // pegadinha
+    video: 'intervencao federal art 34 35 hipoteses resumo' // busca no YouTube
+  },
+  {
+    id: 'c40',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Liberdade religiosa',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Sobre a liberdade de consciência e de crença (art. 5º, VI a VIII), é correto afirmar que:', // pergunta
+    alternativas: [                     // opções
+      'só religiões históricas têm proteção', // opção
+      'o Estado pode definir uma religião oficial', // opção
+      'crença atea não é protegida', // opção
+      'a liberdade de crença é inviolável, ninguém pode ser privado de direitos por convicção religiosa e há proteção a cultos, liturgias e assistência religiosa', // correta
+      'o culto só é livre para maioria populacional', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A CF garante liberdade de consciência e crença (inclusive ateísmo), livre exercício dos cultos, proteção aos locais de culto e liturgias e assistência religiosa nas entidades civis e militares de internação coletiva. Não há religião oficial.', // explicação
+    dica: 'IBGP reduz a proteção: protegido não é só "quem tem religião" — o ateu e o agnóstico também são. E o Brasil é laico: nenhuma igreja oficial, mas o Estado colabora (assistência religiosa em hospitais/prisões).', // pegadinha
+    video: 'liberdade religiosa consciencia artigo 5 resumo' // busca no YouTube
+  },
+
+  // ---- Direito Administrativo (a34–a37) ----
+  {
+    id: 'a34',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Desapropriação',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A desapropriação é instituto pelo qual o poder público:', // pergunta
+    alternativas: [                     // opções
+      'ocupa bens públicos para uso comum', // opção
+      'confisca bens por crime do proprietário', // opção
+      'empresta o imóvel por tempo limitado', // opção
+      'tomba o bem como patrimônio histórico', // opção
+      'adquire compulsoriamente a propriedade de um bem por interesse ou utilidade pública, mediante indenização prévia e justa', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Desapropriação = transferência forçada da propriedade ao Estado por necessidade, utilidade pública ou interesse social — sempre com indenização justa e, em regra, prévia. Ex.: alargar uma estrada, construir hospital.', // explicação
+    dica: 'FUNDATEC troca desapropriação com institutos vizinhos: confiscar = pena/crime; tombar = proteção sem tirar a posse; servidão = uso parcial; desapropriação = perde o bem, recebe indenização. Regra: indenização PRÉVIA.', // pegadinha
+    video: 'desapropriacao indenizacao previa justa resumo' // busca no YouTube
+  },
+  {
+    id: 'a35',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poder regulamentar',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O poder regulamentar, exercido pelos chefes do Poder Executivo, permite:', // pergunta
+    alternativas: [                     // opções
+      'criar novos crimes por decreto', // opção
+      'editar decretos e regulamentos para dar fiel execução à lei, sem criar obrigações além dela', // correta
+      'revogar a Constituição', // opção
+      'legislar em lugar do Congresso', // opção
+      'criar impostos por decreto autônomo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 84, IV permite ao Presidente (e, por simetria, governadores e prefeitos) editar decretos e regulamentos para a fiel execução das leis. O regulamento detalha a lei — não pode inovar criando obrigação, direito ou sanção não previstos.', // explicação
+    dica: 'Copeve cobra o limite do decreto: regulamenta a lei, não a substitui — decreto NÃO cria crime, tributo nem obrigação nova. Exceção famosa: o decreto AUTÔNOMO (art. 84, VI) sobre organização e extinção de cargos vagos.', // pegadinha
+    video: 'poder regulamentar decreto art 84 resumo' // busca no YouTube
+  },
+  {
+    id: 'a36',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Sanções disciplinares',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'Sobre as penas disciplinares do servidor público, é correto que:', // pergunta
+    alternativas: [                     // opções
+      'a demissão dispensa processo por urgência', // opção
+      'a advertência verbal vale como penalidade formal máxima', // opção
+      'não existem graus de punição', // opção
+      'advertência por escrito serve para infrações leves, enquanto suspensão e demissão exigem processo administrativo disciplinar com ampla defesa', // correta
+      'o salário pode ser retido como punição permanente', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A graduação segue a gravidade: advertência (escrita, faltas leves) → suspensão → demissão/exoneração de bem das finanças. As penas graves só saem por PAD com contraditório e ampla defesa — não há punição sumária do chefe.', // explicação
+    dica: 'Selecon joga "demissão direta sem processo" — sempre errado: PAD com defesa é obrigatório. E cuidado: advertência é POR ESCRITO na lei 8.112 — "verbal" não é pena formal.', // pegadinha
+    video: 'penas disciplinares servidor pad advertencia resumo' // busca no YouTube
+  },
+  {
+    id: 'a37',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Delegação de competência',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A delegação de competência administrativa caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'transferir definitivamente a função a outro órgão', // opção
+      'vender a função pública a particulares', // opção
+      'atribuir parte da competência de um órgão a outro órgão ou agente, revogável ou avocável a qualquer tempo', // correta
+      'criar um novo cargo público', // opção
+      'extinguir o órgão delegante', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Delegar = transferir o EXERCÍCIO (não a titularidade) da competência a outro órgão/agente do mesmo ente; a delegação é precária — revogável ou avocável a qualquer tempo. Distinta da avocação (trazer para si a atribuição do subordinado, admitida excepcionalmente).', // explicação
+    dica: 'Instituto Mais confunde delegação com transferência definitiva e com avocação: delegar = emprestar a tarefa (volta a qualquer tempo); avocar = puxar a tarefa do subordinado. Competência é do ente — nunca "se vende".', // pegadinha
+    video: 'delegacao avocacao competencia administrativa resumo' // busca no YouTube
+  },
+
+  // ---- Direito Previdenciário (v31–v34) ----
+  {
+    id: 'v31',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regra de transição — pontos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A regra de transição por pontos da Reforma de 2019 exige:', // pergunta
+    alternativas: [                     // opções
+      'idade + tempo de contribuição somando pontuação mínima progressiva (90 para mulher e 100 para homem, hoje)', // correta
+      'apenas 65 anos de idade', // opção
+      'somente 15 contribuições mensais', // opção
+      'dispensa de idade mínima', // opção
+      '10 anos de contribuição para todos', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O sistema de pontos soma idade + tempo de contribuição: mínimo de 30/35 anos de contribuição (mulher/homem) mais pontuação progressiva — que já chegou a 90/100 e sobe até 100/105. É regra de transição para quem estava contribuindo em 2019.', // explicação
+    dica: 'FUNDATEC troca as regras de transição: pontos = idade+contribuição somados; idade mínima progressiva = outra regra; pedágio 50%/100% = para quem estava perto de se aposentar em 2019.', // pegadinha
+    video: 'regra de pontos transicao reforma 2019 resumo' // busca no YouTube
+  },
+  {
+    id: 'v32',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Perícia médica',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Para a concessão do benefício por incapacidade (auxílio por incapacidade e aposentadoria por incapacidade), a prova essencial é:', // pergunta
+    alternativas: [                     // opções
+      'apenas atestado do médico da família', // opção
+      'declaração do empregador', // opção
+      'testemunho de vizinhos', // opção
+      'a avaliação da perícia médica do INSS, que atesta a incapacidade para o trabalho', // correta
+      'nenhuma prova é exigida', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Benefícios por incapacidade só saem após perícia médica do INSS (ou, na ausência, perícia judicial contratada): o perito avalia se o segurado está temporária ou permanentemente incapaz para o trabalho habitual e reabilitação possível.', // explicação
+    dica: 'Copeve minimiza a perícia: atestado particular ajuda como documento, mas NÃO garante o benefício — a palavra final é do perito do INSS. E há reavaliações periódicas enquanto durar o auxílio.', // pegadinha
+    video: 'pericia medica inss auxilio incapacidade resumo' // busca no YouTube
+  },
+  {
+    id: 'v33',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Acumulação de benefícios',   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Após a Reforma de 2019, a acumulação de pensão por morte com aposentadoria é:', // pergunta
+    alternativas: [                     // opções
+      'vedada em qualquer hipótese', // opção
+      'integral dos dois valores, sem limite', // opção
+      'possível apenas para juízes', // opção
+      'idêntica para servidores e particulares, sem ajuste', // opção
+      'permitida, mas com limitação — 100% do benefício mais vantajoso mais percentuais escalonados do segundo (de 10% a 100% conforme o valor)', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Desde a EC 103/19, pensão + aposentadoria (ou pensões entre si) podem acumular, mas o segundo benefício é pago em faixas: 100% até 1 SM, depois 60%, 40%, 20% e 10% acima de 4 SM — o maior sai integral.', // explicação
+    dica: 'IBGP joga os extremos: "nunca acumula" e "soma integral" estão errados. Regra atual: acumula SIM, com redutor no menor benefício. Auxílio por incapacidade NUNCA acumula com aposentadoria — isso continua proibido.', // pegadinha
+    video: 'acumulo beneficios pensao aposentadoria ec103 resumo' // busca no YouTube
+  },
+  {
+    id: 'v34',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Período de graça',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O "período de graça" na Previdência Social é:', // pergunta
+    alternativas: [                     // opções
+      'o tempo para trocar de emprego', // opção
+      'o período de carência de novos benefícios', // opção
+      'um desconto nas contribuições', // opção
+      'apenas a data de aniversário do segurado', // opção
+      'o prazo em que o segurado mantém a qualidade de segurado mesmo sem contribuir — em regra, 12 meses', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Parou de contribuir? O segurado não perde a proteção na hora: mantém a "qualidade de segurado" por até 12 meses (prorrogáveis por +12 com mais de 120 contribuições ou desemprego). Se adoecer nesse prazo, ainda tem direito aos benefícios.', // explicação
+    dica: 'Instituto Mais confunde graça com carência: CARÊNCIA = número mínimo de meses pagos para ter direito; GRAÇA = tempo que a proteção sobrevive depois de parar de pagar. Pré-requisito × proteção que sobra.', // pegadinha
+    video: 'periodo de graca qualidade de segurado resumo' // busca no YouTube
+  },
+
+  // ---- Ética (et40–et42) ----
+  {
+    id: 'et40',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Comissão de Ética — sanções', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A penalidade que as Comissões de Ética podem aplicar diretamente ao servidor público é:', // pergunta
+    alternativas: [                     // opções
+      'demissão', // opção
+      'multa em dinheiro', // opção
+      'a censura — às demais sanções cabe à autoridade competente, por indicação da comissão', // correta
+      'prisão administrativa', // opção
+      'suspensão de 30 dias', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Pelo Decreto 1.171/94, a única pena que a Comissão de Ética aplica é a CENSURA — registrada no assentamento funcional. Faltas mais graves a comissão INFORMA à chefia ou sugere abertura de sindicância/PAD.', // explicação
+    dica: 'FUNDATEC exagera o poder da comissão: demitir, multar, suspender — NÃO é papel dela. Papel da Comissão de Ética = orientar, aconselhar e censurar. Grave? Ela repassa para quem pune de fato.', // pegadinha
+    video: 'comissao de etica censura decreto 1171 resumo' // busca no YouTube
+  },
+  {
+    id: 'et41',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Denúncia de irregularidades', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "whistleblowing" (denúncia interna protegida) no serviço público consiste em:', // pergunta
+    alternativas: [                     // opções
+      'a prática de denunciar irregularidades por canais oficiais, com proteção ao denunciante de boa-fé contra retaliações', // correta
+      'espionar colegas no horário de trabalho', // opção
+      'vazar dados públicos na internet', // opção
+      'divulgar denúncias falsas', // opção
+      'um crime previsto na legislação', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Canal de denúncia/whistleblowing é ferramenta de integridade: o agente informa irregularidades por meios institucionais (ouvidoria, comissão de ética, CGU) e a boa-fé o protege de retaliação — sigilo e, em regra, opção de anonimato.', // explicação
+    dica: 'Copeve cobra o termo da governança pública moderna: não é "fofoca" nem vazamento — é DUTY de comunicar + PROTEÇÃO de quem comunica de boa-fé. Denúncia falsa de má-fé, claro, é outra história.', // pegadinha
+    video: 'whistleblowing canal de denuncia integridade resumo' // busca no YouTube
+  },
+  {
+    id: 'et42',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Discrição no serviço público', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Sobre o uso de redes sociais pelo servidor público, o dever ético exige:', // pergunta
+    alternativas: [                     // opções
+      'proibição total de ter perfis', // opção
+      'postar qualquer opinião em nome do órgão', // opção
+      'usar o cargo para ganhar seguidores', // opção
+      'vazar documentos internos para curtidas', // opção
+      'discrição — comentários que comprometam a dignidade da função, sigilo funcional ou a imagem do serviço violam o dever ético', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O servidor tem vida online, mas o dever de discrição segue: não se expõe assunto sigiloso, não se fala "em nome" do órgão sem autorização e não se usa a função para vantagem pessoal — a regra do cargo vale também na rede.', // explicação
+    dica: 'IBGP joga os extremos: "pode tudo" (viola sigilo) e "proibido ter rede" (viola a vida privada) estão errados. O fio condutor é sempre o mesmo: o que a lei e o cargo exigem no trabalho vale no perfil pessoal.', // pegadinha
+    video: 'servidor redes sociais etica sigilo resumo' // busca no YouTube
+  },
+
+  // ---- Direito Penal (d45–d47) ----
+  {
+    id: 'd45',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Falsidade ideológica',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O crime de falsidade ideológica (art. 299 do CP) configura-se quando o agente:', // pergunta
+    alternativas: [                     // opções
+      'rasura e destrói um documento verdadeiro', // opção
+      'omite ou insere declaração falsa em documento público ou particular, com fim de prejudicar direito ou criar obrigação', // correta
+      'forja a assinatura alheia em papel em branco', // opção
+      'faz xerox de um diploma', // opção
+      'mente em conversa informal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Falsidade ideológica = o documento é "verdadeiro" na forma, mas o CONTEÚDO é falso (omitir ou inserir declaração diversa da que devia constar para alterar a verdade). Difere da falsificação material, que altera o próprio documento.', // explicação
+    dica: 'FUNDATEC cruza ideológica × material: IDEOLÓGICA = conteúdo mentiroso em documento válido (atestado, registro); MATERIAL/FORJA = falsifica a assinatura ou o próprio papel. Conversa informal não é documento.', // pegadinha
+    video: 'falsidade ideologica artigo 299 documento resumo' // busca no YouTube
+  },
+  {
+    id: 'd46',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crime continuado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O crime continuado (art. 71 do CP) ocorre quando o agente:', // pergunta
+    alternativas: [                     // opções
+      'pratica um único crime longo', // opção
+      'é flagrado uma única vez', // opção
+      'desiste do crime no meio', // opção
+      'pratica dois ou mais crimes da mesma espécie, em condições de tempo, lugar e forma semelhantes — respondendo por um só, com pena aumentada', // correta
+      'comete crimes diferentes sem relação', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Continuidade delitiva: vários crimes da MESMA natureza, em contexto semelhante (tempo, lugar, modo), cometidos por repetição — o juiz trata como um só crime e aumenta a pena de 1/6 a 2/3. Súmula: não se aplica quando os crimes são materialmente diversos.', // explicação
+    dica: 'Selecon cobra o efeito: vários furtos "em série" no mesmo padrão = UM crime continuado com pena elevada — não soma de penas separadas. Crimes diferentes (furto + lesão) saem do art. 71.', // pegadinha
+    video: 'crime continuado artigo 71 cp resumo' // busca no YouTube
+  },
+  {
+    id: 'd47',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Ameaça',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O crime de ameaça (art. 147 do CP) consiste em:', // pergunta
+    alternativas: [                     // opções
+      'agredir fisicamente a vítima', // opção
+      'ofender a honra por escrito', // opção
+      'fazer denúncia verdadeira à polícia', // opção
+      'promover chantagem por dinheiro', // opção
+      'prometer a alguém, por palavra, escrito ou gesto, mal injusto e grave', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Ameaça = prometer mal injusto e grave (matar, machucar, destruir) por qualquer meio. Se o autor exige vantagem em troca de não cumprir o mal, vira EXTORSÃO. Se é só ofensa moral, é injúria — não ameaça.', // explicação
+    dica: 'Instituto Mais confunde ameaça com extorsão e constrangimento ilegal: AMEAÇA = prometer mal; EXTORSÃO = mal + pedir dinheiro/vantagem; CONSTRANGIMENTO = obrigar a fazer/não fazer com violência ou grave ameaça.', // pegadinha
+    video: 'crime de ameaca artigo 147 extorsao resumo' // busca no YouTube
+  },
+
+  // ---- Direito do Trabalho (tr48–tr50) ----
+  {
+    id: 'tr48',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Intervalo interjornada',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O intervalo mínimo que a lei garante ENTRE duas jornadas de trabalho (interjornada) é de:', // pergunta
+    alternativas: [                     // opções
+      '6 horas', // opção
+      '8 horas', // opção
+      '11 horas consecutivas de descanso', // correta
+      '24 horas', // opção
+      '48 horas', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Art. 66 CLT: entre uma jornada e outra devem passar no mínimo 11 horas consecutivas de descanso. Diferente do intrajornada (almoço, dentro do dia: 1h a 2h para jornada >6h).', // explicação
+    dica: 'FUNDATEC troca os intervalos: INTRAjornada = dentro do dia (almoço, 15min a 2h conforme a jornada); INTERjornada = entre dias (11h). As siglas salvam: intra = dentro; inter = entre.', // pegadinha
+    video: 'intervalo interjornada intrajornada 11 horas resumo' // busca no YouTube
+  },
+  {
+    id: 'tr49',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Banco de horas',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'O banco de horas é instituto pelo qual:', // pergunta
+    alternativas: [                     // opções
+      'as horas extras são sempre pagas em dobro', // opção
+      'o empregado trabalha sem limite de jornada', // opção
+      'a jornada é obrigatoriamente de 12 horas', // opção
+      'os salários são depositados em poupança', // opção
+      'as horas extras são compensadas com folgas/redução de jornada em outro dia, por acordo ou convenção, em prazo de até 12 meses', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Banco de horas = trocar pagamento de hora extra por tempo de descanso: o excedente vira "crédito" compensado com folga ou jornada menor. Por acordo individual o prazo é 6 meses; por convenção coletiva, 12 meses (regra pós-2017).', // explicação
+    dica: 'IBGP cobra os prazos: acordo INDIVIDUAL = 6 meses; ACORDO COLETIVO/convenção = 12 meses. E o banco não apaga a hora extra — adia a compensação; não compensou no prazo? Paga como hora extra.', // pegadinha
+    video: 'banco de horas compensacao horas extras resumo' // busca no YouTube
+  },
+  {
+    id: 'tr50',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Férias coletivas',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'As férias coletivas no Direito do Trabalho são:', // pergunta
+    alternativas: [                     // opções
+      'as férias individuais de cada empregado', // opção
+      'as concedidas simultaneamente a todos os empregados de uma empresa ou setor, com comunicação ao órgão competente e ao sindicato', // correta
+      'o feriado prolongado nacional', // opção
+      'licença não remunerada', // opção
+      'folgas facultativas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Férias coletivas (arts. 139-141 CLT): a empresa dá férias a todos de um setor/estabelecimento ao mesmo tempo (duas vezes ao ano, máx.), comunicando ao Ministério do Trabalho e ao sindicato. Quem tem direito só a férias proporcionais recebe conforme o período aquisitivo.', // explicação
+    dica: 'Instituto Mais confunde com feriado e licença: férias coletivas são FÉRIAS — remuneradas com o terço constitucional, como as individuais. A diferença é o coletivo do gozo e a comunicação prévia aos órgãos.', // pegadinha
+    video: 'ferias coletivas clt regras resumo' // busca no YouTube
+  },
+
+  // ---- Criminologia (k46–k48) ----
+  {
+    id: 'k46',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Documentoscopia',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A documentoscopia forense é a técnica pericial que analisa:', // pergunta
+    alternativas: [                     // opções
+      'digitais em vidros', // opção
+      'droga em organismo vivo', // opção
+      'dados de celulares', // opção
+      'documentos — autenticidade, falsificações, rasuras, tintas, papel e assinaturas', // correta
+      'sonhos do investigado', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Documentoscopia = perícia em documentos: detecta falsificação, adulteração, rasura, tipo de tinta e papel, comparação de assinaturas e impressões de selos/máquinas — essencial em fraudes bancárias, identidades falsas e falsidade ideológica.', // explicação
+    dica: 'FUNDATEC mistura as perícias: DOCUMENTOscopia = documentos; papiloscopia = digitais; balística = projéteis; toxicologia = drogas/venenos; informática forense = dados digitais. O radical entrega a resposta.', // pegadinha
+    video: 'documentoscopia pericia documentos falsificacao resumo' // busca no YouTube
+  },
+  {
+    id: 'k47',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Perfilação criminal',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A técnica de "criminal profiling" (perfilação criminal) consiste em:', // pergunta
+    alternativas: [                     // opções
+      'inferir características prováveis do autor (perfil psicológico, faixa, hábitos) a partir da análise da cena do crime e do modus operandi', // correta
+      'tirar foto 3x4 do suspeito', // opção
+      'fazer retrato falado sempre', // opção
+      'catalogar antecedentes em ficha', // opção
+      'aplicar teste de DNA em massa', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O profiler analisa a cena, a vítima e o padrão do crime (assinatura, modus operandi) para sugerir traços do provável autor — ferramenta de investigação usada em crimes seriais, desenvolvida pela Unidade de Ciências Comportamentais do FBI.', // explicação
+    dica: 'IBGP confunde perfil com identificação direta: profiling NÃO identifica a pessoa — aponta características prováveis para orientar a busca. Retrato falado e fichas são identificação direta — técnicas diferentes.', // pegadinha
+    video: 'criminal profiling perfil criminal fbi resumo' // busca no YouTube
+  },
+  {
+    id: 'k48',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Entomologia forense',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A entomologia forense contribui para a investigação criminal ao:', // pergunta
+    alternativas: [                     // opções
+      'analisar aranhas venenosas', // opção
+      'rastrear transmissão de doenças', // opção
+      'fazer exame de inseticidas', // opção
+      'localizar esconderijos de drogas', // opção
+      'estudar os insetos que colonizam o cadáver para estimar o intervalo pós-morte (há quanto tempo a vítima morreu)', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Moscas e outros insetos chegam ao corpo em sequência conhecida e com fases de desenvolvimento previsíveis: a espécie e o estágio das larvas permitem estimar o "intervalo pós-morte" — precioso quando o corpo é encontrado dias depois.', // explicação
+    dica: 'Copeve brinca com "ento" (inseto): a técnica serve para DATAR a morte pela fauna cadavérica — complementa sinais cadavéricos (livor, rigor, algor) quando o tempo decorrido é longo.', // pegadinha
+    video: 'entomologia forense insetos cadaver tempo morte resumo' // busca no YouTube
+  },
+
+  // ---- Legislação (lg43–lg45) ----
+  {
+    id: 'lg43',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'ECA — Conselho Tutelar',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O Conselho Tutelar, criado pelo ECA (Lei 8.069/90), é:', // pergunta
+    alternativas: [                     // opções
+      'uma comissão de vereadores', // opção
+      'órgão municipal encarregado por lei de zelar pelos direitos de crianças e adolescentes — atende violações e aplica medidas de proteção', // correta
+      'um tribunal juvenil', // opção
+      'uma ONG de adoção', // opção
+      'parte do Ministério Público', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Conselho Tutelar é órgão permanente, autônomo e não jurisdicional: cada município tem pelo menos um, com 5 conselheiros escolhidos. Recebe denúncias de violação de direitos (maus-tratos, evasão escolar, trabalho infantil) e aplica medidas de proteção.', // explicação
+    dica: 'FUNDATEC mistura as figuras de proteção: Conselho Tutelar NÃO julga (não é vara da infância) e não é MP. Ele zela — denuncia ao MP/Juiz quando preciso. 5 conselheiros, mandato e escolha local.', // pegadinha
+    video: 'conselho tutelar eca funcoes medidas resumo' // busca no YouTube
+  },
+  {
+    id: 'lg44',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Drogas — art. 28',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O art. 28 da Lei 11.343/06 (Lei de Drogas), sobre quem adquire droga para consumo pessoal, prevê:', // pergunta
+    alternativas: [                     // opções
+      'prisão de 2 a 5 anos', // opção
+      'pena de multa pesada apenas', // opção
+      'a internação imediata', // opção
+      'medidas educativas — advertência, prestação de serviços e comparecimento a programa educativo — SEM pena de prisão', // correta
+      'perda de cargo público', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Usuário ≠ traficante: desde 2006 o consumo próprio é despenalizado na prática — restam advertência, prestação de serviços à comunidade e medida educativa. A discussão sobre descriminalização seguiu ao STF (2024) com parâmetros de quantidade.', // explicação
+    dica: 'Selecon cobra a distinção penal: art. 28 (usuário) = NÃO tem prisão; art. 33 (tráfico) = 5 a 15 anos. A fronteira usuário×traficante é o tema mais cobrado da lei — quantidade, contexto e condições ajudam a definir.', // pegadinha
+    video: 'lei de drogas artigo 28 usuario artigo 33 resumo' // busca no YouTube
+  },
+  {
+    id: 'lg45',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Desarmamento',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Segundo o Estatuto do Desarmamento (Lei 10.826/03), portar arma de fogo fora de casa, sem autorização legal, constitui:', // pergunta
+    alternativas: [                     // opções
+      'infração administrativa apenas', // opção
+      'fato lícito', // opção
+      'crime de responsabilidade', // opção
+      'crime, com pena de reclusão', // correta
+      'apenas multa em dinheiro', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O porte ilegal de arma de uso permitido fora de casa é CRIME (art. 10 da Lei 10.826 — reclusão de 2 a 4 anos, hoje); dentro de casa com arma irregular é mera contravenção/irregularidade registral, e o disparo ilegal (art. 15) também é crime.', // explicação
+    dica: 'Instituto Mais troca porte × posse: POSSE irregular dentro de casa = infração menor; PORTAR fora = crime grave. Registro ≠ porte: o registro vale em casa; sair armado exige o porte (excepcional).', // pegadinha
+    video: 'estatuto desarmamento porte posse arma crime resumo' // busca no YouTube
+  },
 ];
