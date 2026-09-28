@@ -87,3 +87,35 @@
   medio=1037, superior=142) · `node --check` ✅ ·
   `testar-analise` 10/10 ✅ · `validar-idiomas` 271 chaves ×3 ✅.
 - Bancas distintas no banco: **28** (23 no lote anterior).
+
+---
+
+## Rodada 4 — "gere mais 100 questões para todas as matérias, commits separados"
+
+### Distribuição
+- **+100 questões** (1.179 → **1.279**), todas as 29 matérias: +4 nas 13
+  menores e +3 nas 16 restantes.
+- Validador estourou duas vezes e foi corrigido no caminho: h28 duplicava
+  h09 (→ virou Quilombo dos Palmares) e comentário-sujo em lg45.
+
+### Commits separados (a pedido do usuário)
+1. `89162fb` bloco jurídico +27: c37–40, a34–37, v31–34, et40–42, d45–47,
+   tr48–50, k46–48, lg43–45.
+2. `2a763ac` bloco humanas +27: h30–33, g35–38, t32–35, fl53–55,
+   so44–46, ar47–49, l52–54, s42–44.
+3. `593fdec` bloco exatas +26: m45–47, r37–40, qm37–40, f38–41,
+   ct38–41, ec51–53, i39–42.
+4. `05e91cf` bloco línguas/saúde/gestão +20: p46–48, e39–42, b50–52,
+   fs41–43, ef39–42, ad49–51.
+5. (docs) README 1.179→1.279 · `sw.js` v7→v8 · este log.
+
+### Limite do arquivo (análise pedida)
+- `banco-questoes.js` ≈ **1,7 MB** após o lote — ainda carrega bem no
+  navegador, mas cada lote futuro de 100 questões acrescenta ~0,4–0,5 MB.
+- Próximo ponto de decisão (próx. de 2 MB / ~1.400 questões): avaliar
+  split por arquivo de matéria ou carregamento por demanda — TODO para
+  equipe futura, sem pressa.
+
+### Verificação
+- `validar-banco` **1279/0** ✅ a cada bloco (facil=329, medio=872,
+  dificil=78; medio=1118, superior=161) · `node --check` ✅ por bloco.
