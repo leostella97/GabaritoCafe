@@ -21984,4 +21984,1030 @@ const BancoQuestoes = [
     dica: 'O "trabalho decente" é o conceito internacional: trabalho produtivo com proteção social, respeito aos direitos e diálogo social. A precarização (uberização extrema, subemprego forçado) é o desafio — a formalização não é "burocracia", é a garantia da dignidade no trabalho.', // pegadinha
     video: 'direito trabalho dignidade valor social trabalho decente' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005: LOTE NOVO — 50 questões nas matérias com menos volume
+  // e estreando bancas que estavam no catálogo de detecção mas sem
+  // questões (QUADRIX, CESGRANRIO, Consulplan, IDECAN, FUMARC, IBADE).
+  // ============================================================
+
+  // ---- Língua Portuguesa (p41–p45) ----
+  {
+    id: 'p41',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Crase',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'Assinale a alternativa em que o emprego da crase está correto:', // pergunta
+    alternativas: [                     // opções
+      'A prova começa às 14 horas e os portões abrem às 13h.', // correta
+      'Entreguei o gabarito à ela antes da prova.', // opção
+      'O relógio da sala começou à atrasar no meio do exame.', // opção
+      'Os fiscais falaram à todos os candidatos.', // opção
+      'Chegamos à pé ao local de prova.' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Crase = preposição "a" + artigo "a". Vale antes de hora determinada ("às 14 horas", "às 13h"). Não ocorre antes de pronome pessoal ("a ela"), verbo ("a atrasar") nem palavra masculina ("a todos", "a pé").', // explicação
+    dica: 'O truque do "ao": troque a expressão pelo masculino — se couber "ao" (ao todos? não; ao relógio? sim), a palavra é masculina e não leva crase. "A pé", "a ela" e verbo nunca levam.', // pegadinha
+    video: 'crase quando usar regras concurso resumo' // busca no YouTube
+  },
+  {
+    id: 'p42',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Ortografia',                 // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'A única palavra escrita corretamente é:', // pergunta
+    alternativas: [                     // opções
+      'previlégiado', // opção
+      'mendingo', // opção
+      'estupides', // opção
+      'impecilho', // opção
+      'paralisado' // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O certo é "paralisado". As demais: privilegiado (sem acento e sem "v" extra), mendigo (com "i"), estupidez (com "z") e empecilho (começa com "e").', // explicação
+    dica: 'Consulplan monta a questão só com erros de troca de letra (v/b, i/e, s/z). Leia cada alternativa pronunciando devagar — a fala entrega a escrita correta.', // pegadinha
+    video: 'ortografia palavras mais cobradas concurso resumo' // busca no YouTube
+  },
+  {
+    id: 'p43',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Conjunções',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'Na frase "Ele não compareceu à prova, ____ estava doente", a conjunção que completa com valor de explicação é:', // pergunta
+    alternativas: [                     // opções
+      'portanto', // opção
+      'pois', // correta
+      'todavia', // opção
+      'contudo', // opção
+      'logo' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Pois" antes da oração introduz a explicação do motivo (ele faltou porque estava doente). "Portanto" e "logo" são conclusivas; "todavia" e "contudo" são adversativas.', // explicação
+    dica: 'IDECAN cobra o VALOR semântico, não o nome da conjunção. Leia a relação entre as orações: a segunda explica a primeira? É explicativa (pois/porque). Contraria? Adversativa (mas/todavia).', // pegadinha
+    video: 'conjuncoes coordenativas explicativas adversativas resumo' // busca no YouTube
+  },
+  {
+    id: 'p44',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Regência verbal',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FCC',                       // banca inspiradora
+    enunciado: 'Assinale a frase correta quanto à regência verbal:', // pergunta
+    alternativas: [                     // opções
+      'O candidato assistiu o vídeo da aula.', // opção
+      'Ele obedeceu as normas do edital.', // opção
+      'A comissão visou ao mérito do recurso.', // correta
+      'Prefiro mais ler do que assistir.', // opção
+      'Chegou em Brasília na véspera da prova.' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '"Visar" no sentido de "ter em vista" é transitivo indireto: visa A algo ("visou ao mérito"). "Assistir" (ver) pede "a": assistiu AO vídeo. "Obedecer" pede "a": obedeceu Às normas. "Preferir" não leva "mais". "Chegar" pede "a": chegou A Brasília.', // explicação
+    dica: 'FCC cobra os quatro verbos favoritos: assistir (a), obedecer (a), visar (a) e preferir (X a Y, sem "mais"). Decore a preposição de cada um — ela troca um verbo por questão.', // pegadinha
+    video: 'regencia verbal assistir obedecer visar preferir resumo' // busca no YouTube
+  },
+  {
+    id: 'p45',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Pontuação',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'O emprego da vírgula está correto em:', // pergunta
+    alternativas: [                     // opções
+      'Os candidatos, chegaram cedo ao local.', // opção
+      'O edital, que foi publicado ontem, traz 40 vagas.', // correta
+      'Estudou bastante, e passou no concurso.', // opção
+      'Comprei, livros e apostilas novas.', // opção
+      'Aprovado, embora, difícil, possível.' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A oração adjetiva explicativa "que foi publicado ontem" intercalada exige par de vírgulas. Nas demais: vírgula separando sujeito do verbo ("Os candidatos, chegaram"), vírgula indevida antes de "e" com mesmo sujeito, e vírgulas picando a frase sem função.', // explicação
+    dica: 'Vunesp adora a "vírgula entre sujeito e verbo" como errada — é sempre a primeira alternativa a conferir. Explicativa intercalada = duas vírgulas; restritiva = nenhuma.', // pegadinha
+    video: 'virgula regras oracao explicativa restritiva resumo' // busca no YouTube
+  },
+
+  // ---- Matemática (m40–m44) ----
+  {
+    id: 'm40',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Porcentagem',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'Um curso preparatório que custava R$ 400 teve desconto de 25%. O preço final é:', // pergunta
+    alternativas: [                     // opções
+      'R$ 320', // opção
+      'R$ 300', // correta
+      'R$ 275', // opção
+      'R$ 350', // opção
+      'R$ 100' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '25% de 400 = 0,25 × 400 = R$ 100 de desconto. Preço final: 400 − 100 = R$ 300. (Atalho: pagar 75% → 0,75 × 400 = 300.)', // explicação
+    dica: 'A pegadinha clássica: 0,25 × 400 = 100 é o DESCONTO, não o preço final — "R$ 100" aparece como alternativa só para te pegar. Desconto de 25% = paga 75% do valor.', // pegadinha
+    video: 'porcentagem desconto calculo rapido resumo' // busca no YouTube
+  },
+  {
+    id: 'm41',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Juros simples',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'Um capital de R$ 2.000 aplicado a juros simples de 3% ao mês durante 5 meses rende:', // pergunta
+    alternativas: [                     // opções
+      'R$ 150', // opção
+      'R$ 200', // opção
+      'R$ 250', // opção
+      'R$ 300', // correta
+      'R$ 400' // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'J = C × i × t = 2.000 × 0,03 × 5 = R$ 300. Nos juros simples o rendimento é proporcional ao tempo: 3% de 2.000 = R$ 60 por mês; 5 × 60 = 300.', // explicação
+    dica: 'CESGRANRIO mistura simples e composto no mesmo enunciado — leia a palavra "simples" duas vezes. No composto seria 2.000 × 1,03⁵, que dá mais de R$ 300.', // pegadinha
+    video: 'juros simples formula exemplos resumo' // busca no YouTube
+  },
+  {
+    id: 'm42',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Regra de três',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'Se 6 digitadores fazem um trabalho em 10 dias, o mesmo trabalho feito por 15 digitadores leva:', // pergunta
+    alternativas: [                     // opções
+      '3 dias', // opção
+      '4 dias', // correta
+      '5 dias', // opção
+      '6 dias', // opção
+      '25 dias' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Grandezas inversamente proporcionais (mais digitadores, menos dias): 6 × 10 = 15 × x → 60 = 15x → x = 4 dias.', // explicação
+    dica: 'Antes de calcular, pergunte: mais pessoas = MENOS dias? É inversa — multiplica em linha (6×10 = 15×x). Se fosse direta, montaria fração. Errar o sentido é o erro nº 1.', // pegadinha
+    video: 'regra de tres inversamente proporcional resumo' // busca no YouTube
+  },
+  {
+    id: 'm43',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'MMC e MDC',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'O mínimo múltiplo comum (MMC) de 12 e 18 é:', // pergunta
+    alternativas: [                     // opções
+      '6', // opção
+      '24', // opção
+      '36', // correta
+      '54', // opção
+      '72' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Fatorando: 12 = 2² × 3 e 18 = 2 × 3². O MMC pega os maiores expoentes: 2² × 3² = 4 × 9 = 36. (Múltiplos de 18: 18, 36, 54… — o primeiro que divide por 12 é 36.)', // explicação
+    dica: 'A pegadinha é o "6" — é o MDC (máximo divisor comum), não o MMC. MMC procura múltiplo COMUM (maior que os números, em geral); MDC procura divisor comum (menor que eles).', // pegadinha
+    video: 'mmc mdc diferenca como calcular resumo' // busca no YouTube
+  },
+  {
+    id: 'm44',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Média aritmética',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'Um candidato fez 4 simulados e tirou 6, 7, 8 e 9. A média aritmética das notas foi:', // pergunta
+    alternativas: [                     // opções
+      '7', // opção
+      '7,5', // correta
+      '8', // opção
+      '8,5', // opção
+      '6,5' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Média = soma ÷ quantidade = (6 + 7 + 8 + 9) ÷ 4 = 30 ÷ 4 = 7,5.', // explicação
+    dica: 'Sequência de números igualmente espaçados? A média é o valor do meio (entre 7 e 8 = 7,5). Consulplan coloca "8" como distrator para quem arredonda mentalmente.', // pegadinha
+    video: 'media aritmetica como calcular exercicios resumo' // busca no YouTube
+  },
+
+  // ---- Raciocínio Lógico (r32–r36) ----
+  {
+    id: 'r32',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Negação de proposições',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A negação de "Todos os fiscais chegaram" é:', // pergunta
+    alternativas: [                     // opções
+      'Nenhum fiscal chegou.', // opção
+      'Algum fiscal não chegou.', // correta
+      'Todos os fiscais faltaram.', // opção
+      'Alguns fiscais chegaram.', // opção
+      'Nenhum fiscal faltou.' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Negar "todo A é B" é dizer que existe exceção: "algum A não é B" (pelo menos um fiscal não chegou). "Nenhum chegou" vai além do necessário — para derrubar "todos" basta UM contraponto.', // explicação
+    dica: 'CESPE cobra isso toda prova: negação de TODO = ALGUM NÃO; negação de NENHUM = ALGUM. "Todos faltaram" e "nenhum chegou" são distratores clássicos — são mais fortes que a negação.', // pegadinha
+    video: 'negacao todo algum nenhum raciocinio logico resumo' // busca no YouTube
+  },
+  {
+    id: 'r33',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequências numéricas',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'Complete a sequência: 2, 6, 12, 20, 30, ____', // pergunta
+    alternativas: [                     // opções
+      '36', // opção
+      '40', // opção
+      '42', // correta
+      '44', // opção
+      '48' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'As diferenças crescem de 2 em 2: +4, +6, +8, +10, então o próximo salto é +12 → 30 + 12 = 42. (Também é n² + n: 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42.)', // explicação
+    dica: 'Quando a diferença cresce, calcule a "diferença das diferenças" — se ela é constante, a sequência é quadrática. Escreva os saltos acima da sequência: o padrão aparece na hora.', // pegadinha
+    video: 'sequencias numericas padroes como resolver resumo' // busca no YouTube
+  },
+  {
+    id: 'r34',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Diagramas e quantificadores', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'Se "todo A é B" e "algum C é A", então necessariamente:', // pergunta
+    alternativas: [                     // opções
+      'todo C é B', // opção
+      'algum C é B', // correta
+      'nenhum C é B', // opção
+      'todo B é C', // opção
+      'algum B não é C' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A dentro de B; C tem uma parte dentro de A. Então essa parte de C está dentro de A, que está dentro de B → algum C é B. Não se pode afirmar "todo" nem "nenhum" além disso.', // explicação
+    dica: 'Desenhe círculos: A dentro de B, C cruzando A. O pedaço C∩A é o "algum C é B". Vunesp coloca "todo" nas alternativas — resista: de premissas com "algum" só saem conclusões com "algum".', // pegadinha
+    video: 'diagramas logicos todo algum nenhum resumo' // busca no YouTube
+  },
+  {
+    id: 'r35',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Equivalência lógica',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto AOCP',            // banca inspiradora
+    enunciado: 'A proposição "Se chove, então a prova é adiada" é logicamente equivalente a:', // pergunta
+    alternativas: [                     // opções
+      'Se não chove, a prova não é adiada.', // opção
+      'Chove e a prova é adiada.', // opção
+      'Se a prova não foi adiada, então não choveu.', // correta
+      'Não chove e a prova é adiada.', // opção
+      'Se a prova foi adiada, então choveu.' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A contrapositiva equivale ao condicional: p → q ≡ ~q → ~p. Nega o consequente, nega o antecedente, e inverte: "Se não foi adiada, então não choveu".', // explicação
+    dica: 'As duas pegadinhas eternas: "se não chove, não é adiada" (inverteu sem negar — erro) e "se adiou, choveu" (negou invertendo errado). Equivalência = nega as duas E troca a ordem.', // pegadinha
+    video: 'equivalencia contrapositiva se entao raciocinio resumo' // busca no YouTube
+  },
+  {
+    id: 'r36',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Tabela-verdade',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'A proposição condicional "p → q" (se p, então q) é FALSA apenas quando:', // pergunta
+    alternativas: [                     // opções
+      'p e q são verdadeiras', // opção
+      'p é falsa e q é verdadeira', // opção
+      'p é verdadeira e q é falsa', // correta
+      'p e q são falsas', // opção
+      'sempre que q for falsa' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A condicional só falha num caso: antecedente verdadeiro com consequente falso (V → F = F). Em todos os outros — VV, FV, FF — ela é verdadeira. "Vera Fischer é falsa" é o mnemônico clássico.', // explicação
+    dica: 'Decore a única linha falsa da tabela: V→F. Candidato erra ao achar que F→F é falso — não é: partindo de premissa falsa, qualquer conclusão deixa a implicação válida.', // pegadinha
+    video: 'tabela verdade condicional se entao resumo' // busca no YouTube
+  },
+
+  // ---- Informática (i29–i33) ----
+  {
+    id: 'i29',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Atalhos do Windows',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'No Windows, o atalho para alternar entre as janelas abertas é:', // pergunta
+    alternativas: [                     // opções
+      'Ctrl + C', // opção
+      'Alt + Tab', // correta
+      'Ctrl + Tab', // opção
+      'Windows + D', // opção
+      'Alt + F4' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Alt + Tab alterna entre janelas abertas. Windows + D mostra a área de trabalho; Alt + F4 fecha a janela atual; Ctrl + Tab alterna entre ABAS (não janelas); Ctrl + C copia.', // explicação
+    dica: 'QUADRIX troca Tab com F4 e Windows com Ctrl. Decore o trio: Alt+Tab troca de janela, Win+D mostra o desktop, Alt+F4 fecha. São os três mais cobrados.', // pegadinha
+    video: 'atalhos windows mais cobrados concurso resumo' // busca no YouTube
+  },
+  {
+    id: 'i30',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Planilhas eletrônicas',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'No Excel e no Calc, a função que devolve o maior valor de um intervalo é:', // pergunta
+    alternativas: [                     // opções
+      'SOMA', // opção
+      'MÉDIA', // opção
+      'MÁXIMO', // correta
+      'MAIOR', // opção
+      'SE' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: '=MÁXIMO(A1:A10) devolve o maior valor. "MAIOR" existe, mas pede a posição: =MAIOR(A1:A10;2) devolve o SEGUNDO maior — é a pegadinha da banca, não a resposta.', // explicação
+    dica: 'CESGRANRIO cobra o par MÁXIMO/MAIOR e MÍNIMO/MENOR: com acento = o maior/menor valor; sem acento = o k-ésimo (MAIOR(intervalo;3) = terceiro maior).', // pegadinha
+    video: 'excel funcao maximo maior minimo menor resumo' // busca no YouTube
+  },
+  {
+    id: 'i31',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança da informação',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'Um e-mail que imita a página do banco pedindo senha e CPF do usuário é exemplo de:', // pergunta
+    alternativas: [                     // opções
+      'spam', // opção
+      'phishing', // correta
+      'ransomware', // opção
+      'adware', // opção
+      'firewall' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phishing = "pescaria" de dados: mensagem falsa que imita instituição legítima para roubar senhas e documentos. Spam é só mensagem não solicitada; ransomware sequestra arquivos; adware exibe propaganda; firewall é defesa.', // explicação
+    dica: 'A prova separa phishing de spam pelo OBJETIVO: spam incomoda, phishing rouba dados. Se o enunciado fala em "página falsa" ou "pedir senha", é phishing.', // pegadinha
+    video: 'phishing spam ransomware diferenca seguranca resumo' // busca no YouTube
+  },
+  {
+    id: 'i32',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Internet e e-mail',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'O protocolo responsável pelo ENVIO de mensagens de e-mail é:', // pergunta
+    alternativas: [                     // opções
+      'POP3', // opção
+      'IMAP', // opção
+      'SMTP', // correta
+      'HTTP', // opção
+      'FTP' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'SMTP envia e-mail (do seu cliente até o servidor e entre servidores). POP3 e IMAP recebem (POP3 baixa e apaga; IMAP mantém no servidor). HTTP é web; FTP é transferência de arquivos.', // explicação
+    dica: 'Mnemônico: SMTP = "Sua Mensagem Toca Partindo" (envio). POP3/IMAP só recebem — a banca os coloca juntos para você hesitar entre recepção e envio.', // pegadinha
+    video: 'smtp pop3 imap protocolos email resumo' // busca no YouTube
+  },
+  {
+    id: 'i33',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Editores de texto',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CEBRASP',                   // banca inspiradora
+    enunciado: 'No Microsoft Word em português, para aplicar negrito ao trecho selecionado usa-se:', // pergunta
+    alternativas: [                     // opções
+      'Ctrl + I', // opção
+      'Ctrl + S', // opção
+      'Ctrl + N', // correta
+      'Ctrl + B', // opção
+      'Ctrl + U' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'No Word em português: Ctrl + N = negrito, Ctrl + I = itálico, Ctrl + S = sublinhado. A pegadinha é Ctrl + B — no Word em inglês é "Bold" (negrito), mas em português significa "salvar"!', // explicação
+    dica: 'CEBRASP explora justamente a armadilha da tradução: Ctrl+B parece óbvio (Bold), mas no Word brasileiro é SALVAR. Negrito = N, itálico = I, sublinhado = S.', // pegadinha
+    video: 'word atalhos negrito italico sublinhado ctrl resumo' // busca no YouTube
+  },
+
+  // ---- Direito Constitucional (c27–c31) ----
+  {
+    id: 'c27',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos e garantias',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'Segundo a Constituição de 1988, é vedado:', // pergunta
+    alternativas: [                     // opções
+      'a liberdade de associação', // opção
+      'a pena de morte, salvo em caso de guerra declarada', // correta
+      'o habeas corpus', // opção
+      'a assistência jurídica gratuita ao necessitado', // opção
+      'o direito de greve' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 5º, XLVII veda pena de morte (salvo guerra declarada), de caráter perpétuo, trabalhos forçados, banimento e penas cruéis. Liberdade de associação, habeas corpus, greve e assistência jurídica são GARANTIAS, não vedações.', // explicação
+    dica: 'A banca inverte o jogo: pede a VEDAÇÃO no meio de direitos. Lista fria do art. 5º, XLVII: morte (salvo guerra), perpétua, forçados, banimento, cruel. Fora isso, é direito garantido.', // pegadinha
+    video: 'penas vedadas constitucional artigo 5 resumo' // busca no YouTube
+  },
+  {
+    id: 'c28',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Controle de constitucionalidade', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Podem propor ação direta de inconstitucionalidade (ADI) perante o STF:', // pergunta
+    alternativas: [                     // opções
+      'qualquer cidadão maior de 18 anos', // opção
+      'o Presidente da República, as mesas das Casas legislativas, governadores, o PGR, a OAB e partidos com assento no Congresso, entre outros legitimados', // correta
+      'apenas o próprio Supremo Tribunal Federal', // opção
+      'somente o Congresso Nacional reunido', // opção
+      'qualquer juiz federal de primeira instância' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O rol do art. 103 da CF é taxativo: Presidente, mesas do Senado/Câmara/de assembleias, governadores, PGR, Advogado-Geral, OAB, partidos com representação no Congresso e confederações sindicais/patronais — o cidadão comum NÃO pode.', // explicação
+    dica: 'CESPE adora o "qualquer cidadão" como distrator — a ADI NÃO é ação popular. Legitimados são os do art. 103; fora dele, só ADPF (que tem rol mais amplo: quem pode propor ADI + outros).', // pegadinha
+    video: 'adi legitimados artigo 103 controle constitucionalidade resumo' // busca no YouTube
+  },
+  {
+    id: 'c29',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos sociais',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FGV',                       // banca inspiradora
+    enunciado: 'Os direitos sociais previstos no art. 6º da Constituição incluem:', // pergunta
+    alternativas: [                     // opções
+      'apenas saúde e educação', // opção
+      'educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência, proteção à maternidade e à infância e assistência aos desamparados', // correta
+      'somente o trabalho remunerado', // opção
+      'não há rol no texto constitucional', // opção
+      'apenas direitos civis e políticos' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O art. 6º traz o rol: educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, assistência aos desamparados — e a EC 64/2010 incluiu a alimentação.', // explicação
+    dica: 'FGV cobra o rol COMPLETO — memorize a sigla clássica "DILMAS SEM TT P" ou similar e confira se a alternativa lista vários, não só dois. "Só saúde e educação" é o distrator padrão.', // pegadinha
+    video: 'direitos sociais artigo 6 constituicao resumo' // busca no YouTube
+  },
+  {
+    id: 'c30',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos políticos',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'No Brasil, o alistamento eleitoral e o voto são:', // pergunta
+    alternativas: [                     // opções
+      'obrigatórios para todos os maiores de 16 anos', // opção
+      'obrigatórios somente para homens', // opção
+      'obrigatórios dos 18 aos 70 anos e facultativos para analfabetos, maiores de 70 e jovens de 16 a 17', // correta
+      'sempre facultativos para todos', // opção
+      'proibidos para analfabetos' // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A CF diz: alistamento e voto obrigatórios para os maiores de 18; facultativos para analfabetos, maiores de 70 anos e jovens de 16 e 17 anos. Analfabeto pode votar — só não é obrigado.', // explicação
+    dica: 'Duas pegadinhas juntas: "obrigatório a partir de 16" (errado — 16/17 é facultativo) e "analfabeto não vota" (errado — pode, só não é obrigado). Memorize os três facultativos.', // pegadinha
+    video: 'alistamento voto obrigatorio facultativo direitos politicos resumo' // busca no YouTube
+  },
+  {
+    id: 'c31',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Competências da União',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'É competência privativa da União (art. 21 da CF):', // pergunta
+    alternativas: [                     // opções
+      'legislar sobre trânsito municipal', // opção
+      'emitir moeda e cunhar metálica e papel-moeda', // correta
+      'administrar os cemitérios municipais', // opção
+      'organizar a guarda municipal', // opção
+      'promover feiras e mercados locais' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Emitir moeda é competência material privativa da União (art. 21, VII) — nenhum estado ou município pode. As demais são típicas do município (interesse local: cemitério, guarda municipal, feiras) ou de legislação concorrente.', // explicação
+    dica: 'IDECAN troca "competência de legislar" (art. 22/24) com "competência material" (art. 21). Moeda, relações exteriores, forças armadas e serviço postal = só União executa.', // pegadinha
+    video: 'competencias uniao artigo 21 22 constituicao resumo' // busca no YouTube
+  },
+
+  // ---- Direito Administrativo (a24–a28) ----
+  {
+    id: 'a24',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Ato administrativo',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'O ato administrativo discricionário difere do vinculado porque:', // pergunta
+    alternativas: [                     // opções
+      'não precisa de motivo nem de lei', // opção
+      'a lei deixa margem de conveniência e oportunidade para o administrador escolher como agir', // correta
+      'é sempre ilegal', // opção
+      'só pode ser praticado pelo Judiciário', // opção
+      'não pode ser revogado nem anulado' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Discricionário = a lei dá liberdade de escolha (conveniência e oportunidade), como na nomeação de cargo em comissão ou no início de um PAD. Vinculado = a lei fixa todos os requisitos — o administrador só confere.', // explicação
+    dica: 'Dois distratores clássicos: "não precisa de lei" (discricionariedade existe DENTRO da lei) e "não pode ser anulado" (pode, se abusar — o vício de poder é revisável). Discricionário ≠ arbitrário.', // pegadinha
+    video: 'ato administrativo discricionario vinculado resumo' // busca no YouTube
+  },
+  {
+    id: 'a25',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poder disciplinar',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Sobre o poder disciplinar da Administração, é correto afirmar:', // pergunta
+    alternativas: [                     // opções
+      'pode aplicar qualquer sanção sem processo, pela celeridade', // opção
+      'as sanções graves dependem de processo administrativo disciplinar com ampla defesa e contraditório', // correta
+      'vale apenas para estagiários e temporários', // opção
+      'o servidor punido nunca pode recorrer', // opção
+      'dispensa previsão legal para a sanção' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A punição disciplinar exige processo (PAD) com ampla defesa para sanções graves — demissão, cassação de aposentadoria. Advertência pode ser sumária. A sanção precisa de previsão legal (não se inventa punição).', // explicação
+    dica: 'CESPE testa o "sempre/nunca": qualquer alternativa com "sem processo", "nunca recorre" ou "dispensa lei" está errada. PAD com ampla defesa é a resposta-mãe das questões de disciplina.', // pegadinha
+    video: 'poder disciplinar pad ampla defesa resumo' // busca no YouTube
+  },
+  {
+    id: 'a26',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Licitações',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'A modalidade de licitação usada para bens e serviços comuns, com disputa por lances sucessivos, é:', // pergunta
+    alternativas: [                     // opções
+      'leilão', // opção
+      'pregão', // correta
+      'concurso', // opção
+      'tomada de preços', // opção
+      'diálogo competitivo' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pregão (lei 10.520/02 e nova lei 14.133/21) = bens e serviços COMUNS, disputa por lances. Leilão = vender bens do poder público. Concurso = trabalho técnico/artístico. Tomada de preços e carta-convite deixaram de existir na nova lei.', // explicação
+    dica: 'Vunesp troca pregão com leilão e concurso: pregão COMPRA comum (lances), leilão VENDE bem do governo, concurso é obra de ENGENHARIA ou trabalho intelectual. "Bens comuns" = pregão, decore.', // pegadinha
+    video: 'modalidades licitacao pregao concorrencia concurso resumo' // busca no YouTube
+  },
+  {
+    id: 'a27',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Responsabilidade civil do Estado', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'Pela teoria adotada no Brasil, a responsabilidade civil do Estado por dano causado por seus agentes é:', // pergunta
+    alternativas: [                     // opções
+      'subjetiva — exige provar dolo do agente sempre', // opção
+      'objetiva — basta o dano causado por ação ou omissão do serviço (teoria do risco administrativo)', // correta
+      'inexistente — o Estado não responde', // opção
+      'só existe quando há lei específica prevendo', // opção
+      'apenas moral, nunca material' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 37, §6º da CF: o ente público responde objetivamente (risco administrativo) — não importa se o agente teve culpa. Comprovado o dano e o nexo com o serviço, o Estado indeniza (e pode cobrar do agente em regressão se ele agiu com dolo/culpa).', // explicação
+    dica: 'A banca joga com "subjetiva" para pegar quem estudou direito civil comum. Regra: para o CIDADÃO é objetiva (Estado paga); a culpa do agente só importa na AÇÃO REGRESSIVA do Estado contra ele.', // pegadinha
+    video: 'responsabilidade civil estado objetiva risco administrativo resumo' // busca no YouTube
+  },
+  {
+    id: 'a28',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Princípios da Administração', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBADE',                     // banca inspiradora
+    enunciado: 'Os princípios expressos no caput do art. 37 da CF formam a sigla:', // pergunta
+    alternativas: [                     // opções
+      'LIMPE — legalidade, impessoalidade, moralidade, publicidade e eficiência', // correta
+      'somente a legalidade', // opção
+      'legalidade e liberdade', // opção
+      'moralidade e riqueza pública', // opção
+      'não há princípios listados na Constituição' // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'O caput do art. 37 lista cinco princípios expressos: Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (esta incluída pela EC 19/98) — a sigla LIMPE. A supremacia do interesse público é princípio implícito.', // explicação
+    dica: 'IBADE cobra o LIMPE de três formas: listar os cinco, perguntar qual NÃO é expresso (autotutela, supremacia, indisponibilidade são implícitos) ou trocar um nome (produtividade ≠ eficiência).', // pegadinha
+    video: 'principios administracao limpe artigo 37 resumo' // busca no YouTube
+  },
+
+  // ---- Atualidades (t22–t26) ----
+  {
+    id: 't22',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Meio ambiente e clima',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBADE',                     // banca inspiradora
+    enunciado: 'O Acordo de Paris (2015) é um tratado internacional sobre:', // pergunta
+    alternativas: [                     // opções
+      'comércio de armas', // opção
+      'mudança do clima — metas de redução de emissões para limitar o aquecimento global', // correta
+      'fim da Guerra Fria', // opção
+      'livre comércio da União Europeia', // opção
+      'exploração do espaço' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assinado na COP21 (Paris, 2015), o acordo reúne quase todos os países na meta de manter o aquecimento "bem abaixo" de 2 °C, buscando 1,5 °C, com cortes de emissões declarados por cada país (NDCs).', // explicação
+    dica: 'A banca troca o acordo pelo Protocolo de Kyoto (1997, metas só para países ricos) ou pelo Acordo de Paris de paz. Paris = clima + 1,5 °C; Kyoto = primeira fase das metas de emissão.', // pegadinha
+    video: 'acordo de paris clima aquecimento global resumo' // busca no YouTube
+  },
+  {
+    id: 't23',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Tecnologia e IA',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'A chamada "IA generativa" ficou conhecida por ferramentas que:', // pergunta
+    alternativas: [                     // opções
+      'só jogam xadrez em nível avançado', // opção
+      'criam conteúdo novo — texto, imagem, código — a partir de comandos em linguagem natural', // correta
+      'substituíram completamente a internet', // opção
+      'são sistemas operacionais de celular', // opção
+      'são vírus de computador' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'IA generativa (ChatGPT, Gemini, Copilot e similares) produz conteúdo original — texto, imagem, áudio, código — a partir de prompts. Diferente da IA tradicional (classificar/prever), ela "genera" coisas novas.', // explicação
+    dica: 'Questões de atualidades pedem o CONCEITO, não a marca. Se o enunciado fala em "criar", "gerar" ou "produzir conteúdo", é generativa. Não confunda com automação comum ou buscador.', // pegadinha
+    video: 'inteligencia artificial generativa o que e resumo' // busca no YouTube
+  },
+  {
+    id: 't24',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Geopolítica',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'O BRICS, bloco que reúne economias emergentes, tem como membros fundadores:', // pergunta
+    alternativas: [                     // opções
+      'os países do G7', // opção
+      'Brasil, Rússia, Índia, China e África do Sul', // correta
+      'apenas países da América do Sul', // opção
+      'a União Europeia', // opção
+      'os membros da OTAN' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BRICS = Brasil, Rússia, Índia, China e África do Sul (o "S" de South Africa entrou em 2011). O bloco foi ampliado a partir de 2024 com novos membros (Irã, Egito, Etiópia, Emirados Árabes, Indonésia).', // explicação
+    dica: 'O nome entrega os fundadores: B-R-I-C-S. A banca coloca G7 (EUA, Japão, Europa rica) ou OTAN (aliança militar ocidental) como distratores — são grupos diferentes, não misture.', // pegadinha
+    video: 'brics paises membros ampliacao resumo' // busca no YouTube
+  },
+  {
+    id: 't25',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Organizações internacionais', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'A "Agenda 2030" da ONU reúne:', // pergunta
+    alternativas: [                     // opções
+      'metas fiscais para os países ricos', // opção
+      '17 Objetivos de Desenvolvimento Sustentável (ODS) para erradicar a pobreza e proteger o planeta até 2030', // correta
+      'tratados militares de defesa', // opção
+      'regras de comércio internacional', // opção
+      'o calendário eleitoral mundial' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Agenda 2030, adotada pela ONU em 2015, lista 17 ODS — fome zero, saúde, educação, igualdade, água limpa, clima, cidades sustentáveis etc. — para serem alcançados até 2030 por todos os países signatários.', // explicação
+    dica: 'A pergunta se repete com "ODS" no enunciado: são 17 objetivos, universais (valem para ricos e pobres), e substituíram os 8 Objetivos do Milênio (ODM). Não confunda com metas econômicas do FMI.', // pegadinha
+    video: 'agenda 2030 ods objetivos desenvolvimento sustentavel resumo' // busca no YouTube
+  },
+  {
+    id: 't26',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia e cotidiano',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'O PIX, sistema brasileiro de pagamento instantâneo, é operado por:', // pergunta
+    alternativas: [                     // opções
+      'os bancos privados, em consórcio', // opção
+      'o Banco Central do Brasil', // correta
+      'a Receita Federal', // opção
+      'as operadoras de cartão de crédito', // opção
+      'o Tesouro Nacional' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O PIX foi criado e é operado pelo Banco Central desde novembro de 2020: transferências instantâneas 24h, gratuitas para pessoa física. Bancos e fintechs oferecem o acesso, mas a infraestrutura é do BC.', // explicação
+    dica: 'A pegadinha é "bancos privados" — eles PARTICIPAM, mas quem opera é o Banco Central. Questão-irmã comum: TED/DOC ainda existem, mas o PIX domina por ser instantâneo e sem custo para PF.', // pegadinha
+    video: 'pix como funciona banco central resumo' // busca no YouTube
+  },
+
+  // ---- História do Brasil (h20–h24) ----
+  {
+    id: 'h20',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Proclamação da República',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'A Proclamação da República brasileira, em 15 de novembro de 1889:', // pergunta
+    alternativas: [                     // opções
+      'foi decidida por plebiscito popular', // opção
+      'foi um movimento militar liderado pelo marechal Deodoro da Fonseca, sem participação popular direta', // correta
+      'acabou oficialmente com a escravidão', // opção
+      'foi liderada pelo imperador Pedro II', // opção
+      'aconteceu no dia da Independência' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A república veio de um golpe militar (15/11/1889) apoiado por fazendeiros descontentes e parte do Exército, liderado por Deodoro da Fonseca. O povo assistiu "bestializado" — não houve plebiscito. A escravidão já tinha acabado em 1888 (Lei Áurea).', // explicação
+    dica: 'QUADRIX troca os marcos: República = 1889 (Deodoro), Abolição = 1888 (Lei Áurea), Independência = 1822. E insiste no detalhe: foi movimento de militares + elites, NÃO do povo.', // pegadinha
+    video: 'proclamacao republica 1889 deodoro resumo' // busca no YouTube
+  },
+  {
+    id: 'h21',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'República Velha',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'A "política do café com leite", da República Velha, refere-se ao domínio de:', // pergunta
+    alternativas: [                     // opções
+      'Rio de Janeiro e Bahia', // opção
+      'São Paulo e Minas Gerais, que se alternavam na Presidência', // correta
+      'todo o Nordeste açucareiro', // opção
+      'os estados do Sul', // opção
+      'Portugal e Espanha' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Café" = São Paulo (maior produtor); "leite" = Minas Gerais (pecuária e maior colégio eleitoral). As oligarquias dos dois estados se alternavam na Presidência e controlavam as eleições da República Velha (1894–1930).', // explicação
+    dica: 'A banca troca o par por "RJ e BA" ou "Norte e Sul". Café = SP (a economia), leite = MG (os votos). A política acabou com a Revolução de 1930, quando Getúlio Vargas tomou o poder.', // pegadinha
+    video: 'cafe com leite republica velha sao paulo minas resumo' // busca no YouTube
+  },
+  {
+    id: 'h22',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Abolição da escravidão',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'A Lei Áurea, assinada em 13 de maio de 1888, foi:', // pergunta
+    alternativas: [                     // opções
+      'a lei das terras do Império', // opção
+      'a abolição da escravidão no Brasil, assinada pela princesa Isabel', // correta
+      'a declaração de independência', // opção
+      'a primeira Constituição do país', // opção
+      'o fim da monarquia' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Lei Áurea pôs fim à escravidão com dois artigos ("extinta a escravidão"). Foi assinada pela princesa Isabel, regente, depois de leis graduais (do Ventre Livre, dos Sexagenários). O Brasil foi o último país das Américas a abolir.', // explicação
+    dica: 'Consulplan confunde Lei Áurea (1888, abolição) com Lei de Terras (1850) e com a República (1889). Lei Áurea = abolição + princesa Isabel. "Último das Américas" aparece em questões de contexto.', // pegadinha
+    video: 'lei aurea 1888 abolicao escravidao resumo' // busca no YouTube
+  },
+  {
+    id: 'h23',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Revolução de 1930',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'A Revolução de 1930 encerrou, principalmente:', // pergunta
+    alternativas: [                     // opções
+      'o Império brasileiro', // opção
+      'a República Velha e o esquema das oligarquias do café com leite, levando Getúlio Vargas ao poder', // correta
+      'a ditadura militar', // opção
+      'a escravidão no país', // opção
+      'o Estado Novo' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Em outubro de 1930, o movimento armado depôs o presidente Washington Luís e impediu a posse do eleito Júlio Prestes, entregando o poder a Getúlio Vargas — fim da República Velha e da alternância SP-MG no governo.', // explicação
+    dica: 'Vunesp troca o alvo: 1930 derrubou a República Velha, NÃO o Império (que caiu em 1889) e NÃO o Estado Novo (que Getúlio CRIOU depois, em 1937). Cronologia: 1889 República → 1930 Vargas → 1937 Estado Novo.', // pegadinha
+    video: 'revolucao de 1930 getulio vargas republica velha resumo' // busca no YouTube
+  },
+  {
+    id: 'h24',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Modernismo',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922, em São Paulo, marcou:', // pergunta
+    alternativas: [                     // opções
+      'o fim do Império e a República', // opção
+      'a ruptura com o academicismo e o marco do Modernismo na cultura brasileira', // correta
+      'a primeira novela da TV brasileira', // opção
+      'a fundação do Rio de Janeiro', // opção
+      'a criação do carnaval carioca' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Realizada no Teatro Municipal de SP (fevereiro de 1922), a Semana apresentou artistas como Mário e Oswald de Andrade, Anita Malfatti e Tarsila do Amaral — rompendo com o academicismo e inaugurando o Modernismo brasileiro.', // explicação
+    dica: 'FUMARC cobra o papel histórico do evento (ruptura + marco do modernismo), não a lista de artistas. 1922 = centenário da Independência também — a Semana "gritou" pela independência cultural, não política.', // pegadinha
+    video: 'semana arte moderna 1922 modernismo resumo' // busca no YouTube
+  },
+
+  // ---- Geografia (g25–g29) ----
+  {
+    id: 'g25',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Biomas brasileiros',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'O maior bioma brasileiro em extensão territorial é:', // pergunta
+    alternativas: [                     // opções
+      'o Cerrado', // opção
+      'a Amazônia — cerca de 4,2 milhões de km², quase metade do país', // correta
+      'a Mata Atlântica', // opção
+      'o Pampa', // opção
+      'a Caatinga' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Amazônia cobre ~49% do território nacional. Depois dela vêm Cerrado (~24%), Mata Atlântica (~13%), Caatinga (~10%), Pantanal e Pampa (os dois menores).', // explicação
+    dica: 'A banca troca "maior" com "mais devastado" — a Mata Atlântica é a mais desmatada (~88% perdida), a Amazônia é a MAIOR. Pampa e Pantanal disputam o posto de menor.', // pegadinha
+    video: 'biomas brasileiros extensao caracteristicas resumo' // busca no YouTube
+  },
+  {
+    id: 'g26',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Clima do Brasil',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'O fenômeno El Niño provoca, tipicamente, no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'seca prolongada na região Sul', // opção
+      'chuvas acima da média no Sul e tendência de seca no Norte/Nordeste', // correta
+      'frio intenso em todo o território', // opção
+      'enchentes permanentes na Amazônia', // opção
+      'não tem efeito sobre o clima nacional' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O aquecimento do Pacífico equatorial desloca as chuvas: o Sul fica mais úmido e o Norte/Nordeste mais seco (incluindo parte da Amazônia). A La Niña faz o oposto — mais seca no Sul, mais chuva no Norte.', // explicação
+    dica: 'CESGRANRIO inverte El Niño e La Niña — memorize um e o outro é o contrário. El Niño = Pacífico quente = Sul encharcado + Nordeste seco. A seca do NE tem outros motores, mas o El Niño a agrava.', // pegadinha
+    video: 'el nino la nina efeitos brasil clima resumo' // busca no YouTube
+  },
+  {
+    id: 'g27',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'População brasileira',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBADE',                     // banca inspiradora
+    enunciado: 'A região brasileira que concentra a maior parte da população do país é:', // pergunta
+    alternativas: [                     // opções
+      'a região Norte', // opção
+      'o Sudeste — São Paulo, Rio de Janeiro e Minas Gerais somam a maior população', // correta
+      'o Centro-Oeste', // opção
+      'a região Sul', // opção
+      'o Nordeste' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Sudeste reúne ~42% dos brasileiros — SP sozinho tem mais de 40 milhões. A segunda é o Nordeste (~27%). O mapa da população acompanha o litoral histórico e as metrópoles.', // explicação
+    dica: 'Diferença clássica: região mais POPULOSA = Sudeste; região com mais ESTADOS = Nordeste (9). A banca troca os dois conceitos — leia se pede população ou quantidade de estados.', // pegadinha
+    video: 'populacao brasileira distribuicao regioes resumo' // busca no YouTube
+  },
+  {
+    id: 'g28',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Tipos de chuva',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'As chuvas de convecção, comuns na Amazônia e nas tardes de verão, ocorrem porque:', // pergunta
+    alternativas: [                     // opções
+      'chegam diretamente do oceano', // opção
+      'o aquecimento intenso do solo faz o ar úmido subir, formando nuvens e pancadas fortes no fim da tarde', // correta
+      'são sempre frias e fracas', // opção
+      'só acontecem no inverno', // opção
+      'vêm exclusivamente da Cordilheira dos Andes' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Convecção = ar quente e úmido sobe → esfria → condensa em cumulonimbus → pancada forte e rápida, típica do fim da tarde no verão e na Amazônia. É diferente da frontal (encontro de massas) e da orográfica (relevo).', // explicação
+    dica: 'IDECAN mistura os três tipos: convecção (calor + subida), frontal (frente fria × quente) e orográfica (montanha barra a massa úmida). "Pancada à tarde no calor" = convecção.', // pegadinha
+    video: 'tipos de chuva conveccao frontal orografica resumo' // busca no YouTube
+  },
+  {
+    id: 'g29',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Agropecuária',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUMARC',                    // banca inspiradora
+    enunciado: 'A principal região de expansão do agronegócio brasileiro, com soja, milho e algodão, é:', // pergunta
+    alternativas: [                     // opções
+      'o litoral do Norte', // opção
+      'o Cerrado do Centro-Oeste e a faixa do Matopiba (Maranhão, Tocantins, Piauí e Bahia)', // correta
+      'apenas o litoral do Sul', // opção
+      'a Zona da Mata Mineira', // opção
+      'o Pampa gaúcho exclusivamente' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cerrado do Centro-Oeste (MT, GO, MS) virou o celeiro de grãos, e a fronteira atual é o Matopiba — últimos cerrados ainda baratos dos quatro estados. O Sul produz também, mas não é a fronteira de expansão.', // explicação
+    dica: 'FUMARC pergunta "fronteira agrícola": a resposta moderna é MATOPIBA e Amazônia de MT/PA — não a Zona da Mata (café histórico) nem o Sul (consolidado). Expansão = Norte e Nordeste do Cerrado.', // pegadinha
+    video: 'agronegocio brasil centro oeste matopiba resumo' // busca no YouTube
+  },
+
+  // ---- Direito Previdenciário (v21–v25) ----
+  {
+    id: 'v21',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Aposentadoria por idade',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'QUADRIX',                   // banca inspiradora
+    enunciado: 'Após a reforma de 2019, a idade mínima geral para a aposentadoria por idade urbana é:', // pergunta
+    alternativas: [                     // opções
+      '55 anos para mulher e 60 para homem', // opção
+      '62 anos para mulher e 65 para homem', // correta
+      '60 anos para ambos', // opção
+      '65 anos para ambos', // opção
+      'não existe idade mínima' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A EC 103/2019 fixou a aposentadoria por idade urbana em 62 anos (mulher) e 65 (homem), com carência mínima. Trabalhador rural manteve 55/60. Antes da reforma era 60/65 — a diferença de 2 anos na mulher é o detalhe cobrado.', // explicação
+    dica: 'A pegadinha é o par antigo (60/65) e o "igual para os dois" (65/65). Regra atual: mulher 62, homem 65, rural 55/60. QUADRIX adora os dois pares juntos nas alternativas.', // pegadinha
+    video: 'aposentadoria por idade reforma 2019 requisitos resumo' // busca no YouTube
+  },
+  {
+    id: 'v22',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefício assistencial (BPC)', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'CESGRANRIO',                // banca inspiradora
+    enunciado: 'O Benefício de Prestação Continuada (BPC/LOAS) é:', // pergunta
+    alternativas: [                     // opções
+      'pago só a quem contribuiu ao INSS por 15 anos', // opção
+      'um benefício assistencial de 1 salário mínimo para idoso (65+) ou pessoa com deficiência de baixa renda — sem exigir contribuição', // correta
+      'a aposentadoria rural', // opção
+      'o seguro-desemprego', // opção
+      'a pensão especial militar' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BPC é da Lei Orgânica da Assistência Social (LOAS): 1 salário mínimo a quem tem 65+ anos ou deficiência de longo prazo e renda familiar per capita baixa (até 1/4 do SM, critério que pode ser flexibilizado). Não exige ter contribuído.', // explicação
+    dica: 'O divisor de águas: BPC = ASSISTÊNCIA (sem contribuição, 1 SM fixo, não gera pensão por morte); aposentadoria = PREVIDÊNCIA (exige carência, valor variável). CESGRANRIO coloca "15 anos de contribuição" para confundir.', // pegadinha
+    video: 'bpc loas beneficio assistencial requisitos resumo' // busca no YouTube
+  },
+  {
+    id: 'v23',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Carência',                   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Consulplan',                // banca inspiradora
+    enunciado: 'A carência exigida, em regra, para o auxílio por incapacidade temporária (antigo auxílio-doença) é de:', // pergunta
+    alternativas: [                     // opções
+      '6 contribuições mensais', // opção
+      '12 contribuições mensais, salvo acidente de qualquer natureza e doenças graves previstas em lista', // correta
+      '24 contribuições mensais', // opção
+      '36 contribuições mensais', // opção
+      'não há carência' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regra: 12 contribuições de carência. Mas a lei dispensa a carência em dois casos: acidente de QUALQUER natureza (inclusive fora do trabalho) e doença grave da lista do Ministério da Saúde (câncer, cegueira, HIV...).', // explicação
+    dica: 'O par "12 meses + exceções" é o gabarito-mãe. Consulplan coloca "24" (que é da aposentadoria por invalidez em regra antiga?) — não: 24 é pegadinha pura. Grave: 12 é a carência do auxílio; acidente e doença grave zeram.', // pegadinha
+    video: 'auxilio por incapacidade carencia 12 meses resumo' // busca no YouTube
+  },
+  {
+    id: 'v24',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'O INSS',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Vunesp',                    // banca inspiradora
+    enunciado: 'O Instituto Nacional do Seguro Social (INSS) é:', // pergunta
+    alternativas: [                     // opções
+      'um ministério do governo federal', // opção
+      'uma autarquia federal — administração indireta — que paga os benefícios do RGPS', // correta
+      'um banco privado', // opção
+      'um órgão do Poder Judiciário', // opção
+      'uma empresa pública de economia mista' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O INSS é autarquia federal (administração indireta, regime estatutário próprio) responsável por reconhecer e pagar os benefícios do Regime Geral de Previdência — aposentadorias, auxílios, pensões dos trabalhadores do setor privado.', // explicação
+    dica: 'Vunesp troca autarquia por "empresa pública" e "ministério": autarquia = criada por lei, patrimônio próprio, servidores estatutários; ministério é administração direta. INSS é a autarquia mais famosa do Brasil.', // pegadinha
+    video: 'inss autarquia administracao indireta resumo' // busca no YouTube
+  },
+  {
+    id: 'v25',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Aposentadoria especial',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IDECAN',                    // banca inspiradora
+    enunciado: 'A aposentadoria especial pode ser concedida ao segurado que trabalhou:', // pergunta
+    alternativas: [                     // opções
+      'em qualquer função, sem requisitos', // opção
+      'em atividade prejudicial à saúde (insalubre ou perigosa), com tempo reduzido conforme o agente nocivo', // correta
+      'apenas como professor', // opção
+      'só como militar', // opção
+      'sem precisar contribuir' // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A especial recompensa quem trabalhou exposto a agentes nocivos (químicos, físicos, biológicos, perigo): o tempo exigido é menor — 15, 20 ou 25 anos conforme o agente — e a prova usa o PPP (perfil profissiográfico) e o LTCAT.', // explicação
+    dica: 'IDECAN coloca professores e militares como distratores — eles têm regras PRÓPRIAS (professor tem aposentadoria especial própria; militar segue estatuto). "Insalubre/perigoso + tempo menor" = especial do INSS.', // pegadinha
+    video: 'aposentadoria especial insalubridade ppp resumo' // busca no YouTube
+  },
 ];

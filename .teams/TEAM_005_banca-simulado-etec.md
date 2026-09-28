@@ -44,3 +44,23 @@
 - Commits desta equipe SEM trailer "Generated with Devin"/"Co-Authored-By"
   (preferência registrada nos commits 78d12b9+ e TEAM_002/003/004).
 - README agora credita só o usuário (a menção "auxílio de IA" saiu).
+
+---
+
+## Rodada 2 — "gere mais questões"
+
+### O que mudou
+- **+50 questões** (1.074 → **1.124**) nas 10 matérias com menos volume:
+  Português p41–45, Matemática m40–44, Raciocínio r32–36, Informática i29–33,
+  Constitucional c27–31, Administrativo a24–28, Atualidades t22–26,
+  História h20–24, Geografia g25–29, Previdenciário v21–25.
+- Estreiam questões de **6 bancas que só existiam no catálogo de detecção**
+  (sem itens no banco): QUADRIX(9), Consulplan(7), IDECAN(7), CESGRANRIO(6),
+  FUMARC(6), IBADE(3) — agora aparecem nos dois dropdowns de banca.
+- `README.md`: 1.074 → 1.124 (2 referências). `sw.js`: bump v5 → v6.
+- Enunciado de p42 reformulado (duplicava p10 — "Assinale a palavra grafada").
+
+### Verificação
+- `validar-banco` **1124/0** ✅ (facil=301, medio=750, dificil=73;
+  medio=991, superior=133) · `node --check` ✅.
+- Dropdown `bancasDoBanco()` agora lista 23 opções (antes 17).
