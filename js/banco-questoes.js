@@ -34335,4 +34335,3652 @@ const BancoQuestoes = [
     dica: 'A "vantagem verde" tem custo: a seca compromete hidrelétricas (crise de 2021) e o etanol compete com alimentos por terra. A expansão eólica do Nordeste é a fronteira atual.', // pegadinha
     video: 'matriz energética brasileira renovável hidrelétrica' // busca no YouTube
   },
+  {
+    id: 'p72',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Interpolação de textos',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Cebraspe cobra a "interpolação" de ideias: o correto é interpretar como certa a assertiva que:', // pergunta
+    alternativas: [                     // opções
+      'repete as palavras do texto', // opção
+      'reconstrói o sentido do texto com palavras novas, sem acrescentar ideias externas', // correta
+      'extrapola com conhecimento do mundo', // opção
+      'discorda do autor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A banca distingue compreensão (o que está escrito) de interpretação (o que se infere do escrito): a resposta certa parafraseia o conteúdo — nem cópia literal, nem acréscimo de ideia estranha ao texto.', // explicação
+    dica: 'A armadilha Cespe: o item correto pode usar palavras diferentes; o errado quase sempre acrescenta algo não dito ("sempre", "nunca", causalidade inventada). Não interprete além do texto.', // pegadinha
+    video: 'cespe interpretação de texto compreensão dica' // busca no YouTube
+  },
+  {
+    id: 'p73',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Oblíquos — próclise',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Em "Não se sabe o motivo da decisão", o pronome "se" fica antes do verbo porque:', // pergunta
+    alternativas: [                     // opções
+      'é sempre assim', // opção
+      'a palavra negativa "não" atrai o pronome — próclise obrigatória', // correta
+      'o verbo é impessoal', // opção
+      'seria erro usar ênclise depois de vírgula', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Palavras atrativas (negativas, relativos, indefinidos, subordinativas, advérbios) puxam o pronome para antes do verbo = próclise. Sem atrativo e sem pausa, a ênclise (depois) é o padrão.', // explicação
+    dica: 'Atração Cespe: não, que, se, tudo, nunca, em, quando puxam o pronome. Mas início de frase pede ênclise ("Sabe-se o motivo") e futuro pede mesóclise ("saber-se-á").', // pegadinha
+    video: 'próclise palavras atrativas cespe colocação' // busca no YouTube
+  },
+  {
+    id: 'p74',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Crase',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Em "O servidor referiu-se à norma interna", a crase está correta porque:', // pergunta
+    alternativas: [                     // opções
+      'toda palavra feminina leva crase', // opção
+      '"referir-se a" exige a preposição a + "a norma" tem artigo a — a + a = à', // correta
+      'crase é opcional antes de substantivo', // opção
+      'o verbo sempre pede crase', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Crase = fusão da preposição "a" com o artigo "a/as" (ou com pronomes aquele/aquilo). Teste: trocar o feminino por masculino — "referiu-se AO decreto" = crase confirmada.', // explicação
+    dica: 'Casos proibidos de crase: antes de verbo, de palavra masculina, de pronome pessoal/indefinido ("a cada", "a alguém") e antes de "uma" indefinido. A banca cobra os dois lados.', // pegadinha
+    video: 'crase regra quando usar teste masculino' // busca no YouTube
+  },
+  {
+    id: 'p75',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Vozes verbais',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Em "Vendem-se imóveis" (placa de rua), o verbo está:', // pergunta
+    alternativas: [                     // opções
+      'na voz ativa', // opção
+      'na voz passiva sintética — o "se" é partícula apassivadora e o verbo concorda com o sujeito "imóveis"', // correta
+      'no imperativo', // opção
+      'na voz reflexiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Voz passiva sintética = VTD + se + sujeito paciente: "vendem-se imóveis" = "imóveis são vendidos". O verbo concorda com o sujeito (imóveis → vendem). "Vende-se imóvel" seria singular.', // explicação
+    dica: 'Se o verbo tiver objeto direto, o "se" é apassivador e o verbo concorda com o sujeito; se for VTI/VI ("precisa-se de", "vive-se bem"), o "se" é índice de indeterminação e o verbo fica no singular.', // pegadinha
+    video: 'voz passiva sintética partícula se concordância' // busca no YouTube
+  },
+  {
+    id: 'm71',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Proporcionalidade composta', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '5 máquinas produzem 200 peças em 4 horas. Quantas peças produzem 8 máquinas em 6 horas?', // pergunta
+    alternativas: [                     // opções
+      '320', // opção
+      '480', // correta
+      '400', // opção
+      '560', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regra de três composta: máquinas e horas são diretamente proporcionais. 200 × (8/5) × (6/4) = 200 × 1,6 × 1,5 = 480.', // explicação
+    dica: 'Compare cada grandeza com a incógnita separadamente: mais máquinas → mais peças (direta); mais horas → mais peças (direta). Se uma fosse inversa (ex.: operários × dias), invertia a fração.', // pegadinha
+    video: 'regra de três composta máquinas peças' // busca no YouTube
+  },
+  {
+    id: 'm72',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Logaritmos',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se log₂(x) = 5, então x vale:', // pergunta
+    alternativas: [                     // opções
+      '10', // opção
+      '32', // correta
+      '25', // opção
+      '64', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Logaritmo = o expoente: log₂(x) = 5 significa 2⁵ = x = 32. "A que potência devo elevar a base para obter o número?"', // explicação
+    dica: 'Ler log ao contrário: log₂32 = "2 elevado a quanto dá 32?" = 5. Propriedades cobradas: log(a·b) = log a + log b; log(a/b) = log a − log b.', // pegadinha
+    video: 'logaritmo definição log2 propriedades' // busca no YouTube
+  },
+  {
+    id: 'm73',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Função quadrática — vértice', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O vértice da parábola y = x² − 4x + 3 é o ponto:', // pergunta
+    alternativas: [                     // opções
+      '(2, −1)', // correta
+      '(−2, 15)', // opção
+      '(2, 1)', // opção
+      '(0, 3)', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'xv = −b/2a = 4/2 = 2; yv = 2² − 4·2 + 3 = 4 − 8 + 3 = −1. Vértice = (2, −1) — ponto de mínimo (a > 0).', // explicação
+    dica: 'a > 0 = parábola para cima (vértice = mínimo); a < 0 = para baixo (máximo). xv sempre = −b/2a. O vértice é o ponto de lucro máximo ou custo mínimo nos problemas aplicados.', // pegadinha
+    video: 'vértice parábola fórmula xv yv máximo mínimo' // busca no YouTube
+  },
+  {
+    id: 'm74',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Probabilidade',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Num baralho de 52 cartas, a probabilidade de tirar um ás é:', // pergunta
+    alternativas: [                     // opções
+      '1/52', // opção
+      '4/52 = 1/13', // correta
+      '1/4', // opção
+      '13/52', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Há 4 ases (um por naipe) em 52 cartas: P = casos favoráveis/casos possíveis = 4/52 = 1/13 ≈ 7,7%.', // explicação
+    dica: 'Probabilidade = favoráveis/possíveis. "OU" soma probabilidades; "E" multiplica (se independentes). Tirar ás OU rei = 4/52 + 4/52 = 8/52.', // pegadinha
+    video: 'probabilidade baralho ás cálculo' // busca no YouTube
+  },
+  {
+    id: 'm75',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Análise combinatória',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Com 5 candidatos, quantas duplas distintas de debate podem ser formadas (ordem não importa)?', // pergunta
+    alternativas: [                     // opções
+      '20', // opção
+      '10', // correta
+      '25', // opção
+      '5', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Combinação C(5,2) = 5!/(2!·3!) = 10 — combinação porque {A,B} = {B,A}. Se ordem importasse (presidente/vice), seria arranjo A(5,2) = 20.', // explicação
+    dica: 'Arranjo × combinação: importa a ordem? Sim = arranjo (multiplica); não = combinação (divide pelas repetições). "Dupla", "grupo", "comissão" → combinação; "pódio", "senha" → arranjo/permutação.', // pegadinha
+    video: 'combinação arranjo diferença análise combinatória' // busca no YouTube
+  },
+  {
+    id: 'r65',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Proposições — negação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A negação de "Todos os servidores são pontuais" é:', // pergunta
+    alternativas: [                     // opções
+      'Nenhum servidor é pontual', // opção
+      'Existe ao menos um servidor que não é pontual', // correta
+      'Todos os servidores são atrasados', // opção
+      'Alguns servidores são pontuais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Negar "todo A é B" = "existe A que não é B" — basta um contraexemplo para derrubar a afirmação universal. A negação do "todos" é o "algum não", nunca o "nenhum".', // explicação
+    dica: 'A Cespe cobra isso direto: negar "todos" → "existe...não"; negar "nenhum" → "existe"; negar "algum" → "nenhum". O contrário de todos é algum-não, não nenhum.', // pegadinha
+    video: 'negação proposições todos nenhum existe cespe' // busca no YouTube
+  },
+  {
+    id: 'i67',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança — phishing',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O ataque de phishing caracteriza-se por:', // pergunta
+    alternativas: [                     // opções
+      'invadir o servidor da empresa', // opção
+      'induzir a vítima a entregar dados (senha, cartão) através de sites/mensagens falsas que imitam entidades confiáveis', // correta
+      'criptografar arquivos para resgate', // opção
+      'monitorar o teclado da vítima', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phishing = pesca digital: e-mail/SMS/site falso finge ser banco, INSS, empresa — a vítima digita os dados numa página clonada. É engenharia social: ataca o usuário, não a máquina.', // explicação
+    dica: 'Distinguir: phishing = isca para dados; ransomware = sequestra arquivos por resgate; keylogger = registra teclas; spyware = espiona. A Cespe troca os nomes no certo/errado.', // pegadinha
+    video: 'phishing ataque site falso dados cespe' // busca no YouTube
+  },
+  {
+    id: 'i68',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Backup',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A regra 3-2-1 de backup recomenda:', // pergunta
+    alternativas: [                     // opções
+      '3 senhas, 2 antivírus, 1 firewall', // opção
+      '3 cópias dos dados, em 2 mídias diferentes, com 1 cópia fora do local (offsite/nuvem)', // correta
+      'backup a cada 3 dias', // opção
+      '3 arquivos compactados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '3-2-1 = o padrão de segurança de dados: três cópias (original + duas), em duas mídias (HD + nuvem), uma fora do local — protege contra incêndio, roubo e ransomware simultâneos.', // explicação
+    dica: 'Backup sincronizado ≠ backup de verdade: se a nuvem só espelha, o arquivo deletado/corrompido se replica. Backup precisa de histórico e cópia isolada — ransomware criptografa o espelho também.', // pegadinha
+    video: 'backup 3-2-1 regra cópias segurança dados' // busca no YouTube
+  },
+  {
+    id: 'i69',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Atalhos de teclado',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No Windows, Ctrl+Shift+Esc abre diretamente:', // pergunta
+    alternativas: [                     // opções
+      'o Painel de Controle', // opção
+      'o Gerenciador de Tarefas — para encerrar programas travados e ver uso de CPU/memória', // correta
+      'a pesquisa do menu iniciar', // opção
+      'as configurações', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ctrl+Shift+Esc = Gerenciador de Tarefas direto; Ctrl+Alt+Del abre o menu de segurança (com opção do gerenciador). Win+E = Explorer, Win+L = bloquear tela.', // explicação
+    dica: 'Atalhos cobrados na Cespe: Ctrl+Alt+Del (menu de segurança), Win+D (área de trabalho), Win+L (bloquear), Alt+Tab (alternar janelas), F2 (renomear).', // pegadinha
+    video: 'atalhos windows gerenciador tarefas ctrl shift esc' // busca no YouTube
+  },
+  {
+    id: 't57',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Eleições e política',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sistema eleitoral brasileiro para deputados usa:', // pergunta
+    alternativas: [                     // opções
+      'maioria simples', // opção
+      'representação proporcional — os votos do partido/candidato distribuem as vagas conforme quociente eleitoral e partidário', // correta
+      'distritão', // opção
+      'voto indireto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Deputados/vereadores = proporcional: cada vaga vai para os partidos conforme os votos totais recebidos (quociente eleitoral) — um candidato muito votado "puxa" colegas do mesmo partido.', // explicação
+    dica: 'Proporcional × majoritário: deputado/vereador = proporcional (partido conta); presidente/governador/prefeito/senador = majoritário. O "efeito puxador" de Tiririca é o exemplo clássico.', // pegadinha
+    video: 'quociente eleitoral proporcional deputados' // busca no YouTube
+  },
+  {
+    id: 't58',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Organizações internacionais', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O BRICS, bloco do qual o Brasil é membro fundador, reúne:', // pergunta
+    alternativas: [                     // opções
+      'Brasil, Rússia, Itália, China, Suíça', // opção
+      'Brasil, Rússia, Índia, China e África do Sul — economias emergentes que buscam voz maior na governança global', // correta
+      'países da América do Sul', // opção
+      'nações industrializadas do G7', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BRICS = Brasil, Rússia, Índia, China, África do Sul (S entrou em 2011), hoje expandido — contraponto ao G7, com banco próprio (NDB) e agenda de multipolaridade.', // explicação
+    dica: 'Blocos confundidos: BRICS = emergentes globais; Mercosul = Sul-América (Brasil, Argentina, Paraguai, Uruguai); G20 = maiores economias; ONU = quase universal. Sigla e finalidade caem sempre.', // pegadinha
+    video: 'brics países membros bloco emergentes' // busca no YouTube
+  },
+  {
+    id: 't59',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Meio ambiente — COP',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A COP30 de 2025, sediada em Belém, discutirá principalmente:', // pergunta
+    alternativas: [                     // opções
+      'comércio internacional', // opção
+      'a implementação das metas do Acordo de Paris — redução de emissões, financiamento climático e o papel da Amazônia', // correta
+      'a criação de um exército mundial', // opção
+      'a exploração da Lua', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A COP (Conferência das Partes) é a cúpula anual do clima da ONU. A edição brasileira em Belém (símbolo amazônico) pressiona por financiamento climático e metas concretas de descarbonização.', // explicação
+    dica: 'Acordos de clima: Kyoto (1997, metas por país rico), Paris (2015, 1,5°C e NDCs nacionais), COPs anuais de revisão. A COP30 no Brasil coloca a Amazônia no centro do debate.', // pegadinha
+    video: 'cop30 belém acordo paris clima' // busca no YouTube
+  },
+  {
+    id: 't60',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia brasileira',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A taxa Selic, definida pelo Banco Central, é:', // pergunta
+    alternativas: [                     // opções
+      'o imposto sobre importação', // opção
+      'a taxa básica de juros da economia — instrumento do BC para controlar inflação e estimular/refriar o crédito', // correta
+      'o salário mínimo indexado', // opção
+      'a cotação do dólar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Selic = juro básico: sobe para conter inflação (encarece crédito, esfria consumo), desce para estimular a economia. Referência para todos os juros e para a rentabilidade da renda fixa.', // explicação
+    dica: 'Relação cobrada: Selic ↑ = inflação controlada, crédito caro, poupança/renda fixa rende mais, desemprego pode subir; Selic ↓ = estímulo, inflação pode acelerar. O Copom decide a cada ~45 dias.', // pegadinha
+    video: 'selic taxa básica juros inflação copom' // busca no YouTube
+  },
+  {
+    id: 't61',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Saúde pública',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A vacinação, do ponto de vista da saúde coletiva, protege também quem não foi vacinado por:', // pergunta
+    alternativas: [                     // opções
+      'efeito placebo', // opção
+      'imunidade de rebanho — quando a maioria está imune, o vírus não circula e os vulneráveis ficam protegidos', // correta
+      'contato com vacinados', // opção
+      'genética da população', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Imunidade coletiva = a cobertura vacinal alta bloqueia a transmissão: bebês, imunossuprimidos e quem não pode se vacinar ficam protegidos porque o patógeno não encontra hospedeiro.', // explicação
+    dica: 'O "para que serve" da vacina em massa: não é só individual — é barreira social. Queda de cobertura reacende doenças controladas (sarampo voltou ao Brasil após queda de vacinação).', // pegadinha
+    video: 'imunidade de rebanho vacinação coletiva' // busca no YouTube
+  },
+  {
+    id: 't62',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Inteligência artificial',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O debate regulatório atual sobre inteligência artificial gira em torno de:', // pergunta
+    alternativas: [                     // opções
+      'proibir toda IA', // opção
+      'equilibrar inovação e proteção: viés algorítmico, transparência, responsabilidade por danos e proteção de dados', // correta
+      'acabar com a internet', // opção
+      'substituir juízes por robôs', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A regulação de IA (PL 2338/2023 no Brasil, AI Act na UE) foca: sistemas de alto risco, transparência de decisões algorítmicas, responsabilidade civil e proteção contra discriminação automatizada.', // explicação
+    dica: 'Pontos-chave: viés (a IA aprende os preconceitos dos dados), caixa-preta (decisões inexplicáveis), responsabilidade (quem responde pelo dano?) e dados pessoais (LGPD aplica-se ao treinamento).', // pegadinha
+    video: 'regulação inteligência artificial brasil pl 2338' // busca no YouTube
+  },
+  {
+    id: 't63',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Geopolítica — conflitos',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Conselho de Segurança da ONU, que pode autorizar sanções e intervenções, tem como membros permanentes:', // pergunta
+    alternativas: [                     // opções
+      'Brasil, Alemanha, Japão, Índia e México', // opção
+      'EUA, Rússia, China, França e Reino Unido — com poder de veto', // correta
+      'os 15 países mais ricos', // opção
+      'apenas os europeus', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os 5 permanentes (vencedores da 2ª Guerra) têm veto: qualquer um pode bloquear decisão do Conselho — origem da paralisia em conflitos recentes (Ucrânia, Síria, Gaza).', // explicação
+    dica: 'P5 = EUA, Rússia, China, França, Reino Unido + 10 rotativos eleitos por 2 anos (Brasil já foi várias vezes, sem veto). O veto é o ponto crítico — uma potência sozinha trava o conselho.', // pegadinha
+    video: 'conselho segurança onu veto membros permanentes' // busca no YouTube
+  },
+  {
+    id: 't64',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Direitos humanos',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Declaração Universal dos Direitos Humanos (1948) estabeleceu que os direitos humanos são:', // pergunta
+    alternativas: [                     // opções
+      'concedidos por cada Estado', // opção
+      'universais, inalienáveis e indivisíveis — valem para todos em razão da dignidade humana, independente de nacionalidade', // correta
+      'só para cidadãos de países democráticos', // opção
+      'suspensos em crises', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A DUDH (pós-2ª Guerra) afirma que direitos nascem com a pessoa, não com o Estado — universais (todos), inalienáveis (não se perdem) e indivisíveis (civis e sociais valem juntos).', // explicação
+    dica: 'O princípio-chave: o Estado não "dá" direitos humanos, apenas os RECONHECE e garante. Sistemas regionais: Convenção Americana (PIDESC), europeia e africana complementam a ONU.', // pegadinha
+    video: 'declaração universal direitos humanos 1948' // busca no YouTube
+  },
+  {
+    id: 'ad71',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão de pessoas',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A diferença entre "recrutamento" e "seleção" de pessoal é que:', // pergunta
+    alternativas: [                     // opções
+      'são o mesmo processo', // opção
+      'recrutamento atrai candidatos (convocatória); seleção avalia e escolhe entre os que vieram', // correta
+      'seleção vem antes do recrutamento', // opção
+      'recrutamento é só interno', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Recrutamento = chamar candidatos (interno ou externo); seleção = o funil de avaliação (prova, entrevista, teste). Recruta-se para depois selecionar — são fases distintas do provimento.', // explicação
+    dica: 'A Cespe confunde os termos: recrutamento = processo de ATRAÇÃO; seleção = de ESCOLHA. O recrutamento interno aproveita gente da casa; externo traz "sangue novo".', // pegadinha
+    video: 'recrutamento seleção diferença rh' // busca no YouTube
+  },
+  {
+    id: 'ad72',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Qualidade — ferramentas',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O ciclo PDCA de melhoria contínua corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'planejar, desenvolver, cobrar, avaliar', // opção
+      'Plan (planejar), Do (fazer), Check (verificar), Act (agir) — ciclo repetido para melhorar processos', // correta
+      'prevenir, detectar, corrigir, auditar', // opção
+      'produzir, distribuir, cobrar, analisar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PDCA (Deming) = o "ciclo da melhoria": planeja a mudança, executa em pequena escala, verifica o resultado e age padronizando ou corrigindo — e recomeça. Ferramenta da qualidade total.', // explicação
+    dica: 'Ordem exata: P→D→C→A. A fase "Check" é a medida/conferência; "Act" é a padronização ou o ajuste. Não é projeto único — é um ciclo contínuo de refinamento.', // pegadinha
+    video: 'ciclo pdca plan do check act qualidade' // busca no YouTube
+  },
+  {
+    id: 'ad73',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Comunicação organizacional', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A comunicação ascendente na organização é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'vem da chefia para os subordinados', // opção
+      'sobe do operacional para a direção — relatórios, sugestões, reclamações', // correta
+      'ocorre entre colegas do mesmo nível', // opção
+      'sai da empresa para o cliente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ascendente = de baixo para cima (feedback, relatório, sugestão ao chefe); descendente = ordens e políticas de cima; horizontal = entre pares; diagonal = entre áreas diferentes.', // explicação
+    dica: 'Direção da comunicação: ascendente sobe (opinião do chão), descendente desce (ordem da chefia), horizontal vai ao lado (colega), diagonal cruza níveis e departamentos.', // pegadinha
+    video: 'comunicação organizacional ascendente descendente' // busca no YouTube
+  },
+  {
+    id: 'ad74',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão de projetos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No método ágil Scrum, a "sprint" é:', // pergunta
+    alternativas: [                     // opções
+      'a reunião diária', // opção
+      'o ciclo curto de trabalho (1-4 semanas) que entrega um incremento funcional do produto', // correta
+      'o líder do projeto', // opção
+      'a lista de pendências', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sprint = o intervalo de trabalho do Scrum: a equipe entrega um pedaço usável do produto, revisa e planeja o próximo — iterativo e incremental, contraste com o projeto em cascata.', // explicação
+    dica: 'Termos Scrum confundidos: sprint = o ciclo; daily = reunião diária de 15min; backlog = lista priorizada de tarefas; product owner = dono do produto; scrum master = facilitador.', // pegadinha
+    video: 'scrum sprint backlog agile projeto' // busca no YouTube
+  },
+  {
+    id: 'ad75',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Administração pública',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Nova Gestão Pública (managerialismo) difere da burocracia clássica porque:', // pergunta
+    alternativas: [                     // opções
+      'aumenta o formalismo', // opção
+      'foca em resultados e no "cidadão-cliente" — descentralização, metas e controle por desempenho, não só por procedimento', // correta
+      'elimina toda a lei', // opção
+      'privatiza o Estado inteiro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Nova Gestão Pública (anos 1990) traz lógica empresarial ao Estado: cobra resultado, mede desempenho, descentraliza e trata o cidadão como cliente — crítica ao "foco no processo" da burocracia weberiana.', // explicação
+    dica: 'Burocracia = controle de meios (procedimento correto); Nova Gestão = controle de fins (resultado entregue). No Brasil, simboliza o Plano Diretor da Reforma do Estado de 1995 (Bresser-Pereira).', // pegadinha
+    video: 'nova gestão pública burocracia resultados' // busca no YouTube
+  },
+  {
+    id: 'ad76',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Estilos de gestão',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na gestão por competências, a organização avalia o colaborador por:', // pergunta
+    alternativas: [                     // opções
+      'somente a escolaridade formal', // opção
+      'o conjunto de conhecimentos, habilidades e atitudes (CHA) que geram desempenho — não só no cargo descrito', // correta
+      'apenas nos anos de experiência', // opção
+      'no diploma do funcionário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = CHA: Conhecimento (saber), Habilidade (saber fazer), Atitude (querer fazer). A gestão por competências mapeia o que cada papel exige e desenvolve o gap.', // explicação
+    dica: 'CHA é a tríade cobrada: saber + saber fazer + querer fazer. Contraste com a gestão por cargos (job description rígida): competências olham a pessoa e o desempenho, não só a função.', // pegadinha
+    video: 'gestão por competências cha conhecimento habilidade' // busca no YouTube
+  },
+  {
+    id: 'ct66',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Contas patrimoniais',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No balanço, "contas a receber de clientes" e "estoques" classificam-se como:', // pergunta
+    alternativas: [                     // opções
+      'passivo circulante', // opção
+      'ativo circulante — bens/direitos realizáveis no curto prazo (até 12 meses)', // correta
+      'patrimônio líquido', // opção
+      'ativo não circulante', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ativo circulante = o que vira dinheiro em até 12 meses: caixa, contas a receber, estoque. Não circulante = realização além do ciclo: imobilizado, investimentos, intangível, realizável a longo prazo.', // explicação
+    dica: 'Circulante × não circulante = o prazo de 12 meses. A banca troca "a receber" com "a pagar": cliente a receber = ATIVO; fornecedor a pagar = PASSIVO.', // pegadinha
+    video: 'ativo circulante não circulante classificação' // busca no YouTube
+  },
+  {
+    id: 'ct67',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Princípios contábeis',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O princípio da continuidade pressupõe que:', // pergunta
+    alternativas: [                     // opções
+      'a empresa será liquidada em breve', // opção
+      'a entidade seguirá operando no futuro previsível — os ativos são avaliados pelo valor de uso, não de liquidação', // correta
+      'o lucro deve ser distribuído todo', // opção
+      'a contabilidade nunca muda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Continuidade = a empresa é tratada como "going concern": presume-se operação contínua, por isso os bens valem seu custo/uso, não o preço de liquidação forçada.', // explicação
+    dica: 'Princípios cobrados: entidade (separa dono da empresa), continuidade (operação em curso), oportunidade (registrar no momento certo), registro pelo valor original, atualização monetária, competência e prudência.', // pegadinha
+    video: 'princípio continuidade entidade prudência contabilidade' // busca no YouTube
+  },
+  {
+    id: 'ct68',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Contas a pagar × a receber', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Duplicatas a receber" e "duplicatas a pagar" representam, respectivamente:', // pergunta
+    alternativas: [                     // opções
+      'direitos e obrigações — a receber é venda a prazo (ativo); a pagar é compra a prazo (passivo)', // correta
+      'duas dívidas', // opção
+      'dois direitos', // opção
+      'receita e lucro', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'Duplicata a receber = direito de cobrar o cliente que comprou a prazo (ativo); a pagar = obrigação de pagar ao fornecedor (passivo). Direito = ativo, obrigação = passivo.', // explicação
+    dica: 'Sempre: "a receber" no nome = ativo (direito); "a pagar" = passivo (obrigação). O mesmo vale para juros, impostos, salários.', // pegadinha
+    video: 'duplicatas a receber a pagar ativo passivo' // busca no YouTube
+  },
+  {
+    id: 'ct69',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Análise de balanço',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A análise vertical de uma demonstração consiste em:', // pergunta
+    alternativas: [                     // opções
+      'comparar dois anos', // opção
+      'medir cada item como porcentagem de um total (ex.: cada conta do ativo sobre o ativo total)', // correta
+      'listar em ordem alfabética', // opção
+      'somar todos os passivos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vertical = dentro da mesma data, proporção de cada item em relação ao total (o estoque é 30% do ativo). Horizontal = evolução de cada conta ao longo dos períodos (cresceu 20%).', // explicação
+    dica: 'Vertical = "decomposição" do todo numa data; horizontal = "tendência" da conta no tempo. A banca troca as duas — guarde: vertical = porcentagem do total; horizontal = crescimento ano a ano.', // pegadinha
+    video: 'análise vertical horizontal balanço diferença' // busca no YouTube
+  },
+  {
+    id: 'a62',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Licitações — modalidades',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Pela Lei 14.133/2021 (nova lei de licitações), a modalidade usada para contratação comum de menor preço é:', // pergunta
+    alternativas: [                     // opções
+      'convite', // opção
+      'pregão — que passou a ser eletrônico como regra, com disputa por melhor preço ou maior desconto', // correta
+      'concurso público', // opção
+      'leilão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A nova lei de licitações restringiu as modalidades: pregão (bens/serviços comuns) e concorrência (grandes obras/serviços especiais) são as principais; convite e tomada de preços foram extintas.', // explicação
+    dica: 'A nova lei extinguiu convite, tomada de preços e RDC: sobrou pregão, concorrência, concurso, leilão e diálogo competitivo. Pregão eletrônico é a regra — presencial só em exceção.', // pegadinha
+    video: 'lei 14133 licitações modalidades pregão' // busca no YouTube
+  },
+  {
+    id: 'a63',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Dispensa de licitação',      // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A contratação direta por "dispensa de licitação" é legal quando:', // pergunta
+    alternativas: [                     // opções
+      'o gestor preferir não licitar', // opção
+      'há hipótese legal específica — pequeno valor, emergência, licitação deserta — que autoriza, mas não obriga, a não licitar', // correta
+      'sempre que for mais rápido', // opção
+      'nunca é permitida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dispensa = hipóteses taxativas em que a lei PERMITE não licitar (emergência, baixo valor, licitação fracassada); inexigibilidade = quando a competição é impossível (fornecedor exclusivo, artista).', // explicação
+    dica: 'Dispensa × inexigibilidade: dispensa = poderia licitar, mas a lei dispensa (facultativo); inexigibilidade = não há como licitar (competição impossível — artista consagrado, fornecedor único).', // pegadinha
+    video: 'dispensa inexigibilidade licitação diferença' // busca no YouTube
+  },
+  {
+    id: 'a64',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Responsabilidade do Estado', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se um funcionário público, no exercício da função, atropela um pedestre, a vítima processa:', // pergunta
+    alternativas: [                     // opções
+      'o funcionário diretamente', // opção
+      'o Estado — pela responsabilidade objetiva (art. 37, §6º CF), que depois pode cobrar do agente em ação regressiva se houve dolo/culpa', // correta
+      'não há indenização', // opção
+      'a vítima só recorre ao seguro privado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Responsabilidade civil objetiva do Estado: a vítima só prova o dano e o nexo — não precisa provar culpa. O Estado indeniza e, internamente, pode cobrar do agente com regresso.', // explicação
+    dica: 'Objetiva para a vítima (sem prova de culpa) × subjetiva contra o agente (o Estado só regredis se o funcionário teve dolo/culpa). A vítima não pode processar direto o agente pela via civil.', // pegadinha
+    video: 'responsabilidade objetiva estado ação regressiva' // busca no YouTube
+  },
+  {
+    id: 'c65',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Segurança pública',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'As polícias Militar e Civil têm funções distintas na Constituição:', // pergunta
+    alternativas: [                     // opções
+      'ambas fazem o mesmo', // opção
+      'PM = policiamento ostensivo e preservação da ordem pública; PC = polícia judiciária (investigação de infrações)', // correta
+      'PM investiga e PC patrulha', // opção
+      'só a PF investiga', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 144: PM = policiamento ostensivo (patrulhar, prevenir, conter); PC = polícia judiciária (investigar, apurar, indiciar — exceto militares). PF = crimes interestaduais/federais + fronteiras.', // explicação
+    dica: 'O trio confundido: PM = rua e ordem (soldados); PC = inquérito e investigação (delegado); PF = interesse da União (crime interestadual, fronteira, terrorismo). Cada um tem o seu papel.', // pegadinha
+    video: 'polícia militar civil federal funções cf' // busca no YouTube
+  },
+  {
+    id: 'c66',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Processo legislativo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A PEC (Proposta de Emenda Constitucional) precisa ser aprovada:', // pergunta
+    alternativas: [                     // opções
+      'por maioria simples', // opção
+      'por 3/5 dos votos em dois turnos em cada Casa — quórum qualificado por mexer na Constituição', // correta
+      'pela metade mais um', // opção
+      'só pelo presidente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Emendar a CF exige quórum reforçado: 3/5 dos membros de cada Casa, em dois turnos — rigidez constitucional que impede mudança por vontade de maioria circunstancial.', // explicação
+    dica: 'Quóruns cobrados: lei ordinária = maioria simples; complementar = maioria absoluta; PEC = 3/5 em dois turnos; veto presidencial é derrubado por maioria absoluta. Cláusulas pétreas são imexíveis.', // pegadinha
+    video: 'pec quórum 3/5 dois turnos emenda' // busca no YouTube
+  },
+  {
+    id: 'v59',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefício por incapacidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O auxílio por incapacidade temporária (antigo auxílio-doença) exige:', // pergunta
+    alternativas: [                     // opções
+      'qualquer dor', // opção
+      'incapacidade para o trabalho comprovada por perícia médica + carência de 12 contribuições (salvo exceções)', // correta
+      'acidente de trabalho apenas', // opção
+      'mais de 60 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Auxílio por incapacidade temporária = segurado afastado por mais de 15 dias com laudo médico do INSS. Carência de 12 meses — exceto acidente de trabalho e doenças graves listadas.', // explicação
+    dica: 'Os três requisitos juntos: incapacidade comprovada + carência (12) + qualidade de segurado. E as exceções que dispensam carência: acidente de trabalho e a lista de doenças graves (câncer, AIDS, cegueira...).', // pegadinha
+    video: 'auxílio por incapacidade temporária perícia carência' // busca no YouTube
+  },
+  {
+    id: 'v60',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Revisão de benefício',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O beneficiário que discorda do cálculo do INSS pode pedir revisão dentro de:', // pergunta
+    alternativas: [                     // opções
+      'sem limite de tempo', // opção
+      '10 anos — o prazo decadencial para revisão de benefício conta da concessão', // correta
+      '1 ano', // opção
+      '60 dias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A revisão de benefício prescreve/decai em 10 anos a partir do primeiro recebimento — jurisprudência e lei fixam o marco; depois disso, o valor concedido se torna definitivo.', // explicação
+    dica: 'Decadência × prescrição: os 10 anos são decandenciais (perde o direito de pedir revisão); a cobrança de parcelas vencidas tem prescrição de 5 anos. A banca troca os institutos.', // pegadinha
+    video: 'revisão benefício inss prazo 10 anos decadência' // busca no YouTube
+  },
+  {
+    id: 'v61',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Tempo especial',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O tempo de contribuição "especial" (trabalho sob agentes nocivos):', // pergunta
+    alternativas: [                     // opções
+      'vale como tempo comum', // opção
+      'permite aposentadoria com menos tempo/idade e pode ser convertido em comum com acréscimo (quanto mais nocivo, maior o fator)', // correta
+      'só vale para médicos', // opção
+      'foi extinto em 2019', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Trabalho sob insalubridade/periculosidade dá aposentadoria especial (25/20/15 anos conforme a nocividade) — e tempo especial converte em comum com multiplicador (ex.: homem ×1,4).', // explicação
+    dica: 'Após a reforma de 2019, a conversão de especial em comum só vale para período ANTERIOR à reforma. A prova do agente nocivo é o PPP (Perfil Profissiográfico) — documento-chave.', // pegadinha
+    video: 'aposentadoria especial insalubridade conversão' // busca no YouTube
+  },
+  {
+    id: 'v62',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Custeio da previdência',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A seguridade social (saúde, previdência e assistência) é financiada por:', // pergunta
+    alternativas: [                     // opções
+      'somente o trabalhador', // opção
+      'a sociedade inteira — empregador, empregado e contribuição sobre receita/lucro das empresas, além do Estado', // correta
+      'apenas o governo federal', // opção
+      'só quem usa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 195: a seguridade é financiada por toda a sociedade — contribuições do empregador (folha), do trabalhador (salário), sobre receita e lucro das empresas e recursos do Estado.', // explicação
+    dica: 'O ponto jurídico: saúde, previdência e assistência formam o "tripé" da seguridade — financiamento tripartite. O "déficit" contábil do INSS é debate separado do orçamento total da seguridade.', // pegadinha
+    video: 'seguridade social custeio financiamento artigo 195' // busca no YouTube
+  },
+  {
+    id: 'tr74',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Horas extras',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A hora extra em dia útil é paga com adicional mínimo de:', // pergunta
+    alternativas: [                     // opções
+      '10%', // opção
+      '50% sobre a hora normal', // correta
+      '20%', // opção
+      '100%', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF art. 7º, XVI: hora extra = no mínimo 50% acima da normal; domingo/feriado sem compensação = 100%. Limite legal: 2h extras por dia (jornada máx. 10h).', // explicação
+    dica: 'Os percentuais: 50% dia comum; 100% domingo/feriado não compensado. E há o "banco de horas": a empresa troca pagamento por folga — precisa de acordo individual escrito (6 meses) ou coletivo (12 meses).', // pegadinha
+    video: 'hora extra 50% 100% banco de horas' // busca no YouTube
+  },
+  {
+    id: 'tr75',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estabilidade provisória',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A gestante tem estabilidade provisória no emprego:', // pergunta
+    alternativas: [                     // opções
+      'durante a gravidez apenas', // opção
+      'da confirmação da gravidez até 5 meses após o parto — não pode ser demitida sem justa causa', // correta
+      'só se avisar o patrão', // opção
+      'apenas no serviço público', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A estabilidade da gestante vai da concepção (mesmo sem aviso) até 5 meses após o parto — proteção contra demissão arbitrária na fase de maior vulnerabilidade.', // explicação
+    dica: 'O ponto pegadinha: a estabilidade vale mesmo que a empresa não soubesse da gravidez — basta a demissão ser sem justa causa durante o período. O aborto não criminológico também dá o direito.', // pegadinha
+    video: 'estabilidade gestante 5 meses demissão' // busca no YouTube
+  },
+  {
+    id: 'tr76',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Acordo individual × coletivo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "banco de horas" permite:', // pergunta
+    alternativas: [                     // opções
+      'pagar hora extra sempre em dinheiro', // opção
+      'compensar horas extras com folgas, em vez de pagar — por acordo individual (6 meses) ou coletivo (12 meses)', // correta
+      'trabalhar sem limite', // opção
+      'eliminar o 13º salário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O banco de horas troca o pagamento da extra por descanso futuro: acordo escrito individual compensa em 6 meses; acordo/convenção coletiva amplia para 12 — o saldo residual vira pagamento.', // explicação
+    dica: 'Os prazos cobrados: individual = 6 meses; coletivo = 12 meses. Se o saldo não for compensado no prazo, paga-se como hora extra — não "expira" a favor do patrão.', // pegadinha
+    video: 'banco de horas acordo individual coletivo' // busca no YouTube
+  },
+  {
+    id: 'tr77',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Verbas rescisórias',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na demissão sem justa causa, o empregado recebe:', // pergunta
+    alternativas: [                     // opções
+      'somente o salário do mês', // opção
+      'saldo de salário, aviso prévio, férias + 1/3, 13º proporcional e saque do FGTS com multa de 40%', // correta
+      'apenas o FGTS', // opção
+      'nada se for contrato de experiência', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A rescisão sem justa causa dispara o "pacote": saldo + aviso + férias proporcionais/integrais + 13º proporcional + liberação do FGTS + multa de 40% sobre o FGTS — a maior das rescisões.', // explicação
+    dica: 'Comparar as rescisões: sem justa causa = tudo + multa 40%; pedido de demissão = sem aviso indenizado, sem multa e sem FGTS sacável; acordo = metade do aviso e da multa, FGTS parcial.', // pegadinha
+    video: 'verbas rescisórias sem justa causa fgts 40%' // busca no YouTube
+  },
+  {
+    id: 'tr78',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Normas de segurança',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'As Normas Regulamentadoras (NRs) de segurança do trabalho são de observância:', // pergunta
+    alternativas: [                     // opções
+      'voluntária', // opção
+      'obrigatória — a empresa deve fornecer EPI, treinamento e ambiente seguro, sob multa e responsabilidade', // correta
+      'só para indústrias', // opção
+      'apenas para grandes empresas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As NRs são obrigações legais: EPI gratuito e em bom estado, PGR (programa de gerenciamento de riscos), CIPA, treinamentos — a omissão gera multa, autuação e responsabilidade civil/penal.', // explicação
+    dica: 'NRs cobradas: NR-1 (PGR), NR-5 (CIPA), NR-6 (EPI), NR-7 (PCMSO — exames ocupacionais), NR-17 (ergonomia). O fornecimento do EPI é obrigação do empregador, não do empregado.', // pegadinha
+    video: 'normas regulamentadoras nr segurança trabalho epi' // busca no YouTube
+  },
+  {
+    id: 'lg68',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto da Cidade',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Estatuto da Cidade (Lei 10.257/2001) impõe ao município com mais de 20 mil habitantes:', // pergunta
+    alternativas: [                     // opções
+      'construir habitação popular', // opção
+      'elaborar plano diretor — instrumento de ordenação do uso do solo que garante a função social da cidade', // correta
+      'abolir o IPTU', // opção
+      'criar zona industrial', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O plano diretor é a lei urbanística obrigatória para cidades >20 mil hab: zoneamento, expansão urbana, função social da propriedade — com participação popular na elaboração.', // explicação
+    dica: 'Ferramentas do Estatuto: plano diretor, zoneamento, IPTU progressivo, desapropriação de imóvel urbano ocioso, concessão de uso para fins sociais — todos giram em torno da "função social da cidade".', // pegadinha
+    video: 'estatuto da cidade plano diretor função social' // busca no YouTube
+  },
+  {
+    id: 'lg69',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei do Cadastro Positivo',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Cadastro Positivo (Lei 12.414/2011) difere do SPC/Serasa porque:', // pergunta
+    alternativas: [                     // opções
+      'lista só os devedores', // opção
+      'registra o bom pagador — histórico de contas em dia, que ajuda a construir score de crédito', // correta
+      'só serve para empresas', // opção
+      'é proibido no Brasil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O cadastro positivo registra quem PAGA em dia — o oposto do cadastro negativo (que lista inadimplentes). Em 2019 a adesão passou a ser automática (com opção de saída), alimentando o score de crédito.', // explicação
+    dica: 'Positivo = histórico bom (vantagem: melhor score, juros menores); negativo = só dívidas vencidas. O consumidor pode pedir a exclusão do positivo — a lei garante a saída.', // pegadinha
+    video: 'cadastro positivo score crédito diferença serasa' // busca no YouTube
+  },
+  {
+    id: 'lg70',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei Orgânica da Assistência Social', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O SUAS (Sistema Único de Assistência Social) organiza os serviços em:', // pergunta
+    alternativas: [                     // opções
+      'nível único federal', // opção
+      'proteção social básica (prevenção, CRAS) e proteção social especial (risco, CREAS e acolhimento)', // correta
+      'só benefícios em dinheiro', // opção
+      'hospitais públicos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'SUAS estrutura a assistência: básica = CRAS (prevenção, convivência, fortalecimento de vínculos na comunidade); especial = CREAS, acolhimento institucional, proteção de quem já sofre violação.', // explicação
+    dica: 'CRAS = porta de entrada (básica, prevenção no território); CREAS = especial média complexidade (violência, trabalho infantil). Confundir os dois centros é a pegadinha clássica.', // pegadinha
+    video: 'suas cras creas proteção básica especial' // busca no YouTube
+  },
+  {
+    id: 'lg71',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei Anticorrupção',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Lei Anticorrupção (12.846/2013) inovou no Brasil ao:', // pergunta
+    alternativas: [                     // opções
+      'punir só funcionários públicos', // opção
+      'responsabilizar a PESSOA JURÍDICA (empresa) por atos de corrupção — não só o indivíduo corrupto ou corrompido', // correta
+      'acabar com a licitação', // opção
+      'punir com pena de morte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A "Lei da Empresa Limpa" responsabiliza a PJ objetivamente: a empresa responde administrativa e civilmente por corrupção praticada em seu interesse — mesmo que sócio desconheça.', // explicação
+    dica: 'Marcos: responsabilidade OBJETIVA da PJ (sem provar culpa da diretoria), programa de compliance como atenuante, leniência (empresa que colabora reduz sanção). Única lei que "multa a empresa, não o empresário".', // pegadinha
+    video: 'lei anticorrupção 12846 responsabilidade empresa' // busca no YouTube
+  },
+  {
+    id: 'lg72',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei do Abuso de Autoridade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Lei de Abuso de Autoridade (13.869/2019) pune o agente público que:', // pergunta
+    alternativas: [                     // opções
+      'aplica a lei corretamente', // opção
+      'usa o cargo para praticar ilegalidade — constranger preso, invadir casa sem mandado, violar sigilo funcional', // correta
+      'faz concurso', // opção
+      'delega tarefa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei tipifica abusos de policiais, juízes e promotores: humilhar detido, entrar em casa fora das hipóteses legais, divulgar operação, decretar prisão fora das hipóteses — crime funcional, não erro.', // explicação
+    dica: 'Abuso de autoridade = crime próprio (só o agente público com o poder específico comete) e exige dolo de abuso — não basta erro técnico na decisão. Criada para proteger o cidadão do poder.', // pegadinha
+    video: 'abuso de autoridade lei 13869 crimes agente' // busca no YouTube
+  },
+  {
+    id: 'et64',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética no serviço público',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Código de Ética do Servidor (Decreto 1.171/1994) estabelece que o servidor deve:', // pergunta
+    alternativas: [                     // opções
+      'obedecer sempre ao chefe, sem exceção', // opção
+      'atuar com probidade, dar prioridade ao interesse público sobre o privado e exercer o cargo com zelo e dedicação', // correta
+      'cumprir só o horário', // opção
+      'aceitar presentes de fornecedores', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O código valoriza a função pública como exercício de poder em nome do povo: probidade, prioridade do interesse público, sigilo funcional (nos limites legais), respeito à hierarquia — sem deixar de resistir a ordem ilegal.', // explicação
+    dica: 'Obediência NÃO é absoluta: o código manda comunicar e recusar ordem manifestamente ilegal — obedecer ordem criminosa transfere responsabilidade. "Ordem ilegal não se cumpre" é a regra cobrada.', // pegadinha
+    video: 'código ética servidor decreto 1171 probidade' // busca no YouTube
+  },
+  {
+    id: 'et65',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Nepotismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O nepotismo — nomear parente para cargo público — é vedado porque:', // pergunta
+    alternativas: [                     // opções
+      'parentes são sempre incompetentes', // opção
+      'viola os princípios da impessoalidade e moralidade — a escolha deve ser pelo mérito, não pelo laço familiar', // correta
+      'é proibido só na iniciativa privada', // opção
+      'só a lei local proíbe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nepotismo = favorecer familiar com cargo: viola impessoalidade (administrar é servir ao público, não à família) e moralidade (regra de justiça). O STF vedou via Súmula Vinculante 13.', // explicação
+    dica: 'Distinção fina: nepotismo é vedado em cargo de CONFIANÇA/comissão; parente concursado é legal (mérito). E há "nepotismo cruzado" (um nomeia o parente do outro) — também vedado.', // pegadinha
+    video: 'nepotismo súmula vinculante 13 impessoalidade' // busca no YouTube
+  },
+  {
+    id: 'et66',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética utilitarista na gestão', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma política pública justificada por utilitarismo pode colidir com o direito individual quando:', // pergunta
+    alternativas: [                     // opções
+      'beneficia a maioria', // opção
+      'sacrifica direitos fundamentais de uma minoria em nome do "bem maior" — o que a Constituição não permite', // correta
+      'custa muito dinheiro', // opção
+      'é aprovada pelo Congresso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O utilitarismo calcula bem agregado, mas a CF fixa "mínimos" inderrogáveis: direitos fundamentais não se sacrificam pela conta da maioria — a dignidade individual é o limite do cálculo utilitário.', // explicação
+    dica: 'A tensão real: lockdown (saúde coletiva × liberdade), vigilância (segurança × privacidade). A Constituição responde: fins maiores justificam meios, mas dentro da proporcionalidade — nunca anular direito fundamental.', // pegadinha
+    video: 'utilitarismo direitos fundamentais limite constituição' // busca no YouTube
+  },
+  {
+    id: 'et67',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Sigilo profissional',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sigilo profissional do médico/advogado pode ser legalmente quebrado quando:', // pergunta
+    alternativas: [                     // opções
+      'o chefe pedir', // opção
+      'houver dever legal de notificação (doença de notificação compulsória) ou decisão judicial fundamentada', // correta
+      'nunca', // opção
+      'o paciente estiver vivo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sigilo é regra, mas cede a deveres legais superiores: notificação de doença, proteção de terceiro em risco iminente, ordem judicial — a quebra sem motivo legal é falta ética e crime.', // explicação
+    dica: 'Sigilo ≠ absoluto: a lei manda revelar em casos específicos (violência contra menor, doença transmissível). O justo equilíbrio é: sigilo por dever, quebra só por lei ou para evitar mal maior.', // pegadinha
+    video: 'sigilo profissional quando quebrar médico advogado' // busca no YouTube
+  },
+  {
+    id: 'et68',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Transparência ativa',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A transparência ativa da Administração é aquela em que o órgão:', // pergunta
+    alternativas: [                     // opções
+      'responde só quando perguntado', // opção
+      'publica espontaneamente dados — orçamento, contratos, folha — sem depender de pedido do cidadão', // correta
+      'esconde informações sensíveis', // opção
+      'cobra por relatórios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Transparência ativa = publicar por iniciativa própria (portais, dados abertos); passiva = responder ao pedido do cidadão (LAI). A regra democrática é a ativa: o órgão deve ser vidro por padrão.', // explicação
+    dica: 'Ativa = o órgão publica sem ser pedido; passiva = o cidadão solicita via LAI. A banca troca os termos — guarde: ativo é quem age por conta própria.', // pegadinha
+    video: 'transparência ativa passiva lai dados abertos' // busca no YouTube
+  },
+  {
+    id: 'et69',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética e tecnologia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O viés algorítmico — a IA que discrimina — é problema ético porque:', // pergunta
+    alternativas: [                     // opções
+      'a máquina sempre decide certo', // opção
+      'o sistema aprende os preconceitos dos dados e replica discriminação em escala, com fachada de neutralidade técnica', // correta
+      'a IA não existe ainda', // opção
+      'só afeta videogames', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Algoritmos treinados com dados históricos herdam os vieses: recusa de crédito a moradores de periferia, reconhecimento facial que erra mais em negros — discriminação automatizada sob aparência objetiva.', // explicação
+    dica: 'A ilusão da neutralidade: "o computador não tem preconceito" é falso — ele aprende o preconceito dos dados. A ética exige auditoria de viés, explicabilidade e responsabilização humana.', // pegadinha
+    video: 'viés algorítmico discriminação inteligência artificial' // busca no YouTube
+  },
+  {
+    id: 'h48',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Colonização',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sistema colonial português no Brasil foi marcado por:', // pergunta
+    alternativas: [                     // opções
+      'livre comércio entre colônia e mundo', // opção
+      'monopólio comercial, plantation (latifúndio + monocultura + escravidão) e exploração metropolitana', // correta
+      'igualdade jurídica entre colonos e índios', // opção
+      'industrialização da colônia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "sistema colonial" tinha três pilares: grande propriedade, monocultura para exportação (açúcar) e trabalho escravo — sob o exclusivo metropolitano (só Portugal comerciava com a colônia).', // explicação
+    dica: 'Os três pilares são inseparáveis: latifúndio + monocultura + escravidão = plantation. O Pacto Colonial = o exclusivo comercial — qualquer comércio direto com terceiros era ilegal.', // pegadinha
+    video: 'sistema colonial plantation pacto colonial' // busca no YouTube
+  },
+  {
+    id: 'h49',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Quilombos',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Quilombo dos Palmares (séc. XVII), maior experiência de resistência negra, foi:', // pergunta
+    alternativas: [                     // opções
+      'uma aldeia indígena', // opção
+      'um conjunto de comunidades de escravos fugidos no interior de Alagoas, liderado por Zumbi — autonomia política real', // correta
+      'uma revolta de mineiros', // opção
+      'um bairro de Salvador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Palmares foi uma "república" de negros fugitivos — resistiu quase um século (até 1694), com organização própria de produção e defesa. Zumbi liderou a resistência final — símbolo da luta negra.', // explicação
+    dica: 'Palmares ≠ revolta pontual: foi uma sociedade alternativa duradoura. A destruição em 1694 (ano que marca a Consciência Negra no Brasil — 20 de novembro é a data simbólica da morte de Zumbi).', // pegadinha
+    video: 'quilombo dos palmares zumbi resistência' // busca no YouTube
+  },
+  {
+    id: 'h50',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Inconfidência Mineira',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Inconfidência Mineira (1789) fracassou e Tiradentes foi executado porque:', // pergunta
+    alternativas: [                     // opções
+      'faltou apoio popular', // opção
+      'a conspiração separatista foi delatada antes da revolta — o plano era independência de Minas inspirada nos EUA e no Iluminismo', // correta
+      'Tiradentes traiu o grupo', // opção
+      'Portugal cedeu tudo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Elite mineradora (intelectuais, militares, padres) conspirava por república e independência em Minas — a delação de Joaquim Silvério dos Reis abortou o plano; Tiradentes virou mártir.', // explicação
+    dica: 'Por que Tiradentes virou o mártir: assumiu a autoria para poupar os demais — e era o de menor status (os ricos conseguiram degredo). A bandeira de Minas é a da Inconfidência (triângulo).', // pegadinha
+    video: 'inconfidência mineira tiradentes conjuração' // busca no YouTube
+  },
+  {
+    id: 'h51',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Período Regencial',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Período Regencial (1831-1840), entre a abdicação de Pedro I e a maioridade de Pedro II, foi marcado por:', // pergunta
+    alternativas: [                     // opções
+      'estabilidade política', // opção
+      'revoltas regionais — Cabanagem (PA), Balaiada (MA), Farroupilha (RS), Sabinada (BA) — fruto do vácuo de poder e da tensão regional', // correta
+      'guerra com o Uruguai', // opção
+      'prosperidade cafeeira', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O menino Pedro II não podia reinar: regentes governaram e o país entrou em ebulição — revoltas regionais com causas locais (pobreza, autonomia, ódio ao imposto) marcaram a década.', // explicação
+    dica: 'A banca cobra a sigla/local: Cabanagem = Pará (populares); Balaiada = Maranhão; Farroupilha = RS (república separatista, 10 anos); Sabinada = Bahia. O Golpe da Maioridade (1840) encerrou o caos antecipando Pedro II.', // pegadinha
+    video: 'período regencial revoltas cabanagem farroupilha' // busca no YouTube
+  },
+  {
+    id: 'h52',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Guerra do Paraguai',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Guerra do Paraguai (1864-1870), maior conflito armado da história sul-americana:', // pergunta
+    alternativas: [                     // opções
+      'enfraqueceu o Exército brasileiro', // opção
+      'envolveu a Tríplice Aliança (Brasil, Argentina, Uruguai) contra o Paraguai e devastou o país derrotado — com o Exército brasileiro saindo fortalecido', // correta
+      'foi resolvida em meses', // opção
+      'teve vitória paraguaia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'López invadiu territórios vizinhos e o Paraguai foi devastado (perdeu metade da população masculina, território e indústria). Para o Brasil: custo humano/fiscal enorme + Exército politizado — um fator da queda do Império.', // explicação
+    dica: 'Consequência indireta cobrada: o Exército saiu da guerra como força política e questionou o monarca que o humilhava — contribuiu para a Proclamação da República (1889).', // pegadinha
+    video: 'guerra do paraguai tríplice aliança consequências' // busca no YouTube
+  },
+  {
+    id: 'h53',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Proclamação da República',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A República foi proclamada em 1889 por:', // pergunta
+    alternativas: [                     // opções
+      'movimento popular de massa', // opção
+      'golpe militar de Marechal Deodoro — apoiado por cafeicultores insatisfeitos com a abolição e pelo positivismo, sem participação popular', // correta
+      'eleição indireta', // opção
+      'revolução armada do povo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Proclamação foi um golpe militar-oligárquico: o marechal derrubou o gabinete, os fazendeiros abandonaram o trono após a perda dos escravos sem indenização — o povo assistiu "bestializado" (Afrânio Peixoto).', // explicação
+    dica: 'Fatores da queda do Império: abolição sem compensação (elite cafeeira virou), Igreja vs Estado (questão religiosa), Exército politizado e positivista (questão militar) — o povo não participou.', // pegadinha
+    video: 'proclamação república 1889 golpe deodoro' // busca no YouTube
+  },
+  {
+    id: 'h54',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Semana de 1922',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922 (São Paulo) representou:', // pergunta
+    alternativas: [                     // opções
+      'a abertura do país ao cinema', // opção
+      'a ruptura estética com o academicismo — proposta de arte nacional, linguagem coloquial e "antropofagia cultural"', // correta
+      'a primeira exposição de fotografia', // opção
+      'o fim do barroco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Semana de 22 inaugurou o modernismo brasileiro: Mário e Oswald de Andrade, Anita Malfatti, Di Cavalcanti — valorização da cultura nacional, da fala popular e da "digestão" crítica do estrangeiro.', // explicação
+    dica: 'Manifesto Antropofágico (Oswald) = "devorar" a cultura estrangeira e cuspir o que é nosso — metáfora da apropriação crítica. Contraste com o academicismo (pintura "europeizada", neoclássica).', // pegadinha
+    video: 'semana de 22 modernismo antropofagia' // busca no YouTube
+  },
+  {
+    id: 'h55',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Era JK',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O governo JK (1956-1961) ficou marcado pelo lema e pela obra de:', // pergunta
+    alternativas: [                     // opções
+      '"Ordem e Progresso" — Vargas', // opção
+      '"50 anos em 5" — desenvolvimentismo acelerado, construção de Brasília e entrada da indústria automobilística', // correta
+      '"Brasil, potência" — Geisel', // opção
+      '"Paz e amor" — Sarney', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'JK aplicou o Plano de Metas: 50 anos em 5 — indústria de base e automobilística, energia e a construção-relâmpago de Brasília. O custo: endividamento e inflação que explodiram depois.', // explicação
+    dica: 'Brasília = símbolo do desenvolvimentismo e da interiorização do país (a capital saía da costa). O estilo urbano modernista de Lúcio Costa + Niemeyer. A "corrupção da construção" já era denunciada na época.', // pegadinha
+    video: 'jk plano de metas brasília 50 anos em 5' // busca no YouTube
+  },
+  {
+    id: 'h56',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Plano Real',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Plano Real (1994) estabilizou a inflação crônica brasileira principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'congelamento de preços e salários', // opção
+      'a URV (unidade de valor de transição) + nova moeda + âncora cambial — desindexou a economia e quebrou a inflação inercial', // correta
+      'impressão de moeda', // opção
+      'isolamento do mercado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Real matou a inflação de 4 dígitos com um truque: a URV alinhou preços numa unidade estável antes da troca para o real — quebrou a "memória inflacionária" sem o confisco do Cruzado.', // explicação
+    dica: 'Os planos anteriores (Cruzado, Bresser, Collor) fracassaram por congelamento de preços — o Real não congelou nada, mudou a moeda e indexou. Fernando Henrique como ministro da Fazenda = o autor político.', // pegadinha
+    video: 'plano real 1994 urv inflação' // busca no YouTube
+  },
+  {
+    id: 'h57',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Brasil Império — café',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "Império do café" no séc. XIX transformou o Brasil porque:', // pergunta
+    alternativas: [                     // opções
+      'descentralizou a economia', // opção
+      'o café no Vale do Paraíba/Oeste paulista financiou ferrovias e o imigrante — mas concentrou poder na elite cafeeira e adiou a industrialização', // correta
+      'acabou com a escravidão', // opção
+      'enfraqueceu São Paulo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O café deslocou o eixo econômico para o Sudeste, pagou ferrovias e atraiu imigrantes — mas reproduziu o modelo colonial: monocultura exportadora, elite fundiária e dependência do preço internacional.', // explicação
+    dica: 'O paradoxo do café: modernizou o transporte (ferrovias para o porto) e preparou São Paulo para a indústria — ao mesmo tempo que sustentou a escravidão até 1888 e manteve a elite agrária no poder.', // pegadinha
+    video: 'império café vale paraíba ferrovias' // busca no YouTube
+  },
+  {
+    id: 'g52',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Relevo brasileiro',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O relevo brasileiro é caracterizado majoritariamente por:', // pergunta
+    alternativas: [                     // opções
+      'cordilheiras jovens', // opção
+      'planaltos antigos e erodidos (formações cristalinas e sedimentares) — sem grandes cadeias montanhosas recentes', // correta
+      'vulcões ativos', // opção
+      'geleiras continentais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil não tem Andes: o relevo é velho e gasto — planaltos (Planalto Central, da Borborema, Meridional) e depressões. Pico da Neblina (2.995m) é o teto — muito abaixo das cordilheiras.', // explicação
+    dica: 'O Brasil não tem dobramentos modernos como os Andes porque está no MEIO da placa Sul-Americana — não em borda de placa. Relevo antigo = erosão longa = altitudes moderadas.', // pegadinha
+    video: 'relevo brasileiro planaltos classificação' // busca no YouTube
+  },
+  {
+    id: 'g53',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Biomas — Cerrado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Cerrado, segundo maior bioma brasileiro, é hoje uma das fronteiras agrícolas porque:', // pergunta
+    alternativas: [                     // opções
+      'é a região mais úmida', // opção
+      'tem planaltos mecanizáveis, chuvas regulares e correção de solo — o avanço da soja e da pecuária o devasta aceleradamente', // correta
+      'é inteiramente deserto', // opção
+      'tem florestas densas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cerrado (savana brasileira) virou o "celeiro" da soja e do gado — planalto plano e chuva regular fizeram a fronteira agrícola; a perda de vegetação já supera a da Amazônia em ritmo.', // explicação
+    dica: 'Cerrado = berço das águas (nascentes dos grandes rios). "Bioma das águas tortas" = árvores retorcidas adaptadas ao fogo e à seca sazonal. A sojicultura do MATOPIBA é a fronteira atual.', // pegadinha
+    video: 'cerrado bioma fronteira agrícola soja' // busca no YouTube
+  },
+  {
+    id: 'g54',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Regiões brasileiras',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A divisão regional oficial do IBGE reconhece:', // pergunta
+    alternativas: [                     // opções
+      '3 regiões', // opção
+      '5 regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul', // correta
+      '7 regiões', // opção
+      'apenas Norte e Sul', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Divisão oficial IBGE = 5 macrorregiões político-econômicas. A divisão "geoeconômica" (Pedro Pinchas) usa critério histórico-social: Norte, Nordeste e Centro-Sul (3 regiões).', // explicação
+    dica: 'Duas divisões cobradas: IBGE (5 regiões, administrativa) e geoeconômica (3 regiões, histórica: Norte, Nordeste, Centro-Sul). A banca troca os critérios — saiba qual está sendo pedido.', // pegadinha
+    video: 'regiões brasileiras ibge geoeconômica' // busca no YouTube
+  },
+  {
+    id: 'g55',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Clima brasileiro',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O semiárido nordestino tem clima caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'chuvas abundantes o ano todo', // opção
+      'longa estação seca e chuvas curtas e irregulares — regime de "anos de seca" imprevisíveis', // correta
+      'neve no inverno', // opção
+      'clima frio constante', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O semiárido tem chuva irregular (500-800mm/ano concentrada em poucos meses) e evaporação intensa — a seca é estrutural, não acidente: modelou a caatinga e o drama social nordestino.', // explicação
+    dica: 'A seca não é "falta de chuva ocasional" — é regime permanente. O problema é a desigualdade social, não só o clima: o latifúndio concentra a água e a pobreza amplifica o impacto da seca.', // pegadinha
+    video: 'semiárido nordestino seca clima caatinga' // busca no YouTube
+  },
+  {
+    id: 'g56',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Indústria brasileira',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A industrialização brasileira moderna concentrou-se no Sudeste porque:', // pergunta
+    alternativas: [                     // opções
+      'o governo mandou', // opção
+      'o café gerou capital, a infraestrutura (ferrovia, energia, mercado consumidor) já existia e os imigrantes forneciam mão de obra — vantagem acumulada', // correta
+      'o Nordeste proibiu fábricas', // opção
+      'era região de fronteira', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A concentração paulista veio da acumulação cafeeira + infraestrutura + mercado — "quem tem mais atrai mais" (vantagem cumulativa). Resultado: desconcentração só parcial nas últimas décadas.', // explicação
+    dica: 'Fases da indústria: bens de consumo (1930s), substituição de importações (Vargas/JK), indústria de base (aço CSN) e automobilística (JK). Desindustrialização recente é o problema atual.', // pegadinha
+    video: 'industrialização brasileira concentração sudeste' // busca no YouTube
+  },
+  {
+    id: 'g57',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Questão urbana',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A "gentrificação" urbana é o processo em que:', // pergunta
+    alternativas: [                     // opções
+      'bairros pobres recebem subsídio', // opção
+      'áreas centrais valorizadas expulsam os moradores de baixa renda para a periferia, atraindo moradores de maior poder aquisitivo', // correta
+      'a cidade fica abandonada', // opção
+      'o governo distribui casas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gentrificação = a revitalização do centro (tornada moda/cara) empurra os moradores antigos para a borda: o aluguel sobe, o comércio local some, a identidade do bairro muda — renovação que exclui.', // explicação
+    dica: 'Não confundir com "revitalização" neutra: a gentrificação é renovação COM substituição social — melhora o lugar, expulsa quem vivia nele. Segregação socioespacial em movimento.', // pegadinha
+    video: 'gentrificação urbana centro expulsão moradores' // busca no YouTube
+  },
+  {
+    id: 'g58',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Cartografia',                // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A projeção de Mercator, usada em mapas escolares, distorce porque:', // pergunta
+    alternativas: [                     // opções
+      'é a mais precisa', // opção
+      'preserva ângulos para navegação mas infla as áreas próximas aos polos — a Groenlândia parece do tamanho da África, que é 14x maior', // correta
+      'enfraquece os países ricos', // opção
+      'usa cores políticas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mercator é cilíndrica e conforme: ângulos corretos para navegar, mas áreas deformadas nos polos (Europa e EUA parecem maiores). A projeção de Peters equilibra as áreas — cada uma distorce algo.', // explicação
+    dica: 'Toda projeção distorce: é impossível "achatar" a esfera sem perda. Mercator = forma, Peters = área, azimutal = direção — a escolha é geopolítica (o mapa "do Sul" de Peters inverte a hierarquia visual).', // pegadinha
+    video: 'projeção mercator peters distorção mapa' // busca no YouTube
+  },
+  {
+    id: 'g59',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Hidrografia brasileira',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O rio São Francisco, "rio da integração nacional", é importante porque:', // pergunta
+    alternativas: [                     // opções
+      'navega-se de ponta a ponta', // opção
+      'liga o semiárido ao Sudeste, fornece energia (Sobradinho, Paulo Afonso) e foi alvo de polêmica transposição para o sertão', // correta
+      'é o maior rio do mundo', // opção
+      'nasce na Amazônia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Velho Chico nasce na Serra da Canastra (MG) e corre pelo sertão até desaguar no Atlântico — histórica via de integração, fonte de hidrelétricas e da controversa transposição para os rios do Nordeste Setentrional.', // explicação
+    dica: 'A transposição (2020) desvia água do São Francisco para rios intermitentes (CE, PE, PB, RN) — celebrada como fim da seca e criticada por reduzir o próprio São Francisco e criar dependência.', // pegadinha
+    video: 'rio são francisco transposição semiárido' // busca no YouTube
+  },
+  {
+    id: 'g60',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Agricultura — modelos',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O agronegócio brasileiro convive em tensão com a agricultura familiar porque:', // pergunta
+    alternativas: [                     // opções
+      'produzem os mesmos produtos', // opção
+      'o primeiro exporta commodities em larga escala; a segunda produz 70% dos alimentos da mesa — prioridades e políticas públicas distintas', // correta
+      'a familiar usa mais tecnologia', // opção
+      'não há diferença de escala', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A dualidade agrária: agronegócio = soja/milho/café para exportação, alta tecnologia, terra concentrada; agricultura familiar = alimentos básicos (feijão, mandioca, leite), 77% dos estabelecimentos e a maioria do emprego rural.', // explicação
+    dica: 'Dado de prova: a agricultura familiar é a maioria dos estabelecimentos (~77%) e metade do emprego rural, mas detém só ~23% da terra — a concentração fundiária continua no agronegócio exportador.', // pegadinha
+    video: 'agronegócio agricultura familiar diferença' // busca no YouTube
+  },
+  {
+    id: 'g61',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Lixo e saneamento',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Política Nacional de Resíduos Sólidos (Lei 12.305/2010) instituiu:', // pergunta
+    alternativas: [                     // opções
+      'a queima de lixo em aterro', // opção
+      'a logística reversa (fabricante recolhe o produto pós-consumo), a responsabilidade compartilhada e o fim dos lixões a céu aberto', // correta
+      'a exportação de resíduos', // opção
+      'lixão permanente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei ordenou o fim dos lixões (aterro sanitário como único destino) e a logística reversa para pneus, óleos, eletrônicos, agrotóxicos — cada elo (indústria, comércio, consumidor, poder público) responde pela sua parte.', // explicação
+    dica: 'Lixão vs aterro sanitário: lixão é descarte a céu aberto (ilegal desde 2014); aterro sanitário tem impermeabilização, drenagem de chorume e captura de gás. A logística reversa do pneu/bateria é o exemplo.', // pegadinha
+    video: 'política resíduos sólidos logística reversa lixão' // busca no YouTube
+  },
+  {
+    id: 'l58',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Realismo brasileiro',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Machado de Assis inaugurou o Realismo brasileiro com:', // pergunta
+    alternativas: [                     // opções
+      'o romantismo de José de Alencar', // opção
+      '"Memórias Póstumas de Brás Cubas" (1881) — narrador defunto, pessimismo, análise psicológica e crítica à elite', // correta
+      'poesia medieval', // opção
+      'a novela regionalista', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brás Cubas narra do túmulo — ironia que desmonta a hipocrisia da elite. O Realismo troca o ideal romântico pelo olhar crítico: análise social, pessimismo e o "olhar de ressaca".', // explicação
+    dica: 'Romantismo × Realismo: o primeiro idealiza amor/morte/herói; o segundo disseca a realidade com ironia. Machado é o divisor: "Dom Casmurro" é a obra-prima do ciúme ambíguo.', // pegadinha
+    video: 'machado de assis realismo brás cubas' // busca no YouTube
+  },
+  {
+    id: 'l59',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Modernismo — poesia',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O poema modernista de Manuel Bandeira "Vou-me embora pra Pasárgada" expressa:', // pergunta
+    alternativas: [                     // opções
+      'o nacionalismo ufanista', // opção
+      'o escapismo lírico — a fuga para uma terra imaginária onde tudo é possível, diante da frustração cotidiana', // correta
+      'a denúncia do coronel', // opção
+      'o amor religioso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pasárgada é a utopia do poeta doente e frustrado — "lá é outra história". Bandeira representa o modernismo lírico: linguagem coloquial, humor e a tragédia existencial do homem comum.', // explicação
+    dica: 'Bandeira = o poeta do "cotidiano profundo": morte, infância, frustração, humor. "Pasárgada" ironiza e sofre ao mesmo tempo — o modernismo mistura o riso e a angústia.', // pegadinha
+    video: 'manuel bandeira pasárgada modernismo' // busca no YouTube
+  },
+  {
+    id: 'l60',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Romantismo',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O indianismo de José de Alencar ("Iracema", "O Guarani") idealizou o índio porque:', // pergunta
+    alternativas: [                     // opções
+      'retratava fielmente a cultura indígena', // opção
+      'o romantismo criou o "bom selvagem" — figura heroica para forjar a identidade nacional recém-independente', // correta
+      'era literatura indígena escrita por índios', // opção
+      'denunciava o massacre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O indianismo romântico é projeto de nação: o índio nobre e heróico servia para "fundar" um Brasil distinto de Portugal — idealização que apaga a realidade do genocídio indígena.', // explicação
+    dica: 'Iracema = "lenda do Ceará" que batiza o Brasil (o filho Moacir = "o filho do sofrimento", primeiro brasileiro). O índio idealizado é mito de origem, não etnografia — a crítica moderna desmonta esse apagamento.', // pegadinha
+    video: 'jose de alencar indianismo iracema romantismo' // busca no YouTube
+  },
+  {
+    id: 'l61',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Literatura de cordel',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A literatura de cordel nordestina é:', // pergunta
+    alternativas: [                     // opções
+      'poema culto de academia', // opção
+      'folhetos de versos populares pendurados em cordas — narrativa oral/escrita do sertão sobre heróis, amor e crítica social', // correta
+      'romance de elite', // opção
+      'crônica de jornal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cordel = poesia popular impressa em folhetos baratos expostos em cordões nos mercados — tradição oral nordestina sobre Lampião, amores, milagres e crítica social. Patrimônio cultural brasileiro.', // explicação
+    dica: 'O cordel é a "literatura do sertão": xilogravura na capa, versos cantáveis (sextilhas), temas do povo. Patativa do Assaré e Leandro Gomes são os clássicos — reconhecido como patrimônio em 2018.', // pegadinha
+    video: 'literatura de cordel nordeste folhetos' // busca no YouTube
+  },
+  {
+    id: 'l62',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Contemporânea — Clarice',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Clarice Lispector revolucionou a prosa brasileira com:', // pergunta
+    alternativas: [                     // opções
+      'romances históricos de guerra', // opção
+      'a introspecção radical — "Perto do Coração Selvagem" mergulha no fluxo de consciência e na indagação existencial da protagonista', // correta
+      'poesia concreta', // opção
+      'realismo socialista', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Clarice trouxe o monólogo interior ao Brasil: "A Hora da Estrela" (Macabéa) e "Perto do Coração Selvagem" (Joana) exploram a consciência feminina e a condição existencial — prosa filosófica.', // explicação
+    dica: 'Clarice = a "maior romancista da interioridade": o enredo pouco importa, o que conta é a epifania do instante. Contrastar com o regionalismo de Graciliano (enredo/seca) e o humor de Rubem Fonseca.', // pegadinha
+    video: 'clarice lispector coração selvagem introspecção' // busca no YouTube
+  },
+  {
+    id: 'l63',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Naturalismo',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"O Cortiço" de Aluísio Azevedo é obra naturalista porque:', // pergunta
+    alternativas: [                     // opções
+      'idealiza a vida no campo', // opção
+      'retrata a miséria do cortiço carioca com olhar "científico" — meio e hereditariedade determinando os personagens', // correta
+      'é poesia pastoril', // opção
+      'defende a escravidão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O naturalismo (Zola) trata o homem como produto do meio: o cortiço é personagem coletivo — a miséria, a promiscuidade e a determinação biológica/social esmagam o indivíduo.', // explicação
+    dica: 'Naturalismo × Realismo: o realismo analisa a psicologia e a sociedade; o naturalismo "determina" pela biologia/meio (cientificismo). "O Cortiço" + "O Mulato" são os clássicos brasileiros.', // pegadinha
+    video: 'aluísio azevedo o cortiço naturalismo' // busca no YouTube
+  },
+  {
+    id: 'l64',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Barroco e Arcadismo',        // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Barroco mineiro de Gregório de Matos contrasta com o Arcadismo de Cláudio Manuel porque:', // pergunta
+    alternativas: [                     // opções
+      'são o mesmo estilo', // opção
+      'o Barroco é conflituoso, antitético e satírico ("Boca do Inferno"); o Arcadismo busca a harmonia bucólica e a medida clássica', // correta
+      'o Barroco é mais equilibrado', // opção
+      'o Arcadismo é mais religioso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Barroco (séc. XVII) = tensão: antítese, hipérbole, culpa e sátira — Gregório satirizou tudo. Arcadismo (séc. XVIII) = retorno ao equilíbrio clássico, natureza idealizada, carpe diem sereno.', // explicação
+    dica: 'Gregório = "Boca do Inferno" (sátira feroz à Bahia) + poesia lírica angustiada; Cláudio Manuel = pastoril, horaciano ("carpe diem"), simplicidade. Barroco = conflito; Arcádio = harmonia.', // pegadinha
+    video: 'barroco gregório matos arcadismo cláudio manuel' // busca no YouTube
+  },
+  {
+    id: 'l65',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Poesia concreta',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A poesia concreta (Haroldo e Augusto de Campos) inovou ao:', // pergunta
+    alternativas: [                     // opções
+      'voltar ao verso clássico', // opção
+      'tratar o poema como objeto visual e sonoro — a disposição espacial das palavras carrega o sentido, além do verso', // correta
+      'usar só rima perfeita', // opção
+      'escolher temas rurais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O concretismo (anos 1950) rompeu com o verso linear: a forma do poema na página É o poema — "a forma é o conteúdo". Grupo Noigandres (SP), influência de Mallarmé e da música serial.', // explicação
+    dica: 'Concreto = o poema-coisa: palavra como material visual/fonético. Contrastar com a poesia social dos anos 40 (Carlos Drummond) e a lírica subjectiva dos 60 — o concretismo é a ala experimentalista.', // pegadinha
+    video: 'poesia concreta campos forma visual' // busca no YouTube
+  },
+  {
+    id: 'l66',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Teatro brasileiro',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Nelson Rodrigues revolucionou o teatro brasileiro com:', // pergunta
+    alternativas: [                     // opções
+      'comédias de costumes leves', // opção
+      'tragédias do cotidiano que expõem hipocrisia familiar e sexual — "Vestido de Noiva" criou o "teatro desagradável"', // correta
+      'peças medievais', // opção
+      'teatro de rua apenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nelson inseriu a loucura e o desejo reprimido na família burguesa: "Vestido de Noiva" (alucinação numa cama de hospital) rompeu com a comédia de costumes — explorou o "monstro" moral do lar.', // explicação
+    dica: 'Nelson Rodrigues = o "anjo pornográfico": escancara tabus (incesto, desejo, adultério) dentro da família "respeitável". Contrastar com o teatro épico de Oduvaldo Vianna Filho e o existencial de Plínio Marcos.', // pegadinha
+    video: 'nelson rodrigues teatro vestido de noiva' // busca no YouTube
+  },
+  {
+    id: 'l67',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Elegia e lírica',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Soneto de Fidelidade" de Vinicius de Moraes ("Que não seja imortal, posto que é chama...") defende que:', // pergunta
+    alternativas: [                     // opções
+      'o amor deve durar para sempre', // opção
+      'o amor vale enquanto dura — "seja eterno enquanto dure", porque é o instante intenso que o torna eterno', // correta
+      'a morte separa os amantes', // opção
+      'o amor é apenas carnal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O soneto de Vinicius inverte o carpe diem clássico: não lamenta a brevidade, celebra-a — a fidelidade não é eternidade, é intensidade no tempo que existe. "Eterno" aqui é adverbio de duração.', // explicação
+    dica: 'O paradoxo cobrado: "eterno enquanto dure" parece contradição — mas é a tese: o valor do amor está na intensidade do agora, não na duração. Vinicius = o poeta do amor carioca.', // pegadinha
+    video: 'vinicius de moraes soneto fidelidade eterno' // busca no YouTube
+  },
+  {
+    id: 'e47',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Present Perfect',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'In "I have lived here for ten years", the Present Perfect is used because:', // pergunta
+    alternativas: [                     // opções
+      'the action is finished', // opção
+      'the action started in the past and continues up to now — "for" + duration links past to present', // correta
+      'it happened yesterday', // opção
+      'it is a future plan', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Present Perfect = passado conectado ao agora: "for ten years" = ainda moro. Simple Past seria ação fechada no passado ("I lived there in 2010").', // explicação
+    dica: 'Present Perfect com for/since/ever/already/yet = ligação passado→presente; Simple Past com ago/yesterday/last = tempo fechado. A Cespe adora esse contraste.', // pegadinha
+    video: 'present perfect vs simple past for since' // busca no YouTube
+  },
+  {
+    id: 'e48',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulário — false friends', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'The word "actually" in English means:', // pergunta
+    alternativas: [                     // opções
+      'atualmente', // opção
+      'in fact / na verdade — é um "false friend": não significa atualmente', // correta
+      'atual', // opção
+      'agora', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Actually = "na verdade/de fato" — não "atualmente" (that would be "currently"). False friends enganam: pretend = fingir, exit = saída, push = empurrar.', // explicação
+    dica: 'False friends mais cobrados: actually (na verdade), pretend (fingir), exit (saída), sensible (sensato), realize (perceber/realizar), assist (ajudar), push (empurrar), parents (pais).', // pegadinha
+    video: 'false friends inglês actually pretend' // busca no YouTube
+  },
+  {
+    id: 'e49',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Modal verbs',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"You must wear a helmet" vs "You should wear a helmet" — the difference is:', // pergunta
+    alternativas: [                     // opções
+      'no difference', // opção
+      'must = obrigação forte; should = conselho/recomendação', // correta
+      'must é mais educado', // opção
+      'should é obrigatório', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Must = obrigação (regra, lei); should/ought to = conselho; may/might = possibilidade; can = habilidade/permissão; would = hipotético/educado. A nuance modifica o sentido.', // explicação
+    dica: 'Hierarquia dos modais: must (obrigado) > should (deveria) > may/might (talvez) > can (pode/capaz). Não confundir "mustn\'t" (proibido) com "don\'t have to" (não é preciso) — são opostos.', // pegadinha
+    video: 'modal verbs must should difference english' // busca no YouTube
+  },
+  {
+    id: 'e50',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Passive voice',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'In "The bill was approved by Congress", the passive voice is preferred because:', // pergunta
+    alternativas: [                     // opções
+      'it is shorter', // opção
+      'the focus is on the bill (the object), not on who approved it — passive emphasizes result over agent', // correta
+      'it is informal', // opção
+      'it uses more verbs', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Voz passiva = sujeito sofre a ação: be + participle. Usa-se quando o resultado ou o objeto importa mais que o autor — ou quando o autor é óbvio/desconhecido.', // explicação
+    dica: 'Ativa = agente faz ("Congress approved the bill"); passiva = o "paciente" recebe ("was approved"). "By" marca o agente — omitido quando irrelevante. Estrutura: subject + be + past participle.', // pegadinha
+    video: 'passive voice english be participle' // busca no YouTube
+  },
+  {
+    id: 'e51',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Conditionals',               // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"If I had studied, I would have passed" is a:', // pergunta
+    alternativas: [                     // opções
+      'first conditional — possibility', // opção
+      'third conditional — regret about the past (impossible condition): if + past perfect → would have + participle', // correta
+      'zero conditional — fact', // opção
+      'second conditional — present', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '3rd conditional = remorso do passado (impossível): If I had + participle → would have + participle. Não aconteceu; é o "e se..." do pretérito. Zero = fato; 1º = provável; 2º = improvável agora.', // explicação
+    dica: 'Ordem das condicionais: zero (if+present→present = fato), 1ª (if+present→will = provável), 2ª (if+past→would = improvável agora), 3ª (if+past perfect→would have = impossível no passado).', // pegadinha
+    video: 'third conditional if had would have english' // busca no YouTube
+  },
+  {
+    id: 'e52',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Preposições',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Interested IN", "good AT", "depend ON" — these are:', // pergunta
+    alternativas: [                     // opções
+      'irregular verbs', // opção
+      'dependent prepositions — combinações fixas que devem ser memorizadas (adjetivo/verbo + preposição específica)', // correta
+      'phrasal verbs', // opção
+      'idioms', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Certas palavras "puxam" preposição fixa: interested in, good at, depend on, afraid of, listen to, wait for, married to — decoração é o único caminho.', // explicação
+    dica: 'In/at/on são os pares mais cobrados: interested in, good at, depend on, responsible for, married to, different from, worried about. O inglês não traduz o "de" do português sistematicamente.', // pegadinha
+    video: 'dependent prepositions interested in good at' // busca no YouTube
+  },
+  {
+    id: 'e53',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Reported speech',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"He said he was tired" — the verb "was" changes because:', // pergunta
+    alternativas: [                     // opções
+      'it is a mistake', // opção
+      'in reported speech the tense shifts back: am/is → was, will → would, can → could', // correta
+      'he is tired now', // opção
+      'it is passive voice', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Speech reportado = "backshift": o verbo vai um tempo para trás quando se relata. Present→past, will→would, can→could, have→had. "I am tired" → he said (that) he was tired.', // explicação
+    dica: 'O backshift só é obrigatório quando o fato já passou ou o verbo de ligação está no passado. Se ainda é verdade ("he said he is tired"), pode-se manter — mas a prova cobra o deslocamento.', // pegadinha
+    video: 'reported speech backshift said was' // busca no YouTube
+  },
+  {
+    id: 'e54',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Reading — inference',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'In reading comprehension, "infer" means:', // pergunta
+    alternativas: [                     // opções
+      'quote directly from the text', // opção
+      'conclude something implied but not explicitly stated — reading between the lines', // correta
+      'translate word by word', // opção
+      'skip the paragraph', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inferência = a resposta não está escrita literalmente: o texto diz que "he was drenched" e se infere que choveu. A Cespe adora itens de "it can be inferred that...".', // explicação
+    dica: 'Infer ≠ implicar confundir: o texto implica (sugere); o leitor infere (deduz). Resposta correta inferida nunca contraria o texto — só o extrapola logicamente.', // pegadinha
+    video: 'reading comprehension inference imply infer' // busca no YouTube
+  },
+  {
+    id: 'e55',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Phrasal verbs',              // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Put off", "look after" and "run out of" are examples of:', // pergunta
+    alternativas: [                     // opções
+      'compound adjectives', // opção
+      'phrasal verbs — verbo + partícula que muda o sentido (put off = adiar; look after = cuidar; run out = esgotar)', // correta
+      'prepositional clauses', // opção
+      'modal auxiliaries', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phrasal verb = verbo + preposição/advérbio que cria novo significado: "look" ≠ "look after" (cuidar) ≠ "look up" (pesquisar). A partícula redefine tudo — são o vocabulário do inglês coloquial.', // explicação
+    dica: 'Os mais cobrados: put off (adiar), look after (cuidar), run out (acabar), take off (decolar/tirar), give up (desistir), bring up (criar/mencionar), find out (descobrir). Separável: "turn it off".', // pegadinha
+    video: 'phrasal verbs put off look after run out' // busca no YouTube
+  },
+  {
+    id: 'e56',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Articles',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'The zero article (no the/a) is used in English for:', // pergunta
+    alternativas: [                     // opções
+      'any plural noun', // opção
+      'general/uncountable categories: "Water is essential", "Children like toys" — sem artigo para generalizações', // correta
+      'countries', // opção
+      'professions', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Zero article = substantivos incontáveis e plurais em sentido genérico: "Life is short", "Dogs are loyal", "I like music". "The" marca o específico/conhecido.', // explicação
+    dica: 'Incontável não leva "a": information, advice, water, music — sem plural. A/an = singular contável indefinido; the = específico/conhecido; zero = generalidade/abstrato.', // pegadinha
+    video: 'english articles zero article a the' // busca no YouTube
+  },
+  {
+    id: 's48',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Ser × estar',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'En español, "él está cansado" y "él es trabajador" distinguen:', // pergunta
+    alternativas: [                     // opções
+      'tiempo verbal', // opção
+      'estar = estado temporário (cansado agora); ser = característica permanente (ser trabajador)', // correta
+      'formalidad', // opção
+      'número gramatical', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ser = esencia/identidad/permanente (soy médico, es alto); estar = estado/localización/temporal (estoy cansado, estoy en casa). La distinción es la trampa clásica para el brasileño.', // explicação
+    dica: 'Ser = lo que se ES; estar = lo que se ESTÁ (estado/lugar). Pero atención: "ser aburrido" = ser chato (rasgo); "estar aburrido" = estar aburrido (estado) — el verbo muda el sentido del adjetivo.', // pegadinha
+    video: 'ser estar español diferencia estado permanente' // busca no YouTube
+  },
+  {
+    id: 's49',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Falsos cognatos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Embarazada" en español significa — cuidado con el falso cognado:', // pergunta
+    alternativas: [                     // opções
+      'embaraçada (avergonzada)', // opção
+      'grávida — no confundir con "embarazada"; avergonzada se dice "avergonzada"', // correta
+      'ocupada', // opção
+      'triste', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Falsos cognados español-portugués: embarazada = grávida (não envergonhada); exquisito = delicioso (não esquisito); largo = comprido; oficina = escritório; propina = gorjeta.', // explicação
+    dica: 'Lista dos falsos amigos: embarazada=grávida, exquisito=saboroso, largo=comprido, oficina=escritório, propina=gorjeta, acordar=decidir/lembrar, vaso=copo, cena=jantar.', // pegadinha
+    video: 'falsos cognados español portugués embarazada' // busca no YouTube
+  },
+  {
+    id: 's50',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Por × para',                 // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Gracias por la ayuda" y "trabajo para ti" — por y para se diferencian en:', // pergunta
+    alternativas: [                     // opções
+      'nada, son iguales', // opção
+      'por = causa/medio/intercambio; para = finalidad/destino/dirección', // correta
+      'por es futuro', // opção
+      'para es pasado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Por = la razón o el medio (gracias por, viajar por, comprar por 10 reales); para = la meta o el destino (para ti, para mañana, para aprender) — la distinción de "causa vs propósito".', // explicação
+    dica: 'Mnemotecnia: por mira hacia atrás (la causa de algo ya hecho); para mira hacia adelante (la finalidad). "Lo hice por ti" = causa; "es para ti" = destino.', // pegadinha
+    video: 'por para español diferencia causa finalidad' // busca no YouTube
+  },
+  {
+    id: 's51',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pretérito — indefinido vs imperfecto', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Ayer comí pizza" y "de niño comía pizza" — la diferencia entre indefinido e imperfecto es:', // pergunta
+    alternativas: [                     // opções
+      'ninguna', // opção
+      'indefinido = acción puntual y terminada (comí ayer); imperfecto = acción habitual o continua en el pasado (comía de niño)', // correta
+      'el imperfecto es futuro', // opção
+      'el indefinido es condicional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Indefinido = el evento completo con inicio y fin (comí, llegó, nació); imperfecto = la rutina, el contexto, la descripción en pasado (comía, hacía calor, era niño). El narrador usa el imperfecto para el escenario.', // explicação
+    dica: 'El imperfecto "describe el fondo" (qué pasaba), el indefinido "narra el evento" (qué pasó): "Mientras caminaba (imperfecto), me caí (indefinido)". En la frase combinada, el fondo es imperfecto.', // pegadinha
+    video: 'pretérito indefinido imperfecto español' // busca no YouTube
+  },
+  {
+    id: 's52',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Subjuntivo',                 // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'El subjuntivo en español se usa principalmente para expresar:', // pergunta
+    alternativas: [                     // opções
+      'hechos ciertos', // opção
+      'deseo, duda, hipótesis, emoción — lo que no es realidad consumada: "ojalá vengas", "dudo que sea"', // correta
+      'el pasado remoto', // opção
+      'órdenes formales', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'El subjuntivo habita lo deseado/dudoso/hipotético: ojalá, dudo que, es posible que, quiero que. El indicativo presenta el hecho; el subjuntivo presenta la posibilidad.', // explicação
+    dica: 'Gatillos del subjuntivo: ojalá, tal vez + duda, es importante que, quiero que, no creo que — el segundo verbo entra en subjuntivo cuando el primero es de deseo/duda/emoción.', // pegadinha
+    video: 'subjuntivo español ojalá dudo que' // busca no YouTube
+  },
+  {
+    id: 's53',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Género y número',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Las palabras "el problema", "la mano" y "el día" son excepciones porque:', // pergunta
+    alternativas: [                     // opções
+      'no tienen género', // opção
+      'rompen la regla de la terminación: -ma es masculino (el problema), -o puede ser femenino (la mano), -a puede ser masculino (el día)', // correta
+      'son verbos', // opção
+      'son plurales', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Las excepciones de género: -ma griego = masculino (el problema, el tema, el sistema); mano y radio son femeninas; día y mapa son masculinos aunque terminen en -a.', // explicação
+    dica: 'Regla base: -o masculino, -a femenino. Excepciones cobradas: el problema/el sistema/el programa/-ma, la mano/la foto/la radio, el día/el mapa/el planeta. El artículo delata el género.', // pegadinha
+    video: 'género español excepciones problema mano día' // busca no YouTube
+  },
+  {
+    id: 's54',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Tú vs usted',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'La diferencia entre "tú" y "usted" en español es de:', // pergunta
+    alternativas: [                     // opções
+      'tiempo verbal', // opção
+      'registro — tú es informal (amigos, familia); usted es formal (respeto, desconocidos) y conjuga en 3ª persona', // correta
+      'género', // opção
+      'número', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Usted = formal, conjuga como él/ella (usted tiene); tú = informal (tú tienes). En Latinoamérica, ustedes es el plural general; en España, vosotros es el plural informal.', // explicação
+    dica: 'El usted conjuga como él (usted tiene, usted es, usted puede) — "3ª persona de cortesía". El voseo argentino (vos tenés) y el ustedes latinoamericano son variantes regionales.', // pegadinha
+    video: 'tú usted español formal informal conjugación' // busca no YouTube
+  },
+  {
+    id: 's55',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pronombres de objeto',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'En "Se lo di ayer", los pronombres "se" y "lo" representan:', // pergunta
+    alternativas: [                     // opções
+      'dos sujetos', // opção
+      '"se" = le (a él/a ella) y "lo" = el objeto directo — el español usa "se" antes de lo/la para evitar "le lo"', // correta
+      'un reflejo', // opção
+      'una pasiva', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'La regla "se lo": cuando el indirecto (le/les) se junta con el directo (lo/la/los/las), "le" se vuelve "se" — "le lo di" es incorrecto, "se lo di" es la forma. Secuencia de dos complementos.', // explicação
+    dica: 'Directo = lo/la/los/las (la cosa); indirecto = le/les (a quién). Cuando van juntos: se lo, se la, se los. Ejemplo: "Di el libro a ella" → "Se lo di". Regla fonética del español.', // pegadinha
+    video: 'se lo pronombres objeto directo indirecto' // busca no YouTube
+  },
+  {
+    id: 's56',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Acentuación',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'En español, "está" (verbo) y "esta" (demostrativo) difieren por:', // pergunta
+    alternativas: [                     // opções
+      'el significado', // opção
+      'la tilde diacrítica — el acento distingue palabras homófonas con funciones distintas (está = verbo; esta = demostrativo)', // correta
+      'la región', // opção
+      'el género', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'La tilde diacrítica marca la diferencia gramatical: está/esta, él/el, sí/si, más/mas, sé/se, té/te, tú/tu, mí/mi — el acento convierte la palabra en la categoría "fuerte" de la pareja.', // explicação
+    dica: 'Pares cobrados: él (pronombre)/el (artículo), sí (afirmación)/si (condición), más (cantidad)/mas (pero), sé (verbo saber)/se (pronombre), tú (pronombre)/tu (posesivo), mí (pronombre)/mi (posesivo).', // pegadinha
+    video: 'tilde diacrítica español esta él mas' // busca no YouTube
+  },
+  {
+    id: 's57',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Vocabulario — falsos amigos 2', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Constipado" en español significa:', // pergunta
+    alternativas: [                     // opções
+      'estreñido', // opção
+      'resfriado/gripado — no confundir con el portugués "constipado" (estreñido); en español, es constipado = catarro', // correta
+      'enfermo grave', // opção
+      'alérgico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Falso amigo clásico: constipado = resfriado en español; estreñimiento es la constipación portuguesa. En España y Latinoamérica, "estar constipado" = tener el resfriado común.', // explicação
+    dica: 'Más falsos amigos médicos/cotidianos: constipado=resfriado, embarazada=grávida, sano=saludable, largo=comprido, tuna=tuna estudiantil (não atum), cena=jantar (não cena).', // pegadinha
+    video: 'falsos amigos español constipado embarazada' // busca no YouTube
+  },
+  {
+    id: 'ar53',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte barroca brasileira',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Aleijadinho e o Barroco mineiro do séc. XVIII representam:', // pergunta
+    alternativas: [                     // opções
+      'arte moderna', // opção
+      'a síntese de arte sacra + expressão local — esculturas e igrejas de Ouro Preto/Congonhas, financiadas pelo ouro', // correta
+      'pintura abstrata', // opção
+      'arte indígena', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aleijadinho (Antônio Francisco Lisboa) esculpiu os profetas de Congonhas e as igrejas do ouro mineiro — barroco brasileiro: dramaticidade religiosa, talha dourada e expressão popular.', // explicação
+    dica: 'Barroco mineiro = ouro do interior financiando arte sacra. Os 12 profetas de pedra-sabão e os Passos da Paixão em Congonhas são patrimônio mundial — a obra-prima do colonial brasileiro.', // pegadinha
+    video: 'aleijadinho barroco mineiro congonhas' // busca no YouTube
+  },
+  {
+    id: 'ar54',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Modernismo nas artes',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Anita Malfatti e Tarsila do Amaral representam o modernismo brasileiro porque:', // pergunta
+    alternativas: [                     // opções
+      'copiaram o academicismo europeu', // opção
+      'romperam com o padrão clássico — cores puras, formas simplificadas e temas nacionais (Abaporu, operários)', // correta
+      'só pintaram retratos', // opção
+      'fizeram arte sacra', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Malfatti abriu o modernismo com a exposição de 1917 (escândalo para a época); Tarsila criou o ícone "Abaporu" (1928) — o homem que come gente = o Manifesto Antropofágico em pintura.', // explicação
+    dica: '"Abaporu" = tupi para "homem que come gente" — visualiza a teoria antropofágica (devorar o estrangeiro, produzir o nacional). O modernismo na pintura = cores vibrantes + figuras exageradas + Brasil rural/urbano.', // pegadinha
+    video: 'tarsila amaral abaporu anita malfatti modernismo' // busca no YouTube
+  },
+  {
+    id: 'ar55',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte contemporânea',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A arte contemporânea difere da moderna porque:', // pergunta
+    alternativas: [                     // opções
+      'é mais tradicional', // opção
+      'questiona a própria definição de arte — instalação, performance, ready-made e intervenção urbana, priorizando conceito sobre técnica', // correta
+      'só aceita pintura', // opção
+      'é mais antiga', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Contemporânea = pós-modernidade: o objeto é só suporte do conceito (a banalização de Duchamp), o corpo é obra (performance), a rua é tela (grafite/intervenção). Rompe a barreira arte/vida.', // explicação
+    dica: 'Moderno = ruptura de forma (novo estilo); contemporâneo = ruptura de conceito (o que é arte?). O grafite, a performance e a instalação são os gêneros típicos — técnica não é o critério.', // pegadinha
+    video: 'arte contemporânea instalação performance' // busca no YouTube
+  },
+  {
+    id: 'ar56',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Grafite e arte urbana',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A diferença entre pichação e grafite é que:', // pergunta
+    alternativas: [                     // opções
+      'são sinônimos', // opção
+      'a pichação é marcação territorial/protesto ilegível; o grafite é produção artística no espaço público, muitas vezes legalizada', // correta
+      'o grafite é sempre ilegal', // opção
+      'a pichação é mais bonita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pichação = a tag de guerra urbana (território, transgressão); grafite = street art intencional (cores, figura, mensagem estética). A Lei 13.802/2010 reconheceu o grafite como manifestação cultural.', // explicação
+    dica: 'Ambos vêm da rua, mas propósito diverge: pixo = confronto territorial (ilegível proposital); grafite = comunicação estética. Hoje o grafite é patrimônio urbano reconhecido (muros de Eduardo Kobra).', // pegadinha
+    video: 'grafite pichação diferença arte urbana' // busca no YouTube
+  },
+  {
+    id: 'ar57',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Impressionismo',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Impressionismo (Monet, Renoir) inovou ao pintar:', // pergunta
+    alternativas: [                     // opções
+      'mitologia grega', // opção
+      'a luz e o instante — pinceladas soltas ao ar livre capturando a impressão visual do momento, não o detalhe', // correta
+      'só retratos da nobreza', // opção
+      'com precisão fotográfica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Impressionismo (1870s) saiu do ateliê para a rua: a luz do sol mudando o objeto, pincelada visível, cenas cotidianas. "Impression, soleil levant" de Monet deu o nome ao movimento.', // explicação
+    dica: 'Impressionismo = captar a luz e o momento (Monet); não é falta de técnica — é escolha de registrar a "impressão" fugaz. Pós-impressionismo (Van Gogh, Cézanne) reage e intensifica cor/forma.', // pegadinha
+    video: 'impressionismo monet luz pincelada' // busca no YouTube
+  },
+  {
+    id: 'ar58',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cubismo',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Cubismo de Picasso e Braque fragmenta o objeto para:', // pergunta
+    alternativas: [                     // opções
+      'esconder o tema', // opção
+      'mostrar múltiplos pontos de vista simultâneos — a figura decomposta em planos geométricos vê todos os ângulos de uma vez', // correta
+      'embelezar a natureza', // opção
+      'pintar mais rápido', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cubismo decompõe a forma em geometrias e mostra frente/perfil/cima ao mesmo tempo — revolução que rompeu a perspectiva renascentista. "Les Demoiselles d\'Avignon" (1907) é o marco.', // explicação
+    dica: 'Cubismo analítico (quase monocromático, fragmentado) vs sintético (colagem, cores). A leitura não é "feio": é a visão 3D achatada — todos os lados ao mesmo tempo na tela plana.', // pegadinha
+    video: 'cubismo picasso fragmentação pontos vista' // busca no YouTube
+  },
+  {
+    id: 'ar59',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte do corpo',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na dança e na performance, o corpo é:', // pergunta
+    alternativas: [                     // opções
+      'só decorativo', // opção
+      'o meio e a obra — a arte do corpo transforma a presença física do artista em expressão (a dança comunica pela gestualidade)', // correta
+      'separado da arte', // opção
+      'apenas exercício', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Performance e dança usam o corpo como material: Marina Abramović expõe o próprio limite físico; o balé e a dança moderna (Pina Bausch) transformam o gesto em linguagem sem palavras.', // explicação
+    dica: 'O corpo-arte cobre: performance (ação ao vivo = a obra), body art (pintura/tatuagem como tela), dança (movimento = texto). No Brasil, Lia Rodrigues usa o corpo como denúncia social.', // pegadinha
+    video: 'arte do corpo performance dança abramovic' // busca no YouTube
+  },
+  {
+    id: 'ar60',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte africana/indígena',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A arte indígena e afro-brasileira no Brasil ganhou centralidade por:', // pergunta
+    alternativas: [                     // opções
+      'ser novidade recente', // opção
+      'a valorização da cultura matriz — grafismo indígena, arte rupestre, artesanato e religiosidade afro como patrimônio e resistência', // correta
+      'ser arte decorativa apenas', // opção
+      'imitação europeia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A arte de matrizes (indígena e africana) carrega função ritual, identitária e de memória — do grafismo Kadiwéu às máscaras, ao artesanato e à religiosidade, são arte integrada à vida, não objeto de museu.', // explicação
+    dica: 'A banca cobra a mudança de olhar: o que era "artesanato" ou "primitivo" passa a arte — a arte é função social (cerimônia, cura, território), não só estética. Ex.: cerâmica marajoara, grafismo, arte rupestre de Serra da Capivara.', // pegadinha
+    video: 'arte indígena afro-brasileira patrimônio grafismo' // busca no YouTube
+  },
+  {
+    id: 'ar61',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cinema brasileiro',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Cinema Novo (anos 1960, Glauber Rocha) propôs:', // pergunta
+    alternativas: [                     // opções
+      'cinema de entretenimento puro', // opção
+      '"uma câmera na mão e uma ideia na cabeça" — cinema político de baixo custo sobre a fome e a realidade social brasileira', // correta
+      'filmes de Hollywood', // opção
+      'apenas documentários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Cinema Novo politizou o cinema: "Deus e o Diabo na Terra do Sol", "Terra em Transe" — estética da fome (estética da violência como resposta à miséria), criação autoral contra a chanchada e Hollywood.', // explicação
+    dica: 'Estética da fome (Glauber Rocha) = a violência do sertão transformada em linguagem — o faminto não produz paz. O Cinema Novo rejeitou a chanchada e a influência hollywoodiana pelo cinema de autor engajado.', // pegadinha
+    video: 'cinema novo glauber rocha estética da fome' // busca no YouTube
+  },
+  {
+    id: 'ar62',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Fotografia',                 // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A fotografia conquistou status de linguagem artística quando:', // pergunta
+    alternativas: [                     // opções
+      'surgiu a câmera digital', // opção
+      'deixou de ser apenas registro documental — a escolha do enquadramento, luz e momento transformou a foto em expressão estética', // correta
+      'virou preto e branco', // opção
+      'entrou no celular', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A foto-arte se constrói na escolha do autor: o olhar, o enquadramento, a luz — não só a realidade registrada. Sebastião Salgado documenta a dignidade humana com estética própria.', // explicação
+    dica: 'Sebastião Salgado é o marco brasileiro: "Gênesis" e "Êxodos" — documentário de denúncia social com composição plástica. A foto pode ser documento e obra ao mesmo tempo.', // pegadinha
+    video: 'fotografia como arte sebastião salgado' // busca no YouTube
+  },
+  {
+    id: 'ef51',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Treinamento — especificidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O princípio da especificidade determina que:', // pergunta
+    alternativas: [                     // opções
+      'todo treino é igual', // opção
+      'a adaptação é específica ao estímulo — treinar natação melhora natação, não corrida de rua', // correta
+      'mais treino é sempre melhor', // opção
+      'qualquer esporte vale', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O corpo adapta-se ao que treina: força gera força, resistência gera resistência, velocidade gera velocidade. O triatleta treina as três modalidades porque a adaptação não é transferível total.', // explicação
+    dica: 'Princípios juntos: sobrecarga (aumentar estímulo), especificidade (treinar o gesto alvo), individualidade (cada um responde diferente) e continuidade/reversibilidade (parou, perde).', // pegadinha
+    video: 'princípio especificidade treinamento adaptação' // busca no YouTube
+  },
+  {
+    id: 'ef52',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Energia — sistemas',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sprint de 100 metros usa majoritariamente o sistema energético:', // pergunta
+    alternativas: [                     // opções
+      'aeróbico', // opção
+      'anaeróbico aláctico — ATP-PC (fosfagênio): explosão máxima de poucos segundos sem oxigênio', // correta
+      'lipídico', // opção
+      'lento oxidativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Três sistemas: ATP-PC/aláctico (explosão até ~10s — sprint, salto), anaeróbico láctico/glicolítico (esforço intenso 10s-2min — 400m, natação curta), aeróbico (esforço prolongado — maratona).', // explicação
+    dica: 'O tempo decide o sistema: até ~10s = fosfagênio (rápido, sem ácido lático); 10s-2min = glicolítico (produz lactato); >2min = aeróbico (oxigênio, sustentável). O sprint é o exemplo puro do aláctico.', // pegadinha
+    video: 'sistemas energéticos atp anaeróbico aeróbico' // busca no YouTube
+  },
+  {
+    id: 'ef53',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Fisiologia do exercício',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "limiar anaeróbico" é o ponto em que:', // pergunta
+    alternativas: [                     // opções
+      'o coração para', // opção
+      'o organismo passa a produzir lactato mais rápido do que consegue remover — início do cansaço ácido', // correta
+      'o exercício começa', // opção
+      'o oxigênio acaba', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Limiar anaeróbico = a intensidade em que o lactato acumula no sangue: abaixo dele, o exercício é sustentável (aeróbico); acima, o tempo é limitado — a fadiga "de queimação" chega rápido.', // explicação
+    dica: 'Lactato ≠ veneno: é subproduto que acumula quando a demanda passa da remoção. Treinar eleva o limiar — o atleta de elite sustenta percentual maior do VO2max antes de "estourar".', // pegadinha
+    video: 'limiar anaeróbico lactato exercício' // busca no YouTube
+  },
+  {
+    id: 'ef54',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Saúde postural',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A postura correta ao levantar peso do chão é:', // pergunta
+    alternativas: [                     // opções
+      'curvar a coluna para baixo', // opção
+      'dobrar os joelhos e manter a coluna neutra — a carga vai para as pernas, não para a lombar', // correta
+      'levantar com as costas', // opção
+      'girar o tronco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A biomecânica correta protege a coluna: flexiona quadril e joelhos (força das pernas/glúteos), mantém a lordose neutra e o objeto perto do corpo — curvar a lombar sob carga lesiona o disco.', // explicação
+    dica: 'Regras posturais cobradas: carga perto do corpo, coluna neutra (não curvada), esforço nas pernas, evitar torção sob carga. O erro clássico = levantar com a lombar redonda.', // pegadinha
+    video: 'ergonomia levantar peso coluna postura' // busca no YouTube
+  },
+  {
+    id: 'ef55',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte e dopagem',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O doping no esporte é proibido porque:', // pergunta
+    alternativas: [                     // opções
+      'é apenas questão de regra', // opção
+      'viola a equidade da competição e põe em risco a saúde do atleta — substâncias como EPO e anabolizantes dão vantagem ilícita e matam', // correta
+      'só o treino importa', // opção
+      'é legalizado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Doping = substância/método proibido pela WADA: anabolizantes, EPO, estimulantes, transfusão de sangue — vantagem desleal + risco cardíaco, hepático e hormonal. O controle é ético e de saúde.', // explicação
+    dica: 'As classes cobradas: anabolizantes (massa), estimulantes (alerta), EPO (oxigenação), diuréticos (mascaram outros) e métodos (transfusão, gene doping). A WADA publica a lista anual proibida.', // pegadinha
+    video: 'doping wada anabolizantes esporte' // busca no YouTube
+  },
+  {
+    id: 'ef56',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Educação física escolar',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Educação Física escolar moderna busca, além do jogo:', // pergunta
+    alternativas: [                     // opções
+      'só formar atletas', // opção
+      'a cultura corporal — educar o aluno para o corpo como expressão, lazer, saúde e cidadania, não só para a competição', // correta
+      'treino militar', // opção
+      'eliminar o esporte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A EF escolar contemporânea rejeita o "só esporte": cultura corporal inclui dança, luta, ginástica, jogo, aventura — formar o corpo inteiro para a vida (saúde, lazer, expressão), não só para o pódio.', // explicação
+    dica: 'Manifestos da EF: cultura corporal (BNCC), crítica ao higienismo e ao militarismo histórico da matéria. A inclusão (adaptado, paralímpico) e a recusa da meritocracia corporal são temas atuais.', // pegadinha
+    video: 'educação física escolar cultura corporal bncc' // busca no YouTube
+  },
+  {
+    id: 'ef57',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Alongamento',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Aquecer antes e alongar depois do exercício têm funções diferentes porque:', // pergunta
+    alternativas: [                     // opções
+      'são a mesma coisa', // opção
+      'o aquecimento eleva a temperatura e prepara o corpo para o esforço; o alongamento/recuperação relaxa e reduz tensão pós-exercício', // correta
+      'alongar cansa', // opção
+      'aquecer é inútil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aquecimento = elevar a temperatura muscular, preparar articulação e coração para a demanda (dinâmico, progressivo); volta à calma + alongamento = relaxar, drenar metabólitos, prevenir encurtamento.', // explicação
+    dica: 'O erro clássico: alongar frio antes de treinar — o alongamento estático ANTES pode diminuir desempenho de força/potência. Aquece dinâmico antes, alonga depois.', // pegadinha
+    video: 'aquecimento alongamento antes depois exercício' // busca no YouTube
+  },
+  {
+    id: 'ef58',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Nutrição esportiva',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No exercício prolongado, a proteína é mais importante para:', // pergunta
+    alternativas: [                     // opções
+      'dar energia imediata', // opção
+      'reparar e construir o músculo no pós-treino — a recuperação e a síntese proteica são seu papel, não a energia explosiva', // correta
+      'hidratar', // opção
+      'substituir o carboidrato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Carboidrato = combustível da atividade (energia); proteína = tijolo do músculo (síntese, recuperação). O timing proteico pós-treino é mais relevante que a quantidade diária total.', // explicação
+    dica: 'Papéis: carbo = energia; proteína = construção/recuperação; gordura = energia de longa duração + hormônios; água = termorregulação. O erro é demonizar o carbo — é o combustível do exercício.', // pegadinha
+    video: 'proteína carboidrato nutrição exercício' // busca no YouTube
+  },
+  {
+    id: 'ef59',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte adaptado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'As Paralimpíadas representam:', // pergunta
+    alternativas: [                     // opções
+      'competição menor', // opção
+      'o esporte de alto rendimento para atletas com deficiência — classes de competição que equalizam o desempenho', // correta
+      'recreação terapêutica', // opção
+      'esporte especial sem regras', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O movimento paralímpico é esporte elite: classes funcionais equilibram a deficiência (visual, física, intelectual) — a classificação garante equidade. O Brasil é potência paralímpica.', // explicação
+    dica: 'Paralímpico ≠ "para quem não pode": é elite atlética com classificação funcional. A diferença com a Olimpíada Especial (para deficiência intelectual, foco participativo) é a prova.', // pegadinha
+    video: 'paralimpíadas classes esporte deficiência' // busca no YouTube
+  },
+  {
+    id: 'fs48',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema nervoso',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sistema nervoso simpático prepara o corpo para:', // pergunta
+    alternativas: [                     // opções
+      'dormir e digerir', // opção
+      '"lutar ou fugir" — acelera coração, dilata pupila, desvia sangue para o músculo em situação de alerta', // correta
+      'relaxamento', // opção
+      'digestão lenta', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Simpático = aceleração (estresse/perigo: coração dispara, pupilas dilatam, bronquios abrem); parassimpático = descanso/digestão (coração desacelera, intestino trabalha). São antagonistas.', // explicação
+    dica: 'Simpático = "gasolina"; parassimpático = "freio". No medo, o simpático domina: adrenalina, coração disparado, boca seca. Digestão e sono são o reino do parassimpático.', // pegadinha
+    video: 'sistema nervoso simpático parassimpático' // busca no YouTube
+  },
+  {
+    id: 'fs49',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema cardiovascular',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O coração é dividido em lado direito e esquerdo para:', // pergunta
+    alternativas: [                     // opções
+      'dividir o trabalho pela metade', // opção
+      'separar sangue venoso (direito, vai ao pulmão) do arterial (esquerdo, vai ao corpo) — dupla circulação sem mistura', // correta
+      'aumentar o volume', // opção
+      'fazer barulho', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dupla circulação: lado direito recebe sangue pobre em O₂ e bombeia ao pulmão (pequena circulação); lado esquerdo recebe oxigenado e bombeia para o corpo (grande circulação) — o ventrículo esquerdo é mais musculoso.', // explicação
+    dica: 'O ventrículo esquerdo tem parede mais grossa: bombeia para todo o corpo (mais pressão). As válvulas evitam refluxo — o "tum-tum" do batimento é o fechamento delas.', // pegadinha
+    video: 'coração circulação ventrículo esquerdo pulmão' // busca no YouTube
+  },
+  {
+    id: 'fs50',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema respiratório',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'As trocas gasosas no pulmão acontecem nos:', // pergunta
+    alternativas: [                     // opções
+      'brônquios', // opção
+      'alvéolos — sacos microscópicos onde O₂ entra no sangue e CO₂ sai, por difusão através da parede fina', // correta
+      'traqueia', // opção
+      'laringe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O alvéolo é a "moeda de troca" do ar: parede fina de uma célula + capilar enrolado = difusão rápida. O sistema inteiro (traqueia→brônquios→bronquíolos) só conduz até lá.', // explicação
+    dica: 'O alvéolo é o ponto final: surfactante evita colapso, a parede de uma célula permite difusão. Enfisema (tabagismo) destrói os alvéolos — menos superfície, menos troca, falta de ar.', // pegadinha
+    video: 'alvéolos pulmão troca gasosa difusão' // busca no YouTube
+  },
+  {
+    id: 'fs51',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema endócrino',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A insulina, produzida pelo pâncreas, tem a função de:', // pergunta
+    alternativas: [                     // opções
+      'aumentar o açúcar no sangue', // opção
+      'fazer a glicose entrar nas células — reduz a glicemia; a falta dela causa o diabetes tipo 1', // correta
+      'digerir proteínas', // opção
+      'produzir bile', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Insulina = a chave que abre a célula para a glicose: sem ela (tipo 1, pâncreas não produz) ou com resistência (tipo 2, a célula não responde), o açúcar acumula no sangue.', // explicação
+    dica: 'Antagonistas: insulina desce a glicemia (pós-refeição); glucagon sobe (jejum — mobiliza estoque do fígado). Diabetes tipo 1 = falta de insulina (autoimune); tipo 2 = resistência (estilo de vida).', // pegadinha
+    video: 'insulina glucagon pâncreas diabetes' // busca no YouTube
+  },
+  {
+    id: 'fs52',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema digestório',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A maior parte da absorção de nutrientes acontece no:', // pergunta
+    alternativas: [                     // opções
+      'estômago', // opção
+      'intestino delgado — vilosidades e microvilosidades multiplicam a superfície para absorver nutrientes ao sangue', // correta
+      'intestino grosso', // opção
+      'esôfago', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O delgado (duodeno, jejuno, íleo) absorve os nutrientes pelas vilosidades — superfície interna de ~250m². Estômago digere proteína; grosso absorve água e forma fezes.', // explicação
+    dica: 'Divisão de função: boca mastiga, estômago digere (ácido+pepsina), delgado ABSORVE nutriente (vilosidades), grosso ABSORVE água e compacta. Fígado faz bile, pâncreas faz enzimas.', // pegadinha
+    video: 'intestino delgado vilosidades absorção nutrientes' // busca no YouTube
+  },
+  {
+    id: 'fs53',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema urinário',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O néfron, unidade funcional do rim, filtra o sangue e:', // pergunta
+    alternativas: [                     // opções
+      'produz bile', // opção
+      'separa o que será urina (água, ureia, sais excedentes) do que volta ao sangue — regula volume e composição do sangue', // correta
+      'bombeia sangue', // opção
+      'produz glóbulos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cada rim tem ~1 milhão de néfrons: filtram plasma no glomérulo e reabsorvem o útil no túbulo — sobra urina. O rim regula água, sal, pH e pressão — falência = diálise.', // explicação
+    dica: 'O rim é o "filtro inteligente": glomérulo filtra; túbulo reabsorve o que é bom e excreta o excesso. Insuficiência renal = toxinas acumulam → diálise substitui a função.', // pegadinha
+    video: 'néfron rim filtração glomérulo urina' // busca no YouTube
+  },
+  {
+    id: 'fs54',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema imune',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Os anticorpos funcionam como:', // pergunta
+    alternativas: [                     // opções
+      'células genéricas', // opção
+      'proteínas específicas (imunoglobulinas) produzidas pelos linfócitos B que reconhecem e marcam o antígeno para destruição', // correta
+      'hormônios', // opção
+      'enzimas digestivas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O linfócito B produz anticorpos de chave específica para cada antígeno — marcam o invasor para os fagócitos destruírem. A memória imunológica é a base da vacina.', // explicação
+    dica: 'Imunidade humoral (B → anticorpos no sangue) × celular (T → mata célula infectada). Vacina = treina o B a fazer anticorpo + memória. Alergia = anticorpo IgE reagindo a algo inofensivo.', // pegadinha
+    video: 'anticorpos linfócito b imunidade vacina' // busca no YouTube
+  },
+  {
+    id: 'fs55',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema muscular',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Existem três tipos de músculo no corpo humano:', // pergunta
+    alternativas: [                     // opções
+      'longo, curto e médio', // opção
+      'esquelético (voluntário, estriado), cardíaco (involuntário, estriado) e liso (involuntário, vísceras)', // correta
+      'braço, perna e costas', // opção
+      'forte e fraco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Esquelético = o que comandamos (braço, perna — estriado, voluntário); cardíaco = o coração (involuntário, incansável, marca própria); liso = vísceras, vasos, intestino (involuntário, lento).', // explicação
+    dica: 'O cardíaco é único: estriado mas involuntário e autorregulado (bate sozinho). O liso é o dos vasos e do intestino. A fadiga muscular é química (lactato), não falta de força.', // pegadinha
+    video: 'tipos de músculo esquelético cardíaco liso' // busca no YouTube
+  },
+  {
+    id: 'fs56',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sono',                       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O sono REM (rapid eye movement) é a fase em que:', // pergunta
+    alternativas: [                     // opções
+      'o sono é mais profundo', // opção
+      'ocorrem os sonhos vívidos e a consolidação da memória — o cérebro está ativo, mas o corpo fica paralisado', // correta
+      'o corpo descansa totalmente', // opção
+      'não há atividade cerebral', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sono tem ciclos N1-N2-N3-REM: REM = sonhos intensos, atividade cerebral alta, paralisia muscular (para não "viver" o sonho) e consolidação de memória/aprendizado.', // explicação
+    dica: 'Paralisia do REM = proteção (não agir o sonho). Faltas de sono afetam memória e humor porque o REM consolida o aprendizado — "dormir sobre o problema" tem base fisiológica.', // pegadinha
+    video: 'sono rem sonhos consolidação memória' // busca no YouTube
+  },
+  {
+    id: 'fs57',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sentidos',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O ouvido transforma a onda sonora em sinal nervoso no:', // pergunta
+    alternativas: [                     // opções
+      'tímpano', // opção
+      'cóclea — as células ciliadas do caracol interno convertem a vibração em impulso elétrico para o nervo auditivo', // correta
+      'ouvido externo', // opção
+      'martelo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cadeia auditiva: pavilhão capta → tímpano vibra → martelo-bigorna-estribo amplificam → cóclea converte em sinal elétrico → nervo ao cérebro. As células ciliadas são o sensor.', // explicação
+    dica: 'O ouvido médio (ossículos) amplifica; a cóclea TRANSDUZ (mecânico→elétrico). O labirinto, no mesmo órgão, cuida do equilíbrio — por isso vertigem e audição se confundem anatomicamente.', // pegadinha
+    video: 'cóclea audição células ciliadas ouvido' // busca no YouTube
+  },
+  {
+    id: 'fl59',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Mito da caverna',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O mito da caverna de Platão é alegoria de:', // pergunta
+    alternativas: [                     // opções
+      'a vida nos refúgios pré-históricos', // opção
+      'a condição humana diante da ignorância — as sombras na parede são as aparências; sair da caverna é o caminho do conhecimento', // correta
+      'a criação do mundo', // opção
+      'o poder dos reis', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os prisioneiros veem só sombras projetadas e as tomam por realidade — quem sai e vê o sol (a verdade) é ridicularizado ao voltar. A filosofia é a subida dolorosa para fora da caverna.', // explicação
+    dica: 'As sombras = opinião/senso comum; a luz = conhecimento real. A crítica: o filósofo que volta é hostilizado (Sócrates condenado) — a verdade incomoda quem prefere a sombra.', // pegadinha
+    video: 'mito da caverna platão alegoria sombras' // busca no YouTube
+  },
+  {
+    id: 'fl60',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Contrato social',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O contrato social dos filósofos (Hobbes, Locke, Rousseau) explica o Estado como:', // pergunta
+    alternativas: [                     // opções
+      'criação divina', // opção
+      'acordo pelo qual os indivíduos renunciam a parte da liberdade em troca de proteção e ordem — origem racional do poder político', // correta
+      'fatia natural', // opção
+      'imposição do mais forte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os contratualistas deduzem o Estado: no "estado de natureza" a vida é guerra (Hobbes) ou insegurança; o pacto cria o poder soberano que garante direitos — cada autor dá versão diferente do contrato.', // explicação
+    dica: 'Os três divergem: Hobbes = estado de natureza é guerra (Leviatã autoritário); Locke = direitos naturais que o Estado protege (origem do liberalismo); Rousseau = o homem é bom, a sociedade o corrompe (vontade geral).', // pegadinha
+    video: 'contrato social hobbes locke rousseau' // busca no YouTube
+  },
+  {
+    id: 'fl61',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Dúvida cartesiana',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"Penso, logo existo" (Descartes) é a primeira certeza porque:', // pergunta
+    alternativas: [                     // opções
+      'é senso comum', // opção
+      'mesmo duvidando de tudo (sonho, sentidos, um gênio enganador), não posso duvidar de que duvido — o pensar prova a existência', // correta
+      'foi provado cientificamente', // opção
+      'é uma frase religiosa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A dúvida hiperbólica cartesiana duvida de tudo — até de que sonho ou sou enganado. Mas o próprio ato de duvidar prova um "eu" que pensa: cogito ergo sum, o fundamento indubitável.', // explicação
+    dica: 'O cogito não é prova externa, é autoconsciência: duvidar exige um sujeito. É o início da filosofia moderna (sujeito no centro) — e a base da dúvida metódica como método.', // pegadinha
+    video: 'descartes cogito dúvida metódica' // busca no YouTube
+  },
+  {
+    id: 'fl62',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Nietzsche — moral',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A "moral de escravos" de Nietzsche designa:', // pergunta
+    alternativas: [                     // opções
+      'a moral dos senhores', // opção
+      'a inversão de valores feita pelo fraco — a moral que valoriza humildade, piedade e submissão como vingança contra os fortes', // correta
+      'a ética do trabalho', // opção
+      'a moral universal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para Nietzsche, o ressentimento do fraco transformou fraqueza em "virtude": humildade, piedade, obediência — a moral do escravo. A moral dos senhores valoriza força, orgulho, vida.', // explicação
+    dica: 'Nietzsche ≠ "moralidade boa": ele denuncia a moral cristã como criação do ressentimento. "Deus está morto" = a perda do fundamento religioso que exige criar valores novos (transvaloração).', // pegadinha
+    video: 'nietzsche moral de escravos ressentimento' // busca no YouTube
+  },
+  {
+    id: 'fl63',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Existencialismo',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: '"A existência precede a essência" (Sartre) significa que:', // pergunta
+    alternativas: [                     // opções
+      'nascemos com natureza definida', // opção
+      'não nascemos com essência pronta — existimos primeiro e nos construímos pelas escolhas; somos condenados à liberdade', // correta
+      'a essência vem antes', // opção
+      'Deus define quem somos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sartre inverte a filosofia essencialista: o humano não tem "manual" prévio — escolhe o que é. A liberdade é "condenação" porque somos totalmente responsáveis por quem nos tornamos.', // explicação
+    dica: 'Sem essência = sem desculpa: "eu sou assim" é má-fé (Sartre). A liberdade absoluta pesa — a angústia existencial é o preço de não ter destino escrito. Objetos têm essência antes (a caneta é feita para escrever); o homem, não.', // pegadinha
+    video: 'sartre existência precede essência liberdade' // busca no YouTube
+  },
+  {
+    id: 'fl64',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Empirismo × racionalismo',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O debate empirismo vs racionalismo trata de:', // pergunta
+    alternativas: [                     // opções
+      'política', // opção
+      'a origem do conhecimento — empirismo diz que vem da experiência/sentidos; racionalismo, que vem da razão/ideias inatas', // correta
+      'religião', // opção
+      'economia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Empirismo (Locke, Hume): a mente é tábula rasa — tudo vem da experiência. Racionalismo (Descartes, Leibniz): ideias inatas e razão produzem conhecimento. Kant tentou a síntese.', // explicação
+    dica: 'Kant equilibra: "a intuição sem conceito é cega; o conceito sem intuição é vazio" — experiência sem razão não vira conhecimento, razão sem experiência não tem objeto. Os dois precisam um do outro.', // pegadinha
+    video: 'empirismo racionalismo kant conhecimento' // busca no YouTube
+  },
+  {
+    id: 'fl65',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Foucault — poder',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Para Michel Foucault, o poder moderno é:', // pergunta
+    alternativas: [                     // opções
+      'só do rei', // opção
+      'difuso e produtivo — não está no soberano, circula pelas instituições (escola, prisão, hospital, fábrica) disciplinando corpos', // correta
+      'apenas econômico', // opção
+      'inexistente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Foucault desloca o poder: não é "alguém manda", é uma rede — escola, hospital, quartel disciplinam o corpo e produzem sujeitos. O poder "positivo" fabrica saberes e normalidades.', // explicação
+    dica: 'Panoptismo (Bentham/Foucault) = a prisão em que o vigia vê todos sem ser visto — o vigilado se autodisciplina porque pode estar sendo visto. Vigilância internalizada = a metáfora do controle moderno.', // pegadinha
+    video: 'foucault poder disciplina panóptico' // busca no YouTube
+  },
+  {
+    id: 'fl66',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Ética kantiana',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "dever por dever" de Kant contrasta com a moral de resultados porque:', // pergunta
+    alternativas: [                     // opções
+      'o que importa é o benefício', // opção
+      'a moralidade está na intenção de cumprir o dever — uma ação boa feita por interesse não é moral, é utilidade', // correta
+      'o resultado justifica o meio', // opção
+      'a religião decide', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O kantismo mede a ação pela intenção: agir por dever (não por inclinação ou vantagem) é a marca do moral — devolver o troco errado por honestidade é moral; por medo de punição, não.', // explicação
+    dica: 'Boas ações por interesse não são morais para Kant: o comerciante honesto por lucro não age moralmente; só quem é honesto por dever é moral. A dignidade não tem preço — tratar o outro como fim, nunca só como meio.', // pegadinha
+    video: 'kant dever intenção moralidade dignidade' // busca no YouTube
+  },
+  {
+    id: 'fl67',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Teoria crítica',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A Escola de Frankfurt (Adorno, Horkheimer) chamou de "indústria cultural":', // pergunta
+    alternativas: [                     // opções
+      'a produção de arte erudita', // opção
+      'a transformação da cultura em mercadoria — mass media que padroniza o consumo e forma consciência conformada', // correta
+      'a educação pública', // opção
+      'o museu', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A indústria cultural é a tese frankfurtiana: cinema, TV, música fabricam cultura como produto de massa — o entretenimento homogeniza, diverte e desserve a crítica. A cultura vira consumo.', // explicação
+    dica: 'Crítica à "cultura de massa": não é que a cultura popular não exista — é que a INDUSTRIALIZADA padroniza e vende conformismo. Diferença com a cultura do povo (folclore, tradição) que é genuína.', // pegadinha
+    video: 'escola de frankfurt indústria cultural adorno' // busca no YouTube
+  },
+  {
+    id: 'fl68',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Mito vs filosofia',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A filosofia nasceu na Grécia quando o mito foi superado pela:', // pergunta
+    alternativas: [                     // opções
+      'religião', // opção
+      'razão (logos) — a explicação do mundo passou dos deuses para a argumentação racional e a observação da natureza', // correta
+      'política', // opção
+      'poesia épica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O salto de Mileto (séc. VI a.C.): Tales, Anaximandro e Anaxímenes explicaram a physis sem recurso aos deuses — o logos (razão/palavra racional) substitui o mythos (narrativa sagrada).', // explicação
+    dica: 'O nascimento da filosofia = passagem do mito ao logos: o problema deixa de ser "qual deus fez" e passa a ser "qual a causa natural". Mas mito e razão coexistem — a filosofia não elimina o mito, o questiona.', // pegadinha
+    video: 'nascimento filosofia mito logos mileto' // busca no YouTube
+  },
+  {
+    id: 'so50',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Indústria cultural',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A cultura de massa na sociologia crítica é caracterizada por:', // pergunta
+    alternativas: [                     // opções
+      'valorizar a cultura popular', // opção
+      'produtos culturais padronizados para consumo em larga escala — a mídia como indústria que homogeniza gostos', // correta
+      'arte independente', // opção
+      'folclore regional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A cultura de massa é o objeto da crítica frankfurtiana: cultura como commodity — sucesso medido por vendas, estética padronizada, passividade do consumidor — distinta da cultura popular genuína.', // explicação
+    dica: 'Cultura de massa ≠ cultura popular: a primeira é fabricada para vender (indústria); a segunda nasce do povo (folclore, cordel). A banca cobra a diferença — nem tudo popular é "industrializado".', // pegadinha
+    video: 'cultura de massa indústria cultural crítica' // busca no YouTube
+  },
+  {
+    id: 'so51',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Durkheim — fato social',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "fato social" de Durkheim é caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'escolha individual', // opção
+      'ser exterior ao indivíduo, coercitivo e geral — o costume, a lei e a moral existem antes de nós e nos constrangem', // correta
+      'preferência pessoal', // opção
+      'instinto biológico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Durkheim define o objeto da sociologia: o fato social é anterior ao indivíduo (nascemos em língua/leis prontas), exerce coerção (sanção social) e é geral ao grupo — a sociedade como "coisa" estudável.', // explicação
+    dica: 'Os três traços do fato social: exterioridade (vem de fora), coercitividade (impõe-se, com sanção) e generalidade (vale para o grupo). A moda, a língua e a lei são os exemplos clássicos.', // pegadinha
+    video: 'durkheim fato social exterioridade coerção' // busca no YouTube
+  },
+  {
+    id: 'so52',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Weber — ação social',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A ação social, para Max Weber, é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'é instintiva', // opção
+      'tem sentido subjetivo orientado para o outro — o ator dá significado à ação em relação aos demais', // correta
+      'acontece em grupo', // opção
+      'obedece à lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Weber sociologiza pelo sentido: ação é social quando orientada para o comportamento de outrem — tipificada em racional com relação a fins, valores, afetiva ou tradicional.', // explicação
+    dica: 'Os quatro tipos weberianos: racional por fins (calcula), racional por valores (convicção), afetiva (emoção) e tradicional (costume). A moderna burocracia é o tipo "racional por fins".', // pegadinha
+    video: 'weber ação social sentido tipos' // busca no YouTube
+  },
+  {
+    id: 'so53',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Classes e conflito',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na visão marxista, a luta de classes opõe:', // pergunta
+    alternativas: [                     // opções
+      'ricos e pobres apenas', // opção
+      'burguesia (dona dos meios de produção) e proletariado (vende a força de trabalho) — a exploração é estrutural, não diferença de renda', // correta
+      'partidos políticos', // opção
+      'cidades e campo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A classe marxista é definida pela posição na produção — quem possui o meio extrai mais-valia do trabalhador. A luta de classes é o motor da história — não só desigualdade de renda.', // explicação
+    dica: 'Mais-valia = o valor que o trabalhador produz além do salário, apropriado pelo patrão — a exploração é embutida no contrato, não acidente. A "consciência de classe" é o passo da política.', // pegadinha
+    video: 'marx luta de classes mais valia proletariado' // busca no YouTube
+  },
+  {
+    id: 'so54',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Movimentos sociais',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Os "novos movimentos sociais" (feminista, ambiental, LGBTQIA+) diferem dos antigos porque:', // pergunta
+    alternativas: [                     // opções
+      'são mais antigos', // opção
+      'lutam por reconhecimento identitário, valores pós-materiais e qualidade de vida — não apenas por questões econômicas/trabalhistas', // correta
+      'não fazem política', // opção
+      'são exclusivamente partidários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os "novos movimentos" (pós-1960) deslocam a pauta: raça, gênero, meio ambiente, identidade — não só salário. Organizam-se em rede, fora do Estado/partido, por reconhecimento cultural.', // explicação
+    dica: 'Movimento antigo = sindical, trabalhista, material (pão e salário); novo = identitário e pós-material (reconhecimento, direito, meio ambiente). A internet criou o "ativismo em rede" (primaveras, #MeToo).', // pegadinha
+    video: 'novos movimentos sociais identidade pós-material' // busca no YouTube
+  },
+  {
+    id: 'so55',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Anomia',                     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A anomia em Durkheim é o estado social de:', // pergunta
+    alternativas: [                     // opções
+      'harmonia total', // opção
+      'falta de normas — quando as regras perdem força (crise, mudança rápida), a desregulamentação produz desorientação e até suicídio', // correta
+      'ordem perfeita', // opção
+      'liberdade plena', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anomia = ausência/fragilidade de regras: em crise econômica ou mudança veloz, o indivíduo perde referência — Durkheim a ligou ao suicídio anômico. A sociedade precisa de norma para orientar.', // explicação
+    dica: 'Anomia ≠ caos aleatório: é a falta de regulamentação social (crises, riqueza súbita, transição). Durkheim mostrou que até o suicídio — ato mais individual — tem taxa social explicada pela integração.', // pegadinha
+    video: 'anomia durkheim normas suicídio' // busca no YouTube
+  },
+  {
+    id: 'so56',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Bourdieu — capital cultural', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O "capital cultural" de Bourdieu explica por que:', // pergunta
+    alternativas: [                     // opções
+      'dinheiro decide tudo', // opção
+      'filhos de famílias letradas têm vantagem na escola — herdam linguagem, referências e disposições que a escola valoriza', // correta
+      'a escola é neutra', // opção
+      'a cultura não importa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O capital cultural é a herança invisível: vocabulário, hábitos de leitura, postura — a escola valoriza a cultura da elite como "natural", reproduzindo a desigualdade sob aparência meritocrática.', // explicação
+    dica: 'Bourdieu contra a meritocracia: a escola premia como "dom" o que é herança de classe — o capital cultural (sotaque, leitura, repertório) parece talento, mas é privilégio. A reprodução social é o conceito.', // pegadinha
+    video: 'bourdieu capital cultural reprodução escola' // busca no YouTube
+  },
+  {
+    id: 'so57',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Coronelismo',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O coronelismo no Brasil rural expressa a:', // pergunta
+    alternativas: [                     // opções
+      'democracia local', // opção
+      'fusão de poder econômico, político e privado — o "coronel" controla votos, terra e favores na zona rural', // correta
+      'economia de mercado', // opção
+      'autonomia dos municípios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O coronel (fazendeiro-poder público local) dominava o município: controlava voto (cabresto), emprego, delegacia e favor — clientelismo que mistura público e privado até hoje.', // explicação
+    dica: 'Coronelismo = voto de cabresto + clientelismo + confusão público/privado. Não acabou com a República Velha: sobrevive adaptado na política municipal do interior e nas "lideranças comunitárias".', // pegadinha
+    video: 'coronelismo voto cabresto clientelismo' // busca no YouTube
+  },
+  {
+    id: 'so58',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Solidariedade — Durkheim',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A solidariedade orgânica das sociedades modernas difere da mecânica porque:', // pergunta
+    alternativas: [                     // opções
+      'é baseada na semelhança', // opção
+      'é baseada na divisão do trabalho — a interdependência entre funções diferentes une a sociedade complexa', // correta
+      'só existe em tribos', // opção
+      'elimina a lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Durkheim: sociedades simples unem por semelhança (mecânica — todos iguais); sociedades complexas unem por complementaridade (orgânica — cada um depende do outro, como órgãos do corpo).', // explicação
+    dica: 'Mecânica = semelhança (tribo, castigo repressivo); orgânica = diferença (cidade moderna, lei restitutiva). A coesão moderna vem da interdependência — o padeiro precisa do médico e vice-versa.', // pegadinha
+    video: 'solidariedade mecânica orgânica durkheim' // busca no YouTube
+  },
+  {
+    id: 'so59',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Estratificação social',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A mobilidade social no Brasil é limitada porque:', // pergunta
+    alternativas: [                     // opções
+      'todos nascem iguais', // opção
+      'a posição de classe de origem determina fortemente a de destino — capital cultural, rede e oportunidade reproduzem a hierarquia', // correta
+      'o mérito garante a ascensão', // opção
+      'não há estratificação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A mobilidade social mede se filhos de pobres ascendem: o Brasil tem "escada emperrada" — o capital cultural, a rede de contatos e a herança reproduzem a classe. A escola ameniza, mas não elimina.', // explicação
+    dica: 'Mobilidade ≠ mudança individual: uma pessoa subir não prova mobilidade de estrutura. O índice mede o quanto a classe dos pais prediz a dos filhos — no Brasil, a previsão é alta.', // pegadinha
+    video: 'mobilidade social brasil desigualdade classe' // busca no YouTube
+  },
+  {
+    id: 'b56',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Fotossíntese',               // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A fotossíntese é o processo pelo qual a planta:', // pergunta
+    alternativas: [                     // opções
+      'absorve oxigênio e solta CO₂', // opção
+      'usa luz, água e CO₂ para produzir glicose e liberar O₂ — base da cadeia alimentar e do oxigênio atmosférico', // correta
+      'respira à noite', // opção
+      'absorve nutrientes do solo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂: a clorofila nos cloroplastos capta energia solar e a fixa na glicose — quase toda a vida depende disso (alimento + o oxigênio que respiramos).', // explicação
+    dica: 'Fotossíntese ≠ respiração: a planta respira o tempo todo (consome O₂) e fotossintetiza só com luz (produz O₂). De dia, a produção supera o consumo; à noite, só respira.', // pegadinha
+    video: 'fotossíntese clorofila glicose oxigênio' // busca no YouTube
+  },
+  {
+    id: 'b57',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Genética — hereditariedade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Num cruzamento de dois heterozigotos (Aa × Aa) para um caráter dominante, a proporção fenotípica esperada é:', // pergunta
+    alternativas: [                     // opções
+      '1:1', // opção
+      '3:1 — três descendentes com o fenótipo dominante para um com o recessivo', // correta
+      '2:1', // opção
+      '4:0', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O quadro de Punnett de Aa×Aa dá: 1 AA + 2 Aa (dominantes) + 1 aa (recessivo) = 3:1. Em proporção genotípica é 1:2:1; fenotípica (aparência) é 3:1.', // explicação
+    dica: 'Fenótipo vs genótipo: fenótipo = o que aparece (3:1); genótipo = os genes (1AA:2Aa:1aa). A banca troca — "fenotípica" = aparência; "genotípica" = composição.', // pegadinha
+    video: 'cruzamento heterozigoto 3:1 punnett mendel' // busca no YouTube
+  },
+  {
+    id: 'b58',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Evolução',                   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A seleção natural de Darwin propõe que:', // pergunta
+    alternativas: [                     // opções
+      'os organismos se transformam por vontade', // opção
+      'os indivíduos com variações favoráveis ao ambiente sobrevivem e reproduzem mais — a frequência dos traços muda na população', // correta
+      'a evolução não existe', // opção
+      'o mais forte sobrevive sempre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Não é "o mais forte", é o mais adaptado: variação aleatória + seleção pelo ambiente = mudança gradual da população. A bactéria resistente a antibiótico é o exemplo moderno.', // explicação
+    dica: 'Lamarck × Darwin: Lamarck dizia que o uso transforma o indivíduo e o traço é herdado (a girafa estica o pescoço); Darwin diz que a variação já existia e o ambiente seleciona. A girafa "nasceu" com pescoço longo.', // pegadinha
+    video: 'seleção natural darwin adaptação evolução' // busca no YouTube
+  },
+  {
+    id: 'b59',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Ecologia — cadeia alimentar', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Na cadeia alimentar, os decompositores (fungos e bactérias) têm papel de:', // pergunta
+    alternativas: [                     // opções
+      'produzir energia', // opção
+      'reciclar matéria — decompõem restos e devolvem nutrientes ao solo, fechando o ciclo', // correta
+      'predar produtores', // opção
+      'polinizar plantas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sem decompositor, o nutriente ficaria preso no cadáver: fungos e bactérias devolvem nitrogênio, carbono e fósforo ao meio — fecham o ciclo biogeoquímico.', // explicação
+    dica: 'Três níveis: produtor (planta faz alimento), consumidor (come), decompositor (recicla). Não confunda com detritívoro (minhoca, urubu) — decompositor trabalha na escala molecular.', // pegadinha
+    video: 'decompositores cadeia alimentar ciclo nutrientes' // busca no YouTube
+  },
+  {
+    id: 'b60',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Célula — organelas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A mitocôndria é conhecida como "usina da célula" porque:', // pergunta
+    alternativas: [                     // opções
+      'produz proteínas', // opção
+      'realiza a respiração celular — transforma nutrientes + O₂ em ATP, a moeda de energia da célula', // correta
+      'faz fotossíntese', // opção
+      'armazena água', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A respiração celular (mitocôndria) quebra a glicose na presença de O₂ e gera ATP — a energia usável da célula. Quanto mais energia a célula gasta (músculo, neurônio), mais mitocôndrias.', // explicação
+    dica: 'Célula vegetal tem mitocôndria E cloroplasto — a cloroplasto produz a glicose, a mitocôndria a quebra para usar. Respiração celular ≠ respiração pulmonar: uma é celular (ATP), outra é ventilação.', // pegadinha
+    video: 'mitocôndria respiração celular atp' // busca no YouTube
+  },
+  {
+    id: 'b61',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Vírus',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O vírus difere de uma bactéria porque:', // pergunta
+    alternativas: [                     // opções
+      'é maior', // opção
+      'é um parasita intracelular obrigatório — não tem célula nem metabolismo próprio e só se replica dentro de uma célula hospedeira', // correta
+      'é uma célula completa', // opção
+      'é tratado com antibiótico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vírus = material genético + capa proteica, sem célula: invade, sequestra a maquinaria do hospedeiro e replica. Por isso antibiótico não funciona (mata bactéria) — vacina e antiviral são as armas.', // explicação
+    dica: 'Vírus × bactéria = confusão clássica: antibiótico NÃO mata vírus (gripe não se trata com antibiótico). Bactéria é ser vivo completo (se divide sozinha); vírus é "pacote genético parasita".', // pegadinha
+    video: 'vírus bactéria diferença antibiótico' // busca no YouTube
+  },
+  {
+    id: 'b62',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Meio ambiente — aquecimento', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O efeito estufa é natural e necessário; o problema climático atual é:', // pergunta
+    alternativas: [                     // opções
+      'o efeito estufa em si', // opção
+      'a intensificação do efeito pelo excesso de gases (CO₂, metano) lançados pela queima de combustível e desmatamento — o "efeito estufa aumentado"', // correta
+      'a destruição do ozônio', // opção
+      'a falta de gases na atmosfera', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O efeito estufa natural mantém a Terra habitável (~15°C em vez de −18°C); a crise é o excesso: fóssil + desmatamento elevam CO₂ e metano — o planeta retém calor demais = aquecimento global.', // explicação
+    dica: 'Não confunda efeito estufa com buraco na camada de ozônio: são problemas distintos. Ozônio protege do UV (CFCs o destroem); estufa retém calor (CO₂/CH₄ o intensificam). A banca troca os dois.', // pegadinha
+    video: 'efeito estufa natural aumentado aquecimento' // busca no YouTube
+  },
+  {
+    id: 'b63',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Sistemas humanos — circulatório', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Artérias, veias e capilares se distinguem porque:', // pergunta
+    alternativas: [                     // opções
+      'artéria leva sangue venoso', // opção
+      'artéria leva sangue DO coração (pressão alta), veia traz DE VOLTA (com válvulas), capilar faz a troca de substâncias', // correta
+      'veia tem mais pressão', // opção
+      'capilar é o maior vaso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Artéria = saída (pulsa, parede grossa); veia = retorno (válvulas contra refluxo); capilar = microvaso de troca (O₂, nutriente, resíduo) — parede de uma célula, a única sede da troca.', // explicação
+    dica: 'Exceção clássica: artéria pulmonar leva sangue VENOSO (ao pulmão) e veia pulmonar traz ARTERIAL (ao coração) — a nomenclatura segue direção (sai/entra), não oxigenação.', // pegadinha
+    video: 'artéria veia capilar circulação pulmonar' // busca no YouTube
+  },
+  {
+    id: 'b64',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Reprodução humana',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A fertilização humana (encontro do gameta masculino e feminino) ocorre normalmente:', // pergunta
+    alternativas: [                     // opções
+      'no útero', // opção
+      'na tuba uterina (trompa de Falópio) — depois o embrião desce e implanta no útero', // correta
+      'no ovário', // opção
+      'no canal vaginal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A fecundação acontece na trompa (o espermatozoide sobe e encontra o óvulo lá); o zigoto migra e se implanta no endométrio do útero — a implantação fora do útero (gravidez ectópica) é emergência.', // explicação
+    dica: 'Fecundação na trompa, implantação no útero — os dois lugares se confundem na prova. A gravidez ectópica (na trompa) não evolui e é risco de ruptura — por isso é diagnóstico cobrado.', // pegadinha
+    video: 'fecundação tuba uterina implantação útero' // busca no YouTube
+  },
+  {
+    id: 'b65',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'DNA e código genético',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O DNA é a "molécula da hereditariedade" porque:', // pergunta
+    alternativas: [                     // opções
+      'produz energia', // opção
+      'armazena a informação genética nas sequências de bases (A, T, C, G) que são copiadas e transmitidas de geração em geração', // correta
+      'digere nutrientes', // opção
+      'está no sangue', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A dupla hélice guarda as instruções na ordem das bases (A-T, C-G): a replicação copia o código para a célula-filha e para a descendência — a sequência é o "texto" do gene.', // explicação
+    dica: 'DNA → RNA → proteína = o "dogma central": o gene (DNA) é transcrito em RNA e traduzido em proteína. As bases são A-T e C-G (DNA); no RNA, T vira U.', // pegadinha
+    video: 'dna bases adenina timina replicação' // busca no YouTube
+  },
+  {
+    id: 'ec57',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Inflação — tipos',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A inflação de demanda difere da de custo porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'demanda = mais dinheiro que produto (consumo puxa preço); custo = insumo encarece (energia, matéria) e repassa ao preço', // correta
+      'a de custo é melhor', // opção
+      'a de demanda é mais grave', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Demanda = o consumidor "empurra" o preço (economia aquecida); custo = o produtor "passa" o encarecimento (petróleo, câmbio); inercial = expectativa de inflação gerando inflação real.', // explicação
+    dica: 'A hiperinflação brasileira (anos 80-90) era inercial: o preço de hoje indexava o de ontem. O Plano Real quebrou a inércia tirando o indexador — memorizar: demanda×custo×inercial são as três fontes.', // pegadinha
+    video: 'inflação demanda custo inercial tipos' // busca no YouTube
+  },
+  {
+    id: 'ec58',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Oferta e demanda',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Se a demanda por um produto sobe e a oferta permanece, o preço tende a:', // pergunta
+    alternativas: [                     // opções
+      'cair', // opção
+      'subir — escassez relativa: mais compradores para o mesmo produto puxam o preço para cima até o equilíbrio', // correta
+      'ficar estável', // opção
+      'depender do governo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O equilíbrio é o cruzamento oferta/demanda: demanda sobe → preço sobe (faltam bens para a nova procura); demanda cai → preço cai. O "preço" é o sinal que coordena o mercado.', // explicação
+    dica: 'Os dois lados se movem: demanda ↑ = preço ↑; oferta ↑ = preço ↓. Um choque de oferta (geada no café, embargo no petróleo) faz preço subir mesmo com demanda estável.', // pegadinha
+    video: 'lei oferta demanda equilíbrio preço' // busca no YouTube
+  },
+  {
+    id: 'ec59',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Política fiscal',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A política fiscal expansionista do governo consiste em:', // pergunta
+    alternativas: [                     // opções
+      'reduzir gastos e aumentar impostos', // opção
+      'aumentar gasto público ou reduzir imposto — injeta demanda na economia em recessão, ao custo do déficit', // correta
+      'subir os juros', // opção
+      'congelar salários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fiscal = orçamento público: expansionista gasta mais/tributa menos para estimular; contracionista faz o inverso para conter inflação e dívida. Keynes defendeu a primeira na crise.', // explicação
+    dica: 'Fiscal × monetária: fiscal = Tesouro (gasto/imposto, Congresso); monetária = Banco Central (juros, moeda, Selic). A expansão fiscal financia-se com dívida — limite é a confiança do credor.', // pegadinha
+    video: 'política fiscal expansionista keynes gasto' // busca no YouTube
+  },
+  {
+    id: 'ec60',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Balança comercial',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O Brasil tem "superávit comercial" quando:', // pergunta
+    alternativas: [                     // opções
+      'importa mais que exporta', // opção
+      'exporta mais do que importa — entra mais dólar do que sai, reservas crescem', // correta
+      'exporta e importa igual', // opção
+      'o real valoriza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Balança comercial = exportação − importação: superávit = vende mais do que compra (acumula reserva); déficit = compra mais do que vende (consome reserva/deprecia a moeda).', // explicação
+    dica: 'O Brasil é exportador de commodities: soja, ferro, petróleo, carne — a balança depende do preço internacional. Déficit não é só problema: pode refletir investimento (importando máquina).', // pegadinha
+    video: 'balança comercial superávit déficit exportação' // busca no YouTube
+  },
+  {
+    id: 'ec61',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Mão invisível',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A "mão invisível" de Adam Smith descreve:', // pergunta
+    alternativas: [                     // opções
+      'o governo controlando preços', // opção
+      'como o interesse próprio de cada um, num mercado livre, produz resultado coletivo — o padeiro faz pão para lucrar e a cidade se alimenta', // correta
+      'a exploração do trabalhador', // opção
+      'a intervenção do Estado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Smith (1776) mostrou que a busca individual pelo lucro, mediada pela concorrência, coordena a economia melhor que comando central — a base do liberalismo econômico, mas com limites que ele mesmo reconhecia.', // explicação
+    dica: 'A mão invisível não é onisciente: falha com monopólio, externalidade (poluição) e bem público — a teoria dos limites do mercado abre espaço para regulação estatal legítima.', // pegadinha
+    video: 'mão invisível adam smith mercado livre' // busca no YouTube
+  },
+  {
+    id: 'ec62',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'PIB — composição',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O PIB per capita é um indicador limitado porque:', // pergunta
+    alternativas: [                     // opções
+      'mede a felicidade', // opção
+      'divide o PIB pela população como média — não captura desigualdade: um país rico pode ter a maioria pobre se a renda se concentra', // correta
+      'só conta exportação', // opção
+      'ignora inflação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PIB per capita = média simples: crescer com concentração de renda pode significar poucos ganhando muito — a mediana e o índice de Gini complementam. O Brasil tem PIB alto e desigualdade extrema.', // explicação
+    dica: 'PIB ≠ bem-estar: não mede lazer, saúde, ambiente, distribuição. Um país com PIB menor pode ter vida melhor — por isso IDH, Gini e outros indicadores complementam.', // pegadinha
+    video: 'pib per capita desigualdade gini limite' // busca no YouTube
+  },
+  {
+    id: 'ec63',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Desemprego',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A distinção entre desemprego estrutural e conjuntural está em:', // pergunta
+    alternativas: [                     // opções
+      'ambos são temporários', // opção
+      'estrutural = a vaga some por mudança permanente (automação, indústria que morre); conjuntural = cai na recessão e volta na recuperação', // correta
+      'estrutural é melhor', // opção
+      'conjuntural é definitivo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estrutural = o emprego não volta porque a tecnologia/estrutura mudou (caixa eletrônico, automação); conjuntural/cíclico = a economia quebrou e o posto existe quando a demanda retorna.', // explicação
+    dica: 'O desafio atual: automação e IA geram desemprego estrutural — não basta a economia crescer; a vaga desaparece. Renda básica e requalificação são as respostas em debate.', // pegadinha
+    video: 'desemprego estrutural conjuntural automação' // busca no YouTube
+  },
+  {
+    id: 'qm45',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Átomos — estrutura',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O átomo é composto de prótons, nêutrons e elétrons — e o que define o elemento químico é:', // pergunta
+    alternativas: [                     // opções
+      'o número de nêutrons', // opção
+      'o número de prótons (número atômico Z) — muda-se o próton, muda-se o elemento', // correta
+      'o número de elétrons', // opção
+      'a massa total', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O número atômico (Z) = prótons = a "identidade" do elemento: C tem 6, O tem 8. Nêutrons variam gerando isótopos; elétrons variam gerando íons. Mudou Z, mudou de elemento.', // explicação
+    dica: 'Isótopo = mesmo Z, nêutrons diferentes (C-12 e C-14 são carbono); íon = elétrons diferentes (Na⁺ perdeu um); número de massa = prótons + nêutrons.', // pegadinha
+    video: 'número atômico prótons isótopo íon' // busca no YouTube
+  },
+  {
+    id: 'qm46',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Tabela periódica',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A tabela periódica organiza os elementos por:', // pergunta
+    alternativas: [                     // opções
+      'massa crescente', // opção
+      'número atômico crescente, agrupando os de propriedades semelhantes nas mesmas colunas (famílias)', // correta
+      'cor', // opção
+      'ordem alfabética', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mendeleiev organizou por propriedade — a tabela moderna ordena por Z crescente: a coluna agrupa elementos de comportamento químico parecido (mesmos elétrons na camada externa).', // explicação
+    dica: 'Famílias cobradas: coluna 1 = alcalinos (reativos); coluna 17 = halogênios; coluna 18 = gases nobres (inertes — camada completa). Período = linha horizontal (camadas).', // pegadinha
+    video: 'tabela periódica famílias colunas períodos' // busca no YouTube
+  },
+  {
+    id: 'qm47',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Ligações químicas',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A ligação iônica difere da covalente porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'iônica = transferência de elétrons (metal + não-metal → íons que se atraem); covalente = compartilhamento de elétrons entre não-metais', // correta
+      'a iônica é mais fraca', // opção
+      'a covalente forma sal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Iônica = doação (metal doa, não-metal recebe — NaCl, o sal); covalente = compartilha (H₂O, CO₂); metálica = "mar de elétrons" entre metais (condutividade). Cada tipo gera propriedades distintas.', // explicação
+    dica: 'Pistas: metal + não-metal = iônica (sal, ponto de fusão alto); não-metal + não-metal = covalente (molécula); metal + metal = metálica (conduz eletricidade). Aquecendo sal quebra mais fácil que água? Não — iônica é forte, o sal tem PF alto.', // pegadinha
+    video: 'ligação iônica covalente metálica diferença' // busca no YouTube
+  },
+  {
+    id: 'qm48',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'pH e acidez',                // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma solução com pH 2 é:', // pergunta
+    alternativas: [                     // opções
+      'básica', // opção
+      'fortemente ácida — a escala vai de 0 (ácido) a 14 (básico), com 7 neutro; cada unidade = 10x mais ácido', // correta
+      'neutra', // opção
+      'alcalina', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'pH 2 = ácido forte (suco gástrico ~2, limão ~2,4). A escala é logarítmica: pH 2 é 10× mais ácido que pH 3. Abaixo de 7 = ácido; acima = básico; 7 = neutro (água pura).', // explicação
+    dica: 'Exemplos cobrados: sangue ~7,4 (básico leve), sabão ~10, amônia ~11. Chuva ácida = pH <5,6 (poluentes). A unidade logarítmica engana: pH 3 a pH 5 é 100× menos ácido.', // pegadinha
+    video: 'ph escala ácido básico neutro' // busca no YouTube
+  },
+  {
+    id: 'qm49',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Reações químicas',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Balancear uma equação química respeita a lei de Lavoisier porque:', // pergunta
+    alternativas: [                     // opções
+      'a energia se cria', // opção
+      'átomos não se criam nem se destroem — o número de cada elemento deve ser igual nos reagentes e nos produtos', // correta
+      'os produtos são sempre mais', // opção
+      'a massa se perde', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Na natureza nada se cria, nada se perde, tudo se transforma": balancear é garantir que cada átomo do lado dos reagentes aparece nos produtos — conservação da massa/átomos.', // explicação
+    dica: 'Balancear = ajustar coeficientes (número antes da fórmula), nunca mudar os índices internos da molécula (H₂O não vira H₄O). Primeiro balanceia metal, depois não-metal, depois C/H/O.', // pegadinha
+    video: 'balanceamento equação química lavoisier' // busca no YouTube
+  },
+  {
+    id: 'qm50',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Soluções e concentração',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma solução saturada é aquela em que:', // pergunta
+    alternativas: [                     // opções
+      'ainda cabe mais soluto', // opção
+      'atingiu o limite de dissolução naquela temperatura — além disso, o excesso precipita (corpo de fundo)', // correta
+      'não dissolve nada', // opção
+      'tem só água', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Saturada = o solvente está no limite: insaturada aceita mais, saturada está no teto, supersaturada (instável) tem mais do que deveria e precipita com um estímulo. Temperatura geralmente sobe o limite.', // explicação
+    dica: 'A solubilidade quase sempre aumenta com a temperatura (água quente dissolve mais açúcar). Saturada com corpo de fundo ≠ concentrada "suja": o precipitado é o excesso além do limite.', // pegadinha
+    video: 'solução saturada insaturada supersaturada' // busca no YouTube
+  },
+  {
+    id: 'qm51',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Química orgânica',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O carbono é a base da química orgânica porque:', // pergunta
+    alternativas: [                     // opções
+      'é o elemento mais comum', // opção
+      'faz 4 ligações e encadeia-se consigo mesmo — forma cadeias longas e estruturas diversas que sustentam a vida', // correta
+      'é o mais leve', // opção
+      'é metal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O carbono é tetravalente e se liga a si mesmo — cadeias, anéis, ramificações: a variedade da química da vida (proteínas, DNA, gorduras) vem dessa versatilidade única.', // explicação
+    dica: 'Funções orgânicas cobradas: álcool (-OH), ácido carboxílico (-COOH), aldeído/cetona (carbonila), éster (sabor/fruta), amina (nitrogênio), hidrocarboneto (só C e H).', // pegadinha
+    video: 'carbono química orgânica tetravalente funções' // busca no YouTube
+  },
+  {
+    id: 'qm52',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Água e poluição',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A "chuva ácida" é causada principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'evaporação do mar', // opção
+      'emissão de SO₂ e NOx (indústria e combustível fóssil) que reagem na atmosfera formando ácidos que precipitam', // correta
+      'água da enchente', // opção
+      'gelo derretendo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Chuva ácida = a queima de fóssil lança óxidos de enxofre e nitrogênio; na atmosfera formam H₂SO₄ e HNO₃ que caem na chuva — corrói monumento, acidifica solo/lago, mata peixe.', // explicação
+    dica: 'Chuva normal já é levemente ácida (pH ~5,6 por CO₂ atmosférico); a "ácida" é pH <5. A fonte principal = termelétrica a carvão e escapamento veicular. Não confundir com efeito estufa.', // pegadinha
+    video: 'chuva ácida so2 nox poluição' // busca no YouTube
+  },
+  {
+    id: 'qm53',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Energia química',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Uma reação exotérmica difere da endotérmica porque:', // pergunta
+    alternativas: [                     // opções
+      'é sempre lenta', // opção
+      'exotérmica libera calor (ΔH negativo — combustão); endotérmica absorve (ΔH positivo — decomposição térmica)', // correta
+      'a endotérmica esquenta', // opção
+      'a exotérmica precisa de gelo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Exo = sai calor (queima de combustível, a vela esquenta); endo = entra calor (cozinhar ovo, decompor calcário, bolsa fria instantânea). O sinal de ΔH: negativo = exo; positivo = endo.', // explicação
+    dica: 'Exemplos práticos: bolsa térmica instantânea = exo (esquenta); bolsa de gelo química = endo (esfria). A combustão é sempre exo; a fotossíntese é endo (absorve energia solar).', // pegadinha
+    video: 'reação exotérmica endotérmica delta h' // busca no YouTube
+  },
+  {
+    id: 'qm54',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Materiais e reciclagem',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O plástico é difícil de degradar porque:', // pergunta
+    alternativas: [                     // opções
+      'é biodegradável rápido', // opção
+      'é polímero sintético de cadeia carbônica longa — os micro-organismos naturais não "reconhecem" a estrutura, persistência de séculos', // correta
+      'é macio', // opção
+      'é muito pequeno', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O polímero plástico é cadeia química alienígena à biologia: nenhum decompositor evoluiu para digeri-lo — o PET dura ~400 anos, fragmentando em microplástico que contamina oceano e cadeia alimentar.', // explicação
+    dica: 'Microplástico = fragmento <5mm que o plástico vira — entra no peixe, no sal, na água. A reciclagem ajuda, mas o plástico "reciclável" perde qualidade a cada ciclo (downcycling). Reduzir > reciclar.', // pegadinha
+    video: 'plástico polímero degradação microplástico' // busca no YouTube
+  },
+  {
+    id: 'f51',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Cinemática — MRU',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Um carro a 90 km/h percorre em 2 horas:', // pergunta
+    alternativas: [                     // opções
+      '45 km', // opção
+      '180 km — no MRU, distância = velocidade × tempo (90 × 2)', // correta
+      '92 km', // opção
+      '360 km', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MRU (movimento retilíneo uniforme): velocidade constante, d = v·t. 90 km/h × 2h = 180 km. A fórmula só vale se a velocidade for constante — sem aceleração.', // explicação
+    dica: 'Converter km/h em m/s (÷3,6) é a pegadinha: 90 km/h = 25 m/s. MRU tem velocidade constante; se o problema diz "acelerando", não é MRU.', // pegadinha
+    video: 'mru velocidade distância tempo física' // busca no YouTube
+  },
+  {
+    id: 'f52',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Queda livre',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'No vácuo, uma pena e uma bola de chumbo caem:', // pergunta
+    alternativas: [                     // opções
+      'a bola chega antes', // opção
+      'juntas — sem ar, a aceleração da gravidade (g ≈ 10 m/s²) é igual para todos os corpos, independente da massa', // correta
+      'a pena chega antes', // opção
+      'a pena não cai', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Galileu/Newton: sem resistência do ar, todos os corpos caem com a mesma aceleração g — a massa não entra. Na Terra com ar, a pena é freada pelo formato; na Lua (sem ar), astronauta provou a igualdade.', // explicação
+    dica: 'A pegadinha é a massa: intuitivamente o pesado cai mais rápido — mas sem ar, massa não importa. O "peso" (força) é maior no pesado, mas a aceleração (F/m) é a mesma.', // pegadinha
+    video: 'queda livre vácuo galileu gravidade massa' // busca no YouTube
+  },
+  {
+    id: 'f53',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Leis de Newton — ação e reação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Ao empurrar a parede, ela "empurra de volta" — a 3ª lei de Newton diz que:', // pergunta
+    alternativas: [                     // opções
+      'a força é só sua', // opção
+      'a toda ação corresponde uma reação igual e oposta — mas aplicada em corpos diferentes, por isso não se anulam', // correta
+      'a parede é mais forte', // opção
+      'as forças cancelam', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ação e reação têm módulo igual e direção oposta, mas atuam em corpos DIFERENTES (você na parede, a parede em você) — não se cancelam. A propulsão do foguete é o exemplo perfeito.', // explicação
+    dica: 'O erro comum: "ação e reação se anulam" — só se anulariam se estivessem no MESMO corpo. Como estão em corpos distintos, produzem efeito: o foguete sobe porque o gás é jogado para baixo.', // pegadinha
+    video: 'terceira lei newton ação reação corpos' // busca no YouTube
+  },
+  {
+    id: 'f54',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Pressão',                    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A agulha da seringa fura a pele facilmente porque:', // pergunta
+    alternativas: [                     // opções
+      'é muito pesada', // opção
+      'a mesma força aplicada numa área mínima gera pressão enorme — P = F/A', // correta
+      'é afiada para furar', // opção
+      'é de metal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pressão = força/área: a ponta da agulha tem área quase zero, então uma força pequena vira pressão suficiente para perfurar. O taco de futebol e o salto alto funcionam pelo mesmo princípio.', // explicação
+    dica: 'Aplicações do P = F/A: faca afiada (área menor = mais pressão), esqui na neve (área maior = menos afunda), pneu largo. A pressão atmosférica na altitude baixa explica a orelha "tampada" na montanha.', // pegadinha
+    video: 'pressão força área agulha f/a' // busca no YouTube
+  },
+  {
+    id: 'f55',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Ondas — som',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O som não se propaga no vácuo do espaço porque:', // pergunta
+    alternativas: [                     // opções
+      'o vácuo é frio', // opção
+      'o som é onda mecânica — precisa de meio material (ar, água, sólido) para vibrar; no vácuo não há partícula para transportar', // correta
+      'o som é fraco', // opção
+      'o vácuo absorve', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Som = onda mecânica (vibração de partículas); luz = onda eletromagnética (não precisa de meio — chega do Sol). "No espaço ninguém ouve" é física: a explosão cinematográfica é licença poética.', // explicação
+    dica: 'Velocidade do som: ~340 m/s no ar, mais rápido na água (~1500) e no aço (~5000) — meio mais denso conduz melhor. Eco = reflexão; o ouvido escuta 20 Hz a 20 kHz.', // pegadinha
+    video: 'som vácuo onda mecânica propagação' // busca no YouTube
+  },
+  {
+    id: 'f56',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Energia elétrica',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A conta de luz cobra em kWh — essa unidade mede:', // pergunta
+    alternativas: [                     // opções
+      'potência', // opção
+      'energia consumida — quilowatt (potência) × hora (tempo): o "quanto" de eletricidade usado, não a "força"', // correta
+      'corrente', // opção
+      'tensão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'kWh = energia: um chuveiro de 5,5 kW ligado por 1h consome 5,5 kWh. Potência (kW) é "velocidade" do consumo; energia (kWh) é o total gasto — potência × tempo.', // explicação
+    dica: 'Cálculo da conta: kWh = potência (kW) × horas de uso. Um ventilador de 0,1 kW por 10h = 1 kWh. O chuveiro é o vilão residencial — potência altíssima no banho.', // pegadinha
+    video: 'kwh energia potência conta de luz' // busca no YouTube
+  },
+  {
+    id: 'f57',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Calor — propagação',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'A garrafa térmica conserva o café quente porque:', // pergunta
+    alternativas: [                     // opções
+      'esquenta o café', // opção
+      'combate as três formas de troca de calor — vácuo (condução/convecção), parede espelhada (radiação), tampa (convecção do ar)', // correta
+      'o vidro gera calor', // opção
+      'o plástico aquece', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A garrafa térmica é engenharia de isolamento: vácuo entre as paredes (sem meio, sem condução/convecção), superfície espelhada (reflete a radiação), tampa vedada (impede convecção do ar externo).', // explicação
+    dica: 'As três propagações: condução (contato — colher no café), convecção (fluido que sobe desce — ar condicionado em cima), radiação (sem meio — o Sol aquecendo). A garrafa bloqueia as três.', // pegadinha
+    video: 'garrafa térmica condução convecção radiação' // busca no YouTube
+  },
+  {
+    id: 'f58',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Empuxo',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'Um navio de aço flutua porque:', // pergunta
+    alternativas: [                     // opções
+      'o aço é leve', // opção
+      'o volume oco desloca água suficiente para gerar empuxo igual ao peso — a densidade média do navio (aço + ar) é menor que a da água', // correta
+      'o motor empurra', // opção
+      'a água segura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Princípio de Arquimedes: empuxo = peso do fluido deslocado. O navio é aço mas tem ar dentro — a densidade média fica abaixo da água. O cubo de aço maciço afunda; o navio, não.', // explicação
+    dica: 'Afunda se densidade do corpo > fluido; flutua se <. O iceberg flutua porque gelo é menos denso que água líquida — 90% fica submerso (a "ponta do iceberg").', // pegadinha
+    video: 'empuxo arquimedes navio flutuar densidade' // busca no YouTube
+  },
+  {
+    id: 'f59',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Óptica — espelhos e lentes', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O espelho retrovisor convexo do carro é usado porque:', // pergunta
+    alternativas: [                     // opções
+      'amplia a imagem', // opção
+      'amplia o campo visual — a imagem é menor, mas o motorista vê uma área maior atrás (aumenta o campo de visão)', // correta
+      'é mais barato', // opção
+      'a imagem fica maior', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Espelho convexo diverge os raios: a imagem fica menor e direita, mas o campo visual aumenta — troca nitidez por amplitude. O aviso "objetos estão mais perto do que parecem" é por isso.', // explicação
+    dica: 'Côncavo = concentra (imagem aumentada quando perto — retrovisor do dentista, farol); convexo = dispersa (imagem menor, campo maior — retrovisor externo). Plano = imagem igual, só inverte esquerda/direita.', // pegadinha
+    video: 'espelho convexo retrovisor campo visual' // busca no YouTube
+  },
+  {
+    id: 'f60',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Eletricidade — segurança',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'CESPE/Cebraspe',            // banca inspiradora
+    enunciado: 'O fio terra (terceiro pino) protege porque:', // pergunta
+    alternativas: [                     // opções
+      'aumenta a tensão', // opção
+      'oferece caminho de menor resistência para a corrente de fuga — em vez de passar pelo seu corpo, a eletricidade escoa para a terra', // correta
+      'segura o aparelho', // opção
+      'evita curto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A corrente busca o caminho mais fácil: com aterramento, a fuga vai pelo fio terra (resistência mínima) e dispara o disjuntor — sem ele, o usuário vira o condutor e toma choque.', // explicação
+    dica: 'O choque depende da corrente, não só da voltagem: 127V pode matar em condições de contato bom (banho). A caixa de disjuntor + fio terra + interruptor DR são as camadas de proteção residencial.', // pegadinha
+    video: 'fio terra aterramento choque proteção' // busca no YouTube
+  },
 ];

@@ -27,7 +27,8 @@
 | Banca | Questões novas | Status |
 | :---- | :------------- | :----- |
 | ENEM (vestibular) | +144 (18 células) | ✅ commit `6bbb644` — todas as células ≥10 |
-| Fuvest / Unicamp (vestibular) | +173 (15 células + fechamento de 6 parciais) | ✅ commit pendente — todas as células ≥10 |
+| Fuvest / Unicamp (vestibular) | +173 (15 células + fechamento de 6 parciais) | ✅ commit `9658673` — todas as células ≥10 |
+| CESPE/Cebraspe | +192 (27 células, incl. 10 zeradas) | ✅ commit pendente — todas as células ≥10 |
 
 ## Notas de execução
 - ENEM: 144 questões em 5 chunks; corrigidos 2 enunciados duplicados
@@ -37,6 +38,9 @@
   (1→10), Ed. Física/Física (6→10), Fisiologia/Geografia (9→10).
   Corrigidos 2 duplicados (ct64→ct20, h47→h06) reescrevendo o enunciado.
   Validador: 1696/0.
+- CESPE: déficit era 188; cobertura real medida em 27 células (10 zeradas
+  de humanas/saúde). Corrigidos 3 duplicados (ad76→ad13, ar62→ar39,
+  ec63→ec29). Validador: 1888/0.
 
 ## TODO(TEAM_006) — continuação
 - Rodar `node scripts/deficit-matriz.js` e pegar a próxima banca da lista.
