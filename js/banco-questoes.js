@@ -26224,4 +26224,567 @@ const BancoQuestoes = [
     dica: 'Instituto Mais joga "copiar" e "espionar" como distrator: benchmarking é COMPARAR para melhorar — adapta a prática boa à sua realidade, não replica. Pode ser interno, competitivo ou funcional (de outro setor).', // pegadinha
     video: 'benchmarking melhoria continua melhores praticas resumo' // busca no YouTube
   },
+
+  // ============================================================
+  // TEAM_005 — LOTE 4 (+100), bloco 1/4 JURÍDICO:
+  // Constitucional c41–44, Administrativo a38–41, Previdenciário v35–38,
+  // Ética et43–45, Penal d48–50, Trabalho tr51–53, Criminologia k49–51,
+  // Legislação lg46–48.
+  // ============================================================
+
+  // ---- Direito Constitucional (c41–c44) ----
+  {
+    id: 'c41',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Liberdade de associação',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A liberdade de associação (art. 5º, XVII a XXI) garante que:', // pergunta
+    alternativas: [                     // opções
+      'ninguém pode ser obrigado a associar-se ou permanecer associado, e o Estado só dissolve associação por decisão judicial', // correta
+      'o Estado pode impedir qualquer associação', // opção
+      'associações não têm personalidade jurídica', // opção
+      'só partidos políticos podem se associar', // opção
+      'o chefe do Executivo dissolve associações por decreto', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'A liberdade de associar é plena e para fins lícitos: ninguém é obrigado a entrar ou ficar numa associação; o Estado só interfere por decisão judicial (dissolução/forçada) ou para impedir fins paramilitares/ilegais. A associação pode representar em juízo seus membros.', // explicação
+    dica: 'FUNDATEC testa o limite: nenhum poder público dissolve associação por ato administrativo — só por sentença judicial. E "associação" ≠ "reunião": associação é permanente; reunião é pontual e sem aviso prévio.', // pegadinha
+    video: 'liberdade associacao artigo 5 xvii resumo' // busca no YouTube
+  },
+  {
+    id: 'c42',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direito de petição e certidão', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O direito de petição e de certidão (art. 5º, XXXIV) assegura a todos:', // pergunta
+    alternativas: [                     // opções
+      'apenas ao cidadão eleitor', // opção
+      'apenas em juízo', // opção
+      'apenas contra o governo federal', // opção
+      'somente por advogados', // opção
+      'fazer pedidos aos poderes públicos em defesa de direitos e obter certidões de repartições, independentemente de pagamento de taxa', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O art. 5º, XXXIV garante a TODOS (inclusive estrangeiros e apátridas) peticionar aos poderes públicos e obter certidão — "independentemente do pagamento de taxas" — para defender direitos ou esclarecer situação de interesse pessoal.', // explicação
+    dica: 'Copeve restringe o rol: petição é direito de todos contra qualquer poder (Legislativo, Executivo, Judiciário), não só eleitor nem advogado. E o detalhe ouro: "independentemente de pagamento de taxas" aparece literal na prova.', // pegadinha
+    video: 'direito de peticao certidao artigo 5 resumo' // busca no YouTube
+  },
+  {
+    id: 'c43',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Devido processo legal',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'O princípio do devido processo legal (art. 5º, LIV) prevê que:', // pergunta
+    alternativas: [                     // opções
+      'o governo pode julgar sem lei', // opção
+      'apenas crimes graves têm processo', // opção
+      'ninguém será privado da liberdade ou dos bens sem o devido processo legal — contraditório e ampla defesa', // correta
+      'o processo dispensa defesa', // opção
+      'a lei vale só para servidores', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Devido processo legal substancial + formal: ninguém perde liberdade ou patrimônio sem processo válido, com contraditório (ouvir a outra parte) e ampla defesa (com meios e recursos). Fundamento do PAD, da ação penal e de qualquer sanção.', // explicação
+    dica: 'Selecon reduz o rol: o art. 5º, LIV embala TRÊS garantias — devido processo + contraditório + ampla defesa "com os meios e recursos a ela inerentes". Qualquer sanção sem ouvir o acusado é nula.', // pegadinha
+    video: 'devido processo legal contraditorio ampla defesa resumo' // busca no YouTube
+  },
+  {
+    id: 'c44',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Sigilo de correspondência',  // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'Sobre o sigilo das comunicações (art. 5º, XII), é correto que:', // pergunta
+    alternativas: [                     // opções
+      'a polícia pode abrir cartas a qualquer tempo', // opção
+      'o sigilo só vale para advogados', // opção
+      'qualquer juiz decretado por promotor já vale', // opção
+      'o sigilo de correspondência e comunicações é inviolável, salvo ordem judicial (interceptação telefônica só para investigação criminal ou instrução processual, e vedada em prova parlamentar)', // correta
+      'as empresas podem monitorar livremente', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Art. 5º, XII: invioláveis correspondência, comunicações telegráficas, dados e telefônicas — salvo ORDEM JUDICIAL nos casos da lei. Interceptação telefônica só para investigação criminal ou instrução penal — vedada para CPI e relações de trabalho.', // explicação
+    dica: 'IBGP troca quem autoriza: interceptação é SEMPRE judicial — promotor/polícia não autorizam. Limites cobrados: não vale para investigação legislativa (CPI nem parlamentar) nem para investigação civil/administrativa comum.', // pegadinha
+    video: 'sigilo comunicacao interceptacao telefonica resumo' // busca no YouTube
+  },
+
+  // ---- Direito Administrativo (a38–a41) ----
+  {
+    id: 'a38',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Vícios do ato administrativo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Os elementos (requisitos) do ato administrativo — e seus possíveis vícios — são:', // pergunta
+    alternativas: [                     // opções
+      'apenas forma e data', // opção
+      'só competência', // opção
+      'assunto, valor e data', // opção
+      'título, juros e prazo', // opção
+      'competência, finalidade, forma, motivo e objeto — o famoso "CO-FI-FO-MO-OB" que, se violado, vicia o ato', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O ato exige 5 elementos: Competência (quem pode), FInalidade (o interesse público visado), FOrma (o modo de exteriorização), MOtivo (as situações de fato/direito) e OBjeto (o conteúdo). Vício em finalidade ou objeto é mais grave — em motivo pode ser convalidável.', // explicação
+    dica: 'FUNDATEC cobra a dupla: nem todo vício é igual — forma e motivo às vezes se convalidam (vício sanável); competência, finalidade e objeto são vícios que viciam de nulidade. "Co-Fi-Fo-Mo-Ob" é o mnemônico imbatível.', // pegadinha
+    video: 'elementos ato administrativo cofifomoob vicios resumo' // busca no YouTube
+  },
+  {
+    id: 'a39',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Tutela e supervisão ministerial', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A supervisão ministerial (tutela administrativa) exercida sobre a administração indireta consiste em:', // pergunta
+    alternativas: [                     // opções
+      'o ministério gerir a autarquia por dentro', // opção
+      'a autarquia obedecer ordens hierárquicas do ministério', // opção
+      'o controle finalístico do ministério sobre a entidade — verificar se cumpre a finalidade legal, sem hierarquia interna', // correta
+      'o Congresso nomear os servidores', // opção
+      'a vinculação financeira total', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Entidade da indireta (autarquia, fundação, EP, SEM) é autônoma administrativamente, mas fica sob tutela do ministério que a supervisiona: fiscaliza propósito e legalidade, sem subordinação hierárquica. Não há mando interno — é controle "de fora".', // explicação
+    dica: 'Copeve confunde tutela com hierarquia: supervisão ministerial é controle FINALÍSTICO (se a entidade cumpre sua lei), não subordinação — o ministro não manda no dia a dia da autarquia. Autonomia com supervisão é a chave.', // pegadinha
+    video: 'supervisao ministerial tutela autarquia resumo' // busca no YouTube
+  },
+  {
+    id: 'a40',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Princípios do serviço público', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'São princípios que regem o serviço público, de acordo com a doutrina e a Lei 11.445/07:', // pergunta
+    alternativas: [                     // opções
+      'lucro e exclusividade do Estado', // opção
+      'sigilo absoluto', // opção
+      'preço livre', // opção
+      'competitividade máxima', // opção
+      'continuidade, igualdade de acesso, eficiência, regularidade, generalidade e modicidade tarifária', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'Os princípios do serviço público: continuidade (não pode parar), igualdade/generalidade (todos têm acesso), eficiência, regularidade, modicidade (preço acessível), cortesia e atualidade — orientam concessões e prestação direta.', // explicação
+    dica: 'Selecon troca o rol por princípios genéricos: memorize o trio de ouro — CONTINUIDADE + IGUALDADE + MODICIDADE são os padrões do serviço público; "lucro" e "exclusividade" são distratores. Continuidade vale até para concessão (a concessionária não pode interromper à vontade).', // pegadinha
+    video: 'principios servico publico continuidade modicidade resumo' // busca no YouTube
+  },
+  {
+    id: 'a41',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Contrato — fiscalização',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'Na execução de um contrato administrativo, a fiscalização exercida pela administração visa:', // pergunta
+    alternativas: [                     // opções
+      'punir o particular', // opção
+      'alterar o objeto livremente', // opção
+      'acompanhar o cumprimento das cláusulas, garantindo que o serviço seja prestado conforme o contratado', // correta
+      'substituir o contador', // opção
+      'pagar o contratado adiantado', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A Lei 14.133 exige que o gestor designe fiscais para o contrato: acompanhar a execução, registrar falhas e propor sanções/aditivos. O fiscal não muda o objeto — garante que o contratado entregue o que foi licitado.', // explicação
+    dica: 'Instituto Mais confunde fiscalização com poder de alterar o contrato a qualquer tempo: o fiscal ACOMPANHA e REGISTRA, não cria obrigações novas — mudanças do objeto exigem aditivo formal dentro dos limites legais (até 25%/50%).', // pegadinha
+    video: 'fiscalizacao contrato administrativo fiscal resumo' // busca no YouTube
+  },
+
+  // ---- Direito Previdenciário (v35–v38) ----
+  {
+    id: 'v35',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Auxílio-acidente',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O auxílio-acidente do INSS é devido quando:', // pergunta
+    alternativas: [                     // opções
+      'o segurado morre no trabalho', // opção
+      'o trabalhador fica totalmente incapaz', // opção
+      'é licença de 90 dias', // opção
+      'o acidente deixa sequelas que reduzem — mas não impedem — a capacidade para o trabalho habitual', // correta
+      'o empregado se demite', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Auxílio-acidente = indenização mensal (50% do salário-de-benefício) por sequela permanente que REDUZ a capacidade de trabalhar — não precisa estar afastado: o segurado continua trabalhando. Difere do auxílio por incapacidade, que afasta temporariamente.', // explicação
+    dica: 'FUNDATEC confunde com aposentadoria por incapacidade: auxílio-acidente = redução parcial e permanente (segue trabalhando); incapacidade permanente = não consegue mais trabalhar. O "ficou com sequela mas trabalha" é a chave.', // pegadinha
+    video: 'auxilio acidente sequela reducao capacidade resumo' // busca no YouTube
+  },
+  {
+    id: 'v36',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Conversão de tempo especial', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A conversão de tempo especial em comum, possível para contribuições anteriores à Reforma de 2019, serve para:', // pergunta
+    alternativas: [                     // opções
+      'cancelar contribuições antigas', // opção
+      'apagar o tempo especial', // opção
+      'transformar tempo de trabalho insalubre/perigoso em tempo comum com acréscimo (fator multiplicador maior que 1) para fins de aposentadoria', // correta
+      'reduzir o salário de contribuição', // opção
+      'isentar impostos', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Quem trabalhou em condições especiais (insalubridade/periculosidade) antes de 13/11/2019 pode converter esse tempo em comum com multiplicador — cada ano especial conta mais que um ano comum, ajudando a completar tempo de contribuição.', // explicação
+    dica: 'Copeve cobra o corte da Reforma: conversão só vale para período ANTES de 13/11/2019 (depois foi vedada). E o multiplicador difere por grau de exposição — 1,4 a 2,0 para quem o exige.', // pegadinha
+    video: 'conversao tempo especial insalubre multiplicador resumo' // busca no YouTube
+  },
+  {
+    id: 'v37',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte — ex-cônjuge', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A pensão por morte para o ex-cônjuge ou ex-companheiro é admitida:', // pergunta
+    alternativas: [                     // opções
+      'sempre, sem exceção', // opção
+      'nunca em hipótese alguma', // opção
+      'apenas se não houve divórcio', // opção
+      'qualquer parente pode pedir', // opção
+      'quando o ex-cônjuge recebia pensão alimentícia judicialmente fixada ou vivia em dependência econômica do falecido', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O ex-cônjuge não é dependente automático: recebe pensão se tiver direito a alimentos fixados em juízo ou se comprovar dependência econômica (relação que persistia). Simples divórcio não basta — exige-se dependência mantida.', // explicação
+    dica: 'IBGP joga o "nunca" ou o "sempre": a resposta é o meio-termo — SÓ se havia dependência econômica comprovada (alimentos). O cônjuge atual não anula a partilha com ex que recebia alimentos — cada qual com sua cota.', // pegadinha
+    video: 'pensao por morte ex conjuge dependencia resumo' // busca no YouTube
+  },
+  {
+    id: 'v38',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Reabilitação profissional',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A reabilitação profissional do INSS consiste em:', // pergunta
+    alternativas: [                     // opções
+      'aposentadoria imediata', // opção
+      'serviço de capacitação/readaptação para que o segurado parcialmente incapaz retorne ao trabalho em outra função', // correta
+      'licença médica de longo prazo', // opção
+      'auxílio financeiro mensal', // opção
+      'curso superior gratuito', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Quando o segurado fica incapaz para a função habitual mas apto para outra, o INSS deve oferecer reabilitação profissional (serviço, não benefício em dinheiro): treina-o para nova atividade antes de aposentá-lo por incapacidade.', // explicação
+    dica: 'Instituto Mais confunde serviço × benefício: reabilitação é SERVIÇO do INSS (formação para nova função), não dinheiro mensal. E hierarquia: primeiro tenta reabilitar; só na inviabilidade total se aposenta por incapacidade permanente.', // pegadinha
+    video: 'reabilitacao profissional inss nova funcao resumo' // busca no YouTube
+  },
+
+  // ---- Ética (et43–et45) ----
+  {
+    id: 'et43',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Informação privilegiada',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O servidor que usa informação obtida por causa do cargo para benefício próprio ou de terceiros comete:', // pergunta
+    alternativas: [                     // opções
+      'apenas descuido', // opção
+      'exercício da função normal', // opção
+      'violação do dever ético — o uso de informação privilegiada é vedado (e pode configurar enriquecimento ilícito e insider trading no setor privado)', // correta
+      'dever de compartilhar', // opção
+      'direito adquirido do cargo', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O Decreto 1.171 veda valer-se da posição e das informações acessadas pelo cargo para vantagem própria ou de terceiro. No setor privado, usar informação privilegiada de empresa listada é crime (insider trading).', // explicação
+    dica: 'FUNDATEC cobra a diferença sigilo × uso: não é só "não vazar" — é também não USAR a informação para ganho (negociar ações, alertar familiar sobre licitação). A informação do cargo não é propriedade do servidor.', // pegadinha
+    video: 'informacao privilegiada servidor etica resumo' // busca no YouTube
+  },
+  {
+    id: 'et44',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Privacidade e dados do cidadão', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O servidor que trata dados pessoais do cidadão deve:', // pergunta
+    alternativas: [                     // opções
+      'vender bases de dados', // opção
+      'compartilhar livremente', // opção
+      'usar para fins pessoais', // opção
+      'tratar com segurança e finalidade legítima — a LGPD vincula também a administração pública, exigindo cuidado, sigilo e necessidade', // correta
+      'publicar no site do órgão', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'A LGPD (Lei 13.709/18) aplica-se também ao setor público: dados pessoais só são tratados para finalidade pública legítima, com segurança e necessidade. O servidor que divulga dado de cidadão comete falta ética — e pode responder por crime.', // explicação
+    dica: 'Copeve cobra a aplicação da LGPD ao Estado: dados do cidadão NÃO são "patrimônio do órgão" — há dever de proteção, e vazamento de dado cadastral gera responsabilidade. Finalidade e necessidade são os limites.', // pegadinha
+    video: 'lgpd dados pessoais setor publico etica resumo' // busca no YouTube
+  },
+  {
+    id: 'et45',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética ambiental no serviço', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A responsabilidade ambiental do servidor público no expediente abrange:', // pergunta
+    alternativas: [                     // opções
+      'apenas reciclar o próprio lixo', // opção
+      'nenhum dever ambiental', // opção
+      'cuidar dos recursos públicos, reduzir desperdício (papel, água, energia) e considerar o impacto ambiental das decisões administrativas', // correta
+      'aplicar multas ambientais', // opção
+      'gerenciar parques', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Ética ambiental no expediente = usar racionalmente o recurso público (papel, água, luz), evitar desperdício e pautar decisões pela sustentabilidade. Também é dever quando o ato administrativo afeta o meio ambiente.', // explicação
+    dica: 'IBGP reduz ao "meu lixo": a ética ambiental vai do copo descartável à compra pública sustentável — o servidor zela pelo bem público e pelo impacto das decisões. Não confunda com a função do fiscal ambiental (que é técnica).', // pegadinha
+    video: 'etica ambiental servidor sustentabilidade resumo' // busca no YouTube
+  },
+
+  // ---- Direito Penal (d48–d50) ----
+  {
+    id: 'd48',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Invasão de dispositivo informático', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'O crime de invasão de dispositivo informático (art. 154-A do CP) configura-se ao:', // pergunta
+    alternativas: [                     // opções
+      'usar o Wi-Fi do vizinho', // opção
+      'instalar programa legítimo', // opção
+      'imprimir e-mail', // opção
+      'invadir, mesmo sem furto de dados, dispositivo alheio com a intenção de obter, adulterar ou destruir dados/informações', // correta
+      'empréstimo do celular', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Incluído em 2012 (Lei 12.737 — "Lei Carolina Dieckmann"): invadir dispositivo informático para obter, adulterar ou destruir dados, mesmo sem lesar. Qualificadoras: se produz conteúdo/informação ou é feito por funcionário/abuso de função. Consentimento afasta o crime.', // explicação
+    dica: 'FUNDATEC cobra que não precisa HAVER furto efetivo: a própria INVASÃO com intenção já configura. E "usar Wi-Fi aberto" não é invasão de dispositivo — a proteção é do dispositivo, não da rede.', // pegadinha
+    video: 'invasao dispositivo informatico art 154a resumo' // busca no YouTube
+  },
+  {
+    id: 'd49',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Violência psicológica — art. 147-B', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O crime de violência psicológica contra a mulher (art. 147-B CP, incluso em 2021) protege:', // pergunta
+    alternativas: [                     // opções
+      'apenas mulheres casadas', // opção
+      'apenas em local público', // opção
+      'a integridade emocional da mulher em contexto doméstico/familiar/afetivo — manipulação, isolamento, chantagem, humilhação que causem dano emocional', // correta
+      'somente quando há lesão corporal', // opção
+      'vítimas de qualquer gênero', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O art. 147-B tipifica causar dano emocional à mulher que prejudique sua saúde ou autodeterminação, em contexto doméstico/familiar/afetivo: controle, manipulação, isolamento, vigilância, gaslighting. Não exige lesão física.', // explicação
+    dica: 'Copeve exige lesão corporal como distrator: a essência do tipo é justamente o dano PSICOLÓGICO sem contato — gaslighting, isolamento, controle obsessivo. E é crime específico contra mulher — vítima homem enquadra-se em outros tipos.', // pegadinha
+    video: 'violencia psicologica mulher art 147b resumo' // busca no YouTube
+  },
+  {
+    id: 'd50',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Maus-tratos a animais',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'O crime de maus-tratos a animais (art. 32 da Lei 9.605/98) abrange:', // pergunta
+    alternativas: [                     // opções
+      'apenas animais silvestres', // opção
+      'somente cães policiais', // opção
+      'abandono é lícito', // opção
+      'apenas grandes mamíferos', // opção
+      'abusar, ferir, mutilar ou abandonar animais — domésticos ou silvestres — com qualquer método que lhes cause sofrimento', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'O art. 32 da Lei de Crimes Ambientais pune praticar abuso, maus-tratos, ferir ou mutilar animais silvestres, domésticos ou domesticados — e a jurisprudência/doutrina reconhecem o abandono como forma de maus-tratos. A Constituição vedou práticas que os submetam a crueldade.', // explicação
+    dica: 'Instituto Mais restringe a fauna: protegidos são todos os animais — silvestres, exóticos, DOMÉSTICOS e domesticados. E abandonar animal = maus-tratos (não é "problema do dono"). "Rinha de animais" é qualificadora.', // pegadinha
+    video: 'maus tratos animais artigo 32 lei 9605 resumo' // busca no YouTube
+  },
+
+  // ---- Direito do Trabalho (tr51–tr53) ----
+  {
+    id: 'tr51',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Trabalho em domingos e feriados', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Sobre o trabalho em domingos e feriados, a CLT (pós-2017) estabelece que:', // pergunta
+    alternativas: [                     // opções
+      'é sempre vedado', // opção
+      'o empregado nunca folga', // opção
+      'o comércio pode funcionar aos domingos observada a lei municipal e o repouso semanal — preferencialmente aos domingos, com compensação', // correta
+      'dobra o salário sempre', // opção
+      'é igual a sábado', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'O repouso semanal remunerado deve ser preferencialmente ao domingo; quem trabalha nesse dia tem folga compensatória em outro dia da semana. Comércio em geral pode abrir conforme lei municipal — respeitadas as regras de compensação e as exceções.', // explicação
+    dica: 'FUNDATEC exagera nos extremos: nem "sempre vedado" nem "sem folga" — domingo trabalhado exige folga em outro dia (repouso semanal). "Preferencialmente" não é "obrigatoriamente": pode ser outro dia da semana.', // pegadinha
+    video: 'trabalho domingo feriado repouso semanal clt resumo' // busca no YouTube
+  },
+  {
+    id: 'tr52',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Multa do FGTS — 40%',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A multa de 40% sobre o FGTS é devida ao trabalhador quando:', // pergunta
+    alternativas: [                     // opções
+      'ele pede demissão', // opção
+      'é demitido por justa causa', // opção
+      'o contrato expira normalmente', // opção
+      'ele faz acordo para sacar', // opção
+      'é demitido sem justa causa pela empresa — sobre o total depositado na conta vinculada do FGTS', // correta
+    ],
+    correta: 4,                         // índice da certa
+    explicacao: 'A multa de 40% incide sobre todos os depósitos de FGTS do contrato quando a demissão é SEM JUSTA CAUSA. Pedido de demissão e justa causa não geram a multa; na rescisão por acordo (art. 484-A) paga-se 20% (metade).', // explicação
+    dica: 'IBGP troca os percentuais e os motivos: sem justa causa = 40%; rescisão por ACORDO = 20%. E a multa é do EMPREGADOR ao EMPREGADO (não confundir com a contribuição de 0,5% extinta pela reforma).', // pegadinha
+    video: 'multa fgts 40 por cento demissao resumo' // busca no YouTube
+  },
+  {
+    id: 'tr53',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estabilidade do dirigente sindical', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'A estabilidade do dirigente sindical (estabilidade sindical) protege:', // pergunta
+    alternativas: [                     // opções
+      'qualquer sindicalizado', // opção
+      'o dirigente eleito — que não pode ser dispensado sem justa causa desde o registro da candidatura até um ano após o mandato', // correta
+      'todos os empregados do sindicato', // opção
+      'somente após 10 anos', // opção
+      'apenas servidores públicos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CF (art. 8º, VIII) veda a dispensa do sindicalizado eleito para dirigência desde o registro da candidatura até 1 ano após o fim do mandato, salvo falta grave — é a proteção contra retaliação por atividade sindical.', // explicação
+    dica: 'Instituto Mais amplia a proteção a todo sindicalizado: só o DIRIGENTE eleito tem estabilidade. E a janela é ampla: começa no REGISTRO da candidatura (não na posse) e segue um ano após o mandato.', // pegadinha
+    video: 'estabilidade sindical dirigente dispensa resumo' // busca no YouTube
+  },
+
+  // ---- Criminologia (k49–k51) ----
+  {
+    id: 'k49',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Odontologia forense',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'A odontologia legal forense serve à identificação humana por:', // pergunta
+    alternativas: [                     // opções
+      'padrões de voz', // opção
+      'impressões digitais dos pés', // opção
+      'exame de sangue apenas', // opção
+      'análise da arcada dentária — tratamentos, restaurações e características dos dentes são únicos e resistem a fogo e decomposição', // correta
+      'formato do crânio apenas', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'Os dentes são o tecido mais resistente do corpo — sobrevivem a incêndio e decomposição. O odontolegista confronta radiografias e fichas dentárias antemortem com o exame do corpo — identificação essencial em catástrofes e cadáveres carbonizados.', // explicação
+    dica: 'FUNDATEC troca os métodos de identificação: quando digitais e rosto se perdem, ODONTO (dentes/restaurações) e DNA resolvem. Não é estética — é comparação de tratamentos feitos em vida com o exame post-mortem.', // pegadinha
+    video: 'odontologia forense identificacao dentes resumo' // busca no YouTube
+  },
+  {
+    id: 'k50',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Grafoscopia',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBGP',                      // banca inspiradora
+    enunciado: 'A grafoscopia pericial consiste em:', // pergunta
+    alternativas: [                     // opções
+      'analisar caracteres de texto', // opção
+      'ler o pensamento pela letra', // opção
+      'adivinhar a personalidade', // opção
+      'comparar assinaturas e escritas à mão para verificar autenticidade ou falsificação, por características gráficas', // correta
+      'imprimir documentos', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O perito grafotécnico compara a escrita/assinatura questionada com padrões autênticos — pressão, ritmo, inclinação, arranques, conexões — para detectar falsificação, imitação ou autoria. É a técnica de cheques falsos e testamentos suspeitos.', // explicação
+    dica: 'IBGP vende o mito da "grafologia" (traçar personalidade pela letra): grafoscopia é PERÍCIA de autenticidade, não análise psicológica. Quem diz caráter pela caligrafia é grafologia — pseudociência não aceita como prova.', // pegadinha
+    video: 'grafoscopia pericia assinatura falsificacao resumo' // busca no YouTube
+  },
+  {
+    id: 'k51',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Áudio e voz forense',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'superior',                 // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A perícia de áudio e voz (fonoscopia) é empregada para:', // pergunta
+    alternativas: [                     // opções
+      'melhorar a qualidade da gravação', // opção
+      'transcrever depoimentos', // opção
+      'traduzir idiomas', // opção
+      'identificar falantes, verificar autenticidade de gravações, detectar cortes/edições e esclarecer áudio duvidoso', // correta
+      'gerar novas gravações', // opção
+    ],
+    correta: 3,                         // índice da certa
+    explicacao: 'O fonoscopista compara a voz questionada com amostras do investigado e analisa a trilha (espectrograma, ruído, continuidade) para autenticar ou detectar edição — decisivo em interceptações, extorsões e denúncias gravadas.', // explicação
+    dica: 'Copeve reduz a técnica a "transcrição": fonoscopia é COMPARAÇÃO e AUTENTICAÇÃO — quem falou e se a fita foi mexida. Não serve para melhorar áudio nem para traduzir — é ciência da prova sonora.', // pegadinha
+    video: 'fonoscopia pericia audio voz forense resumo' // busca no YouTube
+  },
+
+  // ---- Legislação (lg46–lg48) ----
+  {
+    id: 'lg46',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'ECA — internação',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'FUNDATEC',                  // banca inspiradora
+    enunciado: 'Pelo ECA, a internação como medida socioeducativa aplicada ao adolescente é admitida apenas:', // pergunta
+    alternativas: [                     // opções
+      'por qualquer infração', // opção
+      'quando o juiz quiser', // opção
+      'como medida de última instância — para ato infracional grave, reiteração ou descumprimento reiterado de medidas anteriores, e nunca antes dos 12 anos', // correta
+      'para maiores de 21 anos', // opção
+      'por indisciplina escolar', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'A internação é exceção: só para ato infracional cometido com violência/grave ameaça, reiteração de infrações graves ou descumprimento sistemático de outras medidas — dura no máximo 3 anos e nunca se aplica a criança (sub-12).', // explicação
+    dica: 'FUNDATEC cobra o limiar: internação NÃO é "primeira opção" — é a última. Os 3 gatilhos do art. 122 são ato grave com violência, reincidência específica ou descumprimento reiterado; criança (<12) nunca é internada.', // pegadinha
+    video: 'eca internacao adolescente medida socioeducativa resumo' // busca no YouTube
+  },
+  {
+    id: 'lg47',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'CDC — publicidade enganosa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Selecon',                   // banca inspiradora
+    enunciado: 'No Código de Defesa do Consumidor, publicidade enganosa é aquela que:', // pergunta
+    alternativas: [                     // opções
+      'é apenas exagerada', // opção
+      'só mente sobre preço', // opção
+      'contém informação falsa ou omite dado essencial capaz de induzir o consumidor ao erro sobre o produto ou serviço', // correta
+      'é a mesma que abusiva', // opção
+      'é permitida em horário noturno', // opção
+    ],
+    correta: 2,                         // índice da certa
+    explicacao: 'Enganosa (art. 37, §1º): informação FALSA ou omissão capaz de levar o consumidor a erro sobre natureza, qualidade, preço, etc. — o fornecedor responde civilmente e é crime (art. 67). Abusiva é diferente: discrimina, violenta ou explora a fraqueza.', // explicação
+    dica: 'Selecon troca enganosa × abusiva: ENGANOSA = falso/omissão (mentira técnica); ABUSIVA = discriminatória, violenta, que explora vulnerabilidade (crianças, idosos). A banca adora confundir as duas.', // pegadinha
+    video: 'cdc publicidade enganosa abusiva diferenca resumo' // busca no YouTube
+  },
+  {
+    id: 'lg48',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 9.784 — interessados',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Instituto Mais',            // banca inspiradora
+    enunciado: 'No processo administrativo federal (Lei 9.784/99), a legitimidade para provocar a instauração ou participar como interessado é de quem:', // pergunta
+    alternativas: [                     // opções
+      'apenas servidores', // opção
+      'tem direitos ou interesses afetados pelo processo — a CF garante o acesso, vedado o anonimato', // correta
+      'somente advogados', // opção
+      'só o chefe do órgão', // opção
+      'ninguém de fora', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Podem iniciar o processo ou nele figurar como interessados os titulares de direitos individuais, coletivos ou coletivos difusos afetados — e pessoas jurídicas/cidadãos em defesa de interesses. O art. 5º, XXXIV veda o anonimato no processo.', // explicação
+    dica: 'Instituto Mais restringe o acesso: qualquer um com interesse legítimo pode intervir — e a CF veda expressamente o ANÔNIMO na petição/processo. O detalhe "vedado o anonimato" é a armadilha de prova.', // pegadinha
+    video: 'lei 9784 processo administrativo interessados resumo' // busca no YouTube
+  },
 ];
