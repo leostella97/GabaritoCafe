@@ -45811,4 +45811,2911 @@ const BancoQuestoes = [
     dica: 'A diferença moral intuitiva: "efeito colateral" (o 1 morre como consequência) vs "meio" (o 1 é usado para parar o bonde). A doutrina do duplo efeito distingue prever a morte de intencioná-la — central na bioética.', // pegadinha
     video: 'dilema bonde trolley problem ética' // busca no YouTube
   },
+  {
+    id: 'p85',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Sintaxe — complemento verbal', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Em "Assisti ao filme", o termo "ao filme" é:', // pergunta
+    alternativas: [                     // opções
+      'objeto direto', // opção
+      'objeto indireto — "assistir" no sentido de ver é transitivo indireto (exige "a"): assisti AO filme', // correta
+      'adjunto adverbial', // opção
+      'predicativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assistir (ver) = VTI com preposição "a" — "ao filme" é objeto indireto. Assistir no sentido de ajudar é transitivo direto ("assisti o cliente"). A regência muda conforme o sentido.', // explicação
+    dica: 'Assistir: ver = VTI (assisti AO filme); ajudar = VTD (assisti O cliente); presenciar = VTI (assisti À cerimônia); morar = intransitivo (assisto no Rio — uso formal raro). A crase marca o objeto indireto feminino.', // pegadinha
+    video: 'regência assistir objeto indireto crase' // busca no YouTube
+  },
+  {
+    id: 'p86',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Crase',                      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A crase ocorre em:', // pergunta
+    alternativas: [                     // opções
+      'Vou a casa', // opção
+      'Refiro-me à proposta — a preposição "a" + artigo "a" da palavra feminina; só cabe quando a regência exige "a" e a palavra admite artigo', // correta
+      'Andei a pé', // opção
+      'Cheguei a tempo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Crase = a (preposição) + a (artigo feminino). Exige as duas condições: regência com "a" + palavra que aceita artigo. "A pé", "a tempo" (expressões masculinas/sem artigo) e "a casa" (se casa própria, sem artigo) não levam.', // explicação
+    dica: 'Teste rápido: troque a palavra por masculino — "refiro-me AO projeto" → se "ao" funciona, a crase cabe no feminino. Não há crase antes de verbo, palavra masculina, pronome indefinido ou "a" de "a pé".', // pegadinha
+    video: 'crase regras quando usar' // busca no YouTube
+  },
+  {
+    id: 'p87',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Concordância nominal',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Está correta a concordância em:', // pergunta
+    alternativas: [                     // opções
+      'Comprei bastantes livros', // opção
+      'Segui a mesma regra — "mesma" concorda com o substantivo; "bastante" como advérbio não varia (bastante livros), mas "bastantes" vale como "muitos"', // correta
+      'Ela está meia cansada', // opção
+      'É proibidos entrada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '"Bastante" adjetivo = "bastantes livros" (equivale a muitos); como advérbio, invariável ("livros bastante caros"). "Meio" adverbial não varia ("meia cansada" errado — é "meio cansada").', // explicação
+    dica: 'Pegadinhas clássicas: "meio" advérbio é invariável (ela está meio cansada); "bastante" varia só quando adjetivo; "é proibido" com artigo = "é proibida a entrada"; "anexas" concorda (seguem anexas as fotos).', // pegadinha
+    video: 'concordância nominal bastante meio proibido' // busca no YouTube
+  },
+  {
+    id: 'm84',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Porcentagem — desconto',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um produto de R$200 com desconto de 15% custa:', // pergunta
+    alternativas: [                     // opções
+      'R$185', // opção
+      'R$170 — 15% de 200 = 30; 200 − 30 = 170 (ou 200 × 0,85)', // correta
+      'R$180', // opção
+      'R$150', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Desconto de 15% = pagar 85%: 200 × 0,85 = 170. Alternativa: calcular 15% de 200 = 30 e subtrair. O fator multiplicativo (1 − taxa) é o caminho direto.', // explicação
+    dica: 'Fator multiplicativo: desconto de x% = multiplicar por (1 − x/100); aumento = (1 + x/100). Para descontos sucessivos, multiplique os fatores — 20% + 10% de desconto = 0,8 × 0,9 = 0,72 = 28% total, não 30%.', // pegadinha
+    video: 'porcentagem desconto fator multiplicativo' // busca no YouTube
+  },
+  {
+    id: 'm85',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Razão e proporção',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Se 3 operários constroem um muro em 12 dias, 4 operários constroem em:', // pergunta
+    alternativas: [                     // opções
+      '16 dias', // opção
+      '9 dias — inversamente proporcional: 3×12 = 4×x → x = 9', // correta
+      '8 dias', // opção
+      '6 dias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Operários e dias são inversamente proporcionais (mais gente, menos tempo): mantém o produto 3×12=36; 36÷4=9 dias. Regra de três inversa = multiplica cruzado invertendo a razão.', // explicação
+    dica: 'Direta vs inversa: se "mais X dá mais Y" = direta (multiplica cruzado); se "mais X dá menos Y" = inversa (mantém o produto constante). Operário×dias, velocidade×tempo, torneiras×tempo são inversas clássicas.', // pegadinha
+    video: 'regra três inversamente proporcional' // busca no YouTube
+  },
+  {
+    id: 'r79',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Proposições — negação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A negação de "Todos os alunos passaram" é:', // pergunta
+    alternativas: [                     // opções
+      'Nenhum aluno passou', // opção
+      'Pelo menos um aluno NÃO passou — negar o "todo" exige só um contraexemplo; "nenhum" é negação de "algum", não de "todo"', // correta
+      'Todos reprovaram', // opção
+      'Alguns passaram', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Negação do universal afirmativo ("todo A é B") = particular negativo ("existe A que não é B"). Negação de "nenhum" = "pelo menos um". Os pares: todo↔algum-não; nenhum↔algum.', // explicação
+    dica: 'Nunca negue "todo" com "nenhum" — são contrários, não negação. Negação de "p e q" = "não-p ou não-q" (De Morgan); de "p ou q" = "não-p e não-q"; de "se p então q" = "p e não-q".', // pegadinha
+    video: 'negação todo algum nenhum quantificadores' // busca no YouTube
+  },
+  {
+    id: 'r80',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Equivalência — condicional', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A contrapositiva de "Se chove, então fico em casa" é:', // pergunta
+    alternativas: [                     // opções
+      'Se não chove, não fico', // opção
+      'Se não fiquei em casa, então não choveu — inverte e nega os dois lados; é a equivalência lógica da condicional', // correta
+      'Chove e não fico', // opção
+      'Se fico, chove', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'p→q ≡ ¬q→¬p (contrapositiva: inverte e nega). Também p→q ≡ ¬p∨q. A recíproca (q→p) e a inversa (¬p→¬q) NÃO são equivalentes — erro clássico de prova.', // explicação
+    dica: 'Equivalências da condicional: contrapositiva (nega e inverte) e "ou" (¬p∨q — "nega o primeiro OU mantém o segundo"). A falácia é afirmar o consequente: "se chove, fico em casa; estou em casa, logo chove" é inválido.', // pegadinha
+    video: 'contrapositiva equivalência condicional' // busca no YouTube
+  },
+  {
+    id: 'r81',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequências — padrão',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na sequência 3, 6, 12, 24, 48, ... o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '72', // opção
+      '96 — cada termo dobra o anterior (progressão geométrica de razão 2): 48×2 = 96', // correta
+      '60', // opção
+      '54', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PG de razão 2: cada termo = anterior × 2. Identifique o padrão testando razão entre termos consecutivos (6÷3=2, 12÷6=2...). Se a razão é constante, é PG; se a diferença é constante, é PA.', // explicação
+    dica: 'Diagnóstico rápido: diferença constante = PA (aₙ = a₁ + (n−1)r); razão constante = PG (aₙ = a₁·rⁿ⁻¹). Fibonacci = cada termo é a soma dos dois anteriores. Teste sempre as duas primeiras diferenças/razões.', // pegadinha
+    video: 'sequência pa pg padrão próximo termo' // busca no YouTube
+  },
+  {
+    id: 'r82',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Conjuntos — união',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Em uma turma, 20 gostam de matemática, 15 de física e 8 de ambas. Quantos gostam de ao menos uma?', // pergunta
+    alternativas: [                     // opções
+      '35', // opção
+      '27 — |A∪B| = |A| + |B| − |A∩B| = 20 + 15 − 8 = 27 (a interseção é contada duas vezes se não subtrair)', // correta
+      '43', // opção
+      '23', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Princípio da inclusão-exclusão: união = soma dos conjuntos menos a interseção (que foi contada em dobro). 20+15−8=27. Os que gostam só de matemática = 20−8=12; só de física = 15−8=7.', // explicação
+    dica: 'Sempre subtraia a interseção. Para três conjuntos: |A∪B∪C| = soma − interseções aos pares + interseção tripla. Desenhe o diagrama de Venn — a prova cobra a região "só A", "só B" e "nenhum".', // pegadinha
+    video: 'conjuntos união interseção inclusão exclusão' // busca no YouTube
+  },
+  {
+    id: 'r83',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Probabilidade',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Sorteando uma carta de um baralho comum (52 cartas), a chance de sair um dos quatro ases é:', // pergunta
+    alternativas: [                     // opções
+      '1/52', // opção
+      '4/52 = 1/13 — há 4 ases (um por naipe) entre 52 cartas; P = casos favoráveis / casos possíveis', // correta
+      '1/4', // opção
+      '13/52', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'P = favoráveis/possíveis = 4/52 = 1/13 ≈ 7,7%. Probabilidade sempre entre 0 e 1; evento certo = 1, impossível = 0. Complementar: P(não A) = 1 − P(A).', // explicação
+    dica: 'Estratégia do complementar: "pelo menos um" é mais fácil via 1 − P(nenhum). Eventos independentes: P(A e B) = P(A)×P(B); mutuamente exclusivos: P(A ou B) = P(A)+P(B).', // pegadinha
+    video: 'probabilidade casos favoráveis possíveis' // busca no YouTube
+  },
+  {
+    id: 'r84',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Verdades e mentiras',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Ana diz "Beto mente"; Beto diz "Carlos mente"; Carlos diz "Ana e Beto mentem". Só um diz a verdade. Quem?', // pergunta
+    alternativas: [                     // opções
+      'Ana', // opção
+      'Beto — teste: se Beto diz a verdade, Carlos mente (logo não é que ambos mentem — ok), e Ana mente (logo Beto não mente ✓). Consistente; as outras hipóteses geram contradição', // correta
+      'Carlos', // opção
+      'Todos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Teste de hipóteses: se Ana fosse verdadeira, Beto mente → Carlos não mente → Carlos diz a verdade → Ana e Beto mentem → contradição (Ana verdadeira e mentirosa). Com Beto verdadeiro, tudo fecha.', // explicação
+    dica: 'Método: assuma cada um como o verdadeiro e derive as mentiras — procure contradição. Só uma hipótese fecha sem conflito. Desenhe a tabela de verdade/mentira para não se perder.', // pegadinha
+    video: 'verdades mentiras teste hipóteses' // busca no YouTube
+  },
+  {
+    id: 'i79',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança — phishing',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "phishing" é o ataque que:', // pergunta
+    alternativas: [                     // opções
+      'criptografa arquivos', // opção
+      'engana o usuário com site/e-mail falso para roubar credenciais — "pesca" dados por engenharia social, não por invasão técnica', // correta
+      'sobrecarrega o servidor', // opção
+      'espiona via câmera', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Phishing = isca: e-mail/site que imita banco ou empresa pedindo senha. Engenharia social explora a confiança. Ransomware criptografa e cobra resgate; DDoS sobrecarrega; spyware espiona.', // explicação
+    dica: 'Variantes: spear phishing (direcionado a pessoa específica), smishing (SMS), vishing (voz/ligação), pharming (redireciona o DNS). Defesa: conferir remetente e URL, 2FA, não clicar em link de urgência.', // pegadinha
+    video: 'phishing engenharia social ataque' // busca no YouTube
+  },
+  {
+    id: 't79',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Geopolítica — América Latina', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Mercosul, bloco econômico do qual o Brasil faz parte, reúne como membros plenos:', // pergunta
+    alternativas: [                     // opções
+      'Brasil, Argentina, Chile e Peru', // opção
+      'Brasil, Argentina, Uruguai, Paraguai e Bolívia — a Venezuela está suspensa; Chile e Peru são associados, não plenos', // correta
+      'toda a América do Sul', // opção
+      'Brasil e Argentina apenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mercosul (Tratado de Assunção, 1991): Brasil, Argentina, Paraguai, Uruguai e Bolívia (plenos). Venezuela suspensa desde 2017. Estados associados (Chile, Peru, Colômbia, Equador) têm acordos comerciais, mas não membros plenos.', // explicação
+    dica: 'Membro pleno ≠ associado: plenos têm tarifa externa comum e assento nas decisões; associados têm livre comércio, sem a TEC. A Venezuela entrou em 2012 e foi suspensa pela "cláusula democrática".', // pegadinha
+    video: 'mercosul membros plenos associados' // busca no YouTube
+  },
+  {
+    id: 't80',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Meio ambiente — COP',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A COP30 (Conferência do Clima da ONU) de 2025 foi realizada em:', // pergunta
+    alternativas: [                     // opções
+      'Rio de Janeiro', // opção
+      'Belém (PA) — primeira COP na Amazônia, marcando a agenda da floresta, financiamento climático e adaptação', // correta
+      'São Paulo', // opção
+      'Brasília', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'COP30 (novembro/2025, Belém): 30ª Conferência das Partes da UNFCCC — marco de 10 anos do Acordo de Paris, pressão por novas NDCs e fundo de perdas e danos. Sediada na Amazônia por sua centralidade climática.', // explicação
+    dica: 'COP = "Conferência das Partes" — quem assinou a convenção. Acordo de Paris (COP21, 2015): manter o aquecimento bem abaixo de 2°C, ideal 1,5°C. NDC = contribuição nacionalmente determinada de cada país.', // pegadinha
+    video: 'cop30 belém conferência clima amazônia' // busca no YouTube
+  },
+  {
+    id: 't81',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Tecnologia — IA',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A regulação da inteligência artificial no Brasil foi marco do:', // pergunta
+    alternativas: [                     // opções
+      'Marco Civil da Internet', // opção
+      'PL 2338/2023 — marco legal da IA aprovado no Senado (2024), baseado em risco; o Marco Civil (2014) regula a internet, não a IA', // correta
+      'Código de Defesa do Consumidor', // opção
+      'LGPD apenas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O PL 2338/2023 (marco da IA) adota abordagem por risco — inspirada no AI Act europeu (primeira lei abrangente de IA do mundo, 2024). A LGPD protege dados pessoais; o Marco Civil, a neutralidade e a responsabilidade na rede.', // explicação
+    dica: 'Distinguir: LGPD = dados pessoais; Marco Civil = internet (neutralidade, logs); PL da IA = sistemas de IA por nível de risco (proibidos os de risco excessivo, obrigações para alto risco). O AI Act europeu é a referência global.', // pegadinha
+    video: 'marco legal ia pl 2338 regulação' // busca no YouTube
+  },
+  {
+    id: 't82',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia — moedas digitais', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "Drex", moeda digital do Banco Central brasileiro, é:', // pergunta
+    alternativas: [                     // opções
+      'uma criptomoeda privada', // opção
+      'a CBDC brasileira — real digital emitido pelo BC para liquidação de ativos tokenizados e novos serviços; não é criptomoeda descentralizada', // correta
+      'um novo Pix', // opção
+      'um banco digital', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Drex = real digital (CBDC): moeda emitida pelo BC, lastreada no real, para operações tokenizadas entre instituições e, em fase seguinte, varejo. Difere do Bitcoin (descentralizado, sem emissor) e do Pix (meio de pagamento, não moeda).', // explicação
+    dica: 'Pix = sistema de pagamento instantâneo (transferência); Drex = a moeda em si em versão digital (token). O Pix move o real tradicional; o Drex é o real em formato programável — permite "dinheiro com regra" (contratos inteligentes).', // pegadinha
+    video: 'drex real digital cbdc banco central' // busca no YouTube
+  },
+  {
+    id: 't83',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Saúde — epidemias',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A dengue no Brasil é transmitida pelo mosquito:', // pergunta
+    alternativas: [                     // opções
+      'Culex', // opção
+      'Aedes aegypti — também vetor de zika, chikungunya e febre amarela urbana; combate-se eliminando criadouros de água parada', // correta
+      'Anopheles', // opção
+      'mosca tsé-tsé', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aedes aegypti = mosquito urbano que deposita ovos em água parada limpa — 80% dos criadouros em domicílios. Anopheles transmite malária; Culex, febre do Nilo; a tsé-tsé (África), doença do sono.', // explicação
+    dica: 'O Brasil tem ~40 milhões de casos prováveis de dengue/ano em picos epidêmicos — recorde em 2024 (>6 milhões). A vacina Qdenga e o método Wolbachia (bactéria que impede o vírus no mosquito) são as novas armas.', // pegadinha
+    video: 'dengue aedes aegypti transmissão criadouro' // busca no YouTube
+  },
+  {
+    id: 't84',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Brasil — programas sociais', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O programa Bolsa Família, principal política de transferência de renda brasileira, exige como contrapartida:', // pergunta
+    alternativas: [                     // opções
+      'trabalho do beneficiário', // opção
+      'frequência escolar das crianças e acompanhamento de saúde (vacinação, pré-natal) — as "condicionalidades" que ligam o benefício a educação e saúde', // correta
+      'devolução do valor', // opção
+      'militarização', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Bolsa Família = transferência condicionada: o benefício exige caderneta de saúde em dia e ≥85% de frequência escolar. A lógica é romper a pobreza intergeracional investindo no capital humano dos filhos.', // explicação
+    dica: 'Transferência condicionada (Bolsa Família, Progresa/México) ≠ renda básica incondicional. As condicionalidades são a marca: o Estado paga, a família cumpre saúde e escola. Cobre ~20 milhões de famílias.', // pegadinha
+    video: 'bolsa família condicionalidades transferência renda' // busca no YouTube
+  },
+  {
+    id: 't85',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Energia — transição',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A matriz energética brasileira se destaca internacionalmente por ser:', // pergunta
+    alternativas: [                     // opções
+      'majoritariamente fóssil', // opção
+      'predominantemente renovável — ~45-50% de fontes renováveis (hidro, biomassa, eólica, solar), vs ~15% da média mundial', // correta
+      'nuclear', // opção
+      'baseada em carvão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Matriz brasileira ≈ 45-50% renovável (hidrelétrica, biomassa de cana, eólica e solar em crescimento) — das mais limpas do mundo. A elétrica é ainda mais limpa (~85% renovável). A dependência da chuva é o risco.', // explicação
+    dica: 'Matriz energética (toda energia — inclui transporte com gasolina/diesel) ≠ matriz elétrica (só geração — ~85% renovável). A expansão eólica no Nordeste e a solar distribuída são os motores atuais.', // pegadinha
+    video: 'matriz energética brasileira renovável' // busca no YouTube
+  },
+  {
+    id: 'ad92',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Teorias — Fayol',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'As funções administrativas clássicas de Fayol são:', // pergunta
+    alternativas: [                     // opções
+      'somente planejar', // opção
+      'prever, organizar, comandar, coordenar e controlar — a base do processo administrativo que a teoria moderna condensa em planejar-organizar-dirigir-controlar', // correta
+      'lucrar', // opção
+      'vender e comprar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fayol (Teoria Clássica, 1916): a administração é universal — prever, organizar, comandar, coordenar, controlar (POCCC). A forma moderna condensa em 4: planejar, organizar, dirigir (comandar+coordenar) e controlar.', // explicação
+    dica: 'Fayol = foco na ESTRUTURA (funções da empresa, de cima para baixo); Taylor = foco na TAREFA (tempos e movimentos, de baixo para cima). Fayol top-down, Taylor bottom-up — a dupla clássica da administração.', // pegadinha
+    video: 'fayol funções administrativas poccc' // busca no YouTube
+  },
+  {
+    id: 'ad93',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Liderança — estilos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O líder democrático se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'decidir sozinho', // opção
+      'envolver a equipe nas decisões — compartilha a decisão, delega e aceita contribuições; difere do autocrático (impõe) e do liberal/laissez-faire (abandona)', // correta
+      'não decidir', // opção
+      'controlar tudo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Três estilos clássicos (Lewin): autocrático (decide só, controla), democrático (compartilha, participa), liberal/laissez-faire (deixa o grupo se autogerir). O democrático gera engajamento; o autocrático, rapidez.', // explicação
+    dica: 'Não há "melhor" estilo — depende da situação (liderança situacional): crise exige mais direção; equipe madura permite delegação. O liberal só funciona com equipe experiente e madura.', // pegadinha
+    video: 'estilos liderança autocrático democrático liberal' // busca no YouTube
+  },
+  {
+    id: 'ad94',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão de pessoas — motivação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na pirâmide de Maslow, a ordem das necessidades de baixo para cima é:', // pergunta
+    alternativas: [                     // opções
+      'estima, segurança, fisiológicas', // opção
+      'fisiológicas → segurança → sociais → estima → autorrealização — cada nível só motiva quando o anterior está atendido', // correta
+      'autorrealização primeiro', // opção
+      'todas iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Maslow: fisiológicas (fome, sono) → segurança (abrigo, emprego) → sociais/afetivas (pertencer) → estima (reconhecimento) → autorrealização (potencial). A necessidade satisfeita não motiva — motiva a próxima.', // explicação
+    dica: 'Herzberg (teoria bifatorial) difere: fatores higiênicos (salário, condição — evitam insatisfação, não motivam) vs motivacionais (realização, reconhecimento — motivam). Salário é higiênico, não motivador, para Herzberg.', // pegadinha
+    video: 'pirâmide maslow necessidades hierarquia' // busca no YouTube
+  },
+  {
+    id: 'ad95',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Organização — departamentalização', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A departamentalização por produto agrupa a empresa por:', // pergunta
+    alternativas: [                     // opções
+      'região', // opção
+      'linha de produto — cada divisão cuida de um produto/família completa (marketing, produção, venda daquele produto); difere da funcional e da geográfica', // correta
+      'função', // opção
+      'cliente só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Departamentalização por produto: cada unidade autônoma por linha (Divisão de Bebidas, de Higiene...). Funcional = por especialidade (Financeiro, RH); geográfica = por região; por cliente = por segmento de consumidor.', // explicação
+    dica: 'Vantagem do produto = foco e responsabilidade por resultado; desvantagem = duplicação de estruturas (cada divisão repete funções). A matricial combina função + produto/projeto com dupla chefia.', // pegadinha
+    video: 'departamentalização produto funcional geográfica' // busca no YouTube
+  },
+  {
+    id: 'ad96',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Qualidade — ferramentas',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O ciclo PDCA de melhoria contínua significa:', // pergunta
+    alternativas: [                     // opções
+      'Plan, Do, Check, Act — planejar, executar, verificar e agir/corrigir — o ciclo que gira continuamente na gestão da qualidade', // correta
+      'só planejar', // opção
+      'só controlar', // opção
+      'punir e demitir', // opção
+    ],
+    correta: 0,                         // índice da certa
+    explicacao: 'PDCA (Deming): Plan (diagnosticar e planejar a melhoria), Do (executar, testar), Check (medir e comparar), Act (padronizar ou corrigir e recomeçar). A roda gira sem fim — a melhoria nunca termina.', // explicação
+    dica: 'O "A" de Act não é só corrigir — é padronizar o que funcionou e reiniciar o ciclo. O PDCA é a base do Kaizen (melhoria contínua) e das normas ISO de gestão da qualidade.', // pegadinha
+    video: 'pdca ciclo deming qualidade melhoria' // busca no YouTube
+  },
+  {
+    id: 'ad97',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Poder e hierarquia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "delegação" em administração é:', // pergunta
+    alternativas: [                     // opções
+      'transferir a responsabilidade final', // opção
+      'atribuir autoridade e tarefa a um subordinado — o gestor delega a execução, mas mantém a responsabilidade pelo resultado', // correta
+      'demitir', // opção
+      'centralizar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Delegar = dar autoridade para executar tarefa e responder por ela — mas a responsabilidade final permanece do delegante (não se delega a culpa). A descentralização é o processo ampliado em toda a estrutura.', // explicação
+    dica: 'Delegação ≠ abandono: delega-se autoridade e tarefa, não a responsabilidade última. O bom gestor delega tarefa rotineira e retém decisão estratégica — mas deve dar o poder correspondente (autoridade = responsabilidade).', // pegadinha
+    video: 'delegação autoridade responsabilidade gestão' // busca no YouTube
+  },
+  {
+    id: 'ad98',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Planejamento — níveis',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O planejamento tático, entre o estratégico e o operacional, é:', // pergunta
+    alternativas: [                     // opções
+      'o mais amplo', // opção
+      'o de médio prazo — desdobra o estratégico em planos por departamento; mais detalhado que o estratégico, mais amplo que o operacional', // correta
+      'o do dia a dia', // opção
+      'o de longo prazo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Três níveis: estratégico (topo, longo prazo, direção da empresa — missão, visão), tático (médio, médio prazo — traduz o estratégico por área), operacional (base, curto prazo — tarefas e rotinas).', // explicação
+    dica: 'Estratégico = onde queremos chegar (5+ anos, diretoria); tático = como cada área contribui (1-2 anos, gerência); operacional = fazer o dia a dia (semana/mês, supervisão). A cadeia vai do genérico ao específico.', // pegadinha
+    video: 'planejamento estratégico tático operacional' // busca no YouTube
+  },
+  {
+    id: 'ad99',                         // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Organização informal',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A organização informal da empresa é:', // pergunta
+    alternativas: [                     // opções
+      'o organograma', // opção
+      'a rede de relações pessoais não documentada — amizades, grupos e influências que coexistem com a estrutura formal e a modificam na prática', // correta
+      'a lei', // opção
+      'o estatuto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Organização formal = organograma, normas, cargos oficiais; informal = a rede real de influência, amizade e liderança não-oficial (descoberta pela Teoria das Relações Humanas — Mayo, experiência de Hawthorne).', // explicação
+    dica: 'A informal pode ajudar (coesão, canal rápido) ou atrapalhar (boato, resistência). Mayo mostrou que o grupo informal regula a produção real — o operário segue o grupo mais que a norma. O gestor sábio lê a rede informal.', // pegadinha
+    video: 'organização informal formal hawthorne mayo' // busca no YouTube
+  },
+  {
+    id: 'ct82',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Balanço — patrimônio',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No balanço patrimonial, a equação fundamental é:', // pergunta
+    alternativas: [                     // opções
+      'Ativo = Passivo − PL', // opção
+      'Ativo = Passivo + Patrimônio Líquido — os bens e direitos (aplicações) são financiados por obrigações a terceiros e capital próprio', // correta
+      'Passivo = Ativo + PL', // opção
+      'PL = Passivo + Ativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ativo = o que a empresa TEM (bens e direitos — onde aplicou); Passivo + PL = de onde veio o dinheiro (origens — terceiros e sócios). A equação A = P + PL sempre fecha — é a espinha dorsal da contabilidade.', // explicação
+    dica: 'Ativo = aplicação (caixa, estoque, máquina, contas a receber); Passivo = obrigação (fornecedor, empréstimo); PL = capital próprio + lucros. Situação líquida negativa (passivo > ativo) = "passivo a descoberto".', // pegadinha
+    video: 'equação patrimonial ativo passivo pl' // busca no YouTube
+  },
+  {
+    id: 'ct83',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Débito e crédito',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na escrituração por partidas dobradas, cada lançamento:', // pergunta
+    alternativas: [                     // opções
+      'debita só uma conta', // opção
+      'debita e credita valores iguais — todo débito tem crédito correspondente: o total dos débitos sempre iguala o total dos créditos', // correta
+      'só registra entrada', // opção
+      'não precisa equilibrar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Partidas dobradas = o método universal: cada fato gera débito(s) e crédito(s) de mesmo valor. "Não há débito sem crédito" — a entrada de caixa por venda debita Caixa e credita Receita.', // explicação
+    dica: 'Natureza das contas: Ativo e Despesa aumentam a DÉBITO; Passivo, PL e Receita aumentam a CRÉDITO. Mnemônico: "a empresa deve ao patrimônio" — o PL é credor (a empresa deve aos sócios).', // pegadinha
+    video: 'partidas dobradas débito crédito lançamento' // busca no YouTube
+  },
+  {
+    id: 'ct84',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Regimes — competência',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O regime de competência reconhece receita e despesa:', // pergunta
+    alternativas: [                     // opções
+      'quando o dinheiro entra', // opção
+      'quando ocorre o fato gerador — venda a prazo conta na data da venda, não do recebimento; o caixa é o regime oposto', // correta
+      'só no fechamento', // opção
+      'quando o cliente paga', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = o fato econômico manda: venda a prazo em jan = receita de jan, mesmo que o pagamento venha em mar. Caixa = o dinheiro manda. A contabilidade societária exige competência.', // explicação
+    dica: 'Competência (fato gerador) vs Caixa (movimento de dinheiro): a despesa de salário de dezembro paga em janeiro é dezembro pela competência. É o regime obrigatório para as demonstrações contábeis oficiais.', // pegadinha
+    video: 'regime competência caixa contabilidade' // busca no YouTube
+  },
+  {
+    id: 'ct85',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Demonstrações — DRE',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Demonstração do Resultado do Exercício (DRE) apresenta:', // pergunta
+    alternativas: [                     // opções
+      'o patrimônio', // opção
+      'o lucro ou prejuízo do período — receitas menos custos e despesas: da receita bruta ao lucro líquido, linha a linha', // correta
+      'o caixa', // opção
+      'o estoque', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DRE = resultado do período: Receita bruta → deduções → receita líquida → CMV → lucro bruto → despesas → lucro operacional → impostos → lucro líquido. O balanço é foto (estático); a DRE é filme (fluxo).', // explicação
+    dica: 'Balanço patrimonial = foto do patrimônio numa data; DRE = resultado num período. CMV = custo da mercadoria vendida; EBITDA = lucro antes de juros, impostos, depreciação e amortização — mede o operacional puro.', // pegadinha
+    video: 'dre demonstração resultado lucro' // busca no YouTube
+  },
+  {
+    id: 'ct86',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Ativo — classificação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O ativo circulante reúne contas que se convertem em dinheiro:', // pergunta
+    alternativas: [                     // opções
+      'em 5 anos', // opção
+      'até o fim do exercício seguinte (12 meses) — caixa, estoque, contas a receber de curto prazo; acima disso é não circulante', // correta
+      'nunca', // opção
+      'em 10 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Circulante = realiza até 12 meses (caixa, banco, estoque, cliente curto prazo); não circulante = longo prazo (realizável LP + investimento + imobilizado + intangível). O mesmo para o passivo.', // explicação
+    dica: 'O critério é o ciclo operacional/exercício social seguinte — não a liquidez imediata. Imobilizado = bens de uso (máquina, veículo); intangível = sem matéria (marca, patente, software); investimento = participação e imóvel para renda.', // pegadinha
+    video: 'ativo circulante não circulante classificação' // busca no YouTube
+  },
+  {
+    id: 'ct87',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Princípios contábeis',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio da prudência manda:', // pergunta
+    alternativas: [                     // opções
+      'sempre otimista', // opção
+      'na dúvida, escolher a opção que resulte menor ativo/PL e maior passivo — reconhecer prejuízo provável e não antecipar lucro', // correta
+      'inflar o lucro', // opção
+      'ignorar riscos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prudência = entre duas valorações válidas, a que menos aumenta o patrimônio: faz provisão para devedor duvidoso, não registra lucro antes de realizado. Protege a informação do excesso de otimismo.', // explicação
+    dica: 'Princípios centrais: entidade (patrimônio da empresa ≠ dos sócios), continuidade (a empresa vai continuar), oportunidade (registro na hora certa, completo), registro pelo valor original (custo histórico), competência e prudência.', // pegadinha
+    video: 'princípio prudência contabilidade provisão' // busca no YouTube
+  },
+  {
+    id: 'ct88',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Custos — fixos e variáveis', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Custo fixo e custo variável se diferenciam porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o fixo não muda com a produção (aluguel, salário administrativo); o variável cresce proporcional ao volume (matéria-prima)', // correta
+      'o fixo cresce', // opção
+      'o variável é zero', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fixo = existe mesmo com produção zero (aluguel do galpão); variável = proporcional à quantidade (tecido por camiseta). A distinção alimenta o ponto de equilíbrio — o volume em que receita = custo total.', // explicação
+    dica: 'Ponto de equilíbrio = CF ÷ margem de contribuição unitária (preço − custo variável). Abaixo dele, prejuízo; acima, lucro. Custo fixo unitário CAI com o volume (diluição) — por isso a escala reduz o custo por peça.', // pegadinha
+    video: 'custo fixo variável ponto equilíbrio' // busca no YouTube
+  },
+  {
+    id: 'ct89',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Depreciação',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A depreciação contábil registra:', // pergunta
+    alternativas: [                     // opções
+      'a venda do bem', // opção
+      'a perda de valor do imobilizado pelo uso/tempo — distribui o custo do bem ao longo da vida útil como despesa de cada período', // correta
+      'o aumento do estoque', // opção
+      'o lucro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Depreciação = apropriação do desgaste: o veículo de R$60.000 com vida de 5 anos gera R$12.000/ano de despesa (método linear). Reconhece que o bem consome seu valor produzindo receita.', // explicação
+    dica: 'Depreciação (imobilizado tangível — máquina, carro), amortização (intangível — patente, marca) e exaustão (recurso natural — mina, floresta). Não deprecia: terra (não desgasta) e bem não usado na operação.', // pegadinha
+    video: 'depreciação amortização exaustão contábil' // busca no YouTube
+  },
+  {
+    id: 'k80',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Escolas criminológicas',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Escola Positiva de Lombroso explicava o crime por:', // pergunta
+    alternativas: [                     // opções
+      'livre-arbítrio', // opção
+      'fator biológico — o "criminoso nato" identificado por características físicas (atavismo); hoje superada, marcou a virada para o estudo do autor', // correta
+      'a pobreza', // opção
+      'a religião', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lombroso (antropologia criminal, 1876): o criminoso nato seria um "atavismo" — traços físicos primitivos. Ferri e Garofalo completaram a Escola Positiva. Superada, mas inaugurou a criminologia científica (estudar o homem, não só o delito).', // explicação
+    dica: 'Escola Clássica (Beccaria — livre-arbítrio, pena proporcional) vs Positiva (Lombroso/Ferri/Garofalo — crime explicado por fator bio-psíquico-social, pena para tratamento). As escolas modernas partem do positivismo.', // pegadinha
+    video: 'lombroso criminoso nato escola positiva' // busca no YouTube
+  },
+  {
+    id: 'k81',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Vitimologia',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A vitimologia estuda:', // pergunta
+    alternativas: [                     // opções
+      'só o criminoso', // opção
+      'a vítima e sua relação com o crime — vitimização primária (o delito), secundária (o Estado processando) e terciária (o estigma social)', // correta
+      'a pena', // opção
+      'a prisão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vitimologia = a vítima como objeto de estudo: primária (dano do crime), secundária (sofrer pelo sistema — delegacia, perícia, julgamento), terciária (estigma do grupo). O processo penal pode revitimizar.', // explicação
+    dica: 'Vitimização secundária = o próprio sistema revitimiza (perguntas invasivas a vítima de estupro); terciária = o estigma da família/sociedade. A "invisibilidade da vítima" (crimes não denunciados) é a cifra negra.', // pegadinha
+    video: 'vitimologia vitimização primária secundária' // busca no YouTube
+  },
+  {
+    id: 'k82',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Teorias — etiquetamento',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A teoria do etiquetamento (labeling approach) afirma que:', // pergunta
+    alternativas: [                     // opções
+      'o crime é genético', // opção
+      'o rótulo "criminoso" aplicado pelo Estado produz a identidade criminal — a reação social cria o desviante que ela pretendia combater', // correta
+      'o crime é climático', // opção
+      'não existe crime', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Etiquetamento (Becker, Lemert): quem é etiquetado como "delinquente" internaliza o papel — desvio primário (o ato) → rotulagem → desvio secundário (a identidade). O sistema produz o crime que combate.', // explicação
+    dica: 'Relaciona-se à profecia autorrealizável: o rótulo vira realidade. Becker (Outsiders) — o desvio não está no ato, mas na reação social a ele. Justifica a política de desencarceramento e mediação.', // pegadinha
+    video: 'etiquetamento labeling approach becker' // busca no YouTube
+  },
+  {
+    id: 'k83',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Sistema prisional',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio da "individualização da pena" exige que:', // pergunta
+    alternativas: [                     // opções
+      'todos iguais', // opção
+      'a pena seja proporcional ao autor e ao fato — culpabilidade, antecedentes e circunstâncias modulam a dose, dentro dos limites legais', // correta
+      'sempre a máxima', // opção
+      'sempre a mínima', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Individualização (art. 5º, XLVI + art. 59 CP): a pena se mede por culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias e consequências — as 8 fases judiciais.', // explicação
+    dica: 'As 8 fases do art. 59 do CP: culpabilidade, antecedentes, conduta social, personalidade do agente, motivos, circunstâncias, consequências do crime e comportamento da vítima. Ninguém cumpre mais que o máximo legal.', // pegadinha
+    video: 'individualização pena artigo 59 cp' // busca no YouTube
+  },
+  {
+    id: 'k84',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Teorias — anomia',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "anomia" de Durkheim/Merton explica o crime como:', // pergunta
+    alternativas: [                     // opções
+      'doença mental', // opção
+      'fruto do descompasso entre metas culturais e meios legítimos — quem quer o sucesso sem caminho legal "inova" (o crime como adaptação)', // correta
+      'castigo divino', // opção
+      'destino', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Merton (adaptação de Durkheim): a sociedade prega o sucesso material mas fecha os meios legítimos a parte da população — o desvio é a "inovação": aceita a meta (dinheiro) e substitui o meio (crime).', // explicação
+    dica: 'Tipos de adaptação de Merton: conformidade (meta+meio), inovação (meta sim, meio crime — ladrão), ritualismo (meio sim, meta não — burocrata), retirada (não+não — viciado marginalizado), rebelião (troca os dois — revolucionário).', // pegadinha
+    video: 'anomia merton durkheim inovação crime' // busca no YouTube
+  },
+  {
+    id: 'k85',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Crime organizado',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A facção criminosa difere do crime comum porque:', // pergunta
+    alternativas: [                     // opções
+      'não tem regras', // opção
+      'tem estrutura, divisão de trabalho e permanência — organização empresarial do crime com hierarquia, território e continuidade além dos membros', // correta
+      'só assalta', // opção
+      'é internacional só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Organização criminosa (Lei 12.850/13): associação de 4+ pessoas com estrutura ordenada e divisão de tarefas, estável/permanente, para obter vantagem por crimes com pena > 4 anos. PCC e CV são os exemplos brasileiros.', // explicação
+    dica: 'Lei 12.850/2013 define organização criminosa: 4+ integrantes, estrutura ordenada, divisão de tarefas, estabilidade e fim de crime de pena máxima > 4 anos. A colaboração premiada é o instrumento de enfrentamento.', // pegadinha
+    video: 'facção organização criminosa lei 12850' // busca no YouTube
+  },
+  {
+    id: 'k86',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Pena — finalidades',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A prevenção geral e a prevenção especial da pena se distinguem por:', // pergunta
+    alternativas: [                     // opções
+      'serem iguais', // opção
+      'geral = intimidar a sociedade toda (o exemplo); especial = impedir o próprio condenado de reincidir (ressocialização/incapacitação)', // correta
+      'a geral é só do réu', // opção
+      'não existem', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prevenção geral = a pena como aviso ao coletivo ("se fizer, sofre"); especial = sobre o autor (positiva = ressocializar; negativa = incapacitar segregando). A retribuição é a terceira finalidade (justa pena pelo mal).', // explicação
+    dica: 'Três faces: retribuição (o mal pelo mal — Kant), prevenção geral (medo nos outros) e especial (no autor — especial positiva = recuperar; especial negativa = isolar). O sistema brasileiro mistura as três.', // pegadinha
+    video: 'prevenção geral especial pena finalidade' // busca no YouTube
+  },
+  {
+    id: 'k87',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Políticas — alternativas',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "justiça restaurativa" propõe:', // pergunta
+    alternativas: [                     // opções
+      'pena máxima', // opção
+      'reparar o dano e restabelecer os laços — vítima, ofensor e comunidade dialogam para compor o conflito; foco na restauração, não no castigo', // correta
+      'prisão perpétua', // opção
+      'vigilância só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justiça restaurativa = o conflito pertence aos envolvidos: círculos e conferências em que o ofensor reconhece o dano e se compromete a reparar. No Brasil, aplicada a juvenis e violência doméstica.', // explicação
+    dica: 'Retributiva (punição) vs restaurativa (reparação): a segunda pergunta "quem foi ferido e como curar", não "quem infringiu e como punir". Empresta das tradições indígenas e da experiência da Nova Zelândia.', // pegadinha
+    video: 'justiça restaurativa reparação conflito' // busca no YouTube
+  },
+  {
+    id: 'a74',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Atos administrativos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os atributos do ato administrativo são:', // pergunta
+    alternativas: [                     // opções
+      'só a legalidade', // opção
+      'presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade — o "PATI" que diferencia o ato público do privado', // correta
+      'nenhum', // opção
+      'só a vontade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PATI: Presunção de legitimidade (o ato vale até prova contrária), Autoexecutoriedade (executa sem juiz — multa aplicada já vale), Tipicidade (só nas formas legais) e Imperatividade (impõe-se ao particular).', // explicação
+    dica: 'A autoexecutoriedade só vale quando a lei prevê ou em urgência — a cobrança de multa exige via judicial, mas a aplicação não. Presunção de legitimidade é JURIS TANTUM (relativa — admite prova em contrário).', // pegadinha
+    video: 'atributos ato administrativo pati' // busca no YouTube
+  },
+  {
+    id: 'a75',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poderes — disciplinar',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O poder disciplinar da administração difere do hierárquico porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o hierárquico organiza e supervisiona internamente; o disciplinar pune infrações — do servidor (vínculo) e do particular com vínculo específico (licenciado, contratado)', // correta
+      'o disciplinar só ao servidor', // opção
+      'o hierárquico pune', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Poder hierárquico = estrutura interna (delegar, avocar, supervisionar); disciplinar = aplicar sanção — ao servidor (sempre) e ao particular com vínculo jurídico específico (contratado, permissionário). Não atinge o cidadão comum.', // explicação
+    dica: 'O disciplinar é "discricionário quanto ao grau" dentro dos limites legais — a administração escolhe a sanção entre as legais, mas sempre com direito de defesa (PAD para demissão; para advertência, defesa prévia simples).', // pegadinha
+    video: 'poder disciplinar hierárquico diferença' // busca no YouTube
+  },
+  {
+    id: 'a76',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Serviços públicos — delegação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Concessão e permissão de serviço público se distinguem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a concessão é contrato de longo prazo após licitação (concorrência); a permissão é ato unilateral e precário, de menor complexidade — ambas delegam, mas a concessão é contratual', // correta
+      'a permissão é mais forte', // opção
+      'a concessão é gratuita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Concessão = licitação concorrência + contrato (prazo longo, estável, "concessionária" assume o risco e cobra tarifa). Permissão/autorização = ato unilateral e precário (serviço essencial, transporte local, demanda provisória).', // explicação
+    dica: 'Concessão é CONTRATO (bilateral, estável, caducidade se descumpre); permissão é ATO unilateral e precário (revoga mais livre). A concessão pública-administrativa não admite retorno à administração antes do fim.', // pegadinha
+    video: 'concessão permissão serviço público delegação' // busca no YouTube
+  },
+  {
+    id: 'a77',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Controle — judicial',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O controle judicial dos atos administrativos alcança:', // pergunta
+    alternativas: [                     // opções
+      'só a legalidade e a legitimidade', // opção
+      'a legalidade — o juiz examina vício de forma, competência, objeto e motivo (inclusive abuso de poder); o mérito discricionário (conveniência) fica fora', // correta
+      'o mérito também', // opção
+      'nada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Judiciário controla a legalidade do ato (elementos vinculados: competência, forma, finalidade, motivo, objeto) e até o abuso de poder — mas não substitui o juízo de conveniência/oportunidade (mérito) do discricionário.', // explicação
+    dica: 'Mérito administrativo = conveniência e oportunidade, só a administração examina. Porém: o ato vinculado é todo controlado; no discricionário, o juiz controla os pressupostos e a razoabilidade/proporcionalidade — não a escolha.', // pegadinha
+    video: 'controle judicial ato administrativo mérito' // busca no YouTube
+  },
+  {
+    id: 'a78',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Responsabilidade civil do Estado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A responsabilidade civil do Estado por ato de servidor é:', // pergunta
+    alternativas: [                     // opções
+      'sempre subjetiva', // opção
+      'objetiva — o Estado responde pelo dano causado por seus agentes (art. 37, §6º) independentemente de culpa; a ação regressiva contra o agente exige dolo ou culpa dele', // correta
+      'não existe', // opção
+      'só do agente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Responsabilidade objetiva do Estado: o dano do agente é assumido pelo ente (risco administrativo) — a vítima cobra do Estado. O Estado, por sua vez, aciona regressivamente o agente que agiu com dolo ou culpa.', // explicação
+    dica: 'Duas ações distintas: a vítima vai contra o Estado (objetiva — basta o nexo); o Estado regredindo vai contra o agente (subjetiva — precisa provar dolo ou culpa). Exceção à objetividade: omissão estatal específica (teoria subjetiva).', // pegadinha
+    video: 'responsabilidade civil estado objetiva' // busca no YouTube
+  },
+  {
+    id: 'c77',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos fundamentais',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os direitos fundamentais do art. 5º da Constituição são:', // pergunta
+    alternativas: [                     // opções
+      'apenas civis', // opção
+      'direitos e garantias individuais e coletivos — cláusulas pétreas: não podem ser abolidos nem por emenda constitucional', // correta
+      'dispensáveis', // opção
+      'só para brasileiro nato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 5º = rol exemplificativo (outros direitos nascem da CF e tratados) de direitos individuais e coletivos — cláusula pétrea (art. 60, §4º): proposta de EC que vise abolir não pode nem ser deliberada.', // explicação
+    dica: 'Direito individual ≠ garantia: o direito é o que se tem (à vida, à liberdade); a garantia é o instrumento que o protege (habeas corpus, mandado). "Direitos e garantias fundamentais" = o conjunto.', // pegadinha
+    video: 'artigo 5 direitos fundamentais cláusula pétrea' // busca no YouTube
+  },
+  {
+    id: 'c78',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Poderes — STF',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O STF exerce o controle de constitucionalidade:', // pergunta
+    alternativas: [                     // opções
+      'só difuso', // opção
+      'concentrado (ADI, ADC, ADPF — efeito erga omnes, vinculante) e difuso (qualquer juiz declara inconstitucionalidade no caso concreto — efeito inter partes)', // correta
+      'só pelo Senado', // opção
+      'nunca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Controle concentrado = o STF julga em abstrato (ADI declara lei inconstitucional para todos); difuso = cada juiz declara no caso concreto (efeito só entre as partes). O Brasil usa os dois sistemas.', // explicação
+    dica: 'ADI (declara inconstitucional), ADC (declara constitucional), ADPF (contra ato de poder público, subsidiária), ADI por omissão (o legislador não regulamentou a norma). A súmula vinculante uniformiza a interpretação.', // pegadinha
+    video: 'controle constitucionalidade concentrado difuso stf' // busca no YouTube
+  },
+  {
+    id: 'c79',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Nacionalidade',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'São brasileiros natos:', // pergunta
+    alternativas: [                     // opções
+      'só os filhos de pais brasileiros', // opção
+      'os nascidos no Brasil (jus soli) + os filhos de brasileiro no exterior a serviço do país ou registrados em repartição/que venham residir no Brasil', // correta
+      'quem nasce no estrangeiro nunca', // opção
+      'só os naturalizados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brasil = jus soli: nasceu no país, é nato (salvo filho de estrangeiro a serviço de seu país). Nascido no exterior de pai/mãe brasileiro é nato se: registrado em repartição brasileira, ou vier residir e optar, ou o pai estiver a serviço do país.', // explicação
+    dica: 'A diferença nato/naturalizado: nato não perde a nacionalidade (salvo cancelamento de naturalização); os cargos privativos de nato (art. 12, §3º) = Presidente/Vice, Presidentes da Câmara/Senado/STF, Ministro da Defesa, carreiras diplomáticas, oficial das Forças Armadas.', // pegadinha
+    video: 'nacionalidade brasileiro nato naturalizado jus soli' // busca no YouTube
+  },
+  {
+    id: 'c80',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Remédios constitucionais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O mandado de segurança protege:', // pergunta
+    alternativas: [                     // opções
+      'a liberdade de ir e vir', // opção
+      'o direito líquido e certo não amparado por habeas corpus/data — quando a ilegalidade ou abuso de autoridade ameaça direito que não seja de locomoção', // correta
+      'só o preso', // opção
+      'a propriedade só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Habeas corpus = direito de locomoção (ameaça à liberdade física); mandado de segurança = demais direitos líquidos e certos violados por autoridade (concurso, licitação, posse). MS coletivo cabe a partido e entidade.', // explicação
+    dica: 'Mapa: HC (locomoção), HD (dados), MS (líquido e certo de autoridade), MI (mandado de injunção — direito parado por falta de norma), AP (ação popular — lei lesiva ao patrimônio). O certame não pode cobrar quem tem HC do MS.', // pegadinha
+    video: 'mandado segurança habeas corpus remédios' // busca no YouTube
+  },
+  {
+    id: 'c81',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Federação — repartição',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A União, os Estados e os Municípios legislam:', // pergunta
+    alternativas: [                     // opções
+      'a União sobre tudo', // opção
+      'em competências exclusivas (só da União) e concorrentes (União faz norma geral, Estados o detalhe — Município suplementa no interesse local)', // correta
+      'só os Estados', // opção
+      'só os Municípios', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Exclusiva da União (art. 21/22 — só ela, delegável por LC); concorrente (art. 24 — União norma geral, Estado suplementa; sem norma geral, Estado exerce plenamente); Município = interesse local e suplementação.', // explicação
+    dica: 'Competência concorrente (penal, tributário material, ambiental, consumidor, educação): União legisla o geral, Estado o específico — a lei estadual que excede é inconstitucional. O Município tem competência exclusiva só no interesse local.', // pegadinha
+    video: 'competência exclusiva concorrente federação' // busca no YouTube
+  },
+  {
+    id: 'd79',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Princípios penais',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio da legalidade penal exige que:', // pergunta
+    alternativas: [                     // opções
+      'o juiz crie crimes', // opção
+      'não haja crime sem lei anterior que o defina nem pena sem prévia cominação legal — nullum crimen, nulla poena sine lege', // correta
+      'o costume baste', // opção
+      'a analogia valha', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Legalidade (art. 5º, XXXIX): crime e pena precisam de lei anterior escrita — veda criação judicial, analogia in malam partem e aumento por costume. Garante o cidadão contra o poder punitivo estatal.', // explicação
+    dica: 'A analogia pode a favor do réu (in bonam partem). Tempus regit actum: aplica a lei do tempo do fato — se a lei nova beneficia (abolitio criminis, pena menor), retroage (o art. 5º, XL garante); se prejudica, vale a do tempo.', // pegadinha
+    video: 'legalidade penal nullum crimen sine lege' // busca no YouTube
+  },
+  {
+    id: 'd80',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Tipicidade — conduta',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O fato típico no crime exige que a conduta seja:', // pergunta
+    alternativas: [                     // opções
+      'só pensada', // opção
+      'volitiva e ajustada ao tipo — o pensamento não é crime (cogitationis poenam nemo patitur); a conduta precisa se subsumer ao que a lei descreve', // correta
+      'involuntária', // opção
+      'sonhada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tipicidade = o fato se encaixa no tipo legal: conduta (ação ou omissão voluntária), resultado, nexo causal e tipicidade. Sonho e pensamento não são crime — a lei pune o ato exterior, não a intenção interna.', // explicação
+    dica: 'Cadeia do crime: fato típico (conduta + resultado + nexo) → ilícito/antijurídico (sem excludente como legítima defesa) → culpável (imputável, consciente, exigível). Excluir qualquer elo = não-crime.', // pegadinha
+    video: 'fato típico conduta crime tipicidade' // busca no YouTube
+  },
+  {
+    id: 'd81',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Excludentes — legítima defesa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A legítima defesa (art. 25 CP) permite repelir injusta agressão:', // pergunta
+    alternativas: [                     // opções
+      'a qualquer tempo', // opção
+      'atual ou iminente, com meios necessários e moderados — a agressão deve estar acontecendo ou prestes a acontecer; contra agressão passada é vingança (crime)', // correta
+      'sempre', // opção
+      'só a bens', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Legítima defesa: agressão injusta, atual ou iminente, a direito próprio ou alheio, com meios moderados e necessários. Exclui o crime (não é nem ilícito). O excesso doloso é punível.', // explicação
+    dica: 'Agressão ATUAL ou IMINENTE — se o ladrão já fugiu, perseguir e bater é crime (vingança privada). O excesso doloso (matar quando bastava conter) é punível; o excesso culposo pode ser desculpado.', // pegadinha
+    video: 'legítima defesa requisitos agressão' // busca no YouTube
+  },
+  {
+    id: 'd82',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes contra a vida',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O homicídio qualificado do art. 121, §2º, se distingue do simples por:', // pergunta
+    alternativas: [                     // opções
+      'é mais leve', // opção
+      'tem circunstância especial — motivo fútil/torpe, meio cruel, à traição, paga, feminicídio — que aumenta a pena (12-30 anos vs 6-20)', // correta
+      'é culposo', // opção
+      'não tem diferença', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Homicídio simples (art. 121): matar alguém — 6 a 20 anos. Qualificado (§2º): motivo fútil/torpe, paga, cruel, traição, emboscada, feminicídio, contra autoridade etc. — 12 a 30 anos. Privilegiado (§1º): forte emoção — reduz.', // explicação
+    dica: 'Qualificadora = aumenta a pena (fútil, torpe, cruel, traição, paga, feminicídio); privilegiada = diminui (domínio de violenta emoção logo após injusta provocação). O homicídio culposo (sem intenção) = 1 a 3 anos.', // pegadinha
+    video: 'homicídio qualificado simples privilegiado' // busca no YouTube
+  },
+  {
+    id: 'd83',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes contra o patrimônio', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Furto, roubo e estelionato se distinguem pelo modo de subtrair:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'furto = sem violência nem fraude; roubo = com violência/ameaça à pessoa; estelionato = o engano faz a vítima entregar (fraude)', // correta
+      'só o valor', // opção
+      'o lugar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Furto (art. 155): subtrair coisa alheia sem contato com a vítima. Roubo (art. 157): violência ou grave ameaça à pessoa — ou subtração após anular resistência. Estelionato (art. 171): fraude induz a vítima a entregar voluntariamente.', // explicação
+    dica: 'A chave é o "como": furto = silêncio; roubo = força contra pessoa; estelionato = engano que induz a entrega. Latrocínio = roubo com morte. Apropriação indébita = já tinha a coisa e não devolveu (sem subtração).', // pegadinha
+    video: 'furto roubo estelionato diferença' // busca no YouTube
+  },
+  {
+    id: 'd84',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Culpabilidade — imputabilidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O menor de 18 anos que comete crime é:', // pergunta
+    alternativas: [                     // opções
+      'condenado', // opção
+      'inimputável — a menoridade penal exclui a culpabilidade; responde por ato infracional no ECA (medida socioeducativa), não por crime', // correta
+      'preso comum', // opção
+      'culpável', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inimputável = não pode ser culpado: menor de 18 (sempre — o ECA regula o ato infracional), doente mental sem discernimento, embriaguez completa acidental. O sistema adota a idade biológica + critério biopsicológico.', // explicação
+    dica: 'Culpabilidade = imputabilidade (pode entender) + consciência da ilicitude + exigibilidade de conduta conforme. O menor responde por "ato infracional" com medida socioeducativa (internação até 3 anos, aos 21 sai).', // pegadinha
+    video: 'inimputável menoridade penal eca' // busca no YouTube
+  },
+  {
+    id: 'd85',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Tentativa',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O crime tentado se caracteriza quando:', // pergunta
+    alternativas: [                     // opções
+      'o crime consuma', // opção
+      'o agente inicia a execução mas não consuma por circunstâncias alheias à vontade — se desiste voluntariamente antes do fim, é arrependimento (responde só pelos atos feitos)', // correta
+      'nunca houve crime', // opção
+      'só o pensamento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Iter criminis: cogitação (pensar — não pune) → preparação (ato preparatório — não pune em regra) → execução (inicia — tentativa) → consumação (fim). A tentativa pune com a pena do consumado diminuída de 1/3 a 2/3.', // explicação
+    dica: 'Pune-se a partir da execução — atos preparatórios não são crime (salvo exceção legais: preparar droga, milícia). Arrependimento eficaz = desiste antes de consumar = responde pelos atos já feitos; arrependimento posterior = só atenuante.', // pegadinha
+    video: 'crime tentado iter criminis consumação' // busca no YouTube
+  },
+  {
+    id: 'v79',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefícios — aposentadoria', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A aposentadoria por idade urbana exige, na regra permanente:', // pergunta
+    alternativas: [                     // opções
+      'qualquer idade', // opção
+      '65 anos (homem) e 62 anos (mulher) + 15 anos de contribuição — a Reforma de 2019 (EC 103) fixou idade mínima para todos', // correta
+      '35 anos de trabalho', // opção
+      '50 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pós-EC 103/2019: aposentadoria por idade = 62 (mulher) / 65 (homem) + 15 anos de contribuição (20 para homem filiado após a reforma). A por tempo de contribuição puro acabou — virou "por idade" com requisito de tempo.', // explicação
+    dica: 'Antes da reforma: tempo de contribuição (30/35) OU idade (60/65). Depois: sempre idade mínima + tempo. Regras de transição protegem quem já estava no sistema — pedágio, pontos e idade progressiva.', // pegadinha
+    video: 'aposentadoria idade reforma previdência' // busca no YouTube
+  },
+  {
+    id: 'v80',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefícios — auxílio',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Para receber o auxílio por incapacidade temporária do INSS, o segurado precisa:', // pergunta
+    alternativas: [                     // opções
+      'incapacidade definitiva', // opção
+      'incapacidade TEMPORÁRIA para o trabalho + carência de 12 contribuições + perícia médica do INSS — o permanente é a aposentadoria por incapacidade', // correta
+      'só atestado', // opção
+      'não tem carência', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Auxílio por incapacidade temporária: segurado incapaz de trabalhar por mais de 15 dias (empregado afasta-se pela empresa até o 15º dia; INSS paga a partir do 16º). Carência de 12 meses, salvo acidente/doença grave.', // explicação
+    dica: 'Temporária (auxílio) vs permanente (aposentadoria por incapacidade). Carência de 12 contribuições, dispensada em acidente de trabalho e doença grave da lista legal. Os primeiros 15 dias são da empresa.', // pegadinha
+    video: 'auxílio doença incapacidade inss carência' // busca no YouTube
+  },
+  {
+    id: 'v81',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A pensão por morte é devida:', // pergunta
+    alternativas: [                     // opções
+      'a qualquer parente', // opção
+      'aos dependentes do segurado falecido — cônjuge/companheiro e filhos (classes ordenadas); exige qualidade de segurado do falecido e dependência presumida ou provada', // correta
+      'a qualquer pessoa', // opção
+      'só filhos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pensão por morte: classes de dependentes — 1ª (cônjuge/companheiro, filhos até 21 ou inválidos), 2ª (pais), 3ª (irmãos). A dependência da 1ª classe é presumida; as demais provam. Após 2019, cota de 50% + 10% por dependente.', // explicação
+    dica: 'Dependência presumida (1ª classe) ≠ provada (pais, irmãos). O valor pós-2019: 50% + 10% por dependente até 100%. Cônjuge precisa de casamento/união estável de 2 anos + contribuição de 18 meses (salvo acidente).', // pegadinha
+    video: 'pensão por morte dependentes classes' // busca no YouTube
+  },
+  {
+    id: 'v82',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regimes — servidor público', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O RPPS (Regime Próprio) e o RGPS (Regime Geral) se distinguem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o RPPS cobre o servidor público estatutário (regras próprias, aposentadoria integral condicionada); o RGPS cobre o empregado privado no INSS', // correta
+      'o INSS cobre o servidor', // opção
+      'o RPPS é privado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'RPPS = o servidor estatutário (regime jurídico único) contribui ao fundo do ente; RGPS = o trabalhador privado e o servidor só-CLT no INSS. Celetista de estatal (Petrobras) vai ao RGPS; estatutário ao RPPS.', // explicação
+    dica: 'O limite do INSS vale para o RGPS (teto); o RPPS tem teto próprio (pode superar o RGPS, mas limitado a servidor que entrou até 2003 — os posteriores caem para o regime geral ou previdência complementar obrigatória).', // pegadinha
+    video: 'rpps rgps servidor previdência diferença' // busca no YouTube
+  },
+  {
+    id: 'v83',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Custeio — contribuições',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A contribuição previdenciária do empregado difere do "seguro facultativo" porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o empregado contribui obrigatoriamente (descontado em folha) e a empresa recolhe a parte dela; o facultativo (dona de casa, autônomo) contribui por conta própria', // correta
+      'o facultativo é grátis', // opção
+      'o empregado não contribui', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Obrigatório (empregado — desconto automático, parte do empregador também; autônomo — GPS) vs facultativo (quem não exerce atividade — dona de casa, estudante — contribui por vontade, alíquota de 20% ou 11% simplificado).', // explicação
+    dica: 'MEI paga alíquota reduzida (5% do mínimo) e tem cobertura parcial (aposentadoria por idade, salário-maternidade, auxílio — não por tempo). O facultativo sem renda própria precisa do plano simplificado para a cobertura total.', // pegadinha
+    video: 'contribuição facultativo empregado inss' // busca no YouTube
+  },
+  {
+    id: 'v84',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefícios assistenciais',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O BPC (Benefício de Prestação Continuada) difere da aposentadoria porque:', // pergunta
+    alternativas: [                     // opções
+      'exige contribuição', // opção
+      'não exige contribuição — benefício ASSISTENCIAL de um salário mínimo ao idoso ≥65 e à pessoa com deficiência cuja renda familiar per capita seja ≤1/4 do mínimo', // correta
+      'é maior que o mínimo', // opção
+      'só para servidor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BPC (LOAS 8742/93) = assistência, não previdência: um salário mínimo a idoso (≥65) e deficiente em condição de vulnerabilidade (renda familiar per capita ≤ 1/4 do mínimo). Não gera pensão nem 13º.', // explicação
+    dica: 'BPC = assistencial (sem contribuição prévia, 1 mínimo, sem 13º, sem pensão) vs aposentadoria = previdenciária (exige contribuição). O STF flexibilizou a renda em casos concretos (miserabilidade comprovada).', // pegadinha
+    video: 'bpc loas benefício assistencial' // busca no YouTube
+  },
+  {
+    id: 'v85',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Salário-maternidade',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O salário-maternidade do empregado urbano é:', // pergunta
+    alternativas: [                     // opções
+      'meio salário', // opção
+      'o salário integral por 120 dias — pago pelo INSS à empregada, adotante e demais seguradas (inclusive autônoma, facultativa e desempregada)', // correta
+      'sem prazo', // opção
+      'só a empregada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Salário-maternidade = 120 dias de benefício igual à remuneração — empregada, autônoma (contribuinte), desempregada e até a segurada que adota (justiça reprodutiva). Não exige carência para a empregada (120 dias); a contribuinte precisa de 10 contribuições.', // explicação
+    dica: 'Não tem carência para a segurada empregada (basta o vínculo) — a autônoma/contribuinte individual precisa de 10 contribuições. A adoção também gera o benefício (a família recebe o tempo de "cuidado").', // pegadinha
+    video: 'salário maternidade 120 dias inss' // busca no YouTube
+  },
+  {
+    id: 'tr90',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contrato — elementos',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os elementos essenciais da relação de emprego são:', // pergunta
+    alternativas: [                     // opções
+      'só o salário', // opção
+      'pessoa física + pessoalidade + não eventualidade + subordinação + onerosidade — os cinco requisitos do art. 3º CLT', // correta
+      'só a carteira', // opção
+      'só a subordinação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Relação de emprego = PF + pessoalidade (só aquela pessoa) + não eventualidade (habitual, não esporádico) + subordinação (obedece ordem, horário, disciplina) + onerosidade (salário). Faltando um, não é emprego.', // explicação
+    dica: 'Subordinação é o traço definidor — autônomo tem liberdade de como fazer; empregado obedece. Pessoa jurídica não é empregada (só física). A "pejotização" fraudulenta esconde subordinação — a Justiça desconsidera a PJ.', // pegadinha
+    video: 'relação emprego elementos subordinação clt' // busca no YouTube
+  },
+  {
+    id: 'tr91',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Jornada — hora extra',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A jornada legal máxima e a hora extra são:', // pergunta
+    alternativas: [                     // opções
+      '44h semanais e extra ilimitada', // opção
+      '8h/dia ou 44h/semana, com até 2h extras por dia — a extra paga com adicional mínimo de 50% sobre a hora normal', // correta
+      '40h e sem extra', // opção
+      '10h/dia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Jornada normal: 8h/dia, 44h/semana (art. 7º XIII + CLT); extra limitada a 2h/dia (acordo ou convenção) paga com +50% mínimo; em dia de descanso/feriado, +100%. Compensação por banco de horas.', // explicação
+    dica: 'Hora extra ≠ adicional noturno: o noturno (22h-5h urbano) paga +20% e a hora vale 52min30s. O banco de horas negocia a extra com folga em vez de pagamento — por acordo individual (6 meses) ou coletivo (12).', // pegadinha
+    video: 'jornada 44h hora extra 50% adicional' // busca no YouTube
+  },
+  {
+    id: 'tr92',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Rescisão — modalidades',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "demissão por justa causa" do empregado exige:', // pergunta
+    alternativas: [                     // opções
+      'qualquer motivo', // opção
+      'falta grave taxada em lei — improbidade, mau procedimento, abandono de emprego (30 dias), embriaguez em serviço etc.; o empregado perde aviso, férias proporcionais e multa do FGTS', // correta
+      'aviso só', // opção
+      'consenso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justa causa (art. 482 CLT): rol taxativo de faltas graves (improbidade, incontinência, desídia, abandono, ofensa, embriaguez habitual/em serviço). Aplicação imediata — a falta tolerada se torna "perdão tácito".', // explicação
+    dica: 'As modalidades: sem justa causa (livre — paga tudo), justa causa (perde quase tudo), pedido de demissão (empregado desiste — menos verbas), comum acordo (2017 — metade do aviso/multa) e rescisão indireta (falta do empregador — "justa causa patronal").', // pegadinha
+    video: 'justa causa rescisão modalidades clt' // busca no YouTube
+  },
+  {
+    id: 'tr93',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'FGTS',                       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O FGTS corresponde a:', // pergunta
+    alternativas: [                     // opções
+      '10% do salário', // opção
+      'depósito mensal de 8% do salário em conta vinculada — sacado na demissão sem justa causa (com multa de 40%), aposentadoria, doença grave ou casa própria', // correta
+      'contribuição do empregado', // opção
+      'só no ano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'FGTS = o empregador deposita 8% da remuneração na conta do trabalhador (Caixa). Saca: demissão sem justa causa (+40% de multa rescisória), fim de contrato a prazo, aposentadoria, câncer/AIDS, compra da casa, 3 anos sem saque.', // explicação
+    dica: 'A multa de 40% é sobre o TOTAL depositado durante o contrato — penalidade pela demissão arbitrária. O saque-aniversário (optativo) libera parte todo ano, mas perde o saque integral na rescisão — troca anual por rescisão menor.', // pegadinha
+    video: 'fgts 8% depósito saque rescisão' // busca no YouTube
+  },
+  {
+    id: 'tr94',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Trabalho noturno',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O trabalho noturno urbano é o realizado entre:', // pergunta
+    alternativas: [                     // opções
+      '18h e 6h', // opção
+      '22h e 5h — a hora noturna vale 52min30s (hora reduzida) e paga adicional mínimo de 20%; no rural, o horário é diferente', // correta
+      'meia-noite só', // opção
+      '20h e 4h', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Noturno urbano = 22h-5h: hora de 52min30s (60min computados em 52,5) + adicional ≥20% da hora diurna. O trabalho noturno da mulher não é mais proibido (CF). O rural: 21h-5h lavoura, 20h-4h pecuária.', // explicação
+    dica: 'Hora noturna reduzida (52min30s) só no urbano. Adicional de 20% mínimo — e, se a jornada se estender ao noturno, a parte noturna recebe o adicional mesmo com o adicional de hora extra acumulado.', // pegadinha
+    video: 'trabalho noturno 22h hora reduzida' // busca no YouTube
+  },
+  {
+    id: 'tr95',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Estabilidade',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A gestante tem estabilidade provisória:', // pergunta
+    alternativas: [                     // opções
+      'só durante a gestação', // opção
+      'da confirmação da gravidez até 5 meses após o parto — não pode ser dispensada arbitrariamente; a dispensa sem justa causa nesse período é nula', // correta
+      'não tem', // opção
+      'só no aviso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estabilidade gestante = da concepção (mesmo sem o empregador saber) a 5 meses pós-parto — dispensa arbitrária proibida (art. 10 ADCT). Pode sair por justa causa. Outros: acidentado, dirigente sindical, eleito CIPA.', // explicação
+    dica: 'A estabilidade é contra dispensa ARBITRÁRIA — justa causa continua possível. O período conta da confirmação da gravidez (inclusive sem ciência do empregador) até 5 meses após o parto — a dispensa arbitrária gera reintegração.', // pegadinha
+    video: 'estabilidade gestante 5 meses dispensa' // busca no YouTube
+  },
+  {
+    id: 'tr96',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Salário e equiparação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A equiparação salarial (mesmo salário para mesma função) exige que:', // pergunta
+    alternativas: [                     // opções
+      'qualquer diferença baste', // opção
+      'mesma função + mesmo trabalho + mesma produtividade/perfeição técnica + diferença de tempo ≤2 anos no empregador — pós-2017, a comparação é restrita', // correta
+      'sempre iguala', // opção
+      'só o mesmo cargo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Equiparação: trabalho igual (mesma função) merece salário igual — exige que a diferença salarial não venha de tempo no cargo (>2 anos no mesmo empregador legitimam diferença) nem de plano de carreira legal.', // explicação
+    dica: 'A reforma de 2017 restringiu: a diferença salarial entre colegas só vale se não houver diferença de tempo no empregador superior a 2 anos e o "mesmo estabelecimento". Quadro de carreira legal e sexo/idade não justificam diferença.', // pegadinha
+    video: 'equiparação salarial mesmo trabalho' // busca no YouTube
+  },
+  {
+    id: 'tr97',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contratos especiais — temporário', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O contrato de trabalho temporário (lei 6019) é:', // pergunta
+    alternativas: [                     // opções
+      'qualquer contrato', // opção
+      'via empresa de trabalho temporário para atender a fato transitório — substituição de empregado afastado ou aumento extraordinário de demanda, máx. 180 dias prorrogáveis', // correta
+      'a estágio', // opção
+      'o intermitente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Temporário = a empresa de TT fornece trabalhador para o tomador em situação transitória (cobertura de licença, pico de demanda) — contrato de até 180 dias, prorrogável por 90. O vínculo é com a empresa de TT.', // explicação
+    dica: 'Temporário ≠ intermitente: o temporário é por fato transitório via empresa intermediadora (a "empreiteira" legal); o intermitente é descontínuo por demanda intermitente, sem intermediador. O temporário recebe salário igual do posto.', // pegadinha
+    video: 'trabalho temporário lei 6019 empresa' // busca no YouTube
+  },
+  {
+    id: 'tr98',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Segurança do trabalho',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A NR (Norma Regulamentadora) de segurança do trabalho tem como objetivo:', // pergunta
+    alternativas: [                     // opções
+      'pagar mais', // opção
+      'prevenir acidente e doença do trabalho — estabelece requisitos mínimos (EPI, CIPA, PCMSO, treinamento) que o empregador deve cumprir', // correta
+      'só fiscalizar', // opção
+      'demitir', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'NRs = normas do Ministério do Trabalho sobre segurança e medicina do trabalho: EPI obrigatório e gratuito (NR-6), CIPA (NR-5), PCMSO (NR-7), ergonomia (NR-17). Não cumprir = autuação e acidente = responsabilidade civil/administrativa.', // explicação
+    dica: 'CIPA = comissão interna de prevenção (empregador + empregados); SESMT = serviço especializado de segurança; PCMSO = exame médico ocupacional. O EPI é gratuito — cobrar do empregado é infração.', // pegadinha
+    video: 'norma regulamentadora segurança trabalho epi' // busca no YouTube
+  },
+  {
+    id: 'tr99',                         // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contribuição sindical — pós-2017', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Após a reforma de 2017, a contribuição sindical:', // pergunta
+    alternativas: [                     // opções
+      'é obrigatória', // opção
+      'tornou-se facultativa — o imposto sindical (1 dia de salário/ano) passou a depender de autorização prévia e expressa do empregado', // correta
+      'foi extinta para sempre', // opção
+      'é descontada sempre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Antes de 2017 a contribuição sindical era compulsória (desconto automático de 1 dia/ano). A reforma tornou facultativa — o desconto exige autorização. A contribuição assistencial (convencional, negociada) é outra e pode ser cobrada dos associados.', // explicação
+    dica: 'Contribuição sindical (imposto do art. 578 CLT — facultativa agora) ≠ contribuição assistencial (negociada em acordo — para os beneficiários da convenção, permitida mesmo a não-sócio pelo STF se não houver oposição) ≠ mensalidade (só dos filiados).', // pegadinha
+    video: 'contribuição sindical facultativa reforma' // busca no YouTube
+  },
+  {
+    id: 'ec79',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Estruturas de mercado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O monopólio difere da concorrência perfeita porque:', // pergunta
+    alternativas: [                     // opções
+      'tem muitos vendedores', // opção
+      'um só ofertante domina o mercado — fixa preço e quantidade sem concorrência; na concorrência perfeita, muitos vendedores pequenos são "tomadores de preço"', // correta
+      'o preço é livre', // opção
+      'não há lucro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Concorrência perfeita (muitos vendedores iguais, produto homogêneo, preço dado) → oligopólio (poucos grandes — banco, telefonia) → monopólio (um só — controle total). O antitruste (CADE) combate abusos.', // explicação
+    dica: 'Espectro: concorrência perfeita → monopolística (muitos, produto diferenciado — restaurante) → oligopólio (poucos — plano de saúde) → monopólio (um — água encanada). Oligopsônio/monopsônio = poucos/um COMPRADOR.', // pegadinha
+    video: 'monopólio oligopólio concorrência perfeita' // busca no YouTube
+  },
+  {
+    id: 'ec80',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Banco Central — funções',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Banco Central é chamado de "banco dos bancos" porque:', // pergunta
+    alternativas: [                     // opções
+      'empresta a qualquer um', // opção
+      'empresta a bancos, fiscaliza o sistema e executa a política monetária — não atende pessoa física: regula, supervisiona e é o emprestador de última instância', // correta
+      'é o maior banco', // opção
+      'só imprime dinheiro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O BC emite a moeda, guarda as reservas dos bancos (compulsório), empresta a eles em crise (redesconto), supervisiona o sistema e fixa a Selic. É autarquia federal — autonomia formal desde 2021 (presidente não demitível).', // explicação
+    dica: 'BC ≠ Banco do Brasil: BC = autoridade monetária (não atende cliente); BB = banco comercial estatal que atende. O COPOM fixa a Selic a cada ~45 dias; o CMN é o conselho superior (orienta a política).', // pegadinha
+    video: 'banco central funções banco dos bancos' // busca no YouTube
+  },
+  {
+    id: 'ec81',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Mercado financeiro',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre renda fixa e renda variável é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'fixa = remuneração conhecida na aplicação (taxa definida — CDB, tesouro); variável = retorno incerto (ação, fundo) — maior risco e potencial de ganho', // correta
+      'a fixa rende mais', // opção
+      'a variável é grátis', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Renda fixa = você sabe a taxa de retorno (a aplicação em CDB, Tesouro, LCI) — ainda tem risco de crédito e inflação. Renda variável = o retorno depende do mercado (ação, fundo imobiliário) — ganho e perda variam.', // explicação
+    dica: 'O tripé risco-retorno-liquidez: mais retorno pede mais risco ou menos liquidez. O FGC (Fundo Garantidor) cobre até R$250 mil em renda fixa bancária — a renda variável não tem garantia.', // pegadinha
+    video: 'renda fixa variável investimento risco' // busca no YouTube
+  },
+  {
+    id: 'ec82',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Tributação — impostos',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Imposto progressivo e regresivo se distinguem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'progressivo = quem ganha mais paga alíquota maior (IR); regressivo = pesa mais proporcionalmente no pobre (imposto sobre consumo, cobrado igual para todos)', // correta
+      'o regressive taxa mais o rico', // opção
+      'não há diferença', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Progressivo = a alíquota sobe com a renda (IRPF); proporcional = a mesma alíquota (ICMS); regressivo = o peso relativo é maior nos pobres (tributação do consumo — o pobre gasta proporcionalmente mais do que tem).', // explicação
+    dica: 'O Brasil tributa muito o consumo (ICMS, IPI — regressivo) e pouco renda/patrimônio — por isso a carga é regressiva na prática. A reforma tributária (EC 132/23) cria o IVA dual (CBS+IBS) com cashback para o pobre.', // pegadinha
+    video: 'imposto progressivo regressivo icms ir' // busca no YouTube
+  },
+  {
+    id: 'ec83',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Câmbio — desvalorização',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A desvalorização do real frente ao dólar torna:', // pergunta
+    alternativas: [                     // opções
+      'a importação mais barata', // opção
+      'o produto brasileiro mais competitivo no exterior (exportação sobe) e a importação mais cara — beneficia exportador, pressiona a inflação via insumo', // correta
+      'tudo mais barato', // opção
+      'não muda nada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Real fraco (dólar caro): exportador ganha mais reais por dólar vendido (competitividade), importador paga mais (encarece insumo e produto final — repasse inflacionário), turismo interno fica mais barato para o estrangeiro.', // explicação
+    dica: 'Balança comercial: exportação − importação; desvalorização tende a melhorá-la (exporta mais, importa menos). O Brasil tem câmbio flutuante desde 1999 — o BC intervém (swap, venda de reserva) para suavizar, não fixar.', // pegadinha
+    video: 'desvalorização câmbio exportação inflação' // busca no YouTube
+  },
+  {
+    id: 'g77',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Clima — fenômenos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O El Niño causa no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'seca no Sudeste', // opção
+      'mais chuva no Sul e seca no Norte/Nordeste — o aquecimento anômalo do Pacífico equatorial inverte a circulação; La Niña faz o oposto', // correta
+      'frio no Sul só', // opção
+      'nada muda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'El Niño = aquecimento anômalo do Pacífico equatorial: desloca chuvas — mais chuva e cheia no Sul (e Leste), seca na Amazônia e Nordeste (a safra e o reservatório sofrem). La Niña = resfriamento, efeito inverso.', // explicação
+    dica: 'A tríade: El Niño (Pacífico quente — chuva Sul, seca N/NE), La Niña (frio — seca Sul, chuva N/NE) e o "ENSO neutro". O El Niño de 2015/16 e 2023/24 intensificaram a seca amazônica e a cheia gaúcha.', // pegadinha
+    video: 'el niño la niña efeito brasil chuva' // busca no YouTube
+  },
+  {
+    id: 'g78',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Energia — matriz',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A principal fonte de geração elétrica brasileira é:', // pergunta
+    alternativas: [                     // opções
+      'termelétrica', // opção
+      'hidrelétrica — cerca de 60% da matriz elétrica; a intermitência da eólica/solar e a sazonalidade da água exigem as térmicas como reserva', // correta
+      'nuclear', // opção
+      'solar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Elétrica brasileira ≈ 60% hidro + 20% eólica/solar + térmica/nuclear de apoio — uma das mais limbas do mundo. O risco é a dependência da chuva (reservatório baixo aciona térmica cara e suja).', // explicação
+    dica: 'Matriz ENERGÉTICA (toda energia — ~50% renovável) ≠ matriz ELÉTRICA (só geração — ~85% renovável). A expansão atual é eólica (Nordeste) e solar distribuída; a intermitência é o desafio do SIN.', // pegadinha
+    video: 'matriz elétrica hidrelétrica renovável brasil' // busca no YouTube
+  },
+  {
+    id: 'g79',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Agricultura — fronteiras',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "MATOPIBA" é a fronteira agrícola que avança sobre:', // pergunta
+    alternativas: [                     // opções
+      'o Pantanal', // opção
+      'o Cerrado do Maranhão, Tocantins, Piauí e Bahia — a última fronteira da soja, com plano Safra e embate entre produtividade e desmatamento', // correta
+      'a Amazônia só', // opção
+      'o litoral', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MATOPIBA = a região de expansão do agronegócio no Cerrado (partes do MA-TO-PI-BA) — mecanização e correção de solo transformaram a savana em soja; a pressão fundiária e o desmatamento são a face controversa.', // explicação
+    dica: 'O Cerrado virou celeiro pela correção de acidez (calagem) e soja adaptada (Embrapa). MATOPIBA = a fronteira mais nova; o "arco do desmatamento" na Amazônia é outra coisa (pasto no sul do Pará/MT/RO).', // pegadinha
+    video: 'matopiba fronteira agrícola cerrado soja' // busca no YouTube
+  },
+  {
+    id: 'g80',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'População — migração',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "êxodo rural" brasileiro das décadas de 1950-1980 foi causado por:', // pergunta
+    alternativas: [                     // opções
+      'a vontade de migrar', // opção
+      'a modernização do campo — mecanização expulsa o trabalhador + atração industrial urbana; criou favelas e a metropolização desordenada', // correta
+      'a guerra', // opção
+      'a seca só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Êxodo rural = a mecanização agrária expulsa o boia-fria e a cidade industrial atrai — SP absorveu milhões. Resultado: urbanização acelerada, favelização e a periferia pobre das metrópoles.', // explicação
+    dica: 'O Brasil virou urbano na segunda metade do séc. XX (~85% urbano hoje) — foi êxodo em massa, não migração natural. A "metropolização" trouxe favela, commuting longo e a periferia sem infraestrutura.', // pegadinha
+    video: 'êxodo rural urbanização favelização' // busca no YouTube
+  },
+  {
+    id: 'g81',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Recursos hídricos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Aquífero Guarani, maior reserva de água doce subterrânea da América do Sul, abrange:', // pergunta
+    alternativas: [                     // opções
+      'só o Brasil', // opção
+      'Brasil, Argentina, Paraguai e Uruguai — gigantesca reserva de água fóssil no subsolo do Mercosul, estratégica para o abastecimento futuro', // correta
+      'toda a América', // opção
+      'só o Amazonas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Guarani = aquífero compartilhado por 4 países do Mercosul — ~1,2 milhão km². Água fóssil (recarga lenta) de importância estratégica. O Aquífero Alter do Chão (PA) é ainda maior em volume — recente descoberta.', // explicação
+    dica: 'Alter do Chão (Amazônia) tem volume maior, mas Guarani é o mais conhecido e estratégico pela posição (regiões povoadas). O Brasil tem ~12% da água doce superficial do mundo — o acesso desigual é o problema.', // pegadinha
+    video: 'aquífero guarani água subterrânea mercosul' // busca no YouTube
+  },
+  {
+    id: 'lg85',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 8.666/14.133 — dispensa', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A dispensa de licitação é cabível quando:', // pergunta
+    alternativas: [                     // opções
+      'a administração prefere', // opção
+      'a lei expressamente autoriza — casos taxativos (art. 75 da 14.133): emergência, calamidade, pequeno valor, licitante deserta, artista consagrado etc.', // correta
+      'sempre', // opção
+      'nunca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dispensa = licitar era possível mas a lei dispensa (taxativo: emergência, pouco valor, guerra, licitação deserta/fracassada). Inexigibilidade = não há viabilidade de competição (fornecedor exclusivo, artista, perito único).', // explicação
+    dica: 'Dispensável (a administração pode escolher — emergência, baixo valor) vs inexigível (impossível competir — exclusividade). A dispensa injustificada é fraude; a rol da lei é taxativo — não admite analogia.', // pegadinha
+    video: 'dispensa licitação inexigibilidade 14133' // busca no YouTube
+  },
+  {
+    id: 'lg86',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Contratos administrativos',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'As cláusulas exorbitantes do contrato administrativo são:', // pergunta
+    alternativas: [                     // opções
+      'iguais às privadas', // opção
+      'prerrogativas do poder público — alterar unilateralmente, fiscalizar, rescindir unilateralmente e punir: o Estado contrata, mas com supremacia de interesse público', // correta
+      'a igualdade total', // opção
+      'o não cumprimento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Exorbitância = o contrato administrativo coloca a administração em posição de supremacia: ela pode alterar (dentro do equilíbrio), fiscalizar, rescindir por interesse público e aplicar sanção — o particular não tem esse poder.', // explicação
+    dica: 'A supremacia não é absoluta: a alteração unilateral tem limite (±25% da obra/serviço, ±50% para reforma) e deve preservar o equilíbrio econômico-financeiro — a rescisão unilateral gera indenização ao particular.', // pegadinha
+    video: 'cláusulas exorbitantes contrato administrativo' // busca no YouTube
+  },
+  {
+    id: 'lg87',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Processo administrativo',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No PAD (processo administrativo disciplinar), o servidor tem direito a:', // pergunta
+    alternativas: [                     // opções
+      'nenhum', // opção
+      'ampla defesa e contraditório — ser citado, apresentar defesa, produzir prova e recorrer; a demissão sem PAD é inconstitucional', // correta
+      'só a notificação', // opção
+      'só a demissão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PAD = o instrumento para apurar falta grave e aplicar demissão — a Constituição exige ampla defesa e contraditório (art. 5º, LV). Compõe-se de comissão de 3 servidores estáveis + instrução + relatório.', // explicação
+    dica: 'O PAD é obrigatório para as penalidades graves (demissão, cassação); advertência e suspensão podem ter processo sumário. A comissão deve ser de estáveis e imparcial — servidor que julga subordinado tem impedimento.', // pegadinha
+    video: 'pad ampla defesa contraditório servidor' // busca no YouTube
+  },
+  {
+    id: 'lg88',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei 9.784 — atos',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Lei 9.784/99 regula:', // pergunta
+    alternativas: [                     // opções
+      'o processo judicial', // opção
+      'o processo administrativo federal — os atos e o procedimento da administração pública federal (o processo judicial é regido pelo CPC/CPP)', // correta
+      'a licitação', // opção
+      'o crime', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lei 9.784/99 = lei geral do processo administrativo federal: motivação, impessoalidade, direito de defesa do interessado, nulidades (anulação/revogação), prazos e o dever de decidir. Vale para a União e suas entidades.', // explicação
+    dica: 'Processo administrativo (9.784) ≠ processo judicial (CPC/CPP): o administrativo não precisa de juiz e tem informalidade e oficialidade (o órgão pode agir de ofício). A anulação (ato ilegal) ≠ revogação (ato inconveniente).', // pegadinha
+    video: 'lei 9784 processo administrativo federal' // busca no YouTube
+  },
+  {
+    id: 'lg89',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Anulação vs revogação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre anulação e revogação do ato administrativo é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'anulação retira o ato ILEGAL (efeitos ex tunc, desde a origem); revogação retira o ato legal mas inconveniente (efeitos ex nunc, da revogação em diante)', // correta
+      'a revogação é ilegal', // opção
+      'a anulação é futura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anulação = vício de legalidade → retroage (ex tunc); revogação = conveniência/oportunidade → produz efeito da revogação em diante (ex nunc). O Judiciário anula; só a administração revoga (mérito).', // explicação
+    dica: 'A administração pode anular seus próprios atos ilegais (Súmula 473 STF) e revogar os legais inconvenientes — mas não revoga ato vinculado consumado nem o que já gerou direito adquirido. O Judiciário NUNCA revoga.', // pegadinha
+    video: 'anulação revogação ato administrativo ex tunc' // busca no YouTube
+  },
+  {
+    id: 'lg90',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Agentes públicos — tipos',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os agentes públicos se dividem em:', // pergunta
+    alternativas: [                     // opções
+      'só servidores', // opção
+      'políticos (eleitos/nomeados de confiança), administrativos/servidores (concursados estáveis) e particulares em colaboração (voluntário, delegatário)', // correta
+      'só eleitos', // opção
+      'só militares', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Espécies de agente: político (presidente, prefeito, secretário — mandato/confindação, sem estabilidade), administrativo (o servidor público — concurso, estatuto, estabilidade) e colaborador (delegatário de serviço, voluntário).', // explicação
+    dica: 'Servidor ≠ funcionário no sentido antigo: servidor público = o concursado com estatuto (estabilidade após probatório). O cargo em comissão/comissão temporária é função de confiança — pode ser exonerado ad nutum.', // pegadinha
+    video: 'agentes públicos políticos servidores colaboradores' // busca no YouTube
+  },
+  {
+    id: 'lg91',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Poder — regulamentar',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O poder regulamentar do Chefe do Executivo permite:', // pergunta
+    alternativas: [                     // opções
+      'criar lei nova', // opção
+      'editar decreto/regulamento para executar a lei — só pode detalhar o que a lei dispõe; o regulamento não pode inovar criando obrigação nova', // correta
+      'punir', // opção
+      'julgar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regulamento = decreto do Executivo para fiel execução da lei — detalha, não inova (o Decreto "autônomo" só em dois casos: organização administrativa interna e matéria não reservada à lei). É poder administrativo.', // explicação
+    dica: 'O regulamento é subordinado à lei — não pode criar obrigação, imposto ou crime. O Decreto regulamentar é infralegal; a MP (medida provisória) é o instrumento legislativo do Presidente — força de lei, mas precisa de conversão.', // pegadinha
+    video: 'poder regulamentar decreto executivo' // busca no YouTube
+  },
+  {
+    id: 'lg92',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Ética — Código de Conduta',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O servidor deve comunicar imediatamente a seu superior:', // pergunta
+    alternativas: [                     // opções
+      'qualquer fofoca', // opção
+      'toda irregularidade de que tenha ciência em razão do cargo — o dever de representar contra omissão/ato ilícito, sob pena de cumplicidade', // correta
+      'só crime grave', // opção
+      'nada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O dever de comunicar irregularidade (art. 116, IX da 8.112; código de ética) — o servidor que presencia ilícito no órgão e se omite responde solidariamente (o "dolo por omissão"). A delação é dever funcional.', // explicação
+    dica: 'Comunicar ao superior direto OU à autoridade competente se o superior for o envolvido. A comissão de ética orienta e pode recomendar censura. Sigilo funcional não protege o ilícito — protege o dado de terceiros.', // pegadinha
+    video: 'dever comunicar irregularidade servidor ética' // busca no YouTube
+  },
+  {
+    id: 'et86',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Moral vs ética',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença clássica entre moral e ética é:', // pergunta
+    alternativas: [                     // opções
+      'são idênticas', // opção
+      'moral = o conjunto de normas/costumes de um grupo (o que se pratica); ética = a reflexão filosófica sobre a moral (o pensar sobre o agir)', // correta
+      'a ética é lei', // opção
+      'a moral é teoria', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moral = o código vigente do grupo (costume, norma, a prática); ética = o saber reflexivo sobre ela (a teoria, o juízo crítico). A moral manda; a ética pergunta se o mandamento é justo.', // explicação
+    dica: 'Etimologia: "moral" do latim mores (costume); "ética" do grego ethos (caráter/modo de ser). Uma sociedade tem sua moral; o filósofo faz ética ao interrogar essa moral. A moral pode ser injusta — a ética avalia.', // pegadinha
+    video: 'moral ética diferença filosofia' // busca no YouTube
+  },
+  {
+    id: 'et87',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética deontológica',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A ética deontológica (do dever) julga a ação por:', // pergunta
+    alternativas: [                     // opções
+      'o resultado', // opção
+      'a intenção e o dever — Kant: o agir certo é o que segue o dever universalizável, independente da consequência; difere do consequencialismo', // correta
+      'o lucro', // opção
+      'o costume', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Deontologia (deon = dever): o certo é a intenção conforme o dever — mentir é errado mesmo que salve (não se pode usar o outro como meio). Oposta ao consequencialismo/utilitarismo (julgamento pelo resultado).', // explicação
+    dica: 'Os códigos profissionais são deontológicos: o dever do médico não depende do resultado — sigilo, não-maleficência. Kant vs Bentham: dever/consequência; regra/consequência; a dignidade como fim em si.', // pegadinha
+    video: 'deontologia dever kant consequência' // busca no YouTube
+  },
+  {
+    id: 'et88',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética — valores',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "integridade" como valor ético significa:', // pergunta
+    alternativas: [                     // opções
+      'obedecer sempre', // opção
+      'a coerência entre o que se pensa, fala e faz — agir com honestidade mesmo quando ninguém vê; o caráter inteiro, sem dupla moral', // correta
+      'ser perfeito', // opção
+      'não errar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Integridade = inteireza moral: coerência entre discurso e prática, honestidade quando não há fiscalização. Difere da conformidade (cumprir a regra por medo) — a integridade é interna, não só aparente.', // explicação
+    dica: 'Compliance = cumprir a regra (externo); integridade = agir certo por convicção (interno). O programa de integridade na empresa junta os dois: código de conduta + canal de denúncia + cultura ética.', // pegadinha
+    video: 'integridade ética coerência honestidade' // busca no YouTube
+  },
+  {
+    id: 'et89',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética ambiental — sustentabilidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O desenvolvimento sustentável (Relatório Brundtland, 1987) é aquele que:', // pergunta
+    alternativas: [                     // opções
+      'para o crescimento', // opção
+      'atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atenderem às suas — o equilíbrio entre economia, sociedade e ambiente', // correta
+      'só preserva', // opção
+      'cresce a qualquer custo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brundtland ("Nosso Futuro Comum", 1987): desenvolvimento que satisfaz hoje sem destruir o amanhã — o tripé econômico-social-ambiental. Base das ESG e dos ODS da Agenda 2030 da ONU.', // explicação
+    dica: 'Os 3 pilares (triple bottom line): econômico (viável), social (justo) e ambiental (sustentável). A Agenda 2030 tem 17 ODS — fome, água, energia, clima, igualdade. A pegada ecológica mede a demanda sobre a natureza.', // pegadinha
+    video: 'desenvolvimento sustentável brundtland ods' // busca no YouTube
+  },
+  {
+    id: 'et90',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética — justiça',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "véu da ignorância" de John Rawls propõe decidir as regras da sociedade:', // pergunta
+    alternativas: [                     // opções
+      'conhecendo a posição', // opção
+      'sem saber qual posição se ocupará — a justiça nasce do desenho imparcial: escolheríamos a regra mais justa para o mais desfavorecido', // correta
+      'pelo mais forte', // opção
+      'pela maioria rica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rawls ("Uma Teoria da Justiça"): atrás do véu da ignorância (sem saber se rico, pobre, sadio), escolheríamos princípios imparciais — liberdade igual para todos e desigualdade só quando beneficia o mais desfavorecido (princípio da diferença).', // explicação
+    dica: 'Justiça como equidade: o véu neutraliza o interesse particular — ninguém defenderia escravidão podendo nascer escravo. O "princípio da diferença" aceita desigualdade só se melhorar a vida do pior colocado.', // pegadinha
+    video: 'véu ignorância rawls justiça equidade' // busca no YouTube
+  },
+  {
+    id: 'et91',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética — assédio',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O assédio moral no trabalho é caracterizado por:', // pergunta
+    alternativas: [                     // opções
+      'uma bronca justa', // opção
+      'conduta abusiva REPETIDA que degrada o ambiente — humilhação sistemática, isolamento, sobrecarga persecutória: a repetição é o elemento central', // correta
+      'só agressão física', // opção
+      'só demissão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assédio moral = violência psicológica reiterada que humilha e desestabiliza — a conduta isolada não basta; é o padrão repetitivo com intenção de abalar. Gera dano à saúde e indenização ao trabalhador.', // explicação
+    dica: 'Elementos: repetição (não é episódio), intencionalidade persecutória, dano à dignidade/saúde. Difere do assédio sexual (conotação sexual, art. 216-A CP) e da mera exigência legítima de produtividade.', // pegadinha
+    video: 'assédio moral trabalho repetição humilhação' // busca no YouTube
+  },
+  {
+    id: 'et92',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética e política',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A ética na função pública exige que o servidor trate o público como:', // pergunta
+    alternativas: [                     // opções
+      'subordinado', // opção
+      'fim, não meio — a administração existe para servir o cidadão; o cargo é encargo, não propriedade, e a coisa pública não é do servidor', // correta
+      'cliente a enganar', // opção
+      'inimigo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A função pública é encargo fiduciário: o cargo é instrumento de servir o interesse público — impessoalidade, moralidade e eficiência são princípios constitucionais (art. 37). A coisa pública não é privada do gestor.', // explicação
+    dica: 'Princípios do art. 37 (LIMPE + moralidade e publicidade): legalidade, impessoalidade (não favorecer amigo/parente — nepotismo vedado), moralidade, publicidade, eficiência. O servidor é "agente" do interesse público, não dono.', // pegadinha
+    video: 'ética função pública impessoalidade art 37' // busca no YouTube
+  },
+  {
+    id: 'et93',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Responsabilidade social',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A responsabilidade social corporativa (ESG) implica que a empresa:', // pergunta
+    alternativas: [                     // opções
+      'só lucra', // opção
+      'responda por seus impactos ambientais, sociais e de governança — E = ambiente, S = relações/trabalho, G = ética e transparência na gestão', // correta
+      'só paga imposto', // opção
+      'não responde a nada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'ESG = Environmental (ambiente), Social (pessoas, direitos, comunidade), Governance (compliance, anticorrupção, transparência). O investimento "responsável" usa esses critérios além do retorno financeiro.', // explicação
+    dica: 'ESG é mais que marketing — a pressão vem do investidor, consumidor e regulador. Greenwashing = fingir sustentabilidade sem a prática — gera risco legal e reputacional. O triple bottom line: lucro, pessoas, planeta.', // pegadinha
+    video: 'esg responsabilidade social empresa' // busca no YouTube
+  },
+  {
+    id: 'ar81',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Teatro — origem',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O teatro ocidental nasceu:', // pergunta
+    alternativas: [                     // opções
+      'na Roma cristã', // opção
+      'na Grécia Antiga — das festas a Dioniso (ditirambo): Téspis criou o ator, o coro dialogava; Ésquilo, Sófocles e Eurípedes são os trágicos', // correta
+      'no Egito', // opção
+      'na Idade Média', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Teatro grego (séc. VI-V a.C.): culto a Dioniso → ditirambo → tragédia (Ésquilo, Sófocles, Eurípedes) e comédia (Aristófanes). Téspis separou o ator do coro — o primeiro "thespis" (ator). Teatro em anfiteatro.', // explicação
+    dica: 'Tragédia = destino e queda do herói (Édipo); comédia = sátira social (Aristófanes). Aristóteles na Poética: a catarse. Teatro romano adaptou o grego; a Idade Média criou o auto (religioso); o Renascimento, o texto moderno.', // pegadinha
+    video: 'teatro grego origem dioniso tragédia' // busca no YouTube
+  },
+  {
+    id: 'ar82',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Pintura — movimentos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Impressionismo (Monet, Renoir) revolucionou a pintura porque:', // pergunta
+    alternativas: [                     // opções
+      'pintava só retrato', // opção
+      'capturou a luz e o instante — a pincelada solta, o plein air e a cena cotidiana romperam com o acabamento acadêmico perfeito', // correta
+      'era religioso', // opção
+      'usava só preto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Impressionismo (Paris, 1874): pintar o que o olho vê NAQUELE instante — luz, atmosfera, movimento. "Impression, soleil levant" de Monet deu o nome. A fotografia libertou a pintura de ser cópia da realidade.', // explicação
+    dica: 'Correntes pós-impressionistas: Pontilhismo (Seurat — pontos de cor), Fauvismo (Matisse — cor violenta), Expressionismo (Munch — a angústia), Cubismo (Picasso — fragmenta a forma), Abstracionismo (Kandinsky — sem figura).', // pegadinha
+    video: 'impressionismo monet luz pincelada' // busca no YouTube
+  },
+  {
+    id: 'ar83',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte brasileira — moderna',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Tarsila do Amaral e a "antropofagia" modernista pintaram:', // pergunta
+    alternativas: [                     // opções
+      'só retrato europeu', // opção
+      'o Brasil em cores e formas próprias — Abaporu (1928) deu o nome ao manifesto: devorar o estrangeiro para criar arte genuinamente brasileira', // correta
+      'arte abstrata só', // opção
+      'pintura religiosa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tarsila: "Abaporu" (o homem que come — o nome em tupi inspirou o Manifesto Antropófago de Oswald). Operária, A Estrada de Ferro, Anthropofagia: paisagem e figura brasileiras com simplificação moderna.', // explicação
+    dica: 'Tarsila + Di Cavalcanti + Anita Malfatti = pintura da Semana de 22. Abaporu → manifesto de Oswald → a tese de "comer" a cultura europeia e transformá-la — a chave do modernismo antropofágico.', // pegadinha
+    video: 'tarsila do amaral abaporu modernismo' // busca no YouTube
+  },
+  {
+    id: 'ar84',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Música — elementos',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os três elementos fundamentais da música são:', // pergunta
+    alternativas: [                     // opções
+      'volume, tom, cor', // opção
+      'melodia, harmonia e ritmo — a linha sequencial de notas, a sobreposição dos acordes e a organização no tempo', // correta
+      'só a letra', // opção
+      'o instrumento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Melodia = a sucessão de notas (a "linha" cantável); harmonia = as notas simultâneas (acorde — a vertical); ritmo = a organização temporal (pulso, métrica, andamento). A tríade básica de toda música.', // explicação
+    dica: 'Outros elementos: timbre (a cor do som — violino vs trompete na mesma nota), dinâmica (piano/forte), textura (monodia/polifonia/homofonia), forma (estrutura da obra). O compasso mede a métrica; o andamento, a velocidade.', // pegadinha
+    video: 'melodia harmonia ritmo elementos música' // busca no YouTube
+  },
+  {
+    id: 'ar85',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arquitetura — estilos',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A arquitetura modernista brasileira de Niemeyer se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'linhas retas só', // opção
+      'curvas plásticas em concreto armado — o "plano piloto" de Brasília com Lúcio Costa; Pampulha e as curvas inspiradas no corpo feminino', // correta
+      'estilo gótico', // opção
+      'madeira', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Niemeyer + Lúcio Costa (Brasília, 1960): a curva em concreto, pilotis, fachada livre — funcionalismo corbuserano com plasticidade tropical. Pampulha (1941) e a Cathedral de Brasília são os ícones.', // explicação
+    dica: 'Costa = urbanista (plano piloto em cruz); Niemeyer = arquiteto (os edifícios). Corbusier influenciou a dupla — Brasília é Patrimônio Mundial. O concreto armado permitiu as curvas e os pilotis característicos.', // pegadinha
+    video: 'niemeyer brasília arquitetura modernista curva' // busca no YouTube
+  },
+  {
+    id: 'ar86',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Dança — tipos',              // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O ballet clássico difere da dança contemporânea porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o ballet segue técnica rígida (cinco posições, ponta, codificado); a contemporânea liberta o corpo da técnica, explora peso, chão e improviso', // correta
+      'a contemporânea é só clássica', // opção
+      'o ballet é livre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ballet = codificação da corte francesa (Luís XIV): posições fechadas, sapatilha de ponta, a verticalidade contra o chão. Contemporânea = liberdade (Martha Graham, Pina Bausch): descalço, peso, respiração, chão.', // explicação
+    dica: 'O ballet vai "contra a gravidade" (leveza, ponta, salto); a contemporânea "com a gravidade" (chão, queda, peso). O balé russo (Diaghilev) e o neoclássico (Balanchine) são estágios intermediários.', // pegadinha
+    video: 'ballet clássico dança contemporânea diferença' // busca no YouTube
+  },
+  {
+    id: 'ar87',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cultura popular',            // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O cordel, o repente e o frevo são manifestações:', // pergunta
+    alternativas: [                     // opções
+      'europeias puras', // opção
+      'da cultura popular brasileira — literatura oral/escrita de folheto (cordel), improviso cantado (repente/cantoria) e dança/música de carnaval (frevo)', // correta
+      'de teatro', // opção
+      'acadêmicas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cultura popular = expressão do povo: cordel (Nordeste, folheto rimado), repente (improvisação de cantador), frevo (Pernambuco — som e dança acelerados), maracatu, bumba-meu-boi, congado, ciranda.', // explicação
+    dica: 'O frevo é Patrimônio da Humanidade (UNESCO 2012); o maracatu é da tradição afro de Recife (cortejo de rei congo). O repente é poesia improvisada em duelo — o cantador cria o verso na hora, com rima e desafio.', // pegadinha
+    video: 'cordel repente frevo cultura popular' // busca no YouTube
+  },
+  {
+    id: 'ar88',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Escultura e instalação',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "escultura" se diferencia da "instalação" porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a escultura é o objeto tridimensional autônomo; a instalação transforma um espaço inteiro em obra — o espectador entra e atravessa a obra', // correta
+      'a escultura é 2D', // opção
+      'a instalação é pintura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Escultura = volume (pedra, bronze, madeira) — objeto contido; instalação = ambiente imersivo construído no espaço, que envolve o público. A arte contemporânea amplia para land art, performance e videoarte.', // explicação
+    dica: 'Técnicas de escultura: modelagem (adiciona — argila), entalhe (subtrai — pedra/madeira), fundição (molde — bronze). A instalação é a obra do espaço; a land art usa a paisagem; a assemblage junta objetos encontrados.', // pegadinha
+    video: 'escultura instalação arte tridimensional' // busca no YouTube
+  },
+  {
+    id: 'ar89',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cinema — movimentos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O neorrealismo italiano (Rossellini, De Sica) revolucionou o cinema por:', // pergunta
+    alternativas: [                     // opções
+      'usar só estúdio', // opção
+      'filmar nas ruas, com atores não profissionais e a vida do povo pós-guerra — a pobreza real em vez da fantasia de Hollywood', // correta
+      'ser mudo', // opção
+      'ser só ação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Neorrealismo (Roma Cidade Aberta, Ladrões de Bicicleta — 1945-50): a rua como set, o ator comum, a vida do trabalhador — cinema como documento da realidade social. Influenciou o Cinema Novo brasileiro e a Nouvelle Vague.', // explicação
+    dica: 'Neorrealismo = realidade crua pós-guerra italiana; Nouvelle Vague francesa = autorialidade e montagem livre (Godard, Truffaut); Cinema Novo = a fome e o sertão brasileiros (Glauber). Todos reagiram à indústria.', // pegadinha
+    video: 'neorrealismo italiano rossellini cinema' // busca no YouTube
+  },
+  {
+    id: 'ar90',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Patrimônio cultural',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "patrimônio cultural imaterial" brasileiro inclui:', // pergunta
+    alternativas: [                     // opções
+      'só prédio histórico', // opção
+      'saberes, festas e ofícios — capoeira, frevo, artesanato de barro, tambor de crioula: a cultura viva que se transmite, protegida pelo IPHAN/UNESCO', // correta
+      'só igreja', // opção
+      'só museu', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Patrimônio imaterial = o saber fazer e a prática viva (não o objeto): capoeira, frevo, ofício das paneleiras, maracatu. O IPHAN registra; a UNESCO lista. O material = monumento, sítio, objeto (o tombamento protege).', // explicação
+    dica: 'Material = o bem físico (igreja, cidade histórica, sítio arqueológico — tombamento); imaterial = a prática/saber (dança, técnica, festa — registro). A preservação do imaterial exige transmissão viva, não só museu.', // pegadinha
+    video: 'patrimônio imaterial iphan unesco' // busca no YouTube
+  },
+  {
+    id: 'b84',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Genética — DNA e cromossomos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O DNA difere do RNA porque:', // pergunta
+    alternativas: [                     // opções
+      'são idênticos', // opção
+      'DNA = dupla hélice, desoxirribose, timina, fica no núcleo e guarda o código; RNA = fita simples, ribose, uracila no lugar da timina, executa a síntese', // correta
+      'o RNA é maior', // opção
+      'o DNA é de proteína', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DNA = arquivo: dupla hélice com A-T e C-G, desoxirribose, estável, nuclear. RNA = mensageiro: fita simples, ribose, U no lugar de T — mRNA leva a mensagem, tRNA traz o aminoácido, rRNA monta o ribossomo.', // explicação
+    dica: 'Transcrição = DNA→RNA (no núcleo); tradução = RNA→proteína (no ribossomo — citoplasma). O códon de 3 bases codifica um aminoácido. O DNA tem T, o RNA tem U — a troca é a pegadinha clássica.', // pegadinha
+    video: 'dna rna diferença transcrição tradução' // busca no YouTube
+  },
+  {
+    id: 'b85',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Microbiologia — vírus',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Ao contrário da bactéria, o vírus:', // pergunta
+    alternativas: [                     // opções
+      'é uma célula', // opção
+      'não é célula — é material genético em capa proteica (capsídeo) que só se reproduz dentro de uma célula hospedeira; antibiótico não funciona nele', // correta
+      'é maior', // opção
+      'tem núcleo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vírus = parasita intracelular obrigatório: DNA ou RNA + capsídeo — sem metabolismo próprio, "casa" na célula e a obriga a produzir cópias. Antibiótico ataca a parede bacteriana — por isso não funciona em vírus.', // explicação
+    dica: 'Antibiótico = para bactéria (mata a parede/célula procariótica); antiviral = para vírus (bloqueia a replicação). A vacina treina o imune contra o vírus antes da infecção. A bactéria se reproduz sozinha; o vírus precisa da célula.', // pegadinha
+    video: 'vírus bactéria diferença antibiótico' // busca no YouTube
+  },
+  {
+    id: 'b86',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Fotossíntese — equação',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A equação simplificada da fotossíntese é:', // pergunta
+    alternativas: [                     // opções
+      'glicose + O₂ → CO₂', // opção
+      '6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂ — o vegetal capta carbono do ar e água do solo para fabricar glicose e liberar oxigênio', // correta
+      'O₂ + CO₂ → glicose', // opção
+      'só luz', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fotossíntese = contrário da respiração: consome CO₂ e água com luz para produzir glicose e liberar O₂. A glicose é a fonte de energia do vegetal; o O₂ é subproduto da quebra da água.', // explicação
+    dica: 'Fotossíntese (entra CO₂, sai O₂ — na luz) vs respiração (entra O₂, sai CO₂ — todo ser vivo faz, planta também respira à noite). A clorofila capta a luz; a fotólise da água libera o O₂.', // pegadinha
+    video: 'fotossíntese equação co2 o2 glicose' // busca no YouTube
+  },
+  {
+    id: 'b87',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Ecologia — cadeia alimentar', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Numa cadeia alimentar, os produtores são:', // pergunta
+    alternativas: [                     // opções
+      'os carnívoros', // opção
+      'os autótrofos — plantas e algas que produzem matéria orgânica da inorgânica; os consumidores comem, e os decompositores reciclam', // correta
+      'os fungos', // opção
+      'os predadores', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Produtor (planta — fotossíntese) → consumidor primário (herbívoro) → secundário (carnívoro pequeno) → terciário (topo). Decompositor (fungo/bactéria) devolve nutriente ao solo. A energia diminui a cada nível (~10% passa).', // explicação
+    dica: 'Pirâmide energética: cada nível retém só ~10% da energia do anterior — por isso o topo tem poucos indivíduos. Teia alimentar = várias cadeias entrelaçadas (mais realista que a cadeia linear).', // pegadinha
+    video: 'cadeia alimentar produtor consumidor' // busca no YouTube
+  },
+  {
+    id: 'b88',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Genética — hereditariedade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Num cruzamento Aa × Aa, a proporção genotípica esperada é:', // pergunta
+    alternativas: [                     // opções
+      'todos Aa', // opção
+      '1 AA : 2 Aa : 1 aa — as combinações dos gametas dos dois pais heterozigotos; fenotipicamente, 3 com o traço dominante : 1 recessivo', // correta
+      '9:3:3:1', // opção
+      '50:50', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aa × Aa pelo quadro de Punnett: gametas A e a de cada pai → AA, Aa, Aa, aa. Genótipo 1:2:1; fenótipo 3:1 (se A domina a). É a base do mono-hibridismo mendeliano.', // explicação
+    dica: 'Teste de pais: dois fenótipos iguais gerando filho diferente = os pais eram heterozigotos (Aa×Aa) e o filho é aa recessivo. O 9:3:3:1 só aparece em dois genes (AaBb×AaBb — segunda lei).', // pegadinha
+    video: 'cruzamento mendel punnett genótipo' // busca no YouTube
+  },
+  {
+    id: 'b89',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Corpo humano — sistemas',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O sistema nervoso autônomo controla:', // pergunta
+    alternativas: [                     // opções
+      'o movimento voluntário', // opção
+      'as funções involuntárias — coração, digestão, respiração; o simpático acelera (luta/fuga) e o parassimpático desacelera (descanso/digestão)', // correta
+      'só o pensamento', // opção
+      'os ossos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sistema nervoso: central (cérebro+medula — processa), periférico somático (voluntário — músculo esquelético) e autônomo (involuntário — simpático acelera no stress, parassimpático acalma e digere).', // explicação
+    dica: 'Simpático = acelerador (pupila dilata, coração corre, digestão para); parassimpático = freio (pupila contrai, coração desacelera, digestão ativa). O peristaltismo intestinal é autônomo — não controlamos.', // pegadinha
+    video: 'sistema nervoso autônomo simpático' // busca no YouTube
+  },
+  {
+    id: 'b90',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Virologia — vacinas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A vacina protege porque:', // pergunta
+    alternativas: [                     // opções
+      'mata o vírus no corpo', // opção
+      'apresenta o antígeno ao sistema imune sem causar a doença — cria memória imunológica (células B e T) para responder rápido à infecção real', // correta
+      'é antibiótico', // opção
+      'cura a doença', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vacina = treino imunológico: antígeno atenuado, inativado ou fragmento (proteína spike, RNA mensageiro) ensina o corpo a produzir anticorpo e célula de memória. Na infecção real, a resposta é rápida e forte.', // explicação
+    dica: 'Tipos: atenuada (vírus vivo fraco — tríplice viral), inativada (vírus morto — Coronavac), subunitária (proteína), mRNA (Pfizer — instrução para produzir o antígeno), vetor viral (AstraZeneca — vírus inofensivo carrega o gene).', // pegadinha
+    video: 'vacina antígeno memória imunológica' // busca no YouTube
+  },
+  {
+    id: 'b91',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Botânica — tipos de plantas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre gimnosperma e angiosperma é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'gimnosperma = semente nua, sem fruto nem flor (pinheiro, cipreste); angiosperma = flor e semente dentro do fruto (a maioria das plantas)', // correta
+      'a angiosperma não tem flor', // opção
+      'a gimnosperma tem fruto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Evolução das plantas: briófita (musgo — sem vaso) → pteridófita (samambaia — vaso, sem semente) → gimnosperma (semente nua — pinho) → angiosperma (flor + fruto protegendo a semente — a mais evoluída e diversa).', // explicação
+    dica: '"Gymno" = nu (semente exposta na escama do pinha); "angio" = vaso (semente dentro do fruto). A angiosperma domina porque a flor atrai polinizador e o fruto dispersa a semente — coevolução com os animais.', // pegadinha
+    video: 'gimnosperma angiosperma semente fruto' // busca no YouTube
+  },
+  {
+    id: 'b92',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Evolução — Lamarck vs Darwin', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre Lamarck e Darwin na evolução é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'Lamarck = uso e desuso (o esforço gera o traço e se transmite — a girafa estica e herda); Darwin = seleção natural (a variação já existe; o ambiente seleciona a apta)', // correta
+      'Darwin dizia uso e desuso', // opção
+      'Lamarck aceitava seleção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lamarck (antes — 1809): a girafa que estica o pescoço passaria o pescoço longo ao filho (caráter adquirido herda — falso). Darwin (1859): as girafas variam; as de pescoço comprido comem melhor e deixam mais descendentes.', // explicação
+    dica: 'A epigenética deu nuance a Lamarck (marcas ambientais podem modular genes), mas o motor da evolução é darwiniano: variação hereditária + seleção. O lamarckismo clássico está refutado — o traço adquirido não se transmite.', // pegadinha
+    video: 'lamarck darwin evolução seleção natural' // busca no YouTube
+  },
+  {
+    id: 'b93',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Bioquímica — enzimas',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A enzima na célula funciona como:', // pergunta
+    alternativas: [                     // opções
+      'energia', // opção
+      'catalisador biológico — acelera a reação abaixando a energia de ativação, sem ser consumida; cada enzima é específica do seu substrato', // correta
+      'hormônio', // opção
+      'estrutura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Enzima = proteína catalisadora: o sítio ativo encaixa o substrato (modelo chave-fechadura ou encaixe induzido) e acelera a reação milhões de vezes. Não se gasta — pode repetir. pH e temperatura alteram a função.', // explicação
+    dica: 'Amilase (saliva — começa a digestão do amido), pepsina (estômago — proteína), lipase (gordura). A desnaturação (calor/pH extremo) destrói a forma e mata a função — por isso febre alta e pH errado são letais.', // pegadinha
+    video: 'enzima catalisador biológico substrato' // busca no YouTube
+  },
+  {
+    id: 'ef77',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Basquete — regras',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No basquete, a cesta vale:', // pergunta
+    alternativas: [                     // opções
+      'sempre 2 pontos', // opção
+      '1 ponto (lance livre), 2 pontos (dentro do arco) ou 3 pontos (atrás da linha de 3) — dependendo de onde foi arremessada', // correta
+      'sempre 3', // opção
+      'só 1', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pontuação do basquete: 1 = lance livre (falta); 2 = cesta de dentro do arco de três; 3 = atrás da linha de 6,75m (NBA 7,24m). O jogo tem 4 quartos de 10 min (FIBA) ou 12 min (NBA).', // explicação
+    dica: 'Falta técnica = 1 lance livre; falta comum em lance de cesta = 2 ou 3 lances. Empate = prorrogações de 5 min até decidir. O relógio de 24 segundos obriga o time a arremessar — segurar demais é infração.', // pegadinha
+    video: 'basquete pontuação 1 2 3 pontos' // busca no YouTube
+  },
+  {
+    id: 'ef78',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Vôlei — regras',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No vôlei, o líbero difere dos demais jogadores porque:', // pergunta
+    alternativas: [                     // opções
+      'ataca mais', // opção
+      'é especialista em recepção e defesa — usa camisa diferente, só atua no fundo, não saca nem bloqueia e substitui livremente o central', // correta
+      'levanta', // opção
+      'saca só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Líbero = posição criada para valorizar a defesa: camisa de cor diferente, só no fundo de quadra, substitui sem passar pela mesa, não pode sacar nem atacar acima da rede. O defensor puro.', // explicação
+    dica: 'Posições do vôlei: levantador (organiza), oposto (ataca contra o levantador), ponteiro (ataque pelos lados), central (bloqueio e ataque rápido no meio), líbero (defesa — não gira para a frente de rede).', // pegadinha
+    video: 'líbero vôlei posição defesa regras' // busca no YouTube
+  },
+  {
+    id: 'ef79',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Atletismo — provas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O decatlo no atletismo exige:', // pergunta
+    alternativas: [                     // opções
+      'só correr', // opção
+      '10 provas em 2 dias — corridas, saltos e arremessos combinados; o decatleta é o atleta "completo" (homens); o heptatlo é a versão feminina com 7 provas', // correta
+      'só saltar', // opção
+      'só arremessar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Decatlo = 10 provas (100m, 400m, 1500m, 110m com barreiras, salto em distância, altura, vara, peso, disco, dardo). Heptatlo = 7 (feminino). A soma dos pontos decide o campeão — exige versatilidade total.', // explicação
+    dica: 'Decatlo masculino = 10 provas; heptatlo feminino = 7. O vencedor é chamado "maior atleta do mundo" — domina velocidade, força e resistência. O pentatlo moderno (esgrima, natação, hipismo, tiro e corrida) é esporte distinto.', // pegadinha
+    video: 'decatlo heptatlo atletismo provas combinadas' // busca no YouTube
+  },
+  {
+    id: 'ef80',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Metodologia do treino',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os princípios da "sobrecarga" e da "especificidade" no treinamento significam:', // pergunta
+    alternativas: [                     // opções
+      'treinar tudo igual', // opção
+      'sobrecarga = o estímulo deve superar o habitual para gerar adaptação; especificidade = o treino deve reproduzir a demanda do esporte/goal', // correta
+      'descansar sempre', // opção
+      'treinar pouco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sobrecarga progressiva = aumentar gradualmente a carga para forçar a adaptação (supercompensação). Especificidade = o ganho é específico ao gesto treinado — nadar melhora a natação, não a corrida na mesma proporção.', // explicação
+    dica: 'Supercompensação = a recuperação após o estresse deixa o corpo acima do nível anterior. Os três princípios de ouro: sobrecarga (mais estímulo), especificidade (treine o gesto) e individualidade (cada um responde diferente).', // pegadinha
+    video: 'sobrecarga especificidade treinamento supercompensação' // busca no YouTube
+  },
+  {
+    id: 'ef81',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Lutas — artes marciais',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O judô, arte marcial criada por Jigoro Kano, se baseia em:', // pergunta
+    alternativas: [                     // opções
+      'só soco', // opção
+      'projeção, controle e estrangulamento/chave — usar a força do adversário contra ele ("o caminho da suavidade"); sem golpes traumáticos na competição', // correta
+      'só chute', // opção
+      'arma branca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Judô (Kano, 1882 — "ju" = suave): desequilibrar e projetar o oponente aproveitando seu ímpeto. Graduação por faixas; o dojo e o rei (etiqueta) são centrais. Os golpes traumáticos são proibidos na luta esportiva.', // explicação
+    dica: 'Judô vs jiu-jitsu brasileiro: o judô premia a queda perfeita (ippon); o BJJ (Gracie) segue no chão e vence pela finalização. O caratê usa golpes (punhos/pés); o aikido, a defesa; o taekwondo, os chutes altos.', // pegadinha
+    video: 'judô jigoro kano projeção caminho suave' // busca no YouTube
+  },
+  {
+    id: 'ef82',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Primeiros socorros',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na RCP (ressuscitação cardiopulmonar), as compressões devem ser:', // pergunta
+    alternativas: [                     // opções
+      'lentas e rasas', // opção
+      'firmes e rápidas no centro do peito — 100-120 por minuto, profundidade ~5cm, braços esticados, deixando o tórax expandir entre compressões', // correta
+      'na barriga', // opção
+      'só ventilação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'RCP: comprimir no centro do peito a 100-120/min com 5cm de profundidade — o ritmo da música "Stayin\' Alive". Compressão > ventilação para o leigo. O DEA (desfibrilador) deve ser acionado o quanto antes.', // explicação
+    dica: 'Sequência: checar responsividade → gritar por ajuda e ligar 192 (SAMU) → checar respiração → compressões. Não interromper. O DEA fala os passos. Posição lateral de segurança se respira mas está inconsciente.', // pegadinha
+    video: 'rcp compressão torácica primeiros socorros' // busca no YouTube
+  },
+  {
+    id: 'ef83',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Lazer e qualidade de vida',  // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A OMS recomenda de atividade física por semana para o adulto:', // pergunta
+    alternativas: [                     // opções
+      '30 minutos', // opção
+      '150 a 300 minutos de intensidade moderada (ou 75-150 de intensa) — mais 2 dias de fortalecimento muscular', // correta
+      'só fim de semana', // opção
+      '1 hora ao mês', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diretriz OMS 2020: 150-300 min/semana de moderada (caminhada rápida, bike leve) ou 75-150 de vigorosa (corrida), + força 2×/semana. O comportamento sedentário prolongado é fator de risco independente.', // explicação
+    dica: 'O sedentarismo mata mesmo quem treina: ficar sentado >8h/dia sem compensar aumenta risco cardiovascular — a "máquina de queimar" precisa de movimento ao longo do dia, não só da academia 1h.', // pegadinha
+    video: 'oms atividade física 150 minutos recomendação' // busca no YouTube
+  },
+  {
+    id: 'ef84',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Anatomia — músculos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os músculos do "core" são:', // pergunta
+    alternativas: [                     // opções
+      'só o bíceps', // opção
+      'o centro do corpo — abdominais, oblíquos, lombares e glúteos: estabilizam a coluna e transferem força entre membros superiores e inferiores', // correta
+      'só o peito', // opção
+      'só a perna', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Core = o "núcleo" (abdominal, oblíquo, eretor da espinha, glúteo, transverso): estabiliza a coluna e protege contra lesão. O treino de core melhora postura, equilíbrio e transferência de força.', // explicação
+    dica: 'Core ≠ só abdominal: engloba o cinto muscular do tronco inteiro — incluindo o transverso do abdome (o "cinto natural") e o assoalho pélvico. O core fraco é a raiz de muitas dores lombares.', // pegadinha
+    video: 'core músculos estabilização coluna' // busca no YouTube
+  },
+  {
+    id: 'ef85',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Recreação e jogos',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre "jogo" e "brincadeira" na educação física é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a brincadeira é livre e espontânea (regras negociadas na hora, sem ganhador final); o jogo tem regra, objetivo e resultado definidos', // correta
+      'o jogo é livre', // opção
+      'a brincadeira é esporte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brincadeira = atividade lúdica livre (faz-de-conta, pega-pega — a regra é combinada e mutável); jogo = estruturado (regra fixa, competição, vencedor); esporte = jogo institucionalizado com federação e treinamento sistemático.', // explicação
+    dica: 'Escala de formalidade: brincadeira (livre) → jogo (regra e objetivo) → esporte (institucionalizado, competição oficial). Na educação física escolar, a brincadeira e o jogo ensinam mais que o esporte precoce.', // pegadinha
+    video: 'jogo brincadeira diferença educação física' // busca no YouTube
+  },
+  {
+    id: 'ef86',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Avaliação física',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O IMC (índice de massa corporal) é calculado por:', // pergunta
+    alternativas: [                     // opções
+      'peso × altura', // opção
+      'peso ÷ altura² — kg/m²; classifica em baixo peso, normal, sobrepeso e obesidade, embora não meça a composição (músculo vs gordura)', // correta
+      'altura ÷ peso', // opção
+      'só o peso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'IMC = peso/(altura em metros)² — exemplo: 80kg e 1,70m = 80/2,89 ≈ 27,7 (sobrepeso). Limitação: não distingue músculo de gordura — um atleta musculoso pode ter IMC alto sem excesso de gordura.', // explicação
+    dica: 'Faixas: <18,5 magro, 18,5-24,9 normal, 25-29,9 sobrepeso, ≥30 obeso. Avaliações melhores de composição: bioimpedância, DEXA, medida da circunferência da cintura (>88cm mulher / >102cm homem = risco).', // pegadinha
+    video: 'imc cálculo massa corporal obesidade' // busca no YouTube
+  },
+  {
+    id: 's76',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Verbo — subjuntivo',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'El subjuntivo español se usa cuando:', // pergunta
+    alternativas: [                     // opções
+      'es un hecho cierto', // opção
+      'hay duda, deseo, posibilidad o irrealidad — "Espero que venga", "Dudo que sea verdad"; el indicativo para el hecho cierto', // correta
+      'es pasado sólo', // opção
+      'es orden directa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Subjuntivo = lo no-real: deseo (quiero que vayas), duda (no creo que sea), hipótesis, sentimiento, finalidad (para que). El indicativo narra hechos; el subjuntivo proyecta. Es la diferencia clave del español.', // explicação
+    dica: 'Disparadores del subjuntivo: quiero que, espero que, es importante que, dudo que, para que, antes de que, ojalá. El indicativo: es cierto que, creo que, sé que. La negación del indicativo a menudo exige subjuntivo.', // pegadinha
+    video: 'subjuntivo español cuándo usar deseo' // busca no YouTube
+  },
+  {
+    id: 's77',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Por y para',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'La diferencia entre "por" y "para" es:', // pergunta
+    alternativas: [                     // opções
+      'sin diferencia', // opção
+      'por = causa/medio/lugar aproximado/duración (por la noche, hecho por mí); para = destino/finalidad/objetivo (un regalo para ti, para llegar a tiempo)', // correta
+      'por = futuro', // opção
+      'para = pasado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Por = causa, medio, pasaje, duración, precio, cambio; para = destino, finalidad (in order to), destinatario, plazo límite. "Trabajo por dinero" (causa) vs "trabajo para vivir" (finalidad).', // explicação
+    dica: 'Trampa: "para" + infinitivo = finalidad (estudio para aprobar); "por" + infinitivo = causa (por fumar). "Para" = hacia dónde va; "por" = por dónde/causa. A por B = intercambio; para siempre = definitivo.', // pegadinha
+    video: 'por para diferencia español uso' // busca no YouTube
+  },
+  {
+    id: 's78',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Vocabulário — falsos amigos', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Ropa" en español significa:', // pergunta
+    alternativas: [                     // opções
+      'soga', // opção
+      'roupa — cognado verdadero; "ropa" ≠ "ropa/soga" (cuerda), "barata" = barato (no barata el insecto)', // correta
+      'corda', // opção
+      'cesto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Falsos amigos ES/PT: ropa = roupa; embarazada = grávida (no avergonzada); largo = comprido (no solto); sopa = sopa (no cena); oficina = escritório; exquisito = delicioso; sacar = tirar (no pagar).', // explicação
+    dica: 'Los clásicos: cena (cena vs cena=escena), borracho (borracho vs borracha=goma), salir (sair vs salir=salir), apellido (sobrenombre vs apellido), datos (dados vs datos=información).', // pegadinha
+    video: 'falsos amigos español portugués cognados' // busca no YouTube
+  },
+  {
+    id: 's79',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — ser vs estar',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Estoy cansado" usa "estar" porque el cansancio es:', // pergunta
+    alternativas: [                     // opções
+      'permanente', // opção
+      'temporal — estar expresa estado/condición y ubicación; ser expresa la esencia e identidad. "Soy cansado" sugeriría que la persona ES cansada por naturaleza', // correta
+      'una identidad', // opção
+      'un oficio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ser = esencia permanente (soy profesor, es grande); estar = estado transitorio y localización (estoy cansado, está en casa). Con adjetivos el verbo cambia el sentido: "es aburrido" (es aburrido por naturaleza) vs "está aburrido" (ahora está aburrido).', // explicação
+    dica: 'Regla de bolsillo: esencia/permanente = ser; estado/transitorio/lugar = estar. El verbo cambia el adjetivo: listo (ser=listo inteligente; estar=listo preparado), bueno (ser=bueno en sí; estar=rico, de comida), vivo (ser=vivo inteligente; estar=estar vivo).', // pegadinha
+    video: 'ser estar español diferencia permanente' // busca no YouTube
+  },
+  {
+    id: 's80',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Género — masculino/femenino', // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'El sustantivo "la mano" es femenino aunque termina en -o porque:', // pergunta
+    alternativas: [                     // opções
+      'es error', // opção
+      'hay excepciones al patrón -o masculino/-a femenino: la mano, la foto (fotografía), la moto, la radio; el problema, el mapa son masculinos', // correta
+      'es neutro', // opção
+      'no tiene género', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'La regla general: -o = masculino (el libro), -a = femenino (la mesa). Excepciones femeninas en -o: la mano, la foto, la moto, la radio (fotografía/motocicleta/radiodifusión abreviadas). Masculinos en -a: el día, el mapa, el problema.', // explicação
+    dica: 'Categorías que explican las excepciones: palabras de origen griego en -ma (problema, tema, idioma) = masculinas; abreviaturas femeninas (foto, moto) retienen el género original. Los -ción/-sión/-dad siempre femeninos.', // pegadinha
+    video: 'género sustantivo masculino femenino español' // busca no YouTube
+  },
+  {
+    id: 's81',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Tiempos — imperfecto',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"De niño, jugaba en el parque" usa el imperfecto porque:', // pergunta
+    alternativas: [                     // opções
+      'es acción única', // opção
+      'describe un hábito pasado o la situación de fondo — acciones repetidas o simultáneas en el pasado; el indefinido marca la acción única concluida', // correta
+      'es futuro', // opção
+      'es presente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Imperfecto = pasado descriptivo: hábito ("jugaba todos los días"), acción simultánea ("mientras yo dormía"), descripción ("hacía frío"), edad/tiempo. Indefinido = el evento puntual ("jugué ayer").', // explicação
+    dica: 'La foto del cine: el imperfecto es el fondo (la lluvia, la escena); el indefinido es el evento que irrumpe (entró, sonó el teléfono). "Caminaba cuando sonó" = imperfecto (fondo) + indefinido (evento).', // pegadinha
+    video: 'imperfecto indefinido pretérito español' // busca no YouTube
+  },
+  {
+    id: 's82',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Pronombres — lo/le',         // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'La diferencia entre "lo" y "le" como pronombres de complemento es:', // pergunta
+    alternativas: [                     // opções
+      'son iguales', // opção
+      'lo/la = complemento directo (veo la mesa→la veo); le/les = indirecto (le doy el libro A Juan) — en España el leísmo usa "le" para persona directa', // correta
+      'le es plural', // opção
+      'lo es indirecto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Directo (lo, la, los, las) = lo que recibe la acción; indirecto (le, les) = a quién/para quién. "Lo vi" (directo) vs "le hablé" (indirecto). El leísmo peninsular usa "le" para persona directa — aceptado en ese caso.', // explicação
+    dica: 'Test: sustituir por "eso" = directo (lo); "a él" = indirecto (le). "Le di un regalo" — a él recibe el regalo (indirecto); el regalo es lo directo (se lo di). En América "lo" predomina como directo siempre.', // pegadinha
+    video: 'lo la le pronombres directo indirecto' // busca no YouTube
+  },
+  {
+    id: 's83',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Ortografía — tildes',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'La tilde en español distingue palabras como:', // pergunta
+    alternativas: [                     // opções
+      'sin función', // opção
+      '"papá" (padre) vs "papa" (patata/papa romano); "tú" (pronombre) vs "tu" (posesivo); "sí" (afirmación) vs "si" (condicional) — la tilde cambia el significado', // correta
+      'sólo decoración', // opção
+      'el género', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tilde diacrítica: sí (sí mismo/afirmación) vs si (condicional); tú vs tu; él vs el; más vs mas (pero); mí vs mi. Regla general: palabras tónicas terminadas en -n, -s, vocal llevan tilde (canción, café); llanas en consonante distinta a -n/-s llevân tilde (lápiz).', // explicação
+    dica: 'Agudas (terminadas en n, s, vocal) = tilde; graves/llanas (n, s, vocal) = sin tilde, demás = con tilde; esdrújulas = siempre con tilde (médico, pájaro). La tilde diacrítica es la trampa: tú/tu, él/el, sí/si, más/mas.', // pegadinha
+    video: 'tilde español agudas graves esdrújulas' // busca no YouTube
+  },
+  {
+    id: 's84',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Literatura — Quijote',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'El Quijote de Cervantes (1605) es considerado la primera novela moderna porque:', // pergunta
+    alternativas: [                     // opções
+      'es solo romántica', // opção
+      'parodia las novelas de caballería — el héroe loco que confunde libros y realidad inaugura la novela realista y la ironía sobre la propia ficción', // correta
+      'es una fábula', // opção
+      'es un poema', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Don Quijote: Alonso Quijano enloquece leyendo libros de caballería y sale a "deshacer agravios" — confunde molinos con gigantes. Parodia de la literatura caballeresca + primera reflexión sobre ficción/realidad. Sancho Panza, su escudero.', // explicação
+    dica: 'La metáfora central: el caballero que lucha contra molinos de viento creyendo que son gigantes — la locura o la lucidez de un idealista frente al mundo. El libro es el canon de la literatura en español.', // pegadinha
+    video: 'quijote cervantes primera novela moderna' // busca no YouTube
+  },
+  {
+    id: 's85',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Conversación — registro',    // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'En una entrevista de trabajo en español, el registro apropiado es:', // pergunta
+    alternativas: [                     // opções
+      'usar "che"', // opção
+      'formal — "usted", frases completas, evitar argot; en Argentina "vos" es estándar, pero la cortesía manda en cualquier país', // correta
+      'muy informal', // opção
+      'usar muletillas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'El registro formal exige usted, vocabulario preciso y cortesía. Lo informal (tú/vos, che, güey, tío) es para amigos — la mezcla puede sonar grosera o ignorante según el contexto.', // explicação
+    dica: 'Voseo (vos tenés) = Argentina/Uruguay — estándar allí, no informal. "Che" = argentino; "tío" = España; "güey" = México — cada país tiene su marcador informal. La etiqueta de cortesía (por favor, con permiso, disculpe) trasciende región.', // pegadinha
+    video: 'registro formal usted entrevista español' // busca no YouTube
+  },
+  {
+    id: 'fl87',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Platão — mundo das formas',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "teoria das ideias" de Platão propõe que:', // pergunta
+    alternativas: [                     // opções
+      'a matéria é real', // opção
+      'o mundo sensível é sombra de um mundo de ideias perfeitas — o cavalo real é cópia imperfeita da Forma ideal do "cavalo"', // correta
+      'só existe o físico', // opção
+      'as ideias são falsas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Platão: o que vemos é cópia imperfeita das Formas eternas e imutáveis (a Ideia de cavalo, de beleza, de justiça). O conhecimento é reminiscência — a alma já viu as Formas antes de encarnar.', // explicação
+    dica: 'Alegoria da caverna (República VII): os prisioneiros veem sombras e tomam por realidade — o filósofo sai e vê o Sol (a verdade). O mundo sensível = dóxa (opinião); o inteligível = episteme (conhecimento).', // pegadinha
+    video: 'platão mundo ideias formas caverna' // busca no YouTube
+  },
+  {
+    id: 'fl88',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Descartes — cogito',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Cogito ergo sum" de Descartes fundamenta o conhecimento porque:', // pergunta
+    alternativas: [                     // opções
+      'é opinião', // opção
+      'mesmo duvidando de tudo, o "eu que duvido" prova que existo — a dúvida metódica chega à primeira verdade indubitável', // correta
+      'é religião', // opção
+      'é empirismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Descartes (Meditações): duvido de tudo — sentidos, sonho, gênio maligno — mas não posso duvidar que duvido; logo, penso, logo existo. O cogito é o fundamento indubitável do racionalismo moderno.', // explicação
+    dica: 'O dualismo de Descartes: res cogitans (coisa pensante — mente) vs res extensa (coisa extensa — matéria/corpo). A dúvida é metódica (instrumento de busca), não cética (não é o fim — é o meio de achar certeza).', // pegadinha
+    video: 'descartes cogito ergo sum dúvida' // busca no YouTube
+  },
+  {
+    id: 'fl89',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Nietzsche — vontade de potência', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "vontade de potência" de Nietzsche é:', // pergunta
+    alternativas: [                     // opções
+      'a vontade de ter poder político', // opção
+      'a força vital que cria valores e supera a si mesma — o impulso de expansão e criação que caracteriza a vida, não apenas o poder sobre os outros', // correta
+      'a preguiça', // opção
+      'a resignação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vontade de potência = o impulso fundamental da vida de crescer, criar e se superar — não só poder político. O "super-homem" (Übermensch) é quem cria seus próprios valores após "Deus estar morto".', // explicação
+    dica: 'Nietzsche: morte de Deus (o fundamento cristão colapsa) → niilismo (vazio de sentido) → super-homem (o que cria valor). Amor fati = amar o destino; eterno retorno = viver a vida como se ela se repetisse eternamente.', // pegadinha
+    video: 'nietzsche vontade potência super-homem' // busca no YouTube
+  },
+  {
+    id: 'fl90',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Existencialismo — Sartre',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"A existência precede a essência" de Sartre significa:', // pergunta
+    alternativas: [                     // opções
+      'nascemos prontos', // opção
+      'primeiro existimos, depois definimos quem somos — não há natureza humana prévia; o homem se faz pelas escolhas, condenado à liberdade', // correta
+      'a essência vem antes', // opção
+      'somos determinados', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sartre: ao contrário da cadeira (projetada antes de existir), o homem nasce sem essência predefinida — "condenado a ser livre". A má-fé = fingir que não se escolhe ("eu não tive opção"). Somos o que escolhemos.', // explicação
+    dica: 'Existencialismo = a angústia da liberdade total: não há Deus nem natureza para justificar — "a má-fé" é se esconder atrás de papel social ou desculpa. Camus (o absurdo) é o primo; Beauvoir estende ao feminismo.', // pegadinha
+    video: 'sartre existência precede essência existencialismo' // busca no YouTube
+  },
+  {
+    id: 'fl91',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Ética — utilitarismo vs deontologia', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença central entre utilitarismo e deontologia é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o utilitarismo julga pelo resultado (maior felicidade do maior número — Bentham/Mill); a deontologia julga pela intenção e o dever (Kant — o fim não justifica o meio)', // correta
+      'a deontologia ignora o dever', // opção
+      'o utilitarismo ignora o resultado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Utilitarismo = consequencialista: a ação certa maximiza a felicidade agregada. Deontologia (kantiana) = o dever e a intenção contam: algumas ações são erradas por natureza, independente do resultado.', // explicação
+    dica: 'O dilema do bonde: o utilitarista desvia (1 morte salva 5); o deontólogo resiste a usar a pessoa como meio. A ética da virtude (Aristóteles) é a terceira — o foco é o caráter do agente, não a regra nem o resultado.', // pegadinha
+    video: 'utilitarismo deontologia ética comparação' // busca no YouTube
+  },
+  {
+    id: 'fl92',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Filosofia política — estado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "contrato social" de Rousseau legitima o Estado por:', // pergunta
+    alternativas: [                     // opções
+      'a força do rei', // opção
+      'a vontade geral — o povo cede parte da liberdade natural em troca de segurança e viver em sociedade; a soberana é o povo, não o governante', // correta
+      'a religião', // opção
+      'a tradição', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rousseau: o homem nasce bom e livre — a sociedade o corrompe; o contrato legítimo é o que submete cada um à "vontade geral" (o bem comum, não a soma das vontades). O governante é mero servidor do povo soberano.', // explicação
+    dica: 'Os três contractualistas: Hobbes (estado de natureza = guerra de todos → Leviatã absoluto para a paz); Locke (direito natural preserva-se — contrato limita o poder); Rousseau (homem bom corrompido — vontade geral).', // pegadinha
+    video: 'contrato social rousseau hobbes locke' // busca no YouTube
+  },
+  {
+    id: 'fl93',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Metafísica — realidade',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "metafísica" como área da filosofia pergunta sobre:', // pergunta
+    alternativas: [                     // opções
+      'a física quântica', // opção
+      'o ser, o real e o que existe além do sensível — o que é a realidade, o tempo, o ser, a causa primeira: as perguntas últimas que vão além da física', // correta
+      'a ética', // opção
+      'a política', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Metafísica (do grego "além da física" — o livro de Aristóteles que vinha depois): o estudo do ser enquanto ser, da existência, das causas primeiras, do tempo e do espaço — o que há por trás do fenômeno.', // explicação
+    dica: 'Divisão da filosofia: metafísica (o que é o real), epistemologia (o que é o conhecimento), ética (o bem e o dever), lógica (o raciocínio válido), estética (o belo), filosofia política (a ordem justa).', // pegadinha
+    video: 'metafísica ser realidade aristóteles' // busca no YouTube
+  },
+  {
+    id: 'fl94',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Empirismo — Locke/Hume',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O empirismo de Locke e Hume afirma que todo conhecimento vem:', // pergunta
+    alternativas: [                     // opções
+      'da razão pura', // opção
+      'da experiência e dos sentidos — a mente nasce "tábula rasa" (sem ideias inatas); a impressão sensorial é a fonte de toda ideia', // correta
+      'da fé', // opção
+      'da revelação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Empirismo: sem sentidos não há ideias — Locke (a mente em branco), Berkeley (ser é ser percebido), Hume (o ceticismo levado ao fim: causalidade é hábito, não certeza). Contrasta com o racionalismo (Descartes, Leibniz).', // explicação
+    dica: 'Hume levou o empirismo ao limite: "o sol nascerá amanhã" é hábito, não necessidade — a indução é insegura. O ceticismo de Hume acordou Kant do "sono dogmático" — e levou à síntese racionalismo+empirismo kantiana.', // pegadinha
+    video: 'empirismo locke hume tábula rasa' // busca no YouTube
+  },
+  {
+    id: 'fl95',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Foucault — poder',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "vigilância e punição" de Foucault mostra o poder moderno como:', // pergunta
+    alternativas: [                     // opções
+      'só a força bruta', // opção
+      'difuso e disciplinar — o poder não está só no rei, mas na escola, o hospital, a prisão, o exército: redes que produzem "corpos dóceis" pelo olhar', // correta
+      'centralizado só', // opção
+      'inexistente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Foucault: o poder moderno deixou de ser o espetáculo da tortura para virar a vigilância interiorizada (panóptico — você se policia porque pode ser visto). Poder-saber: quem define o "normal" controla.', // explicação
+    dica: 'Panóptico = a prisão circular em que o guarda vê todos sem ser visto — metáfora do controle moderno (a câmera, o algoritmo). O sujeito se vigiaria sozinho — o mais eficaz dos poderes. Biopoder = o poder sobre a vida/população.', // pegadinha
+    video: 'foucault vigiar punir panóptico poder' // busca no YouTube
+  },
+  {
+    id: 'fl96',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Epistemologia — verdade',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A definição clássica de conhecimento como "crença verdadeira justificada" foi desafiada por:', // pergunta
+    alternativas: [                     // opções
+      'ninguém', // opção
+      'os contraexemplos de Gettier — casos em que a crença é verdadeira e justificada mas por acaso (coincidência), mostrando que a fórmula não basta', // correta
+      'Platão', // opção
+      'Descartes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gettier (1963): posso ter razão de crer p e p ser verdadeiro por acaso (o relógio parado que marca certo na hora certa). A crença é verdadeira e justificada — mas ninguém diria que é "conhecimento".', // explicação
+    dica: 'O problema de Gettier abalou a definição platônica — precisa-se de um quarto elemento: que a justificação esteja ligada causalmente à verdade (não acidental). Filosofia moderna ainda debate o que falta.', // pegadinha
+    video: 'problema gettier conhecimento justificado' // busca no YouTube
+  },
 ];
