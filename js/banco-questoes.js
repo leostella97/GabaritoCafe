@@ -48718,4 +48718,1334 @@ const BancoQuestoes = [
     dica: 'O problema de Gettier abalou a definição platônica — precisa-se de um quarto elemento: que a justificação esteja ligada causalmente à verdade (não acidental). Filosofia moderna ainda debate o que falta.', // pegadinha
     video: 'problema gettier conhecimento justificado' // busca no YouTube
   },
+  {
+    id: 'fs75',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Respiração — mecânica',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A inspiração (entrada do ar) acontece quando:', // pergunta
+    alternativas: [                     // opções
+      'o diafragma relaxa', // opção
+      'o diafragma CONTRAI e desce, ampliando o tórax — a pressão interna cai abaixo da atmosférica e o ar entra; a expiração relaxa', // correta
+      'o pulmão encolhe', // opção
+      'o coração bombeia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inspiração ativa = diafragma e intercostais contraem → tórax expande → pressão intrapulmonar < atmosférica → ar entra. Expiração normal é passiva = relaxamento, o ar sai. A troca gasosa real acontece no alvéolo.', // explicação
+    dica: 'Inspiração = ativa (músculo trabalha); expiração normal = passiva (relaxa e o ar sai). Na expiração forçada (tosse, exercício) o abdominal e intercostal interno trabalham. O CO₂ no sangue (não a falta de O₂) dispara a vontade de respirar.', // pegadinha
+    video: 'inspiração diafragma mecânica respiração' // busca no YouTube
+  },
+  {
+    id: 'fs76',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Rim — função renal',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O néfron, unidade funcional do rim, realiza:', // pergunta
+    alternativas: [                     // opções
+      'só filtrar', // opção
+      'filtração + reabsorção + secreção — filtra o plasma no glomérulo, reabsorve água e nutrientes no túbulo e secreta o excesso para formar a urina', // correta
+      'só absorver água', // opção
+      'só eliminar sal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Néfron: glomérulo filtra o sangue (~180L/dia de filtrado) → túbulo reabsorve 99% (glicose, água, sal) → secreta o excedente → urina (~1,5L). O hormônio ADH e a aldosterona ajustam a água e o sal.', // explicação
+    dica: 'A hemodiálise substitui a função do néfron na insuficiência renal — a máquina filtra o sangue artificialmente. O diabético perde glicose na urina porque a glicemia ultrapassa a capacidade de reabsorção do túbulo.', // pegadinha
+    video: 'néfron rim filtração reabsorção urina' // busca no YouTube
+  },
+  {
+    id: 'fs77',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sentidos — visão',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A miopia ocorre porque o olho:', // pergunta
+    alternativas: [                     // opções
+      'é curto demais', // opção
+      'é "longo" demais — a imagem se forma ANTES da retina, o que faz enxergar mal de longe; corrige com lente divergente', // correta
+      'não tem retina', // opção
+      'tem catarata', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Miopia = globo alongado ou córnea muito curva → foco à frente da retina → longe borrado (lente divergente/côncava). Hipermetropia = foco atrás → perto borrado (convergente). Astigmatismo = córnea irregular (cilíndrica).', // explicação
+    dica: 'Miopia = perto bem, longe mal (lente divergente "afasta"); hipermetropia = o inverso (convergente "aproxima"); presbiopia = "vista cansada" dos 40+ (o cristalino enrijece); astigmatismo = córnea deformada (cilíndrica).', // pegadinha
+    video: 'miopia hipermetropia astigmatismo lente' // busca no YouTube
+  },
+  {
+    id: 'fs78',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Homeostase — termorregulação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O hipotálamo controla a temperatura corporal atuando como:', // pergunta
+    alternativas: [                     // opções
+      'um pulmão', // opção
+      'um termostato — detecta a temperatura do sangue e dispara calafrio (gerar calor) ou suor/vasodilatação (perder calor) para manter ~36,5°C', // correta
+      'um filtro', // opção
+      'um osso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hipotálamo = centro regulador: temperatura, fome, sede, sono. Frio → vasoconstrição + calafrio; calor → vasodilatação + suor. A febre é o termostato reajustado para cima pelas citocinas inflamatórias.', // explicação
+    dica: 'Febre ≠ doença — é defesa: o corpo sobe o termostato para dificultar a vida do patógeno. O calafrio na febre é o corpo "esquentando para alcançar o novo set-point". Hipotermia <35°C e hipertermia >40°C são emergências.', // pegadinha
+    video: 'hipotálamo termorregulação febre homeostase' // busca no YouTube
+  },
+  {
+    id: 'fs79',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Reprodução — hormônios',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No ciclo menstrual, a ovulação ocorre por volta do:', // pergunta
+    alternativas: [                     // opções
+      '1º dia', // opção
+      '14º dia (num ciclo de 28) — o pico de LH rompe o folículo maduro e libera o óvulo; a janela fértil são os dias próximos a ela', // correta
+      'último dia', // opção
+      'dia da menstruação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ciclo de 28 dias: menstruação (dias 1-5) → fase folicular (FSH amadurece o folículo) → ovulação (pico de LH ~dia 14) → fase lútea (progesterona prepara o útero) → sem fecundação, a queda hormonal menstrua.', // explicação
+    dica: 'Os quatro hormônios: FSH (cresce o folículo), LH (dispara a ovulação), estrogênio (folículo produz — espessa o endométrio) e progesterona (corpo lúteo — mantém). A janela fértil é ~5 dias antes e o dia da ovulação.', // pegadinha
+    video: 'ciclo menstrual ovulação lh hormônios' // busca no YouTube
+  },
+  {
+    id: 'fs80',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Imunologia — anticorpos',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O anticorpo é uma proteína que:', // pergunta
+    alternativas: [                     // opções
+      'mata a célula', // opção
+      'liga-se especificamente ao antígeno do invasor — marca para destruição, neutraliza o patógeno e ativa o complemento; cada um reconhece um alvo', // correta
+      'produz sangue', // opção
+      'transporta oxigênio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anticorpo = imunoglobulina produzida pelo linfócito B: encaixa no antígeno (epítopo) como chave-fechadura — neutraliza, opsoniza (marca para o fagócito) e ativa complemento. Classes: IgG, IgM, IgA, IgE, IgD.', // explicação
+    dica: 'IgM = primeiro a aparecer na infecção aguda; IgG = o da memória e o que atravessa a placenta; IgA = mucosas e leite materno; IgE = alergia/parasita. O teste sorológico lê IgM (recente) vs IgG (passado/vacina).', // pegadinha
+    video: 'anticorpo antígeno imunoglobulina igg igm' // busca no YouTube
+  },
+  {
+    id: 'fs81',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Músculos — tipos',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os três tipos de músculo do corpo são:', // pergunta
+    alternativas: [                     // opções
+      'só esquelético', // opção
+      'esquelético (voluntário, estriado — ossos), cardíaco (coração — estriado involuntário) e liso (vísceras, vasos — liso involuntário)', // correta
+      'osso e pele', // opção
+      'um só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Esquelético = move o corpo (voluntário, estriado — o bíceps); cardíaco = só no coração (estriado, involuntário, marca-passo próprio); liso = órgãos internos (involuntário, sem estria — intestino, artéria, útero).', // explicação
+    dica: 'A fibra esquelética é dupla: tipo I (lenta — resistência, aeróbica, mais mitocôndria) e tipo II (rápida — força e explosão). O músculo cardíaco não descansa (marca-passo próprio) e o liso trabalha em contração lenta e sustentada.', // pegadinha
+    video: 'tipos músculo esquelético cardíaco liso' // busca no YouTube
+  },
+  {
+    id: 'fs82',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Digestão — enzimas',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A digestão das proteínas começa no estômago pela enzima:', // pergunta
+    alternativas: [                     // opções
+      'amilase', // opção
+      'pepsina — ativada pelo ácido clorídrico do suco gástrico, quebra as proteínas em peptídeos; a amilase (saliva) digere carboidrato', // correta
+      'lipase', // opção
+      'lactase', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estômago: HCl + pepsina digerem proteína; saliva: amilase digere amido; pâncreas/intestino: tripsina, lipase e outras terminam. A bile (fígado→vesícula) emulsifica a gordura — não é enzima, é detergente.', // explicação
+    dica: 'Amilase = carboidrato (saliva + pâncreas); pepsina/tripsina = proteína (estômago + pâncreas); lipase = gordura (pâncreas); lactase = lactose (intestino — quem não a produz é intolerante). A bile emulsifica sem digerir.', // pegadinha
+    video: 'pepsina digestão proteína estômago enzima' // busca no YouTube
+  },
+  {
+    id: 'fs83',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Endócrino — glândulas',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A glândula "mestra" que controla as demais endócrinas é:', // pergunta
+    alternativas: [                     // opções
+      'a tireoide', // opção
+      'a hipófise (pituitária) — sob comando do hipotálamo, libera TSH, GH, ACTH, LH/FSH que regulam tireoide, crescimento, adrenal e reprodução', // correta
+      'o pâncreas', // opção
+      'o rim', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Hipotálamo → hipófise → glândula periférica (tireoide, adrenal, gônada) — eixo hormonal hierárquico com feedback negativo. A hipófise libera: GH (crescimento), TSH (tireoide), ACTH (cortisol), LH/FSH (reprodução), prolactina.', // explicação
+    dica: 'Feedback negativo = o hormônio final inibe a produção: T3/T4 alto ↓TSH; cortisol alto ↓ACTH. O hipotálamo é o "chefe" que lê o corpo e manda a hipófise liberar — a hipófise é a "mestra" que comanda as glândulas.', // pegadinha
+    video: 'hipófise glândula mestra hipotálamo' // busca no YouTube
+  },
+  {
+    id: 'fs84',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Neurofisiologia — sinapse',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A sinapse entre dois neurônios transmite o sinal por:', // pergunta
+    alternativas: [                     // opções
+      'eletricidade direta', // opção
+      'neurotransmissor químico — o impulso elétrico libera vesículas no terminal; o mensageiro atravessa a fenda e ativa o receptor do neurônio seguinte', // correta
+      'sangue', // opção
+      'som', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sinapse química: potencial de ação chega ao terminal → vesícula libera neurotransmissor na fenda sináptica → liga ao receptor pós-sináptico → novo sinal. Dopamina, serotonina, GABA, glutamato são os mensageiros.', // explicação
+    dica: 'A fenda é o ponto do remédio psiquiátrico: o SSRI bloqueia a recaptação da serotonina (ela fica mais tempo na fenda); a cocaína bloqueia a da dopamina. Sinapse elétrica (junção) existe — direta e mais rápida, no coração.', // pegadinha
+    video: 'sinapse neurotransmissor neurônio fenda' // busca no YouTube
+  },
+  {
+    id: 'f78',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Mecânica — trabalho',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O trabalho de uma força em física é:', // pergunta
+    alternativas: [                     // opções
+      'só o esforço', // opção
+      'a força aplicada vezes o deslocamento na direção dela (τ = F·d·cosθ) — se não há deslocamento ou a força é perpendicular, o trabalho é zero', // correta
+      'a energia total', // opção
+      'a velocidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Trabalho (Joule) = força × deslocamento × cos do ângulo. Segurar uma mala parado cansa mas o trabalho físico é zero (sem deslocamento); a força centrípeta nunca faz trabalho (perpendicular à velocidade).', // explicação
+    dica: 'Carregar peso parado = trabalho físico ZERO apesar do cansaço (músculo gasta energia interna, mas não desloca). A energia cinética muda igual ao trabalho: Ec = mv²/2 — "trabalho é energia em trânsito".', // pegadinha
+    video: 'trabalho força deslocamento joule física' // busca no YouTube
+  },
+  {
+    id: 'f79',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Termodinâmica — leis',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A 2ª lei da termodinâmica estabelece que:', // pergunta
+    alternativas: [                     // opções
+      'energia se conserva', // opção
+      'a entropia (desordem) do universo sempre aumenta — o calor flui do quente para o frio espontaneamente, nunca o contrário sem trabalho', // correta
+      'tudo é possível', // opção
+      'o calor para', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '2ª lei: a entropia só cresce — processos irreversíveis. Calor nunca vai do frio ao quente espontaneamente (a geladeira usa trabalho). Nenhuma máquina térmica converte 100% do calor em trabalho — é o limite do rendimento.', // explicação
+    dica: '1ª lei = conservação de energia (a energia muda de forma); 2ª = o sentido (entropia cresce — a seta do tempo); 3ª = o zero absoluto é inatingível. O moto-perpétuo é impossível pela 2ª lei — sempre se perde calor.', // pegadinha
+    video: 'segunda lei termodinâmica entropia' // busca no YouTube
+  },
+  {
+    id: 'f80',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Óptica — lentes',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A lente convergente forma imagem real e invertida quando:', // pergunta
+    alternativas: [                     // opções
+      'o objeto está entre o foco e a lente', // opção
+      'o objeto está além do foco — os raios convergem e projetam a imagem invertida do outro lado; dentro do foco, a imagem é virtual e direita (lupa)', // correta
+      'sempre', // opção
+      'nunca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lente convergente (biconvexa): objeto além do foco → imagem real e invertida (projetável — o cinema e a retina); objeto dentro do foco → virtual, direita e ampliada (a lupa). A câmera e o olho usam a convergente.', // explicação
+    dica: 'Convergente = bordas finas (junta raios — miopia e hipermetropia dependem dela); divergente = bordas grossas (separa raios — só imagem virtual e menor). No olho, a imagem na retina é real e INVERTIDA — o cérebro desvira.', // pegadinha
+    video: 'lente convergente imagem real virtual' // busca no YouTube
+  },
+  {
+    id: 'f81',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Eletricidade — potência',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um chuveiro de 5500W ligado 30 minutos consome:', // pergunta
+    alternativas: [                     // opções
+      '11 kWh', // opção
+      '2,75 kWh — energia = potência × tempo = 5,5kW × 0,5h; a conta de luz cobra o kWh consumido', // correta
+      '5,5 kWh', // opção
+      '0,5 kWh', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Energia = Potência × tempo: 5500W = 5,5kW × 0,5h = 2,75kWh. O kWh é a unidade de energia que a concessionária cobra (~R$0,80-1,20). O chuveiro é o maior vilão doméstico — potência altíssima para aquecer água.', // explicação
+    dica: 'kWh = unidade de energia, não de potência (watt). Chuveiro (5500W), ar-condicionado (1200W), geladeira (ligada sempre) são os maiores consumidores. Led de 10W que liga 8h/dia = 2,4kWh/mês — bem menos que o chuveiro de 30min/dia.', // pegadinha
+    video: 'potência energia kwh chuveiro conta' // busca no YouTube
+  },
+  {
+    id: 'f82',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Cinemática — movimento',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'No MRU (movimento retilíneo uniforme), a velocidade é:', // pergunta
+    alternativas: [                     // opções
+      'variável', // opção
+      'constante — a posição varia linearmente com o tempo (s = s₀ + vt); não há aceleração', // correta
+      'zero', // opção
+      'crescente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MRU: velocidade constante, aceleração zero — a distância cresce em linha reta com o tempo. MRUV: velocidade muda com aceleração constante (queda livre — gravidade ~9,8m/s²). O gráfico do MRU é uma reta inclinada.', // explicação
+    dica: 'MRU = v constante, a = 0 (cruzeiro na rodovia); MRUV = a constante, v muda (queda livre, frenagem); movimento circular = velocidade muda de DIREÇÃO mesmo com rapidez constante — é acelerado (centrípeta).', // pegadinha
+    video: 'mru velocidade constante movimento' // busca no YouTube
+  },
+  {
+    id: 'f83',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Ondas — luz',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A luz difere do som porque:', // pergunta
+    alternativas: [                     // opções
+      'é mais lenta', // opção
+      'é onda eletromagnética — viaja no vácuo (~300.000 km/s); o som é onda mecânica, precisa de meio material e não se propaga no vácuo', // correta
+      'precisa de ar', // opção
+      'são iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Luz = onda eletromagnética (campo elétrico+magnético — viaja no vácuo a 300.000 km/s); som = onda mecânica longitudinal (vibração de partículas — 340 m/s no ar, precisa de meio). Por isso o raio é visto antes de ouvido.', // explicação
+    dica: 'Velocidade do som: ar ~340m/s → água ~1.500 → aço ~5.000 (mais rápido no meio mais denso/rígido — as partículas estão mais juntas). A luz é o oposto: mais rápida no vácuo, mais lenta na água/vidro (é a refração).', // pegadinha
+    video: 'luz som onda mecânica eletromagnética' // busca no YouTube
+  },
+  {
+    id: 'f84',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Energia — conservação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Na montanha-russa, a energia potencial do topo se converte em:', // pergunta
+    alternativas: [                     // opções
+      'térmica só', // opção
+      'energia cinética — quanto mais baixo o carrinho, mais rápido: Ep = mgh no alto vira Ec = mv²/2 no vale (com perda por atrito)', // correta
+      'nuclear', // opção
+      'química', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conservação de energia mecânica: no alto, energia potencial máxima (mgh); na descida, converte em cinética (mv²/2) — ponto mais baixo = velocidade máxima. O atrito e a resistência do ar perdem parte como calor.', // explicação
+    dica: 'No ponto mais alto o carrinho é mais LENTO (Epotencial máxima, cinética mínima) — por isso a queda mais íngreme garante a velocidade do loop. Sem atrito, a altura de volta seria igual à de saída.', // pegadinha
+    video: 'energia potencial cinética montanha russa' // busca no YouTube
+  },
+  {
+    id: 'f85',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Estática — equilíbrio',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O princípio da alavanca (Arquimedes) permite:', // pergunta
+    alternativas: [                     // opções
+      'criar energia', // opção
+      'multiplicar força — o braço mais longo do ponto de apoio amplifica a força aplicada; a vantagem mecânica equilibra peso grande com força pequena', // correta
+      'eliminar o peso', // opção
+      'gerar movimento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Alavanca: "Deem-me um ponto de apoio e moverei o mundo" — força×braço = torque; braço maior equilibra peso maior. Três classes: interfixa (balança), inter-resistente (carrinho de mão) e interpotente (pinça, antebraço).', // explicação
+    dica: 'O torque = força × distância do eixo — abrir a porta perto da maçaneta (longe da dobradiça) é fácil; perto da dobradiça, quase impossível. O antebraço humano é alavanca interpotente — troca força por amplitude de movimento.', // pegadinha
+    video: 'alavanca torque vantagem mecânica arquimedes' // busca no YouTube
+  },
+  {
+    id: 'f86',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Eletromagnetismo',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O gerador elétrico funciona pelo princípio da:', // pergunta
+    alternativas: [                     // opções
+      'fricção', // opção
+      'indução eletromagnética — girar a bobina dentro do campo magnético (ou o ímã dentro da bobina) induz corrente: mecânica → elétrica', // correta
+      'reação química', // opção
+      'luz', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Faraday: a variação do fluxo magnético através da espira induz corrente — girar turbina + ímã = eletricidade. O motor é o inverso: corrente + campo = movimento. O transformador usa indução para mudar a tensão.', // explicação
+    dica: 'Gerador (mecânica→elétrica, indução de Faraday) vs motor (elétrica→mecânica, força magnética). O transformador funciona só com corrente ALTERNADA — precisa da variação do fluxo, a contínua não induz no secundário.', // pegadinha
+    video: 'indução eletromagnética gerador faraday' // busca no YouTube
+  },
+  {
+    id: 'f87',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Física moderna — relatividade', // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'E = mc² de Einstein significa que:', // pergunta
+    alternativas: [                     // opções
+      'massa e energia são diferentes', // opção
+      'massa e energia são equivalentes — a massa pode virar energia e vice-versa; uma pequena massa gera energia gigante porque c² é enorme', // correta
+      'a luz é lenta', // opção
+      'o tempo para', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'E=mc²: energia = massa × (velocidade da luz)² — 1kg equivale a ~9×10¹⁶ J. A fissão nuclear e o Sol funcionam assim: a massa do produto é menor que a dos reagentes — a diferença vira energia.', // explicação
+    dica: 'c² ≈ 9×10¹⁶ m²/s² — o número gigante explica por que pouco material vira energia imensa (bomba nuclear = ~1% da massa convertida). A relatividade também prediz a dilatação do tempo: quem se move rápido envelhece mais devagar.', // pegadinha
+    video: 'e igual mc2 einstein massa energia' // busca no YouTube
+  },
+  {
+    id: 'h75',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Colônia — economia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O sistema colonial português no Brasil era baseado em:', // pergunta
+    alternativas: [                     // opções
+      'indústria livre', // opção
+      'plantation escravista + exclusivo metropolitano — monocultura exportadora (açúcar, ouro) com mão de obra escravizada e o comércio monopolizado por Portugal', // correta
+      'feudalismo', // opção
+      'livre comércio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Colônia de exploração: plantation (latifúndio monocultor), escravidão africana e exclusivo metropolitano (só Portugal comercia). O complemento do mercantilismo — a colônia existe para enriquecer a metrópole.', // explicação
+    dica: 'Ciclos coloniais: pau-brasil (extrativo) → açúcar (engenho, escravo) → ouro (Minas, séc. XVIII — migração e despovoamento do Nordeste). O "exclusivo" era o monopólio — comerciar com outros países era contrabando.', // pegadinha
+    video: 'colônia plantation exclusivo metropolitano' // busca no YouTube
+  },
+  {
+    id: 'h76',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Abolição — processo',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A abolição da escravidão no Brasil (1888) foi:', // pergunta
+    alternativas: [                     // opções
+      'com indenização', // opção
+      'a última das Américas — a Lei Áurea libertou sem indenizar o senhor nem amparar o liberto: o negro foi jogado à marginalidade sem terra nem trabalho', // correta
+      'a primeira', // opção
+      'um processo lento só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lei Áurea (13/05/1888, Princesa Isabel) — Brasil foi o último país das Américas a abolir. Sem indenização ao senhor, mas também sem política de integração — o liberto foi para a favela e o trabalho precário.', // explicação
+    dica: 'A escravidão se desmontou por etapas: Lei do Ventre Livre (1871 — filho de escrava nascia livre), Sexagenários (1885 — liberto aos 60), Áurea (1888). O racismo estrutural de hoje é herança da "abolição sem inclusão".', // pegadinha
+    video: 'lei áurea abolição escravidão 1888' // busca no YouTube
+  },
+  {
+    id: 'h77',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Independência — processo',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A vinda da corte portuguesa ao Brasil (1808) mudou o país porque:', // pergunta
+    alternativas: [                     // opções
+      'não mudou nada', // opção
+      'o Brasil virou sede do Império — D. João abriu os portos, criou banco, imprensa e escolas; quando a corte voltou, o Brasil era reino unido e a Independência se separou "conservadoramente"', // correta
+      'o Brasil virou colônia de novo', // opção
+      'acabou o escravo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '1808: D. João foge de Napoleão para o Rio — a colônia vira centro do Império. Abertura dos portos, Banco do Brasil, Imprensa, Escola de Medicina. 1815: Reino Unido. 1821: corte volta, D. Pedro fica — 1822, "Fico" e Independência.', // explicação
+    dica: 'A independência brasileira foi "conservadora": feita pelo príncipe português (D. Pedro virou imperador) mantendo escravidão, latifúndio e elite — diferente das independências hispânicas, que foram guerra de libertação.', // pegadinha
+    video: 'corte portuguesa 1808 dom joão brasil' // busca no YouTube
+  },
+  {
+    id: 'h78',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'República — Proclamação',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Proclamação da República (1889) foi:', // pergunta
+    alternativas: [                     // opções
+      'revolução popular', // opção
+      'um golpe militar de elites — Marechal Deodoro derrubou o Império sem participação popular; os "dois povos" (militar positivista + cafeicultor) fizeram a República', // correta
+      'a vontade do povo', // opção
+      'uma eleição', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '15/11/1889 = golpe militar: o Exército insatisfeito + cafeicultores republicanos depuseram Pedro II sem luta popular (o povo assistiu "bestializado"). República de cima para baixo — positivismo e oligarchia.', // explicação
+    dica: 'A República de 1889 não foi revolução democrática — foi troca de regime pelas elites. O povo não participou (o "bestializado" de Euclides). O positivismo militar e o interesse dos cafeicultores se uniram contra o Império.', // pegadinha
+    video: 'proclamação república 1889 deodoro golpe' // busca no YouTube
+  },
+  {
+    id: 'h79',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Era Vargas — trabalho',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A CLT (Consolidação das Leis do Trabalho, 1943) de Vargas foi:', // pergunta
+    alternativas: [                     // opções
+      'conquista sindical', // opção
+      'concessão do Estado — os direitos trabalhistas foram dados pelo Estado Novo, não arrancados: criou vínculo direto entre o líder e o trabalhador', // correta
+      'a Constituição', // opção
+      'lei dos empresários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CLT de 1943: férias, jornada 8h, salário mínimo, descanso semanal — dados de cima. O objetivo era domesticar o operariado e controlar os sindicatos (imposto sindical, sindicato subordinado ao Ministério do Trabalho).', // explicação
+    dica: 'O trabalhismo de Vargas foi paternalista: direito dado em troca de controle. A Justiça do Trabalho protege, mas o sindicato era tutelado pelo Estado. O "pai dos pobres" governava o trabalhador sem deixar que ele se organizasse.', // pegadinha
+    video: 'clt vargas 1943 direitos trabalhistas' // busca no YouTube
+  },
+  {
+    id: 'h80',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Guerra do Paraguai',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Guerra do Paraguai (1864-1870) foi:', // pergunta
+    alternativas: [                     // opções
+      'contra a Argentina só', // opção
+      'o maior conflito armado da América do Sul — a Tríplice Aliança (Brasil, Argentina, Uruguai) contra o Paraguai de Solano López; o país foi devastado', // correta
+      'uma rebelião interna', // opção
+      'a independência', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Tríplice Aliança destruiu o Paraguai — ~60% da população paraguaia morreu, o território foi desmembrado. No Brasil, a guerra legitimou o Exército (origem da politização militar) e financiou o Estado Imperial.', // explicação
+    dica: 'A guerra é controversa: Solano López atacou, mas a destruição total do Paraguai beneficiou os interesses do Brasil e da Argentina (e, segundo alguns, do capital inglês). No Brasil, a guerra adiou a discussão da República e da escravidão.', // pegadinha
+    video: 'guerra paraguai tríplice aliança solano lopez' // busca no YouTube
+  },
+  {
+    id: 'h81',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'História — mineradora',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Inconfidência Mineira (1789) foi:', // pergunta
+    alternativas: [                     // opções
+      'revolta de escravos', // opção
+      'a conspiração da elite mineradora contra a derrama portuguesa — intelectuais, militares e o alferes Tiradentes, que virou mártir da independência', // correta
+      'uma guerra civil', // opção
+      'um sucesso imediato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inconfidência = elite colonial (elite mesmo: padres, militares, doutores) frustrada com a derrama — a cobrança forçada do ouro devido. Traída, Tiradentes foi enforcado e esquartejado; os demais foram degredados.', // explicação
+    dica: 'A Inconfidência foi da ELITE (não popular) — só Tiradentes pagou com a vida (virou mártir). A Conjuração Baiana (1798) era popular e queria a abolição — seus líderes eram alfaiates e soldados pobres, e todos foram executados.', // pegadinha
+    video: 'inconfidência mineira tiradentes derrama' // busca no YouTube
+  },
+  {
+    id: 'h82',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'República — coronelismo',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O coronelismo na República Velha era:', // pergunta
+    alternativas: [                     // opções
+      'a democracia rural', // opção
+      'o poder do chefe local — o coronel controlava o voto de cabresto, a justiça e a polícia local em troca de favores: a política da intimidação e do favor', // correta
+      'o sindicato', // opção
+      'a eleição livre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Coronelismo = o latifundiário local mandava no município — o "voto de cabresto" (o eleitor votava quem o coronel mandava, pois o voto era aberto). Em troca, o coronel dava emprego, proteção e o médico local.', // explicação
+    dica: 'O sistema República Velha: voto aberto + coronel + fraude eleitoral = o voto de cabresto. A aliança com o governo central ("política dos governadores") sustentava o café-com-leite. O voto secreto (1932) e a Justiça Eleitoral enfraqueceram o coronel.', // pegadinha
+    video: 'coronelismo voto cabresto república velha' // busca no YouTube
+  },
+  {
+    id: 'h83',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura — anos de chumbo',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "milagre econômico" (1969-73) da ditadura combinou:', // pergunta
+    alternativas: [                     // opções
+      'crescimento com liberdade', // opção
+      'alto crescimento com repressão máxima e arrocho salarial — o PIB cresceu ~10%/ano enquanto os salários caíam e a tortura era sistemática', // correta
+      'só a pobreza', // opção
+      'a democracia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O "milagre" (governo Médici): crescimento acelerado por investimento externo e obra faraônica (Transamazônica, ponte Rio-Niterói) — com arrocho salarial, concentração de renda e os "anos de chumbo" da repressão. A bomba veio na dívida dos anos 80.', // explicação
+    dica: 'O milagre era crescimento SEM distribuição — o bolo cresceu mas a fatia do trabalhador encolheu (arrocho). A propaganda oficial vendia prosperidade enquanto a repressão alcançava o ápice. A dívida externa que explodiu depois nasceu do milagre.', // pegadinha
+    video: 'milagre econômico ditadura arrocho salarial' // busca no YouTube
+  },
+  {
+    id: 'h84',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Redemocratização',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Constituição de 1988, "Constituição Cidadã", marcou:', // pergunta
+    alternativas: [                     // opções
+      'a ditadura', // opção
+      'a redemocratização — a Constituinte de 1987-88 restaurou direitos, criou o Estado de bem-estar (SUS, previdência), a cidadania e o controle do poder; a "mãe" da democracia atual', // correta
+      'o autoritarismo', // opção
+      'a monarquia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CF 1988 = a Constituição da redemocratização: voto direto, direitos sociais amplos (saúde pública, educação, previdência), garantias individuais, autonomia municipal. Apelidada "Cidadã" por Ulysses Guimarães.', // explicação
+    dica: 'A CF 88 virou o patamar: criou o SUS, a LDB, o Ministério Público independente e a OAB como entidade. Mas a desigualdade persistiu — "democracia política sem democracia social". As PECs a emendam desde então (150+).', // pegadinha
+    video: 'constituição 1988 cidadã redemocratização' // busca no YouTube
+  },
+  {
+    id: 'e75',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — articles',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'The difference between "a" and "an" in English is:', // pergunta
+    alternativas: [                     // opções
+      'a = plural', // opção
+      'a before consonant sound, an before vowel sound — "a university" (consonant sound "yoo"), "an hour" (vowel sound — silent h)', // correta
+      'an = plural', // opção
+      'no difference', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A/an follow SOUND not spelling: "a university" (yoo — consonant), "an hour" (vowel), "an MBA" (em — vowel). "The" = definite article (specific); "a/an" = indefinite (any).', // explicação
+    dica: 'Classic traps: "an honest man" (h mudo), "a European" (yoor — consonant), "an SOS" (es-vowel). The zero article: general/plural concepts (Dogs are loyal), most names (Brazil, John — but the United States, the Amazon).', // pegadinha
+    video: 'a an the articles english grammar' // busca no YouTube
+  },
+  {
+    id: 'e76',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulary — idioms',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"It\'s raining cats and dogs" means:', // pergunta
+    alternativas: [                     // opções
+      'animals are falling', // opção
+      'it\'s raining heavily — idioms não se traduzem ao pé da letra; equivale ao nosso "chovendo canivetes/a potes"', // correta
+      'a storm is coming', // opção
+      'it\'s hot', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Idiom = expressão fixa cujo sentido não se deduz das palavras: raining cats and dogs = chovendo muito; break a leg = boa sorte; piece of cake = muito fácil; hit the books = estudar.', // explicação
+    dica: 'Costume da prova: "cost an arm and a leg" (custar caro), "under the weather" (indisposto), "spill the beans" (revelar segredo), "the ball is in your court" (a decisão é sua). Idioms exigem memória, não dedução.', // pegadinha
+    video: 'english idioms raining cats dogs meaning' // busca no YouTube
+  },
+  {
+    id: 'e77',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — present perfect',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"She ___ here since 2010" — the correct verb is:', // pergunta
+    alternativas: [                     // opções
+      'lives', // opção
+      'has lived — present perfect com "since/for" indica ação que começou no passado e continua até agora', // correta
+      'lived', // opção
+      'is living', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Since/for + present perfect = ação do passado que continua: "since 2010" (ponto de início), "for 14 years" (duração). "I have lived here for 10 years" — ainda moro.', // explicação
+    dica: 'Since = ponto de partida (since Monday, since 2010); for = duração (for two days, for years). Present perfect + since/for é o uso clássico; "How long have you been...?" é a pergunta equivalente.', // pegadinha
+    video: 'present perfect since for duration' // busca no YouTube
+  },
+  {
+    id: 'e78',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulary — synonyms',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'The closest synonym to "ubiquitous" is:', // pergunta
+    alternativas: [                     // opções
+      'rare', // opção
+      'omnipresent/everywhere — present in all places at once: "Smartphones are ubiquitous today"', // correta
+      'unique', // opção
+      'obsolete', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ubiquitous = presente em todo lugar ao mesmo tempo — ubíquo. Cognatos ajudam: ubiquitous/ubíquo, ambiguous/ambíguo, notorious/notório, inevitable/inevitável — mas falsos como "pretend" e "actually" enganam.', // explicação
+    dica: 'Estratégia de prova: cognatos verdadeiros costumam ser a resposta em textos acadêmicos (significant, consequence, evidence). O falso cognato é a armadilha — "eventually" = finalmente (não eventualmente); "deceive" = enganar.', // pegadinha
+    video: 'vocabulary synonyms ubiquitous english' // busca no YouTube
+  },
+  {
+    id: 'e79',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — passive voice',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"The book was written by Machado de Assis" is passive voice. The active voice is:', // pergunta
+    alternativas: [                     // opções
+      'The book writes Machado', // opção
+      'Machado de Assis wrote the book — a voz ativa traz o agente como sujeito; na passiva, o objeto da ação vira o sujeito', // correta
+      'Machado is writing the book', // opção
+      'The book writes itself', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Active→Passive: o objeto da ativa vira sujeito da passiva; o verbo vai para "be + particípio"; o agente (se aparecer) vem com "by". A passiva desloca o foco para a ação/resultado.', // explicação
+    dica: 'Quando usar a passiva: agente desconhecido/irrelevante ("My car was stolen"), tom formal/científico ("The experiment was conducted"), ou evitar responsabilizar ("Mistakes were made"). A ativa é mais direta e forte.', // pegadinha
+    video: 'active passive voice transformation english' // busca no YouTube
+  },
+  {
+    id: 'e80',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Reading — inference',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A reading question asking "What can be inferred from the text?" requires:', // pergunta
+    alternativas: [                     // opções
+      'copying a sentence', // opção
+      'deduzir o que está implícito — inferência ≠ informação explícita: a resposta está entre as linhas, nunca copiada literalmente do texto', // correta
+      'the title only', // opção
+      'a direct quote', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inference = ler entrelinhas: a informação não está escrita, mas é consequência lógica do texto. Não confundir com "what does the text say" (explícito). A inferência testa compreensão profunda.', // explicação
+    dica: 'Tipos de questão de leitura: explicit (está no texto), inference (se deduz), vocabulary in context (o que a palavra significa ali), main idea (o ponto central), purpose (para que o autor escreveu). Sempre volte ao trecho.', // pegadinha
+    video: 'reading inference text comprehension english' // busca no YouTube
+  },
+  {
+    id: 'e81',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — relative clauses', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"The man WHO lives next door" uses "who" because:', // pergunta
+    alternativas: [                     // opções
+      'it is a thing', // opção
+      '"who" refere-se a pessoas; "which" a coisas/animais; "that" a ambos — "the book which/that I read" vs "the man who/that lives here"', // correta
+      'it is formal', // opção
+      'no reason', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Relative pronouns: who (pessoa — sujeito), whom (pessoa — objeto formal), which (coisa/animal), that (ambos — informal), whose (posse), where (lugar), when (tempo). "Whose" é o que falta no português ("cujo").', // explicação
+    dica: 'Defining (sem vírgula — restringe) vs non-defining (entre vírgulas — adiciona info, aceita which mas NÃO that). "My brother who lives in SP" (tenho vários) vs "My brother, who lives in SP" (tenho só um).', // pegadinha
+    video: 'relative pronouns who which that whose' // busca no YouTube
+  },
+  {
+    id: 'e82',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — countable nouns',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Information," "furniture," and "advice" are examples of:', // pergunta
+    alternativas: [                     // opções
+      'countable nouns', // opção
+      'uncountable nouns — não têm plural: não existe "informations/furnitures/advices"; pedem "some/a piece of information"', // correta
+      'verbs', // opção
+      'adjectives', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Uncountable = não se conta: information, furniture, advice, news, homework, luggage, equipment, bread, water. Pedem "some", "a piece of", "a bit of" — nunca o plural nem "a/an" direto.', // explicação
+    dica: 'A armadilha: "news" termina em -s mas é singular ("The news IS good"); "politics" e "economics" idem. Para contar: a piece/slice/item of + uncountable (a piece of advice, a loaf of bread).', // pegadinha
+    video: 'uncountable nouns information advice english' // busca no YouTube
+  },
+  {
+    id: 'e83',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — gerund/infinitive', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"I enjoy ___ books" — the correct form is:', // pergunta
+    alternativas: [                     // opções
+      'to read', // opção
+      'reading — "enjoy" pede gerúndio: verbos como enjoy, avoid, mind, finish, suggest seguem-se do gerúndio; "to read" segue want, hope, decide', // correta
+      'read', // opção
+      'to reading', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gerund after: enjoy, avoid, mind, finish, suggest, keep, consider ("I avoid eating"). Infinitive after: want, hope, decide, plan, promise, learn ("I want to go"). Some accept both with different meanings.', // explicação
+    dica: 'Mudança de sentido: "stop smoking" (parar de fumar) vs "stop to smoke" (parar PARA fumar); "remember doing" (lembrar que fez) vs "remember to do" (lembrar de fazer); "try doing" (tentar como teste) vs "try to do" (tentar conseguir).', // pegadinha
+    video: 'gerund infinitive enjoy stop english' // busca no YouTube
+  },
+  {
+    id: 'e84',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulary — connectors',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"___ the heavy rain, the match was not cancelled" — the connector is:', // pergunta
+    alternativas: [                     // opções
+      'Because of', // opção
+      'Despite/In spite of — contraste com substantivo: apesar da chuva; "although" pede a frase completa ("although it rained")', // correta
+      'Since', // opção
+      'Therefore', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Despite/In spite of + substantivo ("despite the rain"); although/though + sujeito+verbo ("although it rained"); however = advérbio entre orações. Os dois marcam contraste — a estrutura é diferente.', // explicação
+    dica: 'Because of + substantivo = causa ("because of the rain"); because + oração = "because it rained". Despite = contraste; therefore = consequência; moreover/furthermore = adição; whereas = comparação oposta.', // pegadinha
+    video: 'despite although however connectors english' // busca no YouTube
+  },
+  {
+    id: 'l86',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Romantismo — indianismo',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O indianismo romântico de José de Alencar (O Guarani, Iracema) apresenta:', // pergunta
+    alternativas: [                     // opções
+      'o índio real', // opção
+      'o índio idealizado — herói nobre e puro (o "bom selvagem" europeizado) como símbolo da nacionalidade: não é o indígena real, é a construção da identidade', // correta
+      'o índio vilão', // opção
+      'documento etnográfico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O indianismo criou o "índio brasileiro ideal" — Iracema (a virgem dos lábios de mel) e Peri (o herói que salva Ceci carregando a palmeira). É idealização romântica: o índio europeizado como emblema da nação recém-independente.', // explicação
+    dica: 'Alencar tem três linhas: indianista (O Guarani, Iracema, Ubirajara), regionalista (O Sertanejo, O Gaúcho) e urbana/psicológica (Senhora, Lucíola). O indianismo é nacionalismo idealizado — o indígena real da época era massacrado.', // pegadinha
+    video: 'indianismo josé alencar iracema guarani' // busca no YouTube
+  },
+  {
+    id: 'l87',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Modernismo — 1ª fase',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Pauliceia Desvairada" (1922) de Mário de Andrade inaugurou:', // pergunta
+    alternativas: [                     // opções
+      'o parnasianismo', // opção
+      'a poesia moderna brasileira — verso livre, coloquial, sobre São Paulo: a ruptura com a forma fixa e a defesa da língua brasileira falada', // correta
+      'o arcadismo', // opção
+      'o barroco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pauliceia Desvairada = livro de estréia do modernismo poético: verso livre, cidade (São Paulo), "canção do asfalto", deboche ao parnasianismo. Mário de Andrade liderou a Semana de 22 e o nacionalismo moderno.', // explicação
+    dica: 'Mário de Andrade = o teórico e praticante da Semana de 22: poeta, musicólogo e romancista (Macunaíma — "o herói sem caráter"). O modernismo de 22 queria língua falada, verso livre e Brasil de verdade.', // pegadinha
+    video: 'pauliceia desvairada mário andrade modernismo' // busca no YouTube
+  },
+  {
+    id: 'l88',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Clarice Lispector',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A prosa de Clarice Lispector (A Hora da Estrela, Laços de Família) é marcada por:', // pergunta
+    alternativas: [                     // opções
+      'trama policial', // opção
+      'o fluxo de consciência e a epifania — o instante de revelação interior da personagem: Macabéa, a nordestina miserável, e a linguagem introspectiva', // correta
+      'aventura', // opção
+      'poesia épica', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Clarice = a introspecção radical: a personagem comum atinge a revelação existencial (a epifania — a galinha de "Laços", o caranguejo de "Água Viva"). A Hora da Estrela narrada por Rodrigo S.M. — a obra-prima da linguagem interiorizada.', // explicação
+    dica: 'Clarice = terceira fase do modernismo (romance de 45) — foco psicológico, não social. "A Hora da Estrela" narra a protagonista nordestina miserável com a distância irônica do narrador masculino — a crítica social pela forma.', // pegadinha
+    video: 'clarice lispector hora estrela epifania' // busca no YouTube
+  },
+  {
+    id: 'l89',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Barroco — Gregório de Matos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Gregório de Matos, o "Boca do Inferno" do Barroco baiano, escreveu:', // pergunta
+    alternativas: [                     // opções
+      'só poemas religiosos', // opção
+      'poesia lírica, religiosa E satírica — atacou a elite colonial, os padres e a hipocrisia da Bahia; foi exilado por sua sátira mordaz', // correta
+      'só romance', // opção
+      'só teatro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gregório de Matos (Bahia, séc. XVII): três faces — lírica (amorosa), religiosa (culpa, pedido de perdão a Deus) e satírica (denúncia da corrupção e dos costumes coloniais — a "boca do inferno" porque desbocava a todos).', // explicação
+    dica: 'O barroco é a tensão: pecado vs fé, carne vs espírito — Gregório encarna isso (libertino e penitente). A sátira contra a elite baiana o exilou em Angola. "Triste Bahia" é a denúncia poética mais famosa.', // pegadinha
+    video: 'gregório matos boca inferno barroco sátira' // busca no YouTube
+  },
+  {
+    id: 'l90',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Concretismo — poesia',       // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A poesia concreta de Décio Pignatari e dos irmãos Campos rompe com:', // pergunta
+    alternativas: [                     // opções
+      'a prosa', // opção
+      'o verso tradicional — a palavra é objeto visual e sonoro: o poema vira imagem (geometria da página), não mais a linha do poeta falando', // correta
+      'o romance', // opção
+      'o teatro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Concretismo (anos 50 — Noigandres: Haroldo e Augusto de Campos, Décio Pignatari): o poema como objeto — a palavra no espaço, o verbo-visual. "Um pássaro é pássaro": a forma espacial é o poema (Beba Coca-Cola como colagem crítica).', // explicação
+    dica: 'Concretismo = o poema é gráfico: palavras desenhadas na página (O pássaro de Augusto). A terceira geração do modernismo: depois da heroica (22) e da social (30), a formalismo radical — precursora da poesia visual e da bossa nova letrada.', // pegadinha
+    video: 'concretismo campos pignatari poesia' // busca no YouTube
+  },
+  {
+    id: 'l91',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Poesia — trovas e haicai',   // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A trova e o haicai são formas poéticas que compartilham:', // pergunta
+    alternativas: [                     // opções
+      'a extensão longa', // opção
+      'a brevidade concentrada — a trova popular (4 versos de 7 sílabas) e o haicai japonês (3 versos, 5-7-5) condensam a imagem/emoção no mínimo de palavras', // correta
+      'a rima obrigatória', // opção
+      'o narrador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Trova popular = quatro versos de setemplado (7 sílabas) com rima, expressando um pensamento completo; haicai = três versos (5-7-5 sílabas) capturando o instante da natureza — o "photograph" poético.', // explicação
+    dica: 'O haicai não precisa de rima nem de título — e geralmente inclui um "kigo" (palavra da estação do ano). Guilherme de Almeida traduziu/adaptou o haicai ao Brasil; a trova é a forma poética popular brasileira.', // pegadinha
+    video: 'trova haicai forma poética versos' // busca no YouTube
+  },
+  {
+    id: 'l92',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Arcadismo',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O Arcadismo brasileiro (Cláudio Manuel da Costa, Tomás Antônio Gonzaga) valorizava:', // pergunta
+    alternativas: [                     // opções
+      'o excesso barroco', // opção
+      'a simplicidade e a natureza — pastoril, equilíbrio, bucolismo: "fugere urbem" (fugir da cidade) e "locus amoenus" (o lugar ameno); a reação ao barroco', // correta
+      'a violência', // opção
+      'o urbano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Arcadismo (neoclassicismo poético): contra o barroco dramático — equilíbrio, clareza, natureza idealizada, vida pastoril. Cláudio Manuel (Inconfidência) e Gonzaga (Marília de Dirceu — as cartas à amada) são os nomes.', // explicação
+    dica: 'O Arcadismo é a ponte barroco→romantismo: a calma neoclássica com o amor pastoril. Gonzaga escreveu Marília de Dirceu preso por participar da Inconfidência — o amor idealizado sob a ameaça política.', // pegadinha
+    video: 'arcadismo cláudio manuel gonzaga marília' // busca no YouTube
+  },
+  {
+    id: 'l93',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Pós-modernidade — prosa',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A literatura contemporânea brasileira é marcada por:', // pergunta
+    alternativas: [                     // opções
+      'o indianismo', // opção
+      'a pluralidade — romances históricos, literatura marginal/periférica, autoficção, fantasia e a diversidade de vozes (negros, mulheres, LGBTQIA+, indígenas)', // correta
+      'só a poesia', // opção
+      'só o rural', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A literatura pós-1980: pluralidade de vozes e formas — Evaristo (escrevivência), Conceição, Ferréz (periferia), Ana Paula Maia, Daniel Galera, Bernardo Carvalho. Sem um movimento único — a fragmentação é a característica.', // explicação
+    dica: 'Não há "escola" contemporânea — a característica é a pluralidade: realismo mágico (Rubem Fonseca, João Gilberto Noll), crime urbano, memorialismo, autoficção (Julián Fuks) e a força das vozes anteriormente silenciadas.', // pegadinha
+    video: 'literatura contemporânea brasileira pluralidade' // busca no YouTube
+  },
+  {
+    id: 'l94',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Machado — Brás Cubas',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: '"Memórias Póstumas de Brás Cubas" (1881) de Machado inova porque:', // pergunta
+    alternativas: [                     // opções
+      'o narrador é Deus', // opção
+      'o narrador é um morto contando sua vida — o "defunto autor" narra de além-túmulo com ironia, capítulos curtos e digressões, inaugurando o Realismo brasileiro', // correta
+      'é uma fábula', // opção
+      'é poesia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brás Cubas = o narrador morto que conta sua própria vida — inovação radical: capítulos curtos, digressões, ironia com o leitor ("ao verme que primeiro roeu as frias carnes do meu cadáver"). Marco inicial do Realismo.', // explicação
+    dica: 'A obra de Machado: fase romântica inicia (Helena, A Mão e a Luva) → Realismo (Brás Cubas, Quincas Borba, Dom Casmurro, Esaú e Jacó, Memorial de Aires). O Realismo machadiano = ironia + pessimismo + análise psicológica.', // pegadinha
+    video: 'brás cubas defunto autor machado realismo' // busca no YouTube
+  },
+  {
+    id: 'l95',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Estrutura narrativa',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "narrador onisciente" difere do "narrador-personagem" porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o onisciente narra em 3ª pessoa sabendo tudo (inclusive pensamentos); o narrador-personagem conta em 1ª pessoa e só conhece o que viu/viveu', // correta
+      'o onisciente participa', // opção
+      'o personagem vê tudo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Onisciente (3ª pessoa — "Ele pensava...") sabe até o interior das personagens; narrador-personagem (1ª pessoa — "Eu vi...") só conhece seu ponto de vista, podendo ser não-confiável. O observador narra de fora sem saber os pensamentos.', // explicação
+    dica: 'A confiabilidade: o narrador-personagem é sempre parcial (Dom Casmurro — Bento conta sua versão); o onisciente transmite neutralidade. No "fluxo de consciência" (Clarice, Joyce) o narrador some e a mente fala direto.', // pegadinha
+    video: 'narrador onisciente personagem ponto vista' // busca no YouTube
+  },
+  {
+    id: 'qm73',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Ácidos e bases — pH',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Um suco de limão tem pH ≈ 2; ele é:', // pergunta
+    alternativas: [                     // opções
+      'básico', // opção
+      'ácido — pH < 7 = ácido; pH = 7 = neutro (água pura); pH > 7 = básico/alcalino. Cada unidade de pH é 10× de diferença (logarítmico)', // correta
+      'neutro', // opção
+      'salgado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Escala de pH 0-14: <7 ácido (limão ~2, vinagre ~3, estômago ~1,5), 7 neutro (água), >7 básico (sabão ~10, amônia ~11). É logarítmico — pH 3 é 10× mais ácido que pH 4, e 100× que pH 5.', // explicação
+    dica: 'A chuva ácida tem pH < 5,6 — gases SO₂/NOx viram ácido sulfúrico/nítrico na atmosfera e matam lago e floresta. O sangue humano é ligeiramente básico (7,35-7,45) — variação mínima é letal (buffer de bicarbonato regula).', // pegadinha
+    video: 'ph escala ácido básico neutro logaritmo' // busca no YouTube
+  },
+  {
+    id: 'qm74',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Tabela periódica — famílias', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os gases nobres (He, Ne, Ar...) são estáveis porque:', // pergunta
+    alternativas: [                     // opções
+      'são leves', // opção
+      'têm a camada de valência completa (8 elétrons — octeto) — não precisam ganhar nem perder elétron, por isso são quimicamente inertes', // correta
+      'são pesados', // opção
+      'não têm elétron', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gases nobres (grupo 18): camada de valência completa (2 para He, 8 para os demais) — o "octeto estável" explica sua inércia química. Os demais elementos reagem para alcançar essa configuração.', // explicação
+    dica: 'A regra do octeto: os elementos formam ligações para ficar como o gás nobre mais próximo — sódio doa 1 e- para ficar com 8 (vira Na⁺); cloro recebe 1 e- (vira Cl⁻); carbono compartilha 4. As exceções: B (6 e-), elementos do 3º período (podem ter >8).', // pegadinha
+    video: 'gases nobres octeto valência completa' // busca no YouTube
+  },
+  {
+    id: 'qm75',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Reações — tipos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A reação de "combustão" é aquela em que:', // pergunta
+    alternativas: [                     // opções
+      'a água congela', // opção
+      'um combustível reage com O₂ liberando energia — completa gera CO₂+H₂O; incompleta (pouco O₂) gera CO tóxico ou fuligem (C)', // correta
+      'o metal enferruja', // opção
+      'o ácido neutraliza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Combustão = reação exotérmica com O₂: completa (O₂ suficiente → CO₂+H₂O) ou incompleta (O₂ insuficiente → CO monóxido ou fuligem). É o processo do motor, da cozinha e da respiração celular (combustão lenta).', // explicação
+    dica: 'O CO (monóxido) é o "assassino silencioso" da combustão incompleta — se liga à hemoglobina no lugar do O₂ e sufoca sem cheiro. Por isso o aquecedor a gás precisa de ventilação. A fuligem (C) indica combustão incompleta.', // pegadinha
+    video: 'combustão completa incompleta monóxido' // busca no YouTube
+  },
+  {
+    id: 'qm76',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Separação de misturas',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Para separar a areia da água do mar e depois obter o sal, usam-se:', // pergunta
+    alternativas: [                     // opções
+      'só filtração', // opção
+      'filtração (areia, insolúvel) + evaporação/cristalização (sal dissolve — evapora a água e o sal fica); processos físicos de separação', // correta
+      'só destilação', // opção
+      'centrifugação', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mistura heterogênea (areia+água): decantação e filtração. Mistura homogênea (sal+água): evaporação/cristalização (sal fica) ou destilação (água fica). São processos FÍSICOS — o sal não mudou quimicamente.', // explicação
+    dica: 'Decantação (sólido desce), filtração (papel retém sólido), evaporação/cristalização (soluto fica), destilação (solvente evapora e condensa — recupera o líquido), centrifugação (acelera a decantação), dissolução fracionada.', // pegadinha
+    video: 'separação misturas filtração destilação' // busca no YouTube
+  },
+  {
+    id: 'qm77',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Soluções — tipos',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A diferença entre solução saturada e supersaturada é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a saturada tem o máximo de soluto naquela temperatura; a supersaturada (instável) tem MAIS que o máximo — dissolve a quente e esfria sem cristalizar até um choque', // correta
+      'a saturada é mais', // opção
+      'não existem', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Saturada = o limite de dissolução naquela temperatura; insaturada = ainda cabe mais; supersaturada = além do limite (instável — um cristal ou movimento precipita o excesso imediatamente). A solubilidade cresce com a temperatura.', // explicação
+    dica: 'A supersaturada é metaestável: dissolve quente o que seria demais a frio — e ao tocar, precipita tudo de uma vez (a "calcinha" do refrigerante). O coeficiente de solubilidade do sal aumenta com T; o do gás diminui.', // pegadinha
+    video: 'solução saturada supersaturada solubilidade' // busca no YouTube
+  },
+  {
+    id: 'qm78',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Química orgânica — hidrocarbonetos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os alcanos (parafinas) se caracterizam por:', // pergunta
+    alternativas: [                     // opções
+      'ligações duplas', // opção
+      'só ligações simples entre carbonos — cadeia saturada: metano, etano, propano...; os alcenos têm uma dupla e os alcinos uma tripla', // correta
+      'ligações triplas', // opção
+      'aromáticos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Alcano = C-C simples (fórmula CnH2n+2 — metano CH4, propano C3H8 = gás de cozinha); alceno = uma dupla (CnH2n — eteno); alcino = uma tripla (CnH2n-2 — acetileno); aromático = anel de benzeno.', // explicação
+    dica: 'Mnemônico: -ano (só simples, como "plano"), -eno (uma dupla, como "ene"), -ino (uma tripla, como "ino" de afiado). O metano é o gás natural e o pior efeito estufa por tonelada (~25× CO₂).', // pegadinha
+    video: 'alcano alceno alcino hidrocarboneto' // busca no YouTube
+  },
+  {
+    id: 'qm79',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Química ambiental',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A chuva ácida é causada pela queima de combustível fóssil que libera:', // pergunta
+    alternativas: [                     // opções
+      'só CO₂', // opção
+      'SO₂ e NOx — enxofre e nitrogênio viram ácidos sulfúrico e nítrico na atmosfera e caem com a chuva, acidificando solos e lagos', // correta
+      'só oxigênio', // opção
+      'metano só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Combustível fóssil (diesel, carvão) contém enxofre — a queima gera SO₂ que no ar vira H₂SO₄; o NOx dos motores vira HNO₃. A chuva pH<5,6 acidifica lago, corrói monumento e mata peixe — o problema da década de 80/90.', // explicação
+    dica: 'Chuva ácida ≠ efeito estufa: a chuva vem do SO₂/NOx (poluição local, danifica o patrimônio); o estufa vem do CO₂/CH₄ (global). A dessulfurização do diesel e o catalisador do carro reduziram o problema no Brasil.', // pegadinha
+    video: 'chuva ácida so2 nox ácido sulfúrico' // busca no YouTube
+  },
+  {
+    id: 'qm80',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Eletroquímica — pilhas',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Numa pilha (célula galvânica), a energia vem de:', // pergunta
+    alternativas: [                     // opções
+      'eletricidade', // opção
+      'reação química espontânea de oxirredução — o ânodo oxida (perde elétron), o cátodo reduz (ganha); o fluxo de elétrons é a corrente', // correta
+      'o sol', // opção
+      'o calor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pilha = oxirredução espontânea separada em dois eletrodos: ânodo (-) oxida e envia elétron pelo fio ao cátodo (+), que reduz — a corrente é o subproduto. A bateria recarrega revertendo a reação com energia.', // explicação
+    dica: 'Ânodo = oxidação (o ânion vai para o ânodo — "ânodo-oxida"); cátodo = redução ("cátodo-reduz" — memória: as vogais combinam). A eletrólise é o contrário: energia força a reação não-espontânea (cromação, refino).', // pegadinha
+    video: 'pilha galvânica oxirredução ânodo cátodo' // busca no YouTube
+  },
+  {
+    id: 'qm81',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Isomeria',                   // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'Os isômeros são compostos que:', // pergunta
+    alternativas: [                     // opções
+      'têm tudo igual', // opção
+      'têm a MESMA fórmula molecular mas estrutura diferente — propiedades distintas: o etanol (bebida) e o éter dimetílico são C₂H₆O, mas totalmente diferentes', // correta
+      'não existem', // opção
+      'são o mesmo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Isômeros = mesma fórmula molecular, estrutura diferente: de cadeia (posição do grupo), posição, função (etanol vs éter metílico, ambos C₂H₆O), geométrica (cis/trans) e óptica (enantiômeros — imagem no espelho).', // explicação
+    dica: 'A talidomida é o caso trágico da isomeria óptica: um enantiômero curava o enjoo, o outro (espelhado) causava má-formação fetal — os isômeros quirais podem ter efeitos biológicos opostos.', // pegadinha
+    video: 'isômero fórmula estrutura quiral talidomida' // busca no YouTube
+  },
+  {
+    id: 'qm82',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Química nuclear',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A fissão nuclear difere da fusão porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'fissão = núcleo pesado (urânio) se divide — usina nuclear e bomba atômica; fusão = núcleos leves (hidrogênio) se unem — o Sol e a bomba de hidrogênio', // correta
+      'a fusão é menor', // opção
+      'a fissão é do sol', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fissão = dividir núcleo pesado (U-235, plutônio) → energia + resíduo radioativo (Angra usa isso); fusão = unir leves (H→He no Sol) → mais energia e sem resíduo — mas exige temperatura extrema que ainda não dominamos.', // explicação
+    dica: 'A fissão é a usina nuclear atual (Angra 1 e 2, controlada e com risco de acidente — Chernobyl/Fukushima); a fusão é o "Santo Graal" — limpa e abundante, mas ainda não sustentável na Terra (ITER, tokamak, laser).', // pegadinha
+    video: 'fissão fusão nuclear diferença angra sol' // busca no YouTube
+  },
+  {
+    id: 'so78',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Fato social — Durkheim',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "fato social" de Durkheim se caracteriza por ser:', // pergunta
+    alternativas: [                     // opções
+      'individual', // opção
+      'externo ao indivíduo, geral e coercitivo — a lei, o costume, a moral existem antes de nós e nos obrigam a conformar: o fato social é coisa', // correta
+      'livre', // opção
+      'opcional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Durkheim: o fato social é (1) exterior ao indivíduo (existia antes dele nascer — a língua, a lei), (2) geral (do grupo, não de um) e (3) coercitivo (força que obriga — punição ao desvio). "Tratar o fato social como coisa".', // explicação
+    dica: 'A prova da coerção é a sanção: quem não fala a língua não se comunica; quem infringe a lei é punido. O individualismo também é fato social — nasce do grupo, não do indivíduo. Método durkheimiano: explicar social por social.', // pegadinha
+    video: 'fato social durkheim coerção exterior' // busca no YouTube
+  },
+  {
+    id: 'so79',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Weber — ação social',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "ação social" de Weber se diferencia do fato social durkheimiano porque:', // pergunta
+    alternativas: [                     // opções
+      'é igual', // opção
+      'é ação do indivíduo orientada pelo sentido que dá a ela — a sociologia compreensiva parte do sentido subjetivo da ação, não da estrutura', // correta
+      'é inconsciente', // opção
+      'não existe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Weber = sociologia compreensiva: entender a ação pelo SENTIDO que o ator dá — os quatro tipos: racional com fins (calcula), racional com valores (convicção), afetiva (emoção) e tradicional (costume).', // explicação
+    dica: 'Durkheim = a estrutura age sobre o indivíduo (de fora); Weber = a ação individual com sentido cria a estrutura (de dentro). O ideal-type (tipo ideal) weberiano é o modelo puro para comparar — a burocracia é o exemplo.', // pegadinha
+    video: 'weber ação social sentido compreensiva' // busca no YouTube
+  },
+  {
+    id: 'so80',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Trabalho — sociologia',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "alienação" do trabalhador na linha de produção significa:', // pergunta
+    alternativas: [                     // opções
+      'satisfação total', // opção
+      'a separação do trabalhador do produto, do processo e de si — a máquina e a divisão do trabalho fazem dele peça: não é dono do que faz nem do ritmo', // correta
+      'o treinamento', // opção
+      'a promoção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Alienação (Marx): o trabalhador se aliena do produto (que é do patrão), do processo (o ritmo é imposto), dos outros (competição) e de si (o trabalho é só meio de sobrevivência). A linha de montagem de Ford é o símbolo.', // explicação
+    dica: 'Os 4 níveis: do produto (não é dele), da atividade (não controla o ritmo), da espécie (o trabalho como criatividade humana se perde) e dos outros (relações viram concorrência). A alienação não é cansaço — é desapropriação.', // pegadinha
+    video: 'alienação trabalho marx linha produção' // busca no YouTube
+  },
+  {
+    id: 'so81',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Gênero e desigualdade',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "teto de vidro" (glass ceiling) na sociologia do trabalho é:', // pergunta
+    alternativas: [                     // opções
+      'a arquitetura', // opção
+      'a barreira invisível que impede a mulher de subir — ela vê o cargo de chefia mas não alcança: o limite não oficial (mas real) da ascensão feminina', // correta
+      'a lei', // opção
+      'a janela', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Teto de vidro = o limite invisível que a mulher bate na carreira — embora igual em competência, sobe menos: discriminação sutil, expectativa de gênero, maternidade penalizada. O "piso pegajoso" mantém embaixo.', // explicação
+    dica: 'Teto de vidro (não sobe) vs piso pegajoso (fica presa na base — emprego precário feminizado) vs parede de vidro (confinada a certos setores "femininos" — cuidado, educação). A dupla/tripla jornada é a barreira estrutural.', // pegadinha
+    video: 'teto vidro mulher carreira desigualdade' // busca no YouTube
+  },
+  {
+    id: 'so82',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Raça e racismo',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O "racismo estrutural" brasileiro (Silvio Almeida) é:', // pergunta
+    alternativas: [                     // opções
+      'só o individual', // opção
+      'o racismo como organização da sociedade — não só ato discriminatório, mas a estrutura que produz desigualdade racial sistemática na polícia, escola, trabalho', // correta
+      'um costume', // opção
+      'só injúria', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Racismo estrutural = está na arquitetura das instituições, não só na atitude individual: o negro ganha menos, morre mais por polícia, ocupa menos espaço de poder — o sistema produz a desigualdade mesmo sem "intenção" individual.', // explicação
+    dica: 'Diferenças: individual (o ato do racista), institucional (dentro da organização — polícia, empresa), estrutural (a soma histórica que produz a desigualdade). A "democracia racial" de Freyre é o mito que nega a estrutura.', // pegadinha
+    video: 'racismo estrutural silvio almeida institucional' // busca no YouTube
+  },
+  {
+    id: 'so83',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Direitos humanos',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A Declaração Universal dos Direitos Humanos (1948) afirma que:', // pergunta
+    alternativas: [                     // opções
+      'só para cidadãos', // opção
+      'todos nascem livres e iguais em dignidade e direitos — são universais, indivisíveis e inalienáveis, sem distinção de raça, cor, sexo, religião ou opinião', // correta
+      'só para europeus', // opção
+      'não valem', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DUDH (ONU, 1948 — pós-Holocausto): 30 artigos — direitos civis (vida, liberdade, não-tortura), políticos (voto, expressão), econômicos (trabalho, repouso), sociais e culturais. A base do sistema de proteção.', // explicação
+    dica: 'Direitos humanos = universais (valem em todo lugar), indivisíveis (não se pode tirar um) e interdependentes. No Brasil, a CF de 88 os incorporou; o Estatuto do Idoso, da Criança, da Pessoa com Deficiência são implementações.', // pegadinha
+    video: 'declaração universal direitos humanos onu' // busca no YouTube
+  },
+  {
+    id: 'so84',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Sociedade de consumo',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "sociedade de consumo" (Baudrillard) é marcada por:', // pergunta
+    alternativas: [                     // opções
+      'sobreviver', // opção
+      'o consumo como linguagem — não se consome só a utilidade do objeto, mas o signo/status que ele carrega: o objeto fala sobre quem o possui', // correta
+      'só a produção', // opção
+      'a pobreza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Baudrillard: o valor de uso é secundário — o objeto é consumido pelo valor de SIGNO (a marca comunica status). O consumo é o sistema de diferenciação social: o carro não transporta, sinaliza. A publicidade cria a necessidade.', // explicação
+    dica: 'Galbraith (sociedade afluente) + Baudrillard: a necessidade não é natural — é produzida pela propaganda e pela comparação social. O consumo como felicidade prometida gera o "hedonic treadmill" — nunca satisfaz.', // pegadinha
+    video: 'sociedade consumo baudrillard signo' // busca no YouTube
+  },
+  {
+    id: 'so85',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Estado — burocracia',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A burocracia ideal de Weber se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'o favor', // opção
+      'impessoalidade, hierarquia, regra escrita e mérito — o funcionário é nomeado por competência técnica e segue norma, não preferência pessoal', // correta
+      'nepotismo', // opção
+      'carisma', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Burocracia weberiana = o domínio legal-racional: cargo definido, hierarquia, documento escrito, impessoalidade e carreira por mérito. É o oposto do patrimonialismo (o cargo é propriedade do senhor).', // explicação
+    dica: 'Os três domínios de Weber: tradicional (costume — rei herdeiro), carismático (o líder excepcional — revolucionário), legal-racional (a regra — a burocracia moderna). A burocracia é eficiente mas gera "gaiola de ferro" de formalismo.', // pegadinha
+    video: 'burocracia weber impessoalidade mérito' // busca no YouTube
+  },
+  {
+    id: 'so86',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Mídia e sociedade',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'A "indústria cultural" de Adorno e Horkheimer critica:', // pergunta
+    alternativas: [                     // opções
+      'o teatro', // opção
+      'a cultura transformada em mercadoria — o cinema, a música e a TV produzidos em massa como indústria: entretenimento que padroniza e desvia da crítica', // correta
+      'só a pintura', // opção
+      'a literatura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Indústria cultural (Escola de Frankfurt, 1944): a cultura produzida em série como mercadoria — o espectador consome "entretenimento" que entorpece a reflexão e reproduz a ideologia dominante. A arte vira produto.', // explicação
+    dica: 'A crítica frankfurtiana: o cinema/TV seriada padroniza o gosto e neutraliza a rebelião — "diversão é prolongamento do trabalho". Hoje o debate se aplica ao algoritmo das redes e ao streaming — cultura de massa em versão digital.', // pegadinha
+    video: 'indústria cultural adorno frankfurt massa' // busca no YouTube
+  },
+  {
+    id: 'so87',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Anomia e suicídio',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'IBFC',                      // banca inspiradora
+    enunciado: 'O estudo de Durkheim sobre o suicídio mostrou que:', // pergunta
+    alternativas: [                     // opções
+      'é só individual', // opção
+      'é fato social — as taxas de suicídio seguem padrões sociais (integração/regulação do grupo), não só decisão individual: prova da sociologia', // correta
+      'é biológico', // opção
+      'é religioso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Durkheim ("O Suicídio", 1897): estatisticamente, protestantes, solteiros e urbanos se suicidavam mais — o ato mais íntimo tinha causa social (integração fraca ou excessiva, regulação quebrada). A sociologia como ciência nasceu aqui.', // explicação
+    dica: 'Os 4 tipos de suicídio: egoísta (integração fraca — sem vínculo), altruísta (integração excessiva — sacrifício pelo grupo), anômico (regulação quebrada — crise econômica, divórcio) e fatalista (regulação excessiva — escravo, prisioneiro).', // pegadinha
+    video: 'suicídio durkheim fato social integração' // busca no YouTube
+  },
 ];
