@@ -50675,4 +50675,1999 @@ const BancoQuestoes = [
     dica: 'Mala direta = documento modelo + fonte de dados (Excel/Access) → documentos personalizados. O campo de mesclagem («Nome», «Endereço») é o placeholder. Serve para carta, e-mail, etiqueta, envelope, certificado.', // pegadinha
     video: 'mala direta word correspondência mesclagem' // busca no YouTube
   },
+  {
+    id: 't86',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Brasil — estatísticas sociais', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O IBGE, responsável pelo Censo e pelas estatísticas oficiais, é:', // pergunta
+    alternativas: [                     // opções
+      'um ministério', // opção
+      'a fundação autárquica federal que produz o Censo, o PIB, a PNAD e os índices de preços (IPCA) — a fonte estatística oficial do país', // correta
+      'uma ONG', // opção
+      'um banco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'IBGE = Instituto Brasileiro de Geografia e Estatística — autarquia federal que faz o Censo decenal (2022 o mais recente), as contas nacionais (PIB), a PNAD Contínua (trabalho) e os índices IPCA/INPC.', // explicação
+    dica: 'IBGE produz: Censo (população, domicílio), PIB, IPCA (inflação oficial), PNAD (emprego/renda), mapas. O Censo de 2022 mostrou ~203 milhões de habitantes e o envelhecimento acelerado do país.', // pegadinha
+    video: 'ibge censo ipca pnad estatística' // busca no YouTube
+  },
+  {
+    id: 't87',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Economia — dólar e câmbio',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A alta do dólar no Brasil afeta a inflação porque:', // pergunta
+    alternativas: [                     // opções
+      'não afeta', // opção
+      'encarece os produtos importados e os insumos dolarizados (combustível, trigo, fertilizante) — o repasse cambial pressiona os preços internos', // correta
+      'o dólar desvaloriza', // opção
+      'baixa o juro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dólar alto encarece o importado e o insumo cotado em dólar (petróleo, trigo, fertilizante, chip) — a "passagem cambial" contagia a inflação. Mas ajuda o exportador (o produto vende mais caro em real).', // explicação
+    dica: 'Efeito duplo: dólar alto ajuda o exportador (agronegócio — recebe em dólar) e prejudica o consumidor/importador (combustível, eletrônico). O Banco Central pode intervir com swap cambial e reserva para suavizar.', // pegadinha
+    video: 'dólar câmbio inflação passagem' // busca no YouTube
+  },
+  {
+    id: 't88',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Ciência — vacinas mRNA',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'As vacinas de mRNA (Pfizer, Moderna contra a COVID) funcionam:', // pergunta
+    alternativas: [                     // opções
+      'com o vírus morto', // opção
+      'entregando a "receita" genética da proteína do vírus — a célula do próprio corpo produz o antígeno e treina o sistema imune, sem vírus', // correta
+      'só com adjuvante', // opção
+      'mudando o DNA', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'mRNA = RNA mensageiro encapsulado — entra na célula e a instrui a produzir a proteína "spike" do vírus; o sistema imune reconhece e memoriza. Não altera o DNA (o mRNA não entra no núcleo e se degrada rápido).', // explicação
+    dica: 'O mRNA NÃO altera o genoma — não entra no núcleo celular e se desfaz em dias. A tecnologia existia antes da COVID (câncer) e a pandemia acelerou a aplicação. Vacina tradicional usa vírus atenuado/inativado.', // pegadinha
+    video: 'vacina mrna pfizer como funciona' // busca no YouTube
+  },
+  {
+    id: 't89',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'América Latina',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Mercosul, bloco econômico da América do Sul, integra:', // pergunta
+    alternativas: [                     // opções
+      'todo o continente', // opção
+      'Brasil, Argentina, Paraguai e Uruguai (fundadores — a Bolívia aderiu em 2024; a Venezuela está suspensa): união aduaneira e livre circulação', // correta
+      'só o Brasil', // opção
+      'os EUA', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mercosul (Tratado de Assunção, 1991): Brasil, Argentina, Paraguai, Uruguai; Bolívia é membro pleno (2024); Venezuela suspensa (2017). É união aduaneira — tarifa externa comum e livre comércio interno.', // explicação
+    dica: 'Mercosul = união aduaneira (tarifa comum + livre comércio interno); a CAN (Andina) e o NAFTA/USMCA são os outros blocos. O acordo Mercosul-UE assinado em 2019 ainda aguarda ratificação — a maior zona de livre comércio bilateral.', // pegadinha
+    video: 'mercosul tratado assunção bloco' // busca no YouTube
+  },
+  {
+    id: 't90',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Inteligência artificial — impacto', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O debate sobre IA generativa (ChatGPT, Midjourney) no trabalho aponta:', // pergunta
+    alternativas: [                     // opções
+      'só desemprego', // opção
+      'automação de tarefas + transformação do trabalho — elimina funções repetitivas e cria novas (prompt, supervisão), polarizando o mercado', // correta
+      'nenhum impacto', // opção
+      'só lucro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A IA generativa automatiza tarefas cognitivas (texto, imagem, código) — o impacto no trabalho polariza: tarefas rotineiras caem, mas surgem funções de supervisão, curadoria e "prompt engineering". A regulação e a ética são o debate.', // explicação
+    dica: 'O debate da IA: produtividade vs desemprego tecnológico, viés algorítmico, direito autoral (o treinamento em obra protegida), desinformação (deepfake) e regulação (a UE aprovou o AI Act em 2024 — primeira lei ampla).', // pegadinha
+    video: 'ia generativa chatgpt trabalho impacto' // busca no YouTube
+  },
+  {
+    id: 't91',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Energia — renováveis Brasil', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A matriz elétrica brasileira se destaca mundialmente por:', // pergunta
+    alternativas: [                     // opções
+      'ser só térmica', // opção
+      'ser predominantemente renovável — ~85% de fontes limpas (hidráulica ~60%, eólica e solar crescendo), uma das mais verdes do mundo', // correta
+      'só nuclear', // opção
+      'só carvão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil tem uma das matrizes elétricas mais renováveis: hidrelétrica ~60% + eólica (~15% e crescendo — Nordeste) + solar (crescimento explosivo) + biomassa. O carvão e a térmica são complementares, não dominantes.', // explicação
+    dica: 'A fragilidade é a dependência hídrica — a seca derruba a hidrelétrica e aciona a térmica cara (a bandeira vermelha). A eólica do Nordeste e a solar distribuída são a expansão — o Nordeste já é polo eólico mundial.', // pegadinha
+    video: 'matriz energética brasil renovável hidrelétrica' // busca no YouTube
+  },
+  {
+    id: 't92',                          // identificador único
+    materia: 'Atualidades',             // matéria
+    tema: 'Sociedade — envelhecimento', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O envelhecimento populacional brasileiro gera o desafio de:', // pergunta
+    alternativas: [                     // opções
+      'menos aposentado', // opção
+      'financiar a previdência e a saúde — menos jovens trabalhando para mais idosos: a inversão da pirâmide etária pressiona o sistema e o SUS', // correta
+      'mais escola', // opção
+      'a natalidade alta', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil envelhece rápido (transição demográfica): queda da fecundidade + aumento da longevidade. A razão de dependência sobe — menos contribuinte para mais aposentado, sobrecarregando previdência e saúde do idoso.', // explicação
+    dica: 'O Brasil envelheceu ANTES de enriquecer — o desafio é maior que o do Japão. As respostas: reforma da previdência, economia da longevidade (o idoso consumidor), gerontologia como mercado e repensar a idade de aposentadoria.', // pegadinha
+    video: 'envelhecimento populacional brasil previdência' // busca no YouTube
+  },
+  {
+    id: 'ad100',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Qualidade — ferramentas',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ciclo PDCA (Plan-Do-Check-Act) de Deming é a ferramenta de:', // pergunta
+    alternativas: [                     // opções
+      'contratação', // opção
+      'melhoria contínua — Planejar, Executar, Verificar e Agir/ Corrigir num ciclo que se repete: o motor da gestão da qualidade', // correta
+      'demissão', // opção
+      'marketing', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PDCA = o ciclo da qualidade total: Plan (planejar a melhoria), Do (executar em escala), Check (verificar os resultados), Act (padronizar ou corrigir e recomeçar). A base do TQM e do kaizen.', // explicação
+    dica: 'PDCA é o ciclo de melhoria CONTÍNUA — não é um projeto, é um hábito. O kaizen japonês (melhoria incremental diária) e a ISO 9001 se apoiam nele. O "Act" pode ser padronizar (se funcionou) ou corrigir (se falhou) — e recomeça.', // pegadinha
+    video: 'pdca plan do check act qualidade deming' // busca no YouTube
+  },
+  {
+    id: 'ad101',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Estratégia — BSC',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Balanced Scorecard (BSC) de Kaplan e Norton mede o desempenho em:', // pergunta
+    alternativas: [                     // opções
+      'só o financeiro', // opção
+      'quatro perspectivas — financeira, clientes, processos internos e aprendizado/crescimento: equilibra o lucro com os drivers de longo prazo', // correta
+      'só o marketing', // opção
+      'só o produto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'BSC = painel de indicadores em 4 perspectivas: financeira (o resultado), clientes (satisfação/retenção), processos internos (eficiência) e aprendizado/crescimento (capital humano). Traduz a estratégia em indicadores.', // explicação
+    dica: 'O BSC conecta causa e efeito: aprendizado → processos → clientes → resultado financeiro (o mapa estratégico). Não é só KPI financeiro — o diferencial é medir os fatores que PRODUZEM o resultado futuro.', // pegadinha
+    video: 'balanced scorecard bsc quatro perspectivas' // busca no YouTube
+  },
+  {
+    id: 'ad102',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão — estoques',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A curva ABC na gestão de estoques classifica os itens por:', // pergunta
+    alternativas: [                     // opções
+      'tamanho', // opção
+      'valor de consumo — A (poucos itens, ~80% do valor), B (intermediários) e C (muitos itens, ~5% do valor): o foco vai para o A', // correta
+      'cor', // opção
+      'peso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Curva ABC (Princípio de Pareto): A = ~20% dos itens = ~80% do valor (controle rígido); B = intermediário; C = ~50-80% dos itens = ~5% do valor (controle simples). Concentra a gestão no que mais vale.', // explicação
+    dica: 'O 80/20 aplicado ao estoque: os poucos itens caros (A) merecem controle fino (contejo, previsão); os muitos baratos (C) recebem gestão simples (estoque de segurança generoso). Não gaste energia de A em item C.', // pegadinha
+    video: 'curva abc estoque pareto classificação' // busca no YouTube
+  },
+  {
+    id: 'ad103',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Inovação — modelos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "lean startup" (startup enxuta) de Eric Ries propõe:', // pergunta
+    alternativas: [                     // opções
+      'crescer devagar', // opção
+      'o ciclo construir-medir-aprender com o MVP — lança o produto mínimo viável, mede a reação do cliente e aprende para pivotar ou perseverar', // correta
+      'plano perfeito', // opção
+      'grandes equipes', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lean startup: em vez do plano de negócios longo, lança-se o MVP (mínimo produto viável) para testar a hipótese real com o cliente — construir, medir, aprender — e pivotar ou perseverar conforme o aprendizado.', // explicação
+    dica: 'MVP = o produto mínimo que valida a hipótese (não o produto barato — o essencial para aprender). Pivotar = mudar a direção mantendo o aprendizado. O inimigo é o "produto perfeito" que o mercado não quer.', // pegadinha
+    video: 'lean startup mvp construir medir aprender' // busca no YouTube
+  },
+  {
+    id: 'ad104',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'RH — recrutamento',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O recrutamento INTERNO (promoção, transferência) tem como vantagem:', // pergunta
+    alternativas: [                     // opções
+      'trazer ar novo', // opção
+      'motivar e reter — o funcionário vê carreira, conhece a cultura e o custo de adaptação é menor; a desvantagem é a estagnação ("inbreeding")', // correta
+      'custar mais', // opção
+      'ser mais lento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Recrutamento interno = promover ou transferir quem já está — motiva (plano de carreira), conhece a cultura, é rápido e barato; mas limita a entrada de ideias novas (inbreeding). O externo traz renovação, custo e risco.', // explicação
+    dica: 'Interno = motivação + rapidez + custo baixo, mas fecha a cultura; externo = ideias novas + diversidade, mas custa mais e demora a adaptar. O misto (abre interno primeiro, externo se não preencher) é a prática comum.', // pegadinha
+    video: 'recrutamento interno externo vantagem rh' // busca no YouTube
+  },
+  {
+    id: 'ad105',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Logística — cadeia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "just in time" na produção e na logística significa:', // pergunta
+    alternativas: [                     // opções
+      'estoque alto', // opção
+      'produzir/entregar só quando necessário — o estoque mínimo ou zero chega na hora certa: reduz custo de armazenar, mas exige cadeia confiável', // correta
+      'produzir muito', // opção
+      'demorar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Just in time (Toyota): o material chega no momento exato do uso — elimina o estoque e o desperdício. A fragilidade: qualquer falha na cadeia para a produção — a pandemia e a crise do chip expuseram o risco.', // explicação
+    dica: 'JIT = eficiência máxima, fragilidade máxima — economiza estoque, mas a interrupção de um fornecedor para tudo. O "just in case" é o oposto (estoque de segurança alto). A pandemia fez as empresas repensarem o equilíbrio.', // pegadinha
+    video: 'just in time toyota estoque logística' // busca no YouTube
+  },
+  {
+    id: 'ad106',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Negociação — Harvard',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A negociação "ganha-ganha" (princípios de Harvard) foca em:', // pergunta
+    alternativas: [                     // opções
+      'posições rígidas', // opção
+      'interesses, não posições — separa as pessoas do problema, gera opções de ganho mútuo e usa critérios objetivos: a BATNA é o plano B', // correta
+      'a pressão', // opção
+      'o adversário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Harvard (Fisher/Ury): separa pessoa de problema, foca interesse (não posição), gera opções de ganho mútuo e insiste em critério objetivo. BATNA = a melhor alternativa fora do acordo — o poder de sair da mesa.', // explicação
+    dica: 'A BATNA (melhor alternativa a um acordo negociado) é seu poder: quem tem alternativa boa negocia melhor. Posição = o que a pessoa pede; interesse = por que pede. Negocie interesse (flexível), não posição (rígida).', // pegadinha
+    video: 'negociação ganha ganha harvard batna' // busca no YouTube
+  },
+  {
+    id: 'ad107',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Gestão de crise',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na gestão de crises empresariais, a primeira ação correta é:', // pergunta
+    alternativas: [                     // opções
+      'negar', // opção
+      'reconhecer e comunicar rápido — a crise exige resposta ágil, transparência e foco no público afetado; esconder ou demorar agrava o dano reputacional', // correta
+      'sumir', // opção
+      'culpar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gestão de crise: detecção precoce, resposta rápida e comunicação transparente — assumir, agir e informar. A falha clássica é negar/minimizar (o caso dos vazamentos e recalls) — a credibilidade é o ativo protegido.', // explicação
+    dica: 'O protocolo de crise: 1) reconhecer e agir rápido; 2) comunicar com transparência (a narrativa é sua ou é do acusador); 3) proteger o público afetado; 4) investigar a causa raiz; 5) reconstruir a confiança. A mentira agrava mais que o erro.', // pegadinha
+    video: 'gestão crise empresarial comunicação' // busca no YouTube
+  },
+  {
+    id: 'ad108',                        // identificador único
+    materia: 'Administração',           // matéria
+    tema: 'Empreendedorismo',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Um "unicórnio" no ecossistema de startups é a empresa:', // pergunta
+    alternativas: [                     // opções
+      'pequena', // opção
+      'avaliada em mais de US$ 1 bilhão antes de abrir capital — o termo marca a raridade: Nubank, iFood, Gympass são os brasileiros', // correta
+      'que faliu', // opção
+      'estatal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Unicórnio = startup privada avaliada em US$ 1+ bilhão. O Brasil formou vários (Nubank, iFood, Gympass, QuintoAndar, Creditas). O nome veio da raridade — hoje há mais de mil no mundo.', // explicação
+    dica: 'Estágios da startup: seed (semente) → early → growth → scale-up → unicórnio (US$1bi+) → IPO ou aquisição. Os "camelos" (resistentes, crescem sustentável) e "zebras" (lucro + impacto) são os contrapontos ao unicórnio.', // pegadinha
+    video: 'unicórnio startup bilhão nubank ifood' // busca no YouTube
+  },
+  {
+    id: 'ct90',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Contas — classificação',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na contabilidade, as contas do ATIVO representam:', // pergunta
+    alternativas: [                     // opções
+      'as dívidas', // opção
+      'os bens e direitos da empresa — caixa, estoque, imóvel, contas a receber: o que ela possui (aplicação dos recursos)', // correta
+      'o capital só', // opção
+      'a receita', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ativo = bens e direitos (caixa, estoque, máquina, a receber) — onde o dinheiro foi aplicado. Passivo = obrigações (dívidas, a pagar) — de onde veio o recurso de terceiros. PL = o capital próprio.', // explicação
+    dica: 'Equação fundamental: Ativo = Passivo + Patrimônio Líquido. Ativo = onde o dinheiro foi aplicado (bens+direitos); Passivo = de quem é o dinheiro (obrigações); PL = dos sócios. A soma das aplicações = a soma das origens.', // pegadinha
+    video: 'ativo passivo patrimônio líquido contas' // busca no YouTube
+  },
+  {
+    id: 'ct91',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'DRE — resultado',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Demonstração do Resultado do Exercício (DRE) mostra:', // pergunta
+    alternativas: [                     // opções
+      'o caixa', // opção
+      'o lucro ou prejuízo do período — receitas menos custos e despesas: o desempenho da empresa entre duas datas, não a foto patrimonial', // correta
+      'o patrimônio', // opção
+      'o saldo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'DRE = filme do resultado: Receita − Custos = Lucro bruto; − Despesas = Lucro operacional; − impostos = Lucro líquido. O Balanço Patrimonial é a FOTO (situação em uma data); a DRE é o FILME (período).', // explicação
+    dica: 'Balanço = foto patrimonial (uma data: bens vs dívidas); DRE = filme do resultado (o período: receita − despesa = lucro); Fluxo de Caixa = o dinheiro que entrou e saiu (diferente do lucro — regime de caixa vs competência).', // pegadinha
+    video: 'dre demonstração resultado lucro' // busca no YouTube
+  },
+  {
+    id: 'ct92',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Regime — competência',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Pelo regime de competência, a receita é reconhecida:', // pergunta
+    alternativas: [                     // opções
+      'quando recebe o dinheiro', // opção
+      'quando o fato econômico ocorre (a venda/prestação), independentemente do recebimento — a venda a prazo é receita na entrega, não no pagamento', // correta
+      'só à vista', // opção
+      'no caixa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Competência = o fato contábil é reconhecido quando ACONTECE (a entrega/prestação), não quando o dinheiro entra. Regime de caixa = só quando o dinheiro movimenta. A contabilidade societária usa competência.', // explicação
+    dica: 'Competência vs caixa é a base: vendi a prazo em dezembro, recebo em janeiro — a receita é de dezembro (competência), o caixa de janeiro. Lucro ≠ dinheiro: empresa lucrativa pode quebrar por falta de caixa.', // pegadinha
+    video: 'regime competência caixa contabilidade' // busca no YouTube
+  },
+  {
+    id: 'ct93',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Depreciação',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A depreciação contábil de uma máquina representa:', // pergunta
+    alternativas: [                     // opções
+      'a venda', // opção
+      'a alocação do desgaste/obsolência ao longo da vida útil — o custo do bem distribuído como despesa de cada período em que ele trabalha', // correta
+      'o lucro', // opção
+      'o imposto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Depreciação = o bem imobilizado perde valor pelo uso/obsolescência — distribui o custo como despesa ao longo da vida útil (linha reta: valor/vida útil anual). A máquina de R$ 100 mil com vida de 10 anos deprecia 10 mil/ano.', // explicação
+    dica: 'Depreciação é despesa "sem saída de caixa" — a máquina já foi paga; ela só distribui o gasto. Os métodos: linear (constante), unidades produzidas, saldos decrescentes. A taxa fiscal define a vida útil aceita.', // pegadinha
+    video: 'depreciação vida útil bem imobilizado' // busca no YouTube
+  },
+  {
+    id: 'ct94',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Custos — fixos e variáveis', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ponto de equilíbrio (break-even) é quando:', // pergunta
+    alternativas: [                     // opções
+      'o lucro é máximo', // opção
+      'a receita total iguala o custo total — nem lucro nem prejuízo: abaixo dele é perda, acima é lucro; calcula-se pela margem de contribuição', // correta
+      'a receita é zero', // opção
+      'o custo é zero', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Break-even = a quantidade/faturamento em que Receita = Custo total (lucro zero). Fórmula: PE = Custos fixos / Margem de contribuição unitária (preço − custo variável). O que vende acima do PE é lucro.', // explicação
+    dica: 'Margem de contribuição = preço − custo variável unitário — o que cada unidade "contribui" para pagar o fixo. PE = Fixo/MC. Empresa com fixo alto (indústria) tem PE alto e mais risco; o fixo baixo (serviço) quebra menos.', // pegadinha
+    video: 'ponto equilíbrio break even margem contribuição' // busca no YouTube
+  },
+  {
+    id: 'ct95',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Princípios contábeis',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O princípio da "prudência" (ou conservadorismo) manda:', // pergunta
+    alternativas: [                     // opções
+      'superestimar o lucro', // opção
+      'na dúvida, o menor valor para o ativo e o maior para o passivo — não antecipar lucro e já provisionar o risco: pessimismo contábil preventivo', // correta
+      'inventar', // opção
+      'não registrar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prudência/conservadorismo: entre duas opções válidas, a que dá o menor patrimônio — não antecipa receita incerta, provisiona a perda provável. É a proteção contra o otimismo do gestor.', // explicação
+    dica: 'Os princípios clássicos: entidade (a empresa ≠ o dono), continuidade (a empresa não vai fechar — senão é liquidação), oportunidade (registro tempestivo), registro pelo valor original (custo histórico) e competência.', // pegadinha
+    video: 'prudência conservadorismo princípio contábil' // busca no YouTube
+  },
+  {
+    id: 'ct96',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Partidas dobradas',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Segundo o método das partidas dobradas, cada lançamento contábil envolve:', // pergunta
+    alternativas: [                     // opções
+      'tudo é débito', // opção
+      'toda operação gera débito e crédito de igual valor — "não há devedor sem credor": a origem e a aplicação de cada recurso são registradas juntas', // correta
+      'só o débito importa', // opção
+      'o lucro é debitado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Partidas dobradas = cada lançamento tem débito (aplicação) e crédito (origem) iguais — a soma dos débitos = soma dos créditos. É o equilíbrio que garante a equação Ativo = Passivo + PL.', // explicação
+    dica: 'Débito e crédito contábeis ≠ senso comum: débito aumenta ATIVO (débito no caixa = dinheiro entrando); crédito aumenta PASSIVO/PL. O cartão "de débito" do banco é o inverso — é o débito da SUA conta, crédito do banco.', // pegadinha
+    video: 'partidas dobradas débito crédito' // busca no YouTube
+  },
+  {
+    id: 'ct97',                         // identificador único
+    materia: 'Contabilidade',           // matéria
+    tema: 'Fluxo de caixa',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A diferença crucial entre lucro e caixa é que:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'lucro é o resultado contábil (competência); caixa é o dinheiro disponível — a empresa pode ter lucro e quebrar por falta de caixa (vendeu a prazo)', // correta
+      'caixa é lucro', // opção
+      'o lucro é diário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lucro ≠ caixa: a receita a prazo é lucro hoje (competência) mas caixa só no recebimento. A empresa lucrativa com cliente inadimplente ou estoque parado quebra por falta de dinheiro — a gestão do caixa é a sobrevivência.', // explicação
+    dica: 'O paradoxo da falência lucrativa: a empresa vende bem, tem lucro, mas o caixa está preso em contas a receber e estoque. O fluxo de caixa projeta entradas e saídas de dinheiro — ferramenta de sobrevivência mais que a DRE.', // pegadinha
+    video: 'lucro caixa diferença fluxo financeiro' // busca no YouTube
+  },
+  {
+    id: 'k88',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Teorias — etiquetamento',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A teoria do etiquetamento (labelling approach) sustenta que:', // pergunta
+    alternativas: [                     // opções
+      'o crime é genético', // opção
+      'o rótulo de "criminoso" cria o criminoso — a reação social e o estigma empurram o etiquetado para a carreira criminal: a punição fabrica o desvio', // correta
+      'o crime é racional', // opção
+      'o crime é pobreza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Labelling (Becker): o desvio não é a qualidade do ato, é a reação da sociedade — quem é etiquetado como criminoso assume o papel (profecia autorrealizável). A escola e a prisão "fabricam" o desviante.', // explicação
+    dica: 'A teoria do etiquetamento desloca o foco: o problema não é só quem comete, é quem rotula (a polícia, a escola, a mídia). O "criminoso primário" preso sai "secundário" — o selo da prisão é a marca que reproduz o crime.', // pegadinha
+    video: 'etiquetamento labelling becker criminologia' // busca no YouTube
+  },
+  {
+    id: 'k89',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Pena — funções',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A função "retributiva" da pena é a de:', // pergunta
+    alternativas: [                     // opções
+      'reabilitar', // opção
+      'retribuir o mal com mal — a pena como resposta proporcional ao crime ("olho por olho"): a justiça que castiga porque o crime o merece', // correta
+      'prevenir', // opção
+      'educar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As funções da pena: retribuição (o mal pelo mal — Kant), prevenção geral (intimidar os outros), prevenção especial (reabilitar o condenado), e a restaurativa (reparar o dano). O Brasil mistura retribuição com prevenção.', // explicação
+    dica: 'A tensão clássica: retribuição (merecimento — olha o crime passado) vs prevenção (utilidade — olha o futuro). A ressocialização é a prevenção especial. O sistema brasileiro tem o dever legal de reintegrar, que a prisão real raramente cumpre.', // pegadinha
+    video: 'função pena retributiva preventiva' // busca no YouTube
+  },
+  {
+    id: 'k90',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Sistema prisional',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O sistema prisional brasileiro é criticado por:', // pergunta
+    alternativas: [                     // opções
+      'reabilitar bem', // opção
+      'superlotação e ineficácia — o preso mais do que dobra a capacidade, a facção recruta dentro e a reincidência é alta: a prisão "escola do crime"', // correta
+      'ser vazio', // opção
+      'custar pouco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sistema brasileiro: ~800 mil presos, superlotação crônica, facções dentro das unidades, reincidência ~30-60%. A criminologia crítica questiona se a prisão punge ou reproduz o crime — a "escola do crime".', // explicação
+    dica: 'As alternativas penais (Lei 9.099, penas restritivas) buscam desencarcerar o crime leve; o sistema socioeducativo (não "prisão" — a Fundação CASA) atende o adolescente. A APAC de Minas é o modelo de recuperação alternativo.', // pegadinha
+    video: 'sistema prisional brasil superlotação reincidência' // busca no YouTube
+  },
+  {
+    id: 'k91',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Vitimologia',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A vitimologia é o ramo da criminologia voltado a:', // pergunta
+    alternativas: [                     // opções
+      'o criminoso', // opção
+      'a vítima — o papel, a vulnerabilidade e o tratamento dela: por que certas pessoas/grupos são mais vitimizados e como o sistema a protege', // correta
+      'a polícia', // opção
+      'a pena', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vitimologia = o estudo da vítima do crime: vulnerabilidades, o processo de vitimização, a "vitimização secundária" (o sofrimento causado pelo próprio sistema — o depoimento, a revitimização) e os mecanismos de proteção.', // explicação
+    dica: 'A vitimização secundária é a pegadinha: a vítima sofre de novo no sistema — a mulher que denuncia violência e é duvidada, o depoimento traumático. A Lei Maria da Penha e os juizados de violência doméstica são a resposta.', // pegadinha
+    video: 'vitimologia vítima vitimização secundária' // busca no YouTube
+  },
+  {
+    id: 'k92',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Escolas — positivista',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A escola positivista de Lombroso defendia que:', // pergunta
+    alternativas: [                     // opções
+      'o crime é escolha', // opção
+      'o crime tem causa biológica/determinística — o "criminoso nato" com características físicas atávicas; hoje refutada e considerada pseudociência', // correta
+      'o crime é cultural', // opção
+      'não existe crime', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lombroso ("O Homem Delinquente", 1876): o criminoso nato seria identificável por traços físicos (atavismo). A teoria é hoje refutada como determinista e racista — mas foi o marco do estudo empírico do crime.', // explicação
+    dica: 'Lombroso = determinismo biológico (o criminoso nasce — atavismo físico); Ferri e Garofalo aperfeiçoaram o positivismo. Refutada: não há "traço criminoso" — a teoria serviu ao racismo científico e à eugenia. A criminologia atual é social.', // pegadinha
+    video: 'lombroso criminoso nato positivismo atavismo' // busca no YouTube
+  },
+  {
+    id: 'k93',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Violência — urbana',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os estudos sobre homicídio no Brasil apontam como principal vítima:', // pergunta
+    alternativas: [                     // opções
+      'idoso rico', // opção
+      'o jovem negro de periferia — o homicídio no Brasil é racializado e etarizado: negros são ~75% das vítimas, jovens de 15-29 anos são a faixa mais letal', // correta
+      'a criança', // opção
+      'o estrangeiro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Atlas da Violência mostra o padrão: jovem (15-29), negro (~75%), homem, de periferia, com arma de fogo — o homicídio brasileiro é concentrado por raça e território, não aleatório.', // explicação
+    dica: 'O homicídio brasileiro é um "campo concentrado": jovem negro da periferia vítima de arma de fogo — a guerra às drogas e a ação policial são os vetores. A redução exige política focada, não "mais prisão" genérica.', // pegadinha
+    video: 'homicídio brasil jovem negro atlas violência' // busca no YouTube
+  },
+  {
+    id: 'k94',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Controle social',            // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O conceito de "controle social formal" inclui:', // pergunta
+    alternativas: [                     // opções
+      'o costume', // opção
+      'a lei, a polícia e a prisão — os mecanismos institucionais de punição; o informal é a pressão do grupo (a família, a vergonha, a moral)', // correta
+      'a família', // opção
+      'a religião', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Controle formal = instituições estatais (lei, polícia, tribunais, prisão); informal = o grupo social (família, escola, comunidade, vergonha, moral). Sociedades coesas controlam pelo informal — a formal entra quando a informal falha.', // explicação
+    dica: 'Foucault inverteu: a disciplina moderna é o controle mais fino — a escola, o quartel, o hospital e o panóptico (a vigilância como autocontrole) disciplinam o corpo sem precisar da prisão. O controle informal penetra mais fundo.', // pegadinha
+    video: 'controle social formal informal foucault' // busca no YouTube
+  },
+  {
+    id: 'k95',                          // identificador único
+    materia: 'Criminologia',            // matéria
+    tema: 'Política criminal',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "minimalismo penal" (ou abolicionismo brando) propõe:', // pergunta
+    alternativas: [                     // opções
+      'mais pena', // opção
+      'reduzir o Direito Penal ao mínimo — a prisão só como última ratio para o crime grave; para o restante, mediação, reparação e alternativas', // correta
+      'pena de morte', // opção
+      'mais prisão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Minimalismo penal = a intervenção penal como última ratio — reservar a prisão ao crime grave e tratar o resto por via alternativa (reparação, mediação, medidas socioeducativas). O abolicionismo radical quer acabar com a prisão.', // explicação
+    dica: 'O espectro: abolicionismo penal (acabar com a prisão — Christie, Mathiesen) → minimalismo (reduzir ao essencial) → sistema atual (prisão como padrão). O Brasil pune muito e reabilita pouco — o oposto do minimalismo.', // pegadinha
+    video: 'minimalismo penal abolicionismo prisão' // busca no YouTube
+  },
+  {
+    id: 'a79',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Atos — nulidade',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ato administrativo nulo difere do anulável porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o nulo é inválido desde o início (vício insanável — falta de competência, objeto ilícito); o anulável produz efeitos até ser anulado (vício sanável)', // correta
+      'o nulo é válido', // opção
+      'o anulável é pior', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ato nulo = vício insanável desde a origem (incompetência grave, objeto ilícito — efeito ex tunc); anulável = vício que permite a convalidação ou anulação (efeito ex nunc — vale até a anulação).', // explicação
+    dica: 'Anulação = ato ilegal/viciado desfaz (ex tunc — retroage); revogação = ato válido mas inconveniente desfaz (ex nunc — só para frente, discricionário). O nulo é insanável; o anulável pode ser convalidado (forma/ competência).', // pegadinha
+    video: 'ato administrativo nulo anulável revogação' // busca no YouTube
+  },
+  {
+    id: 'a80',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Servidores — cargo',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A diferença entre cargo público e função pública é:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o cargo é criado por lei com atribuições e número próprios (estrutura do órgão); a função é o encargo de direção/chefia exercido dentro do cargo', // correta
+      'o cargo é temporário', // opção
+      'a função é lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cargo público = a unidade da estrutura criada por lei (atribuições, número, padrão — o servidor o ocupa pelo concurso); função pública = o encargo temporário de chefia/assessoramento (a função gratificada) exercido no cargo.', // explicação
+    dica: 'Cargo = permanente e criado por lei; função (gratificada/comissionada) = temporária e de confiança — pode ser tirada sem demissão. O emprego público (CLT na estatal) é diferente do cargo estatutário.', // pegadinha
+    video: 'cargo público função pública diferença' // busca no YouTube
+  },
+  {
+    id: 'a81',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Poderes — de polícia',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O poder de polícia da administração é o poder de:', // pergunta
+    alternativas: [                     // opções
+      'prender', // opção
+      'restringir e fiscalizar o particular em favor do interesse público — limitar direitos individuais (licenças, fiscalização, multas) para o bem coletivo', // correta
+      'contratar', // opção
+      'demitir', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Poder de polícia = a administração limita a liberdade e a propriedade do particular pela coletividade: alvará, licença, fiscalização, interdição, multa. Atributos: autoexecutoriedade, coercibilidade, discricionariedade.', // explicação
+    dica: 'Poder de polícia ≠ polícia militar: é o poder administrativo de regular e fiscalizar — a vigilância sanitária, o DETRAN, a prefeitura fechando o estabelecimento. A autoexecutoriedade (age sem juiz) é o atributo único.', // pegadinha
+    video: 'poder polícia administrativo alvará fiscalização' // busca no YouTube
+  },
+  {
+    id: 'a82',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Responsabilidade — do Estado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A responsabilidade civil do Estado pelo ato do servidor é:', // pergunta
+    alternativas: [                     // opções
+      'subjetiva', // opção
+      'objetiva — basta o dano causado pela ação do agente público (sem provar culpa); o Estado responde e depois cobra do servidor que agiu com dolo ou culpa (regressiva)', // correta
+      'do servidor só', // opção
+      'impossível', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 37 §6º CF: o ente público responde objetivamente pelo dano do seu agente — o lesado não prova culpa. O Estado, depois, cobra do servidor pela ação regressiva (precisa provar dolo ou culpa do servidor).', // explicação
+    dica: 'Responsabilidade objetiva do Estado (não precisa culpa) + ação de regresso contra o servidor (aí precisa dolo ou culpa). O cidadão é sempre indenizado; o servidor paga só se foi doloso/culpado. A omissão também gera responsabilidade.', // pegadinha
+    video: 'responsabilidade civil estado objetiva regresso' // busca no YouTube
+  },
+  {
+    id: 'a83',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Processo — administrativo',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O processo administrativo disciplinar deve garantir ao servidor:', // pergunta
+    alternativas: [                     // opções
+      'punição sumária', // opção
+      'ampla defesa e contraditório — direito de se defender em todas as fases; a punição sem PAD é nula, mesmo se a infração for verdadeira', // correta
+      'demissão direta', // opção
+      'sigilo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O PAD (processo administrativo disciplinar) deve garantir ampla defesa e contraditório — o servidor argui, produz prova e recorre. A demissão sumária sem defesa é inconstitucional, mesmo para o servidor culpado.', // explicação
+    dica: 'Ampla defesa = produzir prova e arguir; contraditório = responder a cada acusação. Sem PAD, nem a pena mais leve vale — a nulidade protege o direito de defesa, não a impunidade do fato. A comissão deve ter 3 membros.', // pegadinha
+    video: 'pad ampla defesa contraditório servidor' // busca no YouTube
+  },
+  {
+    id: 'a84',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Concessão — serviço público', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A concessão de serviço público difere da permissão porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a concessão é contrato administrativo (prazo longo, serviço essencial, Lei 8.987); a permissão é ato unilateral precário (serviço acessório, revogável)', // correta
+      'a concessão é revogável', // opção
+      'a permissão é contrato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Concessão = contrato administrativo de serviço essencial (telefonia, rodovia) por prazo longo — licitação obrigatória, tarifa equilibrada; permissão = ato unilateral e precário de serviço acessório — revogável sem indenização.', // explicação
+    dica: 'Concessão = serviço essencial, contrato, equilíbrio econômico-financeiro, caducidade por descumprimento; permissão = serviço não essencial, ato unilateral, precariedade; autorização = serviço de interesse do próprio usuário.', // pegadinha
+    video: 'concessão permissão serviço público diferença' // busca no YouTube
+  },
+  {
+    id: 'a85',                          // identificador único
+    materia: 'Direito Administrativo',  // matéria
+    tema: 'Licitação — modalidades',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A modalidade de licitação "pregão" é usada para:', // pergunta
+    alternativas: [                     // opções
+      'obra complexa', // opção
+      'bens e serviços comuns — o pregão presencial/eletrônico busca o menor preço para produtos padronizados; a concorrência é para obra complexa', // correta
+      'serviço técnico', // opção
+      'concessão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pregão (Lei 10.520) = bens/serviços COMUNS (padronizados) — o julgamento é pelo menor preço, sem exigência de habilitação prévia. Concorrência = obra complexa; tomada de preços/concurso/leilão são as demais.', // explicação
+    dica: 'Pregão = bem comum + menor preço (a habilitação vem DEPOIS do lance — inversão); concorrência = tudo (qualquer valor); tomada de preços = médio; convite = pequeno; leilão = vender bem público; concurso = prêmio técnico/artístico.', // pegadinha
+    video: 'pregão concorrência modalidade licitação' // busca no YouTube
+  },
+  {
+    id: 'c82',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Poder Executivo',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Presidente da República acumula no Brasil:', // pergunta
+    alternativas: [                     // opções
+      'só chefia do governo', // opção
+      'chefe de Estado E chefe de governo — o presidencialismo de coalizão concentra na Presidência a representação internacional e a direção do Executivo', // correta
+      'só representação', // opção
+      'o legislativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'No presidencialismo, o presidente é chefe de Estado (símbolo, representa internacionalmente) e chefe de governo (dirige a administração) — diferente do parlamentarismo (Reino Unido separa: rei = Estado, primeiro-ministro = governo).', // explicação
+    dica: 'Presidencialismo (Brasil, EUA): presidente = Estado+governo, mandato fixo, eleição direta. Parlamentarismo (Reino Unido, Espanha): chefe de Estado (rei/presidente) ≠ primeiro-ministro (governo depende do parlamento).', // pegadinha
+    video: 'chefe estado governo presidencialismo presidente' // busca no YouTube
+  },
+  {
+    id: 'c83',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Segurança pública',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Polícia Federal e a Polícia Civil se diferenciam porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a PF é federal (fronteira, crime interestadual/federal — art. 144 CF); a Civil é estadual (investigação comum); a Militar é estadual e faz o policiamento ostensivo', // correta
+      'a PF é municipal', // opção
+      'a Civil prende', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PM = policiamento OSTENSIVO (fardado, preventivo — estadual); Polícia Civil = investigação JUDICIÁRIA (inquerito, delegado — estadual); PF = federal (fronteira, crime interestadual/internacional, órgãos federais); Guarda Municipal é municipal.', // explicação
+    dica: 'PM ostensivo (farda/ronda) vs Civil investigativa (inquerito). PF federal; PC estadual; GM municipal (protege bem municipal). A PRF é federal e só policia rodovia federal. O delegado da Civil dirige o inquérito, não o da PF.', // pegadinha
+    video: 'polícia federal civil militar competência' // busca no YouTube
+  },
+  {
+    id: 'c84',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Direitos — fundamentais',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O direito de greve do servidor público é:', // pergunta
+    alternativas: [                     // opções
+      'proibido', // opção
+      'garantido pela Constituição (art. 37, VII) — mas a lei específica que o regulamenta nunca foi editada; o STF aplicou analogia à lei do privado', // correta
+      'irrestrito', // opção
+      'só do privado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A CF garante o direito de greve ao servidor (art. 37, VII), mas a lei específica que regulamentaria nunca veio — o STF decidiu aplicar a Lei de Greve do setor privado por analogia até a regulamentação.', // explicação
+    dica: 'O direito de greve do servidor é garantido, mas a lei específica é "desejada" e não veio — o STF supre a lacuna aplicando a lei privada (Lei 7.783). Os serviços essenciais (saúde, segurança) podem ter limitação.', // pegadinha
+    video: 'greve servidor público direito constitucional' // busca no YouTube
+  },
+  {
+    id: 'c85',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Orçamento — LOA',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Lei Orçamentária Anual (LOA) contém:', // pergunta
+    alternativas: [                     // opções
+      'o plano plurianual', // opção
+      'as receitas e despesas do ano — o orçamento fiscal, da seguridade e de investimento das estatais; o PPA é o planejamento de 4 anos', // correta
+      'as metas fiscais', // opção
+      'os 4 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ciclo orçamentário: PPA (plano plurianual — 4 anos, os programas) → LDO (lei de diretrizes — metas e prioridades do ano) → LOA (o orçamento anual — receita e despesa). Não pode haver LOA sem LDO nem LDO sem PPA.', // explicação
+    dica: 'Ordem e sentido: PPA é o mapa de 4 anos (visão de governo), LDO ajusta para o ano (metas, contingenciamento), LOA autoriza a arrecadação e o gasto do exercício. A CF proíbe iniciativa do Legislativo para aumentar despesa.', // pegadinha
+    video: 'loa ldo ppa orçamento ciclo fiscal' // busca no YouTube
+  },
+  {
+    id: 'c86',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Município — autonomia',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O município no federalismo brasileiro é:', // pergunta
+    alternativas: [                     // opções
+      'parte do estado', // opção
+      'ente federado autônomo — tem Constituição própria (a Lei Orgânica), prefeito e câmara eleitos e competência tributária; não é subordinado ao estado', // correta
+      'subordinado', // opção
+      'só administrativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil tem federalismo de 3 níveis: União, Estados e Municípios (que têm autonomia — não subordinação). O município tem Lei Orgânica (sua mini-constituição), prefeito e câmara e arrecada IPTU/ISS próprios.', // explicação
+    dica: 'Município = ente federado (autonomia, não subordinação ao estado). O DF é exceção (acumula estado + município). O Distrito Federal não pode se dividir em municípios; o Território Federal (hoje não existe) era União direta.', // pegadinha
+    video: 'município autonomia federado lei orgânica' // busca no YouTube
+  },
+  {
+    id: 'c87',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Relações — internacionais',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O tratado internacional de direitos humanos aprovado com rito especial no Congresso:', // pergunta
+    alternativas: [                     // opções
+      'vale como lei comum', // opção
+      'ganha status de emenda constitucional — aprovação por 3/5 em dois turnos nas duas Casas equipara o tratado à Constituição', // correta
+      'não vale', // opção
+      'vale como decreto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Art. 5º §3º CF: o tratado de direitos humanos aprovado com o rito de emenda (3/5 dos votos, dois turnos, nas duas Casas) tem status de EMENDA constitucional; o aprovado por rito comum fica acima da lei, abaixo da CF (supralegal).', // explicação
+    dica: 'Três posições para tratados: de direitos humanos com rito especial = emenda constitucional; de direitos humanos com rito comum = supralegal (acima da lei, abaixo da CF — o Pacto de São José); demais tratados = lei ordinária.', // pegadinha
+    video: 'tratado direitos humanos status emenda' // busca no YouTube
+  },
+  {
+    id: 'c88',                          // identificador único
+    materia: 'Direito Constitucional',  // matéria
+    tema: 'Controle — constitucionalidade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A ADI (Ação Direta de Inconstitucionalidade) é julgada pelo:', // pergunta
+    alternativas: [                     // opções
+      'STJ', // opção
+      'STF — controle concentrado: a ação abstrata contra lei/ato normativo federal ou estadual contrário à Constituição; a decisão vale para todos (erga omnes)', // correta
+      'juiz comum', // opção
+      'TRF', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Controle concentrado/abstrato: o STF julga a ADI (ação direta), ADC (declaratória), ADPF e ADO — a lei é atacada diretamente e a decisão vincula todos. O controle difuso é o juiz do caso concreto (qualquer juiz).', // explicação
+    dica: 'Legitimados à ADI: Presidente, mesas das casas legislativas, Procurador-Geral, partido com representação, OAB, confederação sindical. A decisão erga omnes e vinculante — a difusa do juiz vale só para o caso.', // pegadinha
+    video: 'adi ação direta inconstitucionalidade stf' // busca no YouTube
+  },
+  {
+    id: 'd86',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Imputabilidade',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A imputabilidade penal é a capacidade de:', // pergunta
+    alternativas: [                     // opções
+      'ser preso', // opção
+      'entender o caráter ilícito do fato e se determinar conforme esse entendimento — quem não compreende ou não se controla (doença mental) é inimputável', // correta
+      'cometer crime', // opção
+      'pagar multa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Imputável = quem pode ser penalmente responsabilizado: entende que o ato é errado (discernimento) e consegue se controlar (autodeterminação). O inimputável (menor de 18, doente mental completo) não é punido com pena.', // explicação
+    dica: 'Menor de 18 = inimputável SEMPRE (medida socioeducativa, não pena); maior com doença mental que elimina o entendimento = inimputável (medida de segurança); a semi-imputável (reduzida) tem a pena atenuada.', // pegadinha
+    video: 'imputabilidade inimputável penal menoridade' // busca no YouTube
+  },
+  {
+    id: 'd87',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes — contra o patrimônio', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A diferença entre furto e estelionato é que:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o furto subtrai sem o consentimento; o estelionato obtém a coisa ENGANANDO a vítima — ela "entrega" voluntariamente, iludida pelo golpe', // correta
+      'o furto é engano', // opção
+      'o estelionato é força', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Furto = subtrair coisa móvel alheia sem violência nem consentimento; estelionato = o agente engana a vítima que, iludida, entrega o bem (a fraude é o meio). Roubo = furto com violência/grave ameaça.', // explicação
+    dica: 'O meio diferencia: furto (sem consentimento — batedor de carteira), roubo (violência/ameaça — assalto), estelionato (engano — a vítima entrega por fraude — o golpe do pix falso), apropriação indébita (tinha e não devolveu).', // pegadinha
+    video: 'furto estelionato roubo diferença patrimônio' // busca no YouTube
+  },
+  {
+    id: 'd88',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Tentativa',                  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O crime tentado pune quando:', // pergunta
+    alternativas: [                     // opções
+      'só o desejo', // opção
+      'o agente inicia a execução mas o crime não se consuma por circunstância alheia à vontade — a pena é reduzida de 1/3 a 2/3', // correta
+      'só o crime feito', // opção
+      'a intenção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Iter criminis: cogitação (não punível) → preparação (em regra não punível) → execução (aqui nasce a tentativa) → consumação. A tentativa = iniciou a execução mas não consumou por fator externo (a vítima foge, a arma falha).', // explicação
+    dica: 'Desistência voluntária ≠ tentativa: quem para por vontade própria responde só pelos atos já praticados (ex.: desistiu do roubo mas já agrediu — responde pela lesão). A arrependimento eficaz (impede o resultado) também afasta a consumação.', // pegadinha
+    video: 'tentativa iter criminis desistência penal' // busca no YouTube
+  },
+  {
+    id: 'd89',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Prescrição',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A prescrição penal extingue:', // pergunta
+    alternativas: [                     // opções
+      'o crime', // opção
+      'a pretensão de punir — passado o prazo legal sem condenação/ execução, o Estado perde o direito de aplicar a pena (o crime não "some", a punição é que caduca)', // correta
+      'o registro', // opção
+      'a prova', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Prescrição = o decurso do tempo extingue a pretensão punitiva do Estado — a pena máxima do crime define o prazo. Imprescritíveis no Brasil: racismo e ação de grupos armados contra o Estado Democrático. Tortura e terrorismo são insuscetíveis de graça/anistia, não imprescritíveis.', // explicação
+    dica: 'Os imprescritíveis são só 2: racismo e ação de grupos armados contra a ordem constitucional/Estado Democrático. Homicídio prescreve (exceto feminicídio em progressão, depende da pena). Tortura e terrorismo são insuscetíveis de graça/anistia — diferentes de imprescritíveis.', // pegadinha
+    video: 'prescrição penal pretensão punitiva' // busca no YouTube
+  },
+  {
+    id: 'd90',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes — hediondos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os crimes hediondos (Lei 8.072) têm como consequência:', // pergunta
+    alternativas: [                     // opções
+      'liberdade solta', // opção
+      'o regime inicial fechado, proibição de anistia/indulto e fiança e progressão mais dura — homicídio qualificado, latrocínio, estupro, terrorismo', // correta
+      'fiança garantida', // opção
+      'pena leve', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Crime hediondo = a lei o classifica pela gravidade: regime fechado inicial (salvo primário de bom comportamento — mudou para semiaberto em 2016), insuscetível de anistia/indulto, fiança vedada e progressão de pena mais exigente.', // explicação
+    dica: 'Hediondos: homicídio qualificado, latrocínio, estupro, extorsão qualificada, tráfico privilegiado não é hediondo, terrorismo. O STF mudou: o regime fechado inicial caiu — hoje pode começar no semiaberto conforme a pena.', // pegadinha
+    video: 'crime hediondo lei 8072 regime' // busca no YouTube
+  },
+  {
+    id: 'd91',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Legítima defesa',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A legítima defesa exige, entre outros requisitos:', // pergunta
+    alternativas: [                     // opções
+      'a intenção de matar', // opção
+      'agressão injusta, atual ou iminente + moderação nos meios — reagir a agressão presente com o necessário, não com excesso: defesa, não vingança', // correta
+      'o ataque primeiro', // opção
+      'arma legal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Legítima defesa = excludente de ilicitude: agressão injusta, atual ou iminente, reação moderada (o meio necessário) e direito próprio ou de terceiro. O excesso doloso/culpável destrói a excludente.', // explicação
+    dica: 'Diferencie: legítima defesa (repele agressão atual), estado de necessidade (sacrifica bem alheio para salvar outro de maior valor), estrito cumprimento do dever legal (o policial no uso da força). O excesso de qualquer uma descaracteriza.', // pegadinha
+    video: 'legítima defesa requisitos agressão moderação' // busca no YouTube
+  },
+  {
+    id: 'd92',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Autoria — participação',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O coautor e o partícipe de um crime se distinguem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o coautor executa o núcleo do tipo (dirige o crime — o "domínio do fato"); o partícipe contribui sem executar (a ajuda, a instigação, o instrumento)', // correta
+      'o partícipe manda', // opção
+      'o coautor ajuda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Teoria do domínio do fato: autor = quem tem o controle final (coautor executa, autor mediato usa outro como instrumento); partícipe = quem contribui sem o domínio (instiga, auxilia, fornece o instrumento).', // explicação
+    dica: 'Mandante (instiga = partícipe, não autor), executor (autor/coautor — o domínio do fato), autor mediato (usa o inimputável como instrumento — responde como autor). Cada um responde conforme a contribuição dolosa.', // pegadinha
+    video: 'coautor partícipe domínio fato concurso' // busca no YouTube
+  },
+  {
+    id: 'd93',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Dosimetria — pena',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A dosimetria da pena segue o sistema de:', // pergunta
+    alternativas: [                     // opções
+      'uma fase', // opção
+      'três fases — 1ª: circunstâncias judiciais (a base), 2ª: agravantes/atenuantes, 3ª: causas de aumento/diminuição; a pena final sai dessa progressão', // correta
+      'uma decisão', // opção
+      'duas fases', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dosimetria trifásica (art. 68 CP): 1ª fase fixa a pena-base pelas circunstâncias judiciais; 2ª aplica agravantes/atenuantes (reincidência, confissão); 3ª aplica causas de aumento/diminuição (tentativa, concurso). O réu primário pode ter sursis.', // explicação
+    dica: 'A ordem importa: base → agravante/atenuante → aumento/diminuição. Confundir agravante com qualificadora é a pegadinha: a qualificadora aumenta a pena-base do tipo; a agravante atua na 2ª fase (reincidência, motivo fútil).', // pegadinha
+    video: 'dosimetria pena trifásico circunstâncias' // busca no YouTube
+  },
+  {
+    id: 'd94',                          // identificador único
+    materia: 'Direito Penal',           // matéria
+    tema: 'Crimes — contra a vida',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O infanticídio se distingue do homicídio porque:', // pergunta
+    alternativas: [                     // opções
+      'é mais grave', // opção
+      'é crime próprio da mãe que mata o filho sob a influência do estado puerperal — durante ou logo após o parto; a pena é reduzida pela condição psíquica', // correta
+      'é culposo', // opção
+      'é igual', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Infanticídio (art. 123) = crime próprio da mãe que, sob a influência do estado puerperal (a perturbação psíquica do parto), mata o próprio filho durante ou logo após — pena reduzida (1/3 a 2/3 do homicídio).', // explicação
+    dica: 'Infanticídio = só a mãe + o estado puerperal (alteração mental pós-parto) + recém-nascido. Sem a influência do estado puerperal, é homicídio comum. O pai ou terceiro que mata o bebê comete homicídio, nunca infanticídio.', // pegadinha
+    video: 'infanticídio estado puerperal mãe' // busca no YouTube
+  },
+  {
+    id: 'v86',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Reforma — regras',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Reforma da Previdência de 2019 (EC 103) criou:', // pergunta
+    alternativas: [                     // opções
+      'aposentadoria mais fácil', // opção
+      'idade mínima obrigatória e fim da aposentadoria só por tempo — elevou a idade (65H/62M) e o tempo de contribuição, eliminando a regra por tempo de serviço', // correta
+      'aposentadoria aos 40', // opção
+      'nada mudou', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Reforma de 2019 (EC 103): idade mínima para todos (65H/62M regra permanente), acabou a aposentadoria só por tempo de contribuição, endureceu o cálculo (média integral), criou regras de transição para quem já estava no sistema.', // explicação
+    dica: 'A reforma tornou a idade o requisito central — antes podia aposentar só por tempo de contribuição (30M/35H). As regras de transição (pedágio 50%/100%, pontos) valem para quem contribuía antes de 13/11/2019.', // pegadinha
+    video: 'reforma previdência 2019 idade mínima' // busca no YouTube
+  },
+  {
+    id: 'v87',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Benefício — auxílio',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O auxílio por incapacidade temporária (ex-auxílio-doença) é pago a:', // pergunta
+    alternativas: [                     // opções
+      'quem não trabalha', // opção
+      'o segurado que fica temporariamente incapaz para o trabalho por doença/acidente — exige qualidade de segurado, carência (12 meses, salvo exceções) e perícia médica', // correta
+      'o aposentado só', // opção
+      'o desempregado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Auxílio por incapacidade temporária: o segurado incapaz para o trabalho — requisitos: qualidade de segurado, carência de 12 contribuições (exceto acidente de trabalho e doença grave listada) e perícia do INSS.', // explicação
+    dica: 'Auxílio-doença (temporário) vs aposentadoria por incapacidade permanente (definitiva, sem chance de recuperação). O BPC/LOAS é assistencial (não precisa contribuição — idoso 65+ ou deficiente de baixa renda), o auxílio exige segurado.', // pegadinha
+    video: 'auxílio incapacidade temporária doença inss' // busca no YouTube
+  },
+  {
+    id: 'v88',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Segurados — tipos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O MEI e o trabalhador autônomo se filiam ao INSS como:', // pergunta
+    alternativas: [                     // opções
+      'empregados', // opção
+      'contribuintes individuais — recolhem por conta própria (facultativo ou obrigatório conforme a atividade), com plano simplificado (5% ou 11%) ou completo (20%)', // correta
+      'segurados especiais', // opção
+      'sem contribuição', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Contribuinte individual = o autônomo/MEI que recolhe por conta própria (facultativo ou obrigatório): plano 20% (direito a todas as aposentadorias) ou 11%/5% (só por idade). O segurado especial é o pequeno produtor rural.', // explicação
+    dica: 'Empregado = o empregador desconta; contribuinte individual = recolhe por si (MEI, autônomo); segurado especial = pequeno produtor rural e pescador artesanal (contribui na comercialização); facultativo = quem não trabalha e opta por pagar.', // pegadinha
+    video: 'contribuinte individual mei inss plano' // busca no YouTube
+  },
+  {
+    id: 'v89',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Pensão por morte',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A pensão por morte após a Reforma de 2019 ficou:', // pergunta
+    alternativas: [                     // opções
+      'integral', // opção
+      'reduzida — o valor é 50% da aposentadoria + 10% por dependente (máximo 100%); antes era 100% do benefício do falecido para o cônjuge', // correta
+      'cancelada', // opção
+      'maior', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A Reforma de 2019 reduziu a pensão por morte: 50% do valor da aposentadoria (ou da que teria) + 10% por dependente até 100%. Cônjuge com filho menor de idade ou deficiente tem regra específica. Antes era 100%.', // explicação
+    dica: 'Pensão pós-2019 = 50% + 10% por dependente (máx. 100%) — e os 10% caem quando o dependente atinge a maioridade (exceto inválido/deficiente). O acúmulo com outras pensões/benefícios foi restrito pela mesma reforma.', // pegadinha
+    video: 'pensão morte reforma 2019 redução' // busca no YouTube
+  },
+  {
+    id: 'v90',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Qualidade de segurado',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "período de graça" do segurado do INSS é:', // pergunta
+    alternativas: [                     // opções
+      'o tempo sem pagar', // opção
+      'o tempo em que o segurado mantém a cobertura MESMO sem contribuir — 12 meses após parar de pagar (24 se desempregado involuntário, 36 se contribuiu 10 anos)', // correta
+      'a multa', // opção
+      'a isenção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Período de graça = o segurado conserva a qualidade sem contribuir: 12 meses padrão; +12 se desempregado involuntário ou se já contribuiu 10+ anos; +12 para algumas situações — pode chegar a 36 meses.', // explicação
+    dica: 'Período de graça protege quem parou de contribuir — o segurado que adoecer dentro do prazo ainda tem direito ao auxílio. A carência (tempo de contribuição mínimo) é diferente do período de graça (tempo que a cobertura persiste).', // pegadinha
+    video: 'período graça segurado inss cobertura' // busca no YouTube
+  },
+  {
+    id: 'v91',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Aposentadoria — especial',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A aposentadoria especial é para quem:', // pergunta
+    alternativas: [                     // opções
+      'qualquer um', // opção
+      'trabalhou exposto a agentes nocivos à saúde — a insalubridade/periculosidade reduz o tempo exigido (15, 20 ou 25 anos) dependendo da exposição', // correta
+      'é empresário', // opção
+      'tem diploma', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aposentadoria especial = a exposição a agente nocivo (químico, físico, biológico, ruído, perigo) reduz o tempo: 25 anos (padrão), 20 ou 15 (amianto, mineração — mais nocivo, menos tempo). Comprovação pelo LTCAT e PPP.', // explicação
+    dica: 'A especial depende do agente nocivo (laudo técnico — LTCAT/PPP): 15 anos (mineração subterrânea/amianto), 20 (exposição intermediária), 25 (a regra). O professor não é especial — é a regra própria do magistério.', // pegadinha
+    video: 'aposentadoria especial insalubridade nocivo' // busca no YouTube
+  },
+  {
+    id: 'v92',                          // identificador único
+    materia: 'Direito Previdenciário',  // matéria
+    tema: 'Regime próprio — servidor',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O servidor público estatutário se aposenta pelo:', // pergunta
+    alternativas: [                     // opções
+      'INSS', // opção
+      'RPPS — Regime Próprio de Previdência Social do ente federativo (a União, o Estado ou o Município tem o seu); o celetista é RGPS (INSS)', // correta
+      'o sindicato', // opção
+      'previdência privada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O estatutário vincula-se ao RPPS do ente que o nomeou (União/Estado/Município — cada um tem o seu). O celetista da estatal e o temporário vão ao RGPS (INSS). O RPPS pode ter fundo de capitalização (Funpresp, Funpresp-Jud).', // explicação
+    dica: 'RPPS = o servidor estatutário; RGPS/INSS = o empregado celetista, o temporário e o ocupante de função pública sem cargo. O servidor pode ter a previdência complementar (Funpresp) — a aposentadoria pelo RPPS tem teto mais alto.', // pegadinha
+    video: 'rpps regime próprio servidor estatutário' // busca no YouTube
+  },
+  {
+    id: 'tr100',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Contrato — tipos',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O contrato por prazo determinado só é válido quando:', // pergunta
+    alternativas: [                     // opções
+      'sempre', // opção
+      'há justificativa legal — atividade transitória, contrato de experiência (máx. 90 dias) ou safra; fora disso, o contrato deve ser indeterminado', // correta
+      'o empregador quer', // opção
+      'para qualquer caso', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A regra é o contrato por prazo INDETERMINADO; o determinado só vale com justificativa legal (experiência — até 90 dias, atividade transitória, safra). O determinado reiterado sem justificativa vira indeterminado.', // explicação
+    dica: 'Contrato de experiência = máx. 90 dias (podendo 1 prorrogação); trabalho temporário (Lei 6.019) = até 180 dias para necessidade transitória. O determinado sem justificativa ou sucessivo vira indeterminado.', // pegadinha
+    video: 'contrato prazo determinado experiência clt' // busca no YouTube
+  },
+  {
+    id: 'tr101',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Rescisão — modalidades',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "demissão por justa causa" do empregado ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'o patrão demite sem motivo', // opção
+      'o empregado comete falta grave (roubo, agressão, abandono) — perde aviso prévio, férias proporcionais, 13º e o FGTS; a justa causa é do fato do empregado', // correta
+      'a empresa fecha', // opção
+      'o contrato acaba', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justa causa do empregado (art. 482 CLT): falta grave (improbidade, incontinência, desídia, abandono de emprego) — o empregado perde aviso, 13º, férias proporcionais e o saque do FGTS. Existe a justa causa do empregador (rescisão indireta).', // explicação
+    dica: 'A justa causa pune o empregado (perde tudo); a rescisão indireta pune o empregador (o empregado "dá justa causa" no patrão por falta grave dele — recebe tudo). A despedida sem justa causa gera aviso, FGTS+40%, seguro.', // pegadinha
+    video: 'justa causa rescisão indireta empregado' // busca no YouTube
+  },
+  {
+    id: 'tr102',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Jornada — intervalos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O intervalo intrajornada para refeição em jornada acima de 6 horas é:', // pergunta
+    alternativas: [                     // opções
+      '15 minutos', // opção
+      'no mínimo 1 hora (podendo ser reduzido a 30 min por acordo/MTb) — acima de 6h, a pausa é de 1h a 2h; entre 4h e 6h, é de 15 min', // correta
+      '30 minutos sempre', // opção
+      'sem intervalo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Intervalo intrajornada: jornada >6h = pausa de 1h a 2h (reduzível a 30min por acordo ou MTb); jornada 4-6h = 15 min; ≤4h = sem intervalo. O intervalo não conta como jornada (exceto doméstico e alguns casos).', // explicação
+    dica: 'Intrajornada (dentro do dia — almoço) vs interjornada (entre dias — 11 horas de descanso). A supressão do almoço gera pagamento do período como EXTRA (não só a hora) — é indenizatório desde a reforma.', // pegadinha
+    video: 'intervalo intrajornada refeição jornada' // busca no YouTube
+  },
+  {
+    id: 'tr103',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'FGTS — depósito',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O empregador deve depositar mensalmente o FGTS de:', // pergunta
+    alternativas: [                     // opções
+      '20%', // opção
+      '8% do salário — o depósito do empregador em conta vinculada da Caixa; na demissão sem justa causa, saca tudo + multa de 40%; o empregado não desconta', // correta
+      '10%', // opção
+      '5%', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'FGTS = 8% do salário depositado pelo empregador na conta vinculada (o trabalhador não desconta). O saque pleno é na demissão sem justa causa (+40% de multa), aposentadoria, casa própria, doença grave.', // explicação
+    dica: 'FGTS sai do bolso do EMPREGADOR (não desconta do salário — diferente do INSS). A multa de 40% na dispensa sem justa causa é sobre os depósitos. O contrato intermitente tem direito, o autônomo não.', // pegadinha
+    video: 'fgts 8% depósito saque multa 40' // busca no YouTube
+  },
+  {
+    id: 'tr104',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Terceirização',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Após a reforma de 2017, a terceirização passou a ser permitida:', // pergunta
+    alternativas: [                     // opções
+      'só atividade-meio', // opção
+      'em qualquer atividade, inclusive a fim — a lei autorizou a terceirização da atividade principal; a contratante responde subsidiariamente pela dívida', // correta
+      'nunca', // opção
+      'só na limpeza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Antes de 2017 só se terceirizava atividade-meio (porteiro, limpeza); a reforma liberou a atividade-fim. A responsabilidade da contratante é SUBSIDIÁRIA (paga se a contratada não pagar), não solidária.', // explicação
+    dica: 'Terceirização lícita = contrato com empresa prestadora (o vínculo é do terceirizado com ela — a contratante é subsidiária); a "pejotização" fraudulenta (demite e recontrata como PJ na mesma função) gera vínculo.', // pegadinha
+    video: 'terceirização atividade fim subsidiária' // busca no YouTube
+  },
+  {
+    id: 'tr105',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Segurança — acidente',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O empregado que sofre acidente de trabalho tem direito a:', // pergunta
+    alternativas: [                     // opções
+      'nada', // opção
+      'estabilidade provisória de 12 meses após o retorno — a garantia de emprego após o afastamento pelo INSS (auxílio-acidente e ação de indenização cabíveis)', // correta
+      'demissão', // opção
+      'só o INSS', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O acidentado afastado pelo INSS (>15 dias) tem estabilidade de 12 meses após o retorno — não pode ser demitido sem justa causa. Cabe auxílio-acidente (sequela permanente) e indenização se houve culpa do empregador.', // explicação
+    dica: 'Estabilidade acidentária = 12 meses após o retorno do afastamento previdenciário; doença comum não dá estabilidade (só afastamento + auxílio); a gestante (gravidez + 5 meses pós-parto) e o membro da CIPA têm estabilidade própria.', // pegadinha
+    video: 'acidente trabalho estabilidade 12 meses' // busca no YouTube
+  },
+  {
+    id: 'tr106',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Férias — direito',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O empregado tem direito a férias de:', // pergunta
+    alternativas: [                     // opções
+      '15 dias', // opção
+      '30 dias após cada 12 meses de trabalho (período aquisitivo), com acréscimo de 1/3 do salário — o 1/3 constitucional das férias', // correta
+      '20 dias', // opção
+      '40 dias', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Férias = 30 dias após 12 meses (o período aquisitivo) + 1/3 do salário. Podem ser fracionadas em até 3 períodos (um com 14+ dias); o empregador tem 12 meses seguintes para conceder (período concessivo).', // explicação
+    dica: 'O 1/3 de férias é o abono constitucional; o pecuniário (vender férias) permite converter até 10 dias em dinheiro; a falta injustificada reduz os dias. O empregador que não concede paga em dobro.', // pegadinha
+    video: 'férias 30 dias terço constitucional' // busca no YouTube
+  },
+  {
+    id: 'tr107',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Justiça — competência',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Justiça do Trabalho julga:', // pergunta
+    alternativas: [                     // opções
+      'só demissão', // opção
+      'as relações de trabalho — empregado vs empregador: verbas rescisórias, adicional, vínculo, acidente; o servidor estatutário é da Justiça comum', // correta
+      'o crime', // opção
+      'o consumidor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Justiça do Trabalho = o empregado celetista contra o empregador (reclamação trabalhista); o servidor público estatutário vai à Justiça comum; as questões da administração federal à Federal. O TST é o topo.', // explicação
+    dica: 'Estrutura trabalhista: Vara → TRT (recurso ordinário) → TST (recurso de revista — questão de lei, não reexamina fato). O juiz do trabalho julga com base na CLT — e o in dubio pro operario é princípio hermenêutico.', // pegadinha
+    video: 'justiça trabalho competência tst trt' // busca no YouTube
+  },
+  {
+    id: 'tr108',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Adicionais — insalubridade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O adicional de insalubridade é pago por:', // pergunta
+    alternativas: [                     // opções
+      'o perigo', // opção
+      'a exposição a agente nocivo à saúde (químico, biológico, ruído) — 10%, 20% ou 40% sobre o salário MÍNIMO conforme o grau; periculosidade é outro adicional', // correta
+      'a noite', // opção
+      'o fim de semana', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Insalubridade = agente nocivo à SAÚDE (químico, biológico, ruído, calor) — adicional de 10/20/40% sobre o salário mínimo. Periculosidade = risco de morte iminente (explosivo, segurança) — 30% sobre o salário.', // explicação
+    dica: 'Insalubridade (nocivo à saúde — sobre o mínimo, 3 graus) vs Periculosidade (perigo de vida — 30% sobre o salário). São alternativos (o mesmo trabalho não tem os dois) e a proteção (EPI) que neutraliza elimina o adicional.', // pegadinha
+    video: 'insalubridade periculosidade adicional diferença' // busca no YouTube
+  },
+  {
+    id: 'tr109',                        // identificador único
+    materia: 'Direito do Trabalho',     // matéria
+    tema: 'Princípios — trabalho',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O princípio da "primazia da realidade" no Direito do Trabalho significa:', // pergunta
+    alternativas: [                     // opções
+      'o contrato escrito vale', // opção
+      'a realidade do trabalho prevalece sobre o documento — se o papel diz PJ mas a realidade mostra subordinação/horário/pessoalidade, há vínculo empregatício', // correta
+      'o papel prevalece', // opção
+      'o salário é o critério', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Primazia da realidade = a verdade dos fatos se impõe ao documento — a "pejotização" fraudulenta (PJ com subordinação, pessoalidade, habitualidade) é reconhecida como vínculo CLT. O papel não esconde a realidade.', // explicação
+    dica: 'Os elementos do vínculo: subordinação (obedece ordem), pessoalidade (não pode substituir), não eventualidade/habitualidade (todo dia), onerosidade (salário). A "pejotização" que os dissimula é fraude — o vínculo é real.', // pegadinha
+    video: 'primazia realidade pejotização vínculo' // busca no YouTube
+  },
+  {
+    id: 'ec84',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'PIB — componentes',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Pela ótica da despesa, o PIB se decompõe em:', // pergunta
+    alternativas: [                     // opções
+      'só consumo', // opção
+      'C + I + G + (X − M) — consumo das famílias + investimento das empresas + gasto do governo + exportações líquidas das importações', // correta
+      'só exportação', // opção
+      'só salários', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'PIB = C+I+G+(X−M): consumo das famílias (~60% no Brasil), investimento, gasto governamental e o saldo externo. A recessão vem quando consumo e investimento caem; o governo pode compensar com gasto (keynesiano).', // explicação
+    dica: 'PIB nominal vs real: o nominal sobe com preço, o real só com quantidade — o deflator separa o crescimento da inflação. PIB per capita = PIB/população; PIB ≠ bem-estar (não mede distribuição nem meio ambiente — o IDH complementa).', // pegadinha
+    video: 'pib componentes consumo investimento fórmula' // busca no YouTube
+  },
+  {
+    id: 'ec85',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Moeda — funções',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A moeda cumpre três funções fundamentais na economia:', // pergunta
+    alternativas: [                     // opções
+      'só comprar', // opção
+      'meio de troca (compra e vende), unidade de conta (mede o preço) e reserva de valor (guarda poder de compra) — o escambo não tinha isso', // correta
+      'só investir', // opção
+      'só pagar imposto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Moeda = meio de troca (aceita para transações), unidade de conta (medida dos preços) e reserva de valor (conserva o poder de compra no tempo). A inflação corrói a reserva de valor — por isso o dinheiro parado perde poder.', // explicação
+    dica: 'Inflação corrói a reserva de valor — o dinheiro no colchão perde para o dinheiro investido. Criptomoedas são meio de troca fraco e reserva instável; o Pix é meio de pagamento (não moeda — a moeda é o real, o Pix é a forma de transferir).', // pegadinha
+    video: 'funções moeda troca conta reserva' // busca no YouTube
+  },
+  {
+    id: 'ec86',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Câmbio — regimes',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Brasil adota o regime cambial de:', // pergunta
+    alternativas: [                     // opções
+      'câmbio fixo', // opção
+      'câmbio flutuante (desde 1999) — o preço do dólar é definido pelo mercado (oferta/demanda); o Banco Central só intervém para suavizar oscilações bruscas', // correta
+      'câmbio fixo', // opção
+      'sem moeda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Flutuante = mercado define o preço (BC intervém só em turbulência — swap); fixo = o BC fixa o preço e usa reservas para manter (a Argentina já usou); bandas cambiais = o híbrido (flutua dentro de um intervalo).', // explicação
+    dica: 'O Brasil usou bandas cambiais 1995-99 (o câmbio semi-fixo que segurou o Plano Real) e mudou para flutuante em 1999. O dólar flutuante é amortecedor de choque — a desvalorização absorve a crise externa sem perder reservas.', // pegadinha
+    video: 'câmbio flutuante fixo banda brasil' // busca no YouTube
+  },
+  {
+    id: 'ec87',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Dívida pública',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "dívida bruta" e a "dívida líquida" do governo diferem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a líquida desconta os ativos — dívida bruta menos as reservas e os créditos do governo; a bruta (~75% do PIB) é a mais citada, a líquida é menor', // correta
+      'a bruta é menor', // opção
+      'a líquida é externa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dívida bruta = todo o estoque de títulos do governo (~75-85% do PIB brasileiro); dívida líquida = bruta menos os ativos (reservas cambiais, créditos) — mede o que restaria se o governo resgatasse o que tem.', // explicação
+    dica: 'O Brasil tem reservas cambiais grandes (~US$350bi) que reduzem a líquida — mas a dívida bruta cresce com os juros. O "domínio dos juros": dívida alta + juro alto = a dívida cresce sozinha — o superávit primário é a âncora.', // pegadinha
+    video: 'dívida bruta líquida governo pib' // busca no YouTube
+  },
+  {
+    id: 'ec88',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Setores — produtivos',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os três setores da economia são:', // pergunta
+    alternativas: [                     // opções
+      'público e privado', // opção
+      'primário (agropecuária/extrativismo — a matéria-prima), secundário (indústria — transforma) e terciário (serviços/comércio — o maior do Brasil)', // correta
+      'só indústria', // opção
+      'só serviço', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Primário = extrai da natureza (agro, pesca, mineração); secundário = transforma (indústria); terciário = serviços (comércio, educação, saúde, banco). O Brasil é terciarizado (~70% dos empregos) — a desindustrialização é o debate.', // explicação
+    dica: 'O Brasil "pula" a industrialização: de primário-agrário a terciário de serviços de baixa produtividade — a "desindustrialização precoce" é o problema econômico. Quaternário (conhecimento/tech) e quinário (decisão/pesquisa) são extensões.', // pegadinha
+    video: 'setores economia primário secundário terciário' // busca no YouTube
+  },
+  {
+    id: 'ec89',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Monopólio — mercado',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O monopólio e o oligopólio se diferenciam porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'monopólio = um só produtor domina o mercado; oligopólio = poucos grandes dominam (companhia aérea, telecom) — ambos eliminam a concorrência', // correta
+      'o oligopólio é pior', // opção
+      'monopólio é legal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Monopólio = um vendedor só (a distribuidora de energia local); oligopólio = poucos grandes (aéreas, bancos, telecom — cartel é o acordo entre eles); concorrência perfeita = muitos pequenos (a feira) — o ideal econômico.', // explicação
+    dica: 'Cartel = o acordo ilegal entre concorrentes do oligopólio para fixar preço (a Lei 12.529/CADE combate). O monopólio legal (concessão — energia, água) é regulado pela agência; o natural (economia de escala) existe sem fraude.', // pegadinha
+    video: 'monopólio oligopólio concorrência cartel' // busca no YouTube
+  },
+  {
+    id: 'ec90',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Globalização',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "cadeia global de valor" explica que:', // pergunta
+    alternativas: [                     // opções
+      'tudo é local', // opção
+      'o produto é feito em vários países — o smartphone: design nos EUA, chip de Taiwan, montagem na China; cada país captura a etapa que domina', // correta
+      'só o Brasil produz', // opção
+      'não há divisão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cadeia global de valor = a produção fragmentada por país conforme a vantagem: design e marca no país rico (maior margem), componente na Ásia, montagem onde a mão de obra é barata. O país que fica na montagem captura pouco.', // explicação
+    dica: 'A guerra dos chips e a pandemia expuseram a fragilidade — a dependência da cadeia global. O "nearshoring" e "friendshoring" são a resposta: trazer a produção para perto ou para aliados — o Brasil pode ganhar como fornecedor de alimento/commodity.', // pegadinha
+    video: 'cadeia global valor produção fragmentada' // busca no YouTube
+  },
+  {
+    id: 'ec91',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Pobreza — indicadores',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "índice de Gini" mede:', // pergunta
+    alternativas: [                     // opções
+      'a inflação', // opção
+      'a desigualdade de renda — vai de 0 (todos iguais) a 1 (um tem tudo); o Brasil ~0,53 é um dos mais desiguais do mundo', // correta
+      'o PIB', // opção
+      'o emprego', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gini = concentração de renda: 0 = igualdade perfeita, 1 = um concentra tudo. O Brasil ~0,53 é dos piores. O IDH mede desenvolvimento (saúde+educação+renda); a pobreza extrema mede quem vive abaixo da linha (~US$2,15/dia).', // explicação
+    dica: 'Gini (desigualdade), IDH (desenvolvimento humano — saúde+educação+renda), linha de pobreza (renda mínima). O Brasil tem Gini alto mesmo com PIB razoável — a riqueza se concentra. O Bolsa Família reduz a pobreza extrema.', // pegadinha
+    video: 'gini desigualdade idh pobreza' // busca no YouTube
+  },
+  {
+    id: 'ec92',                         // identificador único
+    materia: 'Economia',                // matéria
+    tema: 'Commodities — Brasil',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A economia brasileira é "commodity-dependente" porque:', // pergunta
+    alternativas: [                     // opções
+      'exporta manufatura', // opção
+      'a exportação concentra em produtos primários (soja, minério, petróleo, carne, café) — vulnerável ao preço internacional que o país não controla', // correta
+      'só importa', // opção
+      'é industrial', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Brasil exporta commodities (soja ~15%, minério, petróleo cru, carnes, café, açúcar) e importa manufaturas — a "reprimarização" da pauta. A vulnerabilidade: o preço internacional dita a receita (o boom e a queda).', // explicação
+    dica: 'O ciclo: preço alto da soja/minério = superávit e emprego no agro; preço baixo = dólar sobe e receita cai. A dependência expõe ao "holandês" (a commodity encarece o câmbio e mata a indústria) — a diversificação é a defesa.', // pegadinha
+    video: 'commodity brasil soja minério exportação' // busca no YouTube
+  },
+  {
+    id: 'g82',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Minas Gerais — geografia',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Minas Gerais se destaca economicamente por:', // pergunta
+    alternativas: [                     // opções
+      'só a praia', // opção
+      'mineração, café e indústria — maior produtor de minério de ferro e café do país; a Serra do Espinhaço e o Quadrilátero Ferrífero concentram a mineração', // correta
+      'só turismo', // opção
+      'a pesca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'MG = a " locomotiva " mineira: 1º em café (~50% do Brasil), minério de ferro (Vale — Quadrilátero Ferrífero), leite, aço. A diversidade regional: Norte (pobre, semiárido), Sul (café, indústria), Zona da Mata (café/universidades).', // explicação
+    dica: 'O Quadrilátero Ferrífero (BH, Ouro Preto, Itabira) é o coração da mineração — e onde ocorreram os desastres de Mariana (2015) e Brumadinho (2019). O Semiárido mineiro no norte e o cerrado do Triângulo são as regiões de menor IDH.', // pegadinha
+    video: 'minas gerais café mineração quadrilátero' // busca no YouTube
+  },
+  {
+    id: 'g83',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Biomas — Mata Atlântica',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Mata Atlântica é o bioma brasileiro:', // pergunta
+    alternativas: [                     // opções
+      'mais preservado', // opção
+      'mais devastado — restam ~12-15% da cobertura original: onde a colonização começou e a maioria da população vive; é o bioma mais ameaçado', // correta
+      'do Norte', // opção
+      'sem árvore', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mata Atlântica = o litoral e a serra do Mar — o primeiro bioma desmatado (pau-brasil, cana, café, urbanização); restam ~12% original. É o bioma mais ameaçado com endemismo altíssimo — lei específica de proteção.', // explicação
+    dica: 'Extensão original: ~15% do território; resta ~12-15% desse — quase tudo fragmentado. A maioria da população e indústria está nela (SP, RJ, MG). A Lei da Mata Atlântica (11.428) protege o que sobrou — a restauração é a meta.', // pegadinha
+    video: 'mata atlântica desmatamento preservação' // busca no YouTube
+  },
+  {
+    id: 'g84',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Relevo — planaltos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O relevo brasileiro se caracteriza predominantemente por:', // pergunta
+    alternativas: [                     // opções
+      'montanhas altas', // opção
+      'planaltos e planícies antigas — terrenos cristalinos erodidos: pico máximo ~3.000m (Neblina), sem Andes: um país de planalto baixo', // correta
+      'só planície', // opção
+      'vulcões', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Brasil = relevo de planalto antigo (brasileiro, central, atlântico) e planície sedimentar (Amazônia, Pantanal, Pampas) — formações muito antigas e erodidas, sem cordilheira jovem. O ponto mais alto é o Pico da Neblina (~3.000m).', // explicação
+    dica: 'Sem Andes nem vulcão relevante — o relevo brasileiro é de planalto cristalino erodido. As serras do Mar/Mantiqueira são escarpas costeiras. O Planalto Central (cerrado — DF, Goiás) é o celeiro da soja.', // pegadinha
+    video: 'relevo brasileiro planalto planície' // busca no YouTube
+  },
+  {
+    id: 'g85',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'População — migração',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O êxodo rural brasileiro ocorreu principalmente:', // pergunta
+    alternativas: [                     // opções
+      'no século XIX', // opção
+      'das décadas de 1950-80 — a mecanização do campo e a industrialização puxaram milhões para a cidade: o Brasil deixou de ser rural e virou urbano', // correta
+      'hoje', // opção
+      'nunca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Êxodo rural = a migração campo→cidade (1950-80): mecanização agrícola expulsou o trabalhador e a indústria nas capitais atraiu. O Brasil de rural (~60%) virou urbano (~87%) — gerando favela e subemprego.', // explicação
+    dica: 'O êxodo criou o inchaço urbano sem infraestrutura — a favela, o desemprego, a violência. O Nordeste foi a maior fonte (secas + latifúndio) e SP o maior destino — o retorno do nordestino e a fuga para o interior são fluxos recentes.', // pegadinha
+    video: 'êxodo rural brasil migração urbanização' // busca no YouTube
+  },
+  {
+    id: 'g86',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Energia — recursos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O potencial hídrico brasileiro se concentra em:', // pergunta
+    alternativas: [                     // opções
+      'rios do litoral', // opção
+      'rios de planalto com quedas — o potencial está nas cabeceiras e nos grandes rios interiores (Paraná, São Francisco, Tocantins, Amazonas)', // correta
+      'a praia', // opção
+      'a caatinga', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A hidreletricidade precisa de queda + vazão — o Brasil tem os dois nos rios de planalto (a escarpa + a água abundante): Itaipu (Paraná), Tucuruí (Tocantins), Furnas (Grande/MG). A Amazônia tem vazão mas pouca queda.', // explicação
+    dica: 'O potencial está em rio de planalto (queda) e não de planície — a Amazônia tem o maior volume mas é plana. A hidrelétrica amazônica (Belo Monte, Jirau) usa queda de afluente e gera polêmica ambiental/indígena.', // pegadinha
+    video: 'potencial hídrico hidrelétrica rio queda' // busca no YouTube
+  },
+  {
+    id: 'g87',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Clima — semiárido',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O semiárido nordestino (o "Polígono das Secas") se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'chuva abundante', // opção
+      'chuva escassa e irregular (200-800mm/ano, concentrada em poucos meses) — a caatinga, o solo cristalino e a vulnerabilidade social à seca', // correta
+      'mata fechada', // opção
+      'frio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Semiárido = clima quente com chuva irregular e escassa (<800mm/ano) — a caatinga é o bioma adaptado (planta xerófita). O problema não é só a seca natural: é a desigualdade (o latifúndio concentra a terra e a água).', // explicação
+    dica: 'A seca é natural (a irregularidade da chuva), mas a MISÉRIA é social — a concentração fundiária faz do sertanejo o refugiado climático. A transposição do São Francisco e a cisterna são as respostas — a "convivência com o semiárido".', // pegadinha
+    video: 'semiárido nordestino caatinga seca' // busca no YouTube
+  },
+  {
+    id: 'g88',                          // identificador único
+    materia: 'Geografia',               // matéria
+    tema: 'Regiões — Centro-Oeste',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Centro-Oeste é hoje a região da:', // pergunta
+    alternativas: [                     // opções
+      'pesca', // opção
+      'fronteira agrícola — a expansão da soja, milho e pecuária sobre o cerrado (Mato Grosso, Goiás, o MATOPIBA): o celeiro da commodity brasileira', // correta
+      'indústria pesada', // opção
+      'mineração', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Centro-Oeste = o cerrado convertido em agro-negócio: MT (soja+milho+pecuária — o maior produtor), GO, MS, DF. O MATOPIBA (Maranhão-Tocantins-Piauí-Bahia) é a última fronteira — a expansão do agro sobre o cerrado norte.', // explicação
+    dica: 'O cerrado virou o "deserto verde" da soja — a transformação do bioma em monocultura. A EMBRAPA adaptou a planta ao solo ácido (a "revolução" do agro). MATOPIBA = a fronteira atual de expansão — onde a soja avança agora.', // pegadinha
+    video: 'centro oeste soja cerrado matopiba' // busca no YouTube
+  },
+  {
+    id: 'h85',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Minas colonial',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ciclo do ouro em Minas Gerais (séc. XVIII) transformou o Brasil porque:', // pergunta
+    alternativas: [                     // opções
+      'enriqueceu o sertão', // opção
+      'transferiu o centro econômico do açúcar para o sul — povoou o interior, criou a rede urbana (Ouro Preto, Mariana) e mudou a capital para o Rio', // correta
+      'não mudou', // opção
+      'acabou com a escravidão', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O ouro de Minas deslocou o eixo do Nordeste açucareiro para o centro-sul — urbanizou o interior, cobrou a derrama, gerou a Inconfidência e levou a capital ao Rio (1763). O Brasil deixou de ser só litoral.', // explicação
+    dica: 'O ouro mineiro urbanizou o Brasil (primeiras cidades do interior — Ouro Preto virou a maior do hemisfério sul) mas financiou Portugal e a industrialização inglesa. A derrama (cobrança forçada) e a Inconfidência são os desdobramentos.', // pegadinha
+    video: 'ciclo ouro minas derrama inconfidência' // busca no YouTube
+  },
+  {
+    id: 'h86',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Escravidão — resistência',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Quilombo dos Palmares, liderado por Zumbi, foi:', // pergunta
+    alternativas: [                     // opções
+      'uma tribo indígena', // opção
+      'o maior símbolo da resistência negra — o quilombo de escravos fugidos em Alagoas durou ~100 anos resistindo a expedições militares até 1695', // correta
+      'uma revolta de elite', // opção
+      'uma guerra de fronteira', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Palmares (séc. XVII, Alagoas) = o quilombo mais duradouro — comunidade de fugidos autogovernada com ~20 mil habitantes que resistiu a ~15 expedições. Zumbi liderou a resistência final; destruído em 1695.', // explicação
+    dica: 'O quilombo = a resistência ativa da escravidão — comunidade autônoma de fugidos. Zumbi (20 de novembro — Dia da Consciência Negra) é o símbolo. Palmares durou ~1 século, provando que a escravidão era resistida, não aceita.', // pegadinha
+    video: 'quilombo palmares zumbi resistência' // busca no YouTube
+  },
+  {
+    id: 'h87',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Império — café',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A expansão cafeeira no Vale do Paraíba (séc. XIX) levou:', // pergunta
+    alternativas: [                     // opções
+      'prosperidade sustentável', // opção
+      'a riqueza e o esgotamento do solo — o café com escravos esgotou a terra e migrou para o oeste paulista; o "império do café" foi curto', // correta
+      'a abolição', // opção
+      'a indústria', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O café do Vale do Paraíba (RJ/SP) foi o motor do Império — monocultura escravista que esgotou o solo e depois migrou para o oeste paulista (Ribeirão Preto, Sorocaba). A ferrovia e o trabalho imigrante vieram junto.', // explicação
+    dica: 'O ciclo do café: Vale do Paraíba (esgotamento + escravidão) → oeste paulista (terra roxa + imigrante colonizado). O café financiou a República (os cafeicultores de 1889) e a industrialização de SP — a riqueza que virou capital.', // pegadinha
+    video: 'café vale paraíba império escravidão' // busca no YouTube
+  },
+  {
+    id: 'h88',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'República — política do café', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "política do café-com-leite" era:', // pergunta
+    alternativas: [                     // opções
+      'a aliança sul-norte', // opção
+      'a alternância do poder entre SP (café) e MG (leite/pecuária) — os presidentes da República Velha rodavam entre os dois estados mais ricos', // correta
+      'a mistura de raças', // opção
+      'a bebida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Café-com-leite = o rodízio paulista-mineiro na presidência (1894-1930): SP ditava a economia (café), MG tinha o maior colégio eleitoral. A ruptura de 1930 (SP quebrou a tradição indicando Júlio Prestes) gerou a Revolução.', // explicação
+    dica: 'O arranjo oligárquico: SP + MG alternavam a presidência com o apoio dos coronéis. A "política dos governadores" sustentava o esquema. A quebra em 1930 (SP não respeitou o rodízio — indicou paulista seguido de paulista) abriu a Revolução de 30.', // pegadinha
+    video: 'café com leite república velha sp mg' // busca no YouTube
+  },
+  {
+    id: 'h89',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Semana de Arte Moderna',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Semana de Arte Moderna de 1922 em São Paulo marcou:', // pergunta
+    alternativas: [                     // opções
+      'a arte acadêmica', // opção
+      'o início do Modernismo brasileiro — a ruptura com o academicismo em prol da identidade nacional: literatura, pintura e música renovadas', // correta
+      'o barroco', // opção
+      'a exposição colonial', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Semana de 22 = o marco do Modernismo: Mário e Oswald de Andrade, Anita Malfatti, Heitor Villa-Lobos — a ruptura com a arte europeia/acadêmica em busca do Brasil. A "antropofagia" cultural — engolir o estrangeiro e cuspir o brasileiro.', // explicação
+    dica: '1922 = centenário da Independência — a Semana foi a "independência cultural". O Manifesto Antropófago (Oswald, 1928) e o Pau-Brasil são os textos-chave. Macunaíma (1928, Mário) é a obra-síntese do modernismo.', // pegadinha
+    video: 'semana arte moderna 1922 modernismo' // busca no YouTube
+  },
+  {
+    id: 'h90',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'JK — industrialização',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O governo Juscelino Kubitschek (1956-61) se resume em:', // pergunta
+    alternativas: [                     // opções
+      'austeridade', // opção
+      '"50 anos em 5" — desenvolvimentismo acelerado: Brasília construída, a indústria automobilística instalada e a inflação/dívida que explodiram depois', // correta
+      'a ditadura', // opção
+      'a monarquia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'JK = o "bossa nova" do desenvolvimentismo: Plano de Metas, construção de Brasília (1960), indústria automobilística e pesada — crescimento acelerado financiado por dívida e inflação (o "boom" que custou caro).', // explicação
+    dica: 'O legado de JK: Brasília (integração do interior + símbolo modernista), a indústria automobilística (VW, Ford, GM), a energia — e a inflação + dívida externa que Jango herdou. O "desenvolvimentismo" é o modelo de crescimento às custas do futuro.', // pegadinha
+    video: 'jk brasília desenvolvimentismo 50 anos 5' // busca no YouTube
+  },
+  {
+    id: 'h91',                          // identificador único
+    materia: 'História do Brasil',      // matéria
+    tema: 'Ditadura — resistência',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'As "Diretas Já" (1984) foram:', // pergunta
+    alternativas: [                     // opções
+      'a eleição', // opção
+      'a maior mobilização popular da história — a campanha pela eleição direta para presidente que perdeu no Congresso, mas acelerou o fim da ditadura', // correta
+      'o golpe', // opção
+      'uma greve', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diretas Já = a campanha popular pela emenda Dante de Oliveira (eleição direta para presidente — 1984): milhões nas ruas, a emenda perdeu, mas a mobilização pressionou a abertura — a transição foi indireta (Colégio Eleitoral elegeu Tancredo).', // explicação
+    dica: 'As Diretas perderam no Congresso, mas venceram politicamente — a mobilização gigante mostrou o isolamento da ditadura. Tancredo Neves foi eleito indireto (Colégio) e morreu antes de assumir; Sarney herdou. A eleição direta voltou só em 1989.', // pegadinha
+    video: 'diretas já 1984 tancredo democracia' // busca no YouTube
+  },
+  {
+    id: 'lg93',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'CF — artigos',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O art. 5º da CF (direitos e garantias) é a "cláusula pétrea" porque:', // pergunta
+    alternativas: [                     // opções
+      'pode mudar', // opção
+      'os direitos fundamentais são imutáveis por emenda — a Constituição protege a vida, a liberdade, a igualdade e a propriedade de reforma legislativa', // correta
+      'é o mais antigo', // opção
+      'é revogável', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cláusulas pétreas (art. 60 §4º): não podem ser abolidas por emenda — direitos fundamentais, voto direto/secreto/universal, separação de poderes, federalismo. O art. 5º é o coração — a CF blinda esses pilares.', // explicação
+    dica: 'Cláusula pétrea = o que a emenda NÃO pode destruir: direitos/garantias individuais, voto, separação de poderes, federalismo. A emenda pode reformar (mudar), não abolir. O STF protege esses limites.', // pegadinha
+    video: 'artigo 5 cláusula pétrea constituição' // busca no YouTube
+  },
+  {
+    id: 'lg94',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Estatuto do Idoso',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Estatuto do Idoso (Lei 10.741/2003) garante:', // pergunta
+    alternativas: [                     // opções
+      'só a aposentadoria', // opção
+      'direitos amplos — prioridade no atendimento, gratuidade no transporte, metade do ingresso, proteção contra violência e abandono; vale para 60+', // correta
+      'só o transporte', // opção
+      'só a saúde', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estatuto do Idoso (60+): atendimento prioritário, gratuidade no transporte coletivo interestadual (65+), meia-entrada, isenção de IPTU em alguns casos, proteção contra negligência/violência, prioridade processual.', // explicação
+    dica: 'A idade é 60 anos para os direitos (idoso), 65 para a gratuidade no transporte e a pensão LOAS. A violência contra o idoso é crime próprio (física, patrimonial, negligência do familiar). O asilo e o abandono são punidos.', // pegadinha
+    video: 'estatuto idoso 10741 direitos prioridade' // busca no YouTube
+  },
+  {
+    id: 'lg95',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'ECA — criança e adolescente', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ECA (Lei 8.069/1990) define como "criança" quem tem até:', // pergunta
+    alternativas: [                     // opções
+      '10 anos', // opção
+      '12 anos incompletos — criança 0-12 e adolescente 12-18; ambos com prioridade absoluta de direitos; o adolescente pode ser medido socioeducativamente, a criança não', // correta
+      '14 anos', // opção
+      '16 anos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'ECA: criança = até 12 anos incompletos; adolescente = 12-18. A proteção é "prioridade absoluta". O adolescente responde por medida socioeducativa (internação, sem pena criminal); a criança por medida de proteção.', // explicação
+    dica: 'A linha dos 12: criança (0-11) vs adolescente (12-17). O trabalho infantil é proibido antes dos 14 (aprendiz aos 14-18). O adolescente infrator vai à medida socioeducativa (não prisão — a Fundação CASA).', // pegadinha
+    video: 'eca criança adolescente 12 18 proteção' // busca no YouTube
+  },
+  {
+    id: 'lg96',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei Maria da Penha',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Lei Maria da Penha (11.340/2006) protege:', // pergunta
+    alternativas: [                     // opções
+      'qualquer vítima', // opção
+      'a mulher de violência doméstica e familiar — medidas protetivas de urgência, juizado especializado e criminalização; aplica-se a qualquer gênero da vítima', // correta
+      'só a esposa', // opção
+      'só o feminicídio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Maria da Penha = a lei da violência doméstica: medida protetiva em 48h (afastamento do agressor, proibição de aproximação), Juizado de Violência Doméstica, proteção à mulher em situação de violência — o STF ampliou para qualquer identidade de gênero.', // explicação
+    dica: 'A medida protetiva sai em até 48h — o agressor é afastado de casa e proibido de se aproximar. A violência pode ser física, psicológica, sexual, patrimonial ou moral. O feminicídio (Lei 13.104/2015) é crime hediondo separado.', // pegadinha
+    video: 'lei maria penha violência doméstica protetiva' // busca no YouTube
+  },
+  {
+    id: 'lg97',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Drogas',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Lei de Drogas (11.343/2006) distingue usuário de traficante por:', // pergunta
+    alternativas: [                     // opções
+      'o mesmo', // opção
+      'a finalidade — o usuário (posse para consumo) responde com medida educativa (sem pena de prisão); o traficante (venda/fornecimento) responde com prisão 5-15 anos', // correta
+      'a quantidade', // opção
+      'a renda', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A lei diferencia pelo FIM, não pela quantidade: usuário = posse para consumo pessoal (medida educativa, advertência, serviço comunitário — sem prisão); traficante = fornecimento a terceiro (5-15 anos). O juiz avalia o contexto.', // explicação
+    dica: 'Não existe "quantidade de usuário" na lei — o juiz decide pelo contexto (local, quantidade, circunstância). A discriminação racial/pobre na aplicação é denunciada. O tráfico privilegiado (réu primário não ligado a organização) tem pena reduzida.', // pegadinha
+    video: 'lei drogas usuário traficante diferença' // busca no YouTube
+  },
+  {
+    id: 'lg98',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Ação Civil Pública',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Ação Civil Pública é o instrumento para defender:', // pergunta
+    alternativas: [                     // opções
+      'o patrão', // opção
+      'direitos coletivos e difusos — meio ambiente, consumidor, patrimônio público; proposta pelo MP, Defensoria ou associação legítima', // correta
+      'só o indivíduo', // opção
+      'o criminal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ação Civil Pública (Lei 7.347/85) = a defesa de direitos difusos/coletivos (meio ambiente, consumidor, patrimônio histórico, ordem urbanística). Legitimados: Ministério Público, Defensoria, entes públicos e associações.', // explicação
+    dica: 'ACP = direito coletivo/difuso (o meio ambiente, o consumidor, o patrimônio); a ação popular (a qualquer cidadão) é diferente — anula ato lesivo ao patrimônio público; o mandado de segurança coletivo defende direito coletivo iminente.', // pegadinha
+    video: 'ação civil pública direito difuso coletivo' // busca no YouTube
+  },
+  {
+    id: 'lg99',                         // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei de Falências',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A recuperação judicial difere da falência porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a recuperação tenta salvar a empresa viável em crise (plano aprovado pelos credores — a empresa continua); a falência liquida a empresa inviável', // correta
+      'a falência salva', // opção
+      'a recuperação fecha', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Recuperação judicial = a empresa em crise propõe plano aos credores para se reorganizar e continuar (fim social preservado); falência = a liquidação quando não há salvação — os bens são vendidos para pagar os credores.', // explicação
+    dica: 'Recuperação judicial (a empresa pede antes da falência — plano de pagamento) vs extrajudicial (acordo direto com credores, o juiz só homologa) vs falência (a liquidação — a empresa morre). A proteção suspende as execuções.', // pegadinha
+    video: 'recuperação judicial falência empresa' // busca no YouTube
+  },
+  {
+    id: 'lg100',                        // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei do Feminicídio',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O feminicídio é crime hediondo definido como:', // pergunta
+    alternativas: [                     // opções
+      'qualquer homicídio', // opção
+      'o homicídio da mulher por razão da condição de sexo feminino — violência doméstica, menosprezo ou discriminação; a pena é mais grave e a prisão especial', // correta
+      'a briga', // opção
+      'a legítima defesa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Lei 13.104/2015: feminicídio = homicídio qualificado quando a vítima é mulher por razão do gênero — violência doméstica/familiar ou menosprezo/discriminação. Hediondo, com regime inicial e progressão mais rigorosos.', // explicação
+    dica: 'Feminicídio = a qualificadora do homicídio contra a mulher por razão do sexo — o crime machista (doméstico, por término, por "honra"). O homicídio comum da mulher em outro contexto não é feminicídio — a motivação de gênero é o núcleo.', // pegadinha
+    video: 'feminicídio lei 13104 hediondo' // busca no YouTube
+  },
+  {
+    id: 'lg101',                        // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Legislação ambiental',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Código Florestal (Lei 12.651/2012) instituiu:', // pergunta
+    alternativas: [                     // opções
+      'a reserva só', // opção
+      'a Reserva Legal (percentual da propriedade rural que deve ser preservada — 80% na Amazônia, 20% no cerrado/mata) e a APP (margem de rio, encosta)', // correta
+      'só o parque', // opção
+      'o desmate', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Código Florestal: Reserva Legal = a % da fazenda que deve restar com vegetação nativa (80% Amazônia, 35% cerrado amazônico, 20% demais biomas); APP = Área de Preservação Permanente (margem de rio, encosta, topo) intocável.', // explicação
+    dica: 'Reserva Legal = dentro da propriedade (compensável fora se no mesmo bioma); APP = área intocável (rio, encosta >45°, topo, restinga); o CAR (Cadastro Ambiental Rural) é o registro obrigatório. A compensação da RL pode ser em outro imóvel.', // pegadinha
+    video: 'reserva legal app código florestal' // busca no YouTube
+  },
+  {
+    id: 'lg102',                        // identificador único
+    materia: 'Legislação',              // matéria
+    tema: 'Lei da Ficha Limpa',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A Lei da Ficha Limpa (LC 135/2010) torna inelegível:', // pergunta
+    alternativas: [                     // opções
+      'qualquer candidato', // opção
+      'o condenado por órgão coletivo (mesmo sem trânsito em julgado), o que renunciou para fugir de cassação e o que teve contas rejeitadas — 8 anos de inelegibilidade', // correta
+      'só o preso', // opção
+      'só o corrupto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ficha Limpa = a LC que barra candidatos: condenação por colegiado (Tribunal), renúncia para escapar de cassação, contas de governo rejeitadas, crime hediondo/contra a administração — inelegibilidade por 8 anos.', // explicação
+    dica: 'A inovação foi a condenação por órgão COLEGIADO bastar — não precisa do trânsito em julgado (a segunda instância já gera a inelegibilidade). A renúncia para fugir da cassação gera 8 anos de inelegibilidade.', // pegadinha
+    video: 'ficha limpa inelegibilidade condenação' // busca no YouTube
+  },
 ];
