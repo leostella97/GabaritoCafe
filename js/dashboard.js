@@ -42,6 +42,11 @@ const DashboardUI = {
     html += '<button class="dash-atalho" data-ir="temas"><span class="atalho-icone">📚</span><span class="atalho-titulo">' + T('dash_atalho_temas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_temas_s') + '</span></button>'; // atalho temas
     html += '</div>';                                       // fecha a grade
 
+    // ---- Cartão Fidelidade de Estudos ----
+    if (typeof FidelidadeUI !== 'undefined') {
+      html += FidelidadeUI.renderizarCartela();
+    }
+
     // ---- Se nunca fez simulado: estado vazio acolhedor ----
     if (historico.length === 0) {                           // sem resultados ainda
       html += '<div class="cartao vazio">';                 // abre o cartão vazio
@@ -50,8 +55,14 @@ const DashboardUI = {
       html += '<p class="texto-suave">' + T('dash_vazio_x') + '</p>'; // convite traduzido
       html += '<button class="botao botao-primario" data-ir="simulado">' + T('dash_vazio_btn') + '</button>'; // CTA traduzido
       html += '</div>';                                     // fecha o cartão
+
+      if (typeof CoffeeWrapUI !== 'undefined') html += CoffeeWrapUI.renderizarBotao();
+      if (typeof BackupUI !== 'undefined') html += BackupUI.renderizarCard();
+
       caixa.innerHTML = html;                               // despeja e termina (sem estatísticas)
       this.ligarAtalhos(caixa);                             // liga os botões data-ir
+      if (typeof CoffeeWrapUI !== 'undefined') CoffeeWrapUI.ligarEventos();
+      if (typeof BackupUI !== 'undefined') BackupUI.ligarEventos();
       return;                                               // para por aqui
     }
 
@@ -123,8 +134,14 @@ const DashboardUI = {
     }
     html += '</div>';                                       // fecha o cartão
 
+    // ---- Cards adicionais: Coffee Wrap e Backup ----
+    if (typeof CoffeeWrapUI !== 'undefined') html += CoffeeWrapUI.renderizarBotao();
+    if (typeof BackupUI !== 'undefined') html += BackupUI.renderizarCard();
+
     caixa.innerHTML = html;                                 // despeja o dashboard
     this.ligarAtalhos(caixa);                               // liga os botões de atalho
+    if (typeof CoffeeWrapUI !== 'undefined') CoffeeWrapUI.ligarEventos();
+    if (typeof BackupUI !== 'undefined') BackupUI.ligarEventos();
   },
 
   // Analisa o histórico e recomenda treinar a matéria mais fraca (o "conselho do barista")

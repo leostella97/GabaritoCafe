@@ -17,6 +17,8 @@ const App = {
     edital: { titulo: 'tela_edital_t', sub: 'tela_edital_s' },          // edital
     simulado: { titulo: 'tela_simulado_t', sub: 'tela_simulado_s' },    // simulado
     revisao: { titulo: 'tela_revisao_t', sub: 'tela_revisao_s' },       // TEAM_002: revisão
+    cadernos: { titulo: 'tela_cadernos_t', sub: 'tela_cadernos_s' },    // cadernos
+    pomodoro: { titulo: 'tela_pomodoro_t', sub: 'tela_pomodoro_s' },    // pomodoro
     bancas: { titulo: 'tela_bancas_t', sub: 'tela_bancas_s' },          // bancas
     temas: { titulo: 'tela_temas_t', sub: 'tela_temas_s' },             // temas
     dicas: { titulo: 'tela_dicas_t', sub: 'tela_dicas_s' }              // dicas
@@ -63,6 +65,8 @@ const App = {
     if (tela === 'dashboard') DashboardUI.renderizar();     // dashboard
     if (tela === 'simulado') SimuladoUI.atualizarIdioma();  // simulado (config/perguntas/resultado)
     if (tela === 'revisao') RevisaoUI.renderizar();         // TEAM_002: revisão
+    if (tela === 'cadernos') CadernosUI.renderizar();       // cadernos
+    if (tela === 'pomodoro') PomodoroUI.renderizar();       // pomodoro
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // temas
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // dicas importantes
@@ -184,6 +188,8 @@ const App = {
     if (tela === 'edital') EditalUI.iniciar();              // liga os eventos do edital (idempotente)
     if (tela === 'simulado' && document.getElementById('tela-simulado').innerHTML.trim() === '') SimuladoUI.abrir({}); // simulado vazio abre a configuração
     if (tela === 'revisao') RevisaoUI.renderizar();         // TEAM_002: desenha a revisão
+    if (tela === 'cadernos') CadernosUI.renderizar();       // desenha cadernos
+    if (tela === 'pomodoro') PomodoroUI.renderizar();       // desenha pomodoro
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // desenha as bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // desenha os temas
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // desenha as dicas importantes
