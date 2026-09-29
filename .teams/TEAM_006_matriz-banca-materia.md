@@ -29,7 +29,8 @@
 | ENEM (vestibular) | +144 (18 células) | ✅ commit `6bbb644` — todas as células ≥10 |
 | Fuvest / Unicamp (vestibular) | +173 (15 células + fechamento de 6 parciais) | ✅ commit `9658673` — todas as células ≥10 |
 | CESPE/Cebraspe | +192 (27 células, incl. 10 zeradas) | ✅ commit `1ddbc4a` — todas as células ≥10 |
-| FCC | +191 (26 células, incl. 10 zeradas) | ✅ commit pendente — todas as células ≥10 |
+| FCC | +191 (26 células, incl. 10 zeradas) | ✅ commit `65326c2` — todas as células ≥10 |
+| FUNDATEC | +221 (29 células) | ✅ commit pendente — todas as células ≥10 |
 
 ## Notas de execução
 - ENEM: 144 questões em 5 chunks; corrigidos 2 enunciados duplicados
@@ -47,6 +48,9 @@
   Química, Física). Corrigidos 8 enunciados duplicados (g66→t58,
   fs59→fs48, fl72→fl62, fl74→fl63, b68→b26, ec68→ec54, ec69→ec14,
   qm55→qm47). Validador: 2079/0. Push: `ed93e3b..1ddbc4a` enviado.
+- FUNDATEC: déficit era 221 em 29 células. Corrigidos 3 enunciados
+  duplicados (ef72→ef53, qm71→qm27, so70→so24) reescrevendo o enunciado.
+  Validador: 2300/0.
 
 ## TODO(TEAM_006) — continuação
 - Rodar `node scripts/deficit-matriz.js` e pegar a próxima banca da lista.
