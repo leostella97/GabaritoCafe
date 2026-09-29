@@ -54057,4 +54057,441 @@ const BancoQuestoes = [
     dica: 'O− doa para todos mas só recebe de O− (o mais "altruísta" e o mais "carente"); AB+ recebe de todos mas só doa para AB+ (o "egoísta" do sangue). O Rh− da mãe com feto Rh+ causa a eritroblastose fetal na segunda gravidez.', // pegadinha
     video: 'tipo sanguíneo o negativo doador universal' // busca no YouTube
   },
+  {
+    id: 'f88',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Leis de Newton',             // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O passageiro "jogado para frente" quando o ônibus freia ilustra:', // pergunta
+    alternativas: [                     // opções
+      'a gravidade', // opção
+      'a 1ª lei de Newton (inércia) — o corpo tende a manter o movimento: quando o ônibus para, o corpo continua em movimento e "vai para frente"', // correta
+      'a força do motor', // opção
+      'o atrito', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inércia = a tendência do corpo de manter o estado de movimento — o ônibus para (o freio atua nele), mas o corpo não e "continua" para frente. O cinto de segurança é a aplicação da 1ª lei.', // explicação
+    dica: 'As três leis de Newton: 1ª = inércia (o corpo mantém o movimento); 2ª = F = ma (a força acelera — empurrar mais forte acelera mais); 3ª = ação e reação (o recuo da arma, o foguete sobe). O cinto usa a 1ª.', // pegadinha
+    video: 'inércia primeira lei newton ônibus freio' // busca no YouTube
+  },
+  {
+    id: 'f89',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Calor — propagação',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O calor do Sol chega à Terra por:', // pergunta
+    alternativas: [                     // opções
+      'condução', // opção
+      'irradiação — a onda eletromagnética atravessa o vácuo; condução precisa de contato (sólido) e convecção precisa de fluido — só a irradiação atravessa o espaço', // correta
+      'convecção', // opção
+      'contato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As três formas de propagação do calor: condução (contato direto — a colher quente na panela), convecção (o fluido sobe/desse — o ar quente sobe), irradiação (onda eletromagnética — o Sol, o fogo, a lâmpada). O vácuo só transmite irradiação.', // explicação
+    dica: 'A garrafa térmica bloqueia as três: vácuo (condução/convecção) + paredes espelhadas (irradiação). O freezer no alto da geladeira usa a convecção (ar frio desce). A panela de metal esquenta o cabo por condução — o cabo de madeira é isolante.', // pegadinha
+    video: 'calor condução convecção irradiação vácuo' // busca no YouTube
+  },
+  {
+    id: 'f90',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Refração — luz',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O lápis "quebrado" dentro do copo de água é o efeito da:', // pergunta
+    alternativas: [                     // opções
+      'reflexão', // opção
+      'refração — a luz muda de velocidade ao passar do ar para a água e desvia; o nosso cérebro "prolonga" o raio retilíneo e a imagem aparece deslocada', // correta
+      'difração', // opção
+      'polarização', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Refração = o desvio da luz ao mudar de meio (ar → água → vidro): a velocidade cai e o raio dobra. O lápis parece quebrado, a piscina parece rasa, o arco-íris é a dispersão da luz branca na gota de chuva.', // explicação
+    dica: 'Refração = desvio por mudança de meio (lápis na água, arco-íris, a piscina rasa). Reflexão = espelho (a luz bate e volta). Difração = a luz contorna o obstáculo (o som contornando a porta — a onda "entorta"). O mirage no asfalto é refração do ar quente.', // pegadinha
+    video: 'refração lápis água desvio luz' // busca no YouTube
+  },
+  {
+    id: 'f91',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Eletricidade — circuitos',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Num circuito em série, a corrente elétrica é:', // pergunta
+    alternativas: [                     // opções
+      'diferente em cada resistor', // opção
+      'a mesma em todos os pontos — a série só tem um caminho; a tensão é que se divide entre os resistores; no paralelo, a corrente se divide e a tensão é a mesma', // correta
+      'zero', // opção
+      'dividida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Série = um só caminho: corrente igual em tudo, tensão dividida (U = U₁+U₂); Paralelo = caminhos separados: tensão igual nos ramos, corrente dividida (I = I₁+I₂). A residência é paralela — se uma lâmpada queima, as outras ficam acesas.', // explicação
+    dica: 'Série = a luz de natal antiga (uma queima e apaga tudo — a corrente para); paralelo = a casa (cada aparelho recebe a tensão cheia e funciona independente). Req série = soma; Req paralelo = inverso da soma dos inversos.', // pegadinha
+    video: 'circuito série paralelo corrente tensão' // busca no YouTube
+  },
+  {
+    id: 'f92',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Lei de Ohm',                 // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Pela Lei de Ohm (U = R·i), se a resistência dobra, a corrente:', // pergunta
+    alternativas: [                     // opções
+      'dobra', // opção
+      'cai pela metade — a corrente é inversamente proporcional à resistência: U = Ri, com U constante, dobrar R divide i por 2', // correta
+      'fica igual', // opção
+      'zera', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'U = R·i: a tensão é a razão fixa. Se a resistência sobe com a tensão constante, a corrente cai na proporção inversa — resistor alto "estrangula" a corrente. O fusível é a proteção da corrente excessiva.', // explicação
+    dica: 'A Lei de Ohm: U = R·i (tensão = resistência × corrente). O resistor limita a corrente — o fio fino tem mais resistência e esquenta mais (a lâmpada incandescente funciona assim: o filamento fino esquenta até brilhar).', // pegadinha
+    video: 'lei ohm tensão resistência corrente' // busca no YouTube
+  },
+  {
+    id: 'f93',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Acústica — som',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O efeito Doppler explica por que a sirene da ambulância parece:', // pergunta
+    alternativas: [                     // opções
+      'igual sempre', // opção
+      'mais aguda ao se aproximar e mais grave ao se afastar — a fonte em movimento comprime as ondas na frente (frequência alta) e estica atrás (frequência baixa)', // correta
+      'mais alta só', // opção
+      'mais baixa só', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Efeito Doppler = a mudança de frequência percebida quando fonte e observador se movem: a sirene que se aproxima soa aguda (onda comprimida) e a que se afasta, grave (onda esticada). Aplica-se ao radar e à expansão do Universo.', // explicação
+    dica: 'O Doppler está em tudo: a sirene (o carro em movimento), o radar de velocidade (a onda reflete na volta), o desvio para o vermelho das galáxias (a luz "esticada" mostra o Universo expandindo). A mesma física do som na luz.', // pegadinha
+    video: 'efeito doppler sirene frequência som' // busca no YouTube
+  },
+  {
+    id: 'f94',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Hidrostática — empuxo',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O navio de aço flutua porque:', // pergunta
+    alternativas: [                     // opções
+      'o aço é leve', // opção
+      'a densidade média do casco é menor que a da água — o ar dentro reduz a densidade total; o empuxo (o peso da água deslocada) equilibra o peso do navio', // correta
+      'o motor empurra', // opção
+      'é magia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Empuxo de Arquimedes = o peso do líquido deslocado: o navio de aço flutua porque o casco com ar tem densidade total menor que a da água — a mesma massa em volume maior. O bloco de aço puro afunda (mais denso).', // explicação
+    dica: 'Flutua = densidade do objeto < do líquido (o gelo na água, o navio); afunda = > (a pedra, o aço maciço). O submarino controla a densidade enchendo/esvaziando tanques. O salgado da água aumenta o empuxo — o Mar Morto sustenta quem lê deitado.', // pegadinha
+    video: 'empuxo arquimedes navio flutua densidade' // busca no YouTube
+  },
+  {
+    id: 'f95',                          // identificador único
+    materia: 'Física',                  // matéria
+    tema: 'Pressão — gases',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A pressão atmosférica diminui com a altitude porque:', // pergunta
+    alternativas: [                     // opções
+      'o ar esquenta', // opção
+      'há menos ar acima empurrando — a pressão é o peso da coluna de ar; no alto da montanha a coluna é menor e a pressão mais baixa (a água ferve a menos de 100°C)', // correta
+      'a gravidade é zero', // opção
+      'o ar é seco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pressão atmosférica = o peso do ar sobre nós (~1kgf/cm² no nível do mar): no alto da montanha há menos ar acima e a pressão cai — a água ferve a ~90°C no topo (cozinhar demora mais); no fundo do mar, a pressão é maior.', // explicação
+    dica: 'O efeito prático: cozinhar feijão na montanha leva mais tempo (a água ferve a 90°C — o limite da temperatura é a ebulição); a panela de pressão aumenta a pressão e a água ferve a ~120°C (cozinha mais rápido). O ouvido "estoura" na subida.', // pegadinha
+    video: 'pressão atmosférica altitude ebulição' // busca no YouTube
+  },
+  {
+    id: 'qm83',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Átomo — modelos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O modelo de Rutherford revolucionou ao descobrir que:', // pergunta
+    alternativas: [                     // opções
+      'o átomo é indivisível', // opção
+      'o átomo tem núcleo pequeno e denso — o experimento da folha de ouro mostrou que a maior parte é vazio: o núcleo concentra a carga positiva e a massa', // correta
+      'é só elétron', // opção
+      'é a molécula', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Rutherford (1911): bombardeou a folha de ouro com partículas alfa — a maioria atravessou (o átomo é "vazio"), algumas desviaram forte (o núcleo denso e positivo). O modelo "planetário" (núcleo + elétrons em órbita) nasceu aí.', // explicação
+    dica: 'A linha do tempo dos modelos: Dalton (bolinha indivisível) → Thomson (pudim de passas — elétron descoberto) → Rutherford (núcleo + vazio — o experimento da folha de ouro) → Bohr (órbitas quantizadas) → mecânica quântica (nuvem de probabilidade).', // pegadinha
+    video: 'rutherford núcleo átomo folha ouro' // busca no YouTube
+  },
+  {
+    id: 'qm84',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Tabela — períodos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na tabela periódica, os elementos de uma mesma coluna (grupo) têm:', // pergunta
+    alternativas: [                     // opções
+      'a mesma massa', // opção
+      'o mesmo número de elétrons na camada de valência — propriedades químicas semelhantes: a coluna 1 são metais alcalinos, a 18 os gases nobres', // correta
+      'o mesmo símbolo', // opção
+      'o mesmo nome', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Grupo (coluna) = os elétrons de valência são os mesmos — a química é semelhante (o sódio e o potássio explodem na água igual). Período (linha) = o número de camadas eletrônicas — as propriedades mudam gradualmente.', // explicação
+    dica: 'Grupo = coluna (propriedade similar — 1 alcalinos, 2 alcalino-terrosos, 17 halogênios, 18 gases nobres); Período = linha (camadas de elétrons). O elemento mais reativo do grupo 1 é o de baixo (o Frécio é o mais reativo — o Cs na prática).', // pegadinha
+    video: 'grupo período tabela periódica valência' // busca no YouTube
+  },
+  {
+    id: 'qm85',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Cinética — velocidade',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na cinética química, a taxa de uma reação eleva-se quando:', // pergunta
+    alternativas: [                     // opções
+      'a temperatura cai', // opção
+      'a temperatura sobe, a concentração aumenta ou há catalisador — mais colisões eficazes: o catalisador abaixa a energia de ativação sem se consumir', // correta
+      'a concentração cai', // opção
+      'o volume sobe', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fatores da cinética: temperatura (colisões mais energéticas), concentração (mais partículas), superfície de contato (o comprimido efervescente é mais rápido que o sólido), catalisador (abaixa a energia de ativação), pressão (gases).', // explicação
+    dica: 'O catalisador não altera o equilíbrio — só acelera para chegar lá (a enzima é o catalisador biológico). O conservante refrigera (temperatura baixa retarda); o alimento em pedaço pequeno cozinha rápido (superfície).', // pegadinha
+    video: 'cinética velocidade reação catalisador' // busca no YouTube
+  },
+  {
+    id: 'qm86',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Soluções — concentração',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A molaridade (mol/L) de 1 mol de sal em 500mL de solução é:', // pergunta
+    alternativas: [                     // opções
+      '0,5 mol/L', // opção
+      '2 mol/L — M = n/V em litros: 1mol / 0,5L = 2 mol/L; a concentração mede a quantidade de soluto por volume de solução', // correta
+      '1 mol/L', // opção
+      '5 mol/L', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Molaridade = mol de soluto / litro de solução: 1 mol em 500mL (0,5L) = 2 mol/L. A unidade mol/L mede a "força" da solução — o ácido concentrado tem molaridade alta; a diluição adiciona solvente e a reduz.', // explicação
+    dica: 'Diluição = adicionar solvente mantém o soluto: M₁V₁ = M₂V₂ (a quantidade de mol não muda, o volume cresce). O soro fisiológico 0,9% e o "título" (g/L ou %) são outras formas de concentração. Erro comum: usar mL em vez de L.', // pegadinha
+    video: 'molaridade mol litro concentração solução' // busca no YouTube
+  },
+  {
+    id: 'qm87',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Funções orgânicas',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O etanol (álcool) e o vinagre (ácido acético) se distinguem pelo grupo funcional:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o álcool tem a hidroxila -OH (etanol CH₃CH₂OH); o ácido carboxílico tem o grupo -COOH (o vinagre é ácido acético CH₃COOH 4%)', // correta
+      'ambos têm -OH', // opção
+      'o vinagre é neutro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Álcool = -OH na cadeia (o etanol C₂H₅OH); ácido carboxílico = -COOH (o vinagre CH₃COOH — a fermentação oxidativa do etanol). Éster = o aroma da fruta (etanol + ácido acético → acetato de etila, o odor de banana).', // explicação
+    dica: 'A sequência da fermentação: açúcar → etanol (fermentação alcoólica — a cerveja) → ácido acético (oxidação — o vinho vira vinagre exposto ao ar). O éster é a reação de álcool+ácido — o odor artificial de fruta.', // pegadinha
+    video: 'álcool ácido carboxílico grupo funcional' // busca no YouTube
+  },
+  {
+    id: 'qm88',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Oxirredução',                // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ferro enferruja porque:', // pergunta
+    alternativas: [                     // opções
+      'reduz', // opção
+      'oxida — perde elétrons para o oxigênio e a umidade formando o óxido de ferro (ferrugem); o metal mais reativo "sacrifica" para proteger (galvanização)', // correta
+      'esfria', // opção
+      'cristaliza', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Oxirredução = troca de elétrons: quem perde elétron oxida (o ferro → ferrugem), quem ganha reduz (o oxigênio). A ferrugem é Fe₂O₃·nH₂O — a oxidação do ferro pelo ar+água. A pintura e a galvanização protegem.', // explicação
+    dica: 'Mnemônico: "OIL RIG" — Oxidation Is Loss (perde e-), Reduction Is Gain (ganha e-). A galvanização cobre o ferro com zinco (que oxida no lugar — o "sacrifício"); o alumínio não enferruja porque forma o óxido protetor que impermeabiliza.', // pegadinha
+    video: 'oxirredução ferrugem ferro oxidação' // busca no YouTube
+  },
+  {
+    id: 'qm89',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Estequiometria',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na reação 2H₂ + O₂ → 2H₂O, para produzir 36g de água precisam-se de:', // pergunta
+    alternativas: [                     // opções
+      '4g de H₂ e 32g de O₂', // opção
+      '4g de H₂ + 32g de O₂ — as proporções molares (2:1:2) e as massas molares (H₂=2, O₂=32, H₂O=18) resolvem: 36g de água = 2 mol que exigem 2 mol de H₂ e 1 de O₂', // correta
+      '36g de cada', // opção
+      '18g de cada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estequiometria = as proporções dos coeficientes em mol: 2H₂ + O₂ → 2H₂O diz que 2 mol de hidrogênio + 1 de oxigênio dão 2 mol de água. Massa molar: H₂O = 18 → 36g são 2 mol → 4g H₂ + 32g O₂.', // explicação
+    dica: 'A estequiometria resolve em mol: converte a massa em mol (n = m/M), usa a proporção dos coeficientes, volta para a unidade pedida. A conservação de Lavoisier garante: a soma das massas dos reagentes = a dos produtos.', // pegadinha
+    video: 'estequiometria proporção mol massa reação' // busca no YouTube
+  },
+  {
+    id: 'qm90',                         // identificador único
+    materia: 'Química',                 // matéria
+    tema: 'Radioatividade',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A radiação alfa, beta e gama se diferenciam pelo poder de penetração:', // pergunta
+    alternativas: [                     // opções
+      'alfa penetra mais', // opção
+      'alfa é a mais fraca (o papel para — mas a mais perigosa se ingerida); beta atravessa a pele (o alumínio para); gama é a mais penetrante (concreto/chumbo param)', // correta
+      'gama para no papel', // opção
+      'são iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Alfa (partícula pesada — para no papel/pele, mas destrói se ingerida); beta (elétron rápido — atravessa a pele, para no alumínio); gama (onda eletromagnética — atravessa o corpo, exige chumbo/concreto grosso).', // explicação
+    dica: 'A meia-vida é o tempo de reduzir pela metade: C-14 (~5.700 anos — a datação arqueológica); I-131 (~8 dias — o tratamento de tireoide); o Urânio (bilhões de anos — o resíduo nuclear persiste). A proteção: distância + blindagem + tempo.', // pegadinha
+    video: 'radiação alfa beta gama penetração meia vida' // busca no YouTube
+  },
+  {
+    id: 'et94',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética profissional',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O sigilo profissional (médico, advogado, contador) é:', // pergunta
+    alternativas: [                     // opções
+      'opcional', // opção
+      'o dever ético e legal de guardar a informação do cliente — a confiança é a base da relação; quebrá-lo sem justificativa legal é infração do código e pode ser crime', // correta
+      'só cortesia', // opção
+      'a escolha do profissional', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O sigilo profissional protege a confiança da relação: o médico, o advogado, o contador e o psicólogo guardam a informação do cliente — quebrá-lo sem justificativa legal (o consentimento ou a exigência judicial) é falta grave.', // explicação
+    dica: 'O sigilo NÃO é absoluto: o mandado judicial, a ameaça iminente à vida de terceiros e a obrigação legal podem quebrá-lo. O advogado não pode delatar o cliente (o sigilo protege a defesa), mas deve denunciar o plano de crime grave futuro.', // pegadinha
+    video: 'sigilo profissional ética dever médico' // busca no YouTube
+  },
+  {
+    id: 'et95',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Conflito de interesse',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O conflito de interesse ocorre quando:', // pergunta
+    alternativas: [                     // opções
+      'o funcionário trabalha', // opção
+      'o interesse pessoal interfere no julgamento profissional — o juiz com ação da parte, o médico indicando o exame que lucra, o gestor contratando o parente', // correta
+      'o empregado briga', // opção
+      'a empresa compete', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conflito de interesse = o interesse pessoal corrompe a decisão de ofício: o julgador não é neutro (juiz impedido por parentesco), o médico indica o exame que fatura, o gestor favorece o conhecido. A declaração e o impedimento são a saída.', // explicação
+    dica: 'O conflito não exige corrupção — basta a situação de incompatibilidade. A solução: declarar e se afastar (o juiz se dá por impedido, o gestor delega). O nepotismo é o caso clássico — o favor ao parente no cargo público é vedado pela CF.', // pegadinha
+    video: 'conflito interesse ética profissional' // busca no YouTube
+  },
+  {
+    id: 'et96',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética — função pública',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A ética do servidor público exige especialmente:', // pergunta
+    alternativas: [                     // opções
+      'só eficiência', // opção
+      'a finalidade pública — todo o ato do servidor deve servir ao interesse coletivo, não ao próprio ou ao do chefe: a probidade é o dever mais alto', // correta
+      'a obediência cega', // opção
+      'o sigilo total', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O servidor não é um empregado comum: a função é fiduciária — administra o bem de todos. A ética pública exige probidade (honestidade), finalidade pública (o ato serve ao interesse coletivo) e a recusa de ordem ilegal.', // explicação
+    dica: 'O servidor deve recusar ordem manifestamente ilegal — "cumprir ordem" não desculpa o crime. A probidade (a integridade) é o princípio central; a comissão de ética orienta. O Decreto 1.171/94 é o código de ética federal.', // pegadinha
+    video: 'ética servidor público probidade finalidade' // busca no YouTube
+  },
+  {
+    id: 'et97',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Bioética — pesquisa',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A pesquisa com seres humanos exige obrigatoriamente:', // pergunta
+    alternativas: [                     // opções
+      'só a ciência', // opção
+      'consentimento livre e esclarecido + aprovação do Comitê de Ética — a Declaração de Helsinque (1964) proíbe o experimento sem consentimento do participante', // correta
+      'só o médico', // opção
+      'o pagamento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Após os experimentos nazistas, a Declaração de Helsinque fixou a ética da pesquisa: consentimento livre e esclarecido, comitê de ética independente, benefício > risco, direito de sair a qualquer momento. O CONEP/CEP é o órgão brasileiro.', // explicação
+    dica: 'O participante pode desistir a qualquer momento sem perder o tratamento — o consentimento é contínuo. A pesquisa com vulnerável (criança, preso) tem proteção adicional. O CEP (Comitê de Ética em Pesquisa) avalia cada protocolo.', // pegadinha
+    video: 'helsinque consentimento pesquisa ética' // busca no YouTube
+  },
+  {
+    id: 'et98',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Virtude — Aristóteles',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "virtude" de Aristóteles é:', // pergunta
+    alternativas: [                     // opções
+      'o excesso', // opção
+      'o justo meio entre os extremos — a coragem entre a covardia (falta) e a temeridade (excesso); a generosidade entre a avareza e o desperdício: o hábito do equilíbrio', // correta
+      'o extremo', // opção
+      'a religião', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A virtude aristotélica é o "meio-termo" (mesótes) entre o excesso e a falta: a coragem entre a covardia e a temeridade; a generosidade entre a avareza e o esbanjamento. A virtude é hábito — se aprende fazendo.', // explicação
+    dica: 'A virtude não é inata — é HÁBITO: somos corajosos praticando coragem (o "aprende-se fazendo" aristotélico). A eudaimonia (a vida boa/florir) é o fim da ética — a felicidade como realização racional da excelência.', // pegadinha
+    video: 'virtude aristóteles justo meio hábito' // busca no YouTube
+  },
+  {
+    id: 'et99',                         // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Ética — tecnologia',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O dilema ético da inteligência artificial inclui:', // pergunta
+    alternativas: [                     // opções
+      'só o custo', // opção
+      'o viés algorítmico, a privacidade e a autonomia — a IA pode discriminar (viés no dado), invadir a privacidade (o reconhecimento facial) e decidir sem responsabilidade clara', // correta
+      'nada', // opção
+      'só o lucro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A ética da IA cobre: viés (o algoritmo treinado em dado enviesado discrimina — o rosto negro reconhecido pior), privacidade (a vigilância), autonomia (o algoritmo decide por nós) e responsabilidade (quem responde pelo erro do autônomo).', // explicação
+    dica: 'Os problemas éticos da IA: viés algorítmico (o dado histórico reproduz o preconceito), a caixa-preta (não se sabe como decide — a explicabilidade), o deepfake (a desinformação), a substituição do trabalho e a responsabilidade pelo erro.', // pegadinha
+    video: 'ética ia viés algoritmo privacidade' // busca no YouTube
+  },
+  {
+    id: 'et100',                        // identificador único
+    materia: 'Ética',                   // matéria
+    tema: 'Utilitarismo',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O utilitarismo de Bentham e Mill julga a ação por:', // pergunta
+    alternativas: [                     // opções
+      'a intenção', // opção
+      'a consequência — a ação certa é a que produz a maior felicidade para o maior número ("o maior bem"): a moral calcula o resultado, não o dever', // correta
+      'o costume', // opção
+      'a religião', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Utilitarismo = o consequencialismo clássico: a ação é certa se maximiza a felicidade/utilidade agregada ("o maior bem para o maior número"). O dilema do bonde é o teste: sacrificar um para salvar cinco é utilitarista.', // explicação
+    dica: 'Utilitarismo (o fim justifica o bem maior — o cálculo do resultado) vs Deontologia (Kant — o dever incondicional: mentir para o assassino é errado mesmo salvando). O dilema do bonde expõe a tensão: puxar a alavanca salva 5 mas mata 1.', // pegadinha
+    video: 'utilitarismo bentham mill maior felicidade' // busca no YouTube
+  },
 ];

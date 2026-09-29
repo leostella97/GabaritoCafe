@@ -32,6 +32,7 @@
 | FCC | +191 (26 células, incl. 10 zeradas) | ✅ commit `65326c2` — todas as células ≥10 |
 | FUNDATEC | +221 (29 células) | ✅ commit `faac03e` — todas as células ≥10 |
 | IBFC | +223 (29 células, incl. 7 zeradas) | ✅ commit `9811478` (parcial +153) + commit final — todas as células ≥10 |
+| Copeve/UFMG | +234 (29 células, incl. 3 zeradas) | ✅ commits parciais `9176f84`/`f91e398`/`d67ad29` + commit final — todas as células ≥10 |
 
 ## Notas de execução
 - ENEM: 144 questões em 5 chunks; corrigidos 2 enunciados duplicados
@@ -57,6 +58,12 @@
   enunciados duplicados (r83→m74, ct85→ct04, d82→d75, v80→v59,
   b85→b29). Push parcial em `9811478` (+153) por pedido do usuário;
   +70 no commit final. Validador: 2523/0.
+- Copeve/UFMG: déficit era 233 em 29 células (3 zeradas: Dir. Trabalho,
+  Legislação, Matemática). Corrigidos 4 enunciados duplicados
+  (m94→m66, ct96→ct17, k91→k81, ec85→ec54, so88→so24, so91→so62,
+  b98→b29, qm85→qm27). Três pushes parciais por pedido do usuário
+  (`9176f84` +33, `f91e398` +105, `d67ad29` +73); +23 no commit final.
+  Validador: 2757/0.
 
 ## TODO(TEAM_006) — continuação
 - Rodar `node scripts/deficit-matriz.js` e pegar a próxima banca da lista.
