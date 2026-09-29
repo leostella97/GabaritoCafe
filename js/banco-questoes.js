@@ -52670,4 +52670,1391 @@ const BancoQuestoes = [
     dica: 'A inovação foi a condenação por órgão COLEGIADO bastar — não precisa do trânsito em julgado (a segunda instância já gera a inelegibilidade). A renúncia para fugir da cassação gera 8 anos de inelegibilidade.', // pegadinha
     video: 'ficha limpa inelegibilidade condenação' // busca no YouTube
   },
+  {
+    id: 'l96',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Dom Casmurro — narrativa',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O enigma de "Dom Casmurro" (Machado) — Capitu traiu ou não? — permanece porque:', // pergunta
+    alternativas: [                     // opções
+      'o narrador é confiável', // opção
+      'o narrador é o próprio Bentinho — a versão é a dele, parcial e interessada: a dúvida é estrutural, pois só conhecemos o lado do acusador', // correta
+      'a Capitu confessa', // opção
+      'o livro responde', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Dom Casmurro é narrado em 1ª pessoa pelo "defunto" ciumento — a traição de Capitu nunca se prova: só o ponto de vista de Bento. Machado criou o narrador não-confiável e a ambiguidade deliberada — a dúvida é a obra.', // explicação
+    dica: 'O narrador-personagem (1ª pessoa) é sempre parcial — ele conta SUA verdade. "Capitu traiu?" é o enigma sem resposta: quem lê como adúltera acredita em Bento; quem duvida vê o ciumento projetando. A "certeza" do narrador é o truque.', // pegadinha
+    video: 'dom casmurro capitu traiu narrador confiável' // busca no YouTube
+  },
+  {
+    id: 'l97',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Cecília Meireles',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A poesia de Cecília Meireles se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'o satírico', // opção
+      'a musicalidade e a meditação existencial — o mar, a saudade, o tempo e a morte: a lírica mais pura e contemplativa do modernismo mineiro', // correta
+      'o épico', // opção
+      'o romancesco', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cecília Meireles = a lírica etérea do modernismo: musicalidade perfeita, meditação sobre o tempo e a morte, o mar como tema. "Ou Isto ou Aquilo" é a obra infantil; "Romanceiro da Inconfidência" a poética de Minas.', // explicação
+    dica: 'Cecília não seguiu o "desvairismo" de 22 — ela é a contemplativa: a morte, o tempo, o mar e o efêmero. A poesia é formalmente rigorosa (métrica clássica) mas moderna no tema — a "poetisa" que transcendeu o rótulo.', // pegadinha
+    video: 'cecília meireles poesia musicalidade mar' // busca no YouTube
+  },
+  {
+    id: 'l98',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Parnasianismo',              // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Parnasianismo brasileiro (Olavo Bilac) valorizava:', // pergunta
+    alternativas: [                     // opções
+      'a emoção', // opção
+      'a forma perfeita e a objetividade — "arte pela arte": o poeta-artesão lapida a palavra, o verso medido e o impessoal; a reação ao sentimentalismo romântico', // correta
+      'o popular', // opção
+      'a música', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Parnasianismo = a poesia como ofício: forma rigorosa (soneto, rima), objetividade (o poeta se esconde), temas universais. Olavo Bilac é o mestre. A reação ao romantismo emotivo e subjetivo — a arte é o ofício, não a inspiração.', // explicação
+    dica: 'Parnasianismo vs Simbolismo são a "geração de 80" contra o romantismo: o parnasiano é objetivo e formal; o simbolista (Cruz e Sousa, Alphonsus) é sugestivo e musical. Bilac = o poeta acadêmico da forma perfeita e da vida cívica.', // pegadinha
+    video: 'parnasianismo bilac forma arte pela arte' // busca no YouTube
+  },
+  {
+    id: 'l99',                          // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Guimarães Rosa',             // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Grande Sertão: Veredas" de Guimarães Rosa revolucionou por:', // pergunta
+    alternativas: [                     // opções
+      'a linguagem simples', // opção
+      'a reinvenção da língua — o narrador Riobaldo conta sua vida no sertão dos jagunços num idioma criado: neologismo, regionalismo e filosofia fundidos', // correta
+      'a trama policial', // opção
+      'o romance urbano', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Grande Sertão = o romance de Rosa é a experiência linguística radical: Riobaldo conta o sertão num idioma reinventado (regionalismo + filosófico). O pacto com o diabo, o amor por Diadorim e a questão do bem e do mal.', // explicação
+    dica: 'Rosa criou um idioma literário — não é "fala de sertanejo", é a palavra inventada. O romance é a dúvida de Riobaldo sobre o pacto com o diabo e o amor inconfessável (Diadorim é o mistério do final). A obra é das mais importantes da língua portuguesa.', // pegadinha
+    video: 'grande sertão veredas rosa riobaldo' // busca no YouTube
+  },
+  {
+    id: 'l100',                         // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Teatro — Nelson Rodrigues',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O teatro de Nelson Rodrigues ("Vestido de Noiva", "A Serpente") inovou por:', // pergunta
+    alternativas: [                     // opções
+      'o didático', // opção
+      'expor o inconsciente da família burguesa — o desejo, o adultério, a hipocrisia e o instinto: o teatro psicanalítico que escandalizou a moral da época', // correta
+      'o leve', // opção
+      'o histórico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Nelson Rodrigues = o "anjo pornográfico": o teatro que entra no inconsciente da família de classe média — ciúme, incesto, desejo reprimido, a hipocrisia moral. "Vestido de Noiva" revolucionou a cena brasileira (1943).', // explicação
+    dica: 'Rodrigues viu o teatro como autópsia da alma burguesa — o "monstro" interior exposto. A família, o casamento e a moralidade são o alvo. A influência de Freud (o inconsciente) e do expressionismo no palco é a chave da obra.', // pegadinha
+    video: 'nelson rodrigues teatro família hipocrisia' // busca no YouTube
+  },
+  {
+    id: 'l101',                         // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Romance regional — 30',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O romance de 30 (Graciliano Ramos, Rachel de Queiroz, Jorge Amado) tem como marca:', // pergunta
+    alternativas: [                     // opções
+      'a forma experimental', // opção
+      'a denúncia social e o regionalismo — o sertão, o retirante, o trabalhador e a injustiça: a literatura como instrumento político da esquerda', // correta
+      'o amor cortês', // opção
+      'o urbano elitista', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A 2ª fase do modernismo (romance de 30) = o Brasil real: a seca (Vidas Secas, O Quinze), o cacau (Jorge Amado), o trabalhador — a prosa social que denuncia a estrutura injusta do país.', // explicação
+    dica: 'O romance de 30 é o de denúncia: "Vidas Secas" (a família de Fabiano vs a terra e o dono), "O Quinze" (a seca), "São Bernardo" (o coronel), "Os Corumbás" e "Gabriela" de Amado. A "ideologia" da obra é a crítica social, não só a estética.', // pegadinha
+    video: 'romance 30 graciliano rachel amado denúncia' // busca no YouTube
+  },
+  {
+    id: 'l102',                         // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Poesia — vanguardas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Manifesto Antropófago de Oswald de Andrade propunha:', // pergunta
+    alternativas: [                     // opções
+      'imitar a Europa', // opção
+      '"devorar" a cultura estrangeira e digeri-la à brasileira — absorver o europeu e transformar em Brasil original: o "Tupi or not Tupi" da metáfora canibal', // correta
+      'rejeitar o estrangeiro', // opção
+      'copiar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Antropofagia cultural (1928): o índio canibal como metáfora — devora o colonizador e absorve sua força para criar o brasileiro autêntico. "Tupi or not Tupi, that is the question" — a independência cultural pela digestão crítica.', // explicação
+    dica: 'A antropofagia NÃO é rejeitar a Europa — é devorá-la e transformar (o oposto da xenofobia e da imitação). O Movimento Antropofágico influencia a música (Tropicália — a "antropofagia" dos anos 60 de Gil e Caetano).', // pegadinha
+    video: 'manifesto antropófago oswald tupi' // busca no YouTube
+  },
+  {
+    id: 'l103',                         // identificador único
+    materia: 'Literatura',              // matéria
+    tema: 'Folclore — literatura',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A literatura de cordel (Nordeste) se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'o romance urbano', // opção
+      'a poesia popular impressa em folhetos expostos em cordas — rimas populares narrando romance, humor, política e religião do sertão', // correta
+      'a forma europeia', // opção
+      'só a música', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cordel = a literatura popular do sertão: folhetos impressos baratos pendurados em corda (daí o nome) — redondilha maior, romanceiros, heróis populares (Lampião, Antônio Conselheiro) e crítica social. Patativa do Assaré é o mestre.', // explicação
+    dica: 'O cordel é literatura POPULAR E URBANA/MARGINAL — não a "culta". Patativa do Assaré, Leandro Gomes de Barros (o criador). O repente e a cantoria são a tradição oral irmã. A capa de xilogravura é a arte popular.', // pegadinha
+    video: 'literatura cordel patativa folheto nordeste' // busca no YouTube
+  },
+  {
+    id: 'e85',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — modal verbs',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"You ___ smoke in the hospital" — the modal that expresses prohibition is:', // pergunta
+    alternativas: [                     // opções
+      'can', // opção
+      'mustn\'t / can\'t — mustn\'t expressa proibição ("proibido"); "don\'t have to" é falta de obrigação ("não precisa"), não proibição', // correta
+      'may', // opção
+      'might', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mustn\'t = proibido; don\'t have to = não precisa (pode ou não); can\'t = não pode/proibido informal; should = deveria (conselho); must = obrigação forte. A confusão mustn\'t vs don\'t have to é a pegadinha clássica.', // explicação
+    dica: 'Must = obrigatório ("You must wear a seatbelt"); mustn\'t = proibido; don\'t have to = desnecessário ("You don\'t have to come" = opcional); needn\'t = não precisa. A diferença proibição vs opcional é o teste favorito.', // pegadinha
+    video: 'must mustnt dont have to modal prohibition' // busca no YouTube
+  },
+  {
+    id: 'e86',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — conditionals',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"If I ___ rich, I would travel the world" — the second conditional uses:', // pergunta
+    alternativas: [                     // opções
+      'am', // opção
+      'were — o segundo condicional (irreal no presente) usa past simple: "if I were"; o primeiro (real) usaria "if I am/will be"', // correta
+      'will be', // opção
+      'had been', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '2nd conditional (hipótese irreal no presente/futuro): if + past simple → would + verbo. "If I were you" é a forma fixa (were para todas as pessoas — subjuntivo). 1st = real (if + present, will); 3rd = passado impossível (had + would have).', // explicação
+    dica: 'A trinca: 1st (real — if it rains, I\'ll stay), 2nd (irreal presente — if I were rich, I\'d travel), 3rd (irreal passado — if I had studied, I\'d have passed). "If I were" é a forma gramatical correta, não "if I was" (coloquial).', // pegadinha
+    video: 'second conditional if were hypothetical' // busca no YouTube
+  },
+  {
+    id: 'e87',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — reported speech',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Reported speech: "I am tired," she said → She said (that) she ___ tired.', // pergunta
+    alternativas: [                     // opções
+      'is', // opção
+      'was — a regra do "backshift": os tempos verbais recuam um grau no discurso indireto (am → was, will → would, can → could, have → had)', // correta
+      'were', // opção
+      'had been', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Reported speech = o verbo recua um tempo: present → past, past → past perfect, will → would, can → could, have → had. "I am tired" → she said she WAS tired.', // explicação
+    dica: 'O backshift só acontece se o verbo de dizer estiver no passado ("she SAID"). Com "she says" (presente), o tempo se mantém: "she says she IS tired". Também mudam: this→that, here→there, now→then, tomorrow→the next day.', // pegadinha
+    video: 'reported speech backshift said was' // busca no YouTube
+  },
+  {
+    id: 'e88',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulary — false friends', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"I pretended to understand" in English means:', // pergunta
+    alternativas: [                     // opções
+      'I intended to understand', // opção
+      'fingi entender — "pretend" é fingir; "intend" é pretender; a confusão entre pretender/pretend é o falso cognato mais clássico da prova', // correta
+      'I understood', // opção
+      'I attended', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pretend = fingir ("He pretended to sleep"); intend = pretender ("I intend to go"). A armadilha principal: pretend/intend, actually/atualmente, push/puxe, costume/costume, exit/êxito — o significado é o oposto ou diferente.', // explicação
+    dica: 'Os 5 falsos mais cobrados: actually = na verdade (atualmente = currently); pretend = fingir (pretender = intend); push = empurrar (puxe = pull); costume = fantasia (costume = habit/custom); exit = saída (êxito = success).', // pegadinha
+    video: 'pretend intend false cognate falso amigo' // busca no YouTube
+  },
+  {
+    id: 'e89',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — quantifiers',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"There isn\'t ___ milk in the fridge" — the correct quantifier is:', // pergunta
+    alternativas: [                     // opções
+      'many', // opção
+      'much — "milk" é incontável (uncountable): usa much/any; "many" é para contáveis (books, apples)', // correta
+      'a few', // opção
+      'several', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Much = incontáveis (milk, water, money, information); many = contáveis (books, people). Any = negativa/pergunta (ambos); a few = poucos contáveis; a little = pouco incontável. "Milk" é incontável → much/any.', // explicação
+    dica: 'A regra de ouro: se não dá para contar (líquido, massa, abstrato — milk, bread, advice, time, money), usa much/a little; se conta (book, car, apple), usa many/a few. "Money" e "time" são incontáveis — pegadinha comum.', // pegadinha
+    video: 'much many quantifier countable uncountable' // busca no YouTube
+  },
+  {
+    id: 'e90',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Reading — text type',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A text that argues a point of view with evidence is:', // pergunta
+    alternativas: [                     // opções
+      'a narrative', // opção
+      'an argumentative text — defende uma tese com argumentos e contra-argumentos; o narrativo conta uma história, o descritivo descreve, o expositivo informa', // correta
+      'a descriptive text', // opção
+      'a poem', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Argumentative = tese + argumentos + refutação (o editorial, o essay); narrative = conta eventos (história); descriptive = descreve (pintura verbal); expository = informa explica. A prova cobra o gênero do texto.', // explicação
+    dica: 'Para identificar o gênero: a pergunta "o que o autor faz?" — defende opinião (argumentativo), conta acontecimento (narrativo), descreve cena/objeto (descritivo), explica conceito (expositivo). O editorial e o artigo de opinião são argumentativos.', // pegadinha
+    video: 'argumentative narrative text type reading' // busca no YouTube
+  },
+  {
+    id: 'e91',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Grammar — tag questions',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"You like coffee, ___?" — the correct tag question is:', // pergunta
+    alternativas: [                     // opções
+      'do you', // opção
+      'don\'t you — a tag inverte a polaridade: afirmativa no enunciado → negativa na tag ("You like coffee, don\'t you?"); negativa → positiva', // correta
+      'aren\'t you', // opção
+      'isn\'t it', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tag question = a pergunta eco no fim que inverte a polaridade: enunciado afirmativo → tag negativa ("You like it, don\'t you?"); negativo → positiva ("You don\'t like it, do you?"). O auxiliar do verbo principal é o da tag.', // explicação
+    dica: 'A tag usa o mesmo auxiliar do enunciado: "She IS happy, isn\'t she?"; "They HAVE arrived, haven\'t they?"; "He CAN swim, can\'t he?". Para o simple present/past, o do/does/did é o auxiliar: "You like it, don\'t you?".', // pegadinha
+    video: 'tag question dont you auxiliary' // busca no YouTube
+  },
+  {
+    id: 'e92',                          // identificador único
+    materia: 'Inglês',                  // matéria
+    tema: 'Vocabulary — word formation', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'The suffix "-ful" in "beautiful" and "careful" means:', // pergunta
+    alternativas: [                     // opções
+      'without', // opção
+      'full of / having — "beautiful" = full of beauty; "-less" é o oposto (sem — "careless" = sem cuidado); "-ful" vs "-less" é a dupla de adjetivos', // correta
+      'half', // opção
+      'again', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sufixos de adjetivo: -ful = cheio de (beautiful, useful, hopeful); -less = sem (careless, homeless, useless); -able = capaz de (readable, washable); -ous = com a qualidade (dangerous); -ive = que tende a (creative).', // explicação
+    dica: 'A dupla -ful/-less é a pegadinha: careful (cheio de cuidado) vs careless (sem cuidado); hopeful vs hopeless; useful vs useless. O prefixo também: un-/in-/dis- (negação), re- (de novo), pre- (antes), mis- (mal).', // pegadinha
+    video: 'suffix ful less adjective formation' // busca no YouTube
+  },
+  {
+    id: 's86',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — ser/estar',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Ella ___ cansada" e "El café ___ frío" usam "estar" porque:', // pergunta
+    alternativas: [                     // opções
+      'es permanente', // opção
+      'estar indica estado temporário/condição — cansada, frío, abierto; "ser" é para característica permanente/essência (Ella ES inteligente, El agua ES fría como propiedad)', // correta
+      'es igual a ser', // opção
+      'es pasado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Ser = essência/permanente (identidade, profissão, nacionalidade, hora, material); estar = estado/localização temporário (cansado, cerrado, en Madrid). O mesmo adjetivo muda de sentido: "Es aburrido" (chato) vs "Está aburrido" (entediado).', // explicação
+    dica: 'A pegadinha clássica: "ser listo" = ser esperto (característica) vs "estar listo" = estar pronto (estado). "Ser bueno" = ser bom de caráter vs "estar bueno" = estar saboroso/bonito. Ser = DOCTOR (descripción, origen...); Estar = LoCo (localización, condición).', // pegadinha
+    video: 'ser estar español diferencia permanente temporal' // busca no YouTube
+  },
+  {
+    id: 's87',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — por/para',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Trabajo ___ mi familia" e "Viajo ___ negocios" distinguem:', // pergunta
+    alternativas: [                     // opções
+      'nada', // opção
+      'para (finalidade/destino — trabajo PARA mi familia = para mantê-la) e por (causa/motivo — viajo POR negocios = a causa é o negócio); por/para é o par mais difícil', // correta
+      'ambas iguais', // opção
+      'a/para', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Para = finalidade, destino, objetivo ("trabajo para ganar dinero", "para Madrid"); por = causa, meio, troca, duração ("por la lluvia", "por correo", "por dos horas"). Para olha para a meta; por olha para a origem/motivo.', // explicação
+    dica: 'Mnemônico: PARA = punto de llegada (futuro, finalidad, destino, opinión); POR = punto de partida (causa, modo, duración, "en vez de"). "Gracias por", "por favor", "por la mañana" são fixos com por. O erro entre eles muda o sentido.', // pegadinha
+    video: 'por para español diferencia finalidad causa' // busca no YouTube
+  },
+  {
+    id: 's88',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — pretérito',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Ayer ___ a la playa" e "De niño ___ al parque" pedem pretéritos diferentes porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      '"fui" (indefinido — ação pontual terminada: ayer) e "iba" (imperfecto — hábito/costume no passado: de niño); o indefinido fecha, o imperfecto descreve', // correta
+      'ambos fui', // opção
+      'ambos iba', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Indefinido (pretérito perfecto simple) = ação concluída, pontual (ayer, una vez — fui, comí); imperfecto = hábito, descrição, ação em curso no passado (de niño, siempre — iba, comía). O sinal temporal decide.', // explicação
+    dica: 'Indefinido fecha a ação (pontos específicos: ayer, anteayer, en 2010); imperfecto é o passado aberto (hábito: siempre, todos los días; descrição: el cielo era azul; ação interrompida: mientras dormía). "Cuando era niño, iba..." é o clássico imperfecto.', // pegadinha
+    video: 'indefinido imperfecto español pasado' // busca no YouTube
+  },
+  {
+    id: 's89',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Vocabulário — falsos amigos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Estoy embarazada" en español significa:', // pergunta
+    alternativas: [                     // opções
+      'estou envergonhada', // opção
+      'estou grávida — "embarazada" é o falso amigo clássico: a vergonha é "vergüenza"; outros: "exito" = sucesso, "largo" = longo (não largo)', // correta
+      'estou cansada', // opção
+      'estou ocupada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Falsos amigos pt-es: embarazada = grávida (vergonha = vergüenza); largo = longo (largo/comprido); sopa = sopa... mas "sopresa" = surpresa; "exquisito" = delicioso; "rato" = tempo/hora; "vaso" = copo (vidro = vidro/janela).', // explicação
+    dica: 'Os mais cobrados: embarazada (grávida ≠ envergonhada), oficina (escritório ≠ oficina mecânica), largo (longo ≠ largo), propina (gorjeta ≠ propina/ilegal), polvo (pó — o inseto é cucaracha), exquisito (delicioso). "Sopa" é sopa mesmo.', // pegadinha
+    video: 'falsos amigos embarazada español portugués' // busca no YouTube
+  },
+  {
+    id: 's90',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — subjuntivo',     // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Espero que ___ bien" usa subjuntivo porque:', // pergunta
+    alternativas: [                     // opções
+      'é certeza', // opção
+      '"espero que" expressa desejo/dúvida — o subjuntivo marca o não-factual (esperança, desejo, dúvida, emoção); "creo que está" usa indicativo (certeza)', // correta
+      'é passado', // opção
+      'é futuro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O subjuntivo espanhol segue o português: "espero que ESTÉ", "no creo que venga", "quiero que vayas" — depois de expressão de desejo, dúvida, negação e emoção. O indicativo é para a certeza: "creo que ESTÁ".', // explicação
+    dica: 'Trigger do subjuntivo: quiero que, espero que, es importante que, no creo que, ojalá, es posible que. O "que" liga a oração subordinada. O indicativo volta quando é certeza ou opinião afirmativa: "creo que", "es cierto que".', // pegadinha
+    video: 'subjuntivo español espero que deseo' // busca no YouTube
+  },
+  {
+    id: 's91',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — artigos',        // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"___ problema es difícil" — o artigo correto é:', // pergunta
+    alternativas: [                     // opções
+      'La', // opção
+      'El — "problema" é masculino apesar do -a (palavras gregas -ma/-ta são masculinas: el problema, el tema, el sistema, el mapa)', // correta
+      'Los', // opção
+      'Una', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As palavras gregas em -ma/-pa/-ta são masculinas em espanhol: EL problema, tema, sistema, mapa, poeta, planeta, día. O "-a" engana — mas o artigo é "el".', // explicação
+    dica: 'Os masculinos disfarçados: el problema, el tema, el idioma, el sistema, el mapa, el día, el sofá, el planeta, el clima, el programa. E os femininos com "el" pelo som: el agua, el área, el hacha (som de "a" tônico) — que são femininas.', // pegadinha
+    video: 'el problema masculino griego ma ta español' // busca no YouTube
+  },
+  {
+    id: 's92',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Lectura — comprensión',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Sin embargo" e "no obstante" en un texto indican:', // pergunta
+    alternativas: [                     // opções
+      'causa', // opção
+      'contraste/concesión — equivalem a "entretanto/porém": marcam oposição ao que se disse antes; "por tanto" é consecuencia, "además" é adición', // correta
+      'adición', // opção
+      'conclusión', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Conectores de contraste: sin embargo, no obstante, aunque, pero, mientras que; de causa: porque, puesto que, ya que; de consecuencia: por tanto, por eso, así que; de adición: además, también, asimismo.', // explicação
+    dica: 'A prova cobra o conector pelo sentido: "sin embargo" = contraste (mas), "por eso" = consequência (por isso), "además" = adição, "aunque" = concessão (embora). Saber a função lógica resolve a inferência do texto.', // pegadinha
+    video: 'sin embargo no obstante conectores contraste' // busca no YouTube
+  },
+  {
+    id: 's93',                          // identificador único
+    materia: 'Espanhol',                // matéria
+    tema: 'Gramática — gustar',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Me gusta el libro" tem estrutura peculiar porque:', // pergunta
+    alternativas: [                     // opções
+      'o sujeito sou eu', // opção
+      '"gustar" inverte: o livro é o sujeito ("o livro me agrada") — "me" é o objeto indireto e o verbo concorda com o que agrada: me gusta/gustan', // correta
+      'é reflexivo', // opção
+      'é passado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Gustar = o que agrada é o sujeito, quem recebe é o objeto indireto: "Me gusta el libro" (o livro me agrada — gusta, singular); "Me gustan los libros" (gustan, plural). Encantar, interesar, parecer seguem igual.', // explicação
+    dica: 'O verbo "gustar" concorda com o ITEM gostado, não com a pessoa: me gusta el café (singular) vs me gustan los perros (plural). Encantar, fascinar, interesar, parecer funcionam igual — o sujeito é o que "provoca" o gosto.', // pegadinha
+    video: 'gustar español me gusta gustan estructura' // busca no YouTube
+  },
+  {
+    id: 'ar91',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Modernismo — artes plásticas', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A pintura "Abaporu" de Tarsila do Amaral é o ícone:', // pergunta
+    alternativas: [                     // opções
+      'do barroco', // opção
+      'do modernismo brasileiro — o homem que devora gente (a antropofagia visual): a figura monumental sentada sintetiza a proposta de digerir a cultura estrangeira', // correta
+      'do realismo', // opção
+      'do impressionismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Abaporu (1928, Tarsila) = "homem que come gente" em tupi — inspirou o Manifesto Antropófago de Oswald. A figura caipira monumental com pé e mão exagerados sintetiza a ideia de "devorar" a cultura europeia e criar a brasileira.', // explicação
+    dica: 'Tarsila = a pintora-símbolo do modernismo: Abaporu, Operários, A Cuca, Estrada de Ferro Central. A fase "Pau-Brasil" e "Antropofágica" são as dela. O quadro foi vendido por US$ 1,4 milhão e é a obra brasileira mais valiosa.', // pegadinha
+    video: 'abaporu tarsila amaral modernismo antropofagia' // busca no YouTube
+  },
+  {
+    id: 'ar92',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Música — Villa-Lobos',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Heitor Villa-Lobos revolucionou a música brasileira por:', // pergunta
+    alternativas: [                     // opções
+      'imitar Bach', // opção
+      'fundir erudito e popular — os "Choros" e as "Bachianas Brasileiras" misturam a forma clássica com a música popular brasileira e o folclore', // correta
+      'só o samba', // opção
+      'a ópera', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Villa-Lobos = o maior compositor brasileiro: as "Bachianas Brasileiras" (a fusão de Bach com o Brasil) e os "Choros" (a forma popular elevada ao erudito). Nacionalista modernista — a música da Semana de 22.', // explicação
+    dica: 'Villa-Lobos fez o "som brasileiro" erudito — o Bachianas nº5 (a ária para 8 violoncelos e soprano) é a obra mais famosa. O "choro" que ele elevou virou gênero erudito. Autodidata — não teve formação acadêmica formal.', // pegadinha
+    video: 'villa-lobos bachianas brasileiras choro' // busca no YouTube
+  },
+  {
+    id: 'ar93',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Teatro — gêneros',           // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A tragédia grega se diferencia da comédia porque:', // pergunta
+    alternativas: [                     // opções
+      'é engraçada', // opção
+      'trata do destino e do sofrimento — o herói enfrenta forças superiores (a hybris e o destino) e a catarse purifica o público; a comédia satiriza o cotidiano', // correta
+      'é leve', // opção
+      'são iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Tragédia = herói nobre, destino implacável, catarse (Ésquilo, Sófocles, Eurípides — Édipo Rei); comédia = a sátira do cotidiano e do poder (Aristófanes). O drama é o gênero intermediário que nasce depois.', // explicação
+    dica: 'Os três trágicos gregos: Ésquilo (Oresteia), Sófocles (Édipo Rei — a tragédia do destino), Eurípides (Medeia). A catarse aristotélica é a purgação das emoções do espectador — medo e piedade purificam.', // pegadinha
+    video: 'tragédia grega comédia catarse destino' // busca no YouTube
+  },
+  {
+    id: 'ar94',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Dança — brasileira',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O frevo, o maracatu e o samba são danças de matriz:', // pergunta
+    alternativas: [                     // opções
+      'indígena só', // opção
+      'afro-brasileira — o frevo (Recife), o maracatu (o cortejo dos reis congos) e o samba nascem da herança africana no Brasil', // correta
+      'europeia', // opção
+      'asiática', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'As danças afro-brasileiras: frevo (o passo acelerado de Recife), maracatu (o cortejo real do Congo no carnaval pernambucano), samba (a herança banto no Rio), capoeira (a luta-dança). A matriz africana dominante na cultura popular.', // explicação
+    dica: 'Frevo = o carnaval acelerado de Recife (o guarda-chuva e o passo); maracatu = o cortejo lento e solene do rei negro; samba = umbigada + batuque banto do Rio. A capoeira é a luta disfarçada de dança — patrimônio imaterial.', // pegadinha
+    video: 'frevo maracatu samba dança afro-brasileira' // busca no YouTube
+  },
+  {
+    id: 'ar95',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte — contemporânea',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "arte contemporânea" (pós-1960) se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'só a pintura', // opção
+      'a pluralidade e a conceitualidade — instalação, performance, videoarte, arte urbana: a ideia/conceito importa mais que a forma; o "é arte?" é a provocação', // correta
+      'a beleza clássica', // opção
+      'a realidade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Arte contemporânea = o questionamento radical: instalação (o espaço vira obra), performance (o corpo é o meio), ready-made (o objeto comum elevado — Duchamp), arte urbana (Banksy). A conceitualidade importa mais que a técnica.', // explicação
+    dica: 'O divisor: arte moderna = a forma (Picasso, Pollock); contemporânea = o conceito (o objeto comum como arte — o mictório de Duchamp; o corpo na performance de Abramović). O "isso é arte?" é a questão que a arte contemporânea quer provocar.', // pegadinha
+    video: 'arte contemporânea instalação performance conceito' // busca no YouTube
+  },
+  {
+    id: 'ar96',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Barroco — Aleijadinho',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Aleijadinho, mestre do barroco mineiro, esculpiu:', // pergunta
+    alternativas: [                     // opções
+      'o modernismo', // opção
+      'os profetas de Congonhas e as igrejas do ciclo do ouro — a escultura em pedra-sabão: obras-primas do barroco brasileiro feitas mesmo com a doença deformante', // correta
+      'a pintura renascentista', // opção
+      'o realismo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aleijadinho (Antônio Francisco Lisboa): o mestre do barroco mineiro — os Profetas de pedra-sabão em Congonhas (obra-prima mundial) e a igreja de São Francisco em Ouro Preto. Trabalhava com as ferramentas amarradas aos punhos deformados.', // explicação
+    dica: 'Os Profetas de Congonhas do Campo são patrimônio da UNESCO — o conjunto escultórico mais importante das Américas. O barroco mineiro (Ouro Preto, Congonhas, Tiradentes) é a fase áurea da arte colonial — o Rococó dourado das igrejas.', // pegadinha
+    video: 'aleijadinho profetas congonhas barroco' // busca no YouTube
+  },
+  {
+    id: 'ar97',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Fotografia — conceitos',     // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na fotografia, a "abertura" (f/stop) controla:', // pergunta
+    alternativas: [                     // opções
+      'o zoom', // opção
+      'a luz que entra e a profundidade de campo — f/1.8 abre muito (fundo desfocado, o bokeh); f/16 fecha (tudo em foco); o número menor = abertura maior', // correta
+      'a cor', // opção
+      'o flash', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O triângulo da exposição: abertura (f/stop — luz + profundidade), velocidade do obturador (congela o movimento), ISO (sensibilidade — mais ISO = mais ruído). O f/1.8 desfoca o fundo (retrato); f/16 foca tudo (paisagem).', // explicação
+    dica: 'A abertura é INVERTIDA: f/1.8 = abertura GRANDE (mais luz, fundo desfocado); f/16 = abertura PEQUENA (menos luz, tudo em foco). O número é uma fração — f/1.8 é "1/1,8" da distância focal, maior que 1/16.', // pegadinha
+    video: 'abertura f-stop fotografia profundidade campo' // busca no YouTube
+  },
+  {
+    id: 'ar98',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Cinema — movimentos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Cinema Novo brasileiro (anos 60) propunha:', // pergunta
+    alternativas: [                     // opções
+      'o comercial', // opção
+      'o cinema político e autoral — "uma câmera na mão e uma ideia na cabeça": filmes sobre a desigualdade e a identidade (Glauber Rocha, Nelson Pereira)', // correta
+      'a fantasia', // opção
+      'a comédia', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cinema Novo = o cinema político brasileiro dos anos 60: "Deus e o Diabo na Terra do Sol", "Terra em Transe" (Glauber Rocha), "O Pagador de Promessas" — a denúncia social e a estética autoral contra o cinema comercial.', // explicação
+    dica: 'O Cinema Novo morreu com o golpe de 64 (a censura e a repressão) — mas influenciou o cinema mundial. Glauber Rocha é o gênio do movimento; "O Pagador de Promessas" (Anselmo Duarte) ganhou a Palma de Ouro de Cannes 1962 — único brasileiro.', // pegadinha
+    video: 'cinema novo glauber rocha anos 60' // busca no YouTube
+  },
+  {
+    id: 'ar99',                         // identificador único
+    materia: 'Artes',                   // matéria
+    tema: 'Arte urbana — grafite',      // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O grafite difere do pixo porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o grafite é a arte plástica no muro (desenho, cor, imagem — muitas vezes autorizado); o pixo é a tag/tagging — a assinatura estilizada transgressora', // correta
+      'o grafite é ilegal', // opção
+      'o pixo é arte', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Grafite = a arte visual no espaço público (os murais — Kobra, Os Gêmeos, Panmela); pixo = a assinatura/tag estilizada (a transgressão pura — a "escrita" urbana). Os dois são arte de rua, mas com lógicas diferentes.', // explicação
+    dica: 'O pixo é a tag — a assinatura crua que marca território (transgressão sem "beleza"); o grafite é a pintura artística (o mural). A Lei 13.258/2016 regulamentou a arte urbana — muitas cidades autorizam o grafite como patrimônio.', // pegadinha
+    video: 'grafite pixo diferença arte urbana' // busca no YouTube
+  },
+  {
+    id: 'ef87',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Fisiologia do exercício',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "fadiga muscular" durante o exercício é causada principalmente por:', // pergunta
+    alternativas: [                     // opções
+      'falta de água só', // opção
+      'acúmulo de metabólitos (H⁺ do ácido lático, fosfato) e depleção de energia — a acidose muscular e a falta de ATP/glicogênio limitam a contração', // correta
+      'sono', // opção
+      'a roupa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A fadiga muscular vem da acidose (o H⁺ do lactato — o "ácido lático" que incomoda) e da depleção de glicogênio/ATP. O lactato não é "veneno" — é o subproduto da glicólise anaeróbica que a intensidade alta produz.', // explicação
+    dica: 'O "ácido lático" da fadiga é na verdade o íon H⁺ que acidifica — o lactato em si é combustível (o coração usa). A DOMS (dor tardia — 24-48h depois) não é lactato: é microlesão muscular + inflamação. O treino bem-feito aumenta a tolerância.', // pegadinha
+    video: 'fadiga muscular ácido lático exercício' // busca no YouTube
+  },
+  {
+    id: 'ef88',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Treinamento — princípios',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O princípio da "sobrecarga" no treinamento físico estabelece que:', // pergunta
+    alternativas: [                     // opções
+      'descansar', // opção
+      'a carga deve superar o habitual para gerar adaptação — o corpo só evolui se forçado além do confortável: progressão gradual de peso, repetição ou intensidade', // correta
+      'treinar igual', // opção
+      'sempre descansar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sobrecarga progressiva = o corpo adapta ao estresse: para crescer/força/resistir, a carga deve aumentar gradualmente. Sem sobrecarga = platô; excessiva = lesão. É o princípio que sustenta todo treino.', // explicação
+    dica: 'Os princípios: sobrecarga (carga crescente), especificidade (o treino específico — nade para nadar), individualidade (cada corpo responde diferente), reversibilidade (o que não se usa se perde — o destreino), continuidade.', // pegadinha
+    video: 'sobrecarga treinamento progressivo adaptação' // busca no YouTube
+  },
+  {
+    id: 'ef89',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Saúde — sedentarismo',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A OMS recomenda para adultos no mínimo:', // pergunta
+    alternativas: [                     // opções
+      '30 min/mês', // opção
+      '150-300 minutos de atividade aeróbica moderada por semana (ou 75-150 de vigorosa) + fortalecimento 2×/semana — o mínimo para os benefícios de saúde', // correta
+      '1h/dia sempre', // opção
+      'nada', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diretriz OMS: 150-300 min/semana de moderada (caminhada rápida) ou 75-150 de vigorosa (corrida) + força 2 dias/semana. O sedentarismo mata ~5 milhões/ano no mundo — "movimento é remédio".', // explicação
+    dica: 'Sedentarismo ≠ inatividade física: sedentário é quem não atinge o mínimo; inativo é quem não faz nada. Mesmo quem treina 1h/dia mas passa o resto sentado tem risco — o "exercise paradox": o treino não anula 15h sentado.', // pegadinha
+    video: 'oms atividade física 150 minutos saúde' // busca no YouTube
+  },
+  {
+    id: 'ef90',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Educação — pedagogia',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A BNCC define a Educação Física escolar como o direito a:', // pergunta
+    alternativas: [                     // opções
+      'só jogar futebol', // opção
+      'conhecer a cultura corporal do movimento — esporte, dança, lutas, jogos e ginástica como patrimônio cultural, não só atividade física', // correta
+      'só competir', // opção
+      'só treinar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A BNCC coloca a EF na área de Linguagens — o corpo como cultura: as práticas corporais (esporte, dança, luta, jogo, ginástica) são patrimônio cultural a ser vivenciado e compreendido, não só exercício.', // explicação
+    dica: 'A EF escolar não é "preparo físico" — é a cultura do movimento (a competência para participar, criar, apreciar e valorizar as práticas corporais). A tendência atual é a vivência crítica, não só a performance — o aluno aprende o jogo, não só "joga".', // pegadinha
+    video: 'bncc educação física cultura corporal' // busca no YouTube
+  },
+  {
+    id: 'ef91',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Esporte — categorias',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O esporte de "rendimento" difere do esporte "participação" porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o rendimento busca a excelência/resultado (o atleta de elite — o recorde e a competição); o participação é o lazer e a saúde (o amador — o futebol de domingo)', // correta
+      'o participação é melhor', // opção
+      'o rendimento é fácil', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O esporte tem três faces: rendimento (o alto nível — o atleta profissional), participação/educação (o lazer, a escola — o amador) e espetáculo (a mídia, o negócio). As três podem coexistir, mas a lógica difere.', // explicação
+    dica: 'O esporte-educação forma o cidadão (o jogo como conteúdo — cooperar, respeitar regras); o rendimento maximiza a performance (o treinamento científico — especialização precoce é o debate); o espetáculo transforma em mercadoria.', // pegadinha
+    video: 'esporte rendimento participação diferença' // busca no YouTube
+  },
+  {
+    id: 'ef92',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Nutrição — esporte',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A proteína na nutrição esportiva serve principalmente para:', // pergunta
+    alternativas: [                     // opções
+      'energia rápida', // opção
+      'a reparação e construção muscular — o aminoácido reconstitui a fibra lesionada no treino; o carboidrato é a energia, a proteína é a recuperação', // correta
+      'hidratação', // opção
+      'a gordura', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Proteína = o material de construção do músculo (reparação pós-treino — 1,6-2,2g/kg para atleta); carboidrato = o combustível (glicogênio); gordura = o combustível lento + hormônio. A "janela anabólica" é o momento da recuperação.', // explicação
+    dica: 'O suplemento whey é só proteína concentrada — funciona, mas a comida resolve. A proteína em excesso não vira mais músculo (o corpo excreta); a distribuição ao longo do dia é melhor que uma dose única gigante.', // pegadinha
+    video: 'proteína recuperação muscular whey treino' // busca no YouTube
+  },
+  {
+    id: 'ef93',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Alongamento — tipos',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O alongamento estático (manter a posição) é recomendado:', // pergunta
+    alternativas: [                     // opções
+      'antes do treino forte', // opção
+      'após o exercício ou em sessão própria — mantém a posição 15-30s relaxando o músculo; o dinâmico/balístico é o aquecimento (movimento, não sustentado)', // correta
+      'só no aquecimento', // opção
+      'nunca', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Estático (mantém a posição — relaxa o músculo, melhor DEPOIS) vs dinâmico/balístico (movimento — o aquecimento, antes). O alongamento estático antes de força pode reduzir a potência temporariamente — a sequência é dinâmico antes, estático depois.', // explicação
+    dica: 'Mito comum: alongar antes NÃO previne lesão e pode reduzir a força momentânea — o aquecimento dinâmico (o movimento semelhante ao exercício) é o correto antes; o estático relaxa e melhora a flexibilidade depois.', // pegadinha
+    video: 'alongamento estático dinâmico flexibilidade' // busca no YouTube
+  },
+  {
+    id: 'ef94',                         // identificador único
+    materia: 'Educação Física',         // matéria
+    tema: 'Corpo — composição',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O IMC (índice de massa corporal) calcula:', // pergunta
+    alternativas: [                     // opções
+      'a gordura direta', // opção
+      'o peso dividido pela altura ao quadrado (kg/m²) — o screening populacional: <18,5 baixo, 18,5-25 normal, 25-30 sobrepeso, >30 obeso; não distingue músculo de gordura', // correta
+      'o colesterol', // opção
+      'o músculo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'IMC = peso/altura² — classifica por faixa (normal 18,5-24,9). Não diferencia gordura de músculo (o atleta musculoso marca "obeso"). A circunferência abdominal e a bioimpedância complementam para a composição corporal real.', // explicação
+    dica: 'O IMC é triagem populacional, não diagnóstico: o fisiculturista de 100kg de músculo tem IMC "obeso" sem gordura. Circunferência abdominal (>102H/>88M) e DEXA são melhores para risco metabólico. O IMC ignora a distribuição da gordura.', // pegadinha
+    video: 'imc índice massa corporal limitação' // busca no YouTube
+  },
+  {
+    id: 'fs85',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema nervoso — divisões', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O sistema nervoso autônomo se divide em simpático e parassimpático porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'têm efeitos opostos — o simpático acelera (luta/fuga: coração acelera, pupila dilata, a digestão para); o parassimpático desacelera (descanso/digestão: coração calma, intestino ativa)', // correta
+      'um é motor', // opção
+      'um é cerebral', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Simpático = o acelerador (adrenalina: coração dispara, pupila dilata, sangue vai ao músculo — a resposta ao perigo); parassimpático = o freio (vago: coração calma, digestão ativa — o repouso). O equilíbrio regula o corpo.', // explicação
+    dica: 'Simpático = "fight or flight" (luta ou foge — adrenalina, dilata pupila, acelera coração); parassimpático = "rest and digest" (repousa e digere — vago, pupila contrai, coração calma). O vagal é o nervo do "modo zen".', // pegadinha
+    video: 'simpático parassimpático autônomo luta fuga' // busca no YouTube
+  },
+  {
+    id: 'fs86',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Célula — energia',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O ATP é a "moeda energética" da célula porque:', // pergunta
+    alternativas: [                     // opções
+      'é um lipídio', // opção
+      'é a molécula que carrega a energia usada pelas reações celulares — a quebra da ligação do último fosfato libera a energia para o trabalho da célula', // correta
+      'é o DNA', // opção
+      'é o açúcar', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'ATP = adenosina trifosfato: a energia da comida é transferida para o ATP; a quebra ATP→ADP libera energia para contração, transporte, síntese. A mitocôndria produz ~36 ATP por glicose; a glicólise só 2.', // explicação
+    dica: 'A respiração celular é a "fábrica de ATP": glicólise (citoplasma — 2 ATP, sem O₂), ciclo de Krebs (mitocôndria) e fosforilação oxidativa (a cadeia — os 34 ATP restantes). Sem oxigênio, só a fermentação (2 ATP — a fadiga do músculo).', // pegadinha
+    video: 'atp moeda energética célula mitocôndria' // busca no YouTube
+  },
+  {
+    id: 'fs87',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sistema imune — tipos',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A imunidade inata difere da adquirida porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a inata é a resposta genérica e imediata (pele, fagócito, febre — nasce conosco); a adquirida é específica e memoriza (anticorpo, linfócito — o "treinamento")', // correta
+      'a inata memoriza', // opção
+      'a adquirida é rápida', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Inata = a barreira e o fagócito (não específica — pele, muco, neutrófilo, inflamação — instantânea); adquirida = o linfócito B (anticorpo) e T (célula destruidora) — específica e com memória (a vacina treina essa).', // explicação
+    dica: 'A vacina ativa a imunidade adquirida sem a doença — o "simulacro" do invasor treina a memória. A inata é o primeiro combate (a inflamação é ela agindo); a adquirida é a resposta precisa que demora dias mas memoriza.', // pegadinha
+    video: 'imunidade inata adquirida anticorpo linfócito' // busca no YouTube
+  },
+  {
+    id: 'fs88',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Endócrino — insulina',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A insulina do pâncreas tem como função:', // pergunta
+    alternativas: [                     // opções
+      'subir a glicose', // opção
+      'baixar a glicemia — a "chave" que abre a célula para a glicose entrar; o diabetes tipo 1 é a falta dela, o tipo 2 é a resistência dela', // correta
+      'a digestão', // opção
+      'o crescimento', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Insulina = o hormônio que abaixa o açúcar no sangue — sinaliza às células para absorver a glicose. Diabetes 1 = o pâncreas não produz (autoimune); Diabetes 2 = a célula não responde (resistência — obesidade/sedentarismo).', // explicação
+    dica: 'Diabetes 1 = falta a insulina (o corpo ataca o pâncreas — tratamento é injetar); Diabetes 2 = a insulina existe mas a célula ignora (resistência — dieta/exercício revertem). O glucagon é o oposto — sobe a glicose no jejum.', // pegadinha
+    video: 'insulina diabetes pâncreas glicose' // busca no YouTube
+  },
+  {
+    id: 'fs89',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Circulação — coração',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A diferença entre artéria e veia é que:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'a artéria leva sangue DO coração (parede grossa, pressão alta — pulmonar leva sangue pobre); a veia traz PARA o coração (válvula, pressão baixa)', // correta
+      'a veia é vermelha', // opção
+      'a artéria é azul', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Artéria = sangue saindo do coração (parede muscular grossa para a pressão alta); veia = sangue voltando (válvula impede refluxo, parede fina). Exceções: artéria pulmonar leva sangue VENOSO (para o pulmão), veia pulmonar traz ARTERIAL.', // explicação
+    dica: 'A regra é a DIREÇÃO (do coração = artéria; para o coração = veia), não o oxigênio: a artéria pulmonar leva sangue sem O₂ ao pulmão. A capilar é a microscópica da troca. A veia tem válvula (o sangue não desce de volta nas pernas).', // pegadinha
+    video: 'artéria veia diferença direção válvula' // busca no YouTube
+  },
+  {
+    id: 'fs90',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Digestão — órgãos',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A maior parte da absorção de nutrientes ocorre no:', // pergunta
+    alternativas: [                     // opções
+      'estômago', // opção
+      'intestino delgado — as vilosidades e microvilosidades multiplicam a superfície (~200m²): carboidrato, proteína, gordura, vitamina e água são absorvidos ali', // correta
+      'intestino grosso', // opção
+      'esôfago', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O delgado (duodeno, jejuno, íleo) é o órgão da absorção — a vilosidade multiplica a superfície para ~200m². O estômago digere proteína e absorve pouco (água, álcool); o grosso absorve água e sal e forma o bolo fecal.', // explicação
+    dica: 'Delgado = absorção dos nutrientes (vilosidade, superfície gigante); grosso = absorção de água + formação das fezes + a microbiota. O estômago é a digestão química (ácido+pepsina), não a absorção principal.', // pegadinha
+    video: 'intestino delgado absorção vilosidade nutriente' // busca no YouTube
+  },
+  {
+    id: 'fs91',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Sono — fases',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O sono REM (movimento rápido dos olhos) é a fase em que:', // pergunta
+    alternativas: [                     // opções
+      'o corpo trabalha', // opção
+      'ocorrem os sonhos vívidos e a consolidação da memória — o cérebro está ativo (quase acordado), o músculo paralisado; o sono profundo NREM restaura o corpo', // correta
+      'a digestão acontece', // opção
+      'a respiração para', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'REM = o sonho vívido + a consolidação da memória — o cérebro processa o dia; o corpo fica paralisado (para não "agir" o sonho). NREM profundo = a restauração física (hormônio do crescimento, recuperação muscular).', // explicação
+    dica: 'O ciclo: NREM leve → profundo (restaura o corpo — GH) → REM (restaura a mente — sonho e memória). O sono ruim corta o REM (a memória falha) e o profundo (o corpo não recupera). A paralisia do REM evita "encenar" o sonho.', // pegadinha
+    video: 'sono rem nrem sonho memória fase' // busca no YouTube
+  },
+  {
+    id: 'fs92',                         // identificador único
+    materia: 'Fisiologia',              // matéria
+    tema: 'Homeostase — osmorregulação', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A sede e o hormônio ADH regulam:', // pergunta
+    alternativas: [                     // opções
+      'a temperatura', // opção
+      'a água do corpo — quando o sangue concentra, o hipotálamo dispara a sede e libera ADH que faz o rim reter água; a desidratação ativa o circuito', // correta
+      'o açúcar', // opção
+      'a respiração', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Osmorregulação = o equilíbrio água/sal: sangue concentrado → hipotálamo dispara sede + libera ADH (hormônio antidiurético) → o rim reabsorve água → urina concentrada. A ingestão de água e o ADH restauram.', // explicação
+    dica: 'O ADH = "a torneira do rim" — muito ADH = retenção (urina escassa e escura); pouco ADH = diurese (a diabetes insipidus — falta de ADH — gera urina abundante). A sede é o alarme mais lento — já há desidratação quando ela chega.', // pegadinha
+    video: 'adh osmorregulação rim água sede' // busca no YouTube
+  },
+  {
+    id: 'fl97',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Platão — conhecimento',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "alegoria da caverna" de Platão ilustra que:', // pergunta
+    alternativas: [                     // opções
+      'a caverna é real', // opção
+      'confundimos aparência com realidade — os prisioneiros veem só as sombras e as tomam por verdadeiras; o filósofo é quem sai e vê o Sol (o mundo inteligível)', // correta
+      'as sombras são reais', // opção
+      'o homem é livre', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A caverna: os prisioneiros acorrentados veem sombras na parede como realidade — a libertação (o filósofo) é sair e ver a verdade. A alegoria explica a teoria das Ideias: o mundo sensível é cópia imperfeita do inteligível.', // explicação
+    dica: 'A caverna = a metáfora do conhecimento: sombra = aparência/doxa (opinião); a saída = a dialética/razão que alcança a Ideia (episteme). O filósofo que volta para libertar os outros é ridicularizado — a crítica ao senso comum.', // pegadinha
+    video: 'alegoria caverna platão sombra realidade' // busca no YouTube
+  },
+  {
+    id: 'fl98',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Nietzsche — super-homem',    // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "super-homem" (Übermensch) de Nietzsche é:', // pergunta
+    alternativas: [                     // opções
+      'o super-herói', // opção
+      'o ser que cria seus próprios valores — supera a moral de escravo (ressentimento) e afirma a vida: "torna-te quem és" — a vontade de potência realizada', // correta
+      'o mais forte', // opção
+      'o ditador', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O Übermensch de Nietzsche não é o super-homem de quadrinhos: é quem cria valores próprios, supera a moral "de escravo" (o ressentimento contra a vida) e afirma o eterno retorno — a vontade de potência como criatividade existencial.', // explicação
+    dica: 'Nietzsche não propõe um super-homem dominador — propõe quem se AUTOSupera. "Deus está morto" não é comemoração: é diagnóstico (a perda do fundamento) e desafio (criar valores sem garantia divina). A moral de escravo = a inversão dos fracos.', // pegadinha
+    video: 'super-homem nietzsche übermensch vontade potência' // busca no YouTube
+  },
+  {
+    id: 'fl99',                         // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Descartes — método',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "cogito ergo sum" de Descartes significa:', // pergunta
+    alternativas: [                     // opções
+      'penso porque sou', // opção
+      '"penso, logo existo" — a única certeza que resiste à dúvida metódica: mesmo se tudo é ilusão, o fato de duvidar prova que um "eu que pensa" existe', // correta
+      'a dúvida é ruim', // opção
+      'a razão engana', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Cogito ergo sum = a primeira verdade indubitável: Descartes duvida de tudo (os sentidos, o mundo, o "gênio maligno"), mas a própria dúvida prova o pensamento — "penso, logo existo". A fundação do racionalismo.', // explicação
+    dica: 'A dúvida metódica de Descartes: duvida dos sentidos, do corpo, do mundo — até chegar ao cogito (o "eu penso" não pode ser dúvida de si mesmo). O racionalismo busca o conhecimento pela razão (matemática), não pelos sentidos.', // pegadinha
+    video: 'cogito ergo sum descartes dúvida metódica' // busca no YouTube
+  },
+  {
+    id: 'fl100',                        // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Foucault — poder',           // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Para Foucault, o poder moderno é:', // pergunta
+    alternativas: [                     // opções
+      'só o Estado', // opção
+      'difuso e capilar — não está só no rei/Estado: está em toda relação social (escola, hospital, fábrica); o poder produz saber e normaliza os corpos', // correta
+      'só a polícia', // opção
+      'só a lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Foucault: o poder não é só a punição do soberano — é capilar (penetra toda relação), produtivo (produz saber e verdade) e normalizador (a vigilância disciplina os corpos — o panóptico é o modelo: todos se vigiam).', // explicação
+    dica: 'O panóptico de Bentham (a torre que vê todos) é a metáfora de Foucault: o poder disciplinar faz o sujeito vigiar a si mesmo. Poder-saber = o saber é instrumento do poder (a medicina, a psiquiatria "produzem" o normal e o louco).', // pegadinha
+    video: 'foucault poder saber panóptico disciplina' // busca no YouTube
+  },
+  {
+    id: 'fl101',                        // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Existencialismo — Sartre',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"A existência precede a essência" (Sartre) afirma que:', // pergunta
+    alternativas: [                     // opções
+      'somos determinados', // opção
+      'o homem nasce sem essência definida — primeiro existe, depois se define pelas escolhas: somos "condenados a ser livres", responsáveis por quem nos tornamos', // correta
+      'a essência vem antes', // opção
+      'Deus nos define', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Existencialismo de Sartre: o ser humano não tem natureza pré-definida (o objeto tem essência antes — o martelo foi feito para pregar); nós primeiro existimos e nos fazemos pelas escolhas. A liberdade é a condenação.', // explicação
+    dica: '"Condenado a ser livre" = a liberdade não é bênção, é responsabilidade total (não há desculpa: nem Deus, nem a natureza, nem a sociedade). A "má-fé" de Sartre é fingir que não se tem escolha — "eu não podia" é fuga da liberdade.', // pegadinha
+    video: 'sartre existência essência liberdade' // busca no YouTube
+  },
+  {
+    id: 'fl102',                        // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Kant — dever',               // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "imperativo categórico" de Kant exige agir:', // pergunta
+    alternativas: [                     // opções
+      'pelo prazer', // opção
+      'conforme a máxima que possa ser universalizada — aja só se a sua regra puder valer para todos; a moral é o dever, não a consequência', // correta
+      'pela recompensa', // opção
+      'pela emoção', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Imperativo categórico = o dever incondicional: aja de modo que sua ação possa ser lei universal (se todo mundo mentisse, a mentira se destrói). A moral kantiana é deontológica — o que importa é a intenção/dever, não o resultado.', // explicação
+    dica: 'Deontologia (Kant — o dever) vs consequencialismo (o resultado importa — o utilitarista aceita mentir para salvar). O imperativo categórico também exige tratar a pessoa como fim, nunca como meio (a dignidade humana).', // pegadinha
+    video: 'imperativo categórico kant dever moral' // busca no YouTube
+  },
+  {
+    id: 'fl103',                        // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Marx — ideologia',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Para Marx, a "ideologia" é:', // pergunta
+    alternativas: [                     // opções
+      'a verdade', // opção
+      'a superestrutura que mascara a dominação — as ideias da classe dominante se apresentam como "verdade universal": a religião, a moral e o direito naturalizam a exploração', // correta
+      'a ciência', // opção
+      'o partido', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Marx: a base material (a economia) determina a superestrutura (ideologia — política, direito, religião). A ideologia inverte a realidade: apresenta o interesse da burguesia como "o bem comum" — a falsa consciência do proletário.', // explicação
+    dica: '"As ideias dominantes são as da classe dominante" — a ideologia naturaliza a exploração (apresenta como "justo" o que serve ao capital). A falsa consciência = o operário que defende o patrão. A crítica é desvelar o interesse por trás da ideia.', // pegadinha
+    video: 'ideologia marx superestrutura dominante' // busca no YouTube
+  },
+  {
+    id: 'fl104',                        // identificador único
+    materia: 'Filosofia',               // matéria
+    tema: 'Ética — Maquiavel',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"O Príncipe" de Maquiavel separa a política da moral ao dizer que:', // pergunta
+    alternativas: [                     // opções
+      'o príncipe deve ser bom', // opção
+      'o governante deve saber usar a virtù e a fortuna — ser bom quando puder, mau quando necessário: a eficácia política não segue a moral cristã', // correta
+      'a moral vence', // opção
+      'a política é justa', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Maquiavel funda a ciência política moderna: "O Príncipe" analisa o poder como é, não como deveria ser — a virtù (a habilidade do governante) enfrenta a fortuna (o acaso); o fim (a estabilidade do Estado) pode exigir meios "maus".', // explicação
+    dica: '"Maquiavélico" virou sinônimo de astuto — mas a obra é a análise fria do poder: a raposa (astúcia) e o leão (força), ser temido vs amado ("melhor ser temido, se não puder ser ambos"), a aparência da virtude. A política real ≠ a ideal.', // pegadinha
+    video: 'maquiavel príncipe virtù fortuna política' // busca no YouTube
+  },
+  {
+    id: 'so88',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Marx — mais-valia',          // assunto
+    nivel: 'dificil',                   // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na teoria marxista, a mais-valia corresponde a:', // pergunta
+    alternativas: [                     // opções
+      'o lucro honesto', // opção
+      'a diferença entre o que o trabalhador produz e o que recebe — o trabalho não pago é apropriado pelo capitalista: a exploração é a essência do lucro', // correta
+      'o salário', // opção
+      'o imposto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mais-valia = o trabalhador produz em 8h mais do que o seu salário de 4h de trabalho — as 4h "extras" são apropriadas pelo patrão como lucro. A exploração está na produção, não só no salário baixo.', // explicação
+    dica: 'A mais-valia explica o lucro capitalista para Marx: não é o "jeitinho" do comércio — é o trabalho não pago. A mais-valia absoluta (jornada mais longa) vs relativa (a produtividade aumenta a exploração em jornada igual) — a tecnologia aprofunda.', // pegadinha
+    video: 'mais-valia marx exploração trabalho lucro' // busca no YouTube
+  },
+  {
+    id: 'so89',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Movimentos sociais',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os "novos movimentos sociais" (ambientalismo, feminismo, direitos civis) diferem dos antigos porque:', // pergunta
+    alternativas: [                     // opções
+      'lutam por salário', // opção
+      'lutam por identidade e qualidade de vida — não só por classe/trabalho: o feminismo, o ambientalismo, o movimento negro e o LGBTQIA+ disputam reconhecimento', // correta
+      'são partidos', // opção
+      'são sindicatos', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Os "novos" movimentos (a partir dos anos 60) não são de classe: lutam por identidade, reconhecimento e modo de vida (feminismo, negro, ambiental, LGBTQIA+, indígena). Os "antigos" (sindicato, operário) lutavam por trabalho e renda.', // explicação
+    dica: 'A divisão: movimentos "de trabalho" (sindical, operário — distribuição de renda) vs "identitários/pós-materiais" (mulher, negro, ambiente, gênero — reconhecimento e valores). Hoje se cruzam: a interseccionalidade é o ponto de encontro.', // pegadinha
+    video: 'novos movimentos sociais identidade feminismo' // busca no YouTube
+  },
+  {
+    id: 'so90',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Sociologia do trabalho',     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "taylorismo" e o "fordismo" se complementam na produção porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'Taylor = a divisão e o tempo (o operário repete um gesto); Ford = a linha de montagem que o acelera — juntos, a alienação máxima da produção em série', // correta
+      'o fordismo é artesanal', // opção
+      'o taylorismo é criativo', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Taylorismo = a divisão extrema do trabalho (o operário só um gesto, cronometrado — a "organização científica"); Fordismo = a linha de montagem em movimento (o produto vem ao operário). Toyotismo é o flexível moderno.', // explicação
+    dica: 'Os três modelos: Taylor (divisão + cronômetro — o operário como peça), Ford (linha + consumo em massa — o operário também é consumidor), Toyota (enxuto, multifuncional — o operário pensa). O digital adiciona o uberizado.', // pegadinha
+    video: 'taylorismo fordismo toyotismo trabalho' // busca no YouTube
+  },
+  {
+    id: 'so91',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Dominação — Weber',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Max Weber classificou a dominação legítima em três tipos:', // pergunta
+    alternativas: [                     // opções
+      'força e medo', // opção
+      'tradicional (o costume e a herança — o rei), carismática (o líder excepcional — o profeta/revolucionário) e legal-racional (a lei e a burocracia)', // correta
+      'só a força', // opção
+      'só a lei', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Weber: a dominação só é estável se legítima (as pessoas obedecem por aceitar): tradicional (o costume — a monarquia hereditária), carismática (o líder "excepcional" — Hitler, o líder religioso) e legal-racional (a regra burocrática).', // explicação
+    dica: 'O poder legal-racional é o moderno — a burocracia manda porque o cargo manda (não a pessoa). O carismático é instável (morre com o líder — a "rotinização" do carisma o transforma em tradicional ou legal).', // pegadinha
+    video: 'dominação legítima weber tradicional carismática' // busca no YouTube
+  },
+  {
+    id: 'so92',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Anomia',                     // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A "anomia" de Durkheim é o estado de:', // pergunta
+    alternativas: [                     // opções
+      'ordem total', // opção
+      'ausência de norma — quando a regra social se dissolve (crise, mudança rápida), o indivíduo perde o referencial: a anomia explica o suicídio e a desorganização', // correta
+      'a ordem', // opção
+      'a liberdade', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anomia = a quebra das normas que regulam a vida — a crise econômica, a mudança brusca, o divórcio deixam o indivíduo sem o "limite" social. Durkheim ligou à taxa de suicídio: sem a regra que enquadra, o desejo fica insaciável.', // explicação
+    dica: 'A anomia não é liberdade — é o vácuo normativo que gera sofrimento. O suicídio anômico (o milionário que quebra, o divorciado) é o exemplo: a regra que regulava a vida desaparece. O oposto é o fatalismo (regulação excessiva).', // pegadinha
+    video: 'anomia durkheim norma social suicídio' // busca no YouTube
+  },
+  {
+    id: 'so93',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Goffman — estigma',          // assunto
+    nivel: 'medio',                     // dificuldade
+        ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "estigma" de Erving Goffman é:', // pergunta
+    alternativas: [                     // opções
+      'a honra', // opção
+      'o atributo que desqualifica socialmente o indivíduo — a marca (física, moral ou tribal) que faz os outros o tratarem como "menos normal": gerenciar o estigma é a vida social', // correta
+      'a beleza', // opção
+      'o crime', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Goffman ("Estigma", 1963): o estigma é o atributo que "estrag" a identidade social — a deficiência visível, a doença mental, a tatuagem, a raça, a orientação. A interação é administrada para esconder ou mostrar a marca.', // explicação
+    dica: 'Os três tipos de estigma: corporal (a deficiência), de caráter (o ex-presidiário, o adicto — a "falha moral" percebida) e tribal (raça, religião, nacionalidade). A "face" é a performance que salva a interação — a sociologia da vida cotidiana.', // pegadinha
+    video: 'estigma goffman identidade social marca' // busca no YouTube
+  },
+  {
+    id: 'so94',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Sociologia brasileira',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Florestan Fernandes e Octavio Ianni criticaram o "racismo à brasileira" mostrando que:', // pergunta
+    alternativas: [                     // opções
+      'não existe racismo', // opção
+      'a desigualdade racial é estrutural — o Brasil não é "democracia racial": o branco brasileiro discrimina sem assumir, e a "integração" é a máscara da exclusão', // correta
+      'o negro escolhe', // opção
+      'é igual aos EUA', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Florestan Fernandes e Ianni (USP, anos 50-60) desmontaram o mito da democracia racial: a integração do negro no mercado não apagou a hierarquia — o racismo brasileiro é "cordial" (sutil, não declarado) mas igualmente excludente.', // explicação
+    dica: 'O mito da "democracia racial" (Gilberto Freyre idealizou a miscigenação) foi refutado pela sociologia de São Paulo: o Brasil discrimina sem leis segregacionistas — a desigualdade é produzida pela estrutura, não pela lei. O racismo cordial se esconde.', // pegadinha
+    video: 'florestan fernandes democracia racial racismo' // busca no YouTube
+  },
+  {
+    id: 'so95',                         // identificador único
+    materia: 'Sociologia',              // matéria
+    tema: 'Redes sociais — sociedade',  // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "filtro-bolha" (filter bubble) das redes sociais é:', // pergunta
+    alternativas: [                     // opções
+      'a privacidade', // opção
+      'a câmara de eco algorítmica — o algoritmo entrega só o que o usuário já concorda: reforça a crença, isola do contraditório e radicaliza', // correta
+      'a propaganda', // opção
+      'o anúncio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Filtro-bolha = o algoritmo que personaliza o feed aprende o que o usuário gosta e entrega mais disso — a câmara de eco: só se vê o que confirma a crença. A polarização política se radicaliza — não se encontra a opinião contrária.', // explicação
+    dica: 'A bolha é a curadoria invisível: o usuário não escolhe, o algoritmo escolhe por ele. O resultado: cada um vive num "mundo" diferente — a polarização cresce porque o contraditório some. A saída exige busca ativa por fontes divergentes.', // pegadinha
+    video: 'filtro bolha algoritmo rede social polarização' // busca no YouTube
+  },
+  {
+    id: 'b94',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Genética — hereditariedade', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Num cruzamento Aa × Aa (dois heterozigotos), a proporção fenotípica esperada é:', // pergunta
+    alternativas: [                     // opções
+      '1:1', // opção
+      '3:1 — 1 AA + 2 Aa (fenótipo dominante = 3/4) para 1 aa (recessivo = 1/4); a lei de Mendel na monoibridação', // correta
+      '1:2:1', // opção
+      'todos iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aa × Aa → AA, Aa, Aa, aa: fenótipo 3:1 (o dominante aparece em 75%). Genótipo 1:2:1. A 1ª lei de Mendel (segregação dos fatores) produz essa proporção clássica do quadrado de Punnett.', // explicação
+    dica: 'A proporção 3:1 é o fenótipo; 1:2:1 é o genótipo (AA, Aa, aa — três combinações diferentes). A 9:3:3:1 é a do di-híbrido (2ª lei — dois genes independentes). A probabilidade em genética é como o dado — cada filho é um sorteio independente.', // pegadinha
+    video: 'mendel cruzamento heterozigoto 3:1 punnett' // busca no YouTube
+  },
+  {
+    id: 'b95',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Fotossíntese vs respiração', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A fotossíntese e a respiração celular são processos:', // pergunta
+    alternativas: [                     // opções
+      'iguais', // opção
+      'opostos e complementares — a fotossíntese usa CO₂ e luz para produzir glicose+O₂; a respiração usa glicose+O₂ para liberar energia, CO₂ e água', // correta
+      'só na planta', // opção
+      'só no animal', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Fotossíntese (cloroplasto — só quem tem clorofila): 6CO₂+6H₂O+luz → C₆H₁₂O₆+6O₂ (armazena energia); respiração (mitocôndria — todos): glicose+O₂ → CO₂+H₂O+ATP (libera energia). A planta respira e fotossintetiza.', // explicação
+    dica: 'A planta RESPIRA também (a mitocôndria está na planta e no animal) — a fotossíntese é exclusiva dela. À noite sem luz, a planta só respira (consome O₂). O equilíbrio ecológico: a fotossíntese "limpa" o CO₂ que a respiração produz.', // pegadinha
+    video: 'fotossíntese respiração celular diferença' // busca no YouTube
+  },
+  {
+    id: 'b96',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Evolução — seleção natural', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A seleção natural de Darwin se resume a:', // pergunta
+    alternativas: [                     // opções
+      'o mais forte', // opção
+      'a variante mais apta ao ambiente sobrevive e reproduz mais — não é o mais forte, é o mais adaptado: a característica vantajosa se fixa na população', // correta
+      'o mais rápido', // opção
+      'o mais inteligente', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Seleção natural: a variação hereditária + a pressão do ambiente = a sobrevivência diferencial. Quem se adapta melhor deixa mais descendentes — a característica vantajosa se propaga. A evolução é a mudança da população, não do indivíduo.', // explicação
+    dica: '"Sobrevivência do mais apto" não é o mais forte — é o mais adaptado ao ambiente específico (o inseto mímico, o camuflado). A evolução não tem "objetivo" — é a seleção cega. Lamarck (uso/desuso transmite) foi superado por Darwin (variação + seleção).', // pegadinha
+    video: 'seleção natural darwin adaptação evolução' // busca no YouTube
+  },
+  {
+    id: 'b97',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Ecologia — cadeia',          // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na cadeia alimentar, os decompositores (fungos e bactérias) fazem:', // pergunta
+    alternativas: [                     // opções
+      'consomem só', // opção
+      'reciclam a matéria — decompõem o organismo morto e devolvem o nutriente ao solo para o produtor reabsorver: fecham o ciclo da matéria', // correta
+      'produzem luz', // opção
+      'são predadores', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'A cadeia: produtor (planta — fotossíntese) → consumidor primário (herbívoro) → secundário (carnívoro) → decompositor (fungo/bactéria — recicla o nutriente). Sem decompositor, a matéria morta se acumularia e o ciclo pararia.', // explicação
+    dica: 'Produtor (autótrofo — faz a comida), consumidor (heterótrofo — come), decompositor (recicla). O fluxo de energia é unidirecional (~10% passa de nível); a matéria (carbono, nitrogênio) recicla — o decompositor é o elo do ciclo.', // pegadinha
+    video: 'decompositor cadeia alimentar reciclagem' // busca no YouTube
+  },
+  {
+    id: 'b98',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Vírus — características',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Diferentemente da bactéria, o vírus:', // pergunta
+    alternativas: [                     // opções
+      'é vivo', // opção
+      'não é célula — é um parasita obrigatório que só replica dentro da célula do hospedeiro; não tem metabolismo próprio e não é afetado por antibiótico', // correta
+      'é maior', // opção
+      'é planta', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Vírus = acelular (não é célula — só genoma + capsídeo), parasita intracelular obrigatório (só replica dentro da célula), não responde a antibiótico. A bactéria é célula procariótica viva — o antibiótico funciona contra ela.', // explicação
+    dica: 'Antibiótico só mata bactéria — para o vírus não funciona (tomar antibiótico para gripe é inútil e cria resistência). A vacina antiviral treina o sistema imune; o antiviral remédio bloqueia a replicação. A fronteira "vivo ou não" do vírus é debatida.', // pegadinha
+    video: 'vírus bactéria diferença antibiótico' // busca no YouTube
+  },
+  {
+    id: 'b99',                          // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Célula — organelas',         // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A mitocôndria é a organela da:', // pergunta
+    alternativas: [                     // opções
+      'fotossíntese', // opção
+      'respiração celular — produz o ATP (a energia) pela oxidação da glicose; o cloroplasto faz a fotossíntese (só na planta) e o ribossomo fabrica proteína', // correta
+      'digestão', // opção
+      'reprodução', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mitocôndria = a usina da célula: respiração celular (glicose+O₂ → ATP). Ribossomo = proteína; retículo = transporte; Golgi = empacota/excreta; lisossomo = digestão interna; cloroplasto = fotossíntese (só na planta).', // explicação
+    dica: 'A mitocôndria tem DNA próprio (a teoria endossimbiótica — era uma bactéria engolida). A herança mitocondrial é só da mãe (o óvulo fornece todas — o espermatozoide não contribui). O músculo tem muita mitocôndria pela demanda de energia.', // pegadinha
+    video: 'mitocôndria organela energia atp célula' // busca no YouTube
+  },
+  {
+    id: 'b100',                         // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Ecossistema — biomas',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O Pantanal, maior planície alagada do mundo, se caracteriza por:', // pergunta
+    alternativas: [                     // opções
+      'ser deserto', // opção
+      'a inundação sazonal — a água sobe na chuva e recua na seca: o ciclo de cheia-vazante cria a maior concentração de vida selvagem das Américas', // correta
+      'a mata fechada', // opção
+      'o clima frio', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Pantanal = a planície de inundação sazonal (MS/MT + Bolívia/Paraguai): as cheias e vazantes criam o ciclo — a fauna se concentra na seca (a observação de onça, arara, capivara é a melhor do continente). O menor bioma brasileiro em área.', // explicação
+    dica: 'O Pantanal é o bioma da água que vai e volta — a cheia transforma a paisagem e a seca concentra os animais (a janela da onça). O fogo e o agronegócio de soja no entorno são as ameaças. É patrimônio da UNESCO e reserva da biosfera.', // pegadinha
+    video: 'pantanal inundação sazonal onça bioma' // busca no YouTube
+  },
+  {
+    id: 'b101',                         // identificador único
+    materia: 'Biologia',                // matéria
+    tema: 'Sangue — tipos',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O tipo sanguíneo "O negativo" é chamado "doador universal" porque:', // pergunta
+    alternativas: [                     // opções
+      'recebe tudo', // opção
+      'não tem antígeno A, B nem Rh — não provoca reação em nenhum receptor: pode doar para todos; mas só recebe de O−', // correta
+      'é o mais comum', // opção
+      'é o mais raro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O− = sem antígeno A, B e Rh → doa para todos (doador universal). AB+ = tem todos os antígenos → recebe de todos (receptor universal). A incompatibilidade causa a aglutinação — a reação fatal da hemácia.', // explicação
+    dica: 'O− doa para todos mas só recebe de O− (o mais "altruísta" e o mais "carente"); AB+ recebe de todos mas só doa para AB+ (o "egoísta" do sangue). O Rh− da mãe com feto Rh+ causa a eritroblastose fetal na segunda gravidez.', // pegadinha
+    video: 'tipo sanguíneo o negativo doador universal' // busca no YouTube
+  },
 ];
