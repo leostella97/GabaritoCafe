@@ -50048,4 +50048,631 @@ const BancoQuestoes = [
     dica: 'Os 4 tipos de suicídio: egoísta (integração fraca — sem vínculo), altruísta (integração excessiva — sacrifício pelo grupo), anômico (regulação quebrada — crise econômica, divórcio) e fatalista (regulação excessiva — escravo, prisioneiro).', // pegadinha
     video: 'suicídio durkheim fato social integração' // busca no YouTube
   },
+  {
+    id: 'p88',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Sintaxe — aposto e vocativo', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Em "João, meu amigo, chegou", a expressão "meu amigo" é:', // pergunta
+    alternativas: [                     // opções
+      'vocative', // opção
+      'aposto — explica/identifica o termo anterior (João) entre vírgulas; o vocativo seria a chamada direta ("João, venha aqui")', // correta
+      'adjective', // opção
+      'predicate', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Aposto = termo que explica, resume ou especifica outro (entre vírgulas quando explicativo): "João, meu amigo, chegou". Vocativo = a invocação/chamamento: "Meu amigo, venha!". Aposto nomeia, vocativo chama.', // explicação
+    dica: 'Aposto explicativo = entre vírgulas e pode remover sem quebrar a frase ("São Paulo, cidade grande, cresce"); vocativo = quem se chama/interpela ("Amigo, escute"). Aposto especificativo não tem vírgula ("O poeta Carlos Drummond").', // pegadinha
+    video: 'aposto vocativo diferença sintaxe vírgula' // busca no YouTube
+  },
+  {
+    id: 'p89',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Regência — verbos',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O verbo "assistir" no sentido de "ver/presenciar" pede:', // pergunta
+    alternativas: [                     // opções
+      'objeto direto', // opção
+      'a preposição "a" — assistir AO filme/jogo/aula; "assistir" sem preposição significa ajudar ("assistir o necessitado")', // correta
+      'nada', // opção
+      'a preposição de', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Assistir = VTI com "a" quando é ver/presenciar (assistir ao filme); VTD quando é ajudar/amparar (assistir o doente); VI quando é morar (assistir em Lisboa — formal). A mudança de regência muda o sentido.', // explicação
+    dica: 'Trinca clássica: assistir ao (ver) vs assistir (ajudar); visar a (almejar) vs visar (rubricar); implicar em (acarretar) vs implicar com (implicar = ter implicância); proceder a (realizar) vs proceder (ter procedência).', // pegadinha
+    video: 'assistir regência verbo ajudar ver' // busca no YouTube
+  },
+  {
+    id: 'p90',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Ortografia — hífen',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Pelo Novo Acordo Ortográfico, a forma correta é:', // pergunta
+    alternativas: [                     // opções
+      'micro-ondas com hífen', // opção
+      'micro-ondas mantém hífen (prefixo + vogal idêntica = hífen); "antirracista" perde o hífen (prefixo + r/s dobra a letra: antirracista)', // correta
+      'microondas junto', // opção
+      'micro ondas separado', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regra do hífen (Acordo 2009): prefixo + mesma letra = hífen (micro-ondas, anti-inflamatório); prefixo + letra diferente = junta (antirracista, autorretrato, minissaia); prefixo + h = hífen (anti-higiênico).', // explicação
+    dica: 'As exceções: "bem-vindo" (bem- sempre tem hífen), "mau-humorado" (mau- hífen antes de vogal), palavras com r/s duplicam (antirracista, antisséptico) e prefixo + h mantém hífen (anti-herói, co-herdeiro).', // pegadinha
+    video: 'hífen novo acordo ortográfico regras' // busca no YouTube
+  },
+  {
+    id: 'p91',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Coesão — anáfora',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na frase "O cão latiu. Ele estava nervoso", "ele" é elemento de coesão:', // pergunta
+    alternativas: [                     // opções
+      'catafórica', // opção
+      'anafórica — retoma o referente já mencionado ("o cão"); a catáfora antecipa o referente ainda não dito ("Isto é grave: a crise")', // correta
+      'deítica', // opção
+      'lexical', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Anáfora = retomada do já dito (o pronome aponta para trás no texto); catáfora = antecipação do que virá (aponta para frente); déixis = referência ao contexto situacional ("aqui", "agora", "eu" — depende do falante).', // explicação
+    dica: 'Mnemônico: ANÁfora = ANterior (aponta para trás); catÁfora = Adiante (aponta para frente). A prova cobra "a que se refere o pronome" — retorne ao texto e identifique o referente, não o pronome mais próximo.', // pegadinha
+    video: 'anáfora catáfora coesão referencial' // busca no YouTube
+  },
+  {
+    id: 'p92',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Sintaxe — concordância verbal', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Em "Existem muitos problemas" e "Havia três alunos", os verbos:', // pergunta
+    alternativas: [                     // opções
+      'os dois impessoais', // opção
+      '"existir" é pessoal e concorda (existem muitos); "haver" existencial é impessoal e fica na 3ª do singular (havia três)', // correta
+      'os dois pessoais', // opção
+      'são iguais', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Haver no sentido de existir = impessoal (sem sujeito — "havia problemas", nunca "haviam"); existir é pessoal (concorda — "existiam problemas"). Haver impessoal contamina o auxiliar: "deve haver soluções".', // explicação
+    dica: 'A pegadinha é o auxiliar: haver impessoal transmite a impessoalidade — "deve HAVER soluções" (não "devem haver"), "vai HAVER mudanças". Mas "existir" auxiliar concorda: "devem existir soluções".', // pegadinha
+    video: 'haver existir impessoal concordância' // busca no YouTube
+  },
+  {
+    id: 'p93',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Morfologia — conjunções',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Estudei, contudo não passei" — "contudo" é conjunção:', // pergunta
+    alternativas: [                     // opções
+      'causal', // opção
+      'adversativa — introduz oposição/contraste (mas, porém, contudo, entretanto, todavia, no entanto); causal seria porque/pois/já que', // correta
+      'consecutiva', // opção
+      'final', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Adversativa = oposição (mas, porém, contudo, entretanto, no entanto); consecutiva = consequência (logo, portanto, assim); causal = causa (porque, pois, já que); concessiva = concessão sem impedir (embora, ainda que).', // explicação
+    dica: 'Adversativa vs concessiva é a pegadinha: "Estudei, mas não passei" (adversativa — quebra expectativa) vs "Embora tenha estudado, não passei" (concessiva — o obstáculo não impediu). O sentido lógico muda.', // pegadinha
+    video: 'conjunção adversativa contudo concessiva' // busca no YouTube
+  },
+  {
+    id: 'p94',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Semântica — sentido figurado', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Em "Omar é um leão nos negócios", o sentido de "leão" é:', // pergunta
+    alternativas: [                     // opções
+      'denotativo', // opção
+      'conotativo — o sentido figurado (bravo, destemido); denotação é o sentido literal/dicionário (o animal selvagem)', // correta
+      'literal', // opção
+      'técnico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Denotação = sentido literal, de dicionário (leão = animal); conotação = sentido figurado, de contexto (leão = valente). A conotação amplia o significado pela associação — é o recurso da poesia e da publicidade.', // explicação
+    dica: 'Denotação = dicionário (objetivo, comum a todos); conotação = contexto (subjetivo, depende da interpretação). "Coração" denotativo = órgão; conotativo = amor/coragem. A prova cobra a diferença e a metáfora.', // pegadinha
+    video: 'denotação conotação sentido figurado' // busca no YouTube
+  },
+  {
+    id: 'p95',                          // identificador único
+    materia: 'Língua Portuguesa',       // matéria
+    tema: 'Gêneros — artigo de opinião', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O artigo de opinião difere da notícia porque:', // pergunta
+    alternativas: [                     // opções
+      'é objetivo', // opção
+      'defende uma tese — texto argumentativo assinado em que o autor posiciona-se e persuade; a notícia é objetiva e factual (o "quem/o quê/quando/onde")', // correta
+      'são iguais', // opção
+      'não tem autor', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Artigo de opinião = argumentativo (tese + argumentos + conclusão — o autor convence); notícia = informativa (fato objetivo, pirâmide invertida — o essencial no lead). O editorial é a opinião do jornal (não assinada).', // explicação
+    dica: 'Artigo de opinião = assinado e pessoal; editorial = a posição institucional do veículo (sem assinatura); carta do leitor/comentário = opinião do público; crônica = texto literário do cotidiano. A prova cobra o gênero pela função.', // pegadinha
+    video: 'artigo opinião editorial notícia gênero' // busca no YouTube
+  },
+  {
+    id: 'm86',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Funções — afim',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na função f(x) = 3x + 5, o valor de f(4) é:', // pergunta
+    alternativas: [                     // opções
+      '12', // opção
+      '17 — substitui x por 4: 3·4 + 5 = 12 + 5 = 17; o coeficiente 3 é a inclinação e o 5 é onde a reta corta o eixo y', // correta
+      '15', // opção
+      '20', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Função afim f(x) = ax + b: a = taxa de variação (inclinação), b = valor inicial (intercepta o eixo y). f(4) = 3·4+5 = 17. Se a>0 cresce, a<0 decresce, a=0 é constante.', // explicação
+    dica: 'O "a" da reta mede a inclinação: a>0 sobe, a<0 desce, |a| grande = reta íngreme. O "b" é onde a reta corta o eixo vertical (x=0). O zero da função é x = -b/a — onde cruza o eixo horizontal.', // pegadinha
+    video: 'função afim primeiro grau coeficiente' // busca no YouTube
+  },
+  {
+    id: 'm87',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Geometria — círculo',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A área de um círculo de raio 3 é:', // pergunta
+    alternativas: [                     // opções
+      '6π', // opção
+      '9π — área = π·r² = π·3² = 9π ≈ 28,3 unidades; o perímetro (circunferência) seria 2πr = 6π', // correta
+      '3π', // opção
+      '12π', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Área do círculo = πr² (com r=3: 9π); circunferência (perímetro) = 2πr (com r=3: 6π). A confusão área/perímetro é a pegadinha: área usa r², perímetro usa r.', // explicação
+    dica: 'Setor circular = fatia da pizza: área do setor = (ângulo/360)·πr²; arco = (ângulo/360)·2πr. A coroa circular = R²−r² vezes π. O setor e a coroa são as figuras compostas favoritas da prova.', // pegadinha
+    video: 'área círculo pi raio quadrado' // busca no YouTube
+  },
+  {
+    id: 'm88',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Equações — sistemas',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Se x + y = 10 e x − y = 2, então x vale:', // pergunta
+    alternativas: [                     // opções
+      '4', // opção
+      '6 — somando as equações: 2x = 12 → x = 6; e y = 10−6 = 4. O método da adição elimina uma incógnita somando as equações', // correta
+      '8', // opção
+      '5', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Sistema linear por adição: soma as equações (elimina y) → 2x = 12 → x = 6; substitui → y = 4. Verifica: 6+4=10 ✓ e 6−4=2 ✓.', // explicação
+    dica: 'Os três métodos: adição (soma para cancelar), substituição (isola uma letra e coloca na outra), comparação. Se as equações forem proporcionais (x+y=10 e 2x+2y=20), o sistema tem infinitas soluções; se contraditórias, nenhuma.', // pegadinha
+    video: 'sistema equações adição substituição' // busca no YouTube
+  },
+  {
+    id: 'm89',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Média — ponderada',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Um aluno tirou 6 (peso 2) e 9 (peso 3). A média ponderada é:', // pergunta
+    alternativas: [                     // opções
+      '7,5', // opção
+      '7,8 — (6·2 + 9·3)/(2+3) = (12+27)/5 = 39/5 = 7,8; a média ponderada aproxima o resultado da nota com mais peso', // correta
+      '8', // opção
+      '7', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Média ponderada = Σ(valor×peso)/Σpesos: (6·2+9·3)/5 = 7,8. A nota 9 pesa mais, então a média "puxa" para cima da simples (7,5). É a média de concursos e faculdades.', // explicação
+    dica: 'O peso alto "atrai" a média para perto dele. Para aprovação com média 7: se a prova peso 2 foi 5, a peso 3 precisa compensar. A média harmônica (velocidade média) e a geométrica (crescimento) são as outras médias.', // pegadinha
+    video: 'média ponderada peso notas cálculo' // busca no YouTube
+  },
+  {
+    id: 'm90',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Juros — montante',           // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'R$ 1.000 a juros SIMPLES de 2% ao mês por 6 meses rende:', // pergunta
+    alternativas: [                     // opções
+      'R$ 112,62', // opção
+      'R$ 120 — juro simples: J = C·i·t = 1000·0,02·6 = 120; o montante = 1.120. Composto daria ~1.126,16 (exponencial)', // correta
+      'R$ 60', // opção
+      'R$ 200', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Juros simples: J = C·i·t (juro só sobre o capital — linear): 1000·0,02·6 = 120. Juros compostos: M = C·(1+i)ᵗ = 1000·1,02⁶ ≈ 1126 — o juro incide sobre juro (exponencial).', // explicação
+    dica: 'Simples = linear (J = C·i·t — a conta de luz e o cheque especial curto usam); composto = exponencial (M = C(1+i)ᵗ — investimento, financiamento, cartão). A diferença explode com o tempo.', // pegadinha
+    video: 'juros simples composto montante fórmula' // busca no YouTube
+  },
+  {
+    id: 'm91',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Probabilidade — eventos',    // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Num baralho de 52 cartas, a probabilidade de tirar um rei é:', // pergunta
+    alternativas: [                     // opções
+      '1/4', // opção
+      '4/52 = 1/13 — o baralho tem 4 reis (um por naipe) entre 52 cartas; P = casos favoráveis/casos possíveis', // correta
+      '1/13 da metade', // opção
+      '1/52', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'P = favoráveis/total: 4 reis / 52 cartas = 1/13 ≈ 7,7%. O baralho padrão: 4 naipes (copas, ouros, espadas, paus) × 13 cartas. "Sem reposição" muda a probabilidade da próxima carta.', // explicação
+    dica: 'Baralho: 52 = 4 naipes × 13 (A,2-10,J,Q,K). P(A ou B exclusivos) = P(A)+P(B); P(A e B independentes) = P(A)·P(B). "Pelo menos um" = 1 − P(nenhum) — o complemento resolve mais rápido.', // pegadinha
+    video: 'probabilidade baralho cartas rei' // busca no YouTube
+  },
+  {
+    id: 'm92',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Razão — proporção',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Se 4 impressoras produzem 600 páginas em 2h, 6 impressoras produzem em 3h:', // pergunta
+    alternativas: [                     // opções
+      '600 páginas', // opção
+      '1.350 páginas — proporcional dupla: 600 × (6/4) × (3/2) = 600 × 1,5 × 1,5 = 1.350', // correta
+      '900 páginas', // opção
+      '1.200 páginas', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Regra de três composta — ambas as grandezas são diretas: mais impressoras = mais páginas, mais tempo = mais páginas. 600 × 6/4 × 3/2 = 1.350.', // explicação
+    dica: 'Direta = cruza em linha reta (multiplica); inversa = cruza em X (inverte a razão). Mais impressoras = mais páginas (direta); mais trabalhadores = menos dias (inversa). Identifique cada relação antes de montar.', // pegadinha
+    video: 'regra três composta proporção direta' // busca no YouTube
+  },
+  {
+    id: 'm93',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Geometria espacial — volume', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O volume de uma esfera de raio 3 é:', // pergunta
+    alternativas: [                     // opções
+      '36π', // opção
+      '36π — V = (4/3)·π·r³ = (4/3)·π·27 = 36π unidades³; a superfície é 4πr² = 36π (coincidência numérica clássica)', // correta
+      '27π', // opção
+      '12π', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Volume da esfera = (4/3)πr³; área da superfície = 4πr². Com r=3: V = (4/3)·π·27 = 36π; A = 4π·9 = 36π. A coincidência numérica entre volume e área com r=3 é o truque da questão.', // explicação
+    dica: 'Cilindro = πr²h; cone = πr²h/3 (um terço do cilindro); esfera = 4πr³/3. O tronco e a composição (cilindro+cone, esfera+cone) são os sólidos compostos favoritos — some os volumes parciais.', // pegadinha
+    video: 'volume esfera 4 terços pi r cubo' // busca no YouTube
+  },
+  {
+    id: 'm94',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Equação — 2º grau',          // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Resolvendo a equação x² − 5x + 6 = 0, obtêm-se as raízes:', // pergunta
+    alternativas: [                     // opções
+      '1 e 6', // opção
+      '2 e 3 — por soma e produto: soma = 5 (= −b/a), produto = 6 (= c/a); os números 2 e 3 somam 5 e multiplicam 6', // correta
+      '−2 e −3', // opção
+      '5 e 1', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Soma e produto: raízes com soma −b/a e produto c/a. 2+3 = 5 e 2·3 = 6 ✓. Bhaskara: Δ = 25−24 = 1; x = (5±1)/2 = 3 e 2. O vértice está em x = 2,5.', // explicação
+    dica: 'Δ = b²−4ac: Δ>0 duas raízes reais distintas; Δ=0 uma raiz dupla; Δ<0 sem raiz real. Se a+b+c=0, uma raiz é sempre 1. O vértice x_v = −b/2a é o ponto de mínimo (a>0) ou máximo (a<0).', // pegadinha
+    video: 'equação segundo grau bhaskara raízes' // busca no YouTube
+  },
+  {
+    id: 'm95',                          // identificador único
+    materia: 'Matemática',              // matéria
+    tema: 'Logaritmos',                 // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O valor de log₂ 32 é:', // pergunta
+    alternativas: [                     // opções
+      '4', // opção
+      '5 — log₂ 32 = x significa 2ˣ = 32 = 2⁵, então x = 5; o logaritmo pergunta "a que potência elevo a base para obter o número?"', // correta
+      '6', // opção
+      '16', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'log_b a = x ⇔ bˣ = a. log₂ 32: 2ˣ = 32 → x = 5. Propriedades: log(a·b) = log a + log b; log(a/b) = log a − log b; log aⁿ = n·log a.', // explicação
+    dica: 'O log transforma multiplicação em soma e potência em produto — é a ferramenta que "desce o expoente". log₁₀ 1000 = 3; ln e = 1; log_b 1 = 0 sempre (qualquer número⁰ = 1); log_b b = 1.', // pegadinha
+    video: 'logaritmo definição propriedades' // busca no YouTube
+  },
+  {
+    id: 'r85',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Proposições — negação',      // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A negação de "todo aluno passou" é:', // pergunta
+    alternativas: [                     // opções
+      'nenhum aluno passou', // opção
+      'pelo menos um aluno NÃO passou — a negação de "todo" é "existe um que não" (não é "nenhum"); negar a universal basta um contraexemplo', // correta
+      'todos reprovaram', // opção
+      'alguns passaram', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Negação de quantificadores: ¬(todo A é B) = existe A que não é B; ¬(existe A que é B) = nenhum A é B. Para quebrar "todo", basta um contraexemplo — não é preciso nenhum passar.', // explicação
+    dica: 'Tabela: ¬"todo" = "algum não/existe um que não"; ¬"nenhum" = "algum"; ¬"algum" = "nenhum"; ¬"algum não" = "todo". A pegadinha é trocar "todo" por "nenhum" — a negação correta é só o contraexemplo.', // pegadinha
+    video: 'negação todo quantificador lógica' // busca no YouTube
+  },
+  {
+    id: 'r86',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Condicional — equivalências', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A equivalente de "se chove, então fico em casa" é:', // pergunta
+    alternativas: [                     // opções
+      'se fico, então chove', // opção
+      'se NÃO fiquei em casa, então NÃO choveu — a contrapositiva (inverte e nega os dois) é equivalente à condicional original', // correta
+      'se não chove, saio', // opção
+      'chove e fico', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Contrapositiva: p→q ≡ ¬q→¬p — inverte a ordem e nega as duas partes. "Se chove, fico" ≡ "se não fiquei, não choveu". As outras (recíproca, inversa) não são equivalentes.', // explicação
+    dica: 'p→q tem três "vizinhas": contrapositiva ¬q→¬p (equivalente ✓), recíproca q→p (falácia) e inversa ¬p→¬q (falácia). "Se estudei, passei" ≠ "se não estudei, não passei" — posso passar de outras formas.', // pegadinha
+    video: 'contrapositiva equivalência condicional' // busca no YouTube
+  },
+  {
+    id: 'r87',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Verdades e mentiras',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Três suspeitos: A diz "B é culpado"; B diz "C é culpado"; C diz "A é culpado". Se só um diz a verdade e há um culpado, quem é?', // pergunta
+    alternativas: [                     // opções
+      'A', // opção
+      'C — se B diz a verdade, C é culpado; aí A mente (B não é culpado ✓) e C mente (A não é culpado ✓): só uma verdadeira', // correta
+      'B', // opção
+      'nenhum', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Testa cada hipótese: se A verdade → B culpado, mas C diz "A culpado" (falso ✓), B diz "C culpado" (falso — B é) — duas falsas ok, mas A verdade... verificando: só "B verdade/C culpado" fecha com uma única verdade.', // explicação
+    dica: 'O método é a tentativa e verificação: assume cada falante como o verdadeiro e testa se o resto fecha. Se contradição, descarta. O culpado é quem torna consistente o cenário — nunca chute, teste.', // pegadinha
+    video: 'verdades mentiras lógica teste hipótese' // busca no YouTube
+  },
+  {
+    id: 'r88',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Sequências — padrão',        // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Na sequência 2, 6, 12, 20, 30, ... o próximo termo é:', // pergunta
+    alternativas: [                     // opções
+      '40', // opção
+      '42 — as diferenças crescem: +4, +6, +8, +10, +12 → 30+12 = 42; a fórmula é n(n+1): 1·2, 2·3, 3·4, 4·5, 5·6, 6·7', // correta
+      '36', // opção
+      '38', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diferenças de 2º grau: +4, +6, +8, +10, +12 — o incremento cresce de 2 em 2. O termo é n(n+1): 6·7 = 42. Quando a primeira diferença não é constante, calcule a segunda diferença.', // explicação
+    dica: 'Estratégia de sequência: 1) verifique as diferenças entre termos; 2) se não constantes, calcule a segunda diferença; 3) se alternado, separe as posições ímpares/pares; 4) teste a razão (geometria). n(n+1), n², Fibonacci são os clássicos.', // pegadinha
+    video: 'sequência lógica diferenças padrão' // busca no YouTube
+  },
+  {
+    id: 'r89',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Conjuntos — inclusão',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Numa turma, 20 alunos praticam natação, 15 futebol e 8 os dois. Os que praticam só natação são:', // pergunta
+    alternativas: [                     // opções
+      '20', // opção
+      '12 — só natação = natação − interseção = 20 − 8 = 12; a interseção já está dentro dos 20', // correta
+      '8', // opção
+      '15', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Diagrama de Venn: só A = A − (A∩B) = 20−8 = 12; só B = 15−8 = 7; ambos = 8; total = 12+7+8 = 27 alunos (se todos praticam algo). A união A∪B = 20+15−8 = 27.', // explicação
+    dica: 'A união NÃO é A+B — conta a interseção duas vezes, então subtrai uma: |A∪B| = |A|+|B|−|A∩B|. Comece sempre pelo centro (interseção) e subtraia para as bordas.', // pegadinha
+    video: 'conjuntos venn interseção união' // busca no YouTube
+  },
+  {
+    id: 'r90',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Arranjo — permutação',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'De quantas formas 5 pessoas podem se sentar numa fila de cinema?', // pergunta
+    alternativas: [                     // opções
+      '25', // opção
+      '120 — permutação de 5: 5! = 5·4·3·2·1 = 120; cada posição da fila é escolha que reduz uma opção', // correta
+      '10', // opção
+      '60', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Permutação simples P(n) = n! — ordenar n elementos: 5! = 120. A ordem importa (fila, pódio, senha), então é permutação ou arranjo, não combinação.', // explicação
+    dica: 'Permutação (ordem importa — fila, senha): n!. Combinação (ordem não importa — grupo, comissão): C(n,p) = n!/(p!(n−p)!). Arranjo (ordem importa, subconjunto): A(n,p) = n!/(n−p)!. Circular: (n−1)!.', // pegadinha
+    video: 'permutação fatorial fila arranjo' // busca no YouTube
+  },
+  {
+    id: 'r91',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Silogismo — validade',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: '"Todo gato é mamífero. Tom é gato." A conclusão válida é:', // pergunta
+    alternativas: [                     // opções
+      'Tom pode ser mamífero', // opção
+      'Tom é mamífero — silogismo perfeito: se todo gato está dentro do conjunto dos mamíferos e Tom está no conjunto dos gatos, Tom está no dos mamíferos', // correta
+      'Todo mamífero é gato', // opção
+      'Tom não é gato', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Silogismo categórico: todo A é B; x é A; logo x é B. Diagrama de conjuntos resolve: o conjunto "gatos" está inteiro dentro de "mamíferos"; Tom dentro de gatos = dentro de mamíferos.', // explicação
+    dica: 'O erro clássico é a recíproca: "todo gato é mamífero" NÃO significa "todo mamífero é gato". O conjunto maior contém o menor, nunca o contrário. No diagrama, o particular entra onde a universal manda.', // pegadinha
+    video: 'silogismo todo conclusão venn lógica' // busca no YouTube
+  },
+  {
+    id: 'r92',                          // identificador único
+    materia: 'Raciocínio Lógico',       // matéria
+    tema: 'Tabela-verdade — conectivos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A proposição "p ou q" (disjunção inclusiva) só é falsa quando:', // pergunta
+    alternativas: [                     // opções
+      'p é falsa', // opção
+      'p E q são falsas — a disjunção inclusiva "ou" é falsa apenas se ambas as partes forem falsas; basta uma verdadeira para ser verdade', // correta
+      'q é falsa', // opção
+      'as duas verdadeiras', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Disjunção inclusiva (p∨q): falsa só quando ambas falsas — "chove ou faz sol" é falso só se não chove e não faz sol. O "ou exclusivo" (ou...ou) é verdade só quando as partes são diferentes.', // explicação
+    dica: 'Resumo: E só verdade se ambas verdadeiras; OU só falso se ambas falsas; SE...ENTÃO só falso se V→F ("Vera Fischer é Falsa"); XOR falso se iguais; bicondicional verdade se iguais.', // pegadinha
+    video: 'disjunção ou tabela verdade conectivos' // busca no YouTube
+  },
+  {
+    id: 'i80',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Sistema operacional — processos', // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O "escalonador" (scheduler) do sistema operacional decide:', // pergunta
+    alternativas: [                     // opções
+      'o que deletar', // opção
+      'qual processo usa a CPU em cada momento — distribui o tempo do processador entre os programas: round-robin, prioridade, fila múltipla', // correta
+      'a senha', // opção
+      'o vírus', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'O scheduler do SO gerencia a fila de processos para a CPU: round-robin (fatias de tempo), prioridade (importante primeiro), fila múltipla. É o que permite "multitarefa" — a CPU alterna rápido entre programas.', // explicação
+    dica: 'Estados do processo: pronto → executando → bloqueado (espera E/S). O escalonador faz a troca de contexto (salva/restaura o estado) — é o custo da multitarefa. O deadlock ocorre quando processos se bloqueiam em ciclo.', // pegadinha
+    video: 'escalonador scheduler processo cpu so' // busca no YouTube
+  },
+  {
+    id: 'i81',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Redes — protocolos',         // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Os protocolos HTTP e HTTPS diferem porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o HTTPS é o HTTP com criptografia TLS/SSL — os dados trafegam cifrados (o cadeado); o HTTP puro envia em texto claro', // correta
+      'o HTTPS é mais lento só', // opção
+      'o HTTP é seguro', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'HTTP = protocolo de páginas web (porta 80) sem criptografia — qualquer um na rede lê. HTTPS = HTTP + TLS (porta 443) — cifra o tráfego com certificado; o cadeado garante confidencialidade e autenticidade.', // explicação
+    dica: 'Portas clássicas: HTTP=80, HTTPS=443, FTP=21, SSH=22, SMTP=25 (envio), DNS=53. O "S" é o TLS (ex-SSL) — confidencialidade (cifra) + integridade + autenticação (o certificado prova que é o site mesmo).', // pegadinha
+    video: 'http https tls porta criptografia' // busca no YouTube
+  },
+  {
+    id: 'i82',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Banco de dados — SQL',       // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'Em SQL, o comando para recuperar dados de uma tabela é:', // pergunta
+    alternativas: [                     // opções
+      'INSERT', // opção
+      'SELECT — consulta dados: SELECT colunas FROM tabela WHERE condição; INSERT insere, UPDATE altera, DELETE remove', // correta
+      'UPDATE', // opção
+      'DELETE', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'CRUD no SQL: SELECT (read — consulta), INSERT (create — insere), UPDATE (update — modifica), DELETE (delete — remove). Cláusulas: WHERE filtra, ORDER BY ordena, GROUP BY agrupa, JOIN une tabelas.', // explicação
+    dica: 'SELECT * = todas as colunas; WHERE = filtro de linha; HAVING = filtro de grupo (depois do GROUP BY); JOIN = cruza tabelas pela chave. O DELETE sem WHERE apaga a tabela toda — a cláusula é obrigatória para filtrar.', // pegadinha
+    video: 'sql select insert update delete banco' // busca no YouTube
+  },
+  {
+    id: 'i83',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Segurança — autenticação',   // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'A autenticação em dois fatores (2FA) aumenta a segurança porque:', // pergunta
+    alternativas: [                     // opções
+      'usa senha forte', // opção
+      'exige dois elementos de categorias diferentes — o que sei (senha) + o que tenho (celular/token) ou o que sou (biometria); roubar a senha não basta', // correta
+      'guarda a senha', // opção
+      'troca a senha', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: '2FA/MFA = combina fatores: conhecimento (senha, PIN), posse (celular, token, cartão) e inerência (biometria — digital, rosto). Roubar só a senha não invade — falta o segundo fator.', // explicação
+    dica: 'Os três fatores: o que você SABE (senha), o que você TEM (token/celular), o que você É (biometria). 2FA usa dois de categorias DIFERENTES — senha + PIN são do mesmo fator (saber) e não é 2FA.', // pegadinha
+    video: 'autenticação dois fatores 2fa senha' // busca no YouTube
+  },
+  {
+    id: 'i84',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Nuvem — modelos',            // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O modelo de nuvem em que o cliente contrata "apenas o aplicativo" pronto (como o Gmail) é:', // pergunta
+    alternativas: [                     // opções
+      'IaaS', // opção
+      'SaaS (Software as a Service) — o software pronto pelo navegador: Gmail, Drive, Office 365; IaaS é infraestrutura (VM), PaaS é plataforma de desenvolvimento', // correta
+      'PaaS', // opção
+      'local', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'IaaS = infraestrutura alugada (AWS EC2 — você gerencia SO+app); PaaS = plataforma (Heroku — você só programa); SaaS = software pronto (Gmail, Netflix — você só usa). A responsabilidade diminui do IaaS ao SaaS.', // explicação
+    dica: 'Da base ao topo: IaaS (só o hardware/virtualização é do provedor), PaaS (SO e runtime incluídos — você só sobe o código), SaaS (tudo pronto — você só usa). Pizza analogy: IaaS = cozinha alugada; SaaS = pizza entregue.', // pegadinha
+    video: 'iaas paas saas nuvem cloud modelos' // busca no YouTube
+  },
+  {
+    id: 'i85',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Backup — tipos',             // assunto
+    nivel: 'medio',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'O backup "incremental" difere do "diferencial" porque:', // pergunta
+    alternativas: [                     // opções
+      'são iguais', // opção
+      'o incremental copia só o que mudou desde o ÚLTIMO backup; o diferencial copia tudo que mudou desde o último backup COMPLETO', // correta
+      'o incremental é maior', // opção
+      'o diferencial é diário', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Completo = tudo; incremental = só o que mudou desde o último backup (qualquer tipo) — mais rápido, restaura lento (precisa da cadeia); diferencial = o que mudou desde o último completo — cresce cada dia, restaura com 2 arquivos.', // explicação
+    dica: 'Incremental = econômico no backup (pequeno) mas caro na restauração (precisa do completo + todos os incrementais); diferencial = maior a cada dia mas restaura com completo + 1 diferencial. O 3-2-1: 3 cópias, 2 mídias, 1 fora.', // pegadinha
+    video: 'backup incremental diferencial completo' // busca no YouTube
+  },
+  {
+    id: 'i86',                          // identificador único
+    materia: 'Informática',             // matéria
+    tema: 'Pacote Office — Word',       // assunto
+    nivel: 'facil',                     // dificuldade
+    ensino: 'medio',                    // nível do concurso
+    banca: 'Copeve/UFMG',               // banca inspiradora
+    enunciado: 'No Word, o recurso "Mala Direta" serve para:', // pergunta
+    alternativas: [                     // opções
+      'criar tabela', // opção
+      'criar documentos personalizados em massa — uma carta modelo + lista de destinatários gera um arquivo por pessoa com nome, endereço etc.', // correta
+      'enviar email', // opção
+      'corrigir texto', // opção
+    ],
+    correta: 1,                         // índice da certa
+    explicacao: 'Mala Direta (Mailings): mescla um documento-mestre (o modelo) com uma fonte de dados (planilha/tabela) gerando cópias personalizadas — contratos, cartas, etiquetas. O campo «Nome» é preenchido por registro.', // explicação
+    dica: 'Mala direta = documento modelo + fonte de dados (Excel/Access) → documentos personalizados. O campo de mesclagem («Nome», «Endereço») é o placeholder. Serve para carta, e-mail, etiqueta, envelope, certificado.', // pegadinha
+    video: 'mala direta word correspondência mesclagem' // busca no YouTube
+  },
 ];
