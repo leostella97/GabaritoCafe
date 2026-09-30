@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v14';                // TEAM_006: bump — matriz banca×matéria (ENEM→Copeve/UFMG, +1.378 questões)
+const CACHE = 'gabarito-cafe-v15';                // TEAM_007: bump — exportar PDF (impressao.js/css + QR vendored)
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
@@ -25,6 +25,7 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'css/componentes.css',                          // estilos de componentes
   'css/telas.css',                                // estilos das telas
   'css/tema-escuro.css',                          // tema escuro
+  'css/impressao.css',                            // TEAM_007: folha de impressão (exportar PDF)
   'js/armazenamento.js',                          // camada de localStorage
   'js/idioma.js',                                 // traduções
   'js/tema.js',                                   // claro/escuro
@@ -39,6 +40,15 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'js/conteudo.js',                               // telas de conteúdo
   'js/simulado.js',                               // tela do simulado
   'js/revisao.js',                                // tela de revisão
+  'js/fidelidade.js',                             // cartão fidelidade de estudos
+  'js/pomodoro.js',                               // timer pomodoro "moendo o café"
+  'js/cadernos.js',                               // cadernos de questões salvas
+  'js/edital-vertical.js',                        // edital verticalizado
+  'js/comparador-edital.js',                      // comparador de editais
+  'js/backup.js',                                 // exportar/importar backup JSON
+  'js/coffee-wrap.js',                            // card de desempenho compartilhável
+  'js/vendor/qrcode.min.js',                      // TEAM_007: gerador de QR local (MIT)
+  'js/impressao.js',                              // TEAM_007: exportar PDF do simulado/revisão
   'js/dashboard.js',                              // tela de progresso
   'js/app.js',                                    // gerente do app
   'js/pwa.js',                                    // instalação do PWA

@@ -107,12 +107,22 @@ const FidelidadeUI = {
     });
   },
 
-  // Retorna HTML da cartela visual para colocar no Dashboard
+  // Retorna HTML da cartela visual para colocar no Dashboard.
+  // TEAM_007: cada casa carimbada mostra, junto do ☕, o que foi feito
+  // (simulado/revisão), a data, o horário e a % de acertos — os detalhes
+  // vêm dos últimos resultados salvos (1 carimbo = 1 resultado, sempre
+  // em sincronia; se o histórico estiver menor, cai no ☕ simples).
   renderizarCartela() {
     const dados = this.obterDados();
     const carimbos = dados.carimbos || 0;
+    const local = { pt: 'pt-BR', en: 'en-US', es: 'es-ES' }[Idioma.atual] || 'pt-BR'; // locale do idioma atual
 
-    let html = '<div class="cartao" style="background:var(--caramelo-suave);border:2px dashed var(--caramelo);margin-bottom:1.5rem">';
+    // Detalhes dos carimbos da cartela atual: os N resultados mais recentes
+    const id = Auth.idAtual();                                        // conta ou visitante
+    const historico = id ? Armazenamento.ler('gc_resultados_' + id, []) : []; // histórico de atividades
+    const visiveis = historico.slice(-carimbos);                      // as atividades desta cartela
+
+    let html = '<div class="cartao" style="background:var(--creme-escuro);border:2px dashed var(--caramelo);margin-bottom:1.5rem">';
     html += '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.8rem">';
     html += '<div>';
     html += '<strong style="color:var(--cafe);font-size:1.05rem">🎟️ ' + T('fidelidade_cartela_t') + '</strong>';
@@ -123,13 +133,29 @@ const FidelidadeUI = {
     }
     html += '</div>';
 
-    // Grid de 10 carimbos
-    html += '<div style="display:grid;grid-template-columns:repeat(5, 1fr);gap:0.5rem;text-align:center">';
-    for (let i = 1; i <= this.TAMANHO_CARTELA; i++) {
-      const carimbado = i <= carimbos;
-      html += '<div style="aspect-ratio:1;border-radius:10px;border:2px solid ' + (carimbado ? 'var(--cafe)' : 'var(--linha)') + ';background:' + (carimbado ? 'var(--creme)' : 'transparent') + ';display:flex;align-items:center;justify-content:center;font-size:1.4rem;transition:all 0.2s ease">';
-      html += carimbado ? '☕' : '<span style="font-size:0.75rem;color:var(--texto-suave);opacity:0.5">' + i + '</span>';
-      html += '</div>';
+    // Grade de carimbos: casas horizontais (☕ + detalhes) que quebram linha
+    html += '<div class="fid-grade">';
+    for (let i = 0; i < this.TAMANHO_CARTELA; i++) {
+      const r = visiveis[i];                                    // resultado que gerou este carimbo (se houver)
+      if (i < carimbos && r) {                                  // casa carimbada com dados
+        const d = new Date(r.dataISO);                          // data/hora da atividade
+        const data = d.toLocaleDateString(local, { day: '2-digit', month: '2-digit' }); // "30/09"
+        const hora = d.toLocaleTimeString(local, { hour: '2-digit', minute: '2-digit' }); // "14:32"
+        const tipo = r.refazendo ? T('nav_revisao') : T('nav_simulado'); // o que foi feito (🔁/📝)
+        const cor = r.percentual >= 70 ? 'ok' : (r.percentual >= 50 ? 'medio' : 'ruim'); // cor do selo de %
+        html += '<div class="carimbo" title="' + tipo + ' · ' + data + ' · ' + r.percentual + '%">';
+        html += '<span class="carimbo-copo">☕</span>';         // o carimbo de café
+        html += '<span class="carimbo-info">';                  // infos junto do emoji
+        html += '<span class="carimbo-tipo">' + tipo + '</span>'; // simulado ou revisão
+        html += '<span class="carimbo-quando">' + data + ' · ' + hora + '</span>'; // data e horário
+        html += '</span>';
+        html += '<span class="carimbo-pct ' + cor + '">' + r.percentual + '%</span>'; // aproveitamento
+        html += '</div>';
+      } else if (i < carimbos) {                                // carimbada, mas sem detalhe (histórico mais curto)
+        html += '<div class="carimbo"><span class="carimbo-copo">☕</span></div>'; // ☕ simples
+      } else {                                                  // casa vazia
+        html += '<div class="carimbo carimbo-vazio"><span class="carimbo-copo">☕</span></div>'; // fantasma
+      }
     }
     html += '</div>';
     html += '</div>';

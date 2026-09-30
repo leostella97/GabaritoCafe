@@ -784,6 +784,8 @@ const SimuladoUI = {
     if (resultado.erradas.length > 0) {                     // se há erradas para refazer
       html += '<button id="btn-refazer" class="botao botao-contorno">' + T('sim_refazer', { n: resultado.erradas.length }) + '</button>'; // botão refazer
     }
+    // TEAM_007: exportar o resultado em PDF formatado (gabarito comentado + QR das aulas)
+    html += '<button id="btn-pdf" class="botao botao-contorno">' + T('pdf_btn') + '</button>'; // botão exportar PDF
     html += '<button id="btn-novo" class="botao botao-primario">' + T('sim_novo') + '</button>'; // botão novo simulado
     html += '<button id="btn-ir-revisao" class="botao botao-fantasma">' + T('sim_ir_revisao') + '</button>'; // TEAM_002: atalho para a tela de revisão
     html += '<button id="btn-ir-dashboard" class="botao botao-fantasma">' + T('sim_ir_dash') + '</button>'; // botão dashboard
@@ -808,6 +810,10 @@ const SimuladoUI = {
 
     // Liga os botões de ação
     document.getElementById('btn-novo').addEventListener('click', () => this.abrir({})); // novo simulado
+    // TEAM_007: exportar PDF — folha com todas as questões vistas, explicações e QR das aulas
+    document.getElementById('btn-pdf').addEventListener('click', () => { // clique em exportar
+      Impressao.exportarSimulado(resultado, this.estado.perguntas, this.estado.respostas); // gera a folha e imprime
+    });
     document.getElementById('btn-ir-revisao').addEventListener('click', () => App.irPara('revisao')); // TEAM_002: abre a revisão
     document.getElementById('btn-ir-dashboard').addEventListener('click', () => { // ir para o dashboard
       DashboardUI.renderizar();                             // atualiza o dashboard

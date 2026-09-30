@@ -268,6 +268,89 @@
   visibility: hidden;                         /* invisível: só mantém a linha na base das barras */
 }
 
+/* ---------- TEAM_007: Cartão Fidelidade de Estudos (carimbos) ---------- */
+/* Casas de carimbo do cartão fidelidade (js/fidelidade.js): cada
+   simulado ou revisão concluída carimba uma casa com ☕ + tipo,
+   data, horário e aproveitamento ao lado do emoji. */
+.fid-grade {                          /* grade das casas de carimbo */
+  display: grid;                      /* grade */
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); /* adaptável */
+  gap: 0.6rem;                        /* respiro entre casas */
+}
+
+.carimbo {                            /* uma casa de carimbo preenchida */
+  display: flex;                      /* copo + info + selo lado a lado */
+  align-items: center;                /* centralizados */
+  gap: 0.55rem;                       /* respiro interno */
+  background: var(--creme);           /* fundo creme de casa */
+  border: 1.5px dashed var(--caramelo-claro); /* contorno tracejado de carimbo */
+  border-radius: var(--raio-pequeno); /* cantos médios */
+  padding: 0.5rem 0.6rem;             /* respiro interno */
+}
+
+.carimbo-copo {                       /* o círculo do carimbo com o ☕ */
+  width: 34px;                        /* círculo */
+  height: 34px;                       /* círculo */
+  border-radius: 50%;                 /* redondo */
+  border: 2px dashed var(--caramelo); /* anel de carimbo de borracha */
+  background: var(--caramelo-claro);  /* fundo caramelo claro */
+  display: flex;                      /* centraliza o emoji */
+  align-items: center;                /* vertical */
+  justify-content: center;            /* horizontal */
+  font-size: 1.1rem;                  /* tamanho do ☕ */
+  flex-shrink: 0;                     /* não amassa */
+}
+
+.carimbo-info {                       /* textos ao lado do ☕ */
+  display: flex;                      /* coluna */
+  flex-direction: column;             /* empilha tipo e quando */
+  line-height: 1.25;                  /* compacto */
+  min-width: 0;                       /* permite cortar texto longo */
+}
+
+.carimbo-tipo {                       /* "📝 SIMULADO" / "🔁 REVISÃO" */
+  font-weight: 900;                   /* firme */
+  font-size: 0.68rem;                 /* miúdo */
+  text-transform: uppercase;          /* caixa alta */
+  letter-spacing: 0.03em;             /* levemente espaçado */
+  white-space: nowrap;                /* não quebra */
+  overflow: hidden;                   /* corta se apertar */
+  text-overflow: ellipsis;            /* reticências */
+}
+
+.carimbo-quando {                     /* "30/09 · 14:32" */
+  font-size: 0.7rem;                  /* miúdo */
+  color: var(--marrom-suave);         /* apagado */
+}
+
+.carimbo-pct {                        /* selo do aproveitamento */
+  margin-left: auto;                  /* empurra para a direita */
+  font-weight: 900;                   /* firme */
+  font-size: 0.75rem;                 /* miúdo */
+  color: #fff;                        /* número branco */
+  padding: 0.1rem 0.45rem;            /* área da pílula */
+  border-radius: 999px;               /* pílula */
+  flex-shrink: 0;                     /* não amassa */
+}
+
+.carimbo-pct.ok { background: var(--verde); }       /* ≥70%: verde mate */
+.carimbo-pct.medio { background: var(--caramelo); } /* ≥50%: caramelo */
+.carimbo-pct.ruim { background: var(--vermelho); }  /* <50%: vermelho terroso */
+
+.carimbo-vazio {                      /* casa ainda sem carimbo */
+  background: transparent;            /* sem fundo — só o fantasma */
+  border-color: var(--borda);         /* contorno mais apagado */
+  justify-content: center;            /* copo fantasma no meio */
+  min-height: 50px;                   /* altura parecida com a casa cheia */
+}
+
+.carimbo-vazio .carimbo-copo {        /* o ☕ fantasma esperando carimbo */
+  background: transparent;            /* sem fundo */
+  border-color: var(--borda);         /* anel apagado */
+  opacity: 0.4;                       /* fantasma */
+  filter: grayscale(0.8);             /* quase sem cor */
+}
+
 .linha-materia {                    /* linha de desempenho por matéria */
   display: grid;                    /* nome + barra + percentual */
   grid-template-columns: 150px 1fr 52px; /* colunas fixas */

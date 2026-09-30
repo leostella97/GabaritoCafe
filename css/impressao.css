@@ -1,0 +1,541 @@
+/* ============================================================
+   GABARITO CAFÉ — css/impressao.css
+   Folha de impressão ("Exportar PDF") do simulado e da revisão.
+   O documento impresso reproduz a identidade do app — paleta
+   café, Fraunces nos títulos, Caveat nos bilhetes, post-its —
+   mas com cores em VALORES FIXOS: as variáveis do :root mudam
+   no tema escuro e a folha precisa sair sempre clara no papel.
+
+   O visual segue o padrão de materiais de estudo de designers/
+   criadores: faixa de marca escura no topo, etiquetas em caixa
+   alta espaçada, tiles de números grandes, cartões com cantos
+   generosos e o QR emoldurado como "card de link".
+
+   TEAM_007: arquivo novo — exportação em PDF via diálogo de
+   impressão do navegador ("Salvar como PDF").
+   ============================================================ */
+
+/* ---------- Na TELA a folha nunca aparece (só existe para imprimir) ---------- */
+#area-impressao { display: none; }   /* fora do @media print, escondida de verdade */
+
+/* ---------- Documento da folha (vale para a renderização de impressão) ---------- */
+.folha {                             /* a página A4 do documento */
+  font-family: 'Nunito', 'Segoe UI', Tahoma, sans-serif; /* corpo redondo do app */
+  color: #3d2b1f;                    /* café-escuro do tema claro */
+  line-height: 1.55;                 /* entrelinha de leitura */
+  font-size: 10.5pt;                 /* corpo confortável em papel */
+  background: #fffdf8;               /* superfície quentinha, quase branca */
+}
+
+/* O navegador só imprime fundos/cores se esta propriedade permitir */
+.folha,
+.folha * {
+  -webkit-print-color-adjust: exact; /* Chrome/Edge/Safari */
+  print-color-adjust: exact;         /* padrão (Firefox) */
+}
+
+/* ---------- Cabeçalho da folha: a "faixa de marca" ---------- */
+.folha-cabeca {                      /* cartão escuro de marca no topo */
+  position: relative;                /* para as bolhas decorativas */
+  overflow: hidden;                  /* corta as bolhas nas bordas */
+  display: flex;                     /* identidade | meta lado a lado */
+  align-items: center;               /* alinhados na vertical */
+  gap: 14pt;                         /* respiro entre as peças */
+  padding: 16pt 18pt;                /* respiro interno generoso */
+  border-radius: 14pt;               /* cantos grandes de cartão */
+  background: linear-gradient(150deg, #6f4e37 0%, #4a3323 55%, #2c1e15 100%); /* gradiente de café */
+  color: #f5e9d7;                    /* texto creme */
+  margin-bottom: 12pt;               /* distância do resumo */
+}
+
+/* Bolhas decorativas de vapor/caramelo — mesma assinatura do hero do login */
+.folha-cabeca::before {              /* bolha grande no canto direito */
+  content: '';                       /* decorativa */
+  position: absolute;                /* flutua sobre o gradiente */
+  width: 150pt;                      /* tamanho */
+  height: 150pt;                     /* tamanho */
+  border-radius: 50%;                /* círculo */
+  background: rgba(201, 138, 94, 0.22); /* caramelo translúcido */
+  top: -80pt;                        /* transborda para cima */
+  right: -50pt;                      /* transborda para a direita */
+}
+
+.folha-cabeca::after {               /* bolha pequena no canto esquerdo */
+  content: '';                       /* decorativa */
+  position: absolute;                /* flutua */
+  width: 90pt;                       /* tamanho */
+  height: 90pt;                      /* tamanho */
+  border-radius: 50%;                /* círculo */
+  background: rgba(230, 185, 138, 0.14); /* caramelo claro translúcido */
+  bottom: -50pt;                     /* transborda para baixo */
+  left: -30pt;                       /* transborda para a esquerda */
+}
+
+.folha-cabeca > * { position: relative; z-index: 1; } /* conteúdo acima das bolhas */
+
+.folha-logo {                        /* a xícara com o visto */
+  width: 44pt;                       /* tamanho do selo */
+  height: 44pt;                      /* tamanho do selo */
+  background: rgba(255, 247, 234, 0.92); /* medalhão creme atrás do logo */
+  border-radius: 50%;                /* redondo */
+  padding: 5pt;                      /* respiro do medalhão */
+  flex-shrink: 0;                    /* não amassa */
+}
+
+.folha-eyebrow {                     /* etiqueta de topo ("material de estudo") */
+  font-size: 6.5pt;                  /* bem miúda */
+  font-weight: 900;                  /* firme */
+  letter-spacing: 0.22em;            /* bem espaçada — assinatura editorial */
+  text-transform: uppercase;         /* caixa alta */
+  color: #e6b98a;                    /* caramelo claro */
+  margin-bottom: 3pt;                /* colada no título */
+}
+
+.folha-titulo {                      /* título do documento */
+  font-family: 'Fraunces', Georgia, serif; /* serifa artesanal */
+  font-size: 21pt;                   /* grande, de capa */
+  font-weight: 900;                  /* pesada */
+  color: #fdf6ea;                    /* creme clarinho */
+  line-height: 1.1;                  /* compacta */
+}
+
+.folha-slogan {                      /* "estude com sabor de aprovação" */
+  font-family: 'Caveat', cursive;    /* letra de mão */
+  font-size: 13pt;                   /* tamanho de bilhete */
+  color: #e6b98a;                    /* caramelo claro */
+  margin-top: 1pt;                   /* colada no título */
+}
+
+.folha-meta {                        /* data + estudante, na ponta direita */
+  margin-left: auto;                 /* empurra para a direita */
+  text-align: right;                 /* textos à direita */
+  font-size: 8pt;                    /* discreto */
+  color: rgba(245, 233, 215, 0.85);  /* creme translúcido */
+  display: flex;                     /* coluna */
+  flex-direction: column;            /* empilha as linhas */
+  gap: 2pt;                          /* respiro entre linhas */
+  flex-shrink: 0;                    /* não amassa */
+}
+
+.folha-meta strong { color: #fdf6ea; font-weight: 800; } /* destaques da meta */
+
+/* ---------- Resumo: tiles de KPI (cara de dashboard criativo) ---------- */
+.folha-resumo {                      /* grade de tiles de resultado */
+  display: flex;                     /* lado a lado */
+  flex-wrap: wrap;                   /* quebra se apertar */
+  gap: 7pt;                          /* respiro entre tiles */
+  margin-bottom: 12pt;               /* distância do resto */
+  align-items: stretch;              /* tiles da mesma altura */
+}
+
+.kpi {                               /* tile de número */
+  flex: 1;                           /* divide o espaço igualmente */
+  min-width: 60pt;                   /* nunca espremido demais */
+  background: #ffffff;               /* branco limpo */
+  border: 1pt solid #eadbc4;         /* borda de palha */
+  border-radius: 10pt;               /* cantos generosos */
+  padding: 7pt 8pt 6pt;              /* respiro interno */
+  text-align: center;                /* número centralizado */
+  border-top: 2.5pt solid #e6b98a;   /* filete caramelo no topo — detalhe de designer */
+}
+
+.kpi-v {                             /* o número grande */
+  display: block;                    /* linha própria */
+  font-family: 'Fraunces', Georgia, serif; /* serifa de destaque */
+  font-size: 17pt;                   /* bem grande */
+  font-weight: 900;                  /* pesado */
+  color: #3d2b1f;                    /* escuro */
+  line-height: 1.1;                  /* compacto */
+}
+
+.kpi-v.ok { color: #4e8a63; }        /* acertos em verde mate */
+.kpi-v.erro { color: #b9554a; }      /* erros em vermelho terroso */
+
+.kpi-l {                             /* rótulo miúdo embaixo do número */
+  display: block;                    /* linha própria */
+  font-size: 6.5pt;                  /* bem miúdo */
+  font-weight: 900;                  /* firme */
+  text-transform: uppercase;         /* caixa alta */
+  letter-spacing: 0.12em;            /* espaçado */
+  color: #a98f76;                    /* marrom apagado */
+  margin-top: 2pt;                   /* colado no número */
+}
+
+.kpi-legenda {                       /* tile da legenda ✔/✖ */
+  flex: 2;                           /* mais largo que os de número */
+  display: flex;                     /* centraliza o texto */
+  align-items: center;               /* vertical */
+  justify-content: center;           /* horizontal */
+  border-top-color: #eadbc4;         /* filete neutro */
+}
+
+.kpi-legenda span {                  /* o texto da legenda */
+  font-size: 7.5pt;                  /* miúdo */
+  color: #a98f76;                    /* apagado */
+  text-align: center;                /* centralizado */
+  line-height: 1.4;                  /* confortável */
+}
+
+/* Desempenho por matéria na folha do simulado */
+.folha-materias {                    /* cartão das barras por matéria */
+  margin: 0 0 12pt;                  /* respiro abaixo */
+  background: #f2e8d8;               /* creme-escuro do app */
+  border: 1pt solid #eadbc4;         /* borda de palha */
+  border-radius: 10pt;               /* cantos generosos */
+  padding: 8pt 12pt;                 /* respiro interno */
+}
+
+.folha-mat-linha {                   /* uma matéria: nome + barra + placar */
+  display: flex;                     /* lado a lado */
+  align-items: center;               /* alinhados */
+  gap: 8pt;                          /* respiro */
+  font-size: 8.5pt;                  /* discreto */
+  margin-bottom: 3pt;                /* entre linhas */
+}
+
+.folha-mat-linha:last-child { margin-bottom: 0; } /* última sem respiro */
+
+.folha-mat-nome {                    /* nome da matéria */
+  font-weight: 800;                  /* firme */
+  width: 32%;                        /* coluna fixa para alinhar barras */
+}
+
+.folha-mat-trilho {                  /* trilho da barra de progresso */
+  flex: 1;                           /* ocupa o meio */
+  height: 5pt;                       /* fininha */
+  background: #fffdf8;               /* trilho claro no fundo creme */
+  border-radius: 999px;              /* pílula */
+  overflow: hidden;                  /* corta o preenchimento */
+}
+
+.folha-mat-barra {                   /* preenchimento da barra */
+  height: 100%;                      /* altura do trilho */
+  background: linear-gradient(90deg, #c98a5e, #8a6248); /* gradiente quente do app */
+  border-radius: 999px;              /* pontas redondas */
+}
+
+.folha-mat-placar {                  /* "3/5" no fim da linha */
+  font-weight: 900;                  /* firme */
+  color: #6f4e37;                    /* café */
+  min-width: 28pt;                   /* alinhamento */
+  text-align: right;                 /* à direita */
+}
+
+/* ---------- Título de seção ---------- */
+.folha-secao {                       /* "📖 Questões, explicações e aulas" */
+  display: flex;                     /* texto + risquinho na mesma linha */
+  align-items: center;               /* centralizado */
+  gap: 8pt;                          /* espaço entre texto e risco */
+  font-family: 'Fraunces', Georgia, serif; /* serifa */
+  font-size: 14pt;                   /* grande */
+  font-weight: 900;                  /* pesada */
+  color: #3d2b1f;                    /* escuro */
+  margin: 14pt 0 8pt;                /* respiro em volta */
+}
+
+.folha-secao::after {                /* risquinho que completa a linha */
+  content: '';                       /* decorativo */
+  flex: 1;                           /* estica até a borda */
+  height: 2pt;                       /* fininho */
+  background: linear-gradient(90deg, #eadbc4, transparent); /* some no fim */
+  border-radius: 999px;              /* pontas redondas */
+}
+
+/* ---------- Bloco de cada questão ---------- */
+.q {                                 /* uma questão na folha */
+  position: relative;                /* para o selo do número */
+  border: 1pt solid #eadbc4;         /* borda de palha */
+  border-radius: 12pt;               /* cantos generosos */
+  padding: 11pt 13pt;                /* respiro interno */
+  margin-bottom: 10pt;               /* espaço entre questões */
+  background: #ffffff;               /* branco limpo sobre a folha creme */
+  break-inside: avoid;               /* não corta a questão entre páginas */
+  page-break-inside: avoid;          /* o mesmo, para navegadores antigos */
+}
+
+.q-topo {                            /* cabeçalho: número editorial + chips + status */
+  display: flex;                     /* lado a lado */
+  flex-wrap: wrap;                   /* quebra se apertar */
+  align-items: center;               /* alinhados */
+  gap: 5pt;                          /* respiro entre chips */
+  margin-bottom: 8pt;                /* distância do enunciado */
+  padding-bottom: 7pt;               /* respiro do filete */
+  border-bottom: 1pt dashed #eadbc4; /* filete pontilhado de "recorte" */
+}
+
+.q-id {                              /* número editorial da questão */
+  display: flex;                     /* label em cima de número? não: coluna */
+  flex-direction: column;            /* empilha QUESTÃO / 01 */
+  line-height: 1;                    /* compacto */
+  margin-right: 4pt;                 /* respiro dos chips */
+}
+
+.q-id-l {                            /* "QUESTÃO" em etiqueta */
+  font-size: 5.5pt;                  /* minúsculo */
+  font-weight: 900;                  /* firme */
+  letter-spacing: 0.2em;             /* bem espaçado */
+  text-transform: uppercase;         /* caixa alta */
+  color: #a98f76;                    /* apagado */
+}
+
+.q-id-n {                            /* o número "01" grande */
+  font-family: 'Fraunces', Georgia, serif; /* serifa editorial */
+  font-size: 17pt;                   /* bem grande */
+  font-weight: 900;                  /* pesado */
+  color: #c98a5e;                    /* caramelo — número fantasma elegante */
+}
+
+.q-chip {                            /* chip de metadado (banca, nível, ensino) */
+  display: inline-block;             /* pílula */
+  padding: 2pt 7pt;                  /* compacto */
+  border-radius: 999px;              /* pílula */
+  background: #f2e8d8;               /* creme-escuro */
+  border: 0.75pt solid #eadbc4;      /* borda de palha */
+  font-size: 7pt;                    /* miúdo */
+  font-weight: 800;                  /* firme */
+  letter-spacing: 0.03em;            /* levemente espaçado */
+  text-transform: uppercase;         /* caixa alta, cara de etiqueta */
+  color: #8a6248;                    /* café com leite */
+}
+
+.q-chip-mat {                        /* chip da matéria (café sólido) */
+  background: #6f4e37;               /* fundo café */
+  border-color: #6f4e37;             /* borda café */
+  color: #fff7ea;                    /* texto creme */
+}
+
+.q-status {                          /* selo "você acertou / errou N×" */
+  margin-left: auto;                 /* empurra para a direita */
+  font-size: 7.5pt;                  /* miúdo */
+  font-weight: 900;                  /* firme */
+  text-transform: uppercase;         /* caixa alta */
+  letter-spacing: 0.08em;            /* espaçado */
+  padding: 2.5pt 8pt;                /* compacto */
+  border-radius: 999px;              /* pílula */
+}
+
+.q-status.q-ok {                     /* selo de acerto */
+  background: #e4f0e7;               /* verde clarinho */
+  color: #4e8a63;                    /* verde mate */
+  border: 0.75pt solid #bcd8c4;      /* borda verde suave */
+}
+
+.q-status.q-erro {                   /* selo de erro */
+  background: #f7e4e1;               /* vermelho clarinho */
+  color: #b9554a;                    /* vermelho terroso */
+  border: 0.75pt solid #ecc3bc;      /* borda rosada */
+}
+
+.q-enunciado {                       /* texto da pergunta */
+  font-size: 10.5pt;                 /* corpo legível */
+  font-weight: 700;                  /* firme, como no app */
+  margin: 0 0 8pt;                   /* respiro abaixo */
+  color: #3d2b1f;                    /* escuro */
+}
+
+.q-alts {                            /* lista de alternativas */
+  list-style: none;                  /* sem bolinhas */
+  display: flex;                     /* coluna */
+  flex-direction: column;            /* empilha */
+  gap: 4pt;                          /* respiro entre alternativas */
+  margin: 0 0 8pt;                   /* distância do bloco de explicação */
+  padding: 0;                        /* sem recuo */
+}
+
+.q-alt {                             /* cada alternativa */
+  display: flex;                     /* letra + texto lado a lado */
+  align-items: flex-start;           /* alinhados no topo */
+  gap: 6pt;                          /* respiro */
+  padding: 4pt 8pt;                  /* área da linha */
+  border-radius: 7pt;                /* cantos médios */
+  border: 0.75pt solid #eadbc4;      /* borda de palha */
+  font-size: 9.5pt;                  /* corpo */
+  background: #fffdf8;               /* fundo claro */
+}
+
+.q-letra {                           /* bolinha da letra A/B/C... */
+  width: 15pt;                       /* círculo */
+  height: 15pt;                      /* círculo */
+  border-radius: 50%;                /* redondo */
+  background: #f2e8d8;               /* creme-escuro */
+  display: inline-flex;              /* centraliza a letra */
+  align-items: center;               /* vertical */
+  justify-content: center;           /* horizontal */
+  font-weight: 900;                  /* firme */
+  font-size: 8.5pt;                  /* miúda */
+  flex-shrink: 0;                    /* não amassa */
+  margin-top: 1pt;                   /* alinha com a 1ª linha do texto */
+  color: #6f4e37;                    /* café */
+}
+
+.q-alt-txt { flex: 1; }              /* o texto ocupa o espaço que sobra */
+
+.q-alt.correta {                     /* a alternativa certa */
+  border-color: #4e8a63;             /* borda verde */
+  background: #e4f0e7;               /* fundo verde clarinho */
+}
+
+.q-alt.correta .q-letra { background: #4e8a63; color: #fff; } /* letra verde */
+
+.q-alt.marcada {                     /* a resposta (errada) do usuário */
+  border-color: #b9554a;             /* borda vermelha */
+  background: #f7e4e1;               /* fundo vermelho clarinho */
+}
+
+.q-alt.marcada .q-letra { background: #b9554a; color: #fff; } /* letra vermelha */
+
+.q-tag {                             /* etiqueta "✔ gabarito" / "✖ sua resposta" */
+  align-self: center;                /* centralizada na linha */
+  font-size: 7pt;                    /* bem miúda */
+  font-weight: 900;                  /* firme */
+  text-transform: uppercase;         /* caixa alta */
+  letter-spacing: 0.06em;            /* espaçada */
+  white-space: nowrap;               /* não quebra */
+  color: #6f4e37;                    /* café */
+}
+
+/* ---------- Bloco "O que foi visto" (explicação + passos) ---------- */
+.q-exp {                             /* caixa da explicação */
+  background: #f2e8d8;               /* creme-escuro (como .nota do app) */
+  border-left: 3pt solid #c98a5e;    /* filete caramelo à esquerda */
+  border-radius: 0 8pt 8pt 0;        /* cantos só à direita */
+  padding: 8pt 11pt;                 /* respiro interno */
+  margin-bottom: 8pt;                /* distância do post-it */
+  font-size: 9.5pt;                  /* corpo */
+}
+
+.q-exp-t {                           /* título "☕ O que foi visto" */
+  font-weight: 900;                  /* firme */
+  font-size: 8pt;                    /* miúdo */
+  text-transform: uppercase;         /* caixa alta */
+  letter-spacing: 0.08em;            /* espaçado */
+  color: #8a6248;                    /* café com leite */
+  margin-bottom: 3pt;                /* colado no texto */
+}
+
+.q-exp p { margin: 0; }              /* a explicação sem margem extra */
+
+.q-passos {                          /* passo a passo numerado (quando existe) */
+  margin: 5pt 0 0;                   /* respiro acima */
+  padding-left: 14pt;                /* recuo da lista */
+  font-size: 9pt;                    /* discreto */
+}
+
+.q-passos li { margin-bottom: 2pt; } /* respiro entre passos */
+
+/* ---------- Post-it da pegadinha ---------- */
+.q-dica {                            /* bilhetinho amarelo (versão impressa) */
+  background: #f6e0ac;               /* amarelo post-it do app */
+  border-radius: 3pt 9pt 9pt 9pt;    /* canto "dobrado" do post-it */
+  padding: 6pt 11pt;                 /* respiro interno */
+  font-family: 'Caveat', cursive;    /* letra de mão */
+  font-size: 13pt;                   /* tamanho de bilhete */
+  line-height: 1.3;                  /* apertado como bilhete */
+  color: #5a4226;                    /* marrom de caneta */
+  margin-bottom: 9pt;                /* distância da linha da aula */
+  transform: rotate(-0.5deg);        /* levemente torto, feito à mão */
+}
+
+/* ---------- Linha da aula: "card de link" + QR emoldurado ---------- */
+.q-aula {                            /* card do link da aula — cara de link-in-bio */
+  display: flex;                     /* lado a lado */
+  align-items: center;               /* alinhados na vertical */
+  justify-content: space-between;    /* um em cada ponta */
+  gap: 10pt;                         /* respiro entre link e QR */
+  background: #fff7f7;               /* rosado bem suave */
+  border: 1.25pt dashed #f3c1bf;     /* moldura tracejada rosada */
+  border-radius: 9pt;                /* cantos generosos */
+  padding: 7pt 10pt;                 /* respiro interno */
+}
+
+.q-aula-info {                       /* coluna do link */
+  flex: 1;                           /* ocupa o espaço que sobra */
+  min-width: 0;                      /* permite a URL quebrar */
+}
+
+.q-aula-link {                       /* o botão/link da aula */
+  display: inline-block;             /* pílula */
+  background: #c4302b;               /* vermelho YouTube sólido */
+  color: #ffffff;                    /* texto branco */
+  border-radius: 999px;              /* pílula */
+  padding: 3.5pt 11pt;               /* área */
+  font-weight: 900;                  /* firme */
+  font-size: 8.5pt;                  /* corpo */
+  letter-spacing: 0.02em;            /* levemente espaçado */
+  text-decoration: none;             /* sem sublinhado */
+  margin-bottom: 3pt;                /* colado na URL por extenso */
+}
+
+.q-aula-url {                        /* a URL escrita por extenso (clicável no PDF) */
+  display: block;                    /* linha própria */
+  font-size: 7pt;                    /* miúda */
+  color: #a98f76;                    /* apagada */
+  word-break: break-all;             /* quebra onde precisar */
+}
+
+.q-qr {                              /* bloco do QR code emoldurado */
+  flex-shrink: 0;                    /* nunca amassa */
+  text-align: center;                /* legenda centralizada */
+  width: 62pt;                       /* coluna fixa do QR */
+}
+
+.q-qr img {                          /* a imagem do QR */
+  width: 56pt;                       /* ~20 mm: lê fácil em qualquer celular */
+  height: 56pt;                      /* quadrado */
+  display: block;                    /* sem espaço fantasma */
+  background: #ffffff;               /* fundo branco da moldura */
+  border: 1.5pt solid #6f4e37;       /* moldura café — cara de card */
+  border-radius: 6pt;                /* cantinhos */
+  padding: 2pt;                      /* respiro dentro da moldura */
+  margin: 0 auto;                    /* centralizada na coluna */
+}
+
+.q-qr span {                         /* "aponte a câmera..." em etiqueta */
+  display: block;                    /* linha própria */
+  font-size: 6pt;                    /* bem miúda */
+  font-weight: 900;                  /* firme */
+  text-transform: uppercase;         /* caixa alta */
+  letter-spacing: 0.08em;            /* espaçada */
+  color: #8a6248;                    /* café com leite */
+  margin-top: 3pt;                   /* colada no QR */
+  line-height: 1.3;                  /* compacta */
+}
+
+/* ---------- Rodapé da folha ---------- */
+.folha-rodape {                      /* última linha do documento */
+  margin-top: 16pt;                  /* distância do conteúdo */
+  padding-top: 8pt;                  /* respiro do filete */
+  border-top: 1pt dashed #eadbc4;    /* filete pontilhado de recorte */
+  text-align: center;                /* centralizado */
+  font-size: 8pt;                    /* miúdo */
+  color: #a98f76;                    /* apagado */
+}
+
+.folha-rodape .assinatura {          /* assinatura manuscrita */
+  font-family: 'Caveat', cursive;    /* letra de mão */
+  font-size: 12pt;                   /* tamanho de bilhete */
+  color: #8a6248;                    /* café com leite */
+  display: block;                    /* linha própria */
+  margin-top: 2pt;                   /* colada no texto */
+}
+
+/* ---------- Regras que só valem na hora de imprimir ---------- */
+@media print {
+  @page {                            /* a folha de papel */
+    size: A4;                        /* tamanho padrão de impressão */
+    margin: 11mm;                    /* margens equilibradas */
+  }
+
+  /* Esconde o app inteiro na impressão: só a folha sai no papel */
+  body > *:not(#area-impressao) {
+    display: none !important;        /* login, app, torradas e modal somem */
+  }
+
+  #area-impressao {                  /* a folha aparece só aqui */
+    display: block !important;       /* vence a regra de tela */
+  }
+
+  body {                             /* corpo na versão impressa */
+    background: #fff;                /* fundo branco do papel */
+  }
+}

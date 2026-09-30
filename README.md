@@ -51,8 +51,9 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | ✅ **Correção comentada** | Acertou: explicação para consolidar. Errou: o que errou, o gabarito, o **passo a passo** e a **pegadinha da banca**. |
 | 🎥 **Aula no YouTube** | Toda questão tem um link "Assistir aula sobre o tema" que abre a busca do YouTube com a matéria certa. |
 | 🏁 **Resultado final** | Acertos, erros, aproveitamento, tempo de prova, desempenho por matéria e revisão das erradas (com a opção de **refazer só as erradas**). |
-| 🔁 **Revisão** | Tela própria que junta as questões erradas de todos os simulados: **Nova revisão** monta um simulado só com elas, **Detalhes** mostra cada uma com explicação, passo a passo, pegadinha e aula no YouTube, e os checkboxes **"Lembrar em"** (3, 5, 7 ou 30 dias) agendam lembretes — passado o prazo, o site avisa (torrada + 🔔 no menu). Quem acerta na revisão sai da lista. |
-| 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, gráfico de evolução e desempenho por matéria. |
+| � **Exportar PDF** | No resultado do simulado e na tela de Revisão, o botão **"Exportar PDF"** abre uma folha formatada com a cara do app (paleta café, fontes Fraunces/Caveat, post-its) pronta para "Salvar como PDF": cada questão sai com enunciado, alternativas marcadas (✔ gabarito / ✖ sua resposta), explicação do que foi visto, passo a passo, pegadinha e **link da aula no YouTube com o QR code do mesmo link ao lado** — é só apontar a câmera do celular. O QR é gerado localmente (nada sai do navegador). |
+| �🔁 **Revisão** | Tela própria que junta as questões erradas de todos os simulados: **Nova revisão** monta um simulado só com elas, **Detalhes** mostra cada uma com explicação, passo a passo, pegadinha e aula no YouTube, e os checkboxes **"Lembrar em"** (3, 5, 7 ou 30 dias) agendam lembretes — passado o prazo, o site avisa (torrada + 🔔 no menu). Quem acerta na revisão sai da lista. |
+| 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, **☕ Cartão Fidelidade de Estudos** (cada simulado ou revisão carimba uma casinha com o que foi feito, data, horário e aproveitamento — junte 10 e feche o cartão), gráfico de evolução e desempenho por matéria. |
 | 🕵️ **Bancas** | 10 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, CEBRASP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. **Clicar no cartão abre o modal da banca**: todas as dicas, botão **"montar simulado só com questões dela"** (quando a banca tem questões no banco) e **link de aulas no YouTube** sobre ela. |
 | 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. **Clicar no cartão abre o modal da matéria com todos os tópicos; clicar num tópico abre a explicação (por que cai + como estudar) e um link de aula no YouTube.** |
 | 🔐 **Login local** | Criar conta, entrar ou modo visitante. Senhas guardadas com hash — tudo no localStorage do navegador. |
@@ -116,7 +117,8 @@ gabarito-cafe/
 │   ├── base.css               # Reset, paleta de cores (tema café) e utilitários
 │   ├── componentes.css        # Botões, cartões, chips, post-its, toasts, menu...
 │   ├── telas.css              # Layouts: login, dashboard, edital, simulado, bancas...
-│   └── tema-escuro.css        # Tema escuro "café à noite" e ajustes de contraste
+│   ├── tema-escuro.css        # Tema escuro "café à noite" e ajustes de contraste
+│   └── impressao.css          # Folha de impressão (exportar PDF) no tema café
 ├── js/
 │   ├── armazenamento.js       # Camada única de acesso ao localStorage
 │   ├── idioma.js              # Dicionário PT/EN/ES, T('chave') e troca de idioma
@@ -132,14 +134,18 @@ gabarito-cafe/
 │   ├── conteudo.js            # Telas de bancas, temas e dicas
 │   ├── simulado.js            # Tela do simulado (config → questões → resultado)
 │   ├── revisao.js             # Tela de revisão: erradas acumuladas + lembretes
+│   ├── impressao.js           # Monta a folha "Exportar PDF" (questões + QR das aulas)
 │   ├── dashboard.js           # Tela de progresso
 │   ├── app.js                 # "Gerente": rotas, login, avisos e inicialização
 │   ├── pwa.js                 # Registro do service worker e botão "Instalar o app"
-│   └── anuncios.js            # Liga os blocos de anúncio do Google AdSense
+│   ├── anuncios.js            # Liga os blocos de anúncio do Google AdSense
+│   └── vendor/
+│       └── qrcode.min.js      # qrcode-generator 1.4.4 (Kazuhiko Arase, MIT) — QR local
 └── scripts/
     ├── validar-banco.js       # (dev) Confere a integridade das questões
     ├── validar-idiomas.js     # (dev) Confere se as traduções estão completas
-    └── testar-analise.js      # (dev) Testa a análise de edital com um edital fake
+    ├── testar-analise.js      # (dev) Testa a análise de edital com um edital fake
+    └── testar-impressao.js    # (dev) Testa a folha "Exportar PDF" (QR, gabarito, links)
 ```
 
 > 💡 **Por que separar a lógica da tela?** Arquivos como `analise-edital.js` e `motor-simulado.js` não tocam em nada visual — dá para testá-los com Node (é o que os scripts de `scripts/` fazem) e, no futuro, trocar a interface sem mexer no cérebro do app.
@@ -245,6 +251,9 @@ node scripts/validar-idiomas.js
 
 # Testa a análise de edital com um edital fictício (10 conferências automáticas)
 node scripts/testar-analise.js
+
+# Testa a montagem da folha de impressão (PDF): gabarito, explicação, link e QR
+node scripts/testar-impressao.js
 
 # Checa a sintaxe de todos os JS do projeto
 node --check js/arquivo.js   # (um por um)

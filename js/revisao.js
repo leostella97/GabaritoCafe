@@ -93,7 +93,16 @@ const RevisaoUI = {
     for (const reg of mapa.values()) {            // percorre o mapa
       if (!reg.aindaErrada) continue;             // já corrigida → fora
       const viva = BancoQuestoes.find(q => q.id === reg.id); // questão atual no banco
-      lista.push({ id: reg.id, erros: reg.erros, questao: viva || reg.foto }); // junta
+      const questao = viva || reg.foto;                     // prefere a viva (dados sempre atuais)
+      // TEAM_007: índice da última resposta marcada, convertido para a ordem das
+      // alternativas da questão exibida — a foto do histórico guardava a ordem
+      // embaralhada daquela jogada, então mapeamos pelo TEXTO da alternativa.
+      let resposta = -1;                                    // sem marca conhecida
+      if (reg.foto && typeof reg.foto.resposta === 'number' && Array.isArray(reg.foto.alternativas)) { // foto tem a marca?
+        const textoMarcado = reg.foto.alternativas[reg.foto.resposta]; // texto que o usuário marcou na época
+        resposta = questao.alternativas.indexOf(textoMarcado); // posição na lista atual (-1 se a alternativa sumiu)
+      }
+      lista.push({ id: reg.id, erros: reg.erros, questao: questao, resposta: resposta }); // junta
     }
     lista.sort((a, b) => b.erros - a.erros);      // quem mais errou aparece primeiro
     return lista;                                 // devolve as pendentes
@@ -131,6 +140,8 @@ const RevisaoUI = {
     html += '<div style="display:flex;gap:0.8rem;flex-wrap:wrap;margin-top:1rem">'; // fileira de botões
     html += '<button id="btn-nova-revisao" class="botao botao-primario"' + (lista.length === 0 ? ' disabled' : '') + '>' + T('rev_btn_nova', { n: Math.min(lista.length, 50) }) + '</button>'; // TEAM_002: nova revisão
     html += '<button id="btn-detalhes-revisao" class="botao botao-contorno"' + (lista.length === 0 ? ' disabled' : '') + '>' + T('rev_btn_detalhes') + '</button>'; // TEAM_002: detalhes
+    // TEAM_007: exportar o caderno de erros em PDF formatado (explicações + QR das aulas)
+    html += '<button id="btn-pdf-revisao" class="botao botao-contorno"' + (lista.length === 0 ? ' disabled' : '') + '>' + T('pdf_btn') + '</button>'; // botão exportar PDF
     html += '</div>';                             // fecha a fileira
 
     // Lembretes: checkboxes de múltipla escolha (3, 5, 7 e 30 dias)
@@ -197,6 +208,11 @@ const RevisaoUI = {
     if (btnDetalhes) btnDetalhes.addEventListener('click', () => { // clique
       this.detalhesAberto = !this.detalhesAberto; // abre/fecha a lista
       this.renderizar();                          // redesenha a tela
+    });
+    // TEAM_007: botão de exportar o caderno de erros em PDF
+    const btnPdf = document.getElementById('btn-pdf-revisao'); // botão exportar PDF
+    if (btnPdf) btnPdf.addEventListener('click', () => {     // clique
+      Impressao.exportarRevisao(this.pendentes());            // gera a folha das pendentes e imprime
     });
     // Cada checkbox de prazo agenda/cancela o lembrete correspondente
     caixa.querySelectorAll('.lembrete-chip input[type="checkbox"]').forEach(check => { // percorre

@@ -444,7 +444,26 @@ const Idioma = {
       wrap_toast_sem_suporte: 'Navegador não suporta copiar imagem direto. Use o botão Baixar Imagem!',
       wrap_card_t: 'Card de Desempenho ("Coffee Wrap")',
       wrap_card_sub: 'Compartilhe suas conquistas e estatísticas da semana nas redes sociais.',
-      wrap_card_btn: 'Gerar Coffee Wrap'
+      wrap_card_btn: 'Gerar Coffee Wrap',
+
+      // Exportar PDF — folha impressa do simulado e da revisão
+      pdf_btn: '📄 Exportar PDF',                             // TEAM_007: botão de exportar
+      pdf_toast: 'Folha pronta! Na janela de impressão, escolha "Salvar como PDF". 📄', // TEAM_007: instrução de salvamento
+      pdf_titulo_sim: 'Simulado comentado',                   // TEAM_007: título da folha do simulado
+      pdf_titulo_rev: 'Caderno de erros para revisão',        // TEAM_007: título da folha da revisão
+      pdf_eyebrow: 'Material de estudo',                      // TEAM_007: etiqueta de topo da folha
+      pdf_questao: 'Questão',                                 // TEAM_007: rótulo do número da questão
+      pdf_kpi_pendentes: 'pendentes de revisão',              // TEAM_007: rótulo do tile de pendentes
+      pdf_secao: '📖 Questões, explicações e aulas',           // TEAM_007: título da seção de questões
+      pdf_acertou: 'você acertou',                            // TEAM_007: selo de acerto na folha
+      pdf_errou: 'você errou',                                // TEAM_007: selo de erro na folha
+      pdf_gabarito_tag: 'gabarito',                           // TEAM_007: etiqueta na alternativa certa
+      pdf_sua_resposta: 'sua resposta',                       // TEAM_007: etiqueta na alternativa marcada
+      pdf_o_que_viu: 'O que foi visto',                       // TEAM_007: título da caixa de explicação
+      pdf_legenda: 'Legenda: ✔ gabarito · ✖ sua resposta',    // TEAM_007: legenda das marcas da folha
+      pdf_qr_legenda: 'Aponte a câmera do celular para abrir a aula', // TEAM_007: legenda do QR code
+      pdf_estudante: 'Estudante: {nome}',                     // TEAM_007: linha do estudante na folha
+      pdf_gerado: 'Gerado em {data}'                          // TEAM_007: data de geração na folha
     },
 
     /* ================= ENGLISH ================= */
@@ -856,7 +875,26 @@ const Idioma = {
       wrap_toast_sem_suporte: 'Clipboard image copy not supported. Use Download button!',
       wrap_card_t: 'Performance Card ("Coffee Wrap")',
       wrap_card_sub: 'Share your weekly stats on social media.',
-      wrap_card_btn: 'Generate Coffee Wrap'
+      wrap_card_btn: 'Generate Coffee Wrap',
+
+      // PDF export — printed sheet of the mock test and the review
+      pdf_btn: '📄 Export PDF',                              // TEAM_007: export button
+      pdf_toast: 'Sheet ready! In the print dialog, choose "Save as PDF". 📄', // TEAM_007: saving instructions
+      pdf_titulo_sim: 'Commented mock test',                 // TEAM_007: mock test sheet title
+      pdf_titulo_rev: 'Mistake notebook for review',         // TEAM_007: review sheet title
+      pdf_eyebrow: 'Study material',                         // TEAM_007: sheet top label
+      pdf_questao: 'Question',                               // TEAM_007: question number label
+      pdf_kpi_pendentes: 'pending review',                   // TEAM_007: pending tile label
+      pdf_secao: '📖 Questions, explanations and lessons',   // TEAM_007: questions section title
+      pdf_acertou: 'you got it right',                       // TEAM_007: correct badge on the sheet
+      pdf_errou: 'you missed',                               // TEAM_007: wrong badge on the sheet
+      pdf_gabarito_tag: 'answer key',                        // TEAM_007: tag on the right alternative
+      pdf_sua_resposta: 'your answer',                       // TEAM_007: tag on the chosen alternative
+      pdf_o_que_viu: 'What was covered',                     // TEAM_007: explanation box title
+      pdf_legenda: 'Legend: ✔ answer key · ✖ your answer',   // TEAM_007: marks legend
+      pdf_qr_legenda: 'Point your phone camera to open the lesson', // TEAM_007: QR code caption
+      pdf_estudante: 'Student: {nome}',                      // TEAM_007: student line on the sheet
+      pdf_gerado: 'Generated on {data}'                      // TEAM_007: generation date on the sheet
     },
 
     /* ================= ESPAÑOL ================= */
@@ -1268,7 +1306,26 @@ const Idioma = {
       wrap_toast_sem_suporte: 'Navegador no soporta copiar imagen directamente. ¡Usa el botón Descargar!',
       wrap_card_t: 'Tarjeta de Rendimiento ("Coffee Wrap")',
       wrap_card_sub: 'Comparte tus estadísticas de la semana en redes sociales.',
-      wrap_card_btn: 'Generar Coffee Wrap'
+      wrap_card_btn: 'Generar Coffee Wrap',
+
+      // Exportar PDF — hoja impresa del simulacro y del repaso
+      pdf_btn: '📄 Exportar PDF',                            // TEAM_007: botón de exportar
+      pdf_toast: '¡Hoja lista! En el diálogo de impresión elige "Guardar como PDF". 📄', // TEAM_007: instrucción
+      pdf_titulo_sim: 'Simulacro comentado',                 // TEAM_007: título de la hoja del simulacro
+      pdf_titulo_rev: 'Cuaderno de errores para repaso',     // TEAM_007: título de la hoja de repaso
+      pdf_eyebrow: 'Material de estudio',                    // TEAM_007: etiqueta superior de la hoja
+      pdf_questao: 'Pregunta',                               // TEAM_007: rótulo del número de la pregunta
+      pdf_kpi_pendentes: 'pendientes de repaso',             // TEAM_007: rótulo del tile de pendientes
+      pdf_secao: '📖 Preguntas, explicaciones y clases',     // TEAM_007: título de la sección
+      pdf_acertou: 'acertaste',                              // TEAM_007: sello de acierto
+      pdf_errou: 'fallaste',                                 // TEAM_007: sello de error
+      pdf_gabarito_tag: 'solución',                          // TEAM_007: etiqueta en la opción correcta
+      pdf_sua_resposta: 'tu respuesta',                      // TEAM_007: etiqueta en la opción marcada
+      pdf_o_que_viu: 'Lo que se vio',                        // TEAM_007: título de la caja de explicación
+      pdf_legenda: 'Leyenda: ✔ solución · ✖ tu respuesta',   // TEAM_007: leyenda de las marcas
+      pdf_qr_legenda: 'Apunta la cámara del móvil para abrir la clase', // TEAM_007: leyenda del QR
+      pdf_estudante: 'Estudiante: {nome}',                   // TEAM_007: línea del estudiante
+      pdf_gerado: 'Generado el {data}'                       // TEAM_007: fecha de generación
     }
   },
 

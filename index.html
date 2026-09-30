@@ -34,6 +34,8 @@
   <link rel="stylesheet" href="css/componentes.css">
   <link rel="stylesheet" href="css/telas.css">
   <link rel="stylesheet" href="css/tema-escuro.css">
+  <!-- TEAM_007: estilos da folha de impressão (exportar PDF do simulado/revisão) -->
+  <link rel="stylesheet" href="css/impressao.css">
   <!-- PDF.js (biblioteca que lê o PDF do edital direto no navegador) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <!-- ===================== GOOGLE ADSENSE ===================== -->
@@ -301,6 +303,10 @@
     </main>
   </div>
 
+  <!-- TEAM_007: área da folha impressa — fica escondida na tela e só aparece
+       no diálogo de impressão ("Salvar como PDF"), preenchida pelo js/impressao.js -->
+  <div id="area-impressao" aria-hidden="true"></div>
+
   <!-- Modal da matéria: clicar no nome abre os tópicos; clicar no tópico abre explicação + aula -->
   <div id="modal-materia" class="modal oculto" role="dialog" aria-modal="true">
     <div class="modal-caixa">
@@ -332,6 +338,11 @@
   <script src="js/simulado.js"></script>
   <!-- TEAM_002: tela de revisão precisa do simulado já definido (monta jogos por ids) -->
   <script src="js/revisao.js"></script>
+  <!-- TEAM_007: gerador de QR local (qrcode-generator 1.4.4, Kazuhiko Arase, MIT)
+       vendored para funcionar offline e não vazar dados para APIs externas -->
+  <script src="js/vendor/qrcode.min.js"></script>
+  <!-- TEAM_007: folha de impressão dos simulados e da revisão (exportar PDF) -->
+  <script src="js/impressao.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/app.js"></script>
   <!-- TEAM_002: instalação do PWA — registra o sw.js e liga os botões "Instalar app" -->
