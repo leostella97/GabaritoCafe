@@ -17,11 +17,16 @@ const Tema = {
 
   // Aplica o tema atual no documento e atualiza os botões
   aplicar() {
+    const eEscuro = this.atual === 'escuro';
     // Escreve o tema no <html> (o CSS reage a este atributo)
-    document.documentElement.setAttribute('data-tema', this.atual === 'escuro' ? 'escuro' : 'claro');
-    // Atualiza o ícone de todos os botões de tema (login e menu lateral)
+    document.documentElement.setAttribute('data-tema', eEscuro ? 'escuro' : 'claro');
+    // Atualiza o ícone e estados ARIA de todos os botões de tema (login e menu lateral)
     document.querySelectorAll('.botao-tema').forEach(botao => { // percorre os botões
-      botao.textContent = this.atual === 'escuro' ? '☀️' : '🌙'; // sol no escuro, lua no claro
+      botao.textContent = eEscuro ? '☀️' : '🌙'; // sol no escuro, lua no claro
+      botao.setAttribute('aria-pressed', eEscuro ? 'true' : 'false');
+      if (typeof T === 'function') {
+        botao.setAttribute('aria-label', T(eEscuro ? 'toast_tema_escuro' : 'toast_tema_claro'));
+      }
     });
   },
 

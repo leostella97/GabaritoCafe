@@ -1301,9 +1301,11 @@ const Idioma = {
       el.title = this.texto(el.dataset.i18nTitle);           // traduz o title
     });
     document.documentElement.lang = this.atual === 'pt' ? 'pt-BR' : this.atual; // ajusta o idioma da página
-    // Marca a bandeira do idioma escolhido como ativa
+    // Marca a bandeira do idioma escolhido como ativa e define aria-pressed
     document.querySelectorAll('.bandeira').forEach(botao => { // percorre os botões de bandeira
-      botao.classList.toggle('ativa', botao.dataset.idioma === this.atual); // ativa só a do idioma atual
+      const ativa = botao.dataset.idioma === this.atual;
+      botao.classList.toggle('ativa', ativa); // ativa só a do idioma atual
+      botao.setAttribute('aria-pressed', ativa ? 'true' : 'false');
     });
     // Assinatura da frase do login (— o barista / — the barista)
     document.querySelectorAll('.login-assinatura').forEach(el => { // percorre as assinaturas
