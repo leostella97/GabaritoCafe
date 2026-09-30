@@ -30,12 +30,41 @@ const MotorSimulado = {
     };
   },
 
+  // Extrai conjuntos de IDs do histórico do usuário (respondidas e erradas)
+  obterHistoricoIds(idUsuario) {
+    if (!idUsuario) return { respondidas: new Set(), erradas: new Set() };
+    const chave = 'gc_resultados_' + idUsuario;
+    const historico = Armazenamento.ler(chave, []);
+    const respondidas = new Set();
+    const erradas = new Set();
+
+    for (const res of historico) {
+      if (res.idsPerguntas) {
+        for (const id of res.idsPerguntas) respondidas.add(id);
+      }
+      if (res.erradas) {
+        for (const item of res.erradas) erradas.add(item.id);
+      }
+    }
+    return { respondidas, erradas };
+  },
+
   // Monta um simulado: filtra o banco e sorteia a quantidade pedida
-  montar({ quantidade, materias = [], banca = '', niveis = [], ensinos = [], excluirIds = [], idsExatos = null }) {
+  montar({ quantidade, materias = [], banca = '', niveis = [], ensinos = [], excluirIds = [], idsExatos = null, apenasIneditas = false, apenasErridas = false, idUsuario = null }) {
     // Se vieram questões exatas (modo "refazer erradas"), usa só elas
     let pool = idsExatos
       ? BancoQuestoes.filter(q => idsExatos.includes(q.id))   // pega só os ids pedidos
       : BancoQuestoes.filter(q => !excluirIds.includes(q.id)); // senão, todo o banco (menos exclusões)
+
+    // Filtros por histórico de resolução
+    if (!idsExatos && (apenasIneditas || apenasErridas) && idUsuario) {
+      const { respondidas, erradas } = this.obterHistoricoIds(idUsuario);
+      if (apenasIneditas) {
+        pool = pool.filter(q => !respondidas.has(q.id));
+      } else if (apenasErridas) {
+        pool = pool.filter(q => erradas.has(q.id));
+      }
+    }
 
     // Filtra por matérias, se o usuário escolheu alguma
     if (materias.length > 0) {
@@ -67,8 +96,18 @@ const MotorSimulado = {
   },
 
   // Conta quantas questões existem para uma combinação de filtros
-  contarDisponiveis({ materias = [], banca = '', niveis = [], ensinos = [] }) {
+  contarDisponiveis({ materias = [], banca = '', niveis = [], ensinos = [], apenasIneditas = false, apenasErridas = false, idUsuario = null }) {
     let pool = BancoQuestoes.slice();                       // começa com o banco inteiro
+
+    if ((apenasIneditas || apenasErridas) && idUsuario) {
+      const { respondidas, erradas } = this.obterHistoricoIds(idUsuario);
+      if (apenasIneditas) {
+        pool = pool.filter(q => !respondidas.has(q.id));
+      } else if (apenasErridas) {
+        pool = pool.filter(q => erradas.has(q.id));
+      }
+    }
+
     if (materias.length > 0) {
       pool = pool.filter(q => materias.includes(q.materia)); // aplica o filtro de matérias
     }
@@ -90,19 +129,26 @@ const MotorSimulado = {
   // seleção: matéria → bancas/níveis/ensinos; banca → matérias/níveis/ensinos...
   // ⚡ OPTIMIZATION (Bolt): Single-pass calculation over BancoQuestoes with Set lookups
   // (reduces ~2,750 questions x 4 loops down to 1 loop, ~75% faster execution).
-  facetas({ materias = [], banca = '', niveis = [], ensinos = [] }) {
+  facetas({ materias = [], banca = '', niveis = [], ensinos = [], apenasIneditas = false, apenasErridas = false, idUsuario = null }) {
     const materiasSet = materias.length > 0 ? new Set(materias) : null;
     const niveisSet = niveis.length > 0 ? new Set(niveis) : null;
     const ensinosSet = ensinos.length > 0 ? new Set(ensinos) : null;
+
+    let pool = BancoQuestoes;
+    if ((apenasIneditas || apenasErridas) && idUsuario) {
+      const { respondidas, erradas } = this.obterHistoricoIds(idUsuario);
+      if (apenasIneditas) pool = BancoQuestoes.filter(q => !respondidas.has(q.id));
+      else if (apenasErridas) pool = BancoQuestoes.filter(q => erradas.has(q.id));
+    }
 
     const resMaterias = {};
     const resBancas = {};
     const resNiveis = {};
     const resEnsinos = {};
 
-    const total = BancoQuestoes.length;
+    const total = pool.length;
     for (let i = 0; i < total; i++) {
-      const q = BancoQuestoes[i];
+      const q = pool[i];
 
       const matchMat = !materiasSet || materiasSet.has(q.materia);
       const matchBanca = !banca || q.banca === banca;

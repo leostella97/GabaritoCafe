@@ -5,6 +5,62 @@
    resultado final com acertos/erros e revisão das erradas.
    ============================================================ */
 
+// Helper de Anotações & Marca-Texto Virtual
+const AnotacoesUI = {
+  obter(qid) {
+    const uid = Auth.idAtual();
+    if (!uid) return { texto: '', grifos: [] };
+    const banco = Armazenamento.ler('gc_anotacoes_' + uid, {});
+    return banco[qid] || { texto: '', grifos: [] };
+  },
+
+  salvarTexto(qid, texto) {
+    const uid = Auth.idAtual();
+    if (!uid) return;
+    const chave = 'gc_anotacoes_' + uid;
+    const banco = Armazenamento.ler(chave, {});
+    if (!banco[qid]) banco[qid] = { texto: '', grifos: [] };
+    banco[qid].texto = texto;
+    Armazenamento.salvar(chave, banco);
+  },
+
+  salvarGrifo(qid, trecho) {
+    if (!trecho || !trecho.trim()) return;
+    const uid = Auth.idAtual();
+    if (!uid) return;
+    const chave = 'gc_anotacoes_' + uid;
+    const banco = Armazenamento.ler(chave, {});
+    if (!banco[qid]) banco[qid] = { texto: '', grifos: [] };
+    if (!banco[qid].grifos) banco[qid].grifos = [];
+    if (!banco[qid].grifos.includes(trecho)) {
+      banco[qid].grifos.push(trecho);
+    }
+    Armazenamento.salvar(chave, banco);
+  },
+
+  limparGrifos(qid) {
+    const uid = Auth.idAtual();
+    if (!uid) return;
+    const chave = 'gc_anotacoes_' + uid;
+    const banco = Armazenamento.ler(chave, {});
+    if (banco[qid]) {
+      banco[qid].grifos = [];
+      Armazenamento.salvar(chave, banco);
+    }
+  },
+
+  aplicarGrifos(textoHtml, grifos = []) {
+    if (!grifos || grifos.length === 0) return textoHtml;
+    let res = textoHtml;
+    for (const g of grifos) {
+      if (!g) continue;
+      const regex = new RegExp(g.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+      res = res.replace(regex, '<mark class="grifo-virtual">' + g + '</mark>');
+    }
+    return res;
+  }
+};
+
 // Objeto global do simulado
 const SimuladoUI = {
 
@@ -19,6 +75,8 @@ const SimuladoUI = {
     filtroBanca: '',                // banca escolhida no filtro
     filtroNiveis: [],               // níveis de dificuldade escolhidos no filtro
     filtroEnsinos: [],              // níveis de ensino (médio/superior) escolhidos no filtro
+    apenasIneditas: false,          // apenas questões inéditas
+    apenasErridas: false,           // apenas questões que já errou
     soEdital: false,                // se está filtrando pelas matérias do edital
     materiasEdital: [],             // matérias vindas da análise do edital
     ultimoResultado: null,         // último resultado salvo (para revisão)
@@ -100,6 +158,16 @@ const SimuladoUI = {
     }
     html += '</div></div>';                                 // fecha fileira e campo
 
+    // Filtros de histórico de resolução
+    html += '<div class="campo" style="margin-top:0.8rem">';
+    html += '<label style="font-weight:800">' + T('sim_historico_l') + '</label>';
+    html += '<div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.3rem">';
+    html += '<label style="cursor:pointer;display:flex;align-items:center;gap:0.4rem;font-size:0.9rem">';
+    html += '<input type="checkbox" id="sim-ineditas"> ' + T('sim_ineditas_l') + '</label>';
+    html += '<label style="cursor:pointer;display:flex;align-items:center;gap:0.4rem;font-size:0.9rem">';
+    html += '<input type="checkbox" id="sim-erradas"> ' + T('sim_erradas_l') + '</label>';
+    html += '</div></div>';
+
     // Caixa "usar matérias do edital" (aparece só se o edital foi analisado)
     if (e.materiasEdital.length > 0) {                      // se temos matérias do edital
       html += '<label style="display:flex;gap:0.5rem;align-items:center;font-weight:800;cursor:pointer">'; // abre a caixinha
@@ -136,6 +204,19 @@ const SimuladoUI = {
         this.atualizarDisponiveis();                        // atualiza o aviso de disponíveis
       });
     });
+
+    const chkIneditas = document.getElementById('sim-ineditas');
+    const chkErradas = document.getElementById('sim-erradas');
+    if (chkIneditas && chkErradas) {
+      chkIneditas.addEventListener('change', () => {
+        if (chkIneditas.checked) chkErradas.checked = false;
+        this.atualizarDisponiveis();
+      });
+      chkErradas.addEventListener('change', () => {
+        if (chkErradas.checked) chkIneditas.checked = false;
+        this.atualizarDisponiveis();
+      });
+    }
 
     // Cada chip de matéria liga/desliga a matéria do simulado
     caixa.querySelectorAll('#sim-materias .chip-opcao').forEach(chip => { // percorre os chips
@@ -209,7 +290,7 @@ const SimuladoUI = {
     this.atualizarDisponiveis();                            // preenche o aviso inicial
   },
 
-  // Calcula os filtros atuais (matérias marcadas nos chips + banca)
+  // Calcula os filtros atuais (matérias marcadas nos chips + banca + histórico)
   filtrosAtuais() {
     const bancaSel = document.getElementById('sim-banca');  // select de banca
     // Junta TODAS as matérias com o chip ligado (múltipla escolha) — os chips sempre mandam
@@ -219,13 +300,18 @@ const SimuladoUI = {
     const niveis = Array.from(document.querySelectorAll('#sim-niveis .chip-opcao.ativa')).map(c => c.dataset.nivel); // pega os marcados
     // Junta TODOS os níveis de ensino com o chip ligado (múltipla escolha)
     const ensinos = Array.from(document.querySelectorAll('#sim-ensinos .chip-opcao.ativa')).map(c => c.dataset.ensino); // pega os marcados
-    return { materias, banca, niveis, ensinos };            // devolve os filtros
+    const chkIneditas = document.getElementById('sim-ineditas');
+    const chkErradas = document.getElementById('sim-erradas');
+    const apenasIneditas = chkIneditas ? chkIneditas.checked : false;
+    const apenasErridas = chkErradas ? chkErradas.checked : false;
+    return { materias, banca, niveis, ensinos, apenasIneditas, apenasErridas };            // devolve os filtros
   },
 
   // Atualiza o texto "X questões disponíveis com esses filtros"
   atualizarDisponiveis() {
-    const { materias, banca, niveis, ensinos } = this.filtrosAtuais(); // pega os filtros atuais
-    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca, niveis, ensinos }); // conta questões
+    const { materias, banca, niveis, ensinos, apenasIneditas, apenasErridas } = this.filtrosAtuais(); // pega os filtros atuais
+    const idUsuario = Auth.idAtual();
+    const disponiveis = MotorSimulado.contarDisponiveis({ materias, banca, niveis, ensinos, apenasIneditas, apenasErridas, idUsuario }); // conta questões
     const caixa = document.getElementById('sim-disponiveis'); // caixa do aviso
     if (!caixa) return;                                     // se não existe (não está na tela), sai
     // Monta o texto do aviso (traduzido, com o número de questões)
@@ -256,7 +342,7 @@ const SimuladoUI = {
     // TEAM_005: filtros ligados — as contagens de cada dimensão refletem os
     // outros filtros ativos (escolheu matéria → bancas/níveis/ensinos encolhem;
     // escolheu banca → matérias/níveis/ensinos encolhem; e assim por diante).
-    const fac = MotorSimulado.facetas({ materias, banca, niveis, ensinos }); // contagens facetadas
+    const fac = MotorSimulado.facetas({ materias, banca, niveis, ensinos, apenasIneditas, apenasErridas, idUsuario }); // contagens facetadas
     const ligarChips = (seletor, dado, dicionario) => {     // atualiza uma fileira de chips
       document.querySelectorAll(seletor).forEach(chip => {  // percorre os chips
         const n = dicionario[chip.dataset[dado]] || 0;      // contagem sob os demais filtros
@@ -289,17 +375,23 @@ const SimuladoUI = {
       return;                                               // não começa
     }
     const quantidade = parseInt(selecionado.dataset.qtd, 10); // quantidade escolhida
-    const { materias, banca, niveis, ensinos } = this.filtrosAtuais(); // filtros atuais
+    const { materias, banca, niveis, ensinos, apenasIneditas, apenasErridas } = this.filtrosAtuais(); // filtros atuais
+    const idUsuario = Auth.idAtual();
     e.filtroMaterias = materias;                            // guarda no estado
     e.filtroBanca = banca;                                  // guarda no estado
     e.filtroNiveis = niveis;                                // guarda no estado
     e.filtroEnsinos = ensinos;                              // guarda no estado
+    e.apenasIneditas = apenasIneditas;
+    e.apenasErridas = apenasErridas;
     e.perguntas = MotorSimulado.montar({                    // sorteia as questões
       quantidade: quantidade,                               // tamanho pedido
       materias: materias,                                   // filtro de matérias
       banca: banca,                                         // filtro de banca
       niveis: niveis,                                       // filtro de dificuldade
       ensinos: ensinos,                                     // filtro de nível de ensino
+      apenasIneditas: apenasIneditas,                       // filtro de inéditas
+      apenasErridas: apenasErridas,                         // filtro de erradas
+      idUsuario: idUsuario,                                 // id do usuário
       excluirIds: [],                                       // sem exclusões (modo normal)
       idsExatos: null                                       // sem ids exatos (modo normal)
     });
@@ -355,10 +447,22 @@ const SimuladoUI = {
     if (q.ensino) {                                         // se a questão tem nível de ensino marcado
       html += '<span class="chip">🎓 ' + this.textoEnsino(q.ensino) + '</span>'; // chip do nível de ensino
     }
+    html += '<button type="button" class="botao botao-fantasma pequeno btn-fav-q" id="btn-fav-' + q.id + '">⭐ ' + T('cad_fav_btn') + '</button>';
     html += '<span id="questao-relogio" class="questao-relogio">⏱ 00:00</span>'; // cronômetro
     html += '</div>';                                       // fecha o cabeçalho
 
-    html += '<p class="enunciado">' + this.escape(q.enunciado) + '</p>'; // enunciado
+    const anotObj = AnotacoesUI.obter(q.id);
+    const enunciadoEscapado = this.escape(q.enunciado);
+    const enunciadoComGrifos = AnotacoesUI.aplicarGrifos(enunciadoEscapado, anotObj.grifos);
+
+    html += '<div class="enunciado-caixa" style="position:relative">';
+    html += '<p class="enunciado" id="enunciado-txt-' + q.id + '">' + enunciadoComGrifos + '</p>';
+    html += '<div style="display:flex;gap:0.5rem;margin-bottom:0.8rem">';
+    html += '<button type="button" class="botao botao-fantasma pequeno" id="btn-grifar-' + q.id + '">✏️ ' + T('anot_grifar') + '</button>';
+    if (anotObj.grifos && anotObj.grifos.length > 0) {
+      html += '<button type="button" class="botao botao-fantasma pequeno" id="btn-limpar-grifos-' + q.id + '">🗑️ ' + T('anot_limpar_grifos') + '</button>';
+    }
+    html += '</div></div>';
 
     // ---- Alternativas ----
     html += '<div class="alternativas">';                   // abre a coluna de alternativas
@@ -369,6 +473,13 @@ const SimuladoUI = {
       html += '</button>';                                  // fecha o botão
     }
     html += '</div>';                                       // fecha a coluna
+
+    // Bloco de Anotações / Bizus
+    html += '<details class="anotacoes-bloco" style="margin-top:1rem;background:var(--caramelo-suave);padding:0.6rem;border-radius:8px">';
+    html += '<summary style="font-weight:800;cursor:pointer">📝 ' + T('anot_titulo') + '</summary>';
+    html += '<div style="margin-top:0.5rem">';
+    html += '<textarea id="anot-txt-' + q.id + '" style="width:100%;min-height:70px;padding:0.5rem;border-radius:6px;border:1px solid var(--linha);font-family:inherit" placeholder="' + this.escape(T('anot_ph')) + '">' + this.escape(anotObj.texto || '') + '</textarea>';
+    html += '</div></details>';
 
     // ---- Botão de responder ----
     html += '<button id="btn-responder" class="botao botao-primario" style="margin-top:1.2rem" disabled>' + T('sim_responder') + '</button>'; // botão (começa desligado)
@@ -386,6 +497,46 @@ const SimuladoUI = {
         document.getElementById('btn-responder').disabled = false; // libera o botão responder
       });
     });
+
+    // ---- Liga eventos de anotação e grifo ----
+    const btnGrifar = document.getElementById('btn-grifar-' + q.id);
+    if (btnGrifar) {
+      btnGrifar.addEventListener('click', () => {
+        const sel = window.getSelection();
+        const textoSel = sel ? sel.toString().trim() : '';
+        if (textoSel.length >= 2) {
+          AnotacoesUI.salvarGrifo(q.id, textoSel);
+          App.torrada(T('anot_toast_grifado'), 'sucesso');
+          this.renderizarPergunta(indice);
+        } else {
+          App.torrada(T('anot_toast_selecione'), 'erro');
+        }
+      });
+    }
+
+    const btnLimpar = document.getElementById('btn-limpar-grifos-' + q.id);
+    if (btnLimpar) {
+      btnLimpar.addEventListener('click', () => {
+        AnotacoesUI.limparGrifos(q.id);
+        this.renderizarPergunta(indice);
+      });
+    }
+
+    const txtAnot = document.getElementById('anot-txt-' + q.id);
+    if (txtAnot) {
+      txtAnot.addEventListener('input', () => {
+        AnotacoesUI.salvarTexto(q.id, txtAnot.value);
+      });
+    }
+
+    const btnFav = document.getElementById('btn-fav-' + q.id);
+    if (btnFav) {
+      btnFav.addEventListener('click', () => {
+        if (typeof CadernosUI !== 'undefined') {
+          CadernosUI.abrirModalSalvar(q.id);
+        }
+      });
+    }
 
     // ---- Liga o botão responder ----
     document.getElementById('btn-responder').addEventListener('click', () => { // clique em responder
@@ -545,6 +696,11 @@ const SimuladoUI = {
       const historico = Armazenamento.ler(chave, []);       // lê o histórico atual
       historico.push(resultado);                            // adiciona o novo resultado
       Armazenamento.salvar(chave, historico);               // grava de volta
+    }
+
+    // Ganha carimbo no Cartão Fidelidade de Estudos
+    if (typeof FidelidadeUI !== 'undefined') {
+      FidelidadeUI.adicionarCarimbo('simulado');
     }
 
     e.ultimoResultado = resultado;                          // guarda para a revisão

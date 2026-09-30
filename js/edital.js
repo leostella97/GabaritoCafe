@@ -309,6 +309,16 @@ const EditalUI = {
     html += this.blocoPrograma(analise);                    // desenha os tópicos que o edital pede
     html += '</div>';                                       // fecha o cartão
 
+    // ---- Edital Verticalizado Interativo ----
+    if (typeof EditalVerticalUI !== 'undefined') {
+      html += EditalVerticalUI.renderizar(analise);
+    }
+
+    // ---- Comparador de Editais ----
+    if (typeof ComparadorEditalUI !== 'undefined') {
+      html += ComparadorEditalUI.renderizarInterface();
+    }
+
     // ---- Cartão 7: plano de estudo sugerido (com cronograma inteligente) ----
     html += '<div class="cartao bloco-edital aparecer">';   // abre o cartão
     html += '<h3>' + T('ed_plano_t') + '</h3>';             // título da seção
@@ -335,6 +345,14 @@ const EditalUI = {
         const botao = corpo.parentElement.querySelector('.ver-mais'); // botão irmão
         if (botao) botao.classList.remove('oculto');        // mostra o "Ver mais…"
       }
+    }
+
+    // Liga eventos do Edital Verticalizado Interativo e Comparador
+    if (typeof EditalVerticalUI !== 'undefined') {
+      EditalVerticalUI.ligarEventos();
+    }
+    if (typeof ComparadorEditalUI !== 'undefined') {
+      ComparadorEditalUI.ligarEventos();
     }
 
     // Liga o botão de gerar simulado (se ele existe)

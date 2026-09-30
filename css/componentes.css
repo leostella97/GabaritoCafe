@@ -828,3 +828,12 @@
   content: '🔔';                           /* sininho chamativo */
   margin-left: auto;                       /* empurra para a ponta direita do item */
 }
+
+/* Marca-texto virtual */
+mark.grifo-virtual {
+  background: #fef08a;
+  color: #1e293b;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
