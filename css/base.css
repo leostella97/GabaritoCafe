@@ -70,6 +70,14 @@ a {                                 /* links */
   --sombra-media: 0 16px 40px rgba(61, 43, 31, 0.12);   /* sombra de elementos flutuantes */
   --raio: 16px;                     /* cantos arredondados padrão */
   --raio-pequeno: 10px;             /* cantos arredondados de elementos menores */
+
+  /* TEAM_007: apelidos usados pelas telas novas (fidelidade, coffee wrap,
+     pomodoro, cadernos, edital vertical...) — apontam para as cores reais
+     acima, então o tema escuro adapta sozinho */
+  --caramelo-suave: #f3e2d2;        /* fundo caramelo bem suave (cards de destaque) */
+  --linha: var(--borda);            /* linha/borda fina (mesma cor da borda) */
+  --texto-suave: var(--marrom-suave); /* texto apagado (mesmo do marrom suave) */
+  --fundo-cartao: var(--superficie); /* fundo de cartão (mesma superfície) */
 }
 
 /* ---------- Tipografia ---------- */

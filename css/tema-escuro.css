@@ -20,6 +20,7 @@ html[data-tema="escuro"] {
   --vermelho-claro: #331d1a;        /* fundo de erro no escuro */
   --sombra-suave: 0 10px 24px rgba(0, 0, 0, 0.5);  /* sombra visível no escuro */
   --sombra-media: 0 16px 40px rgba(0, 0, 0, 0.65); /* sombra dos flutuantes */
+  --caramelo-suave: #2e211a;        /* TEAM_007: caramelo suave escurecido (os apelidos --linha/--texto-suave/--fundo-cartao adaptam sozinhos via var()) */
 }
 
 /* Transição suave ao trocar de tema (não "pisca" na cara do usuário) */

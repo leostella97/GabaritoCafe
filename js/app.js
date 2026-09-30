@@ -35,6 +35,11 @@ const App = {
     this.ligarControles();                                  // liga as bandeiras e o botão de tema
     this.ligarLogin();                                      // liga os eventos da tela de login
     this.ligarMenu();                                       // liga o menu lateral e o sair
+    // TEAM_007: o modal compartilhado (#modal-materia) é aberto por várias
+    // features (edital, bancas, cadernos, fidelidade, coffee wrap). Ligar o
+    // fechamento (✕, véu, Esc) já no boot garante que TODOS os popups fechem —
+    // antes, quem abria sem passar pelo edital ficava com o popup travado.
+    EditalUI.iniciarModal();                                // fia o fechamento do modal compartilhado
 
     // Se já existe sessão salva, entra direto no app
     if (Auth.usuarioAtual()) this.entrarNoApp();            // pula o login

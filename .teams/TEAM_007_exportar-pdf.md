@@ -103,5 +103,30 @@ designers/criadores, usando a paleta do sistema."
   backup, coffee-wrap) — estavam fora do cache offline.
 - Testado em Node: 7 carimbos com detalhe + fallback sem histórico.
 
+## Fix: Coffee Wrap não fechava (pedido do usuário)
+"Ao abrir coffee wrap não fecha popup."
+- CAUSA: o fechamento do modal compartilhado `#modal-materia` (✕, clique no
+  véu, Esc) só era ligado em `EditalUI.iniciarModal()` — chamado ao visitar
+  a tela do edital ou pelos modais de matéria/banca. `CoffeeWrapUI
+  .abrirModalWrap()` abre o modal direto sem garantir a fiação → se o
+  usuário não passasse pelo edital antes, o ✕/véu/Esc não tinham listeners.
+  Mesmo bug valia para o relatório da Fidelidade e o modal de Cadernos.
+- FIX ARQUITETURAL (em vez de um shim por chamador): `App.iniciar()` agora
+  chama `EditalUI.iniciarModal()` UMA vez no boot — `#modal-materia` é
+  estático no HTML e o método é idempotente (`_modalLigado`). Qualquer
+  feature que abra o modal (atual ou futura) fecha sempre.
+- BÔNUS: o remoto usava 4 variáveis CSS inexistentes em 13 pontos
+  (`--caramelo-suave`, `--linha`, `--texto-suave`, `--fundo-cartao` —
+  coffee-wrap, fidelidade, pomodoro, backup, cadernos, edital-vertical,
+  simulado). Em vez de corrigir 13 call sites, definimos os nomes como
+  ALIASES das cores reais em `css/base.css` (`--linha: var(--borda)` etc.)
+  + um valor real para `--caramelo-suave` — assim os fundos/bordas das
+  telas novas finalmente renderizam e o tema escuro adapta sozinho via
+  var(). (O ajuste anterior do fidelidade continua válido.)
+- `sw.js` bump v15 → v16 (sem o bump, o SW antigo serviria app.js velho).
+- Smoke em Node: 2 chamadas a `iniciarModal()` registram só 1 fiação
+  (modal-fechar.click, modal-materia.click, document.keydown,
+  modal-conteudo.click) — idempotente, sem duplicar.
+
 ## TODO(TEAM_007)
 - Ideia futura: checkbox "só as erradas" na exportação do simulado.
