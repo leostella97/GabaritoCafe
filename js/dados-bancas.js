@@ -10,7 +10,7 @@ const DadosBancas = {
   // Lista de bancas com perfil, pegadinhas e estratégia
   bancas: [
     {
-      nome: 'CESPE / Cebraspe',                // nome da banca
+      nome: 'CESPE/Cebraspe',                 // nome da banca
       perfil: 'A banca do "certo ou errado". Sem alternativas, uma questão errada pode anular uma certa (depende do edital). Textos enormes e cobrança da letra exata da lei.', // como ela é
       pegadinhas: [                            // as manhas da banca
         'Palavras absolutas ("sempre", "nunca", "somente", "todos") costumam esconder o erro.',
