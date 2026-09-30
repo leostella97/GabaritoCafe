@@ -201,6 +201,9 @@ const CoffeeWrapUI = {
     html += '</div>';
 
     conteudo.innerHTML = html;
+    // TEAM_007: garante a fiação do fechamento (✕, véu, Esc) antes de abrir —
+    // mesmo padrão dos modais de matéria/banca; iniciarModal é idempotente.
+    EditalUI.iniciarModal();
     modal.classList.remove('oculto');
 
     document.getElementById('btn-copiar-wrap').addEventListener('click', async () => {

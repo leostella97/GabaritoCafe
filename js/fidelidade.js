@@ -99,6 +99,9 @@ const FidelidadeUI = {
     html += '</div>';
 
     conteudo.innerHTML = html;
+    // TEAM_007: garante a fiação do fechamento (✕, véu, Esc) antes de abrir —
+    // iniciarModal é idempotente; sem isso o relatório ficava travado fora do edital.
+    EditalUI.iniciarModal();
     modal.classList.remove('oculto');
 
     document.getElementById('btn-fechar-fidelidade').addEventListener('click', () => {

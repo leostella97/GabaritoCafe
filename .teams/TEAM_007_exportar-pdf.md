@@ -128,5 +128,19 @@ designers/criadores, usando a paleta do sistema."
   (modal-fechar.click, modal-materia.click, document.keydown,
   modal-conteudo.click) — idempotente, sem duplicar.
 
+## Fix v2: endurecimento (usuário: "ainda não está fechando")
+- O fix do boot estava correto (provado em simulação de DOM real), mas o
+  SW stale-while-revalidate podia servir `app.js` velho por mais tempo.
+- DEFESA EM PROFUNDIDADE: cada abridor do modal agora se AUTO-FIA antes
+  de abrir — `EditalUI.iniciarModal()` (idempotente) dentro de
+  `CoffeeWrapUI.abrirModalWrap`, `FidelidadeUI.exibirRelatorioEspecial`
+  e `CadernosUI.abrirModalSalvar`. Mesmo padrão já usado por
+  `abrirModalMateria`/`abrirModalTopico`/`renderizarBancas`. O fix passa
+  a funcionar com QUALQUER combinação de arquivos novos/velhos no cache.
+- `sw.js` bump v16 → v17.
+- `scripts/testar-modal.js` (novo, permanente): mini-DOM fiel +
+  scripts reais; reproduz o bug, valida ✕/véu/Esc/inside-click e a
+  idempotência — 7/7 verde. Regressão comportamental coberta.
+
 ## TODO(TEAM_007)
 - Ideia futura: checkbox "só as erradas" na exportação do simulado.

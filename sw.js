@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v16';                // TEAM_007: bump — modal compartilhado fecha sempre (app.js) + variáveis de cor novas
+const CACHE = 'gabarito-cafe-v17';                // TEAM_007: bump — abridores do modal se auto-fiam (coffee-wrap/fidelidade/cadernos)
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
