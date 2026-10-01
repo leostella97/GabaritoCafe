@@ -30,7 +30,7 @@ const DashboardUI = {
     html += '<img src="assets/logo.svg" alt="Xícara do Gabarito Café">'; // logo
     html += '<div>';                                        // coluna de texto
     // Saudação com o nome do usuário (ou genérica), traduzida
-    html += '<h3>' + (usuario ? T('dash_ola', { nome: this.escape(usuario.nome) }) : T('dash_ola_sem_nome')) + '</h3>';
+    html += '<h3>' + (usuario ? T('dash_ola', { nome: Util.escape(usuario.nome) }) : T('dash_ola_sem_nome')) + '</h3>';
     html += '<p class="dash-frase">“' + frase + '”</p>';    // frase do acesso em letra de mão
     html += '</div></div>';                                 // fecha coluna e cartão
 
@@ -127,7 +127,7 @@ const DashboardUI = {
       const dados = porMateria[materia];                    // dados da matéria
       const pct = Math.round((dados.acertos / dados.total) * 100); // percentual
       html += '<div class="linha-materia">';                // abre a linha
-      html += '<span class="nome">' + this.escape(materia) + '</span>'; // nome
+      html += '<span class="nome">' + Util.escape(materia) + '</span>'; // nome
       html += '<div class="barra-progresso"><span style="width:' + pct + '%;background:' + (pct >= 70 ? 'var(--verde)' : (pct >= 50 ? 'var(--caramelo)' : 'var(--vermelho)')) + '"></span></div>'; // barra colorida
       html += '<span class="pct">' + pct + '%</span>';      // percentual
       html += '</div>';                                     // fecha a linha
@@ -172,9 +172,9 @@ const DashboardUI = {
       return '<p class="texto-suave">' + T('dash_fraco_bom') + '</p>'; // elogia e sugere subir o nível
     }
     // Monta o cartão com o ponto fraco e o botão de treino
-    let html = '<p style="font-weight:800">' + T('dash_fraco_txt', { materia: this.escape(pior), pct: pct }) + '</p>'; // diagnóstico
+    let html = '<p style="font-weight:800">' + T('dash_fraco_txt', { materia: Util.escape(pior), pct: pct }) + '</p>'; // diagnóstico
     html += '<div class="barra-progresso" style="margin:0.6rem 0"><span style="width:' + pct + '%;background:var(--vermelho)"></span></div>'; // barra
-    html += '<button class="botao botao-primario" data-treinar="' + this.escape(pior) + '">' + T('dash_fraco_btn', { materia: this.escape(pior) }) + '</button>'; // botão de treino
+    html += '<button class="botao botao-primario" data-treinar="' + Util.escape(pior) + '">' + T('dash_fraco_btn', { materia: Util.escape(pior) }) + '</button>'; // botão de treino
     return html;                                            // devolve o conselho
   },
 
@@ -193,16 +193,6 @@ const DashboardUI = {
       });
     });
   },
-
-  // Foge do HTML (segurança)
-  escape(texto) {
-    return String(texto)                                    // garante texto
-      .replace(/&/g, '&amp;')                               // escapa "&"
-      .replace(/</g, '&lt;')                                // escapa "<"
-      .replace(/>/g, '&gt;')                                // escapa ">"
-      .replace(/"/g, '&quot;')                              // escapa aspas
-      .replace(/'/g, '&#39;');                              // escapa apóstrofo
-  }
 };
 
 // Corrige a função de sequência (dias seguidos de estudo)

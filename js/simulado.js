@@ -84,7 +84,14 @@ const SimuladoUI = {
   },
 
   // Abre a tela do simulado na fase de configuração
-  abrir(opcoes = {}) {
+  async abrir(opcoes = {}) {
+    // TEAM_007: banco sob demanda — se o parse ainda não veio, mostra
+    // "carregando" e espera o BancoLoader (aquecido em background no boot)
+    if (!BancoLoader.pronto()) {                            // banco ainda não chegou?
+      const espera = document.getElementById('tela-simulado'); // seção da tela
+      if (espera) espera.innerHTML = '<div class="cartao"><div class="girando"></div><p class="mensagem">' + T('carregando') + '</p></div>'; // spinner de espera
+      await BancoLoader.carregar();                         // garante o banco antes de montar
+    }
     this.estado.fase = 'config';                            // volta para a fase de configuração
     this.estado.filtroMaterias = opcoes.materias || [];     // matérias iniciais (do edital, se houver)
     this.estado.materiasEdital = opcoes.materias || [];     // guarda as matérias do edital
@@ -97,6 +104,7 @@ const SimuladoUI = {
 
   // Desenha a fase de configuração (quantidade, filtros e dicas)
   renderizarConfig() {
+    if (!BancoLoader.pronto()) return;                      // TEAM_007: banco ainda carregando → abrir() desenha quando pronto
     const caixa = document.getElementById('tela-simulado'); // pega a seção da tela
     const materias = MotorSimulado.materiasDoBanco();       // matérias do banco (para o select)
     const bancas = MotorSimulado.bancasDoBanco();           // bancas do banco (para o select)
@@ -120,7 +128,7 @@ const SimuladoUI = {
     html += '<div class="chips-escolha" id="sim-materias">'; // abre a fileira de matérias
     for (const m of materias) {                             // percorre as matérias do banco
       // Chip clicável com o nome da matéria e a quantidade de questões disponíveis
-      html += '<button type="button" class="chip-opcao" data-materia="' + this.escape(m.nome) + '">' + this.escape(m.nome) + ' <span class="chip-num">' + m.quantidade + '</span></button>'; // chip
+      html += '<button type="button" class="chip-opcao" data-materia="' + Util.escape(m.nome) + '">' + Util.escape(m.nome) + ' <span class="chip-num">' + m.quantidade + '</span></button>'; // chip
     }
     html += '</div>';                                       // fecha a fileira
     // Botõezinhos de atalho + contador da seleção
@@ -136,7 +144,7 @@ const SimuladoUI = {
     html += '<select id="sim-banca">';                      // abre o select
     html += '<option value="">' + T('sim_banca_todas') + '</option>'; // opção padrão
     for (const b of bancas) {                               // percorre as bancas
-      html += '<option value="' + this.escape(b.nome) + '">' + this.escape(b.nome) + ' (' + b.quantidade + ')</option>'; // opção
+      html += '<option value="' + Util.escape(b.nome) + '">' + Util.escape(b.nome) + ' (' + b.quantidade + ')</option>'; // opção
     }
     html += '</select></div>';                              // fecha select e campo
 
@@ -190,7 +198,7 @@ const SimuladoUI = {
     html += '<div class="cartao">';                         // abre o cartão de dicas
     html += '<ul class="banca-lista" style="font-size:0.92rem">'; // lista de dicas
     for (const dica of this.dicasDoIdioma()) {              // percorre as dicas do idioma atual
-      html += '<li>' + this.escape(dica) + '</li>';         // cada dica
+      html += '<li>' + Util.escape(dica) + '</li>';         // cada dica
     }
     html += '</ul></div>';                                  // fecha lista e cartão
 
@@ -439,8 +447,8 @@ const SimuladoUI = {
     html += '<div class="cartao aparecer">';                // abre o cartão
     html += '<div class="questao-topo">';                   // cabeçalho da questão
     html += '<span class="questao-numero">' + T('sim_questao', { n: indice + 1, total: e.perguntas.length }) + '</span>'; // numeração traduzida
-    html += '<span class="chip materia">' + this.escape(q.materia) + '</span>'; // chip da matéria
-    html += '<span class="chip caramelo">🎯 ' + this.escape(q.banca) + '</span>'; // chip do estilo de banca
+    html += '<span class="chip materia">' + Util.escape(q.materia) + '</span>'; // chip da matéria
+    html += '<span class="chip caramelo">🎯 ' + Util.escape(q.banca) + '</span>'; // chip do estilo de banca
     if (q.nivel) {                                          // se a questão tem dificuldade marcada
       html += '<span class="chip ' + this.classeNivel(q.nivel) + '">' + this.textoNivel(q.nivel) + '</span>'; // chip do nível
     }
@@ -452,7 +460,7 @@ const SimuladoUI = {
     html += '</div>';                                       // fecha o cabeçalho
 
     const anotObj = AnotacoesUI.obter(q.id);
-    const enunciadoEscapado = this.escape(q.enunciado);
+    const enunciadoEscapado = Util.escape(q.enunciado);
     const enunciadoComGrifos = AnotacoesUI.aplicarGrifos(enunciadoEscapado, anotObj.grifos);
 
     html += '<div class="enunciado-caixa" style="position:relative">';
@@ -469,7 +477,7 @@ const SimuladoUI = {
     for (let i = 0; i < q.alternativas.length; i++) {       // percorre as alternativas
       html += '<button class="alternativa" data-indice="' + i + '">'; // botão da alternativa
       html += '<span class="letra">' + letras[i] + '</span>'; // bolinha da letra
-      html += '<span>' + this.escape(q.alternativas[i]) + '</span>'; // texto da alternativa
+      html += '<span>' + Util.escape(q.alternativas[i]) + '</span>'; // texto da alternativa
       html += '</button>';                                  // fecha o botão
     }
     html += '</div>';                                       // fecha a coluna
@@ -478,7 +486,7 @@ const SimuladoUI = {
     html += '<details class="anotacoes-bloco" style="margin-top:1rem;background:var(--caramelo-suave);padding:0.6rem;border-radius:8px">';
     html += '<summary style="font-weight:800;cursor:pointer">📝 ' + T('anot_titulo') + '</summary>';
     html += '<div style="margin-top:0.5rem">';
-    html += '<textarea id="anot-txt-' + q.id + '" style="width:100%;min-height:70px;padding:0.5rem;border-radius:6px;border:1px solid var(--linha);font-family:inherit" placeholder="' + this.escape(T('anot_ph')) + '">' + this.escape(anotObj.texto || '') + '</textarea>';
+    html += '<textarea id="anot-txt-' + q.id + '" style="width:100%;min-height:70px;padding:0.5rem;border-radius:6px;border:1px solid var(--linha);font-family:inherit" placeholder="' + Util.escape(T('anot_ph')) + '">' + Util.escape(anotObj.texto || '') + '</textarea>';
     html += '</div></details>';
 
     // ---- Botão de responder ----
@@ -597,11 +605,11 @@ const SimuladoUI = {
 
     if (acertou) {                                          // se acertou
       html += '<h3>' + T('sim_certo') + '</h3>';            // celebra (traduzido)
-      html += '<p class="explicacao">' + this.escape(q.explicacao) + '</p>'; // mostra a explicação mesmo assim
+      html += '<p class="explicacao">' + Util.escape(q.explicacao) + '</p>'; // mostra a explicação mesmo assim
     } else {                                                // se errou
       // Mostra o que errou + o gabarito + como fazer (traduzido)
       html += '<h3>' + T('sim_errou', { letra: String.fromCharCode(65 + resposta) }) + '</h3>'; // o que o usuário marcou
-      html += '<p class="explicacao"><strong>' + T('sim_certa_e', { letra: String.fromCharCode(65 + q.correta) }) + '</strong> ' + this.escape(q.explicacao) + '</p>'; // gabarito + explicação
+      html += '<p class="explicacao"><strong>' + T('sim_certa_e', { letra: String.fromCharCode(65 + q.correta) }) + '</strong> ' + Util.escape(q.explicacao) + '</p>'; // gabarito + explicação
     }
 
     // Passo a passo (se a questão tiver)
@@ -609,17 +617,17 @@ const SimuladoUI = {
       html += '<div class="bloco"><p style="font-weight:900">' + T('sim_como') + '</p>'; // título traduzido
       html += '<ol class="passos">';                        // abre a lista numerada
       for (const passo of q.passos) {                       // percorre os passos
-        html += '<li>' + this.escape(passo) + '</li>';      // cada passo
+        html += '<li>' + Util.escape(passo) + '</li>';      // cada passo
       }
       html += '</ol></div>';                                // fecha lista e bloco
     }
 
     // Dica do barista (pegadinha da banca) em post-it
-    html += '<div class="bloco"><div class="postit">' + T('sim_dica') + this.escape(q.dica) + '</div></div>'; // post-it traduzido
+    html += '<div class="bloco"><div class="postit">' + T('sim_dica') + Util.escape(q.dica) + '</div></div>'; // post-it traduzido
 
     // Vídeo aula no YouTube sobre o tema
     const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(q.video); // monta a busca
-    html += '<div class="bloco"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(q.tema) }) + '</a></div>'; // link da aula
+    html += '<div class="bloco"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: Util.escape(q.tema) }) + '</a></div>'; // link da aula
 
     html += '</div>';                                       // fecha o feedback
 
@@ -751,7 +759,7 @@ const SimuladoUI = {
         const dados = resultado.porMateria[materia];        // dados da matéria
         const pct = Math.round((dados.acertos / dados.total) * 100); // percentual da matéria
         html += '<div class="linha-materia">';              // abre a linha
-        html += '<span class="nome">' + this.escape(materia) + '</span>'; // nome
+        html += '<span class="nome">' + Util.escape(materia) + '</span>'; // nome
         html += '<div class="barra-progresso"><span style="width:' + pct + '%;background:' + (pct >= 70 ? 'var(--verde)' : 'var(--caramelo)') + '"></span></div>'; // barra
         html += '<span class="pct">' + dados.acertos + '/' + dados.total + '</span>'; // "3/5"
         html += '</div>';                                   // fecha a linha
@@ -765,13 +773,13 @@ const SimuladoUI = {
       for (const item of resultado.erradas) {               // percorre as erradas
         const letraCerta = String.fromCharCode(65 + item.correta); // letra da resposta certa
         html += '<details class="questao-revisao">';        // abre o acordeão
-        html += '<summary>' + this.escape(item.materia) + ' · ' + this.escape(item.tema) + ' <span style="margin-left:auto;font-size:0.8rem">' + T('sim_gabarito', { letra: letraCerta }) + '</span></summary>'; // cabeçalho
+        html += '<summary>' + Util.escape(item.materia) + ' · ' + Util.escape(item.tema) + ' <span style="margin-left:auto;font-size:0.8rem">' + T('sim_gabarito', { letra: letraCerta }) + '</span></summary>'; // cabeçalho
         html += '<div class="corpo">';                      // corpo do acordeão
-        html += '<p style="font-size:0.9rem">' + this.escape(item.enunciado) + '</p>'; // enunciado
-        html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: letraCerta }) + '</strong> ' + this.escape(item.explicacao) + '</p>'; // explicação
-        html += '<div class="postit" style="margin-top:0.6rem">☕ ' + this.escape(item.dica) + '</div>'; // dica em post-it
+        html += '<p style="font-size:0.9rem">' + Util.escape(item.enunciado) + '</p>'; // enunciado
+        html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: letraCerta }) + '</strong> ' + Util.escape(item.explicacao) + '</p>'; // explicação
+        html += '<div class="postit" style="margin-top:0.6rem">☕ ' + Util.escape(item.dica) + '</div>'; // dica em post-it
         const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(item.video); // busca do vídeo
-        html += '<div style="margin-top:0.6rem"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(item.tema) }) + '</a></div>'; // link da aula
+        html += '<div style="margin-top:0.6rem"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: Util.escape(item.tema) }) + '</a></div>'; // link da aula
         html += '</div></details>';                         // fecha corpo e acordeão
       }
       html += '</div>';                                     // fecha a lista
@@ -796,7 +804,7 @@ const SimuladoUI = {
     const dicas = this.dicasDoIdioma();                     // dicas no idioma atual
     const dica1 = dicas[resultado.erros % dicas.length];    // dica pseudo-aleatória 1
     const dica2 = dicas[(resultado.erros + 2) % dicas.length]; // dica pseudo-aleatória 2
-    html += '<div class="cartao"><div class="postit" style="margin-bottom:0.7rem">' + this.escape(dica1) + '</div><div class="postit">' + this.escape(dica2) + '</div></div>'; // post-its de dicas
+    html += '<div class="cartao"><div class="postit" style="margin-bottom:0.7rem">' + Util.escape(dica1) + '</div><div class="postit">' + Util.escape(dica2) + '</div></div>'; // post-its de dicas
 
     html += '</div>';                                       // fecha o cartão principal
 
@@ -874,15 +882,5 @@ const SimuladoUI = {
     const ids = resultado.erradas.map(item => item.id);     // ids das questões erradas
     this.montarJogoComIds(ids);                             // TEAM_002: monta o jogo com esses ids
     App.torrada(T('toast_refazer', { n: ids.length }), 'sucesso'); // avisa
-  },
-
-  // Foge do HTML (segurança)
-  escape(texto) {
-    return String(texto)                                    // garante texto
-      .replace(/&/g, '&amp;')                               // escapa "&"
-      .replace(/</g, '&lt;')                                // escapa "<"
-      .replace(/>/g, '&gt;')                                // escapa ">"
-      .replace(/"/g, '&quot;')                              // escapa aspas
-      .replace(/'/g, '&#39;');                              // escapa apóstrofo
   }
 };

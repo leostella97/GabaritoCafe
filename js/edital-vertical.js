@@ -76,15 +76,15 @@ const EditalVerticalUI = {
     // Checklist vertical por matéria
     for (const m of comTopicos) {
       html += '<div style="margin-bottom:1.2rem;background:var(--creme);padding:0.8rem;border-radius:10px;border:1px solid var(--linha)">';
-      html += '<h4 style="margin:0 0 0.6rem;color:var(--cafe);font-size:1rem">📚 ' + this.escape(m.rotulo) + '</h4>';
+      html += '<h4 style="margin:0 0 0.6rem;color:var(--cafe);font-size:1rem">📚 ' + Util.escape(m.rotulo) + '</h4>';
       html += '<div style="display:flex;flex-direction:column;gap:0.5rem">';
 
       for (const t of m.topicos) {
         const currentSt = this.obterStatus(dados, m.rotulo, t);
         html += '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.4rem;padding:0.4rem 0.6rem;background:var(--fundo-cartao);border-radius:6px;border:1px solid var(--linha)">';
-        html += '<span style="font-size:0.88rem;font-weight:700;flex:1;min-width:180px">' + this.escape(t) + '</span>';
+        html += '<span style="font-size:0.88rem;font-weight:700;flex:1;min-width:180px">' + Util.escape(t) + '</span>';
 
-        html += '<select class="sel-ev-status" data-materia="' + this.escape(m.rotulo) + '" data-topico="' + this.escape(t) + '" style="font-size:0.8rem;padding:0.2rem 0.4rem;border-radius:4px;border:1px solid var(--linha)">';
+        html += '<select class="sel-ev-status" data-materia="' + Util.escape(m.rotulo) + '" data-topico="' + Util.escape(t) + '" style="font-size:0.8rem;padding:0.2rem 0.4rem;border-radius:4px;border:1px solid var(--linha)">';
         for (const st of this.STATUS_LISTA) {
           const sel = st.id === currentSt ? ' selected' : '';
           html += '<option value="' + st.id + '"' + sel + '>' + st.rotulo + '</option>';
@@ -121,14 +121,5 @@ const EditalVerticalUI = {
         }
       });
     });
-  },
-
-  escape(texto) {
-    return String(texto)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
   }
 };

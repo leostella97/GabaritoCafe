@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v17';                // TEAM_007: bump — abridores do modal se auto-fiam (coffee-wrap/fidelidade/cadernos)
+const CACHE = 'gabarito-cafe-v18';                // TEAM_007: bump — banco sob demanda (banco-loader) + Util compartilhado
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
@@ -32,7 +32,9 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'js/dados-temas.js',                            // temas e dicas
   'js/frases.js',                                 // frases motivadoras
   'js/dados-bancas.js',                           // bancas e pegadinhas
-  'js/banco-questoes.js',                         // banco de questões
+  'js/util.js',                                   // TEAM_007: utilitários compartilhados (escape etc.)
+  'js/banco-loader.js',                           // TEAM_007: carregador sob demanda do banco
+  'js/banco-questoes.js',                         // banco de questões (injetado sob demanda; precache mantém offline)
   'js/analise-edital.js',                         // análise do edital
   'js/motor-simulado.js',                         // motor do simulado
   'js/auth.js',                                   // contas e sessão

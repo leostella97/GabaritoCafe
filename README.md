@@ -127,7 +127,9 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── banco-questoes.js      # Banco com 1.379 questões comentadas
+│   ├── util.js                # Utilitários compartilhados (escape etc.)
+│   ├── banco-loader.js        # Carrega o banco sob demanda/background (não trava o boot)
+│   ├── banco-questoes.js      # Banco com 12.569 questões comentadas (~15 MB, lazy)
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -135,17 +137,32 @@ gabarito-cafe/
 │   ├── simulado.js            # Tela do simulado (config → questões → resultado)
 │   ├── revisao.js             # Tela de revisão: erradas acumuladas + lembretes
 │   ├── impressao.js           # Monta a folha "Exportar PDF" (questões + QR das aulas)
+│   ├── fidelidade.js          # Cartão Fidelidade de Estudos (carimbos ☕ + conquistas)
+│   ├── pomodoro.js            # Pomodoro do Café (foco/pausa com estatísticas)
+│   ├── cadernos.js            # Cadernos de questões (pastas para guardar e revisar)
+│   ├── edital-vertical.js     # Edital verticalizado (checklist de tópicos)
+│   ├── comparador-edital.js   # Compara dois editais (o que mudou entre versões)
+│   ├── backup.js              # Exporta/importa o progresso em JSON
+│   ├── coffee-wrap.js         # Coffee Wrap: card de desempenho da semana p/ compartilhar
 │   ├── dashboard.js           # Tela de progresso
 │   ├── app.js                 # "Gerente": rotas, login, avisos e inicialização
 │   ├── pwa.js                 # Registro do service worker e botão "Instalar o app"
 │   ├── anuncios.js            # Liga os blocos de anúncio do Google AdSense
 │   └── vendor/
 │       └── qrcode.min.js      # qrcode-generator 1.4.4 (Kazuhiko Arase, MIT) — QR local
-└── scripts/
-    ├── validar-banco.js       # (dev) Confere a integridade das questões
-    ├── validar-idiomas.js     # (dev) Confere se as traduções estão completas
-    ├── testar-analise.js      # (dev) Testa a análise de edital com um edital fake
-    └── testar-impressao.js    # (dev) Testa a folha "Exportar PDF" (QR, gabarito, links)
+├── scripts/
+│   ├── validar-banco.js       # (dev) Confere a integridade das questões
+│   ├── validar-idiomas.js     # (dev) Confere se as traduções estão completas
+│   ├── testar-analise.js      # (dev) Testa a análise de edital com um edital fake
+│   ├── testar-impressao.js    # (dev) Testa a folha "Exportar PDF" (QR, gabarito, links)
+│   └── testar-modal.js        # (dev) Testa o fechamento do modal compartilhado (✕/véu/Esc)
+└── spec/                      # Testes Jasmine (npx jasmine) — lógica pura dos módulos
+    ├── helpers/carregar.js    # (dev) Carrega módulos clássicos em vm + stubs de DOM/storage
+    ├── util.spec.js           # Util.escape
+    ├── armazenamento.spec.js  # Camada de localStorage
+    ├── banco-loader.spec.js   # Carregador sob demanda do banco
+    ├── motor-simulado.spec.js # Motor do simulado (sorteio, filtros, facetas)
+    └── revisao.spec.js        # Pendências da revisão (acúmulo, desmarca, foto)
 ```
 
 > 💡 **Por que separar a lógica da tela?** Arquivos como `analise-edital.js` e `motor-simulado.js` não tocam em nada visual — dá para testá-los com Node (é o que os scripts de `scripts/` fazem) e, no futuro, trocar a interface sem mexer no cérebro do app.
@@ -243,7 +260,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 1.379 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 12.569 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos
@@ -254,6 +271,12 @@ node scripts/testar-analise.js
 
 # Testa a montagem da folha de impressão (PDF): gabarito, explicação, link e QR
 node scripts/testar-impressao.js
+
+# Testa o fechamento do modal compartilhado (✕, clique fora, Esc)
+node scripts/testar-modal.js
+
+# Suíte Jasmine: lógica pura dos módulos (util, armazenamento, loader, motor, revisão)
+npx jasmine
 
 # Checa a sintaxe de todos os JS do projeto
 node --check js/arquivo.js   # (um por um)

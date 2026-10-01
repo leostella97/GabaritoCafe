@@ -113,6 +113,13 @@ const RevisaoUI = {
   // Desenha a tela de revisão inteira
   renderizar() {
     const caixa = document.getElementById('tela-revisao'); // pega a seção da tela
+    // TEAM_007: banco sob demanda — se ainda não carregou, mostra spinner e
+    // re-renderiza sozinho quando o BancoLoader terminar (mantém assinatura síncrona)
+    if (!BancoLoader.pronto()) {                  // banco ainda carregando?
+      caixa.innerHTML = '<div class="cartao"><div class="girando"></div><p class="mensagem">' + T('carregando') + '</p></div>'; // spinner de espera
+      BancoLoader.carregar().then(() => this.renderizar()); // re-renderiza ao terminar
+      return;                                     // sai por ora
+    }
     const lista = this.pendentes();               // questões esperando revisão
     const venc = this.vencidos();                 // lembretes cujo prazo já passou
     let html = '';                                // acumulador de HTML
@@ -178,22 +185,22 @@ const RevisaoUI = {
         const letraCerta = String.fromCharCode(65 + q.correta); // letra do gabarito
         html += '<details class="questao-revisao">'; // abre o acordeão
         // Cabeçalho: matéria · tema + "errou N×" + gabarito
-        html += '<summary>' + this.escape(q.materia) + ' · ' + this.escape(q.tema); // nome
+        html += '<summary>' + Util.escape(q.materia) + ' · ' + Util.escape(q.tema); // nome
         html += ' <span class="chip vermelho" style="margin-left:0.4rem">' + T('rev_errou', { n: item.erros }) + '</span>'; // erros
         html += ' <span style="margin-left:auto;font-size:0.8rem">' + T('sim_gabarito', { letra: letraCerta }) + '</span></summary>'; // gabarito
         html += '<div class="corpo">';            // corpo do acordeão
-        html += '<p style="font-size:0.9rem">' + this.escape(q.enunciado) + '</p>'; // enunciado
-        html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: letraCerta }) + '</strong> ' + this.escape(q.explicacao) + '</p>'; // gabarito + explicação
+        html += '<p style="font-size:0.9rem">' + Util.escape(q.enunciado) + '</p>'; // enunciado
+        html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: letraCerta }) + '</strong> ' + Util.escape(q.explicacao) + '</p>'; // gabarito + explicação
         if (q.passos && q.passos.length > 0) {    // tem passo a passo?
           html += '<ol class="passos">';          // lista numerada de passos
           for (const passo of q.passos) {         // percorre os passos
-            html += '<li>' + this.escape(passo) + '</li>'; // cada passo
+            html += '<li>' + Util.escape(passo) + '</li>'; // cada passo
           }
           html += '</ol>';                        // fecha a lista
         }
-        html += '<div class="postit" style="margin-top:0.6rem">☕ ' + this.escape(q.dica) + '</div>'; // pegadinha em post-it
+        html += '<div class="postit" style="margin-top:0.6rem">☕ ' + Util.escape(q.dica) + '</div>'; // pegadinha em post-it
         const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(q.video); // busca do vídeo
-        html += '<div style="margin-top:0.6rem"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(q.tema) }) + '</a></div>'; // link da aula
+        html += '<div style="margin-top:0.6rem"><a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: Util.escape(q.tema) }) + '</a></div>'; // link da aula
         html += '</div></details>';               // fecha corpo e acordeão
       }
       html += '</div>';                           // fecha a lista
@@ -255,7 +262,8 @@ const RevisaoUI = {
   },
 
   // Chamado ao entrar no app: se há lembrete vencido, avisa por torrada
-  avisarVencidos() {
+  async avisarVencidos() {
+    await BancoLoader.carregar();                 // TEAM_007: garante o banco (pendentes() o usa)
     if (this.pendentes().length === 0) {          // sem pendências
       // Se não há o que revisar, lembretes vencidos perdem o sentido → limpa
       const agora = Date.now();                   // instante atual
@@ -268,15 +276,5 @@ const RevisaoUI = {
       App.torrada(T('rev_vencido', { n: this.pendentes().length })); // TEAM_002: torrada de lembrete
     }
     this.atualizarBadge();                        // acende o sino (se preciso)
-  },
-
-  // Foge do HTML (segurança — mesmo padrão das outras telas)
-  escape(texto) {
-    return String(texto)                          // garante texto
-      .replace(/&/g, '&amp;')                     // escapa "&"
-      .replace(/</g, '&lt;')                      // escapa "<"
-      .replace(/>/g, '&gt;')                      // escapa ">"
-      .replace(/"/g, '&quot;')                    // escapa aspas
-      .replace(/'/g, '&#39;');                    // escapa apóstrofo
   }
 };

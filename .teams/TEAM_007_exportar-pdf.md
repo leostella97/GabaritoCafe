@@ -142,5 +142,54 @@ designers/criadores, usando a paleta do sistema."
   scripts reais; reproduz o bug, valida ✕/véu/Esc/inside-click e a
   idempotência — 7/7 verde. Regressão comportamental coberta.
 
+## Auditoria geral (pedido do usuário)
+"Analise o projeto, verifique erros, redundâncias, código não utilizado,
+melhore desempenho e velocidade; instalei jasmine, pode usar."
+
+### Achados
+- Erros: nenhum (node --check em todos os JS + validadores verdes).
+- Redundância: `escape()` idêntico copiado em 9 módulos.
+- Desempenho: `js/banco-questoes.js` (~15 MB) era <script> BLOQUEANTE —
+  o boot inteiro esperava o parse; `pdf.js` (~1 MB CDN) no <head> sem
+  defer também bloqueava o parse do HTML.
+
+### Mudanças
+- `js/util.js` (novo): `Util.escape` único; as 9 cópias viraram chamadas
+  `Util.escape(...)` e as defs duplicadas foram removidas.
+- `js/banco-loader.js` (novo): injeta `<script src=banco-questoes.js>`
+  sob demanda — `pronto()`/`carregar()` idempotentes (promessa única,
+  retenta em falha). index.html não referencia mais o arquivo gigante.
+- Aquecimento: `App.iniciar()` dispara `carregar()` em background pós-boot
+  (parse acontece enquanto o usuário olha o login/dashboard).
+- Consumidores garantidos: `SimuladoUI.abrir` (async + spinner),
+  `renderizarConfig` (guarda), `RevisaoUI.renderizar` (spinner +
+  auto re-render), `avisarVencidos` (async + await),
+  `EditalUI.processarArquivo` (await antes de analisar — temBanco),
+  `CadernosUI.renderizar` (spinner + auto re-render),
+  `ConteudoUI.abrirModalBanca` (async + await p/ contagem).
+- index.html: `defer` no pdf.js; ordem nova: util.js primeiro do bloco.
+- sw.js: +util.js +banco-loader.js no precache; bump v17 → v18
+  (banco-questoes.js continua precached → offline preservado).
+- `idioma.js`: chave `carregando` ×3 (spinner das telas que esperam o banco).
+
+### Testes Jasmine (spec/ — `npx jasmine`, 25 specs, 0 falhas)
+- helper `spec/helpers/carregar.js`: vm + stubs (localStorage, DOM mínimo,
+  navigator) + `pega(nome)`/`roda(codigo)` para os módulos clássicos.
+- `util.spec.js` — escape completo/ordem do &/não-string.
+- `armazenamento.spec.js` — round-trip, padrão, JSON corrompido, remover.
+- `banco-loader.spec.js` — injeta script, idempotência, já-carregado,
+  retentativa após falha.
+- `motor-simulado.spec.js` — embaralhar (Fisher-Yates + índice da correta),
+  corrigir, montar (filtros/idsExatos), contarDisponiveis, facetas.
+- `revisao.spec.js` — pendências: acúmulo de erros, desmarca por
+  idsPerguntas, fallback p/ foto quando id sai do banco, mapeamento da
+  resposta para a ordem atual, sem usuário.
+- scripts/testar-{modal,impressao}.js passam a carregar js/util.js.
+
+### Ganho esperado
+- Boot/first paint: sem parse síncrono de 15 MB — login aparece na hora;
+  banco chega em background (ou sob demanda com spinner nas telas).
+- pdf.js fora do caminho crítico do parse.
+
 ## TODO(TEAM_007)
 - Ideia futura: checkbox "só as erradas" na exportação do simulado.

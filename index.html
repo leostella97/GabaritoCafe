@@ -37,7 +37,7 @@
   <!-- TEAM_007: estilos da folha de impressão (exportar PDF do simulado/revisão) -->
   <link rel="stylesheet" href="css/impressao.css">
   <!-- PDF.js (biblioteca que lê o PDF do edital direto no navegador) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script> <!-- TEAM_007: defer — não trava o parse do HTML; só usado ao enviar edital -->
   <!-- ===================== GOOGLE ADSENSE ===================== -->
   <!-- Código exigido pelo Google para exibir anúncios neste site:
        a metatag confirma a propriedade e o script carrega a biblioteca. -->
@@ -316,13 +316,16 @@
   </div>
 
   <!-- Scripts em ordem de dependência (dados antes, lógica depois) -->
+  <script src="js/util.js"></script>
   <script src="js/armazenamento.js"></script>
   <script src="js/idioma.js"></script>
   <script src="js/tema.js"></script>
   <script src="js/dados-temas.js"></script>
   <script src="js/frases.js"></script>
   <script src="js/dados-bancas.js"></script>
-  <script src="js/banco-questoes.js"></script>
+  <!-- TEAM_007: banco-questoes.js (~15 MB) NÃO é mais <script> bloqueante —
+       BancoLoader injeta sob demanda/background (ver js/banco-loader.js) -->
+  <script src="js/banco-loader.js"></script>
   <script src="js/analise-edital.js"></script>
   <script src="js/motor-simulado.js"></script>
   <script src="js/auth.js"></script>

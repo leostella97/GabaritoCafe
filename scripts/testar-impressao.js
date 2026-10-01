@@ -51,6 +51,7 @@ vm.createContext(contexto);             // cria o contexto isolado
 
 // Carrega os arquivos na ordem do index.html (o que importa para o teste)
 const arquivos = [                      // scripts envolvidos
+  'js/util.js',                         // TEAM_007: Util.escape compartilhado (impressao.js usa)
   'js/armazenamento.js',                // camada de localStorage
   'js/idioma.js',                       // traduções
   'js/vendor/qrcode.min.js',            // gerador de QR

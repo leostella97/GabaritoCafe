@@ -15,9 +15,9 @@ const ConteudoUI = {
     html += '<div class="grade-bancas">';                   // abre a grade de cartões
     for (const banca of DadosBancas.bancas) {               // percorre as bancas
       // TEAM_005: cartão clicável — abre o modal da banca (dicas + simulado + vídeo)
-      html += '<div class="cartao banca-cartao aparecer" data-banca="' + this.escape(banca.nome) + '" role="button" tabindex="0" title="' + T('bancas_cartao') + '">'; // abre o cartão clicável
-      html += '<div class="banca-nome">' + this.escape(banca.nome) + '</div>'; // nome da banca
-      html += '<p class="banca-perfil">' + this.escape(banca.perfil) + '</p>'; // perfil da banca
+      html += '<div class="cartao banca-cartao aparecer" data-banca="' + Util.escape(banca.nome) + '" role="button" tabindex="0" title="' + T('bancas_cartao') + '">'; // abre o cartão clicável
+      html += '<div class="banca-nome">' + Util.escape(banca.nome) + '</div>'; // nome da banca
+      html += '<p class="banca-perfil">' + Util.escape(banca.perfil) + '</p>'; // perfil da banca
       html += '<p class="texto-suave" style="font-size:0.8rem;margin:0">🕵️ ' + T('bancas_cartao') + '</p>'; // dica de clique
       html += '</div>';                                     // fecha o cartão
     }
@@ -41,30 +41,31 @@ const ConteudoUI = {
   },
 
   // TEAM_005: modal da banca — perfil, pegadinhas, estratégia, simulado e aula
-  abrirModalBanca(nome) {
+  async abrirModalBanca(nome) {
     EditalUI.iniciarModal();                                // garante a fiação do modal em qualquer tela
     const banca = DadosBancas.bancas.find(b => b.nome === nome); // acha a banca no catálogo
     if (!banca) return;                                     // banca desconhecida? sai
     // Casa o nome exibido com o nome que o banco de questões usa
     const nomeNoBanco = EditalUI.bancaBancoDaDetectada(nome); // "CESPE / Cebraspe" → "CESPE/Cebraspe"
+    await BancoLoader.carregar();                           // TEAM_007: garante o banco (contagem de questões)
     const infoBanco = nomeNoBanco                           // tem nome no banco?
       ? MotorSimulado.bancasDoBanco().find(b => b.nome === nomeNoBanco) : null; // pega a contagem
 
-    let html = '<h3 style="margin-top:0;padding-right:1.6rem">🕵️ ' + this.escape(banca.nome) + '</h3>'; // título
-    html += '<p class="banca-perfil">' + this.escape(banca.perfil) + '</p>'; // perfil da banca
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">🕵️ ' + Util.escape(banca.nome) + '</h3>'; // título
+    html += '<p class="banca-perfil">' + Util.escape(banca.perfil) + '</p>'; // perfil da banca
     html += '<p style="font-weight:900;font-size:0.9rem;margin:0.8rem 0 0.3rem">' + T('bancas_pegadinhas_t') + '</p>'; // título da lista
     html += '<ul class="banca-lista">';                     // abre a lista de pegadinhas
     for (const pegadinha of banca.pegadinhas) {             // percorre as pegadinhas
-      html += '<li>' + this.escape(pegadinha) + '</li>';    // item de pegadinha
+      html += '<li>' + Util.escape(pegadinha) + '</li>';    // item de pegadinha
     }
     html += '</ul>';                                        // fecha a lista
-    html += '<div class="banca-dica">💡 ' + this.escape(banca.comoSeDarBem) + '</div>'; // estratégia
+    html += '<div class="banca-dica">💡 ' + Util.escape(banca.comoSeDarBem) + '</div>'; // estratégia
 
     // Bloco de ações: simulado filtrado pela banca (quando ela tem questões no banco)
     html += '<div style="margin-top:1rem">';                // abre a área de ações
     if (infoBanco) {                                        // a banca tem questões no banco?
       html += '<p class="texto-suave" style="font-size:0.85rem;margin:0 0 0.5rem">' + T('bancas_modal_questoes', { n: infoBanco.quantidade }) + '</p>'; // contagem de questões
-      html += '<button type="button" class="botao" data-sim-banca="' + this.escape(infoBanco.nome) + '">🎯 ' + T('bancas_modal_simulado') + '</button>'; // botão do simulado
+      html += '<button type="button" class="botao" data-sim-banca="' + Util.escape(infoBanco.nome) + '">🎯 ' + T('bancas_modal_simulado') + '</button>'; // botão do simulado
     } else {                                                // sem questões da banca
       html += '<p class="texto-suave" style="font-size:0.85rem;margin:0 0 0.5rem">' + T('bancas_modal_sem') + '</p>'; // aviso honesto
     }
@@ -94,17 +95,17 @@ const ConteudoUI = {
       const LIMITE_VISIVEL = 3;                             // TEAM_001: só os 3 primeiros tópicos aparecem
       for (const materia of lista) {                        // percorre as matérias
         // TEAM_004: o box inteiro abre o modal da matéria — data-materia + role/tabindex para teclado
-        conteudo += '<div class="cartao tema-cartao aparecer" data-materia="' + this.escape(materia.materia) + '" role="button" tabindex="0" title="' + T('temas_cartao') + '">'; // abre o cartão clicável
-        conteudo += '<h3>' + materia.icone + ' ' + this.escape(materia.materia) + '</h3>'; // título
-        conteudo += '<p class="texto-suave" style="font-size:0.88rem">' + this.escape(materia.resumo) + '</p>'; // resumo
+        conteudo += '<div class="cartao tema-cartao aparecer" data-materia="' + Util.escape(materia.materia) + '" role="button" tabindex="0" title="' + T('temas_cartao') + '">'; // abre o cartão clicável
+        conteudo += '<h3>' + materia.icone + ' ' + Util.escape(materia.materia) + '</h3>'; // título
+        conteudo += '<p class="texto-suave" style="font-size:0.88rem">' + Util.escape(materia.resumo) + '</p>'; // resumo
         materia.topicos.forEach((topico, i) => {            // percorre os tópicos
           const escondido = i >= LIMITE_VISIVEL ? ' tema-extra' : ''; // TEAM_001: os demais ficam recolhidos
           conteudo += '<div class="tema-topico' + escondido + '">'; // abre o bloco do tópico
           // TEAM_003: nome do tópico clicável — abre o modal com explicação + aula no YouTube
-          conteudo += '<button type="button" class="topico-nome topico-texto" data-materia="' + this.escape(materia.materia) + '" data-topico="' + this.escape(topico.nome) + '" title="' + T('ed_modal_dica') + '">' + this.escape(topico.nome) + '</button> '; // nome clicável do tópico
+          conteudo += '<button type="button" class="topico-nome topico-texto" data-materia="' + Util.escape(materia.materia) + '" data-topico="' + Util.escape(topico.nome) + '" title="' + T('ed_modal_dica') + '">' + Util.escape(topico.nome) + '</button> '; // nome clicável do tópico
           conteudo += '<span class="xicaras">' + '☕'.repeat(topico.frequencia) + '</span>'; // xícaras = frequência
-          conteudo += '<p style="font-size:0.85rem;margin:0.2rem 0">' + T('temas_porque') + this.escape(topico.porque) + '</p>'; // motivo de cair
-          conteudo += '<div class="tema-como">✍️ ' + this.escape(topico.como) + '</div>'; // como estudar
+          conteudo += '<p style="font-size:0.85rem;margin:0.2rem 0">' + T('temas_porque') + Util.escape(topico.porque) + '</p>'; // motivo de cair
+          conteudo += '<div class="tema-como">✍️ ' + Util.escape(topico.como) + '</div>'; // como estudar
           conteudo += '</div>';                             // fecha o bloco
         });
         if (materia.topicos.length > LIMITE_VISIVEL) {      // TEAM_001: tem tópico escondido?
@@ -177,11 +178,11 @@ const ConteudoUI = {
     // Um cartão para cada categoria de dicas
     for (const categoria of categorias) {                   // percorre as categorias
       html += '<div class="cartao aparecer categoria-dicas">'; // abre o cartão
-      html += '<div class="categoria-titulo">' + categoria.icone + ' ' + this.escape(categoria.titulo) + '</div>'; // título
+      html += '<div class="categoria-titulo">' + categoria.icone + ' ' + Util.escape(categoria.titulo) + '</div>'; // título
       for (const dica of categoria.dicas) {                 // percorre as dicas da categoria
         html += '<div class="dica-item">';                  // abre a dica
-        html += '<div class="dica-titulo">' + this.escape(dica.titulo) + '</div>'; // título da dica
-        html += '<p class="dica-texto">' + this.escape(dica.texto) + '</p>'; // explicação
+        html += '<div class="dica-titulo">' + Util.escape(dica.titulo) + '</div>'; // título da dica
+        html += '<p class="dica-texto">' + Util.escape(dica.texto) + '</p>'; // explicação
         html += '</div>';                                   // fecha a dica
       }
       html += '</div>';                                     // fecha o cartão
@@ -190,19 +191,9 @@ const ConteudoUI = {
     html += '<div class="titulo-secao"><h3>' + T('dicas_prova_t') + '</h3></div>'; // título da seção
     html += '<div class="cartao"><ul class="banca-lista" style="font-size:0.92rem">'; // abre a lista
     for (const dica of this.dicasRapidasDoIdioma()) {       // percorre as dicas rápidas
-      html += '<li>' + this.escape(dica) + '</li>';         // cada dica
+      html += '<li>' + Util.escape(dica) + '</li>';         // cada dica
     }
     html += '</ul></div>';                                  // fecha lista e cartão
     caixa.innerHTML = html;                                 // despeja na tela
-  },
-
-  // Foge do HTML (segurança)
-  escape(texto) {
-    return String(texto)                                    // garante texto
-      .replace(/&/g, '&amp;')                               // escapa "&"
-      .replace(/</g, '&lt;')                                // escapa "<"
-      .replace(/>/g, '&gt;')                                // escapa ">"
-      .replace(/"/g, '&quot;')                              // escapa aspas
-      .replace(/'/g, '&#39;');                              // escapa apóstrofo
   }
 };

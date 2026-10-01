@@ -145,6 +145,7 @@ const Idioma = {
       ed_zona_sub: 'Arraste o PDF do edital (ou manual do candidato) aqui, ou clique para escolher o arquivo.', // instrução
       ed_zona_aviso: 'O arquivo é lido no seu navegador — nada é enviado para a internet.', // privacidade
       ed_lendo: 'Passando o café... lendo seu edital ☕',    // status de leitura
+      carregando: 'Coado na hora... carregando as questões ☕', // TEAM_007: espera do banco sob demanda
       ed_erro_t: '😅 Não consegui ler esse PDF (pode estar protegido ou com layout complicado).', // erro
       ed_erro_sub: 'Plano B: abre o edital, copia o texto e cola no campo abaixo. A análise funciona do mesmo jeito!', // plano B
       ed_curto_aviso: 'Hmm, o texto estava curto demais para analisar. Tenta colar mais conteúdo (o edital inteiro, de preferência).', // texto curto
@@ -576,6 +577,7 @@ const Idioma = {
       ed_zona_sub: 'Drag the notice PDF (or candidate handbook) here, or click to choose the file.',
       ed_zona_aviso: 'The file is read inside your browser — nothing is sent to the internet.',
       ed_lendo: 'Brewing... reading your exam notice ☕',
+      carregando: 'Freshly brewed... loading the questions ☕', // TEAM_007: lazy bank wait
       ed_erro_t: '😅 I couldn’t read that PDF (it may be protected or have a tricky layout).',
       ed_erro_sub: 'Plan B: open the notice, copy the text and paste it in the field below. The analysis works the same way!',
       ed_curto_aviso: 'Hmm, that text was too short to analyse. Try pasting more content (the whole notice, preferably).',
@@ -1007,6 +1009,7 @@ const Idioma = {
       ed_zona_sub: 'Arrastra el PDF de la convocatoria (o el manual del candidato) aquí, o haz clic para elegir el archivo.',
       ed_zona_aviso: 'El archivo se lee en tu navegador — nada se envía a internet.',
       ed_lendo: 'Preparando el café... leyendo tu convocatoria ☕',
+      carregando: 'Recién colado... cargando las preguntas ☕', // TEAM_007: espera del banco bajo demanda
       ed_erro_t: '😅 No pude leer ese PDF (puede estar protegido o tener un formato complicado).',
       ed_erro_sub: 'Plan B: abre la convocatoria, copia el texto y pégalo en el campo de abajo. ¡El análisis funciona igual!',
       ed_curto_aviso: 'Mmm, el texto era muy corto para analizar. Intenta pegar más contenido (la convocatoria completa, si es posible).',

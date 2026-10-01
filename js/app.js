@@ -41,6 +41,11 @@ const App = {
     // antes, quem abria sem passar pelo edital ficava com o popup travado.
     EditalUI.iniciarModal();                                // fia o fechamento do modal compartilhado
 
+    // TEAM_007: aquece o banco de questões (~15 MB) em background — o parse
+    // acontece DEPOIS do primeiro paint, enquanto o usuário olha o login/
+    // dashboard; quem precisar antes faz await no BancoLoader.carregar().
+    setTimeout(() => BancoLoader.carregar().catch(() => {}), 0); // aquece sem travar
+
     // Se já existe sessão salva, entra direto no app
     if (Auth.usuarioAtual()) this.entrarNoApp();            // pula o login
   },

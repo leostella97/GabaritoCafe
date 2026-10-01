@@ -140,6 +140,7 @@ const EditalUI = {
 
     try {
       const texto = await this.textoDoPdf(arquivo);         // extrai o texto do PDF
+      await BancoLoader.carregar();                         // TEAM_007: garante o banco (temBanco da análise o usa)
       const analise = AnaliseEdital.analisar(texto);        // analisa o texto extraído
       this.ultimaAnalise = analise;                         // guarda a análise
       this.renderizarResultado(analise);                    // desenha o resultado na tela
@@ -186,7 +187,7 @@ const EditalUI = {
 
     // ---- Cartão 1: o edital em resumo (título, confiança e trechos citados) ----
     html += '<div class="cartao destaque bloco-edital aparecer">'; // abre o cartão
-    html += '<h3>📋 ' + this.escape(analise.titulo || T('ed_resumo')) + '</h3>'; // título do concurso
+    html += '<h3>📋 ' + Util.escape(analise.titulo || T('ed_resumo')) + '</h3>'; // título do concurso
     // Barra de confiança da análise (o quanto o robô conseguiu entender)
     const corConfianca = analise.confianca >= 70 ? 'var(--verde)' : (analise.confianca >= 40 ? 'var(--caramelo)' : 'var(--vermelho)'); // cor pela nota
     html += '<div style="display:flex;align-items:center;gap:0.6rem;margin:0.6rem 0">'; // linha da confiança
@@ -198,8 +199,8 @@ const EditalUI = {
       html += '<p class="texto-suave">' + T('ed_sem_trechos') + '</p>'; // explica
     }
     for (const trecho of analise.trechos) {                 // percorre os trechos achados
-      html += '<p style="font-weight:800;margin:0.7rem 0 0.2rem">' + this.escape(trecho.nome) + '</p>'; // nome da seção
-      html += '<div class="trecho-citado">' + this.escape(trecho.texto) + '</div>'; // citação do edital
+      html += '<p style="font-weight:800;margin:0.7rem 0 0.2rem">' + Util.escape(trecho.nome) + '</p>'; // nome da seção
+      html += '<div class="trecho-citado">' + Util.escape(trecho.texto) + '</div>'; // citação do edital
     }
     html += '</div>';                                       // fecha o cartão
 
@@ -207,8 +208,8 @@ const EditalUI = {
     html += '<div class="cartao bloco-edital aparecer">';   // abre o cartão
     html += '<h3>' + T('ed_banca_t') + '</h3>';             // título da seção
     if (analise.banca) {                                    // se identificamos a banca
-      html += '<p style="font-weight:900;font-size:1.1rem;color:var(--cafe);margin:0.3rem 0">' + this.escape(analise.banca.rotulo) + '</p>'; // nome da banca
-      html += '<p class="texto-suave" style="font-size:0.8rem">…' + this.escape(analise.banca.trecho) + '…</p>'; // trecho de onde tiramos
+      html += '<p style="font-weight:900;font-size:1.1rem;color:var(--cafe);margin:0.3rem 0">' + Util.escape(analise.banca.rotulo) + '</p>'; // nome da banca
+      html += '<p class="texto-suave" style="font-size:0.8rem">…' + Util.escape(analise.banca.trecho) + '…</p>'; // trecho de onde tiramos
       html += '<button class="botao botao-contorno pequeno" id="btn-ver-banca">' + T('ed_banca_ver') + '</button>'; // botão para as pegadinhas
       // Dicas de estratégia dessa banca (quando o catálogo a conhece)
       const auto = AnaliseEdital.dicasDaBanca(analise.banca.rotulo); // busca dicas pelo rótulo detectado
@@ -221,7 +222,7 @@ const EditalUI = {
       html += '<div class="campo" style="margin-top:0.6rem">'; // abre o campo
       html += '<label for="input-banca-manual">' + T('ed_banca_manual_l') + '</label>'; // rótulo do input
       html += '<div style="display:flex;gap:0.5rem">';      // linha input+botão
-      html += '<input id="input-banca-manual" type="text" data-i18n-ph="ed_banca_manual_ph" placeholder="' + this.escape(T('ed_banca_manual_ph')) + '" style="flex:1">'; // campo de texto
+      html += '<input id="input-banca-manual" type="text" data-i18n-ph="ed_banca_manual_ph" placeholder="' + Util.escape(T('ed_banca_manual_ph')) + '" style="flex:1">'; // campo de texto
       html += '<button class="botao botao-contorno pequeno" id="btn-banca-manual" type="button">' + T('ed_banca_manual_btn') + '</button>'; // botão de análise
       html += '</div>';                                     // fecha a linha
       html += '<div id="dicas-banca-manual"></div>';        // onde as dicas são desenhadas
@@ -238,7 +239,7 @@ const EditalUI = {
     html += '<option value="">' + T('ed_sim_banca_sel') + '</option>'; // opção "escolha"
     for (const b of MotorSimulado.bancasDoBanco()) {        // percorre as bancas do banco
       const marcada = b.nome === bancaSugerida ? ' selected' : ''; // pré-seleciona a detectada
-      html += '<option value="' + this.escape(b.nome) + '"' + marcada + '>' + this.escape(b.nome) + ' (' + b.quantidade + ')</option>'; // opção com contagem
+      html += '<option value="' + Util.escape(b.nome) + '"' + marcada + '>' + Util.escape(b.nome) + ' (' + b.quantidade + ')</option>'; // opção com contagem
     }
     html += '</select>';                                    // fecha o select
     html += '<button class="botao botao-contorno pequeno" id="btn-sim-banca" type="button">' + T('ed_sim_banca_btn') + '</button>'; // botão de montar
@@ -260,7 +261,7 @@ const EditalUI = {
     if (analise.cargos.length > 0) {                        // se achamos cargos
       html += '<div class="lista-chips">';                  // abre a fileira de chips
       for (const cargo of analise.cargos) {                 // percorre os cargos
-        html += '<span class="chip materia">' + this.escape(cargo) + '</span>'; // chip de cada cargo
+        html += '<span class="chip materia">' + Util.escape(cargo) + '</span>'; // chip de cada cargo
       }
       html += '</div>';                                     // fecha a fileira
       // Escolaridade exigida (quando o edital fala dela)
@@ -268,7 +269,7 @@ const EditalUI = {
         html += '<p style="font-weight:900;font-size:0.85rem;margin:0.9rem 0 0.3rem">' + T('ed_escolaridade_t') + '</p>'; // rótulo
         html += '<div class="lista-chips">';                // fileira de chips
         for (const nivel of analise.escolaridade) {         // percorre os níveis
-          html += '<span class="chip caramelo">🎓 ' + this.escape(nivel) + '</span>'; // chip do nível
+          html += '<span class="chip caramelo">🎓 ' + Util.escape(nivel) + '</span>'; // chip do nível
         }
         html += '</div>';                                   // fecha a fileira
       }
@@ -277,7 +278,7 @@ const EditalUI = {
         html += '<p style="font-weight:900;font-size:0.85rem;margin:0.9rem 0 0.3rem">' + T('ed_requisitos_t') + '</p>'; // rótulo
         html += '<div class="lista-chips">';                // fileira de chips
         for (const req of analise.requisitos) {             // percorre os requisitos
-          html += '<span class="chip">' + this.escape(req) + '</span>'; // chip de cada requisito
+          html += '<span class="chip">' + Util.escape(req) + '</span>'; // chip de cada requisito
         }
         html += '</div>';                                   // fecha a fileira
       }
@@ -294,7 +295,7 @@ const EditalUI = {
       for (const materia of analise.materias) {             // percorre as matérias
         const peso = materia.questoes ? ' (×' + materia.questoes + ')' : ''; // peso da matéria no edital, se achado
         const rotulo = materia.rotulo + peso + (materia.temBanco ? ' ✓' : ' 🕮'); // marca peso e se temos questões
-        html += '<span class="chip ' + (materia.temBanco ? 'verde' : '') + '">' + this.escape(rotulo) + '</span>'; // chip de cada matéria
+        html += '<span class="chip ' + (materia.temBanco ? 'verde' : '') + '">' + Util.escape(rotulo) + '</span>'; // chip de cada matéria
       }
       html += '</div>';                                     // fecha a fileira
       html += '<p class="texto-suave" style="font-size:0.8rem;margin-top:0.6rem">' + T('ed_legenda') + '</p>'; // legenda
@@ -438,13 +439,13 @@ const EditalUI = {
   // Desenha o bloco de dicas de uma banca (detectada ou digitada pelo usuário)
   blocoDicasBanca(info) {
     let html = '<div class="nota" style="margin-top:0.8rem">'; // caixinha de dicas
-    html += '<p style="font-weight:900;font-size:0.85rem;margin:0 0 0.4rem">🕵️ ' + T('ed_dicas_t') + ' <span style="color:var(--cafe)">' + this.escape(info.rotulo) + '</span></p>'; // título com o nome
+    html += '<p style="font-weight:900;font-size:0.85rem;margin:0 0 0.4rem">🕵️ ' + T('ed_dicas_t') + ' <span style="color:var(--cafe)">' + Util.escape(info.rotulo) + '</span></p>'; // título com o nome
     if (!info.conhecida) {                                  // se a banca não está no catálogo
       html += '<p class="texto-suave" style="font-size:0.78rem;margin:0 0 0.4rem">' + T('ed_banca_desconhecida') + '</p>'; // explica que são dicas gerais
     }
     html += '<ul style="margin:0;padding-left:1.1rem">';    // abre a lista
     for (const dica of info.dicas) {                        // percorre as dicas
-      html += '<li style="font-size:0.82rem;margin-bottom:0.25rem">' + this.escape(dica) + '</li>'; // cada dica
+      html += '<li style="font-size:0.82rem;margin-bottom:0.25rem">' + Util.escape(dica) + '</li>'; // cada dica
     }
     html += '</ul></div>';                                  // fecha lista e caixa
     return html;                                            // devolve o HTML pronto
@@ -491,8 +492,8 @@ const EditalUI = {
     html += '<div class="lista-datas">';                    // abre a lista
     for (const linha of linhas) {                           // percorre as linhas
       html += '<div class="linha-dado' + (linha.destaque ? ' destaque' : '') + '">'; // abre a linha
-      html += '<span class="dado-rotulo">' + this.escape(linha.rotulo) + '</span>'; // rótulo
-      html += '<span class="dado-valor">' + this.escape(linha.valor) + '</span>';   // valor
+      html += '<span class="dado-rotulo">' + Util.escape(linha.rotulo) + '</span>'; // rótulo
+      html += '<span class="dado-valor">' + Util.escape(linha.valor) + '</span>';   // valor
       html += '</div>';                                     // fecha a linha
     }
     html += '</div>';                                       // fecha a lista
@@ -523,8 +524,8 @@ const EditalUI = {
     let html = '<div class="lista-datas">';                 // abre a lista
     for (const linha of linhas) {                           // percorre as linhas
       html += '<div class="linha-dado">';                   // abre a linha
-      html += '<span class="dado-rotulo">' + this.escape(linha.rotulo) + '</span>'; // rótulo
-      html += '<span class="dado-valor">' + this.escape(linha.valor) + '</span>';   // valor
+      html += '<span class="dado-rotulo">' + Util.escape(linha.rotulo) + '</span>'; // rótulo
+      html += '<span class="dado-valor">' + Util.escape(linha.valor) + '</span>';   // valor
       html += '</div>';                                     // fecha a linha
     }
     html += '</div>';                                       // fecha a lista
@@ -538,11 +539,11 @@ const EditalUI = {
     let html = '<p class="texto-suave" style="font-size:0.85rem">' + T('ed_programa_sub') + '</p>'; // explicação
     for (const materia of comTopicos) {                     // percorre as matérias com tópicos
       html += '<div class="plano-item">';                   // abre o bloco da matéria
-      html += '<span class="materia-nome clicavel" data-materia="' + this.escape(materia.rotulo) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + this.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome clicável da matéria
+      html += '<span class="materia-nome clicavel" data-materia="' + Util.escape(materia.rotulo) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + Util.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome clicável da matéria
       html += '<div class="lista-topicos">';                // abre a lista de tópicos
       for (const topico of materia.topicos) {               // percorre os tópicos do edital
         // TEAM_003: chip clicável — abre o modal com a explicação e a aula do tópico
-        html += '<button type="button" class="chip chip-topico" data-materia="' + this.escape(materia.rotulo) + '" data-topico="' + this.escape(topico) + '" title="' + T('ed_modal_dica') + '">' + this.escape(topico) + '</button>'; // chip clicável de cada tópico
+        html += '<button type="button" class="chip chip-topico" data-materia="' + Util.escape(materia.rotulo) + '" data-topico="' + Util.escape(topico) + '" title="' + T('ed_modal_dica') + '">' + Util.escape(topico) + '</button>'; // chip clicável de cada tópico
       }
       html += '</div>';                                     // fecha a lista
       html += '</div>';                                     // fecha o bloco
@@ -584,16 +585,16 @@ const EditalUI = {
       .find(t => t.materia === rotuloMateria);              // acha pelo nome
     // Monta o item: nome clicável + corpo colapsável em 2 linhas + "Ver mais…"
     let html = '<div class="plano-item">';                  // abre o item
-    html += '<span class="materia-nome clicavel" data-materia="' + this.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + (fonte ? fonte.icone + ' ' : '') + this.escape(rotuloMateria) + '</span>'; // nome clicável
+    html += '<span class="materia-nome clicavel" data-materia="' + Util.escape(rotuloMateria) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + (fonte ? fonte.icone + ' ' : '') + Util.escape(rotuloMateria) + '</span>'; // nome clicável
     html += '<div class="plano-corpo">';                    // abre o corpo colapsável
     if (!fonte) {                                           // matéria sem resumo pronto no app
       html += '<span class="texto-suave">' + T('ed_plano_sem_resumo') + '</span>'; // item honesto
     } else {                                                // matéria com resumo
-      html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + this.escape(fonte.resumo) + '</p>'; // resumo da matéria
+      html += '<p style="font-size:0.88rem;margin:0.3rem 0">' + Util.escape(fonte.resumo) + '</p>'; // resumo da matéria
       html += '<p style="font-size:0.85rem"><strong>' + T('ed_plano_comeca') + '</strong> '; // abre a lista de tópicos
       const top = fonte.topicos.slice(0, 3);                // pega os 3 tópicos que mais caem
       // TEAM_003: cada nome de tópico vira botão — clique abre o modal com explicação + aula
-      html += top.map(t => '<button type="button" class="topico-texto" data-materia="' + this.escape(rotuloMateria) + '" data-topico="' + this.escape(t.nome) + '" title="' + T('ed_modal_dica') + '">' + this.escape(t.nome) + '</button>').join(' · '); // junta com pontinhos
+      html += top.map(t => '<button type="button" class="topico-texto" data-materia="' + Util.escape(rotuloMateria) + '" data-topico="' + Util.escape(t.nome) + '" title="' + T('ed_modal_dica') + '">' + Util.escape(t.nome) + '</button>').join(' · '); // junta com pontinhos
       html += '.</p>';                                      // fecha a lista
     }
     html += '</div>';                                       // fecha o corpo
@@ -614,9 +615,9 @@ const EditalUI = {
       : null;                                                    // senão fica sem
     this.modalMateria = { rotulo: rotulo, plano: plano };          // guarda o contexto aberto
 
-    let html = '<h3 style="margin-top:0;padding-right:1.6rem">' + (plano ? plano.icone + ' ' : '') + this.escape(rotulo) + '</h3>'; // título com emoji
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">' + (plano ? plano.icone + ' ' : '') + Util.escape(rotulo) + '</h3>'; // título com emoji
     if (plano) {                                                  // se tem resumo pronto
-      html += '<p style="font-size:0.85rem;margin:0.4rem 0 0.6rem">' + this.escape(plano.resumo) + '</p>'; // mostra o resumo
+      html += '<p style="font-size:0.85rem;margin:0.4rem 0 0.6rem">' + Util.escape(plano.resumo) + '</p>'; // mostra o resumo
     }
     html += '<p class="texto-suave" style="font-size:0.78rem;margin:0 0 0.7rem">' + T('ed_modal_dica') + '</p>'; // ensina o uso
 
@@ -625,7 +626,7 @@ const EditalUI = {
       html += '<p style="font-weight:900;font-size:0.8rem;margin:0.5rem 0 0.4rem">📄 ' + T('ed_modal_edital') + '</p>'; // rótulo da seção
       for (const topico of materiaEdital.topicos) {               // percorre os tópicos do edital
         // TEAM_003: data-materia junto — o clique abre a explicação sem depender de estado
-        html += '<button type="button" class="topico-item" data-materia="' + this.escape(rotulo) + '" data-topico="' + this.escape(topico) + '">' + this.escape(topico) + '</button>'; // cada tópico clicável
+        html += '<button type="button" class="topico-item" data-materia="' + Util.escape(rotulo) + '" data-topico="' + Util.escape(topico) + '">' + Util.escape(topico) + '</button>'; // cada tópico clicável
       }
     }
     // Lista 2: os tópicos que MAIS CAEM (catálogo do app, com explicação pronta)
@@ -633,7 +634,7 @@ const EditalUI = {
       html += '<p style="font-weight:900;font-size:0.8rem;margin:0.6rem 0 0.4rem">🔥 ' + T('ed_modal_campeoes') + '</p>'; // rótulo da seção
       for (const topico of plano.topicos) {                       // percorre os campeões
         // TEAM_003: data-materia junto — o clique abre a explicação sem depender de estado
-        html += '<button type="button" class="topico-item" data-materia="' + this.escape(rotulo) + '" data-topico="' + this.escape(topico.nome) + '">' + this.escape(topico.nome) + '</button>'; // cada tópico clicável
+        html += '<button type="button" class="topico-item" data-materia="' + Util.escape(rotulo) + '" data-topico="' + Util.escape(topico.nome) + '">' + Util.escape(topico.nome) + '</button>'; // cada tópico clicável
       }
     }
 
@@ -661,15 +662,15 @@ const EditalUI = {
   explicacaoTopico(info, nome) {
     let html = '';                                                // acumulador de HTML
     if (info) {                                                   // achamos explicação pronta
-      html += '<p><strong>' + T('ed_topico_porque') + ':</strong> ' + this.escape(info.porque) + '</p>'; // por que cai
-      html += '<p><strong>' + T('ed_topico_como') + ':</strong> ' + this.escape(info.como) + '</p>'; // como estudar
+      html += '<p><strong>' + T('ed_topico_porque') + ':</strong> ' + Util.escape(info.porque) + '</p>'; // por que cai
+      html += '<p><strong>' + T('ed_topico_como') + ':</strong> ' + Util.escape(info.como) + '</p>'; // como estudar
     } else {                                                      // sem explicação — honesto
       html += '<p>' + T('ed_topico_generico') + '</p>';           // orientação genérica
     }
     // Link da aula: busca do YouTube com matéria + tópico
     const busca = (this.modalMateria ? this.modalMateria.rotulo + ' ' : '') + nome + ' resumo'; // termo de busca
     const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a busca
-    html += '<a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: this.escape(nome) }) + '</a>'; // link da aula
+    html += '<a class="link-video" href="' + url + '" target="_blank" rel="noopener">' + T('sim_aula', { tema: Util.escape(nome) }) + '</a>'; // link da aula
     return html;                                                  // devolve o miolo
   },
 
@@ -680,21 +681,11 @@ const EditalUI = {
     const plano = DadosTemas.concursos.concat(DadosTemas.vestibular) // junta os catálogos
       .find(t => t.materia === rotuloMateria);                     // acha pelo nome
     this.modalMateria = { rotulo: rotuloMateria, plano: plano };   // guarda o contexto aberto
-    let html = '<h3 style="margin-top:0;padding-right:1.6rem">📌 ' + this.escape(nomeTopico) + '</h3>'; // título: o tópico
-    html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.7rem">' + (plano ? plano.icone + ' ' : '') + this.escape(rotuloMateria) + '</p>'; // matéria de origem
+    let html = '<h3 style="margin-top:0;padding-right:1.6rem">📌 ' + Util.escape(nomeTopico) + '</h3>'; // título: o tópico
+    html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.7rem">' + (plano ? plano.icone + ' ' : '') + Util.escape(rotuloMateria) + '</p>'; // matéria de origem
     html += '<div class="topico-explicacao">' + this.explicacaoTopico(this.infoDoTopico(nomeTopico), nomeTopico) + '</div>'; // explicação + aula
-    html += '<button type="button" class="ver-mais link-todos-topicos" data-materia="' + this.escape(rotuloMateria) + '">' + T('ed_modal_todos', { materia: this.escape(rotuloMateria) }) + '</button>'; // volta aos tópicos
+    html += '<button type="button" class="ver-mais link-todos-topicos" data-materia="' + Util.escape(rotuloMateria) + '">' + T('ed_modal_todos', { materia: Util.escape(rotuloMateria) }) + '</button>'; // volta aos tópicos
     document.getElementById('modal-conteudo').innerHTML = html;    // despeja no modal
     document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal
-  },
-
-  // Foge do HTML (segurança ao exibir texto do PDF na tela)
-  escape(texto) {
-    return String(texto)                                    // garante texto
-      .replace(/&/g, '&amp;')                               // escapa "&"
-      .replace(/</g, '&lt;')                                // escapa "<"
-      .replace(/>/g, '&gt;')                                // escapa ">"
-      .replace(/"/g, '&quot;')                              // escapa aspas
-      .replace(/'/g, '&#39;');                              // escapa apóstrofo
   }
 };

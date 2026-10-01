@@ -88,7 +88,7 @@ ctx.window.print = ctx.window.print;
 vm.createContext(ctx);
 vm.runInContext('var window=this;', ctx);         // window === globalThis no vm
 
-for (const arq of ['js/idioma.js', 'js/armazenamento.js', 'js/edital.js', 'js/coffee-wrap.js']) {
+for (const arq of ['js/util.js', 'js/idioma.js', 'js/armazenamento.js', 'js/edital.js', 'js/coffee-wrap.js']) {
   vm.runInContext(fs.readFileSync(arq, 'utf8'), ctx);
 }
 

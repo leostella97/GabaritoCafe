@@ -85,7 +85,7 @@ const CadernosUI = {
     html += '<div class="campo" style="margin-top:1rem"><label>' + T('cad_escolher_pasta') + '</label>';
     html += '<select id="select-pasta-salvar" style="width:100%">';
     for (const p of listaPastas) {
-      html += '<option value="' + this.escape(p) + '">' + this.escape(p) + ' (' + (dados.pastas[p] ? dados.pastas[p].length : 0) + ')</option>';
+      html += '<option value="' + Util.escape(p) + '">' + Util.escape(p) + ' (' + (dados.pastas[p] ? dados.pastas[p].length : 0) + ')</option>';
     }
     html += '</select></div>';
 
@@ -97,7 +97,7 @@ const CadernosUI = {
     html += '<hr style="margin:1.2rem 0;border:0;border-top:1px solid var(--linha)">';
     html += '<label style="font-size:0.85rem;font-weight:800">' + T('cad_criar_nova') + '</label>';
     html += '<div style="display:flex;gap:0.5rem;margin-top:0.4rem">';
-    html += '<input id="input-nova-pasta-modal" type="text" placeholder="' + this.escape(T('cad_ph_nova')) + '" style="flex:1">';
+    html += '<input id="input-nova-pasta-modal" type="text" placeholder="' + Util.escape(T('cad_ph_nova')) + '" style="flex:1">';
     html += '<button id="btn-criar-pasta-modal" class="botao botao-contorno pequeno">' + T('cad_btn_criar') + '</button>';
     html += '</div>';
 
@@ -130,6 +130,14 @@ const CadernosUI = {
     const caixa = document.getElementById('tela-cadernos');
     if (!caixa) return;
 
+    // TEAM_007: banco sob demanda — os cards listam questões do BancoQuestoes;
+    // se ainda não carregou, mostra spinner e re-renderiza quando pronto
+    if (!BancoLoader.pronto()) {                  // banco ainda carregando?
+      caixa.innerHTML = '<div class="cartao"><div class="girando"></div><p class="mensagem">' + T('carregando') + '</p></div>'; // spinner de espera
+      BancoLoader.carregar().then(() => this.renderizar()); // re-renderiza ao terminar
+      return;                                     // sai por ora
+    }
+
     const dados = this.obterDados();
     const pastas = dados.pastas || { 'Favoritos': [] };
     const nomesPastas = Object.keys(pastas);
@@ -140,7 +148,7 @@ const CadernosUI = {
 
     // Formulário para criar pasta
     html += '<div style="display:flex;gap:0.6rem;margin-top:1.2rem;flex-wrap:wrap">';
-    html += '<input id="input-nova-pasta-tela" type="text" placeholder="' + this.escape(T('cad_ph_nova')) + '" style="flex:1;min-width:200px">';
+    html += '<input id="input-nova-pasta-tela" type="text" placeholder="' + Util.escape(T('cad_ph_nova')) + '" style="flex:1;min-width:200px">';
     html += '<button id="btn-criar-pasta-tela" class="botao botao-primario">' + T('cad_btn_criar') + '</button>';
     html += '</div>';
     html += '</div>';
@@ -153,16 +161,16 @@ const CadernosUI = {
       html += '<div class="cartao aparecer" style="margin-top:1.2rem">';
       html += '<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.6rem">';
       html += '<div>';
-      html += '<h4 style="margin:0;color:var(--cafe);font-size:1.1rem">📂 ' + this.escape(p) + '</h4>';
+      html += '<h4 style="margin:0;color:var(--cafe);font-size:1.1rem">📂 ' + Util.escape(p) + '</h4>';
       html += '<p class="texto-suave" style="font-size:0.85rem;margin:0.2rem 0 0">' + T('cad_total_questoes', { n: totalQ }) + '</p>';
       html += '</div>';
 
       html += '<div style="display:flex;gap:0.5rem;flex-wrap:wrap">';
       if (totalQ > 0) {
-        html += '<button class="botao botao-primario pequeno btn-simulado-caderno" data-pasta="' + this.escape(p) + '">📝 ' + T('cad_iniciar_simulado') + '</button>';
+        html += '<button class="botao botao-primario pequeno btn-simulado-caderno" data-pasta="' + Util.escape(p) + '">📝 ' + T('cad_iniciar_simulado') + '</button>';
       }
       if (p !== 'Favoritos') {
-        html += '<button class="botao botao-fantasma pequeno btn-excluir-pasta" data-pasta="' + this.escape(p) + '">🗑️ ' + T('cad_excluir_pasta') + '</button>';
+        html += '<button class="botao botao-fantasma pequeno btn-excluir-pasta" data-pasta="' + Util.escape(p) + '">🗑️ ' + T('cad_excluir_pasta') + '</button>';
       }
       html += '</div></div>';
 
@@ -173,12 +181,12 @@ const CadernosUI = {
           const questao = BancoQuestoes.find(q => q.id === qid);
           if (questao) {
             html += '<details class="questao-revisao">';
-            html += '<summary><span>' + this.escape(questao.materia) + ' · ' + this.escape(questao.banca) + '</span>';
-            html += '<button class="botao botao-fantasma pequeno btn-remover-q" data-qid="' + qid + '" data-pasta="' + this.escape(p) + '" style="margin-left:auto;padding:0.2rem 0.5rem">✕</button>';
+            html += '<summary><span>' + Util.escape(questao.materia) + ' · ' + Util.escape(questao.banca) + '</span>';
+            html += '<button class="botao botao-fantasma pequeno btn-remover-q" data-qid="' + qid + '" data-pasta="' + Util.escape(p) + '" style="margin-left:auto;padding:0.2rem 0.5rem">✕</button>';
             html += '</summary>';
             html += '<div class="corpo">';
-            html += '<p style="font-size:0.9rem">' + this.escape(questao.enunciado) + '</p>';
-            html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: String.fromCharCode(65 + questao.correta) }) + '</strong> ' + this.escape(questao.explicacao) + '</p>';
+            html += '<p style="font-size:0.9rem">' + Util.escape(questao.enunciado) + '</p>';
+            html += '<p style="font-size:0.9rem"><strong>' + T('sim_certa_e', { letra: String.fromCharCode(65 + questao.correta) }) + '</strong> ' + Util.escape(questao.explicacao) + '</p>';
             html += '</div></details>';
           }
         }
@@ -224,14 +232,5 @@ const CadernosUI = {
         this.renderizar();
       });
     });
-  },
-
-  escape(texto) {
-    return String(texto)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
   }
 };
