@@ -17,6 +17,7 @@
 .area-app {                         /* casca do app logado */
   display: flex;                    /* lateral + conteúdo lado a lado */
   min-height: 100vh;                /* ocupa a tela toda */
+  min-height: 100dvh;               /* TEAM_007: dvh respeita a barra de URL do celular */
 }
 
 .conteudo {                         /* área principal à direita */
@@ -31,12 +32,20 @@
    ".tela { display: none }" e o login continuaria visível após entrar. */
 .tela-login {                       /* casca da tela de login */
   min-height: 100vh;                /* ocupa a tela toda */
+  min-height: 100dvh;               /* TEAM_007: dvh respeita a barra de URL do celular */
   grid-template-columns: 1.1fr 1fr; /* hero maior, painel menor */
   align-items: stretch;             /* estica as colunas */
+  /* TEAM_007: o café escuro do hero agora é o fundo da TELA INTEIRA —
+     gradiente espresso + bolhas de crema + sombra de café preto */
+  background:
+    radial-gradient(circle at 86% 8%, rgba(201, 138, 94, 0.16) 0, transparent 32%), /* bolha de crema no topo */
+    radial-gradient(circle at 97% 80%, rgba(230, 185, 138, 0.10) 0, transparent 30%), /* crema clara no canto */
+    radial-gradient(circle at 55% 115%, rgba(18, 11, 7, 0.55) 0, transparent 62%),   /* profundidade de café preto */
+    linear-gradient(160deg, #4a3323 0%, #2c1e15 55%, #1a110a 100%); /* café → espresso → quase preto */
 }
 
 .login-hero {                       /* metade esquerda: a "vitrine" */
-  background: linear-gradient(160deg, #4a3323, #2c1e15); /* gradiente de café escuro */
+  background: transparent;          /* TEAM_007: deixa o café da tela atravessar — mesma textura dos dois lados */
   color: #f5e9d7;                   /* texto creme */
   padding: clamp(2rem, 6vw, 4.5rem); /* respiro generoso */
   display: flex;                    /* coluna centralizada */
@@ -122,10 +131,40 @@
   align-items: center;              /* vertical */
   justify-content: center;          /* horizontal */
   padding: 2rem;                    /* respiro */
-  background:
-    radial-gradient(circle at 20% 20%, rgba(201, 138, 94, 0.08) 0, transparent 45%), /* mancha suave */
-    var(--creme);                   /* fundo creme */
+  position: relative;               /* para as decorações de café do fundo */
+  overflow: hidden;                 /* corta decorações que vazam */
+  /* TEAM_007: transparente — o fundo escuro da tela continua aqui também */
 }
+
+/* TEAM_007: aro de xícara (mancha de café) translúcido no canto superior */
+.login-painel::before {
+  content: '';                      /* decorativo */
+  position: absolute;               /* flutua no fundo */
+  width: 430px;                     /* tamanho do aro */
+  height: 430px;                    /* tamanho do aro */
+  border-radius: 50%;               /* círculo perfeito */
+  border: 30px solid rgba(201, 138, 94, 0.07); /* aro de mancha de café */
+  top: -180px;                      /* transborda para cima */
+  right: -180px;                    /* transborda para a direita */
+}
+
+/* TEAM_007: bolha de crema embaixo à esquerda do painel */
+.login-painel::after {
+  content: '';                      /* decorativo */
+  position: absolute;               /* flutua no fundo */
+  width: 240px;                     /* tamanho */
+  height: 240px;                    /* tamanho */
+  border-radius: 50%;               /* círculo */
+  background: rgba(230, 185, 138, 0.08); /* caramelo claro translúcido */
+  bottom: -90px;                    /* transborda para baixo */
+  left: -90px;                      /* transborda para a esquerda */
+}
+
+/* Mantém o cartão e o anúncio acima das decorações do fundo */
+.login-painel > * { position: relative; z-index: 1; }
+
+/* TEAM_007: selo "Publicidade" legível sobre o fundo café escuro */
+.login-painel .anuncio-rotulo { color: rgba(230, 214, 190, 0.55); }
 
 .login-cartao { width: 100%; max-width: 400px; } /* cartão de login com largura controlada */
 
@@ -185,7 +224,7 @@
 
 .dash-acoes {                       /* fileira de atalhos rápidos */
   display: grid;                    /* grade */
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* adaptável */
+  grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); /* adaptável; TEAM_007: min() impede estouro em telas estreitas */
   gap: 1rem;                        /* respiro */
   margin-bottom: 1.2rem;            /* distância do resto */
 }
@@ -274,7 +313,7 @@
    data, horário e aproveitamento ao lado do emoji. */
 .fid-grade {                          /* grade das casas de carimbo */
   display: grid;                      /* grade */
-  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); /* adaptável */
+  grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); /* adaptável; TEAM_007: 2 colunas no celular sem estourar */
   gap: 0.6rem;                        /* respiro entre casas */
 }
 
@@ -620,7 +659,7 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
 /* ---------- Bancas ---------- */
 .grade-bancas {                     /* grade de cartões de banca */
   display: grid;                    /* grade */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adaptável */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); /* adaptável; TEAM_007: min() impede estouro em 320px */
   gap: 1.2rem;                      /* respiro */
 }
 
@@ -673,7 +712,7 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
 /* ---------- Temas que mais caem ---------- */
 .grade-temas {                      /* grade de cartões de matéria */
   display: grid;                    /* grade */
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* adaptável */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); /* adaptável; TEAM_007: min() impede estouro em 320px */
   gap: 1.2rem;                      /* respiro */
 }
 

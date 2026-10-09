@@ -219,6 +219,7 @@
   position: sticky;                 /* fica fixo ao rolar */
   top: 0;                           /* colado no topo */
   height: 100vh;                    /* altura da tela */
+  height: 100dvh;                   /* TEAM_007: dvh respeita a barra de URL do celular */
 }
 
 .marca {                            /* logo + nome na lateral */
@@ -418,7 +419,7 @@
 /* ---------- Grid de estatísticas ---------- */
 .grade-estatisticas {               /* fileira de cartõezinhos de número */
   display: grid;                    /* grade */
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* se ajusta à largura */
+  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); /* se ajusta; TEAM_007: min() impede estouro em telas estreitas */
   gap: 1rem;                        /* respiro entre cartões */
 }
 
@@ -670,6 +671,7 @@
   box-shadow: var(--sombra-media);  /* sombra de elemento flutuante */
   width: min(560px, 100%);          /* largura máxima confortável */
   max-height: 80vh;                 /* não estoura a tela */
+  max-height: 80dvh;                /* TEAM_007: dvh respeita a barra de URL do celular */
   overflow-y: auto;                 /* rola se ficar alto */
   padding: 1.4rem 1.3rem;           /* respiro interno */
 }

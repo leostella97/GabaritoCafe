@@ -21,6 +21,7 @@ body {                              /* corpo da página */
   background-color: var(--creme);   /* fundo creme, cor de café com leite */
   color: var(--cafe-escuro);        /* texto em marrom bem escuro */
   min-height: 100vh;                /* ocupa no mínimo a altura da tela */
+  min-height: 100dvh;               /* TEAM_007: dvh respeita a barra de URL do celular */
   line-height: 1.6;                 /* respiro confortável entre linhas */
 }
 

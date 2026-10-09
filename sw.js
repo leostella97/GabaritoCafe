@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v18';                // TEAM_007: bump — banco sob demanda (banco-loader) + Util compartilhado
+const CACHE = 'gabarito-cafe-v19';                // TEAM_007: bump — login escuro completo + correções mobile (dvh, grids min())
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona

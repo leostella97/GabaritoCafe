@@ -52,7 +52,7 @@ const ComparadorEditalUI = {
     html += '<h3>⚔️ ' + T('comp_titulo') + '</h3>';
     html += '<p class="texto-suave">' + T('comp_sub') + '</p>';
 
-    html += '<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:1rem;margin-top:1rem">';
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(250px, 100%), 1fr));gap:1rem;margin-top:1rem">'; // TEAM_007: min() impede estouro em telas estreitas
 
     // Edital A
     html += '<div>';

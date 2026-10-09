@@ -191,5 +191,34 @@ melhore desempenho e velocidade; instalei jasmine, pode usar."
   banco chega em background (ou sob demanda com spinner nas telas).
 - pdf.js fora do caminho crítico do parse.
 
+## Login escuro + mobile (pedido do usuário)
+"Verifique dimensão visualização mobile, há problemas, corrija; index
+complete o fundo da esquerda no background da tela, continue o design
+escuro com elementos baseado em café."
+
+### Login (index/telas.css)
+- `.tela-login` ganhou o fundo café escuro da TELA INTEIRA: gradiente
+  espresso (#4a3323→#2c1e15→#1a110a) + bolhas de crema + sombra de café
+  preto em radial-gradients — o painel direito não é mais uma faixa creme.
+- `.login-hero` e `.login-painel` ficam transparentes → o design flui
+  dos dois lados (a "continuação" pedida).
+- `.login-painel::before` — aro de xícara (mancha de café translúcida)
+  no canto superior direito; `::after` — bolha de crema embaixo à
+  esquerda. Elementos de café puros em CSS (zero imagens).
+- `.login-painel .anuncio-rotulo` clareado (legível no escuro).
+- O cartão continua claro — "papel" sobre o balcão escuro, contraste
+  premium e acessível.
+
+### Correções mobile
+- `min-height/height/max-height` em `100vh` → adicionado `100dvh`/`80dvh`
+  (body, .area-app, .tela-login, .barra-lateral, .modal-caixa) — a barra
+  de URL do celular não corta mais o layout.
+- Grids com minmax(px fixo) estouravam em 320–360px → viraram
+  `minmax(min(Npx, 100%), 1fr)`: dash-cards (210), fidelidade (150 → 2
+  colunas no celular), estatísticas (150), grade-bancas (280),
+  grade-temas (280) e comparador-edital inline (250).
+- meta viewport ganhou `viewport-fit=cover` (notch).
+- sw.js bump v18 → v19.
+
 ## TODO(TEAM_007)
 - Ideia futura: checkbox "só as erradas" na exportação do simulado.
