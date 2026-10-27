@@ -1212,6 +1212,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A Súmula Vinculante 13 é pegadinha clássica.",
           "como": "Nepotismo = parente em cargo comissionado, direto ou cruzado — vedado; ferir a moralidade é ato ímprobo."
+        },
+        {
+          "nome": "Princípios éticos gerais",
+          "frequencia": 5,
+          "porque": "Base de conduta no serviço público.",
+          "como": "Honestidade, respeito, justiça e responsabilidade."
+        },
+        {
+          "nome": "Código de ética profissional",
+          "frequencia": 4,
+          "porque": "Normas específicas por profissão.",
+          "como": "Conheça o código aplicável à sua área."
+        },
+        {
+          "nome": "Sigilo e transparência",
+          "frequencia": 4,
+          "porque": "Equilíbrio entre acesso e proteção de dados.",
+          "como": "Lei de Acesso à Informação e LGPD."
+        },
+        {
+          "nome": "Assédio moral e sexual",
+          "frequencia": 3,
+          "porque": "Ambiente de trabalho saudável.",
+          "como": "Conheça políticas e canais de denúncia."
+        },
+        {
+          "nome": "Imparcialidade e isenção",
+          "frequencia": 4,
+          "porque": "Decisão justa e objetiva.",
+          "como": "Evite favorecimento pessoal."
+        },
+        {
+          "nome": "Responsabilidade social",
+          "frequencia": 3,
+          "porque": "Impacto das ações públicas.",
+          "como": "Aja com visão de coletivo."
+        },
+        {
+          "nome": "Ética e compliance",
+          "frequencia": 3,
+          "porque": "Programas de integridade nas organizações.",
+          "como": "Códigos de conduta e canais de ética."
+        },
+        {
+          "nome": "Ética digital",
+          "frequencia": 3,
+          "porque": "Uso responsável de tecnologia.",
+          "como": "Privacidade, desinformação e cibersegurança."
+        },
+        {
+          "nome": "Ética na pesquisa",
+          "frequencia": 2,
+          "porque": "Integridade científica.",
+          "como": "Plágio, falsificação e comitês de ética."
+        },
+        {
+          "nome": "Ética ambiental",
+          "frequencia": 3,
+          "porque": "Sustentabilidade nas decisões.",
+          "como": "Princípio do desenvolvimento sustentável."
+        },
+        {
+          "nome": "Ética no atendimento ao público",
+          "frequencia": 4,
+          "porque": "Qualidade e respeito ao usuário.",
+          "como": "Empatia, cortesia e eficiência."
+        },
+        {
+          "nome": "Assédio e discriminação",
+          "frequencia": 3,
+          "porque": "Inclusão e igualdade.",
+          "como": "Políticas de diversidade e acolhimento."
+        },
+        {
+          "nome": "Gestão de conflitos éticos",
+          "frequencia": 2,
+          "porque": "Tomada de decisão difícil.",
+          "como": "Consulta a superiores e comitês de ética."
+        },
+        {
+          "nome": "Integridade pública",
+          "frequencia": 4,
+          "porque": "Combate à corrupção.",
+          "como": "Transparência e prestação de contas."
         }
       ]
     },
