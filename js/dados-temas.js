@@ -668,6 +668,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "PF, PRF, PM e GCM cobram as competências de cada órgão.",
           "como": "PF = polícia judiciária da União; PRF = rodovias federais; PM = policiamento ostensivo; GCM = proteção de bens municipais. Um papel por força."
+        },
+        {
+          "nome": "Princípios fundamentais",
+          "frequencia": 5,
+          "porque": "Base da ordem constitucional.",
+          "como": "Art.1º ao 4º: soberania, cidadania, dignidade, pluralismo."
+        },
+        {
+          "nome": "Direitos e garantias fundamentais",
+          "frequencia": 5,
+          "porque": "Art.5º é o mais cobrado.",
+          "como": "Direitos individuais, coletivos, sociais e políticos."
+        },
+        {
+          "nome": "Organização do Estado",
+          "frequencia": 4,
+          "porque": "União, estados, DF e municípios.",
+          "como": "Competências comuns e privativas."
+        },
+        {
+          "nome": "Poder Legislativo",
+          "frequencia": 4,
+          "porque": "Congresso Nacional e processo legislativo.",
+          "como": "Iniciativa, tramitação e sanção."
+        },
+        {
+          "nome": "Poder Executivo",
+          "frequencia": 4,
+          "porque": "Presidente e ministros de Estado.",
+          "como": "Atribuições e responsabilidade."
+        },
+        {
+          "nome": "Poder Judiciário",
+          "frequencia": 4,
+          "porque": "Estrutura e competências.",
+          "como": "STF, STJ, TRFs, TJ e juizados."
+        },
+        {
+          "nome": "Funções essenciais à Justiça",
+          "frequencia": 3,
+          "porque": "Ministério Público e advocacia.",
+          "como": "Princípios institucionais e independência."
+        },
+        {
+          "nome": "Administração pública",
+          "frequencia": 4,
+          "porque": "Princípios e regime jurídico.",
+          "como": "Legalidade, impessoalidade, moralidade, publicidade e eficiência."
+        },
+        {
+          "nome": "Servidores públicos",
+          "frequencia": 3,
+          "porque": "Regime jurídico e estabilidade.",
+          "como": "Concurso público, direitos e deveres."
+        },
+        {
+          "nome": "Intervenção federal e estadual",
+          "frequencia": 3,
+          "porque": "Hipóteses constitucionais.",
+          "como": "Art.34 e 35 da CF."
+        },
+        {
+          "nome": "Reforma do Estado",
+          "frequencia": 2,
+          "porque": "Emendas constitucionais recentes.",
+          "como": "Siga a cronologia das ECs mais relevantes."
+        },
+        {
+          "nome": "Controle de constitucionalidade",
+          "frequencia": 4,
+          "porque": "Ações diretas no STF.",
+          "como": "ADIn, ADC, ADPF e mandado de injunção."
+        },
+        {
+          "nome": "Súmulas vinculantes",
+          "frequencia": 3,
+          "porque": "Efeitos vinculantes no Judiciário.",
+          "como": "Art.103-A e requisitos."
+        },
+        {
+          "nome": "Ordem econômica e financeira",
+          "frequencia": 3,
+          "porque": "Princípios da atividade econômica.",
+          "como": "Art.170 a 192."
+        },
+        {
+          "nome": "Ordem social",
+          "frequencia": 3,
+          "porque": "Educação, saúde e assistência.",
+          "como": "Art.193 a 232 e políticas públicas."
         }
       ]
     },
