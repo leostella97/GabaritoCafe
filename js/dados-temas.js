@@ -1073,6 +1073,96 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Proteção integral e prioridade caem em concursos de prefeitura.",
           "como": "Criança = até 12 anos; adolescente = 12-18; prioridade absoluta no atendimento; direito à vida, saúde e educação."
+        },
+        {
+          "nome": "Hierarquia das normas",
+          "frequencia": 5,
+          "porque": "Pirâmide de Kelsen é base.",
+          "como": "Constituição > leis complementares > leis ordinárias > decretos."
+        },
+        {
+          "nome": "Lei de introdução às normas",
+          "frequencia": 4,
+          "porque": "Vigência e interpretação de leis.",
+          "como": "Art.1º a 11 da LINDB."
+        },
+        {
+          "nome": "Processo legislativo",
+          "frequencia": 4,
+          "porque": "Formação da lei no Congresso.",
+          "como": "Iniciativa, tramitação, sanção e veto."
+        },
+        {
+          "nome": "Vigência e eficácia",
+          "frequencia": 4,
+          "porque": "Quando a lei produz efeitos.",
+          "como": "Vacatio legis e casos de eficácia plena/limitada."
+        },
+        {
+          "nome": "Revogação e ab-rogação",
+          "frequencia": 3,
+          "porque": "Extinção formal ou material da norma.",
+          "como": "Revogação expressa ou tácita."
+        },
+        {
+          "nome": "Interpretação jurídica",
+          "frequencia": 4,
+          "porque": "Métodos gramatical, lógico e teleológico.",
+          "como": "Busque intenção do legislador e contexto."
+        },
+        {
+          "nome": "Regulamentação",
+          "frequencia": 3,
+          "porque": "Decretos e atos normativos.",
+          "como": "Atos do poder executivo para detalhar lei."
+        },
+        {
+          "nome": "Leis complementares e ordinárias",
+          "frequencia": 4,
+          "porque": "Reserva de lei complementar.",
+          "como": "Temas que exigem maioria absoluta."
+        },
+        {
+          "nome": "Medidas provisórias",
+          "frequencia": 3,
+          "porque": "Urgência e relevância.",
+          "como": "Vigência temporária e conversão."
+        },
+        {
+          "nome": "Decreto-lei",
+          "frequencia": 2,
+          "porque": "Histórico e limites.",
+          "como": "Uso excepcional em estados de exceção."
+        },
+        {
+          "nome": "Normas penais",
+          "frequencia": 3,
+          "porque": "Princípio da legalidade penal.",
+          "como": "Nullum crimen sine lege."
+        },
+        {
+          "nome": "Convalidação e repristinação",
+          "frequencia": 2,
+          "porque": "Ressurreição de normas revogadas.",
+          "como": "Raros casos previstos em lei."
+        },
+        {
+          "nome": "Atos infralegais",
+          "frequencia": 3,
+          "porque": "Resoluções, portarias e instruções normativas.",
+          "como": "Hierarquia abaixo da lei."
+        },
+        {
+          "nome": "Responsabilidade civil extracontratual",
+          "frequencia": 2,
+          "porque": "Fundamentos legais.",
+          "como": "Art.927 do Código Civil."
+        },
+        {
+          "nome": "Legislação trabalhista básica",
+          "frequencia": 3,
+          "porque": "CLT e normas correlatas.",
+          "como": "Jornada, férias e salário mínimo."
         }
       ]
     },
