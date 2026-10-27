@@ -76,6 +76,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -142,6 +162,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -208,6 +248,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -274,6 +334,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -340,6 +420,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -420,6 +520,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -486,6 +606,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -552,6 +692,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -618,6 +778,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -684,6 +864,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -763,6 +963,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -829,6 +1049,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -895,6 +1135,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -961,6 +1221,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1027,6 +1307,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -1108,6 +1408,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1174,6 +1494,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1240,6 +1580,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1306,6 +1666,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1372,6 +1752,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -1453,6 +1853,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1519,6 +1939,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1585,6 +2025,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1651,6 +2111,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1717,6 +2197,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -1798,6 +2298,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1864,6 +2384,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1930,6 +2470,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -1996,6 +2556,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2062,6 +2642,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -2182,6 +2782,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2288,6 +2908,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2394,6 +3034,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2500,6 +3160,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2606,6 +3286,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
@@ -2706,6 +3406,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2792,6 +3512,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2878,6 +3618,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -2964,6 +3724,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         },
@@ -3050,6 +3830,26 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Leitura comentada de edital",
+              "explicacao": "Faça uma leitura ativa do edital destacando conteúdos cobrados."
+            },
+            {
+              "nome": "Estratégia por pontuação",
+              "explicacao": "Priorize matérias com maior peso e maior índice de acerto."
+            },
+            {
+              "nome": "Simulado por banca",
+              "explicacao": "Treine com questões da mesma banca para entender o estilo."
+            },
+            {
+              "nome": "Revisão espaçada",
+              "explicacao": "Revise tópicos em intervalos crescentes para fixar na memória."
+            },
+            {
+              "nome": "Gestão do tempo na prova",
+              "explicacao": "Treine a marcação e a ordem de resolução das questões."
             }
           ]
         }
