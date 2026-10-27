@@ -547,6 +547,78 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A lei de dados virou assunto certo em provas recentes.",
           "como": "Saiba os direitos do titular (acesso, correção, exclusão) e os papéis: controlador decide, operador executa."
+        },
+        {
+          "nome": "Sistemas operacionais",
+          "frequencia": 4,
+          "porque": "Windows, Linux e macOS são cobrados.",
+          "como": "Arquivos, pastas, permissões e gerenciamento de processos."
+        },
+        {
+          "nome": "Redes de computadores",
+          "frequencia": 4,
+          "porque": "Modelos OSI e TCP/IP aparecem muito.",
+          "como": "Camadas, protocolos e tipos de rede."
+        },
+        {
+          "nome": "Pacote Office básico",
+          "frequencia": 4,
+          "porque": "Word, Excel e PowerPoint em provas práticas.",
+          "como": "Formatação, fórmulas e criação de slides."
+        },
+        {
+          "nome": "Banco de dados relacional",
+          "frequencia": 3,
+          "porque": "Tabelas, chaves e normalização.",
+          "como": "SQL básico e tipos de relacionamentos."
+        },
+        {
+          "nome": "Linguagens de marcação",
+          "frequencia": 2,
+          "porque": "HTML e XML em editais técnicos.",
+          "como": "Estrutura de tags e semântica."
+        },
+        {
+          "nome": "Noções de algoritmos",
+          "frequencia": 3,
+          "porque": "Lógica de programação básica.",
+          "como": "Estruturas de controle e pseudocódigo."
+        },
+        {
+          "nome": "Computação em nuvem",
+          "frequencia": 2,
+          "porque": "Serviços SaaS, PaaS e IaaS.",
+          "como": "Vantagens e modelos de implantação."
+        },
+        {
+          "nome": "Backup e recuperação",
+          "frequencia": 3,
+          "porque": "Estratégias de cópia e restauração.",
+          "como": "3-2-1 e testes periódicos."
+        },
+        {
+          "nome": "Acessibilidade digital",
+          "frequencia": 2,
+          "porque": "Leis e práticas de inclusão.",
+          "como": "WCAG e padrões de acessibilidade."
+        },
+        {
+          "nome": "Ética em tecnologia",
+          "frequencia": 2,
+          "porque": "Uso responsável de dados e IA.",
+          "como": "Privacidade, LGPD e boas práticas."
+        },
+        {
+          "nome": "Noções de TI governamental",
+          "frequencia": 3,
+          "porque": "Padrões de governo eletrônico.",
+          "como": "e-Gov e interoperabilidade."
+        },
+        {
+          "nome": "Gestão de TI",
+          "frequencia": 2,
+          "porque": "SLA, help desk e governança.",
+          "como": "Processos de suporte e métricas de serviço."
         }
       ]
     },
