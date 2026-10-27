@@ -807,6 +807,84 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Delegação e concessão caem contextualizados.",
           "como": "Concessão = licitação + contrato para empresa privada; permissão = precária e revogável. O serviço continua público."
+        },
+        {
+          "nome": "Princípios da administração pública",
+          "frequencia": 5,
+          "porque": "Base de todo direito administrativo.",
+          "como": "Legalidade, impessoalidade, moralidade, publicidade, eficiência."
+        },
+        {
+          "nome": "Ato administrativo",
+          "frequencia": 5,
+          "porque": "Elementos, requisitos e vícios.",
+          "como": "Competência, finalidade, forma, motivo e objeto."
+        },
+        {
+          "nome": "Serviços públicos",
+          "frequencia": 4,
+          "porque": "Conceito, classificação e regime jurídico.",
+          "como": "Essencialidade e titularidade."
+        },
+        {
+          "nome": "Licitação",
+          "frequencia": 5,
+          "porque": "Modalidades e fases do certame.",
+          "como": "Pregão, concorrência, dispensa e inexigibilidade."
+        },
+        {
+          "nome": "Contratos administrativos",
+          "frequencia": 4,
+          "porque": "Cláusulas exorbitantes e equilíbrio econômico.",
+          "como": "Fatos do príncipe e teoria da imprevisão."
+        },
+        {
+          "nome": "Improbidade administrativa",
+          "frequencia": 4,
+          "porque": "Sanções e modalidades.",
+          "como": "Art.11, 9º e 10 da Lei 8.429."
+        },
+        {
+          "nome": "Agentes públicos",
+          "frequencia": 4,
+          "porque": "Espécies e regime jurídico.",
+          "como": "Servidor efetivo, comissionado e temporário."
+        },
+        {
+          "nome": "Processo administrativo",
+          "frequencia": 3,
+          "porque": "Lei 9.784 e contraditório.",
+          "como": "Fases e direito de defesa."
+        },
+        {
+          "nome": "Controle da administração",
+          "frequencia": 3,
+          "porque": "Controle interno e externo.",
+          "como": "Tribunal de Contas e controle jurisdicional."
+        },
+        {
+          "nome": "Desapropriação",
+          "frequencia": 3,
+          "porque": "Hipóteses e indenização justa.",
+          "como": "Interesse público e prévia indenização."
+        },
+        {
+          "nome": "Bens públicos",
+          "frequencia": 3,
+          "porque": "Classificação e afetação.",
+          "como": "Uso comum, uso especial e dominicais."
+        },
+        {
+          "nome": "Concessão e permissão de serviço",
+          "frequencia": 3,
+          "porque": "Parcerias com iniciativa privada.",
+          "como": "Diferenças conceituais e regulamentação."
+        },
+        {
+          "nome": "Serviços públicos delegados",
+          "frequencia": 2,
+          "porque": "Concessões, PPPs e terceirizações.",
+          "como": "Risco e continuidade do serviço."
         }
       ]
     },
