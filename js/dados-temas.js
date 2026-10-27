@@ -934,6 +934,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Voto, urna eletrônica e TSE são temas de cidadania.",
           "como": "TSE organiza as eleições; maioria absoluta elege em 1º turno presidente, governador e prefeito (cidades >200 mil)."
+        },
+        {
+          "nome": "Política brasileira recente",
+          "frequencia": 5,
+          "porque": "Eleições, governo e Congresso são recorrentes.",
+          "como": "Acompanhe agenda legislativa e principais projetos de lei."
+        },
+        {
+          "nome": "Economia e inflação",
+          "frequencia": 5,
+          "porque": "IPCA, Selic e PIB aparecem em análises.",
+          "como": "Entenda índices e política monetária do BC."
+        },
+        {
+          "nome": "Meio ambiente e mudanças climáticas",
+          "frequencia": 4,
+          "porque": "Desmatamento e acordos internacionais.",
+          "como": "Monitore dados do INPE e COPs."
+        },
+        {
+          "nome": "Saúde pública",
+          "frequencia": 4,
+          "porque": "SUS, campanhas e pandemias.",
+          "como": "Acompanhe Ministério da Saúde e OMS."
+        },
+        {
+          "nome": "Tecnologia e inovação",
+          "frequencia": 4,
+          "porque": "IA, startups e leis digitais.",
+          "como": "Siga marcos regulatórios e tendências."
+        },
+        {
+          "nome": "Educação",
+          "frequencia": 3,
+          "porque": "ENEM, CNEC e políticas educacionais.",
+          "como": "Acompanhe MEC e avaliações."
+        },
+        {
+          "nome": "Segurança pública",
+          "frequencia": 3,
+          "porque": "Violência, policiamento e políticas.",
+          "como": "Dados de IPEA e Fórum Brasileiro de Segurança."
+        },
+        {
+          "nome": "Direitos humanos",
+          "frequencia": 3,
+          "porque": "Temas sociais e internacionais.",
+          "como": "ONU, OEA e relatórios."
+        },
+        {
+          "nome": "Relações internacionais",
+          "frequencia": 4,
+          "porque": "Brasil no mundo, MERCOSUL e ONU.",
+          "como": "Acompanhe Itamaraty e eventos globais."
+        },
+        {
+          "nome": "Cultura e arte",
+          "frequencia": 2,
+          "porque": "Patrimônio e manifestações culturais.",
+          "como": "Siga eventos e políticas culturais."
+        },
+        {
+          "nome": "Esportes",
+          "frequencia": 2,
+          "porque": "Competições e infraestrutura.",
+          "como": "Calendário de eventos e investimentos."
+        },
+        {
+          "nome": "Transporte e mobilidade urbana",
+          "frequencia": 2,
+          "porque": "Infraestrutura e políticas públicas.",
+          "como": "Siga projetos de mobilidade e transporte."
+        },
+        {
+          "nome": "Energia e sustentabilidade",
+          "frequencia": 3,
+          "porque": "Fontes renováveis e matriz energética.",
+          "como": "Dados de EPE e ANEEL."
+        },
+        {
+          "nome": "Democracia e participação",
+          "frequencia": 3,
+          "porque": "Participação social e controle.",
+          "como": "Conselhos, audiências e orçamento participativo."
+        },
+        {
+          "nome": "Mídia e desinformação",
+          "frequencia": 3,
+          "porque": "Fake news e regulação digital.",
+          "como": "Acompanhe políticas de combate à desinformação."
         }
       ]
     },
