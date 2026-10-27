@@ -218,6 +218,46 @@ const DadosSala = {
             {
               "nome": "Análise combinatória",
               "explicacao": "Arranjos, combinações e permutações."
+            },
+            {
+              "nome": "Números naturais e inteiros",
+              "explicacao": "Operações básicas, múltiplos, divisores e decomposição."
+            },
+            {
+              "nome": "Números racionais",
+              "explicacao": "Frações, decimais e operações com números racionais."
+            },
+            {
+              "nome": "Potenciação e radiciação",
+              "explicacao": "Propriedades de potências e raízes."
+            },
+            {
+              "nome": "Equações exponenciais e logarítmicas",
+              "explicacao": "Resolução de equações com expoentes e logaritmos."
+            },
+            {
+              "nome": "Trigonometria básica",
+              "explicacao": "Seno, cosseno e tangente em triângulos retângulos."
+            },
+            {
+              "nome": "Matrizes e determinantes",
+              "explicacao": "Operações com matrizes e cálculo de determinantes."
+            },
+            {
+              "nome": "Progressões aritméticas",
+              "explicacao": "PA, termo geral e soma dos termos."
+            },
+            {
+              "nome": "Progressões geométricas",
+              "explicacao": "PG, termo geral e soma dos termos."
+            },
+            {
+              "nome": "Razões e proporções",
+              "explicacao": "Grandezas diretamente e inversamente proporcionais."
+            },
+            {
+              "nome": "Medidas e conversões",
+              "explicacao": "Unidades de comprimento, área, volume e tempo."
             }
           ]
         },
@@ -4684,6 +4724,46 @@ const DadosSala = {
             {
               "nome": "Análise combinatória",
               "explicacao": "Arranjos, combinações e permutações."
+            },
+            {
+              "nome": "Números naturais e inteiros",
+              "explicacao": "Operações básicas, múltiplos, divisores e decomposição."
+            },
+            {
+              "nome": "Números racionais",
+              "explicacao": "Frações, decimais e operações com números racionais."
+            },
+            {
+              "nome": "Potenciação e radiciação",
+              "explicacao": "Propriedades de potências e raízes."
+            },
+            {
+              "nome": "Equações exponenciais e logarítmicas",
+              "explicacao": "Resolução de equações com expoentes e logaritmos."
+            },
+            {
+              "nome": "Trigonometria básica",
+              "explicacao": "Seno, cosseno e tangente em triângulos retângulos."
+            },
+            {
+              "nome": "Matrizes e determinantes",
+              "explicacao": "Operações com matrizes e cálculo de determinantes."
+            },
+            {
+              "nome": "Progressões aritméticas",
+              "explicacao": "PA, termo geral e soma dos termos."
+            },
+            {
+              "nome": "Progressões geométricas",
+              "explicacao": "PG, termo geral e soma dos termos."
+            },
+            {
+              "nome": "Razões e proporções",
+              "explicacao": "Grandezas diretamente e inversamente proporcionais."
+            },
+            {
+              "nome": "Medidas e conversões",
+              "explicacao": "Unidades de comprimento, área, volume e tempo."
             }
           ]
         },
