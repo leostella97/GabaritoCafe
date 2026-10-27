@@ -1865,6 +1865,96 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Os prazos para reclamar são decoreba.",
           "como": "5 anos durante o vínculo e 2 anos após a rescisão para ajuizar — e só alcança os 5 anos anteriores ao processo."
+        },
+        {
+          "nome": "Relação de emprego",
+          "frequencia": 5,
+          "porque": "Elementos fático-jurídicos.",
+          "como": "Pessoalidade, onerosidade, subordinação e habitualidade."
+        },
+        {
+          "nome": "Contrato de trabalho",
+          "frequencia": 4,
+          "porque": "Formação e tipos.",
+          "como": "Por prazo indeterminado e determinado."
+        },
+        {
+          "nome": "Jornada de trabalho",
+          "frequencia": 5,
+          "porque": "Limites e intervalos.",
+          "como": "8h diárias, 44h semanais."
+        },
+        {
+          "nome": "Horas extras",
+          "frequencia": 4,
+          "porque": "Remuneração e banco de horas.",
+          "como": "Acima de 50% do valor normal."
+        },
+        {
+          "nome": "Férias",
+          "frequencia": 4,
+          "porque": "Direito e adicionais.",
+          "como": "30 dias e 1/3 constitucional."
+        },
+        {
+          "nome": "13º salário",
+          "frequencia": 3,
+          "porque": "Parcela anual.",
+          "como": "Proporcionalidade."
+        },
+        {
+          "nome": "Rescisão do contrato",
+          "frequencia": 5,
+          "porque": "Justa causa e sem justa causa.",
+          "como": "Aviso prévio e indenizações."
+        },
+        {
+          "nome": "FGTS",
+          "frequencia": 4,
+          "porque": "Fundo de garantia.",
+          "como": "Depósitos mensais e saque."
+        },
+        {
+          "nome": "Seguro-desemprego",
+          "frequencia": 3,
+          "porque": "Proteção temporária.",
+          "como": "Requisitos de acesso."
+        },
+        {
+          "nome": "Justiça do Trabalho",
+          "frequencia": 4,
+          "porque": "Competência e processo.",
+          "como": "TRT e TST."
+        },
+        {
+          "nome": "Sindicatos",
+          "frequencia": 3,
+          "porque": "Liberdade sindical.",
+          "como": "Contribuição negocial."
+        },
+        {
+          "nome": "Negociação coletiva",
+          "frequencia": 3,
+          "porque": "Acordos e convenções.",
+          "como": "Cláusulas normativas."
+        },
+        {
+          "nome": "Salário e remuneração",
+          "frequencia": 4,
+          "porque": "Conceitos e diferenças.",
+          "como": "Salário-educação e gratificações."
+        },
+        {
+          "nome": "Ambiente de trabalho",
+          "frequencia": 3,
+          "porque": "Saúde e segurança.",
+          "como": "NRs e CIPA."
+        },
+        {
+          "nome": "Trabalho terceirizado",
+          "frequencia": 3,
+          "porque": "Regulação e responsabilidade.",
+          "como": "Lei 13.429 e jurisprudência."
         }
       ]
     },
