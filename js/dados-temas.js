@@ -1345,6 +1345,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Medida protetiva e hediondez são presença garantida.",
           "como": "Protetiva = urgência judicial para proteger a vítima; hediondos (estupro, latrocínio, tráfico) = insuscetíveis de fiança e anistia."
+        },
+        {
+          "nome": "Princípios penais",
+          "frequencia": 5,
+          "porque": "Legalidade, culpabilidade e proporcionalidade.",
+          "como": "Art.1º a 7º do Código Penal."
+        },
+        {
+          "nome": "Fato típico",
+          "frequencia": 5,
+          "porque": "Tipicidade, ilicitude e culpabilidade.",
+          "como": "Elementos do crime."
+        },
+        {
+          "nome": "Antijuridicidade",
+          "frequencia": 4,
+          "porque": "Causas excludentes.",
+          "como": "Legítima defesa, estado de necessidade."
+        },
+        {
+          "nome": "Culpabilidade",
+          "frequencia": 4,
+          "porque": "Imputabilidade e potencial consciência.",
+          "como": "Art.26 a 28 do CP."
+        },
+        {
+          "nome": "Erro de tipo",
+          "frequencia": 3,
+          "porque": "Desconhecimento do fato.",
+          "como": "Escusável vs inescusável."
+        },
+        {
+          "nome": "Tentativa",
+          "frequencia": 4,
+          "porque": "Crime consumado vs tentativa.",
+          "como": "Desistência voluntária e arrependimento."
+        },
+        {
+          "nome": "Concurso de pessoas",
+          "frequencia": 4,
+          "porque": "Coautoria e participação.",
+          "como": "Art.29 do CP."
+        },
+        {
+          "nome": "Crimes contra a pessoa",
+          "frequencia": 4,
+          "porque": "Homicídio, lesão corporal.",
+          "como": "Figuras simples e qualificadas."
+        },
+        {
+          "nome": "Pena",
+          "frequencia": 4,
+          "porque": "Espécies e aplicação.",
+          "como": "Reclusão, detenção e prestação de serviços."
+        },
+        {
+          "nome": "Medidas de segurança",
+          "frequencia": 3,
+          "porque": "Inimputáveis e periculosidade.",
+          "como": "Art.96 do CP."
+        },
+        {
+          "nome": "Prescrição penal",
+          "frequencia": 3,
+          "porque": "Extinção da punibilidade.",
+          "como": "Prazos por pena máxima."
+        },
+        {
+          "nome": "Ação penal",
+          "frequencia": 3,
+          "porque": "Pública e privada.",
+          "como": "Condições de procedibilidade."
+        },
+        {
+          "nome": "Imunidade penal",
+          "frequencia": 2,
+          "porque": "Casos especiais.",
+          "como": "Deputados e senadores."
+        },
+        {
+          "nome": "Conflito de competência penal",
+          "frequencia": 2,
+          "porque": "Justiça comum vs militar.",
+          "como": "Critérios de distribuição."
         }
       ]
     },
