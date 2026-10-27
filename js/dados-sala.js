@@ -136,6 +136,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -378,6 +398,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -504,6 +544,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -630,6 +690,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -756,6 +836,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -896,6 +996,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1022,6 +1142,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1148,6 +1288,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1274,6 +1434,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1400,6 +1580,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -1539,6 +1739,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1665,6 +1885,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1791,6 +2031,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -1917,6 +2177,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2043,6 +2323,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -2184,6 +2484,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2310,6 +2630,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2436,6 +2776,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2562,6 +2922,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2688,6 +3068,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -2829,6 +3229,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -2955,6 +3375,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3081,6 +3521,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3207,6 +3667,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3333,6 +3813,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -3474,6 +3974,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3600,6 +4120,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3726,6 +4266,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3852,6 +4412,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -3978,6 +4558,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -4158,6 +4758,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -4324,6 +4944,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -4490,6 +5130,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -4656,6 +5316,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -4822,6 +5502,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
@@ -4982,6 +5682,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -5128,6 +5848,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -5274,6 +6014,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -5420,6 +6180,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         },
@@ -5566,6 +6346,26 @@ const DadosSala = {
             {
               "nome": "Planejamento semanal",
               "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
+            },
+            {
+              "nome": "Técnicas de memorização",
+              "explicacao": "Use mnemônicos, palácio da memória e repetição espaçada."
+            },
+            {
+              "nome": "Gestão de ansiedade",
+              "explicacao": "Pratique respiração e simulados para manter o foco no dia da prova."
+            },
+            {
+              "nome": "Análise de desempenho",
+              "explicacao": "Compare acertos e erros por assunto para ajustar o estudo."
+            },
+            {
+              "nome": "Estudo ativo",
+              "explicacao": "Explique o conteúdo em voz alta e resolva questões sem consulta."
+            },
+            {
+              "nome": "Revisão de conceitos-chave",
+              "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
             }
           ]
         }
