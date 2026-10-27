@@ -2004,6 +2004,96 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "As diferenças de gestão pública caem em cargos administrativos.",
           "como": "Público = legalidade estrita e interesse coletivo; privado = liberdade contratual e lucro. O gestor público não pode \"fazer o que quiser\"."
+        },
+        {
+          "nome": "Funções administrativas",
+          "frequencia": 4,
+          "porque": "Planejar, organizar, dirigir e controlar.",
+          "como": "Conceito de Fayol."
+        },
+        {
+          "nome": "Teorias da administração",
+          "frequencia": 5,
+          "porque": "Clássica, científica, comportamental e sistêmica.",
+          "como": "Principais autores."
+        },
+        {
+          "nome": "Processo decisório",
+          "frequencia": 4,
+          "porque": "Tomada de decisão.",
+          "como": "Modelos racionais e heurísticos."
+        },
+        {
+          "nome": "Gestão de pessoas",
+          "frequencia": 5,
+          "porque": "Recrutamento, seleção e treinamento.",
+          "como": "Competências e clima organizacional."
+        },
+        {
+          "nome": "Liderança",
+          "frequencia": 4,
+          "porque": "Estilos e influência.",
+          "como": "Autocrático, democrático e liberal."
+        },
+        {
+          "nome": "Comunicação organizacional",
+          "frequencia": 3,
+          "porque": "Fluxos formais e informais.",
+          "como": "Vertical, horizontal e diagonal."
+        },
+        {
+          "nome": "Cultura organizacional",
+          "frequencia": 3,
+          "porque": "Valores e crenças.",
+          "como": "Impacto no desempenho."
+        },
+        {
+          "nome": "Planejamento estratégico",
+          "frequencia": 4,
+          "porque": "Visão, missão e objetivos.",
+          "como": "SWOT e BSC."
+        },
+        {
+          "nome": "Gestão por processos",
+          "frequencia": 3,
+          "porque": "Mapeamento e melhoria.",
+          "como": "Fluxogramas e indicadores."
+        },
+        {
+          "nome": "Controle administrativo",
+          "frequencia": 3,
+          "porque": "Medir e corrigir desvios.",
+          "como": "Padrões e feedback."
+        },
+        {
+          "nome": "Administração pública",
+          "frequencia": 4,
+          "porque": "Princípios e modelos.",
+          "como": "Burocrático, gerencial e societal."
+        },
+        {
+          "nome": "Qualidade total",
+          "frequencia": 3,
+          "porque": "Ferramentas de melhoria contínua.",
+          "como": "PDCA e 5S."
+        },
+        {
+          "nome": "Gestão do conhecimento",
+          "frequencia": 2,
+          "porque": "Capital intelectual.",
+          "como": "Compartilhamento e inovação."
+        },
+        {
+          "nome": "Responsabilidade social corporativa",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "ESG e governança."
+        },
+        {
+          "nome": "Noções de marketing",
+          "frequencia": 2,
+          "porque": "4Ps e posicionamento.",
+          "como": "Produto, preço, praça e promoção."
         }
       ]
     },
