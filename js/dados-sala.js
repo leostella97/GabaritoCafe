@@ -182,6 +182,42 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Raciocínio lógico quantitativo",
+              "explicacao": "Sequências, proposições e problemas de lógica com números."
+            },
+            {
+              "nome": "Porcentagem e juros",
+              "explicacao": "Juros simples, compostos, descontos e acréscimos."
+            },
+            {
+              "nome": "Geometria plana",
+              "explicacao": "Áreas e perímetros de figuras planas."
+            },
+            {
+              "nome": "Geometria espacial",
+              "explicacao": "Volumes e áreas de sólidos geométricos."
+            },
+            {
+              "nome": "Probabilidade básica",
+              "explicacao": "Eventos, espaço amostral e cálculo de chances."
+            },
+            {
+              "nome": "Estatística descritiva",
+              "explicacao": "Média, mediana, moda e desvio padrão."
+            },
+            {
+              "nome": "Funções do 1º e 2º grau",
+              "explicacao": "Domínio, imagem, raízes e gráficos."
+            },
+            {
+              "nome": "Sistemas lineares",
+              "explicacao": "Resolução por substituição, escalonamento e matrizes."
+            },
+            {
+              "nome": "Análise combinatória",
+              "explicacao": "Arranjos, combinações e permutações."
             }
           ]
         },
@@ -4608,6 +4644,46 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Raciocínio lógico quantitativo",
+              "explicacao": "Sequências, proposições e problemas de lógica com números."
+            },
+            {
+              "nome": "Porcentagem e juros",
+              "explicacao": "Juros simples, compostos, descontos e acréscimos."
+            },
+            {
+              "nome": "Regra de três",
+              "explicacao": "Proporcionalidade direta e inversa em problemas práticos."
+            },
+            {
+              "nome": "Geometria plana",
+              "explicacao": "Áreas e perímetros de figuras planas."
+            },
+            {
+              "nome": "Geometria espacial",
+              "explicacao": "Volumes e áreas de sólidos geométricos."
+            },
+            {
+              "nome": "Probabilidade básica",
+              "explicacao": "Eventos, espaço amostral e cálculo de chances."
+            },
+            {
+              "nome": "Estatística descritiva",
+              "explicacao": "Média, mediana, moda e desvio padrão."
+            },
+            {
+              "nome": "Funções do 1º e 2º grau",
+              "explicacao": "Domínio, imagem, raízes e gráficos."
+            },
+            {
+              "nome": "Sistemas lineares",
+              "explicacao": "Resolução por substituição, escalonamento e matrizes."
+            },
+            {
+              "nome": "Análise combinatória",
+              "explicacao": "Arranjos, combinações e permutações."
             }
           ]
         },
