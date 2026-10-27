@@ -1744,6 +1744,78 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Os prazos dos direitos civis são pegadinha de tribunal.",
           "como": "Prescrição = prazo para agir (perde a pretensão, mas o direito vive); decadência = prazo do direito (perde o direito em si)."
+        },
+        {
+          "nome": "Pessoa natural e jurídica",
+          "frequencia": 4,
+          "porque": "Sujeitos de direitos.",
+          "como": "Capacidade e personalidade."
+        },
+        {
+          "nome": "Domicílio",
+          "frequencia": 3,
+          "porque": "Localização jurídica.",
+          "como": "Residência habitual."
+        },
+        {
+          "nome": "Bens",
+          "frequencia": 3,
+          "porque": "Classificação patrimonial.",
+          "como": "Móveis, imóveis e semoventes."
+        },
+        {
+          "nome": "Fatos e atos jurídicos",
+          "frequencia": 4,
+          "porque": "Negócio jurídico e nulidade.",
+          "como": "Elementos e vícios."
+        },
+        {
+          "nome": "Obrigação civil",
+          "frequencia": 5,
+          "porque": "Dívida e prestação.",
+          "como": "Fonte e modalidades."
+        },
+        {
+          "nome": "Direitos reais",
+          "frequencia": 4,
+          "porque": "Propriedade e posse.",
+          "como": "Ações possessórias."
+        },
+        {
+          "nome": "Direito de família",
+          "frequencia": 4,
+          "porque": "Casamento e união estável.",
+          "como": "Efeitos e dissolução."
+        },
+        {
+          "nome": "Direito das sucessões",
+          "frequencia": 3,
+          "porque": "Herança e testamento.",
+          "como": "Sucessão legítima e testamentária."
+        },
+        {
+          "nome": "Títulos de crédito",
+          "frequencia": 2,
+          "porque": "Instrumentos de circulação.",
+          "como": "Cheque, nota e duplicata."
+        },
+        {
+          "nome": "Atos unilaterais",
+          "frequencia": 2,
+          "porque": "Promessa de recompensa.",
+          "como": "Efeitos jurídicos."
+        },
+        {
+          "nome": "Cláusulas gerais",
+          "frequencia": 3,
+          "porque": "Boa-fé objetiva.",
+          "como": "Proteção ao contratante."
+        },
+        {
+          "nome": "Transação e compromisso",
+          "frequencia": 2,
+          "porque": "Paz jurídica.",
+          "como": "Acordo processual."
         }
       ]
     },
