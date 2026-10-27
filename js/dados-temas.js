@@ -332,6 +332,28 @@ const DadosTemas = {
       ]
     },
     {
+      materia: 'Matemática',
+      icone: '🧮',
+      resumo: 'Matemática é a matéria-chave do vestibular: números, álgebra e geometria abrem caminho em quase tudo.',
+      topicos: [
+        { nome: 'Porcentagem e juros simples', frequencia: 5, porque: 'Cai em descontos, aumentos e problemas de finanças.', como: 'Transforme em fração de 100 e use regra de três; juros simples = capital × taxa × tempo.' },
+        { nome: 'Regra de três simples e composta', frequencia: 5, porque: 'Base de proporcionalidade direta e inversa.', como: 'Organize grandezas, identifique relação e multiplique em cruz; em composta mantenha proporções.' },
+        { nome: 'Equações do 1º e 2º grau', frequencia: 5, porque: 'Fundamental para modelar situações e encontrar raízes.', como: 'Isolar variável; no 2º grau use Bhaskara e observe o discriminante.' },
+        { nome: 'Funções afim e quadrática', frequencia: 4, porque: 'Gráficos e máximos/mínimos aparecem muito.', como: 'Estude coeficiente angular e vértice; gráfico da parábola abre para cima ou baixo.' },
+        { nome: 'Geometria plana', frequencia: 5, porque: 'Áreas e perímetros são questões rápidas.', como: 'Decore fórmulas de triângulo, quadrado, retângulo, círculo e use unidades corretas.' },
+        { nome: 'Geometria espacial', frequencia: 4, porque: 'Volume de prismas e cilindros cai com frequência.', como: 'Use área da base × altura; visualize sólidos para não confundir base com lateral.' },
+        { nome: 'Trigonometria básica', frequencia: 4, porque: 'Seno, cosseno e tangente em triângulos retângulos.', como: 'Relacione catetos com hipotenusa; use tabela dos ângulos notáveis.' },
+        { nome: 'Progressões aritméticas e geométricas', frequencia: 4, porque: 'PA e PG são clássicos de vestibular.', como: 'Termo geral: an = a1 + (n-1)r; soma use fórmula específica.' },
+        { nome: 'Análise combinatória', frequencia: 4, porque: 'Arranjos, combinações e permutações confundem, mas rendem pontos.', como: 'Distinga ordem com arranjo e permutação; combinação não depende de ordem.' },
+        { nome: 'Probabilidade básica', frequencia: 4, porque: 'Cálculo de chances em eventos simples e compostos.', como: 'Evento favorável / eventos possíveis; use árvore para problemas dependentes.' },
+        { nome: 'Estatística descritiva', frequencia: 3, porque: 'Média, mediana e moda aparecem em interpretação de dados.', como: 'Ordene, some e divida; média pesa valores extremos, mediana é o centro.' },
+        { nome: 'Números complexos básicos', frequencia: 3, porque: 'Forma algébrica e operações básicas caem em provas mais exigentes.', como: 'i² = -1; manipule como binômio com regra de sinais.' },
+        { nome: 'Matrizes e determinantes', frequencia: 3, porque: 'Operações com matrizes e cálculo de determinantes.', como: 'Some linha a linha; determinante 2×2 = ad - bc.' },
+        { nome: 'Logaritmos', frequencia: 3, porque: 'Mudança de base e propriedades são clássicas.', como: 'Loga b = x ⇔ a^x = b; use propriedades para simplificar.' },
+        { nome: 'Razões e proporções', frequencia: 4, porque: 'Base de muitos problemas de matemática aplicada.', como: 'Igualdade de razões; mantenha a unidade e verifique relação direta ou inversa.' }
+      ]
+    },
+    {
       materia: 'Literatura',             // nome da matéria
       icone: '📚',                       // emoji
       resumo: 'Escolas literárias com autores e obras: Romantismo, Realismo e Modernismo respondem pela maioria.', // resumo
