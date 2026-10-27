@@ -56,7 +56,7 @@ Tudo com **login local** (localStorage) — nada de servidor, nada de cadastro r
 | 📈 **Dashboard** | Simulados feitos, aproveitamento geral, melhor resultado, questões respondidas, 🔥 dias seguidos, **☕ Cartão Fidelidade de Estudos** (cada simulado ou revisão carimba uma casinha com o que foi feito, data, horário e aproveitamento — junte 10 e feche o cartão), gráfico de evolução e desempenho por matéria. |
 | 🕵️ **Bancas** | 10 bancas (CESPE/Cebraspe, FGV, FCC, Vunesp, IBFC, FUMARC, AOCP, CEBRASP, ENEM, Fuvest/Unicamp) com perfil, pegadinhas favoritas e como se dar bem. **Clicar no cartão abre o modal da banca**: todas as dicas, botão **"montar simulado só com questões dela"** (quando a banca tem questões no banco) e **link de aulas no YouTube** sobre ela. |
 | 📚 **Temas que mais caem** | Lista dos temas campeões de concursos e vestibulares, com frequência em "xícaras" (☕☕☕☕☕) e dicas de como estudar cada um. **Clicar no cartão abre o modal da matéria com todos os tópicos; clicar num tópico abre a explicação (por que cai + como estudar) e um link de aula no YouTube.** |
-| 🏫 **Sala de Aula** | Sua mesa de estudos organizada em **cards por matéria** — clicar num card abre **todos os tópicos principais** da matéria. Um **dropdown** filtra por **Vagas** (cargos de concurso com o conteúdo da prova), **Bancas** (perfil + pegadinhas + os tópicos), **Vestibular** e **Faculdade** (cursos com as matérias da graduação). Cada tópico traz **título + explicação + link de aula no YouTube**. |
+| 🏫 **Sala de Aula** | Sua mesa de estudos organizada em **cards por matéria** — clicar num card abre **todos os tópicos** da matéria. Um **dropdown** filtra por **Vagas** (8 cargos de concurso com conteúdo da prova, 25+ tópicos por matéria), **Bancas**, **Vestibular** e **Faculdade** (8 cursos com as matérias da graduação, tópicos expandidos). Cada tópico traz **título + explicação + link de pesquisa no YouTube**. |
 | 🔐 **Login local** | Criar conta, entrar ou modo visitante. Senhas guardadas com hash — tudo no localStorage do navegador. |
 | 🌙 **Tema claro / escuro** | Botão que troca o visual na hora (tema escuro "café à noite", bem confortável de madrugada) e guarda a escolha. |
 | 🌎 **Três idiomas** | Português 🇧🇷, English 🇺🇸 e Español 🇪🇸 com bandeirinhas. A interface toda é traduzida; o conteúdo das questões fica em português (são provas brasileiras). |
@@ -128,7 +128,7 @@ gabarito-cafe/
 │   ├── dados-temas.js         # Temas que mais caem + dicas (rápidas e importantes) + frases do dia
 │   ├── frases.js              # Sorteia a frase motivadora de cada acesso
 │   ├── dados-bancas.js        # Bancas famosas e suas pegadinhas
-│   ├── dados-sala.js          # Sala de Aula: vagas (cargos) e faculdades (cursos)
+│   ├── dados-sala.js          # Sala de Aula: vagas (8 cargos) e faculdades (8 cursos) com tópicos expandidos por matéria
 │   ├── util.js                # Utilitários compartilhados (escape etc.)
 │   ├── banco-loader.js        # Carrega o banco sob demanda/background (não trava o boot)
 │   ├── banco-questoes.js      # Banco com 12.569 questões comentadas (~15 MB, lazy)
