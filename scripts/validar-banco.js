@@ -27,7 +27,7 @@ const ids = new Set();                  // conjunto para detectar ids repetidos
 const materiasValidas = new Set();      // conjunto de matérias (para listar no fim)
 const niveisValidos = new Set(['facil', 'medio', 'dificil']); // dificuldades aceitas
 const ensinosValidos = new Set(['medio', 'superior']);       // níveis de ensino aceitos
-const enunciados = new Map();           // enunciado → id (detecta questões duplicadas)
+const enunciados = new Map();           // banca+enunciado+alternativas → id (detecta clones reais)
 
 // Verifica cada questão
 for (const q of BancoQuestoes) {        // percorre todas as questões
@@ -42,8 +42,11 @@ for (const q of BancoQuestoes) {        // percorre todas as questões
   if (!q.ensino || !ensinosValidos.has(q.ensino)) problemas.push('ensino inválido ou ausente (use medio ou superior)'); // nível de ensino ok?
   if (!q.banca) problemas.push('sem banca');                     // falta banca?
   if (!q.enunciado) problemas.push('sem enunciado');             // falta enunciado?
-  else if (enunciados.has(q.enunciado)) problemas.push('enunciado duplicado de ' + enunciados.get(q.enunciado)); // cópia de outra questão?
-  else enunciados.set(q.enunciado, q.id);                        // registra o enunciado
+  else {                                                     // TEAM_007: clone só conta se banca+enunciado+alternativas forem iguais
+    const chave = q.banca + '||' + q.enunciado + '||' + (q.alternativas || []).join('§'); // identidade da questão
+    if (enunciados.has(chave)) problemas.push('enunciado duplicado de ' + enunciados.get(chave)); // cópia da mesma banca?
+    else enunciados.set(chave, q.id);                          // registra a identidade
+  }
   if (!Array.isArray(q.alternativas) || q.alternativas.length < 2) problemas.push('alternativas insuficientes'); // faltam alternativas?
   if (typeof q.correta !== 'number' || q.correta < 0 || q.correta >= (q.alternativas || []).length) problemas.push('índice da correta inválido'); // correta aponta para fora da lista?
   if (!q.explicacao) problemas.push('sem explicação');           // falta explicação?

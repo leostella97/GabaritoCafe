@@ -733,6 +733,94 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
   margin-top: 0.3rem;               /* colado no texto */
 }
 
+/* ---------- Sala de Aula ---------- */
+.sa-filtros {                       /* painel de filtros (categoria + item) */
+  display: flex;                    /* campos lado a lado */
+  gap: 1rem;                        /* respiro entre eles */
+  flex-wrap: wrap;                  /* quebra em telas estreitas */
+  align-items: flex-end;            /* alinhados pela base */
+  margin-bottom: 1.2rem;            /* distância da grade */
+}
+
+.sa-filtros .campo { margin-bottom: 0; } /* campos sem respiro extra dentro do painel */
+
+.sa-grade {                         /* grade de cards de matérias */
+  display: grid;                    /* grade */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); /* adaptável; TEAM_007: min() impede estouro em 320px */
+  gap: 1.2rem;                      /* respiro */
+}
+
+.sa-cartao {                        /* card de matéria da Sala de Aula */
+  cursor: pointer;                  /* mãozinha — abre o modal de tópicos */
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s; /* animação suave */
+}
+
+.sa-cartao:hover {                  /* avisa que o box é clicável */
+  border-color: var(--caramelo);    /* borda caramelo */
+  box-shadow: var(--sombra-media);  /* sombra de elemento flutuante */
+  transform: translateY(-2px);      /* sobe levemente */
+}
+
+.sa-cartao:focus-visible {          /* foco por teclado (tabindex=0) */
+  outline: 3px solid var(--caramelo); /* contorno caramelo */
+  outline-offset: 2px;              /* respiro do contorno */
+}
+
+.sa-contagem {                      /* "N tópicos principais" no card */
+  font-weight: 900;                 /* firme */
+  font-size: 0.78rem;               /* miúdo */
+  margin: 0 0 0.35rem;              /* colado na prévia */
+  color: var(--caramelo);           /* caramelo de destaque */
+}
+
+.sa-preview {                       /* prévia dos tópicos no card */
+  list-style: none;                 /* sem bolinhas padrão */
+  display: flex;                    /* coluna */
+  flex-direction: column;           /* empilha */
+  gap: 0.25rem;                     /* respiro */
+  padding-left: 0;                  /* sem recuo */
+  margin: 0;                        /* sem margem */
+}
+
+.sa-preview li {                    /* cada tópico da prévia */
+  font-size: 0.85rem;               /* discreto */
+  padding-left: 1rem;               /* espaço para o marcador */
+  position: relative;               /* âncora do marcador */
+}
+
+.sa-preview li::before {            /* marcador caramelo */
+  content: '•';                     /* bolinha */
+  position: absolute;               /* à esquerda do texto */
+  left: 0;                          /* colado na borda */
+  color: var(--caramelo);           /* caramelo */
+  font-weight: 900;                 /* bolinha firme */
+}
+
+.sa-preview li.sa-mais {            /* "+N tópicos" */
+  color: var(--marrom-suave);       /* apagado */
+  font-weight: 800;                 /* firme */
+}
+
+.sa-preview li.sa-mais::before { content: ''; } /* sem marcador no "+N" */
+
+.sa-contexto { margin-bottom: 1.2rem; } /* cartão de contexto (banca/vaga/curso) */
+
+.sa-contexto-topo {                 /* ícone + título do contexto */
+  display: flex;                    /* lado a lado */
+  align-items: center;              /* centralizados */
+  gap: 0.8rem;                      /* respiro */
+}
+
+.sa-icone-grande { font-size: 2.1rem; line-height: 1; } /* ícone grande do contexto */
+
+.sa-escolha {                       /* cartão "escolha uma opção" */
+  text-align: center;               /* centralizado */
+  padding: 2.6rem 1.5rem;           /* bem espaçado */
+}
+
+.sa-escolha-icone { font-size: 2.6rem; } /* emoji do estado de escolha */
+
+
 /* ---------- Responsividade ---------- */
 @media (max-width: 900px) {         /* telas médias e pequenas */
   .tela-login.ativa { grid-template-columns: 1fr; } /* no celular, login vira coluna única (empilha) */

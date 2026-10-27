@@ -711,6 +711,29 @@
   transform: translateX(3px);       /* desliza levemente */
 }
 
+/* Sala de Aula: tópico clicável dentro do modal (mesma linguagem do .topico-item,
+   mas com classe própria para não conflitar com a delegação do edital) */
+.sa-topico {                        /* tópico da Sala de Aula */
+  display: block;                   /* um por linha */
+  width: 100%;                      /* linha inteira clicável */
+  text-align: left;                 /* texto à esquerda */
+  border: 2px solid var(--borda);   /* moldura leve */
+  background: var(--creme);         /* fundo creme */
+  color: var(--cafe-escuro);        /* texto escuro */
+  border-radius: var(--raio-pequeno); /* cantos pequenos */
+  padding: 0.55rem 0.7rem;          /* respiro interno */
+  margin-bottom: 0.4rem;            /* espaço entre itens */
+  font-size: 0.88rem;               /* leitura confortável */
+  font-weight: 700;                 /* firme */
+  cursor: pointer;                  /* mãozinha */
+  transition: border-color 0.2s, transform 0.2s; /* animação suave */
+}
+
+.sa-topico:hover {                  /* tópico em destaque */
+  border-color: var(--caramelo);    /* borda caramelo */
+  transform: translateX(3px);       /* desliza levemente */
+}
+
 /* TEAM_003: tópico clicável (chip ou texto) + explicação direta no modal */
 .chip-topico {                      /* chip de tópico que abre o modal */
   transition: border-color 0.15s, transform 0.15s; /* reação suave */

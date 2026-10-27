@@ -43,6 +43,7 @@ const Idioma = {
       nav_simulado: '📝 Simulado',                          // item do menu
       nav_bancas: '🕵️ Bancas',                              // item do menu
       nav_temas: '📚 Temas que caem',                       // item do menu
+      nav_sala: '🏫 Sala de Aula',                          // item do menu
       app_slogan: 'estude com sabor de aprovação',          // slogan do login
       btn_sair: '↩ Sair da conta',                          // botão de sair
       foco_prefixo: '🎯 Foco: ',                            // prefixo do cargo focado
@@ -56,6 +57,8 @@ const Idioma = {
       tela_bancas_s: 'Cada banca tem manias — aqui você aprende todas as pegadinhas.', // legenda
       tela_temas_t: 'O que mais cai',                       // título do topo
       tela_temas_s: 'Os temas campeões de concursos e vestibulares, com mapa de estudo.', // legenda
+      tela_sala_t: 'Sala de Aula',                          // título do topo
+      tela_sala_s: 'Matérias em cards: clique e veja todos os tópicos, ou filtre por vaga, banca, vestibular e faculdade.', // legenda
       saudacao_dia: 'Bom dia',                              // saudação da manhã
       saudacao_tarde: 'Boa tarde',                          // saudação da tarde
       saudacao_noite: 'Boa noite',                          // saudação da noite
@@ -239,6 +242,28 @@ const Idioma = {
       temas_aba_vest: '🎓 Vestibular',                      // aba
       temas_porque: 'Por quê: ',                             // rótulo do motivo
       temas_cartao: 'Clique no cartão para ver os tópicos da matéria', // TEAM_004: dica do box clicável
+
+      // Sala de Aula
+      sala_intro: 'Sua mesa de estudos: escolha um filtro e abra os cards para ver os tópicos principais de cada matéria, com explicação e aula. 🏫', // introdução
+      sala_categoria_l: 'Filtrar por',                      // rótulo do dropdown de categoria
+      sala_cat_concursos: '🎯 Concursos (tópicos principais)', // opção padrão
+      sala_cat_vagas: '💼 Vagas (cargos)',                  // opção
+      sala_cat_bancas: '🕵️ Bancas',                         // opção
+      sala_cat_vestibular: '🎓 Vestibular',                 // opção
+      sala_cat_faculdade: '🏛️ Faculdade (cursos)',          // opção
+      sala_item_l: 'Escolha',                               // rótulo do dropdown do item
+      sala_item_sel: 'Escolha uma opção…',                  // placeholder do item
+      sala_escolha_vaga: 'Escolha um cargo para ver os tópicos da prova', // estado de escolha (vagas)
+      sala_escolha_banca: 'Escolha uma banca para ver o perfil e os tópicos', // estado de escolha (bancas)
+      sala_escolha_faculdade: 'Escolha um curso para ver as matérias da graduação', // estado de escolha (faculdade)
+      sala_escolha_sub: 'O dropdown ao lado lista todas as opções disponíveis.', // legenda do estado de escolha
+      sala_vazio: 'Nada para exibir com este filtro ainda.', // lista vazia
+      sala_cartao: 'Clique para ver todos os tópicos desta matéria', // dica do card clicável
+      sala_topicos_preview: '{n} tópicos principais',       // contagem no card
+      sala_preview_mais: '+{n} tópicos',                    // tópicos além dos 4 da prévia
+      sala_topicos_t: 'Tópicos principais',                 // rótulo da lista no modal
+      sala_topico_hint: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
+      sala_voltar: '← Todos os tópicos de {materia}',       // volta da explicação à lista
 
       // Tela de dicas
       nav_dicas: '💡 Dicas',                                 // item do menu
@@ -475,6 +500,7 @@ const Idioma = {
       nav_simulado: '📝 Mock test',
       nav_bancas: '🕵️ Exam boards',
       nav_temas: '📚 Hot topics',
+      nav_sala: '🏫 Classroom',
       app_slogan: 'study with a taste of approval',
       btn_sair: '↩ Sign out',
       foco_prefixo: '🎯 Goal: ',
@@ -488,6 +514,8 @@ const Idioma = {
       tela_bancas_s: 'Every board has its quirks — here you learn all their traps.',
       tela_temas_t: 'What shows up the most',
       tela_temas_s: 'The top topics in Brazilian public exams, with a study map.',
+      tela_sala_t: 'Classroom',
+      tela_sala_s: 'Subjects in cards: click to see all topics, or filter by vacancy, board, university entrance and degree.',
       saudacao_dia: 'Good morning',
       saudacao_tarde: 'Good afternoon',
       saudacao_noite: 'Good evening',
@@ -671,6 +699,28 @@ const Idioma = {
       temas_aba_vest: '🎓 University entrance',
       temas_porque: 'Why: ',
       temas_cartao: 'Click the card to see the subject topics', // TEAM_004: clickable box hint
+
+      // Classroom
+      sala_intro: 'Your study desk: pick a filter and open the cards to see the main topics of each subject, with explanation and a lesson. 🏫',
+      sala_categoria_l: 'Filter by',
+      sala_cat_concursos: '🎯 Public exams (main topics)',
+      sala_cat_vagas: '💼 Vacancies (positions)',
+      sala_cat_bancas: '🕵️ Exam boards',
+      sala_cat_vestibular: '🎓 University entrance',
+      sala_cat_faculdade: '🏛️ Degree (courses)',
+      sala_item_l: 'Choose',
+      sala_item_sel: 'Choose an option…',
+      sala_escolha_vaga: 'Choose a position to see its exam topics',
+      sala_escolha_banca: 'Choose a board to see its profile and topics',
+      sala_escolha_faculdade: 'Choose a degree to see its subjects',
+      sala_escolha_sub: 'The dropdown beside lists all available options.',
+      sala_vazio: 'Nothing to show with this filter yet.',
+      sala_cartao: 'Click to see all topics of this subject',
+      sala_topicos_preview: '{n} main topics',
+      sala_preview_mais: '+{n} topics',
+      sala_topicos_t: 'Main topics',
+      sala_topico_hint: 'Tap a topic to open the explanation and a video lesson',
+      sala_voltar: '← All topics in {materia}',
 
       // Tips screen
       nav_dicas: '💡 Tips',
@@ -907,6 +957,7 @@ const Idioma = {
       nav_simulado: '📝 Simulacro',
       nav_bancas: '🕵️ Comités',
       nav_temas: '📚 Temas frecuentes',
+      nav_sala: '🏫 Aula',
       app_slogan: 'estudia con sabor a aprobación',
       btn_sair: '↩ Cerrar sesión',
       foco_prefixo: '🎯 Meta: ',
@@ -920,6 +971,8 @@ const Idioma = {
       tela_bancas_s: 'Cada comité tiene sus manías — aquí aprendes todas sus trampas.',
       tela_temas_t: 'Lo que más sale',
       tela_temas_s: 'Los temas campeones de los exámenes brasileños, con mapa de estudio.',
+      tela_sala_t: 'Aula',
+      tela_sala_s: 'Materias en tarjetas: toca para ver todos los temas, o filtra por vacante, comité, selectividad y carrera.',
       saudacao_dia: 'Buenos días',
       saudacao_tarde: 'Buenas tardes',
       saudacao_noite: 'Buenas noches',
@@ -1103,6 +1156,28 @@ const Idioma = {
       temas_aba_vest: '🎓 Selectividad',
       temas_porque: '¿Por qué? ',
       temas_cartao: 'Toca la tarjeta para ver los temas de la materia', // TEAM_004: pista de la tarjeta
+
+      // Aula
+      sala_intro: 'Tu mesa de estudio: elige un filtro y abre las tarjetas para ver los temas principales de cada materia, con explicación y clase. 🏫',
+      sala_categoria_l: 'Filtrar por',
+      sala_cat_concursos: '🎯 Oposiciones (temas principales)',
+      sala_cat_vagas: '💼 Vacantes (puestos)',
+      sala_cat_bancas: '🕵️ Comités',
+      sala_cat_vestibular: '🎓 Selectividad',
+      sala_cat_faculdade: '🏛️ Carrera (cursos)',
+      sala_item_l: 'Elige',
+      sala_item_sel: 'Elige una opción…',
+      sala_escolha_vaga: 'Elige un puesto para ver los temas de su examen',
+      sala_escolha_banca: 'Elige un comité para ver su perfil y los temas',
+      sala_escolha_faculdade: 'Elige una carrera para ver sus materias',
+      sala_escolha_sub: 'El desplegable de al lado lista todas las opciones disponibles.',
+      sala_vazio: 'Nada que mostrar con este filtro todavía.',
+      sala_cartao: 'Toca para ver todos los temas de esta materia',
+      sala_topicos_preview: '{n} temas principales',
+      sala_preview_mais: '+{n} temas',
+      sala_topicos_t: 'Temas principales',
+      sala_topico_hint: 'Toca un tema para abrir la explicación y una clase en video',
+      sala_voltar: '← Todos los temas de {materia}',
 
       // Pantalla de consejos
       nav_dicas: '💡 Consejos',

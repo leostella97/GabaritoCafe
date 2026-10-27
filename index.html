@@ -186,6 +186,7 @@
         <button class="item-menu" data-tela="pomodoro" type="button" data-i18n="nav_pomodoro">☕ Pomodoro</button>
         <button class="item-menu" data-tela="bancas" type="button" data-i18n="nav_bancas">🕵️ Bancas</button>
         <button class="item-menu" data-tela="temas" type="button" data-i18n="nav_temas">📚 Temas que caem</button>
+        <button class="item-menu" data-tela="sala" type="button" data-i18n="nav_sala">🏫 Sala de Aula</button>
         <button class="item-menu" data-tela="dicas" type="button" data-i18n="nav_dicas">💡 Dicas</button>
       </nav>
       <!-- Perfil do usuário e saída -->
@@ -283,6 +284,9 @@
       <!-- Tela: Temas que caem (montada pelo JavaScript) -->
       <section id="tela-temas" class="tela"></section>
 
+      <!-- Tela: Sala de Aula (montada pelo JavaScript) -->
+      <section id="tela-sala" class="tela"></section>
+
       <!-- Tela: Dicas importantes (montada pelo JavaScript) -->
       <section id="tela-dicas" class="tela"></section>
 
@@ -323,6 +327,7 @@
   <script src="js/dados-temas.js"></script>
   <script src="js/frases.js"></script>
   <script src="js/dados-bancas.js"></script>
+  <script src="js/dados-sala.js"></script>
   <!-- TEAM_007: banco-questoes.js (~15 MB) NÃO é mais <script> bloqueante —
        BancoLoader injeta sob demanda/background (ver js/banco-loader.js) -->
   <script src="js/banco-loader.js"></script>
@@ -338,6 +343,7 @@
   <script src="js/coffee-wrap.js"></script>
   <script src="js/edital.js"></script>
   <script src="js/conteudo.js"></script>
+  <script src="js/sala-aula.js"></script>
   <script src="js/simulado.js"></script>
   <!-- TEAM_002: tela de revisão precisa do simulado já definido (monta jogos por ids) -->
   <script src="js/revisao.js"></script>

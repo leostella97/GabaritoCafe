@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v19';                // TEAM_007: bump — login escuro completo + correções mobile (dvh, grids min())
+const CACHE = 'gabarito-cafe-v20';                // TEAM_007: bump — tela Sala de Aula (dados-sala + sala-aula)
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
@@ -32,6 +32,7 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'js/dados-temas.js',                            // temas e dicas
   'js/frases.js',                                 // frases motivadoras
   'js/dados-bancas.js',                           // bancas e pegadinhas
+  'js/dados-sala.js',                             // sala de aula: vagas e faculdades
   'js/util.js',                                   // TEAM_007: utilitários compartilhados (escape etc.)
   'js/banco-loader.js',                           // TEAM_007: carregador sob demanda do banco
   'js/banco-questoes.js',                         // banco de questões (injetado sob demanda; precache mantém offline)
@@ -40,6 +41,7 @@ const ARQUIVOS = [                                // TEAM_002: precache do app i
   'js/auth.js',                                   // contas e sessão
   'js/edital.js',                                 // tela do edital
   'js/conteudo.js',                               // telas de conteúdo
+  'js/sala-aula.js',                              // tela da sala de aula
   'js/simulado.js',                               // tela do simulado
   'js/revisao.js',                                // tela de revisão
   'js/fidelidade.js',                             // cartão fidelidade de estudos

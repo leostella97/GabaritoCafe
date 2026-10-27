@@ -21,6 +21,7 @@ const App = {
     pomodoro: { titulo: 'tela_pomodoro_t', sub: 'tela_pomodoro_s' },    // pomodoro
     bancas: { titulo: 'tela_bancas_t', sub: 'tela_bancas_s' },          // bancas
     temas: { titulo: 'tela_temas_t', sub: 'tela_temas_s' },             // temas
+    sala: { titulo: 'tela_sala_t', sub: 'tela_sala_s' },                // sala de aula
     dicas: { titulo: 'tela_dicas_t', sub: 'tela_dicas_s' }              // dicas
   },
 
@@ -79,6 +80,7 @@ const App = {
     if (tela === 'pomodoro') PomodoroUI.renderizar();       // pomodoro
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // temas
+    if (tela === 'sala') SalaAulaUI.renderizar();           // sala de aula
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // dicas importantes
     if (tela === 'edital' && EditalUI.ultimaAnalise) EditalUI.renderizarResultado(EditalUI.ultimaAnalise); // edital analisado
   },
@@ -202,6 +204,7 @@ const App = {
     if (tela === 'pomodoro') PomodoroUI.renderizar();       // desenha pomodoro
     if (tela === 'bancas') ConteudoUI.renderizarBancas();   // desenha as bancas
     if (tela === 'temas') ConteudoUI.renderizarTemas();     // desenha os temas
+    if (tela === 'sala') SalaAulaUI.renderizar();           // desenha a sala de aula
     if (tela === 'dicas') ConteudoUI.renderizarDicas();     // desenha as dicas importantes
 
     window.scrollTo({ top: 0, behavior: 'smooth' });        // volta ao topo da página
