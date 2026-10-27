@@ -96,6 +96,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -298,6 +318,26 @@ const DadosSala = {
             {
               "nome": "Números complexos básicos",
               "explicacao": "Forma algébrica, operações e módulo."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -384,6 +424,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -470,6 +530,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -556,6 +636,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -656,6 +756,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -742,6 +862,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -828,6 +968,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -914,6 +1074,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1000,6 +1180,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -1099,6 +1299,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1185,6 +1405,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1271,6 +1511,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1357,6 +1617,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1443,6 +1723,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -1544,6 +1844,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1630,6 +1950,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1716,6 +2056,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1802,6 +2162,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -1888,6 +2268,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -1989,6 +2389,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2075,6 +2495,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2161,6 +2601,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2247,6 +2707,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2333,6 +2813,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -2434,6 +2934,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2520,6 +3040,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2606,6 +3146,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2692,6 +3252,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -2778,6 +3358,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -2918,6 +3518,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3044,6 +3664,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3170,6 +3810,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3296,6 +3956,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3422,6 +4102,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
@@ -3542,6 +4242,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3648,6 +4368,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3754,6 +4494,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3860,6 +4620,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         },
@@ -3966,6 +4746,26 @@ const DadosSala = {
             {
               "nome": "Gestão do tempo na prova",
               "explicacao": "Treine a marcação e a ordem de resolução das questões."
+            },
+            {
+              "nome": "Resumo de fórmulas e tabelas",
+              "explicacao": "Compile fórmulas e tabelas essenciais da matéria em um guia rápido."
+            },
+            {
+              "nome": "Erros de prova e como evitar",
+              "explicacao": "Liste os erros mais frequentes e as estratégias para evitá-los."
+            },
+            {
+              "nome": "Questões de alto rendimento",
+              "explicacao": "Treine com as questões de maior índice de acerto na banca."
+            },
+            {
+              "nome": "Mapa de conteúdo",
+              "explicacao": "Organize o conteúdo em mapa mental com conexões entre tópicos."
+            },
+            {
+              "nome": "Simulado cronometrado",
+              "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
             }
           ]
         }
