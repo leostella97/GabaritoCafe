@@ -458,6 +458,46 @@ const DadosSala = {
             {
               "nome": "Simulado completo",
               "explicacao": "Faça provas inteiras no formato real para medir resistência."
+            },
+            {
+              "nome": "Equações do 2º grau",
+              "explicacao": "Fórmula de Bhaskara e análise do discriminante."
+            },
+            {
+              "nome": "Inequações",
+              "explicacao": "Resolução de inequações lineares e quadráticas."
+            },
+            {
+              "nome": "Medições estatísticas",
+              "explicacao": "Coleta, organização e interpretação de dados."
+            },
+            {
+              "nome": "Porcentagem composta",
+              "explicacao": "Crescimento e decréscimo percentual sucessivos."
+            },
+            {
+              "nome": "Juros compostos",
+              "explicacao": "Montante, taxa efetiva e equivalência de capitais."
+            },
+            {
+              "nome": "Razão áurea",
+              "explicacao": "Proporção áurea e aplicações em problemas."
+            },
+            {
+              "nome": "Geometria analítica básica",
+              "explicacao": "Pontos, retas e distâncias no plano cartesiano."
+            },
+            {
+              "nome": "Lógica proposicional",
+              "explicacao": "Tabelas-verdade e conectivos lógicos."
+            },
+            {
+              "nome": "Análise combinatória avançada",
+              "explicacao": "Princípio da inclusão-exclusão e permutações com repetição."
+            },
+            {
+              "nome": "Matemática financeira",
+              "explicacao": "Valor presente, valor futuro e séries de pagamentos."
             }
           ]
         },
