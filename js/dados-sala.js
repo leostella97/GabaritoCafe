@@ -258,6 +258,46 @@ const DadosSala = {
             {
               "nome": "Medidas e conversões",
               "explicacao": "Unidades de comprimento, área, volume e tempo."
+            },
+            {
+              "nome": "Logaritmos e propriedades",
+              "explicacao": "Definição, mudança de base e equações logarítmicas."
+            },
+            {
+              "nome": "Funções trigonométricas",
+              "explicacao": "Seno, cosseno, tangente e gráficos."
+            },
+            {
+              "nome": "Identidades trigonométricas",
+              "explicacao": "Relações fundamentais e simplificações."
+            },
+            {
+              "nome": "Áreas de figuras planas avançadas",
+              "explicacao": "Trapézio, losango, polígonos regulares."
+            },
+            {
+              "nome": "Volumes de prismas e pirâmides",
+              "explicacao": "Cálculo de volume de sólidos prismáticos e piramidais."
+            },
+            {
+              "nome": "Teorema de Pitágoras",
+              "explicacao": "Aplicações em triângulos retângulos."
+            },
+            {
+              "nome": "Semelhança de triângulos",
+              "explicacao": "Razão de semelhança e aplicações."
+            },
+            {
+              "nome": "Médias e medidas de dispersão",
+              "explicacao": "Variância, desvio padrão e coeficiente de variação."
+            },
+            {
+              "nome": "Contagem e princípios de adição/multiplicação",
+              "explicacao": "Princípios fundamentais de contagem."
+            },
+            {
+              "nome": "Números complexos básicos",
+              "explicacao": "Forma algébrica, operações e módulo."
             }
           ]
         },
@@ -4764,6 +4804,46 @@ const DadosSala = {
             {
               "nome": "Medidas e conversões",
               "explicacao": "Unidades de comprimento, área, volume e tempo."
+            },
+            {
+              "nome": "Logaritmos e propriedades",
+              "explicacao": "Definição, mudança de base e equações logarítmicas."
+            },
+            {
+              "nome": "Funções trigonométricas",
+              "explicacao": "Seno, cosseno, tangente e gráficos."
+            },
+            {
+              "nome": "Identidades trigonométricas",
+              "explicacao": "Relações fundamentais e simplificações."
+            },
+            {
+              "nome": "Áreas de figuras planas avançadas",
+              "explicacao": "Trapézio, losango, polígonos regulares."
+            },
+            {
+              "nome": "Volumes de prismas e pirâmides",
+              "explicacao": "Cálculo de volume de sólidos prismáticos e piramidais."
+            },
+            {
+              "nome": "Teorema de Pitágoras",
+              "explicacao": "Aplicações em triângulos retângulos."
+            },
+            {
+              "nome": "Semelhança de triângulos",
+              "explicacao": "Razão de semelhança e aplicações."
+            },
+            {
+              "nome": "Médias e medidas de dispersão",
+              "explicacao": "Variância, desvio padrão e coeficiente de variação."
+            },
+            {
+              "nome": "Contagem e princípios de adição/multiplicação",
+              "explicacao": "Princípios fundamentais de contagem."
+            },
+            {
+              "nome": "Números complexos básicos",
+              "explicacao": "Forma algébrica, operações e módulo."
             }
           ]
         },
