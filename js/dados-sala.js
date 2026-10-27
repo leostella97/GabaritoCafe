@@ -404,6 +404,136 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      id: 'delegado-policia',
+      nome: 'Delegado de Polícia Civil',
+      icone: '🚨',
+      escolaridade: 'Nível superior',
+      bancas: ['VUNESP', 'FCC', 'CESPE/Cebraspe'],
+      resumo: 'Carreira de alto nível com foco em investigação, processo penal e direitos humanos.',
+      materias: [
+        {
+          materia: 'Direito Penal',
+          icone: '⚖️',
+          topicos: [
+            { nome: 'Princípios do Direito Penal', explicacao: 'Legalidade, anterioridade, culpabilidade e a reserva legal da lei penal.' },
+            { nome: 'Teoria do crime', explicacao: 'Fato típico, antijuridicidade e culpabilidade — elementos do crime.' },
+            { nome: 'Penal parte especial – crimes contra pessoa', explicacao: 'Homicídio, lesões corporais e a classificação dos homicídios.' },
+            { nome: 'Penal parte especial – crimes contra patrimônio', explicacao: 'Furto, roubo, estelionato e extorsão — tipos e qualificadoras.' },
+            { nome: 'Participação e autoria', explicacao: 'Autores, coautores e partícipes; a distinção entre induzimento e auxílio.' }
+          ]
+        },
+        {
+          materia: 'Direito Processual Penal',
+          icone: '📜',
+          topicos: [
+            { nome: 'Princípios processuais', explicacao: 'Ampla defesa, contraditório, juiz natural e devido processo legal.' },
+            { nome: 'Ação penal', explicacao: 'Pública incondicionada, condicionada e privada — quem pode propor a ação.' },
+            { nome: 'Inquérito policial', explicacao: 'Natureza administrativa, rito, prazos e o papel do delegado.' },
+            { nome: 'Processo e procedimento', explicacao: 'Juízo e tribunal do júri, medidas cautelares e prisão preventiva.' },
+            { nome: 'Provas', explicacao: 'Admissibilidade, ilegalidade e a teoria dos frutos da árvore envenenada.' }
+          ]
+        },
+        {
+          materia: 'Direito Constitucional',
+          icone: '🏛️',
+          topicos: [
+            { nome: 'Direitos e garantias fundamentais', explicacao: 'Cláusulas pétreas e os limites ao poder de reforma constitucional.' },
+            { nome: 'Organização do Estado', explicacao: 'Federação, repartição de competências e a Lei de Introdução às Normas do Direito Brasileiro.' },
+            { nome: 'Poder Executivo e segurança pública', explicacao: 'Competências da União, Estados e Municípios na segurança pública.' },
+            { nome: 'Controle de constitucionalidade', explicacao: 'Ações diretas e o papel do STF na interpretação constitucional.' },
+            { nome: 'Direitos humanos', explicacao: 'Pactos internacionais e sua recepção pelo ordenamento brasileiro.' }
+          ]
+        },
+        {
+          materia: 'Criminologia',
+          icone: '🔬',
+          topicos: [
+            { nome: 'Escolas criminológicas', explicacao: 'Clássica, positivista e crítica — evolução do pensamento criminológico.' },
+            { nome: 'Teorias da criminalidade', explicacao: 'Fatores biológicos, psicológicos e sociais na explicação do crime.' },
+            { nome: 'Vitimologia', explicacao: 'O papel da vítima no processo e a prevenção de novas vitimizações.' },
+            { nome: 'Prevenção do crime', explicacao: 'Políticas públicas, patrulhamento comunitário e o modelo situacional.' },
+            { nome: 'Penitenciária e ressocialização', explicacao: 'Princípios do sistema penitenciário e a função da pena.' }
+          ]
+        },
+        {
+          materia: 'Legislação Especial',
+          icone: '📚',
+          topicos: [
+            { nome: 'Lei de Drogas (11.343/2006)', explicacao: 'Tráfico, porte, dependência e as políticas de redução de danos.' },
+            { nome: 'Estatuto da Criança e do Adolescente', explicacao: 'Medidas de proteção e socioeducativas para adolescentes em conflito.' },
+            { nome: 'Lei Maria da Penha', explicacao: 'Violência doméstica, medidas protetivas e o ciclo da violência.' },
+            { nome: 'Lavagem de dinheiro', explicacao: 'Caracterização do crime e os mecanismos de ocultação de origem ilícita.' },
+            { nome: 'Lei de Execução Penal', explicacao: 'Direitos do preso, progressão de regime e remição de pena.' }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'analista-ti',
+      nome: 'Analista de Tecnologia da Informação',
+      icone: '🖥️',
+      escolaridade: 'Nível superior',
+      bancas: ['CESPE/Cebraspe', 'FGV', 'FCC'],
+      resumo: 'Atua com governança, infraestrutura e segurança da informação em órgãos públicos.',
+      materias: [
+        {
+          materia: 'Banco de Dados',
+          icone: '🗄️',
+          topicos: [
+            { nome: 'Modelo relacional', explicacao: 'Entidades, atributos, chaves primárias e estrangeiras.' },
+            { nome: 'SQL avançado', explicacao: 'JOINs, subconsultas, transações e comandos DDL/DML.' },
+            { nome: 'Normalização', explicacao: '1FN, 2FN, 3FN e dependências funcionais para reduzir redundância.' },
+            { nome: 'Modelagem conceitual', explicacao: 'MER, cardinalidades e o diagrama entidade-relacionamento.' },
+            { nome: 'Segurança em BD', explicacao: 'Controle de acesso, criptografia e auditoria de logs.' }
+          ]
+        },
+        {
+          materia: 'Redes e Infraestrutura',
+          icone: '🌐',
+          topicos: [
+            { nome: 'Camadas OSI/TCP-IP', explicacao: 'Entender as camadas ajuda a localizar falhas de comunicação.' },
+            { nome: 'Endereçamento IP', explicacao: 'IPv4, IPv6, sub-redes e CIDR para desenho de redes.' },
+            { nome: 'Protocolos de rede', explicacao: 'TCP, UDP, HTTP, DNS e o papel de cada um no transporte de dados.' },
+            { nome: 'Servidores e virtualização', explicacao: 'Servidores web, de aplicação e bases; VMs e containers.' },
+            { nome: 'Backup e continuidade', explicacao: 'Políticas de backup, disaster recovery e plano de continuidade.' }
+          ]
+        },
+        {
+          materia: 'Segurança da Informação',
+          icone: '🔒',
+          topicos: [
+            { nome: 'Políticas de segurança', explicacao: 'Classificação de dados, confidencialidade, integridade e disponibilidade.' },
+            { nome: 'Criptografia', explicacao: 'Criptografia simétrica e assimétrica, hashes e certificados digitais.' },
+            { nome: 'LGPD', explicacao: 'Tratamento de dados pessoais, bases legais e direitos do titular.' },
+            { nome: 'Gestão de riscos', explicacao: 'Identificação, análise e tratamento de riscos de TI.' },
+            { nome: 'Ataques comuns', explicacao: 'Phishing, ransomware, DDoS e boas práticas de prevenção.' }
+          ]
+        },
+        {
+          materia: 'Governança de TI',
+          icone: '📊',
+          topicos: [
+            { nome: 'ITIL', explicacao: 'Biblioteca de boas práticas para gerenciamento de serviços de TI.' },
+            { nome: 'COBIT', explicacao: 'Governança corporativa de TI e alinhamento estratégico.' },
+            { nome: 'Gestão de projetos', explicacao: 'PMBOK, escopo, cronograma e gestão de riscos de projetos.' },
+            { nome: 'SLA e KPIs', explicacao: 'Acordos de nível de serviço e indicadores de desempenho de TI.' },
+            { nome: 'Auditoria de TI', explicacao: 'Controles internos, conformidade e avaliação de maturidade.' }
+          ]
+        },
+        {
+          materia: 'Linguagem de Programação',
+          icone: '💻',
+          topicos: [
+            { nome: 'Lógica de programação', explicacao: 'Variáveis, estruturas de decisão e repetição.' },
+            { nome: 'Programação estruturada', explicacao: 'Funções, modularização e boas práticas de código.' },
+            { nome: 'Orientação a objetos', explicacao: 'Classes, herança, encapsulamento e polimorfismo.' },
+            { nome: 'Script para automação', explicacao: 'Bash, PowerShell e scripts para administração de sistemas.' },
+            { nome: 'Testes e qualidade', explicacao: 'Testes unitários, integração e revisão de código.' }
+          ]
+        }
+      ]
     }
   ],
 
@@ -797,6 +927,136 @@ const DadosSala = {
             { nome: 'Sistemas de arquivos', explicacao: 'Organização, permissões e o armazenamento em disco.' },
             { nome: 'Ciclo de vida do software', explicacao: 'Requisitos, projeto, implementação, teste e manutenção.' },
             { nome: 'Metodologias ágeis', explicacao: 'Scrum, Kanban e a entrega contínua de valor.' }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'engenharia-mecanica',
+      nome: 'Engenharia Mecânica',
+      icone: '⚙️',
+      area: 'Engenharias',
+      duracao: '5 anos',
+      resumo: 'Projeto, fabricação e manutenção de máquinas e sistemas mecânicos com foco em eficiência e inovação.',
+      materias: [
+        {
+          materia: 'Mecânica dos Sólidos',
+          icone: '🧱',
+          topicos: [
+            { nome: 'Estática', explicacao: 'Equilíbrio de corpos rígidos, forças e momentos.' },
+            { nome: 'Resistência dos materiais', explicacao: 'Tensões, deformações e critérios de falha.' },
+            { nome: 'Análise de esforços', explicacao: 'Diagramas de esforço cortante e momento fletor.' },
+            { nome: 'Propriedades mecânicas', explicacao: 'Tração, compressão, torção e flexão.' },
+            { nome: 'Elementos de máquinas', explicacao: 'Eixos, mancais e engrenagens sob carga.' }
+          ]
+        },
+        {
+          materia: 'Termodinâmica',
+          icone: '🔥',
+          topicos: [
+            { nome: 'Leis da termodinâmica', explicacao: 'Conservação de energia e a segunda lei.' },
+            { nome: 'Ciclos termodinâmicos', explicacao: 'Carnot, Rankine e Otto — eficiência e potência.' },
+            { nome: 'Propriedades das substâncias', explicacao: 'Tabelas de vapor, gás ideal e misturas.' },
+            { nome: 'Transferência de calor', explicacao: 'Condução, convecção e radiação.' },
+            { nome: 'Sistemas de potência', explicacao: 'Motores, turbinas e ciclos combinados.' }
+          ]
+        },
+        {
+          materia: 'Mecânica dos Fluidos',
+          icone: '💧',
+          topicos: [
+            { nome: 'Estática dos fluidos', explicacao: 'Pressão hidrostática e o princípio de Pascal.' },
+            { nome: 'Equação da continuidade', explicacao: 'Conservação de massa em escoamentos.' },
+            { nome: 'Equação de Bernoulli', explicacao: 'Relação entre pressão, velocidade e altura.' },
+            { nome: 'Perdas de carga', explicacao: 'Atrito em tubulações e acessórios.' },
+            { nome: 'Máquinas de fluxo', explicacao: 'Bombas e turbinas hidráulicas.' }
+          ]
+        },
+        {
+          materia: 'Materiais de Engenharia',
+          icone: '🔩',
+          topicos: [
+            { nome: 'Estrutura dos materiais', explicacao: 'Ligações químicas, cristalografia e defeitos.' },
+            { nome: 'Propriedades mecânicas', explicacao: 'Dureza, tenacidade e ductilidade.' },
+            { nome: 'Tratamentos térmicos', explicacao: 'Austenitização, têmpera e revenimento.' },
+            { nome: 'Metais ferrosos e não ferrosos', explicacao: 'Aços, ligas de alumínio e cobre.' },
+            { nome: 'Polímeros e compósitos', explicacao: 'Aplicações em engenharia e seleção de materiais.' }
+          ]
+        },
+        {
+          materia: 'Desenho Técnico e CAD',
+          icone: '📐',
+          topicos: [
+            { nome: 'Normas técnicas', explicacao: 'ABNT, cotagem e representação gráfica.' },
+            { nome: 'Projeções ortogonais', explicacao: 'Vistas principais e cortes seccionais.' },
+            { nome: 'CAD 2D e 3D', explicacao: 'Modelagem paramétrica e desenho assistido por computador.' },
+            { nome: 'Desenho de conjuntos', explicacao: 'Montagens, exploded view e tolerâncias.' },
+            { nome: 'Metrologia', explicacao: 'Instrumentos de medição e controle dimensional.' }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'medicina-veterinaria',
+      nome: 'Medicina Veterinária',
+      icone: '🐾',
+      area: 'Ciências Agrárias',
+      duracao: '5 anos',
+      resumo: 'Saúde animal, produção e segurança alimentar com foco em bem-estar e sanidade.',
+      materias: [
+        {
+          materia: 'Anatomia Veterinária',
+          icone: '🦴',
+          topicos: [
+            { nome: 'Sistemas corporais', explicacao: 'Esqueleto, musculatura e órgãos internos dos principais animais.' },
+            { nome: 'Anatomia comparada', explicacao: 'Diferenças morfológicas entre espécies domésticas.' },
+            { nome: 'Topografia anatomica', explicacao: 'Regiões e pontos de referência para exame clínico.' },
+            { nome: 'Neuroanatomia', explicacao: 'Sistema nervoso central e periférico em animais.' },
+            { nome: 'Anatomia de produção', explicacao: 'Anatomia aplicada à produção animal e abate.' }
+          ]
+        },
+        {
+          materia: 'Fisiologia Animal',
+          icone: '🫀',
+          topicos: [
+            { nome: 'Fisiologia cardiovascular', explicacao: 'Coração, circulação e pressão arterial.' },
+            { nome: 'Fisiologia respiratória', explicacao: 'Troca gasosa e ventilação pulmonar.' },
+            { nome: 'Metabolismo energético', explicacao: 'Catabolismo e anabolismo em diferentes espécies.' },
+            { nome: 'Fisiologia reprodutiva', explicacao: 'Ciclos estrais, fertilidade e reprodução assistida.' },
+            { nome: 'Fisiologia da lactação', explicacao: 'Produção de leite e fatores que influenciam a qualidade.' }
+          ]
+        },
+        {
+          materia: 'Patologia Veterinária',
+          icone: '🔬',
+          topicos: [
+            { nome: 'Processos inflamatórios', explicacao: 'Inflamação aguda e crônica em tecidos animais.' },
+            { nome: 'Neoplasias', explicacao: 'Tipos de tumores e comportamento biológico.' },
+            { nome: 'Doenças infecciosas', explicacao: 'Agentes etiológicos e mecanismos de patogenicidade.' },
+            { nome: 'Doenças parasitárias', explicacao: 'Helmintos, protozoários e ectoparasitas mais importantes.' },
+            { nome: 'Doenças nutricionais', explicacao: 'Deficiências, intoxicações e desequilíbrios metabólicos.' }
+          ]
+        },
+        {
+          materia: 'Medicina Veterinária Preventiva',
+          icone: '🛡️',
+          topicos: [
+            { nome: 'Epidemiologia', explicacao: 'Cadeia epidemiológica e vigilância sanitária.' },
+            { nome: 'Imunologia veterinária', explicacao: 'Vacinas, imunidade ativa e passiva.' },
+            { nome: 'Higiene de alimentos', explicacao: 'Segurança alimentar da produção ao consumo.' },
+            { nome: 'Bem-estar animal', explicacao: 'Indicadores de bem-estar e legislação.' },
+            { nome: 'Saúde pública veterinária', explicacao: 'Zoonoses e interface humano-animal-ambiente.' }
+          ]
+        },
+        {
+          materia: 'Clínica e Cirurgia',
+          icone: '🩺',
+          topicos: [
+            { nome: 'Semiologia veterinária', explicacao: 'Anamnese, exame físico e exames complementares.' },
+            { nome: 'Técnicas cirúrgicas', explicacao: 'Antissepsia, anestesia e procedimentos básicos.' },
+            { nome: 'Medicina de pequenos animais', explicacao: 'Cães e gatos: enfermidades comuns e manejo.' },
+            { nome: 'Medicina de grandes animais', explicacao: 'Bovinos, equinos e suínos em produção.' },
+            { nome: 'Medicina de aves', explicacao: 'Avicultura e principais doenças aviárias.' }
           ]
         }
       ]
