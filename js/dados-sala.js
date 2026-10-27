@@ -498,6 +498,46 @@ const DadosSala = {
             {
               "nome": "Matemática financeira",
               "explicacao": "Valor presente, valor futuro e séries de pagamentos."
+            },
+            {
+              "nome": "Sistemas de numeração",
+              "explicacao": "Conversão entre decimal, binário, octal e hexadecimal."
+            },
+            {
+              "nome": "Média ponderada",
+              "explicacao": "Cálculo com pesos diferentes para cada valor."
+            },
+            {
+              "nome": "Desvio padrão",
+              "explicacao": "Medida de dispersão em relação à média."
+            },
+            {
+              "nome": "Funções exponenciais",
+              "explicacao": "Crescimento e decaimento exponencial."
+            },
+            {
+              "nome": "Equações logarítmicas",
+              "explicacao": "Resolução de equações com logaritmos."
+            },
+            {
+              "nome": "Teorema de Tales",
+              "explicacao": "Proporcionalidade em segmentos de retas."
+            },
+            {
+              "nome": "Área de círculos e setores",
+              "explicacao": "Cálculo de área circular e setorial."
+            },
+            {
+              "nome": "Princípio da casa dos pássaros",
+              "explicacao": "Aplicação em problemas de distribuição."
+            },
+            {
+              "nome": "Análise de gráficos",
+              "explicacao": "Interpretação de gráficos em problemas de matemática aplicada."
+            },
+            {
+              "nome": "Matemática aplicada à estatística",
+              "explicacao": "Aplicação de conceitos matemáticos em dados reais."
             }
           ]
         },
