@@ -1478,6 +1478,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A diferença entre auxílio comum e acidentário é clássica.",
           "como": "Acidentário = decorre de acidente de trabalho (estabilidade de 12 meses ao voltar); comum = qualquer incapacidade. Carência de 12 contribuições, salvo acidente."
+        },
+        {
+          "nome": "Seguridade Social",
+          "frequencia": 5,
+          "porque": "Base constitucional do sistema.",
+          "como": "Previdência, saúde e assistência."
+        },
+        {
+          "nome": "Princípios previdenciários",
+          "frequencia": 4,
+          "porque": "Universalidade, equidade e seletividade.",
+          "como": "Art.194 da CF."
+        },
+        {
+          "nome": "Regime Geral de Previdência Social",
+          "frequencia": 5,
+          "porque": "RGPS e seus segurados.",
+          "como": "Contribuinte individual, empregado e facultativo."
+        },
+        {
+          "nome": "Regime Próprio de Previdência Social",
+          "frequencia": 4,
+          "porque": "Servidores públicos.",
+          "como": "RPPS e Lei 9.717."
+        },
+        {
+          "nome": "Aposentadorias",
+          "frequencia": 5,
+          "porque": "Idade, tempo de contribuição e especial.",
+          "como": "Requisitos da EC 103/2019."
+        },
+        {
+          "nome": "Benefícios por incapacidade",
+          "frequencia": 4,
+          "porque": "Auxílio-doença e aposentadoria por invalidez.",
+          "como": "Laudo pericial e requisitos."
+        },
+        {
+          "nome": "Salário-família e salário-maternidade",
+          "frequencia": 3,
+          "porque": "Benefícios não contributivos.",
+          "como": "Critérios de concessão."
+        },
+        {
+          "nome": "Fator previdenciário",
+          "frequencia": 3,
+          "porque": "Cálculo do benefício.",
+          "como": "Idade, tempo de contribuição e expectativa de vida."
+        },
+        {
+          "nome": "Revisão de benefícios",
+          "frequencia": 3,
+          "porque": "Atualização e correção.",
+          "como": "IRSM, URP e WURP."
+        },
+        {
+          "nome": "Contribuição previdenciária",
+          "frequencia": 4,
+          "porque": "Alíquotas e base de cálculo.",
+          "como": "Desoneração e teto."
+        },
+        {
+          "nome": "Perícia médica",
+          "frequencia": 3,
+          "porque": "Laudos e concessão.",
+          "como": "INSS e avaliação médica."
+        },
+        {
+          "nome": "Reabilitação profissional",
+          "frequencia": 2,
+          "porque": "Reintegração ao mercado.",
+          "como": "Plano individual de reabilitação."
+        },
+        {
+          "nome": "Acumulação de benefícios",
+          "frequencia": 3,
+          "porque": "Regras de cumulação vedada.",
+          "como": "Impossibilidade de duas aposentadorias."
+        },
+        {
+          "nome": "Plano de benefícios rural",
+          "frequencia": 3,
+          "porque": "Segurado especial.",
+          "como": "Prova da atividade rural."
         }
       ]
     },
