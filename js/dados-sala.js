@@ -116,6 +116,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -338,6 +358,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -444,6 +484,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -550,6 +610,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -656,6 +736,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -776,6 +876,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -882,6 +1002,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -988,6 +1128,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1094,6 +1254,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1200,6 +1380,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -1319,6 +1519,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1425,6 +1645,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1531,6 +1771,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1637,6 +1897,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1743,6 +2023,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -1864,6 +2164,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -1970,6 +2290,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2076,6 +2416,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2182,6 +2542,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2288,6 +2668,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -2409,6 +2809,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2515,6 +2935,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2621,6 +3061,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2727,6 +3187,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -2833,6 +3313,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -2954,6 +3454,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3060,6 +3580,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3166,6 +3706,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3272,6 +3832,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3378,6 +3958,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -3538,6 +4138,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3684,6 +4304,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3830,6 +4470,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -3976,6 +4636,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -4122,6 +4802,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
@@ -4262,6 +4962,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -4388,6 +5108,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -4514,6 +5254,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -4640,6 +5400,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         },
@@ -4766,6 +5546,26 @@ const DadosSala = {
             {
               "nome": "Simulado cronometrado",
               "explicacao": "Faça simulados com tempo real para melhorar velocidade e foco."
+            },
+            {
+              "nome": "Leitura ativa de questões",
+              "explicacao": "Leia questões sublinha informações-chave e identifique o comando."
+            },
+            {
+              "nome": "Anotações de prova",
+              "explicacao": "Registre dúvidas e pontos a revisar após cada simulado."
+            },
+            {
+              "nome": "Treino de marcação",
+              "explicacao": "Pratique marcar respostas no gabarito para evitar erros de transcrição."
+            },
+            {
+              "nome": "Revisão por ciclos",
+              "explicacao": "Revise o conteúdo em ciclos curtos e progressivos até a prova."
+            },
+            {
+              "nome": "Planejamento semanal",
+              "explicacao": "Distribua as matérias ao longo da semana com metas mensuráveis."
             }
           ]
         }
