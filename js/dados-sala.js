@@ -156,6 +156,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -418,6 +438,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -564,6 +604,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -710,6 +770,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -856,6 +936,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -1016,6 +1116,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -1162,6 +1282,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -1308,6 +1448,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -1454,6 +1614,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -1600,6 +1780,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -1759,6 +1959,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -1905,6 +2125,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2051,6 +2291,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2197,6 +2457,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2343,6 +2623,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -2504,6 +2804,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2650,6 +2970,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2796,6 +3136,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -2942,6 +3302,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -3088,6 +3468,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -3249,6 +3649,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -3395,6 +3815,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -3541,6 +3981,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -3687,6 +4147,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -3833,6 +4313,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -3994,6 +4494,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -4140,6 +4660,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -4286,6 +4826,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -4432,6 +4992,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -4578,6 +5158,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -4778,6 +5378,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -4964,6 +5584,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -5150,6 +5790,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -5336,6 +5996,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -5522,6 +6202,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
@@ -5702,6 +6402,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -5868,6 +6588,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -6034,6 +6774,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -6200,6 +6960,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         },
@@ -6366,6 +7146,26 @@ const DadosSala = {
             {
               "nome": "Revisão de conceitos-chave",
               "explicacao": "Revise rapidamente os pontos mais cobrados antes de dormir."
+            },
+            {
+              "nome": "Checklist de estudo diário",
+              "explicacao": "Crie uma lista de tarefas diárias para manter constância."
+            },
+            {
+              "nome": "Revisão de legislações",
+              "explicacao": "Leia e sublinhe artigos legais mais cobrados no concurso."
+            },
+            {
+              "nome": "Questões discursivas",
+              "explicacao": "Treine redação de respostas objetivas e bem estruturadas."
+            },
+            {
+              "nome": "Atualidades contextualizadas",
+              "explicacao": "Relacione notícias recentes com conteúdos programáticos."
+            },
+            {
+              "nome": "Simulado completo",
+              "explicacao": "Faça provas inteiras no formato real para medir resistência."
             }
           ]
         }
