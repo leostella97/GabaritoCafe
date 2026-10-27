@@ -2143,6 +2143,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Diário e razão aparecem na teoria.",
           "como": "Diário = registro cronológico fato a fato; razão = o extrato de cada conta. O lançamento traz data, débito, crédito e histórico."
+        },
+        {
+          "nome": "Princípios contábeis",
+          "frequencia": 4,
+          "porque": "Base da contabilidade brasileira.",
+          "como": "Entidade, continuidade e competência."
+        },
+        {
+          "nome": "Patrimônio",
+          "frequencia": 5,
+          "porque": "Ativo, passivo e patrimônio líquido.",
+          "como": "Equação patrimonial."
+        },
+        {
+          "nome": "Balanço patrimonial",
+          "frequencia": 5,
+          "porque": "Demonstração estática.",
+          "como": "Ativo, passivo e capital próprio."
+        },
+        {
+          "nome": "Demonstração do resultado",
+          "frequencia": 4,
+          "porque": "Lucros e prejuízos.",
+          "como": "Receitas, custos e despesas."
+        },
+        {
+          "nome": "Livros contábeis",
+          "frequencia": 3,
+          "porque": "Diário e razão.",
+          "como": "Obrigatoriedade legal."
+        },
+        {
+          "nome": "Depreciação",
+          "frequencia": 3,
+          "porque": "Bem de uso.",
+          "como": "Método linear e valores."
+        },
+        {
+          "nome": "Fluxo de caixa",
+          "frequencia": 3,
+          "porque": "Movimentação financeira.",
+          "como": "Entradas e saídas."
+        },
+        {
+          "nome": "Custo de produção",
+          "frequencia": 3,
+          "porque": "Precificação.",
+          "como": "Matéria-prima, mão de obra e CIF."
+        },
+        {
+          "nome": "Análise das demonstrações",
+          "frequencia": 3,
+          "porque": "Indicadores financeiros.",
+          "como": "Liquidez e rentabilidade."
+        },
+        {
+          "nome": "Orçamento público",
+          "frequencia": 3,
+          "porque": "LOA, LDO e PPA.",
+          "como": "Ciclo orçamentário."
+        },
+        {
+          "nome": "Contabilidade pública",
+          "frequencia": 4,
+          "porque": "Bens públicos e restos a pagar.",
+          "como": "Varriação patrimonial."
+        },
+        {
+          "nome": "Lei 4.320/64",
+          "frequencia": 3,
+          "porque": "Normas de finanças públicas.",
+          "como": "Regras orçamentárias."
+        },
+        {
+          "nome": "Contabilidade de custos",
+          "frequencia": 2,
+          "porque": "Gestão interna.",
+          "como": "Absorção e variável."
+        },
+        {
+          "nome": "Auditoria interna",
+          "frequencia": 2,
+          "porque": "Controle e conformidade.",
+          "como": "Procedimentos e relatórios."
         }
       ]
     },
