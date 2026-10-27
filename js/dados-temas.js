@@ -1611,6 +1611,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "O sistema sancionador aparece em provas de PP e polícia.",
           "como": "Pena privativa = para o imputável; medida de segurança = internação do inimputável perigoso (doença mental). Dois destinos diferentes."
+        },
+        {
+          "nome": "Conceito e objeto da criminologia",
+          "frequencia": 4,
+          "porque": "Base teórica da disciplina.",
+          "como": "Estudo do crime, criminoso e vítima."
+        },
+        {
+          "nome": "Criminalidade e criminalização",
+          "frequencia": 3,
+          "porque": "Construção social do crime.",
+          "como": "Etiqueta e seleção policial."
+        },
+        {
+          "nome": "Teorias da criminalidade",
+          "frequencia": 4,
+          "porque": "Biológicas, psicológicas e sociológicas.",
+          "como": "Lombroso, Sutherland e Merton."
+        },
+        {
+          "nome": "Vitimologia",
+          "frequencia": 3,
+          "porque": "Papel da vítima no crime.",
+          "como": "Teorias da vitimização."
+        },
+        {
+          "nome": "Sistema penitenciário",
+          "frequencia": 4,
+          "porque": "Função ressocializadora.",
+          "como": "Regime fechado, semiaberto e aberto."
+        },
+        {
+          "nome": "Políticas criminais",
+          "frequencia": 3,
+          "porque": "Prevenção e repressão.",
+          "como": "Legislação e programas sociais."
+        },
+        {
+          "nome": "Criminologia e direito penal",
+          "frequencia": 3,
+          "porque": "Interface entre ciência e norma.",
+          "como": "Influência da criminologia no legislador."
+        },
+        {
+          "nome": "Criminalidade organizada",
+          "frequencia": 3,
+          "porque": "Grupos e redes criminosas.",
+          "como": "Lavagem de dinheiro e tráfico."
+        },
+        {
+          "nome": "Violência e segurança pública",
+          "frequencia": 4,
+          "porque": "Indicadores e políticas.",
+          "como": "Dados do Fórum de Segurança."
+        },
+        {
+          "nome": "Reincidência",
+          "frequencia": 3,
+          "porque": "Fatores e prevenção.",
+          "como": "Reabilitação e acompanhamento."
+        },
+        {
+          "nome": "Justiça restaurativa",
+          "frequencia": 2,
+          "porque": "Alternativa ao modelo retributivo.",
+          "como": "Medição de conflitos e reparação."
+        },
+        {
+          "nome": "Crime digital",
+          "frequencia": 3,
+          "porque": "Cibercriminalidade crescente.",
+          "como": "Tipos e legislação."
+        },
+        {
+          "nome": "Criminologia feminista",
+          "frequencia": 2,
+          "porque": "Gênero e criminalidade.",
+          "como": "Crimes contra a mulher."
+        },
+        {
+          "nome": "Prevenção do crime",
+          "frequencia": 4,
+          "porque": "Programas comunitários.",
+          "como": "Educação, esporte e trabalho."
         }
       ]
     },
