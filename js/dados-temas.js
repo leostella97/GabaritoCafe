@@ -408,6 +408,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "\"Se todo A é B e todo B é C...\" é modelo fixo da banca.",
           "como": "Desenhe os círculos: encaixe as premissas e só conclua o que o desenho forçar."
+        },
+        {
+          "nome": "Diagramas lógicos",
+          "frequencia": 4,
+          "porque": "Organizam relações entre conjuntos.",
+          "como": "Use círculos para representar categorias e relações de inclusão."
+        },
+        {
+          "nome": "Raciocínio analítico",
+          "frequencia": 4,
+          "porque": "Quebra problemas complexos em partes.",
+          "como": "Identifique premissas, hipóteses e conclusões."
+        },
+        {
+          "nome": "Sequências numéricas avançadas",
+          "frequencia": 4,
+          "porque": "Padrões combinam operações.",
+          "como": "Teste diferenças, razões e combinações."
+        },
+        {
+          "nome": "Princípio da casa dos pássaros",
+          "frequencia": 3,
+          "porque": "Prova do pigeonhole em contagem.",
+          "como": "Se n itens em m caixas com n>m, alguma caixa tem ≥2."
+        },
+        {
+          "nome": "Lógica de conjuntos",
+          "frequencia": 4,
+          "porque": "União, interseção e complemento.",
+          "como": "Use diagrama de Venn para visualizar operações."
+        },
+        {
+          "nome": "Tabela-verdade completa",
+          "frequencia": 3,
+          "porque": "Avalia validade de proposições compostas.",
+          "como": "Liste todas combinações de valores verdade."
+        },
+        {
+          "nome": "Silogismos",
+          "frequencia": 3,
+          "porque": "Raciocínio dedutivo clássico.",
+          "como": "Verifique validade das premissas e conclusão."
+        },
+        {
+          "nome": "Raciocínio proporcional",
+          "frequencia": 4,
+          "porque": "Relaciona grandezas em problemas.",
+          "como": "Estabeleça frações iguais e resolva."
+        },
+        {
+          "nome": "Problemas de contagem",
+          "frequencia": 3,
+          "porque": "Arranjos e combinações.",
+          "como": "Distinga ordem com uso de fatorial."
+        },
+        {
+          "nome": "Lógica de implicação",
+          "frequencia": 4,
+          "porque": "Se... então... e contrapositiva.",
+          "como": "Negue consequente para testar validade."
+        },
+        {
+          "nome": "Equivalências lógicas",
+          "frequencia": 3,
+          "porque": "Transforma proposições sem mudar valor.",
+          "como": "Use leis de De Morgan e distributiva."
+        },
+        {
+          "nome": "Raciocínio temporal",
+          "frequencia": 2,
+          "porque": "Sequência de eventos e cronogramas.",
+          "como": "Monte linha do tempo com restrições."
+        },
+        {
+          "nome": "Raciocínio espacial",
+          "frequencia": 2,
+          "porque": "Visualização de objetos e rotações.",
+          "como": "Desenhe ou mentalize movimentos."
+        },
+        {
+          "nome": "Princípio da indução",
+          "frequencia": 2,
+          "porque": "Demonstração por indução matemática.",
+          "como": "Base + hipótese indutiva + passo indutivo."
+        },
+        {
+          "nome": "Teoria dos jogos simples",
+          "frequencia": 2,
+          "porque": "Decisões estratégicas em problemas.",
+          "como": "Analise melhor resposta dado movimento adversário."
         }
       ]
     },
