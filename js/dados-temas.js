@@ -52,6 +52,78 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Metáfora, metonímia e hipérbole caem na interpretação.",
           "como": "Metáfora = comparação implícita; metonímia = parte pelo todo; hipérbole = exagero. Um exemplo do cotidiano para cada."
+        },
+        {
+          "nome": "Sinônimos e antônimos",
+          "frequencia": 4,
+          "porque": "Questiona a variação semântica em contexto.",
+          "como": "Substitua a palavra no trecho e veja se o sentido se mantém."
+        },
+        {
+          "nome": "Figuras de sintaxe",
+          "frequencia": 3,
+          "porque": "Hipérbole, metáfora e outras figuras aparecem em interpretação.",
+          "como": "Identifique recurso e efeito de sentido no texto."
+        },
+        {
+          "nome": "Variação linguística",
+          "frequencia": 3,
+          "porque": "Cursos abordam norma culta vs. variedades.",
+          "como": "Distinga registro formal e informal e adequação ao contexto."
+        },
+        {
+          "nome": "Pontuação avançada",
+          "frequencia": 4,
+          "porque": "Vírgula, ponto e vírgula e dois pontos mudam o sentido.",
+          "como": "Leia em voz alta; marque pausas e relações entre orações."
+        },
+        {
+          "nome": "Concordância verbal",
+          "frequencia": 5,
+          "porque": "Erros clássicos cobrados em toda prova.",
+          "como": "Verifique núcleo do sujeito e nº pessoas; atenção a sujeitos compostos."
+        },
+        {
+          "nome": "Concordância nominal",
+          "frequencia": 4,
+          "porque": "Acordos com adjetivos e pronomes.",
+          "como": "Siga regras de gênero e número; atenção a expressões como “bem como”."
+        },
+        {
+          "nome": "Regência verbal",
+          "frequencia": 4,
+          "porque": "Preposições após verbos são armadilhas frequentes.",
+          "como": "Liste verbos com preposição fixa; faça frases modelo."
+        },
+        {
+          "nome": "Regência nominal",
+          "frequencia": 3,
+          "porque": "Substantivos e adjetivos exigem preposições.",
+          "como": "Memorize combinações típicas e contextos de uso."
+        },
+        {
+          "nome": "Semântica: denotação e conotação",
+          "frequencia": 3,
+          "porque": "Diferencia sentido literal e figurado.",
+          "como": "Identifique contexto e intenção do autor."
+        },
+        {
+          "nome": "Morfologia: classes de palavras",
+          "frequencia": 4,
+          "porque": "Identificação de substantivo, verbo, adjetivo etc.",
+          "como": "Analise função sintática na frase."
+        },
+        {
+          "nome": "Ortografia oficial",
+          "frequencia": 4,
+          "porque": "Acordo ortográfico ainda gera dúvidas.",
+          "como": "Revisar uso de s/x/z, hífen e acentuação."
+        },
+        {
+          "nome": "Redação oficial e tipologia textual",
+          "frequencia": 3,
+          "porque": "Descrever tipos textuais e características.",
+          "como": "Associe finalidade, suporte e estrutura a cada tipo."
         }
       ]
     },
