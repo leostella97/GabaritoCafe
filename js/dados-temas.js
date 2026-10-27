@@ -2270,6 +2270,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A gestão democrática da escola e o projeto político-pedagógico caem em redes públicas.",
           "como": "PPP = o projeto da escola construído com a comunidade; gestão democrática = participação de pais, alunos e comunidade."
+        },
+        {
+          "nome": "História da educação brasileira",
+          "frequencia": 4,
+          "porque": "Contexto pedagógico nacional.",
+          "como": "Colonial, imperial e republicana."
+        },
+        {
+          "nome": "Leis de diretrizes e bases",
+          "frequencia": 5,
+          "porque": "LDB 9.394/96.",
+          "como": "Organização da educação básica."
+        },
+        {
+          "nome": "Currículo",
+          "frequencia": 4,
+          "porque": "Planejamento pedagógico.",
+          "como": "Base Nacional Comum Curricular."
+        },
+        {
+          "nome": "Avaliação da aprendizagem",
+          "frequencia": 4,
+          "porque": "Formativa e somativa.",
+          "como": "Critérios e feedback."
+        },
+        {
+          "nome": "Didática",
+          "frequencia": 5,
+          "porque": "Métodos e técnicas de ensino.",
+          "como": "Plano de aula e recursos."
+        },
+        {
+          "nome": "Gestão escolar",
+          "frequencia": 3,
+          "porque": "Direção e coordenação.",
+          "como": "Projeto político pedagógico."
+        },
+        {
+          "nome": "Inclusão escolar",
+          "frequencia": 4,
+          "porque": "Educação especial.",
+          "como": "Políticas de acessibilidade."
+        },
+        {
+          "nome": "Educação infantil",
+          "frequencia": 3,
+          "porque": "Primeiros anos.",
+          "como": "Brincadeira e desenvolvimento."
+        },
+        {
+          "nome": "Ensino fundamental",
+          "frequencia": 3,
+          "porque": "Ciclo de alfabetização.",
+          "como": "Linguagens e matemática."
+        },
+        {
+          "nome": "Ensino médio",
+          "frequencia": 3,
+          "porque": "Protagonismo juvenil.",
+          "como": "Itinerários formativos."
+        },
+        {
+          "nome": "Educação de jovens e adultos",
+          "frequencia": 2,
+          "porque": "EJA e alfabetização.",
+          "como": "Contextualização."
+        },
+        {
+          "nome": "Educação ambiental",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Práticas pedagógicas."
+        },
+        {
+          "nome": "Tecnologia educacional",
+          "frequencia": 3,
+          "porque": "TDIC na sala de aula.",
+          "como": "Recursos digitais."
+        },
+        {
+          "nome": "Ética docente",
+          "frequencia": 3,
+          "porque": "Conduta profissional.",
+          "como": "Compromisso e responsabilidade."
         }
       ]
     }
