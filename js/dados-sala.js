@@ -36,6 +36,26 @@ const DadosSala = {
             {
               "nome": "Ortografia oficial",
               "explicacao": "Decore os casos clássicos: \"há\" (tempo) x \"a\" (distância), \"por que/porque/porquê/por quê\" e os porquês das regras de acentuação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -62,6 +82,26 @@ const DadosSala = {
             {
               "nome": "Verdades e mentiras",
               "explicacao": "Supõe que o primeiro diz a verdade e vê se o resto se sustenta. Se quebrar, troca a hipótese."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -88,6 +128,26 @@ const DadosSala = {
             {
               "nome": "Hardware básico",
               "explicacao": "RAM é memória volátil (some ao desligar); SSD é armazenamento. Uma frase para cada peça resolve."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -114,6 +174,26 @@ const DadosSala = {
             {
               "nome": "Atos de improbidade",
               "explicacao": "Enriquecimento ilícito, prejuízo ao erário e violação de princípios — cada um com sua pena."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -140,6 +220,26 @@ const DadosSala = {
             {
               "nome": "Regime jurídico dos servidores",
               "explicacao": "Posse, exercício, licenças e penalidades: 30 dias para posse, 15 para entrar em exercício (regra federal)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -180,6 +280,26 @@ const DadosSala = {
             {
               "nome": "Processo administrativo fiscal (PAF)",
               "explicacao": "Defesa, impugnação e recursos. Conheça as fases e os prazos do contencioso administrativo tributário."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -206,6 +326,26 @@ const DadosSala = {
             {
               "nome": "Depreciação e provisões",
               "explicacao": "Depreciação distribui o custo do bem ao longo da vida útil; provisão reconhece obrigação provável."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -232,6 +372,26 @@ const DadosSala = {
             {
               "nome": "Processo de fiscalização",
               "explicacao": "Auto de infração, lançamento, defesa e julgamento administrativo. Saber a ordem das fases é meio caminho."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -258,6 +418,26 @@ const DadosSala = {
             {
               "nome": "Responsabilidade civil do Estado",
               "explicacao": "O Estado responde objetivamente pelos danos de seus agentes (art. 37, §6º da CF)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -284,6 +464,26 @@ const DadosSala = {
             {
               "nome": "Matemática financeira básica",
               "explicacao": "Juros simples (J = C·i·t) e compostos (M = C·(1+i)^t). Grave as fórmulas e faça questões."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -323,6 +523,26 @@ const DadosSala = {
             {
               "nome": "Reforma da Previdência (EC 103/2019)",
               "explicacao": "Idades mínimas (62/65), regras de transição e o cálculo do benefício mudaram — é o que a banca cobra agora."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -349,6 +569,26 @@ const DadosSala = {
             {
               "nome": "Compreensão de charges e gráficos",
               "explicacao": "A banca mistura linguagem verbal e não verbal. Treine ler tabelas e infográficos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -375,6 +615,26 @@ const DadosSala = {
             {
               "nome": "Calendários e dias da semana",
               "explicacao": "Divida por 7 e trabalhe com o resto: 30 dias = 4 semanas + 2 dias para frente."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -401,6 +661,26 @@ const DadosSala = {
             {
               "nome": "LGPD e privacidade",
               "explicacao": "Direitos do titular (acesso, correção, exclusão) e os papéis de controlador e operador."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -427,6 +707,26 @@ const DadosSala = {
             {
               "nome": "Nepotismo e moralidade",
               "explicacao": "A Súmula Vinculante 13 veda parente em cargo comissionado, direto ou cruzado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -468,6 +768,26 @@ const DadosSala = {
             {
               "nome": "Prisão em flagrante",
               "explicacao": "Qualquer cidadão pode prender em flagrante — é faculdade, não crime não prender. Só juiz decreta preventiva."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -494,6 +814,26 @@ const DadosSala = {
             {
               "nome": "Júri e procedimentos especiais",
               "explicacao": "Crimes dolosos contra a vida vão ao júri. Conheça as fases e os ritos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -520,6 +860,26 @@ const DadosSala = {
             {
               "nome": "ECA (8.069/90) e ato infracional",
               "explicacao": "Medidas socioeducativas aplicáveis ao adolescente em conflito com a lei."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -546,6 +906,26 @@ const DadosSala = {
             {
               "nome": "Organização da segurança pública",
               "explicacao": "Os órgãos do art. 144 e a função de cada um: PC, PM, PF, PRF e GCM."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -572,6 +952,26 @@ const DadosSala = {
             {
               "nome": "Fases da investigação criminal",
               "explicacao": "Do conhecimento do fato ao relatório final: diligências, oitivas e a elucidação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -613,6 +1013,26 @@ const DadosSala = {
             {
               "nome": "Indicadores e vigilância",
               "explicacao": "Vigilância epidemiológica, sanitária e ambiental — os pilares da proteção coletiva."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -639,6 +1059,26 @@ const DadosSala = {
             {
               "nome": "Feridas e curativos",
               "explicacao": "Classificação das feridas e a escolha da cobertura adequada a cada tipo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -665,6 +1105,26 @@ const DadosSala = {
             {
               "nome": "Imunização (PNI)",
               "explicacao": "O calendário vacinal e as indicações por faixa etária — questão certa de prova."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -691,6 +1151,26 @@ const DadosSala = {
             {
               "nome": "Choque",
               "explicacao": "Os tipos de choque (hipovolêmico, cardiogênico, séptico) e os sinais de alarme."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -717,6 +1197,26 @@ const DadosSala = {
             {
               "nome": "Segurança do paciente",
               "explicacao": "Os protocolos de identificação, comunicação e prevenção de erros de medicação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -758,6 +1258,26 @@ const DadosSala = {
             {
               "nome": "Plano Nacional de Educação (PNE)",
               "explicacao": "As 20 metas do PNE e os prazos para a educação brasileira."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -784,6 +1304,26 @@ const DadosSala = {
             {
               "nome": "Gestão democrática",
               "explicacao": "Participação de pais, alunos e comunidade na gestão da escola pública."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -810,6 +1350,26 @@ const DadosSala = {
             {
               "nome": "Literatura infantojuvenil",
               "explicacao": "Autores e obras da literatura para crianças e jovens — leitura obrigatória da área."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -836,6 +1396,26 @@ const DadosSala = {
             {
               "nome": "Legislação da inclusão",
               "explicacao": "LBI (13.146/2015) e o direito à educação inclusiva."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -862,6 +1442,26 @@ const DadosSala = {
             {
               "nome": "Tecnologias digitais no ensino",
               "explicacao": "Recursos digitais e sua aplicação didática na sua disciplina."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -942,6 +1542,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1008,6 +1628,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1074,6 +1714,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1140,6 +1800,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1206,6 +1886,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -1266,6 +1966,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1312,6 +2032,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1358,6 +2098,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1404,6 +2164,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1450,6 +2230,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -1488,6 +2288,26 @@ const DadosSala = {
             {
               "nome": "Controle de constitucionalidade",
               "explicacao": "ADI, ADC e ADPF — os instrumentos de defesa da Constituição."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1514,6 +2334,26 @@ const DadosSala = {
             {
               "nome": "Família e sucessões",
               "explicacao": "Casamento, união estável, herança e testamento."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1540,6 +2380,26 @@ const DadosSala = {
             {
               "nome": "Teoria da pena",
               "explicacao": "Fundamentos (retribuição e prevenção) e os sistemas penitenciários."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1566,6 +2426,26 @@ const DadosSala = {
             {
               "nome": "Recursos",
               "explicacao": "Apelação, agravo e os recursos aos tribunais superiores."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1592,6 +2472,26 @@ const DadosSala = {
             {
               "nome": "Direito e moral",
               "explicacao": "As fronteiras entre norma jurídica e norma moral."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -1628,6 +2528,26 @@ const DadosSala = {
             {
               "nome": "Órgãos internos e cavidades",
               "explicacao": "Localização e relações dos órgãos das cavidades torácica e abdominal."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1654,6 +2574,26 @@ const DadosSala = {
             {
               "nome": "Neurofisiologia",
               "explicacao": "Potencial de ação, sinapses e a integração do sistema nervoso."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1680,6 +2620,26 @@ const DadosSala = {
             {
               "nome": "Anticoagulantes e trombolíticos",
               "explicacao": "Prevenção e tratamento de eventos tromboembólicos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1706,6 +2666,26 @@ const DadosSala = {
             {
               "nome": "Distúrbios metabólicos",
               "explicacao": "Diabetes, obesidade e as alterações metabólicas associadas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1732,6 +2712,26 @@ const DadosSala = {
             {
               "nome": "Doenças endócrinas",
               "explicacao": "Diabetes, tireoidopatias e as síndromes metabólicas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -1768,6 +2768,26 @@ const DadosSala = {
             {
               "nome": "Estatística aplicada",
               "explicacao": "Probabilidade e a análise de dados de materiais e obras."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1794,6 +2814,26 @@ const DadosSala = {
             {
               "nome": "Propriedades dos materiais",
               "explicacao": "Aço, concreto e madeira: resistência e aplicações."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1820,6 +2860,26 @@ const DadosSala = {
             {
               "nome": "Normas técnicas (ABNT)",
               "explicacao": "As NBRs de projeto e execução de estruturas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1846,6 +2906,26 @@ const DadosSala = {
             {
               "nome": "Tipos de fundação",
               "explicacao": "Rasas (sapatas) e profundas (estacas) — quando usar cada uma."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1872,6 +2952,26 @@ const DadosSala = {
             {
               "nome": "Drenagem urbana",
               "explicacao": "O escoamento das águas pluviais e a prevenção de alagamentos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -1908,6 +3008,26 @@ const DadosSala = {
             {
               "nome": "Teorias contemporâneas",
               "explicacao": "Sistemas, contingência e as abordagens atuais de gestão."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1934,6 +3054,26 @@ const DadosSala = {
             {
               "nome": "Marketing digital",
               "explicacao": "Mídias sociais, SEO e o funil de conversão."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1960,6 +3100,26 @@ const DadosSala = {
             {
               "nome": "Decisões de investimento",
               "explicacao": "VPL, TIR e payback para avaliar projetos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -1986,6 +3146,26 @@ const DadosSala = {
             {
               "nome": "Clima e cultura organizacional",
               "explicacao": "Os valores compartilhados e o ambiente de trabalho."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2012,6 +3192,26 @@ const DadosSala = {
             {
               "nome": "Logística e distribuição",
               "explicacao": "Transporte, armazenagem e a entrega ao cliente final."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -2048,6 +3248,26 @@ const DadosSala = {
             {
               "nome": "Humanismo",
               "explicacao": "Rogers e Maslow: a pessoa em busca de autorrealização."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2074,6 +3294,26 @@ const DadosSala = {
             {
               "nome": "Lacan e o retorno a Freud",
               "explicacao": "O simbólico, o imaginário e o real."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2100,6 +3340,26 @@ const DadosSala = {
             {
               "nome": "Desenvolvimento na vida adulta e velhice",
               "explicacao": "Mudanças cognitivas e afetivas ao longo de todo o ciclo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2126,6 +3386,26 @@ const DadosSala = {
             {
               "nome": "Transtornos de personalidade",
               "explicacao": "Os principais padrões disfuncionais de personalidade."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2152,6 +3432,26 @@ const DadosSala = {
             {
               "nome": "Ética profissional",
               "explicacao": "O Código de Ética do psicólogo e o sigilo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -2188,6 +3488,26 @@ const DadosSala = {
             {
               "nome": "Complexidade de algoritmos",
               "explicacao": "Notação Big-O e a análise de eficiência."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2214,6 +3534,26 @@ const DadosSala = {
             {
               "nome": "Controle de versão",
               "explicacao": "Git e o trabalho colaborativo em repositórios."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2240,6 +3580,26 @@ const DadosSala = {
             {
               "nome": "Transações e concorrência",
               "explicacao": "ACID, isolamento e a consistência dos dados."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2266,6 +3626,26 @@ const DadosSala = {
             {
               "nome": "Redes sem fio",
               "explicacao": "Wi-Fi, padrões e os fundamentos da conexão sem fio."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2292,6 +3672,26 @@ const DadosSala = {
             {
               "nome": "Metodologias ágeis",
               "explicacao": "Scrum, Kanban e a entrega contínua de valor."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -2348,6 +3748,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2394,6 +3814,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2440,6 +3880,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2486,6 +3946,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2532,6 +4012,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
@@ -2588,6 +4088,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2634,6 +4154,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2680,6 +4220,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2726,6 +4286,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         },
@@ -2772,6 +4352,26 @@ const DadosSala = {
             {
               "nome": "Ferramentas de estudo",
               "explicacao": "Use resumos, vídeos e simulados para fixar o conteúdo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
             }
           ]
         }
