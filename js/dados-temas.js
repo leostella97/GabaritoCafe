@@ -269,6 +269,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Resolução de sistemas 2×2 é frequente em concursos.",
           "como": "Use substituição ou escalonamento; verifique soluções possíveis."
+        },
+        {
+          "nome": "Média ponderada",
+          "frequencia": 3,
+          "porque": "Pesos diferentes em provas de estatística básica.",
+          "como": "Multiplique cada valor pelo peso, some e divida pela soma dos pesos."
+        },
+        {
+          "nome": "Desvio padrão",
+          "frequencia": 2,
+          "porque": "Medida de dispersão em análise de dados.",
+          "como": "Calcule a média, diferenças ao quadrado, média e raiz."
+        },
+        {
+          "nome": "Proporcionalidade inversa",
+          "frequencia": 3,
+          "porque": "Produtos constantes em problemas de trabalho.",
+          "como": "Produto das grandezas permanece igual; inverta a razão."
+        },
+        {
+          "nome": "Equações exponenciais",
+          "frequencia": 3,
+          "porque": "Modelagem de crescimento e juros compostos.",
+          "como": "Igualar bases ou aplicar logaritmo."
+        },
+        {
+          "nome": "Inequações do 1º grau",
+          "frequencia": 3,
+          "porque": "Intervalos de solução em questões de domínio.",
+          "como": "Isolar variável e inverter sinal ao mudar de lado."
+        },
+        {
+          "nome": "Sistemas lineares 2x2",
+          "frequencia": 3,
+          "porque": "Métodos de substituição e escalonamento.",
+          "como": "Resolva por substituição ou adição, verifique solução única."
+        },
+        {
+          "nome": "Razão áurea",
+          "frequencia": 2,
+          "porque": "Proporções especiais em problemas de geometria.",
+          "como": "Relação φ ≈ 1,618; identifique segmentos proporcionais."
+        },
+        {
+          "nome": "Área de polígonos irregulares",
+          "frequencia": 2,
+          "porque": "Decomposição em figuras simples.",
+          "como": "Divida em triângulos e some áreas."
+        },
+        {
+          "nome": "Volume de cilindros",
+          "frequencia": 3,
+          "porque": "Cálculo de capacidade e armazenamento.",
+          "como": "Volume = πr²h; use π ≈ 3,14."
+        },
+        {
+          "nome": "Permutações com repetição",
+          "frequencia": 2,
+          "porque": "Contagem de arranjos com elementos iguais.",
+          "como": "Divida pelo fatorial das repetições."
+        },
+        {
+          "nome": "Probabilidade condicional",
+          "frequencia": 2,
+          "porque": "Eventos dependentes em questões avançadas.",
+          "como": "P(A|B) = P(A∩B)/P(B); use árvore de possibilidades."
+        },
+        {
+          "nome": "Função composta",
+          "frequencia": 2,
+          "porque": "Composição de funções em modelagem.",
+          "como": "Aplique função interna primeiro, depois externa."
+        },
+        {
+          "nome": "Inversão de operações",
+          "frequencia": 2,
+          "porque": "Desfazer operações para achar incógnita.",
+          "como": "Aplique operação inversa na ordem contrária."
+        },
+        {
+          "nome": "Conjuntos numéricos",
+          "frequencia": 3,
+          "porque": "ℕ, ℤ, ℚ, ℝ aparecem em questões de classificação.",
+          "como": "Identifique propriedades de cada conjunto."
+        },
+        {
+          "nome": "Fatoração por agrupamento",
+          "frequencia": 3,
+          "porque": "Simplificação de polinômios.",
+          "como": "Agrupe termos com fator comum e fatorize."
         }
       ]
     },
