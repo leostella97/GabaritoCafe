@@ -56,6 +56,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -102,6 +122,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -148,6 +188,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -194,6 +254,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -240,6 +320,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -300,6 +400,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -346,6 +466,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -392,6 +532,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -438,6 +598,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -484,6 +664,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -543,6 +743,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -589,6 +809,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -635,6 +875,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -681,6 +941,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -727,6 +1007,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -788,6 +1088,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -834,6 +1154,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -880,6 +1220,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -926,6 +1286,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -972,6 +1352,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -1033,6 +1433,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1079,6 +1499,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1125,6 +1565,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1171,6 +1631,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1217,6 +1697,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -1278,6 +1778,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1324,6 +1844,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1370,6 +1910,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1416,6 +1976,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1462,6 +2042,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -1562,6 +2162,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1648,6 +2268,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1734,6 +2374,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1820,6 +2480,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -1906,6 +2586,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -1986,6 +2686,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2052,6 +2772,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2118,6 +2858,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2184,6 +2944,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2250,6 +3030,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -2308,6 +3108,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2354,6 +3174,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2400,6 +3240,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2446,6 +3306,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2492,6 +3372,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -2548,6 +3448,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2594,6 +3514,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2640,6 +3580,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2686,6 +3646,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2732,6 +3712,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -2788,6 +3788,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2834,6 +3854,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2880,6 +3920,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2926,6 +3986,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -2972,6 +4052,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -3028,6 +4128,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3074,6 +4194,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3120,6 +4260,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3166,6 +4326,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3212,6 +4392,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -3268,6 +4468,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3314,6 +4534,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3360,6 +4600,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3406,6 +4666,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3452,6 +4732,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -3508,6 +4808,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3554,6 +4874,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3600,6 +4940,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3646,6 +5006,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3692,6 +5072,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -3768,6 +5168,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3834,6 +5254,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3900,6 +5340,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -3966,6 +5426,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -4032,6 +5512,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -4108,6 +5608,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -4174,6 +5694,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -4240,6 +5780,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -4306,6 +5866,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -4372,6 +5952,26 @@ const DadosSala = {
             {
               "nome": "Estudo intercalado",
               "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
