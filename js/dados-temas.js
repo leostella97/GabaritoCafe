@@ -6397,6 +6397,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Civil, político e social de T.H. Marshall caem direto.",
           "como": "Civil (séc. XVIII — liberdade), político (XIX — voto), social (XX — previdência e escola). A ordem dos direitos."
+        },
+        {
+          "nome": "Desigualdade social",
+          "frequencia": 4,
+          "porque": "Temas atuais.",
+          "como": "Classes e renda."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Lutas coletivas.",
+          "como": "Feminismo."
+        },
+        {
+          "nome": "Urbanização",
+          "frequencia": 3,
+          "porque": "Cidade e espaço.",
+          "como": "Metropolização."
+        },
+        {
+          "nome": "Globalização",
+          "frequencia": 4,
+          "porque": "Mundo interconectado.",
+          "como": "Cultura e economia."
+        },
+        {
+          "nome": "Identidade e cultura",
+          "frequencia": 3,
+          "porque": "Construção social.",
+          "como": "Etnocentrismo."
+        },
+        {
+          "nome": "Teoria do conflito",
+          "frequencia": 3,
+          "porque": "Marxista.",
+          "como": "Luta de classes."
+        },
+        {
+          "nome": "Funcionalismo",
+          "frequencia": 3,
+          "porque": "Durkheim.",
+          "como": "Consenso."
+        },
+        {
+          "nome": "Interacionismo simbólico",
+          "frequencia": 2,
+          "porque": "Significados.",
+          "como": "Simbolismo."
+        },
+        {
+          "nome": "Sociologia rural",
+          "frequencia": 2,
+          "porque": "Campo.",
+          "como": "Relações."
+        },
+        {
+          "nome": "Sociologia da educação",
+          "frequencia": 3,
+          "porque": "Escola.",
+          "como": "Reprodução."
+        },
+        {
+          "nome": "Sociologia das religiões",
+          "frequencia": 2,
+          "porque": "Fé e sociedade.",
+          "como": "Weber."
+        },
+        {
+          "nome": "Etnografia",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Observação."
+        },
+        {
+          "nome": "Cultura de massa",
+          "frequencia": 3,
+          "porque": "Mídia.",
+          "como": "Industrialização."
+        },
+        {
+          "nome": "Sociologia ambiental",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Impacto."
         }
       ]
     },
