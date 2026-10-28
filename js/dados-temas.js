@@ -5238,6 +5238,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Africanidade.",
           "como": "Resistência."
+        },
+        {
+          "nome": "Brasil Colônia: administração",
+          "frequencia": 4,
+          "porque": "Capitanias.",
+          "como": "Governo geral."
+        },
+        {
+          "nome": "Inconfidência Mineira",
+          "frequencia": 4,
+          "porque": "Tiradentes.",
+          "como": "Contexto."
+        },
+        {
+          "nome": "Ciclo do ouro",
+          "frequencia": 3,
+          "porque": "Minas Gerais.",
+          "como": "Controle português."
+        },
+        {
+          "nome": "Corte no Brasil (1808)",
+          "frequencia": 3,
+          "porque": "1808.",
+          "como": "Abertura portos."
+        },
+        {
+          "nome": "Guerra do Paraguai",
+          "frequencia": 2,
+          "porque": "Maior conflito.",
+          "como": "Relações externas."
+        },
+        {
+          "nome": "Abolição gradual",
+          "frequencia": 3,
+          "porque": "Leis abolicionistas.",
+          "como": "Ventre Livre."
+        },
+        {
+          "nome": "Imigração",
+          "frequencia": 2,
+          "porque": "Substituição mão de obra.",
+          "como": "Italianos e japoneses."
+        },
+        {
+          "nome": "Café e República Oligárquica",
+          "frequencia": 3,
+          "porque": "Economia cafeeira.",
+          "como": "Convênio Taubaté."
+        },
+        {
+          "nome": "Revolução de 1930",
+          "frequencia": 3,
+          "porque": "Fim República Velha.",
+          "como": "Getúlio Vargas."
+        },
+        {
+          "nome": "CLT e trabalhismo",
+          "frequencia": 2,
+          "porque": "Direitos trabalhistas.",
+          "como": "Legado."
+        },
+        {
+          "nome": "Ditadura e repressão",
+          "frequencia": 3,
+          "porque": "Atos Institucionais.",
+          "como": "Milagre econômico."
+        },
+        {
+          "nome": "Diretas Já",
+          "frequencia": 3,
+          "porque": "1984.",
+          "como": "Redemocratização."
+        },
+        {
+          "nome": "Constituição de 1988",
+          "frequencia": 3,
+          "porque": "Cidadã.",
+          "como": "Direitos."
+        },
+        {
+          "nome": "História da participação política",
+          "frequencia": 2,
+          "porque": "Voto e partidos.",
+          "como": "Evolução."
         }
       ]
     },
