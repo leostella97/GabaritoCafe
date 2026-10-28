@@ -7180,6 +7180,114 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Energia.",
           "como": "Craqueamento."
+        },
+        {
+          "nome": "Estrutura atômica",
+          "frequencia": 3,
+          "porque": "Fundamento.",
+          "como": "Prótons e elétrons."
+        },
+        {
+          "nome": "Distribuição eletrônica",
+          "frequencia": 3,
+          "porque": "Configuração.",
+          "como": "Camadas."
+        },
+        {
+          "nome": "Tabela periódica moderna",
+          "frequencia": 3,
+          "porque": "Propriedades.",
+          "como": "Famílias."
+        },
+        {
+          "nome": "Propriedades periódicas",
+          "frequencia": 2,
+          "porque": "Tendências.",
+          "como": "Eletronegatividade."
+        },
+        {
+          "nome": "Ligações iônicas e covalentes",
+          "frequencia": 3,
+          "porque": "Ligação química.",
+          "como": "Octeto."
+        },
+        {
+          "nome": "Ligações metálicas",
+          "frequencia": 2,
+          "porque": "Condutividade.",
+          "como": "Mar de elétrons."
+        },
+        {
+          "nome": "Balanceamento de equações",
+          "frequencia": 3,
+          "porque": "Estequiometria.",
+          "como": "Método das tentativas."
+        },
+        {
+          "nome": "Rendimento de reação",
+          "frequencia": 2,
+          "porque": "Cálculos.",
+          "como": "Percentual."
+        },
+        {
+          "nome": "Reagente limitante",
+          "frequencia": 2,
+          "porque": "Proporção.",
+          "como": "Excesso."
+        },
+        {
+          "nome": "Dissolução e solubilidade",
+          "frequencia": 2,
+          "porque": "Soluções.",
+          "como": "Saturada."
+        },
+        {
+          "nome": "Diluição",
+          "frequencia": 2,
+          "porque": "Concentração.",
+          "como": "C1V1 = C2V2."
+        },
+        {
+          "nome": "Titulação ácido-base",
+          "frequencia": 2,
+          "porque": "Neutralização.",
+          "como": "Ponto de equivalência."
+        },
+        {
+          "nome": "Pilhas",
+          "frequencia": 2,
+          "porque": "Eletroquímica.",
+          "como": "Anodo e catodo."
+        },
+        {
+          "nome": "Eletrólise",
+          "frequencia": 2,
+          "porque": "Processo.",
+          "como": "Ígnea e aquosa."
+        },
+        {
+          "nome": "Hidrocarbonetos",
+          "frequencia": 3,
+          "porque": "Orgânica.",
+          "como": "Alcanos, alcenos, alcinos."
+        },
+        {
+          "nome": "Funções oxigenadas",
+          "frequencia": 2,
+          "porque": "Orgânica.",
+          "como": "Álcool e éter."
+        },
+        {
+          "nome": "Funções nitrogenadas",
+          "frequencia": 2,
+          "porque": "Orgânica.",
+          "como": "Aminas e amidas."
+        },
+        {
+          "nome": "Saponificação",
+          "frequencia": 1,
+          "porque": "Sabões.",
+          "como": "Ésteres."
         }
       ]
     },
