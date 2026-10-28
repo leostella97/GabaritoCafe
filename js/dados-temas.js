@@ -9804,6 +9804,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Interpretação.",
           "como": "Texto."
+        },
+        {
+          "nome": "Filosofia antiga",
+          "frequencia": 3,
+          "porque": "Grécia.",
+          "como": "Sócrates."
+        },
+        {
+          "nome": "Filosofia medieval",
+          "frequencia": 2,
+          "porque": "Escolástica.",
+          "como": "Tomás de Aquino."
+        },
+        {
+          "nome": "Filosofia moderna",
+          "frequencia": 3,
+          "porque": "Iluminismo.",
+          "como": "Rousseau."
+        },
+        {
+          "nome": "Filosofia contemporânea",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Bauman."
+        },
+        {
+          "nome": "Contratualismo",
+          "frequencia": 3,
+          "porque": "Estado.",
+          "como": "Hobbes."
+        },
+        {
+          "nome": "Idealismo alemão",
+          "frequencia": 2,
+          "porque": "Hegel.",
+          "como": "Dialética."
+        },
+        {
+          "nome": "Materialismo histórico",
+          "frequencia": 3,
+          "porque": "Marx.",
+          "como": "Luta de classes."
+        },
+        {
+          "nome": "Utilitarismo",
+          "frequencia": 2,
+          "porque": "Bentham.",
+          "como": "Bem maior."
+        },
+        {
+          "nome": "Filosofia da ciência",
+          "frequencia": 2,
+          "porque": "Popper.",
+          "como": "Falsificabilidade."
+        },
+        {
+          "nome": "Liberdade e determinismo",
+          "frequencia": 2,
+          "porque": "Debate.",
+          "como": "Schopenhauer."
+        },
+        {
+          "nome": "Alienação",
+          "frequencia": 2,
+          "porque": "Marx.",
+          "como": "Trabalho."
+        },
+        {
+          "nome": "Filosofia e direitos humanos",
+          "frequencia": 2,
+          "porque": "Justiça.",
+          "como": "Dignidade."
+        },
+        {
+          "nome": "Bioética",
+          "frequencia": 2,
+          "porque": "Vida.",
+          "como": "Limites éticos."
+        },
+        {
+          "nome": "Estoicismo",
+          "frequencia": 2,
+          "porque": "Virtude.",
+          "como": "Sêneca."
         }
       ]
     },
