@@ -6295,6 +6295,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Movimentos.",
           "como": "Causas."
+        },
+        {
+          "nome": "Solos do Brasil",
+          "frequencia": 2,
+          "porque": "Tipos e usos.",
+          "como": "Terra roxa e massapé."
+        },
+        {
+          "nome": "Vegetação brasileira",
+          "frequencia": 3,
+          "porque": "Biomas e formações.",
+          "como": "Cerrado e Caatinga."
+        },
+        {
+          "nome": "Domínios morfoclimáticos",
+          "frequencia": 3,
+          "porque": "Ab'Saber.",
+          "como": "Amazônico e Cerrado."
+        },
+        {
+          "nome": "Bacias hidrográficas brasileiras",
+          "frequencia": 3,
+          "porque": "Regiões.",
+          "como": "Amazônica e Paraná."
+        },
+        {
+          "nome": "Relevo brasileiro",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Planalto e planície."
+        },
+        {
+          "nome": "Clima do Brasil",
+          "frequencia": 3,
+          "porque": "Tipos.",
+          "como": "Equatorial e semiárido."
+        },
+        {
+          "nome": "Formação do território brasileiro",
+          "frequencia": 2,
+          "porque": "Evolução.",
+          "como": "Tratados."
+        },
+        {
+          "nome": "População brasileira",
+          "frequencia": 3,
+          "porque": "Miscigenação.",
+          "como": "Diversidade étnica."
+        },
+        {
+          "nome": "Distribuição da população",
+          "frequencia": 2,
+          "porque": "Concentração.",
+          "como": "Litoral."
+        },
+        {
+          "nome": "Fluxos migratórios no Brasil",
+          "frequencia": 2,
+          "porque": "Movimentos.",
+          "como": "Nordeste → Sudeste."
+        },
+        {
+          "nome": "Industrialização e urbanização",
+          "frequencia": 3,
+          "porque": "Relação.",
+          "como": "Anos 1950."
+        },
+        {
+          "nome": "Redes urbanas",
+          "frequencia": 2,
+          "porque": "Hierarquia.",
+          "como": "Metrópole e capitais."
+        },
+        {
+          "nome": "Região Centro-Oeste",
+          "frequencia": 2,
+          "porque": "Agronegócio.",
+          "como": "Brasília e soja."
+        },
+        {
+          "nome": "Região Sul do Brasil",
+          "frequencia": 2,
+          "porque": "Clima e economia.",
+          "como": "Subtropical."
         }
       ]
     },
