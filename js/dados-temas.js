@@ -5340,6 +5340,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Voto e partidos.",
           "como": "Evolução."
+        },
+        {
+          "nome": "Bandeirantes",
+          "frequencia": 2,
+          "porque": "Interiorização.",
+          "como": "Drogas do sertão."
+        },
+        {
+          "nome": "Missões jesuíticas",
+          "frequencia": 2,
+          "porque": "Catequese.",
+          "como": "Aldeamentos."
+        },
+        {
+          "nome": "Invasões holandesas",
+          "frequencia": 2,
+          "porque": "1600.",
+          "como": "Maurício de Nassau."
+        },
+        {
+          "nome": "Revoltas nativistas",
+          "frequencia": 2,
+          "porque": "Século XVIII.",
+          "como": "Beckman, Mascates."
+        },
+        {
+          "nome": "Conjuração Baiana",
+          "frequencia": 2,
+          "porque": "Revolta social.",
+          "como": "Abolição."
+        },
+        {
+          "nome": "Período Joanino",
+          "frequencia": 3,
+          "porque": "1808.",
+          "como": "Imprensa Régia."
+        },
+        {
+          "nome": "Primeiro Reinado",
+          "frequencia": 3,
+          "porque": "D. Pedro I.",
+          "como": "Constituição de 1824."
+        },
+        {
+          "nome": "Período Regencial",
+          "frequencia": 2,
+          "porque": "Golpe da maioridade.",
+          "como": "Regências."
+        },
+        {
+          "nome": "Segundo Reinado",
+          "frequencia": 3,
+          "porque": "D. Pedro II.",
+          "como": "Parlamentarismo."
+        },
+        {
+          "nome": "Política do café com leite",
+          "frequencia": 3,
+          "porque": "República Velha.",
+          "como": "SP e MG."
+        },
+        {
+          "nome": "Semana de Arte Moderna",
+          "frequencia": 2,
+          "porque": "1922.",
+          "como": "Mário de Andrade."
+        },
+        {
+          "nome": "Estado Novo",
+          "frequencia": 3,
+          "porque": "1937.",
+          "como": "DIP e censura."
+        },
+        {
+          "nome": "Governo JK",
+          "frequencia": 3,
+          "porque": "1956-1961.",
+          "como": "Plano de Metas."
+        },
+        {
+          "nome": "Governo João Goulart",
+          "frequencia": 2,
+          "porque": "1961-1964.",
+          "como": "Reformas de base."
+        },
+        {
+          "nome": "Nova República",
+          "frequencia": 3,
+          "porque": "Pós-1985.",
+          "como": "Sarney a FHC."
         }
       ]
     },
