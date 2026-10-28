@@ -7478,6 +7478,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Escrita correta.",
           "como": "Acentuação."
+        },
+        {
+          "nome": "Gramática",
+          "frequencia": 4,
+          "porque": "Estrutura.",
+          "como": "Concordância."
+        },
+        {
+          "nome": "Vocabulário",
+          "frequencia": 3,
+          "porque": "Leitura.",
+          "como": "Contexto."
+        },
+        {
+          "nome": "Verbos",
+          "frequencia": 4,
+          "porque": "Conjugação.",
+          "como": "Ser/estar."
+        },
+        {
+          "nome": "Tempos verbais",
+          "frequencia": 3,
+          "porque": "Tempo.",
+          "como": "Presente."
+        },
+        {
+          "nome": "Pronomes",
+          "frequencia": 2,
+          "porque": "Referência.",
+          "como": "Tipos."
+        },
+        {
+          "nome": "Preposições",
+          "frequencia": 3,
+          "porque": "Uso.",
+          "como": "Por/para."
+        },
+        {
+          "nome": "Substantivos",
+          "frequencia": 2,
+          "porque": "Gênero.",
+          "como": "Masculino/feminino."
+        },
+        {
+          "nome": "Adjetivos",
+          "frequencia": 2,
+          "porque": "Qualidade.",
+          "como": "Acordo."
+        },
+        {
+          "nome": "Advérbios",
+          "frequencia": 2,
+          "porque": "Modo.",
+          "como": "Uso."
+        },
+        {
+          "nome": "Interpretação",
+          "frequencia": 4,
+          "porque": "Texto.",
+          "como": "Inferencia."
+        },
+        {
+          "nome": "Cultura hispânica",
+          "frequencia": 2,
+          "porque": "Contexto.",
+          "como": "Países."
+        },
+        {
+          "nome": "Falsos cognatos",
+          "frequencia": 3,
+          "porque": "Confusão.",
+          "como": "Atenção."
+        },
+        {
+          "nome": "Expressões idiomáticas",
+          "frequencia": 2,
+          "porque": "Uso natural.",
+          "como": "Frases."
+        },
+        {
+          "nome": "Comunicação escrita",
+          "frequencia": 2,
+          "porque": "Redação.",
+          "como": "Texto."
         }
       ]
     },
