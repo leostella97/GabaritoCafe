@@ -6843,6 +6843,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Digital.",
           "como": "Realidade virtual."
+        },
+        {
+          "nome": "Arte rupestre",
+          "frequencia": 2,
+          "porque": "Origens.",
+          "como": "Pinturas."
+        },
+        {
+          "nome": "Arte clássica",
+          "frequencia": 3,
+          "porque": "Grécia e Roma.",
+          "como": "Escultura."
+        },
+        {
+          "nome": "Renascimento",
+          "frequencia": 3,
+          "porque": "Arte renascentista.",
+          "como": "Leonardo."
+        },
+        {
+          "nome": "Barroco",
+          "frequencia": 3,
+          "porque": "Dramatismo.",
+          "como": "Contraste."
+        },
+        {
+          "nome": "Impressionismo",
+          "frequencia": 3,
+          "porque": "Luz.",
+          "como": "Manet."
+        },
+        {
+          "nome": "Cubismo",
+          "frequencia": 2,
+          "porque": "Formas.",
+          "como": "Picasso."
+        },
+        {
+          "nome": "Surrealismo",
+          "frequencia": 2,
+          "porque": "Inconsciente.",
+          "como": "Dalí."
+        },
+        {
+          "nome": "Arte contemporânea",
+          "frequencia": 3,
+          "porque": "Atual.",
+          "como": "Instalação."
+        },
+        {
+          "nome": "Música",
+          "frequencia": 3,
+          "porque": "Som.",
+          "como": "Gêneros."
+        },
+        {
+          "nome": "Dança",
+          "frequencia": 2,
+          "porque": "Movimento.",
+          "como": "Estilos."
+        },
+        {
+          "nome": "Cinema",
+          "frequencia": 3,
+          "porque": "Imagem.",
+          "como": "Narrativa."
+        },
+        {
+          "nome": "Fotografia",
+          "frequencia": 2,
+          "porque": "Imagem fixa.",
+          "como": "Técnicas."
+        },
+        {
+          "nome": "Arte urbana",
+          "frequencia": 2,
+          "porque": "Gráffiti.",
+          "como": "Rua."
+        },
+        {
+          "nome": "Arte e sociedade",
+          "frequencia": 2,
+          "porque": "Contexto.",
+          "como": "Cultura."
         }
       ]
     },
