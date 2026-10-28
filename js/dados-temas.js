@@ -11823,6 +11823,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Engajamento.",
           "como": "Crítica social."
+        },
+        {
+          "nome": "Arte sacra e religiosa",
+          "frequencia": 2,
+          "porque": "Igrejas coloniais.",
+          "como": "Talha dourada."
+        },
+        {
+          "nome": "Arte plumária indígena",
+          "frequencia": 1,
+          "porque": "Tradição.",
+          "como": "Cocar e adorno."
+        },
+        {
+          "nome": "Cerâmica marajoara",
+          "frequencia": 1,
+          "porque": "Pré-colonial.",
+          "como": "Ilha de Marajó."
+        },
+        {
+          "nome": "Azulejaria portuguesa",
+          "frequencia": 2,
+          "porque": "Brasil colonial.",
+          "como": "São Luís e Igrejas."
+        },
+        {
+          "nome": "Missão Artística Francesa",
+          "frequencia": 2,
+          "porque": "1816.",
+          "como": "Neoclassicismo no Brasil."
+        },
+        {
+          "nome": "Pintura acadêmica brasileira",
+          "frequencia": 2,
+          "porque": "Pedro Américo.",
+          "como": "Independência ou Morte."
+        },
+        {
+          "nome": "Tarsila do Amaral",
+          "frequencia": 3,
+          "porque": "Abaporu.",
+          "como": "Antropofagia."
+        },
+        {
+          "nome": "Cândido Portinari",
+          "frequencia": 2,
+          "porque": "Social.",
+          "como": "Retirantes."
+        },
+        {
+          "nome": "Música popular brasileira",
+          "frequencia": 2,
+          "porque": "Tropicália e bossa nova.",
+          "como": "Movimentos."
+        },
+        {
+          "nome": "Samba e carnaval",
+          "frequencia": 2,
+          "porque": "Identidade nacional.",
+          "como": "Manifestações."
+        },
+        {
+          "nome": "Fotografia documental brasileira",
+          "frequencia": 2,
+          "porque": "Registro.",
+          "como": "Sebastião Salgado."
+        },
+        {
+          "nome": "Cinema Novo",
+          "frequencia": 2,
+          "porque": "Glauber Rocha.",
+          "como": "Uma câmera na mão."
+        },
+        {
+          "nome": "Instalação artística",
+          "frequencia": 2,
+          "porque": "Contemporâneo.",
+          "como": "Espaço imersivo."
+        },
+        {
+          "nome": "Arte interativa e digital",
+          "frequencia": 2,
+          "porque": "Tecnologia.",
+          "como": "Realidade virtual."
         }
       ]
     },
