@@ -9064,6 +9064,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Contexto.",
           "como": "Evolução."
+        },
+        {
+          "nome": "Capacidades físicas",
+          "frequencia": 4,
+          "porque": "Básicas.",
+          "como": "Força e resistência."
+        },
+        {
+          "nome": "Alongamento e flexibilidade",
+          "frequencia": 2,
+          "porque": "Amplitude.",
+          "como": "Prevenção."
+        },
+        {
+          "nome": "Sistema cardiovascular e exercício",
+          "frequencia": 3,
+          "porque": "Adaptação.",
+          "como": "Frequência cardíaca."
+        },
+        {
+          "nome": "Metabolismo energético",
+          "frequencia": 2,
+          "porque": "Produção de ATP.",
+          "como": "Via aeróbica."
+        },
+        {
+          "nome": "Cãibras e fadiga",
+          "frequencia": 2,
+          "porque": "Limitação.",
+          "como": "Ácido lático."
+        },
+        {
+          "nome": "Doping e ética esportiva",
+          "frequencia": 2,
+          "porque": "Vestibular aborda.",
+          "como": "Proibição."
+        },
+        {
+          "nome": "Jogos Olímpicos",
+          "frequencia": 3,
+          "porque": "Evento mundial.",
+          "como": "Olimpismo."
+        },
+        {
+          "nome": "Esportes adaptados",
+          "frequencia": 2,
+          "porque": "Inclusão.",
+          "como": "Paralimpíadas."
+        },
+        {
+          "nome": "Lutas e artes marciais",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Judô e capoeira."
+        },
+        {
+          "nome": "Ginástica laboral",
+          "frequencia": 2,
+          "porque": "Qualidade de vida.",
+          "como": "Postura."
+        },
+        {
+          "nome": "Sedentarismo",
+          "frequencia": 2,
+          "porque": "Problema atual.",
+          "como": "Consequências."
+        },
+        {
+          "nome": "Composição corporal",
+          "frequencia": 2,
+          "porque": "IMC e % gordura.",
+          "como": "Avaliação."
+        },
+        {
+          "nome": "Esporte e mídia",
+          "frequencia": 2,
+          "porque": "Influência.",
+          "como": "Espetáculo."
+        },
+        {
+          "nome": "Políticas públicas de esporte",
+          "frequencia": 2,
+          "porque": "Acesso.",
+          "como": "Programas."
         }
       ]
     },
