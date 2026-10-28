@@ -2792,6 +2792,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "CAT e benefícios.",
           "como": "AUXÍLIO ACIDENTE."
+        },
+        {
+          "nome": "Regras de transição",
+          "frequencia": 4,
+          "porque": "EC 103/2019.",
+          "como": "Pontos e idade."
+        },
+        {
+          "nome": "Proventos integrais",
+          "frequencia": 2,
+          "porque": "Limite constitucional.",
+          "como": "Teto."
+        },
+        {
+          "nome": "Revisão do teto",
+          "frequencia": 2,
+          "porque": "Atualizações judiciais.",
+          "como": "Precatórios."
+        },
+        {
+          "nome": "Contribuição facultativa",
+          "frequencia": 2,
+          "porque": "Segurado opcional.",
+          "como": "Alíquotas."
+        },
+        {
+          "nome": "Cota familiar",
+          "frequencia": 2,
+          "porque": "Pensão por morte.",
+          "como": "Dependentes."
+        },
+        {
+          "nome": "Carência",
+          "frequencia": 4,
+          "porque": "Tempo mínimo.",
+          "como": "Contribuição."
+        },
+        {
+          "nome": "Desaposentação",
+          "frequencia": 2,
+          "porque": "Jurisprudência.",
+          "como": "Renúncia."
+        },
+        {
+          "nome": "Reajuste anual",
+          "frequencia": 3,
+          "porque": "Correção inflacionária.",
+          "como": "INPC."
+        },
+        {
+          "nome": "Averbação de tempo",
+          "frequencia": 3,
+          "porque": "Contagem recíproca.",
+          "como": "Certidão."
+        },
+        {
+          "nome": "INSS e eSocial",
+          "frequencia": 2,
+          "porque": "Digitalização.",
+          "como": "Declarações."
+        },
+        {
+          "nome": "Aposentadoria especial",
+          "frequencia": 4,
+          "porque": "Atividades insalubres.",
+          "como": "Fator previdenciário."
+        },
+        {
+          "nome": "Pensão especial",
+          "frequencia": 2,
+          "porque": "Lei específica.",
+          "como": "Casos especiais."
+        },
+        {
+          "nome": "Auxílio-reclusão",
+          "frequencia": 3,
+          "porque": "Preso sem renda.",
+          "como": "Requisitos."
+        },
+        {
+          "nome": "Salário-benefício",
+          "frequencia": 3,
+          "porque": "Cálculo.",
+          "como": "Média."
+        },
+        {
+          "nome": "Perícia médica administrativa",
+          "frequencia": 2,
+          "porque": "Avaliação.",
+          "como": "Laudos."
         }
       ]
     },
