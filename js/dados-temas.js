@@ -178,6 +178,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Ortografia e fonética.",
           "como": "Certificação de escrita."
+        },
+        {
+          "nome": "Ortografia",
+          "frequencia": 5,
+          "porque": "Norma padrão.",
+          "como": "Acordo ortográfico."
+        },
+        {
+          "nome": "Pronomes",
+          "frequencia": 4,
+          "porque": "Referência textual.",
+          "como": "Pessoais, relativos."
+        },
+        {
+          "nome": "Verbos irregulares",
+          "frequencia": 3,
+          "porque": "Conjugação.",
+          "como": "Tempos e modos."
+        },
+        {
+          "nome": "Estrutura textual",
+          "frequencia": 4,
+          "porque": "Introdução, desenvolvimento e conclusão.",
+          "como": "Coesão."
+        },
+        {
+          "nome": "Coesão e coerência",
+          "frequencia": 5,
+          "porque": "Ligação entre ideias.",
+          "como": "Conectivos."
+        },
+        {
+          "nome": "Tipos de discurso",
+          "frequencia": 3,
+          "porque": "Direto e indireto.",
+          "como": "Modo de transmissão."
+        },
+        {
+          "nome": "Gêneros textuais",
+          "frequencia": 4,
+          "porque": "Carta, crônica, notícia.",
+          "como": "Características."
+        },
+        {
+          "nome": "Variação estilística",
+          "frequencia": 2,
+          "porque": "Formal e informal.",
+          "como": "Registro."
+        },
+        {
+          "nome": "Semântica",
+          "frequencia": 3,
+          "porque": "Significado das palavras.",
+          "como": "Sinonímia e antonímia."
+        },
+        {
+          "nome": "Estilística",
+          "frequencia": 2,
+          "porque": "Recursos expressivos.",
+          "como": "Figuras de som."
+        },
+        {
+          "nome": "Interpretação de enunciados",
+          "frequencia": 4,
+          "porque": "Compreensão crítica.",
+          "como": "Inferências."
+        },
+        {
+          "nome": "Redação dissertativa",
+          "frequencia": 5,
+          "porque": "Argumentação.",
+          "como": "Tese e argumentos."
+        },
+        {
+          "nome": "Redação narrativa",
+          "frequencia": 3,
+          "porque": "Histórias.",
+          "como": "Enredo."
+        },
+        {
+          "nome": "Normas da ABNT",
+          "frequencia": 2,
+          "porque": "Citações e referências.",
+          "como": "Monografias."
+        },
+        {
+          "nome": "Linguagem figurada",
+          "frequencia": 3,
+          "porque": "Metáfora e ironia.",
+          "como": "Interpretação."
         }
       ]
     },
