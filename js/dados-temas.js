@@ -618,6 +618,84 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Decisões estratégicas em problemas.",
           "como": "Analise melhor resposta dado movimento adversário."
+        },
+        {
+          "nome": "Raciocínio dedutivo",
+          "frequencia": 4,
+          "porque": "Inferir conclusões necessárias.",
+          "como": "Silogismo válido."
+        },
+        {
+          "nome": "Raciocínio indutivo",
+          "frequencia": 3,
+          "porque": "Generalizações a partir de casos.",
+          "como": "Inferência probabilística."
+        },
+        {
+          "nome": "Raciocínio abdutivo",
+          "frequencia": 2,
+          "porque": "Melhor explicação.",
+          "como": "Hipótese mais plausível."
+        },
+        {
+          "nome": "Lógica proposicional",
+          "frequencia": 4,
+          "porque": "Operadores lógicos.",
+          "como": "Conjunção, disjunção, negação, condicional."
+        },
+        {
+          "nome": "Paradoxos lógicos",
+          "frequencia": 2,
+          "porque": "Contradições aparentes.",
+          "como": "Barbearia e mentiroso."
+        },
+        {
+          "nome": "Problemas de lógica com blocos",
+          "frequencia": 3,
+          "porque": "Ordem e comparação.",
+          "como": "Tabela de restrições."
+        },
+        {
+          "nome": "Critérios de verdade",
+          "frequencia": 2,
+          "porque": "Validade e consistência.",
+          "como": "Teste por contraexemplo."
+        },
+        {
+          "nome": "Lógica de programação",
+          "frequencia": 2,
+          "porque": "Estruturas de controle.",
+          "como": "If, loop e variáveis."
+        },
+        {
+          "nome": "Matrizes lógicas",
+          "frequencia": 3,
+          "porque": "Relacionamentos bidimensionais.",
+          "como": "Preencha grade com restrições."
+        },
+        {
+          "nome": "Raciocínio numérico",
+          "frequencia": 5,
+          "porque": "Operações e relações.",
+          "como": "Equações simples."
+        },
+        {
+          "nome": "Tabela de verdade avançada",
+          "frequencia": 3,
+          "porque": "Bicondicional e NOR.",
+          "como": "Exaustão de casos."
+        },
+        {
+          "nome": "Princípio da exclusão",
+          "frequencia": 3,
+          "porque": "Contagem complementares.",
+          "como": "Total menos não desejado."
+        },
+        {
+          "nome": "Raciocínio por analogia",
+          "frequencia": 2,
+          "porque": "Semelhanças estruturais.",
+          "como": "Relacione padrões."
         }
       ]
     },
