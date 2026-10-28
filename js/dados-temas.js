@@ -5955,6 +5955,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Radioatividade.",
           "como": "Meia vida."
+        },
+        {
+          "nome": "Mecânica clássica",
+          "frequencia": 4,
+          "porque": "Movimento.",
+          "como": "Leis de Newton."
+        },
+        {
+          "nome": "Termodinâmica",
+          "frequencia": 3,
+          "porque": "Calor.",
+          "como": "Leis."
+        },
+        {
+          "nome": "Óptica",
+          "frequencia": 3,
+          "porque": "Luz.",
+          "como": "Refração."
+        },
+        {
+          "nome": "Eletromagnetismo",
+          "frequencia": 3,
+          "porque": "Campos.",
+          "como": "Lei de Faraday."
+        },
+        {
+          "nome": "Ondas",
+          "frequencia": 3,
+          "porque": "Vibrações.",
+          "como": "Frequência."
+        },
+        {
+          "nome": "Física moderna",
+          "frequencia": 2,
+          "porque": "Quântica.",
+          "como": "Relatividade."
+        },
+        {
+          "nome": "Mecânica quântica",
+          "frequencia": 2,
+          "porque": "Partículas.",
+          "como": "Dualidade."
+        },
+        {
+          "nome": "Astrofísica",
+          "frequencia": 2,
+          "porque": "Universo.",
+          "como": "Estrelas."
+        },
+        {
+          "nome": "Acústica",
+          "frequencia": 2,
+          "porque": "Som.",
+          "como": "Frequência."
+        },
+        {
+          "nome": "Hidrostática",
+          "frequencia": 3,
+          "porque": "Fluídos.",
+          "como": "Pressão."
+        },
+        {
+          "nome": "Hidrodinâmica",
+          "frequencia": 2,
+          "porque": "Fluxo.",
+          "como": "Bernoulli."
+        },
+        {
+          "nome": "Eletrostática",
+          "frequencia": 3,
+          "porque": "Cargas.",
+          "como": "Lei de Coulomb."
+        },
+        {
+          "nome": "Eletrodinâmica",
+          "frequencia": 3,
+          "porque": "Corrente.",
+          "como": "Ohm."
+        },
+        {
+          "nome": "Física experimental",
+          "frequencia": 2,
+          "porque": "Prática.",
+          "como": "Laboratório."
         }
       ]
     },
