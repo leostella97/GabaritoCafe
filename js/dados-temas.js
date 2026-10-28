@@ -7187,6 +7187,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Figuras.",
           "como": "Áreas."
+        },
+        {
+          "nome": "Razão e proporção",
+          "frequencia": 4,
+          "porque": "Grandezas.",
+          "como": "Regra de três."
+        },
+        {
+          "nome": "Função afim",
+          "frequencia": 4,
+          "porque": "Reta.",
+          "como": "y = ax + b."
+        },
+        {
+          "nome": "Função quadrática",
+          "frequencia": 4,
+          "porque": "Parábola.",
+          "como": "Vértice e raízes."
+        },
+        {
+          "nome": "Trigonometria no triângulo",
+          "frequencia": 3,
+          "porque": "Seno e cosseno.",
+          "como": "Relações métricas."
+        },
+        {
+          "nome": "Ciclo trigonométrico",
+          "frequencia": 3,
+          "porque": "Arcos.",
+          "como": "Radianos."
+        },
+        {
+          "nome": "Matrizes e determinantes",
+          "frequencia": 2,
+          "porque": "Tabelas.",
+          "como": "Regra de Sarrus."
+        },
+        {
+          "nome": "Estatística",
+          "frequencia": 3,
+          "porque": "Dados.",
+          "como": "Média, moda e mediana."
+        },
+        {
+          "nome": "Probabilidade",
+          "frequencia": 4,
+          "porque": "Eventos.",
+          "como": "Espaço amostral."
+        },
+        {
+          "nome": "Conjuntos numéricos",
+          "frequencia": 3,
+          "porque": "Básico.",
+          "como": "Naturais, inteiros, reais."
+        },
+        {
+          "nome": "Equação de primeiro grau",
+          "frequencia": 3,
+          "porque": "Resolução.",
+          "como": "Isolar variável."
+        },
+        {
+          "nome": "Equação de segundo grau",
+          "frequencia": 3,
+          "porque": "Fórmula geral.",
+          "como": "Bhaskara."
+        },
+        {
+          "nome": "Função modular",
+          "frequencia": 2,
+          "porque": "Valor absoluto.",
+          "como": "Gráfico."
+        },
+        {
+          "nome": "Função exponencial",
+          "frequencia": 3,
+          "porque": "Crescimento.",
+          "como": "Base > 1."
+        },
+        {
+          "nome": "Área e volume",
+          "frequencia": 4,
+          "porque": "Geometria espacial.",
+          "como": "Prismas."
         }
       ]
     },
