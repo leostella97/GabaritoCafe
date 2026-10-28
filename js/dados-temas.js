@@ -10459,6 +10459,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tópico comum.",
           "como": "Profession, skills."
+        },
+        {
+          "nome": "Social media vocabulary",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Hashtag, influencer."
+        },
+        {
+          "nome": "Fake news e desinformação",
+          "frequencia": 2,
+          "porque": "Tema ENEM.",
+          "como": "Fact-checking."
+        },
+        {
+          "nome": "Diversity and inclusion vocabulary",
+          "frequencia": 2,
+          "porque": "Tema social.",
+          "como": "Equality, rights."
+        },
+        {
+          "nome": "Global issues vocabulary",
+          "frequencia": 2,
+          "porque": "Mundo.",
+          "como": "Climate change."
+        },
+        {
+          "nome": "Sports vocabulary",
+          "frequencia": 2,
+          "porque": "Tema universal.",
+          "como": "Olympics, team sports."
+        },
+        {
+          "nome": "Arts and entertainment vocabulary",
+          "frequencia": 2,
+          "porque": "Cultura.",
+          "como": "Cinema, music."
+        },
+        {
+          "nome": "Food and nutrition vocabulary",
+          "frequencia": 2,
+          "porque": "Cotidianidade.",
+          "como": "Healthy, organic."
+        },
+        {
+          "nome": "Shopping and consumerism vocabulary",
+          "frequencia": 2,
+          "porque": "Consumo.",
+          "como": "Discount, refund."
+        },
+        {
+          "nome": "Family and relationships vocabulary",
+          "frequencia": 2,
+          "porque": "Vida pessoal.",
+          "como": "Relatives, partner."
+        },
+        {
+          "nome": "Body and health vocabulary",
+          "frequencia": 2,
+          "porque": "Saúde.",
+          "como": "Symptoms, treatment."
+        },
+        {
+          "nome": "Feelings and emotions vocabulary",
+          "frequencia": 2,
+          "porque": "Expressão.",
+          "como": "Anxious, grateful."
+        },
+        {
+          "nome": "Weather and climate vocabulary",
+          "frequencia": 2,
+          "porque": "Natureza.",
+          "como": "Forecast, seasons."
+        },
+        {
+          "nome": "Transportation vocabulary",
+          "frequencia": 2,
+          "porque": "Mobilidade.",
+          "como": "Commute, traffic."
+        },
+        {
+          "nome": "Housing and accommodation vocabulary",
+          "frequencia": 2,
+          "porque": "Moradia.",
+          "como": "Rent, landlord."
         }
       ]
     },
