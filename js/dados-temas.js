@@ -4607,6 +4607,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Tese sem defesa vira opinião — a banca cobra a estrutura.",
           "como": "Cada parágrafo = 1 argumento + 1 prova + 1 ligação com a tese. Antecipe o \"mas\" do leitor e responda."
+        },
+        {
+          "nome": "Planejamento de texto",
+          "frequencia": 4,
+          "porque": "Roteiro evita divagação.",
+          "como": "Tese, argumentos e conclusão em tópicos."
+        },
+        {
+          "nome": "Norma culta",
+          "frequencia": 5,
+          "porque": "Correção padrão.",
+          "como": "Gramática e ortografia."
+        },
+        {
+          "nome": "Intertextualidade",
+          "frequencia": 3,
+          "porque": "Diálogo com outros textos.",
+          "como": "Citações e referências."
+        },
+        {
+          "nome": "Coerência textual",
+          "frequencia": 4,
+          "porque": "Unidade de ideias.",
+          "como": "Progressão temática."
+        },
+        {
+          "nome": "Variação linguística",
+          "frequencia": 3,
+          "porque": "Adequação ao gênero.",
+          "como": "Registro formal."
+        },
+        {
+          "nome": "Estilo e voz autoral",
+          "frequencia": 3,
+          "porque": "Identidade do escritor.",
+          "como": "Marcas pessoais."
+        },
+        {
+          "nome": "Revisão ortográfica",
+          "frequencia": 4,
+          "porque": "Erros derrubam nota.",
+          "como": "Releitura."
+        },
+        {
+          "nome": "Tese central",
+          "frequencia": 5,
+          "porque": "Defende a proposta.",
+          "como": "Frase clara."
+        },
+        {
+          "nome": "Parágrafos desenvolvidos",
+          "frequencia": 4,
+          "porque": "Profundidade argumentativa.",
+          "como": "Exemplificação."
+        },
+        {
+          "nome": "Proposta de intervenção",
+          "frequencia": 5,
+          "porque": "Competência 5 do ENEM.",
+          "como": "Agente, ação, meio."
+        },
+        {
+          "nome": "Conectivos lógicos",
+          "frequencia": 4,
+          "porque": "Ligação entre ideias.",
+          "como": "Lista de transição."
+        },
+        {
+          "nome": "Repertório atual",
+          "frequencia": 4,
+          "porque": "Atualidade.",
+          "como": "Notícias e dados."
+        },
+        {
+          "nome": "Estrutura de introdução",
+          "frequencia": 4,
+          "porque": "Primeira impressão.",
+          "como": "Contextualização."
+        },
+        {
+          "nome": "Conclusão eficiente",
+          "frequencia": 4,
+          "porque": "Fechamento coerente.",
+          "como": "Retomar tese."
         }
       ]
     },
