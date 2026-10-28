@@ -8339,6 +8339,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Interação.",
           "como": "Hipófise."
+        },
+        {
+          "nome": "Fisiologia muscular",
+          "frequencia": 3,
+          "porque": "Contração.",
+          "como": "Actina miosina."
+        },
+        {
+          "nome": "Fisiologia digestiva",
+          "frequencia": 2,
+          "porque": "Absorção.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Fisiologia hepática",
+          "frequencia": 2,
+          "porque": "Metabolismo.",
+          "como": "Desintoxicação."
+        },
+        {
+          "nome": "Fisiologia cutânea",
+          "frequencia": 1,
+          "porque": "Pele.",
+          "como": "Termorregulação."
+        },
+        {
+          "nome": "Fisiologia óssea",
+          "frequencia": 2,
+          "porque": "Remodelação.",
+          "como": "Cálcio."
+        },
+        {
+          "nome": "Fisiologia do sono",
+          "frequencia": 2,
+          "porque": "Ciclos.",
+          "como": "REM."
+        },
+        {
+          "nome": "Fisiologia da temperatura",
+          "frequencia": 2,
+          "porque": "Homeostase.",
+          "como": "Hipotálamo."
+        },
+        {
+          "nome": "Fisiologia da dor",
+          "frequencia": 2,
+          "porque": "Percepção.",
+          "como": "Nociceptores."
+        },
+        {
+          "nome": "Fisiologia do estresse",
+          "frequencia": 2,
+          "porque": "Eixo HPA.",
+          "como": "Cortisol."
+        },
+        {
+          "nome": "Fisiologia reprodutiva",
+          "frequencia": 2,
+          "porque": "Hormônios.",
+          "como": "Ciclo menstrual."
+        },
+        {
+          "nome": "Fisiologia fetal",
+          "frequencia": 1,
+          "porque": "Desenvolvimento.",
+          "como": "Placenta."
+        },
+        {
+          "nome": "Fisiologia do envelhecimento",
+          "frequencia": 1,
+          "porque": "Senescência.",
+          "como": "Perda funcional."
+        },
+        {
+          "nome": "Fisiologia respiratória celular",
+          "frequencia": 2,
+          "porque": "Mitocôndria.",
+          "como": "ATP."
+        },
+        {
+          "nome": "Fisiologia renal básica",
+          "frequencia": 3,
+          "porque": "Rins.",
+          "como": "Filtração glomerular."
         }
       ]
     },
