@@ -7048,6 +7048,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Administração.",
           "como": "Clubes."
+        },
+        {
+          "nome": "Anatomia",
+          "frequencia": 3,
+          "porque": "Estruturas.",
+          "como": "Músculos."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 3,
+          "porque": "Adaptações.",
+          "como": "Capacidade aeróbica."
+        },
+        {
+          "nome": "Nutrição esportiva",
+          "frequencia": 3,
+          "porque": "Alimentação.",
+          "como": "Macronutrientes."
+        },
+        {
+          "nome": "Psicologia do esporte",
+          "frequencia": 2,
+          "porque": "Motivação.",
+          "como": "Foco."
+        },
+        {
+          "nome": "Sociologia do esporte",
+          "frequencia": 2,
+          "porque": "Cultura.",
+          "como": "Identidade."
+        },
+        {
+          "nome": "História da educação física",
+          "frequencia": 2,
+          "porque": "Evolução.",
+          "como": "Escola."
+        },
+        {
+          "nome": "Biomecânica",
+          "frequencia": 2,
+          "porque": "Movimento.",
+          "como": "Forças."
+        },
+        {
+          "nome": "Treinamento físico",
+          "frequencia": 4,
+          "porque": "Periodização.",
+          "como": "Fases."
+        },
+        {
+          "nome": "Saúde pública",
+          "frequencia": 3,
+          "porque": "Prevenção.",
+          "como": "Doenças."
+        },
+        {
+          "nome": "Educação para a saúde",
+          "frequencia": 2,
+          "porque": "Hábitos.",
+          "como": "Saúde."
+        },
+        {
+          "nome": "Desporto adaptado",
+          "frequencia": 2,
+          "porque": "Inclusão.",
+          "como": "Paradesporto."
+        },
+        {
+          "nome": "Lazer e recreação",
+          "frequencia": 2,
+          "porque": "Atividade.",
+          "como": "Brincadeiras."
+        },
+        {
+          "nome": "Ética no esporte",
+          "frequencia": 2,
+          "porque": "Fair play.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Tecnologia esportiva",
+          "frequencia": 2,
+          "porque": "Inovação.",
+          "como": "Wearables."
         }
       ]
     },
