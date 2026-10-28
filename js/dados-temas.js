@@ -3409,6 +3409,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Controle e conformidade.",
           "como": "Procedimentos e relatórios."
+        },
+        {
+          "nome": "Contabilidade gerencial",
+          "frequencia": 3,
+          "porque": "Suporte à decisão.",
+          "como": "Custo e orçamento."
+        },
+        {
+          "nome": "Análise de balanço",
+          "frequencia": 4,
+          "porque": "Indicadores.",
+          "como": "Liquidez e endividamento."
+        },
+        {
+          "nome": "Demonstração do fluxo de caixa",
+          "frequencia": 3,
+          "porque": "Entradas e saídas.",
+          "como": "Método direto e indireto."
+        },
+        {
+          "nome": "Estoques",
+          "frequencia": 3,
+          "porque": "Valoração.",
+          "como": "PEPS e UEPS."
+        },
+        {
+          "nome": "Ativo imobilizado",
+          "frequencia": 3,
+          "porque": "Bens de uso.",
+          "como": "Depreciação."
+        },
+        {
+          "nome": "Passivo circulante",
+          "frequencia": 3,
+          "porque": "Obrigações de curto prazo.",
+          "como": "Fornecedores."
+        },
+        {
+          "nome": "Patrimônio líquido",
+          "frequencia": 3,
+          "porque": "Capital dos sócios.",
+          "como": "Reservas."
+        },
+        {
+          "nome": "Ajustes a valor justo",
+          "frequencia": 2,
+          "porque": "Fair value.",
+          "como": "Reavaliação."
+        },
+        {
+          "nome": "CPCs",
+          "frequencia": 2,
+          "porque": "Pronunciamentos.",
+          "como": "Normas técnicas."
+        },
+        {
+          "nome": "Auditoria",
+          "frequencia": 3,
+          "porque": "Exame de demonstrações.",
+          "como": "Provas."
+        },
+        {
+          "nome": "Escrituração contábil",
+          "frequencia": 2,
+          "porque": "Registro formal.",
+          "como": "Livros obrigatórios."
+        },
+        {
+          "nome": "Plano de contas",
+          "frequencia": 2,
+          "porque": "Estrutura de contas.",
+          "como": "Hierarquia."
+        },
+        {
+          "nome": "Fechamento contábil",
+          "frequencia": 2,
+          "porque": "Apuração do resultado.",
+          "como": "Balancete."
+        },
+        {
+          "nome": "Contabilidade tributária",
+          "frequencia": 2,
+          "porque": "Obrigações acessórias.",
+          "como": "SPED."
         }
       ]
     },
