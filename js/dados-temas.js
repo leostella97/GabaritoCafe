@@ -13830,6 +13830,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Método.",
           "como": "Bacon e Popper."
+        },
+        {
+          "nome": "Filosofia e arte",
+          "frequencia": 2,
+          "porque": "Estética.",
+          "como": "Representação do belo."
+        },
+        {
+          "nome": "Filosofia e cultura",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Valores e costumes."
+        },
+        {
+          "nome": "Filosofia e tecnologia",
+          "frequencia": 2,
+          "porque": "Ética digital.",
+          "como": "IA e privacidade."
+        },
+        {
+          "nome": "Filosofia e meio ambiente",
+          "frequencia": 2,
+          "porque": "Natureza.",
+          "como": "Ética ambiental."
+        },
+        {
+          "nome": "Filosofia e gênero",
+          "frequencia": 2,
+          "porque": "Feminismo.",
+          "como": "Simone de Beauvoir."
+        },
+        {
+          "nome": "Filosofia e raça",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Frantz Fanon."
+        },
+        {
+          "nome": "Filosofia e pós-colonialismo",
+          "frequencia": 2,
+          "porque": "Colonialidade.",
+          "como": "Desconstrução."
+        },
+        {
+          "nome": "Filosofia e psicanálise",
+          "frequencia": 2,
+          "porque": "Inconsciente.",
+          "como": "Freud e Lacan."
+        },
+        {
+          "nome": "Filosofia e literatura",
+          "frequencia": 2,
+          "porque": "Narrativa.",
+          "como": "Sartre e Camus."
+        },
+        {
+          "nome": "Filosofia e cinema",
+          "frequencia": 2,
+          "porque": "Imagem.",
+          "como": "Matrix e realidade."
+        },
+        {
+          "nome": "Filosofia e mídia",
+          "frequencia": 2,
+          "porque": "Comunicação.",
+          "como": "Baudrillard."
+        },
+        {
+          "nome": "Filosofia e direito",
+          "frequencia": 2,
+          "porque": "Justiça.",
+          "como": "Hans Kelsen."
+        },
+        {
+          "nome": "Filosofia e trabalho",
+          "frequencia": 2,
+          "porque": "Sentido.",
+          "como": "Hannah Arendt."
+        },
+        {
+          "nome": "Filosofia e morte",
+          "frequencia": 2,
+          "porque": "Finitude.",
+          "como": "Heidegger."
         }
       ]
     },
