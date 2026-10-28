@@ -4859,6 +4859,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Fundamentação.",
           "como": "Referências."
+        },
+        {
+          "nome": "Leitura atenta da proposta",
+          "frequencia": 5,
+          "porque": "Interpretação.",
+          "como": "Tema delimitado."
+        },
+        {
+          "nome": "Projeto de texto",
+          "frequencia": 5,
+          "porque": "Planejamento essencial.",
+          "como": "Rascunho estruturado."
+        },
+        {
+          "nome": "Uso de dados estatísticos",
+          "frequencia": 4,
+          "porque": "Credibilidade argumentativa.",
+          "como": "IBGE, OMS, MEC."
+        },
+        {
+          "nome": "Alusão histórica",
+          "frequencia": 3,
+          "porque": "Contexto profundo.",
+          "como": "Fatos do Brasil."
+        },
+        {
+          "nome": "Alusão literária",
+          "frequencia": 2,
+          "porque": "Repertório culto.",
+          "como": "Machado de Assis."
+        },
+        {
+          "nome": "Alusão filosófica",
+          "frequencia": 2,
+          "porque": "Reflexão abstrata.",
+          "como": "Kant ou Foucault."
+        },
+        {
+          "nome": "Uso de filmes como repertório",
+          "frequencia": 2,
+          "porque": "Audiovisual acessível.",
+          "como": "Enredo relacionado."
+        },
+        {
+          "nome": "Paragrafação e tópico frasal",
+          "frequencia": 4,
+          "porque": "Organização da progressão.",
+          "como": "Frase-núcleo por parágrafo."
+        },
+        {
+          "nome": "Retomada de palavras-chave",
+          "frequencia": 3,
+          "porque": "Coesão referencial.",
+          "como": "Sinônimos e pronomes."
+        },
+        {
+          "nome": "Domínio da regência e crase",
+          "frequencia": 3,
+          "porque": "Norma culta exigida.",
+          "como": "Crase com locuções."
+        },
+        {
+          "nome": "Domínio da concordância",
+          "frequencia": 3,
+          "porque": "Norma culta exigida.",
+          "como": "Sujeito e verbo."
+        },
+        {
+          "nome": "Uso da primeira pessoa",
+          "frequencia": 2,
+          "porque": "Dissertação impessoal.",
+          "como": "Evitar eu/nós."
+        },
+        {
+          "nome": "Desfecho impactante",
+          "frequencia": 3,
+          "porque": "Última impressão.",
+          "como": "Retomada criativa."
+        },
+        {
+          "nome": "Detalhamento da proposta",
+          "frequencia": 4,
+          "porque": "Competência 5 do ENEM.",
+          "como": "Elemento concreto."
         }
       ]
     },
