@@ -5798,6 +5798,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "As provas usam textos de notícia — o vocabulário se repete.",
           "como": "Palavras de notícia: gobierno, medida, derecho, informe, política. Leia um jornal em espanhol por semana."
+        },
+        {
+          "nome": "Presente de indicativo",
+          "frequencia": 4,
+          "porque": "Base da comunicação.",
+          "como": "Conjugação regular."
+        },
+        {
+          "nome": "Pretérito perfecto",
+          "frequencia": 3,
+          "porque": "Ações passadas.",
+          "como": "Hay + participio."
+        },
+        {
+          "nome": "Futuro simple",
+          "frequencia": 3,
+          "porque": "Previsões.",
+          "como": "Terminações -é, -ás."
+        },
+        {
+          "nome": "Subjuntivo presente",
+          "frequencia": 3,
+          "porque": "Dúvidas e desejos.",
+          "como": "Formação regular."
+        },
+        {
+          "nome": "Ser e estar",
+          "frequencia": 4,
+          "porque": "Diferença essencial.",
+          "como": "Essência vs estado."
+        },
+        {
+          "nome": "Por y para",
+          "frequencia": 4,
+          "porque": "Preposições-chave.",
+          "como": "Causa vs finalidade."
+        },
+        {
+          "nome": "Falsos cognatos",
+          "frequencia": 4,
+          "porque": "Armadilhas.",
+          "como": "Lista de cautela."
+        },
+        {
+          "nome": "Gênero e número",
+          "frequencia": 3,
+          "porque": "Adjetivos concordam.",
+          "como": "Masculino e feminino."
+        },
+        {
+          "nome": "Compreensão de texto",
+          "frequencia": 5,
+          "porque": "Interpretação.",
+          "como": "Inferência."
+        },
+        {
+          "nome": "Redação",
+          "frequencia": 3,
+          "porque": "Produção escrita.",
+          "como": "Estrutura de parágrafo."
+        },
+        {
+          "nome": "Vocabulário temático",
+          "frequencia": 3,
+          "porque": "Ampliação lexical.",
+          "como": "Turismo, saúde."
+        },
+        {
+          "nome": "Pronomes pessoais",
+          "frequencia": 3,
+          "porque": "Complementos.",
+          "como": "Yo, tú, él."
+        },
+        {
+          "nome": "Articulação verbal",
+          "frequencia": 2,
+          "porque": "Pronúncia.",
+          "como": "Entonação."
+        },
+        {
+          "nome": "Cultura hispânica",
+          "frequencia": 2,
+          "porque": "Contexto.",
+          "como": "Países e tradições."
         }
       ]
     },
