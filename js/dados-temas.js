@@ -5535,6 +5535,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Velocidade angular.",
           "como": "Aceleração centrípeta."
+        },
+        {
+          "nome": "Mecânica avançada",
+          "frequencia": 3,
+          "porque": "Trabalho e energia.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Oscilações",
+          "frequencia": 2,
+          "porque": "Movimento harmônico.",
+          "como": "Mola."
+        },
+        {
+          "nome": "Gravitação",
+          "frequencia": 3,
+          "porque": "Leis de Kepler.",
+          "como": "Campo."
+        },
+        {
+          "nome": "Óptica geométrica",
+          "frequencia": 3,
+          "porque": "Lentes e espelhos.",
+          "como": "Equações."
+        },
+        {
+          "nome": "Física térmica",
+          "frequencia": 3,
+          "porque": "Calor.",
+          "como": "Escalas."
+        },
+        {
+          "nome": "Eletrostática avançada",
+          "frequencia": 3,
+          "porque": "Campo elétrico.",
+          "como": "Lei de Gauss."
+        },
+        {
+          "nome": "Circuitos elétricos",
+          "frequencia": 3,
+          "porque": "Resistores.",
+          "como": "Associação."
+        },
+        {
+          "nome": "Eletromagnetismo",
+          "frequencia": 2,
+          "porque": "Campos.",
+          "como": "Indução."
+        },
+        {
+          "nome": "Física quântica",
+          "frequencia": 2,
+          "porque": "Partículas.",
+          "como": "Dualidade."
+        },
+        {
+          "nome": "Relatividade",
+          "frequencia": 2,
+          "porque": "Einstein.",
+          "como": "Dilatação."
+        },
+        {
+          "nome": "Acústica",
+          "frequencia": 2,
+          "porque": "Ondas sonoras.",
+          "como": "Frequência."
+        },
+        {
+          "nome": "Mecânica dos fluidos",
+          "frequencia": 2,
+          "porque": "Pressão.",
+          "como": "Empuxo."
+        },
+        {
+          "nome": "Termodinâmica avançada",
+          "frequencia": 2,
+          "porque": "Entropia.",
+          "como": "Segunda lei."
+        },
+        {
+          "nome": "Física nuclear",
+          "frequencia": 2,
+          "porque": "Radioatividade.",
+          "como": "Meia vida."
         }
       ]
     },
