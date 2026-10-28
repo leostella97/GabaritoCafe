@@ -6161,6 +6161,84 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Hematose e filtração renal fecham o mapa do corpo.",
           "como": "Respiratório: ar → pulmão → alvéolo (hematose). Excretor: rim → néfron filtra → uréter → bexiga. Um caminho por sistema."
+        },
+        {
+          "nome": "Sistema nervoso",
+          "frequencia": 4,
+          "porque": "Neurotransmissão.",
+          "como": "Sinapse."
+        },
+        {
+          "nome": "Sistema endócrino",
+          "frequencia": 3,
+          "porque": "Hormônios.",
+          "como": "Glândulas."
+        },
+        {
+          "nome": "Metabolismo",
+          "frequencia": 3,
+          "porque": "Catabolismo e anabolismo.",
+          "como": "Glicólise."
+        },
+        {
+          "nome": "Homeostase",
+          "frequencia": 3,
+          "porque": "Equilíbrio interno.",
+          "como": "Feedback."
+        },
+        {
+          "nome": "Sistema imunológico",
+          "frequencia": 3,
+          "porque": "Defesa.",
+          "como": "Anticorpos."
+        },
+        {
+          "nome": "Fisiologia cardíaca",
+          "frequencia": 4,
+          "porque": "Batimento.",
+          "como": "Ciclo cardíaco."
+        },
+        {
+          "nome": "Fisiologia renal",
+          "frequencia": 3,
+          "porque": "Filtração.",
+          "como": "Néfron."
+        },
+        {
+          "nome": "Fisiologia digestiva",
+          "frequencia": 3,
+          "porque": "Absorção.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Fisiologia muscular",
+          "frequencia": 3,
+          "porque": "Contração.",
+          "como": "Actina e miosina."
+        },
+        {
+          "nome": "Fisiologia respiratória",
+          "frequencia": 4,
+          "porque": "Troca gasosa.",
+          "como": "Hematose."
+        },
+        {
+          "nome": "Regulação hormonal",
+          "frequencia": 3,
+          "porque": "Feedback.",
+          "como": "Eixo HPA."
+        },
+        {
+          "nome": "Neurofisiologia",
+          "frequencia": 3,
+          "porque": "Potencial de ação.",
+          "como": "Neurônio."
+        },
+        {
+          "nome": "Fisiologia do sono",
+          "frequencia": 2,
+          "porque": "Ciclo circadiano.",
+          "como": "Melatonina."
         }
       ]
     },
