@@ -6254,6 +6254,54 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Parasitas.",
           "como": "Ciclo de vida."
+        },
+        {
+          "nome": "Fermentação",
+          "frequencia": 2,
+          "porque": "Anaerobiose.",
+          "como": "Lática e alcoólica."
+        },
+        {
+          "nome": "Metabolismo energético",
+          "frequencia": 3,
+          "porque": "Processos.",
+          "como": "ATP."
+        },
+        {
+          "nome": "Membrana plasmática",
+          "frequencia": 3,
+          "porque": "Transporte.",
+          "como": "Difusão e osmose."
+        },
+        {
+          "nome": "Divisão celular",
+          "frequencia": 3,
+          "porque": "Reprodução.",
+          "como": "Mitose e meiose."
+        },
+        {
+          "nome": "Embriologia",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Folhetos germinativos."
+        },
+        {
+          "nome": "Histologia",
+          "frequencia": 2,
+          "porque": "Tecidos.",
+          "como": "Epitelial e conjuntivo."
+        },
+        {
+          "nome": "Taxonomia",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Reinos."
+        },
+        {
+          "nome": "Relações ecológicas",
+          "frequencia": 2,
+          "porque": "Interações.",
+          "como": "Harmônicas e desarmônicas."
         }
       ]
     },
