@@ -8933,6 +8933,360 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Interpretação.",
           "como": "Histograma."
+        },
+        {
+          "nome": "Operações com números decimais",
+          "frequencia": 3,
+          "porque": "Base de cálculo.",
+          "como": "Soma, subtração, multiplicação."
+        },
+        {
+          "nome": "Potenciação e radiciação",
+          "frequencia": 3,
+          "porque": "Propriedades.",
+          "como": "Expoentes e raízes."
+        },
+        {
+          "nome": "Notação científica",
+          "frequencia": 3,
+          "porque": "Grandes números.",
+          "como": "Potências de 10."
+        },
+        {
+          "nome": "Fatoração algébrica",
+          "frequencia": 3,
+          "porque": "Simplificação.",
+          "como": "Fator comum e agrupamento."
+        },
+        {
+          "nome": "Produtos notáveis",
+          "frequencia": 3,
+          "porque": "Álgebra básica.",
+          "como": "Quadrado da soma."
+        },
+        {
+          "nome": "Equações biquadradas",
+          "frequencia": 2,
+          "porque": "Redução.",
+          "como": "Substituição."
+        },
+        {
+          "nome": "Equações irracionais",
+          "frequencia": 2,
+          "porque": "Raízes.",
+          "como": "Eleve ao quadrado."
+        },
+        {
+          "nome": "Função logarítmica",
+          "frequencia": 3,
+          "porque": "Inversa da exponencial.",
+          "como": "Definição."
+        },
+        {
+          "nome": "Inequação produto e quociente",
+          "frequencia": 2,
+          "porque": "Sinais.",
+          "como": "Quadro de sinais."
+        },
+        {
+          "nome": "Sistemas lineares 2x2 e 3x3",
+          "frequencia": 3,
+          "porque": "Resolução.",
+          "como": "Escalonamento."
+        },
+        {
+          "nome": "Discussão de sistemas lineares",
+          "frequencia": 2,
+          "porque": "SPD, SPI, SI.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Polinômios: operações",
+          "frequencia": 2,
+          "porque": "Soma e produto.",
+          "como": "Grau e coeficientes."
+        },
+        {
+          "nome": "Divisão de polinômios",
+          "frequencia": 2,
+          "porque": "Briot-Ruffini.",
+          "como": "Dispositivo prático."
+        },
+        {
+          "nome": "Teorema do resto",
+          "frequencia": 2,
+          "porque": "Raiz de polinômio.",
+          "como": "P(a) = resto."
+        },
+        {
+          "nome": "Equações polinomiais",
+          "frequencia": 3,
+          "porque": "Raízes.",
+          "como": "Grau e número de raízes."
+        },
+        {
+          "nome": "Relações de Girard",
+          "frequencia": 2,
+          "porque": "Soma e produto das raízes.",
+          "como": "Coeficientes."
+        },
+        {
+          "nome": "Números complexos: forma algébrica",
+          "frequencia": 2,
+          "porque": "Re(z) e Im(z).",
+          "como": "a + bi."
+        },
+        {
+          "nome": "Números complexos: forma trigonométrica",
+          "frequencia": 2,
+          "porque": "Módulo e argumento.",
+          "como": "Plano de Argand-Gauss."
+        },
+        {
+          "nome": "Operações com números complexos",
+          "frequencia": 2,
+          "porque": "Conjugado.",
+          "como": "Divisão."
+        },
+        {
+          "nome": "Binômio de Newton",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Triângulo de Pascal",
+          "frequencia": 2,
+          "porque": "Coeficientes binomiais.",
+          "como": "Linhas."
+        },
+        {
+          "nome": "Permutação simples",
+          "frequencia": 2,
+          "porque": "Ordem.",
+          "como": "Pn = n!."
+        },
+        {
+          "nome": "Arranjo simples",
+          "frequencia": 2,
+          "porque": "Ordem parcial.",
+          "como": "Fatorial."
+        },
+        {
+          "nome": "Combinação simples",
+          "frequencia": 3,
+          "porque": "Agrupamentos.",
+          "como": "Escolha sem ordem."
+        },
+        {
+          "nome": "Permutação com repetição",
+          "frequencia": 2,
+          "porque": "Anagramas.",
+          "como": "Denominador fatorial."
+        },
+        {
+          "nome": "Probabilidade: eventos independentes",
+          "frequencia": 2,
+          "porque": "Multiplicação.",
+          "como": "P(A∩B) = P(A) × P(B)."
+        },
+        {
+          "nome": "Probabilidade: união de eventos",
+          "frequencia": 2,
+          "porque": "Soma.",
+          "como": "P(A∪B) = P(A) + P(B) - P(A∩B)."
+        },
+        {
+          "nome": "Probabilidade condicional",
+          "frequencia": 3,
+          "porque": "Dependência.",
+          "como": "P(A|B)."
+        },
+        {
+          "nome": "Distribuição binomial",
+          "frequencia": 2,
+          "porque": "Eventos repetidos.",
+          "como": "Sucesso e fracasso."
+        },
+        {
+          "nome": "Matrizes: operações",
+          "frequencia": 2,
+          "porque": "Soma e produto.",
+          "como": "Dimensão."
+        },
+        {
+          "nome": "Matriz inversa",
+          "frequencia": 2,
+          "porque": "Determinante não nulo.",
+          "como": "A×A⁻¹ = I."
+        },
+        {
+          "nome": "Determinantes: propriedades",
+          "frequencia": 2,
+          "porque": "Cálculo.",
+          "como": "Regra de Sarrus."
+        },
+        {
+          "nome": "Regra de Cramer",
+          "frequencia": 2,
+          "porque": "Sistemas lineares.",
+          "como": "Determinantes."
+        },
+        {
+          "nome": "Geometria plana: ângulos",
+          "frequencia": 3,
+          "porque": "Complementares.",
+          "como": "Opostos pelo vértice."
+        },
+        {
+          "nome": "Geometria plana: polígonos convexos",
+          "frequencia": 2,
+          "porque": "Soma dos ângulos.",
+          "como": "Diagonais."
+        },
+        {
+          "nome": "Geometria plana: quadriláteros notáveis",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Trapézio e losango."
+        },
+        {
+          "nome": "Geometria plana: área do triângulo",
+          "frequencia": 3,
+          "porque": "Fórmulas.",
+          "como": "Base × altura / 2."
+        },
+        {
+          "nome": "Geometria plana: área do círculo e setor",
+          "frequencia": 2,
+          "porque": "πr².",
+          "como": "Proporção."
+        },
+        {
+          "nome": "Geometria espacial: pirâmide",
+          "frequencia": 2,
+          "porque": "Volume.",
+          "como": "1/3 área base × altura."
+        },
+        {
+          "nome": "Geometria espacial: tronco de pirâmide",
+          "frequencia": 2,
+          "porque": "Seção.",
+          "como": "Semelhança."
+        },
+        {
+          "nome": "Geometria analítica: distância ponto a reta",
+          "frequencia": 2,
+          "porque": "Fórmula.",
+          "como": "Aplicação."
+        },
+        {
+          "nome": "Geometria analítica: posições relativas",
+          "frequencia": 2,
+          "porque": "Retas.",
+          "como": "Paralelas e concorrentes."
+        },
+        {
+          "nome": "Geometria analítica: cônicas",
+          "frequencia": 2,
+          "porque": "Elipse, parábola, hipérbole.",
+          "como": "Equação reduzida."
+        },
+        {
+          "nome": "Funções trigonométricas",
+          "frequencia": 3,
+          "porque": "Gráficos.",
+          "como": "Seno e cosseno."
+        },
+        {
+          "nome": "Equações trigonométricas",
+          "frequencia": 2,
+          "porque": "Resolução.",
+          "como": "Igualar arcos."
+        },
+        {
+          "nome": "Identidades trigonométricas",
+          "frequencia": 2,
+          "porque": "Simplificação.",
+          "como": "sen² + cos² = 1."
+        },
+        {
+          "nome": "Fórmulas de adição de arcos",
+          "frequencia": 2,
+          "porque": "Seno e cosseno da soma.",
+          "como": "sen(a+b)."
+        },
+        {
+          "nome": "Fórmulas do arco duplo",
+          "frequencia": 2,
+          "porque": "Dobro do arco.",
+          "como": "sen(2a), cos(2a)."
+        },
+        {
+          "nome": "Juros compostos",
+          "frequencia": 4,
+          "porque": "Acumulação.",
+          "como": "M = C(1+i)^t."
+        },
+        {
+          "nome": "Descontos simples e compostos",
+          "frequencia": 2,
+          "porque": "Matemática financeira.",
+          "como": "Valor presente."
+        },
+        {
+          "nome": "Amortização",
+          "frequencia": 2,
+          "porque": "Financiamento.",
+          "como": "Tabela Price."
+        },
+        {
+          "nome": "Média ponderada",
+          "frequencia": 2,
+          "porque": "Pesos.",
+          "como": "Cálculo."
+        },
+        {
+          "nome": "Medidas de dispersão",
+          "frequencia": 2,
+          "porque": "Variabilidade.",
+          "como": "Amplitude."
+        },
+        {
+          "nome": "Interpretação de tabelas e gráficos",
+          "frequencia": 4,
+          "porque": "Leitura de dados.",
+          "como": "ENEM."
+        },
+        {
+          "nome": "Noções de conjuntos",
+          "frequencia": 3,
+          "porque": "União e interseção.",
+          "como": "Diagrama de Venn."
+        },
+        {
+          "nome": "Intervalos reais",
+          "frequencia": 2,
+          "porque": "Notação.",
+          "como": "Abertos e fechados."
+        },
+        {
+          "nome": "Função definida por partes",
+          "frequencia": 2,
+          "porque": "Condicionais.",
+          "como": "Gráfico."
+        },
+        {
+          "nome": "Função par e função ímpar",
+          "frequencia": 1,
+          "porque": "Simetria.",
+          "como": "Reflexão."
+        },
+        {
+          "nome": "Translação de gráficos",
+          "frequencia": 2,
+          "porque": "Deslocamentos.",
+          "como": "f(x) + k."
         }
       ]
     },
