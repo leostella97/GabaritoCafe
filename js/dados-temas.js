@@ -7708,6 +7708,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Sabões.",
           "como": "Ésteres."
+        },
+        {
+          "nome": "Ligação metálica",
+          "frequencia": 2,
+          "porque": "Metais.",
+          "como": "Mar de elétrons."
+        },
+        {
+          "nome": "Oxidação e redução",
+          "frequencia": 3,
+          "porque": "Redox.",
+          "como": "Número de oxidação."
+        },
+        {
+          "nome": "Agente oxidante e redutor",
+          "frequencia": 2,
+          "porque": "Transferência.",
+          "como": "Quem oxida/reduz."
+        },
+        {
+          "nome": "Cálculo estequiométrico avançado",
+          "frequencia": 3,
+          "porque": "Reagentes.",
+          "como": "Rendimento e pureza."
+        },
+        {
+          "nome": "Gases: equação de Clapeyron",
+          "frequencia": 3,
+          "porque": "PV = nRT.",
+          "como": "Conversões."
+        },
+        {
+          "nome": "Misturas gasosas",
+          "frequencia": 2,
+          "porque": "Pressão parcial.",
+          "como": "Lei de Dalton."
+        },
+        {
+          "nome": "Densidade e massa específica",
+          "frequencia": 2,
+          "porque": "Propriedades.",
+          "como": "d = m/V."
+        },
+        {
+          "nome": "Separação de misturas",
+          "frequencia": 3,
+          "porque": "Processos.",
+          "como": "Destilação."
+        },
+        {
+          "nome": "Coloides",
+          "frequencia": 2,
+          "porque": "Dispersões.",
+          "como": "Efeito Tyndall."
+        },
+        {
+          "nome": "Propriedades coligativas",
+          "frequencia": 2,
+          "porque": "Soluções.",
+          "como": "Ebulioscopia."
+        },
+        {
+          "nome": "Cinética: fatores que afetam",
+          "frequencia": 2,
+          "porque": "Velocidade.",
+          "como": "Temperatura."
+        },
+        {
+          "nome": "Equilíbrio: constante Kc e Kp",
+          "frequencia": 3,
+          "porque": "Cálculos.",
+          "como": "Expressão."
+        },
+        {
+          "nome": "Deslocamento de equilíbrio",
+          "frequencia": 3,
+          "porque": "Le Chatelier.",
+          "como": "Concentração."
+        },
+        {
+          "nome": "Nomenclatura IUPAC",
+          "frequencia": 2,
+          "porque": "Orgânica.",
+          "como": "Prefixos e sufixos."
         }
       ]
     },
