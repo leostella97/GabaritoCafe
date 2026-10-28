@@ -10246,6 +10246,138 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Acesso.",
           "como": "Programas."
+        },
+        {
+          "nome": "Jogos cooperativos",
+          "frequencia": 2,
+          "porque": "Integração.",
+          "como": "Cooperação."
+        },
+        {
+          "nome": "Jogos competitivos",
+          "frequencia": 2,
+          "porque": "Regras.",
+          "como": "Fair play."
+        },
+        {
+          "nome": "Esportes de aventura",
+          "frequencia": 2,
+          "porque": "Natureza.",
+          "como": "Escalada, rafting."
+        },
+        {
+          "nome": "Esportes de precisão",
+          "frequencia": 1,
+          "porque": "Mira.",
+          "como": "Tiro e golfe."
+        },
+        {
+          "nome": "Esportes de rede",
+          "frequencia": 2,
+          "porque": "Divisória.",
+          "como": "Vôlei e tênis."
+        },
+        {
+          "nome": "Esportes de invasão",
+          "frequencia": 2,
+          "porque": "Território.",
+          "como": "Futebol e basquete."
+        },
+        {
+          "nome": "Esportes de marca",
+          "frequencia": 2,
+          "porque": "Tempo.",
+          "como": "Atletismo e natação."
+        },
+        {
+          "nome": "Expressão corporal",
+          "frequencia": 2,
+          "porque": "Linguagem.",
+          "como": "Dança e teatro."
+        },
+        {
+          "nome": "Ritmo e movimento",
+          "frequencia": 2,
+          "porque": "Coordenação.",
+          "como": "Consciência corporal."
+        },
+        {
+          "nome": "Cultura corporal",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Práticas regionais."
+        },
+        {
+          "nome": "Lazer e recreação",
+          "frequencia": 2,
+          "porque": "Bem-estar.",
+          "como": "Tempo livre."
+        },
+        {
+          "nome": "Corpo, saúde e estética",
+          "frequencia": 2,
+          "porque": "Padrões.",
+          "como": "Bullying corporal."
+        },
+        {
+          "nome": "Gênero e esporte",
+          "frequencia": 2,
+          "porque": "Equidade.",
+          "como": "Participação feminina."
+        },
+        {
+          "nome": "Inclusão e acessibilidade",
+          "frequencia": 2,
+          "porque": "Direitos.",
+          "como": "Esportes adaptados."
+        },
+        {
+          "nome": "Ética no esporte",
+          "frequencia": 2,
+          "porque": "Conduta.",
+          "como": "Respeito."
+        },
+        {
+          "nome": "Esporte e violência",
+          "frequencia": 1,
+          "porque": "Torcidas.",
+          "como": "Prevenção."
+        },
+        {
+          "nome": "Esporte e racismo",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Casos e combate."
+        },
+        {
+          "nome": "Alimentação e performance",
+          "frequencia": 2,
+          "porque": "Nutrição.",
+          "como": "Dieta equilibrada."
+        },
+        {
+          "nome": "Hidratação no esporte",
+          "frequencia": 2,
+          "porque": "Rendimento.",
+          "como": "Reposição."
+        },
+        {
+          "nome": "Sonolência e rendimento",
+          "frequencia": 2,
+          "porque": "Recuperação.",
+          "como": "Sono profundo."
+        },
+        {
+          "nome": "Métodos de treinamento",
+          "frequencia": 2,
+          "porque": "Planejamento.",
+          "como": "Periodização."
+        },
+        {
+          "nome": "Avaliação física",
+          "frequencia": 2,
+          "porque": "Diagnóstico.",
+          "como": "Testes físicos."
         }
       ]
     },
