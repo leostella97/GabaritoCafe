@@ -1099,6 +1099,66 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "LGPD e boas práticas.",
           "como": "Consentimento e direitos."
+        },
+        {
+          "nome": "Banco de dados",
+          "frequencia": 3,
+          "porque": "Armazenamento.",
+          "como": "SQL e consultas."
+        },
+        {
+          "nome": "Hardware",
+          "frequencia": 3,
+          "porque": "Componentes físicos.",
+          "como": "CPU, RAM."
+        },
+        {
+          "nome": "Software aplicativo",
+          "frequencia": 3,
+          "porque": "Programas utilitários.",
+          "como": "Office."
+        },
+        {
+          "nome": "Internet",
+          "frequencia": 3,
+          "porque": "WWW e navegação.",
+          "como": "Protocolo HTTP."
+        },
+        {
+          "nome": "Correio eletrônico",
+          "frequencia": 3,
+          "porque": "E-mail.",
+          "como": "SMTP e POP3."
+        },
+        {
+          "nome": "Nuvem",
+          "frequencia": 3,
+          "porque": "Serviços online.",
+          "como": "Saas e PaaS."
+        },
+        {
+          "nome": "Noções de programação",
+          "frequencia": 2,
+          "porque": "Lógica de código.",
+          "como": "Algoritmos."
+        },
+        {
+          "nome": "Ergonomia digital",
+          "frequencia": 2,
+          "porque": "Saúde no trabalho.",
+          "como": "Postura."
+        },
+        {
+          "nome": "Licenças de software",
+          "frequencia": 2,
+          "porque": "Uso legal.",
+          "como": "Open source."
+        },
+        {
+          "nome": "Ferramentas de produtividade",
+          "frequencia": 3,
+          "porque": "Gestão de tarefas.",
+          "como": "Calendário."
         }
       ]
     },
