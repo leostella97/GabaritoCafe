@@ -6518,6 +6518,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Câmbio e balança comercial aparecem contextualizados.",
           "como": "Exportar mais que importar = superávit; real valorizado deixa a importação barata. O Brasil exporta commodities."
+        },
+        {
+          "nome": "Microeconomia",
+          "frequencia": 3,
+          "porque": "Agentes econômicos.",
+          "como": "Consumidor e produtor."
+        },
+        {
+          "nome": "Macroeconomia",
+          "frequencia": 4,
+          "porque": "Indicadores agregados.",
+          "como": "PIB e inflação."
+        },
+        {
+          "nome": "Política fiscal",
+          "frequencia": 3,
+          "porque": "Gastos e receitas.",
+          "como": "Déficit."
+        },
+        {
+          "nome": "Política monetária",
+          "frequencia": 3,
+          "porque": "Banco central.",
+          "como": "Selic."
+        },
+        {
+          "nome": "Desenvolvimento econômico",
+          "frequencia": 3,
+          "porque": "Crescimento.",
+          "como": "IDH."
+        },
+        {
+          "nome": "Mercado de trabalho",
+          "frequencia": 3,
+          "porque": "Emprego e desemprego.",
+          "como": "Taxas."
+        },
+        {
+          "nome": "Economia brasileira",
+          "frequencia": 3,
+          "porque": "Histórico.",
+          "como": "Industrialização."
+        },
+        {
+          "nome": "Economia internacional",
+          "frequencia": 3,
+          "porque": "Global.",
+          "como": "FMI."
+        },
+        {
+          "nome": "Orçamento público",
+          "frequencia": 2,
+          "porque": "Gasto estatal.",
+          "como": "Plano."
+        },
+        {
+          "nome": "Sustentabilidade econômica",
+          "frequencia": 2,
+          "porque": "Desenvolvimento sustentável.",
+          "como": "Recursos."
+        },
+        {
+          "nome": "Economia digital",
+          "frequencia": 2,
+          "porque": "Tecnologia.",
+          "como": "Plataformas."
+        },
+        {
+          "nome": "Câmbio e juros",
+          "frequencia": 3,
+          "porque": "Finanças.",
+          "como": "Câmbio."
+        },
+        {
+          "nome": "Indicadores sociais",
+          "frequencia": 2,
+          "porque": "Indicadores.",
+          "como": "Gini."
+        },
+        {
+          "nome": "Economia comportamental",
+          "frequencia": 2,
+          "porque": "Decisões.",
+          "como": "Bias."
         }
       ]
     }
