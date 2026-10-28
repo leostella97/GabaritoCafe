@@ -15176,6 +15176,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Desenvolvimento.",
           "como": "PIB/população."
+        },
+        {
+          "nome": "Economia criativa",
+          "frequencia": 2,
+          "porque": "Inovação.",
+          "como": "Cultura e tecnologia."
+        },
+        {
+          "nome": "Economia solidária",
+          "frequencia": 2,
+          "porque": "Cooperativismo.",
+          "como": "Autogestão."
+        },
+        {
+          "nome": "Microcrédito e inclusão financeira",
+          "frequencia": 2,
+          "porque": "Inclusão.",
+          "como": "Banco do Povo."
+        },
+        {
+          "nome": "Reforma tributária",
+          "frequencia": 2,
+          "porque": "Atualidade Brasil.",
+          "como": "IVA dual."
+        },
+        {
+          "nome": "Privatização e concessões",
+          "frequencia": 2,
+          "porque": "Estado.",
+          "como": "Serviços públicos."
+        },
+        {
+          "nome": "Economia keynesiana aplicada",
+          "frequencia": 2,
+          "porque": "Crise de 2008.",
+          "como": "Pacotes fiscais."
+        },
+        {
+          "nome": "Economia da pandemia",
+          "frequencia": 2,
+          "porque": "COVID-19.",
+          "como": "Auxílio emergencial."
+        },
+        {
+          "nome": "Mercado de trabalho e informalidade",
+          "frequencia": 2,
+          "porque": "Brasil.",
+          "como": "Taxa de informalidade."
+        },
+        {
+          "nome": "Previdência social",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Déficit."
+        },
+        {
+          "nome": "Balanço de pagamentos brasileiro",
+          "frequencia": 2,
+          "porque": "Contas externas.",
+          "como": "BCB."
+        },
+        {
+          "nome": "Exportações e importações brasileiras",
+          "frequencia": 2,
+          "porque": "Comércio.",
+          "como": "Agenda externa."
+        },
+        {
+          "nome": "Investimento estrangeiro direto",
+          "frequencia": 2,
+          "porque": "Capital.",
+          "como": "IED."
+        },
+        {
+          "nome": "PIB verde",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Crescimento sustentável."
+        },
+        {
+          "nome": "Economia da felicidade",
+          "frequencia": 2,
+          "porque": "Bem-estar x renda.",
+          "como": "FIB."
         }
       ]
     }
