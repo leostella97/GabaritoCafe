@@ -3876,6 +3876,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Monitoramento.",
           "como": "Auditoria e compliance."
+        },
+        {
+          "nome": "Planejamento estratégico",
+          "frequencia": 4,
+          "porque": "Visão de futuro.",
+          "como": "SWOT."
+        },
+        {
+          "nome": "Organização e estrutura",
+          "frequencia": 4,
+          "porque": "Departamentalização.",
+          "como": "Fluxogramas."
+        },
+        {
+          "nome": "Liderança estratégica",
+          "frequencia": 3,
+          "porque": "Comando e influência.",
+          "como": "Estilos."
+        },
+        {
+          "nome": "Motivação e clima",
+          "frequencia": 3,
+          "porque": "Teorias.",
+          "como": "Maslow."
+        },
+        {
+          "nome": "Comunicação organizacional",
+          "frequencia": 3,
+          "porque": "Canais.",
+          "como": "Feedback."
+        },
+        {
+          "nome": "Gestão de pessoas",
+          "frequencia": 4,
+          "porque": "Recrutamento e seleção.",
+          "como": "Treinamento."
+        },
+        {
+          "nome": "Controle administrativo",
+          "frequencia": 3,
+          "porque": "Medição de resultados.",
+          "como": "Indicadores."
+        },
+        {
+          "nome": "Qualidade total",
+          "frequencia": 3,
+          "porque": "Excelência operacional.",
+          "como": "PDCA."
+        },
+        {
+          "nome": "Gestão por processos",
+          "frequencia": 3,
+          "porque": "Fluxos.",
+          "como": "Mapeamento."
+        },
+        {
+          "nome": "Responsabilidade social corporativa",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "ESG."
+        },
+        {
+          "nome": "Inteligência competitiva",
+          "frequencia": 2,
+          "porque": "Informação estratégica.",
+          "como": "Benchmark."
+        },
+        {
+          "nome": "Orçamento empresarial",
+          "frequencia": 3,
+          "porque": "Plano financeiro.",
+          "como": "PPE."
+        },
+        {
+          "nome": "Tomada de decisão",
+          "frequencia": 4,
+          "porque": "Racionalidade.",
+          "como": "Modelos."
+        },
+        {
+          "nome": "Inovação organizacional",
+          "frequencia": 3,
+          "porque": "Diferenciação.",
+          "como": "Startup."
+        },
+        {
+          "nome": "Governança corporativa",
+          "frequencia": 3,
+          "porque": "Controle e transparência.",
+          "como": "Conselho."
         }
       ]
     },
