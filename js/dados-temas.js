@@ -5671,6 +5671,96 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Tecnologia, saúde e meio ambiente são os textos do ENEM.",
           "como": "Monte glossário por tema: health (disease, treatment), tech (AI, privacy), environment (pollution, sustainable)."
+        },
+        {
+          "nome": "Present perfect",
+          "frequencia": 4,
+          "porque": "Experiência.",
+          "como": "Have/has + particípio."
+        },
+        {
+          "nome": "Past simple",
+          "frequencia": 4,
+          "porque": "Ações passadas.",
+          "como": "Verbo + ed."
+        },
+        {
+          "nome": "Future forms",
+          "frequencia": 3,
+          "porque": "Previsões.",
+          "como": "Will e going to."
+        },
+        {
+          "nome": "Conditionals",
+          "frequencia": 3,
+          "porque": "Hipóteses.",
+          "como": "If clauses."
+        },
+        {
+          "nome": "Reported speech",
+          "frequencia": 3,
+          "porque": "Relatar fala.",
+          "como": "Backshift."
+        },
+        {
+          "nome": "Collocations",
+          "frequencia": 3,
+          "porque": "Combinações naturais.",
+          "como": "Make a decision."
+        },
+        {
+          "nome": "Phrasal verbs",
+          "frequencia": 4,
+          "porque": "Uso idiomático.",
+          "como": "Take off, look up."
+        },
+        {
+          "nome": "Reading comprehension",
+          "frequencia": 5,
+          "porque": "Interpretação.",
+          "como": "Inferência."
+        },
+        {
+          "nome": "Grammar points",
+          "frequencia": 4,
+          "porque": "Concordância.",
+          "como": "Subject-verb."
+        },
+        {
+          "nome": "Writing",
+          "frequencia": 3,
+          "porque": "Produção textual.",
+          "como": "Paragraph structure."
+        },
+        {
+          "nome": "Listening",
+          "frequencia": 2,
+          "porque": "Compreensão auditiva.",
+          "como": "Pronúncia."
+        },
+        {
+          "nome": "Vocabulary expansion",
+          "frequencia": 3,
+          "porque": "Sinônimos.",
+          "como": "Word formation."
+        },
+        {
+          "nome": "Articles",
+          "frequencia": 3,
+          "porque": "A, an, the.",
+          "como": "Uso definido e indefinido."
+        },
+        {
+          "nome": "Prepositions",
+          "frequencia": 3,
+          "porque": "In, on, at.",
+          "como": "Locais e tempo."
+        },
+        {
+          "nome": "Gerund and infinitive",
+          "frequencia": 3,
+          "porque": "Verbos com gerúndio e infinitivo.",
+          "como": "After verbs."
         }
       ]
     },
