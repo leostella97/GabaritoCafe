@@ -35,14 +35,42 @@
   min-height: 100dvh;               /* TEAM_007: dvh respeita a barra de URL do celular */
   grid-template-columns: 1.1fr 1fr; /* hero maior, painel menor */
   align-items: stretch;             /* estica as colunas */
-  /* TEAM_007: o café escuro do hero agora é o fundo da TELA INTEIRA —
-     gradiente espresso + bolhas de crema + sombra de café preto */
+  overflow-x: hidden;               /* nada vaza para fora da tela */
+  /* TEAM_007: fundo café completo — gradiente espresso + vapor + bolhas + grãos + profundidade */
   background:
-    radial-gradient(circle at 86% 8%, rgba(201, 138, 94, 0.16) 0, transparent 32%), /* bolha de crema no topo */
-    radial-gradient(circle at 97% 80%, rgba(230, 185, 138, 0.10) 0, transparent 30%), /* crema clara no canto */
-    radial-gradient(circle at 55% 115%, rgba(18, 11, 7, 0.55) 0, transparent 62%),   /* profundidade de café preto */
-    linear-gradient(160deg, #4a3323 0%, #2c1e15 55%, #1a110a 100%); /* café → espresso → quase preto */
+    /* vapor subindo (esquerda) */
+    radial-gradient(ellipse 280px 160px at 18% 55%, rgba(230, 196, 156, 0.07) 0, transparent 100%),
+    /* vapor subindo (centro) */
+    radial-gradient(ellipse 340px 200px at 52% 62%, rgba(210, 168, 120, 0.06) 0, transparent 100%),
+    /* vapor subindo (direita) */
+    radial-gradient(ellipse 260px 150px at 82% 50%, rgba(230, 196, 156, 0.08) 0, transparent 100%),
+    /* bolha de crema no topo direito */
+    radial-gradient(circle at 86% 8%, rgba(201, 138, 94, 0.18) 0, transparent 35%),
+    /* bolha de crema clara no canto inferior direito */
+    radial-gradient(circle at 97% 80%, rgba(230, 185, 138, 0.12) 0, transparent 30%),
+    /* mancha de café transbordando embaixo */
+    radial-gradient(ellipse 500px 200px at 50% 108%, rgba(28, 16, 10, 0.65) 0, transparent 65%),
+    /* profundidade de café no centro */
+    radial-gradient(circle at 55% 115%, rgba(18, 11, 7, 0.55) 0, transparent 62%),
+    /* brilho sutil no centro-esquerdo (luz ambiente) */
+    radial-gradient(circle at 30% 40%, rgba(120, 88, 60, 0.2) 0, transparent 50%),
+    /* gradiente principal: café → espresso → quase preto */
+    linear-gradient(160deg, #4a3323 0%, #2c1e15 55%, #1a110a 100%);
+  /* textura sutil de madeira (ruído) sobreposta */
+  position: relative;
 }
+
+.tela-login::before {               /* ruído/textura de madeira sobre todo o fundo */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  background-size: 400px 400px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tela-login > * { position: relative; z-index: 1; }
 
 .login-hero {                       /* metade esquerda: a "vitrine" */
   background: transparent;          /* TEAM_007: deixa o café da tela atravessar — mesma textura dos dois lados */
@@ -53,29 +81,37 @@
   justify-content: center;          /* centraliza verticalmente */
   position: relative;               /* para as bolhas decorativas */
   overflow: hidden;                 /* corta decorações que vazam */
+  z-index: 1;                       /* acima da textura de fundo */
 }
 
 /* Bolhas decorativas de vapor/café no fundo do hero */
-.login-hero::before {               /* bolha grande */
+.login-hero::before {               /* vapor subindo à esquerda */
   content: '';                      /* decorativo */
   position: absolute;               /* flutua sobre o fundo */
-  width: 380px;                     /* tamanho */
-  height: 380px;                    /* tamanho */
-  border-radius: 50%;               /* círculo */
-  background: rgba(201, 138, 94, 0.12); /* caramelo translúcido */
-  top: -120px;                      /* transborda para cima */
-  right: -120px;                    /* transborda para a direita */
+  width: 420px;                     /* tamanho */
+  height: 420px;                    /* tamanho */
+  border-radius: 60% 40% 50% 50%;   /* formato orgânico de vapor */
+  background: radial-gradient(ellipse at center, rgba(210, 168, 120, 0.09) 0, transparent 70%);
+  top: -80px;                       /* sobe */
+  right: -140px;                    /* transborda para a direita */
+  animation: vaporFlutuar 8s ease-in-out infinite;
 }
 
-.login-hero::after {                /* bolha pequena */
+.login-hero::after {                /* vapor pequeno à direita */
   content: '';                      /* decorativo */
   position: absolute;               /* flutua */
-  width: 200px;                     /* tamanho */
-  height: 200px;                    /* tamanho */
-  border-radius: 50%;               /* círculo */
-  background: rgba(230, 185, 138, 0.1); /* caramelo claro translúcido */
-  bottom: -70px;                    /* transborda para baixo */
-  left: -70px;                      /* transborda para a esquerda */
+  width: 260px;                     /* tamanho */
+  height: 260px;                    /* tamanho */
+  border-radius: 55% 45% 60% 40%;   /* formato orgânico */
+  background: radial-gradient(ellipse at center, rgba(230, 196, 156, 0.08) 0, transparent 70%);
+  bottom: -60px;                    /* transborda para baixo */
+  left: -90px;                      /* transborda para a esquerda */
+  animation: vaporFlutuar 10s ease-in-out 2s infinite reverse;
+}
+
+@keyframes vaporFlutuar {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.6; }
+  50%      { transform: translate(12px, -15px) scale(1.12); opacity: 1; }
 }
 
 /* Mantém o conteúdo do hero acima das bolhas decorativas do fundo */
@@ -133,6 +169,7 @@
   padding: 2rem;                    /* respiro */
   position: relative;               /* para as decorações de café do fundo */
   overflow: hidden;                 /* corta decorações que vazam */
+  z-index: 1;                       /* acima da textura */
   /* TEAM_007: transparente — o fundo escuro da tela continua aqui também */
 }
 
@@ -140,24 +177,30 @@
 .login-painel::before {
   content: '';                      /* decorativo */
   position: absolute;               /* flutua no fundo */
-  width: 430px;                     /* tamanho do aro */
-  height: 430px;                    /* tamanho do aro */
+  width: 440px;                     /* tamanho do aro */
+  height: 440px;                    /* tamanho do aro */
   border-radius: 50%;               /* círculo perfeito */
-  border: 30px solid rgba(201, 138, 94, 0.07); /* aro de mancha de café */
-  top: -180px;                      /* transborda para cima */
-  right: -180px;                    /* transborda para a direita */
+  border: 32px solid rgba(201, 138, 94, 0.08); /* aro de mancha de café */
+  top: -190px;                      /* transborda para cima */
+  right: -190px;                    /* transborda para a direita */
+  animation: aroGirar 20s linear infinite;
 }
 
 /* TEAM_007: bolha de crema embaixo à esquerda do painel */
 .login-painel::after {
   content: '';                      /* decorativo */
   position: absolute;               /* flutua no fundo */
-  width: 240px;                     /* tamanho */
-  height: 240px;                    /* tamanho */
+  width: 250px;                     /* tamanho */
+  height: 250px;                    /* tamanho */
   border-radius: 50%;               /* círculo */
-  background: rgba(230, 185, 138, 0.08); /* caramelo claro translúcido */
-  bottom: -90px;                    /* transborda para baixo */
-  left: -90px;                      /* transborda para a esquerda */
+  background: rgba(230, 185, 138, 0.09); /* caramelo claro translúcido */
+  bottom: -100px;                   /* transborda para baixo */
+  left: -100px;                     /* transborda para a esquerda */
+}
+
+@keyframes aroGirar {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }
 
 /* Mantém o cartão e o anúncio acima das decorações do fundo */
@@ -166,7 +209,7 @@
 /* TEAM_007: selo "Publicidade" legível sobre o fundo café escuro */
 .login-painel .anuncio-rotulo { color: rgba(230, 214, 190, 0.55); }
 
-.login-cartao { width: 100%; max-width: 400px; } /* cartão de login com largura controlada */
+.login-cartao { width: 100%; max-width: 400px; min-width: 0; } /* cartão de login com largura controlada (min-width:0 evita estouro em flex/grid) */
 
 .login-cartao h2 { margin-bottom: 0.4rem; }      /* título do cartão */
 
@@ -867,4 +910,15 @@ details.questao-revisao .corpo { padding: 0 1rem 1rem; } /* conteúdo do acorde�
   .linha-materia { grid-template-columns: 110px 1fr 46px; } /* colunas mais estreitas */
 
   .resultado-cabeca { justify-content: center; } /* resultado centralizado */
+
+  .login-painel { padding: 1.4rem 1rem; } /* menos respiro no celular para o cartão caber */
+}
+
+/* Acessibilidade: reduz movimento para quem prefere */
+@media (prefers-reduced-motion: reduce) {
+  .login-hero::before,
+  .login-hero::after,
+  .login-painel::before {
+    animation: none;                  /* desliga as animações decorativas */
+  }
 }
