@@ -2734,6 +2734,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Paz jurídica.",
           "como": "Acordo processual."
+        },
+        {
+          "nome": "Princípios do direito civil",
+          "frequencia": 5,
+          "porque": "Dignidade e função social.",
+          "como": "CF e CC."
+        },
+        {
+          "nome": "Personalidade e capacidade",
+          "frequencia": 4,
+          "porque": "Sujeito de direitos.",
+          "como": "Art.1 e 3 CC."
+        },
+        {
+          "nome": "Atos jurídicos",
+          "frequencia": 4,
+          "porque": "Validade e eficácia.",
+          "como": "Vício de consentimento."
+        },
+        {
+          "nome": "Posse",
+          "frequencia": 3,
+          "porque": "Detenção com animus.",
+          "como": "Proteção possessoris."
+        },
+        {
+          "nome": "Propriedade",
+          "frequencia": 4,
+          "porque": "Direito real por excelência.",
+          "como": "Função social."
+        },
+        {
+          "nome": "Usufruto",
+          "frequencia": 3,
+          "porque": "Direito real sobre coisa alheia.",
+          "como": "Limites."
+        },
+        {
+          "nome": "Contratos atípicos",
+          "frequencia": 2,
+          "porque": "Autonomia privada.",
+          "como": "Inominados."
+        },
+        {
+          "nome": "Responsabilidade contratual",
+          "frequencia": 4,
+          "porque": "Inadimplemento.",
+          "como": "Cláusulas penais."
+        },
+        {
+          "nome": "Enriquecimento sem causa",
+          "frequencia": 3,
+          "porque": "Jogo de dar e receber.",
+          "como": "Ação de repetição."
+        },
+        {
+          "nome": "Tutelagem",
+          "frequencia": 2,
+          "porque": "Proteção a incapazes.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Curatela",
+          "frequencia": 2,
+          "porque": "Assistência à pessoa.",
+          "como": "Interdição."
+        },
+        {
+          "nome": "Usucapião",
+          "frequencia": 3,
+          "porque": " Aquisição originária.",
+          "como": "Prazo e posse."
+        },
+        {
+          "nome": "Servidão predial",
+          "frequencia": 2,
+          "porque": "Onus real.",
+          "como": "Beneficiada e onerada."
+        },
+        {
+          "nome": "Emancipação",
+          "frequencia": 2,
+          "porque": "Capacidade plena.",
+          "como": "Idade e casamento."
+        },
+        {
+          "nome": "Prescrição",
+          "frequencia": 4,
+          "porque": "Extinção da pretensão.",
+          "como": "Prazos legais."
         }
       ]
     },
