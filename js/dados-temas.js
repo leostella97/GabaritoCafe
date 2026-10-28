@@ -1715,6 +1715,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "CLT e normas correlatas.",
           "como": "Jornada, férias e salário mínimo."
+        },
+        {
+          "nome": "Princípio da legalidade",
+          "frequencia": 5,
+          "porque": "Base do direito administrativo.",
+          "como": "Ato administrativo amparado em lei."
+        },
+        {
+          "nome": "Lei complementar",
+          "frequencia": 4,
+          "porque": "Quorum qualificado.",
+          "como": "Temas constitucionais."
+        },
+        {
+          "nome": "Medida provisória",
+          "frequencia": 3,
+          "porque": "Urgência e relevância.",
+          "como": "Conversão em lei."
+        },
+        {
+          "nome": "Decreto",
+          "frequencia": 3,
+          "porque": "Regulamentação de lei.",
+          "como": "Poder regulamentar."
+        },
+        {
+          "nome": "Portaria",
+          "frequencia": 2,
+          "porque": "Ato administrativo normativo.",
+          "como": "Instrução interna."
+        },
+        {
+          "nome": "Instrução normativa",
+          "frequencia": 2,
+          "porque": "Detalhamento técnico.",
+          "como": "Agências reguladoras."
+        },
+        {
+          "nome": "Retroatividade",
+          "frequencia": 2,
+          "porque": "Efeitos de lei no tempo.",
+          "como": "Exceções penais."
+        },
+        {
+          "nome": "Vacatio legis",
+          "frequencia": 2,
+          "porque": "Interstício entre publicação e vigência.",
+          "como": "Prazo de adaptação."
+        },
+        {
+          "nome": "Interpretação autêntica",
+          "frequencia": 2,
+          "porque": "Legislador interpreta sua lei.",
+          "como": "Lei interpretativa."
+        },
+        {
+          "nome": "Revogação expressa",
+          "frequencia": 2,
+          "porque": "Extinção formal.",
+          "como": "Nova lei revoga anterior."
+        },
+        {
+          "nome": "Abrogação",
+          "frequencia": 2,
+          "porque": "Revogação material.",
+          "como": "Incompatibilidade."
+        },
+        {
+          "nome": "Conflito de normas",
+          "frequencia": 3,
+          "porque": "Hierarquia e cronologia.",
+          "como": "Princípios de solução."
+        },
+        {
+          "nome": "Responsabilidade civil",
+          "frequencia": 3,
+          "porque": "Dano e reparação.",
+          "como": "Art.927 CC."
+        },
+        {
+          "nome": "Responsabilidade penal",
+          "frequencia": 2,
+          "porque": "Tipicidade e antijuridicidade.",
+          "como": "Código Penal."
+        },
+        {
+          "nome": "Responsabilidade administrativa",
+          "frequencia": 3,
+          "porque": "Improbidade e sanções.",
+          "como": "Lei 8.429."
         }
       ]
     },
