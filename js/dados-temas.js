@@ -6894,6 +6894,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Autores atuais.",
           "como": "Temas atuais."
+        },
+        {
+          "nome": "Romantismo",
+          "frequencia": 4,
+          "porque": "Movimento.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Realismo",
+          "frequencia": 4,
+          "porque": "Crítica.",
+          "como": "Machado."
+        },
+        {
+          "nome": "Naturalismo",
+          "frequencia": 2,
+          "porque": "Determinismo.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Simbolismo",
+          "frequencia": 2,
+          "porque": "Símbolos.",
+          "como": "Poesia."
+        },
+        {
+          "nome": "Pré-modernismo",
+          "frequencia": 3,
+          "porque": "Transição.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Modernismo",
+          "frequencia": 4,
+          "porque": "Semana de 22.",
+          "como": "Gerações."
+        },
+        {
+          "nome": "Poesia brasileira",
+          "frequencia": 3,
+          "porque": "Versos.",
+          "como": "Figuras."
+        },
+        {
+          "nome": "Prosa brasileira",
+          "frequencia": 3,
+          "porque": "Narrativa.",
+          "como": "Romance."
+        },
+        {
+          "nome": "Teatro",
+          "frequencia": 2,
+          "porque": "Dramaturgia.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Crônica",
+          "frequencia": 2,
+          "porque": "Gênero.",
+          "como": "Observação."
+        },
+        {
+          "nome": "Conto",
+          "frequencia": 3,
+          "porque": "Breve.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Literatura regionalista",
+          "frequencia": 2,
+          "porque": "Nordeste.",
+          "como": "Cordel."
+        },
+        {
+          "nome": "Literatura de cordel",
+          "frequencia": 2,
+          "porque": "Popular.",
+          "como": "Folheto."
+        },
+        {
+          "nome": "Literatura infantojuvenil",
+          "frequencia": 2,
+          "porque": "Infância.",
+          "como": "Autores."
         }
       ]
     },
