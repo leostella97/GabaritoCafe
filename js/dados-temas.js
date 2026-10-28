@@ -9433,6 +9433,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tema comum.",
           "como": "Booking, sightseeing."
+        },
+        {
+          "nome": "Direct and indirect speech",
+          "frequencia": 2,
+          "porque": "Reported speech.",
+          "como": "Tense backshift."
+        },
+        {
+          "nome": "Verb patterns",
+          "frequencia": 2,
+          "porque": "Infinitive vs gerund.",
+          "como": "Stop to do vs stop doing."
+        },
+        {
+          "nome": "Causative form",
+          "frequencia": 2,
+          "porque": "Have/get something done.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Zero and first conditional",
+          "frequencia": 2,
+          "porque": "Fatos e possibilidades.",
+          "como": "If + present."
+        },
+        {
+          "nome": "Second and third conditional",
+          "frequencia": 2,
+          "porque": "Hipotético e arrependimento.",
+          "como": "Would have + past participle."
+        },
+        {
+          "nome": "Wish and if only",
+          "frequencia": 2,
+          "porque": "Desejos.",
+          "como": "I wish I had studied."
+        },
+        {
+          "nome": "Used to and would",
+          "frequencia": 2,
+          "porque": "Hábitos passados.",
+          "como": "Used to + infinitive."
+        },
+        {
+          "nome": "Make and do",
+          "frequencia": 2,
+          "porque": "Colocações.",
+          "como": "Make a decision, do homework."
+        },
+        {
+          "nome": "Prepositions of time and place",
+          "frequencia": 2,
+          "porque": "In, on, at.",
+          "como": "Uso correto."
+        },
+        {
+          "nome": "Environmental vocabulary",
+          "frequencia": 2,
+          "porque": "Tema ENEM.",
+          "como": "Sustainability."
+        },
+        {
+          "nome": "Technology vocabulary",
+          "frequencia": 2,
+          "porque": "Tema atual.",
+          "como": "Digital, devices."
+        },
+        {
+          "nome": "Health vocabulary",
+          "frequencia": 2,
+          "porque": "Tema social.",
+          "como": "Disease, wellness."
+        },
+        {
+          "nome": "Education vocabulary",
+          "frequencia": 2,
+          "porque": "Tema frequente.",
+          "como": "Curriculum, degree."
+        },
+        {
+          "nome": "Work and career vocabulary",
+          "frequencia": 2,
+          "porque": "Tópico comum.",
+          "como": "Profession, skills."
         }
       ]
     },
