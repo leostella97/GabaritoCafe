@@ -3069,6 +3069,78 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Planejamento estatal.",
           "como": "SUS e prevenção."
+        },
+        {
+          "nome": "Escola crítica",
+          "frequencia": 3,
+          "porque": "Criminologia radical.",
+          "como": "Poder punitivo."
+        },
+        {
+          "nome": "Prevenção situacional",
+          "frequencia": 3,
+          "porque": "Reduzir oportunidades.",
+          "como": "CPTED."
+        },
+        {
+          "nome": "Pena e execução penal",
+          "frequencia": 4,
+          "porque": "Lei de Execução Penal.",
+          "como": "Progressão."
+        },
+        {
+          "nome": "Crimes contra a administração",
+          "frequencia": 3,
+          "porque": "Corrupção.",
+          "como": "Improbidade."
+        },
+        {
+          "nome": "Criminologia ambiental",
+          "frequencia": 2,
+          "porque": "Crimes ecológicos.",
+          "como": "Sustentabilidade."
+        },
+        {
+          "nome": "Mediação penal",
+          "frequencia": 2,
+          "porque": "Justiça restaurativa.",
+          "como": "Acordos."
+        },
+        {
+          "nome": "Teoria da reação social",
+          "frequencia": 2,
+          "porque": "Construção do estigma.",
+          "como": "Controle."
+        },
+        {
+          "nome": "Perfil criminológico",
+          "frequencia": 2,
+          "porque": "Perfil do autor.",
+          "como": "Psicologia."
+        },
+        {
+          "nome": "Políticas de segurança",
+          "frequencia": 3,
+          "porque": "Prevenção primária.",
+          "como": "Programas."
+        },
+        {
+          "nome": "Justiça juvenil",
+          "frequencia": 2,
+          "porque": "Estatuto da criança.",
+          "como": "Medidas socioeducativas."
+        },
+        {
+          "nome": "Estatísticas criminais",
+          "frequencia": 3,
+          "porque": "Indicadores.",
+          "como": "Taxas."
+        },
+        {
+          "nome": "Cybercrimes",
+          "frequencia": 4,
+          "porque": "Crimes digitais.",
+          "como": "Fraude."
         }
       ]
     },
