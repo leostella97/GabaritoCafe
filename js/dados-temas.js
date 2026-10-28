@@ -5746,6 +5746,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Desintegração.",
           "como": "Meia-vida."
+        },
+        {
+          "nome": "Estequiometria avançada",
+          "frequencia": 4,
+          "porque": "Proporções.",
+          "como": "Grandezas."
+        },
+        {
+          "nome": "Termoquímica",
+          "frequencia": 3,
+          "porque": "Entalpia.",
+          "como": "Calor."
+        },
+        {
+          "nome": "Eletroquímica",
+          "frequencia": 3,
+          "porque": "Pilhas e eletrólise.",
+          "como": "Oxidoredução."
+        },
+        {
+          "nome": "Química analítica",
+          "frequencia": 2,
+          "porque": "Análise.",
+          "como": "Titulometria."
+        },
+        {
+          "nome": "Química ambiental",
+          "frequencia": 3,
+          "porque": "Poluição.",
+          "como": "Efeito estufa."
+        },
+        {
+          "nome": "Físico-química",
+          "frequencia": 3,
+          "porque": "Estados da matéria.",
+          "como": "Gases."
+        },
+        {
+          "nome": "Química do carbono",
+          "frequencia": 3,
+          "porque": "Orgânica.",
+          "como": "Hidrocarbonetos."
+        },
+        {
+          "nome": "Bioquímica",
+          "frequencia": 3,
+          "porque": "Metabolismo.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Minerais e rochas",
+          "frequencia": 2,
+          "porque": "Geologia.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Poluentes químicos",
+          "frequencia": 2,
+          "porque": "Meio ambiente.",
+          "como": "Contaminação."
+        },
+        {
+          "nome": "Reações redox",
+          "frequencia": 3,
+          "porque": "Oxirredução.",
+          "como": "Equilíbrio."
+        },
+        {
+          "nome": "Equilíbrio iônico",
+          "frequencia": 3,
+          "porque": "Soluções.",
+          "como": "pH."
+        },
+        {
+          "nome": "Cinética química",
+          "frequencia": 3,
+          "porque": "Velocidade.",
+          "como": "Ordem."
+        },
+        {
+          "nome": "Química nuclear",
+          "frequencia": 2,
+          "porque": "Isótopos.",
+          "como": "Fissão."
         }
       ]
     },
