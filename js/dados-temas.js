@@ -7137,6 +7137,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tempo e espaço.",
           "como": "Dilatação temporal."
+        },
+        {
+          "nome": "Lei de Coulomb",
+          "frequencia": 3,
+          "porque": "Força elétrica.",
+          "como": "Cargas puntiformes."
+        },
+        {
+          "nome": "Geradores elétricos",
+          "frequencia": 2,
+          "porque": "FEM.",
+          "como": "Equação do gerador."
+        },
+        {
+          "nome": "Receptores elétricos",
+          "frequencia": 2,
+          "porque": "Back EMF.",
+          "como": "Motor."
+        },
+        {
+          "nome": "Associação de resistores",
+          "frequencia": 3,
+          "porque": "Circuitos.",
+          "como": "Série e paralelo."
+        },
+        {
+          "nome": "Associação de capacitores",
+          "frequencia": 2,
+          "porque": "Capacitância.",
+          "como": "Série e paralelo."
+        },
+        {
+          "nome": "Força magnética sobre cargas",
+          "frequencia": 2,
+          "porque": "Lorentz.",
+          "como": "Regra da mão."
+        },
+        {
+          "nome": "Força magnética sobre fios",
+          "frequencia": 2,
+          "porque": "Corrente.",
+          "como": "F = BiL."
+        },
+        {
+          "nome": "Fluxo magnético",
+          "frequencia": 2,
+          "porque": "Indução.",
+          "como": "Weber."
+        },
+        {
+          "nome": "Calor latente",
+          "frequencia": 2,
+          "porque": "Mudança de fase.",
+          "como": "Fusão e vaporização."
+        },
+        {
+          "nome": "Máquinas térmicas",
+          "frequencia": 2,
+          "porque": "Rendimento.",
+          "como": "Ciclo de Carnot."
+        },
+        {
+          "nome": "Escalas termométricas",
+          "frequencia": 2,
+          "porque": "Conversão.",
+          "como": "Celsius, Kelvin."
+        },
+        {
+          "nome": "Movimento harmônico simples",
+          "frequencia": 2,
+          "porque": "Oscilações.",
+          "como": "MHS."
+        },
+        {
+          "nome": "Reflexão e refração da luz",
+          "frequencia": 3,
+          "porque": "Óptica.",
+          "como": "Índice de refração."
+        },
+        {
+          "nome": "Instrumentos ópticos",
+          "frequencia": 2,
+          "porque": "Aplicações.",
+          "como": "Microscópio."
         }
       ]
     },
