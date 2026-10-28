@@ -5423,6 +5423,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Base de muitos problemas de matemática aplicada.",
           "como": "Igualdade de razões; mantenha a unidade e verifique relação direta ou inversa."
+        },
+        {
+          "nome": "Funções",
+          "frequencia": 5,
+          "porque": "Domínio e imagem.",
+          "como": "Gráfico e análise."
+        },
+        {
+          "nome": "Trigonometria",
+          "frequencia": 4,
+          "porque": "Seno, cosseno e tangente.",
+          "como": "Círculo trigonométrico."
+        },
+        {
+          "nome": "Geometria analítica",
+          "frequencia": 4,
+          "porque": "Retas e circunferências.",
+          "como": "Equações."
+        },
+        {
+          "nome": "Geometria espacial",
+          "frequencia": 3,
+          "porque": "Volumes e áreas.",
+          "como": "Prismas e pirâmides."
+        },
+        {
+          "nome": "Matrizes",
+          "frequencia": 3,
+          "porque": "Operações.",
+          "como": "Determinantes."
+        },
+        {
+          "nome": "Vetores",
+          "frequencia": 3,
+          "porque": "Adição e produto escalar.",
+          "como": "Regra do paralelogramo."
+        },
+        {
+          "nome": "Progressões",
+          "frequencia": 4,
+          "porque": "PA e PG.",
+          "como": "Fórmulas de termo."
+        },
+        {
+          "nome": "Combinatória",
+          "frequencia": 4,
+          "porque": "Arranjos e combinações.",
+          "como": "Princípio fundamental."
+        },
+        {
+          "nome": "Probabilidade",
+          "frequencia": 4,
+          "porque": "Eventos aleatórios.",
+          "como": "Espaço amostral."
+        },
+        {
+          "nome": "Estatística",
+          "frequencia": 3,
+          "porque": "Média e desvio.",
+          "como": "Distribuições."
+        },
+        {
+          "nome": "Números complexos",
+          "frequencia": 2,
+          "porque": "Forma polar.",
+          "como": "Módulo."
+        },
+        {
+          "nome": "Logaritmos",
+          "frequencia": 4,
+          "porque": "Propriedades.",
+          "como": "Mudança de base."
+        },
+        {
+          "nome": "Equações exponenciais",
+          "frequencia": 3,
+          "porque": "Crescimento.",
+          "como": "Igualdade de bases."
+        },
+        {
+          "nome": "Inequações",
+          "frequencia": 3,
+          "porque": "Intervalos.",
+          "como": "Sinal."
         }
       ]
     },
