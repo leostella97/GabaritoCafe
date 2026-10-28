@@ -11218,6 +11218,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Diagnóstico.",
           "como": "Testes físicos."
+        },
+        {
+          "nome": "Atividade física e saúde mental",
+          "frequencia": 3,
+          "porque": "Bem-estar.",
+          "como": "Ansiedade e depressão."
+        },
+        {
+          "nome": "Atividade física e envelhecimento",
+          "frequencia": 2,
+          "porque": "Qualidade de vida.",
+          "como": "Terceira idade."
+        },
+        {
+          "nome": "Atividade física infantil",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Brincadeiras."
+        },
+        {
+          "nome": "Exercício na gestação",
+          "frequencia": 2,
+          "porque": "Saúde materna.",
+          "como": "Cuidados."
+        },
+        {
+          "nome": "Recuperação muscular",
+          "frequencia": 2,
+          "porque": "Descanso ativo.",
+          "como": "Alongamento."
+        },
+        {
+          "nome": "Prevenção de lesões",
+          "frequencia": 3,
+          "porque": "Segurança.",
+          "como": "Aquecimento."
+        },
+        {
+          "nome": "Primeiros socorros no esporte",
+          "frequencia": 2,
+          "porque": "Emergências.",
+          "como": "Atendimento."
+        },
+        {
+          "nome": "Regras dos esportes",
+          "frequencia": 3,
+          "porque": "Conhecimento técnico.",
+          "como": "Futebol, vôlei, basquete."
+        },
+        {
+          "nome": "Táticas e estratégias",
+          "frequencia": 2,
+          "porque": "Jogo.",
+          "como": "Posicionamento."
+        },
+        {
+          "nome": "História dos esportes",
+          "frequencia": 2,
+          "porque": "Origem.",
+          "como": "Evolução do futebol."
+        },
+        {
+          "nome": "Esporte educacional",
+          "frequencia": 2,
+          "porque": "Formação integral.",
+          "como": "Valores."
+        },
+        {
+          "nome": "Esporte de rendimento",
+          "frequencia": 2,
+          "porque": "Alto nível.",
+          "como": "Desempenho."
+        },
+        {
+          "nome": "Esporte de participação",
+          "frequencia": 2,
+          "porque": "Lazer.",
+          "como": "Recreação."
+        },
+        {
+          "nome": "Pesquisa em EF",
+          "frequencia": 1,
+          "porque": "Ciência.",
+          "como": "Produção."
         }
       ]
     },
