@@ -6754,6 +6754,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Análise.",
           "como": "Titulação."
+        },
+        {
+          "nome": "Modelos atômicos",
+          "frequencia": 4,
+          "porque": "Evolução histórica.",
+          "como": "Dalton a Bohr."
+        },
+        {
+          "nome": "Números quânticos",
+          "frequencia": 2,
+          "porque": "Distribuição.",
+          "como": "Diagrama de Linus Pauling."
+        },
+        {
+          "nome": "Geometria molecular",
+          "frequencia": 2,
+          "porque": "Forma espacial.",
+          "como": "Teoria VSEPR."
+        },
+        {
+          "nome": "Polaridade molecular",
+          "frequencia": 2,
+          "porque": "Solubilidade.",
+          "como": "Momento dipolar."
+        },
+        {
+          "nome": "Forças intermoleculares",
+          "frequencia": 2,
+          "porque": "Interações.",
+          "como": "Ponte de hidrogênio."
+        },
+        {
+          "nome": "Funções inorgânicas",
+          "frequencia": 4,
+          "porque": "Ácidos, bases, sais e óxidos.",
+          "como": "Nomenclatura."
+        },
+        {
+          "nome": "Estequiometria",
+          "frequencia": 5,
+          "porque": "Cálculos.",
+          "como": "Regra de três."
+        },
+        {
+          "nome": "Soluções e concentração",
+          "frequencia": 3,
+          "porque": "Preparo.",
+          "como": "Molaridade."
+        },
+        {
+          "nome": "pH e pOH",
+          "frequencia": 3,
+          "porque": "Acidez.",
+          "como": "Escala logarítmica."
+        },
+        {
+          "nome": "Hidrólise salina",
+          "frequencia": 2,
+          "porque": "Comportamento.",
+          "como": "pH do sal."
+        },
+        {
+          "nome": "Radioatividade",
+          "frequencia": 2,
+          "porque": "Decaimento.",
+          "como": "Meia-vida."
+        },
+        {
+          "nome": "Isomeria",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "Plana e espacial."
+        },
+        {
+          "nome": "Reações orgânicas",
+          "frequencia": 3,
+          "porque": "Transformações.",
+          "como": "Adição e substituição."
+        },
+        {
+          "nome": "Petróleo e combustíveis",
+          "frequencia": 2,
+          "porque": "Energia.",
+          "como": "Craqueamento."
         }
       ]
     },
