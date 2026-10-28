@@ -10745,6 +10745,66 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Pele.",
           "como": "Barreira."
+        },
+        {
+          "nome": "Fisiologia da coagulação",
+          "frequencia": 2,
+          "porque": "Hemostasia.",
+          "como": "Plaquetas."
+        },
+        {
+          "nome": "Fisiologia do potencial de ação",
+          "frequencia": 3,
+          "porque": "Neurônios.",
+          "como": "Bomba Na+/K+."
+        },
+        {
+          "nome": "Fisiologia sináptica",
+          "frequencia": 2,
+          "porque": "Transmissão.",
+          "como": "Neurotransmissores."
+        },
+        {
+          "nome": "Fisiologia do músculo liso",
+          "frequencia": 2,
+          "porque": "Involuntário.",
+          "como": "Peristaltismo."
+        },
+        {
+          "nome": "Fisiologia do músculo cardíaco",
+          "frequencia": 3,
+          "porque": "Excitabilidade.",
+          "como": "Marca-passo."
+        },
+        {
+          "nome": "Fisiologia do exercício muscular",
+          "frequencia": 2,
+          "porque": "Contração.",
+          "como": "Fibras tipo I e II."
+        },
+        {
+          "nome": "Fisiologia da micção",
+          "frequencia": 1,
+          "porque": "Bexiga.",
+          "como": "Reflexo."
+        },
+        {
+          "nome": "Fisiologia da deglutição",
+          "frequencia": 1,
+          "porque": "Engolir.",
+          "como": "Epiglote."
+        },
+        {
+          "nome": "Fisiologia da termorregulação",
+          "frequencia": 2,
+          "porque": "Temperatura.",
+          "como": "Sudorese."
+        },
+        {
+          "nome": "Fisiologia do reflexo",
+          "frequencia": 2,
+          "porque": "Arco reflexo.",
+          "como": "Medula espinhal."
         }
       ]
     },
