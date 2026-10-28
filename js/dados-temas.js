@@ -5324,6 +5324,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Questões morais.",
           "como": "Clonagem."
+        },
+        {
+          "nome": "Citologia avançada",
+          "frequencia": 3,
+          "porque": "Organelas.",
+          "como": "Funções."
+        },
+        {
+          "nome": "Histologia",
+          "frequencia": 2,
+          "porque": "Tecidos.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Fisiologia celular",
+          "frequencia": 3,
+          "porque": "Metabolismo.",
+          "como": "Transporte."
+        },
+        {
+          "nome": "Genética avançada",
+          "frequencia": 4,
+          "porque": "Ligação e mapeamento.",
+          "como": "Grupos de ligação."
+        },
+        {
+          "nome": "Evolução molecular",
+          "frequencia": 2,
+          "porque": "Mutações.",
+          "como": "Seleção."
+        },
+        {
+          "nome": "Ecologia de populações",
+          "frequencia": 3,
+          "porque": "Dinâmica.",
+          "como": "Crescimento."
+        },
+        {
+          "nome": "Biogeografia",
+          "frequencia": 2,
+          "porque": "Distribuição.",
+          "como": "Biomas."
+        },
+        {
+          "nome": "Zoologia comparada",
+          "frequencia": 2,
+          "porque": "Filogenia.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Botânica sistemática",
+          "frequencia": 2,
+          "porque": "Taxonomia vegetal.",
+          "como": "Gymnospermas."
+        },
+        {
+          "nome": "Bioquímica avançada",
+          "frequencia": 3,
+          "porque": "Metabolismo energético.",
+          "como": "Ciclo de Krebs."
+        },
+        {
+          "nome": "Biologia do desenvolvimento",
+          "frequencia": 2,
+          "porque": "Embriogênese.",
+          "como": "Diferenciação."
+        },
+        {
+          "nome": "Imunologia",
+          "frequencia": 3,
+          "porque": "Sistema imune.",
+          "como": "Linfócitos."
+        },
+        {
+          "nome": "Microbiologia avançada",
+          "frequencia": 2,
+          "porque": "Patógenos.",
+          "como": "Resistência."
+        },
+        {
+          "nome": "Biotecnologia e genética",
+          "frequencia": 3,
+          "porque": "Aplicações.",
+          "como": "Engenharia."
         }
       ]
     },
