@@ -5070,6 +5070,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Cabanagem.",
           "como": "Balaiada."
+        },
+        {
+          "nome": "Descobrimento do Brasil",
+          "frequencia": 3,
+          "porque": "1500.",
+          "como": "Cartas."
+        },
+        {
+          "nome": "Colônia",
+          "frequencia": 4,
+          "porque": "Economia açucareira.",
+          "como": "Capitanias."
+        },
+        {
+          "nome": "Independência",
+          "frequencia": 4,
+          "porque": "1822.",
+          "como": "D. Pedro I."
+        },
+        {
+          "nome": "Império",
+          "frequencia": 3,
+          "porque": "Monarquia.",
+          "como": "D. Pedro II."
+        },
+        {
+          "nome": "Proclamação da República",
+          "frequencia": 3,
+          "porque": "1889.",
+          "como": "Marechal."
+        },
+        {
+          "nome": "República Velha",
+          "frequencia": 3,
+          "porque": "Coronelismo.",
+          "como": "Caudilho."
+        },
+        {
+          "nome": "Era Vargas",
+          "frequencia": 4,
+          "porque": "Estado Novo.",
+          "como": "Trabalhismo."
+        },
+        {
+          "nome": "Ditadura militar",
+          "frequencia": 4,
+          "porque": "1964.",
+          "como": "Ato Institucional."
+        },
+        {
+          "nome": "Redemocratização",
+          "frequencia": 3,
+          "porque": "Constituição 1988.",
+          "como": "Diretas."
+        },
+        {
+          "nome": "História econômica",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Industrialização."
+        },
+        {
+          "nome": "História social",
+          "frequencia": 2,
+          "porque": "Sociedade.",
+          "como": "Classes."
+        },
+        {
+          "nome": "História cultural",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Mestiçagem."
+        },
+        {
+          "nome": "História das mulheres",
+          "frequencia": 2,
+          "porque": "Gênero.",
+          "como": "Movimentos."
+        },
+        {
+          "nome": "História afro-brasileira",
+          "frequencia": 3,
+          "porque": "Africanidade.",
+          "como": "Resistência."
         }
       ]
     },
