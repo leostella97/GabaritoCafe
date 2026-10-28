@@ -13562,6 +13562,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Brasil.",
           "como": "Superávit, câmbio, meta."
+        },
+        {
+          "nome": "Inflação de demanda",
+          "frequencia": 2,
+          "porque": "Demanda excessiva.",
+          "como": "Causas."
+        },
+        {
+          "nome": "Inflação de custos",
+          "frequencia": 2,
+          "porque": "Oferta.",
+          "como": "Choque de insumos."
+        },
+        {
+          "nome": "Inflação inercial",
+          "frequencia": 2,
+          "porque": "Indexação.",
+          "como": "Memória inflacionária."
+        },
+        {
+          "nome": "Hiperinflação",
+          "frequencia": 2,
+          "porque": "Casos.",
+          "como": "Brasil anos 90."
+        },
+        {
+          "nome": "Juros nominais e reais",
+          "frequencia": 2,
+          "porque": "Diferença.",
+          "como": "Fisher."
+        },
+        {
+          "nome": "Espread bancário",
+          "frequencia": 2,
+          "porque": "Custo do crédito.",
+          "como": "Captação x empréstimo."
+        },
+        {
+          "nome": "Open banking",
+          "frequencia": 2,
+          "porque": "Fintechs.",
+          "como": "Compartilhamento."
+        },
+        {
+          "nome": "PIX e meios de pagamento",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Inovação."
+        },
+        {
+          "nome": "Sustentabilidade financeira",
+          "frequencia": 2,
+          "porque": "ESG.",
+          "como": "Investimento verde."
+        },
+        {
+          "nome": "Desigualdade e crescimento",
+          "frequencia": 2,
+          "porque": "Relação.",
+          "como": "Kuznets."
+        },
+        {
+          "nome": "Economia informal",
+          "frequencia": 2,
+          "porque": "Trabalho.",
+          "como": "Sem registro."
+        },
+        {
+          "nome": "Desemprego estrutural",
+          "frequencia": 2,
+          "porque": "Mudanças.",
+          "como": "Tecnologia."
+        },
+        {
+          "nome": "Desemprego conjuntural",
+          "frequencia": 2,
+          "porque": "Crise.",
+          "como": "Ciclo."
+        },
+        {
+          "nome": "Renda per capita",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "PIB/população."
         }
       ]
     }
