@@ -11178,6 +11178,204 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Virtude.",
           "como": "Sêneca."
+        },
+        {
+          "nome": "Hedonismo",
+          "frequencia": 2,
+          "porque": "Prazer.",
+          "como": "Epicuro."
+        },
+        {
+          "nome": "Ética kantiana",
+          "frequencia": 3,
+          "porque": "Dever.",
+          "como": "Imperativo categórico."
+        },
+        {
+          "nome": "Ética das virtudes",
+          "frequencia": 2,
+          "porque": "Aristóteles.",
+          "como": "Caráter."
+        },
+        {
+          "nome": "Relativismo moral",
+          "frequencia": 2,
+          "porque": "Culturas.",
+          "como": "Ausência de universal."
+        },
+        {
+          "nome": "Justiça distributiva",
+          "frequencia": 2,
+          "porque": "Igualdade.",
+          "como": "Rawls."
+        },
+        {
+          "nome": "Contrato social",
+          "frequencia": 3,
+          "porque": "Origem do Estado.",
+          "como": "Hobbes, Locke, Rousseau."
+        },
+        {
+          "nome": "Soberania popular",
+          "frequencia": 2,
+          "porque": "Democracia.",
+          "como": "Vontade geral."
+        },
+        {
+          "nome": "Separação dos poderes",
+          "frequencia": 2,
+          "porque": "Montesquieu.",
+          "como": "Legislativo, Executivo, Judiciário."
+        },
+        {
+          "nome": "Direito natural",
+          "frequencia": 2,
+          "porque": "Inerente.",
+          "como": "Jusnaturalismo."
+        },
+        {
+          "nome": "Direito positivo",
+          "frequencia": 2,
+          "porque": "Escrito.",
+          "como": "Leis."
+        },
+        {
+          "nome": "Teoria crítica",
+          "frequencia": 2,
+          "porque": "Escola de Frankfurt.",
+          "como": "Adorno, Horkheimer."
+        },
+        {
+          "nome": "Dialética",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Tese, antítese, síntese."
+        },
+        {
+          "nome": "Lógica formal",
+          "frequencia": 2,
+          "porque": "Argumentos.",
+          "como": "Silogismo."
+        },
+        {
+          "nome": "Falácias lógicas",
+          "frequencia": 2,
+          "porque": "Erros.",
+          "como": "Ad hominem."
+        },
+        {
+          "nome": "Indução e dedução",
+          "frequencia": 2,
+          "porque": "Raciocínio.",
+          "como": "Métodos."
+        },
+        {
+          "nome": "Verdade e validade",
+          "frequencia": 2,
+          "porque": "Lógica.",
+          "como": "Correspondência."
+        },
+        {
+          "nome": "Sujeito e objeto",
+          "frequencia": 2,
+          "porque": "Conhecimento.",
+          "como": "Teoria do conhecimento."
+        },
+        {
+          "nome": "Realismo x idealismo",
+          "frequencia": 2,
+          "porque": "Ontologia.",
+          "como": "Realidade externa."
+        },
+        {
+          "nome": "Fenômeno e númeno",
+          "frequencia": 2,
+          "porque": "Kant.",
+          "como": "Coisa em si."
+        },
+        {
+          "nome": "Angústia existencial",
+          "frequencia": 2,
+          "porque": "Kierkegaard.",
+          "como": "Condição humana."
+        },
+        {
+          "nome": "Absurdismo",
+          "frequencia": 2,
+          "porque": "Sentido.",
+          "como": "Camus."
+        },
+        {
+          "nome": "Ser e tempo",
+          "frequencia": 2,
+          "porque": "Heidegger.",
+          "como": "Dasein."
+        },
+        {
+          "nome": "Vontade de potência",
+          "frequencia": 2,
+          "porque": "Nietzsche.",
+          "como": "Além do homem."
+        },
+        {
+          "nome": "Morte de Deus",
+          "frequencia": 2,
+          "porque": "Nietzsche.",
+          "como": "Secularização."
+        },
+        {
+          "nome": "Corpo e alma",
+          "frequencia": 2,
+          "porque": "Dualismo.",
+          "como": "Platão x Aristóteles."
+        },
+        {
+          "nome": "Livre arbítrio",
+          "frequencia": 2,
+          "porque": "Escolha.",
+          "como": "Responsabilidade."
+        },
+        {
+          "nome": "Filosofia da mente",
+          "frequencia": 2,
+          "porque": "Consciência.",
+          "como": "Inteligência artificial."
+        },
+        {
+          "nome": "Felicidade",
+          "frequencia": 2,
+          "porque": "Eudaimonia.",
+          "como": "Aristóteles."
+        },
+        {
+          "nome": "Amor e amizade",
+          "frequencia": 1,
+          "porque": "Afetos.",
+          "como": "Filosofia."
+        },
+        {
+          "nome": "Sofrimento e resiliência",
+          "frequencia": 1,
+          "porque": "Existência.",
+          "como": "Superação."
+        },
+        {
+          "nome": "Tolerância",
+          "frequencia": 2,
+          "porque": "Conviver.",
+          "como": "Locke e Voltaire."
+        },
+        {
+          "nome": "Filosofia e educação",
+          "frequencia": 2,
+          "porque": "Formação.",
+          "como": "Paulo Freire."
+        },
+        {
+          "nome": "Filosofia e democracia",
+          "frequencia": 2,
+          "porque": "Participação.",
+          "como": "Platão x democracia."
         }
       ]
     },
