@@ -4691,6 +4691,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Fechamento coerente.",
           "como": "Retomar tese."
+        },
+        {
+          "nome": "Introdução",
+          "frequencia": 5,
+          "porque": "Primeira impressão.",
+          "como": "Contextualização."
+        },
+        {
+          "nome": "Desenvolvimento",
+          "frequencia": 5,
+          "porque": "Argumentação.",
+          "como": "Exemplos."
+        },
+        {
+          "nome": "Coesão textual",
+          "frequencia": 4,
+          "porque": "Ligação de ideias.",
+          "como": "Conectivos."
+        },
+        {
+          "nome": "Coerência",
+          "frequencia": 4,
+          "porque": "Sentido lógico.",
+          "como": "Ideias conectadas."
+        },
+        {
+          "nome": "Norma culta",
+          "frequencia": 4,
+          "porque": "Correção.",
+          "como": "Gramática."
+        },
+        {
+          "nome": "Intertextualidade",
+          "frequencia": 3,
+          "porque": "Referências.",
+          "como": "Citações."
+        },
+        {
+          "nome": "Proposta de intervenção",
+          "frequencia": 4,
+          "porque": "Solução.",
+          "como": "Agente, ação, meio."
+        },
+        {
+          "nome": "Tema complexo",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "Desconstrução."
+        },
+        {
+          "nome": "Linguagem adequada",
+          "frequencia": 4,
+          "porque": "Registro formal.",
+          "como": "Evitar coloquialismos."
+        },
+        {
+          "nome": "Planejamento",
+          "frequencia": 3,
+          "porque": "Esqueleto.",
+          "como": "Rascunho."
+        },
+        {
+          "nome": "Revisão",
+          "frequencia": 3,
+          "porque": "Correção.",
+          "como": "Releitura."
+        },
+        {
+          "nome": "Criatividade",
+          "frequencia": 2,
+          "porque": "Estilo.",
+          "como": "Originalidade."
+        },
+        {
+          "nome": "Tese",
+          "frequencia": 5,
+          "porque": "Posicionamento.",
+          "como": "Defesa clara."
+        },
+        {
+          "nome": "Argumentos",
+          "frequencia": 5,
+          "porque": "Sustentação.",
+          "como": "Dados e exemplos."
         }
       ]
     },
