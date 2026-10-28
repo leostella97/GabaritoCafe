@@ -5550,6 +5550,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Drummond e João Cabral são cobrança de elite (Fuvest, Unicamp).",
           "como": "2ª geração = lírica e engajada (Drummond); 3ª = experimental e social (João Cabral). Um verso marcante de cada autor."
+        },
+        {
+          "nome": "Romantismo brasileiro",
+          "frequencia": 5,
+          "porque": "Gonçalves Dias e Álvares de Azevedo.",
+          "como": "Indianismo e ultrarromantismo."
+        },
+        {
+          "nome": "Realismo",
+          "frequencia": 4,
+          "porque": "Machado de Assis.",
+          "como": "Dom Casmurro."
+        },
+        {
+          "nome": "Modernismo",
+          "frequencia": 5,
+          "porque": "Manifesto de 1922.",
+          "como": "Antropofagia."
+        },
+        {
+          "nome": "Conto e crônica",
+          "frequencia": 3,
+          "porque": "Lima Barreto.",
+          "como": "Narrativa curta."
+        },
+        {
+          "nome": "Poesia concreta",
+          "frequencia": 2,
+          "porque": "Concretismo.",
+          "como": "Forma e sentido."
+        },
+        {
+          "nome": "Literatura regionalista",
+          "frequencia": 3,
+          "porque": "Nordeste.",
+          "como": "Ceará e sertão."
+        },
+        {
+          "nome": "Literatura contemporânea",
+          "frequencia": 3,
+          "porque": "Autoria atual.",
+          "como": "Afrofuturismo."
+        },
+        {
+          "nome": "Técnicas narrativas",
+          "frequencia": 3,
+          "porque": "Foco narrativo.",
+          "como": "Ponto de vista."
+        },
+        {
+          "nome": "Figura de linguagem",
+          "frequencia": 4,
+          "porque": "Metáfora e símile.",
+          "como": "Análise textual."
+        },
+        {
+          "nome": "Gêneros literários",
+          "frequencia": 4,
+          "porque": "Épico, lírico, dramático.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Literatura de cordel",
+          "frequencia": 2,
+          "porque": "Tradição popular.",
+          "como": "Verso e folheto."
+        },
+        {
+          "nome": "Literatura infantojuvenil",
+          "frequencia": 2,
+          "porque": "Educação literária.",
+          "como": "Autores clássicos."
+        },
+        {
+          "nome": "Literatura feminina",
+          "frequencia": 2,
+          "porque": "Vozes.",
+          "como": "Clara Camarão."
+        },
+        {
+          "nome": "Crítica literária",
+          "frequencia": 2,
+          "porque": "Análise de obras.",
+          "como": "Contextualização."
         }
       ]
     },
