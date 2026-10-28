@@ -8628,6 +8628,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Crítica.",
           "como": "Foucault."
+        },
+        {
+          "nome": "Ética",
+          "frequencia": 3,
+          "porque": "Moral.",
+          "como": "Kant."
+        },
+        {
+          "nome": "Política",
+          "frequencia": 3,
+          "porque": "Poder.",
+          "como": "Maquiavel."
+        },
+        {
+          "nome": "Estética",
+          "frequencia": 2,
+          "porque": "Arte.",
+          "como": "Belo."
+        },
+        {
+          "nome": "Epistemologia",
+          "frequencia": 2,
+          "porque": "Conhecimento.",
+          "como": "Ciência."
+        },
+        {
+          "nome": "Metafísica",
+          "frequencia": 2,
+          "porque": "Ser.",
+          "como": "Realidade."
+        },
+        {
+          "nome": "Lógica",
+          "frequencia": 2,
+          "porque": "Raciocínio.",
+          "como": "Argumentos."
+        },
+        {
+          "nome": "Fenomenologia",
+          "frequencia": 2,
+          "porque": "Experiência.",
+          "como": "Husserl."
+        },
+        {
+          "nome": "Existencialismo",
+          "frequencia": 2,
+          "porque": "Liberdade.",
+          "como": "Sartre."
+        },
+        {
+          "nome": "Nihilismo",
+          "frequencia": 1,
+          "porque": "Sentido.",
+          "como": "Nada."
+        },
+        {
+          "nome": "Utopia",
+          "frequencia": 1,
+          "porque": "Sociedade ideal.",
+          "como": "Projetos."
+        },
+        {
+          "nome": "Racionalismo",
+          "frequencia": 2,
+          "porque": "Razão.",
+          "como": "Descartes."
+        },
+        {
+          "nome": "Empirismo",
+          "frequencia": 2,
+          "porque": "Experiência.",
+          "como": "Locke."
+        },
+        {
+          "nome": "Ceticismo",
+          "frequencia": 1,
+          "porque": "Dúvida.",
+          "como": "Pyrrho."
+        },
+        {
+          "nome": "Hermêutica",
+          "frequencia": 1,
+          "porque": "Interpretação.",
+          "como": "Texto."
         }
       ]
     },
