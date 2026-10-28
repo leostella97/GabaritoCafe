@@ -6554,6 +6554,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Interações.",
           "como": "Harmônicas e desarmônicas."
+        },
+        {
+          "nome": "Sucessão ecológica",
+          "frequencia": 2,
+          "porque": "Mudanças.",
+          "como": "Primária e secundária."
+        },
+        {
+          "nome": "Teorias da evolução",
+          "frequencia": 3,
+          "porque": "Lamarck e Darwin.",
+          "como": "Seleção natural."
+        },
+        {
+          "nome": "Especiação",
+          "frequencia": 2,
+          "porque": "Novas espécies.",
+          "como": "Isolamento."
+        },
+        {
+          "nome": "Procariontes e eucariontes",
+          "frequencia": 3,
+          "porque": "Células.",
+          "como": "Núcleo."
+        },
+        {
+          "nome": "Protozoários",
+          "frequencia": 2,
+          "porque": "Doenças.",
+          "como": "Malária."
+        },
+        {
+          "nome": "Fungos",
+          "frequencia": 2,
+          "porque": "Decomposição.",
+          "como": "Cogumelos."
+        },
+        {
+          "nome": "Plantas: briófitas e pteridófitas",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Características."
+        },
+        {
+          "nome": "Plantas: gimnospermas e angiospermas",
+          "frequencia": 2,
+          "porque": "Sementes e flores.",
+          "como": "Reprodução."
+        },
+        {
+          "nome": "Invertebrados: poríferos e cnidários",
+          "frequencia": 2,
+          "porque": "Simples.",
+          "como": "Fisiologia."
+        },
+        {
+          "nome": "Invertebrados: platelmintos e nematelmintos",
+          "frequencia": 2,
+          "porque": "Vermes.",
+          "como": "Doenças."
+        },
+        {
+          "nome": "Invertebrados: moluscos e anelídeos",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Características."
+        },
+        {
+          "nome": "Invertebrados: artrópodes",
+          "frequencia": 3,
+          "porque": "Maior filo.",
+          "como": "Insetos."
+        },
+        {
+          "nome": "Invertebrados: equinodermos",
+          "frequencia": 2,
+          "porque": "Marinhos.",
+          "como": "Estrela-do-mar."
+        },
+        {
+          "nome": "Vertebrados: peixes e anfíbios",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Respiração."
         }
       ]
     },
