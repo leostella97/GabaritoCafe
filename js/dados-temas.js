@@ -9206,6 +9206,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Cidade.",
           "como": "Infraestrutura."
+        },
+        {
+          "nome": "Desenvolvimento sustentável",
+          "frequencia": 2,
+          "porque": "Crescimento verde.",
+          "como": "Recursos."
+        },
+        {
+          "nome": "Economia da inovação",
+          "frequencia": 2,
+          "porque": "Tecnologia.",
+          "como": "P&D."
+        },
+        {
+          "nome": "Economia da educação",
+          "frequencia": 1,
+          "porque": "Capital humano.",
+          "como": "Investimento."
+        },
+        {
+          "nome": "Economia da saúde",
+          "frequencia": 2,
+          "porque": "Sistemas.",
+          "como": "SUS."
+        },
+        {
+          "nome": "Economia comportamental",
+          "frequencia": 2,
+          "porque": "Decisões.",
+          "como": "Bias."
+        },
+        {
+          "nome": "Economia experimental",
+          "frequencia": 1,
+          "porque": "Testes.",
+          "como": "Jogo."
+        },
+        {
+          "nome": "Economia ecológica",
+          "frequencia": 1,
+          "porque": "Meio ambiente.",
+          "como": "Ecosistema."
+        },
+        {
+          "nome": "Comércio exterior",
+          "frequencia": 2,
+          "porque": "Exportações.",
+          "como": "Tarifas."
+        },
+        {
+          "nome": "Política monetária",
+          "frequencia": 3,
+          "porque": "Banco central.",
+          "como": "Selic."
+        },
+        {
+          "nome": "Mercado de trabalho",
+          "frequencia": 2,
+          "porque": "Emprego.",
+          "como": "Taxas."
+        },
+        {
+          "nome": "Inflação e índices",
+          "frequencia": 2,
+          "porque": "Preços.",
+          "como": "IPCA."
+        },
+        {
+          "nome": "Déficit e dívida",
+          "frequencia": 2,
+          "porque": "Finanças públicas.",
+          "como": "Sustentabilidade."
+        },
+        {
+          "nome": "Crescimento econômico",
+          "frequencia": 2,
+          "porque": "PIB per capita.",
+          "como": "Fatores."
+        },
+        {
+          "nome": "Economia regional",
+          "frequencia": 1,
+          "porque": "Desigualdades.",
+          "como": "Convergência."
         }
       ]
     }
