@@ -8318,6 +8318,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Redação.",
           "como": "Texto."
+        },
+        {
+          "nome": "Interpretação de textos",
+          "frequencia": 5,
+          "porque": "Compreensão.",
+          "como": "Leitura atenta."
+        },
+        {
+          "nome": "Verbos regulares e irregulares",
+          "frequencia": 4,
+          "porque": "Conjugação.",
+          "como": "Presente e pretérito."
+        },
+        {
+          "nome": "Modo subjuntivo",
+          "frequencia": 2,
+          "porque": "Hipóteses.",
+          "como": "Que yo hable."
+        },
+        {
+          "nome": "Imperativo",
+          "frequencia": 2,
+          "porque": "Comandos.",
+          "como": "Formal e informal."
+        },
+        {
+          "nome": "Gênero e número",
+          "frequencia": 3,
+          "porque": "Concordância.",
+          "como": "Artigos e adjetivos."
+        },
+        {
+          "nome": "Apócope",
+          "frequencia": 2,
+          "porque": "Formas reduzidas.",
+          "como": "Buen/bueno."
+        },
+        {
+          "nome": "Pronomes complemento",
+          "frequencia": 3,
+          "porque": "OD e OI.",
+          "como": "Lo/la/le."
+        },
+        {
+          "nome": "Acentuação",
+          "frequencia": 3,
+          "porque": "Regras próprias.",
+          "como": "Agudas, graves, esdrújulas."
+        },
+        {
+          "nome": "Marcadores temporais",
+          "frequencia": 2,
+          "porque": "Sequência.",
+          "como": "Ayer, mañana."
+        },
+        {
+          "nome": "Diferenças regionais",
+          "frequencia": 2,
+          "porque": "Variação.",
+          "como": "Esp x América Latina."
+        },
+        {
+          "nome": "Voseo",
+          "frequencia": 2,
+          "porque": "Argentina e Uruguai.",
+          "como": "Vos tenés."
+        },
+        {
+          "nome": "Gêneros textuais",
+          "frequencia": 2,
+          "porque": "Formatos.",
+          "como": "Anúncios, notícias."
+        },
+        {
+          "nome": "Vocabulário temático",
+          "frequencia": 3,
+          "porque": "Temas variados.",
+          "como": "Tecnologia, saúde."
+        },
+        {
+          "nome": "Tempos do passado",
+          "frequencia": 4,
+          "porque": "Pretéritos.",
+          "como": "Indefinido x imperfecto."
         }
       ]
     },
