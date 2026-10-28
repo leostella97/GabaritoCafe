@@ -6011,6 +6011,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Intervalos.",
           "como": "Sinal."
+        },
+        {
+          "nome": "Matrizes",
+          "frequencia": 3,
+          "porque": "Operações.",
+          "como": "Multiplicação."
+        },
+        {
+          "nome": "Determinantes",
+          "frequencia": 3,
+          "porque": "Sistemas.",
+          "como": "Regra de Sarrus."
+        },
+        {
+          "nome": "Sistemas lineares",
+          "frequencia": 4,
+          "porque": "Resolução.",
+          "como": "Escalonamento."
+        },
+        {
+          "nome": "Geometria analítica",
+          "frequencia": 4,
+          "porque": "Retas e cônicas.",
+          "como": "Equações."
+        },
+        {
+          "nome": "Trigonometria",
+          "frequencia": 4,
+          "porque": "Seno e cosseno.",
+          "como": "Círculo."
+        },
+        {
+          "nome": "Funções",
+          "frequencia": 4,
+          "porque": "Domínio e imagem.",
+          "como": "Gráfico."
+        },
+        {
+          "nome": "Limites",
+          "frequencia": 3,
+          "porque": "Cálculo.",
+          "como": "Tendência."
+        },
+        {
+          "nome": "Derivadas",
+          "frequencia": 3,
+          "porque": "Taxa de variação.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Integrais",
+          "frequencia": 2,
+          "porque": "Área.",
+          "como": "Primitiva."
+        },
+        {
+          "nome": "Probabilidade",
+          "frequencia": 3,
+          "porque": "Eventos.",
+          "como": "Espaço amostral."
+        },
+        {
+          "nome": "Estatística",
+          "frequencia": 3,
+          "porque": "Dados.",
+          "como": "Média e desvio."
+        },
+        {
+          "nome": "Sequências",
+          "frequencia": 3,
+          "porque": "PA e PG.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Números complexos",
+          "frequencia": 2,
+          "porque": "Forma algébrica.",
+          "como": "Conjugado."
+        },
+        {
+          "nome": "Geometria espacial",
+          "frequencia": 3,
+          "porque": "Volumes.",
+          "como": "Prismas e pirâmides."
         }
       ]
     },
