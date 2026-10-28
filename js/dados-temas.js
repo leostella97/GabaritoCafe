@@ -9218,6 +9218,258 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Pretéritos.",
           "como": "Indefinido x imperfecto."
+        },
+        {
+          "nome": "Pretérito perfecto compuesto",
+          "frequencia": 2,
+          "porque": "Passado recente.",
+          "como": "He hablado."
+        },
+        {
+          "nome": "Pretérito pluscuamperfecto",
+          "frequencia": 2,
+          "porque": "Anterioridade.",
+          "como": "Había vivido."
+        },
+        {
+          "nome": "Futuro simple",
+          "frequencia": 2,
+          "porque": "Previsão.",
+          "como": "Hablaré."
+        },
+        {
+          "nome": "Futuro compuesto",
+          "frequencia": 1,
+          "porque": "Concluído no futuro.",
+          "como": "Habré terminado."
+        },
+        {
+          "nome": "Condicional simple",
+          "frequencia": 2,
+          "porque": "Hipótese.",
+          "como": "Me gustaría."
+        },
+        {
+          "nome": "Participio",
+          "frequencia": 2,
+          "porque": "Tempos compostos.",
+          "como": "Hablado, comido."
+        },
+        {
+          "nome": "Gerundio",
+          "frequencia": 2,
+          "porque": "Ação contínua.",
+          "como": "Estoy hablando."
+        },
+        {
+          "nome": "Artículos definidos e indefinidos",
+          "frequencia": 3,
+          "porque": "Gênero e número.",
+          "como": "El, la, un, una."
+        },
+        {
+          "nome": "Adjetivos posesivos",
+          "frequencia": 2,
+          "porque": "Posse.",
+          "como": "Mi, tu, su."
+        },
+        {
+          "nome": "Pronombres personales",
+          "frequencia": 3,
+          "porque": "Sujeito.",
+          "como": "Yo, tú, él."
+        },
+        {
+          "nome": "Pronombres de objeto directo",
+          "frequencia": 2,
+          "porque": "Substituição.",
+          "como": "Lo, la, los, las."
+        },
+        {
+          "nome": "Pronombres de objeto indirecto",
+          "frequencia": 2,
+          "porque": "Complemento.",
+          "como": "Le, les."
+        },
+        {
+          "nome": "Verbos reflexivos",
+          "frequencia": 2,
+          "porque": "Ação sobre si.",
+          "como": "Lavarse, vestirse."
+        },
+        {
+          "nome": "Verbos de cambio",
+          "frequencia": 2,
+          "porque": "Transformação.",
+          "como": "Hacerse, volverse."
+        },
+        {
+          "nome": "Perífrasis verbales",
+          "frequencia": 2,
+          "porque": "Locuções.",
+          "como": "Ir a + infinitivo."
+        },
+        {
+          "nome": "Conectores discursivos",
+          "frequencia": 3,
+          "porque": "Coesão.",
+          "como": "Sin embargo, además."
+        },
+        {
+          "nome": "Oraciones condicionales",
+          "frequencia": 2,
+          "porque": "Hipótese.",
+          "como": "Si + indicativo/subjuntivo."
+        },
+        {
+          "nome": "Oraciones temporales",
+          "frequencia": 2,
+          "porque": "Sequência.",
+          "como": "Cuando, mientras."
+        },
+        {
+          "nome": "Oraciones de relativo",
+          "frequencia": 2,
+          "porque": "Descrição.",
+          "como": "Que, quien, cuyo."
+        },
+        {
+          "nome": "Voz pasiva",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "Ser + participio."
+        },
+        {
+          "nome": "Estilo indirecto",
+          "frequencia": 2,
+          "porque": "Discurso relatado.",
+          "como": "Dijo que."
+        },
+        {
+          "nome": "Comparativos y superlativos",
+          "frequencia": 2,
+          "porque": "Graus.",
+          "como": "Más... que."
+        },
+        {
+          "nome": "Diminutivos y aumentativos",
+          "frequencia": 2,
+          "porque": "Afetividade.",
+          "como": "-ito, -ón."
+        },
+        {
+          "nome": "Palabras homófonas",
+          "frequencia": 1,
+          "porque": "Confusão.",
+          "como": "Tubo/tuvo."
+        },
+        {
+          "nome": "Siglas y acrónimos",
+          "frequencia": 1,
+          "porque": "Abreviações.",
+          "como": "ONU, EUA."
+        },
+        {
+          "nome": "Gentilicios",
+          "frequencia": 2,
+          "porque": "Nacionalidades.",
+          "como": "Brasileño, español."
+        },
+        {
+          "nome": "Familia léxica",
+          "frequencia": 2,
+          "porque": "Derivação.",
+          "como": "Flor, florero, florista."
+        },
+        {
+          "nome": "Campo semántico",
+          "frequencia": 2,
+          "porque": "Vocabulário agrupado.",
+          "como": "Alimentos, roupa."
+        },
+        {
+          "nome": "Tilde diacrítica",
+          "frequencia": 2,
+          "porque": "Diferenciação.",
+          "como": "Tú/tu, él/el."
+        },
+        {
+          "nome": "Interjeições",
+          "frequencia": 1,
+          "porque": "Oralidade.",
+          "como": "¡Ojalá!"
+        },
+        {
+          "nome": "Comprensión lectora avanzada",
+          "frequencia": 3,
+          "porque": "ENEM.",
+          "como": "Inferencia y opinión."
+        },
+        {
+          "nome": "Textos publicitarios",
+          "frequencia": 2,
+          "porque": "Persuasão.",
+          "como": "Slogan."
+        },
+        {
+          "nome": "Textos periodísticos",
+          "frequencia": 2,
+          "porque": "Informação.",
+          "como": "Nota, reportaje."
+        },
+        {
+          "nome": "Literatura hispánica breve",
+          "frequencia": 2,
+          "porque": "Fragmentos.",
+          "como": "Cervantes."
+        },
+        {
+          "nome": "Fiestas y tradiciones",
+          "frequencia": 2,
+          "porque": "Cultura.",
+          "como": "Día de Muertos."
+        },
+        {
+          "nome": "Música hispana",
+          "frequencia": 2,
+          "porque": "Expressão.",
+          "como": "Reggaetón, salsa."
+        },
+        {
+          "nome": "Cine hispano",
+          "frequencia": 1,
+          "porque": "Audiovisual.",
+          "como": "Almodóvar."
+        },
+        {
+          "nome": "Variación lingüística",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Dialetos."
+        },
+        {
+          "nome": "Uso do dicionário",
+          "frequencia": 1,
+          "porque": "Autonomia.",
+          "como": "Contexto."
+        },
+        {
+          "nome": "Estrategias de lectura",
+          "frequencia": 2,
+          "porque": "Eficiência.",
+          "como": "Predicción."
+        },
+        {
+          "nome": "Coherencia textual",
+          "frequencia": 2,
+          "porque": "Sentido global.",
+          "como": "Progressão."
+        },
+        {
+          "nome": "Cohesión textual",
+          "frequencia": 2,
+          "porque": "Conexão.",
+          "como": "Referencia y repetición."
         }
       ]
     },
