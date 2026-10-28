@@ -1046,6 +1046,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Educação, saúde e assistência.",
           "como": "Art.193 a 232 e políticas públicas."
+        },
+        {
+          "nome": "Emendas constitucionais",
+          "frequencia": 4,
+          "porque": "Alteração da CF.",
+          "como": "Tipos e quorum."
+        },
+        {
+          "nome": "Imunidades",
+          "frequencia": 3,
+          "porque": "Parlamentares e diplomatas.",
+          "como": "Art.53 e 53-A."
+        },
+        {
+          "nome": "Direitos políticos",
+          "frequencia": 4,
+          "porque": "Sufragio e elegibilidade.",
+          "como": "Condições e inelegibilidade."
+        },
+        {
+          "nome": "Ações constitucionais",
+          "frequencia": 4,
+          "porque": "Mandado de segurança e habeas corpus.",
+          "como": "Cabimento."
+        },
+        {
+          "nome": "Reforma administrativa",
+          "frequencia": 2,
+          "porque": "EC 19/98.",
+          "como": "Princípios da gestão."
+        },
+        {
+          "nome": "Federalismo",
+          "frequencia": 4,
+          "porque": "Distribuição de competências.",
+          "como": "União, estados e municípios."
+        },
+        {
+          "nome": "Revitalização do SUS",
+          "frequencia": 2,
+          "porque": "Saúde como direito.",
+          "como": "Art.196 e 200."
+        },
+        {
+          "nome": "Educação constitucional",
+          "frequencia": 2,
+          "porque": "Art.205 a 214.",
+          "como": "Gratuidade e obrigatoriedade."
+        },
+        {
+          "nome": "Intervenção em estados",
+          "frequencia": 3,
+          "porque": "Art.34 CF.",
+          "como": "Hipóteses."
+        },
+        {
+          "nome": "Súmula vinculante",
+          "frequencia": 3,
+          "porque": "Efeito vinculante.",
+          "como": "Art.103-A."
+        },
+        {
+          "nome": "Ações de controle concentrado",
+          "frequencia": 3,
+          "porque": "ADI e ADC.",
+          "como": "Objetos e efeitos."
+        },
+        {
+          "nome": "Tribunal de Contas",
+          "frequencia": 3,
+          "porque": "Fiscalização financeira.",
+          "como": "Competências."
+        },
+        {
+          "nome": "Plano diretor",
+          "frequencia": 2,
+          "porque": "Política urbana.",
+          "como": "Art.182 e 183."
+        },
+        {
+          "nome": "Estado de defesa e sítio",
+          "frequencia": 3,
+          "porque": "Medidas excepcionais.",
+          "como": "Art.136 e 137."
+        },
+        {
+          "nome": "Cidadania e nacionalidade",
+          "frequencia": 3,
+          "porque": "Art.12 e 14.",
+          "como": "Aquisição e perda."
         }
       ]
     },
