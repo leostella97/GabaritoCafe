@@ -1263,6 +1263,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Concessões, PPPs e terceirizações.",
           "como": "Risco e continuidade do serviço."
+        },
+        {
+          "nome": "Desvio de poder",
+          "frequencia": 3,
+          "porque": "Abuso de poder.",
+          "como": "Finalidade ilícita."
+        },
+        {
+          "nome": "Responsabilidade objetiva",
+          "frequencia": 3,
+          "porque": "Teoria do risco.",
+          "como": "Dano e nexo causal."
+        },
+        {
+          "nome": "Licitações sustentáveis",
+          "frequencia": 2,
+          "porque": "Critérios ambientais.",
+          "como": "Lei 14.133."
+        },
+        {
+          "nome": "Pregão eletrônico",
+          "frequencia": 3,
+          "porque": "Modalidade comum.",
+          "como": "Lances e disputa."
+        },
+        {
+          "nome": "Dispensa de licitação",
+          "frequencia": 4,
+          "porque": "Hipóteses legais.",
+          "como": "Art.24 da 8.666."
+        },
+        {
+          "nome": "Contrato de gestão",
+          "frequencia": 2,
+          "porque": "Organizações sociais.",
+          "como": "Resultados e avaliação."
+        },
+        {
+          "nome": "Serviço público essencial",
+          "frequencia": 3,
+          "porque": "Continuidade.",
+          "como": "Interrupção vedada."
+        },
+        {
+          "nome": "Ato enunciativo",
+          "frequencia": 2,
+          "porque": "Certidões e atestados.",
+          "como": "Sem efeitos vinculantes."
+        },
+        {
+          "nome": "Ato normativo",
+          "frequencia": 2,
+          "porque": "Regulamentos.",
+          "como": "Poder regulamentar."
+        },
+        {
+          "nome": "Mandado de segurança",
+          "frequencia": 3,
+          "porque": "Proteção a direitos líquidos.",
+          "como": "Impetração."
+        },
+        {
+          "nome": "Controle externo",
+          "frequencia": 3,
+          "porque": "Tribunal de Contas.",
+          "como": "Prestação de contas."
+        },
+        {
+          "nome": "Responsabilidade civil",
+          "frequencia": 3,
+          "porque": "Indenização por dano.",
+          "como": "Ato omissivo ou comissivo."
+        },
+        {
+          "nome": "Parcerias público-privadas",
+          "frequencia": 2,
+          "porque": "PPP e eficiência.",
+          "como": "Risco compartilhado."
+        },
+        {
+          "nome": "Organizações da sociedade civil",
+          "frequencia": 2,
+          "porque": "OSCIP e termo de parceria.",
+          "como": "Governança."
         }
       ]
     },
