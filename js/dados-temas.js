@@ -4943,6 +4943,24 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Competência 5 do ENEM.",
           "como": "Elemento concreto."
+        },
+        {
+          "nome": "Gestão do tempo de escrita",
+          "frequencia": 4,
+          "porque": "Prova corrida.",
+          "como": "Rascunho e transcrição."
+        },
+        {
+          "nome": "Leitura dos textos motivadores",
+          "frequencia": 4,
+          "porque": "Base obrigatória.",
+          "como": "Não copiar, inspirar."
+        },
+        {
+          "nome": "Título criativo",
+          "frequencia": 3,
+          "porque": "Primeira impressão.",
+          "como": "Síntese do tema."
         }
       ]
     },
