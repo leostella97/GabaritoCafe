@@ -6040,6 +6040,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "A história dos jogos cai contextualizada.",
           "como": "Olimpíada moderna desde 1896, ciclo de 4 anos; o Brasil sediou 2016. Ligue esporte + sociedade + política."
+        },
+        {
+          "nome": "Anatomia básica",
+          "frequencia": 3,
+          "porque": "Músculos e ossos.",
+          "como": "Aparelho locomotor."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 4,
+          "porque": "Adaptações.",
+          "como": "Capacidade aeróbica."
+        },
+        {
+          "nome": "Treinamento esportivo",
+          "frequencia": 4,
+          "porque": "Periodização.",
+          "como": "Volume e intensidade."
+        },
+        {
+          "nome": "Nutrição esportiva",
+          "frequencia": 3,
+          "porque": "Dieta e performance.",
+          "como": "Macronutrientes."
+        },
+        {
+          "nome": "Psicologia do esporte",
+          "frequencia": 3,
+          "porque": "Motivação.",
+          "como": "Concentração."
+        },
+        {
+          "nome": "Sociologia do esporte",
+          "frequencia": 2,
+          "porque": "Esporte e sociedade.",
+          "como": "Identidade."
+        },
+        {
+          "nome": "Esportes coletivos",
+          "frequencia": 3,
+          "porque": "Regras.",
+          "como": "Futebol e basquete."
+        },
+        {
+          "nome": "Esportes individuais",
+          "frequencia": 3,
+          "porque": "Atletismo.",
+          "como": "Provas."
+        },
+        {
+          "nome": "Lazer e recreação",
+          "frequencia": 2,
+          "porque": "Atividades.",
+          "como": "Jogos."
+        },
+        {
+          "nome": "Educação física escolar",
+          "frequencia": 4,
+          "porque": "Currículo.",
+          "como": "BNCC."
+        },
+        {
+          "nome": "Saúde e qualidade de vida",
+          "frequencia": 4,
+          "porque": "Prevenção.",
+          "como": "Atividade física."
+        },
+        {
+          "nome": "Primeiros socorros",
+          "frequencia": 2,
+          "porque": "Emergências.",
+          "como": "Atendimento básico."
+        },
+        {
+          "nome": "Biotecnologia esportiva",
+          "frequencia": 2,
+          "porque": "Tecnologia.",
+          "como": "Doping."
+        },
+        {
+          "nome": "Gestão esportiva",
+          "frequencia": 2,
+          "porque": "Administração.",
+          "como": "Clubes."
         }
       ]
     },
