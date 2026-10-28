@@ -6250,6 +6250,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Isótopos.",
           "como": "Fissão."
+        },
+        {
+          "nome": "Ligações químicas",
+          "frequencia": 4,
+          "porque": "Formação.",
+          "como": "Tipos."
+        },
+        {
+          "nome": "Tabela periódica",
+          "frequencia": 4,
+          "porque": "Organização.",
+          "como": "Grupos."
+        },
+        {
+          "nome": "Reações químicas",
+          "frequencia": 4,
+          "porque": "Transformações.",
+          "como": "Equilíbrio."
+        },
+        {
+          "nome": "Soluções",
+          "frequencia": 3,
+          "porque": "Misturas.",
+          "como": "Molaridade."
+        },
+        {
+          "nome": "Ácidos e bases",
+          "frequencia": 3,
+          "porque": "pH.",
+          "como": "Escala."
+        },
+        {
+          "nome": "Termoquímica",
+          "frequencia": 3,
+          "porque": "Calor.",
+          "como": "Entalpia."
+        },
+        {
+          "nome": "Eletroquímica",
+          "frequencia": 3,
+          "porque": "Pilhas.",
+          "como": "Oxirredução."
+        },
+        {
+          "nome": "Cinética química",
+          "frequencia": 3,
+          "porque": "Velocidade.",
+          "como": "Catalisadores."
+        },
+        {
+          "nome": "Equilíbrio químico",
+          "frequencia": 3,
+          "porque": "Constante.",
+          "como": "Le Chatelier."
+        },
+        {
+          "nome": "Química orgânica",
+          "frequencia": 4,
+          "porque": "Carbono.",
+          "como": "Funções."
+        },
+        {
+          "nome": "Polímeros",
+          "frequencia": 2,
+          "porque": "Materiais.",
+          "como": "Síntese."
+        },
+        {
+          "nome": "Bioquímica",
+          "frequencia": 3,
+          "porque": "Vida.",
+          "como": "Metabolismo."
+        },
+        {
+          "nome": "Química ambiental",
+          "frequencia": 2,
+          "porque": "Meio ambiente.",
+          "como": "Poluição."
+        },
+        {
+          "nome": "Química analítica",
+          "frequencia": 2,
+          "porque": "Análise.",
+          "como": "Titulação."
         }
       ]
     },
