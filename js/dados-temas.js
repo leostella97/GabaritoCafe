@@ -3352,6 +3352,36 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Extinção da pretensão.",
           "como": "Prazos legais."
+        },
+        {
+          "nome": "Obrigações",
+          "frequencia": 5,
+          "porque": "Dever de prestar.",
+          "como": "Modalidades."
+        },
+        {
+          "nome": "Direito das coisas",
+          "frequencia": 4,
+          "porque": "Propriedade.",
+          "como": "Usufruto."
+        },
+        {
+          "nome": "Personalidade jurídica",
+          "frequencia": 3,
+          "porque": "Capacidade.",
+          "como": "Emancipação."
+        },
+        {
+          "nome": "Locação",
+          "frequencia": 3,
+          "porque": "Aluguel.",
+          "como": "Fiança."
+        },
+        {
+          "nome": "Empreitada",
+          "frequencia": 2,
+          "porque": "Contrato de obra.",
+          "como": "Responsabilidade."
         }
       ]
     },
