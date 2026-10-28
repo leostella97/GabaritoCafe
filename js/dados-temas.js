@@ -6276,6 +6276,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Os contratualistas explicam a origem do Estado e caem todo ano.",
           "como": "Hobbes = Estado forte contra o caos; Locke = direitos naturais; Rousseau = vontade geral. Um livro por autor."
+        },
+        {
+          "nome": "Epistemologia",
+          "frequencia": 3,
+          "porque": "Teoria do conhecimento.",
+          "como": "Racionalismo x empirismo."
+        },
+        {
+          "nome": "Metafísica",
+          "frequencia": 3,
+          "porque": "Essência e existência.",
+          "como": "Ser."
+        },
+        {
+          "nome": "Lógica",
+          "frequencia": 3,
+          "porque": "Argumentação.",
+          "como": "Silogismo."
+        },
+        {
+          "nome": "Ética",
+          "frequencia": 4,
+          "porque": "Moral e valores.",
+          "como": "Dever e consequência."
+        },
+        {
+          "nome": "Estética",
+          "frequencia": 2,
+          "porque": "Arte e beleza.",
+          "como": "Gosto."
+        },
+        {
+          "nome": "Política",
+          "frequencia": 4,
+          "porque": "Poder e Estado.",
+          "como": "Soberania."
+        },
+        {
+          "nome": "Fenomenologia",
+          "frequencia": 2,
+          "porque": "Conciência.",
+          "como": "Husserl."
+        },
+        {
+          "nome": "Existencialismo",
+          "frequencia": 3,
+          "porque": "Liberdade e angústia.",
+          "como": "Sartre."
+        },
+        {
+          "nome": "Marxismo",
+          "frequencia": 3,
+          "porque": "Crítica social.",
+          "como": "Alienação."
+        },
+        {
+          "nome": "Pós-modernismo",
+          "frequencia": 2,
+          "porque": "Desconstrução.",
+          "como": "Crítica."
+        },
+        {
+          "nome": "Filosofia da ciência",
+          "frequencia": 2,
+          "porque": "Método científico.",
+          "como": "Popper."
+        },
+        {
+          "nome": "Filosofia da mente",
+          "frequencia": 2,
+          "porque": "Consciência.",
+          "como": "Cognição."
+        },
+        {
+          "nome": "Feminismo filosófico",
+          "frequencia": 2,
+          "porque": "Gênero.",
+          "como": "Beauvoir."
+        },
+        {
+          "nome": "Ética aplicada",
+          "frequencia": 3,
+          "porque": "Casos reais.",
+          "como": "Bioética."
         }
       ]
     },
