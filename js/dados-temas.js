@@ -5996,6 +5996,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Prevenção.",
           "como": "Hábitos."
+        },
+        {
+          "nome": "Sistema digestório",
+          "frequencia": 3,
+          "porque": "Nutrição.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Sistema respiratório",
+          "frequencia": 3,
+          "porque": "Troca gasosa.",
+          "como": "Alvéolos."
+        },
+        {
+          "nome": "Sistema circulatório",
+          "frequencia": 3,
+          "porque": "Transporte.",
+          "como": "Coração."
+        },
+        {
+          "nome": "Sistema nervoso",
+          "frequencia": 3,
+          "porque": "Coordenação.",
+          "como": "Neurônios."
+        },
+        {
+          "nome": "Sistema endócrino",
+          "frequencia": 2,
+          "porque": "Hormônios.",
+          "como": "Glândulas."
+        },
+        {
+          "nome": "Sistema urinário",
+          "frequencia": 2,
+          "porque": "Excreção.",
+          "como": "Rins."
+        },
+        {
+          "nome": "Sistema reprodutor",
+          "frequencia": 2,
+          "porque": "Reprodução.",
+          "como": "Gametas."
+        },
+        {
+          "nome": "Ácidos nucleicos",
+          "frequencia": 3,
+          "porque": "DNA e RNA.",
+          "como": "Replicação."
+        },
+        {
+          "nome": "Síntese proteica",
+          "frequencia": 2,
+          "porque": "Expressão gênica.",
+          "como": "Transcrição."
+        },
+        {
+          "nome": "Respiração celular",
+          "frequencia": 2,
+          "porque": "Energia.",
+          "como": "Mitocôndria."
+        },
+        {
+          "nome": "Fotossíntese",
+          "frequencia": 2,
+          "porque": "Autotrofia.",
+          "como": "Cloroplasto."
+        },
+        {
+          "nome": "Ciclo celular",
+          "frequencia": 2,
+          "porque": "Divisão.",
+          "como": "Mitose e meiose."
+        },
+        {
+          "nome": "Vírus",
+          "frequencia": 2,
+          "porque": "Infecções.",
+          "como": "Ciclo lítico."
+        },
+        {
+          "nome": "Parasitologia",
+          "frequencia": 2,
+          "porque": "Parasitas.",
+          "como": "Ciclo de vida."
         }
       ]
     },
