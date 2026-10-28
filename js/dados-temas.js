@@ -2963,6 +2963,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Regulação e responsabilidade.",
           "como": "Lei 13.429 e jurisprudência."
+        },
+        {
+          "nome": "Contrato por prazo determinado",
+          "frequencia": 4,
+          "porque": "Regras específicas.",
+          "como": "Art.443 CLT."
+        },
+        {
+          "nome": "Trabalho temporário",
+          "frequencia": 3,
+          "porque": "Lei 6.019.",
+          "como": "Agência."
+        },
+        {
+          "nome": "Teletrabalho",
+          "frequencia": 4,
+          "porque": "Regulação recente.",
+          "como": "RE 1120 e CLT."
+        },
+        {
+          "nome": "Banco de horas",
+          "frequencia": 3,
+          "porque": "Compensação.",
+          "como": "Acordo coletivo."
+        },
+        {
+          "nome": "Aviso prévio",
+          "frequencia": 4,
+          "porque": "Rescisão.",
+          "como": "Proporcional."
+        },
+        {
+          "nome": "Estabilidade",
+          "frequencia": 4,
+          "porque": "Proteção ao empregado.",
+          "como": "Gestante e sindical."
+        },
+        {
+          "nome": "Insalubridade",
+          "frequencia": 3,
+          "porque": "Adicional.",
+          "como": "Gratificação."
+        },
+        {
+          "nome": "Periculosidade",
+          "frequencia": 3,
+          "porque": "Risco.",
+          "como": "Percentuais."
+        },
+        {
+          "nome": "Trabalho da criança e adolescente",
+          "frequencia": 3,
+          "porque": "Proteção.",
+          "como": "Idade mínima."
+        },
+        {
+          "nome": "Justiça do trabalho",
+          "frequencia": 4,
+          "porque": "Competência.",
+          "como": "TRT e TST."
+        },
+        {
+          "nome": "Dissídio coletivo",
+          "frequencia": 2,
+          "porque": "Conflito coletivo.",
+          "como": "Normas."
+        },
+        {
+          "nome": "Greve",
+          "frequencia": 3,
+          "porque": "Direito constitucional.",
+          "como": "Art.9 CF."
+        },
+        {
+          "nome": "Relações de trabalho",
+          "frequencia": 3,
+          "porque": "Emprego e ocupação.",
+          "como": "Diferenças."
+        },
+        {
+          "nome": "Dano moral",
+          "frequencia": 3,
+          "porque": "Responsabilidade.",
+          "como": "Critérios."
+        },
+        {
+          "nome": "Maternidade e paternidade",
+          "frequencia": 3,
+          "porque": "Licenças.",
+          "como": "Duração e salário."
         }
       ]
     },
