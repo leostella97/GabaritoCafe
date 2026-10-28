@@ -5514,6 +5514,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Pós-1985.",
           "como": "Sarney a FHC."
+        },
+        {
+          "nome": "Tratado de Tordesilhas",
+          "frequencia": 2,
+          "porque": "Divisão.",
+          "como": "1494."
+        },
+        {
+          "nome": "União Ibérica",
+          "frequencia": 2,
+          "porque": "1580-1640.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "Mineração no Brasil Colônia",
+          "frequencia": 3,
+          "porque": "Século XVIII.",
+          "como": "Ouro em Minas."
+        },
+        {
+          "nome": "Transferência da Corte",
+          "frequencia": 3,
+          "porque": "1808.",
+          "como": "D. João VI."
+        },
+        {
+          "nome": "Independência do Brasil",
+          "frequencia": 4,
+          "porque": "1822.",
+          "como": "Grito do Ipiranga."
+        },
+        {
+          "nome": "Confederação do Equador",
+          "frequencia": 2,
+          "porque": "1824.",
+          "como": "Frei Caneca."
+        },
+        {
+          "nome": "Guerra dos Farrapos",
+          "frequencia": 2,
+          "porque": "1835-1845.",
+          "como": "Rio Grande do Sul."
+        },
+        {
+          "nome": "Revolta dos Malês",
+          "frequencia": 2,
+          "porque": "1835.",
+          "como": "Escravos islâmicos."
+        },
+        {
+          "nome": "Abolição da escravatura",
+          "frequencia": 4,
+          "porque": "1888.",
+          "como": "Princesa Isabel."
+        },
+        {
+          "nome": "República da Espada",
+          "frequencia": 2,
+          "porque": "1889-1894.",
+          "como": "Deodoro e Floriano."
+        },
+        {
+          "nome": "Revolta da Vacina",
+          "frequencia": 2,
+          "porque": "1904.",
+          "como": "Rio de Janeiro."
+        },
+        {
+          "nome": "Revolta da Chibata",
+          "frequencia": 2,
+          "porque": "1910.",
+          "como": "João Cândido."
+        },
+        {
+          "nome": "Tenentismo",
+          "frequencia": 2,
+          "porque": "1920.",
+          "como": "Coluna Prestes."
+        },
+        {
+          "nome": "Golpe de 1964",
+          "frequencia": 4,
+          "porque": "Ditadura.",
+          "como": "AI-5."
         }
       ]
     },
