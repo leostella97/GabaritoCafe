@@ -8850,6 +8850,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Classificação.",
           "como": "Lírico, épico, dramático."
+        },
+        {
+          "nome": "Análise de personagens",
+          "frequencia": 3,
+          "porque": "Questão frequente.",
+          "como": "Caracterização e função."
+        },
+        {
+          "nome": "Tempo e espaço narrativo",
+          "frequencia": 2,
+          "porque": "Construção da história.",
+          "como": "Cronológico e psicológico."
+        },
+        {
+          "nome": "Foco narrativo",
+          "frequencia": 3,
+          "porque": "Ponto de vista.",
+          "como": "1ª ou 3ª pessoa."
+        },
+        {
+          "nome": "Intertextualidade e paródia",
+          "frequencia": 2,
+          "porque": "Diálogo entre textos.",
+          "como": "Referências e crítica."
+        },
+        {
+          "nome": "Vanguardas europeias",
+          "frequencia": 3,
+          "porque": "Contexto modernista.",
+          "como": "Futurismo, dadaísmo."
+        },
+        {
+          "nome": "Literatura e política",
+          "frequencia": 2,
+          "porque": "Engajamento.",
+          "como": "Literatura de denúncia."
+        },
+        {
+          "nome": "Literatura e história",
+          "frequencia": 2,
+          "porque": "Relação.",
+          "como": "Contexto da obra."
+        },
+        {
+          "nome": "Literatura comparada",
+          "frequencia": 2,
+          "porque": "Diálogos.",
+          "como": "Brasil x Portugal."
+        },
+        {
+          "nome": "Movimentos literários no ENEM",
+          "frequencia": 4,
+          "porque": "Questões objetivas.",
+          "como": "Reconhecer estilo."
+        },
+        {
+          "nome": "Questões de literatura no vestibular",
+          "frequencia": 4,
+          "porque": "Interpretação.",
+          "como": "Leitura atenta."
+        },
+        {
+          "nome": "Literatura e outras artes",
+          "frequencia": 2,
+          "porque": "Interdisciplinar.",
+          "como": "Pintura e cinema."
+        },
+        {
+          "nome": "Literatura africana de língua portuguesa",
+          "frequencia": 2,
+          "porque": "CPLP.",
+          "como": "Mia Couto."
+        },
+        {
+          "nome": "Literatura marginal",
+          "frequencia": 2,
+          "porque": "Periferia.",
+          "como": "Ferréz."
+        },
+        {
+          "nome": "Slam e poesia falada",
+          "frequencia": 2,
+          "porque": "Contemporâneo.",
+          "como": "Performance."
         }
       ]
     },
