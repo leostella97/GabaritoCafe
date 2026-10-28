@@ -7657,6 +7657,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Sustentabilidade.",
           "como": "Impacto."
+        },
+        {
+          "nome": "Sociologia do trabalho",
+          "frequencia": 3,
+          "porque": "Emprego.",
+          "como": "Classes."
+        },
+        {
+          "nome": "Sociologia da família",
+          "frequencia": 2,
+          "porque": "Instituições.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Sociologia das religiões",
+          "frequencia": 2,
+          "porque": "Fé.",
+          "como": "Weber."
+        },
+        {
+          "nome": "Sociologia da educação",
+          "frequencia": 3,
+          "porque": "Escola.",
+          "como": "Reprodução."
+        },
+        {
+          "nome": "Sociologia urbana",
+          "frequencia": 3,
+          "porque": "Cidade.",
+          "como": "Segregação."
+        },
+        {
+          "nome": "Sociologia rural",
+          "frequencia": 2,
+          "porque": "Campo.",
+          "como": "Relações."
+        },
+        {
+          "nome": "Sociologia da saúde",
+          "frequencia": 2,
+          "porque": "Saúde.",
+          "como": "Acesso."
+        },
+        {
+          "nome": "Sociologia da criminalidade",
+          "frequencia": 2,
+          "porque": "Desvio.",
+          "como": "Controle."
+        },
+        {
+          "nome": "Etnologia",
+          "frequencia": 2,
+          "porque": "Povos.",
+          "como": "Cultura."
+        },
+        {
+          "nome": "Antropologia",
+          "frequencia": 2,
+          "porque": "Humanidade.",
+          "como": "Diferenças."
+        },
+        {
+          "nome": "Teorias sociológicas",
+          "frequencia": 3,
+          "porque": "Escolas.",
+          "como": "Funcionalismo."
+        },
+        {
+          "nome": "Globalização",
+          "frequencia": 3,
+          "porque": "Mundo.",
+          "como": "Fluxos."
+        },
+        {
+          "nome": "Desigualdade social",
+          "frequencia": 4,
+          "porque": "Renda.",
+          "como": "Gini."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Lutas.",
+          "como": "Protestos."
         }
       ]
     },
