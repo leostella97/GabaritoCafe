@@ -4734,6 +4734,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Primeiro e Segundo Reinado têm questões próprias.",
           "como": "1822 independência; 1º Reinado (22-31); Regências (31-40); 2º Reinado (40-89) com Paraguai e abolição."
+        },
+        {
+          "nome": "Proclamação da República",
+          "frequencia": 4,
+          "porque": "Primeira República.",
+          "como": "1889 e oligarquias."
+        },
+        {
+          "nome": "Era Vargas",
+          "frequencia": 4,
+          "porque": "Estado Novo.",
+          "como": "1930, 1937, trabalhismo."
+        },
+        {
+          "nome": "Ditadura militar",
+          "frequencia": 4,
+          "porque": "1964-1985.",
+          "como": "AI-5 e redemocratização."
+        },
+        {
+          "nome": "Colonização portuguesa",
+          "frequencia": 4,
+          "porque": "Capitanias hereditárias.",
+          "como": "1500-1549."
+        },
+        {
+          "nome": "Economia da cana",
+          "frequencia": 3,
+          "porque": "Nordeste colonial.",
+          "como": "Escravidão e engenho."
+        },
+        {
+          "nome": "Economia do ouro",
+          "frequencia": 3,
+          "porque": "Minas Gerais.",
+          "como": "Ciclo minerador."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Inconfidências.",
+          "como": "Tiradentes."
+        },
+        {
+          "nome": "Revolução de 1930",
+          "frequencia": 3,
+          "porque": "Crise do café.",
+          "como": "Getúlio."
+        },
+        {
+          "nome": "República Nova",
+          "frequencia": 3,
+          "porque": "Constituição de 1988.",
+          "como": "Democracia atual."
+        },
+        {
+          "nome": "Sertão e cangaceiros",
+          "frequencia": 2,
+          "porque": "Lampião.",
+          "como": "Nordeste."
+        },
+        {
+          "nome": "Imigração no Brasil",
+          "frequencia": 3,
+          "porque": "Italianos e japoneses.",
+          "como": "Sul e Sudeste."
+        },
+        {
+          "nome": "Industrialização",
+          "frequencia": 3,
+          "porque": "Crescimento urbano.",
+          "como": "Séc. XX."
+        },
+        {
+          "nome": "Política externa",
+          "frequencia": 2,
+          "porque": "Brasileiras.",
+          "como": "Barbosa."
+        },
+        {
+          "nome": "História afro-brasileira",
+          "frequencia": 3,
+          "porque": "Lei 10.639.",
+          "como": "Cultura e resistência."
         }
       ]
     },
