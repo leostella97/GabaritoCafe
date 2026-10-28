@@ -1388,6 +1388,78 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Art.12 e 14.",
           "como": "Aquisição e perda."
+        },
+        {
+          "nome": "Poderes da União",
+          "frequencia": 4,
+          "porque": "Executivo, Legislativo, Judiciário.",
+          "como": "Separação."
+        },
+        {
+          "nome": "Orgãos independentes",
+          "frequencia": 3,
+          "porque": "Autonomia.",
+          "como": "Ministério Público."
+        },
+        {
+          "nome": "Direitos fundamentais",
+          "frequencia": 5,
+          "porque": "Dignidade.",
+          "como": "Art.5 CF."
+        },
+        {
+          "nome": "Garantias constitucionais",
+          "frequencia": 4,
+          "porque": "Habeas corpus.",
+          "como": "Remédios."
+        },
+        {
+          "nome": "Princípios constitucionais",
+          "frequencia": 4,
+          "porque": "Base do Estado.",
+          "como": "Democracia."
+        },
+        {
+          "nome": "Reforma constitucional",
+          "frequencia": 3,
+          "porque": "Emendas.",
+          "como": "Procedimento."
+        },
+        {
+          "nome": "Estado democrático de direito",
+          "frequencia": 4,
+          "porque": "Fundamento.",
+          "como": "Princípios."
+        },
+        {
+          "nome": "Soberania",
+          "frequencia": 3,
+          "porque": "Poder supremo.",
+          "como": "Internacional."
+        },
+        {
+          "nome": "Cidadania",
+          "frequencia": 3,
+          "porque": "Direitos políticos.",
+          "como": "Sufragio."
+        },
+        {
+          "nome": "Intervenção federal",
+          "frequencia": 3,
+          "porque": "Medidas excepcionais.",
+          "como": "Art.34."
+        },
+        {
+          "nome": "Seguridade social",
+          "frequencia": 4,
+          "porque": "Saúde, previdência.",
+          "como": "Art.194."
+        },
+        {
+          "nome": "Ordem econômica",
+          "frequencia": 3,
+          "porque": "Princípios econômicos.",
+          "como": "Art.170."
         }
       ]
     },
