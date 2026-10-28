@@ -2137,6 +2137,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Justiça comum vs militar.",
           "como": "Critérios de distribuição."
+        },
+        {
+          "nome": "Princípio da legalidade penal",
+          "frequencia": 5,
+          "porque": "Nullum crimen sine lege.",
+          "como": "Tipicidade e reserva legal."
+        },
+        {
+          "nome": "Imputabilidade penal",
+          "frequencia": 4,
+          "porque": "Capacidade de entender.",
+          "como": "Art.26 CP."
+        },
+        {
+          "nome": "Causa excludente de ilicitude",
+          "frequencia": 4,
+          "porque": "Legítima defesa.",
+          "como": "Estado de necessidade."
+        },
+        {
+          "nome": "Erro de proibição",
+          "frequencia": 3,
+          "porque": "Ignorância da lei penal.",
+          "como": "Escusável."
+        },
+        {
+          "nome": "Desistência voluntária",
+          "frequencia": 3,
+          "porque": "Tentativa interrompida.",
+          "como": "Arrependimento eficaz."
+        },
+        {
+          "nome": "Coautoria",
+          "frequencia": 4,
+          "porque": "Participação conjunta.",
+          "como": "Domínio do fato."
+        },
+        {
+          "nome": "Crime hediondo",
+          "frequencia": 3,
+          "porque": "Regime mais severo.",
+          "como": "Lei 8.072."
+        },
+        {
+          "nome": "Prescrição",
+          "frequencia": 4,
+          "porque": "Extinção da punibilidade.",
+          "como": "Prazos por pena."
+        },
+        {
+          "nome": "Medidas cautelares",
+          "frequencia": 3,
+          "porque": "Prisão temporária e preventiva.",
+          "como": "CPP."
+        },
+        {
+          "nome": "Ação penal pública",
+          "frequencia": 4,
+          "porque": "Iniciativa do MP.",
+          "como": "Condicionada e incondicionada."
+        },
+        {
+          "nome": "Ação penal privada",
+          "frequencia": 3,
+          "porque": "Iniciativa da vítima.",
+          "como": "Queixa crime."
+        },
+        {
+          "nome": "Pena privativa de liberdade",
+          "frequencia": 4,
+          "porque": "Reclusão e detenção.",
+          "como": "Regimes."
+        },
+        {
+          "nome": "Suspensão condicional",
+          "frequencia": 3,
+          "porque": "Suris.",
+          "como": "Requisitos."
+        },
+        {
+          "nome": "Reincidência",
+          "frequencia": 3,
+          "porque": "Agravante.",
+          "como": "Conceito e efeitos."
+        },
+        {
+          "nome": "Crime contra administração pública",
+          "frequencia": 4,
+          "porque": "Corrupção e peculato.",
+          "como": "Lei 8.429."
         }
       ]
     },
