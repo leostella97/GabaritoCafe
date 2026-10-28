@@ -2360,6 +2360,72 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Segurado especial.",
           "como": "Prova da atividade rural."
+        },
+        {
+          "nome": "Princípios da seguridade social",
+          "frequencia": 4,
+          "porque": "Base constitucional.",
+          "como": "Universalidade e solidariedade."
+        },
+        {
+          "nome": "Aposentadoria por idade",
+          "frequencia": 5,
+          "porque": "Requisitos e regras.",
+          "como": "Tempo de contribuição."
+        },
+        {
+          "nome": "Aposentadoria por tempo de contribuição",
+          "frequencia": 5,
+          "porque": "Regras de transição.",
+          "como": "EC 103/2019."
+        },
+        {
+          "nome": "Auxílio-doença",
+          "frequencia": 4,
+          "porque": "Incapacidade temporária.",
+          "como": "Carência e perícia."
+        },
+        {
+          "nome": "Salário-maternidade",
+          "frequencia": 3,
+          "porque": "Proteção à maternidade.",
+          "como": "Duração e requisitos."
+        },
+        {
+          "nome": "Benefício de prestação continuada",
+          "frequencia": 3,
+          "porque": "BPC LOAS.",
+          "como": "Idosos e PCD."
+        },
+        {
+          "nome": "Compensação previdenciária",
+          "frequencia": 2,
+          "porque": "RGPS e RPPS.",
+          "como": "Dupla contribuição."
+        },
+        {
+          "nome": "Regime próprio",
+          "frequencia": 3,
+          "porque": "Servidor público.",
+          "como": "RPPS."
+        },
+        {
+          "nome": "Regime geral",
+          "frequencia": 4,
+          "porque": "INSS.",
+          "como": "Contribuintes."
+        },
+        {
+          "nome": "Custeio previdenciário",
+          "frequencia": 3,
+          "porque": "Financiamento.",
+          "como": "Alíquotas."
+        },
+        {
+          "nome": "Acidente de trabalho",
+          "frequencia": 3,
+          "porque": "CAT e benefícios.",
+          "como": "AUXÍLIO ACIDENTE."
         }
       ]
     },
