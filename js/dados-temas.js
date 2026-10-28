@@ -6222,6 +6222,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Análise de obras.",
           "como": "Contextualização."
+        },
+        {
+          "nome": "Pré-modernismo brasileiro",
+          "frequencia": 3,
+          "porque": "Transição.",
+          "como": "Euclides da Cunha."
+        },
+        {
+          "nome": "Modernismo de 22",
+          "frequencia": 4,
+          "porque": "Semana de Arte.",
+          "como": "Mário de Andrade."
+        },
+        {
+          "nome": "Pós-modernismo",
+          "frequencia": 2,
+          "porque": "Metaficção.",
+          "como": "Autores contemporâneos."
+        },
+        {
+          "nome": "Língua portuguesa",
+          "frequencia": 3,
+          "porque": "Variação.",
+          "como": "Norma culta."
+        },
+        {
+          "nome": "Poesia brasileira",
+          "frequencia": 3,
+          "porque": "Gênero lírico.",
+          "como": "Figuras de linguagem."
+        },
+        {
+          "nome": "Teatro brasileiro",
+          "frequencia": 2,
+          "porque": "Gênero dramático.",
+          "como": "Autores clássicos."
+        },
+        {
+          "nome": "Conto",
+          "frequencia": 3,
+          "porque": "Narrativa curta.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Romance",
+          "frequencia": 4,
+          "porque": "Narrativa longa.",
+          "como": "Personagens."
+        },
+        {
+          "nome": "Crônica",
+          "frequencia": 2,
+          "porque": "Gênero híbrido.",
+          "como": "Observação."
+        },
+        {
+          "nome": "Literatura de viagem",
+          "frequencia": 2,
+          "porque": "Relatos.",
+          "como": "Descobertas."
+        },
+        {
+          "nome": "Literatura regionalista",
+          "frequencia": 3,
+          "porque": "Nordeste.",
+          "como": "Cordel."
+        },
+        {
+          "nome": "Literatura afro-brasileira",
+          "frequencia": 2,
+          "porque": "Representatividade.",
+          "como": "Autores negros."
+        },
+        {
+          "nome": "Literatura indígena",
+          "frequencia": 2,
+          "porque": "Vozes originárias.",
+          "como": "Mitos."
+        },
+        {
+          "nome": "Literatura contemporânea",
+          "frequencia": 2,
+          "porque": "Autores atuais.",
+          "como": "Temas atuais."
         }
       ]
     },
