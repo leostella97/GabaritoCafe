@@ -5809,6 +5809,72 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Geopolítica.",
           "como": "Multipolar."
+        },
+        {
+          "nome": "Problemas ambientais urbanos",
+          "frequencia": 2,
+          "porque": "Poluição.",
+          "como": "Lixo e enchente."
+        },
+        {
+          "nome": "Ilhas de calor",
+          "frequencia": 2,
+          "porque": "Microclima.",
+          "como": "Asfalto."
+        },
+        {
+          "nome": "Inversão térmica",
+          "frequencia": 2,
+          "porque": "Poluentes.",
+          "como": "Inverno."
+        },
+        {
+          "nome": "Efeito estufa e aquecimento global",
+          "frequencia": 3,
+          "porque": "Impacto.",
+          "como": "CO2."
+        },
+        {
+          "nome": "Buraco na camada de ozônio",
+          "frequencia": 2,
+          "porque": "CFCs.",
+          "como": "Protocolo de Montreal."
+        },
+        {
+          "nome": "Conferências ambientais",
+          "frequencia": 2,
+          "porque": "Acordos.",
+          "como": "Rio-92, Kyoto."
+        },
+        {
+          "nome": "Migrantes e refugiados",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Crise humanitária."
+        },
+        {
+          "nome": "Blocos econômicos",
+          "frequencia": 3,
+          "porque": "Integração.",
+          "como": "Mercosul, UE."
+        },
+        {
+          "nome": "Conflitos atuais",
+          "frequencia": 2,
+          "porque": "Geopolítica.",
+          "como": "Oriente Médio."
+        },
+        {
+          "nome": "Globalização e exclusão",
+          "frequencia": 2,
+          "porque": "Desigualdade.",
+          "como": "Brecha digital."
+        },
+        {
+          "nome": "Revolução Verde",
+          "frequencia": 2,
+          "porque": "Agricultura.",
+          "como": "Tecnologia."
         }
       ]
     },
