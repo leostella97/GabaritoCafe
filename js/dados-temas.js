@@ -5660,6 +5660,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Aplicações.",
           "como": "Engenharia."
+        },
+        {
+          "nome": "Ecologia",
+          "frequencia": 4,
+          "porque": "Interações.",
+          "como": "Cadeias."
+        },
+        {
+          "nome": "Biomas brasileiros",
+          "frequencia": 3,
+          "porque": "Amazônia.",
+          "como": "Características."
+        },
+        {
+          "nome": "Fisiologia humana",
+          "frequencia": 3,
+          "porque": "Sistemas.",
+          "como": "Circulatório."
+        },
+        {
+          "nome": "Genética",
+          "frequencia": 4,
+          "porque": "Herdabilidade.",
+          "como": "Leis de Mendel."
+        },
+        {
+          "nome": "Evolução",
+          "frequencia": 3,
+          "porque": "Origem.",
+          "como": "Seleção."
+        },
+        {
+          "nome": "Citologia",
+          "frequencia": 3,
+          "porque": "Célula.",
+          "como": "Organelas."
+        },
+        {
+          "nome": "Bioquímica",
+          "frequencia": 2,
+          "porque": "Moléculas.",
+          "como": "Proteínas."
+        },
+        {
+          "nome": "Imunologia",
+          "frequencia": 2,
+          "porque": "Defesa.",
+          "como": "Anticorpos."
+        },
+        {
+          "nome": "Microbiologia",
+          "frequencia": 2,
+          "porque": "Microorganismos.",
+          "como": "Bactérias."
+        },
+        {
+          "nome": "Zoologia",
+          "frequencia": 2,
+          "porque": "Animais.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Botânica",
+          "frequencia": 2,
+          "porque": "Plantas.",
+          "como": "Fotossíntese."
+        },
+        {
+          "nome": "Evolução humana",
+          "frequencia": 2,
+          "porque": "Antropologia.",
+          "como": "Fósseis."
+        },
+        {
+          "nome": "Biodiversidade",
+          "frequencia": 3,
+          "porque": "Espécies.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Saúde e doenças",
+          "frequencia": 3,
+          "porque": "Prevenção.",
+          "como": "Hábitos."
         }
       ]
     },
