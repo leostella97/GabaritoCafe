@@ -817,6 +817,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "SLA, help desk e governança.",
           "como": "Processos de suporte e métricas de serviço."
+        },
+        {
+          "nome": "Formatação de documentos",
+          "frequencia": 4,
+          "porque": "Word e editores.",
+          "como": "Estilos, cabeçalhos e sumário."
+        },
+        {
+          "nome": "Planilhas avançadas",
+          "frequencia": 4,
+          "porque": "Excel e fórmulas.",
+          "como": "PROCV, SOMASE e gráficos."
+        },
+        {
+          "nome": "Segurança de senhas",
+          "frequencia": 3,
+          "porque": "Autenticação forte.",
+          "como": "Padrões e gerenciadores."
+        },
+        {
+          "nome": "Nuvem e armazenamento",
+          "frequencia": 3,
+          "porque": "Backup online.",
+          "como": "Google Drive e OneDrive."
+        },
+        {
+          "nome": "E-mail e comunicação",
+          "frequencia": 3,
+          "porque": "Protocolo e etiqueta.",
+          "como": "Assunto e anexos."
+        },
+        {
+          "nome": "Noções de Excel",
+          "frequencia": 4,
+          "porque": "Planilhas básicas.",
+          "como": "Células e fórmulas simples."
+        },
+        {
+          "nome": "Noções de PowerPoint",
+          "frequencia": 3,
+          "porque": "Apresentações.",
+          "como": "Slides e transições."
+        },
+        {
+          "nome": "Internet e navegação segura",
+          "frequencia": 3,
+          "porque": "Privacidade online.",
+          "como": "HTTPS e cookies."
+        },
+        {
+          "nome": "Periféricos",
+          "frequencia": 2,
+          "porque": "Dispositivos de entrada/saída.",
+          "como": "Teclado, mouse e impressora."
+        },
+        {
+          "nome": "Licenciamento de software",
+          "frequencia": 2,
+          "porque": "Free, open source e proprietário.",
+          "como": "Diferenças legais."
+        },
+        {
+          "nome": "Ergonomia",
+          "frequencia": 2,
+          "porque": "Saúde no trabalho.",
+          "como": "Postura e equipamentos."
+        },
+        {
+          "nome": "Noções de TI",
+          "frequencia": 4,
+          "porque": "Fundamentos gerais.",
+          "como": "Hardware, software e dados."
+        },
+        {
+          "nome": "Correção ortográfica",
+          "frequencia": 2,
+          "porque": "Revisão de texto.",
+          "como": "Ferramentas automáticas."
+        },
+        {
+          "nome": "Compartilhamento de arquivos",
+          "frequencia": 2,
+          "porque": "Colaboração.",
+          "como": "Permissões e links."
+        },
+        {
+          "nome": "Conformidade digital",
+          "frequencia": 2,
+          "porque": "LGPD e boas práticas.",
+          "como": "Consentimento e direitos."
         }
       ]
     },
