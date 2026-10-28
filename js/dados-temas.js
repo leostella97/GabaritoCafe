@@ -1671,6 +1671,42 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "OSCIP e termo de parceria.",
           "como": "Governança."
+        },
+        {
+          "nome": "Princípios da Administração Pública",
+          "frequencia": 5,
+          "porque": "Legalidade, impessoalidade.",
+          "como": "Art.37 CF."
+        },
+        {
+          "nome": "Atos administrativos",
+          "frequencia": 5,
+          "porque": "Elementos e requisitos.",
+          "como": "Validade."
+        },
+        {
+          "nome": "Pessoal administrativo",
+          "frequencia": 3,
+          "porque": "Servidores públicos.",
+          "como": "Regime jurídico."
+        },
+        {
+          "nome": "Intervenção do Estado",
+          "frequencia": 3,
+          "porque": "Limitação à propriedade.",
+          "como": "Função social."
+        },
+        {
+          "nome": "Responsabilidade civil estatal",
+          "frequencia": 4,
+          "porque": "Dano causado.",
+          "como": "Objetiva."
+        },
+        {
+          "nome": "Licitação eletrônica",
+          "frequencia": 3,
+          "porque": "Pregão.",
+          "como": "Procedimento."
         }
       ]
     },
