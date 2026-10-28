@@ -846,6 +846,48 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Semelhanças estruturais.",
           "como": "Relacione padrões."
+        },
+        {
+          "nome": "Lógica de predicados",
+          "frequencia": 3,
+          "porque": "Quantificadores.",
+          "como": "Para todo e existe."
+        },
+        {
+          "nome": "Condição necessária e suficiente",
+          "frequencia": 4,
+          "porque": "Implicação.",
+          "como": "Setas."
+        },
+        {
+          "nome": "Sequências numéricas",
+          "frequencia": 5,
+          "porque": "Padrões.",
+          "como": "Progressões."
+        },
+        {
+          "nome": "Sequências alfanuméricas",
+          "frequencia": 4,
+          "porque": "Mistura de elementos.",
+          "como": "Regras ocultas."
+        },
+        {
+          "nome": "Raciocínio quantitativo",
+          "frequencia": 4,
+          "porque": "Operações rápidas.",
+          "como": "Regra de três."
+        },
+        {
+          "nome": "Raciocínio verbal",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "Argumentos."
+        },
+        {
+          "nome": "Tautologias e contradições",
+          "frequencia": 2,
+          "porque": "Formas lógicas.",
+          "como": "Validade."
         }
       ]
     },
