@@ -8212,6 +8212,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Orgânica.",
           "como": "Prefixos e sufixos."
+        },
+        {
+          "nome": "Substâncias puras e misturas",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Simples e composta."
+        },
+        {
+          "nome": "Fases de agregação",
+          "frequencia": 2,
+          "porque": "Sólido, líquido, gás.",
+          "como": "Mudanças."
+        },
+        {
+          "nome": "Curva de aquecimento",
+          "frequencia": 2,
+          "porque": "Mudança de fase.",
+          "como": "Patamares."
+        },
+        {
+          "nome": "Alotropia",
+          "frequencia": 2,
+          "porque": "Carbono e oxigênio.",
+          "como": "Diamante e grafite."
+        },
+        {
+          "nome": "Fenômenos físicos e químicos",
+          "frequencia": 2,
+          "porque": "Transformações.",
+          "como": "Diferenças."
+        },
+        {
+          "nome": "Leis ponderais",
+          "frequencia": 2,
+          "porque": "Lavoisier e Proust.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Massa atômica e molecular",
+          "frequencia": 2,
+          "porque": "Cálculos.",
+          "como": "u.m.a. e g/mol."
+        },
+        {
+          "nome": "Mol e constante de Avogadro",
+          "frequencia": 3,
+          "porque": "Fundamental.",
+          "como": "6,02 × 10²³."
+        },
+        {
+          "nome": "Volume molar",
+          "frequencia": 2,
+          "porque": "Gases nas CNTP.",
+          "como": "22,4 L/mol."
+        },
+        {
+          "nome": "Termoquímica: entalpia",
+          "frequencia": 3,
+          "porque": "Reações.",
+          "como": "Endo e exotérmica."
+        },
+        {
+          "nome": "Lei de Hess",
+          "frequencia": 2,
+          "porque": "Reações.",
+          "como": "Soma."
+        },
+        {
+          "nome": "Cinética: velocidade média",
+          "frequencia": 2,
+          "porque": "Reações.",
+          "como": "Δ concentração/Δt."
+        },
+        {
+          "nome": "Ordem de reação",
+          "frequencia": 2,
+          "porque": "Cinética.",
+          "como": "Gráficos."
+        },
+        {
+          "nome": "Catalisadores",
+          "frequencia": 2,
+          "porque": "Aceleram.",
+          "como": "Enzimas."
         }
       ]
     },
