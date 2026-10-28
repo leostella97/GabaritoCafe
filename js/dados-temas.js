@@ -9431,6 +9431,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Rins.",
           "como": "Filtração glomerular."
+        },
+        {
+          "nome": "Fisiologia cardiovascular",
+          "frequencia": 4,
+          "porque": "Coração e vasos.",
+          "como": "Débito cardíaco."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 3,
+          "porque": "Adaptação.",
+          "como": "Consumo de O2."
+        },
+        {
+          "nome": "Hemodinâmica",
+          "frequencia": 2,
+          "porque": "Fluxo sanguíneo.",
+          "como": "Pressão arterial."
+        },
+        {
+          "nome": "Fisiologia da respiração",
+          "frequencia": 3,
+          "porque": "Ventilação.",
+          "como": "Troca gasosa."
+        },
+        {
+          "nome": "Equilíbrio hidroeletrolítico",
+          "frequencia": 2,
+          "porque": "Homeostase.",
+          "como": "Sódio e potássio."
+        },
+        {
+          "nome": "Equilíbrio ácido-base",
+          "frequencia": 2,
+          "porque": "pH sanguíneo.",
+          "como": "Tampões."
+        },
+        {
+          "nome": "Fisiologia do sistema imune",
+          "frequencia": 2,
+          "porque": "Defesa.",
+          "como": "Leucócitos."
+        },
+        {
+          "nome": "Fisiologia do sistema linfático",
+          "frequencia": 1,
+          "porque": "Drenagem.",
+          "como": "Linfa."
+        },
+        {
+          "nome": "Fisiologia da visão",
+          "frequencia": 2,
+          "porque": "Sentidos.",
+          "como": "Retina."
+        },
+        {
+          "nome": "Fisiologia da audição",
+          "frequencia": 2,
+          "porque": "Sentidos.",
+          "como": "Cóclea."
+        },
+        {
+          "nome": "Fisiologia do paladar e olfato",
+          "frequencia": 1,
+          "porque": "Sentidos.",
+          "como": "Receptores."
+        },
+        {
+          "nome": "Fisiologia da lactação",
+          "frequencia": 1,
+          "porque": "Amamentação.",
+          "como": "Prolactina."
+        },
+        {
+          "nome": "Fisiologia da gravidez",
+          "frequencia": 1,
+          "porque": "Gestação.",
+          "como": "Alterações maternas."
+        },
+        {
+          "nome": "Fisiologia do sistema tegumentar",
+          "frequencia": 1,
+          "porque": "Pele.",
+          "como": "Barreira."
         }
       ]
     },
