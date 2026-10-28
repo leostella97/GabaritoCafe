@@ -7189,6 +7189,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Word combos.",
           "como": "Natural."
+        },
+        {
+          "nome": "Reading comprehension",
+          "frequencia": 5,
+          "porque": "Interpretação.",
+          "como": "Inference."
+        },
+        {
+          "nome": "Vocabulary",
+          "frequencia": 4,
+          "porque": "Lexical.",
+          "como": "Context."
+        },
+        {
+          "nome": "Grammar",
+          "frequencia": 4,
+          "porque": "Rules.",
+          "como": "Structure."
+        },
+        {
+          "nome": "Pronouns",
+          "frequencia": 3,
+          "porque": "Reference.",
+          "como": "Relative."
+        },
+        {
+          "nome": "Prepositions",
+          "frequencia": 3,
+          "porque": "Usage.",
+          "como": "In/on/at."
+        },
+        {
+          "nome": "Modal verbs",
+          "frequencia": 3,
+          "porque": "Possibility.",
+          "como": "Can/must."
+        },
+        {
+          "nome": "Conditionals",
+          "frequencia": 2,
+          "porque": "Hypothesis.",
+          "como": "If."
+        },
+        {
+          "nome": "Reported speech",
+          "frequencia": 2,
+          "porque": "Indirect.",
+          "como": "Tense shift."
+        },
+        {
+          "nome": "Passive voice",
+          "frequencia": 2,
+          "porque": "Construction.",
+          "como": "Be+past."
+        },
+        {
+          "nome": "Idioms",
+          "frequencia": 2,
+          "porque": "Expressions.",
+          "como": "Meaning."
+        },
+        {
+          "nome": "Phonetics",
+          "frequencia": 2,
+          "porque": "Pronunciation.",
+          "como": "Sounds."
+        },
+        {
+          "nome": "Writing",
+          "frequencia": 2,
+          "porque": "Production.",
+          "como": "Essay."
+        },
+        {
+          "nome": "Culture",
+          "frequencia": 2,
+          "porque": "Context.",
+          "como": "US/UK."
+        },
+        {
+          "nome": "Listening",
+          "frequencia": 2,
+          "porque": "Comprehension.",
+          "como": "Audio."
         }
       ]
     },
