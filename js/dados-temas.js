@@ -10142,6 +10142,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Conexão.",
           "como": "Referencia y repetición."
+        },
+        {
+          "nome": "Usos de ser y estar",
+          "frequencia": 4,
+          "porque": "Base da língua.",
+          "como": "Permanente vs temporário."
+        },
+        {
+          "nome": "Usos de por y para",
+          "frequencia": 3,
+          "porque": "Confusão comum.",
+          "como": "Causa vs finalidade."
+        },
+        {
+          "nome": "Pronombres posesivos",
+          "frequencia": 2,
+          "porque": "Concordância.",
+          "como": "Mío, tuyo, suyo."
+        },
+        {
+          "nome": "Pronombres demostrativos",
+          "frequencia": 2,
+          "porque": "Localização.",
+          "como": "Este, ese, aquel."
+        },
+        {
+          "nome": "Pronombres indefinidos",
+          "frequencia": 2,
+          "porque": "Quantidade.",
+          "como": "Algo, nada, alguien."
+        },
+        {
+          "nome": "Pronombres interrogativos",
+          "frequencia": 2,
+          "porque": "Perguntas.",
+          "como": "Qué, quién, cuándo."
+        },
+        {
+          "nome": "Pronombres exclamativos",
+          "frequencia": 1,
+          "porque": "Expressão.",
+          "como": "¡Qué bonito!"
+        },
+        {
+          "nome": "Adverbios de modo",
+          "frequencia": 2,
+          "porque": "Como se faz.",
+          "como": "Bien, mal, así."
+        },
+        {
+          "nome": "Adverbios de tiempo",
+          "frequencia": 2,
+          "porque": "Quando.",
+          "como": "Ayer, hoy, mañana."
+        },
+        {
+          "nome": "Adverbios de lugar",
+          "frequencia": 2,
+          "porque": "Onde.",
+          "como": "Aquí, allí, cerca."
+        },
+        {
+          "nome": "Adverbios de cantidad",
+          "frequencia": 2,
+          "porque": "Intensidade.",
+          "como": "Mucho, poco, bastante."
+        },
+        {
+          "nome": "Reglas de acentuación",
+          "frequencia": 3,
+          "porque": "Sílaba tônica.",
+          "como": "Agudas, llanas, esdrújulas."
+        },
+        {
+          "nome": "Diptongos e hiatos",
+          "frequencia": 2,
+          "porque": "Pronúncia.",
+          "como": "Acentuação."
+        },
+        {
+          "nome": "Vocabulario de comida",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Alimentos."
         }
       ]
     },
