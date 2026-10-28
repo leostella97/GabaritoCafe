@@ -1486,6 +1486,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Fake news e regulação digital.",
           "como": "Acompanhe políticas de combate à desinformação."
+        },
+        {
+          "nome": "Criptomoedas e regulação",
+          "frequencia": 3,
+          "porque": "Tema financeiro atual.",
+          "como": "BC e CVM."
+        },
+        {
+          "nome": "Inteligência artificial",
+          "frequencia": 4,
+          "porque": "Impacto social e ético.",
+          "como": "Uso e legislação."
+        },
+        {
+          "nome": "Mudanças climáticas",
+          "frequencia": 4,
+          "porque": "COP e políticas.",
+          "como": "Acordos internacionais."
+        },
+        {
+          "nome": "Saúde mental",
+          "frequencia": 3,
+          "porque": "Políticas públicas.",
+          "como": "Prevenção e acesso."
+        },
+        {
+          "nome": "Educação digital",
+          "frequencia": 3,
+          "porque": "Ensino remoto e híbrido.",
+          "como": "Plataformas e inclusão."
+        },
+        {
+          "nome": "Política externa brasileira",
+          "frequencia": 3,
+          "porque": "Relações bilaterais.",
+          "como": "China, EUA e ONU."
+        },
+        {
+          "nome": "Economia verde",
+          "frequencia": 2,
+          "porque": "Sustentabilidade econômica.",
+          "como": "Energias renováveis."
+        },
+        {
+          "nome": "Desigualdade social",
+          "frequencia": 3,
+          "porque": "Indicadores sociais.",
+          "como": "Renda e acesso."
+        },
+        {
+          "nome": "Reforma tributária",
+          "frequencia": 3,
+          "porque": "PEC e impostos.",
+          "como": "IVA e simplificação."
+        },
+        {
+          "nome": "Segurança cibernética",
+          "frequencia": 3,
+          "porque": "Ameaças digitais.",
+          "como": "LGPD e proteção."
+        },
+        {
+          "nome": "Pandemias e saúde global",
+          "frequencia": 2,
+          "porque": "Preparação e resposta.",
+          "como": "OMS e cooperação."
+        },
+        {
+          "nome": "Migração e refugiados",
+          "frequencia": 2,
+          "porque": "Políticas de acolhimento.",
+          "como": "Convenção de Genebra."
+        },
+        {
+          "nome": "Cultura digital",
+          "frequencia": 2,
+          "porque": "Mídias sociais.",
+          "como": "Consumo e produção."
+        },
+        {
+          "nome": "Transporte sustentável",
+          "frequencia": 2,
+          "porque": "Mobilidade urbana.",
+          "como": "Veículos elétricos."
+        },
+        {
+          "nome": "Democracia digital",
+          "frequencia": 2,
+          "porque": "Participação online.",
+          "como": "Plataformas cidadãs."
         }
       ]
     },
