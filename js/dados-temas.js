@@ -569,6 +569,66 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Triângulo retângulo.",
           "como": "Relação pitagórica."
+        },
+        {
+          "nome": "Funções exponenciais",
+          "frequencia": 4,
+          "porque": "Crescimento.",
+          "como": "Gráfico e propriedades."
+        },
+        {
+          "nome": "Funções logarítmicas",
+          "frequencia": 4,
+          "porque": "Inversas.",
+          "como": "Propriedades."
+        },
+        {
+          "nome": "Trigonometria",
+          "frequencia": 4,
+          "porque": "Ângulos e triângulos.",
+          "como": "Seno, cosseno, tangente."
+        },
+        {
+          "nome": "Determinantes",
+          "frequencia": 3,
+          "porque": "Valor de matriz quadrada.",
+          "como": "Regra de Sarrus."
+        },
+        {
+          "nome": "Geometria plana",
+          "frequencia": 5,
+          "porque": "Áreas e perímetros.",
+          "como": "Triângulos, quadriláteros."
+        },
+        {
+          "nome": "Analítica: ponto e reta",
+          "frequencia": 3,
+          "porque": "Coordenadas.",
+          "como": "Equação reduzida."
+        },
+        {
+          "nome": "Probabilidade",
+          "frequencia": 4,
+          "porque": "Eventos aleatórios.",
+          "como": "Espaço amostral."
+        },
+        {
+          "nome": "Estatística",
+          "frequencia": 3,
+          "porque": "Média e desvio.",
+          "como": "Distribuição."
+        },
+        {
+          "nome": "Números complexos",
+          "frequencia": 2,
+          "porque": "Unidade imaginária.",
+          "como": "Forma trigonométrica."
+        },
+        {
+          "nome": "Inequações",
+          "frequencia": 3,
+          "porque": "Intervalos de solução.",
+          "como": "Produto e quociente."
         }
       ]
     },
