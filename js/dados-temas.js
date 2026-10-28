@@ -4861,6 +4861,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Soja, cerrado e MATOPIBA são temas atuais.",
           "como": "Fronteira agrícola = avanço do cultivo sobre cerrado e Amazônia; associe com desmatamento e agronegócio."
+        },
+        {
+          "nome": "Relevo brasileiro",
+          "frequencia": 4,
+          "porque": "Planalto e depressões.",
+          "como": "Formação tectônica."
+        },
+        {
+          "nome": "Climas do Brasil",
+          "frequencia": 5,
+          "porque": "Equatorial, tropical e subtropical.",
+          "como": "Distribuição."
+        },
+        {
+          "nome": "Hidrografia",
+          "frequencia": 4,
+          "porque": "Bacias hidrográficas.",
+          "como": "Amazonas e Paraná."
+        },
+        {
+          "nome": "População e demografia",
+          "frequencia": 4,
+          "porque": "Crescimento e pirâmides.",
+          "como": "Transição demográfica."
+        },
+        {
+          "nome": "Urbanização",
+          "frequencia": 4,
+          "porque": "Megacidades e favelas.",
+          "como": "Desigualdade."
+        },
+        {
+          "nome": "Regiões brasileiras",
+          "frequencia": 3,
+          "porque": "Características.",
+          "como": "Norte ao Sul."
+        },
+        {
+          "nome": "Geopolítica e fronteiras",
+          "frequencia": 3,
+          "porque": "Integração regional.",
+          "como": "MERCOSUL."
+        },
+        {
+          "nome": "Recursos naturais",
+          "frequencia": 3,
+          "porque": "Mineração e energia.",
+          "como": "Petróleo e hidrelétricas."
+        },
+        {
+          "nome": "Mudanças climáticas",
+          "frequencia": 4,
+          "porque": "El Niño e aquecimento.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "Cartografia",
+          "frequencia": 3,
+          "porque": "Projeções e escalas.",
+          "como": "Leitura de mapa."
+        },
+        {
+          "nome": "Geografia econômica",
+          "frequencia": 3,
+          "porque": "Setores produtivos.",
+          "como": "Primário, secundário, terciário."
+        },
+        {
+          "nome": "Meio ambiente",
+          "frequencia": 4,
+          "porque": "Desmatamento e políticas.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Transporte e logística",
+          "frequencia": 2,
+          "porque": "Infraestrutura.",
+          "como": "Rodovias e ferrovias."
+        },
+        {
+          "nome": "Questões sociais",
+          "frequencia": 3,
+          "porque": "Desigualdade e acesso.",
+          "como": "IDH."
         }
       ]
     },
