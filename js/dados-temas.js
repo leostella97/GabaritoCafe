@@ -7557,6 +7557,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Aplicações.",
           "como": "Microscópio."
+        },
+        {
+          "nome": "Olho humano e defeitos da visão",
+          "frequencia": 2,
+          "porque": "Óptica aplicada.",
+          "como": "Miopia e hipermetropia."
+        },
+        {
+          "nome": "Difração e polarização",
+          "frequencia": 2,
+          "porque": "Ondas.",
+          "como": "Fenômenos ondulatórios."
+        },
+        {
+          "nome": "Efeito Doppler",
+          "frequencia": 2,
+          "porque": "Frequência.",
+          "como": "Som e luz."
+        },
+        {
+          "nome": "Ressonância",
+          "frequencia": 2,
+          "porque": "Oscilações.",
+          "como": "Frequência natural."
+        },
+        {
+          "nome": "Ondas eletromagnéticas",
+          "frequencia": 2,
+          "porque": "Espectro.",
+          "como": "Radiofrequências a raios gama."
+        },
+        {
+          "nome": "Decaimento radioativo",
+          "frequencia": 2,
+          "porque": "Física nuclear.",
+          "como": "Alfa, beta, gama."
+        },
+        {
+          "nome": "Fissão e fusão nuclear",
+          "frequencia": 2,
+          "porque": "Energia.",
+          "como": "Bomba e sol."
+        },
+        {
+          "nome": "Notação científica e ordem de grandeza",
+          "frequencia": 2,
+          "porque": "Cálculo.",
+          "como": "Potências de 10."
+        },
+        {
+          "nome": "Gráficos cinemáticos",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "v x t, s x t."
+        },
+        {
+          "nome": "Queda livre",
+          "frequencia": 2,
+          "porque": "Gravidade.",
+          "como": "g = 10 m/s²."
+        },
+        {
+          "nome": "Energia mecânica",
+          "frequencia": 3,
+          "porque": "Conservação.",
+          "como": "Cinética + potencial."
+        },
+        {
+          "nome": "Colisões",
+          "frequencia": 2,
+          "porque": "Choque.",
+          "como": "Elástica e inelástica."
+        },
+        {
+          "nome": "Pressão atmosférica",
+          "frequencia": 2,
+          "porque": "Hidrostática.",
+          "como": "Torricelli."
+        },
+        {
+          "nome": "Vazão e equação da continuidade",
+          "frequencia": 2,
+          "porque": "Hidrodinâmica.",
+          "como": "Fluxo constante."
         }
       ]
     },
