@@ -12973,6 +12973,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Bauman.",
           "como": "Relações líquidas."
+        },
+        {
+          "nome": "Fato social e coerção",
+          "frequencia": 3,
+          "porque": "Durkheim.",
+          "como": "Exterior e geral."
+        },
+        {
+          "nome": "Tipos de solidariedade",
+          "frequencia": 2,
+          "porque": "Durkheim.",
+          "como": "Mecânica e orgânica."
+        },
+        {
+          "nome": "Capitalismo e propriedade",
+          "frequencia": 2,
+          "porque": "Marx.",
+          "como": "Meios de produção."
+        },
+        {
+          "nome": "Mais-valia",
+          "frequencia": 2,
+          "porque": "Exploração.",
+          "como": "Trabalho não pago."
+        },
+        {
+          "nome": "Alienação no trabalho",
+          "frequencia": 2,
+          "porque": "Marx.",
+          "como": "Produto estranho."
+        },
+        {
+          "nome": "Tipos de dominação",
+          "frequencia": 2,
+          "porque": "Weber.",
+          "como": "Tradicional, carismática, legal."
+        },
+        {
+          "nome": "Ética protestante",
+          "frequencia": 2,
+          "porque": "Weber.",
+          "como": "Espírito do capitalismo."
+        },
+        {
+          "nome": "Classe social na sociologia",
+          "frequencia": 2,
+          "porque": "Estratificação.",
+          "como": "Marx e Weber."
+        },
+        {
+          "nome": "Mobilidade social",
+          "frequencia": 2,
+          "porque": "Movimento.",
+          "como": "Ascensão."
+        },
+        {
+          "nome": "Papel e status social",
+          "frequencia": 2,
+          "porque": "Posição.",
+          "como": "Papéis sociais."
+        },
+        {
+          "nome": "Desvio social e estigma",
+          "frequencia": 2,
+          "porque": "Goffman.",
+          "como": "Rotulação."
+        },
+        {
+          "nome": "Sociedade de consumo",
+          "frequencia": 2,
+          "porque": "Bauman.",
+          "como": "Necessidades criadas."
+        },
+        {
+          "nome": "Relações de poder",
+          "frequencia": 2,
+          "porque": "Foucault.",
+          "como": "Microfísica do poder."
+        },
+        {
+          "nome": "Globalização cultural",
+          "frequencia": 2,
+          "porque": "Homogeneização.",
+          "como": "Cultura global."
         }
       ]
     },
