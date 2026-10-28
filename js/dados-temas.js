@@ -7721,6 +7721,210 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Geometria espacial.",
           "como": "Prismas."
+        },
+        {
+          "nome": "Operações com frações",
+          "frequencia": 3,
+          "porque": "Base numérica.",
+          "como": "Soma, produto, divisão."
+        },
+        {
+          "nome": "MMC e MDC",
+          "frequencia": 3,
+          "porque": "Múltiplos e divisores.",
+          "como": "Fatoração."
+        },
+        {
+          "nome": "Porcentagem",
+          "frequencia": 5,
+          "porque": "Cotidiano.",
+          "como": "Aumentos e descontos."
+        },
+        {
+          "nome": "Juros compostos",
+          "frequencia": 3,
+          "porque": "Acumulação.",
+          "como": "Fórmula exponencial."
+        },
+        {
+          "nome": "Regra de três composta",
+          "frequencia": 3,
+          "porque": "Proporcionalidade.",
+          "como": "Direta e inversa."
+        },
+        {
+          "nome": "Equação exponencial",
+          "frequencia": 2,
+          "porque": "Expoente.",
+          "como": "Mesma base."
+        },
+        {
+          "nome": "Equação logarítmica",
+          "frequencia": 2,
+          "porque": "Logaritmo.",
+          "como": "Propriedades."
+        },
+        {
+          "nome": "Inequação de primeiro grau",
+          "frequencia": 2,
+          "porque": "Desigualdade.",
+          "como": "Solução em intervalo."
+        },
+        {
+          "nome": "Inequação de segundo grau",
+          "frequencia": 2,
+          "porque": "Parábola.",
+          "como": "Estudo do sinal."
+        },
+        {
+          "nome": "Função composta",
+          "frequencia": 2,
+          "porque": "Combinação.",
+          "como": "f(g(x))."
+        },
+        {
+          "nome": "Função inversa",
+          "frequencia": 2,
+          "porque": "Reversão.",
+          "como": "Trocar x e y."
+        },
+        {
+          "nome": "Gráficos de funções",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "Crescimento e decrescimento."
+        },
+        {
+          "nome": "Domínio e imagem",
+          "frequencia": 2,
+          "porque": "Definição.",
+          "como": "Restrições."
+        },
+        {
+          "nome": "Progressão aritmética",
+          "frequencia": 3,
+          "porque": "Soma.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Progressão geométrica",
+          "frequencia": 3,
+          "porque": "Produto.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Teorema de Tales",
+          "frequencia": 2,
+          "porque": "Proporção.",
+          "como": "Feixe de paralelas."
+        },
+        {
+          "nome": "Semelhança de triângulos",
+          "frequencia": 3,
+          "porque": "Lados proporcionais.",
+          "como": "Casos de semelhança."
+        },
+        {
+          "nome": "Teorema de Pitágoras",
+          "frequencia": 4,
+          "porque": "Triângulo retângulo.",
+          "como": "a² = b² + c²."
+        },
+        {
+          "nome": "Razões trigonométricas",
+          "frequencia": 3,
+          "porque": "Triângulo retângulo.",
+          "como": "Seno, cosseno, tangente."
+        },
+        {
+          "nome": "Lei dos senos",
+          "frequencia": 2,
+          "porque": "Triângulo qualquer.",
+          "como": "Lado/ângulo oposto."
+        },
+        {
+          "nome": "Lei dos cossenos",
+          "frequencia": 2,
+          "porque": "Triângulo qualquer.",
+          "como": "Generalização."
+        },
+        {
+          "nome": "Polígonos regulares",
+          "frequencia": 2,
+          "porque": "Ângulos.",
+          "como": "Soma dos internos."
+        },
+        {
+          "nome": "Circunferência e círculo",
+          "frequencia": 3,
+          "porque": "Comprimento e área.",
+          "como": "Pi = 3,14."
+        },
+        {
+          "nome": "Setor circular",
+          "frequencia": 2,
+          "porque": "Ângulo.",
+          "como": "Regra de três."
+        },
+        {
+          "nome": "Cilindro",
+          "frequencia": 3,
+          "porque": "Volume.",
+          "como": "Área da base × altura."
+        },
+        {
+          "nome": "Cone",
+          "frequencia": 2,
+          "porque": "Volume.",
+          "como": "1/3 área da base × altura."
+        },
+        {
+          "nome": "Esfera",
+          "frequencia": 2,
+          "porque": "Volume e área.",
+          "como": "4/3 πr³."
+        },
+        {
+          "nome": "Tronco de pirâmide e cone",
+          "frequencia": 2,
+          "porque": "Seção.",
+          "como": "Semelhança."
+        },
+        {
+          "nome": "Distância entre dois pontos",
+          "frequencia": 2,
+          "porque": "Geometria analítica.",
+          "como": "Fórmula."
+        },
+        {
+          "nome": "Equação da reta",
+          "frequencia": 3,
+          "porque": "Geometria analítica.",
+          "como": "y = mx + b."
+        },
+        {
+          "nome": "Equação da circunferência",
+          "frequencia": 2,
+          "porque": "Geometria analítica.",
+          "como": "Centro e raio."
+        },
+        {
+          "nome": "Média, mediana e moda",
+          "frequencia": 3,
+          "porque": "Estatística.",
+          "como": "Cálculo."
+        },
+        {
+          "nome": "Desvio padrão",
+          "frequencia": 2,
+          "porque": "Dispersão.",
+          "como": "Variância."
+        },
+        {
+          "nome": "Gráficos estatísticos",
+          "frequencia": 2,
+          "porque": "Interpretação.",
+          "como": "Histograma."
         }
       ]
     },
