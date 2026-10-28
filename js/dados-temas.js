@@ -7767,6 +7767,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Contexto.",
           "como": "Cultura."
+        },
+        {
+          "nome": "História da arte",
+          "frequencia": 3,
+          "porque": "Períodos.",
+          "como": "Renas."
+        },
+        {
+          "nome": "Arte moderna",
+          "frequencia": 3,
+          "porque": "Vanguardas.",
+          "como": "Movimentos."
+        },
+        {
+          "nome": "Arte contemporânea",
+          "frequencia": 2,
+          "porque": "Atual.",
+          "como": "Tendências."
+        },
+        {
+          "nome": "Pintura",
+          "frequencia": 3,
+          "porque": "Técnicas.",
+          "como": "Estilos."
+        },
+        {
+          "nome": "Escultura",
+          "frequencia": 2,
+          "porque": "Tridimensional.",
+          "como": "Materiais."
+        },
+        {
+          "nome": "Música",
+          "frequencia": 2,
+          "porque": "Expressão.",
+          "como": "Gêneros."
+        },
+        {
+          "nome": "Dança",
+          "frequencia": 2,
+          "porque": "Movimento.",
+          "como": "Estilos."
+        },
+        {
+          "nome": "Teatro",
+          "frequencia": 2,
+          "porque": "Performance.",
+          "como": "Autoria."
+        },
+        {
+          "nome": "Cinema",
+          "frequencia": 2,
+          "porque": "Audiovisual.",
+          "como": "Linguagem."
+        },
+        {
+          "nome": "Fotografia",
+          "frequencia": 2,
+          "porque": "Imagem.",
+          "como": "Técnica."
+        },
+        {
+          "nome": "Design",
+          "frequencia": 2,
+          "porque": "Projeto.",
+          "como": "Funcional."
+        },
+        {
+          "nome": "Arte brasileira",
+          "frequencia": 3,
+          "porque": "Identidade.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Arte africana",
+          "frequencia": 1,
+          "porque": "Referência.",
+          "como": "Simbolismo."
+        },
+        {
+          "nome": "Arte indígena",
+          "frequencia": 1,
+          "porque": "Tradição.",
+          "como": "Cultura."
         }
       ]
     },
