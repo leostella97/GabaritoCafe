@@ -8056,6 +8056,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Inovação.",
           "como": "Wearables."
+        },
+        {
+          "nome": "Anatomia",
+          "frequencia": 3,
+          "porque": "Estrutura.",
+          "como": "Músculos."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 3,
+          "porque": "Adaptação.",
+          "como": "Respiração."
+        },
+        {
+          "nome": "Nutrição esportiva",
+          "frequencia": 3,
+          "porque": "Desempenho.",
+          "como": "Macronutrientes."
+        },
+        {
+          "nome": "Recuperação",
+          "frequencia": 2,
+          "porque": "Pós-treino.",
+          "como": "Alongamento."
+        },
+        {
+          "nome": "Psicologia do esporte",
+          "frequencia": 2,
+          "porque": "Mental.",
+          "como": "Foco."
+        },
+        {
+          "nome": "Lesões",
+          "frequencia": 2,
+          "porque": "Prevenção.",
+          "como": "Primeiros socorros."
+        },
+        {
+          "nome": "Treinamento de força",
+          "frequencia": 2,
+          "porque": "Hipertrofia.",
+          "como": "Sobrecarga."
+        },
+        {
+          "nome": "Treinamento aeróbico",
+          "frequencia": 2,
+          "porque": "Resistência.",
+          "como": "VO2max."
+        },
+        {
+          "nome": "Esportes coletivos",
+          "frequencia": 2,
+          "porque": "Estratégia.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Esportes individuais",
+          "frequencia": 2,
+          "porque": "Técnica.",
+          "como": "Habilidades."
+        },
+        {
+          "nome": "Educação física escolar",
+          "frequencia": 2,
+          "porque": "Pedagogia.",
+          "como": "Planejamento."
+        },
+        {
+          "nome": "Saúde coletiva",
+          "frequencia": 2,
+          "porque": "Bem-estar.",
+          "como": "Promoção."
+        },
+        {
+          "nome": "Atividade física e doenças",
+          "frequencia": 2,
+          "porque": "Prevenção.",
+          "como": "Cardiovasculares."
+        },
+        {
+          "nome": "História da educação física",
+          "frequencia": 1,
+          "porque": "Contexto.",
+          "como": "Evolução."
         }
       ]
     },
