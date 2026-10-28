@@ -7247,6 +7247,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Ciclo circadiano.",
           "como": "Melatonina."
+        },
+        {
+          "nome": "Fisiologia da visão",
+          "frequencia": 2,
+          "porque": "Órgão sensorial.",
+          "como": "Retina."
+        },
+        {
+          "nome": "Fisiologia da audição",
+          "frequencia": 2,
+          "porque": "Ouvido.",
+          "como": "Cóclea."
+        },
+        {
+          "nome": "Fisiologia da temperatura",
+          "frequencia": 2,
+          "porque": "Termorregulação.",
+          "como": "Hipotalamo."
+        },
+        {
+          "nome": "Fisiologia do estresse",
+          "frequencia": 2,
+          "porque": " eixo HPA.",
+          "como": "Cortisol."
+        },
+        {
+          "nome": "Fisiologia reprodutiva",
+          "frequencia": 3,
+          "porque": "Hormônios.",
+          "como": "Ciclo menstrual."
+        },
+        {
+          "nome": "Fisiologia do envelhecimento",
+          "frequencia": 2,
+          "porque": "Senescência.",
+          "como": "Degeneração."
+        },
+        {
+          "nome": "Fisiologia da dor",
+          "frequencia": 2,
+          "porque": "Nocicepção.",
+          "como": "Vias."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 3,
+          "porque": "Adaptações.",
+          "como": "VO2máx."
+        },
+        {
+          "nome": "Fisiologia gastrointestinal",
+          "frequencia": 3,
+          "porque": "Digestão.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Fisiologia endócrina",
+          "frequencia": 3,
+          "porque": "Hormônios.",
+          "como": "Glândulas."
+        },
+        {
+          "nome": "Fisiologia cardíaca avançada",
+          "frequencia": 3,
+          "porque": "Eletrocardiograma.",
+          "como": "Onda PQRST."
+        },
+        {
+          "nome": "Fisiologia respiratória avançada",
+          "frequencia": 3,
+          "porque": "Troca gasosa.",
+          "como": "Hemoglobina."
+        },
+        {
+          "nome": "Fisiologia renal avançada",
+          "frequencia": 3,
+          "porque": "Filtração.",
+          "como": "Pressão oncótica."
+        },
+        {
+          "nome": "Fisiologia neuroendócrina",
+          "frequencia": 2,
+          "porque": "Interação.",
+          "como": "Hipófise."
         }
       ]
     },
