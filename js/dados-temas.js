@@ -6375,6 +6375,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Prática.",
           "como": "Laboratório."
+        },
+        {
+          "nome": "Cinemática",
+          "frequencia": 5,
+          "porque": "Movimento uniforme.",
+          "como": "MU e MUV."
+        },
+        {
+          "nome": "Dinâmica",
+          "frequencia": 5,
+          "porque": "Forças.",
+          "como": "Leis de Newton."
+        },
+        {
+          "nome": "Gravitação",
+          "frequencia": 3,
+          "porque": "Universal.",
+          "como": "Leis de Kepler."
+        },
+        {
+          "nome": "Trabalho e energia",
+          "frequencia": 4,
+          "porque": "Conservação.",
+          "como": "Potência."
+        },
+        {
+          "nome": "Impulso e quantidade de movimento",
+          "frequencia": 3,
+          "porque": "Colisões.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Estática",
+          "frequencia": 3,
+          "porque": "Equilíbrio.",
+          "como": "Momento."
+        },
+        {
+          "nome": "Calorimetria",
+          "frequencia": 3,
+          "porque": "Troca de calor.",
+          "como": "Capacidade térmica."
+        },
+        {
+          "nome": "Dilatação térmica",
+          "frequencia": 2,
+          "porque": "Expansão.",
+          "como": "Coeficiente."
+        },
+        {
+          "nome": "Gases ideais",
+          "frequencia": 2,
+          "porque": "Transformações.",
+          "como": "Clapeyron."
+        },
+        {
+          "nome": "Espelhos e lentes",
+          "frequencia": 3,
+          "porque": "Óptica.",
+          "como": "Equação de Gauss."
+        },
+        {
+          "nome": "Refração",
+          "frequencia": 3,
+          "porque": "Mudança de meio.",
+          "como": "Lei de Snell."
+        },
+        {
+          "nome": "Ondulatória",
+          "frequencia": 3,
+          "porque": "Fenômenos.",
+          "como": "Interferência."
+        },
+        {
+          "nome": "Circuitos elétricos",
+          "frequencia": 3,
+          "porque": "Resistores.",
+          "como": "Leis de Kirchhoff."
+        },
+        {
+          "nome": "Magnetismo",
+          "frequencia": 2,
+          "porque": "Campos.",
+          "como": "Força magnética."
         }
       ]
     },
