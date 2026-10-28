@@ -8725,6 +8725,126 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Prefixos e sufixos.",
           "como": "Un-, -ful, -less."
+        },
+        {
+          "nome": "Simple present",
+          "frequencia": 3,
+          "porque": "Uso diário.",
+          "como": "Do/does."
+        },
+        {
+          "nome": "Present continuous",
+          "frequencia": 3,
+          "porque": "Ação em andamento.",
+          "como": "Be + -ing."
+        },
+        {
+          "nome": "Simple past",
+          "frequencia": 3,
+          "porque": "Ação concluída.",
+          "como": "Did."
+        },
+        {
+          "nome": "Past continuous",
+          "frequencia": 2,
+          "porque": "Ação interrompida.",
+          "como": "Was/were + -ing."
+        },
+        {
+          "nome": "Future forms",
+          "frequencia": 2,
+          "porque": "Will e going to.",
+          "como": "Diferenças."
+        },
+        {
+          "nome": "Comparative and superlative",
+          "frequencia": 3,
+          "porque": "Adjetivos.",
+          "como": "-er e -est."
+        },
+        {
+          "nome": "Relative clauses",
+          "frequencia": 2,
+          "porque": "Who, which, that.",
+          "como": "Conecta orações."
+        },
+        {
+          "nome": "Gerund and infinitive",
+          "frequencia": 2,
+          "porque": "Forma do verbo.",
+          "como": "Gerúndio ou infinitivo."
+        },
+        {
+          "nome": "Quantifiers",
+          "frequencia": 2,
+          "porque": "Amount.",
+          "como": "Some, any, a lot of."
+        },
+        {
+          "nome": "Adverbs of frequency",
+          "frequencia": 2,
+          "porque": "Frequência.",
+          "como": "Always, never."
+        },
+        {
+          "nome": "Linking words",
+          "frequencia": 3,
+          "porque": "Sequência lógica.",
+          "como": "First, next, finally."
+        },
+        {
+          "nome": "Skimming and scanning",
+          "frequencia": 2,
+          "porque": "Leitura rápida.",
+          "como": "Identificar ideias."
+        },
+        {
+          "nome": "Textual genres in English",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Ads, reports, poems."
+        },
+        {
+          "nome": "Context clues",
+          "frequencia": 2,
+          "porque": "Vocabulário.",
+          "como": "Palavra desconhecida."
+        },
+        {
+          "nome": "Main idea",
+          "frequencia": 3,
+          "porque": "Compreensão geral.",
+          "como": "Tópico central."
+        },
+        {
+          "nome": "Inference questions",
+          "frequencia": 2,
+          "porque": "Implícito.",
+          "como": "Read between lines."
+        },
+        {
+          "nome": "Author purpose",
+          "frequencia": 2,
+          "porque": "Intenção.",
+          "como": "Inform, persuade."
+        },
+        {
+          "nome": "False friends advanced",
+          "frequencia": 3,
+          "porque": "Cognatos enganosos.",
+          "como": "Pretend ≠ pretender."
+        },
+        {
+          "nome": "Register and tone",
+          "frequencia": 2,
+          "porque": "Formal ou informal.",
+          "como": "Estilo do texto."
+        },
+        {
+          "nome": "Travel and tourism vocabulary",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Booking, sightseeing."
         }
       ]
     },
