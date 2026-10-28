@@ -10292,6 +10292,1010 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "arquitetura-urbanismo",
+      "nome": "Arquitetura e Urbanismo",
+      "icone": "🏗️",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "5 anos",
+      "resumo": "Projetar espaços e cidades com equilíbrio entre estética, função e sustentabilidade — da obra ao planejamento urbano.",
+      "materias": [
+        {
+          "materia": "História da Arquitetura",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Estilos históricos",
+              "explicacao": "Clássico, gótico, renascentista, barroco e moderno."
+            },
+            {
+              "nome": "Arquitetura brasileira",
+              "explicacao": "Colonial, eclética, modernista (Niemeyer, Lúcio Costa) e contemporânea."
+            },
+            {
+              "nome": "Movimentos modernos",
+              "explicacao": "Bauhaus, funcionalismo e o estilo internacional."
+            },
+            {
+              "nome": "Patrimônio e preservação",
+              "explicacao": "Tombamento, restauro e valorização do acervo construído."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        },
+        {
+          "materia": "Desenho Técnico",
+          "icone": "📐",
+          "topicos": [
+            {
+              "nome": "Vistas ortográficas",
+              "explicacao": "Planta, corte e elevação como linguagem do projeto."
+            },
+            {
+              "nome": "Escalas e cotas",
+              "explicacao": "Proporção, dimensionamento e leitura precisa."
+            },
+            {
+              "nome": "Perspectiva",
+              "explicacao": "Isométrica e cônica para representar volumes."
+            },
+            {
+              "nome": "Normas ABNT",
+              "explicacao": "Padronização, caligrafia técnica e legendas."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            }
+          ]
+        },
+        {
+          "materia": "Urbanismo",
+          "icone": "🏙️",
+          "topicos": [
+            {
+              "nome": "Planejamento urbano",
+              "explicacao": "Zoneamento, plano diretor e uso do solo."
+            },
+            {
+              "nome": "Mobilidade urbana",
+              "explicacao": "Transporte, acessibilidade e cidades caminháveis."
+            },
+            {
+              "nome": "Meio ambiente urbano",
+              "explicacao": "Áreas verdes, ventilação e sustentabilidade."
+            },
+            {
+              "nome": "Habitação e direito à cidade",
+              "explicacao": "Políticas habitacionais e regularização fundiária."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "odontologia",
+      "nome": "Odontologia",
+      "icone": "🦷",
+      "area": "Ciências da Saúde",
+      "duracao": "5 anos",
+      "resumo": "Diagnóstico, prevenção e tratamento da saúde bucal, com forte base em anatomia e práticas clínicas.",
+      "materias": [
+        {
+          "materia": "Anatomia Bucal",
+          "icone": "👄",
+          "topicos": [
+            {
+              "nome": "Dentição permanente e decídua",
+              "explicacao": "Classificação, nomenclatura e cronologia de erupção."
+            },
+            {
+              "nome": "Estruturas dentárias",
+              "explicacao": "Esmalte, dentina, polpa e periodonto."
+            },
+            {
+              "nome": "Morfologia dental",
+              "explicacao": "Características de cada grupo de dentes."
+            },
+            {
+              "nome": "Oclusão e ATM",
+              "explicacao": "Relações maxilomandibulares e articulação temporomandibular."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Periodontia",
+          "icone": "🩹",
+          "topicos": [
+            {
+              "nome": "Doenças periodontais",
+              "explicacao": "Gengivite e periodontite: causas e evolução."
+            },
+            {
+              "nome": "Biofilme dental",
+              "explicacao": "Placa bacteriana e o processo cariogênico."
+            },
+            {
+              "nome": "Tratamento periodontal",
+              "explicacao": "Raspagem, alisamento e cirurgia."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Dentística e Prótese",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Materiais restauradores",
+              "explicacao": "Amálgama, resina e ionômero de vidro."
+            },
+            {
+              "nome": "Cárie e tratamento",
+              "explicacao": "Diagnóstico, prevenção e restauração."
+            },
+            {
+              "nome": "Próteses dentárias",
+              "explicacao": "Totais, parciais e fixas."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enfermagem",
+      "nome": "Enfermagem",
+      "icone": "💉",
+      "area": "Ciências da Saúde",
+      "duracao": "4 anos",
+      "resumo": "Cuidado integral ao paciente, da atenção básica à alta complexidade, com ênfase em fundamentos clínicos e humanização.",
+      "materias": [
+        {
+          "materia": "Fundamentos de Enfermagem",
+          "icone": "🩺",
+          "topicos": [
+            {
+              "nome": "Sinais vitais",
+              "explicacao": "Temperatura, pulso, respiração e pressão arterial."
+            },
+            {
+              "nome": "Higiene e conforto",
+              "explicacao": "Banho no leito, posicionamento e prevenção de lesões."
+            },
+            {
+              "nome": "Administração de medicamentos",
+              "explicacao": "Vias, cálculo de dose e os 9 certos."
+            },
+            {
+              "nome": "Sistematização da Assistência (SAE)",
+              "explicacao": "Histórico, diagnóstico, prescrição e avaliação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Saúde Coletiva",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "SUS e políticas públicas",
+              "explicacao": "Princípios, diretrizes e a atenção primária."
+            },
+            {
+              "nome": "Vigilância em saúde",
+              "explicacao": "Epidemiológica, sanitária e ambiental."
+            },
+            {
+              "nome": "Imunização",
+              "explicacao": "Calendário vacinal e rede de frio."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Enfermagem Clínica e Cirúrgica",
+          "icone": "🏨",
+          "topicos": [
+            {
+              "nome": "Assistência clínica",
+              "explicacao": "Cuidados em doenças crônicas e agudas."
+            },
+            {
+              "nome": "Enfermagem cirúrgica",
+              "explicacao": "Pré, trans e pós-operatório."
+            },
+            {
+              "nome": "Urgência e emergência",
+              "explicacao": "Suporte básico de vida e classificações de risco."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farmacia",
+      "nome": "Farmácia",
+      "icone": "💊",
+      "area": "Ciências da Saúde",
+      "duracao": "5 anos",
+      "resumo": "Do fármaco ao paciente: ciência dos medicamentos, análises clínicas e atenção farmacêutica.",
+      "materias": [
+        {
+          "materia": "Farmacologia",
+          "icone": "🧪",
+          "topicos": [
+            {
+              "nome": "Farmacocinética",
+              "explicacao": "Absorção, distribuição, metabolismo e excreção."
+            },
+            {
+              "nome": "Farmacodinâmica",
+              "explicacao": "Mecanismos de ação e interação fármaco-receptor."
+            },
+            {
+              "nome": "Classes farmacológicas",
+              "explicacao": "Antibióticos, analgésicos, anti-inflamatórios e mais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Química Farmacêutica",
+          "icone": "⚗️",
+          "topicos": [
+            {
+              "nome": "Estrutura e atividade",
+              "explicacao": "Relação entre estrutura química e efeito."
+            },
+            {
+              "nome": "Síntese de fármacos",
+              "explicacao": "Principais rotas e grupos funcionais."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Análises Clínicas",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Hematologia",
+              "explicacao": "Hemograma e distúrbios sanguíneos."
+            },
+            {
+              "nome": "Microbiologia clínica",
+              "explicacao": "Identificação de microrganismos."
+            },
+            {
+              "nome": "Bioquímica clínica",
+              "explicacao": "Glicose, enzimas e funções renal/hepática."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutricao",
+      "nome": "Nutrição",
+      "icone": "🥗",
+      "area": "Ciências da Saúde",
+      "duracao": "4 anos",
+      "resumo": "Ciência da alimentação e seus efeitos na saúde, da composição dos alimentos ao planejamento dietético clínico e coletivo.",
+      "materias": [
+        {
+          "materia": "Nutrição Básica",
+          "icone": "🍎",
+          "topicos": [
+            {
+              "nome": "Macronutrientes",
+              "explicacao": "Carboidratos, proteínas e lipídeos."
+            },
+            {
+              "nome": "Micronutrientes",
+              "explicacao": "Vitaminas e minerais essenciais."
+            },
+            {
+              "nome": "Metabolismo energético",
+              "explicacao": "Gasto energético e balanço calórico."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Nutrição Clínica",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "Avaliação nutricional",
+              "explicacao": "Antropometria, anamnese e exames."
+            },
+            {
+              "nome": "Dietoterapia",
+              "explicacao": "Dietas em doenças crônicas e hospitalares."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Alimentação Coletiva",
+          "icone": "🍽️",
+          "topicos": [
+            {
+              "nome": "Segurança alimentar",
+              "explicacao": "Boas práticas e controle higiênico-sanitário."
+            },
+            {
+              "nome": "Gestão de UAN",
+              "explicacao": "Unidades de alimentação e nutrição."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agronomia",
+      "nome": "Agronomia",
+      "icone": "🌾",
+      "area": "Ciências Agrárias",
+      "duracao": "5 anos",
+      "resumo": "Produzir alimentos com ciência: solo, planta, clima e tecnologia a serviço do agronegócio sustentável.",
+      "materias": [
+        {
+          "materia": "Ciência do Solo",
+          "icone": "🟤",
+          "topicos": [
+            {
+              "nome": "Propriedades do solo",
+              "explicacao": "Física, química e biologia do solo."
+            },
+            {
+              "nome": "Fertilidade e adubação",
+              "explicacao": "Nutrientes, correção e manejo."
+            },
+            {
+              "nome": "Conservação do solo",
+              "explicacao": "Erosão, terraceamento e plantio direto."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Fitotecnia",
+          "icone": "🌱",
+          "topicos": [
+            {
+              "nome": "Grandes culturas",
+              "explicacao": "Soja, milho, arroz e feijão."
+            },
+            {
+              "nome": "Manejo de plantas daninhas",
+              "explicacao": "Controle químico, cultural e biológico."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Fitossanidade",
+          "icone": "🐛",
+          "topicos": [
+            {
+              "nome": "Entomologia agrícola",
+              "explicacao": "Pragas e manejo integrado."
+            },
+            {
+              "nome": "Fitopatologia",
+              "explicacao": "Doenças de plantas e controle."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engenharia-eletrica",
+      "nome": "Engenharia Elétrica",
+      "icone": "⚡",
+      "area": "Engenharias",
+      "duracao": "5 anos",
+      "resumo": "Geração, transmissão e aplicação da energia elétrica, dos circuitos básicos aos sistemas de potência.",
+      "materias": [
+        {
+          "materia": "Circuitos Elétricos",
+          "icone": "🔌",
+          "topicos": [
+            {
+              "nome": "Leis de Kirchhoff",
+              "explicacao": "Correntes e tensões em malhas e nós."
+            },
+            {
+              "nome": "Análise de circuitos",
+              "explicacao": "Thévenin, Norton e superposição."
+            },
+            {
+              "nome": "Circuitos em corrente alternada",
+              "explicacao": "Fasores, impedância e potência."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Eletromagnetismo",
+          "icone": "🧲",
+          "topicos": [
+            {
+              "nome": "Campo elétrico e magnético",
+              "explicacao": "Leis de Gauss, Ampère e Faraday."
+            },
+            {
+              "nome": "Máquinas elétricas",
+              "explicacao": "Transformadores, motores e geradores."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Sistemas de Potência",
+          "icone": "🏭",
+          "topicos": [
+            {
+              "nome": "Geração de energia",
+              "explicacao": "Hidrelétrica, térmica, eólica e solar."
+            },
+            {
+              "nome": "Transmissão e distribuição",
+              "explicacao": "Linhas, subestações e redes."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jornalismo",
+      "nome": "Jornalismo",
+      "icone": "📰",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Apurar, escrever e comunicar com responsabilidade: da redação às multiplataformas digitais.",
+      "materias": [
+        {
+          "materia": "Teorias da Comunicação",
+          "icone": "📡",
+          "topicos": [
+            {
+              "nome": "Escolas de comunicação",
+              "explicacao": "Funcionalismo, Escola de Frankfurt e estudos culturais."
+            },
+            {
+              "nome": "Agenda-setting e newsmaking",
+              "explicacao": "Como a mídia define pauta e enquadramento."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Redação Jornalística",
+          "icone": "✍️",
+          "topicos": [
+            {
+              "nome": "Gêneros jornalísticos",
+              "explicacao": "Notícia, reportagem, entrevista, crônica e editorial."
+            },
+            {
+              "nome": "Técnicas de lead e pirâmide invertida",
+              "explicacao": "Estruturar o texto de forma clara e objetiva."
+            },
+            {
+              "nome": "Jornalismo digital",
+              "explicacao": "SEO, redes sociais e transmídia."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Ética e Legislação",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Código de ética do jornalista",
+              "explicacao": "Princípios, direitos e deveres da profissão."
+            },
+            {
+              "nome": "Direito à informação",
+              "explicacao": "Liberdade de imprensa e limites legais."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relacoes-internacionais",
+      "nome": "Relações Internacionais",
+      "icone": "🌐",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Política, economia e direito entre nações: diplomacia, comércio global e organismos internacionais.",
+      "materias": [
+        {
+          "materia": "Teoria das Relações Internacionais",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "Realismo e liberalismo",
+              "explicacao": "Escolas clássicas e o debate do poder."
+            },
+            {
+              "nome": "Construtivismo e críticas",
+              "explicacao": "Ideias, identidades e abordagens pós-positivistas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Organizações Internacionais",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "ONU e sistema multilateral",
+              "explicacao": "Estrutura, agências e funções."
+            },
+            {
+              "nome": "Blocos regionais",
+              "explicacao": "UE, Mercosul, NAFTA e BRICS."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Política Externa Brasileira",
+          "icone": "🇧🇷",
+          "topicos": [
+            {
+              "nome": "História da política externa",
+              "explicacao": "Do Império à Nova República."
+            },
+            {
+              "nome": "Brasil no mundo",
+              "explicacao": "Diplomacia, comércio e cooperação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciencias-contabeis",
+      "nome": "Ciências Contábeis",
+      "icone": "📊",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Registrar, mensurar e analisar o patrimônio das organizações — a base da informação financeira.",
+      "materias": [
+        {
+          "materia": "Contabilidade Geral",
+          "icone": "📒",
+          "topicos": [
+            {
+              "nome": "Patrimônio e equação contábil",
+              "explicacao": "Ativo, passivo e patrimônio líquido."
+            },
+            {
+              "nome": "Débito e crédito",
+              "explicacao": "Mecanismo de partidas dobradas."
+            },
+            {
+              "nome": "Demonstrações contábeis",
+              "explicacao": "Balanço, DRE e fluxo de caixa."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Contabilidade de Custos",
+          "icone": "🧮",
+          "topicos": [
+            {
+              "nome": "Custeio por absorção e variável",
+              "explicacao": "Métodos de apuração de custos."
+            },
+            {
+              "nome": "Ponto de equilíbrio",
+              "explicacao": "Receita, custo fixo e variável."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Auditoria e Perícia",
+          "icone": "🔍",
+          "topicos": [
+            {
+              "nome": "Auditoria interna e externa",
+              "explicacao": "Procedimentos e relatórios."
+            },
+            {
+              "nome": "Perícia contábil",
+              "explicacao": "Laudos e pareceres técnicos."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pedagogia",
+      "nome": "Pedagogia",
+      "icone": "🎓",
+      "area": "Ciências Humanas",
+      "duracao": "4 anos",
+      "resumo": "A ciência da educação: aprender, ensinar e gerir processos educativos da infância à vida adulta.",
+      "materias": [
+        {
+          "materia": "Didática",
+          "icone": "📖",
+          "topicos": [
+            {
+              "nome": "Teorias de aprendizagem",
+              "explicacao": "Piaget, Vygotsky, Wallon e Skinner."
+            },
+            {
+              "nome": "Planejamento de ensino",
+              "explicacao": "Objetivos, conteúdos, métodos e avaliação."
+            },
+            {
+              "nome": "Metodologias ativas",
+              "explicacao": "Sala invertida, PBL e aprendizagem por projetos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Psicologia da Educação",
+          "icone": "🧠",
+          "topicos": [
+            {
+              "nome": "Desenvolvimento infantil",
+              "explicacao": "Etapas e marcos do desenvolvimento."
+            },
+            {
+              "nome": "Fracasso escolar",
+              "explicacao": "Causas, diagnóstico e intervenção."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Gestão Escolar",
+          "icone": "🏫",
+          "topicos": [
+            {
+              "nome": "Legislação educacional",
+              "explicacao": "LDB, BNCC e o sistema educacional."
+            },
+            {
+              "nome": "Projeto político-pedagógico",
+              "explicacao": "Construção coletiva e identidade escolar."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fisioterapia",
+      "nome": "Fisioterapia",
+      "icone": "🦴",
+      "area": "Ciências da Saúde",
+      "duracao": "5 anos",
+      "resumo": "Reabilitar funções e promover movimento: avaliação, prevenção e tratamento de disfunções do corpo.",
+      "materias": [
+        {
+          "materia": "Anatomia e Cinesiologia",
+          "icone": "🦵",
+          "topicos": [
+            {
+              "nome": "Sistema musculoesquelético",
+              "explicacao": "Músculos, ossos e articulações."
+            },
+            {
+              "nome": "Cinesiologia e biomecânica",
+              "explicacao": "Movimento humano e alavancas corporais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Fisioterapia Ortopédica",
+          "icone": "🚶",
+          "topicos": [
+            {
+              "nome": "Lesões musculoesqueléticas",
+              "explicacao": "Entorses, fraturas e tendinopatias."
+            },
+            {
+              "nome": "Reabilitação funcional",
+              "explicacao": "Ganho de força, amplitude e propriocepção."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Fisioterapia Respiratória e Neuro",
+          "icone": "🫁",
+          "topicos": [
+            {
+              "nome": "Fisioterapia respiratória",
+              "explicacao": "Higiene brônquica e ventilação."
+            },
+            {
+              "nome": "Fisioterapia neurológica",
+              "explicacao": "AVC, Parkinson e reabilitação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biomedicina",
+      "nome": "Biomedicina",
+      "icone": "🧬",
+      "area": "Ciências da Saúde",
+      "duracao": "4 anos",
+      "resumo": "Inovar no diagnóstico e na pesquisa em saúde: análises clínicas, biomedicina estética e biologia molecular.",
+      "materias": [
+        {
+          "materia": "Microbiologia",
+          "icone": "🦠",
+          "topicos": [
+            {
+              "nome": "Bacteriologia",
+              "explicacao": "Identificação e patogênese bacteriana."
+            },
+            {
+              "nome": "Virologia e micologia",
+              "explicacao": "Vírus e fungos de interesse clínico."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Imunologia Clínica",
+          "icone": "🛡️",
+          "topicos": [
+            {
+              "nome": "Resposta imune",
+              "explicacao": "Inata e adaptativa."
+            },
+            {
+              "nome": "Imunoensaios",
+              "explicacao": "ELISA, aglutinação e fluorescência."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Biologia Molecular",
+          "icone": "🧫",
+          "topicos": [
+            {
+              "nome": "PCR e sequenciamento",
+              "explicacao": "Técnicas de análise do DNA."
+            },
+            {
+              "nome": "Genética aplicada",
+              "explicacao": "Diagnóstico molecular e terapia gênica."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "educacao-fisica",
+      "nome": "Educação Física",
+      "icone": "🏃",
+      "area": "Ciências da Saúde",
+      "duracao": "4 anos",
+      "resumo": "Movimento, esporte e saúde: da formação esportiva à promoção da qualidade de vida.",
+      "materias": [
+        {
+          "materia": "Fisiologia do Exercício",
+          "icone": "🫀",
+          "topicos": [
+            {
+              "nome": "Adaptações ao treinamento",
+              "explicacao": "Aeróbicas e anaeróbicas."
+            },
+            {
+              "nome": "Metabolismo no exercício",
+              "explicacao": "Sistemas energéticos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Esportes Coletivos",
+          "icone": "⚽",
+          "topicos": [
+            {
+              "nome": "Fundamentos técnicos",
+              "explicacao": "Passe, drible, arremesso e chute."
+            },
+            {
+              "nome": "Táticas e regras",
+              "explicacao": "Sistemas de jogo e arbitragem."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Treinamento e Saúde",
+          "icone": "💪",
+          "topicos": [
+            {
+              "nome": "Prescrição de exercícios",
+              "explicacao": "Força, resistência e flexibilidade."
+            },
+            {
+              "nome": "Educação física escolar",
+              "explicacao": "Abordagens pedagógicas e BNCC."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
