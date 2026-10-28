@@ -10177,6 +10177,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Mídia.",
           "como": "Industrialização."
+        },
+        {
+          "nome": "Clássicos da sociologia",
+          "frequencia": 4,
+          "porque": "Fundamentos.",
+          "como": "Marx, Durkheim e Weber."
+        },
+        {
+          "nome": "Fato social",
+          "frequencia": 3,
+          "porque": "Durkheim.",
+          "como": "Coerção."
+        },
+        {
+          "nome": "Materialismo histórico",
+          "frequencia": 3,
+          "porque": "Marx.",
+          "como": "Modo de produção."
+        },
+        {
+          "nome": "Ação social",
+          "frequencia": 3,
+          "porque": "Weber.",
+          "como": "Tipos ideais."
+        },
+        {
+          "nome": "Estratificação social",
+          "frequencia": 3,
+          "porque": "Desigualdade.",
+          "como": "Classes."
+        },
+        {
+          "nome": "Instituições sociais",
+          "frequencia": 2,
+          "porque": "Organização.",
+          "como": "Escola e Estado."
+        },
+        {
+          "nome": "Indústria cultural",
+          "frequencia": 2,
+          "porque": "Adorno.",
+          "como": "Cultura de massa."
+        },
+        {
+          "nome": "Controle social",
+          "frequencia": 2,
+          "porque": "Normas.",
+          "como": "Desvio."
+        },
+        {
+          "nome": "Socialização",
+          "frequencia": 3,
+          "porque": "Processo.",
+          "como": "Primária e secundária."
+        },
+        {
+          "nome": "Movimentos sociais contemporâneos",
+          "frequencia": 3,
+          "porque": "Atualidade.",
+          "como": "Feminismo e ambientalismo."
+        },
+        {
+          "nome": "Sociologia no Brasil",
+          "frequencia": 2,
+          "porque": "Pensadores.",
+          "como": "Florestan Fernandes."
+        },
+        {
+          "nome": "Pobreza e exclusão",
+          "frequencia": 2,
+          "porque": "Vulnerabilidade.",
+          "como": "Desigualdade."
+        },
+        {
+          "nome": "Tecnologia e sociedade",
+          "frequencia": 2,
+          "porque": "Contemporâneo.",
+          "como": "Redes sociais."
+        },
+        {
+          "nome": "Consumo e identidade",
+          "frequencia": 2,
+          "porque": "Cultura de consumo.",
+          "como": "Bauman."
         }
       ]
     },
