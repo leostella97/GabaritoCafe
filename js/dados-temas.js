@@ -6890,6 +6890,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Classificação.",
           "como": "Respiração."
+        },
+        {
+          "nome": "Vertebrados: répteis e aves",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Adaptações."
+        },
+        {
+          "nome": "Vertebrados: mamíferos",
+          "frequencia": 2,
+          "porque": "Classificação.",
+          "como": "Características."
+        },
+        {
+          "nome": "Doenças bacterianas",
+          "frequencia": 2,
+          "porque": "Infecções.",
+          "como": "Tuberculose."
+        },
+        {
+          "nome": "Doenças virais",
+          "frequencia": 3,
+          "porque": "Infecções.",
+          "como": "COVID, dengue."
+        },
+        {
+          "nome": "Doenças parasitárias",
+          "frequencia": 3,
+          "porque": "Infecções.",
+          "como": "Doença de Chagas."
+        },
+        {
+          "nome": "Vacinas e soros",
+          "frequencia": 2,
+          "porque": "Imunização.",
+          "como": "Ativa e passiva."
+        },
+        {
+          "nome": "Antibióticos e resistência",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Superbactérias."
+        },
+        {
+          "nome": "Hormônios vegetais",
+          "frequencia": 2,
+          "porque": "Crescimento.",
+          "como": "Auxinas."
+        },
+        {
+          "nome": "Movimentos vegetais",
+          "frequencia": 2,
+          "porque": "Tropismos.",
+          "como": "Fototropismo."
+        },
+        {
+          "nome": "Nutrição vegetal",
+          "frequencia": 2,
+          "porque": "Fotossíntese.",
+          "como": "Macro e micronutrientes."
+        },
+        {
+          "nome": "Transpiração vegetal",
+          "frequencia": 2,
+          "porque": "Estômatos.",
+          "como": "Xilema."
+        },
+        {
+          "nome": "Condução de seiva",
+          "frequencia": 2,
+          "porque": "Xilema e floema.",
+          "como": "Bruta e elaborada."
+        },
+        {
+          "nome": "Polinização e fecundação",
+          "frequencia": 2,
+          "porque": "Reprodução vegetal.",
+          "como": "Agentes polinizadores."
+        },
+        {
+          "nome": "Ciclos de vida de vegetais",
+          "frequencia": 2,
+          "porque": "Alternância.",
+          "como": "Gametófito e esporófito."
         }
       ]
     },
