@@ -11296,6 +11296,838 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "servico-social",
+      "nome": "Serviço Social",
+      "icone": "🤝",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Garantir direitos e enfrentar desigualdades por meio de políticas sociais e atendimento humanizado.",
+      "materias": [
+        {
+          "materia": "Fundamentos do Serviço Social",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "História do Serviço Social",
+              "explicacao": "Origem, institucionalização e evolução no Brasil."
+            },
+            {
+              "nome": "Ética profissional",
+              "explicacao": "Código de ética e projeto ético-político."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Política Social",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Seguridade social",
+              "explicacao": "Saúde, previdência e assistência."
+            },
+            {
+              "nome": "SUAS e CRAS",
+              "explicacao": "Sistema Único de Assistência Social."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Instrumentalidade",
+          "icone": "🔧",
+          "topicos": [
+            {
+              "nome": "Entrevista e visita domiciliar",
+              "explicacao": "Técnicas e postura profissional."
+            },
+            {
+              "nome": "Parecer e relatório social",
+              "explicacao": "Documentos técnicos do assistente social."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letras",
+      "nome": "Letras",
+      "icone": "📖",
+      "area": "Ciências Humanas",
+      "duracao": "4 anos",
+      "resumo": "Aprofundar a língua, a literatura e o ensino: da gramática à produção textual e análise crítica.",
+      "materias": [
+        {
+          "materia": "Linguística",
+          "icone": "🗣️",
+          "topicos": [
+            {
+              "nome": "Fonética e fonologia",
+              "explicacao": "Sons da fala e o sistema fonológico."
+            },
+            {
+              "nome": "Morfologia e sintaxe",
+              "explicacao": "Estrutura das palavras e das sentenças."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Literatura",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Teoria literária",
+              "explicacao": "Gêneros, narrador e análise narrativa."
+            },
+            {
+              "nome": "Literatura brasileira e portuguesa",
+              "explicacao": "Das origens ao contemporâneo."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Produção Textual",
+          "icone": "✍️",
+          "topicos": [
+            {
+              "nome": "Coesão e coerência",
+              "explicacao": "Mecanismos de articulação textual."
+            },
+            {
+              "nome": "Tipos e gêneros textuais",
+              "explicacao": "Narração, dissertação e descrição."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "nome": "História",
+      "icone": "📜",
+      "area": "Ciências Humanas",
+      "duracao": "4 anos",
+      "resumo": "Compreender o passado para interpretar o presente: pesquisa, ensino e crítica historiográfica.",
+      "materias": [
+        {
+          "materia": "Teoria da História",
+          "icone": "🧭",
+          "topicos": [
+            {
+              "nome": "Escolas historiográficas",
+              "explicacao": "Positivismo, Annales e micro-história."
+            },
+            {
+              "nome": "Tempo e memória",
+              "explicacao": "Noções de temporalidade e narrativa."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "História do Brasil",
+          "icone": "🇧🇷",
+          "topicos": [
+            {
+              "nome": "Colônia e Império",
+              "explicacao": "Da invasão à independência."
+            },
+            {
+              "nome": "República",
+              "explicacao": "Era Vargas, ditadura e redemocratização."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "História Geral",
+          "icone": "🌍",
+          "topicos": [
+            {
+              "nome": "Antiguidade e Idade Média",
+              "explicacao": "Grécia, Roma e feudalismo."
+            },
+            {
+              "nome": "Modernidade e contemporaneidade",
+              "explicacao": "Revoluções, guerras mundiais e Guerra Fria."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geografia",
+      "nome": "Geografia",
+      "icone": "🗺️",
+      "area": "Ciências Humanas",
+      "duracao": "4 anos",
+      "resumo": "Ler o espaço geográfico: natureza, sociedade e as transformações do território.",
+      "materias": [
+        {
+          "materia": "Geografia Física",
+          "icone": "🌋",
+          "topicos": [
+            {
+              "nome": "Climatologia e geomorfologia",
+              "explicacao": "Climas, relevo e as forças que modelam a Terra."
+            },
+            {
+              "nome": "Biogeografia e hidrografia",
+              "explicacao": "Biomas, bacias e ecossistemas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Geografia Humana",
+          "icone": "🏙️",
+          "topicos": [
+            {
+              "nome": "População e migrações",
+              "explicacao": "Demografia e fluxos globais."
+            },
+            {
+              "nome": "Urbanização e economia",
+              "explicacao": "Cidades, industrialização e redes."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Geopolítica",
+          "icone": "🌐",
+          "topicos": [
+            {
+              "nome": "Conflitos e fronteiras",
+              "explicacao": "Questões territoriais contemporâneas."
+            },
+            {
+              "nome": "Globalização e meio ambiente",
+              "explicacao": "Impactos econômicos e sustentabilidade."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciencias-biologicas",
+      "nome": "Ciências Biológicas",
+      "icone": "🧬",
+      "area": "Ciências Biológicas",
+      "duracao": "4 anos",
+      "resumo": "Estudar a vida em todas as escalas, da célula aos ecossistemas — pesquisa, conservação e biotecnologia.",
+      "materias": [
+        {
+          "materia": "Biologia Celular",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Estrutura e função celular",
+              "explicacao": "Membrana, organelas e núcleo."
+            },
+            {
+              "nome": "Ciclo e divisão celular",
+              "explicacao": "Mitose, meiose e regulação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Zoologia e Botânica",
+          "icone": "🐾",
+          "topicos": [
+            {
+              "nome": "Classificação e evolução",
+              "explicacao": "Filo dos animais e evolução vegetal."
+            },
+            {
+              "nome": "Fisiologia comparada",
+              "explicacao": "Sistemas vitais nos animais."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Ecologia",
+          "icone": "🌿",
+          "topicos": [
+            {
+              "nome": "Ecossistemas e biomas",
+              "explicacao": "Cadeias tróficas e ciclos biogeoquímicos."
+            },
+            {
+              "nome": "Conservação e sustentabilidade",
+              "explicacao": "Biodiversidade e unidades de conservação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engenharia-producao",
+      "nome": "Engenharia de Produção",
+      "icone": "🏭",
+      "area": "Engenharias",
+      "duracao": "5 anos",
+      "resumo": "Otimizar processos, reduzir custos e aumentar a qualidade unindo engenharia e administração.",
+      "materias": [
+        {
+          "materia": "Gestão da Produção",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Planejamento e controle (PCP)",
+              "explicacao": "Demanda, estoques e programação."
+            },
+            {
+              "nome": "Lean e just-in-time",
+              "explicacao": "Filosofias de redução de desperdícios."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Logística e Cadeia de Suprimentos",
+          "icone": "🚚",
+          "topicos": [
+            {
+              "nome": "Transporte e armazenagem",
+              "explicacao": "Modais, centros de distribuição e fretes."
+            },
+            {
+              "nome": "Supply chain management",
+              "explicacao": "Integração e fluxo de materiais."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Qualidade e Produtividade",
+          "icone": "✅",
+          "topicos": [
+            {
+              "nome": "Controle estatístico",
+              "explicacao": "CEP, capabilidade e seis sigma."
+            },
+            {
+              "nome": "Normas ISO",
+              "explicacao": "ISO 9001 e sistemas de gestão."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engenharia-quimica",
+      "nome": "Engenharia Química",
+      "icone": "⚗️",
+      "area": "Engenharias",
+      "duracao": "5 anos",
+      "resumo": "Transformar matérias-primas em produtos com processos industriais seguros, eficientes e sustentáveis.",
+      "materias": [
+        {
+          "materia": "Fenômenos de Transporte",
+          "icone": "🌊",
+          "topicos": [
+            {
+              "nome": "Mecânica dos fluidos",
+              "explicacao": "Escoamento, viscosidade e bombas."
+            },
+            {
+              "nome": "Transferência de calor e massa",
+              "explicacao": "Condução, convecção e difusão."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Operações Unitárias",
+          "icone": "🏗️",
+          "topicos": [
+            {
+              "nome": "Destilação e absorção",
+              "explicacao": "Separação de misturas."
+            },
+            {
+              "nome": "Reatores químicos",
+              "explicacao": "Tipos e dimensionamento."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Termodinâmica Aplicada",
+          "icone": "🔥",
+          "topicos": [
+            {
+              "nome": "Ciclos termodinâmicos",
+              "explicacao": "Ciclo de Carnot, Rankine e refrigeração."
+            },
+            {
+              "nome": "Equilíbrio de fases",
+              "explicacao": "Sistemas ideais e reais."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "nome": "Design",
+      "icone": "🎨",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Criar e projetar com propósito: do produto físico à experiência digital centrada no usuário.",
+      "materias": [
+        {
+          "materia": "Teoria do Design",
+          "icone": "📐",
+          "topicos": [
+            {
+              "nome": "Princípios do design",
+              "explicacao": "Cor, tipografia, forma e composição."
+            },
+            {
+              "nome": "Metodologia de projeto",
+              "explicacao": "Pesquisa, geração e prototipação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Design Gráfico",
+          "icone": "🖌️",
+          "topicos": [
+            {
+              "nome": "Identidade visual",
+              "explicacao": "Logotipo, paletas e manual de marca."
+            },
+            {
+              "nome": "Editoração e diagramação",
+              "explicacao": "Layout, grids e hierarquia visual."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "UX/UI e Produto",
+          "icone": "📱",
+          "topicos": [
+            {
+              "nome": "Experiência do usuário (UX)",
+              "explicacao": "Pesquisa, personas e jornada do usuário."
+            },
+            {
+              "nome": "Interface (UI) e usabilidade",
+              "explicacao": "Wireframe, protótipo e teste."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publicidade",
+      "nome": "Publicidade e Propaganda",
+      "icone": "📢",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Comunicar marcas e ideias com criatividade e estratégia nos meios digitais e tradicionais.",
+      "materias": [
+        {
+          "materia": "Teoria da Comunicação",
+          "icone": "📡",
+          "topicos": [
+            {
+              "nome": "Fundamentos de marketing",
+              "explicacao": "Mix de marketing, segmentação e comportamento do consumidor."
+            },
+            {
+              "nome": "Mídia e sociedade",
+              "explicacao": "Cultura de massa, indústria cultural e opinião pública."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Redação Publicitária",
+          "icone": "✍️",
+          "topicos": [
+            {
+              "nome": "Slogan e texto persuasivo",
+              "explicacao": "A arte do texto curto que vende."
+            },
+            {
+              "nome": "Roteiro e storytelling",
+              "explicacao": "Criação para TV, rádio e internet."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Planejamento de Campanha",
+          "icone": "📈",
+          "topicos": [
+            {
+              "nome": "Briefing e criação",
+              "explicacao": "Da demanda do cliente à ideia."
+            },
+            {
+              "nome": "Mídia digital e métricas",
+              "explicacao": "SEO, tráfego pago e análise de dados."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sistemas-informacao",
+      "nome": "Sistemas de Informação",
+      "icone": "💻",
+      "area": "Ciências Exatas",
+      "duracao": "4 anos",
+      "resumo": "Integrar tecnologia e negócios: desenvolver, gerir e otimizar sistemas de informação nas organizações.",
+      "materias": [
+        {
+          "materia": "Banco de Dados",
+          "icone": "🗃️",
+          "topicos": [
+            {
+              "nome": "Modelagem de dados",
+              "explicacao": "MER, DER e normalização."
+            },
+            {
+              "nome": "SQL",
+              "explicacao": "Consultas, joins e subconsultas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Engenharia de Software",
+          "icone": "⚙️",
+          "topicos": [
+            {
+              "nome": "Ciclo de vida e metodologias",
+              "explicacao": "Cascata, ágil e Scrum."
+            },
+            {
+              "nome": "Análise de requisitos",
+              "explicacao": "Funcionais, não funcionais e casos de uso."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Governança de TI",
+          "icone": "🏢",
+          "topicos": [
+            {
+              "nome": "ITIL e COBIT",
+              "explicacao": "Frameworks de serviços e governança."
+            },
+            {
+              "nome": "Segurança da informação",
+              "explicacao": "Confidencialidade, integridade e disponibilidade."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zootecnia",
+      "nome": "Zootecnia",
+      "icone": "🐄",
+      "area": "Ciências Agrárias",
+      "duracao": "5 anos",
+      "resumo": "Produzir proteína animal com eficiência e bem-estar: nutrição, genética e manejo dos rebanhos.",
+      "materias": [
+        {
+          "materia": "Nutrição Animal",
+          "icone": "🌿",
+          "topicos": [
+            {
+              "nome": "Alimentos e exigências nutricionais",
+              "explicacao": "Volumosos, concentrados e formulação de ração."
+            },
+            {
+              "nome": "Metabolismo animal",
+              "explicacao": "Digestão, absorção e utilização dos nutrientes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Melhoramento Genético",
+          "icone": "🧬",
+          "topicos": [
+            {
+              "nome": "Herança e seleção genética",
+              "explicacao": "Características produtivas e reprodutivas."
+            },
+            {
+              "nome": "Biotecnologia animal",
+              "explicacao": "Inseminação e transferência de embriões."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Produção Animal",
+          "icone": "🏞️",
+          "topicos": [
+            {
+              "nome": "Bovinocultura e suinocultura",
+              "explicacao": "Corte, leite e suínos."
+            },
+            {
+              "nome": "Avicultura e aquicultura",
+              "explicacao": "Frangos, peixes e camarões."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gastronomia",
+      "nome": "Gastronomia",
+      "icone": "👨‍🍳",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "2 anos",
+      "resumo": "A arte e a ciência da cozinha: técnicas, ingredientes e gestão de alimentos e bebidas.",
+      "materias": [
+        {
+          "materia": "Técnicas Culinárias",
+          "icone": "🔪",
+          "topicos": [
+            {
+              "nome": "Métodos de cocção",
+              "explicacao": "Assar, grelhar, cozinhar e fritar."
+            },
+            {
+              "nome": "Cortes e bases",
+              "explicacao": "Fundos, molhos e preparo de ingredientes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Segurança Alimentar",
+          "icone": "🛡️",
+          "topicos": [
+            {
+              "nome": "BPF e APPCC",
+              "explicacao": "Boas práticas e análise de perigos."
+            },
+            {
+              "nome": "Higiene e sanitização",
+              "explicacao": "Manipulação correta dos alimentos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Gestão de Restaurantes",
+          "icone": "🍽️",
+          "topicos": [
+            {
+              "nome": "Cardápio e precificação",
+              "explicacao": "Ficha técnica e controle de custos."
+            },
+            {
+              "nome": "Serviço e hospitalidade",
+              "explicacao": "Tipos de serviço e experiência do cliente."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turismo",
+      "nome": "Turismo",
+      "icone": "✈️",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Planejar, promover e gerir destinos, eventos e experiências — um dos maiores setores da economia global.",
+      "materias": [
+        {
+          "materia": "Fundamentos do Turismo",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "História e tendências",
+              "explicacao": "Evolução do turismo e segmentação."
+            },
+            {
+              "nome": "Patrimônio e atrativos",
+              "explicacao": "Natural, cultural e histórico."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Gestão Turística",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Planejamento de destinos",
+              "explicacao": "Inventário e plano diretor turístico."
+            },
+            {
+              "nome": "Hospitalidade e hotelaria",
+              "explicacao": "Meios de hospedagem e atendimento."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Eventos e Lazer",
+          "icone": "🎉",
+          "topicos": [
+            {
+              "nome": "Organização de eventos",
+              "explicacao": "Cerimonial, protocolo e logística."
+            },
+            {
+              "nome": "Turismo sustentável",
+              "explicacao": "Impactos e turismo de base comunitária."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
