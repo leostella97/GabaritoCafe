@@ -413,6 +413,72 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Simplificação de polinômios.",
           "como": "Agrupe termos com fator comum e fatorize."
+        },
+        {
+          "nome": "Combinações simples",
+          "frequencia": 3,
+          "porque": "Contagem sem ordem.",
+          "como": "C(n,k)=n!/(k!(n-k)!)."
+        },
+        {
+          "nome": "Arranjos simples",
+          "frequencia": 3,
+          "porque": "Contagem com ordem.",
+          "como": "P(n,k)=n!/(n-k)!."
+        },
+        {
+          "nome": "Probabilidade básica",
+          "frequencia": 4,
+          "porque": "Eventos aleatórios.",
+          "como": "Favorable/Total."
+        },
+        {
+          "nome": "Estatística descritiva",
+          "frequencia": 3,
+          "porque": "Média, mediana, moda.",
+          "como": "Medidas de tendência central."
+        },
+        {
+          "nome": "Regra de três composta",
+          "frequencia": 3,
+          "porque": "Múltiplas grandezas.",
+          "como": "Relacione proporcionalidade."
+        },
+        {
+          "nome": "Máximo divisor comum",
+          "frequencia": 2,
+          "porque": "Fatoração de números.",
+          "como": "Algoritmo de Euclides."
+        },
+        {
+          "nome": "Mínimo múltiplo comum",
+          "frequencia": 3,
+          "porque": "Múltiplos comuns.",
+          "como": "Fatoração simultânea."
+        },
+        {
+          "nome": "Equações fracionárias",
+          "frequencia": 3,
+          "porque": "Denominadores com variáveis.",
+          "como": "MMC e cuidado com extraneous."
+        },
+        {
+          "nome": "Inequações produto",
+          "frequencia": 2,
+          "porque": "Intervalos de sinais.",
+          "como": "Sinal da multiplicação."
+        },
+        {
+          "nome": "Geometria analítica reta",
+          "frequencia": 3,
+          "porque": "Equação geral e reduzida.",
+          "como": "Coeficientes angular e linear."
+        },
+        {
+          "nome": "Trigonometria seno e cosseno",
+          "frequencia": 3,
+          "porque": "Triângulo retângulo.",
+          "como": "Relação pitagórica."
         }
       ]
     },
