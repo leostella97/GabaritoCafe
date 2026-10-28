@@ -3611,6 +3611,48 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Licenças.",
           "como": "Duração e salário."
+        },
+        {
+          "nome": "Rescisão contratual",
+          "frequencia": 5,
+          "porque": "Despedida.",
+          "como": "Verbas."
+        },
+        {
+          "nome": "Negociações coletivas",
+          "frequencia": 3,
+          "porque": "Acordos.",
+          "como": "Sindicatos."
+        },
+        {
+          "nome": "Trabalho intermitente",
+          "frequencia": 3,
+          "porque": "Lei 13.467.",
+          "como": "Chamado."
+        },
+        {
+          "nome": "Terceirização",
+          "frequencia": 4,
+          "porque": "Reforma trabalhista.",
+          "como": "Responsabilidade."
+        },
+        {
+          "nome": "Segurança e medicina do trabalho",
+          "frequencia": 3,
+          "porque": "NRs.",
+          "como": "Prevenção."
+        },
+        {
+          "nome": "FGTS e multa",
+          "frequencia": 4,
+          "porque": "Despedida sem justa causa.",
+          "como": "40%."
+        },
+        {
+          "nome": "Homologação",
+          "frequencia": 2,
+          "porque": "Assentamento.",
+          "como": "SRTE."
         }
       ]
     },
