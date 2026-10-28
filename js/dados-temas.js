@@ -3192,6 +3192,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "4Ps e posicionamento.",
           "como": "Produto, preço, praça e promoção."
+        },
+        {
+          "nome": "Planejamento tático",
+          "frequencia": 3,
+          "porque": "Nível intermediário.",
+          "como": "Coerência com estratégico."
+        },
+        {
+          "nome": "Planejamento operacional",
+          "frequencia": 3,
+          "porque": "Execução.",
+          "como": "Metas de curto prazo."
+        },
+        {
+          "nome": "Organograma",
+          "frequencia": 2,
+          "porque": "Estrutura formal.",
+          "como": "Linhas de autoridade."
+        },
+        {
+          "nome": "Departamentalização",
+          "frequencia": 2,
+          "porque": "Divisão de trabalho.",
+          "como": "Função, produto e território."
+        },
+        {
+          "nome": "Motivação",
+          "frequencia": 3,
+          "porque": "Fatores internos.",
+          "como": "Maslow e Herzberg."
+        },
+        {
+          "nome": "Liderança situacional",
+          "frequencia": 2,
+          "porque": "Adaptação ao contexto.",
+          "como": "Estilos flexíveis."
+        },
+        {
+          "nome": "Comunicação eficaz",
+          "frequencia": 3,
+          "porque": "Fluxo de informação.",
+          "como": "Feedback."
+        },
+        {
+          "nome": "Gestão estratégica",
+          "frequencia": 4,
+          "porque": "Alinhamento organizacional.",
+          "como": "Visão e posicionamento."
+        },
+        {
+          "nome": "Benchmarking",
+          "frequencia": 2,
+          "porque": "Melhores práticas.",
+          "como": "Aprendizado externo."
+        },
+        {
+          "nome": "Indicadores de desempenho",
+          "frequencia": 3,
+          "porque": "Medição.",
+          "como": "KPIs."
+        },
+        {
+          "nome": "Gestão por competências",
+          "frequencia": 3,
+          "porque": "Recursos humanos.",
+          "como": "Perfil e desenvolvimento."
+        },
+        {
+          "nome": "Administração por objetivos",
+          "frequencia": 2,
+          "porque": "APO.",
+          "como": "Metas compartilhadas."
+        },
+        {
+          "nome": "Gestão pública",
+          "frequencia": 4,
+          "porque": "Princípios constitucionais.",
+          "como": "Legalidade e impessoalidade."
+        },
+        {
+          "nome": "Controle interno",
+          "frequencia": 3,
+          "porque": "Monitoramento.",
+          "como": "Auditoria e compliance."
         }
       ]
     },
