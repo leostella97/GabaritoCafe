@@ -8304,6 +8304,48 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Literatura informativa.",
           "como": "Carta de Caminha."
+        },
+        {
+          "nome": "Humanismo",
+          "frequencia": 2,
+          "porque": "Transição.",
+          "como": "Gil Vicente."
+        },
+        {
+          "nome": "Classicismo",
+          "frequencia": 2,
+          "porque": "Camões.",
+          "como": "Os Lusíadas."
+        },
+        {
+          "nome": "Literatura negra brasileira",
+          "frequencia": 2,
+          "porque": "Representatividade.",
+          "como": "Conceição Evaristo."
+        },
+        {
+          "nome": "Literatura indígena contemporânea",
+          "frequencia": 2,
+          "porque": "Vozes originárias.",
+          "como": "Daniel Munduruku."
+        },
+        {
+          "nome": "Figuras de linguagem",
+          "frequencia": 3,
+          "porque": "Estilo.",
+          "como": "Metáfora, ironia."
+        },
+        {
+          "nome": "Análise de poemas",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "Versificação."
+        },
+        {
+          "nome": "Gêneros literários",
+          "frequencia": 3,
+          "porque": "Classificação.",
+          "como": "Lírico, épico, dramático."
         }
       ]
     },
