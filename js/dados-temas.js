@@ -3620,6 +3620,84 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Conduta profissional.",
           "como": "Compromisso e responsabilidade."
+        },
+        {
+          "nome": "Currículo nacional",
+          "frequencia": 4,
+          "porque": "BNCC.",
+          "como": "Competências."
+        },
+        {
+          "nome": "Pedagogia crítica",
+          "frequencia": 3,
+          "porque": "Freire e emancipação.",
+          "como": "Prática libertadora."
+        },
+        {
+          "nome": "Interdisciplinaridade",
+          "frequencia": 3,
+          "porque": "Integração de áreas.",
+          "como": "Projetos."
+        },
+        {
+          "nome": "Avaliação formativa",
+          "frequencia": 4,
+          "porque": "Processo contínuo.",
+          "como": "Feedback."
+        },
+        {
+          "nome": "Gestão democrática",
+          "frequencia": 3,
+          "porque": "Participação escolar.",
+          "como": "Conselho."
+        },
+        {
+          "nome": "Prática pedagógica",
+          "frequencia": 4,
+          "porque": "Metodologias ativas.",
+          "como": "Aprendizagem significativa."
+        },
+        {
+          "nome": "Desenvolvimento infantil",
+          "frequencia": 3,
+          "porque": "Estágios psicológicos.",
+          "como": "Piaget."
+        },
+        {
+          "nome": "Educação inclusiva",
+          "frequencia": 4,
+          "porque": "Acessibilidade.",
+          "como": "Plano individual."
+        },
+        {
+          "nome": "Educação física",
+          "frequencia": 2,
+          "porque": "Corpo e movimento.",
+          "como": "Desenvolvimento motor."
+        },
+        {
+          "nome": "Educação artística",
+          "frequencia": 2,
+          "porque": "Expressão.",
+          "como": "Artes visuais."
+        },
+        {
+          "nome": "Educação financeira",
+          "frequencia": 2,
+          "porque": "Cidadania.",
+          "como": "Planejamento."
+        },
+        {
+          "nome": "Políticas públicas educacionais",
+          "frequencia": 3,
+          "porque": "Planos e programas.",
+          "como": "PNE."
+        },
+        {
+          "nome": "Avaliação institucional",
+          "frequencia": 2,
+          "porque": "Melhoria contínua.",
+          "como": "Indicadores."
         }
       ]
     }
