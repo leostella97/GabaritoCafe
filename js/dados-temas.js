@@ -7452,6 +7452,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Casos reais.",
           "como": "Bioética."
+        },
+        {
+          "nome": "Filosofia da linguagem",
+          "frequencia": 2,
+          "porque": "Significado.",
+          "como": "Wittgenstein."
+        },
+        {
+          "nome": "Filosofia política",
+          "frequencia": 3,
+          "porque": "Justiça.",
+          "como": "Rawls."
+        },
+        {
+          "nome": "Filosofia da história",
+          "frequencia": 2,
+          "porque": "Tempo.",
+          "como": "Hegel."
+        },
+        {
+          "nome": "Filosofia oriental",
+          "frequencia": 2,
+          "porque": "Oriente.",
+          "como": "Budismo."
+        },
+        {
+          "nome": "Filosofia da religião",
+          "frequencia": 2,
+          "porque": "Fé.",
+          "como": "Existência de Deus."
+        },
+        {
+          "nome": "Filosofia da arte",
+          "frequencia": 2,
+          "porque": "Estética.",
+          "como": "Beleza."
+        },
+        {
+          "nome": "Filosofia da educação",
+          "frequencia": 2,
+          "porque": "Ensino.",
+          "como": "Paideia."
+        },
+        {
+          "nome": "Filosofia da ciência",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Popper."
+        },
+        {
+          "nome": "Filosofia da mente",
+          "frequencia": 2,
+          "porque": "Consciência.",
+          "como": "Cognição."
+        },
+        {
+          "nome": "Existencialismo",
+          "frequencia": 3,
+          "porque": "Liberdade.",
+          "como": "Sartre."
+        },
+        {
+          "nome": "Positivismo",
+          "frequencia": 2,
+          "porque": "Ciência.",
+          "como": "Comte."
+        },
+        {
+          "nome": "Fenomenologia",
+          "frequencia": 2,
+          "porque": "Experiência.",
+          "como": "Husserl."
+        },
+        {
+          "nome": "Hermenêutica",
+          "frequencia": 2,
+          "porque": "Interpretação.",
+          "como": "Texto."
+        },
+        {
+          "nome": "Pós-estruturalismo",
+          "frequencia": 2,
+          "porque": "Crítica.",
+          "como": "Foucault."
         }
       ]
     },
