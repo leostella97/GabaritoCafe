@@ -11729,6 +11729,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Arco reflexo.",
           "como": "Medula espinhal."
+        },
+        {
+          "nome": "Fisiologia da homeostase",
+          "frequencia": 3,
+          "porque": "Equilíbrio interno.",
+          "como": "Feedback negativo."
+        },
+        {
+          "nome": "Fisiologia do sistema endócrino avançado",
+          "frequencia": 2,
+          "porque": "Eixos hormonais.",
+          "como": "Hipotálamo-hipófise."
+        },
+        {
+          "nome": "Fisiologia da tireoide",
+          "frequencia": 2,
+          "porque": "Metabolismo.",
+          "como": "T3 e T4."
+        },
+        {
+          "nome": "Fisiologia do pâncreas endócrino",
+          "frequencia": 2,
+          "porque": "Glicemia.",
+          "como": "Insulina e glucagon."
+        },
+        {
+          "nome": "Fisiologia das adrenais",
+          "frequencia": 2,
+          "porque": "Estresse.",
+          "como": "Adrenalina e cortisol."
+        },
+        {
+          "nome": "Fisiologia do crescimento",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Hormônio GH."
+        },
+        {
+          "nome": "Fisiologia da osmorregulação",
+          "frequencia": 2,
+          "porque": "Água e sais.",
+          "como": "ADH e aldosterona."
+        },
+        {
+          "nome": "Fisiologia dos gases sanguíneos",
+          "frequencia": 2,
+          "porque": "Troca gasosa.",
+          "como": "O2 e CO2."
+        },
+        {
+          "nome": "Fisiologia do pH corporal",
+          "frequencia": 2,
+          "porque": "Equilíbrio ácido-base.",
+          "como": "Sistemas tampão."
+        },
+        {
+          "nome": "Fisiologia da contração muscular",
+          "frequencia": 3,
+          "porque": "Mecânica.",
+          "como": "Filamentos de actina."
+        },
+        {
+          "nome": "Fisiologia do sistema autônomo",
+          "frequencia": 2,
+          "porque": "Involuntário.",
+          "como": "Simpático e parassimpático."
+        },
+        {
+          "nome": "Fisiologia da memória e aprendizagem",
+          "frequencia": 2,
+          "porque": "Cérebro.",
+          "como": "Plasticidade sináptica."
+        },
+        {
+          "nome": "Fisiologia do apetite",
+          "frequencia": 2,
+          "porque": "Fome.",
+          "como": "Leptina e grelina."
+        },
+        {
+          "nome": "Fisiologia do ciclo circadiano",
+          "frequencia": 2,
+          "porque": "Ritmo biológico.",
+          "como": "Melatonina."
         }
       ]
     },
