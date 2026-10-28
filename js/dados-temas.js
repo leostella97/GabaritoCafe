@@ -5919,6 +5919,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A valorização das matrizes é tendência nas provas.",
           "como": "Associe: grafismo indígena, arte sacra afro-barroca (Aleijadinho), capoeira e umbigada como expressões de resistência."
+        },
+        {
+          "nome": "Arte rupestre",
+          "frequencia": 2,
+          "porque": "Origens.",
+          "como": "Pré-história."
+        },
+        {
+          "nome": "Arte grega",
+          "frequencia": 3,
+          "porque": "Clássico.",
+          "como": "Proporção."
+        },
+        {
+          "nome": "Renascimento",
+          "frequencia": 4,
+          "porque": "Humanismo.",
+          "como": "Pintura e escultura."
+        },
+        {
+          "nome": "Barroco",
+          "frequencia": 4,
+          "porque": "Contra-Reforma.",
+          "como": "Drama e movimento."
+        },
+        {
+          "nome": "Impressionismo",
+          "frequencia": 3,
+          "porque": "Luz e cor.",
+          "como": "Pinceladas."
+        },
+        {
+          "nome": "Cubismo",
+          "frequencia": 3,
+          "porque": "Forma geométrica.",
+          "como": "Picasso."
+        },
+        {
+          "nome": "Surrealismo",
+          "frequencia": 3,
+          "porque": "Inconsciente.",
+          "como": "Dalí."
+        },
+        {
+          "nome": "Arte contemporânea",
+          "frequencia": 3,
+          "porque": "Instalação e performance.",
+          "como": "Multimídia."
+        },
+        {
+          "nome": "Design",
+          "frequencia": 2,
+          "porque": "Projeto.",
+          "como": "Funcionalidade."
+        },
+        {
+          "nome": "Fotografia",
+          "frequencia": 2,
+          "porque": "Registro.",
+          "como": "Composição."
+        },
+        {
+          "nome": "Cinema",
+          "frequencia": 3,
+          "porque": "Linguagem audiovisual.",
+          "como": "Montagem."
+        },
+        {
+          "nome": "Música brasileira",
+          "frequencia": 3,
+          "porque": "Gêneros.",
+          "como": "Samba e bossa."
+        },
+        {
+          "nome": "Teatro",
+          "frequencia": 3,
+          "porque": "Cena e texto.",
+          "como": "Gêneros dramáticos."
+        },
+        {
+          "nome": "Arte e tecnologia",
+          "frequencia": 2,
+          "porque": "Digital.",
+          "como": "Realidade virtual."
         }
       ]
     },
