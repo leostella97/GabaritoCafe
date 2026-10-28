@@ -5045,6 +5045,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Exigência.",
           "como": "Dissertação."
+        },
+        {
+          "nome": "Progressão temática",
+          "frequencia": 3,
+          "porque": "Desenvolvimento.",
+          "como": "Encadear ideias."
+        },
+        {
+          "nome": "Repertório legitimado",
+          "frequencia": 4,
+          "porque": "Nota máxima.",
+          "como": "Citação pertinente."
+        },
+        {
+          "nome": "Repertório produtivo",
+          "frequencia": 3,
+          "porque": "Uso comprometido.",
+          "como": "Ligado ao tema."
+        },
+        {
+          "nome": "Fuga ao tema",
+          "frequencia": 3,
+          "porque": "Erro grave.",
+          "como": "Tangência."
+        },
+        {
+          "nome": "Cópia dos motivadores",
+          "frequencia": 3,
+          "porque": "Zera competência.",
+          "como": "Parafrasear."
+        },
+        {
+          "nome": "Norma padrão da língua",
+          "frequencia": 5,
+          "porque": "Competência 1.",
+          "como": "Gramática normativa."
+        },
+        {
+          "nome": "Intervenção detalhada",
+          "frequencia": 4,
+          "porque": "Competência 5.",
+          "como": "Como e por quem."
+        },
+        {
+          "nome": "Respeito aos direitos humanos",
+          "frequencia": 3,
+          "porque": "Exigência ENEM.",
+          "como": "Não violar dignidade."
+        },
+        {
+          "nome": "Texto dissertativo-argumentativo",
+          "frequencia": 5,
+          "porque": "Formato universal.",
+          "como": "Opinião fundamentada."
+        },
+        {
+          "nome": "Tema e tese",
+          "frequencia": 4,
+          "porque": "Distinção.",
+          "como": "Delimitar posição."
+        },
+        {
+          "nome": "Revisão final atenta",
+          "frequencia": 4,
+          "porque": "Evitar erros.",
+          "como": "Ortografia e coesão."
+        },
+        {
+          "nome": "Estratégias de conclusão",
+          "frequencia": 3,
+          "porque": "Fechar bem.",
+          "como": "Retomada e proposta."
+        },
+        {
+          "nome": "Variação de repertório",
+          "frequencia": 3,
+          "porque": "Diversidade.",
+          "como": "Áreas diferentes."
+        },
+        {
+          "nome": "Simulados de redação",
+          "frequencia": 4,
+          "porque": "Treino real.",
+          "como": "Correção com critérios."
         }
       ]
     },
