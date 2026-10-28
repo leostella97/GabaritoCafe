@@ -7566,6 +7566,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Infância.",
           "como": "Autores."
+        },
+        {
+          "nome": "Barroco",
+          "frequencia": 3,
+          "porque": "Gregório de Matos.",
+          "como": "Cultismo e conceptismo."
+        },
+        {
+          "nome": "Arcadismo",
+          "frequencia": 3,
+          "porque": "Período colonial.",
+          "como": "Cláudio Manoel da Costa."
+        },
+        {
+          "nome": "Romantismo: poesia",
+          "frequencia": 4,
+          "porque": "Gerações.",
+          "como": "Gonçalves Dias."
+        },
+        {
+          "nome": "Romantismo: prosa",
+          "frequencia": 4,
+          "porque": "Folhetim.",
+          "como": "José de Alencar."
+        },
+        {
+          "nome": "Realismo/Naturalismo",
+          "frequencia": 4,
+          "porque": "Machado de Assis.",
+          "como": "Análise psicológica."
+        },
+        {
+          "nome": "Parnasianismo",
+          "frequencia": 2,
+          "porque": "Arte pela arte.",
+          "como": "Olavo Bilac."
+        },
+        {
+          "nome": "Simbolismo",
+          "frequencia": 2,
+          "porque": "Subjetivismo.",
+          "como": "Cruz e Sousa."
+        },
+        {
+          "nome": "Pré-Modernismo",
+          "frequencia": 3,
+          "porque": "Transição.",
+          "como": "Lima Barreto."
+        },
+        {
+          "nome": "Modernismo: 1ª fase",
+          "frequencia": 4,
+          "porque": "Semana de 22.",
+          "como": "Mário de Andrade."
+        },
+        {
+          "nome": "Modernismo: 2ª fase",
+          "frequencia": 4,
+          "porque": "Romance de 30.",
+          "como": "Graciliano Ramos."
+        },
+        {
+          "nome": "Modernismo: 3ª fase",
+          "frequencia": 3,
+          "porque": "Guimarães Rosa.",
+          "como": "Grande Sertão."
+        },
+        {
+          "nome": "Poesia concreta",
+          "frequencia": 2,
+          "porque": "Vanguarda.",
+          "como": "Décio Pignatari."
+        },
+        {
+          "nome": "Trovadorismo",
+          "frequencia": 2,
+          "porque": "Origens.",
+          "como": "Cantigas."
+        },
+        {
+          "nome": "Quinhentismo",
+          "frequencia": 2,
+          "porque": "Literatura informativa.",
+          "como": "Carta de Caminha."
         }
       ]
     },
