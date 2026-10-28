@@ -11749,6 +11749,138 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Cultura de consumo.",
           "como": "Bauman."
+        },
+        {
+          "nome": "Anomia",
+          "frequencia": 2,
+          "porque": "Durkheim.",
+          "como": "Ausência de normas."
+        },
+        {
+          "nome": "Burocracia",
+          "frequencia": 2,
+          "porque": "Weber.",
+          "como": "Dominação racional."
+        },
+        {
+          "nome": "Etnocentrismo",
+          "frequencia": 2,
+          "porque": "Centro cultural.",
+          "como": "Julgamento."
+        },
+        {
+          "nome": "Relativismo cultural",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Respeito."
+        },
+        {
+          "nome": "Identidade nacional",
+          "frequencia": 2,
+          "porque": "Povo.",
+          "como": "Símbolos."
+        },
+        {
+          "nome": "Multiculturalismo",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Conviver."
+        },
+        {
+          "nome": "Democracia racial",
+          "frequencia": 2,
+          "porque": "Mito.",
+          "como": "Florestan."
+        },
+        {
+          "nome": "Preconceito e discriminação",
+          "frequencia": 2,
+          "porque": "Atitudes.",
+          "como": "Raça, gênero, classe."
+        },
+        {
+          "nome": "Minorias sociais",
+          "frequencia": 2,
+          "porque": "Grupos.",
+          "como": "Direitos."
+        },
+        {
+          "nome": "Direitos humanos",
+          "frequencia": 3,
+          "porque": "Dignidade.",
+          "como": "Declaração."
+        },
+        {
+          "nome": "Trabalho e capitalismo",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "Mais-valia."
+        },
+        {
+          "nome": "Divisão social do trabalho",
+          "frequencia": 2,
+          "porque": "Especialização.",
+          "como": "Solidariedade."
+        },
+        {
+          "nome": "Desigualdade de gênero",
+          "frequencia": 2,
+          "porque": "Papéis sociais.",
+          "como": "Feminismo."
+        },
+        {
+          "nome": "Racismo estrutural",
+          "frequencia": 3,
+          "porque": "Sistema.",
+          "como": "Desigualdade."
+        },
+        {
+          "nome": "Juventude e sociedade",
+          "frequencia": 2,
+          "porque": "Conflito.",
+          "como": "Gerações."
+        },
+        {
+          "nome": "Envelhecimento populacional",
+          "frequencia": 2,
+          "porque": "Demografia.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "Violência urbana",
+          "frequencia": 2,
+          "porque": "Segregação.",
+          "como": "Desigualdade."
+        },
+        {
+          "nome": "Estado de bem-estar social",
+          "frequencia": 2,
+          "porque": "Direitos.",
+          "como": "Saúde e educação."
+        },
+        {
+          "nome": "Participação política",
+          "frequencia": 2,
+          "porque": "Engajamento.",
+          "como": "Voto."
+        },
+        {
+          "nome": "Opinião pública",
+          "frequencia": 2,
+          "porque": "Mídia.",
+          "como": "Formação."
+        },
+        {
+          "nome": "Alteridade",
+          "frequencia": 2,
+          "porque": "Reconhecimento.",
+          "como": "Outro."
+        },
+        {
+          "nome": "Modernidade líquida",
+          "frequencia": 2,
+          "porque": "Bauman.",
+          "como": "Relações líquidas."
         }
       ]
     },
