@@ -5365,6 +5365,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Uso sustentável.",
           "como": "Mineração."
+        },
+        {
+          "nome": "Cartografia",
+          "frequencia": 3,
+          "porque": "Mapas.",
+          "como": "Escalas."
+        },
+        {
+          "nome": "Geologia",
+          "frequencia": 3,
+          "porque": "Território.",
+          "como": "Rochas."
+        },
+        {
+          "nome": "Climatologia",
+          "frequencia": 3,
+          "porque": "Climas.",
+          "como": "Brasil."
+        },
+        {
+          "nome": "Hidrografia",
+          "frequencia": 3,
+          "porque": "Águas.",
+          "como": "Bacias."
+        },
+        {
+          "nome": "Geomorfologia",
+          "frequencia": 2,
+          "porque": "Relevo.",
+          "como": "Planalto."
+        },
+        {
+          "nome": "Biogeografia",
+          "frequencia": 2,
+          "porque": "Biomas.",
+          "como": "Amazônia."
+        },
+        {
+          "nome": "Demografia",
+          "frequencia": 3,
+          "porque": "População.",
+          "como": "Crescimento."
+        },
+        {
+          "nome": "Urbanização",
+          "frequencia": 3,
+          "porque": "Cidades.",
+          "como": "Metrópole."
+        },
+        {
+          "nome": "Industrialização",
+          "frequencia": 2,
+          "porque": "Economia.",
+          "como": "Complexos."
+        },
+        {
+          "nome": "Agricultura",
+          "frequencia": 3,
+          "porque": "Produção.",
+          "como": "Lavouras."
+        },
+        {
+          "nome": "Geopolítica",
+          "frequencia": 2,
+          "porque": "Poder.",
+          "como": "Território."
+        },
+        {
+          "nome": "Globalização",
+          "frequencia": 2,
+          "porque": "Mundo.",
+          "como": "Fluxos."
+        },
+        {
+          "nome": "Sustentabilidade",
+          "frequencia": 3,
+          "porque": "Meio ambiente.",
+          "como": "Desenvolvimento."
+        },
+        {
+          "nome": "Regiões brasileiras",
+          "frequencia": 4,
+          "porque": "Características.",
+          "como": "Nordeste."
         }
       ]
     },
