@@ -9792,6 +9792,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Contemporâneo.",
           "como": "Performance."
+        },
+        {
+          "nome": "Literatura de testemunho",
+          "frequencia": 2,
+          "porque": "Vivência.",
+          "como": "Relatos pessoais."
+        },
+        {
+          "nome": "Literatura fantástica",
+          "frequencia": 2,
+          "porque": "Insólito.",
+          "como": "Murilo Rubião."
+        },
+        {
+          "nome": "Romance histórico",
+          "frequencia": 2,
+          "porque": "Ficção e fato.",
+          "como": "Contexto histórico."
+        },
+        {
+          "nome": "Romance psicológico",
+          "frequencia": 2,
+          "porque": "Mente.",
+          "como": "Clarice Lispector."
+        },
+        {
+          "nome": "Literatura de cordel",
+          "frequencia": 2,
+          "porque": "Nordestina.",
+          "como": "Métrica e rima."
+        },
+        {
+          "nome": "Realismo mágico",
+          "frequencia": 2,
+          "porque": "Fantástico cotidiano.",
+          "como": "Gabriel García Márquez."
+        },
+        {
+          "nome": "Literatura infantojuvenil",
+          "frequencia": 2,
+          "porque": "Formação.",
+          "como": "Monteiro Lobato."
+        },
+        {
+          "nome": "Literatura e direitos humanos",
+          "frequencia": 2,
+          "porque": "Engajamento.",
+          "como": "Denúncia social."
+        },
+        {
+          "nome": "Literatura de autoria feminina",
+          "frequencia": 2,
+          "porque": "Voz.",
+          "como": "Cecília Meireles."
+        },
+        {
+          "nome": "Literatura homoafetiva",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Representatividade."
+        },
+        {
+          "nome": "Literatura e meio ambiente",
+          "frequencia": 2,
+          "porque": "Ecologia.",
+          "como": "Natureza na prosa."
+        },
+        {
+          "nome": "Literatura e tecnologia",
+          "frequencia": 2,
+          "porque": "Digital.",
+          "como": "Ciberliteratura."
+        },
+        {
+          "nome": "Adaptações literárias",
+          "frequencia": 2,
+          "porque": "Cinema e TV.",
+          "como": "Transposição."
+        },
+        {
+          "nome": "Literatura e vestibular",
+          "frequencia": 4,
+          "porque": "Lista de obras.",
+          "como": "Leitura obrigatória."
         }
       ]
     },
