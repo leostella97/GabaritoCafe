@@ -9843,6 +9843,36 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Espaço urbano.",
           "como": "Grafite."
+        },
+        {
+          "nome": "Expressionismo",
+          "frequencia": 2,
+          "porque": "Emoção.",
+          "como": "Munch, O Grito."
+        },
+        {
+          "nome": "Dadaísmo",
+          "frequencia": 2,
+          "porque": "Antiarte.",
+          "como": "Duchamp."
+        },
+        {
+          "nome": "Abstracionismo",
+          "frequencia": 2,
+          "porque": "Forma pura.",
+          "como": "Kandinsky."
+        },
+        {
+          "nome": "Op Art e Arte Cinética",
+          "frequencia": 1,
+          "porque": "Movimento.",
+          "como": "Efeito visual."
+        },
+        {
+          "nome": "Arte e meio ambiente",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Arte ecológica."
         }
       ]
     },
