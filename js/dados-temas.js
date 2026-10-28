@@ -5242,6 +5242,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "A escala de pH cai contextualizada (chuva ácida, estômago).",
           "como": "pH <7 ácido, =7 neutro, >7 básico — e cada unidade vale 10×. Ácido doa H⁺; base doa OH⁻."
+        },
+        {
+          "nome": "Estequiometria",
+          "frequencia": 5,
+          "porque": "Cálculo de reagentes.",
+          "como": "Proporções molares."
+        },
+        {
+          "nome": "Ligações químicas",
+          "frequencia": 4,
+          "porque": "Iônica, covalente e metálica.",
+          "como": "Polaridade."
+        },
+        {
+          "nome": "Funções inorgânicas",
+          "frequencia": 4,
+          "porque": "Ácidos, bases, sais e óxidos.",
+          "como": "Nomenclatura."
+        },
+        {
+          "nome": "Termoquímica",
+          "frequencia": 3,
+          "porque": "Entalpia e calor.",
+          "como": "Lei de Hess."
+        },
+        {
+          "nome": "Eletroquímica",
+          "frequencia": 3,
+          "porque": "Pilhas e eletrólise.",
+          "como": "Potencial."
+        },
+        {
+          "nome": "Cinética química",
+          "frequencia": 3,
+          "porque": "Velocidade de reação.",
+          "como": "Fatores."
+        },
+        {
+          "nome": "Equilíbrio químico",
+          "frequencia": 4,
+          "porque": "Kc e Kp.",
+          "como": "Princípio de Le Chatelier."
+        },
+        {
+          "nome": "Química orgânica",
+          "frequencia": 4,
+          "porque": "Hidrocarbonetos.",
+          "como": "Funções orgânicas."
+        },
+        {
+          "nome": "Isomeria",
+          "frequencia": 3,
+          "porque": "Estrutural e geométrica.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Reações orgânicas",
+          "frequencia": 3,
+          "porque": "Substituição e adição.",
+          "como": "Mecanismos."
+        },
+        {
+          "nome": "Polímeros",
+          "frequencia": 2,
+          "porque": "Materiais sintéticos.",
+          "como": "Adição e condensação."
+        },
+        {
+          "nome": "Bioquímica",
+          "frequencia": 3,
+          "porque": "Carboidratos e proteínas.",
+          "como": "Metabolismo."
+        },
+        {
+          "nome": "Química ambiental",
+          "frequencia": 3,
+          "porque": "Poluição e efeito estufa.",
+          "como": "Resíduos."
+        },
+        {
+          "nome": "Radioatividade",
+          "frequencia": 2,
+          "porque": "Desintegração.",
+          "como": "Meia-vida."
         }
       ]
     },
