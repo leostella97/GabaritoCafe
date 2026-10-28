@@ -1938,6 +1938,72 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Combate à corrupção.",
           "como": "Transparência e prestação de contas."
+        },
+        {
+          "nome": "Código de ética do servidor",
+          "frequencia": 4,
+          "porque": "Conduta no serviço público.",
+          "como": "Princípios e deveres."
+        },
+        {
+          "nome": "Imparcialidade",
+          "frequencia": 4,
+          "porque": "Neutralidade administrativa.",
+          "como": "Ausência de favorecimento."
+        },
+        {
+          "nome": "Transparência",
+          "frequencia": 4,
+          "porque": "Acesso à informação.",
+          "como": "Lei 12.527."
+        },
+        {
+          "nome": "Responsabilidade ética",
+          "frequencia": 3,
+          "porque": "Obrigações morais.",
+          "como": "Prestação de contas."
+        },
+        {
+          "nome": "Sigilo funcional",
+          "frequencia": 3,
+          "porque": "Proteção de informações.",
+          "como": "Dever de reserva."
+        },
+        {
+          "nome": "Assédio no trabalho",
+          "frequencia": 3,
+          "porque": "Ambiente saudável.",
+          "como": "Prevenção e combate."
+        },
+        {
+          "nome": "Ética na comunicação",
+          "frequencia": 2,
+          "porque": "Mensagens institucionais.",
+          "como": "Clareza e veracidade."
+        },
+        {
+          "nome": "Ética profissional",
+          "frequencia": 4,
+          "porque": "Normas de conduta.",
+          "como": "Código deontológico."
+        },
+        {
+          "nome": "Ética pública",
+          "frequencia": 4,
+          "porque": "Integridade na gestão.",
+          "como": "Combate à corrupção."
+        },
+        {
+          "nome": "Integridade",
+          "frequencia": 3,
+          "porque": "Coerência moral.",
+          "como": "Transparência e honestidade."
+        },
+        {
+          "nome": "Princípio da dignidade",
+          "frequencia": 3,
+          "porque": "Respeito ao indivíduo.",
+          "como": "CF e direitos fundamentais."
         }
       ]
     },
