@@ -6599,6 +6599,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Volumes.",
           "como": "Prismas e pirâmides."
+        },
+        {
+          "nome": "Álgebra linear",
+          "frequencia": 2,
+          "porque": "Matrizes.",
+          "como": "Espaços vetoriais."
+        },
+        {
+          "nome": "Análise combinatória",
+          "frequencia": 3,
+          "porque": "Combinações.",
+          "como": "Permutações."
+        },
+        {
+          "nome": "Matemática financeira",
+          "frequencia": 3,
+          "porque": "Juros.",
+          "como": "Descontos."
+        },
+        {
+          "nome": "Estatística descritiva",
+          "frequencia": 2,
+          "porque": "Dados.",
+          "como": "Média."
+        },
+        {
+          "nome": "Probabilidade condicional",
+          "frequencia": 2,
+          "porque": "Eventos dependentes.",
+          "como": "Teorema de Bayes."
+        },
+        {
+          "nome": "Geometria analítica",
+          "frequencia": 3,
+          "porque": "Retas e cônicas.",
+          "como": "Equações."
+        },
+        {
+          "nome": "Funções exponenciais",
+          "frequencia": 3,
+          "porque": "Crescimento.",
+          "como": "Logaritmos."
+        },
+        {
+          "nome": "Funções trigonométricas",
+          "frequencia": 3,
+          "porque": "Ângulos.",
+          "como": "Seno cosseno."
+        },
+        {
+          "nome": "Inequações",
+          "frequencia": 2,
+          "porque": "Intervalos.",
+          "como": "Sinais."
+        },
+        {
+          "nome": "Sistemas de equações",
+          "frequencia": 3,
+          "porque": "Múltiplas incógnitas.",
+          "como": "Escalonamento."
+        },
+        {
+          "nome": "Números complexos",
+          "frequencia": 2,
+          "porque": "Forma algébrica.",
+          "como": "Módulo."
+        },
+        {
+          "nome": "Sequências",
+          "frequencia": 3,
+          "porque": "PA e PG.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Logaritmos",
+          "frequencia": 3,
+          "porque": "Potências.",
+          "como": "Propriedades."
+        },
+        {
+          "nome": "Geometria plana",
+          "frequencia": 4,
+          "porque": "Figuras.",
+          "como": "Áreas."
         }
       ]
     },
