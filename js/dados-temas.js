@@ -6681,6 +6681,126 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Campos.",
           "como": "Força magnética."
+        },
+        {
+          "nome": "Movimento circular uniforme",
+          "frequencia": 3,
+          "porque": "Força centrípeta.",
+          "como": "Velocidade tangencial."
+        },
+        {
+          "nome": "Lançamento oblíquo",
+          "frequencia": 3,
+          "porque": "Parábola.",
+          "como": "Alcance máximo."
+        },
+        {
+          "nome": "Plano inclinado",
+          "frequencia": 3,
+          "porque": "Decomposição.",
+          "como": "Forças peso e normal."
+        },
+        {
+          "nome": "Força de atrito",
+          "frequencia": 2,
+          "porque": "Resistência.",
+          "como": "Coeficiente."
+        },
+        {
+          "nome": "Potência mecânica",
+          "frequencia": 2,
+          "porque": "Rendimento.",
+          "como": "Trabalho/tempo."
+        },
+        {
+          "nome": "Centro de massa",
+          "frequencia": 2,
+          "porque": "Equilíbrio.",
+          "como": "Distribuição."
+        },
+        {
+          "nome": "Lei de Hooke",
+          "frequencia": 2,
+          "porque": "Molas.",
+          "como": "Força elástica."
+        },
+        {
+          "nome": "Pêndulo simples",
+          "frequencia": 2,
+          "porque": "Período.",
+          "como": "Oscilações."
+        },
+        {
+          "nome": "Teorema de Stevin",
+          "frequencia": 2,
+          "porque": "Pressão hidrostática.",
+          "como": "Profundidade."
+        },
+        {
+          "nome": "Teorema de Pascal",
+          "frequencia": 2,
+          "porque": "Prensa.",
+          "como": "Princípio."
+        },
+        {
+          "nome": "Empuxo",
+          "frequencia": 3,
+          "porque": "Flutuabilidade.",
+          "como": "Arquimedes."
+        },
+        {
+          "nome": "Corrente elétrica",
+          "frequencia": 3,
+          "porque": "Definição.",
+          "como": "Carga/tempo."
+        },
+        {
+          "nome": "Potência elétrica",
+          "frequencia": 3,
+          "porque": "Consumo.",
+          "como": "P = UI."
+        },
+        {
+          "nome": "Campo elétrico",
+          "frequencia": 2,
+          "porque": "Cargas.",
+          "como": "Linhas de força."
+        },
+        {
+          "nome": "Capacitores",
+          "frequencia": 2,
+          "porque": "Armazenamento.",
+          "como": "Capacitância."
+        },
+        {
+          "nome": "Indução eletromagnética",
+          "frequencia": 2,
+          "porque": "Faraday.",
+          "como": "Corrente induzida."
+        },
+        {
+          "nome": "Transformadores",
+          "frequencia": 2,
+          "porque": "Aplicação.",
+          "como": "Relação de espiras."
+        },
+        {
+          "nome": "Radiação eletromagnética",
+          "frequencia": 2,
+          "porque": "Espectro.",
+          "como": "Velocidade da luz."
+        },
+        {
+          "nome": "Efeito fotoelétrico",
+          "frequencia": 2,
+          "porque": "Quântica.",
+          "como": "Einstein."
+        },
+        {
+          "nome": "Relatividade restrita",
+          "frequencia": 2,
+          "porque": "Tempo e espaço.",
+          "como": "Dilatação temporal."
         }
       ]
     },
