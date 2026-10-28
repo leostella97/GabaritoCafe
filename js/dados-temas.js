@@ -4961,6 +4961,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Primeira impressão.",
           "como": "Síntese do tema."
+        },
+        {
+          "nome": "Estratégias argumentativas",
+          "frequencia": 4,
+          "porque": "Persuasão.",
+          "como": "Causa e consequência."
+        },
+        {
+          "nome": "Comparação e contraste",
+          "frequencia": 3,
+          "porque": "Argumentação.",
+          "como": "Passado x presente."
+        },
+        {
+          "nome": "Exemplificação",
+          "frequencia": 3,
+          "porque": "Concretude.",
+          "como": "Casos reais."
+        },
+        {
+          "nome": "Contra-argumentação",
+          "frequencia": 3,
+          "porque": "Amadurecimento.",
+          "como": "Refutar oposição."
+        },
+        {
+          "nome": "Uso de conceitos filosóficos",
+          "frequencia": 2,
+          "porque": "Profundidade.",
+          "como": "Banalidade do mal."
+        },
+        {
+          "nome": "Uso de conceitos sociológicos",
+          "frequencia": 2,
+          "porque": "Análise social.",
+          "como": "Fato social."
+        },
+        {
+          "nome": "Uso de conceitos históricos",
+          "frequencia": 2,
+          "porque": "Contexto.",
+          "como": "Herança colonial."
+        },
+        {
+          "nome": "Uso de legislação",
+          "frequencia": 2,
+          "porque": "Base jurídica.",
+          "como": "CF 1988."
+        },
+        {
+          "nome": "Linguagem formal sem rebuscamento",
+          "frequencia": 3,
+          "porque": "Clareza.",
+          "como": "Vocabulário acessível."
+        },
+        {
+          "nome": "Evitar clichês e senso comum",
+          "frequencia": 3,
+          "porque": "Originalidade.",
+          "como": "Fugir do óbvio."
+        },
+        {
+          "nome": "Uso de conjunções adequadas",
+          "frequencia": 3,
+          "porque": "Coesão.",
+          "como": "Entretanto, portanto."
+        },
+        {
+          "nome": "Revisão de ortografia",
+          "frequencia": 4,
+          "porque": "Norma culta.",
+          "como": "Última leitura."
+        },
+        {
+          "nome": "Revisão de vírgulas",
+          "frequencia": 3,
+          "porque": "Pontuação.",
+          "como": "Pausas sintáticas."
+        },
+        {
+          "nome": "Adequação ao gênero textual",
+          "frequencia": 4,
+          "porque": "Exigência.",
+          "como": "Dissertação."
         }
       ]
     },
