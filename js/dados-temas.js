@@ -11252,6 +11252,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tema comum.",
           "como": "Alimentos."
+        },
+        {
+          "nome": "Vocabulario de familia",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Parentescos."
+        },
+        {
+          "nome": "Vocabulario de ropa",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Vestimentas."
+        },
+        {
+          "nome": "Vocabulario de casa",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Muebles."
+        },
+        {
+          "nome": "Vocabulario de ciudad",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Lugares públicos."
+        },
+        {
+          "nome": "Vocabulario de escuela",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Materiales."
+        },
+        {
+          "nome": "Vocabulario de salud",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Enfermedades."
+        },
+        {
+          "nome": "Vocabulario de medios de transporte",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Avión, tren."
+        },
+        {
+          "nome": "Vocabulario de clima",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Temperatura."
+        },
+        {
+          "nome": "Vocabulario de deportes",
+          "frequencia": 2,
+          "porque": "Tema comum.",
+          "como": "Fútbol, natación."
+        },
+        {
+          "nome": "Lectura de textos auténticos",
+          "frequencia": 3,
+          "porque": "Provas.",
+          "como": "Artículos y noticias."
+        },
+        {
+          "nome": "Marcadores del discurso",
+          "frequencia": 2,
+          "porque": "Cohesión.",
+          "como": "En primer lugar."
+        },
+        {
+          "nome": "Tipologías textuales",
+          "frequencia": 2,
+          "porque": "Gêneros.",
+          "como": "Carta, correo, anuncio."
+        },
+        {
+          "nome": "Interculturalidad",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "España e Hispanoamérica."
+        },
+        {
+          "nome": "Lectura inferencial",
+          "frequencia": 3,
+          "porque": "Compreensão.",
+          "como": "Lo implícito."
         }
       ]
     },
