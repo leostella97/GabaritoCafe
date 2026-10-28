@@ -10629,6 +10629,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Sustentabilidade.",
           "como": "Arte ecológica."
+        },
+        {
+          "nome": "Arte rupestre",
+          "frequencia": 2,
+          "porque": "Pré-história.",
+          "como": "Pintura rupestre."
+        },
+        {
+          "nome": "Arte egípcia",
+          "frequencia": 2,
+          "porque": "Antiguidade.",
+          "como": "Pirâmides."
+        },
+        {
+          "nome": "Arte renascentista",
+          "frequencia": 3,
+          "porque": "Humanismo.",
+          "como": "Michelangelo."
+        },
+        {
+          "nome": "Arte barroca",
+          "frequencia": 3,
+          "porque": "Contrarreforma.",
+          "como": "Caravaggio."
+        },
+        {
+          "nome": "Arte neoclássica",
+          "frequencia": 2,
+          "porque": "Razão.",
+          "como": "David."
+        },
+        {
+          "nome": "Arte romântica",
+          "frequencia": 2,
+          "porque": "Sentimento.",
+          "como": "Delacroix."
+        },
+        {
+          "nome": "Semana de Arte Moderna",
+          "frequencia": 4,
+          "porque": "Brasil 1922.",
+          "como": "Mário de Andrade."
+        },
+        {
+          "nome": "Tropicalismo",
+          "frequencia": 2,
+          "porque": "Contracultura.",
+          "como": "Hélio Oiticica."
+        },
+        {
+          "nome": "Arte naif",
+          "frequencia": 1,
+          "porque": "Popular.",
+          "como": "Primitivismo."
+        },
+        {
+          "nome": "Arquitetura moderna brasileira",
+          "frequencia": 2,
+          "porque": "Brasília.",
+          "como": "Niemeyer."
+        },
+        {
+          "nome": "Grafite e arte urbana",
+          "frequencia": 2,
+          "porque": "Cidade.",
+          "como": "Os Gêmeos."
+        },
+        {
+          "nome": "Performance e body art",
+          "frequencia": 2,
+          "porque": "Corpo.",
+          "como": "Efêmero."
+        },
+        {
+          "nome": "Arte minimalista",
+          "frequencia": 1,
+          "porque": "Simplicidade.",
+          "como": "Less is more."
+        },
+        {
+          "nome": "Arte e política",
+          "frequencia": 2,
+          "porque": "Engajamento.",
+          "como": "Crítica social."
         }
       ]
     },
