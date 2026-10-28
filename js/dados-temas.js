@@ -4988,6 +4988,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Anticorpo, vacina e soro caem contextualizados.",
           "como": "Vacina = antígeno que previne (antes); soro = anticorpo pronto que trata (depois). Um para prevenir, outro para curar."
+        },
+        {
+          "nome": "Citologia",
+          "frequencia": 4,
+          "porque": "Estrutura celular.",
+          "como": "Organelas e funções."
+        },
+        {
+          "nome": "Genética mendeliana",
+          "frequencia": 5,
+          "porque": "Leis de Mendel.",
+          "como": "Dominância e segregação."
+        },
+        {
+          "nome": "Evolução",
+          "frequencia": 4,
+          "porque": "Seleção natural.",
+          "como": "Darwin."
+        },
+        {
+          "nome": "Fisiologia humana",
+          "frequencia": 4,
+          "porque": "Sistemas cardiovasculares.",
+          "como": "Respiração e digestão."
+        },
+        {
+          "nome": "Ecologia",
+          "frequencia": 5,
+          "porque": "Cadeias alimentares.",
+          "como": "Sucessão ecológica."
+        },
+        {
+          "nome": "Zoologia",
+          "frequencia": 3,
+          "porque": "Reino Animal.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Botânica",
+          "frequencia": 3,
+          "porque": "Reino vegetal.",
+          "como": "Fotossíntese."
+        },
+        {
+          "nome": "Bioquímica",
+          "frequencia": 3,
+          "porque": "Metabolismo.",
+          "como": "Enzimas."
+        },
+        {
+          "nome": "Biologia molecular",
+          "frequencia": 3,
+          "porque": "DNA e RNA.",
+          "como": "Replicação."
+        },
+        {
+          "nome": "Embriologia",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Gastrulação."
+        },
+        {
+          "nome": "Virologia",
+          "frequencia": 3,
+          "porque": "Estrutura viral.",
+          "como": "Replicação."
+        },
+        {
+          "nome": "Microbiologia",
+          "frequencia": 3,
+          "porque": "Bactérias e fungos.",
+          "como": "Antibióticos."
+        },
+        {
+          "nome": "Biotecnologia",
+          "frequencia": 3,
+          "porque": "Aplicações.",
+          "como": "CRISPR."
+        },
+        {
+          "nome": "Bioética",
+          "frequencia": 2,
+          "porque": "Questões morais.",
+          "como": "Clonagem."
         }
       ]
     },
