@@ -13091,6 +13091,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Ritmo biológico.",
           "como": "Melatonina."
+        },
+        {
+          "nome": "Fisiologia do sistema vestibular",
+          "frequencia": 2,
+          "porque": "Equilíbrio.",
+          "como": "Labirinto."
+        },
+        {
+          "nome": "Fisiologia da propriocepção",
+          "frequencia": 2,
+          "porque": "Posição corporal.",
+          "como": "Fusos musculares."
+        },
+        {
+          "nome": "Fisiologia da hematopoiese",
+          "frequencia": 2,
+          "porque": "Produção de sangue.",
+          "como": "Medula óssea."
+        },
+        {
+          "nome": "Fisiologia do sistema porta-hepático",
+          "frequencia": 2,
+          "porque": "Fígado.",
+          "como": "Metabolismo."
+        },
+        {
+          "nome": "Fisiologia da barreira hematoencefálica",
+          "frequencia": 2,
+          "porque": "Proteção cerebral.",
+          "como": "Permeabilidade seletiva."
+        },
+        {
+          "nome": "Fisiologia da ventilação pulmonar",
+          "frequencia": 2,
+          "porque": "Respiração.",
+          "como": "Volumes e capacidades."
+        },
+        {
+          "nome": "Fisiologia do transporte de O2 e CO2",
+          "frequencia": 2,
+          "porque": "Sangue.",
+          "como": "Hemoglobina."
+        },
+        {
+          "nome": "Fisiologia do sistema imune inato",
+          "frequencia": 2,
+          "porque": "Primeira defesa.",
+          "como": "Macrófagos."
+        },
+        {
+          "nome": "Fisiologia do sistema imune adaptativo",
+          "frequencia": 2,
+          "porque": "Memória.",
+          "como": "Linfócitos T e B."
+        },
+        {
+          "nome": "Fisiologia do sistema complemento",
+          "frequencia": 2,
+          "porque": "Cascata.",
+          "como": "Lise bacteriana."
+        },
+        {
+          "nome": "Fisiologia da inflamação",
+          "frequencia": 2,
+          "porque": "Resposta.",
+          "como": "Citocinas."
+        },
+        {
+          "nome": "Fisiologia da febre",
+          "frequencia": 1,
+          "porque": "Termorregulação.",
+          "como": "Pirógenos."
+        },
+        {
+          "nome": "Fisiologia do choque",
+          "frequencia": 2,
+          "porque": "Perfusão tecidual.",
+          "como": "Hipovolêmico."
+        },
+        {
+          "nome": "Fisiologia do exercício e VO2max",
+          "frequencia": 2,
+          "porque": "Capacidade aeróbica.",
+          "como": "Consumo máximo de O2."
         }
       ]
     },
