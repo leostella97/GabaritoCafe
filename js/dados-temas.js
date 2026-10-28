@@ -5617,6 +5617,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Características.",
           "como": "Nordeste."
+        },
+        {
+          "nome": "Regionalização do Brasil",
+          "frequencia": 3,
+          "porque": "IBGE e complexos.",
+          "como": "Centro-Sul."
+        },
+        {
+          "nome": "Aquífero Guarani",
+          "frequencia": 2,
+          "porque": "Reserva estratégica.",
+          "como": "Bacia."
+        },
+        {
+          "nome": "Amazônia Legal",
+          "frequencia": 3,
+          "porque": "Preservação.",
+          "como": "Desmatamento."
+        },
+        {
+          "nome": "Nordeste e seca",
+          "frequencia": 3,
+          "porque": "Semiárido.",
+          "como": "Transposição."
+        },
+        {
+          "nome": "Energia no Brasil",
+          "frequencia": 3,
+          "porque": "Matriz energética.",
+          "como": "Hidrelétricas."
+        },
+        {
+          "nome": "Transportes no Brasil",
+          "frequencia": 2,
+          "porque": "Infraestrutura.",
+          "como": "Rodoviarismo."
+        },
+        {
+          "nome": "Espaço agrário",
+          "frequencia": 3,
+          "porque": "Latifúndio.",
+          "como": "Reforma agrária."
+        },
+        {
+          "nome": "Êxodo rural e metropolização",
+          "frequencia": 3,
+          "porque": "Migrações internas.",
+          "como": "Favelização."
+        },
+        {
+          "nome": "Fontes renováveis",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Eólica e solar."
+        },
+        {
+          "nome": "Tectônica de placas",
+          "frequencia": 2,
+          "porque": "Relevo terrestre.",
+          "como": "Terremotos."
+        },
+        {
+          "nome": "Massas de ar",
+          "frequencia": 2,
+          "porque": "Clima brasileiro.",
+          "como": "Massa polar."
+        },
+        {
+          "nome": "Desertificação",
+          "frequencia": 2,
+          "porque": "Degradação.",
+          "como": "Semiárido."
+        },
+        {
+          "nome": "Cidades globais",
+          "frequencia": 2,
+          "porque": "Hierarquia urbana.",
+          "como": "São Paulo."
+        },
+        {
+          "nome": "Nova Ordem Mundial",
+          "frequencia": 2,
+          "porque": "Geopolítica.",
+          "como": "Multipolar."
         }
       ]
     },
