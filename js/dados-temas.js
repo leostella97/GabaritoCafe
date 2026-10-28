@@ -4775,6 +4775,90 @@ const DadosTemas = {
           "frequencia": 5,
           "porque": "Sustentação.",
           "como": "Dados e exemplos."
+        },
+        {
+          "nome": "Coesão textual",
+          "frequencia": 4,
+          "porque": "Articulações.",
+          "como": "Conectores."
+        },
+        {
+          "nome": "Coerência",
+          "frequencia": 4,
+          "porque": "Sentido.",
+          "como": "Lógica."
+        },
+        {
+          "nome": "Norma culta",
+          "frequencia": 5,
+          "porque": "Gramática.",
+          "como": "Ortografia."
+        },
+        {
+          "nome": "Ortografia",
+          "frequencia": 4,
+          "porque": "Acerto.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Pontuação",
+          "frequencia": 3,
+          "porque": "Clareza.",
+          "como": "Vírgula."
+        },
+        {
+          "nome": "Variação linguística",
+          "frequencia": 2,
+          "porque": "Uso.",
+          "como": "Formal."
+        },
+        {
+          "nome": "Intertextualidade",
+          "frequencia": 2,
+          "porque": "Referências.",
+          "como": "Citações."
+        },
+        {
+          "nome": "Introdução",
+          "frequencia": 4,
+          "porque": "Apresentação.",
+          "como": "Tese."
+        },
+        {
+          "nome": "Desenvolvimento",
+          "frequencia": 5,
+          "porque": "Corpo.",
+          "como": "Parágrafos."
+        },
+        {
+          "nome": "Conclusão",
+          "frequencia": 5,
+          "porque": "Fechamento.",
+          "como": "Síntese."
+        },
+        {
+          "nome": "Proposta de intervenção",
+          "frequencia": 5,
+          "porque": "Solução.",
+          "como": "5 elementos."
+        },
+        {
+          "nome": "Estilo",
+          "frequencia": 3,
+          "porque": "Originalidade.",
+          "como": "Voz."
+        },
+        {
+          "nome": "Repertório atualizado",
+          "frequencia": 4,
+          "porque": "Atualidade.",
+          "como": "Notícias."
+        },
+        {
+          "nome": "Citação de autores",
+          "frequencia": 3,
+          "porque": "Fundamentação.",
+          "como": "Referências."
         }
       ]
     },
