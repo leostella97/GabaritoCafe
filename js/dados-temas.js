@@ -6043,6 +6043,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Agricultura.",
           "como": "Tecnologia."
+        },
+        {
+          "nome": "Solo e agricultura brasileira",
+          "frequencia": 2,
+          "porque": "Tipos.",
+          "como": "Latossolo."
+        },
+        {
+          "nome": "Ciclos biogeoquímicos",
+          "frequencia": 2,
+          "porque": "Natureza.",
+          "como": "Carbono e nitrogênio."
+        },
+        {
+          "nome": "Correntes marítimas",
+          "frequencia": 2,
+          "porque": "Clima.",
+          "como": "Humboldt."
+        },
+        {
+          "nome": "El Niño e La Niña",
+          "frequencia": 2,
+          "porque": "Clima.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "Erosão e assoreamento",
+          "frequencia": 2,
+          "porque": "Degradação.",
+          "como": "Causas."
+        },
+        {
+          "nome": "Unidades de conservação",
+          "frequencia": 2,
+          "porque": "Preservação.",
+          "como": "Parques nacionais."
+        },
+        {
+          "nome": "Urbanização brasileira",
+          "frequencia": 3,
+          "porque": "Histórico.",
+          "como": "Metrópoles."
+        },
+        {
+          "nome": "Agricultura familiar",
+          "frequencia": 2,
+          "porque": "Produção.",
+          "como": "Pequeño produtor."
+        },
+        {
+          "nome": "Agronegócio no Brasil",
+          "frequencia": 3,
+          "porque": "Exportação.",
+          "como": "Soja e milho."
+        },
+        {
+          "nome": "Industrialização brasileira",
+          "frequencia": 2,
+          "porque": "Evolução.",
+          "como": "Vargas a JK."
+        },
+        {
+          "nome": "Transportes no mundo",
+          "frequencia": 2,
+          "porque": "Deslocamento.",
+          "como": "Modalidades."
+        },
+        {
+          "nome": "Turismo",
+          "frequencia": 1,
+          "porque": "Setor.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "População mundial",
+          "frequencia": 2,
+          "porque": "Crescimento.",
+          "como": "Transição demográfica."
+        },
+        {
+          "nome": "Migrações internacionais",
+          "frequencia": 2,
+          "porque": "Movimentos.",
+          "como": "Causas."
         }
       ]
     },
