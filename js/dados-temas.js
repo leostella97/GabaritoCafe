@@ -4902,6 +4902,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Lei 10.639.",
           "como": "Cultura e resistência."
+        },
+        {
+          "nome": "Colônia portuguesa",
+          "frequencia": 4,
+          "porque": "Capitanias e ouro.",
+          "como": "Ciclos econômicos."
+        },
+        {
+          "nome": "Independência do Brasil",
+          "frequencia": 4,
+          "porque": "1822.",
+          "como": "D. Pedro I."
+        },
+        {
+          "nome": "Império brasileiro",
+          "frequencia": 4,
+          "porque": "Reinado.",
+          "como": "Dom Pedro II."
+        },
+        {
+          "nome": "Proclamação da República",
+          "frequencia": 4,
+          "porque": "1889.",
+          "como": "Marechal Deodoro."
+        },
+        {
+          "nome": "Era Vargas",
+          "frequencia": 4,
+          "porque": "Estado Novo.",
+          "como": "Getúlio."
+        },
+        {
+          "nome": "Ditadura militar",
+          "frequencia": 4,
+          "porque": "1964-1985.",
+          "como": "Repressão."
+        },
+        {
+          "nome": "Redemocratização",
+          "frequencia": 3,
+          "porque": "Constituição de 1988.",
+          "como": "Direitos."
+        },
+        {
+          "nome": "Brasil contemporâneo",
+          "frequencia": 3,
+          "porque": "Atualidades.",
+          "como": "Política recente."
+        },
+        {
+          "nome": "Economia colonial",
+          "frequencia": 3,
+          "porque": "Açúcar.",
+          "como": "Pau-brasil."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Lutas.",
+          "como": "Canudos."
+        },
+        {
+          "nome": "Cultura brasileira",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Música e literatura."
+        },
+        {
+          "nome": "Religião e sociedade",
+          "frequencia": 2,
+          "porque": "Católica e sincretismo.",
+          "como": "Afro-religiosidades."
+        },
+        {
+          "nome": "História indígena",
+          "frequencia": 3,
+          "porque": "Primeiros povos.",
+          "como": "Resistência."
+        },
+        {
+          "nome": "Revoltas populares",
+          "frequencia": 3,
+          "porque": "Cabanagem.",
+          "como": "Balaiada."
         }
       ]
     },
