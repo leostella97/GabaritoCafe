@@ -1936,6 +1936,12 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Participação online.",
           "como": "Plataformas cidadãs."
+        },
+        {
+          "nome": "Inteligência Artificial",
+          "frequencia": 4,
+          "porque": "Impacto social e regulatório.",
+          "como": "Uso e ética."
         }
       ]
     },
