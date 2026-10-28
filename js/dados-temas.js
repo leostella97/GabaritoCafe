@@ -7945,6 +7945,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Comprehension.",
           "como": "Audio."
+        },
+        {
+          "nome": "Tirinhas e cartoons",
+          "frequencia": 3,
+          "porque": "Interpretação visual.",
+          "como": "Text and image."
+        },
+        {
+          "nome": "Verbos regulares e irregulares",
+          "frequencia": 4,
+          "porque": "Conjugação.",
+          "como": "Past tense."
+        },
+        {
+          "nome": "Falsos cognatos",
+          "frequencia": 4,
+          "porque": "Confusão comum.",
+          "como": "Actually ≠ atualmente."
+        },
+        {
+          "nome": "Adjetivos e advérbios",
+          "frequencia": 3,
+          "porque": "Modificadores.",
+          "como": "Comparativos."
+        },
+        {
+          "nome": "Artigos definidos e indefinidos",
+          "frequencia": 3,
+          "porque": "Uso correto.",
+          "como": "The/a/an."
+        },
+        {
+          "nome": "Conectivos",
+          "frequencia": 3,
+          "porque": "Coesão textual.",
+          "como": "However, therefore."
+        },
+        {
+          "nome": "Gêneros textuais",
+          "frequencia": 3,
+          "porque": "Formatos variados.",
+          "como": "News, ads, emails."
+        },
+        {
+          "nome": "Present perfect",
+          "frequencia": 3,
+          "porque": "Tempo verbal.",
+          "como": "Have/has + participle."
+        },
+        {
+          "nome": "Question tags",
+          "frequencia": 2,
+          "porque": "Confirmação.",
+          "como": "Isn't it?"
+        },
+        {
+          "nome": "Voz passiva avançada",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "It is said that."
+        },
+        {
+          "nome": "Substantivos contáveis e incontáveis",
+          "frequencia": 2,
+          "porque": "Quantificadores.",
+          "como": "Much/many."
+        },
+        {
+          "nome": "Phrasal verbs",
+          "frequencia": 2,
+          "porque": "Combinações.",
+          "como": "Give up, look after."
+        },
+        {
+          "nome": "Songs and lyrics",
+          "frequencia": 2,
+          "porque": "Interpretação.",
+          "como": "Mensagem da letra."
+        },
+        {
+          "nome": "Word formation",
+          "frequencia": 2,
+          "porque": "Prefixos e sufixos.",
+          "como": "Un-, -ful, -less."
         }
       ]
     },
