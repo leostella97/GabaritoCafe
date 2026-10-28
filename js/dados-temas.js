@@ -12254,6 +12254,138 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Justiça social.",
           "como": "Transferência de renda."
+        },
+        {
+          "nome": "Balança comercial",
+          "frequencia": 2,
+          "porque": "Export e import.",
+          "como": "Superávit."
+        },
+        {
+          "nome": "Taxa de câmbio",
+          "frequencia": 3,
+          "porque": "Moeda.",
+          "como": "Flutuante e fixo."
+        },
+        {
+          "nome": "Dívida pública",
+          "frequencia": 2,
+          "porque": "Endividamento.",
+          "como": "Interna e externa."
+        },
+        {
+          "nome": "Política fiscal expansionista",
+          "frequencia": 2,
+          "porque": "Crescimento.",
+          "como": "Gastos."
+        },
+        {
+          "nome": "Política fiscal contracionista",
+          "frequencia": 2,
+          "porque": "Contenção.",
+          "como": "Corte."
+        },
+        {
+          "nome": "Multiplicador keynesiano",
+          "frequencia": 2,
+          "porque": "Impacto.",
+          "como": "Gasto gera renda."
+        },
+        {
+          "nome": "Curva de Phillips",
+          "frequencia": 2,
+          "porque": "Trade-off.",
+          "como": "Inflação x desemprego."
+        },
+        {
+          "nome": "Produto potencial",
+          "frequencia": 2,
+          "porque": "Capacidade.",
+          "como": "PIB potencial."
+        },
+        {
+          "nome": "Ciclos econômicos",
+          "frequencia": 2,
+          "porque": "Flutuações.",
+          "como": "Expansão e recessão."
+        },
+        {
+          "nome": "Setor externo",
+          "frequencia": 2,
+          "porque": "Global.",
+          "como": "Reservas."
+        },
+        {
+          "nome": "Investimento e poupança",
+          "frequencia": 2,
+          "porque": "Formação.",
+          "como": "Capital."
+        },
+        {
+          "nome": "Elasticidade",
+          "frequencia": 2,
+          "porque": "Sensibilidade.",
+          "como": "Preço e renda."
+        },
+        {
+          "nome": "Estruturas de mercado",
+          "frequencia": 3,
+          "porque": "Organização.",
+          "como": "Oligopólio."
+        },
+        {
+          "nome": "Teoria dos jogos",
+          "frequencia": 2,
+          "porque": "Estratégia.",
+          "como": "Dilema."
+        },
+        {
+          "nome": "Bens públicos",
+          "frequencia": 2,
+          "porque": "Coletivo.",
+          "como": "Não rival."
+        },
+        {
+          "nome": "Externalidades",
+          "frequencia": 2,
+          "porque": "Impacto.",
+          "como": "Poluição."
+        },
+        {
+          "nome": "Assimetria de informação",
+          "frequencia": 2,
+          "porque": "Desigual.",
+          "como": "Mercado."
+        },
+        {
+          "nome": "Mercado de câmbio",
+          "frequencia": 2,
+          "porque": "Dólar.",
+          "como": "Apreciação."
+        },
+        {
+          "nome": "Banco Central",
+          "frequencia": 3,
+          "porque": "Autoridade.",
+          "como": "Competências."
+        },
+        {
+          "nome": "Copom e taxa Selic",
+          "frequencia": 3,
+          "porque": "Decisão.",
+          "como": "Meta."
+        },
+        {
+          "nome": "Metas de inflação",
+          "frequencia": 2,
+          "porque": "Regime.",
+          "como": "Objetivo."
+        },
+        {
+          "nome": "Tripé macroeconômico",
+          "frequencia": 2,
+          "porque": "Brasil.",
+          "como": "Superávit, câmbio, meta."
         }
       ]
     }
