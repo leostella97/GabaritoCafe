@@ -8917,6 +8917,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Lutas.",
           "como": "Protestos."
+        },
+        {
+          "nome": "Cultura",
+          "frequencia": 3,
+          "porque": "Identidade.",
+          "como": "Símbolos."
+        },
+        {
+          "nome": "Religião",
+          "frequencia": 2,
+          "porque": "Fé.",
+          "como": "Weber."
+        },
+        {
+          "nome": "Educação",
+          "frequencia": 3,
+          "porque": "Escola.",
+          "como": "Reprodução."
+        },
+        {
+          "nome": "Trabalho",
+          "frequencia": 3,
+          "porque": "Emprego.",
+          "como": "Classes."
+        },
+        {
+          "nome": "Família",
+          "frequencia": 2,
+          "porque": "Instituição.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Urbanização",
+          "frequencia": 3,
+          "porque": "Cidade.",
+          "como": "Segregação."
+        },
+        {
+          "nome": "Ruralidade",
+          "frequencia": 2,
+          "porque": "Campo.",
+          "como": "Relações."
+        },
+        {
+          "nome": "Meio ambiente",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Impacto."
+        },
+        {
+          "nome": "Saúde coletiva",
+          "frequencia": 2,
+          "porque": "Acesso.",
+          "como": "SUS."
+        },
+        {
+          "nome": "Desenvolvimento",
+          "frequencia": 2,
+          "porque": "Crescimento.",
+          "como": "IDH."
+        },
+        {
+          "nome": "Globalização",
+          "frequencia": 3,
+          "porque": "Mundo.",
+          "como": "Fluxos."
+        },
+        {
+          "nome": "Cidadania",
+          "frequencia": 3,
+          "porque": "Direitos.",
+          "como": "Participação."
+        },
+        {
+          "nome": "Identidade",
+          "frequencia": 2,
+          "porque": "Eu.",
+          "como": "Socialização."
+        },
+        {
+          "nome": "Comunicação",
+          "frequencia": 2,
+          "porque": "Mídia.",
+          "como": "Industrialização."
         }
       ]
     },
