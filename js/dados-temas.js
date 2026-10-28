@@ -12496,6 +12496,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Ciência.",
           "como": "Produção."
+        },
+        {
+          "nome": "Legislação esportiva brasileira",
+          "frequencia": 2,
+          "porque": "Leis.",
+          "como": "Lei Pelé."
+        },
+        {
+          "nome": "Esporte e cidadania",
+          "frequencia": 2,
+          "porque": "Direito social.",
+          "como": "Inclusão."
+        },
+        {
+          "nome": "Esporte e meio ambiente",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Impactos."
+        },
+        {
+          "nome": "Treinamento funcional",
+          "frequencia": 2,
+          "porque": "Movimento natural.",
+          "como": "Core."
+        },
+        {
+          "nome": "Crossfit e HIIT",
+          "frequencia": 2,
+          "porque": "Alta intensidade.",
+          "como": "Método."
+        },
+        {
+          "nome": "Yoga e pilates",
+          "frequencia": 2,
+          "porque": "Integração.",
+          "como": "Corpo e mente."
+        },
+        {
+          "nome": "Musculação e hipertrofia",
+          "frequencia": 2,
+          "porque": "Força.",
+          "como": "Séries e repetições."
+        },
+        {
+          "nome": "Flexibilidade e mobilidade",
+          "frequencia": 2,
+          "porque": "Preparação.",
+          "como": "Alongamento dinâmico."
+        },
+        {
+          "nome": "Coordenação motora",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Equilíbrio."
+        },
+        {
+          "nome": "Esportes de raquete",
+          "frequencia": 2,
+          "porque": "Tênis e badminton.",
+          "como": "Regras."
+        },
+        {
+          "nome": "Esportes aquáticos",
+          "frequencia": 2,
+          "porque": "Natação e polo.",
+          "como": "Modalidades."
+        },
+        {
+          "nome": "Atletismo",
+          "frequencia": 2,
+          "porque": "Provas.",
+          "como": "Corridas, saltos, lançamentos."
+        },
+        {
+          "nome": "Ginástica artística e rítmica",
+          "frequencia": 2,
+          "porque": "Aparelhos.",
+          "como": "Solo e argolas."
+        },
+        {
+          "nome": "Esporte e neurociência",
+          "frequencia": 2,
+          "porque": "Cérebro.",
+          "como": "Aprendizagem motora."
         }
       ]
     },
