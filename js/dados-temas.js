@@ -124,6 +124,60 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Descrever tipos textuais e características.",
           "como": "Associe finalidade, suporte e estrutura a cada tipo."
+        },
+        {
+          "nome": "Norma culta",
+          "frequencia": 4,
+          "porque": "Variação padrão.",
+          "como": "Uso adequado em provas e redações."
+        },
+        {
+          "nome": "Fonologia",
+          "frequencia": 3,
+          "porque": "Fonemas e alofones.",
+          "como": "Sons e transcrição."
+        },
+        {
+          "nome": "Morfologia",
+          "frequencia": 4,
+          "porque": "Estrutura das palavras.",
+          "como": "Radical, afixos e formação."
+        },
+        {
+          "nome": "Classes gramaticais",
+          "frequencia": 5,
+          "porque": "Substantivo, verbo, adjetivo...",
+          "como": "Função sintática."
+        },
+        {
+          "nome": "Sintaxe do período",
+          "frequencia": 5,
+          "porque": "Ordem direta e inversa.",
+          "como": "Coordenação e subordinação."
+        },
+        {
+          "nome": "Acentuação gráfica",
+          "frequencia": 4,
+          "porque": "Regras e exceções.",
+          "como": "Oxítonas, paroxítonas e proparoxítonas."
+        },
+        {
+          "nome": "Pontuação",
+          "frequencia": 4,
+          "porque": "Vírgula, ponto e vírgula...",
+          "como": "Funções sintáticas."
+        },
+        {
+          "nome": "Redação oficial",
+          "frequencia": 3,
+          "porque": "Atos e correspondências.",
+          "como": "Padronização e clareza."
+        },
+        {
+          "nome": "Vogais e consoantes",
+          "frequencia": 2,
+          "porque": "Ortografia e fonética.",
+          "como": "Certificação de escrita."
         }
       ]
     },
