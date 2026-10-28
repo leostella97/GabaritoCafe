@@ -7862,6 +7862,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Decisões.",
           "como": "Bias."
+        },
+        {
+          "nome": "Macroeconomia",
+          "frequencia": 4,
+          "porque": "Agregados.",
+          "como": "PIB."
+        },
+        {
+          "nome": "Microeconomia",
+          "frequencia": 4,
+          "porque": "Agentes.",
+          "como": "Oferta."
+        },
+        {
+          "nome": "Inflação",
+          "frequencia": 4,
+          "porque": "Preços.",
+          "como": "IPCA."
+        },
+        {
+          "nome": "Desemprego",
+          "frequencia": 3,
+          "porque": "Mercado.",
+          "como": "Taxa."
+        },
+        {
+          "nome": "Política fiscal",
+          "frequencia": 3,
+          "porque": "Gastos.",
+          "como": "Orçamento."
+        },
+        {
+          "nome": "Contabilidade nacional",
+          "frequencia": 2,
+          "porque": "Contas.",
+          "como": "Fluxos."
+        },
+        {
+          "nome": "Balanço de pagamentos",
+          "frequencia": 2,
+          "porque": "Transações.",
+          "como": "Comércio."
+        },
+        {
+          "nome": "Taxas de juros",
+          "frequencia": 3,
+          "porque": "Custo.",
+          "como": "Selic."
+        },
+        {
+          "nome": "Mercado de capitais",
+          "frequencia": 2,
+          "porque": "Investimentos.",
+          "como": "Bolsa."
+        },
+        {
+          "nome": "Economia da saúde",
+          "frequencia": 2,
+          "porque": "Sistema.",
+          "como": "SUS."
+        },
+        {
+          "nome": "Economia do trabalho",
+          "frequencia": 2,
+          "porque": "Relações.",
+          "como": "Salário."
+        },
+        {
+          "nome": "Finanças públicas",
+          "frequencia": 2,
+          "porque": "Estado.",
+          "como": "Dívida."
+        },
+        {
+          "nome": "Economia ambiental",
+          "frequencia": 2,
+          "porque": "Recursos.",
+          "como": "Sustentabilidade."
+        },
+        {
+          "nome": "Economia urbana",
+          "frequencia": 2,
+          "porque": "Cidade.",
+          "como": "Infraestrutura."
         }
       ]
     }
