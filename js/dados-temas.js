@@ -12384,6 +12384,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Participação.",
           "como": "Platão x democracia."
+        },
+        {
+          "nome": "Filosofia da linguagem",
+          "frequencia": 2,
+          "porque": "Wittgenstein.",
+          "como": "Jogos de linguagem."
+        },
+        {
+          "nome": "Filosofia política clássica",
+          "frequencia": 2,
+          "porque": "Platão e Aristóteles.",
+          "como": "A República."
+        },
+        {
+          "nome": "Filosofia política moderna",
+          "frequencia": 2,
+          "porque": "Maquiavel.",
+          "como": "O Príncipe."
+        },
+        {
+          "nome": "Ética teleológica",
+          "frequencia": 2,
+          "porque": "Fins.",
+          "como": "Consequencialismo."
+        },
+        {
+          "nome": "Ética deontológica",
+          "frequencia": 2,
+          "porque": "Dever.",
+          "como": "Kant."
+        },
+        {
+          "nome": "Ética utilitarista",
+          "frequencia": 2,
+          "porque": "Maior felicidade.",
+          "como": "Mill e Bentham."
+        },
+        {
+          "nome": "Ceticismo antigo",
+          "frequencia": 2,
+          "porque": "Suspensão do juízo.",
+          "como": "Pirro."
+        },
+        {
+          "nome": "Dogmatismo",
+          "frequencia": 2,
+          "porque": "Certezas.",
+          "como": "Oposto do ceticismo."
+        },
+        {
+          "nome": "Materialismo",
+          "frequencia": 2,
+          "porque": "Matéria.",
+          "como": "Demócrito."
+        },
+        {
+          "nome": "Idealismo",
+          "frequencia": 2,
+          "porque": "Ideias.",
+          "como": "Platão."
+        },
+        {
+          "nome": "Racionalismo e empirismo em debate",
+          "frequencia": 3,
+          "porque": "Origem do conhecimento.",
+          "como": "Descartes vs Locke."
+        },
+        {
+          "nome": "Filosofia da história",
+          "frequencia": 2,
+          "porque": "Teleologia.",
+          "como": "Hegel."
+        },
+        {
+          "nome": "Filosofia da religião",
+          "frequencia": 2,
+          "porque": "Existência de Deus.",
+          "como": "Aquino."
+        },
+        {
+          "nome": "Filosofia e ciência",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Bacon e Popper."
         }
       ]
     },
