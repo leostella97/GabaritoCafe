@@ -5113,6 +5113,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Desigualdade e acesso.",
           "como": "IDH."
+        },
+        {
+          "nome": "Relevo brasileiro",
+          "frequencia": 4,
+          "porque": "Planaltos e planícies.",
+          "como": "Formações."
+        },
+        {
+          "nome": "Hidrografia",
+          "frequencia": 4,
+          "porque": "Bacias hidrográficas.",
+          "como": "Amazonas e São Francisco."
+        },
+        {
+          "nome": "População",
+          "frequencia": 4,
+          "porque": "Demografia.",
+          "como": "Crescimento."
+        },
+        {
+          "nome": "Economia regional",
+          "frequencia": 3,
+          "porque": "Complexos regionais.",
+          "como": "Nordeste e Sul."
+        },
+        {
+          "nome": "Indústria",
+          "frequencia": 3,
+          "porque": "Setor secundário.",
+          "como": "Concentração."
+        },
+        {
+          "nome": "Agricultura",
+          "frequencia": 3,
+          "porque": "Commodities.",
+          "como": "Soja e milho."
+        },
+        {
+          "nome": "Energia",
+          "frequencia": 3,
+          "porque": "Matriz energética.",
+          "como": "Hidrelétrica."
+        },
+        {
+          "nome": "Globalização",
+          "frequencia": 3,
+          "porque": "Mundo conectado.",
+          "como": "Fluxos."
+        },
+        {
+          "nome": "Urbanização",
+          "frequencia": 4,
+          "porque": "Cidades.",
+          "como": "Metrópoles."
+        },
+        {
+          "nome": "Meio ambiente",
+          "frequencia": 4,
+          "porque": "Desmatamento.",
+          "como": "Conservação."
+        },
+        {
+          "nome": "Cartografia",
+          "frequencia": 3,
+          "porque": "Escalas e projeções.",
+          "como": "Leitura de mapas."
+        },
+        {
+          "nome": "Geopolítica",
+          "frequencia": 2,
+          "porque": "Poder territorial.",
+          "como": "Fronteiras."
+        },
+        {
+          "nome": "Clima mundial",
+          "frequencia": 3,
+          "porque": "Mudanças climáticas.",
+          "como": "Efeito estufa."
+        },
+        {
+          "nome": "Recursos naturais",
+          "frequencia": 3,
+          "porque": "Uso sustentável.",
+          "como": "Mineração."
         }
       ]
     },
