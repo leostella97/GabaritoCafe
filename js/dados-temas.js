@@ -4472,6 +4472,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Melhoria contínua.",
           "como": "Indicadores."
+        },
+        {
+          "nome": "Teorias da aprendizagem",
+          "frequencia": 5,
+          "porque": "Base pedagógica.",
+          "como": "Piaget e Vygotsky."
+        },
+        {
+          "nome": "Currículo escolar",
+          "frequencia": 4,
+          "porque": "Planejamento curricular.",
+          "como": "BNCC."
+        },
+        {
+          "nome": "Didática",
+          "frequencia": 5,
+          "porque": "Métodos de ensino.",
+          "como": "Estratégias."
+        },
+        {
+          "nome": "Psicologia da educação",
+          "frequencia": 3,
+          "porque": "Desenvolvimento infantil.",
+          "como": "Estágios."
+        },
+        {
+          "nome": "Gestão escolar",
+          "frequencia": 3,
+          "porque": "Administração da escola.",
+          "como": "Liderança."
+        },
+        {
+          "nome": "Inclusão educacional",
+          "frequencia": 4,
+          "porque": "AEE e políticas.",
+          "como": "Acessibilidade."
+        },
+        {
+          "nome": "Educação especial",
+          "frequencia": 3,
+          "porque": "Necessidades específicas.",
+          "como": "Plano."
+        },
+        {
+          "nome": "Políticas públicas educacionais",
+          "frequencia": 3,
+          "porque": "Legislação.",
+          "como": "LDB."
+        },
+        {
+          "nome": "Avaliação da aprendizagem",
+          "frequencia": 4,
+          "porque": "Provas e feedback.",
+          "como": "Formativa."
+        },
+        {
+          "nome": "Tecnologias educacionais",
+          "frequencia": 3,
+          "porque": "Ensino digital.",
+          "como": "Plataformas."
+        },
+        {
+          "nome": "Sociologia da educação",
+          "frequencia": 2,
+          "porque": "Contexto social.",
+          "como": "Desigualdade."
+        },
+        {
+          "nome": "Filosofia da educação",
+          "frequencia": 2,
+          "porque": "Fins da educação.",
+          "como": "Correntes."
+        },
+        {
+          "nome": "Planejamento de aula",
+          "frequencia": 4,
+          "porque": "Roteiro didático.",
+          "como": "Objetivos."
+        },
+        {
+          "nome": "Relação professor-aluno",
+          "frequencia": 3,
+          "porque": "Clima de sala.",
+          "como": "Comunicação."
+        },
+        {
+          "nome": "Educação infantil",
+          "frequencia": 3,
+          "porque": "Primeira etapa.",
+          "como": "Brincadeira."
         }
       ]
     }
