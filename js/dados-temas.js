@@ -6638,6 +6638,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Contexto.",
           "como": "Países e tradições."
+        },
+        {
+          "nome": "Gramática",
+          "frequencia": 4,
+          "porque": "Regras.",
+          "como": "Concordância."
+        },
+        {
+          "nome": "Vocabulário",
+          "frequencia": 4,
+          "porque": "Palavras.",
+          "como": "Sinônimos."
+        },
+        {
+          "nome": "Interpretação de texto",
+          "frequencia": 5,
+          "porque": "Compreensão.",
+          "como": "Ideia principal."
+        },
+        {
+          "nome": "Tempos verbais",
+          "frequencia": 3,
+          "porque": "Conjugação.",
+          "como": "Presente e passado."
+        },
+        {
+          "nome": "Pronomes",
+          "frequencia": 3,
+          "porque": "Referência.",
+          "como": "Pessoais."
+        },
+        {
+          "nome": "Preposições",
+          "frequencia": 3,
+          "porque": "Ligação.",
+          "como": "Usos."
+        },
+        {
+          "nome": "Expressões idiomáticas",
+          "frequencia": 2,
+          "porque": "Coloquialismos.",
+          "como": "Frases."
+        },
+        {
+          "nome": "Literatura hispânica",
+          "frequencia": 2,
+          "porque": "Obras.",
+          "como": "Autores."
+        },
+        {
+          "nome": "Comunicação oral",
+          "frequencia": 2,
+          "porque": "Fala.",
+          "como": "Diálogo."
+        },
+        {
+          "nome": "Escrita",
+          "frequencia": 3,
+          "porque": "Produção.",
+          "como": "Redação."
+        },
+        {
+          "nome": "Compreensão auditiva",
+          "frequencia": 2,
+          "porque": "Áudio.",
+          "como": "Escuta."
+        },
+        {
+          "nome": "Cultura latino-americana",
+          "frequencia": 2,
+          "porque": "Contexto.",
+          "como": "História."
+        },
+        {
+          "nome": "Dialetos",
+          "frequencia": 2,
+          "porque": "Variações.",
+          "como": "Regiões."
+        },
+        {
+          "nome": "Ortografia",
+          "frequencia": 2,
+          "porque": "Escrita correta.",
+          "como": "Acentuação."
         }
       ]
     },
