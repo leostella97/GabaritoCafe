@@ -8691,6 +8691,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Tradição.",
           "como": "Cultura."
+        },
+        {
+          "nome": "Pré-história da arte",
+          "frequencia": 2,
+          "porque": "Origens.",
+          "como": "Rupestre."
+        },
+        {
+          "nome": "Arte grega",
+          "frequencia": 2,
+          "porque": "Clássica.",
+          "como": "Arquitetura."
+        },
+        {
+          "nome": "Arte romana",
+          "frequencia": 2,
+          "porque": "Expansão.",
+          "como": "Afrescos."
+        },
+        {
+          "nome": "Arte medieval",
+          "frequencia": 2,
+          "porque": "Religiosa.",
+          "como": "Gótico."
+        },
+        {
+          "nome": "Renascimento",
+          "frequencia": 3,
+          "porque": "Humanismo.",
+          "como": "Da Vinci."
+        },
+        {
+          "nome": "Barroco brasileiro",
+          "frequencia": 3,
+          "porque": "Aleijadinho.",
+          "como": "Igrejas de Minas."
+        },
+        {
+          "nome": "Impressionismo",
+          "frequencia": 2,
+          "porque": "Luz e cor.",
+          "como": "Monet."
+        },
+        {
+          "nome": "Cubismo",
+          "frequencia": 2,
+          "porque": "Geometria.",
+          "como": "Picasso."
+        },
+        {
+          "nome": "Surrealismo",
+          "frequencia": 2,
+          "porque": "Inconsciente.",
+          "como": "Dalí."
+        },
+        {
+          "nome": "Pop Art",
+          "frequencia": 2,
+          "porque": "Cultura de massa.",
+          "como": "Andy Warhol."
+        },
+        {
+          "nome": "Arte conceitual",
+          "frequencia": 2,
+          "porque": "Ideia sobre forma.",
+          "como": "Instalações."
+        },
+        {
+          "nome": "Patrimônio cultural",
+          "frequencia": 2,
+          "porque": "Preservação.",
+          "como": "Tombamento."
+        },
+        {
+          "nome": "Arte e tecnologia",
+          "frequencia": 2,
+          "porque": "Contemporaneidade.",
+          "como": "Arte digital."
+        },
+        {
+          "nome": "Arte de rua",
+          "frequencia": 2,
+          "porque": "Espaço urbano.",
+          "como": "Grafite."
         }
       ]
     },
