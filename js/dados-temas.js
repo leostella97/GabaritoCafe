@@ -2559,6 +2559,60 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Programas comunitários.",
           "como": "Educação, esporte e trabalho."
+        },
+        {
+          "nome": "Escola clássica",
+          "frequencia": 3,
+          "porque": "Beccaria e Bentham.",
+          "como": "Livre arbítrio e retribuição."
+        },
+        {
+          "nome": "Escola positiva",
+          "frequencia": 3,
+          "porque": "Lombroso e Ferri.",
+          "como": "Determinismo biológico."
+        },
+        {
+          "nome": "Criminologia crítica",
+          "frequencia": 3,
+          "porque": "Poder e controle social.",
+          "como": "Reprodução da desigualdade."
+        },
+        {
+          "nome": "Resocialização",
+          "frequencia": 3,
+          "porque": "Reintegração social.",
+          "como": "Educação e trabalho."
+        },
+        {
+          "nome": "Crimes organizados",
+          "frequencia": 3,
+          "porque": "Grupos estruturados.",
+          "como": "Lei 12.850."
+        },
+        {
+          "nome": "Estatística criminal",
+          "frequencia": 3,
+          "porque": "Análise de dados.",
+          "como": "Taxas de criminalidade."
+        },
+        {
+          "nome": "Cybercriminologia",
+          "frequencia": 3,
+          "porque": "Crimes digitais.",
+          "como": "Phishing e ransomware."
+        },
+        {
+          "nome": "Teoria do etiquetamento",
+          "frequencia": 2,
+          "porque": "Rotulação social.",
+          "como": "Stigma e desvio."
+        },
+        {
+          "nome": "Políticas públicas de segurança",
+          "frequencia": 3,
+          "porque": "Planejamento estatal.",
+          "como": "SUS e prevenção."
         }
       ]
     },
