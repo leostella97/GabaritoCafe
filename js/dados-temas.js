@@ -14503,6 +14503,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Homogeneização.",
           "como": "Cultura global."
+        },
+        {
+          "nome": "Florestan Fernandes",
+          "frequencia": 2,
+          "porque": "Sociologia crítica.",
+          "como": "Revolução burguesa."
+        },
+        {
+          "nome": "Gilberto Freyre",
+          "frequencia": 2,
+          "porque": "Casa-grande.",
+          "como": "Miscigenação."
+        },
+        {
+          "nome": "Sérgio Buarque de Holanda",
+          "frequencia": 2,
+          "porque": "Raízes do Brasil.",
+          "como": "Homem cordial."
+        },
+        {
+          "nome": "Darcy Ribeiro",
+          "frequencia": 2,
+          "porque": "Povo brasileiro.",
+          "como": "Diversidade."
+        },
+        {
+          "nome": "Pierre Bourdieu",
+          "frequencia": 2,
+          "porque": "Reprodução.",
+          "como": "Capital cultural."
+        },
+        {
+          "nome": "Norbert Elias",
+          "frequencia": 2,
+          "porque": "Civilização.",
+          "como": "Processo civilizador."
+        },
+        {
+          "nome": "Anthony Giddens",
+          "frequencia": 2,
+          "porque": "Estruturação.",
+          "como": "Modernidade."
+        },
+        {
+          "nome": "Jürgen Habermas",
+          "frequencia": 2,
+          "porque": "Comunicação.",
+          "como": "Esfera pública."
+        },
+        {
+          "nome": "Erving Goffman",
+          "frequencia": 2,
+          "porque": "Interação.",
+          "como": "Representação do eu."
+        },
+        {
+          "nome": "Zygmunt Bauman",
+          "frequencia": 2,
+          "porque": "Modernidade líquida.",
+          "como": "Amor líquido."
+        },
+        {
+          "nome": "Boaventura de Sousa Santos",
+          "frequencia": 2,
+          "porque": "Epistemologias do Sul.",
+          "como": "Colonialidade."
+        },
+        {
+          "nome": "Desigualdade racial no Brasil",
+          "frequencia": 2,
+          "porque": "Racismo estrutural.",
+          "como": "Dados e políticas."
+        },
+        {
+          "nome": "Desigualdade de gênero no Brasil",
+          "frequencia": 2,
+          "porque": "Patriarcado.",
+          "como": "Mercado de trabalho."
+        },
+        {
+          "nome": "Desigualdade regional no Brasil",
+          "frequencia": 2,
+          "porque": "Divisão.",
+          "como": "Nordeste x Sudeste."
         }
       ]
     },
