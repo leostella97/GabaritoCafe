@@ -6433,6 +6433,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Verbos com gerúndio e infinitivo.",
           "como": "After verbs."
+        },
+        {
+          "nome": "Vocabulary",
+          "frequencia": 4,
+          "porque": "Word meaning.",
+          "como": "Context."
+        },
+        {
+          "nome": "Reading comprehension",
+          "frequencia": 5,
+          "porque": "Main idea.",
+          "como": "Infer."
+        },
+        {
+          "nome": "Text types",
+          "frequencia": 3,
+          "porque": "Genres.",
+          "como": "Article."
+        },
+        {
+          "nome": "Culture",
+          "frequencia": 2,
+          "porque": "Texts.",
+          "como": "Context."
+        },
+        {
+          "nome": "Idioms",
+          "frequencia": 2,
+          "porque": "Expressions.",
+          "como": "Common."
+        },
+        {
+          "nome": "Phonetics",
+          "frequencia": 2,
+          "porque": "Pronunciation.",
+          "como": "Sounds."
+        },
+        {
+          "nome": "Syntax",
+          "frequencia": 3,
+          "porque": "Sentence structure.",
+          "como": "Order."
+        },
+        {
+          "nome": "Punctuation",
+          "frequencia": 2,
+          "porque": "Marks.",
+          "como": "Commas."
+        },
+        {
+          "nome": "Spelling",
+          "frequencia": 2,
+          "porque": "Correct writing.",
+          "como": "Rules."
+        },
+        {
+          "nome": "Writing",
+          "frequencia": 3,
+          "porque": "Production.",
+          "como": "Essay."
+        },
+        {
+          "nome": "Listening",
+          "frequencia": 2,
+          "porque": "Comprehension.",
+          "como": "Audio."
+        },
+        {
+          "nome": "Speaking",
+          "frequencia": 2,
+          "porque": "Oral.",
+          "como": "Interaction."
+        },
+        {
+          "nome": "Grammar",
+          "frequencia": 4,
+          "porque": "Rules.",
+          "como": "Tenses."
+        },
+        {
+          "nome": "Collocations",
+          "frequencia": 2,
+          "porque": "Word combos.",
+          "como": "Natural."
         }
       ]
     },
