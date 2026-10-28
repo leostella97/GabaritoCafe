@@ -10550,6 +10550,90 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Desigualdades.",
           "como": "Convergência."
+        },
+        {
+          "nome": "História do pensamento econômico",
+          "frequencia": 2,
+          "porque": "Evolução.",
+          "como": "Smith, Keynes."
+        },
+        {
+          "nome": "Escola Clássica",
+          "frequencia": 2,
+          "porque": "Adam Smith.",
+          "como": "Mão invisível."
+        },
+        {
+          "nome": "Keynesianismo",
+          "frequencia": 3,
+          "porque": "Intervenção estatal.",
+          "como": "Demanda agregada."
+        },
+        {
+          "nome": "Escola Neoclássica",
+          "frequencia": 2,
+          "porque": "Equilíbrio.",
+          "como": "Marginalismo."
+        },
+        {
+          "nome": "Monetarismo",
+          "frequencia": 2,
+          "porque": "Friedman.",
+          "como": "Controle monetário."
+        },
+        {
+          "nome": "Desenvolvimento econômico brasileiro",
+          "frequencia": 3,
+          "porque": "Industrialização.",
+          "como": "PSI."
+        },
+        {
+          "nome": "Plano Real",
+          "frequencia": 3,
+          "porque": "Estabilização.",
+          "como": "Hiperinflação."
+        },
+        {
+          "nome": "Sistema Financeiro Nacional",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "CMN, Bacen."
+        },
+        {
+          "nome": "Concentração de renda",
+          "frequencia": 2,
+          "porque": "Curva de Lorenz.",
+          "como": "Índice de Gini."
+        },
+        {
+          "nome": "Economia da regulação",
+          "frequencia": 1,
+          "porque": "Agências.",
+          "como": "ANATEL, ANEEL."
+        },
+        {
+          "nome": "Economia agrícola",
+          "frequencia": 1,
+          "porque": "Agronegócio.",
+          "como": "Exportações."
+        },
+        {
+          "nome": "Economia industrial",
+          "frequencia": 1,
+          "porque": "Manufatura.",
+          "como": "Valor agregado."
+        },
+        {
+          "nome": "Mercado de trabalho no Brasil",
+          "frequencia": 2,
+          "porque": "Emprego formal.",
+          "como": "CLT."
+        },
+        {
+          "nome": "Distribuição de renda e bem-estar",
+          "frequencia": 2,
+          "porque": "Justiça social.",
+          "como": "Transferência de renda."
         }
       ]
     }
