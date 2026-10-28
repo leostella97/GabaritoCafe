@@ -5115,6 +5115,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Calor, temperatura e escalas caem todo ano.",
           "como": "Calor = energia térmica em trânsito; temperatura = grau de agitação. Conversões: °C→K soma 273; °F = 1,8·°C + 32."
+        },
+        {
+          "nome": "Mecânica",
+          "frequencia": 5,
+          "porque": "Cinemática e dinâmica.",
+          "como": "Movimento uniformemente variado."
+        },
+        {
+          "nome": "Dinâmica",
+          "frequencia": 4,
+          "porque": "Leis de Newton.",
+          "como": "Força e aceleração."
+        },
+        {
+          "nome": "Energia e trabalho",
+          "frequencia": 4,
+          "porque": "Conservação.",
+          "como": "Trabalho = força × deslocamento."
+        },
+        {
+          "nome": "Ondulatória",
+          "frequencia": 3,
+          "porque": "Som e luz.",
+          "como": "Reflexão e refração."
+        },
+        {
+          "nome": "Óptica",
+          "frequencia": 3,
+          "porque": "Lentes e espelhos.",
+          "como": "Equação gaussiana."
+        },
+        {
+          "nome": "Eletrostática",
+          "frequencia": 4,
+          "porque": "Carga e campo.",
+          "como": "Lei de Coulomb."
+        },
+        {
+          "nome": "Eletrodinâmica",
+          "frequencia": 3,
+          "porque": "Corrente elétrica.",
+          "como": "Leis de Ohm."
+        },
+        {
+          "nome": "Magnetismo",
+          "frequencia": 3,
+          "porque": "Campo magnético.",
+          "como": "Força de Lorentz."
+        },
+        {
+          "nome": "Indução eletromagnética",
+          "frequencia": 3,
+          "porque": "Transformadores.",
+          "como": "Lei de Faraday."
+        },
+        {
+          "nome": "Física moderna",
+          "frequencia": 2,
+          "porque": "Relatividade e quantização.",
+          "como": "Efeito fotoelétrico."
+        },
+        {
+          "nome": "Hidrostática",
+          "frequencia": 3,
+          "porque": "Pressão e empuxo.",
+          "como": "Princípio de Arquimedes."
+        },
+        {
+          "nome": "Hidrodinâmica",
+          "frequencia": 2,
+          "porque": "Fluxo de fluidos.",
+          "como": "Bernoulli."
+        },
+        {
+          "nome": "Termodinâmica",
+          "frequencia": 3,
+          "porque": "Calor e trabalho.",
+          "como": "Primeira lei."
+        },
+        {
+          "nome": "Movimento circular",
+          "frequencia": 3,
+          "porque": "Velocidade angular.",
+          "como": "Aceleração centrípeta."
         }
       ]
     },
