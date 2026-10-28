@@ -4183,6 +4183,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Obrigações acessórias.",
           "como": "SPED."
+        },
+        {
+          "nome": "Patrimônio líquido",
+          "frequencia": 4,
+          "porque": "Capital e reservas.",
+          "como": "Apuração."
+        },
+        {
+          "nome": "Ativos circulantes",
+          "frequencia": 4,
+          "porque": "Liquidez imediata.",
+          "como": "Caixa e contas."
+        },
+        {
+          "nome": "Passivos circulantes",
+          "frequencia": 4,
+          "porque": "Dívidas de curto prazo.",
+          "como": "Fornecedores."
+        },
+        {
+          "nome": "Depreciação e amortização",
+          "frequencia": 3,
+          "porque": "Perda de valor.",
+          "como": "Rateio."
+        },
+        {
+          "nome": "Estoques",
+          "frequencia": 4,
+          "porque": "Avaliação PEPS, UEPS.",
+          "como": "Custo."
+        },
+        {
+          "nome": "Receitas e despesas",
+          "frequencia": 4,
+          "porque": "Demonstração do resultado.",
+          "como": "Competência."
+        },
+        {
+          "nome": "Conta de resultado",
+          "frequencia": 3,
+          "porque": "Lucro ou prejuízo.",
+          "como": "Fechamento."
+        },
+        {
+          "nome": "Balanço patrimonial",
+          "frequencia": 5,
+          "porque": "Posição financeira.",
+          "como": "Ativo e passivo."
+        },
+        {
+          "nome": "Demonstração do fluxo de caixa",
+          "frequencia": 3,
+          "porque": "Geração de caixa.",
+          "como": "Método direto."
+        },
+        {
+          "nome": "CPC e normas contábeis",
+          "frequencia": 3,
+          "porque": "Regulamentação técnica.",
+          "como": "Comitê."
+        },
+        {
+          "nome": "Contabilidade gerencial",
+          "frequencia": 3,
+          "porque": "Análise de custos.",
+          "como": "Decisões."
+        },
+        {
+          "nome": "Avaliação de ativos",
+          "frequencia": 2,
+          "porque": "Imobilizado e intangível.",
+          "como": "Reavaliação."
+        },
+        {
+          "nome": "Contabilidade pública",
+          "frequencia": 3,
+          "porque": "Lei 4.320.",
+          "como": "Orçamento."
+        },
+        {
+          "nome": "Auditoria contábil",
+          "frequencia": 3,
+          "porque": "Verificação de demonstrações.",
+          "como": "Parecer."
         }
       ]
     },
