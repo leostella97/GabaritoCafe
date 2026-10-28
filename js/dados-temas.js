@@ -5682,6 +5682,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Ditadura.",
           "como": "AI-5."
+        },
+        {
+          "nome": "Pré-colonização",
+          "frequencia": 2,
+          "porque": "1500-1530.",
+          "como": "Pau-brasil."
+        },
+        {
+          "nome": "Capitanias hereditárias",
+          "frequencia": 2,
+          "porque": "1534.",
+          "como": "Divisão territorial."
+        },
+        {
+          "nome": "Governo-geral",
+          "frequencia": 2,
+          "porque": "1549.",
+          "como": "Tomé de Sousa."
+        },
+        {
+          "nome": "Escravidão indígena",
+          "frequencia": 2,
+          "porque": "Primeira mão de obra.",
+          "como": "Bandeirantes."
+        },
+        {
+          "nome": "Escravidão africana",
+          "frequencia": 3,
+          "porque": "Tráfico negreiro.",
+          "como": "Engenho."
+        },
+        {
+          "nome": "Quilombo dos Palmares",
+          "frequencia": 2,
+          "porque": "Resistência negra.",
+          "como": "Zumbi."
+        },
+        {
+          "nome": "Inconfidência Mineira",
+          "frequencia": 4,
+          "porque": "1789.",
+          "como": "Tiradentes."
+        },
+        {
+          "nome": "Independência do Brasil",
+          "frequencia": 4,
+          "porque": "1822.",
+          "como": "D. Pedro I."
+        },
+        {
+          "nome": "Confederação do Equador",
+          "frequencia": 2,
+          "porque": "1824.",
+          "como": "Frei Caneca."
+        },
+        {
+          "nome": "Cabanagem",
+          "frequencia": 2,
+          "porque": "1835-1840.",
+          "como": "Pará."
+        },
+        {
+          "nome": "Guerra dos Farrapos",
+          "frequencia": 2,
+          "porque": "1835-1845.",
+          "como": "República."
+        },
+        {
+          "nome": "Sabinada",
+          "frequencia": 2,
+          "porque": "1837-1838.",
+          "como": "Bahia."
+        },
+        {
+          "nome": "Balaiada",
+          "frequencia": 2,
+          "porque": "1838-1841.",
+          "como": "Maranhão."
+        },
+        {
+          "nome": "Revolução Praieira",
+          "frequencia": 2,
+          "porque": "1848-1850.",
+          "como": "Pernambuco."
         }
       ]
     },
