@@ -2759,6 +2759,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Improbidade e sanções.",
           "como": "Lei 8.429."
+        },
+        {
+          "nome": "Lei de Acesso à Informação (Lei 12.527/11)",
+          "frequencia": 4,
+          "porque": "Transparência pública.",
+          "como": "Pedidos e prazos."
+        },
+        {
+          "nome": "Lei Geral de Proteção de Dados (LGPD - Lei 13.709/18)",
+          "frequencia": 4,
+          "porque": "Tratamento de dados pessoais.",
+          "como": "Direitos do titular e ANPD."
+        },
+        {
+          "nome": "Lei de Improbidade Administrativa (Lei 8.429/92 atualizada)",
+          "frequencia": 4,
+          "porque": "Dolo específico exigido.",
+          "como": "Sanções e prescrição."
+        },
+        {
+          "nome": "Lei do Processo Administrativo Federal (Lei 9.784/99)",
+          "frequencia": 3,
+          "porque": "Regras gerais.",
+          "como": "Princípios, prazos e recursos."
+        },
+        {
+          "nome": "Regime Jurídico dos Servidores (Lei 8.112/90)",
+          "frequencia": 5,
+          "porque": "Provimento, vacância e licenças.",
+          "como": "Estabilidade e estágio probatório."
+        },
+        {
+          "nome": "Lei de Licitações e Contratos (Lei 14.133/21)",
+          "frequencia": 5,
+          "porque": "Nova lei de licitações.",
+          "como": "Fases, modalidades e dispensas."
+        },
+        {
+          "nome": "Estatuto dos Servidores Municipais",
+          "frequencia": 3,
+          "porque": "Lei orgânica do município.",
+          "como": "Direitos, deveres e proibições."
+        },
+        {
+          "nome": "Código de Trânsito Brasileiro (Lei 9.503/97)",
+          "frequencia": 2,
+          "porque": "Infrações e penalidades.",
+          "como": "CNH e pontuação."
+        },
+        {
+          "nome": "Lei Maria da Penha (Lei 11.340/06)",
+          "frequencia": 3,
+          "porque": "Violência doméstica.",
+          "como": "Medidas protetivas."
+        },
+        {
+          "nome": "Estatuto da Criança e do Adolescente (Lei 8.069/90)",
+          "frequencia": 3,
+          "porque": "Proteção integral.",
+          "como": "Medidas socioeducativas."
+        },
+        {
+          "nome": "Estatuto do Idoso (Lei 10.741/03)",
+          "frequencia": 2,
+          "porque": "Direitos da pessoa idosa.",
+          "como": "Prioridade e atendimento."
+        },
+        {
+          "nome": "Lei de Responsabilidade Fiscal (LRF - LC 101/00)",
+          "frequencia": 4,
+          "porque": "Controle de gastos públicos.",
+          "como": "Metas e limites fiscais."
+        },
+        {
+          "nome": "Lei Orgânica do Município",
+          "frequencia": 2,
+          "porque": "Constituição municipal.",
+          "como": "Estrutura e competências."
+        },
+        {
+          "nome": "Lei Anticorrupção (Lei 12.846/13)",
+          "frequencia": 3,
+          "porque": "Responsabilização de empresas.",
+          "como": "Acordo de leniência."
         }
       ]
     },
