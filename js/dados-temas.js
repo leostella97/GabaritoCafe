@@ -1411,6 +1411,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Gestão de tarefas.",
           "como": "Calendário."
+        },
+        {
+          "nome": "Sistemas operacionais (Windows e Linux)",
+          "frequencia": 4,
+          "porque": "Conceitos básicos de SO.",
+          "como": "Gerenciador de arquivos e atalhos."
+        },
+        {
+          "nome": "Word: formatação e recursos",
+          "frequencia": 4,
+          "porque": "Editor de textos em provas.",
+          "como": "Cabeçalho, rodapé e mala direta."
+        },
+        {
+          "nome": "Excel: funções avançadas",
+          "frequencia": 5,
+          "porque": "=PROCV, =SE, =SOMASE.",
+          "como": "Referências absolutas e relativas."
+        },
+        {
+          "nome": "PowerPoint: apresentações",
+          "frequencia": 3,
+          "porque": "Transições e animações.",
+          "como": "Slide mestre e layout."
+        },
+        {
+          "nome": "Internet e intranet",
+          "frequencia": 4,
+          "porque": "Conceitos e diferenças.",
+          "como": "Protocolos e serviços."
+        },
+        {
+          "nome": "Navegadores (browsers)",
+          "frequencia": 3,
+          "porque": "Chrome, Edge e Firefox.",
+          "como": "Cache, cookies e navegação anônima."
+        },
+        {
+          "nome": "Correio eletrônico (e-mail)",
+          "frequencia": 3,
+          "porque": "Outlook e webmail.",
+          "como": "CC, CCO e anexos."
+        },
+        {
+          "nome": "Redes de computadores",
+          "frequencia": 3,
+          "porque": "LAN, WAN e topologias.",
+          "como": "Roteador, switch e modem."
+        },
+        {
+          "nome": "Computação em nuvem",
+          "frequencia": 3,
+          "porque": "SaaS, PaaS e IaaS.",
+          "como": "Google Drive, OneDrive e Dropbox."
+        },
+        {
+          "nome": "Malwares e antivírus",
+          "frequencia": 3,
+          "porque": "Vírus, worms e trojans.",
+          "como": "Prevenção e remoção."
+        },
+        {
+          "nome": "Backup e recuperação de dados",
+          "frequencia": 2,
+          "porque": "Cópias de segurança.",
+          "como": "Nuvem e mídia física."
+        },
+        {
+          "nome": "Hardware: componentes do computador",
+          "frequencia": 3,
+          "porque": "CPU, RAM, HD e SSD.",
+          "como": "Função de cada componente."
+        },
+        {
+          "nome": "Periféricos de entrada e saída",
+          "frequencia": 2,
+          "porque": "Teclado, mouse e monitor.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "LGPD e proteção de dados",
+          "frequencia": 3,
+          "porque": "Lei Geral de Proteção de Dados.",
+          "como": "Direitos do titular."
         }
       ]
     },
