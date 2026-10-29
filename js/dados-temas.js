@@ -4745,6 +4745,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Assentamento.",
           "como": "SRTE."
+        },
+        {
+          "nome": "Relação de emprego e relação de trabalho",
+          "frequencia": 4,
+          "porque": "Diferença fundamental.",
+          "como": "Subordinação, pessoalidade e onerosidade."
+        },
+        {
+          "nome": "Empregado e empregador: definição legal",
+          "frequencia": 4,
+          "porque": "Arts.2º e 3º da CLT.",
+          "como": "Pessoa física e não eventual."
+        },
+        {
+          "nome": "Contrato de trabalho: modalidades",
+          "frequencia": 3,
+          "porque": "Indeterminado, determinado e intermitente.",
+          "como": "Requisitos de cada tipo."
+        },
+        {
+          "nome": "Remuneração e salário",
+          "frequencia": 4,
+          "porque": "Gorjetas, gratificações e adicionais.",
+          "como": "Art.457 da CLT."
+        },
+        {
+          "nome": "13º salário e férias",
+          "frequencia": 5,
+          "porque": "Direitos básicos do trabalhador.",
+          "como": "Cálculo, período aquisitivo e concessivo."
+        },
+        {
+          "nome": "Aviso prévio",
+          "frequencia": 3,
+          "porque": "Trabalhado e indenizado.",
+          "como": "Proporcional ao tempo de serviço."
+        },
+        {
+          "nome": "Estabilidade e garantias provisórias",
+          "frequencia": 3,
+          "porque": "Gestante, CIPA e acidentado.",
+          "como": "Períodos e condições."
+        },
+        {
+          "nome": "Rescisão do contrato de trabalho",
+          "frequencia": 4,
+          "porque": "Sem justa causa, por justa causa e pedido de demissão.",
+          "como": "Verbas rescisórias."
+        },
+        {
+          "nome": "Justa causa e rescisão indireta",
+          "frequencia": 3,
+          "porque": "Arts.482 e 483 da CLT.",
+          "como": "Hipóteses e consequências."
+        },
+        {
+          "nome": "Trabalho da mulher e do menor",
+          "frequencia": 2,
+          "porque": "Proteção especial.",
+          "como": "Arts.372 a 401 da CLT."
+        },
+        {
+          "nome": "Segurança e medicina do trabalho",
+          "frequencia": 2,
+          "porque": "CIPA, PPRA e PCMSO.",
+          "como": "NRs e fiscalização."
+        },
+        {
+          "nome": "Duração do trabalho e intervalos",
+          "frequencia": 4,
+          "porque": "Jornada máxima e descanso.",
+          "como": "Intrajornada e interjornada."
+        },
+        {
+          "nome": "Trabalho noturno e horas extras",
+          "frequencia": 3,
+          "porque": "Adicionais e redução da hora noturna.",
+          "como": "52 minutos e 30 segundos."
+        },
+        {
+          "nome": "Prescrição trabalhista",
+          "frequencia": 3,
+          "porque": "Prazos para reclamar.",
+          "como": "Bienal e quinquenal."
         }
       ]
     },
