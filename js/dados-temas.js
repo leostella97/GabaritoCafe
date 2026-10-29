@@ -4065,6 +4065,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Crimes digitais.",
           "como": "Fraude."
+        },
+        {
+          "nome": "Teorias criminológicas (escolas)",
+          "frequencia": 5,
+          "porque": "Clássica, positivista e crítica.",
+          "como": "Beccaria, Lombroso e labeling."
+        },
+        {
+          "nome": "Vitimologia",
+          "frequencia": 4,
+          "porque": "Estudo da vítima.",
+          "como": "Classificação e fatores de risco."
+        },
+        {
+          "nome": "Prevenção criminal",
+          "frequencia": 3,
+          "porque": "Primária, secundária e terciária.",
+          "como": "Políticas públicas."
+        },
+        {
+          "nome": "Cifra oculta (criminalidade subnotificada)",
+          "frequencia": 3,
+          "porque": "Crimes não registrados.",
+          "como": "Pesquisas de vitimização."
+        },
+        {
+          "nome": "Teoria da anomia (Durkheim e Merton)",
+          "frequencia": 3,
+          "porque": "Falta de normas sociais.",
+          "como": "Desvio e criminalidade."
+        },
+        {
+          "nome": "Teoria do etiquetamento (Labeling Approach)",
+          "frequencia": 3,
+          "porque": "Estigma e desvio secundário.",
+          "como": "Becker e Goffman."
+        },
+        {
+          "nome": "Teoria da associação diferencial (Sutherland)",
+          "frequencia": 3,
+          "porque": "Aprendizado do crime.",
+          "como": "Grupos sociais."
+        },
+        {
+          "nome": "Criminologia crítica e minimalismo penal",
+          "frequencia": 2,
+          "porque": "Direito penal mínimo.",
+          "como": "Abolicionismo e garantismo."
+        },
+        {
+          "nome": "Reincidência criminal",
+          "frequencia": 3,
+          "porque": "Fatores e prevenção.",
+          "como": "Ressocialização e prisão."
+        },
+        {
+          "nome": "Sistema penitenciário e encarceramento",
+          "frequencia": 3,
+          "porque": "Superlotação e alternativas.",
+          "como": "Monitoração eletrônica."
+        },
+        {
+          "nome": "Crimes de colarinho branco",
+          "frequencia": 3,
+          "porque": "Corrupção e lavagem.",
+          "como": "Sutherland."
+        },
+        {
+          "nome": "Criminalidade organizada",
+          "frequencia": 3,
+          "porque": "Facções e milícias.",
+          "como": "Lei 12.850/13."
+        },
+        {
+          "nome": "Política criminal e segurança pública",
+          "frequencia": 2,
+          "porque": "Desenho de políticas.",
+          "como": "Polícia comunitária."
+        },
+        {
+          "nome": "Meios de prova e cadeia de custódia",
+          "frequencia": 4,
+          "porque": "Preservação de vestígios.",
+          "como": "Perícia criminal."
         }
       ]
     },
