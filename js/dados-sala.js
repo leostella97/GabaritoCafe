@@ -7250,6 +7250,778 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "agente-administrativo",
+      "nome": "Agente Administrativo",
+      "icone": "📋",
+      "escolaridade": "Nível médio",
+      "bancas": ["Vunesp", "FCC", "IBFC", "Quadrix"],
+      "resumo": "Porta de entrada de prefeituras, câmaras e autarquias. Rotinas de protocolo, arquivo e atendimento ao público.",
+      "materias": [
+        {
+          "materia": "Língua Portuguesa",
+          "icone": "📖",
+          "topicos": [
+            {
+              "nome": "Interpretação de textos oficiais",
+              "explicacao": "Leitura de ofícios, memorandos e comunicados internos."
+            },
+            {
+              "nome": "Ortografia e acentuação",
+              "explicacao": "Novo acordo e palavras de uso administrativo frequente."
+            },
+            {
+              "nome": "Revisão de conceitos fundamentais",
+              "explicacao": "Recape os conceitos-chave da matéria com flashcards e mapas mentais."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Noções de Administração",
+          "icone": "🏢",
+          "topicos": [
+            {
+              "nome": "Funções administrativas",
+              "explicacao": "Planejar, organizar, dirigir e controlar."
+            },
+            {
+              "nome": "Atendimento e qualidade",
+              "explicacao": "Relações interpessoais e foco no cidadão."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Administrativo",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Atos administrativos",
+              "explicacao": "Elementos, atributos e classificação."
+            },
+            {
+              "nome": "Poderes administrativos",
+              "explicacao": "Hierárquico, disciplinar e de polícia."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agente-penitenciario",
+      "nome": "Agente Penitenciário",
+      "icone": "🔒",
+      "escolaridade": "Nível superior",
+      "bancas": ["FGV", "IBFC", "AOCP", "Cebraspe"],
+      "resumo": "Custódia, disciplina e ressocialização no sistema prisional. Cargo de risco que exige preparo físico e psicológico.",
+      "materias": [
+        {
+          "materia": "Lei de Execução Penal",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Direitos e deveres do preso",
+              "explicacao": "Lei 7.210/84 e dignidade da pessoa humana."
+            },
+            {
+              "nome": "Regimes de cumprimento de pena",
+              "explicacao": "Fechado, semiaberto e aberto."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Direitos Humanos",
+          "icone": "🕊️",
+          "topicos": [
+            {
+              "nome": "Regras de Mandela",
+              "explicacao": "Tratamento de pessoas presas e padrões internacionais."
+            },
+            {
+              "nome": "Prevenção e combate à tortura",
+              "explicacao": "Lei 9.455/97 e mecanismos de proteção."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Segurança e Disciplina",
+          "icone": "🛡️",
+          "topicos": [
+            {
+              "nome": "Procedimentos de revista e escolta",
+              "explicacao": "Protocolos de segurança e uso progressivo da força."
+            },
+            {
+              "nome": "Gerenciamento de crises",
+              "explicacao": "Negociação em motins e rebeliões."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guarda-municipal",
+      "nome": "Guarda Municipal",
+      "icone": "🛡️",
+      "escolaridade": "Nível médio",
+      "bancas": ["Vunesp", "FGV", "Instituto AOCP", "FCC"],
+      "resumo": "Proteger o patrimônio público e atuar na segurança urbana comunitária, cada vez mais presente nos concursos municipais.",
+      "materias": [
+        {
+          "materia": "Legislação Municipal",
+          "icone": "🏙️",
+          "topicos": [
+            {
+              "nome": "Estatuto da Guarda Municipal",
+              "explicacao": "Lei 13.022/2014 e competências."
+            },
+            {
+              "nome": "Código de Trânsito Brasileiro",
+              "explicacao": "Fiscalização, infrações e agentes de trânsito."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Segurança Patrimonial",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Vigilância e rondas",
+              "explicacao": "Técnicas de patrulhamento e abordagem."
+            },
+            {
+              "nome": "Mediação de conflitos",
+              "explicacao": "Comunicação não violenta e resolução pacífica."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Direitos Humanos e Sociedade",
+          "icone": "🤝",
+          "topicos": [
+            {
+              "nome": "Polícia comunitária e cidadania",
+              "explicacao": "Proximidade com a população e direitos fundamentais."
+            },
+            {
+              "nome": "Estatuto da Criança e do Adolescente",
+              "explicacao": "Proteção integral e atuação preventiva."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prf",
+      "nome": "Policial Rodoviário Federal",
+      "icone": "🚔",
+      "escolaridade": "Nível superior",
+      "bancas": ["Cebraspe", "FGV"],
+      "resumo": "Fiscalizar rodovias federais, combater o crime e garantir a segurança viária — é o concurso dos sonhos de muita gente.",
+      "materias": [
+        {
+          "materia": "CTB e Legislação de Trânsito",
+          "icone": "🛣️",
+          "topicos": [
+            {
+              "nome": "Infrações e penalidades",
+              "explicacao": "Classificação, multas e medidas administrativas."
+            },
+            {
+              "nome": "Fiscalização e policiamento ostensivo",
+              "explicacao": "Atribuições e procedimentos da PRF."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Penal e Processual",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Crimes de trânsito",
+              "explicacao": "Embriaguez, homicídio culposo e omissão."
+            },
+            {
+              "nome": "Prisão em flagrante e TCO",
+              "explicacao": "Procedimentos e cadeia de custódia."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Condicionamento Físico",
+          "icone": "🏃",
+          "topicos": [
+            {
+              "nome": "Teste de aptidão física (TAF)",
+              "explicacao": "Corrida, barra, flexão e natação."
+            },
+            {
+              "nome": "Preparação contínua",
+              "explicacao": "Rotina de treinos e alimentação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assistente-social",
+      "nome": "Assistente Social",
+      "icone": "🤲",
+      "escolaridade": "Nível superior",
+      "bancas": ["Vunesp", "FCC", "Cebraspe", "IBFC"],
+      "resumo": "Atuar nas políticas públicas de saúde, assistência e socioeducação — presente em prefeituras, hospitais e tribunais.",
+      "materias": [
+        {
+          "materia": "Política Social e Legislação",
+          "icone": "📋",
+          "topicos": [
+            {
+              "nome": "SUAS, CRAS e CREAS",
+              "explicacao": "Proteção social básica e especial."
+            },
+            {
+              "nome": "LOAS e BPC",
+              "explicacao": "Lei Orgânica da Assistência e Benefício de Prestação Continuada."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Fundamentos do Serviço Social",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "Código de ética e projeto ético-político",
+              "explicacao": "Princípios e direção do Serviço Social."
+            },
+            {
+              "nome": "Instrumentalidade profissional",
+              "explicacao": "Estudo social, visita e relatório."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "ECA e Políticas Setoriais",
+          "icone": "👶",
+          "topicos": [
+            {
+              "nome": "Medidas socioeducativas",
+              "explicacao": "Estatuto da Criança e do Adolescente."
+            },
+            {
+              "nome": "Saúde e previdência social",
+              "explicacao": "SUS, seguridade e atuação interdisciplinar."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professor-superior",
+      "nome": "Professor Universitário",
+      "icone": "🎓",
+      "escolaridade": "Nível superior (mestrado/doutorado)",
+      "bancas": ["Banca própria da IFE", "Cebraspe", "FCC"],
+      "resumo": "Ensino, pesquisa e extensão em universidades federais, estaduais e institutos — carreira acadêmica com dedicação exclusiva.",
+      "materias": [
+        {
+          "materia": "Didática do Ensino Superior",
+          "icone": "📖",
+          "topicos": [
+            {
+              "nome": "Metodologias ativas no ensino superior",
+              "explicacao": "PBL, sala invertida e ensino híbrido."
+            },
+            {
+              "nome": "Avaliação da aprendizagem",
+              "explicacao": "Formativa, somativa e por competências."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Legislação da Educação Superior",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "LDB e ensino superior",
+              "explicacao": "Universidades, centros universitários e faculdades."
+            },
+            {
+              "nome": "Plano Nacional de Educação (PNE)",
+              "explicacao": "Metas para o ensino superior."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Metodologia Científica",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Métodos e técnicas de pesquisa",
+              "explicacao": "Qualitativo, quantitativo e misto."
+            },
+            {
+              "nome": "Produção acadêmica e currículo Lattes",
+              "explicacao": "Artigos e pontuação na prova de títulos."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscal-tributos",
+      "nome": "Fiscal de Tributos",
+      "icone": "💰",
+      "escolaridade": "Nível superior",
+      "bancas": ["FCC", "Vunesp", "FGV", "Cebraspe"],
+      "resumo": "Auditar e fiscalizar o recolhimento de tributos municipais — ISS, IPTU e ITBI. Salário atrativo e carreira estável.",
+      "materias": [
+        {
+          "materia": "Direito Tributário",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Competência tributária e espécies de tributos",
+              "explicacao": "Impostos, taxas e contribuições."
+            },
+            {
+              "nome": "CTN e obrigação tributária",
+              "explicacao": "Fato gerador, base de cálculo e lançamento."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Contabilidade e Auditoria Fiscal",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Demonstrações contábeis e análise",
+              "explicacao": "Balanço, DRE e indicadores."
+            },
+            {
+              "nome": "Procedimentos de fiscalização",
+              "explicacao": "Auto de infração, AIA e contraditório."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Legislação Municipal Tributária",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Código Tributário Municipal",
+              "explicacao": "Estrutura e principais dispositivos."
+            },
+            {
+              "nome": "Processo administrativo fiscal",
+              "explicacao": "Defesa, recurso e decadência."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tecnico-enfermagem",
+      "nome": "Técnico de Enfermagem",
+      "icone": "💉",
+      "escolaridade": "Nível médio/técnico",
+      "bancas": ["Vunesp", "FCC", "IBFC", "Instituto AOCP"],
+      "resumo": "O braço direito do enfermeiro em hospitais, UBS e UPAs. Cargo com alta demanda em concursos da saúde.",
+      "materias": [
+        {
+          "materia": "Fundamentos de Enfermagem",
+          "icone": "🩺",
+          "topicos": [
+            {
+              "nome": "Sinais vitais e higienização",
+              "explicacao": "Verificação, registro e técnicas de conforto."
+            },
+            {
+              "nome": "Curativos e administração de medicamentos",
+              "explicacao": "Vias, cálculo de dose e precauções."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Saúde Pública e SUS",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "Princípios e diretrizes do SUS",
+              "explicacao": "Universalidade, integralidade e equidade."
+            },
+            {
+              "nome": "Vigilância e imunização",
+              "explicacao": "Calendário vacinal e notificação."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Urgência e Emergência",
+          "icone": "🚑",
+          "topicos": [
+            {
+              "nome": "Suporte básico de vida (BLS)",
+              "explicacao": "RCP, desfibrilação e engasgo."
+            },
+            {
+              "nome": "Primeiros socorros e transporte",
+              "explicacao": "Imobilização, hemorragia e choque."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agente-saude",
+      "nome": "Agente Comunitário de Saúde",
+      "icone": "🏠",
+      "escolaridade": "Nível médio",
+      "bancas": ["Vunesp", "FCC", "Instituto AOCP", "IBFC"],
+      "resumo": "Elos entre a UBS e a comunidade: visita domiciliar, prevenção e promoção da saúde no território.",
+      "materias": [
+        {
+          "materia": "Pol��tica Nacional de Atenção Básica",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "Estratégia Saúde da Família",
+              "explicacao": "Equipes, território e atribuições do ACS."
+            },
+            {
+              "nome": "Cadastramento e visita domiciliar",
+              "explicacao": "Fichas, microáreas e territorialização."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Promoção da Saúde",
+          "icone": "❤️",
+          "topicos": [
+            {
+              "nome": "Prevenção de doenças e agravos",
+              "explicacao": "Hipertensão, diabetes e vacinação."
+            },
+            {
+              "nome": "Saúde da criança, mulher e idoso",
+              "explicacao": "Acompanhamento do ciclo de vida."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Vigilância e Educação em Saúde",
+          "icone": "🔍",
+          "topicos": [
+            {
+              "nome": "Endemias, zoonoses e arboviroses",
+              "explicacao": "Dengue, chikungunya e controle vetorial."
+            },
+            {
+              "nome": "Educação popular e participação social",
+              "explicacao": "Mobilização comunitária e conselhos de saúde."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bombeiro-militar",
+      "nome": "Bombeiro Militar",
+      "icone": "🔥",
+      "escolaridade": "Nível médio/superior",
+      "bancas": ["Banca própria da corporação", "Cebraspe", "FGV"],
+      "resumo": "Salvar vidas no fogo, na água e nas alturas — combate a incêndios, salvamento e defesa civil.",
+      "materias": [
+        {
+          "materia": "Combate a Incêndios",
+          "icone": "🧯",
+          "topicos": [
+            {
+              "nome": "Teoria do fogo e classes de incêndio",
+              "explicacao": "Triângulo do fogo e agentes extintores."
+            },
+            {
+              "nome": "Táticas de combate e EPIs",
+              "explicacao": "Linhas de ataque e proteção respiratória."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Salvamento e Emergências",
+          "icone": "🪢",
+          "topicos": [
+            {
+              "nome": "Salvamento aquático e em altura",
+              "explicacao": "Nós, amarrações e técnicas de resgate."
+            },
+            {
+              "nome": "APH e transporte de vítimas",
+              "explicacao": "Atendimento pré-hospitalar."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Condicionamento e Legislação",
+          "icone": "💪",
+          "topicos": [
+            {
+              "nome": "TAF e preparo físico",
+              "explicacao": "Corrida, natação e barra fixa."
+            },
+            {
+              "nome": "Estatuto dos Militares e Defesa Civil",
+              "explicacao": "Hierarquia, disciplina e catástrofes."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analista-judiciario",
+      "nome": "Analista Judiciário",
+      "icone": "⚖️",
+      "escolaridade": "Nível superior",
+      "bancas": ["Cebraspe", "FCC", "FGV", "Vunesp"],
+      "resumo": "A espinha dorsal do Judiciário: carreira de nível superior nos tribunais com atuação administrativa e processual.",
+      "materias": [
+        {
+          "materia": "Direito Constitucional",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Poder Judiciário na CF 1988",
+              "explicacao": "Estrutura, garantias e competências."
+            },
+            {
+              "nome": "Direitos e garantias fundamentais",
+              "explicacao": "Art. 5º e remédios constitucionais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Processual Civil",
+          "icone": "📋",
+          "topicos": [
+            {
+              "nome": "Processo de conhecimento e execução",
+              "explicacao": "Petição, citação e sentença."
+            },
+            {
+              "nome": "Recursos e coisa julgada",
+              "explicacao": "Apelação, agravo e prazos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Rotinas Cartorárias",
+          "icone": "📝",
+          "topicos": [
+            {
+              "nome": "Atos processuais e prazos",
+              "explicacao": "Autuação, conclusão e movimentação."
+            },
+            {
+              "nome": "Sistemas eletrônicos do Judiciário",
+              "explicacao": "PJe, e-SAJ e gestão documental."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analista-controle-externo",
+      "nome": "Analista de Controle Externo",
+      "icone": "🔎",
+      "escolaridade": "Nível superior",
+      "bancas": ["Cebraspe", "FGV", "FCC"],
+      "resumo": "Auditar a gestão pública nos Tribunais de Contas — um dos cargos mais cobiçados do serviço público.",
+      "materias": [
+        {
+          "materia": "Controle da Administração Pública",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Tipos de controle",
+              "explicacao": "Interno, externo, prévio e concomitante."
+            },
+            {
+              "nome": "Tribunais de Contas",
+              "explicacao": "Competências e fiscalização contábil e financeira."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Auditoria Governamental",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Normas e tipos de auditoria",
+              "explicacao": "Conformidade, operacional e financeira."
+            },
+            {
+              "nome": "Evidências e relatórios",
+              "explicacao": "Papéis de trabalho, achados e recomendações."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Orçamento e Finanças Públicas",
+          "icone": "💰",
+          "topicos": [
+            {
+              "nome": "Lei Orçamentária Anual e LRF",
+              "explicacao": "PPA, LDO, LOA e responsabilidade fiscal."
+            },
+            {
+              "nome": "Receita e despesa pública",
+              "explicacao": "Classificação e execução."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculdades": [
