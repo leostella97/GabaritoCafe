@@ -713,6 +713,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Intervalos de solução.",
           "como": "Produto e quociente."
+        },
+        {
+          "nome": "Operações com frações",
+          "frequencia": 3,
+          "porque": "Base para cálculos.",
+          "como": "Soma, subtração e simplificação."
+        },
+        {
+          "nome": "MMC e MDC",
+          "frequencia": 3,
+          "porque": "Múltiplos e divisores.",
+          "como": "Decomposição em fatores primos."
+        },
+        {
+          "nome": "Sistema métrico e unidades",
+          "frequencia": 2,
+          "porque": "Conversões.",
+          "como": "km, m, cm e litros."
+        },
+        {
+          "nome": "Equação do 1º grau com uma variável",
+          "frequencia": 4,
+          "porque": "Resolver problemas simples.",
+          "como": "Isolar a incógnita."
+        },
+        {
+          "nome": "Sistemas de equações do 1º grau",
+          "frequencia": 3,
+          "porque": "Duas incógnitas.",
+          "como": "Método da substituição e adição."
+        },
+        {
+          "nome": "Regra de três simples e composta",
+          "frequencia": 5,
+          "porque": "Proporcionalidade.",
+          "como": "Direta e inversamente proporcionais."
+        },
+        {
+          "nome": "Razão e proporção",
+          "frequencia": 4,
+          "porque": "Grandezas proporcionais.",
+          "como": "Escalas e divisão proporcional."
+        },
+        {
+          "nome": "Juros simples",
+          "frequencia": 4,
+          "porque": "Matemática financeira básica.",
+          "como": "J = C × i × t."
+        },
+        {
+          "nome": "Juros compostos",
+          "frequencia": 3,
+          "porque": "Acumulação com juros sobre juros.",
+          "como": "M = C × (1 + i)^t."
+        },
+        {
+          "nome": "Descontos simples",
+          "frequencia": 3,
+          "porque": "Valor nominal e valor atual.",
+          "como": "Desconto comercial e racional."
+        },
+        {
+          "nome": "Áreas de figuras planas",
+          "frequencia": 4,
+          "porque": "Quadrado, retângulo, triângulo e círculo.",
+          "como": "Fórmulas e aplicações."
+        },
+        {
+          "nome": "Volumes de sólidos",
+          "frequencia": 3,
+          "porque": "Cubo, paralelepípedo e cilindro.",
+          "como": "Fórmulas de volume."
+        },
+        {
+          "nome": "Teorema de Pitágoras",
+          "frequencia": 3,
+          "porque": "Triângulo retângulo.",
+          "como": "a² = b² + c²."
+        },
+        {
+          "nome": "Função do 1º grau (afim)",
+          "frequencia": 3,
+          "porque": "Gráficos e problemas lineares.",
+          "como": "f(x) = ax + b."
         }
       ]
     },
