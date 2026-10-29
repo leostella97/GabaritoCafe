@@ -5527,6 +5527,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Verificação de demonstrações.",
           "como": "Parecer."
+        },
+        {
+          "nome": "Patrimônio e escrituração contábil",
+          "frequencia": 5,
+          "porque": "Base da contabilidade.",
+          "como": "Método das partidas dobradas."
+        },
+        {
+          "nome": "Contas contábeis: ativo, passivo e PL",
+          "frequencia": 5,
+          "porque": "Classificação das contas.",
+          "como": "Circulante e não circulante."
+        },
+        {
+          "nome": "Balanço patrimonial",
+          "frequencia": 5,
+          "porque": "Demonstração obrigatória.",
+          "como": "Lei 6.404/76."
+        },
+        {
+          "nome": "Demonstração do Resultado do Exercício (DRE)",
+          "frequencia": 4,
+          "porque": "Receitas e despesas.",
+          "como": "Custo das mercadorias vendidas."
+        },
+        {
+          "nome": "Demonstração de Fluxo de Caixa (DFC)",
+          "frequencia": 3,
+          "porque": "Método direto e indireto.",
+          "como": "Atividades operacionais."
+        },
+        {
+          "nome": "Demonstração de Mutações do PL (DMPL)",
+          "frequencia": 2,
+          "porque": "Lucros e reservas.",
+          "como": "Distribuição de dividendos."
+        },
+        {
+          "nome": "Princípios contábeis e CPC",
+          "frequencia": 3,
+          "porque": "Pronunciamentos técnicos.",
+          "como": "Convergência internacional."
+        },
+        {
+          "nome": "Depreciação, amortização e exaustão",
+          "frequencia": 3,
+          "porque": "Ativo imobilizado.",
+          "como": "Métodos de cálculo."
+        },
+        {
+          "nome": "Provisões e contingências",
+          "frequencia": 3,
+          "porque": "CPC 25.",
+          "como": "Passivo contingente."
+        },
+        {
+          "nome": "Estoques e inventário",
+          "frequencia": 3,
+          "porque": "PEPS, UEPS e média ponderada.",
+          "como": "CPC 16."
+        },
+        {
+          "nome": "Análise das demonstrações contábeis",
+          "frequencia": 3,
+          "porque": "Índices financeiros.",
+          "como": "Liquidez e endividamento."
+        },
+        {
+          "nome": "Contabilidade de custos",
+          "frequencia": 3,
+          "porque": "Custeio por absorção e variável.",
+          "como": "Ponto de equilíbrio."
+        },
+        {
+          "nome": "Contabilidade pública: Lei 4.320/64 e MCASP",
+          "frequencia": 4,
+          "porque": "Receita e despesa pública.",
+          "como": "Regime de competência."
+        },
+        {
+          "nome": "Notas explicativas e relatório da administração",
+          "frequencia": 2,
+          "porque": "Transparência contábil.",
+          "como": "Lei 6.404/76."
         }
       ]
     },
