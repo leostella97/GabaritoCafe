@@ -2127,6 +2127,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Pregão.",
           "como": "Procedimento."
+        },
+        {
+          "nome": "Nova Lei de Licitações (Lei 14.133/21)",
+          "frequencia": 5,
+          "porque": "Substitui a 8.666.",
+          "como": "Fases e modalidades."
+        },
+        {
+          "nome": "Regime jurídico administrativo",
+          "frequencia": 4,
+          "porque": "Supremacia e indisponibilidade.",
+          "como": "Princípios basilares."
+        },
+        {
+          "nome": "Princípios expressos e implícitos",
+          "frequencia": 4,
+          "porque": "LIMPE e outros.",
+          "como": "Legalidade, impessoalidade, moralidade."
+        },
+        {
+          "nome": "Poderes da administração",
+          "frequencia": 5,
+          "porque": "Vinculado e discricionário.",
+          "como": "Hierárquico, disciplinar, regulamentar e de polícia."
+        },
+        {
+          "nome": "Organização administrativa",
+          "frequencia": 4,
+          "porque": "Desconcentração e descentralização.",
+          "como": "Autarquias, fundações e empresas estatais."
+        },
+        {
+          "nome": "Serviços públicos",
+          "frequencia": 3,
+          "porque": "Classificação e princípios.",
+          "como": "Continuidade e modicidade."
+        },
+        {
+          "nome": "Bens públicos",
+          "frequencia": 2,
+          "porque": "Uso comum, especial e dominical.",
+          "como": "Afetação e desafetação."
+        },
+        {
+          "nome": "Intervenção na propriedade",
+          "frequencia": 2,
+          "porque": "Desapropriação e servidão.",
+          "como": "Requisitos e indenização."
+        },
+        {
+          "nome": "Improbidade administrativa (Lei 8.429/92)",
+          "frequencia": 4,
+          "porque": "Atos de improbidade.",
+          "como": "Enriquecimento ilícito, prejuízo ao erário."
+        },
+        {
+          "nome": "Processo administrativo (Lei 9.784/99)",
+          "frequencia": 3,
+          "porque": "Regras gerais do processo.",
+          "como": "Direitos do administrado e prazos."
+        },
+        {
+          "nome": "Controle da administração pública",
+          "frequencia": 4,
+          "porque": "Interno, externo e judicial.",
+          "como": "Recursos administrativos."
+        },
+        {
+          "nome": "Agentes públicos",
+          "frequencia": 4,
+          "porque": "Cargo, emprego e função.",
+          "como": "Concurso público e estabilidade."
+        },
+        {
+          "nome": "Regime jurídico dos servidores (Lei 8.112/90)",
+          "frequencia": 4,
+          "porque": "Provimento e vacância.",
+          "como": "Direitos e deveres."
+        },
+        {
+          "nome": "Responsabilidade civil do Estado",
+          "frequencia": 4,
+          "porque": "Teoria do risco administrativo.",
+          "como": "Causas excludentes e atenuantes."
         }
       ]
     },
