@@ -12128,6 +12128,902 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "musica",
+      "nome": "Música",
+      "icone": "🎵",
+      "area": "Linguística, Letras e Artes",
+      "duracao": "4 anos",
+      "resumo": "Teoria, prática e criação sonora — da partitura à performance, passando por tecnologia e educação musical.",
+      "materias": [
+        {
+          "materia": "Teoria Musical",
+          "icone": "🎼",
+          "topicos": [
+            {
+              "nome": "Notação e leitura de partitura",
+              "explicacao": "Claves, compassos e figuras rítmicas."
+            },
+            {
+              "nome": "Harmonia e intervalos",
+              "explicacao": "Formação de acordes, campo harmônico e progressões."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "História da Música",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Períodos musicais",
+              "explicacao": "Barroco, clássico, romântico e moderno."
+            },
+            {
+              "nome": "Música brasileira",
+              "explicacao": "Choro, samba, bossa nova e MPB."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Percepção e Criação",
+          "icone": "🎹",
+          "topicos": [
+            {
+              "nome": "Percepção rítmica e melódica",
+              "explicacao": "Treinamento auditivo e solfejo."
+            },
+            {
+              "nome": "Composição e arranjo",
+              "explicacao": "Criação, forma e instrumentação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "artes-visuais",
+      "nome": "Artes Visuais",
+      "icone": "🎨",
+      "area": "Linguística, Letras e Artes",
+      "duracao": "4 anos",
+      "resumo": "Criar, criticar e ensinar arte: pintura, escultura, fotografia e produção contemporânea.",
+      "materias": [
+        {
+          "materia": "História da Arte",
+          "icone": "🖼️",
+          "topicos": [
+            {
+              "nome": "Arte ocidental",
+              "explicacao": "Do Renascimento à arte contemporânea."
+            },
+            {
+              "nome": "Arte brasileira e latino-americana",
+              "explicacao": "Barroco, modernismo e contemporaneidade."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Linguagem Visual",
+          "icone": "👁️",
+          "topicos": [
+            {
+              "nome": "Elementos visuais",
+              "explicacao": "Linha, forma, cor e composição."
+            },
+            {
+              "nome": "Semiótica e percepção",
+              "explicacao": "Signos e interpretação da imagem."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Produção Artística",
+          "icone": "🖌️",
+          "topicos": [
+            {
+              "nome": "Ateliê e técnicas mistas",
+              "explicacao": "Pintura, gravura e modelagem."
+            },
+            {
+              "nome": "Arte e novas mídias",
+              "explicacao": "Digital, videoarte e instalação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema-audiovisual",
+      "nome": "Cinema e Audiovisual",
+      "icone": "🎬",
+      "area": "Linguística, Letras e Artes",
+      "duracao": "4 anos",
+      "resumo": "Contar histórias em movimento — direção, roteiro, fotografia, som e produção.",
+      "materias": [
+        {
+          "materia": "Linguagem Cinematográfica",
+          "icone": "📽️",
+          "topicos": [
+            {
+              "nome": "Planos, enquadramentos e montagem",
+              "explicacao": "Decupagem e a gramática do cinema."
+            },
+            {
+              "nome": "Narrativa audiovisual",
+              "explicacao": "Roteiro clássico e estruturas não lineares."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "História do Cinema",
+          "icone": "🎞️",
+          "topicos": [
+            {
+              "nome": "Vanguardas e movimentos",
+              "explicacao": "Expressionismo alemão, Nouvelle Vague, Neorrealismo."
+            },
+            {
+              "nome": "Cinema brasileiro",
+              "explicacao": "Cinema Novo, Retomada e cinema contemporâneo."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Produção e Realização",
+          "icone": "🎥",
+          "topicos": [
+            {
+              "nome": "Pré-produção e direção",
+              "explicacao": "Roteiro técnico, decupagem e ensaio."
+            },
+            {
+              "nome": "Fotografia e som",
+              "explicacao": "Iluminação, câmera e captação de áudio."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filosofia-lic",
+      "nome": "Filosofia",
+      "icone": "🤔",
+      "area": "Ciências Humanas",
+      "duracao": "4 anos",
+      "resumo": "Pensar a fundo: ética, lógica, política e as grandes questões da existência humana.",
+      "materias": [
+        {
+          "materia": "História da Filosofia",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Antiga e medieval",
+              "explicacao": "Pré-socráticos, Platão, Aristóteles e escolástica."
+            },
+            {
+              "nome": "Moderna e contemporânea",
+              "explicacao": "Descartes, Kant, Nietzsche e existencialismo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Ética e Política",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Teorias éticas",
+              "explicacao": "Deontologia, utilitarismo e ética das virtudes."
+            },
+            {
+              "nome": "Filosofia política",
+              "explicacao": "Contratualismo, justiça e democracia."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Lógica e Epistemologia",
+          "icone": "🧠",
+          "topicos": [
+            {
+              "nome": "Lógica formal e argumentação",
+              "explicacao": "Silogismos, falácias e validade."
+            },
+            {
+              "nome": "Teoria do conhecimento",
+              "explicacao": "Racionalismo, empirismo e ceticismo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fisica-lic",
+      "nome": "Física",
+      "icone": "⚛️",
+      "area": "Ciências Exatas",
+      "duracao": "4 anos",
+      "resumo": "Compreender o universo: da mecânica clássica à quântica, com forte base matemática e experimental.",
+      "materias": [
+        {
+          "materia": "Mecânica",
+          "icone": "🔧",
+          "topicos": [
+            {
+              "nome": "Cinemática e dinâmica",
+              "explicacao": "Leis de Newton e movimento."
+            },
+            {
+              "nome": "Energia e momento",
+              "explicacao": "Conservação, trabalho e colisões."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Eletromagnetismo",
+          "icone": "⚡",
+          "topicos": [
+            {
+              "nome": "Campos elétricos e magnéticos",
+              "explicacao": "Leis de Gauss, Faraday e Ampère."
+            },
+            {
+              "nome": "Ondas eletromagnéticas",
+              "explicacao": "Espectro e equações de Maxwell."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Física Moderna",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Relatividade restrita",
+              "explicacao": "Tempo, espaço e equivalência massa-energia."
+            },
+            {
+              "nome": "Física quântica",
+              "explicacao": "Dualidade, incerteza e átomos."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quimica-lic",
+      "nome": "Química",
+      "icone": "🧪",
+      "area": "Ciências Exatas",
+      "duracao": "4 anos",
+      "resumo": "A ciência da matéria: átomos, reações e as transformações que movem o mundo.",
+      "materias": [
+        {
+          "materia": "Química Geral",
+          "icone": "⚗️",
+          "topicos": [
+            {
+              "nome": "Estrutura atômica e periódica",
+              "explicacao": "Modelos atômicos, distribuição eletrônica e propriedades periódicas."
+            },
+            {
+              "nome": "Ligações químicas e forças intermoleculares",
+              "explicacao": "Iônica, covalente, metálica e interações."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Físico-Química",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Termoquímica e cinética",
+              "explicacao": "Entalpia, velocidade e fatores de reação."
+            },
+            {
+              "nome": "Equilíbrio e eletroquímica",
+              "explicacao": "Kc/Kp, pilhas e eletrólise."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Química Orgânica",
+          "icone": "🧬",
+          "topicos": [
+            {
+              "nome": "Funções orgânicas e nomenclatura",
+              "explicacao": "Hidrocarbonetos, álcoois e ácidos."
+            },
+            {
+              "nome": "Reações orgânicas e mecanismos",
+              "explicacao": "Substituição, adição e eliminação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica-lic",
+      "nome": "Matemática",
+      "icone": "📐",
+      "area": "Ciências Exatas",
+      "duracao": "4 anos",
+      "resumo": "Do cálculo à álgebra abstrata: a base de toda ciência exata com raciocínio lógico rigoroso.",
+      "materias": [
+        {
+          "materia": "Cálculo",
+          "icone": "∫",
+          "topicos": [
+            {
+              "nome": "Limites e derivadas",
+              "explicacao": "Definição, regras e aplicações."
+            },
+            {
+              "nome": "Integrais",
+              "explicacao": "Indefinidas, definidas e o teorema fundamental."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Álgebra Linear",
+          "icone": "🧮",
+          "topicos": [
+            {
+              "nome": "Matrizes e determinantes",
+              "explicacao": "Operações e propriedades."
+            },
+            {
+              "nome": "Espaços vetoriais e transformações",
+              "explicacao": "Base, dimensão e autovalor."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Análise e Geometria",
+          "icone": "📏",
+          "topicos": [
+            {
+              "nome": "Sequências e séries",
+              "explicacao": "Convergência e séries de Taylor."
+            },
+            {
+              "nome": "Geometria analítica e diferencial",
+              "explicacao": "Curvas, superfícies e parametrização."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "nome": "Marketing",
+      "icone": "📈",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Conectar marcas a pessoas com estratégia, dados e criatividade — do branding ao digital.",
+      "materias": [
+        {
+          "materia": "Fundamentos de Marketing",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Mix de marketing e segmentação",
+              "explicacao": "4Ps, público-alvo e persona."
+            },
+            {
+              "nome": "Comportamento do consumidor",
+              "explicacao": "Decisão de compra e influências."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Marketing Digital",
+          "icone": "💻",
+          "topicos": [
+            {
+              "nome": "SEO e tráfego pago",
+              "explicacao": "Busca orgânica e anúncios online."
+            },
+            {
+              "nome": "Redes sociais e conteúdo",
+              "explicacao": "Planejamento editorial e engajamento."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Branding e Estratégia",
+          "icone": "🏷️",
+          "topicos": [
+            {
+              "nome": "Construção de marca",
+              "explicacao": "Identidade, posicionamento e propósito."
+            },
+            {
+              "nome": "Pesquisa de mercado e métricas",
+              "explicacao": "Análise de dados e KPIs."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comercio-exterior",
+      "nome": "Comércio Exterior",
+      "icone": "🚢",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Negociar além das fronteiras: importação, exportação, logística internacional e negócios globais.",
+      "materias": [
+        {
+          "materia": "Fundamentos de Comex",
+          "icone": "🌐",
+          "topicos": [
+            {
+              "nome": "Exportação e importação",
+              "explicacao": "Procedimentos, documentos e INCOTERMS."
+            },
+            {
+              "nome": "Barreiras tarifárias e não tarifárias",
+              "explicacao": "Protecionismo e acordos comerciais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Logística Internacional",
+          "icone": "📦",
+          "topicos": [
+            {
+              "nome": "Modais de transporte",
+              "explicacao": "Marítimo, aéreo e multimodal."
+            },
+            {
+              "nome": "Seguro e armazenagem",
+              "explicacao": "Coberturas, frete e terminais."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Negócios Globais",
+          "icone": "🤝",
+          "topicos": [
+            {
+              "nome": "Formação de preço internacional",
+              "explicacao": "Câmbio, custos e margem."
+            },
+            {
+              "nome": "Negociação intercultural",
+              "explicacao": "Etiqueta e práticas regionais."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logistica",
+      "nome": "Logística",
+      "icone": "🚚",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Planejar e controlar o fluxo de materiais e informações — a espinha dorsal da cadeia de suprimentos.",
+      "materias": [
+        {
+          "materia": "Gestão da Cadeia de Suprimentos",
+          "icone": "🔗",
+          "topicos": [
+            {
+              "nome": "Supply chain e integração",
+              "explicacao": "Fornecedores, produção e distribuição."
+            },
+            {
+              "nome": "Estoques e demanda",
+              "explicacao": "Curva ABC e previsão de demanda."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Transporte e Distribuição",
+          "icone": "🚛",
+          "topicos": [
+            {
+              "nome": "Modais e roteirização",
+              "explicacao": "Rodoviário, ferroviário e intermodal."
+            },
+            {
+              "nome": "Centros de distribuição e armazenagem",
+              "explicacao": "Layout e movimentação."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Logística Reversa e Sustentabilidade",
+          "icone": "♻️",
+          "topicos": [
+            {
+              "nome": "Logística reversa e reciclagem",
+              "explicacao": "Pós-consumo e PNRS."
+            },
+            {
+              "nome": "TI aplicada à logística",
+              "explicacao": "WMS, TMS e ERP."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engenharia-ambiental",
+      "nome": "Engenharia Ambiental",
+      "icone": "🌱",
+      "area": "Engenharias",
+      "duracao": "5 anos",
+      "resumo": "Proteger o planeta com engenharia: saneamento, gestão de recursos e sustentabilidade.",
+      "materias": [
+        {
+          "materia": "Saneamento Básico",
+          "icone": "💧",
+          "topicos": [
+            {
+              "nome": "Tratamento de água e esgoto",
+              "explicacao": "ETA, ETE e parâmetros de qualidade."
+            },
+            {
+              "nome": "Resíduos sólidos e drenagem",
+              "explicacao": "Coleta, reciclagem e águas pluviais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Gestão Ambiental",
+          "icone": "🌍",
+          "topicos": [
+            {
+              "nome": "Licenciamento e EIA/RIMA",
+              "explicacao": "Legislação e estudos de impacto."
+            },
+            {
+              "nome": "Sistemas de gestão ISO 14001",
+              "explicacao": "Política ambiental e auditoria."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Recursos Naturais",
+          "icone": "🏞️",
+          "topicos": [
+            {
+              "nome": "Recursos hídricos e bacias",
+              "explicacao": "Outorga, escassez e gestão."
+            },
+            {
+              "nome": "Energias renováveis e clima",
+              "explicacao": "Solar, eólica e mudanças climáticas."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fonoaudiologia",
+      "nome": "Fonoaudiologia",
+      "icone": "🗣️",
+      "area": "Ciências da Saúde",
+      "duracao": "4 anos",
+      "resumo": "Cuidar da comunicação humana: audição, fala, linguagem e deglutição em todas as idades.",
+      "materias": [
+        {
+          "materia": "Fundamentos da Fonoaudiologia",
+          "icone": "🩺",
+          "topicos": [
+            {
+              "nome": "Anatomia e fisiologia da audição e fala",
+              "explicacao": "Ouvido, laringe e trato vocal."
+            },
+            {
+              "nome": "Desenvolvimento da linguagem",
+              "explicacao": "Etapas da aquisição e marcos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Audiologia",
+          "icone": "👂",
+          "topicos": [
+            {
+              "nome": "Avaliação auditiva",
+              "explicacao": "Audiometria e exames objetivos."
+            },
+            {
+              "nome": "Próteses e reabilitação auditiva",
+              "explicacao": "AASI, implante coclear e terapia."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Linguagem e Motricidade Oral",
+          "icone": "💬",
+          "topicos": [
+            {
+              "nome": "Distúrbios da fala e linguagem",
+              "explicacao": "Afasia, gagueira e transtornos."
+            },
+            {
+              "nome": "Disfagia e motricidade orofacial",
+              "explicacao": "Deglutição atípica e reabilitação."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estetica-cosmetica",
+      "nome": "Estética e Cosmética",
+      "icone": "💆",
+      "area": "Ciências da Saúde",
+      "duracao": "3 anos",
+      "resumo": "Beleza, bem-estar e saúde da pele: tratamentos faciais, corporais e tecnologia estética.",
+      "materias": [
+        {
+          "materia": "Fundamentos da Estética",
+          "icone": "🧴",
+          "topicos": [
+            {
+              "nome": "Anatomia e fisiologia da pele",
+              "explicacao": "Epiderme, derme e anexos cutâneos."
+            },
+            {
+              "nome": "Cosmetologia e ativos",
+              "explicacao": "Princípios ativos e formulações."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Estética Facial e Corporal",
+          "icone": "✨",
+          "topicos": [
+            {
+              "nome": "Limpeza de pele e hidratação",
+              "explicacao": "Protocolos faciais e análise de pele."
+            },
+            {
+              "nome": "Massagens e drenagem linfática",
+              "explicacao": "Técnicas manuais e aparelhos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Tecnologia e Bem-Estar",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Eletroterapia e laser",
+              "explicacao": "Radiofrequência, microcorrentes e fototerapia."
+            },
+            {
+              "nome": "Biossegurança e ética",
+              "explicacao": "Normas sanitárias e conduta profissional."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "danca",
+      "nome": "Dança",
+      "icone": "💃",
+      "area": "Linguística, Letras e Artes",
+      "duracao": "4 anos",
+      "resumo": "O corpo em movimento como linguagem: técnica, criação, história e educação do movimento.",
+      "materias": [
+        {
+          "materia": "Técnica e Expressão Corporal",
+          "icone": "🦵",
+          "topicos": [
+            {
+              "nome": "Fundamentos do movimento",
+              "explicacao": "Eixo, peso, fluxo e espaço."
+            },
+            {
+              "nome": "Técnicas de dança",
+              "explicacao": "Clássico, moderno e contemporâneo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "História e Estética da Dança",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Evolução e escolas",
+              "explicacao": "Ballet clássico ao expressionismo."
+            },
+            {
+              "nome": "Danças brasileiras",
+              "explicacao": "Samba, frevo, maracatu e forró."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            }
+          ]
+        },
+        {
+          "materia": "Criação e Ensino",
+          "icone": "🎭",
+          "topicos": [
+            {
+              "nome": "Composição coreográfica",
+              "explicacao": "Improvisação, frase e estrutura."
+            },
+            {
+              "nome": "Didática da dança",
+              "explicacao": "Ensino, avaliação e inclusão."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
