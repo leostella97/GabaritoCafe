@@ -5906,6 +5906,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Primeira etapa.",
           "como": "Brincadeira."
+        },
+        {
+          "nome": "Teorias da aprendizagem",
+          "frequencia": 5,
+          "porque": "Piaget, Vygotsky, Wallon e Skinner.",
+          "como": "Construtivismo e sociointeracionismo."
+        },
+        {
+          "nome": "Didática e planejamento de ensino",
+          "frequencia": 4,
+          "porque": "Objetivos, conteúdos e avaliação.",
+          "como": "Plano de aula."
+        },
+        {
+          "nome": "Avaliação da aprendizagem",
+          "frequencia": 4,
+          "porque": "Diagnóstica, formativa e somativa.",
+          "como": "Critérios e instrumentos."
+        },
+        {
+          "nome": "Currículo escolar",
+          "frequencia": 4,
+          "porque": "Concepções e organização.",
+          "como": "BNCC e diretrizes."
+        },
+        {
+          "nome": "Base Nacional Comum Curricular (BNCC)",
+          "frequencia": 5,
+          "porque": "Competências e habilidades.",
+          "como": "Eixos e áreas do conhecimento."
+        },
+        {
+          "nome": "Projeto político-pedagógico (PPP)",
+          "frequencia": 3,
+          "porque": "Identidade da escola.",
+          "como": "Construção coletiva."
+        },
+        {
+          "nome": "Educação inclusiva e especial",
+          "frequencia": 3,
+          "porque": "Atendimento à diversidade.",
+          "como": "AEE e acessibilidade."
+        },
+        {
+          "nome": "Estatuto da Criança e do Adolescente (ECA)",
+          "frequencia": 3,
+          "porque": "Direitos da criança.",
+          "como": "Lei 8.069/90."
+        },
+        {
+          "nome": "Tendências pedagógicas",
+          "frequencia": 3,
+          "porque": "Tradicional, escolanovista e tecnicista.",
+          "como": "Saviani e Libâneo."
+        },
+        {
+          "nome": "Gestão democrática da escola",
+          "frequencia": 3,
+          "porque": "Participação da comunidade.",
+          "como": "Conselho escolar."
+        },
+        {
+          "nome": "Metodologias ativas",
+          "frequencia": 3,
+          "porque": "Protagonismo do aluno.",
+          "como": "Sala invertida e PBL."
+        },
+        {
+          "nome": "Alfabetização e letramento",
+          "frequencia": 4,
+          "porque": "Emília Ferreiro e Magda Soares.",
+          "como": "Fases da escrita."
+        },
+        {
+          "nome": "Psicologia do desenvolvimento",
+          "frequencia": 3,
+          "porque": "Fases do desenvolvimento.",
+          "como": "Cognitivo e socioafetivo."
+        },
+        {
+          "nome": "Educação de jovens e adultos (EJA)",
+          "frequencia": 2,
+          "porque": "Modalidade específica.",
+          "como": "Andragogia e contextualização."
         }
       ]
     }
