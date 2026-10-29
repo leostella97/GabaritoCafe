@@ -268,6 +268,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Metáfora e ironia.",
           "como": "Interpretação."
+        },
+        {
+          "nome": "Sujeito e predicado",
+          "frequencia": 4,
+          "porque": "Base da análise sintática.",
+          "como": "Tipos de sujeito."
+        },
+        {
+          "nome": "Complementos verbais",
+          "frequencia": 4,
+          "porque": "Objeto direto e indireto.",
+          "como": "Transitividade."
+        },
+        {
+          "nome": "Adjuntos adverbiais",
+          "frequencia": 3,
+          "porque": "Circunstâncias.",
+          "como": "Classificação."
+        },
+        {
+          "nome": "Vozes verbais",
+          "frequencia": 3,
+          "porque": "Ativa, passiva e reflexiva.",
+          "como": "Transformação."
+        },
+        {
+          "nome": "Colocação pronominal",
+          "frequencia": 3,
+          "porque": "Próclise, ênclise e mesóclise.",
+          "como": "Regras de uso."
+        },
+        {
+          "nome": "Período composto por subordinação",
+          "frequencia": 4,
+          "porque": "Orações subordinadas.",
+          "como": "Substantivas, adjetivas e adverbiais."
+        },
+        {
+          "nome": "Período composto por coordenação",
+          "frequencia": 4,
+          "porque": "Orações coordenadas.",
+          "como": "Sindéticas e assindéticas."
+        },
+        {
+          "nome": "Pontuação avançada",
+          "frequencia": 4,
+          "porque": "Vírgula, ponto e ponto e vírgula.",
+          "como": "Casos especiais."
+        },
+        {
+          "nome": "Concordância nominal avançada",
+          "frequencia": 3,
+          "porque": "Casos especiais de concordância.",
+          "como": "Anexo, incluso, quite."
+        },
+        {
+          "nome": "Regência nominal e verbal avançada",
+          "frequencia": 3,
+          "porque": "Preposições exigidas.",
+          "como": "Aspirar, assistir, visar."
+        },
+        {
+          "nome": "Crase avançada",
+          "frequencia": 4,
+          "porque": "Casos facultativos e proibidos.",
+          "como": "Locuções femininas."
+        },
+        {
+          "nome": "Tipologia textual",
+          "frequencia": 4,
+          "porque": "Narração, descrição e dissertação.",
+          "como": "Características de cada tipo."
+        },
+        {
+          "nome": "Gêneros textuais",
+          "frequencia": 3,
+          "porque": "Carta, ofício, e-mail e notícia.",
+          "como": "Estrutura e finalidade."
+        },
+        {
+          "nome": "Funções da linguagem",
+          "frequencia": 3,
+          "porque": "Jakobson.",
+          "como": "Referencial, emotiva e conativa."
         }
       ]
     },
