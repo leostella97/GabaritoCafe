@@ -14,7 +14,7 @@
 
 html {                              /* raiz do documento */
   scroll-behavior: smooth;          /* rolagem suave ao navegar por âncoras */
-  overflow-x: hidden;               /* impede scroll horizontal (objetos vazando) */
+  overflow-x: hidden;               /* impede scroll horizontal */
 }
 
 body {                              /* corpo da página */
@@ -24,7 +24,6 @@ body {                              /* corpo da página */
   min-height: 100vh;                /* ocupa no mínimo a altura da tela */
   min-height: 100dvh;               /* TEAM_007: dvh respeita a barra de URL do celular */
   line-height: 1.6;                 /* respiro confortável entre linhas */
-  overflow-x: hidden;               /* impede scroll horizontal (objetos vazando) */
   max-width: 100vw;                 /* garante que nada ultrapasse a largura da viewport */
 }
 
