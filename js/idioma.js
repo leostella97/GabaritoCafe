@@ -263,6 +263,7 @@ const Idioma = {
       sala_preview_mais: '+{n} tópicos',                    // tópicos além dos 4 da prévia
       sala_topicos_t: 'Tópicos principais',                 // rótulo da lista no modal
       sala_topico_hint: 'Toque num tópico para abrir a explicação e uma aula de vídeo', // dica de uso do modal
+      sala_subitens: 'Itens que compõem este tópico',       // label da lista de sub-itens
       sala_voltar: '← Todos os tópicos de {materia}',       // volta da explicação à lista
 
       // Tela de dicas
@@ -722,6 +723,7 @@ const Idioma = {
       sala_preview_mais: '+{n} topics',
       sala_topicos_t: 'Main topics',
       sala_topico_hint: 'Tap a topic to open the explanation and a video lesson',
+      sala_subitens: 'Items that make up this topic',
       sala_voltar: '← All topics in {materia}',
 
       // Tips screen
@@ -1181,6 +1183,7 @@ const Idioma = {
       sala_preview_mais: '+{n} temas',
       sala_topicos_t: 'Temas principales',
       sala_topico_hint: 'Toca un tema para abrir la explicación y una clase en video',
+      sala_subitens: 'Elementos que componen este tema',
       sala_voltar: '← Todos los temas de {materia}',
 
       // Pantalla de consejos

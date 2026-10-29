@@ -267,7 +267,7 @@ const SalaAulaUI = {
     document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal
   },
 
-  // Abre o modal de um tópico: título + explicação + link do YouTube
+  // Abre o modal de um tópico: título + explicação + itens (se houver) + link do YouTube
   abrirModalTopico(nomeMateria, nomeTopico) {
     EditalUI.iniciarModal();                            // garante a fiação do modal
     const materia = this._lista.find(m => m.materia === nomeMateria); // acha a matéria
@@ -275,14 +275,33 @@ const SalaAulaUI = {
     if (!materia || !topico) return;                    // não achou? sai
     let html = '<h3 style="margin-top:0;padding-right:1.6rem">📌 ' + Util.escape(topico.nome) + '</h3>'; // título do tópico
     html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.7rem">' + Util.escape(materia.icone) + ' ' + Util.escape(materia.materia) + '</p>'; // matéria de origem
-    // Explicação do tópico
-    html += '<div class="topico-explicacao">';          // abre a caixa da explicação
-    if (topico.explicacao) {                            // tem explicação pronta?
+
+    // Explicação introdutória do tópico (antes dos sub-itens, se houver)
+    if (topico.explicacao) {
+      html += '<div class="topico-explicacao">';          // abre a caixa da explicação
       html += '<p style="margin:0 0 0.5rem">' + Util.escape(topico.explicacao) + '</p>'; // explicação
-    } else {                                            // sem explicação — honesto
-      html += '<p>' + T('ed_topico_generico') + '</p>'; // orientação genérica
+      html += '</div>';                                   // fecha a caixa
     }
-    html += '</div>';                                   // fecha a caixa
+
+    // Se o tópico tem sub-itens (lista que compõe o tópico), renderiza cada um
+    if (topico.itens && topico.itens.length) {
+      html += '<p style="font-weight:900;font-size:0.8rem;margin:0.8rem 0 0.4rem">🧩 ' + T('sala_subitens') + '</p>';
+      html += '<ul class="sa-subitens">';
+      for (const item of topico.itens) {
+        html += '<li class="sa-subitem">';
+        html += '<strong>' + Util.escape(item.nome) + '</strong>';
+        if (item.explicacao) {
+          html += '<span class="sa-subitem-explicacao"> — ' + Util.escape(item.explicacao) + '</span>';
+        }
+        html += '</li>';
+      }
+      html += '</ul>';
+    } else if (!topico.explicacao) {                      // sem explicação nem sub-itens — honesto
+      html += '<div class="topico-explicacao">';
+      html += '<p>' + T('ed_topico_generico') + '</p>';   // orientação genérica
+      html += '</div>';
+    }
+
     // Link da aula no YouTube (matéria + tópico + contexto)
     const busca = materia.materia + ' ' + topico.nome + ' ' + this._contexto; // termo de busca
     const url = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(busca); // monta a URL

@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v23';                // bump — correção toast ilegível no tema escuro
+const CACHE = 'gabarito-cafe-v24';                // bump — AudioContext.resume() assíncrono no som da cafeteria
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona

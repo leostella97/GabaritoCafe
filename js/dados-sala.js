@@ -10051,7 +10051,37 @@ const DadosSala = {
             },
             {
               "nome": "Ferramentas da qualidade",
-              "explicacao": "Diagrama de Ishikawa, Pareto, 5 Porquês, histograma, folha de verificação e brainstorming."
+              "explicacao": "Diagrama de Ishikawa, Pareto, 5 Porquês, histograma, folha de verificação e brainstorming.",
+              "itens": [
+                {
+                  "nome": "Diagrama de Ishikawa (espinha de peixe)",
+                  "explicacao": "Mapeia causas raiz agrupadas em 6Ms: método, máquina, medida, meio ambiente, mão de obra e material."
+                },
+                {
+                  "nome": "Diagrama de Pareto (80/20)",
+                  "explicacao": "Gráfico de barras ordenadas que mostra que ~80% dos problemas vêm de ~20% das causas."
+                },
+                {
+                  "nome": "5 Porquês",
+                  "explicacao": "Pergunta iterativa que aprofunda até a causa raiz — normalmente 5 iterações bastam."
+                },
+                {
+                  "nome": "Histograma",
+                  "explicacao": "Distribuição de frequência de dados para visualizar variação e tendência central do processo."
+                },
+                {
+                  "nome": "Folha de verificação",
+                  "explicacao": "Checklist estruturado para coleta consistente de dados diretamente no chão de fábrica."
+                },
+                {
+                  "nome": "Diagrama de dispersão",
+                  "explicacao": "Gráfico XY que revela correlação entre duas variáveis do processo."
+                },
+                {
+                  "nome": "Carta de controle",
+                  "explicacao": "Monitora variação ao longo do tempo com limites superior e inferior — base do CEP."
+                }
+              ]
             },
             {
               "nome": "Normas ISO 9000 e sistemas de gestão",
@@ -14766,6 +14796,120 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Farmacologia para Enfermagem",
+          "icone": "💊",
+          "topicos": [
+            {
+              "nome": "Cálculo de medicamentos",
+              "explicacao": "Diluição, gotejamento e a administração segura de fármacos."
+            },
+            {
+              "nome": "Principais classes de medicamentos",
+              "explicacao": "Analgésicos, antibióticos, anti-hipertensivos e suas vias de administração."
+            },
+            {
+              "nome": "Interações medicamentosas",
+              "explicacao": "Sinergismo e antagonismo na polifarmácia do paciente hospitalizado."
+            },
+            {
+              "nome": "Administração de injetáveis",
+              "explicacao": "Técnicas intramuscular, subcutânea e endovenosa seguras."
+            },
+            {
+              "nome": "Cuidados de enfermagem em quimioterapia",
+              "explicacao": "Extravasamento e o manejo de efeitos adversos oncológicos."
+            },
+            {
+              "nome": "Hemoderivados e transfusão",
+              "explicacao": "Tipagem, compatibilidade e a vigilância de reações transfusionais."
+            },
+            {
+              "nome": "Erros de medicação e segurança do paciente",
+              "explicacao": "Protocolos de prevenção e a notificação de eventos adversos."
+            },
+            {
+              "nome": "Fitoterapia e práticas integrativas",
+              "explicacao": "Uso de plantas medicinais no contexto da enfermagem."
+            }
+          ]
+        },
+        {
+          "materia": "Enfermagem em Urgência e Emergência",
+          "icone": "🚨",
+          "topicos": [
+            {
+              "nome": "Classificação de risco (Protocolo Manchester)",
+              "explicacao": "Triagem por cores e a priorização do atendimento."
+            },
+            {
+              "nome": "Suporte básico de vida (SBV)",
+              "explicacao": "RCP de alta qualidade e o uso do desfibrilador externo automático."
+            },
+            {
+              "nome": "Emergências cardiovasculares",
+              "explicacao": "IAM, AVC e a atuação do enfermeiro na sala de emergência."
+            },
+            {
+              "nome": "Politraumatismo e choque",
+              "explicacao": "ABCDE do trauma e a reposição volêmica no paciente chocado."
+            },
+            {
+              "nome": "Intoxicações e acidentes ofídicos",
+              "explicacao": "Abordagem inicial e os antídotos na emergência."
+            },
+            {
+              "nome": "Queimaduras",
+              "explicacao": "Classificação, cálculo de superfície corpórea e a reposição hídrica."
+            },
+            {
+              "nome": "Parada cardiorrespiratória (PCR)",
+              "explicacao": "Algoritmo de PCR e os cuidados pós-ressuscitação."
+            },
+            {
+              "nome": "Transporte intra-hospitalar do paciente crítico",
+              "explicacao": "Monitorização e os riscos do transporte."
+            }
+          ]
+        },
+        {
+          "materia": "Gestão em Enfermagem",
+          "icone": "📋",
+          "topicos": [
+            {
+              "nome": "Dimensionamento de pessoal",
+              "explicacao": "COFEN e a relação enfermeiro/paciente por unidade."
+            },
+            {
+              "nome": "Sistematização da assistência (SAE)",
+              "explicacao": "Processo de enfermagem em 5 etapas conforme resolução COFEN."
+            },
+            {
+              "nome": "Liderança em enfermagem",
+              "explicacao": "Estilos de liderança e a gestão da equipe de enfermagem."
+            },
+            {
+              "nome": "Educação continuada e permanente",
+              "explicacao": "Treinamento em serviço e a atualização profissional."
+            },
+            {
+              "nome": "Auditoria em enfermagem",
+              "explicacao": "Qualidade assistencial e a avaliação de conformidade de processos."
+            },
+            {
+              "nome": "Gerenciamento de resíduos de saúde (RSS)",
+              "explicacao": "PGRSS e a segregação na fonte."
+            },
+            {
+              "nome": "Acreditação hospitalar",
+              "explicacao": "ONA e os padrões de qualidade nas instituições de saúde."
+            },
+            {
+              "nome": "Segurança do paciente",
+              "explicacao": "Metas internacionais e as barreiras de segurança assistencial."
+            }
+          ]
         }
       ]
     },
@@ -14836,6 +14980,120 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Farmacotécnica e Tecnologia Farmacêutica",
+          "icone": "⚗️",
+          "topicos": [
+            {
+              "nome": "Formas farmacêuticas sólidas",
+              "explicacao": "Comprimidos, cápsulas e pós — excipientes e granulometria."
+            },
+            {
+              "nome": "Formas farmacêuticas líquidas",
+              "explicacao": "Soluções, suspensões e emulsões — estabilidade e conservação."
+            },
+            {
+              "nome": "Formas semissólidas",
+              "explicacao": "Pomadas, cremes e géis e a absorção tópica de fármacos."
+            },
+            {
+              "nome": "Injetáveis e estéreis",
+              "explicacao": "Produção asséptica e os requisitos de esterilidade e pirogenicidade."
+            },
+            {
+              "nome": "Biodisponibilidade e bioequivalência",
+              "explicacao": "Testes in vitro e in vivo para medicamentos genéricos."
+            },
+            {
+              "nome": "Sistemas de liberação modificada",
+              "explicacao": "Liberação prolongada, retardada e os sistemas transdérmicos."
+            },
+            {
+              "nome": "Boas práticas de fabricação (BPF)",
+              "explicacao": "RDC ANVISA e o controle de qualidade na indústria farmacêutica."
+            },
+            {
+              "nome": "Nanotecnologia farmacêutica",
+              "explicacao": "Nanopartículas e lipossomas como carreadores de fármacos."
+            }
+          ]
+        },
+        {
+          "materia": "Farmácia Clínica e Hospitalar",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "Atenção farmacêutica",
+              "explicacao": "Seguimento farmacoterapêutico e a adesão ao tratamento."
+            },
+            {
+              "nome": "Farmácia clínica em UTI",
+              "explicacao": "Ajuste de doses, interações e o papel do farmacêutico na terapia intensiva."
+            },
+            {
+              "nome": "Farmacovigilância",
+              "explicacao": "Notificação de reações adversas e a segurança pós-comercialização."
+            },
+            {
+              "nome": "Reconciliação medicamentosa",
+              "explicacao": "Transição de cuidados e a prevenção de erros de medicação."
+            },
+            {
+              "nome": "Farmácia oncológica",
+              "explicacao": "Manipulação de quimioterápicos e a segurança no preparo e administração."
+            },
+            {
+              "nome": "Nutrição parenteral",
+              "explicacao": "Formulação, compatibilidade e a estabilidade de soluções parenterais."
+            },
+            {
+              "nome": "Antimicrobianos e stewardship",
+              "explicacao": "Uso racional e o controle de resistência bacteriana hospitalar."
+            },
+            {
+              "nome": "Farmácia baseada em evidências",
+              "explicacao": "Interpretação de estudos clínicos e a tomada de decisão terapêutica."
+            }
+          ]
+        },
+        {
+          "materia": "Assistência Farmacêutica no SUS",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Política Nacional de Medicamentos",
+              "explicacao": "RENAME e a relação de medicamentos essenciais."
+            },
+            {
+              "nome": "Ciclo da Assistência Farmacêutica",
+              "explicacao": "Seleção, programação, aquisição, distribuição e dispensação."
+            },
+            {
+              "nome": "Farmácia popular e acesso a medicamentos",
+              "explicacao": "Programa Farmácia Popular e a coparticipação no acesso."
+            },
+            {
+              "nome": "Judicialização da saúde",
+              "explicacao": "Demandas judiciais por medicamentos e o impacto no sistema p��blico."
+            },
+            {
+              "nome": "Avaliação de tecnologias em saúde (ATS)",
+              "explicacao": "CONITEC e a incorporação de novos medicamentos no SUS."
+            },
+            {
+              "nome": "Componentes da assistência farmacêutica",
+              "explicacao": "Básico, estratégico e especializado — financiamento tripartite."
+            },
+            {
+              "nome": "Farmácia viva e plantas medicinais",
+              "explicacao": "Fitoterapia no SUS e a manipulação de fitoterápicos."
+            },
+            {
+              "nome": "Indicadores e gestão da assistência farmacêutica",
+              "explicacao": "Monitoramento e a avaliação de resultados em saúde."
             }
           ]
         }
@@ -14922,6 +15180,120 @@ const DadosSala = {
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
+        },
+        {
+          "materia": "Cirurgia Bucomaxilofacial",
+          "icone": "🔪",
+          "topicos": [
+            {
+              "nome": "Exodontia de terceiros molares",
+              "explicacao": "Indicações, técnica cirúrgica e o manejo de complicações."
+            },
+            {
+              "nome": "Traumatologia bucomaxilofacial",
+              "explicacao": "Fraturas de mandíbula e zigomático e a fixação interna."
+            },
+            {
+              "nome": "Cirurgia ortognática",
+              "explicacao": "Correção de deformidades dentofaciais e o planejamento virtual."
+            },
+            {
+              "nome": "Infecções odontogênicas",
+              "explicacao": "Abscessos e a antibioticoterapia em infecções da face."
+            },
+            {
+              "nome": "Implantes dentários",
+              "explicacao": "Osseointegração e a reabilitação com prótese sobre implantes."
+            },
+            {
+              "nome": "Enxertos ósseos e biomateriais",
+              "explicacao": "Regeneração óssea guiada e os tipos de enxerto."
+            },
+            {
+              "nome": "Anestesiologia em odontologia",
+              "explicacao": "Técnicas anestésicas e o manejo de complicações locais e sistêmicas."
+            },
+            {
+              "nome": "Laser em cirurgia oral",
+              "explicacao": "Aplicações do laser de baixa e alta potência em tecidos moles e duros."
+            }
+          ]
+        },
+        {
+          "materia": "Ortodontia e Ortopedia Facial",
+          "icone": "🦷",
+          "topicos": [
+            {
+              "nome": "Classificação das más oclusões (Angle)",
+              "explicacao": "Classe I, II e III e a nomenclatura ortodôntica."
+            },
+            {
+              "nome": "Aparelhos fixos e removíveis",
+              "explicacao": "Brackets, bandas e os aparelhos ortopédicos funcionais."
+            },
+            {
+              "nome": "Cefalometria e análise facial",
+              "explicacao": "Traçados e as relações esqueléticas em norma lateral."
+            },
+            {
+              "nome": "Alinhadores invisíveis (Invisalign)",
+              "explicacao": "Tecnologia digital e a previsibilidade do tratamento estético."
+            },
+            {
+              "nome": "Ancoragem com mini-implantes",
+              "explicacao": "Dispositivos temporários de ancoragem esquelética."
+            },
+            {
+              "nome": "Ortodontia preventiva e interceptativa",
+              "explicacao": "Intervenção precoce em crianças e o uso de mantenedores de espaço."
+            },
+            {
+              "nome": "Tratamento orto-cirúrgico",
+              "explicacao": "Planejamento combinado do ortodontista com o cirurgião bucomaxilofacial."
+            },
+            {
+              "nome": "Contenção pós-tratamento",
+              "explicacao": "Tipos de contenção e a estabilidade dos resultados ortodônticos."
+            }
+          ]
+        },
+        {
+          "materia": "Odontopediatria",
+          "icone": "👶",
+          "topicos": [
+            {
+              "nome": "Desenvolvimento da dentição",
+              "explicacao": "Erupção dentária e as fases de dentição decídua e mista."
+            },
+            {
+              "nome": "Cárie na primeira infância",
+              "explicacao": "Etiologia, prevenção e o tratamento restaurador atraumático."
+            },
+            {
+              "nome": "Traumatismo dentário em crianças",
+              "explicacao": "Classificação e a conduta imediata em dentes decíduos e permanentes."
+            },
+            {
+              "nome": "Manejo do comportamento infantil",
+              "explicacao": "Técnicas não farmacológicas e a sedação consciente com óxido nitroso."
+            },
+            {
+              "nome": "Selantes e prevenção",
+              "explicacao": "Selamento de fóssulas e fissuras e a prevenção de cárie oclusal."
+            },
+            {
+              "nome": "Hábitos deletérios",
+              "explicacao": "Sucção digital e chupeta e as consequências na oclusão."
+            },
+            {
+              "nome": "Atendimento a pacientes com necessidades especiais",
+              "explicacao": "Adaptação do atendimento odontológico a deficiências."
+            },
+            {
+              "nome": "Fluorterapia",
+              "explicacao": "Aplicação tópica de flúor e a toxicidade aguda e crônica."
+            }
+          ]
         }
       ]
     },
@@ -14988,6 +15360,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Manejo e Conservação do Solo",
+          "icone": "🌱",
+          "topicos": [
+            {
+              "nome": "Física do solo",
+              "explicacao": "Textura, estrutura e a dinâmica da água no solo."
+            },
+            {
+              "nome": "Fertilidade e nutrição de plantas",
+              "explicacao": "Macro e micronutrientes e a recomendação de corretivos e fertilizantes."
+            },
+            {
+              "nome": "Manejo integrado de pragas (MIP)",
+              "explicacao": "Controle biológico e o uso racional de defensivos agrícolas."
+            },
+            {
+              "nome": "Sistemas de plantio direto",
+              "explicacao": "Cobertura morta e a preservação da estrutura do solo."
+            },
+            {
+              "nome": "Irrigação e drenagem",
+              "explicacao": "Métodos de irrigação e a eficiência do uso da água."
+            },
+            {
+              "nome": "Agricultura de precisão",
+              "explicacao": "GPS, sensores e a aplicação localizada de insumos."
+            },
+            {
+              "nome": "Culturas anuais (soja, milho, algodão)",
+              "explicacao": "Zoneamento e as práticas de manejo das principais culturas."
+            },
+            {
+              "nome": "Sustentabilidade na agricultura",
+              "explicacao": "Agricultura regenerativa e a conservação dos recursos naturais."
             }
           ]
         }
@@ -15058,6 +15468,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Jornalismo Investigativo",
+          "icone": "🔍",
+          "topicos": [
+            {
+              "nome": "Técnicas de reportagem investigativa",
+              "explicacao": "Fontes, cruzamento de dados e a proteção de denunciantes."
+            },
+            {
+              "nome": "Jornalismo de dados",
+              "explicacao": "Coleta e análise de bases de dados públicas para produção de pautas."
+            },
+            {
+              "nome": "Lei de acesso à informação (LAI)",
+              "explicacao": "Pedidos de informação e a transparência pública como ferramenta jornalística."
+            },
+            {
+              "nome": "Checagem de fatos (fact-checking)",
+              "explicacao": "Metodologia de verificação e o combate à desinformação."
+            },
+            {
+              "nome": "Ética no jornalismo investigativo",
+              "explicacao": "Limites legais, direito à privacidade e o interesse público."
+            },
+            {
+              "nome": "Jornalismo de denúncia no Brasil",
+              "explicacao": "Grandes reportagens e o impacto social do jornalismo investigativo."
+            },
+            {
+              "nome": "Apuração em ambiente digital",
+              "explicacao": "OSINT e as ferramentas de investigação em fontes abertas."
+            },
+            {
+              "nome": "Segurança digital para jornalistas",
+              "explicacao": "Criptografia e a proteção de fontes e comunicações."
+            }
+          ]
         }
       ]
     },
@@ -15124,6 +15572,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Nutrição Materno-Infantil",
+          "icone": "👶",
+          "topicos": [
+            {
+              "nome": "Nutrição na gestação",
+              "explicacao": "Ganho de peso e as necessidades nutricionais por trimestre."
+            },
+            {
+              "nome": "Aleitamento materno",
+              "explicacao": "Composição do leite e as recomendações de aleitamento exclusivo."
+            },
+            {
+              "nome": "Alimentação complementar",
+              "explicacao": "Introdução alimentar e os 10 passos da alimentação saudável."
+            },
+            {
+              "nome": "Nutrição na adolescência",
+              "explicacao": "Estirão de crescimento e as demandas nutricionais específicas."
+            },
+            {
+              "nome": "Desnutrição e obesidade infantil",
+              "explicacao": "Diagnóstico nutricional e as intervenções em pediatria."
+            },
+            {
+              "nome": "Alimentação escolar (PNAE)",
+              "explicacao": "Programa Nacional e o papel do nutricionista na merenda."
+            },
+            {
+              "nome": "Alergias alimentares na infância",
+              "explicacao": "Diagnóstico e o manejo dietético das principais alergias."
+            },
+            {
+              "nome": "Suplementação na infância",
+              "explicacao": "Ferro, vitamina D e as recomendações do Ministério da Saúde."
             }
           ]
         }
@@ -15194,6 +15680,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Alfabetização e Letramento",
+          "icone": "📖",
+          "topicos": [
+            {
+              "nome": "Métodos de alfabetização",
+              "explicacao": "Fônico, silábico e global — abordagens e evidências científicas."
+            },
+            {
+              "nome": "Consciência fonológica",
+              "explicacao": "Rimas, aliterações e a relação com o aprendizado da leitura e escrita."
+            },
+            {
+              "nome": "Letramento digital",
+              "explicacao": "Multiletramentos e o uso de tecnologias na alfabetização."
+            },
+            {
+              "nome": "Avaliação da alfabetização",
+              "explicacao": "Diagnóstico e intervenção nas dificuldades de leitura e escrita."
+            },
+            {
+              "nome": "Dislexia e transtornos de aprendizagem",
+              "explicacao": "Identificação e as estratégias pedagógicas inclusivas."
+            },
+            {
+              "nome": "Literatura infantil na alfabetização",
+              "explicacao": "Contação de histórias e a formação do leitor literário."
+            },
+            {
+              "nome": "Alfabetização de jovens e adultos (EJA)",
+              "explicacao": "Andragogia e as especificidades do público adulto."
+            },
+            {
+              "nome": "Base Nacional Comum Curricular (BNCC)",
+              "explicacao": "Competências de linguagem e as diretrizes para alfabetização."
+            }
+          ]
         }
       ]
     },
@@ -15256,6 +15780,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "História da Arte Brasileira",
+          "icone": "🇧🇷",
+          "topicos": [
+            {
+              "nome": "Barroco mineiro",
+              "explicacao": "Aleijadinho, Mestre Ataíde e a arte sacra colonial."
+            },
+            {
+              "nome": "Missão Artística Francesa",
+              "explicacao": "Debret, Taunay e a fundação da Academia Imperial de Belas Artes."
+            },
+            {
+              "nome": "Modernismo brasileiro (1922)",
+              "explicacao": "Semana de 22, Tarsila do Amaral e a antropofagia."
+            },
+            {
+              "nome": "Concretismo e neoconcretismo",
+              "explicacao": "Lygia Clark, Hélio Oiticica e a superação do suporte tradicional."
+            },
+            {
+              "nome": "Arte contemporânea brasileira",
+              "explicacao": "Bienal de São Paulo e os artistas brasileiros no circuito global."
+            },
+            {
+              "nome": "Arte indígena e afro-brasileira",
+              "explicacao": "Tradições e a presença na arte contemporânea nacional."
+            },
+            {
+              "nome": "Grafite e arte urbana no Brasil",
+              "explicacao": "Osgemeos e a street art brasileira no cenário internacional."
+            },
+            {
+              "nome": "Mercado de arte no Brasil",
+              "explicacao": "Galerias e feiras de arte e a valorização dos artistas nacionais."
             }
           ]
         }
@@ -15322,6 +15884,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Patologia Clínica",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Hematologia clínica",
+              "explicacao": "Hemograma e a interpretação das anemias."
+            },
+            {
+              "nome": "Bioquímica clínica",
+              "explicacao": "Marcadores de função renal, hepática e os distúrbios metabólicos."
+            },
+            {
+              "nome": "Microbiologia clínica",
+              "explicacao": "Cultura, antibiograma e a identificação de patógenos."
+            },
+            {
+              "nome": "Parasitologia clínica",
+              "explicacao": "Diagnóstico laboratorial das principais parasitoses humanas."
+            },
+            {
+              "nome": "Imunologia clínica",
+              "explicacao": "Testes sorológicos e o diagnóstico de doenças autoimunes."
+            },
+            {
+              "nome": "Controle de qualidade laboratorial",
+              "explicacao": "Calibração e a garantia da qualidade dos exames."
+            },
+            {
+              "nome": "Coleta e transporte de amostras",
+              "explicacao": "Fase pré-analítica e os fatores que interferem nos resultados."
+            },
+            {
+              "nome": "Automação em laboratório clínico",
+              "explicacao": "Analisadores e a integração de sistemas laboratoriais."
+            }
+          ]
         }
       ]
     },
@@ -15384,6 +15984,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Genética e Evolução",
+          "icone": "🧬",
+          "topicos": [
+            {
+              "nome": "Genética mendeliana",
+              "explicacao": "Leis de Mendel e a herança de características monogênicas."
+            },
+            {
+              "nome": "Genética de populações",
+              "explicacao": "Equilíbrio de Hardy-Weinberg e os fatores evolutivos."
+            },
+            {
+              "nome": "Evolução molecular",
+              "explicacao": "Relógio molecular e a filogenia baseada em sequências de DNA."
+            },
+            {
+              "nome": "Especiação",
+              "explicacao": "Mecanismos de isolamento reprodutivo e os modelos de especiação."
+            },
+            {
+              "nome": "Genética do desenvolvimento",
+              "explicacao": "Genes Hox e a padronização corporal dos animais."
+            },
+            {
+              "nome": "Epigenética",
+              "explicacao": "Metilação do DNA e as modificações de histonas na regulação gênica."
+            },
+            {
+              "nome": "Genômica e bioinformática",
+              "explicacao": "Sequenciamento de nova geração e a anotação de genomas."
+            },
+            {
+              "nome": "CRISPR e edição gênica",
+              "explicacao": "Mecanismo e as aplicações éticas da edição de genes."
             }
           ]
         }
@@ -15450,6 +16088,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Logística Internacional",
+          "icone": "🚢",
+          "topicos": [
+            {
+              "nome": "Modais de transporte internacional",
+              "explicacao": "Marítimo, aéreo e rodoviário e a escolha do modal."
+            },
+            {
+              "nome": "Incoterms",
+              "explicacao": "Termos de comércio e a distribuição de responsabilidades e custos."
+            },
+            {
+              "nome": "Seguro de carga internacional",
+              "explicacao": "Coberturas e a gestão de riscos no transporte de mercadorias."
+            },
+            {
+              "nome": "Documentação no comércio exterior",
+              "explicacao": "Fatura pro forma e a conformidade documental."
+            },
+            {
+              "nome": "Armazenagem e terminais alfandegados",
+              "explicacao": "Portos secos e as zonas de processamento de exportação."
+            },
+            {
+              "nome": "Supply chain global",
+              "explicacao": "Gestão integrada e a visibilidade da cadeia logística."
+            },
+            {
+              "nome": "Tecnologia na logística internacional",
+              "explicacao": "RFID e o rastreamento em tempo real de cargas."
+            },
+            {
+              "nome": "Sustentabilidade na logística global",
+              "explicacao": "Redução de emissões e a logística verde no comércio internacional."
+            }
+          ]
         }
       ]
     },
@@ -15512,6 +16188,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Coreografia e Composição",
+          "icone": "💃",
+          "topicos": [
+            {
+              "nome": "Elementos da coreografia",
+              "explicacao": "Espaço, tempo e a qualidade do movimento na dança."
+            },
+            {
+              "nome": "Improvisação em dança",
+              "explicacao": "Técnicas e a exploração do movimento como processo criativo."
+            },
+            {
+              "nome": "Dança contemporânea",
+              "explicacao": "Pina Bausch, Merce Cunningham e a ruptura com o balé clássico."
+            },
+            {
+              "nome": "Danças brasileiras",
+              "explicacao": "Samba, frevo e as manifestações da cultura popular."
+            },
+            {
+              "nome": "Dança e tecnologia",
+              "explicacao": "Motion capture e a interação entre dança e mídias digitais."
+            },
+            {
+              "nome": "Preparação corporal",
+              "explicacao": "Alongamento e o condicionamento físico do bailarino."
+            },
+            {
+              "nome": "Produção de espetáculos de dança",
+              "explicacao": "Figurino e a direção de cena em apresentações coreográficas."
+            },
+            {
+              "nome": "Dança e inclusão",
+              "explicacao": "Dança para pessoas com deficiência e a acessibilidade nas artes."
             }
           ]
         }
@@ -15578,6 +16292,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Design Gráfico e Comunicação Visual",
+          "icone": "🎨",
+          "topicos": [
+            {
+              "nome": "Teoria da cor",
+              "explicacao": "Círculo cromático e a psicologia das cores no design."
+            },
+            {
+              "nome": "Tipografia",
+              "explicacao": "Classificação de fontes e a legibilidade em projetos gráficos."
+            },
+            {
+              "nome": "Composição visual",
+              "explicacao": "Gestalt e os princípios de equilíbrio e hierarquia."
+            },
+            {
+              "nome": "Design editorial",
+              "explicacao": "Diagramação e o projeto gráfico de livros e revistas."
+            },
+            {
+              "nome": "Identidade visual",
+              "explicacao": "Logotipo e a construção de sistemas de identidade de marca."
+            },
+            {
+              "nome": "Ilustração digital",
+              "explicacao": "Técnicas vetoriais e bitmap para ilustração comercial."
+            },
+            {
+              "nome": "Design para mídias sociais",
+              "explicacao": "Formatos e a adaptação da linguagem visual para cada plataforma."
+            },
+            {
+              "nome": "Produção gráfica",
+              "explicacao": "Pré-impressão e os processos de impressão offset e digital."
+            }
+          ]
         }
       ]
     },
@@ -15640,6 +16392,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Prescrição de Exercícios",
+          "icone": "🏋️",
+          "topicos": [
+            {
+              "nome": "Avaliação física",
+              "explicacao": "Anamnese e os testes de aptidão cardiorrespiratória e muscular."
+            },
+            {
+              "nome": "Treinamento resistido",
+              "explicacao": "Periodização e as variáveis de carga e volume."
+            },
+            {
+              "nome": "Treinamento aeróbio",
+              "explicacao": "Zonas de intensidade e a prescrição para diferentes objetivos."
+            },
+            {
+              "nome": "Treinamento funcional",
+              "explicacao": "Padrões de movimento e a transferência para atividades diárias."
+            },
+            {
+              "nome": "Treinamento para populações especiais",
+              "explicacao": "Idosos e as adaptações para condições crônicas."
+            },
+            {
+              "nome": "Nutrição esportiva básica",
+              "explicacao": "Macronutrientes e a hidratação no desempenho esportivo."
+            },
+            {
+              "nome": "Lesões esportivas e prevenção",
+              "explicacao": "Fatores de risco e os programas de prevenção."
+            },
+            {
+              "nome": "Tecnologia no treinamento",
+              "explicacao": "Wearables e a análise de dados de desempenho."
             }
           ]
         }
@@ -15706,6 +16496,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Tratamento de Água e Efluentes",
+          "icone": "💧",
+          "topicos": [
+            {
+              "nome": "Tratamento de água para abastecimento",
+              "explicacao": "Coagulação e a desinfecção no tratamento convencional."
+            },
+            {
+              "nome": "Tratamento de esgoto sanitário",
+              "explicacao": "Processos aeróbios e anaeróbios e a remoção de nutrientes."
+            },
+            {
+              "nome": "Reúso de água",
+              "explicacao": "Tecnologias e as aplicações de água de reúso."
+            },
+            {
+              "nome": "Tratamento de efluentes industriais",
+              "explicacao": "Processos físico-químicos e a remoção de metais pesados."
+            },
+            {
+              "nome": "Legislação ambiental (CONAMA)",
+              "explicacao": "Padrões de lançamento e o licenciamento ambiental."
+            },
+            {
+              "nome": "Sistemas de drenagem urbana",
+              "explicacao": "Controle de cheias e as técnicas compensatórias."
+            },
+            {
+              "nome": "Monitoramento da qualidade da água",
+              "explicacao": "Parâmetros físico-químicos e biológicos de qualidade."
+            },
+            {
+              "nome": "Tecnologias sustentáveis de saneamento",
+              "explicacao": "Wetlands construídos e os sistemas descentralizados."
+            }
+          ]
         }
       ]
     },
@@ -15768,6 +16596,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Reatores Químicos",
+          "icone": "⚗️",
+          "topicos": [
+            {
+              "nome": "Cinética química aplicada",
+              "explicacao": "Ordens de reação e a equação de Arrhenius no projeto de reatores."
+            },
+            {
+              "nome": "Reatores ideais (batelada, CSTR, PFR)",
+              "explicacao": "Balanço molar e a equação de projeto de cada tipo."
+            },
+            {
+              "nome": "Reatores catalíticos",
+              "explicacao": "Catálise heterogênea e a desativação de catalisadores."
+            },
+            {
+              "nome": "Reatores não ideais",
+              "explicacao": "Distribuição de tempos de residência e a modelagem de escoamento."
+            },
+            {
+              "nome": "Reatores de polimerização",
+              "explicacao": "Cinética e os tipos de reatores para produção de polímeros."
+            },
+            {
+              "nome": "Biorreatores",
+              "explicacao": "Fermentação e os reatores para produção de bioprodutos."
+            },
+            {
+              "nome": "Segurança em reatores químicos",
+              "explicacao": "Runaway térmico e os sistemas de alívio e contenção."
+            },
+            {
+              "nome": "Scale-up de reatores",
+              "explicacao": "Do laboratório à planta industrial e os critérios de escalonamento."
             }
           ]
         }
@@ -15834,6 +16700,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Cosmetologia Aplicada",
+          "icone": "✨",
+          "topicos": [
+            {
+              "nome": "Formulação de cosméticos",
+              "explicacao": "Emulsões e a estabilidade de produtos para pele e cabelo."
+            },
+            {
+              "nome": "Ativos cosméticos",
+              "explicacao": "Ácido hialurônico, retinol, vitamina C e os peptídeos antienvelhecimento."
+            },
+            {
+              "nome": "Procedimentos estéticos faciais",
+              "explicacao": "Limpeza de pele e os peelings químicos superficiais."
+            },
+            {
+              "nome": "Estética corporal",
+              "explicacao": "Massagem modeladora e as técnicas de redução de medidas."
+            },
+            {
+              "nome": "Tecnologias em estética",
+              "explicacao": "Radiofrequência e o ultrassom na estética."
+            },
+            {
+              "nome": "Cosméticos capilares",
+              "explicacao": "Shampoos e as formulações para diferentes tipos de cabelo."
+            },
+            {
+              "nome": "Regulamentação de cosméticos (ANVISA)",
+              "explicacao": "Registro e a classificação de produtos cosméticos."
+            },
+            {
+              "nome": "Tendências em cosméticos",
+              "explicacao": "Clean beauty e os cosméticos veganos e sustentáveis."
+            }
+          ]
         }
       ]
     },
@@ -15896,6 +16800,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Filosofia Política",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Contratualismo",
+              "explicacao": "Hobbes, Locke e Rousseau e a origem do Estado."
+            },
+            {
+              "nome": "Liberalismo e utilitarismo",
+              "explicacao": "John Stuart Mill e a defesa da liberdade individual."
+            },
+            {
+              "nome": "Marxismo e crítica ao capitalismo",
+              "explicacao": "Materialismo histórico e a teoria da revolução."
+            },
+            {
+              "nome": "Democracia e cidadania",
+              "explicacao": "Modelos de democracia e a participação política."
+            },
+            {
+              "nome": "Teorias da justiça",
+              "explicacao": "John Rawls e a justiça como equidade."
+            },
+            {
+              "nome": "Filosofia política contemporânea",
+              "explicacao": "Multiculturalismo e o debate sobre identidade e reconhecimento."
+            },
+            {
+              "nome": "Totalitarismo e suas críticas",
+              "explicacao": "Hannah Arendt e a banalidade do mal."
+            },
+            {
+              "nome": "Biopolítica e poder",
+              "explicacao": "Michel Foucault e o governo da vida nas sociedades modernas."
             }
           ]
         }
@@ -15962,6 +16904,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Física Moderna",
+          "icone": "⚛️",
+          "topicos": [
+            {
+              "nome": "Relatividade restrita",
+              "explicacao": "Dilatação do tempo e a equivalência massa-energia E=mc²."
+            },
+            {
+              "nome": "Efeito fotoelétrico",
+              "explicacao": "Fótons e a quantização da energia luminosa."
+            },
+            {
+              "nome": "Modelo atômico de Bohr",
+              "explicacao": "Níveis de energia e os espectros de emissão e absorção."
+            },
+            {
+              "nome": "Dualidade onda-partícula",
+              "explicacao": "De Broglie e o comprimento de onda da matéria."
+            },
+            {
+              "nome": "Princípio da incerteza de Heisenberg",
+              "explicacao": "Limitação fundamental na medição simultânea de grandezas conjugadas."
+            },
+            {
+              "nome": "Física nuclear",
+              "explicacao": "Radioatividade e os processos de fissão e fusão nuclear."
+            },
+            {
+              "nome": "Partículas elementares",
+              "explicacao": "Modelo padrão e a classificação de quarks e léptons."
+            },
+            {
+              "nome": "Cosmologia e astrofísica",
+              "explicacao": "Big Bang e a expansão acelerada do universo."
+            }
+          ]
         }
       ]
     },
@@ -16024,6 +17004,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Fisioterapia Traumato-Ortopédica",
+          "icone": "🦵",
+          "topicos": [
+            {
+              "nome": "Avaliação ortopédica funcional",
+              "explicacao": "Testes especiais e a avaliação da amplitude de movimento."
+            },
+            {
+              "nome": "Reabilitação pós-cirúrgica do joelho",
+              "explicacao": "Protocolos e a recuperação funcional."
+            },
+            {
+              "nome": "Reabilitação do ombro",
+              "explicacao": "Lesões do manguito rotador e a estabilização escapular."
+            },
+            {
+              "nome": "Fraturas e consolidação óssea",
+              "explicacao": "Fases e os estímulos fisioterapêuticos na consolidação."
+            },
+            {
+              "nome": "Terapia manual ortopédica",
+              "explicacao": "Mobilizações articulares e as técnicas de Maitland e Mulligan."
+            },
+            {
+              "nome": "Bandagens funcionais e kinesio taping",
+              "explicacao": "Aplicações e as evidências científicas."
+            },
+            {
+              "nome": "Exercícios em cadeia cinética",
+              "explicacao": "Cadeia aberta e fechada na reabilitação."
+            },
+            {
+              "nome": "Prevenção de lesões esportivas",
+              "explicacao": "Programas de prevenção e o retorno seguro ao esporte."
             }
           ]
         }
@@ -16090,6 +17108,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Fonoaudiologia Educacional",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "Desenvolvimento da linguagem infantil",
+              "explicacao": "Marcos do desenvolvimento e os sinais de alerta."
+            },
+            {
+              "nome": "Distúrbios de leitura e escrita",
+              "explicacao": "Dislexia e as estratégias de intervenção fonoaudiológica."
+            },
+            {
+              "nome": "Processamento auditivo central",
+              "explicacao": "Avaliação e a relação com a aprendizagem."
+            },
+            {
+              "nome": "Fala e fluência na escola",
+              "explicacao": "Gagueira e a orientação de professores e familiares."
+            },
+            {
+              "nome": "Saúde vocal do professor",
+              "explicacao": "Prevenção e os cuidados com a voz profissional."
+            },
+            {
+              "nome": "Triagem fonoaudiológica escolar",
+              "explicacao": "Identificação precoce e o encaminhamento adequado."
+            },
+            {
+              "nome": "Tecnologia assistiva em fonoaudiologia",
+              "explicacao": "CAA e os recursos para comunicação alternativa."
+            },
+            {
+              "nome": "Inclusão escolar e fonoaudiologia",
+              "explicacao": "Atuação colaborativa com a equipe pedagógica."
+            }
+          ]
         }
       ]
     },
@@ -16152,6 +17208,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Panificação e Confeitaria",
+          "icone": "🍰",
+          "topicos": [
+            {
+              "nome": "Fermentação em panificação",
+              "explicacao": "Leveduras e o desenvolvimento do glúten."
+            },
+            {
+              "nome": "Massas básicas (pães e pizzas)",
+              "explicacao": "Hidratação e as técnicas de sova."
+            },
+            {
+              "nome": "Confeitaria clássica",
+              "explicacao": "Merengues e as bases da pâtisserie francesa."
+            },
+            {
+              "nome": "Chocolateria",
+              "explicacao": "Temperagem e a produção de bombons e esculturas."
+            },
+            {
+              "nome": "Sobremesas brasileiras",
+              "explicacao": "Ingredientes regionais e a releitura de clássicos."
+            },
+            {
+              "nome": "Panificação sem glúten",
+              "explicacao": "Farinhas alternativas e a adaptação de receitas."
+            },
+            {
+              "nome": "Decoração de bolos",
+              "explicacao": "Técnicas de confeito e a montagem de andares."
+            },
+            {
+              "nome": "Fermentação natural (levain)",
+              "explicacao": "Cultivo e a produção de pães de longa fermentação."
             }
           ]
         }
@@ -16218,6 +17312,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Geopolítica Mundial",
+          "icone": "🌍",
+          "topicos": [
+            {
+              "nome": "Ordem mundial pós-Guerra Fria",
+              "explicacao": "Fim da bipolaridade e o debate sobre multipolaridade."
+            },
+            {
+              "nome": "Conflitos regionais atuais",
+              "explicacao": "Síria, Ucrânia e as tensões geopolíticas contemporâneas."
+            },
+            {
+              "nome": "Potências emergentes (BRICS)",
+              "explicacao": "Brasil, Rússia, Índia, China e África do Sul no tabuleiro global."
+            },
+            {
+              "nome": "Geopolítica da energia",
+              "explicacao": "Petróleo e gás como instrumentos de poder e influência."
+            },
+            {
+              "nome": "Terrorismo e segurança global",
+              "explicacao": "Redes transnacionais e o impacto na geopolítica pós-11/09."
+            },
+            {
+              "nome": "Geopolítica ambiental",
+              "explicacao": "Recursos hídricos e as disputas por água doce no século XXI."
+            },
+            {
+              "nome": "África no sistema internacional",
+              "explicacao": "Recursos minerais e a presença chinesa no continente."
+            },
+            {
+              "nome": "América Latina na geopolítica",
+              "explicacao": "Integração regional e as disputas por influência externa."
+            }
+          ]
         }
       ]
     },
@@ -16280,6 +17412,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "História Contemporânea",
+          "icone": "📰",
+          "topicos": [
+            {
+              "nome": "Guerra Fria",
+              "explicacao": "Conflito bipolar e as esferas de influência dos EUA e URSS."
+            },
+            {
+              "nome": "Descolonização da África e Ásia",
+              "explicacao": "Movimentos de independência e o neocolonialismo."
+            },
+            {
+              "nome": "Revolução Cubana",
+              "explicacao": "Fidel Castro e o impacto na geopolítica latino-americana."
+            },
+            {
+              "nome": "Maio de 1968",
+              "explicacao": "Movimentos de contracultura e a revolução dos costumes."
+            },
+            {
+              "nome": "Neoliberalismo e globalização",
+              "explicacao": "Consenso de Washington e a reconfiguração econômica mundial."
+            },
+            {
+              "nome": "Fim da URSS",
+              "explicacao": "Gorbachev e o colapso do bloco soviético."
+            },
+            {
+              "nome": "Primavera Árabe",
+              "explicacao": "Revoltas populares e as redes sociais como catalisadoras."
+            },
+            {
+              "nome": "Ascensão da China",
+              "explicacao": "Reformas de Deng Xiaoping e a China como potência global."
             }
           ]
         }
@@ -16346,6 +17516,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Literatura Brasileira",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "Romantismo brasileiro",
+              "explicacao": "José de Alencar e a construção da identidade nacional."
+            },
+            {
+              "nome": "Machado de Assis e o Realismo",
+              "explicacao": "Memórias Póstumas e a análise psicológica."
+            },
+            {
+              "nome": "Semana de 22 e o Modernismo",
+              "explicacao": "Mário de Andrade e a renovação da linguagem literária."
+            },
+            {
+              "nome": "Clarice Lispector e a prosa intimista",
+              "explicacao": "Fluxo de consciência e a subjetividade feminina."
+            },
+            {
+              "nome": "Guimarães Rosa e o sertão universal",
+              "explicacao": "Grande Sertão: Veredas e a reinvenção da linguagem."
+            },
+            {
+              "nome": "Poesia concreta brasileira",
+              "explicacao": "Décio Pignatari e a poesia visual no Brasil."
+            },
+            {
+              "nome": "Literatura contemporânea brasileira",
+              "explicacao": "Novos autores e a diversidade de vozes na literatura atual."
+            },
+            {
+              "nome": "Literatura marginal e periférica",
+              "explicacao": "Carolina Maria de Jesus e a literatura das quebradas."
+            }
+          ]
         }
       ]
     },
@@ -16408,6 +17616,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Tecnologia e Inovação em Logística",
+          "icone": "⚡",
+          "topicos": [
+            {
+              "nome": "Transformação digital na logística",
+              "explicacao": "Logística 4.0 e a integração de sistemas."
+            },
+            {
+              "nome": "Big Data e analytics em logística",
+              "explicacao": "Previsão de demanda e a otimização de rotas."
+            },
+            {
+              "nome": "Blockchain na cadeia de suprimentos",
+              "explicacao": "Rastreabilidade e a transparência nas transações."
+            },
+            {
+              "nome": "Drones e entregas autônomas",
+              "explicacao": "Tecnologia e a regulamentação para entregas."
+            },
+            {
+              "nome": "Inteligência artificial na logística",
+              "explicacao": "Chatbots e a automação de processos logísticos."
+            },
+            {
+              "nome": "Internet das Coisas (IoT) aplicada",
+              "explicacao": "Sensores e o monitoramento em tempo real."
+            },
+            {
+              "nome": "Robótica em armazéns",
+              "explicacao": "AGVs e a automação de picking e packing."
+            },
+            {
+              "nome": "Sustentabilidade e logística verde",
+              "explicacao": "Redução de emissões e a economia circular."
             }
           ]
         }
@@ -16474,6 +17720,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Marketing Analítico e Métricas",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "KPIs de marketing",
+              "explicacao": "ROI e as métricas de aquisição e retenção de clientes."
+            },
+            {
+              "nome": "Funil de vendas e conversão",
+              "explicacao": "Taxas de conversão e a otimização do funil."
+            },
+            {
+              "nome": "Google Analytics 4 (GA4)",
+              "explicacao": "Eventos e a mensuração de jornadas multicanal."
+            },
+            {
+              "nome": "Marketing automation",
+              "explicacao": "Ferramentas e a personalização da jornada do cliente."
+            },
+            {
+              "nome": "Testes A/B e experimentação",
+              "explicacao": "Hipóteses e a significância estatística em campanhas."
+            },
+            {
+              "nome": "Atribuição de canais de marketing",
+              "explicacao": "Modelos de atribuição e o ROI por canal."
+            },
+            {
+              "nome": "Customer lifetime value (LTV)",
+              "explicacao": "Cálculo e a importância do LTV na estratégia."
+            },
+            {
+              "nome": "Dashboard e relatórios de marketing",
+              "explicacao": "Visualização de dados para tomada de decisão."
+            }
+          ]
         }
       ]
     },
@@ -16536,6 +17820,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Composição e Arranjo Musical",
+          "icone": "🎼",
+          "topicos": [
+            {
+              "nome": "Harmonia funcional",
+              "explicacao": "Acordes e as progressões harmônicas na música tonal."
+            },
+            {
+              "nome": "Contraponto",
+              "explicacao": "Bach e as técnicas de condução de vozes."
+            },
+            {
+              "nome": "Orquestração",
+              "explicacao": "Famílias de instrumentos e a escrita para orquestra."
+            },
+            {
+              "nome": "Composição para audiovisual",
+              "explicacao": "Trilha sonora e a sincronização com a imagem."
+            },
+            {
+              "nome": "Música eletrônica e produção",
+              "explicacao": "Sintetizadores e as ferramentas de produção musical."
+            },
+            {
+              "nome": "Improvisação no jazz",
+              "explicacao": "Escalas e a linguagem da improvisação jazzística."
+            },
+            {
+              "nome": "Música popular brasileira (MPB)",
+              "explicacao": "Tom Jobim e a bossa nova como linguagem universal."
+            },
+            {
+              "nome": "Indústria musical e direitos autorais",
+              "explicacao": "Streaming e a remuneração dos artistas."
             }
           ]
         }
@@ -16602,6 +17924,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Química Analítica",
+          "icone": "🧪",
+          "topicos": [
+            {
+              "nome": "Equilíbrio químico em solução",
+              "explicacao": "Constante de equilíbrio e o princípio de Le Chatelier."
+            },
+            {
+              "nome": "Titulações ácido-base",
+              "explicacao": "Indicadores e a escolha do titulante adequado."
+            },
+            {
+              "nome": "Titulações redox e complexométricas",
+              "explicacao": "Permanganometria e a determinação de dureza da água."
+            },
+            {
+              "nome": "Espectrofotometria UV-Vis",
+              "explicacao": "Lei de Beer-Lambert e a análise quantitativa."
+            },
+            {
+              "nome": "Cromatografia",
+              "explicacao": "Cromatografia em camada delgada e a HPLC."
+            },
+            {
+              "nome": "Análise gravimétrica",
+              "explicacao": "Precipitação e a determinação de analitos por massa."
+            },
+            {
+              "nome": "Química analítica ambiental",
+              "explicacao": "Monitoramento de poluentes em água, solo e ar."
+            },
+            {
+              "nome": "Validação de métodos analíticos",
+              "explicacao": "Precisão e a garantia da qualidade em laboratório."
+            }
+          ]
         }
       ]
     },
@@ -16664,6 +18024,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Tomografia Computadorizada",
+          "icone": "🖥️",
+          "topicos": [
+            {
+              "nome": "Princípios físicos da TC",
+              "explicacao": "Escala Hounsfield e a formação da imagem tomográfica."
+            },
+            {
+              "nome": "Protocolos de aquisição",
+              "explicacao": "Parâmetros técnicos e a otimização de dose."
+            },
+            {
+              "nome": "TC de crânio",
+              "explicacao": "AVC e a interpretação de achados neurológicos."
+            },
+            {
+              "nome": "TC de tórax e abdome",
+              "explicacao": "Nódulos pulmonares e as patologias abdominais."
+            },
+            {
+              "nome": "Angiotomografia",
+              "explicacao": "Estudo vascular e as indicações clínicas."
+            },
+            {
+              "nome": "Meios de contraste em TC",
+              "explicacao": "Reações adversas e a prevenção de nefropatia."
+            },
+            {
+              "nome": "Radiação e proteção em TC",
+              "explicacao": "ALARA e a otimização de protocolos pediátricos."
+            },
+            {
+              "nome": "Pós-processamento e reconstruções",
+              "explicacao": "MPR e as reconstruções 3D e volumétricas."
             }
           ]
         }
@@ -16730,6 +18128,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Economia Política Internacional",
+          "icone": "💹",
+          "topicos": [
+            {
+              "nome": "Teorias do comércio internacional",
+              "explicacao": "Vantagens comparativas e o modelo de Heckscher-Ohlin."
+            },
+            {
+              "nome": "Sistema financeiro internacional",
+              "explicacao": "FMI e a arquitetura financeira global."
+            },
+            {
+              "nome": "Desenvolvimento e dependência",
+              "explicacao": "Teoria da dependência e o debate norte-sul."
+            },
+            {
+              "nome": "Globalização e desigualdade",
+              "explicacao": "Cadeias globais de valor e a distribuição de renda."
+            },
+            {
+              "nome": "Bretton Woods e a hegemonia do dólar",
+              "explicacao": "Ascensão e queda do sistema de câmbio fixo."
+            },
+            {
+              "nome": "Regionalismo e integração econômica",
+              "explicacao": "União Europeia e os blocos regionais."
+            },
+            {
+              "nome": "Empresas transnacionais",
+              "explicacao": "IED e o poder corporativo na política global."
+            },
+            {
+              "nome": "Sanções econômicas e coerção",
+              "explicacao": "Embargos e o uso da economia como instrumento político."
+            }
+          ]
         }
       ]
     },
@@ -16792,6 +18228,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Comunicação Organizacional",
+          "icone": "🏢",
+          "topicos": [
+            {
+              "nome": "Comunicação interna",
+              "explicacao": "Endomarketing e o engajamento de colaboradores."
+            },
+            {
+              "nome": "Comunicação com stakeholders",
+              "explicacao": "Mapeamento e a gestão de relacionamento com públicos estratégicos."
+            },
+            {
+              "nome": "Responsabilidade social corporativa",
+              "explicacao": "Sustentabilidade e a comunicação de valor compartilhado."
+            },
+            {
+              "nome": "Comunicação de crise",
+              "explicacao": "Preparação e a resposta rápida em situações de risco."
+            },
+            {
+              "nome": "Identidade e cultura organizacional",
+              "explicacao": "Branding corporativo e a gestão da reputação."
+            },
+            {
+              "nome": "Relações governamentais (lobby)",
+              "explicacao": "Advocacy e a representação de interesses institucionais."
+            },
+            {
+              "nome": "Métricas em comunicação organizacional",
+              "explicacao": "KPIs e a mensuração de resultados em RP."
+            },
+            {
+              "nome": "Transformação digital em RP",
+              "explicacao": "Ferramentas digitais e as novas formas de relacionamento."
             }
           ]
         }
@@ -16858,6 +18332,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Questão Social e Desigualdade",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Expressões da questão social",
+              "explicacao": "Pobreza e as manifestações contemporâneas."
+            },
+            {
+              "nome": "Trabalho e precarização",
+              "explicacao": "Uberização e os novos arranjos produtivos."
+            },
+            {
+              "nome": "Política de assistência social (SUAS)",
+              "explicacao": "Proteção básica e especial no sistema único."
+            },
+            {
+              "nome": "Movimentos sociais e participação",
+              "explicacao": "Conselhos de direitos e o controle social."
+            },
+            {
+              "nome": "Questão urbana e direito à cidade",
+              "explicacao": "Habitação e a luta por moradia digna."
+            },
+            {
+              "nome": "Questão agrária e movimentos do campo",
+              "explicacao": "MST e a reforma agrária no Brasil."
+            },
+            {
+              "nome": "Envelhecimento e proteção social",
+              "explicacao": "Estatuto do Idoso e as políticas de cuidado."
+            },
+            {
+              "nome": "Criança e adolescente",
+              "explicacao": "ECA e o sistema de garantia de direitos."
+            }
+          ]
         }
       ]
     },
@@ -16922,6 +18434,44 @@ const DadosSala = {
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
             }
           ]
+        },
+        {
+          "materia": "Gestão de Destinos Turísticos",
+          "icone": "🗺️",
+          "topicos": [
+            {
+              "nome": "Planejamento turístico",
+              "explicacao": "Inventário e o diagnóstico do potencial turístico."
+            },
+            {
+              "nome": "Marketing de destinos",
+              "explicacao": "Branding territorial e a promoção de lugares."
+            },
+            {
+              "nome": "Turismo sustentável",
+              "explicacao": "Capacidade de carga e a certificação de sustentabilidade."
+            },
+            {
+              "nome": "Turismo cultural e patrimônio",
+              "explicacao": "Patrimônio material e imaterial como atrativo turístico."
+            },
+            {
+              "nome": "Ecoturismo",
+              "explicacao": "Unidades de conservação e o turismo de base comunitária."
+            },
+            {
+              "nome": "Eventos e turismo de negócios",
+              "explicacao": "Feiras e o impacto econômico dos grandes eventos."
+            },
+            {
+              "nome": "Turismo e tecnologia",
+              "explicacao": "Plataformas digitais e a transformação da experiência."
+            },
+            {
+              "nome": "Políticas públicas de turismo",
+              "explicacao": "Ministério do Turismo e o plano nacional."
+            }
+          ]
         }
       ]
     },
@@ -16984,6 +18534,44 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        },
+        {
+          "materia": "Manejo de Pastagens",
+          "icone": "🌿",
+          "topicos": [
+            {
+              "nome": "Fisiologia de plantas forrageiras",
+              "explicacao": "Crescimento e a resposta ao pastejo."
+            },
+            {
+              "nome": "Formação e reforma de pastagens",
+              "explicacao": "Preparo do solo e a escolha de espécies forrageiras."
+            },
+            {
+              "nome": "Manejo do pastejo",
+              "explicacao": "Lotação rotacionada e a eficiência de utilização."
+            },
+            {
+              "nome": "Adubação e fertilidade do solo",
+              "explicacao": "Análise de solo e a recomendação para pastagens."
+            },
+            {
+              "nome": "Conservação de forragens",
+              "explicacao": "Fenação e a ensilagem para suplementação na seca."
+            },
+            {
+              "nome": "Integração lavoura-pecuária-floresta (ILPF)",
+              "explicacao": "Sistemas integrados e a sustentabilidade."
+            },
+            {
+              "nome": "Plantas tóxicas em pastagens",
+              "explicacao": "Identificação e o manejo para evitar intoxicação."
+            },
+            {
+              "nome": "Irrigação de pastagens",
+              "explicacao": "Sistemas e a viabilidade econômica."
             }
           ]
         }
@@ -17088,6 +18676,82 @@ const DadosSala = {
             {
               "nome": "Questões comentadas por nível",
               "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            }
+          ]
+        },
+        {
+          "materia": "Conforto Ambiental",
+          "icone": "🌡️",
+          "topicos": [
+            {
+              "nome": "Conforto térmico",
+              "explicacao": "Transferência de calor e as estratégias passivas de climatização."
+            },
+            {
+              "nome": "Iluminação natural",
+              "explicacao": "Fator de luz diurna e o projeto de aberturas eficientes."
+            },
+            {
+              "nome": "Acústica arquitetônica",
+              "explicacao": "Isolamento e o condicionamento acústico de ambientes."
+            },
+            {
+              "nome": "Ventilação natural",
+              "explicacao": "Efeito chaminé e a ventilação cruzada em edificações."
+            },
+            {
+              "nome": "Eficiência energética em edifícios",
+              "explicacao": "Envoltória e os selos de certificação energética."
+            },
+            {
+              "nome": "Arquitetura bioclimática",
+              "explicacao": "Estratégias para cada zona bioclimática brasileira."
+            },
+            {
+              "nome": "Materiais e sustentabilidade",
+              "explicacao": "Ciclo de vida e a escolha de materiais de baixo impacto."
+            },
+            {
+              "nome": "Simulação computacional de desempenho",
+              "explicacao": "EnergyPlus e a análise de desempenho termoenergético."
+            }
+          ]
+        },
+        {
+          "materia": "Projeto Urbano",
+          "icone": "🏙️",
+          "topicos": [
+            {
+              "nome": "Desenho urbano",
+              "explicacao": "Morfologia e a configuração do espaço público."
+            },
+            {
+              "nome": "Mobilidade urbana sustentável",
+              "explicacao": "Transporte ativo e o planejamento orientado ao pedestre."
+            },
+            {
+              "nome": "Espaços públicos e áreas verdes",
+              "explicacao": "Praças e os benefícios sociais e ambientais."
+            },
+            {
+              "nome": "Habitação de interesse social",
+              "explicacao": "Políticas habitacionais e os conjuntos residenciais."
+            },
+            {
+              "nome": "Plano diretor e zoneamento",
+              "explicacao": "Instrumentos de planejamento e gestão urbana."
+            },
+            {
+              "nome": "Urbanização de favelas",
+              "explicacao": "Regularização fundiária e a urbanização integrada."
+            },
+            {
+              "nome": "Cidades inteligentes",
+              "explicacao": "Tecnologia e a gestão urbana baseada em dados."
+            },
+            {
+              "nome": "Patrimônio urbano e preservação",
+              "explicacao": "Tombamento e a conservação de centros históricos."
             }
           ]
         }
@@ -17858,52 +19522,1564 @@ const DadosSala = {
           "icone": "∫",
           "topicos": [
             {
-              "nome": "Limites e derivadas",
-              "explicacao": "Definição, regras e aplicações."
+              "nome": "Limites e continuidade",
+              "explicacao": "Definição formal de limite, limites laterais e o teorema do confronto."
             },
             {
-              "nome": "Integrais",
-              "explicacao": "Indefinidas, definidas e o teorema fundamental."
+              "nome": "Derivadas",
+              "explicacao": "Definição de derivada, regras e a interpretação geométrica como taxa de variação."
             },
             {
-              "nome": "Mapa mental da matéria",
-              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+              "nome": "Aplicações de derivadas",
+              "explicacao": "Otimização, máximos e mínimos e a regra de LHopital."
+            },
+            {
+              "nome": "Integrais definidas e indefinidas",
+              "explicacao": "Teorema fundamental do cálculo e as técnicas de integração (substituição, por partes)."
+            },
+            {
+              "nome": "Aplicações de integrais",
+              "explicacao": "Cálculo de áreas, volumes de revolução e comprimento de arco."
+            },
+            {
+              "nome": "Funções de várias variáveis",
+              "explicacao": "Derivadas parciais, gradiente e os máximos e mínimos de funções multivariadas."
+            },
+            {
+              "nome": "Integrais múltiplas",
+              "explicacao": "Integrais duplas e triplas e a mudança de coordenadas (polares, cilíndricas)."
+            },
+            {
+              "nome": "Equações diferenciais ordinárias",
+              "explicacao": "EDOs de primeira ordem, lineares e o método de separação de variáveis."
+            },
+            {
+              "nome": "Séries de Taylor e Maclaurin",
+              "explicacao": "Aproximação polinomial de funções analíticas e a estimativa do erro de truncamento."
+            },
+            {
+              "nome": "Cálculo vetorial",
+              "explicacao": "Operadores gradiente, divergente e rotacional e os teoremas de Green, Gauss e Stokes."
+            },
+            {
+              "nome": "Funções implícitas e teorema da função inversa",
+              "explicacao": "Existência e diferenciabilidade de funções definidas implicitamente por equações."
+            },
+            {
+              "nome": "Teorema de Fubini para integrais múltiplas",
+              "explicacao": "Troca da ordem de integração e as condições de aplicabilidade do teorema."
             }
           ]
         },
         {
           "materia": "Álgebra Linear",
-          "icone": "🧮",
+          "icone": "📐",
           "topicos": [
             {
               "nome": "Matrizes e determinantes",
-              "explicacao": "Operações e propriedades."
+              "explicacao": "Operações matriciais, inversa e o cálculo de determinantes."
             },
             {
-              "nome": "Espaços vetoriais e transformações",
-              "explicacao": "Base, dimensão e autovalor."
+              "nome": "Sistemas lineares",
+              "explicacao": "Escalonamento de Gauss-Jordan, posto e a discussão de soluções."
             },
             {
-              "nome": "Simulados focados",
-              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+              "nome": "Espaços vetoriais",
+              "explicacao": "Definição, subespaços e a dependência e independência linear."
+            },
+            {
+              "nome": "Base e dimensão",
+              "explicacao": "Coordenadas em uma base, mudança de base e o teorema do núcleo e da imagem."
+            },
+            {
+              "nome": "Transformações lineares",
+              "explicacao": "Matriz canônica e a composição de transformações lineares."
+            },
+            {
+              "nome": "Autovalores e autovetores",
+              "explicacao": "Polinômio característico, diagonalização e a aplicação em sistemas dinâmicos."
+            },
+            {
+              "nome": "Produto interno e ortogonalidade",
+              "explicacao": "Processo de Gram-Schmidt e a projeção ortogonal."
+            },
+            {
+              "nome": "Formas quadráticas",
+              "explicacao": "Matrizes simétricas e a classificação de cônicas e quádricas."
+            },
+            {
+              "nome": "Decomposição em valores singulares (SVD)",
+              "explicacao": "Fatoração de matrizes retangulares e a compressão de dados e análise de componentes."
+            },
+            {
+              "nome": "Mínimos quadrados e pseudoinversa",
+              "explicacao": "Solução de sistemas inconsistentes por projeção ortogonal e a pseudoinversa de Moore-Penrose."
+            },
+            {
+              "nome": "Aplicações da diagonalização em sistemas dinâmicos",
+              "explicacao": "Autovalores e autovetores na análise de sistemas lineares de EDOs e equações de diferenças."
+            },
+            {
+              "nome": "Método dos gradientes conjugados",
+              "explicacao": "Algoritmo iterativo para sistemas lineares simétricos positivos definidos de grande porte."
             }
           ]
         },
         {
           "materia": "Análise e Geometria",
+          "icone": "📈",
+          "topicos": [
+            {
+              "nome": "Sequências e séries numéricas",
+              "explicacao": "Convergência, testes de comparação e as séries de Taylor e Maclaurin."
+            },
+            {
+              "nome": "Topologia básica de R e Rn",
+              "explicacao": "Conjuntos abertos, fechados, compactos e o teorema de Heine-Borel."
+            },
+            {
+              "nome": "Continuidade e diferenciabilidade",
+              "explicacao": "Teorema de Bolzano-Weierstrass e a diferenciabilidade de funções reais."
+            },
+            {
+              "nome": "Geometria analítica no plano e no espaço",
+              "explicacao": "Retas, planos e as posições relativas entre eles."
+            },
+            {
+              "nome": "Cônicas e quádricas",
+              "explicacao": "Classificação e a representação paramétrica e canônica."
+            },
+            {
+              "nome": "Geometria diferencial de curvas",
+              "explicacao": "Curvatura, torção e o triedro de Frenet-Serret."
+            },
+            {
+              "nome": "Geometria diferencial de superfícies",
+              "explicacao": "Primeira e segunda forma fundamental e a curvatura gaussiana."
+            },
+            {
+              "nome": "Análise real",
+              "explicacao": "Integral de Riemann, sequências de funções e a convergência uniforme."
+            },
+            {
+              "nome": "Séries de Fourier em convergência pontual",
+              "explicacao": "Condições de Dirichlet para convergência pontual das séries de Fourier."
+            },
+            {
+              "nome": "Teorema espectral para operadores compactos autoadjuntos",
+              "explicacao": "Decomposição espectral e as aplicações em equações diferenciais."
+            },
+            {
+              "nome": "Isometrias e o teorema de classificação",
+              "explicacao": "Classificação das isometrias do plano e do espaço euclidiano."
+            },
+            {
+              "nome": "Curvatura seccional e teorema de comparação de Rauch",
+              "explicacao": "Relação entre curvatura e o comportamento de geodésicas."
+            }
+          ]
+        },
+        {
+          "materia": "Geometria",
+          "icone": "📐",
+          "topicos": [
+            {
+              "nome": "Geometria plana",
+              "explicacao": "Áreas e os teoremas de Tales e Pitágoras."
+            },
+            {
+              "nome": "Geometria espacial",
+              "explicacao": "Volumes e as relações métricas nos sólidos."
+            },
+            {
+              "nome": "Geometria analítica",
+              "explicacao": "Coordenadas e as equações da reta e da circunferência."
+            },
+            {
+              "nome": "Trigonometria",
+              "explicacao": "Funções seno e as relações no triângulo retângulo."
+            },
+            {
+              "nome": "Transformações geométricas",
+              "explicacao": "Rotação e as isometrias no plano e no espaço."
+            },
+            {
+              "nome": "Geometria não euclidiana",
+              "explicacao": "Lobachevsky e as geometrias hiperbólica e elíptica."
+            },
+            {
+              "nome": "Geometria fractal",
+              "explicacao": "Mandelbrot e a dimensão fractal."
+            },
+            {
+              "nome": "Construções com régua e compasso",
+              "explicacao": "Problemas clássicos e a impossibilidade de algumas construções."
+            },
+            {
+              "nome": "Geometria projetiva",
+              "explicacao": "Plano projetivo e as propriedades invariantes sob projeção."
+            },
+            {
+              "nome": "Geometria hiperbólica",
+              "explicacao": "Modelo do disco de Poincaré e as propriedades das geodésicas hiperbólicas."
+            },
+            {
+              "nome": "Geometria esférica",
+              "explicacao": "Geodésicas na esfera e a soma dos ângulos do triângulo esférico."
+            },
+            {
+              "nome": "Pavimentações e grupos cristalográficos",
+              "explicacao": "Classificação das pavimentações do plano por polígonos regulares."
+            }
+          ]
+        },
+        {
+          "materia": "Teoria dos Números",
+          "icone": "🔢",
+          "topicos": [
+            {
+              "nome": "Divisibilidade e MDC",
+              "explicacao": "Algoritmo de Euclides e a identidade de Bezout."
+            },
+            {
+              "nome": "Números primos",
+              "explicacao": "Teorema fundamental da aritmética e o crivo de Eratostenes."
+            },
+            {
+              "nome": "Congruências",
+              "explicacao": "Aritmética modular e os teoremas de Fermat e Euler."
+            },
+            {
+              "nome": "Equações diofantinas lineares",
+              "explicacao": "Condições de solubilidade e a solução geral."
+            },
+            {
+              "nome": "Funções aritméticas",
+              "explicacao": "Totiente de Euler e as funções multiplicativas."
+            },
+            {
+              "nome": "Resíduos quadráticos",
+              "explicacao": "Símbolo de Legendre e a lei da reciprocidade quadrática."
+            },
+            {
+              "nome": "Frações contínuas",
+              "explicacao": "Representação e a aproximação de números reais por racionais."
+            },
+            {
+              "nome": "Criptografia RSA",
+              "explicacao": "Aplicação da teoria dos números na criptografia de chave pública."
+            },
+            {
+              "nome": "Testes de primalidade",
+              "explicacao": "Miller-Rabin e o AKS e a verificação computacional de primalidade."
+            },
+            {
+              "nome": "Curvas elípticas e criptografia ECC",
+              "explicacao": "Aplicações na criptografia moderna baseada em curvas elípticas."
+            },
+            {
+              "nome": "Função zeta de Riemann",
+              "explicacao": "Produto de Euler e a conexão entre a função zeta e a distribuição de números primos."
+            },
+            {
+              "nome": "Partições e o teorema de Hardy-Ramanujan",
+              "explicacao": "Fórmula assintótica para o número de partições de um inteiro."
+            }
+          ]
+        },
+        {
+          "materia": "Álgebra Abstrata",
+          "icone": "☕",
+          "topicos": [
+            {
+              "nome": "Grupos",
+              "explicacao": "Definição, subgrupos e o teorema de Lagrange."
+            },
+            {
+              "nome": "Homomorfismos de grupos",
+              "explicacao": "Núcleo e imagem e o teorema do isomorfismo."
+            },
+            {
+              "nome": "Anéis e ideais",
+              "explicacao": "Domínios de integridade e os anéis de polinômios."
+            },
+            {
+              "nome": "Extensões de corpos",
+              "explicacao": "Corpos finitos e a teoria de Galois introdutória."
+            },
+            {
+              "nome": "Anéis quocientes",
+              "explicacao": "Ideais maximais e primos e a construção de corpos finitos."
+            },
+            {
+              "nome": "Grupos de permutações (Sn)",
+              "explicacao": "Ciclos e o teorema de Cayley."
+            },
+            {
+              "nome": "Teoremas de Sylow",
+              "explicacao": "Classificação de grupos finitos de ordem pequena."
+            },
+            {
+              "nome": "Códigos corretores de erro",
+              "explicacao": "Teoria algébrica da codificação e aplicações em comunicação."
+            },
+            {
+              "nome": "Módulos sobre anéis",
+              "explicacao": "Generalização de espaços vetoriais sobre anéis e o teorema da estrutura."
+            },
+            {
+              "nome": "Teoria de Galois",
+              "explicacao": "Resolubilidade por radicais e a correspondência entre subgrupos e extensões."
+            },
+            {
+              "nome": "Teorema de Wedderburn-Artin",
+              "explicacao": "Classificação de anéis semissimples e a estrutura de álgebras de matrizes."
+            },
+            {
+              "nome": "Teoria de representações de grupos finitos",
+              "explicacao": "Caracteres e a decomposição de representações em irredutíveis."
+            }
+          ]
+        },
+        {
+          "materia": "Probabilidade e Estatística",
+          "icone": "🎲",
+          "topicos": [
+            {
+              "nome": "Probabilidade axiomática",
+              "explicacao": "Espaço amostral e os axiomas de Kolmogorov."
+            },
+            {
+              "nome": "Variáveis aleatórias discretas",
+              "explicacao": "Bernoulli, binomial e Poisson e as funções de probabilidade."
+            },
+            {
+              "nome": "Variáveis aleatórias contínuas",
+              "explicacao": "Uniforme, normal e exponencial e as funções de densidade."
+            },
+            {
+              "nome": "Esperança e variância",
+              "explicacao": "Momentos e a desigualdade de Chebyshev."
+            },
+            {
+              "nome": "Teorema central do limite",
+              "explicacao": "Convergência em distribuição e a aproximação normal."
+            },
+            {
+              "nome": "Inferência estatística",
+              "explicacao": "Estimadores pontuais e os intervalos de confiança."
+            },
+            {
+              "nome": "Testes de hipóteses",
+              "explicacao": "Erro tipo I e II e os testes t, qui-quadrado e F."
+            },
+            {
+              "nome": "Regressão linear e correlação",
+              "explicacao": "Mínimos quadrados e o coeficiente de Pearson."
+            },
+            {
+              "nome": "Lei dos grandes números",
+              "explicacao": "Lei fraca e forte dos grandes números e a convergência da média amostral."
+            },
+            {
+              "nome": "Estimadores de máxima verossimilhança",
+              "explicacao": "Função de verossimilhança e as propriedades assintóticas dos EMV."
+            },
+            {
+              "nome": "Distribuições conjuntas e independência",
+              "explicacao": "Função de distribuição conjunta e a caracterização de independência de variáveis."
+            },
+            {
+              "nome": "Método bootstrap",
+              "explicacao": "Reamostragem e a estimativa de intervalo de confiança sem suposições paramétricas."
+            }
+          ]
+        },
+        {
+          "materia": "Topologia",
+          "icone": "🏠",
+          "topicos": [
+            {
+              "nome": "Espaços topológicos",
+              "explicacao": "Definição, base e a topologia usual da reta real e do Rn."
+            },
+            {
+              "nome": "Funções contínuas",
+              "explicacao": "Definição topológica e a equivalência com a definição em espaços métricos."
+            },
+            {
+              "nome": "Conexidade",
+              "explicacao": "Espaços conexos e as componentes conexas e conexidade por caminhos."
+            },
+            {
+              "nome": "Compacidade",
+              "explicacao": "Definição por coberturas e o teorema de Heine-Borel generalizado."
+            },
+            {
+              "nome": "Espaços métricos",
+              "explicacao": "Distância e as topologias induzidas por métricas em Rn."
+            },
+            {
+              "nome": "Axiomas de separação",
+              "explicacao": "De T0 a T4 e o conceito de espaço de Hausdorff."
+            },
+            {
+              "nome": "Espaços quocientes",
+              "explicacao": "Topologia quociente e os exemplos clássicos (faixa de Mobius, toro, garrafa de Klein)."
+            },
+            {
+              "nome": "Homotopia e grupo fundamental",
+              "explicacao": "Introdução aos invariantes topológicos por deformação contínua."
+            },
+            {
+              "nome": "Topologia produto e Tychonoff",
+              "explicacao": "Topologia em produtos cartesianos e o teorema de Tychonoff para compacidade."
+            },
+            {
+              "nome": "Classificação de superfícies compactas",
+              "explicacao": "Soma conexa e a classificação por gênero e orientabilidade."
+            },
+            {
+              "nome": "Topologia de espaços de funções",
+              "explicacao": "Topologia compacta-aberta e a convergência uniforme em compactos."
+            },
+            {
+              "nome": "Espaços de Baire e o teorema da categoria",
+              "explicacao": "Aplicações em análise funcional e a demonstração do princípio da limitação uniforme."
+            }
+          ]
+        },
+        {
+          "materia": "Lógica Matemática e Fundamentos",
+          "icone": "🧮",
+          "topicos": [
+            {
+              "nome": "Lógica proposicional",
+              "explicacao": "Conectivos, tabelas-verdade e o cálculo proposicional com dedução."
+            },
+            {
+              "nome": "Lógica de predicados",
+              "explicacao": "Quantificadores (universal e existencial) e as estruturas de primeira ordem."
+            },
+            {
+              "nome": "Sistemas formais e dedução natural",
+              "explicacao": "Regras de introdução e eliminação e o teorema da completude de Godel."
+            },
+            {
+              "nome": "Teoria axiomática de conjuntos (ZFC)",
+              "explicacao": "Axiomas de Zermelo-Fraenkel com escolha e a construção dos números naturais."
+            },
+            {
+              "nome": "Ordinários e cardinais",
+              "explicacao": "Indução transfinita e a aritmética de cardinais infinitos."
+            },
+            {
+              "nome": "Hipótese do contínuo",
+              "explicacao": "Cantor e a independência da hipótese do contínuo dos axiomas ZFC."
+            },
+            {
+              "nome": "Teoremas de incompletude de Godel",
+              "explicacao": "Limitações dos sistemas formais consistentes que contêm a aritmética."
+            },
+            {
+              "nome": "Computabilidade e decidibilidade",
+              "explicacao": "Máquina de Turing, tese de Church-Turing e o problema da parada."
+            },
+            {
+              "nome": "Teoria de modelos (introdução)",
+              "explicacao": "Modelos, estruturas e o teorema de Löwenheim-Skolem."
+            },
+            {
+              "nome": "Independência da hipótese do contínuo (Cohen)",
+              "explicacao": "Forcing e a demonstração da independência do Axioma da Escolha e HC."
+            },
+            {
+              "nome": "Cálculo lambda e computabilidade",
+              "explicacao": "Church e a equivalência entre funções recursivas e computáveis."
+            },
+            {
+              "nome": "Teoremas de ponto fixo em lógica",
+              "explicacao": "Auto-referência e a construção de sentenças indecidíveis."
+            }
+          ]
+        },
+        {
+          "materia": "Otimização e Pesquisa Operacional",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Programação linear",
+              "explicacao": "Método gráfico, simplex e a dualidade em programação linear."
+            },
+            {
+              "nome": "Otimização não linear",
+              "explicacao": "Condições KKT (Karush-Kuhn-Tucker) e os métodos de gradiente e Newton."
+            },
+            {
+              "nome": "Multiplicadores de Lagrange",
+              "explicacao": "Otimização com restrições de igualdade e a análise de sensibilidade."
+            },
+            {
+              "nome": "Fluxos em redes",
+              "explicacao": "Algoritmo de Ford-Fulkerson e o problema de transporte."
+            },
+            {
+              "nome": "Programação inteira",
+              "explicacao": "Branch-and-bound, planos de corte e os problemas NP-difíceis."
+            },
+            {
+              "nome": "Otimização convexa",
+              "explicacao": "Conjuntos e funções convexas e o método de pontos interiores."
+            },
+            {
+              "nome": "Teoria das filas",
+              "explicacao": "Modelos M/M/1 e M/M/s e os indicadores de desempenho."
+            },
+            {
+              "nome": "Aplicações da otimização",
+              "explicacao": "Roteirização, alocação de recursos e o problema da mochila."
+            },
+            {
+              "nome": "Meta-heurísticas (algoritmos genéticos)",
+              "explicacao": "Algoritmos inspirados na evolução para problemas de otimização combinatória."
+            },
+            {
+              "nome": "Simulated Annealing",
+              "explicacao": "Têmpera simulada e a fuga de ótimos locais em problemas complexos."
+            },
+            {
+              "nome": "Programação dinâmica determinística",
+              "explicacao": "Princípio de otimalidade de Bellman e o problema do caminho mais curto."
+            },
+            {
+              "nome": "Teoria da dualidade em otimização",
+              "explicacao": "Dual de Lagrange e as condições de ponto de sela."
+            }
+          ]
+        },
+        {
+          "materia": "Variáveis Complexas",
+          "icone": "📐",
+          "topicos": [
+            {
+              "nome": "Números complexos e o plano de Argand-Gauss",
+              "explicacao": "Forma algébrica, trigonométrica e exponencial e as operações fundamentais."
+            },
+            {
+              "nome": "Funções complexas elementares",
+              "explicacao": "Exponencial complexa, logaritmo e as funções trigonométricas e hiperbólicas complexas."
+            },
+            {
+              "nome": "Derivação complexa e condições de Cauchy-Riemann",
+              "explicacao": "Analiticidade e as equações de Cauchy-Riemann em coordenadas cartesianas e polares."
+            },
+            {
+              "nome": "Integração complexa",
+              "explicacao": "Integral de linha no plano complexo e o teorema de Cauchy-Goursat."
+            },
+            {
+              "nome": "Fórmula integral de Cauchy e consequências",
+              "explicacao": "Derivadas de funções analíticas e o teorema de Liouville."
+            },
+            {
+              "nome": "Séries de Laurent e singularidades",
+              "explicacao": "Classificação de singularidades e a expansão em série de Laurent."
+            },
+            {
+              "nome": "Teorema dos resíduos",
+              "explicacao": "Cálculo de integrais reais impróprias via resíduos."
+            },
+            {
+              "nome": "Aplicações em física e engenharia",
+              "explicacao": "Transformada de Laplace inversa por resíduos e a equação de Laplace."
+            },
+            {
+              "nome": "Mapeamento conforme",
+              "explicacao": "Transformações que preservam ângulos e as aplicações em fluidodinâmica."
+            },
+            {
+              "nome": "Transformada de Schwarz-Christoffel",
+              "explicacao": "Mapeamento do semiplano superior em regiões poligonais."
+            },
+            {
+              "nome": "Funções harmônicas e o problema de Dirichlet",
+              "explicacao": "Solução do problema de Dirichlet via função de Green no disco unitário."
+            },
+            {
+              "nome": "Continuação analítica e superfícies de Riemann",
+              "explicacao": "Extensão de funções além do domínio original via superfícies de Riemann."
+            }
+          ]
+        },
+        {
+          "materia": "Matemática Discreta",
+          "icone": "🔢",
+          "topicos": [
+            {
+              "nome": "Indução matemática e recursão",
+              "explicacao": "Princípio da indução finita, indução forte e as definições recursivas de sequências."
+            },
+            {
+              "nome": "Relações e funções",
+              "explicacao": "Propriedades de relações e o fecho transitivo."
+            },
+            {
+              "nome": "Teoria dos grafos",
+              "explicacao": "Grafos eulerianos e hamiltonianos e a condição necessária e suficiente de Euler."
+            },
+            {
+              "nome": "Árvores e árvores geradoras",
+              "explicacao": "Propriedades das árvores e os algoritmos de Prim e Kruskal para árvore geradora mínima."
+            },
+            {
+              "nome": "Contagem e combinatória avançada",
+              "explicacao": "Princípio da inclusão-exclusão e as funções geradoras ordinárias e exponenciais."
+            },
+            {
+              "nome": "Recorrências lineares",
+              "explicacao": "Método característico e a resolução da sequência de Fibonacci."
+            },
+            {
+              "nome": "Grafos planares e coloração",
+              "explicacao": "Fórmula de Euler e o teorema das 4 cores."
+            },
+            {
+              "nome": "Lógica e demonstrações em matemática discreta",
+              "explicacao": "Técnicas de demonstração e as aplicações em ciência da computação."
+            },
+            {
+              "nome": "Teorema de Ramsey",
+              "explicacao": "Existência de subestruturas monocromáticas em colorações de grafos."
+            },
+            {
+              "nome": "Polinômio cromático",
+              "explicacao": "Enumeração de colorações próprias de um grafo com k cores."
+            },
+            {
+              "nome": "Códigos lineares e matrizes geradoras",
+              "explicacao": "Códigos de Hamming e a detecção e correção de erros em comunicação."
+            },
+            {
+              "nome": "Hipergrafos e teoria de Ramsey",
+              "explicacao": "Generalização de grafos e os teoremas de existência de subestruturas."
+            }
+          ]
+        },
+        {
+          "materia": "Métodos Numéricos",
+          "icone": "💻",
+          "topicos": [
+            {
+              "nome": "Erros e representação de números",
+              "explicacao": "Erro absoluto e relativo e a representação em ponto flutuante (IEEE 754)."
+            },
+            {
+              "nome": "Solução numérica de equações não lineares",
+              "explicacao": "Bisseção e os métodos de Newton-Raphson e da secante."
+            },
+            {
+              "nome": "Interpolação polinomial",
+              "explicacao": "Método de Lagrange e de Newton e o fenômeno de Runge."
+            },
+            {
+              "nome": "Integração numérica",
+              "explicacao": "Regra do trapézio e de Simpson e a quadratura Gaussiana."
+            },
+            {
+              "nome": "Resolução numérica de sistemas lineares",
+              "explicacao": "Métodos de Jacobi e Gauss-Seidel e a fatoração LU."
+            },
+            {
+              "nome": "Solução numérica de EDOs",
+              "explicacao": "Métodos de Euler e de Runge-Kutta de ordem 4."
+            },
+            {
+              "nome": "Aproximação por mínimos quadrados",
+              "explicacao": "Ajuste de curvas e a decomposição QR."
+            },
+            {
+              "nome": "Métodos numéricos para autovalores",
+              "explicacao": "Método da potência e o algoritmo QR para cálculo de autovalores."
+            },
+            {
+              "nome": "Métodos iterativos para sistemas não lineares",
+              "explicacao": "Broyden e os métodos quasi-Newton para sistemas não lineares."
+            },
+            {
+              "nome": "Método dos elementos finitos (MEF)",
+              "explicacao": "Formulação variacional e a discretização de Galerkin para EDPs."
+            },
+            {
+              "nome": "Estabilidade numérica e condicionamento",
+              "explicacao": "Número de condição e a propagação de erros em algoritmos numéricos."
+            },
+            {
+              "nome": "Métodos espectrais para EDPs",
+              "explicacao": "Colocação e os métodos de Fourier e Chebyshev para equações diferenciais parciais."
+            }
+          ]
+        },
+        {
+          "materia": "Equações Diferenciais Parciais",
+          "icone": "〰️",
+          "topicos": [
+            {
+              "nome": "Classificação de EDPs",
+              "explicacao": "Elípticas, parabólicas e hiperbólicas e os exemplos clássicos."
+            },
+            {
+              "nome": "Equação do calor (difusão)",
+              "explicacao": "Solução por separação de variáveis e a série de Fourier."
+            },
+            {
+              "nome": "Equação da onda",
+              "explicacao": "Solução de dAlembert para a corda vibrante e a separação de variáveis."
+            },
+            {
+              "nome": "Equação de Laplace e Poisson",
+              "explicacao": "Solução em coordenadas cartesianas e polares para problemas de potencial."
+            },
+            {
+              "nome": "Método de Fourier (separação de variáveis)",
+              "explicacao": "Condições de contorno de Dirichlet e Neumann."
+            },
+            {
+              "nome": "Transformada de Fourier aplicada a EDPs",
+              "explicacao": "Solução da equação do calor na reta infinita."
+            },
+            {
+              "nome": "Funções de Green",
+              "explicacao": "Solução fundamental e a representação integral de soluções."
+            },
+            {
+              "nome": "Aplicações físicas",
+              "explicacao": "Calor, ondas e os potenciais elétrico e gravitacional modelados por EDPs."
+            },
+            {
+              "nome": "Método das características",
+              "explicacao": "Solução de EDPs hiperbólicas de primeira ordem."
+            },
+            {
+              "nome": "Transformada de Laplace em EDPs",
+              "explicacao": "Solução de EDPs com condições iniciais via transformada de Laplace."
+            },
+            {
+              "nome": "Problemas bem postos (Hadamard)",
+              "explicacao": "Existência, unicidade e estabilidade de soluções de EDPs."
+            },
+            {
+              "nome": "Métodos variacionais para EDPs",
+              "explicacao": "Formulação fraca e o princípio de Dirichlet para problemas elípticos."
+            }
+          ]
+        },
+        {
+          "materia": "Geometria Diferencial Avançada",
+          "icone": "🏐",
+          "topicos": [
+            {
+              "nome": "Curvas parametrizadas no espaço",
+              "explicacao": "Reparametrização por comprimento de arco e o triedro de Frenet-Serret."
+            },
+            {
+              "nome": "Superfícies parametrizadas e cartas",
+              "explicacao": "Definição de superfície regular e as mudanças de coordenadas."
+            },
+            {
+              "nome": "Primeira forma fundamental",
+              "explicacao": "Métrica induzida e o cálculo de comprimentos, ângulos e áreas na superfície."
+            },
+            {
+              "nome": "Segunda forma fundamental",
+              "explicacao": "Aplicação de Gauss e a curvatura normal em cada direção."
+            },
+            {
+              "nome": "Curvaturas principais e gaussiana",
+              "explicacao": "Teorema Egregium de Gauss e a classificação de pontos da superfície."
+            },
+            {
+              "nome": "Geodésicas",
+              "explicacao": "Curvas que minimizam distância localmente e a equação diferencial das geodésicas."
+            },
+            {
+              "nome": "Teorema de Gauss-Bonnet",
+              "explicacao": "Relação entre curvatura gaussiana total e a característica de Euler."
+            },
+            {
+              "nome": "Variedades diferenciáveis",
+              "explicacao": "Introdução ao conceito de variedade e os espaços tangentes."
+            },
+            {
+              "nome": "Geodésicas e completude",
+              "explicacao": "Teorema de Hopf-Rinow e a relação entre completude geodésica e métrica."
+            },
+            {
+              "nome": "Curvatura de Ricci e curvatura escalar",
+              "explicacao": "Contrações do tensor de Riemann e as equações de Einstein."
+            },
+            {
+              "nome": "Fibrados tangente e cotangente",
+              "explicacao": "Estrutura de fibrado e as formas diferenciais em variedades."
+            },
+            {
+              "nome": "Derivada covariante e conexão de Levi-Civita",
+              "explicacao": "Transporte paralelo e a unicidade da conexão métrica sem torção."
+            }
+          ]
+        },
+        {
+          "materia": "Modelagem Matemática",
+          "icone": "📈",
+          "topicos": [
+            {
+              "nome": "Fundamentos de modelagem",
+              "explicacao": "Ciclo de modelagem e as diferenças entre modelos determinísticos e estocásticos."
+            },
+            {
+              "nome": "Modelos populacionais contínuos",
+              "explicacao": "Crescimento exponencial e logístico e o modelo presa-predador de Lotka-Volterra."
+            },
+            {
+              "nome": "Modelos discretos e equações de diferenças",
+              "explicacao": "Crescimento populacional discreto e o mapa logístico e o caos determinístico."
+            },
+            {
+              "nome": "Modelos de propagação de doenças (SIR)",
+              "explicacao": "Compartimentos S-I-R e o número de reprodução básico R0."
+            },
+            {
+              "nome": "Modelos econômicos elementares",
+              "explicacao": "Oferta e demanda e o modelo de equilíbrio de mercado."
+            },
+            {
+              "nome": "Análise dimensional e adimensionalização",
+              "explicacao": "Teorema de Buckingham e a redução do número de parâmetros."
+            },
+            {
+              "nome": "Validação e calibração de modelos",
+              "explicacao": "Comparação com dados experimentais e a estimação de parâmetros."
+            },
+            {
+              "nome": "Modelagem com equações diferenciais",
+              "explicacao": "Formulação e a simulação computacional de modelos matemáticos."
+            },
+            {
+              "nome": "Modelos de reação-difusão",
+              "explicacao": "Padrões de Turing e as equações de reação-difusão em biologia e química."
+            },
+            {
+              "nome": "Modelos de tráfego veicular",
+              "explicacao": "Equações hiperbólicas de conservação e o modelo LWR de tráfego."
+            },
+            {
+              "nome": "Modelos estocásticos em biologia",
+              "explicacao": "Processos de ramificação e a modelagem de crescimento de populações."
+            },
+            {
+              "nome": "Modelos de difusão-advecção-reação",
+              "explicacao": "Equação de Fisher-KPP e a propagação de ondas em meios reagentes."
+            }
+          ]
+        },
+        {
+          "materia": "Métodos Estatísticos Avançados",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Análise de variância (ANOVA)",
+              "explicacao": "ANOVA de um fator e dois fatores e os testes de comparações múltiplas."
+            },
+            {
+              "nome": "Modelos lineares generalizados (GLM)",
+              "explicacao": "Regressão logística e de Poisson e a função de ligação canônica."
+            },
+            {
+              "nome": "Séries temporais",
+              "explicacao": "Decomposição e os modelos ARIMA e SARIMA para previsão."
+            },
+            {
+              "nome": "Análise multivariada",
+              "explicacao": "Componentes principais (PCA) e a análise discriminante linear."
+            },
+            {
+              "nome": "Estatística bayesiana",
+              "explicacao": "Teorema de Bayes e as distribuições a priori e posteriori."
+            },
+            {
+              "nome": "Amostragem e planejamento de experimentos",
+              "explicacao": "Amostragem estratificada e os delineamentos fatoriais."
+            },
+            {
+              "nome": "Métodos não paramétricos",
+              "explicacao": "Testes de Wilcoxon e Kruskal-Wallis."
+            },
+            {
+              "nome": "Machine learning estatístico",
+              "explicacao": "Árvores de decisão e os métodos de ensemble (bagging, boosting)."
+            },
+            {
+              "nome": "Análise de sobrevivência",
+              "explicacao": "Estimador de Kaplan-Meier e o modelo de riscos proporcionais de Cox."
+            },
+            {
+              "nome": "Clustering e segmentação",
+              "explicacao": "K-means e o clustering hierárquico aglomerativo e divisivo."
+            },
+            {
+              "nome": "Inferência causal e contrafactuais",
+              "explicacao": "Modelo de Rubin e o propensity score matching."
+            },
+            {
+              "nome": "Modelos de efeitos mistos",
+              "explicacao": "Efeitos fixos e aleatórios para dados hierárquicos e longitudinais."
+            }
+          ]
+        },
+        {
+          "materia": "Análise Funcional",
+          "icone": "∞",
+          "topicos": [
+            {
+              "nome": "Espaços normados e de Banach",
+              "explicacao": "Completude e os exemplos clássicos de espaços lp, Lp e C[a,b]."
+            },
+            {
+              "nome": "Espaços de Hilbert",
+              "explicacao": "Produto interno, ortogonalidade, projeção e o teorema da representação de Riesz."
+            },
+            {
+              "nome": "Operadores lineares limitados",
+              "explicacao": "Norma de operador e o teorema da aplicação aberta e do gráfico fechado."
+            },
+            {
+              "nome": "Funcionais lineares e dualidade",
+              "explicacao": "Teorema de Hahn-Banach e o conceito de espaço dual."
+            },
+            {
+              "nome": "Teorema espectral",
+              "explicacao": "Operadores compactos autoadjuntos e a decomposição espectral."
+            },
+            {
+              "nome": "Séries de Fourier em L2",
+              "explicacao": "Base ortonormal e a convergência em média quadrática."
+            },
+            {
+              "nome": "Teorema do ponto fixo de Banach",
+              "explicacao": "Contrações e as aplicações em EDOs e métodos iterativos."
+            },
+            {
+              "nome": "Aplicações da análise funcional",
+              "explicacao": "Mecânica quântica e as equações integrais de Fredholm."
+            },
+            {
+              "nome": "Álgebras de Banach",
+              "explicacao": "Cálculo funcional e o espectro de elementos em álgebras de Banach."
+            },
+            {
+              "nome": "Teorema espectral para operadores não limitados",
+              "explicacao": "Operadores autoadjuntos não limitados e a aplicação em mecânica quântica."
+            },
+            {
+              "nome": "Topologia fraca e fraca-estrela",
+              "explicacao": "Convergência fraca e o teorema de Banach-Alaoglu."
+            },
+            {
+              "nome": "Operadores integrais e equações de Fredholm",
+              "explicacao": "Alternativa de Fredholm e a solução de equações integrais."
+            }
+          ]
+        },
+        {
+          "materia": "Teoria da Medida e Integração",
           "icone": "📏",
           "topicos": [
             {
-              "nome": "Sequências e séries",
-              "explicacao": "Convergência e séries de Taylor."
+              "nome": "Sigma-álgebras e medidas",
+              "explicacao": "Espaços mensuráveis e as propriedades elementares de medidas."
             },
             {
-              "nome": "Geometria analítica e diferencial",
-              "explicacao": "Curvas, superfícies e parametrização."
+              "nome": "Medida de Lebesgue em R",
+              "explicacao": "Construção da medida de Lebesgue e os conjuntos mensuráveis."
             },
             {
-              "nome": "Gabaritos comentados",
-              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+              "nome": "Funções mensuráveis",
+              "explicacao": "Definição e as propriedades de preservação sob operações."
+            },
+            {
+              "nome": "Integral de Lebesgue",
+              "explicacao": "Comparação com Riemann e os teoremas de convergência (monótona e dominada)."
+            },
+            {
+              "nome": "Espaços Lp",
+              "explicacao": "Desigualdades de Hölder e Minkowski e a completude dos espaços Lp."
+            },
+            {
+              "nome": "Teorema de Fubini e Tonelli",
+              "explicacao": "Integração iterada e a troca da ordem de integração."
+            },
+            {
+              "nome": "Teorema de Radon-Nikodym",
+              "explicacao": "Derivada de Radon-Nikodym e a decomposição de medidas."
+            },
+            {
+              "nome": "Aplicações em probabilidade",
+              "explicacao": "Medida de probabilidade e o valor esperado como integral de Lebesgue."
+            },
+            {
+              "nome": "Teorema de Lusin",
+              "explicacao": "Aproximação de funções mensuráveis por funções contínuas em compactos."
+            },
+            {
+              "nome": "Teorema de diferenciação de Lebesgue",
+              "explicacao": "Derivabilidade quase sempre da integral indefinida de Lebesgue."
+            },
+            {
+              "nome": "Teorema de convergência de Vitali",
+              "explicacao": "Generalização do teorema da convergência dominada."
+            },
+            {
+              "nome": "Medidas de Hausdorff e dimensão fractal",
+              "explicacao": "Dimensão de Hausdorff e a geometria fractal."
+            }
+          ]
+        },
+        {
+          "materia": "Processos Estocásticos",
+          "icone": "🎲",
+          "topicos": [
+            {
+              "nome": "Cadeias de Markov",
+              "explicacao": "Matriz de transição e as distribuições estacionárias."
+            },
+            {
+              "nome": "Classificação de estados",
+              "explicacao": "Recorrência, transitoriedade e a comunicação entre estados."
+            },
+            {
+              "nome": "Processo de Poisson",
+              "explicacao": "Definição e as propriedades de independência e incrementos estacionários."
+            },
+            {
+              "nome": "Movimento browniano",
+              "explicacao": "Definição, propriedades e a conexão com o cálculo estocástico."
+            },
+            {
+              "nome": "Passeios aleatórios",
+              "explicacao": "Convergência e o problema da ruína do jogador."
+            },
+            {
+              "nome": "Processos de nascimento e morte",
+              "explicacao": "Taxas de transição e as aplicações em filas e biologia."
+            },
+            {
+              "nome": "Martingales",
+              "explicacao": "Definição e os teoremas de convergência de martingales."
+            },
+            {
+              "nome": "Cálculo estocástico (Itô)",
+              "explicacao": "Lema de Itô e a equação diferencial estocástica de Black-Scholes."
+            },
+            {
+              "nome": "Cadeias de Markov em tempo contínuo",
+              "explicacao": "Gerador infinitesimal e a matriz de taxas de transição Q."
+            },
+            {
+              "nome": "Processos de renovação",
+              "explicacao": "Teorema de renovação e as aplicações em confiabilidade e substituição."
+            },
+            {
+              "nome": "Equações diferenciais estocásticas (EDEs)",
+              "explicacao": "Solução forte e fraca de EDEs dirigidas por movimento browniano."
+            },
+            {
+              "nome": "Filtro de Kalman",
+              "explicacao": "Estimação recursiva em sistemas dinâmicos com ruído gaussiano."
+            }
+          ]
+        },
+        {
+          "materia": "Análise Real Avançada",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Sequências e séries de funções",
+              "explicacao": "Convergência pontual e uniforme e o critério M de Weierstrass."
+            },
+            {
+              "nome": "Continuidade uniforme",
+              "explicacao": "Teorema de Heine-Cantor e a continuidade em compactos."
+            },
+            {
+              "nome": "Diferenciabilidade de funções reais",
+              "explicacao": "Teorema do valor médio e a regra de L Hopital."
+            },
+            {
+              "nome": "Integral de Riemann-Stieltjes",
+              "explicacao": "Generalização e as aplicações em probabilidade."
+            },
+            {
+              "nome": "Séries de Fourier",
+              "explicacao": "Convergência pontual e o fenômeno de Gibbs."
+            },
+            {
+              "nome": "Funções de variação limitada",
+              "explicacao": "Definição e a relação com funções monótonas."
+            },
+            {
+              "nome": "Análise em Rn — diferenciabilidade",
+              "explicacao": "Derivada de Fréchet e de Gateaux e o teorema da função inversa."
+            },
+            {
+              "nome": "Teorema da função implícita",
+              "explicacao": "Conjuntos de nível e a diferenciabilidade implícita."
+            },
+            {
+              "nome": "Teorema de Stone-Weierstrass",
+              "explicacao": "Aproximação uniforme de funções contínuas por polinômios."
+            },
+            {
+              "nome": "Integral de Henstock-Kurzweil",
+              "explicacao": "Generalização da integral de Riemann mais abrangente que a de Lebesgue."
+            },
+            {
+              "nome": "Funções absolutamente contínuas",
+              "explicacao": "Teorema fundamental do cálculo para funções absolutamente contínuas."
+            },
+            {
+              "nome": "Teorema de Sard",
+              "explicacao": "Conjunto de valores críticos de funções suaves tem medida nula."
+            }
+          ]
+        },
+        {
+          "materia": "Topologia Algébrica",
+          "icone": "🔗",
+          "topicos": [
+            {
+              "nome": "Homotopia de caminhos",
+              "explicacao": "Homotopia relativa e o grupo fundamental do círculo S1."
+            },
+            {
+              "nome": "Grupo fundamental",
+              "explicacao": "Cálculo para esferas e o teorema de van Kampen."
+            },
+            {
+              "nome": "Espaços de recobrimento",
+              "explicacao": "Levantamento de caminhos e homotopias."
+            },
+            {
+              "nome": "Homologia singular",
+              "explicacao": "Complexos de cadeias e o cálculo de grupos de homologia."
+            },
+            {
+              "nome": "Homologia simplicial",
+              "explicacao": "Complexos simpliciais e a equivalência com a homologia singular."
+            },
+            {
+              "nome": "Grau de uma aplicação",
+              "explicacao": "Definição e as aplicações topológicas do grau."
+            },
+            {
+              "nome": "Invariantes topológicos",
+              "explicacao": "Característica de Euler e a sequência de Mayer-Vietoris."
+            },
+            {
+              "nome": "Aplicações e teoremas clássicos",
+              "explicacao": "Teorema de Brouwer do ponto fixo e de Borsuk-Ulam."
+            },
+            {
+              "nome": "Cohomologia singular",
+              "explicacao": "Anel de cohomologia e o produto cup."
+            },
+            {
+              "nome": "Fibrados vetoriais e classes características",
+              "explicacao": "Fibrado tangente e as classes de Chern e Stiefel-Whitney."
+            },
+            {
+              "nome": "Sequência exata longa de homotopia",
+              "explicacao": "Fibrações e a sequência exata longa dos grupos de homotopia."
+            },
+            {
+              "nome": "Dualidade de Poincaré",
+              "explicacao": "Isomorfismo entre homologia e cohomologia em variedades orientáveis."
+            }
+          ]
+        },
+        {
+          "materia": "Matemática Financeira e Atuarial",
+          "icone": "💰",
+          "topicos": [
+            {
+              "nome": "Juros simples e compostos",
+              "explicacao": "Montante e a equivalência de taxas em regimes simples e composto."
+            },
+            {
+              "nome": "Séries de pagamentos (rendas)",
+              "explicacao": "Anuidades postecipadas e antecipadas e o valor presente e futuro."
+            },
+            {
+              "nome": "Sistemas de amortização",
+              "explicacao": "Sistema Price (francês) e o sistema SAC."
+            },
+            {
+              "nome": "Análise de investimentos",
+              "explicacao": "VPL, TIR e o payback simples e descontado."
+            },
+            {
+              "nome": "Cálculo atuarial — tábuas e comutações",
+              "explicacao": "Tábuas de mortalidade e as funções biométricas básicas."
+            },
+            {
+              "nome": "Seguros e anuidades atuariais",
+              "explicacao": "Seguro de vida, aposentadoria e o prêmio puro único."
+            },
+            {
+              "nome": "Risco e carteiras de investimento",
+              "explicacao": "Modelo de Markowitz e a fronteira eficiente."
+            },
+            {
+              "nome": "Modelo Black-Scholes",
+              "explicacao": "Precificação de opções e a fórmula de Black-Scholes."
+            },
+            {
+              "nome": "Duration e convexidade",
+              "explicacao": "Medidas de sensibilidade do preço do título à taxa de juros."
+            },
+            {
+              "nome": "Modelagem de sobrevivência em previdência",
+              "explicacao": "Tábuas de múltiplos decrementos e os planos de benefício definido."
+            },
+            {
+              "nome": "Simulação de Monte Carlo em finanças",
+              "explicacao": "Geração de cenários e a precificação de derivativos exóticos."
+            },
+            {
+              "nome": "Teoria de carteiras e Value at Risk (VaR)",
+              "explicacao": "Quantificação de risco e as limitações do VaR paramétrico."
+            }
+          ]
+        },
+        {
+          "materia": "História e Filosofia da Matemática",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Matemática na Antiguidade (Mesopotâmia e Egito)",
+              "explicacao": "O surgimento da aritmética e da geometria nas civilizações antigas."
+            },
+            {
+              "nome": "Matemática grega e o método axiomático",
+              "explicacao": "Euclides e os Elementos e a contribuição de Arquimedes."
+            },
+            {
+              "nome": "Matemática na Idade Média e no Renascimento",
+              "explicacao": "Al-Khwarizmi e a álgebra e o renascimento matemático europeu."
+            },
+            {
+              "nome": "O nascimento do cálculo (Newton e Leibniz)",
+              "explicacao": "A disputa da primazia e a consolidação do cálculo infinitesimal."
+            },
+            {
+              "nome": "A rigorização da análise no séc. XIX",
+              "explicacao": "Cauchy, Weierstrass e a formalização dos limites."
+            },
+            {
+              "nome": "A crise dos fundamentos e a matemática do séc. XX",
+              "explicacao": "Paradoxos, Hilbert e os programas de fundamentação."
+            },
+            {
+              "nome": "Platonismo, formalismo e intuicionismo",
+              "explicacao": "Correntes filosóficas sobre a natureza dos objetos matemáticos."
+            },
+            {
+              "nome": "A matemática contemporânea e a conjectura de Poincaré",
+              "explicacao": "Problemas do milênio e os avanços recentes da pesquisa matemática."
+            },
+            {
+              "nome": "O programa de Hilbert",
+              "explicacao": "Axiomatização completa da matemática e o impacto dos teoremas de Godel."
+            },
+            {
+              "nome": "A revolução bourbakista",
+              "explicacao": "Nicolas Bourbaki e a refundação da matemática sobre a teoria dos conjuntos."
+            },
+            {
+              "nome": "A matemática no mundo islâmico medieval",
+              "explicacao": "Al-Khwarizmi e a Casa da Sabedoria de Bagdá."
+            },
+            {
+              "nome": "A contribuição feminina na história da matemática",
+              "explicacao": "Emmy Noether, Sofia Kovalevskaya e as mulheres na matemática."
+            }
+          ]
+        },
+        {
+          "materia": "Didática e Educação Matemática",
+          "icone": "🏫",
+          "topicos": [
+            {
+              "nome": "Tendências em educação matemática",
+              "explicacao": "Resolução de problemas e a etnomatemática de Ubiratan DAmbrosio."
+            },
+            {
+              "nome": "Teorias de aprendizagem aplicadas à matemática",
+              "explicacao": "Piaget e a construção do número e o construtivismo."
+            },
+            {
+              "nome": "Modelagem na educação matemática",
+              "explicacao": "A modelagem como estratégia de ensino e aprendizagem significativa."
+            },
+            {
+              "nome": "Tecnologias digitais no ensino de matemática",
+              "explicacao": "GeoGebra, softwares de cálculo simbólico e as plataformas educacionais."
+            },
+            {
+              "nome": "Avaliação da aprendizagem matemática",
+              "explicacao": "Avaliação diagnóstica, formativa e somativa e os instrumentos."
+            },
+            {
+              "nome": "Dificuldades de aprendizagem em matemática",
+              "explicacao": "Discalculia e as intervenções pedagógicas."
+            },
+            {
+              "nome": "BNCC e o currículo de matemática",
+              "explicacao": "Competências e habilidades e as unidades temáticas da BNCC."
+            },
+            {
+              "nome": "Formação de professores de matemática",
+              "explicacao": "Saberes docentes e a prática reflexiva no ensino de matemática."
+            },
+            {
+              "nome": "História da matemática no ensino",
+              "explicacao": "Uso didático da história para contextualizar e motivar a aprendizagem."
+            },
+            {
+              "nome": "Jogos e materiais manipulativos",
+              "explicacao": "Tangram e os jogos como ferramentas de ensino de conceitos matemáticos."
+            },
+            {
+              "nome": "Resolução colaborativa de problemas",
+              "explicacao": "Trabalho em grupo e a comunicação matemática entre pares."
+            },
+            {
+              "nome": "Ensino de matemática para alunos superdotados",
+              "explicacao": "Enriquecimento curricular e as olimpíadas de matemática."
+            }
+          ]
+        },
+        {
+          "materia": "Teoria dos Conjuntos",
+          "icone": "🧩",
+          "topicos": [
+            {
+              "nome": "Axiomas de Zermelo-Fraenkel (ZFC)",
+              "explicacao": "Axioma da extensão, separação, união e a construção formal dos conjuntos."
+            },
+            {
+              "nome": "Produto cartesiano e relações",
+              "explicacao": "Relações de equivalência, ordens parciais e totais e o lema de Zorn."
+            },
+            {
+              "nome": "Funções e cardinalidade",
+              "explicacao": "Teorema de Cantor-Bernstein e a comparação de cardinalidades."
+            },
+            {
+              "nome": "Conjuntos enumeráveis e não enumeráveis",
+              "explicacao": "Diagonal de Cantor e a não enumerabilidade dos números reais."
+            },
+            {
+              "nome": "Aritmética transfinita",
+              "explicacao": "Adição e multiplicação de cardinais e a exponenciação cardinal."
+            },
+            {
+              "nome": "O Axioma da Escolha e equivalências",
+              "explicacao": "Lema de Zorn, princípio da boa ordenação e o teorema de Zermelo."
+            },
+            {
+              "nome": "Filtros, ideais e ultrafiltros",
+              "explicacao": "Propriedades e a construção de ultrafiltros via lema de Zorn."
+            },
+            {
+              "nome": "Teoria descritiva de conjuntos",
+              "explicacao": "Conjuntos de Borel, analíticos e a hierarquia projetiva."
+            },
+            {
+              "nome": "Grandes cardinais",
+              "explicacao": "Cardinais inacessíveis, mensuráveis e a hierarquia de consistência."
+            },
+            {
+              "nome": "Forcing e independência (introdução)",
+              "explicacao": "Técnica de Cohen e a construção de modelos genéricos de ZFC."
+            },
+            {
+              "nome": "Ordinais e aritmética ordinal",
+              "explicacao": "Soma e o produto de ordinais e a representação normal de Cantor."
+            },
+            {
+              "nome": "Jogos infinitos e determinância",
+              "explicacao": "Axioma da determinância e as consequências na teoria descritiva."
+            }
+          ]
+        },
+        {
+          "materia": "Equações Diferenciais Ordinárias Avançadas",
+          "icone": "🌊",
+          "topicos": [
+            {
+              "nome": "Sistemas lineares de EDOs",
+              "explicacao": "Matriz exponencial e a solução geral de sistemas lineares homogêneos."
+            },
+            {
+              "nome": "Estabilidade de pontos de equilíbrio",
+              "explicacao": "Linearização e o teorema de Hartman-Grobman para sistemas não lineares."
+            },
+            {
+              "nome": "Teoria de Sturm-Liouville",
+              "explicacao": "Problemas de autovalores e as funções ortogonais em EDOs."
+            },
+            {
+              "nome": "Existência e unicidade (Picard-Lindelöf)",
+              "explicacao": "Teorema de Picard para existência local e unicidade de solução."
+            },
+            {
+              "nome": "Ciclos limite e o teorema de Poincaré-Bendixson",
+              "explicacao": "Comportamento assintótico de sistemas planares."
+            },
+            {
+              "nome": "Bifurcações em EDOs",
+              "explicacao": "Bifurcação sela-nó, Hopf e de duplicação de período."
+            },
+            {
+              "nome": "Teoria qualitativa de EDOs",
+              "explicacao": "Retratos de fase, órbitas e a classificação topológica de sistemas."
+            },
+            {
+              "nome": "Método de Lyapunov para estabilidade",
+              "explicacao": "Funções de Lyapunov e a análise de estabilidade sem linearização."
+            },
+            {
+              "nome": "EDOs no plano complexo",
+              "explicacao": "Pontos singulares regulares e o método de Frobenius."
+            },
+            {
+              "nome": "Aplicações em física e engenharia",
+              "explicacao": "Oscilador harmônico e modelos predador-presa de Lotka-Volterra."
+            },
+            {
+              "nome": "Teoria de Floquet",
+              "explicacao": "Soluções de sistemas lineares periódicos e os expoentes característicos."
+            },
+            {
+              "nome": "Sistemas hamiltonianos e integrabilidade",
+              "explicacao": "Transformações canônicas e o teorema de Liouville-Arnold."
+            }
+          ]
+        },
+        {
+          "materia": "Álgebra Comutativa",
+          "icone": "🔗",
+          "topicos": [
+            {
+              "nome": "Anéis comutativos e ideais primos e maximais",
+              "explicacao": "Propriedades e o teorema de existência de ideais maximais via Zorn."
+            },
+            {
+              "nome": "Anéis de polinômios e fatoração",
+              "explicacao": "Domínios de fatoração única e o critério de Eisenstein."
+            },
+            {
+              "nome": "Módulos sobre anéis comutativos",
+              "explicacao": "Módulos finitamente gerados e o teorema da base de Hilbert."
+            },
+            {
+              "nome": "Localização de anéis e módulos",
+              "explicacao": "Anéis de frações e a correspondência de ideais na localização."
+            },
+            {
+              "nome": "Decomposição primária (Noether-Lasker)",
+              "explicacao": "Ideais primários e a decomposição primária em anéis Noetherianos."
+            },
+            {
+              "nome": "Dimensão de Krull",
+              "explicacao": "Cadeias de ideais primos e a dimensão de anéis comutativos."
+            },
+            {
+              "nome": "Teorema dos zeros de Hilbert (Nullstellensatz)",
+              "explicacao": "Relação entre ideais e variedades algébricas afins."
+            },
+            {
+              "nome": "Álgebra homológica introdutória",
+              "explicacao": "Complexos, homologia e os functores Tor e Ext em álgebra comutativa."
+            },
+            {
+              "nome": "Anéis de valoração discreta",
+              "explicacao": "Valorações e a conexão com curvas algébricas e geometria."
+            },
+            {
+              "nome": "Aplicações em geometria algébrica",
+              "explicacao": "Variedades afins e a correspondência entre álgebra e geometria."
+            },
+            {
+              "nome": "Anéis de Cohen-Macaulay",
+              "explicacao": "Profundidade e a relação entre regularidade e Cohen-Macaulay."
+            },
+            {
+              "nome": "Teoria de interseção (introdução)",
+              "explicacao": "Multiplicidade de interseção e a fórmula de Bezout em geometria algébrica."
+            }
+          ]
+        },
+        {
+          "materia": "Pesquisa em Matemática Pura e Aplicada",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Metodologia de pesquisa em matemática pura",
+              "explicacao": "Conjectura, demonstração e a estrutura do artigo matemático."
+            },
+            {
+              "nome": "Principais periódicos e bases de dados",
+              "explicacao": "MathSciNet, ArXiv e os periódicos de alto impacto em matemática."
+            },
+            {
+              "nome": "Problemas do Milênio (Clay Institute)",
+              "explicacao": "P versus NP, Riemann e os sete problemas premiados."
+            },
+            {
+              "nome": "Colaboração matemática e revisão por pares",
+              "explicacao": "Polymath e as novas formas de colaboração em matemática."
+            },
+            {
+              "nome": "Escrita e comunicação matemática",
+              "explicacao": "LaTeX e a produção de artigos e apresentações matemáticas."
+            },
+            {
+              "nome": "Matemática aplicada à indústria",
+              "explicacao": "Otimização, simulação e a modelagem matemática em problemas industriais."
+            },
+            {
+              "nome": "Bolsas e financiamento em matemática",
+              "explicacao": "CNPq, CAPES e as oportunidades de pesquisa no Brasil e exterior."
+            },
+            {
+              "nome": "Carreiras para matemáticos",
+              "explicacao": "Academia, mercado financeiro, tecnologia e consultoria quantitativa."
+            },
+            {
+              "nome": "Interdisciplinaridade e matemática aplicada",
+              "explicacao": "Colaborações com biologia, economia e as ciências da computação."
+            },
+            {
+              "nome": "Tendências e fronteiras da pesquisa atual",
+              "explicacao": "Teoria dos números, geometria algébrica e a inteligência artificial matemática."
+            },
+            {
+              "nome": "Ética na pesquisa matemática",
+              "explicacao": "Conduta responsável e a integridade científica na pesquisa."
+            },
+            {
+              "nome": "Divulgação matemática e outreach",
+              "explicacao": "Comunicação da matemática para o público geral e a popularização científica."
             }
           ]
         }
@@ -18246,6 +21422,120 @@ const DadosSala = {
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
+        },
+        {
+          "materia": "Gestão de Operações e Processos",
+          "icone": "⚙️",
+          "topicos": [
+            {
+              "nome": "Mapeamento de processos (BPMN)",
+              "explicacao": "Notação BPMN, swimlanes e a modelagem de processos de negócio."
+            },
+            {
+              "nome": "Gestão da cadeia de suprimentos",
+              "explicacao": "Fluxo de materiais e informações do fornecedor ao cliente final."
+            },
+            {
+              "nome": "Indicadores de desempenho (KPIs)",
+              "explicacao": "Métricas financeiras e operacionais para medir performance organizacional."
+            },
+            {
+              "nome": "Sistemas ERP e integração",
+              "explicacao": "Módulos de gestão integrada e a implantação de sistemas empresariais."
+            },
+            {
+              "nome": "Transformação digital",
+              "explicacao": "Impacto da tecnologia nos modelos de negócio e na cultura organizacional."
+            },
+            {
+              "nome": "Gestão de projetos (PMBOK)",
+              "explicacao": "Escopo, cronograma, orçamento e os 5 grupos de processos."
+            },
+            {
+              "nome": "Negócios internacionais",
+              "explicacao": "Estratégias de entrada em mercados globais e a gestão intercultural."
+            },
+            {
+              "nome": "Ética e responsabilidade social",
+              "explicacao": "Governança corporativa, compliance e sustentabilidade empresarial."
+            }
+          ]
+        },
+        {
+          "materia": "Finanças Corporativas",
+          "icone": "💰",
+          "topicos": [
+            {
+              "nome": "Valor do dinheiro no tempo",
+              "explicacao": "Juros compostos, valor presente líquido e a taxa interna de retorno."
+            },
+            {
+              "nome": "Análise de investimentos",
+              "explicacao": "Payback, VPL e TIR na avaliação de projetos de capital."
+            },
+            {
+              "nome": "Estrutura de capital",
+              "explicacao": "Dívida vs. capital próprio e o custo médio ponderado de capital."
+            },
+            {
+              "nome": "Valuation de empresas",
+              "explicacao": "Fluxo de caixa descontado e múltiplos de mercado para avaliação."
+            },
+            {
+              "nome": "Gestão de capital de giro",
+              "explicacao": "Ciclo operacional e financeiro e a necessidade de capital de giro."
+            },
+            {
+              "nome": "Mercado de capitais",
+              "explicacao": "Ações, debêntures, fundos de investimento e a B3 (Bolsa brasileira)."
+            },
+            {
+              "nome": "Fusões e aquisições (M&A)",
+              "explicacao": "Due diligence, sinergias e a contabilização de combinações de negócios."
+            },
+            {
+              "nome": "Finanças comportamentais",
+              "explicacao": "Vieses cognitivos e a psicologia na tomada de decisão financeira."
+            }
+          ]
+        },
+        {
+          "materia": "Estratégia Empresarial",
+          "icone": "🎯",
+          "topicos": [
+            {
+              "nome": "Análise do ambiente competitivo",
+              "explicacao": "5 forças de Porter e a análise SWOT para posicionamento."
+            },
+            {
+              "nome": "Estratégias genéricas",
+              "explicacao": "Liderança em custo, diferenciação e enfoque — modelo de Porter."
+            },
+            {
+              "nome": "Planejamento estratégico",
+              "explicacao": "Missão, visão, valores e o balanced scorecard (BSC)."
+            },
+            {
+              "nome": "Inovação e vantagem competitiva",
+              "explicacao": "Inovação disruptiva, sustaining innovation e o dilema do inovador."
+            },
+            {
+              "nome": "Alianças estratégicas e joint ventures",
+              "explicacao": "Parcerias empresariais e a criação de valor compartilhado."
+            },
+            {
+              "nome": "Internacionalização de empresas",
+              "explicacao": "Modos de entrada em mercados estrangeiros e a distância psíquica."
+            },
+            {
+              "nome": "Gestão da mudança organizacional",
+              "explicacao": "Modelos de Kotter e Lewin para conduzir transformações empresariais."
+            },
+            {
+              "nome": "Economia digital e plataformas",
+              "explicacao": "Modelos de negócio baseados em plataforma e os efeitos de rede."
+            }
+          ]
         }
       ]
     },
@@ -18584,6 +21874,120 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Tributário",
+          "icone": "💰",
+          "topicos": [
+            {
+              "nome": "Princípios constitucionais tributários",
+              "explicacao": "Legalidade, anterioridade, irretroatividade e vedação de confisco."
+            },
+            {
+              "nome": "Competência tributária",
+              "explicacao": "Distribuição de competências entre União, Estados e Municípios."
+            },
+            {
+              "nome": "Espécies tributárias",
+              "explicacao": "Impostos, taxas, contribuições de melhoria e empréstimos compulsórios."
+            },
+            {
+              "nome": "Obrigação tributária",
+              "explicacao": "Fato gerador, base de cálculo, alíquota e os sujeitos ativo e passivo."
+            },
+            {
+              "nome": "Crédito tributário",
+              "explicacao": "Lançamento, suspensão, extinção e exclusão do crédito tributário."
+            },
+            {
+              "nome": "Impostos federais (IR, IPI, IOF)",
+              "explicacao": "Principais impostos de competência da União e suas características."
+            },
+            {
+              "nome": "ICMS e ISS",
+              "explicacao": "Impostos estaduais e municipais e a guerra fiscal entre entes federativos."
+            },
+            {
+              "nome": "Processo administrativo fiscal",
+              "explicacao": "Defesa, recursos administrativos e a jurisprudência do CARF."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Internacional",
+          "icone": "🌍",
+          "topicos": [
+            {
+              "nome": "Fontes do direito internacional",
+              "explicacao": "Tratados, costumes e princípios gerais do direito internacional público."
+            },
+            {
+              "nome": "Sujeitos de direito internacional",
+              "explicacao": "Estados, organizações internacionais e o indivíduo no plano internacional."
+            },
+            {
+              "nome": "Direitos humanos",
+              "explicacao": "Sistema global (ONU) e regionais (OEA, Corte IDH) de proteção."
+            },
+            {
+              "nome": "Direito internacional penal",
+              "explicacao": "Tribunal Penal Internacional e os crimes de competência internacional."
+            },
+            {
+              "nome": "Direito do mar",
+              "explicacao": "Convenção de Montego Bay e as zonas marítimas (mar territorial, ZEE)."
+            },
+            {
+              "nome": "Solução de controvérsias",
+              "explicacao": "Corte Internacional de Justiça e os meios diplomáticos de solução."
+            },
+            {
+              "nome": "Integração regional",
+              "explicacao": "Mercosul, União Europeia e os blocos de integração econômica."
+            },
+            {
+              "nome": "Cooperação jurídica internacional",
+              "explicacao": "Cartas rogatórias, homologação de sentença estrangeira e extradição."
+            }
+          ]
+        },
+        {
+          "materia": "Direito Ambiental",
+          "icone": "🌿",
+          "topicos": [
+            {
+              "nome": "Princípios do direito ambiental",
+              "explicacao": "Prevenção, precaução, poluidor-pagador e desenvolvimento sustentável."
+            },
+            {
+              "nome": "Licenciamento ambiental",
+              "explicacao": "EIA/RIMA e as licenças prévia, de instalação e de operação."
+            },
+            {
+              "nome": "Responsabilidade ambiental",
+              "explicacao": "Responsabilidade civil, administrativa e penal por dano ambiental."
+            },
+            {
+              "nome": "Unidades de conservação",
+              "explicacao": "SNUC e as categorias de proteção integral e uso sustentável."
+            },
+            {
+              "nome": "Recursos hídricos",
+              "explicacao": "Política Nacional de Recursos Hídricos e a outorga de uso da água."
+            },
+            {
+              "nome": "Resíduos sólidos",
+              "explicacao": "Política Nacional de Resíduos Sólidos e a logística reversa."
+            },
+            {
+              "nome": "Código Florestal",
+              "explicacao": "Áreas de preservação permanente e reserva legal."
+            },
+            {
+              "nome": "Mudanças climáticas e direito",
+              "explicacao": "Acordo de Paris e as políticas nacionais de redução de emissões."
             }
           ]
         }
@@ -18926,6 +22330,120 @@ const DadosSala = {
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
+        },
+        {
+          "materia": "Saúde Coletiva e Epidemiologia",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Vigilância epidemiológica",
+              "explicacao": "Notificação compulsória e a investigação de surtos e epidemias."
+            },
+            {
+              "nome": "Indicadores de saúde",
+              "explicacao": "Mortalidade infantil, expectativa de vida e os determinantes sociais da saúde."
+            },
+            {
+              "nome": "Sistema Único de Saúde (SUS)",
+              "explicacao": "Princípios (universalidade, integralidade, equidade) e a Rede de Atenção."
+            },
+            {
+              "nome": "Atenção primária à saúde",
+              "explicacao": "Estratégia Saúde da Família e o papel do médico de família e comunidade."
+            },
+            {
+              "nome": "Imunização e calendário vacinal",
+              "explicacao": "PNI e as vacinas do calendário infantil, adulto e idoso."
+            },
+            {
+              "nome": "Epidemiologia das doenças crônicas",
+              "explicacao": "HAS, DM, obesidade e as doenças cardiovasculares no Brasil."
+            },
+            {
+              "nome": "Gestão em saúde",
+              "explicacao": "Planejamento, regionalização e o financiamento do SUS."
+            },
+            {
+              "nome": "Bioética e relação médico-paciente",
+              "explicacao": "Autonomia, beneficência e o consentimento informado."
+            }
+          ]
+        },
+        {
+          "materia": "Radiologia e Diagnóstico por Imagem",
+          "icone": "🩻",
+          "topicos": [
+            {
+              "nome": "Radiografia convencional",
+              "explicacao": "Princípios físicos dos raios X e a interpretação básica de radiografias."
+            },
+            {
+              "nome": "Tomografia computadorizada (TC)",
+              "explicacao": "Escala Hounsfield e as indicações clínicas da TC."
+            },
+            {
+              "nome": "Ressonância magnética (RM)",
+              "explicacao": "Princípios físicos e as principais sequências (T1, T2, FLAIR)."
+            },
+            {
+              "nome": "Ultrassonografia",
+              "explicacao": "Efeito Doppler, transdutores e as aplicações em obstetrícia e abdome."
+            },
+            {
+              "nome": "Mamografia e densidade mamária",
+              "explicacao": "BI-RADS e o rastreamento do câncer de mama."
+            },
+            {
+              "nome": "Medicina nuclear e PET-CT",
+              "explicacao": "Radiofármacos, cintilografia e as aplicações oncológicas."
+            },
+            {
+              "nome": "Radiologia intervencionista",
+              "explicacao": "Angioplastia, drenagem percutânea e biópsia guiada por imagem."
+            },
+            {
+              "nome": "Contrastes e reações adversas",
+              "explicacao": "Tipos de contraste e a prevenção de nefropatia e reações alérgicas."
+            }
+          ]
+        },
+        {
+          "materia": "Medicina de Emergência",
+          "icone": "🚨",
+          "topicos": [
+            {
+              "nome": "Suporte básico e avançado de vida",
+              "explicacao": "RCP, desfibrilação e o algoritmo de parada cardiorrespiratória."
+            },
+            {
+              "nome": "Síndromes coronarianas agudas",
+              "explicacao": "IAM com e sem supradesnível de ST e a conduta na sala de emergência."
+            },
+            {
+              "nome": "Acidente vascular cerebral (AVC)",
+              "explicacao": "AVC isquêmico e hemorrágico — janela terapêutica e trombólise."
+            },
+            {
+              "nome": "Trauma e ATLS",
+              "explicacao": "ABCDE do trauma e a abordagem inicial do paciente traumatizado."
+            },
+            {
+              "nome": "Sepse e choque séptico",
+              "explicacao": "Critérios qSOFA, lactato e o pacote de 1 hora da Surviving Sepsis."
+            },
+            {
+              "nome": "Emergências metabólicas",
+              "explicacao": "Cetoacidose diabética, estado hiperosmolar e crise tireotóxica."
+            },
+            {
+              "nome": "Intoxicações exógenas",
+              "explicacao": "Abordagem inicial e os antídotos das principais intoxicações."
+            },
+            {
+              "nome": "Via aérea e ventilação mecânica",
+              "explicacao": "Intubação orotraqueal e os modos ventilatórios básicos."
+            }
+          ]
         }
       ]
     },
@@ -19264,6 +22782,120 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        },
+        {
+          "materia": "Neuropsicologia",
+          "icone": "🧠",
+          "topicos": [
+            {
+              "nome": "Fundamentos de neuroanatomia funcional",
+              "explicacao": "Lobos cerebrais e as funções cognitivas associadas."
+            },
+            {
+              "nome": "Avaliação neuropsicológica",
+              "explicacao": "Baterias de testes e a correlação clínico-radiológica."
+            },
+            {
+              "nome": "Memória e aprendizagem",
+              "explicacao": "Tipos de memória e os circuitos neurais da consolidação."
+            },
+            {
+              "nome": "Funções executivas",
+              "explicacao": "Planejamento, inibição e flexibilidade cognitiva no córtex pré-frontal."
+            },
+            {
+              "nome": "Linguagem e afasias",
+              "explicacao": "Área de Broca e Wernicke e a classificação das afasias."
+            },
+            {
+              "nome": "Transtornos do neurodesenvolvimento",
+              "explicacao": "TDAH, TEA e as intervenções baseadas em evidências."
+            },
+            {
+              "nome": "Demências e envelhecimento",
+              "explicacao": "Doença de Alzheimer, demência frontotemporal e a avaliação diferencial."
+            },
+            {
+              "nome": "Reabilitação neuropsicológica",
+              "explicacao": "Estratégias compensatórias e a plasticidade cerebral pós-lesão."
+            }
+          ]
+        },
+        {
+          "materia": "Psicologia Organizacional",
+          "icone": "🏢",
+          "topicos": [
+            {
+              "nome": "Recrutamento e seleção",
+              "explicacao": "Técnicas de entrevista e os testes psicométricos para seleção de pessoal."
+            },
+            {
+              "nome": "Treinamento e desenvolvimento",
+              "explicacao": "Levantamento de necessidades e a avaliação de eficácia de treinamentos."
+            },
+            {
+              "nome": "Clima e cultura organizacional",
+              "explicacao": "Pesquisa de clima e a transformação da cultura corporativa."
+            },
+            {
+              "nome": "Liderança e gestão de equipes",
+              "explicacao": "Estilos de liderança e a psicologia dos grupos de trabalho."
+            },
+            {
+              "nome": "Qualidade de vida no trabalho",
+              "explicacao": "Burnout, estresse ocupacional e as intervenções de bem-estar."
+            },
+            {
+              "nome": "Avaliação de desempenho",
+              "explicacao": "Métodos de avaliação e o feedback como ferramenta de desenvolvimento."
+            },
+            {
+              "nome": "Comportamento organizacional",
+              "explicacao": "Motivação, satisfação e os modelos de engajamento no trabalho."
+            },
+            {
+              "nome": "Gestão da diversidade",
+              "explicacao": "Inclusão, equidade e a psicologia aplicada à diversidade nas organizações."
+            }
+          ]
+        },
+        {
+          "materia": "Psicologia da Saúde",
+          "icone": "❤️",
+          "topicos": [
+            {
+              "nome": "Psicologia hospitalar",
+              "explicacao": "Atuação do psicólogo em contextos hospitalares e a humanização da saúde."
+            },
+            {
+              "nome": "Psicossomática",
+              "explicacao": "Relação mente-corpo e os transtornos somatoformes."
+            },
+            {
+              "nome": "Adoecimento e enfrentamento (coping)",
+              "explicacao": "Estratégias de enfrentamento e a adaptação à doença crônica."
+            },
+            {
+              "nome": "Cuidados paliativos e luto",
+              "explicacao": "Abordagem multidisciplinar e os estágios do luto."
+            },
+            {
+              "nome": "Promoção de saúde e prevenção",
+              "explicacao": "Modelos de crenças em saúde e a mudança de comportamento."
+            },
+            {
+              "nome": "Psicologia da dor",
+              "explicacao": "Dor aguda e crônica e as intervenções psicológicas no manejo da dor."
+            },
+            {
+              "nome": "Dependência química",
+              "explicacao": "Modelos de tratamento e a prevenção de recaída."
+            },
+            {
+              "nome": "Intervenção em crise e emergências",
+              "explicacao": "Primeiros cuidados psicológicos e o manejo de situações traumáticas."
             }
           ]
         }
@@ -19704,6 +23336,120 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        },
+        {
+          "materia": "Nutrição Animal",
+          "icone": "🥩",
+          "topicos": [
+            {
+              "nome": "Nutrientes e metabolismo",
+              "explicacao": "Macro e micronutrientes essenciais e a bioquímica nutricional animal."
+            },
+            {
+              "nome": "Formulação de rações",
+              "explicacao": "Balanceamento de dietas e os requisitos nutricionais por espécie."
+            },
+            {
+              "nome": "Alimentos e ingredientes",
+              "explicacao": "Classificação de alimentos e a análise bromatológica."
+            },
+            {
+              "nome": "Distúrbios nutricionais",
+              "explicacao": "Deficiências e excessos nutricionais em animais de produção e companhia."
+            },
+            {
+              "nome": "Nutrição de ruminantes",
+              "explicacao": "Fisiologia ruminal e o metabolismo de carboidratos e proteínas."
+            },
+            {
+              "nome": "Nutrição de cães e gatos",
+              "explicacao": "Requisitos nutricionais e os alimentos comerciais e caseiros."
+            },
+            {
+              "nome": "Aditivos e suplementos",
+              "explicacao": "Probióticos, enzimas e os melhoradores de desempenho."
+            },
+            {
+              "nome": "Tecnologia de fabricação de rações",
+              "explicacao": "Processos de moagem, mistura, peletização e extrusão."
+            }
+          ]
+        },
+        {
+          "materia": "Reprodução Animal",
+          "icone": "🐣",
+          "topicos": [
+            {
+              "nome": "Anatomia e fisiologia reprodutiva",
+              "explicacao": "Ciclo estral e a endocrinologia da reprodução nas espécies domésticas."
+            },
+            {
+              "nome": "Biotécnicas reprodutivas",
+              "explicacao": "Inseminação artificial, transferência de embriões e a fertilização in vitro."
+            },
+            {
+              "nome": "Manejo reprodutivo de bovinos",
+              "explicacao": "Estações de monta e as estratégias para maximizar a eficiência reprodutiva."
+            },
+            {
+              "nome": "Obstetrícia veterinária",
+              "explicacao": "Gestação, parto e as principais distocias nas espécies domésticas."
+            },
+            {
+              "nome": "Andrologia veterinária",
+              "explicacao": "Avaliação andrológica e a criopreservação de sêmen."
+            },
+            {
+              "nome": "Melhoramento genético animal",
+              "explicacao": "Seleção, cruzamentos e as ferramentas genômicas aplicadas."
+            },
+            {
+              "nome": "Patologias reprodutivas",
+              "explicacao": "Infertilidade e as doenças infecciosas que afetam a reprodução."
+            },
+            {
+              "nome": "Reprodução de equinos",
+              "explicacao": "Particularidades do ciclo estral equino e as biotécnicas na espécie."
+            }
+          ]
+        },
+        {
+          "materia": "Saúde Pública Veterinária",
+          "icone": "🏥",
+          "topicos": [
+            {
+              "nome": "Zoonoses e saúde única",
+              "explicacao": "Doenças transmissíveis entre animais e humanos e o conceito One Health."
+            },
+            {
+              "nome": "Vigilância sanitária animal",
+              "explicacao": "Controle de alimentos de origem animal e a inspeção sanitária."
+            },
+            {
+              "nome": "Epidemiologia veterinária",
+              "explicacao": "Indicadores e a investigação de surtos em populações animais."
+            },
+            {
+              "nome": "Defesa sanitária animal",
+              "explicacao": "Programas nacionais de controle e erradicação de doenças."
+            },
+            {
+              "nome": "Bem-estar animal e bioética",
+              "explicacao": "Legislação e as cinco liberdades do bem-estar animal."
+            },
+            {
+              "nome": "Medicina de animais silvestres",
+              "explicacao": "Conservação e a atuação do veterinário em fauna silvestre."
+            },
+            {
+              "nome": "Saúde ambiental e ecossistemas",
+              "explicacao": "Impacto das mudanças climáticas na saúde animal."
+            },
+            {
+              "nome": "Veterinária legal e forense",
+              "explicacao": "Perícia veterinária em casos de maus-tratos e crimes ambientais."
             }
           ]
         }
@@ -20164,6 +23910,120 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            }
+          ]
+        },
+        {
+          "materia": "Geotecnia e Fundações",
+          "icone": "⛰️",
+          "topicos": [
+            {
+              "nome": "Investigação geotécnica (SPT e CPT)",
+              "explicacao": "Sondagens e a determinação do perfil de solo."
+            },
+            {
+              "nome": "Classificação de solos",
+              "explicacao": "Sistema unificado (USCS) e a classificação tátil-visual."
+            },
+            {
+              "nome": "Capacidade de carga de fundações",
+              "explicacao": "Métodos de Terzaghi e Meyerhof para sapatas e estacas."
+            },
+            {
+              "nome": "Recalques e adensamento",
+              "explicacao": "Teoria do adensamento de Terzaghi e o cálculo de recalques."
+            },
+            {
+              "nome": "Empuxos e estruturas de contenção",
+              "explicacao": "Teorias de Rankine e Coulomb para empuxo de terra."
+            },
+            {
+              "nome": "Estabilidade de taludes",
+              "explicacao": "Métodos de equilíbrio limite e a análise de ruptura circular."
+            },
+            {
+              "nome": "Fundações profundas",
+              "explicacao": "Estacas pré-moldadas, hélice contínua e a capacidade de carga."
+            },
+            {
+              "nome": "Melhoramento de solos",
+              "explicacao": "Compactação, drenos verticais e a estabilização química."
+            }
+          ]
+        },
+        {
+          "materia": "Planejamento e Gestão de Obras",
+          "icone": "📋",
+          "topicos": [
+            {
+              "nome": "Orçamento de obras",
+              "explicacao": "CUB, TCPO e a composição de custos unitários."
+            },
+            {
+              "nome": "Planejamento com MS Project e Primavera",
+              "explicacao": "Cronograma físico-financeiro e o método do caminho crítico."
+            },
+            {
+              "nome": "Gestão da qualidade (PBQP-H e ISO 9001)",
+              "explicacao": "Programa brasileiro de qualidade na construção civil."
+            },
+            {
+              "nome": "Segurança do trabalho (NR-18)",
+              "explicacao": "Condições e meio ambiente de trabalho na indústria da construção."
+            },
+            {
+              "nome": "Gestão de suprimentos e almoxarifado",
+              "explicacao": "Planejamento de compras e a logística de canteiro."
+            },
+            {
+              "nome": "Lean construction",
+              "explicacao": "Princípios de produção enxuta aplicados à construção civil."
+            },
+            {
+              "nome": "BIM e compatibilização de projetos",
+              "explicacao": "Building Information Modeling e a detecção de interferências."
+            },
+            {
+              "nome": "Sustentabilidade na construção",
+              "explicacao": "Certificações LEED e AQUA e os materiais de baixo impacto."
+            }
+          ]
+        },
+        {
+          "materia": "Sistemas Prediais",
+          "icone": "🏠",
+          "topicos": [
+            {
+              "nome": "Instalações hidrossanitárias prediais",
+              "explicacao": "Água fria, água quente, esgoto sanitário e águas pluviais."
+            },
+            {
+              "nome": "Instalações elétricas prediais",
+              "explicacao": "NBR 5410 e o dimensionamento de circuitos e proteção."
+            },
+            {
+              "nome": "Instalações de gás (NBR 15526)",
+              "explicacao": "Dimensionamento e segurança em redes internas de GLP e GN."
+            },
+            {
+              "nome": "Prevenção e combate a incêndio",
+              "explicacao": "NBR 9077 e os sistemas de sprinklers, hidrantes e alarmes."
+            },
+            {
+              "nome": "Sistemas de ar condicionado e ventilação",
+              "explicacao": "Carga térmica e o dimensionamento de sistemas de climatização."
+            },
+            {
+              "nome": "Instalações de transporte vertical",
+              "explicacao": "Elevadores e o dimensionamento de tráfego em edifícios."
+            },
+            {
+              "nome": "Automação predial",
+              "explicacao": "Sistemas de controle e a integração de instalações prediais."
+            },
+            {
+              "nome": "Manutenção predial",
+              "explicacao": "Planos de manutenção preventiva e corretiva de sistemas prediais."
             }
           ]
         }

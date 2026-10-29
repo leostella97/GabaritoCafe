@@ -20,53 +20,55 @@ const PomodoroAudio = {
       const AudioCtx = window.AudioContext || window.webkitAudioContext;
       if (AudioCtx) this.ctx = new AudioCtx();
     }
+    // AudioContext pode estar suspenso (política de autoplay do navegador).
+    // resume() é assíncrono — retornamos a Promise para o chamador aguardar.
     if (this.ctx && this.ctx.state === 'suspended') {
-      this.ctx.resume();
+      return this.ctx.resume().then(() => this.ctx);
     }
-    return this.ctx;
+    return Promise.resolve(this.ctx);
   },
 
   // Sintetiza ruído marrom/rosa filtrado + borbulhamento leve simulando cafeteria
   iniciarSomCafeteria(volume = 0.3) {
-    const ctx = this.obterContexto();
-    if (!ctx) return;
-    if (this.tocandoSom) this.pararSomCafeteria();
+    return this.obterContexto().then(ctx => {
+      if (!ctx) return;
+      if (this.tocandoSom) this.pararSomCafeteria();
 
-    try {
-      const bufferSize = ctx.sampleRate * 2;
-      const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
-      const data = buffer.getChannelData(0);
+      try {
+        const bufferSize = ctx.sampleRate * 2;
+        const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+        const data = buffer.getChannelData(0);
 
-      let lastOut = 0.0;
-      for (let i = 0; i < bufferSize; i++) {
-        const white = Math.random() * 2 - 1;
-        // Filtro de ruído rosa/marrom suave
-        data[i] = (lastOut + (0.02 * white)) / 1.02;
-        lastOut = data[i];
+        let lastOut = 0.0;
+        for (let i = 0; i < bufferSize; i++) {
+          const white = Math.random() * 2 - 1;
+          data[i] = (lastOut + (0.02 * white)) / 1.02;
+          lastOut = data[i];
+        }
+
+        this.ruidoNode = ctx.createBufferSource();
+        this.ruidoNode.buffer = buffer;
+        this.ruidoNode.loop = true;
+
+        const filtro = ctx.createBiquadFilter();
+        filtro.type = 'lowpass';
+        filtro.frequency.setValueAtTime(450, ctx.currentTime);
+
+        this.gainNode = ctx.createGain();
+        this.gainNode.gain.setValueAtTime(volume * 0.15, ctx.currentTime);
+
+        this.ruidoNode.connect(filtro);
+        filtro.connect(this.gainNode);
+        this.gainNode.connect(ctx.destination);
+
+        this.ruidoNode.start();
+        this.tocandoSom = true;
+      } catch (e) {
+        console.warn('Erro ao tocar som de cafeteria WebAudio:', e);
       }
-
-      this.ruidoNode = ctx.createBufferSource();
-      this.ruidoNode.buffer = buffer;
-      this.ruidoNode.loop = true;
-
-      // Filtro passa-baixa para dar sensação de ambiente abafado/cafeteria
-      const filtro = ctx.createBiquadFilter();
-      filtro.type = 'lowpass';
-      filtro.frequency.setValueAtTime(450, ctx.currentTime);
-
-      // Ganho principal
-      this.gainNode = ctx.createGain();
-      this.gainNode.gain.setValueAtTime(volume * 0.15, ctx.currentTime);
-
-      this.ruidoNode.connect(filtro);
-      filtro.connect(this.gainNode);
-      this.gainNode.connect(ctx.destination);
-
-      this.ruidoNode.start();
-      this.tocandoSom = true;
-    } catch (e) {
-      console.warn('Erro ao tocar som de cafeteria WebAudio:', e);
-    }
+    }).catch(e => {
+      console.warn('AudioContext não pôde ser iniciado (política de autoplay):', e);
+    });
   },
 
   pararSomCafeteria() {
@@ -86,32 +88,35 @@ const PomodoroAudio = {
 
   // Beep de notificação ao concluir foco ou pausa
   tocarAviso(tipo = 'foco') {
-    const ctx = this.obterContexto();
-    if (!ctx) return;
-    try {
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
+    this.obterContexto().then(ctx => {
+      if (!ctx) return;
+      try {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
 
-      osc.type = 'sine';
-      if (tipo === 'foco') {
-        osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
-        osc.frequency.exponentialRampToValueAtTime(659.25, ctx.currentTime + 0.3); // E5
-      } else {
-        osc.frequency.setValueAtTime(659.25, ctx.currentTime); // E5
-        osc.frequency.exponentialRampToValueAtTime(523.25, ctx.currentTime + 0.3); // C5
+        osc.type = 'sine';
+        if (tipo === 'foco') {
+          osc.frequency.setValueAtTime(523.25, ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(659.25, ctx.currentTime + 0.3);
+        } else {
+          osc.frequency.setValueAtTime(659.25, ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(523.25, ctx.currentTime + 0.3);
+        }
+
+        gain.gain.setValueAtTime(0.2, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start();
+        osc.stop(ctx.currentTime + 0.5);
+      } catch (e) {
+        console.warn('Erro ao tocar som de aviso:', e);
       }
-
-      gain.gain.setValueAtTime(0.2, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
-
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-
-      osc.start();
-      osc.stop(ctx.currentTime + 0.5);
-    } catch (e) {
-      console.warn('Erro ao tocar som de aviso:', e);
-    }
+    }).catch(e => {
+      console.warn('AudioContext indisponível para aviso:', e);
+    });
   }
 };
 

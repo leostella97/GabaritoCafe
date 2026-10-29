@@ -779,6 +779,31 @@
   text-underline-offset: 3px;       /* respiro da linha */
 }
 
+/* Sub-itens de um tópico (lista que compõe o tópico fragmentado) */
+.sa-subitens {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sa-subitem {
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio-pequeno);
+  padding: 0.55rem 0.75rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+.sa-subitem:last-child { margin-bottom: 0; }
+.sa-subitem strong {
+  color: var(--cafe);
+  font-weight: 800;
+}
+.sa-subitem-explicacao {
+  color: var(--marrom-suave);
+  font-weight: 400;
+}
+
 .topico-texto:hover { color: var(--caramelo); } /* acende no hover */
 
 .topico-explicacao {                /* explicação do tópico aberto direto no modal */
