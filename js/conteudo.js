@@ -187,13 +187,15 @@ const ConteudoUI = {
       }
       html += '</div>';                                     // fecha o cartão
     }
-    // Bloco final: as dicas rápidas de prova (mesmas que aparecem no simulado)
-    html += '<div class="titulo-secao"><h3>' + T('dicas_prova_t') + '</h3></div>'; // título da seção
-    html += '<div class="cartao"><ul class="banca-lista" style="font-size:0.92rem">'; // abre a lista
-    for (const dica of this.dicasRapidasDoIdioma()) {       // percorre as dicas rápidas
-      html += '<li>' + Util.escape(dica) + '</li>';         // cada dica
+    // Bloco final: as dicas rápidas de prova (scroll interno, mesmo padrão visual)
+    html += '<div class="cartao aparecer categoria-dicas">';  // mesma casca dos outros
+    html += '<div class="categoria-titulo">📝 ' + T('dicas_prova_t') + '</div>'; // título no padrão
+    for (const dica of this.dicasRapidasDoIdioma()) {         // percorre as dicas rápidas
+      html += '<div class="dica-item">';                      // mesma marcação
+      html += '<p class="dica-texto" style="margin:0">' + Util.escape(dica) + '</p>'; // texto da dica
+      html += '</div>';
     }
-    html += '</ul></div>';                                  // fecha lista e cartão
+    html += '</div>';                                         // fecha o cartão
     caixa.innerHTML = html;                                 // despeja na tela
   }
 };
