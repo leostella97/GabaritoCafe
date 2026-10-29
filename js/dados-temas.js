@@ -294,12 +294,6 @@ const DadosTemas = {
           "como": "Transformação."
         },
         {
-          "nome": "Colocação pronominal",
-          "frequencia": 3,
-          "porque": "Próclise, ênclise e mesóclise.",
-          "como": "Regras de uso."
-        },
-        {
           "nome": "Período composto por subordinação",
           "frequencia": 4,
           "porque": "Orações subordinadas.",
@@ -310,12 +304,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Orações coordenadas.",
           "como": "Sindéticas e assindéticas."
-        },
-        {
-          "nome": "Pontuação avançada",
-          "frequencia": 4,
-          "porque": "Vírgula, ponto e ponto e vírgula.",
-          "como": "Casos especiais."
         },
         {
           "nome": "Concordância nominal avançada",
@@ -340,12 +328,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Narração, descrição e dissertação.",
           "como": "Características de cada tipo."
-        },
-        {
-          "nome": "Gêneros textuais",
-          "frequencia": 3,
-          "porque": "Carta, ofício, e-mail e notícia.",
-          "como": "Estrutura e finalidade."
         },
         {
           "nome": "Funções da linguagem",
@@ -721,12 +703,6 @@ const DadosTemas = {
           "como": "Soma, subtração e simplificação."
         },
         {
-          "nome": "MMC e MDC",
-          "frequencia": 3,
-          "porque": "Múltiplos e divisores.",
-          "como": "Decomposição em fatores primos."
-        },
-        {
           "nome": "Sistema métrico e unidades",
           "frequencia": 2,
           "porque": "Conversões.",
@@ -1064,12 +1040,6 @@ const DadosTemas = {
           "como": "Diagramas lógicos."
         },
         {
-          "nome": "Silogismos",
-          "frequencia": 3,
-          "porque": "Premissa maior, menor e conclusão.",
-          "como": "Validade do argumento."
-        },
-        {
           "nome": "Falácias lógicas",
           "frequencia": 2,
           "porque": "Erros de argumentação.",
@@ -1086,12 +1056,6 @@ const DadosTemas = {
           "frequencia": 5,
           "porque": "e, ou, se...então, se e somente se.",
           "como": "Montar e interpretar tabelas."
-        },
-        {
-          "nome": "Equivalências lógicas",
-          "frequencia": 4,
-          "porque": "Transformar proposições.",
-          "como": "Contrapositiva e dupla negação."
         },
         {
           "nome": "Diagramas de Venn",
@@ -1455,18 +1419,6 @@ const DadosTemas = {
           "como": "CC, CCO e anexos."
         },
         {
-          "nome": "Redes de computadores",
-          "frequencia": 3,
-          "porque": "LAN, WAN e topologias.",
-          "como": "Roteador, switch e modem."
-        },
-        {
-          "nome": "Computação em nuvem",
-          "frequencia": 3,
-          "porque": "SaaS, PaaS e IaaS.",
-          "como": "Google Drive, OneDrive e Dropbox."
-        },
-        {
           "nome": "Malwares e antivírus",
           "frequencia": 3,
           "porque": "Vírus, worms e trojans.",
@@ -1798,28 +1750,10 @@ const DadosTemas = {
           "como": "Art.170."
         },
         {
-          "nome": "Controle de constitucionalidade",
-          "frequencia": 5,
-          "porque": "Tema central em concursos jurídicos.",
-          "como": "ADI, ADC, ADPF e ADO."
-        },
-        {
           "nome": "Remédios constitucionais",
           "frequencia": 5,
           "porque": "HC, MS, MI, HD e AP.",
           "como": "Cabimento e legitimidade."
-        },
-        {
-          "nome": "Nacionalidade",
-          "frequencia": 3,
-          "porque": "Brasileiros natos e naturalizados.",
-          "como": "Art.12."
-        },
-        {
-          "nome": "Direitos políticos",
-          "frequencia": 3,
-          "porque": "Alistamento e elegibilidade.",
-          "como": "Inelegibilidades e perda."
         },
         {
           "nome": "Partidos políticos",
@@ -1840,12 +1774,6 @@ const DadosTemas = {
           "como": "Art.62."
         },
         {
-          "nome": "Tribunal de Contas",
-          "frequencia": 3,
-          "porque": "Controle externo.",
-          "como": "Competências do TCU."
-        },
-        {
           "nome": "Ministério Público",
           "frequencia": 3,
           "porque": "Defesa da ordem jurídica.",
@@ -1856,12 +1784,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "AGU e Defensoria Pública.",
           "como": "Arts.131 a 135."
-        },
-        {
-          "nome": "Ordem social",
-          "frequencia": 3,
-          "porque": "Educação, cultura e desporto.",
-          "como": "Arts.193 a 232."
         },
         {
           "nome": "Meio ambiente na CF",
@@ -2093,12 +2015,6 @@ const DadosTemas = {
           "como": "Governança."
         },
         {
-          "nome": "Princípios da Administração Pública",
-          "frequencia": 5,
-          "porque": "Legalidade, impessoalidade.",
-          "como": "Art.37 CF."
-        },
-        {
           "nome": "Atos administrativos",
           "frequencia": 5,
           "porque": "Elementos e requisitos.",
@@ -2153,24 +2069,6 @@ const DadosTemas = {
           "como": "Hierárquico, disciplinar, regulamentar e de polícia."
         },
         {
-          "nome": "Organização administrativa",
-          "frequencia": 4,
-          "porque": "Desconcentração e descentralização.",
-          "como": "Autarquias, fundações e empresas estatais."
-        },
-        {
-          "nome": "Serviços públicos",
-          "frequencia": 3,
-          "porque": "Classificação e princípios.",
-          "como": "Continuidade e modicidade."
-        },
-        {
-          "nome": "Bens públicos",
-          "frequencia": 2,
-          "porque": "Uso comum, especial e dominical.",
-          "como": "Afetação e desafetação."
-        },
-        {
           "nome": "Intervenção na propriedade",
           "frequencia": 2,
           "porque": "Desapropriação e servidão.",
@@ -2195,22 +2093,10 @@ const DadosTemas = {
           "como": "Recursos administrativos."
         },
         {
-          "nome": "Agentes públicos",
-          "frequencia": 4,
-          "porque": "Cargo, emprego e função.",
-          "como": "Concurso público e estabilidade."
-        },
-        {
           "nome": "Regime jurídico dos servidores (Lei 8.112/90)",
           "frequencia": 4,
           "porque": "Provimento e vacância.",
           "como": "Direitos e deveres."
-        },
-        {
-          "nome": "Responsabilidade civil do Estado",
-          "frequencia": 4,
-          "porque": "Teoria do risco administrativo.",
-          "como": "Causas excludentes e atenuantes."
         }
       ]
     },
@@ -2442,18 +2328,6 @@ const DadosTemas = {
           "como": "Plataformas cidadãs."
         },
         {
-          "nome": "Inteligência Artificial",
-          "frequencia": 4,
-          "porque": "Impacto social e regulatório.",
-          "como": "Uso e ética."
-        },
-        {
-          "nome": "Mudanças climáticas",
-          "frequencia": 4,
-          "porque": "Acordos e COP.",
-          "como": "Efeito estufa e aquecimento."
-        },
-        {
           "nome": "Crise hídrica e energética",
           "frequencia": 3,
           "porque": "Recursos naturais.",
@@ -2524,12 +2398,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Produção e exportação.",
           "como": "Soja, milho e sustentabilidade."
-        },
-        {
-          "nome": "Política externa brasileira",
-          "frequencia": 2,
-          "porque": "BRICS, Mercosul e ONU.",
-          "como": "Posições recentes."
         }
       ]
     },
@@ -3375,12 +3243,6 @@ const DadosTemas = {
           "como": "Preparação, execução e consumação."
         },
         {
-          "nome": "Concurso de pessoas",
-          "frequencia": 3,
-          "porque": "Coautoria e participação.",
-          "como": "Art.29 do CP."
-        },
-        {
           "nome": "Crimes contra a vida",
           "frequencia": 3,
           "porque": "Homicídio e feminicídio.",
@@ -3421,12 +3283,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Regimes e progressão.",
           "como": "Fechado, semiaberto e aberto."
-        },
-        {
-          "nome": "Prescrição penal",
-          "frequencia": 3,
-          "porque": "Extinção da punibilidade.",
-          "como": "Prazos e interrupções."
         },
         {
           "nome": "Lei de Abuso de Autoridade (Lei 13.869/19)",
@@ -3748,52 +3604,16 @@ const DadosTemas = {
           "como": "Tabela de carências."
         },
         {
-          "nome": "Aposentadoria por idade",
-          "frequencia": 4,
-          "porque": "Urbana, rural e híbrida.",
-          "como": "Idade mínima e carência."
-        },
-        {
-          "nome": "Aposentadoria por tempo de contribuição",
-          "frequencia": 3,
-          "porque": "Regras de transição.",
-          "como": "EC 103/19."
-        },
-        {
           "nome": "Aposentadoria por invalidez (incapacidade permanente)",
           "frequencia": 3,
           "porque": "Requisitos e valor.",
           "como": "Adicional de 25%."
         },
         {
-          "nome": "Aposentadoria especial",
-          "frequencia": 3,
-          "porque": "Agentes nocivos à saúde.",
-          "como": "Tempo de exposição."
-        },
-        {
           "nome": "Auxílio-doença (incapacidade temporária)",
           "frequencia": 3,
           "porque": "Requisitos e cálculo.",
           "como": "Perícia e carência."
-        },
-        {
-          "nome": "Salário-maternidade",
-          "frequencia": 3,
-          "porque": "Benefício às seguradas.",
-          "como": "Prazo e valor."
-        },
-        {
-          "nome": "Pensão por morte",
-          "frequencia": 4,
-          "porque": "Dependentes e valor do benefício.",
-          "como": "EC 103/19."
-        },
-        {
-          "nome": "Auxílio-reclusão",
-          "frequencia": 3,
-          "porque": "Dependentes do preso.",
-          "como": "Baixa renda."
         },
         {
           "nome": "Custeio da seguridade social",
@@ -4073,12 +3893,6 @@ const DadosTemas = {
           "como": "Beccaria, Lombroso e labeling."
         },
         {
-          "nome": "Vitimologia",
-          "frequencia": 4,
-          "porque": "Estudo da vítima.",
-          "como": "Classificação e fatores de risco."
-        },
-        {
           "nome": "Prevenção criminal",
           "frequencia": 3,
           "porque": "Primária, secundária e terciária.",
@@ -4131,12 +3945,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Corrupção e lavagem.",
           "como": "Sutherland."
-        },
-        {
-          "nome": "Criminalidade organizada",
-          "frequencia": 3,
-          "porque": "Facções e milícias.",
-          "como": "Lei 12.850/13."
         },
         {
           "nome": "Política criminal e segurança pública",
@@ -4416,12 +4224,6 @@ const DadosTemas = {
           "como": "Nulidade e anulabilidade."
         },
         {
-          "nome": "Prescrição e decadência",
-          "frequencia": 4,
-          "porque": "Prazos e diferenças.",
-          "como": "Arts.189 a 211."
-        },
-        {
           "nome": "Obrigações: modalidades",
           "frequencia": 3,
           "porque": "Dar, fazer e não fazer.",
@@ -4669,12 +4471,6 @@ const DadosTemas = {
           "como": "Idade mínima."
         },
         {
-          "nome": "Justiça do trabalho",
-          "frequencia": 4,
-          "porque": "Competência.",
-          "como": "TRT e TST."
-        },
-        {
           "nome": "Dissídio coletivo",
           "frequencia": 2,
           "porque": "Conflito coletivo.",
@@ -4777,12 +4573,6 @@ const DadosTemas = {
           "como": "Cálculo, período aquisitivo e concessivo."
         },
         {
-          "nome": "Aviso prévio",
-          "frequencia": 3,
-          "porque": "Trabalhado e indenizado.",
-          "como": "Proporcional ao tempo de serviço."
-        },
-        {
           "nome": "Estabilidade e garantias provisórias",
           "frequencia": 3,
           "porque": "Gestante, CIPA e acidentado.",
@@ -4807,12 +4597,6 @@ const DadosTemas = {
           "como": "Arts.372 a 401 da CLT."
         },
         {
-          "nome": "Segurança e medicina do trabalho",
-          "frequencia": 2,
-          "porque": "CIPA, PPRA e PCMSO.",
-          "como": "NRs e fiscalização."
-        },
-        {
           "nome": "Duração do trabalho e intervalos",
           "frequencia": 4,
           "porque": "Jornada máxima e descanso.",
@@ -4823,12 +4607,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Adicionais e redução da hora noturna.",
           "como": "52 minutos e 30 segundos."
-        },
-        {
-          "nome": "Prescrição trabalhista",
-          "frequencia": 3,
-          "porque": "Prazos para reclamar.",
-          "como": "Bienal e quinquenal."
         }
       ]
     },
@@ -5054,12 +4832,6 @@ const DadosTemas = {
           "como": "Auditoria e compliance."
         },
         {
-          "nome": "Planejamento estratégico",
-          "frequencia": 4,
-          "porque": "Visão de futuro.",
-          "como": "SWOT."
-        },
-        {
           "nome": "Organização e estrutura",
           "frequencia": 4,
           "porque": "Departamentalização.",
@@ -5076,42 +4848,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Teorias.",
           "como": "Maslow."
-        },
-        {
-          "nome": "Comunicação organizacional",
-          "frequencia": 3,
-          "porque": "Canais.",
-          "como": "Feedback."
-        },
-        {
-          "nome": "Gestão de pessoas",
-          "frequencia": 4,
-          "porque": "Recrutamento e seleção.",
-          "como": "Treinamento."
-        },
-        {
-          "nome": "Controle administrativo",
-          "frequencia": 3,
-          "porque": "Medição de resultados.",
-          "como": "Indicadores."
-        },
-        {
-          "nome": "Qualidade total",
-          "frequencia": 3,
-          "porque": "Excelência operacional.",
-          "como": "PDCA."
-        },
-        {
-          "nome": "Gestão por processos",
-          "frequencia": 3,
-          "porque": "Fluxos.",
-          "como": "Mapeamento."
-        },
-        {
-          "nome": "Responsabilidade social corporativa",
-          "frequencia": 2,
-          "porque": "Sustentabilidade.",
-          "como": "ESG."
         },
         {
           "nome": "Inteligência competitiva",
@@ -5144,18 +4880,6 @@ const DadosTemas = {
           "como": "Conselho."
         },
         {
-          "nome": "Planejamento estratégico",
-          "frequencia": 4,
-          "porque": "Missão, visão e valores.",
-          "como": "Análise SWOT."
-        },
-        {
-          "nome": "Processo decisório",
-          "frequencia": 3,
-          "porque": "Racionalidade e intuição.",
-          "como": "Modelos de decisão."
-        },
-        {
           "nome": "Liderança e motivação",
           "frequencia": 3,
           "porque": "Teorias comportamentais.",
@@ -5166,18 +4890,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Valores compartilhados.",
           "como": "Socialização e engajamento."
-        },
-        {
-          "nome": "Comunicação organizacional",
-          "frequencia": 2,
-          "porque": "Fluxos formais e informais.",
-          "como": "Rede de rumores."
-        },
-        {
-          "nome": "Gestão por competências",
-          "frequencia": 3,
-          "porque": "CHA: conhecimento, habilidade e atitude.",
-          "como": "Mapeamento e desenvolvimento."
         },
         {
           "nome": "Avaliação de desempenho",
@@ -5445,12 +5157,6 @@ const DadosTemas = {
           "como": "SPED."
         },
         {
-          "nome": "Patrimônio líquido",
-          "frequencia": 4,
-          "porque": "Capital e reservas.",
-          "como": "Apuração."
-        },
-        {
           "nome": "Ativos circulantes",
           "frequencia": 4,
           "porque": "Liquidez imediata.",
@@ -5469,12 +5175,6 @@ const DadosTemas = {
           "como": "Rateio."
         },
         {
-          "nome": "Estoques",
-          "frequencia": 4,
-          "porque": "Avaliação PEPS, UEPS.",
-          "como": "Custo."
-        },
-        {
           "nome": "Receitas e despesas",
           "frequencia": 4,
           "porque": "Demonstração do resultado.",
@@ -5487,40 +5187,16 @@ const DadosTemas = {
           "como": "Fechamento."
         },
         {
-          "nome": "Balanço patrimonial",
-          "frequencia": 5,
-          "porque": "Posição financeira.",
-          "como": "Ativo e passivo."
-        },
-        {
-          "nome": "Demonstração do fluxo de caixa",
-          "frequencia": 3,
-          "porque": "Geração de caixa.",
-          "como": "Método direto."
-        },
-        {
           "nome": "CPC e normas contábeis",
           "frequencia": 3,
           "porque": "Regulamentação técnica.",
           "como": "Comitê."
         },
         {
-          "nome": "Contabilidade gerencial",
-          "frequencia": 3,
-          "porque": "Análise de custos.",
-          "como": "Decisões."
-        },
-        {
           "nome": "Avaliação de ativos",
           "frequencia": 2,
           "porque": "Imobilizado e intangível.",
           "como": "Reavaliação."
-        },
-        {
-          "nome": "Contabilidade pública",
-          "frequencia": 3,
-          "porque": "Lei 4.320.",
-          "como": "Orçamento."
         },
         {
           "nome": "Auditoria contábil",
@@ -5539,12 +5215,6 @@ const DadosTemas = {
           "frequencia": 5,
           "porque": "Classificação das contas.",
           "como": "Circulante e não circulante."
-        },
-        {
-          "nome": "Balanço patrimonial",
-          "frequencia": 5,
-          "porque": "Demonstração obrigatória.",
-          "como": "Lei 6.404/76."
         },
         {
           "nome": "Demonstração do Resultado do Exercício (DRE)",
@@ -5593,12 +5263,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Índices financeiros.",
           "como": "Liquidez e endividamento."
-        },
-        {
-          "nome": "Contabilidade de custos",
-          "frequencia": 3,
-          "porque": "Custeio por absorção e variável.",
-          "como": "Ponto de equilíbrio."
         },
         {
           "nome": "Contabilidade pública: Lei 4.320/64 e MCASP",
@@ -5818,34 +5482,16 @@ const DadosTemas = {
           "como": "Indicadores."
         },
         {
-          "nome": "Teorias da aprendizagem",
-          "frequencia": 5,
-          "porque": "Base pedagógica.",
-          "como": "Piaget e Vygotsky."
-        },
-        {
           "nome": "Currículo escolar",
           "frequencia": 4,
           "porque": "Planejamento curricular.",
           "como": "BNCC."
         },
         {
-          "nome": "Didática",
-          "frequencia": 5,
-          "porque": "Métodos de ensino.",
-          "como": "Estratégias."
-        },
-        {
           "nome": "Psicologia da educação",
           "frequencia": 3,
           "porque": "Desenvolvimento infantil.",
           "como": "Estágios."
-        },
-        {
-          "nome": "Gestão escolar",
-          "frequencia": 3,
-          "porque": "Administração da escola.",
-          "como": "Liderança."
         },
         {
           "nome": "Inclusão educacional",
@@ -5858,18 +5504,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Necessidades específicas.",
           "como": "Plano."
-        },
-        {
-          "nome": "Políticas públicas educacionais",
-          "frequencia": 3,
-          "porque": "Legislação.",
-          "como": "LDB."
-        },
-        {
-          "nome": "Avaliação da aprendizagem",
-          "frequencia": 4,
-          "porque": "Provas e feedback.",
-          "como": "Formativa."
         },
         {
           "nome": "Tecnologias educacionais",
@@ -5902,34 +5536,10 @@ const DadosTemas = {
           "como": "Comunicação."
         },
         {
-          "nome": "Educação infantil",
-          "frequencia": 3,
-          "porque": "Primeira etapa.",
-          "como": "Brincadeira."
-        },
-        {
-          "nome": "Teorias da aprendizagem",
-          "frequencia": 5,
-          "porque": "Piaget, Vygotsky, Wallon e Skinner.",
-          "como": "Construtivismo e sociointeracionismo."
-        },
-        {
           "nome": "Didática e planejamento de ensino",
           "frequencia": 4,
           "porque": "Objetivos, conteúdos e avaliação.",
           "como": "Plano de aula."
-        },
-        {
-          "nome": "Avaliação da aprendizagem",
-          "frequencia": 4,
-          "porque": "Diagnóstica, formativa e somativa.",
-          "como": "Critérios e instrumentos."
-        },
-        {
-          "nome": "Currículo escolar",
-          "frequencia": 4,
-          "porque": "Concepções e organização.",
-          "como": "BNCC e diretrizes."
         },
         {
           "nome": "Base Nacional Comum Curricular (BNCC)",
@@ -6145,24 +5755,6 @@ const DadosTemas = {
           "como": "Ideias conectadas."
         },
         {
-          "nome": "Norma culta",
-          "frequencia": 4,
-          "porque": "Correção.",
-          "como": "Gramática."
-        },
-        {
-          "nome": "Intertextualidade",
-          "frequencia": 3,
-          "porque": "Referências.",
-          "como": "Citações."
-        },
-        {
-          "nome": "Proposta de intervenção",
-          "frequencia": 4,
-          "porque": "Solução.",
-          "como": "Agente, ação, meio."
-        },
-        {
           "nome": "Tema complexo",
           "frequencia": 3,
           "porque": "Interpretação.",
@@ -6205,24 +5797,6 @@ const DadosTemas = {
           "como": "Dados e exemplos."
         },
         {
-          "nome": "Coesão textual",
-          "frequencia": 4,
-          "porque": "Articulações.",
-          "como": "Conectores."
-        },
-        {
-          "nome": "Coerência",
-          "frequencia": 4,
-          "porque": "Sentido.",
-          "como": "Lógica."
-        },
-        {
-          "nome": "Norma culta",
-          "frequencia": 5,
-          "porque": "Gramática.",
-          "como": "Ortografia."
-        },
-        {
           "nome": "Ortografia",
           "frequencia": 4,
           "porque": "Acerto.",
@@ -6235,40 +5809,10 @@ const DadosTemas = {
           "como": "Vírgula."
         },
         {
-          "nome": "Variação linguística",
-          "frequencia": 2,
-          "porque": "Uso.",
-          "como": "Formal."
-        },
-        {
-          "nome": "Intertextualidade",
-          "frequencia": 2,
-          "porque": "Referências.",
-          "como": "Citações."
-        },
-        {
-          "nome": "Introdução",
-          "frequencia": 4,
-          "porque": "Apresentação.",
-          "como": "Tese."
-        },
-        {
-          "nome": "Desenvolvimento",
-          "frequencia": 5,
-          "porque": "Corpo.",
-          "como": "Parágrafos."
-        },
-        {
           "nome": "Conclusão",
           "frequencia": 5,
           "porque": "Fechamento.",
           "como": "Síntese."
-        },
-        {
-          "nome": "Proposta de intervenção",
-          "frequencia": 5,
-          "porque": "Solução.",
-          "como": "5 elementos."
         },
         {
           "nome": "Estilo",
@@ -6704,24 +6248,6 @@ const DadosTemas = {
           "como": "Dom Pedro II."
         },
         {
-          "nome": "Proclamação da República",
-          "frequencia": 4,
-          "porque": "1889.",
-          "como": "Marechal Deodoro."
-        },
-        {
-          "nome": "Era Vargas",
-          "frequencia": 4,
-          "porque": "Estado Novo.",
-          "como": "Getúlio."
-        },
-        {
-          "nome": "Ditadura militar",
-          "frequencia": 4,
-          "porque": "1964-1985.",
-          "como": "Repressão."
-        },
-        {
           "nome": "Redemocratização",
           "frequencia": 3,
           "porque": "Constituição de 1988.",
@@ -6738,12 +6264,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Açúcar.",
           "como": "Pau-brasil."
-        },
-        {
-          "nome": "Movimentos sociais",
-          "frequencia": 3,
-          "porque": "Lutas.",
-          "como": "Canudos."
         },
         {
           "nome": "Cultura brasileira",
@@ -6794,34 +6314,10 @@ const DadosTemas = {
           "como": "D. Pedro II."
         },
         {
-          "nome": "Proclamação da República",
-          "frequencia": 3,
-          "porque": "1889.",
-          "como": "Marechal."
-        },
-        {
           "nome": "República Velha",
           "frequencia": 3,
           "porque": "Coronelismo.",
           "como": "Caudilho."
-        },
-        {
-          "nome": "Era Vargas",
-          "frequencia": 4,
-          "porque": "Estado Novo.",
-          "como": "Trabalhismo."
-        },
-        {
-          "nome": "Ditadura militar",
-          "frequencia": 4,
-          "porque": "1964.",
-          "como": "Ato Institucional."
-        },
-        {
-          "nome": "Redemocratização",
-          "frequencia": 3,
-          "porque": "Constituição 1988.",
-          "como": "Diretas."
         },
         {
           "nome": "História econômica",
@@ -6846,12 +6342,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Gênero.",
           "como": "Movimentos."
-        },
-        {
-          "nome": "História afro-brasileira",
-          "frequencia": 3,
-          "porque": "Africanidade.",
-          "como": "Resistência."
         },
         {
           "nome": "Brasil Colônia: administração",
@@ -6900,12 +6390,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Economia cafeeira.",
           "como": "Convênio Taubaté."
-        },
-        {
-          "nome": "Revolução de 1930",
-          "frequencia": 3,
-          "porque": "Fim República Velha.",
-          "como": "Getúlio Vargas."
         },
         {
           "nome": "CLT e trabalhismo",
@@ -7052,12 +6536,6 @@ const DadosTemas = {
           "como": "D. João VI."
         },
         {
-          "nome": "Independência do Brasil",
-          "frequencia": 4,
-          "porque": "1822.",
-          "como": "Grito do Ipiranga."
-        },
-        {
           "nome": "Confederação do Equador",
           "frequencia": 2,
           "porque": "1824.",
@@ -7148,34 +6626,10 @@ const DadosTemas = {
           "como": "Zumbi."
         },
         {
-          "nome": "Inconfidência Mineira",
-          "frequencia": 4,
-          "porque": "1789.",
-          "como": "Tiradentes."
-        },
-        {
-          "nome": "Independência do Brasil",
-          "frequencia": 4,
-          "porque": "1822.",
-          "como": "D. Pedro I."
-        },
-        {
-          "nome": "Confederação do Equador",
-          "frequencia": 2,
-          "porque": "1824.",
-          "como": "Frei Caneca."
-        },
-        {
           "nome": "Cabanagem",
           "frequencia": 2,
           "porque": "1835-1840.",
           "como": "Pará."
-        },
-        {
-          "nome": "Guerra dos Farrapos",
-          "frequencia": 2,
-          "porque": "1835-1845.",
-          "como": "República."
         },
         {
           "nome": "Sabinada",
@@ -7323,18 +6777,6 @@ const DadosTemas = {
           "como": "IDH."
         },
         {
-          "nome": "Relevo brasileiro",
-          "frequencia": 4,
-          "porque": "Planaltos e planícies.",
-          "como": "Formações."
-        },
-        {
-          "nome": "Hidrografia",
-          "frequencia": 4,
-          "porque": "Bacias hidrográficas.",
-          "como": "Amazonas e São Francisco."
-        },
-        {
           "nome": "População",
           "frequencia": 4,
           "porque": "Demografia.",
@@ -7371,24 +6813,6 @@ const DadosTemas = {
           "como": "Fluxos."
         },
         {
-          "nome": "Urbanização",
-          "frequencia": 4,
-          "porque": "Cidades.",
-          "como": "Metrópoles."
-        },
-        {
-          "nome": "Meio ambiente",
-          "frequencia": 4,
-          "porque": "Desmatamento.",
-          "como": "Conservação."
-        },
-        {
-          "nome": "Cartografia",
-          "frequencia": 3,
-          "porque": "Escalas e projeções.",
-          "como": "Leitura de mapas."
-        },
-        {
           "nome": "Geopolítica",
           "frequencia": 2,
           "porque": "Poder territorial.",
@@ -7401,18 +6825,6 @@ const DadosTemas = {
           "como": "Efeito estufa."
         },
         {
-          "nome": "Recursos naturais",
-          "frequencia": 3,
-          "porque": "Uso sustentável.",
-          "como": "Mineração."
-        },
-        {
-          "nome": "Cartografia",
-          "frequencia": 3,
-          "porque": "Mapas.",
-          "como": "Escalas."
-        },
-        {
           "nome": "Geologia",
           "frequencia": 3,
           "porque": "Território.",
@@ -7423,12 +6835,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Climas.",
           "como": "Brasil."
-        },
-        {
-          "nome": "Hidrografia",
-          "frequencia": 3,
-          "porque": "Águas.",
-          "como": "Bacias."
         },
         {
           "nome": "Geomorfologia",
@@ -7449,46 +6855,16 @@ const DadosTemas = {
           "como": "Crescimento."
         },
         {
-          "nome": "Urbanização",
-          "frequencia": 3,
-          "porque": "Cidades.",
-          "como": "Metrópole."
-        },
-        {
           "nome": "Industrialização",
           "frequencia": 2,
           "porque": "Economia.",
           "como": "Complexos."
         },
         {
-          "nome": "Agricultura",
-          "frequencia": 3,
-          "porque": "Produção.",
-          "como": "Lavouras."
-        },
-        {
-          "nome": "Geopolítica",
-          "frequencia": 2,
-          "porque": "Poder.",
-          "como": "Território."
-        },
-        {
-          "nome": "Globalização",
-          "frequencia": 2,
-          "porque": "Mundo.",
-          "como": "Fluxos."
-        },
-        {
           "nome": "Sustentabilidade",
           "frequencia": 3,
           "porque": "Meio ambiente.",
           "como": "Desenvolvimento."
-        },
-        {
-          "nome": "Regiões brasileiras",
-          "frequencia": 4,
-          "porque": "Características.",
-          "como": "Nordeste."
         },
         {
           "nome": "Regionalização do Brasil",
@@ -7749,12 +7125,6 @@ const DadosTemas = {
           "como": "Amazônica e Paraná."
         },
         {
-          "nome": "Relevo brasileiro",
-          "frequencia": 2,
-          "porque": "Classificação.",
-          "como": "Planalto e planície."
-        },
-        {
           "nome": "Clima do Brasil",
           "frequencia": 3,
           "porque": "Tipos.",
@@ -7868,12 +7238,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Seleção natural.",
           "como": "Darwin."
-        },
-        {
-          "nome": "Fisiologia humana",
-          "frequencia": 4,
-          "porque": "Sistemas cardiovasculares.",
-          "como": "Respiração e digestão."
         },
         {
           "nome": "Ecologia",
@@ -8020,70 +7384,16 @@ const DadosTemas = {
           "como": "Engenharia."
         },
         {
-          "nome": "Ecologia",
-          "frequencia": 4,
-          "porque": "Interações.",
-          "como": "Cadeias."
-        },
-        {
           "nome": "Biomas brasileiros",
           "frequencia": 3,
           "porque": "Amazônia.",
           "como": "Características."
         },
         {
-          "nome": "Fisiologia humana",
-          "frequencia": 3,
-          "porque": "Sistemas.",
-          "como": "Circulatório."
-        },
-        {
           "nome": "Genética",
           "frequencia": 4,
           "porque": "Herdabilidade.",
           "como": "Leis de Mendel."
-        },
-        {
-          "nome": "Evolução",
-          "frequencia": 3,
-          "porque": "Origem.",
-          "como": "Seleção."
-        },
-        {
-          "nome": "Citologia",
-          "frequencia": 3,
-          "porque": "Célula.",
-          "como": "Organelas."
-        },
-        {
-          "nome": "Bioquímica",
-          "frequencia": 2,
-          "porque": "Moléculas.",
-          "como": "Proteínas."
-        },
-        {
-          "nome": "Imunologia",
-          "frequencia": 2,
-          "porque": "Defesa.",
-          "como": "Anticorpos."
-        },
-        {
-          "nome": "Microbiologia",
-          "frequencia": 2,
-          "porque": "Microorganismos.",
-          "como": "Bactérias."
-        },
-        {
-          "nome": "Zoologia",
-          "frequencia": 2,
-          "porque": "Animais.",
-          "como": "Classificação."
-        },
-        {
-          "nome": "Botânica",
-          "frequencia": 2,
-          "porque": "Plantas.",
-          "como": "Fotossíntese."
         },
         {
           "nome": "Evolução humana",
@@ -8210,18 +7520,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Reprodução.",
           "como": "Mitose e meiose."
-        },
-        {
-          "nome": "Embriologia",
-          "frequencia": 2,
-          "porque": "Desenvolvimento.",
-          "como": "Folhetos germinativos."
-        },
-        {
-          "nome": "Histologia",
-          "frequencia": 2,
-          "porque": "Tecidos.",
-          "como": "Epitelial e conjuntivo."
         },
         {
           "nome": "Taxonomia",
@@ -8459,12 +7757,6 @@ const DadosTemas = {
           "como": "Força e aceleração."
         },
         {
-          "nome": "Energia e trabalho",
-          "frequencia": 4,
-          "porque": "Conservação.",
-          "como": "Trabalho = força × deslocamento."
-        },
-        {
           "nome": "Ondulatória",
           "frequencia": 3,
           "porque": "Som e luz.",
@@ -8621,36 +7913,6 @@ const DadosTemas = {
           "como": "Leis de Newton."
         },
         {
-          "nome": "Termodinâmica",
-          "frequencia": 3,
-          "porque": "Calor.",
-          "como": "Leis."
-        },
-        {
-          "nome": "Óptica",
-          "frequencia": 3,
-          "porque": "Luz.",
-          "como": "Refração."
-        },
-        {
-          "nome": "Eletromagnetismo",
-          "frequencia": 3,
-          "porque": "Campos.",
-          "como": "Lei de Faraday."
-        },
-        {
-          "nome": "Ondas",
-          "frequencia": 3,
-          "porque": "Vibrações.",
-          "como": "Frequência."
-        },
-        {
-          "nome": "Física moderna",
-          "frequencia": 2,
-          "porque": "Quântica.",
-          "como": "Relatividade."
-        },
-        {
           "nome": "Mecânica quântica",
           "frequencia": 2,
           "porque": "Partículas.",
@@ -8663,36 +7925,6 @@ const DadosTemas = {
           "como": "Estrelas."
         },
         {
-          "nome": "Acústica",
-          "frequencia": 2,
-          "porque": "Som.",
-          "como": "Frequência."
-        },
-        {
-          "nome": "Hidrostática",
-          "frequencia": 3,
-          "porque": "Fluídos.",
-          "como": "Pressão."
-        },
-        {
-          "nome": "Hidrodinâmica",
-          "frequencia": 2,
-          "porque": "Fluxo.",
-          "como": "Bernoulli."
-        },
-        {
-          "nome": "Eletrostática",
-          "frequencia": 3,
-          "porque": "Cargas.",
-          "como": "Lei de Coulomb."
-        },
-        {
-          "nome": "Eletrodinâmica",
-          "frequencia": 3,
-          "porque": "Corrente.",
-          "como": "Ohm."
-        },
-        {
           "nome": "Física experimental",
           "frequencia": 2,
           "porque": "Prática.",
@@ -8703,18 +7935,6 @@ const DadosTemas = {
           "frequencia": 5,
           "porque": "Movimento uniforme.",
           "como": "MU e MUV."
-        },
-        {
-          "nome": "Dinâmica",
-          "frequencia": 5,
-          "porque": "Forças.",
-          "como": "Leis de Newton."
-        },
-        {
-          "nome": "Gravitação",
-          "frequencia": 3,
-          "porque": "Universal.",
-          "como": "Leis de Kepler."
         },
         {
           "nome": "Trabalho e energia",
@@ -8763,24 +7983,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Mudança de meio.",
           "como": "Lei de Snell."
-        },
-        {
-          "nome": "Ondulatória",
-          "frequencia": 3,
-          "porque": "Fenômenos.",
-          "como": "Interferência."
-        },
-        {
-          "nome": "Circuitos elétricos",
-          "frequencia": 3,
-          "porque": "Resistores.",
-          "como": "Leis de Kirchhoff."
-        },
-        {
-          "nome": "Magnetismo",
-          "frequencia": 2,
-          "porque": "Campos.",
-          "como": "Força magnética."
         },
         {
           "nome": "Movimento circular uniforme",
@@ -8871,12 +8073,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Armazenamento.",
           "como": "Capacitância."
-        },
-        {
-          "nome": "Indução eletromagnética",
-          "frequencia": 2,
-          "porque": "Faraday.",
-          "como": "Corrente induzida."
         },
         {
           "nome": "Transformadores",
@@ -9114,18 +8310,6 @@ const DadosTemas = {
           "como": "pH <7 ácido, =7 neutro, >7 básico — e cada unidade vale 10×. Ácido doa H⁺; base doa OH⁻."
         },
         {
-          "nome": "Estequiometria",
-          "frequencia": 5,
-          "porque": "Cálculo de reagentes.",
-          "como": "Proporções molares."
-        },
-        {
-          "nome": "Ligações químicas",
-          "frequencia": 4,
-          "porque": "Iônica, covalente e metálica.",
-          "como": "Polaridade."
-        },
-        {
           "nome": "Funções inorgânicas",
           "frequencia": 4,
           "porque": "Ácidos, bases, sais e óxidos.",
@@ -9154,12 +8338,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Kc e Kp.",
           "como": "Princípio de Le Chatelier."
-        },
-        {
-          "nome": "Química orgânica",
-          "frequencia": 4,
-          "porque": "Hidrocarbonetos.",
-          "como": "Funções orgânicas."
         },
         {
           "nome": "Isomeria",
@@ -9204,28 +8382,10 @@ const DadosTemas = {
           "como": "Grandezas."
         },
         {
-          "nome": "Termoquímica",
-          "frequencia": 3,
-          "porque": "Entalpia.",
-          "como": "Calor."
-        },
-        {
-          "nome": "Eletroquímica",
-          "frequencia": 3,
-          "porque": "Pilhas e eletrólise.",
-          "como": "Oxidoredução."
-        },
-        {
           "nome": "Química analítica",
           "frequencia": 2,
           "porque": "Análise.",
           "como": "Titulometria."
-        },
-        {
-          "nome": "Química ambiental",
-          "frequencia": 3,
-          "porque": "Poluição.",
-          "como": "Efeito estufa."
         },
         {
           "nome": "Físico-química",
@@ -9238,12 +8398,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Orgânica.",
           "como": "Hidrocarbonetos."
-        },
-        {
-          "nome": "Bioquímica",
-          "frequencia": 3,
-          "porque": "Metabolismo.",
-          "como": "Enzimas."
         },
         {
           "nome": "Minerais e rochas",
@@ -9270,28 +8424,10 @@ const DadosTemas = {
           "como": "pH."
         },
         {
-          "nome": "Cinética química",
-          "frequencia": 3,
-          "porque": "Velocidade.",
-          "como": "Ordem."
-        },
-        {
           "nome": "Química nuclear",
           "frequencia": 2,
           "porque": "Isótopos.",
           "como": "Fissão."
-        },
-        {
-          "nome": "Ligações químicas",
-          "frequencia": 4,
-          "porque": "Formação.",
-          "como": "Tipos."
-        },
-        {
-          "nome": "Tabela periódica",
-          "frequencia": 4,
-          "porque": "Organização.",
-          "como": "Grupos."
         },
         {
           "nome": "Reações químicas",
@@ -9310,60 +8446,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "pH.",
           "como": "Escala."
-        },
-        {
-          "nome": "Termoquímica",
-          "frequencia": 3,
-          "porque": "Calor.",
-          "como": "Entalpia."
-        },
-        {
-          "nome": "Eletroquímica",
-          "frequencia": 3,
-          "porque": "Pilhas.",
-          "como": "Oxirredução."
-        },
-        {
-          "nome": "Cinética química",
-          "frequencia": 3,
-          "porque": "Velocidade.",
-          "como": "Catalisadores."
-        },
-        {
-          "nome": "Equilíbrio químico",
-          "frequencia": 3,
-          "porque": "Constante.",
-          "como": "Le Chatelier."
-        },
-        {
-          "nome": "Química orgânica",
-          "frequencia": 4,
-          "porque": "Carbono.",
-          "como": "Funções."
-        },
-        {
-          "nome": "Polímeros",
-          "frequencia": 2,
-          "porque": "Materiais.",
-          "como": "Síntese."
-        },
-        {
-          "nome": "Bioquímica",
-          "frequencia": 3,
-          "porque": "Vida.",
-          "como": "Metabolismo."
-        },
-        {
-          "nome": "Química ambiental",
-          "frequencia": 2,
-          "porque": "Meio ambiente.",
-          "como": "Poluição."
-        },
-        {
-          "nome": "Química analítica",
-          "frequencia": 2,
-          "porque": "Análise.",
-          "como": "Titulação."
         },
         {
           "nome": "Modelos atômicos",
@@ -9396,24 +8478,6 @@ const DadosTemas = {
           "como": "Ponte de hidrogênio."
         },
         {
-          "nome": "Funções inorgânicas",
-          "frequencia": 4,
-          "porque": "Ácidos, bases, sais e óxidos.",
-          "como": "Nomenclatura."
-        },
-        {
-          "nome": "Estequiometria",
-          "frequencia": 5,
-          "porque": "Cálculos.",
-          "como": "Regra de três."
-        },
-        {
-          "nome": "Soluções e concentração",
-          "frequencia": 3,
-          "porque": "Preparo.",
-          "como": "Molaridade."
-        },
-        {
           "nome": "pH e pOH",
           "frequencia": 3,
           "porque": "Acidez.",
@@ -9424,24 +8488,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Comportamento.",
           "como": "pH do sal."
-        },
-        {
-          "nome": "Radioatividade",
-          "frequencia": 2,
-          "porque": "Decaimento.",
-          "como": "Meia-vida."
-        },
-        {
-          "nome": "Isomeria",
-          "frequencia": 2,
-          "porque": "Estrutura.",
-          "como": "Plana e espacial."
-        },
-        {
-          "nome": "Reações orgânicas",
-          "frequencia": 3,
-          "porque": "Transformações.",
-          "como": "Adição e substituição."
         },
         {
           "nome": "Petróleo e combustíveis",
@@ -9841,12 +8887,6 @@ const DadosTemas = {
           "como": "Equações."
         },
         {
-          "nome": "Geometria espacial",
-          "frequencia": 3,
-          "porque": "Volumes e áreas.",
-          "como": "Prismas e pirâmides."
-        },
-        {
           "nome": "Matrizes",
           "frequencia": 3,
           "porque": "Operações.",
@@ -9889,12 +8929,6 @@ const DadosTemas = {
           "como": "Módulo."
         },
         {
-          "nome": "Logaritmos",
-          "frequencia": 4,
-          "porque": "Propriedades.",
-          "como": "Mudança de base."
-        },
-        {
           "nome": "Equações exponenciais",
           "frequencia": 3,
           "porque": "Crescimento.",
@@ -9907,12 +8941,6 @@ const DadosTemas = {
           "como": "Sinal."
         },
         {
-          "nome": "Matrizes",
-          "frequencia": 3,
-          "porque": "Operações.",
-          "como": "Multiplicação."
-        },
-        {
           "nome": "Determinantes",
           "frequencia": 3,
           "porque": "Sistemas.",
@@ -9923,24 +8951,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Resolução.",
           "como": "Escalonamento."
-        },
-        {
-          "nome": "Geometria analítica",
-          "frequencia": 4,
-          "porque": "Retas e cônicas.",
-          "como": "Equações."
-        },
-        {
-          "nome": "Trigonometria",
-          "frequencia": 4,
-          "porque": "Seno e cosseno.",
-          "como": "Círculo."
-        },
-        {
-          "nome": "Funções",
-          "frequencia": 4,
-          "porque": "Domínio e imagem.",
-          "como": "Gráfico."
         },
         {
           "nome": "Limites",
@@ -9961,34 +8971,10 @@ const DadosTemas = {
           "como": "Primitiva."
         },
         {
-          "nome": "Probabilidade",
-          "frequencia": 3,
-          "porque": "Eventos.",
-          "como": "Espaço amostral."
-        },
-        {
-          "nome": "Estatística",
-          "frequencia": 3,
-          "porque": "Dados.",
-          "como": "Média e desvio."
-        },
-        {
           "nome": "Sequências",
           "frequencia": 3,
           "porque": "PA e PG.",
           "como": "Termo geral."
-        },
-        {
-          "nome": "Números complexos",
-          "frequencia": 2,
-          "porque": "Forma algébrica.",
-          "como": "Conjugado."
-        },
-        {
-          "nome": "Geometria espacial",
-          "frequencia": 3,
-          "porque": "Volumes.",
-          "como": "Prismas e pirâmides."
         },
         {
           "nome": "Álgebra linear",
@@ -9997,34 +8983,16 @@ const DadosTemas = {
           "como": "Espaços vetoriais."
         },
         {
-          "nome": "Análise combinatória",
-          "frequencia": 3,
-          "porque": "Combinações.",
-          "como": "Permutações."
-        },
-        {
           "nome": "Matemática financeira",
           "frequencia": 3,
           "porque": "Juros.",
           "como": "Descontos."
         },
         {
-          "nome": "Estatística descritiva",
-          "frequencia": 2,
-          "porque": "Dados.",
-          "como": "Média."
-        },
-        {
           "nome": "Probabilidade condicional",
           "frequencia": 2,
           "porque": "Eventos dependentes.",
           "como": "Teorema de Bayes."
-        },
-        {
-          "nome": "Geometria analítica",
-          "frequencia": 3,
-          "porque": "Retas e cônicas.",
-          "como": "Equações."
         },
         {
           "nome": "Funções exponenciais",
@@ -10039,40 +9007,10 @@ const DadosTemas = {
           "como": "Seno cosseno."
         },
         {
-          "nome": "Inequações",
-          "frequencia": 2,
-          "porque": "Intervalos.",
-          "como": "Sinais."
-        },
-        {
           "nome": "Sistemas de equações",
           "frequencia": 3,
           "porque": "Múltiplas incógnitas.",
           "como": "Escalonamento."
-        },
-        {
-          "nome": "Números complexos",
-          "frequencia": 2,
-          "porque": "Forma algébrica.",
-          "como": "Módulo."
-        },
-        {
-          "nome": "Sequências",
-          "frequencia": 3,
-          "porque": "PA e PG.",
-          "como": "Termo geral."
-        },
-        {
-          "nome": "Logaritmos",
-          "frequencia": 3,
-          "porque": "Potências.",
-          "como": "Propriedades."
-        },
-        {
-          "nome": "Geometria plana",
-          "frequencia": 4,
-          "porque": "Figuras.",
-          "como": "Áreas."
         },
         {
           "nome": "Razão e proporção",
@@ -10103,24 +9041,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Arcos.",
           "como": "Radianos."
-        },
-        {
-          "nome": "Matrizes e determinantes",
-          "frequencia": 2,
-          "porque": "Tabelas.",
-          "como": "Regra de Sarrus."
-        },
-        {
-          "nome": "Estatística",
-          "frequencia": 3,
-          "porque": "Dados.",
-          "como": "Média, moda e mediana."
-        },
-        {
-          "nome": "Probabilidade",
-          "frequencia": 4,
-          "porque": "Eventos.",
-          "como": "Espaço amostral."
         },
         {
           "nome": "Conjuntos numéricos",
@@ -10525,12 +9445,6 @@ const DadosTemas = {
           "como": "P(A∪B) = P(A) + P(B) - P(A∩B)."
         },
         {
-          "nome": "Probabilidade condicional",
-          "frequencia": 3,
-          "porque": "Dependência.",
-          "como": "P(A|B)."
-        },
-        {
           "nome": "Distribuição binomial",
           "frequencia": 2,
           "porque": "Eventos repetidos.",
@@ -10621,12 +9535,6 @@ const DadosTemas = {
           "como": "Equação reduzida."
         },
         {
-          "nome": "Funções trigonométricas",
-          "frequencia": 3,
-          "porque": "Gráficos.",
-          "como": "Seno e cosseno."
-        },
-        {
           "nome": "Equações trigonométricas",
           "frequencia": 2,
           "porque": "Resolução.",
@@ -10649,12 +9557,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Dobro do arco.",
           "como": "sen(2a), cos(2a)."
-        },
-        {
-          "nome": "Juros compostos",
-          "frequencia": 4,
-          "porque": "Acumulação.",
-          "como": "M = C(1+i)^t."
         },
         {
           "nome": "Descontos simples e compostos",
@@ -10904,12 +9806,6 @@ const DadosTemas = {
           "como": "Descobertas."
         },
         {
-          "nome": "Literatura regionalista",
-          "frequencia": 3,
-          "porque": "Nordeste.",
-          "como": "Cordel."
-        },
-        {
           "nome": "Literatura afro-brasileira",
           "frequencia": 2,
           "porque": "Representatividade.",
@@ -10922,22 +9818,10 @@ const DadosTemas = {
           "como": "Mitos."
         },
         {
-          "nome": "Literatura contemporânea",
-          "frequencia": 2,
-          "porque": "Autores atuais.",
-          "como": "Temas atuais."
-        },
-        {
           "nome": "Romantismo",
           "frequencia": 4,
           "porque": "Movimento.",
           "como": "Autores."
-        },
-        {
-          "nome": "Realismo",
-          "frequencia": 4,
-          "porque": "Crítica.",
-          "como": "Machado."
         },
         {
           "nome": "Naturalismo",
@@ -10958,18 +9842,6 @@ const DadosTemas = {
           "como": "Autores."
         },
         {
-          "nome": "Modernismo",
-          "frequencia": 4,
-          "porque": "Semana de 22.",
-          "como": "Gerações."
-        },
-        {
-          "nome": "Poesia brasileira",
-          "frequencia": 3,
-          "porque": "Versos.",
-          "como": "Figuras."
-        },
-        {
           "nome": "Prosa brasileira",
           "frequencia": 3,
           "porque": "Narrativa.",
@@ -10979,36 +9851,6 @@ const DadosTemas = {
           "nome": "Teatro",
           "frequencia": 2,
           "porque": "Dramaturgia.",
-          "como": "Autores."
-        },
-        {
-          "nome": "Crônica",
-          "frequencia": 2,
-          "porque": "Gênero.",
-          "como": "Observação."
-        },
-        {
-          "nome": "Conto",
-          "frequencia": 3,
-          "porque": "Breve.",
-          "como": "Estrutura."
-        },
-        {
-          "nome": "Literatura regionalista",
-          "frequencia": 2,
-          "porque": "Nordeste.",
-          "como": "Cordel."
-        },
-        {
-          "nome": "Literatura de cordel",
-          "frequencia": 2,
-          "porque": "Popular.",
-          "como": "Folheto."
-        },
-        {
-          "nome": "Literatura infantojuvenil",
-          "frequencia": 2,
-          "porque": "Infância.",
           "como": "Autores."
         },
         {
@@ -11048,18 +9890,6 @@ const DadosTemas = {
           "como": "Olavo Bilac."
         },
         {
-          "nome": "Simbolismo",
-          "frequencia": 2,
-          "porque": "Subjetivismo.",
-          "como": "Cruz e Sousa."
-        },
-        {
-          "nome": "Pré-Modernismo",
-          "frequencia": 3,
-          "porque": "Transição.",
-          "como": "Lima Barreto."
-        },
-        {
           "nome": "Modernismo: 1ª fase",
           "frequencia": 4,
           "porque": "Semana de 22.",
@@ -11076,12 +9906,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Guimarães Rosa.",
           "como": "Grande Sertão."
-        },
-        {
-          "nome": "Poesia concreta",
-          "frequencia": 2,
-          "porque": "Vanguarda.",
-          "como": "Décio Pignatari."
         },
         {
           "nome": "Trovadorismo",
@@ -11130,12 +9954,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Interpretação.",
           "como": "Versificação."
-        },
-        {
-          "nome": "Gêneros literários",
-          "frequencia": 3,
-          "porque": "Classificação.",
-          "como": "Lírico, épico, dramático."
         },
         {
           "nome": "Análise de personagens",
@@ -11246,22 +10064,10 @@ const DadosTemas = {
           "como": "Clarice Lispector."
         },
         {
-          "nome": "Literatura de cordel",
-          "frequencia": 2,
-          "porque": "Nordestina.",
-          "como": "Métrica e rima."
-        },
-        {
           "nome": "Realismo mágico",
           "frequencia": 2,
           "porque": "Fantástico cotidiano.",
           "como": "Gabriel García Márquez."
-        },
-        {
-          "nome": "Literatura infantojuvenil",
-          "frequencia": 2,
-          "porque": "Formação.",
-          "como": "Monteiro Lobato."
         },
         {
           "nome": "Literatura e direitos humanos",
@@ -11439,12 +10245,6 @@ const DadosTemas = {
           "como": "Context."
         },
         {
-          "nome": "Reading comprehension",
-          "frequencia": 5,
-          "porque": "Main idea.",
-          "como": "Infer."
-        },
-        {
           "nome": "Text types",
           "frequencia": 3,
           "porque": "Genres.",
@@ -11487,18 +10287,6 @@ const DadosTemas = {
           "como": "Rules."
         },
         {
-          "nome": "Writing",
-          "frequencia": 3,
-          "porque": "Production.",
-          "como": "Essay."
-        },
-        {
-          "nome": "Listening",
-          "frequencia": 2,
-          "porque": "Comprehension.",
-          "como": "Audio."
-        },
-        {
           "nome": "Speaking",
           "frequencia": 2,
           "porque": "Oral.",
@@ -11511,40 +10299,10 @@ const DadosTemas = {
           "como": "Tenses."
         },
         {
-          "nome": "Collocations",
-          "frequencia": 2,
-          "porque": "Word combos.",
-          "como": "Natural."
-        },
-        {
-          "nome": "Reading comprehension",
-          "frequencia": 5,
-          "porque": "Interpretação.",
-          "como": "Inference."
-        },
-        {
-          "nome": "Vocabulary",
-          "frequencia": 4,
-          "porque": "Lexical.",
-          "como": "Context."
-        },
-        {
-          "nome": "Grammar",
-          "frequencia": 4,
-          "porque": "Rules.",
-          "como": "Structure."
-        },
-        {
           "nome": "Pronouns",
           "frequencia": 3,
           "porque": "Reference.",
           "como": "Relative."
-        },
-        {
-          "nome": "Prepositions",
-          "frequencia": 3,
-          "porque": "Usage.",
-          "como": "In/on/at."
         },
         {
           "nome": "Modal verbs",
@@ -11553,52 +10311,10 @@ const DadosTemas = {
           "como": "Can/must."
         },
         {
-          "nome": "Conditionals",
-          "frequencia": 2,
-          "porque": "Hypothesis.",
-          "como": "If."
-        },
-        {
-          "nome": "Reported speech",
-          "frequencia": 2,
-          "porque": "Indirect.",
-          "como": "Tense shift."
-        },
-        {
           "nome": "Passive voice",
           "frequencia": 2,
           "porque": "Construction.",
           "como": "Be+past."
-        },
-        {
-          "nome": "Idioms",
-          "frequencia": 2,
-          "porque": "Expressions.",
-          "como": "Meaning."
-        },
-        {
-          "nome": "Phonetics",
-          "frequencia": 2,
-          "porque": "Pronunciation.",
-          "como": "Sounds."
-        },
-        {
-          "nome": "Writing",
-          "frequencia": 2,
-          "porque": "Production.",
-          "como": "Essay."
-        },
-        {
-          "nome": "Culture",
-          "frequencia": 2,
-          "porque": "Context.",
-          "como": "US/UK."
-        },
-        {
-          "nome": "Listening",
-          "frequencia": 2,
-          "porque": "Comprehension.",
-          "como": "Audio."
         },
         {
           "nome": "Tirinhas e cartoons",
@@ -11611,12 +10327,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Conjugação.",
           "como": "Past tense."
-        },
-        {
-          "nome": "Falsos cognatos",
-          "frequencia": 4,
-          "porque": "Confusão comum.",
-          "como": "Actually ≠ atualmente."
         },
         {
           "nome": "Adjetivos e advérbios",
@@ -11643,12 +10353,6 @@ const DadosTemas = {
           "como": "News, ads, emails."
         },
         {
-          "nome": "Present perfect",
-          "frequencia": 3,
-          "porque": "Tempo verbal.",
-          "como": "Have/has + participle."
-        },
-        {
           "nome": "Question tags",
           "frequencia": 2,
           "porque": "Confirmação.",
@@ -11665,12 +10369,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Quantificadores.",
           "como": "Much/many."
-        },
-        {
-          "nome": "Phrasal verbs",
-          "frequencia": 2,
-          "porque": "Combinações.",
-          "como": "Give up, look after."
         },
         {
           "nome": "Songs and lyrics",
@@ -11709,12 +10407,6 @@ const DadosTemas = {
           "como": "Was/were + -ing."
         },
         {
-          "nome": "Future forms",
-          "frequencia": 2,
-          "porque": "Will e going to.",
-          "como": "Diferenças."
-        },
-        {
           "nome": "Comparative and superlative",
           "frequencia": 3,
           "porque": "Adjetivos.",
@@ -11725,12 +10417,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Who, which, that.",
           "como": "Conecta orações."
-        },
-        {
-          "nome": "Gerund and infinitive",
-          "frequencia": 2,
-          "porque": "Forma do verbo.",
-          "como": "Gerúndio ou infinitivo."
         },
         {
           "nome": "Quantifiers",
@@ -12046,12 +10732,6 @@ const DadosTemas = {
           "como": "Causa vs finalidade."
         },
         {
-          "nome": "Falsos cognatos",
-          "frequencia": 4,
-          "porque": "Armadilhas.",
-          "como": "Lista de cautela."
-        },
-        {
           "nome": "Gênero e número",
           "frequencia": 3,
           "porque": "Adjetivos concordam.",
@@ -12178,40 +10858,10 @@ const DadosTemas = {
           "como": "Acentuação."
         },
         {
-          "nome": "Gramática",
-          "frequencia": 4,
-          "porque": "Estrutura.",
-          "como": "Concordância."
-        },
-        {
-          "nome": "Vocabulário",
-          "frequencia": 3,
-          "porque": "Leitura.",
-          "como": "Contexto."
-        },
-        {
           "nome": "Verbos",
           "frequencia": 4,
           "porque": "Conjugação.",
           "como": "Ser/estar."
-        },
-        {
-          "nome": "Tempos verbais",
-          "frequencia": 3,
-          "porque": "Tempo.",
-          "como": "Presente."
-        },
-        {
-          "nome": "Pronomes",
-          "frequencia": 2,
-          "porque": "Referência.",
-          "como": "Tipos."
-        },
-        {
-          "nome": "Preposições",
-          "frequencia": 3,
-          "porque": "Uso.",
-          "como": "Por/para."
         },
         {
           "nome": "Substantivos",
@@ -12236,24 +10886,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Texto.",
           "como": "Inferencia."
-        },
-        {
-          "nome": "Cultura hispânica",
-          "frequencia": 2,
-          "porque": "Contexto.",
-          "como": "Países."
-        },
-        {
-          "nome": "Falsos cognatos",
-          "frequencia": 3,
-          "porque": "Confusão.",
-          "como": "Atenção."
-        },
-        {
-          "nome": "Expressões idiomáticas",
-          "frequencia": 2,
-          "porque": "Uso natural.",
-          "como": "Frases."
         },
         {
           "nome": "Comunicação escrita",
@@ -12284,12 +10916,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Comandos.",
           "como": "Formal e informal."
-        },
-        {
-          "nome": "Gênero e número",
-          "frequencia": 3,
-          "porque": "Concordância.",
-          "como": "Artigos e adjetivos."
         },
         {
           "nome": "Apócope",
@@ -12334,12 +10960,6 @@ const DadosTemas = {
           "como": "Anúncios, notícias."
         },
         {
-          "nome": "Vocabulário temático",
-          "frequencia": 3,
-          "porque": "Temas variados.",
-          "como": "Tecnologia, saúde."
-        },
-        {
           "nome": "Tempos do passado",
           "frequencia": 4,
           "porque": "Pretéritos.",
@@ -12356,12 +10976,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Anterioridade.",
           "como": "Había vivido."
-        },
-        {
-          "nome": "Futuro simple",
-          "frequencia": 2,
-          "porque": "Previsão.",
-          "como": "Hablaré."
         },
         {
           "nome": "Futuro compuesto",
@@ -12887,52 +11501,10 @@ const DadosTemas = {
           "como": "Realidade virtual."
         },
         {
-          "nome": "Arte rupestre",
-          "frequencia": 2,
-          "porque": "Origens.",
-          "como": "Pinturas."
-        },
-        {
           "nome": "Arte clássica",
           "frequencia": 3,
           "porque": "Grécia e Roma.",
           "como": "Escultura."
-        },
-        {
-          "nome": "Renascimento",
-          "frequencia": 3,
-          "porque": "Arte renascentista.",
-          "como": "Leonardo."
-        },
-        {
-          "nome": "Barroco",
-          "frequencia": 3,
-          "porque": "Dramatismo.",
-          "como": "Contraste."
-        },
-        {
-          "nome": "Impressionismo",
-          "frequencia": 3,
-          "porque": "Luz.",
-          "como": "Manet."
-        },
-        {
-          "nome": "Cubismo",
-          "frequencia": 2,
-          "porque": "Formas.",
-          "como": "Picasso."
-        },
-        {
-          "nome": "Surrealismo",
-          "frequencia": 2,
-          "porque": "Inconsciente.",
-          "como": "Dalí."
-        },
-        {
-          "nome": "Arte contemporânea",
-          "frequencia": 3,
-          "porque": "Atual.",
-          "como": "Instalação."
         },
         {
           "nome": "Música",
@@ -12945,18 +11517,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Movimento.",
           "como": "Estilos."
-        },
-        {
-          "nome": "Cinema",
-          "frequencia": 3,
-          "porque": "Imagem.",
-          "como": "Narrativa."
-        },
-        {
-          "nome": "Fotografia",
-          "frequencia": 2,
-          "porque": "Imagem fixa.",
-          "como": "Técnicas."
         },
         {
           "nome": "Arte urbana",
@@ -12983,12 +11543,6 @@ const DadosTemas = {
           "como": "Movimentos."
         },
         {
-          "nome": "Arte contemporânea",
-          "frequencia": 2,
-          "porque": "Atual.",
-          "como": "Tendências."
-        },
-        {
           "nome": "Pintura",
           "frequencia": 3,
           "porque": "Técnicas.",
@@ -12999,42 +11553,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tridimensional.",
           "como": "Materiais."
-        },
-        {
-          "nome": "Música",
-          "frequencia": 2,
-          "porque": "Expressão.",
-          "como": "Gêneros."
-        },
-        {
-          "nome": "Dança",
-          "frequencia": 2,
-          "porque": "Movimento.",
-          "como": "Estilos."
-        },
-        {
-          "nome": "Teatro",
-          "frequencia": 2,
-          "porque": "Performance.",
-          "como": "Autoria."
-        },
-        {
-          "nome": "Cinema",
-          "frequencia": 2,
-          "porque": "Audiovisual.",
-          "como": "Linguagem."
-        },
-        {
-          "nome": "Fotografia",
-          "frequencia": 2,
-          "porque": "Imagem.",
-          "como": "Técnica."
-        },
-        {
-          "nome": "Design",
-          "frequencia": 2,
-          "porque": "Projeto.",
-          "como": "Funcional."
         },
         {
           "nome": "Arte brasileira",
@@ -13061,12 +11579,6 @@ const DadosTemas = {
           "como": "Rupestre."
         },
         {
-          "nome": "Arte grega",
-          "frequencia": 2,
-          "porque": "Clássica.",
-          "como": "Arquitetura."
-        },
-        {
           "nome": "Arte romana",
           "frequencia": 2,
           "porque": "Expansão.",
@@ -13079,34 +11591,10 @@ const DadosTemas = {
           "como": "Gótico."
         },
         {
-          "nome": "Renascimento",
-          "frequencia": 3,
-          "porque": "Humanismo.",
-          "como": "Da Vinci."
-        },
-        {
           "nome": "Barroco brasileiro",
           "frequencia": 3,
           "porque": "Aleijadinho.",
           "como": "Igrejas de Minas."
-        },
-        {
-          "nome": "Impressionismo",
-          "frequencia": 2,
-          "porque": "Luz e cor.",
-          "como": "Monet."
-        },
-        {
-          "nome": "Cubismo",
-          "frequencia": 2,
-          "porque": "Geometria.",
-          "como": "Picasso."
-        },
-        {
-          "nome": "Surrealismo",
-          "frequencia": 2,
-          "porque": "Inconsciente.",
-          "como": "Dalí."
         },
         {
           "nome": "Pop Art",
@@ -13125,12 +11613,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Preservação.",
           "como": "Tombamento."
-        },
-        {
-          "nome": "Arte e tecnologia",
-          "frequencia": 2,
-          "porque": "Contemporaneidade.",
-          "como": "Arte digital."
         },
         {
           "nome": "Arte de rua",
@@ -13167,12 +11649,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Sustentabilidade.",
           "como": "Arte ecológica."
-        },
-        {
-          "nome": "Arte rupestre",
-          "frequencia": 2,
-          "porque": "Pré-história.",
-          "como": "Pintura rupestre."
         },
         {
           "nome": "Arte egípcia",
@@ -13464,30 +11940,6 @@ const DadosTemas = {
           "como": "Músculos."
         },
         {
-          "nome": "Fisiologia do exercício",
-          "frequencia": 3,
-          "porque": "Adaptações.",
-          "como": "Capacidade aeróbica."
-        },
-        {
-          "nome": "Nutrição esportiva",
-          "frequencia": 3,
-          "porque": "Alimentação.",
-          "como": "Macronutrientes."
-        },
-        {
-          "nome": "Psicologia do esporte",
-          "frequencia": 2,
-          "porque": "Motivação.",
-          "como": "Foco."
-        },
-        {
-          "nome": "Sociologia do esporte",
-          "frequencia": 2,
-          "porque": "Cultura.",
-          "como": "Identidade."
-        },
-        {
           "nome": "História da educação física",
           "frequencia": 2,
           "porque": "Evolução.",
@@ -13524,12 +11976,6 @@ const DadosTemas = {
           "como": "Paradesporto."
         },
         {
-          "nome": "Lazer e recreação",
-          "frequencia": 2,
-          "porque": "Atividade.",
-          "como": "Brincadeiras."
-        },
-        {
           "nome": "Ética no esporte",
           "frequencia": 2,
           "porque": "Fair play.",
@@ -13542,34 +11988,10 @@ const DadosTemas = {
           "como": "Wearables."
         },
         {
-          "nome": "Anatomia",
-          "frequencia": 3,
-          "porque": "Estrutura.",
-          "como": "Músculos."
-        },
-        {
-          "nome": "Fisiologia do exercício",
-          "frequencia": 3,
-          "porque": "Adaptação.",
-          "como": "Respiração."
-        },
-        {
-          "nome": "Nutrição esportiva",
-          "frequencia": 3,
-          "porque": "Desempenho.",
-          "como": "Macronutrientes."
-        },
-        {
           "nome": "Recuperação",
           "frequencia": 2,
           "porque": "Pós-treino.",
           "como": "Alongamento."
-        },
-        {
-          "nome": "Psicologia do esporte",
-          "frequencia": 2,
-          "porque": "Mental.",
-          "como": "Foco."
         },
         {
           "nome": "Lesões",
@@ -13590,24 +12012,6 @@ const DadosTemas = {
           "como": "VO2max."
         },
         {
-          "nome": "Esportes coletivos",
-          "frequencia": 2,
-          "porque": "Estratégia.",
-          "como": "Regras."
-        },
-        {
-          "nome": "Esportes individuais",
-          "frequencia": 2,
-          "porque": "Técnica.",
-          "como": "Habilidades."
-        },
-        {
-          "nome": "Educação física escolar",
-          "frequencia": 2,
-          "porque": "Pedagogia.",
-          "como": "Planejamento."
-        },
-        {
           "nome": "Saúde coletiva",
           "frequencia": 2,
           "porque": "Bem-estar.",
@@ -13618,12 +12022,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Prevenção.",
           "como": "Cardiovasculares."
-        },
-        {
-          "nome": "História da educação física",
-          "frequencia": 1,
-          "porque": "Contexto.",
-          "como": "Evolução."
         },
         {
           "nome": "Capacidades físicas",
@@ -13770,12 +12168,6 @@ const DadosTemas = {
           "como": "Práticas regionais."
         },
         {
-          "nome": "Lazer e recreação",
-          "frequencia": 2,
-          "porque": "Bem-estar.",
-          "como": "Tempo livre."
-        },
-        {
           "nome": "Corpo, saúde e estética",
           "frequencia": 2,
           "porque": "Padrões.",
@@ -13792,12 +12184,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Direitos.",
           "como": "Esportes adaptados."
-        },
-        {
-          "nome": "Ética no esporte",
-          "frequencia": 2,
-          "porque": "Conduta.",
-          "como": "Respeito."
         },
         {
           "nome": "Esporte e violência",
@@ -14047,18 +12433,6 @@ const DadosTemas = {
           "como": "Respiratório: ar → pulmão → alvéolo (hematose). Excretor: rim → néfron filtra → uréter → bexiga. Um caminho por sistema."
         },
         {
-          "nome": "Sistema nervoso",
-          "frequencia": 4,
-          "porque": "Neurotransmissão.",
-          "como": "Sinapse."
-        },
-        {
-          "nome": "Sistema endócrino",
-          "frequencia": 3,
-          "porque": "Hormônios.",
-          "como": "Glândulas."
-        },
-        {
           "nome": "Metabolismo",
           "frequencia": 3,
           "porque": "Catabolismo e anabolismo.",
@@ -14069,12 +12443,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Equilíbrio interno.",
           "como": "Feedback."
-        },
-        {
-          "nome": "Sistema imunológico",
-          "frequencia": 3,
-          "porque": "Defesa.",
-          "como": "Anticorpos."
         },
         {
           "nome": "Fisiologia cardíaca",
@@ -14209,18 +12577,6 @@ const DadosTemas = {
           "como": "Hipófise."
         },
         {
-          "nome": "Fisiologia muscular",
-          "frequencia": 3,
-          "porque": "Contração.",
-          "como": "Actina miosina."
-        },
-        {
-          "nome": "Fisiologia digestiva",
-          "frequencia": 2,
-          "porque": "Absorção.",
-          "como": "Enzimas."
-        },
-        {
           "nome": "Fisiologia hepática",
           "frequencia": 2,
           "porque": "Metabolismo.",
@@ -14239,46 +12595,10 @@ const DadosTemas = {
           "como": "Cálcio."
         },
         {
-          "nome": "Fisiologia do sono",
-          "frequencia": 2,
-          "porque": "Ciclos.",
-          "como": "REM."
-        },
-        {
-          "nome": "Fisiologia da temperatura",
-          "frequencia": 2,
-          "porque": "Homeostase.",
-          "como": "Hipotálamo."
-        },
-        {
-          "nome": "Fisiologia da dor",
-          "frequencia": 2,
-          "porque": "Percepção.",
-          "como": "Nociceptores."
-        },
-        {
-          "nome": "Fisiologia do estresse",
-          "frequencia": 2,
-          "porque": "Eixo HPA.",
-          "como": "Cortisol."
-        },
-        {
-          "nome": "Fisiologia reprodutiva",
-          "frequencia": 2,
-          "porque": "Hormônios.",
-          "como": "Ciclo menstrual."
-        },
-        {
           "nome": "Fisiologia fetal",
           "frequencia": 1,
           "porque": "Desenvolvimento.",
           "como": "Placenta."
-        },
-        {
-          "nome": "Fisiologia do envelhecimento",
-          "frequencia": 1,
-          "porque": "Senescência.",
-          "como": "Perda funcional."
         },
         {
           "nome": "Fisiologia respiratória celular",
@@ -14297,12 +12617,6 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Coração e vasos.",
           "como": "Débito cardíaco."
-        },
-        {
-          "nome": "Fisiologia do exercício",
-          "frequencia": 3,
-          "porque": "Adaptação.",
-          "como": "Consumo de O2."
         },
         {
           "nome": "Hemodinâmica",
@@ -14339,18 +12653,6 @@ const DadosTemas = {
           "frequencia": 1,
           "porque": "Drenagem.",
           "como": "Linfa."
-        },
-        {
-          "nome": "Fisiologia da visão",
-          "frequencia": 2,
-          "porque": "Sentidos.",
-          "como": "Retina."
-        },
-        {
-          "nome": "Fisiologia da audição",
-          "frequencia": 2,
-          "porque": "Sentidos.",
-          "como": "Cóclea."
         },
         {
           "nome": "Fisiologia do paladar e olfato",
@@ -14768,34 +13070,10 @@ const DadosTemas = {
           "como": "Paideia."
         },
         {
-          "nome": "Filosofia da ciência",
-          "frequencia": 2,
-          "porque": "Método.",
-          "como": "Popper."
-        },
-        {
-          "nome": "Filosofia da mente",
-          "frequencia": 2,
-          "porque": "Consciência.",
-          "como": "Cognição."
-        },
-        {
-          "nome": "Existencialismo",
-          "frequencia": 3,
-          "porque": "Liberdade.",
-          "como": "Sartre."
-        },
-        {
           "nome": "Positivismo",
           "frequencia": 2,
           "porque": "Ciência.",
           "como": "Comte."
-        },
-        {
-          "nome": "Fenomenologia",
-          "frequencia": 2,
-          "porque": "Experiência.",
-          "como": "Husserl."
         },
         {
           "nome": "Hermenêutica",
@@ -14808,54 +13086,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Crítica.",
           "como": "Foucault."
-        },
-        {
-          "nome": "Ética",
-          "frequencia": 3,
-          "porque": "Moral.",
-          "como": "Kant."
-        },
-        {
-          "nome": "Política",
-          "frequencia": 3,
-          "porque": "Poder.",
-          "como": "Maquiavel."
-        },
-        {
-          "nome": "Estética",
-          "frequencia": 2,
-          "porque": "Arte.",
-          "como": "Belo."
-        },
-        {
-          "nome": "Epistemologia",
-          "frequencia": 2,
-          "porque": "Conhecimento.",
-          "como": "Ciência."
-        },
-        {
-          "nome": "Metafísica",
-          "frequencia": 2,
-          "porque": "Ser.",
-          "como": "Realidade."
-        },
-        {
-          "nome": "Lógica",
-          "frequencia": 2,
-          "porque": "Raciocínio.",
-          "como": "Argumentos."
-        },
-        {
-          "nome": "Fenomenologia",
-          "frequencia": 2,
-          "porque": "Experiência.",
-          "como": "Husserl."
-        },
-        {
-          "nome": "Existencialismo",
-          "frequencia": 2,
-          "porque": "Liberdade.",
-          "como": "Sartre."
         },
         {
           "nome": "Nihilismo",
@@ -14940,12 +13170,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Bentham.",
           "como": "Bem maior."
-        },
-        {
-          "nome": "Filosofia da ciência",
-          "frequencia": 2,
-          "porque": "Popper.",
-          "como": "Falsificabilidade."
         },
         {
           "nome": "Liberdade e determinismo",
@@ -15134,12 +13358,6 @@ const DadosTemas = {
           "como": "Responsabilidade."
         },
         {
-          "nome": "Filosofia da mente",
-          "frequencia": 2,
-          "porque": "Consciência.",
-          "como": "Inteligência artificial."
-        },
-        {
           "nome": "Felicidade",
           "frequencia": 2,
           "porque": "Eudaimonia.",
@@ -15174,12 +13392,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Participação.",
           "como": "Platão x democracia."
-        },
-        {
-          "nome": "Filosofia da linguagem",
-          "frequencia": 2,
-          "porque": "Wittgenstein.",
-          "como": "Jogos de linguagem."
         },
         {
           "nome": "Filosofia política clássica",
@@ -15240,18 +13452,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Origem do conhecimento.",
           "como": "Descartes vs Locke."
-        },
-        {
-          "nome": "Filosofia da história",
-          "frequencia": 2,
-          "porque": "Teleologia.",
-          "como": "Hegel."
-        },
-        {
-          "nome": "Filosofia da religião",
-          "frequencia": 2,
-          "porque": "Existência de Deus.",
-          "como": "Aquino."
         },
         {
           "nome": "Filosofia e ciência",
@@ -15477,28 +13677,10 @@ const DadosTemas = {
           "como": "Estrutura."
         },
         {
-          "nome": "Sociologia das religiões",
-          "frequencia": 2,
-          "porque": "Fé.",
-          "como": "Weber."
-        },
-        {
-          "nome": "Sociologia da educação",
-          "frequencia": 3,
-          "porque": "Escola.",
-          "como": "Reprodução."
-        },
-        {
           "nome": "Sociologia urbana",
           "frequencia": 3,
           "porque": "Cidade.",
           "como": "Segregação."
-        },
-        {
-          "nome": "Sociologia rural",
-          "frequencia": 2,
-          "porque": "Campo.",
-          "como": "Relações."
         },
         {
           "nome": "Sociologia da saúde",
@@ -15531,24 +13713,6 @@ const DadosTemas = {
           "como": "Funcionalismo."
         },
         {
-          "nome": "Globalização",
-          "frequencia": 3,
-          "porque": "Mundo.",
-          "como": "Fluxos."
-        },
-        {
-          "nome": "Desigualdade social",
-          "frequencia": 4,
-          "porque": "Renda.",
-          "como": "Gini."
-        },
-        {
-          "nome": "Movimentos sociais",
-          "frequencia": 3,
-          "porque": "Lutas.",
-          "como": "Protestos."
-        },
-        {
           "nome": "Cultura",
           "frequencia": 3,
           "porque": "Identidade.",
@@ -15579,12 +13743,6 @@ const DadosTemas = {
           "como": "Estrutura."
         },
         {
-          "nome": "Urbanização",
-          "frequencia": 3,
-          "porque": "Cidade.",
-          "como": "Segregação."
-        },
-        {
           "nome": "Ruralidade",
           "frequencia": 2,
           "porque": "Campo.",
@@ -15607,12 +13765,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Crescimento.",
           "como": "IDH."
-        },
-        {
-          "nome": "Globalização",
-          "frequencia": 3,
-          "porque": "Mundo.",
-          "como": "Fluxos."
         },
         {
           "nome": "Cidadania",
@@ -15667,12 +13819,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Organização.",
           "como": "Escola e Estado."
-        },
-        {
-          "nome": "Indústria cultural",
-          "frequencia": 2,
-          "porque": "Adorno.",
-          "como": "Cultura de massa."
         },
         {
           "nome": "Controle social",
@@ -16138,18 +14284,6 @@ const DadosTemas = {
           "como": "Bias."
         },
         {
-          "nome": "Macroeconomia",
-          "frequencia": 4,
-          "porque": "Agregados.",
-          "como": "PIB."
-        },
-        {
-          "nome": "Microeconomia",
-          "frequencia": 4,
-          "porque": "Agentes.",
-          "como": "Oferta."
-        },
-        {
           "nome": "Inflação",
           "frequencia": 4,
           "porque": "Preços.",
@@ -16160,12 +14294,6 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Mercado.",
           "como": "Taxa."
-        },
-        {
-          "nome": "Política fiscal",
-          "frequencia": 3,
-          "porque": "Gastos.",
-          "como": "Orçamento."
         },
         {
           "nome": "Contabilidade nacional",
@@ -16240,18 +14368,6 @@ const DadosTemas = {
           "como": "Investimento."
         },
         {
-          "nome": "Economia da saúde",
-          "frequencia": 2,
-          "porque": "Sistemas.",
-          "como": "SUS."
-        },
-        {
-          "nome": "Economia comportamental",
-          "frequencia": 2,
-          "porque": "Decisões.",
-          "como": "Bias."
-        },
-        {
           "nome": "Economia experimental",
           "frequencia": 1,
           "porque": "Testes.",
@@ -16268,18 +14384,6 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Exportações.",
           "como": "Tarifas."
-        },
-        {
-          "nome": "Política monetária",
-          "frequencia": 3,
-          "porque": "Banco central.",
-          "como": "Selic."
-        },
-        {
-          "nome": "Mercado de trabalho",
-          "frequencia": 2,
-          "porque": "Emprego.",
-          "como": "Taxas."
         },
         {
           "nome": "Inflação e índices",
