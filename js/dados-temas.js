@@ -4390,6 +4390,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Contrato de obra.",
           "como": "Responsabilidade."
+        },
+        {
+          "nome": "Personalidade civil e capacidade",
+          "frequencia": 4,
+          "porque": "Arts.1 a 10 do CC.",
+          "como": "Absoluta, relativa e plena."
+        },
+        {
+          "nome": "Domicílio e residência",
+          "frequencia": 2,
+          "porque": "Arts.70 a 78 do CC.",
+          "como": "Pluralidade de domicílios."
+        },
+        {
+          "nome": "Pessoas jurídicas",
+          "frequencia": 3,
+          "porque": "Classificação e responsabilidade.",
+          "como": "Direito público e privado."
+        },
+        {
+          "nome": "Negócio jurídico",
+          "frequencia": 4,
+          "porque": "Existência, validade e eficácia.",
+          "como": "Nulidade e anulabilidade."
+        },
+        {
+          "nome": "Prescrição e decadência",
+          "frequencia": 4,
+          "porque": "Prazos e diferenças.",
+          "como": "Arts.189 a 211."
+        },
+        {
+          "nome": "Obrigações: modalidades",
+          "frequencia": 3,
+          "porque": "Dar, fazer e não fazer.",
+          "como": "Solidariedade e indivisibilidade."
+        },
+        {
+          "nome": "Pagamento e extinção das obrigações",
+          "frequencia": 3,
+          "porque": "Modos de extinção.",
+          "como": "Pagamento direto e indireto."
+        },
+        {
+          "nome": "Contratos em geral",
+          "frequencia": 4,
+          "porque": "Princípios contratuais.",
+          "como": "Autonomia e função social."
+        },
+        {
+          "nome": "Compra e venda",
+          "frequencia": 3,
+          "porque": "Arts.481 a 532.",
+          "como": "Direitos e obrigações."
+        },
+        {
+          "nome": "Responsabilidade civil subjetiva e objetiva",
+          "frequencia": 4,
+          "porque": "Dever de indenizar.",
+          "como": "Arts.186, 187 e 927."
+        },
+        {
+          "nome": "Dano moral e dano material",
+          "frequencia": 3,
+          "porque": "Espécies de dano.",
+          "como": "Cumulação e valor."
+        },
+        {
+          "nome": "Direito de família: casamento e união estável",
+          "frequencia": 3,
+          "porque": "Arts.1.511 a 1.783.",
+          "como": "Regimes de bens."
+        },
+        {
+          "nome": "Sucessões",
+          "frequencia": 2,
+          "porque": "Arts.1.784 a 2.027.",
+          "como": "Herdeiros legítimos e testamentários."
+        },
+        {
+          "nome": "Propriedade e posse",
+          "frequencia": 3,
+          "porque": "Arts.1.196 a 1.510.",
+          "como": "Usucapião e direitos reais."
         }
       ]
     },
