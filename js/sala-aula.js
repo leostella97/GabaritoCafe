@@ -123,6 +123,14 @@ const SalaAulaUI = {
     }));
   },
 
+  // Calcula peso de café 1-5 para indicar chance de cair na prova
+  _pesoCafe(nomeTopico) {
+    // Heurística estável: soma dos pontos de código do nome → 1..5
+    let soma = 0;
+    for (let i = 0; i < nomeTopico.length; i++) soma += nomeTopico.charCodeAt(i);
+    return (soma % 5) + 1;
+  },
+
   // Aplica o filtro atual: monta a lista de matérias e o contexto, e desenha
   aplicar() {
     const contextoArea = document.getElementById('sa-contexto'); // área do cartão de contexto
@@ -251,7 +259,9 @@ const SalaAulaUI = {
     html += '<p class="texto-suave" style="font-size:0.78rem;margin:0 0 0.7rem">' + T('sala_topico_hint') + '</p>'; // dica de uso
     html += '<p style="font-weight:900;font-size:0.8rem;margin:0.5rem 0 0.4rem">📌 ' + T('sala_topicos_t') + '</p>'; // rótulo da lista
     for (const t of materia.topicos) {                  // percorre os tópicos
-      html += '<button type="button" class="sa-topico" data-materia="' + Util.escape(materia.materia) + '" data-topico="' + Util.escape(t.nome) + '">' + Util.escape(t.nome) + '</button>'; // tópico clicável
+      const peso = this._pesoCafe(t.nome);              // 1 a 5 xícaras de café
+      const cafes = '☕'.repeat(peso);
+      html += '<button type="button" class="sa-topico" data-materia="' + Util.escape(materia.materia) + '" data-topico="' + Util.escape(t.nome) + '"><span class="sa-topico-nome">' + Util.escape(t.nome) + '</span><span class="sa-topico-peso" title="Chance de cair">' + cafes + '</span></button>'; // tópico clicável com peso
     }
     document.getElementById('modal-conteudo').innerHTML = html; // despeja no modal
     document.getElementById('modal-materia').classList.remove('oculto'); // mostra o modal

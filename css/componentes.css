@@ -728,7 +728,9 @@
 /* Sala de Aula: tópico clicável dentro do modal (mesma linguagem do .topico-item,
    mas com classe própria para não conflitar com a delegação do edital) */
 .sa-topico {                        /* tópico da Sala de Aula */
-  display: block;                   /* um por linha */
+  display: flex;                    /* permite nome à esquerda e peso à direita */
+  align-items: center;              /* centraliza verticalmente */
+  justify-content: space-between;   /* nome e café em extremos */
   width: 100%;                      /* linha inteira clicável */
   text-align: left;                 /* texto à esquerda */
   border: 2px solid var(--borda);   /* moldura leve */
@@ -741,6 +743,17 @@
   font-weight: 700;                 /* firme */
   cursor: pointer;                  /* mãozinha */
   transition: border-color 0.2s, transform 0.2s; /* animação suave */
+}
+
+.sa-topico-nome {                   /* nome do tópico */
+  flex: 1 1 auto;                  /* ocupa o espaço disponível */
+  text-align: left;
+}
+
+.sa-topico-peso {                   /* xícaras de café indicadoras */
+  margin-left: 0.6rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .sa-topico:hover {                  /* tópico em destaque */
