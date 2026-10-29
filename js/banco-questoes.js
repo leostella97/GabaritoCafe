@@ -85627,5 +85627,1807 @@ const BancoQuestoes = [
   "explicacao": "O ransomware sequestra os arquivos mediante criptografia e exige pagamento para a chave de liberação.",
   "dica": "Revisão de prova para Vunesp: Ransom em inglês significa resgate.",
   "video": "informatica seguranca ransomware"
+},
+{
+  "id": "f329",
+  "materia": "Física",
+  "tema": "Cinemática — gráficos",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O gráfico a seguir representa a posição de um móvel em função do tempo. No intervalo entre 0 e 4 segundos, o móvel:",
+  "alternativas": [
+    "Permaneceu em repouso durante todo o percurso.",
+    "Moveu-se com velocidade constante e positiva.",
+    "Moveu-se com aceleração constante e positiva.",
+    "Inverteu o sentido do movimento no instante t = 2 s.",
+    "Moveu-se com velocidade constante até parar em t = 4 s."
+  ],
+  "correta": 3,
+  "explicacao": "Em um gráfico posição x tempo, a inversão do sentido ocorre quando o sinal da velocidade (inclinação da reta tangente) muda. Se a curva sobe e depois desce, no ponto de máximo a velocidade se anula e o móvel inverte o sentido.",
+  "dica": "No ENEM, gráficos de cinemática costumam esconder a inversão de sentido no vértice da parábola: é ali que a velocidade zera e o móvel 'dá a volta'.",
+  "video": "cinematica graficos posicao tempo ENEM"
+},
+{
+  "id": "f330",
+  "materia": "Física",
+  "tema": "Ondas — efeito Doppler",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Uma ambulância com a sirene ligada aproxima-se de um pedestre parado na calçada. Após ultrapassá-lo e se afastar, o som percebido pelo pedestre:",
+  "alternativas": [
+    "Mantém a mesma frequência durante toda a passagem.",
+    "Torna-se mais grave na aproximação e mais agudo no afastamento.",
+    "Torna-se mais agudo na aproximação e mais grave no afastamento.",
+    "A frequência diminui na aproximação e aumenta no afastamento.",
+    "A intensidade do som não muda, apenas a frequência."
+  ],
+  "correta": 2,
+  "explicacao": "O efeito Doppler para ondas sonoras estabelece que, quando a fonte se aproxima do observador, a frequência percebida é maior (som mais agudo); quando se afasta, a frequência é menor (som mais grave). A intensidade também muda com a distância, mas a pergunta trata da frequência.",
+  "dica": "Decore: aproxima → agudo (frequência maior); afasta → grave (frequência menor). Pense no som de uma moto passando: 'vrum-vrum' — o segundo vrum é mais grave.",
+  "video": "efeito doppler ondas sonoras fisica"
+},
+{
+  "id": "qm330",
+  "materia": "Química",
+  "tema": "Termoquímica — entalpia de formação",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A entalpia padrão de formação (ΔHf°) de uma substância simples no estado mais estável a 25°C e 1 atm é:",
+  "alternativas": [
+    "Sempre positiva.",
+    "Sempre negativa.",
+    "Igual a zero.",
+    "Depende da massa molar.",
+    "Igual à energia de ligação."
+  ],
+  "correta": 2,
+  "explicacao": "Por definição, a entalpia padrão de formação de uma substância simples no seu estado físico mais estável nas condições-padrão é igual a zero. Exemplo: O₂(g), N₂(g), Fe(s) e C(grafite) têm ΔHf° = 0. Já o O₃(g) e o C(diamante) não são as formas mais estáveis e têm ΔHf° ≠ 0.",
+  "dica": "Cuidado com carbono diamante: ΔHf° não é zero porque a forma mais estável é grafite. A banca conta com essa confusão.",
+  "video": "entalpia de formacao termoquimica zero"
+},
+{
+  "id": "b325",
+  "materia": "Biologia",
+  "tema": "Respiração celular — etapas",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Sobre a respiração celular aeróbia, a etapa que ocorre na matriz mitocondrial e produz CO₂ como subproduto é:",
+  "alternativas": [
+    "Glicólise.",
+    "Ciclo de Krebs.",
+    "Cadeia respiratória.",
+    "Fermentação lática.",
+    "Fotofosforilação."
+  ],
+  "correta": 1,
+  "explicacao": "O Ciclo de Krebs (ou ciclo do ácido cítrico) ocorre na matriz mitocondrial. Nessa etapa, o ácido pirúvico proveniente da glicólise é completamente oxidado, liberando CO₂ e gerando NADH e FADH₂ que seguirão para a cadeia respiratória. A glicólise ocorre no citoplasma; a cadeia respiratória ocorre na crista mitocondrial.",
+  "dica": "Localize cada etapa: glicólise → citoplasma; Krebs → matriz mitocondrial; cadeia respiratória → cristas mitocondriais. O ENEM adora perguntar 'onde acontece'.",
+  "video": "respiracao celular ciclo de Krebs matriz mitocondrial"
+},
+{
+  "id": "g331",
+  "materia": "Geografia",
+  "tema": "Conflitos geopolíticos — Oriente Médio",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O principal recurso estratégico que historicamente motiva intervenções externas no Oriente Médio, além do petróleo, é:",
+  "alternativas": [
+    "A produção de diamantes.",
+    "O controle de rotas marítimas (Canal de Suez e Estreito de Ormuz).",
+    "A reserva de água doce do Rio Jordão.",
+    "As florestas de cedro do Líbano.",
+    "O monopólio da produção de urânio."
+  ],
+  "correta": 1,
+  "explicacao": "O Oriente Médio abriga duas rotas marítimas estratégicas vitais para o comércio global de petróleo: o Canal de Suez (que liga o Mediterrâneo ao Mar Vermelho) e o Estreito de Ormuz (por onde passa cerca de 20% do petróleo mundial). Controlar esses pontos é um interesse geopolítico de potências globais.",
+  "dica": "No ENEM, questões sobre Oriente Médio frequentemente ligam petróleo + rotas marítimas + intervenção externa. Decore: Suez (Egito) e Ormuz (entre Irã e Omã).",
+  "video": "oriente medio geopolitica canal de Suez estreito de Ormuz"
+},
+{
+  "id": "ec326",
+  "materia": "Economia",
+  "tema": "Desenvolvimento sustentável — indicadores",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O Índice de Desenvolvimento Humano (IDH) é composto por três dimensões. Assinale a alternativa que as representa corretamente:",
+  "alternativas": [
+    "PIB per capita, taxa de desemprego e expectativa de vida.",
+    "Saúde (expectativa de vida), educação (anos de escolaridade) e renda (PIB per capita ajustado).",
+    "Renda nacional bruta, índice de Gini e taxa de alfabetização.",
+    "Mortalidade infantil, matrícula no ensino superior e IDH ajustado.",
+    "População economicamente ativa, PIB nominal e anos de estudo."
+  ],
+  "correta": 1,
+  "explicacao": "O IDH, criado pelo PNUD, avalia três pilares: saúde (medida pela expectativa de vida ao nascer), educação (média de anos de estudo da população adulta + expectativa de anos de estudo para crianças) e renda (medida pelo RNB per capita ajustado pela paridade do poder de compra).",
+  "dica": "O IDH não inclui desigualdade (essa é medida pelo IDH ajustado à desigualdade — IDHAD). Cuidado para não marcar Gini como componente do IDH.",
+  "video": "IDH indices desenvolvimento humano pilares"
+},
+{
+  "id": "v333",
+  "materia": "Direito Previdenciário",
+  "tema": "Segurado especial — rural",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O segurado especial da Previdência Social caracteriza-se por:",
+  "alternativas": [
+    "Ser exclusivamente o trabalhador urbano informal.",
+    "Exercer atividade rural em regime de economia familiar, sem utilização de empregados permanentes.",
+    "Ser o profissional liberal registrado em conselho de classe.",
+    "Contribuir sobre o pró-labore como sócio de empresa.",
+    "Ser o empregado doméstico com carteira assinada."
+  ],
+  "correta": 1,
+  "explicacao": "O segurado especial é definido no art. 11, VII da Lei 8.213/91 como o produtor rural (pessoa física) que exerce atividade em regime de economia familiar, sem empregados permanentes. Inclui o pescador artesanal e o indígena que exerce atividade rural. Sua contribuição é sobre a comercialização da produção, não sobre salário.",
+  "dica": "Segurado especial = rural + economia familiar + sem empregados permanentes. Não confunda com empregado rural (que tem vínculo empregatício).",
+  "video": "segurado especial previdencia rural INSS"
+},
+{
+  "id": "so324",
+  "materia": "Sociologia",
+  "tema": "Movimentos sociais — novos atores",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Os chamados 'novos movimentos sociais', a partir da segunda metade do século XX, diferenciam-se dos movimentos operários clássicos por:",
+  "alternativas": [
+    "Terem foco exclusivo na luta de classes e na tomada do Estado.",
+    "Incorporarem pautas identitárias, culturais e ambientais, para além da questão econômica.",
+    "Rejeitarem qualquer forma de organização coletiva.",
+    "Atuarem somente por meios institucionais e parlamentares.",
+    "Negarem a existência de conflitos sociais."
+  ],
+  "correta": 1,
+  "explicacao": "Os 'novos movimentos sociais' (feminista, ambientalista, LGBTQIA+, antirracista, pacifista) ampliam a agenda para além da luta de classes marxista tradicional, incorporando pautas de identidade, cultura, meio ambiente e direitos humanos. Alain Touraine e Manuel Castells são referências nesse debate.",
+  "dica": "No ENEM, novos movimentos sociais = identidade + cultura + meio ambiente. Não confunda com os 'velhos' (sindicatos operários, luta de classes).",
+  "video": "novos movimentos sociais identidade Touraine sociologia"
+},
+{
+  "id": "ct327",
+  "materia": "Contabilidade",
+  "tema": "Balanço Patrimonial — composição",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "No Balanço Patrimonial, a equação fundamental da contabilidade é:",
+  "alternativas": [
+    "Ativo = Passivo + Receitas.",
+    "Ativo = Passivo + Patrimônio Líquido.",
+    "Passivo = Ativo + Patrimônio Líquido.",
+    "Patrimônio Líquido = Ativo + Passivo.",
+    "Ativo = Passivo − Patrimônio Líquido."
+  ],
+  "correta": 1,
+  "explicacao": "A equação fundamental da contabilidade é Ativo = Passivo (obrigações com terceiros) + Patrimônio Líquido (recursos próprios dos sócios). O Ativo representa os bens e direitos; o Passivo, as obrigações; e a diferença é o PL. Essa equação reflete a origem e a aplicação dos recursos.",
+  "dica": "Pense assim: tudo que a empresa tem (Ativo) foi financiado por alguém — ou por terceiros (Passivo) ou pelos donos (PL). Ativo = Passivo + PL, sempre.",
+  "video": "equacao fundamental contabilidade ativo passivo patrimonio liquido"
+},
+{
+  "id": "fs331",
+  "materia": "Fisiologia",
+  "tema": "Sistema nervoso — potencial de ação",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Durante o potencial de ação de um neurônio, a despolarização da membrana ocorre principalmente pela:",
+  "alternativas": [
+    "Saída de íons potássio (K⁺) da célula.",
+    "Entrada de íons sódio (Na⁺) na célula.",
+    "Entrada de íons cloreto (Cl⁻) na célula.",
+    "Saída de íons cálcio (Ca²⁺) do retículo.",
+    "Ativação da bomba de sódio-potássio."
+  ],
+  "correta": 1,
+  "explicacao": "A despolarização é a fase ascendente do potencial de ação, causada pela abertura dos canais de sódio voltagem-dependentes. Com isso, Na⁺ entra rapidamente na célula, tornando o interior menos negativo (mais positivo). A repolarização ocorre pela saída de K⁺. A bomba Na⁺/K⁺ restaura os gradientes após o potencial.",
+  "dica": "Ordem: 1) despolarização = entra Na⁺; 2) repolarização = sai K⁺; 3) hiperpolarização = sai K⁺ demais; 4) bomba Na⁺/K⁺ restaura. Decore a sequência.",
+  "video": "potencial de acao neuronio sódio potassio despolarizacao"
+},
+
+{
+  "id": "f331",
+  "materia": "Física",
+  "tema": "Eletricidade — potência em associações",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Dois resistores idênticos de resistência R são ligados a uma mesma fonte de tensão V, primeiro em série e depois em paralelo. A razão entre a potência dissipada na associação em paralelo e a potência dissipada na associação em série é:",
+  "alternativas": [
+    "1",
+    "2",
+    "4",
+    "1/2",
+    "1/4"
+  ],
+  "correta": 2,
+  "explicacao": "Em série: Req = 2R, então P_série = V²/(2R). Em paralelo: Req = R/2, então P_paralelo = V²/(R/2) = 2V²/R. A razão P_paralelo / P_série = (2V²/R) / (V²/(2R)) = 4. A associação em paralelo dissipa 4 vezes mais potência.",
+  "dica": "Para mesma tensão, quanto menor a resistência equivalente, maior a potência. Em paralelo a resistência equivalente é menor que em série, então a potência é maior.",
+  "video": "potencia eletrica associacao resistores serie paralelo"
+},
+{
+  "id": "f333",
+  "materia": "Física",
+  "tema": "Leis de Newton — plano inclinado",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Um bloco de massa m desce um plano inclinado sem atrito com aceleração constante. A componente da força peso responsável pelo movimento ao longo do plano é:",
+  "alternativas": [
+    "P (peso total).",
+    "P · sen(θ), onde θ é o ângulo de inclinação.",
+    "P · cos(θ).",
+    "P · tg(θ).",
+    "Nula, pois não há atrito."
+  ],
+  "correta": 1,
+  "explicacao": "Em um plano inclinado, a força peso pode ser decomposta em duas componentes: P·sen(θ) paralela ao plano (responsável pelo movimento) e P·cos(θ) perpendicular ao plano (equilibrada pela força normal). Sem atrito, a resultante é P·sen(θ), e pela 2ª lei de Newton: a = g·sen(θ).",
+  "dica": "No plano inclinado sem atrito, a aceleração não depende da massa: a = g·sen(θ). Essa é uma das pegadinhas mais frequentes no ENEM.",
+  "video": "plano inclinado decomposicao forca peso seno cosseno"
+},
+{
+  "id": "f332",
+  "materia": "Física",
+  "tema": "Hidrostática — vasos comunicantes",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Dois líquidos imiscíveis de densidades diferentes são colocados em um tubo em U. Após o equilíbrio, a altura da coluna do líquido menos denso será:",
+  "alternativas": [
+    "Igual à do líquido mais denso.",
+    "Menor que a do líquido mais denso.",
+    "Maior que a do líquido mais denso.",
+    "Sempre o dobro da altura do mais denso.",
+    "Indeterminada sem saber a viscosidade."
+  ],
+  "correta": 2,
+  "explicacao": "Em vasos comunicantes com líquidos imiscíveis, as pressões nos pontos de mesmo nível horizontal no mesmo líquido são iguais. Isso resulta em: d₁·h₁ = d₂·h₂. O líquido menos denso precisa de uma coluna maior para equilibrar a pressão do líquido mais denso.",
+  "dica": "Pense em uma balança: um peso leve precisa de mais 'quantidade' (altura) para equilibrar um peso pesado. Menos denso → mais alto.",
+  "video": "vasos comunicantes liquidos imisciveis densidade altura"
+},
+{
+  "id": "qm332",
+  "materia": "Química",
+  "tema": "Química orgânica — isomeria óptica",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Um composto orgânico apresenta isomeria óptica quando possui:",
+  "alternativas": [
+    "Fórmula molecular igual e fórmula estrutural plana diferente.",
+    "Pelo menos um carbono assimétrico (quiral) na molécula.",
+    "Somente átomos de carbono e hidrogênio.",
+    "Uma dupla ligação entre carbonos.",
+    "Grupo funcional álcool."
+  ],
+  "correta": 1,
+  "explicacao": "A isomeria óptica ocorre quando a molécula apresenta atividade óptica, ou seja, desvia o plano da luz polarizada. A condição mais comum é a presença de carbono assimétrico (quiral): um carbono ligado a quatro grupos diferentes. Os isômeros ópticos são imagens especulares não sobreponíveis (enantiômeros).",
+  "dica": "Carbono quiral = carbono com 4 ligantes diferentes. Desenhe a molécula e verifique se há algum carbono assim — se houver, a isomeria óptica é possível.",
+  "video": "isomeria optica carbono quiral assimetrico enantiomeros"
+},
+{
+  "id": "qm333",
+  "materia": "Química",
+  "tema": "Propriedades coligativas — osmose",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A pressão osmótica é uma propriedade coligativa que depende:",
+  "alternativas": [
+    "Da natureza química do soluto.",
+    "Apenas da temperatura da solução.",
+    "Do número de partículas do soluto dispersas na solução.",
+    "Do volume do recipiente.",
+    "Da cor da solução."
+  ],
+  "correta": 2,
+  "explicacao": "As propriedades coligativas (pressão osmótica, tonoscopia, ebulioscopia e crioscopia) dependem exclusivamente do número de partículas do soluto dispersas na solução, e não da natureza química dessas partículas. Um mol de NaCl gera 2 mols de partículas (Na⁺ e Cl⁻), enquanto 1 mol de glicose gera 1 mol.",
+  "dica": "Propriedades coligativas = dependem da quantidade de partículas, não de quem são. Cuidado com solutos iônicos: eles se dissociam e geram mais partículas.",
+  "video": "propriedades coligativas pressao osmotica numero particulas"
+},
+{
+  "id": "b326",
+  "materia": "Biologia",
+  "tema": "Ecologia — pirâmides de energia",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Nas pirâmides ecológicas de energia, a energia disponível a cada nível trófico:",
+  "alternativas": [
+    "Aumenta em direção aos níveis superiores.",
+    "Permanece constante em todos os níveis.",
+    "Diminui, pois parte é dissipada como calor no metabolismo.",
+    "É totalmente transferida ao próximo nível.",
+    "Concentra-se exclusivamente nos decompositores."
+  ],
+  "correta": 2,
+  "explicacao": "A pirâmide de energia é sempre direta (nunca invertida): a energia diminui a cada nível trófico porque aproximadamente 90% é perdida na forma de calor durante o metabolismo (respiração celular) dos organismos. Apenas cerca de 10% da energia de um nível é transferida ao seguinte.",
+  "dica": "A pirâmide de energia nunca se inverte — diferente da de número e da de biomassa, que podem ser invertidas em alguns ecossistemas.",
+  "video": "piramides ecologicas energia fluxo energetico ecossistema"
+},
+{
+  "id": "b327",
+  "materia": "Biologia",
+  "tema": "Genética — sistema ABO e fator Rh",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Um casal tem tipo sanguíneo A (ambos heterozigotos). A probabilidade de terem um filho com tipo sanguíneo O é de:",
+  "alternativas": [
+    "0%",
+    "25%",
+    "50%",
+    "75%",
+    "100%"
+  ],
+  "correta": 1,
+  "explicacao": "Pais heterozigotos para o tipo A possuem genótipo Iᴬi. Ao cruzar Iᴬi × Iᴬi, os possíveis genótipos dos filhos são: IᴬIᴬ (tipo A), Iᴬi (tipo A), Iᴬi (tipo A) e ii (tipo O). Portanto, a probabilidade de tipo O (ii) é de 1/4 = 25%.",
+  "dica": "No sistema ABO, o alelo i é recessivo. Para ter tipo O, é preciso herdar i de ambos os pais. Pais heterozigotos (Iᴬi) têm 25% de chance de filho O.",
+  "video": "sistema ABO genetica grupos sanguineos heredograma"
+},
+{
+  "id": "b328",
+  "materia": "Biologia",
+  "tema": "Botânica — transporte de seiva",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A teoria da coesão-tensão explica o transporte da seiva bruta (água e sais minerais) das raízes até as folhas. O principal fator que gera a força de sucção nesse processo é:",
+  "alternativas": [
+    "O bombeamento ativo de íons pelas células da raiz.",
+    "A pressão positiva gerada na raiz durante a noite.",
+    "A transpiração foliar, que cria um gradiente de potencial hídrico.",
+    "A contração dos vasos do xilema.",
+    "A capilaridade exclusiva dos vasos lenhosos."
+  ],
+  "correta": 2,
+  "explicacao": "A teoria de Dixon (coesão-tensão) explica a subida da seiva bruta pelo xilema: a transpiração nas folhas reduz o potencial hídrico, gerando uma tensão (sucção) que puxa a coluna de água. As moléculas de água mantêm-se unidas por coesão (pontes de hidrogênio) e aderem às paredes do xilema (adesão).",
+  "dica": "Três palavras-chave: transpiração (puxa), coesão (água unida) e tensão (sucção). A transpiração é o motor do processo, e não o bombeamento da raiz.",
+  "video": "teoria coesao tensao Dixon seiva bruta xilema transpiracao"
+},
+{
+  "id": "g332",
+  "materia": "Geografia",
+  "tema": "Fontes de energia — matriz brasileira",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A principal fonte de energia da matriz elétrica brasileira é:",
+  "alternativas": [
+    "Energia nuclear (usinas de Angra).",
+    "Energia eólica.",
+    "Energia solar fotovoltaica.",
+    "Energia hidrelétrica.",
+    "Termelétricas a gás natural."
+  ],
+  "correta": 3,
+  "explicacao": "A matriz elétrica brasileira é uma das mais renováveis do mundo, com as usinas hidrelétricas respondendo por cerca de 60-65% da geração. Isso se deve ao imenso potencial hidrográfico do país, especialmente nas bacias do Paraná, Tocantins e São Francisco.",
+  "dica": "Não confunda matriz elétrica (hidrelétrica lidera) com matriz energética total (petróleo e derivados lideram, por causa dos transportes).",
+  "video": "matriz eletrica brasileira hidreletrica fontes renovaveis"
+},
+{
+  "id": "g333",
+  "materia": "Geografia",
+  "tema": "Clima urbano — ilhas de calor",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O fenômeno da 'ilha de calor' nas grandes cidades é intensificado principalmente por:",
+  "alternativas": [
+    "A presença abundante de áreas verdes e parques urbanos.",
+    "A alta concentração de asfalto, concreto e redução da vegetação.",
+    "A baixa densidade populacional nas áreas periféricas.",
+    "A ausência de indústrias nas regiões metropolitanas.",
+    "A elevada umidade relativa do ar no centro da cidade."
+  ],
+  "correta": 1,
+  "explicacao": "A ilha de calor é causada pela substituição da cobertura vegetal por materiais como asfalto e concreto, que absorvem e retêm mais calor (baixo albedo). A redução de áreas verdes diminui a evapotranspiração, que naturalmente resfriaria o ambiente. Prédios altos também bloqueiam a circulação do vento.",
+  "dica": "ENEM: ilha de calor = asfalto + concreto + menos vegetação + prédios bloqueando vento. A temperatura do centro pode ser 5-10°C maior que a periferia arborizada.",
+  "video": "ilha de calor urbana geografia clima cidade"
+},
+{
+  "id": "ec327",
+  "materia": "Economia",
+  "tema": "Política fiscal — expansionista vs contracionista",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Quando o governo reduz impostos e aumenta os gastos públicos simultaneamente, está adotando uma política fiscal:",
+  "alternativas": [
+    "Neutra.",
+    "Contracionista.",
+    "Expansionista.",
+    "Monetária restritiva.",
+    "Cambial flutuante."
+  ],
+  "correta": 2,
+  "explicacao": "A política fiscal expansionista visa estimular a economia: reduzir impostos aumenta a renda disponível das famílias e empresas; aumentar gastos públicos injeta dinheiro diretamente na economia. Ambos os instrumentos elevam a demanda agregada e são usados em períodos de recessão.",
+  "dica": "Expansionista = expandir a economia (cortar impostos, aumentar gastos). Contracionista = contrair (aumentar impostos, cortar gastos). Pense: 'expandir' remete a crescimento.",
+  "video": "politica fiscal expansionista contracionista gastos publicos impostos"
+},
+{
+  "id": "ec328",
+  "materia": "Economia",
+  "tema": "Comércio internacional — taxa de câmbio",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Uma desvalorização cambial (aumento da taxa de câmbio, mais reais por dólar) tende a:",
+  "alternativas": [
+    "Estimular as importações e desestimular as exportações.",
+    "Estimular as exportações e encarecer as importações.",
+    "Manter inalterados os fluxos de comércio exterior.",
+    "Valorizar a moeda nacional frente ao dólar.",
+    "Reduzir o preço dos produtos importados no mercado interno."
+  ],
+  "correta": 1,
+  "explicacao": "Com o real desvalorizado (mais reais para comprar 1 dólar), os produtos brasileiros ficam mais baratos para estrangeiros (exportações sobem), enquanto os produtos importados ficam mais caros para brasileiros (importações caem). Isso melhora a balança comercial no curto prazo.",
+  "dica": "Desvalorização = mais reais/dólar = exportação sobe, importação cai. Pense: 'o real fraco ajuda quem vende lá fora e prejudica quem compra lá fora'.",
+  "video": "taxa de cambio desvalorizacao exportacao importacao"
+},
+
+{
+  "id": "so325",
+  "materia": "Sociologia",
+  "tema": "Émile Durkheim — solidariedade",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Segundo Émile Durkheim, a passagem da solidariedade mecânica para a solidariedade orgânica está associada:",
+  "alternativas": [
+    "Ao fortalecimento das tradições religiosas.",
+    "À divisão social do trabalho e ao aumento da especialização.",
+    "À redução da densidade populacional nas cidades.",
+    "Ao retorno às comunidades agrícolas autossuficientes.",
+    "À diminuição das leis e normas sociais."
+  ],
+  "correta": 1,
+  "explicacao": "Para Durkheim, sociedades tradicionais possuem solidariedade mecânica (baseada na semelhança e na consciência coletiva forte). Com a industrialização e urbanização, surge a divisão do trabalho, criando interdependência entre funções especializadas — é a solidariedade orgânica. A coesão social passa a vir da complementaridade.",
+  "dica": "Mecânica = todos iguais (campo, tradição). Orgânica = todos diferentes e interdependentes (cidade, especialização). Quanto mais desenvolvida a divisão do trabalho, mais orgânica a sociedade.",
+  "video": "Durkheim solidariedade mecanica organica divisao trabalho"
+},
+{
+  "id": "so326",
+  "materia": "Sociologia",
+  "tema": "Max Weber — dominação",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Max Weber identificou três tipos ideais de dominação legítima. A dominação que se baseia em regras impessoais e procedimentos racionais, típica do Estado moderno, é a:",
+  "alternativas": [
+    "Dominação tradicional.",
+    "Dominação carismática.",
+    "Dominação racional-legal.",
+    "Dominação patriarcal.",
+    "Dominação religiosa."
+  ],
+  "correta": 2,
+  "explicacao": "Weber classifica a dominação legítima em três tipos ideais: 1) Tradicional (costumes, hereditariedade — ex: monarquia); 2) Carismática (qualidades pessoais do líder — ex: profetas, heróis); 3) Racional-legal (normas impessoais, burocracia — ex: Estado moderno, funcionário público age conforme a lei, não conforme sua vontade).",
+  "dica": "Estado moderno = racional-legal. Burocracia = poder do cargo, não da pessoa. Se a resposta menciona 'impessoal', 'regras', 'burocracia', provavelmente é racional-legal.",
+  "video": "Max Weber dominacao racional legal burocracia tipos ideais"
+},
+{
+  "id": "ct328",
+  "materia": "Contabilidade",
+  "tema": "Método das partidas dobradas",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Pelo método das partidas dobradas, a compra de um veículo à vista é registrada como:",
+  "alternativas": [
+    "Débito no Caixa e crédito no Veículo.",
+    "Débito no Veículo e crédito no Caixa.",
+    "Crédito no Veículo e crédito no Caixa.",
+    "Débito no Veículo e débito no Caixa.",
+    "Apenas um lançamento no Caixa."
+  ],
+  "correta": 1,
+  "explicacao": "Pelo método das partidas dobradas, cada transação envolve pelo menos um débito e um crédito de igual valor. A compra de um veículo à vista: a empresa adquire um bem (Veículo → débito, pois o ativo aumenta) e paga em dinheiro (Caixa → crédito, pois o ativo diminui).",
+  "dica": "Débito = entrada no ativo ou saída no passivo. Crédito = saída no ativo ou entrada no passivo. Veículo (ativo) entra → débito. Caixa (ativo) sai → crédito.",
+  "video": "metodo partidas dobradas debito credito contabilidade basica"
+},
+{
+  "id": "ct329",
+  "materia": "Contabilidade",
+  "tema": "Demonstração do Resultado — estrutura",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na Demonstração do Resultado do Exercício (DRE), o lucro bruto é calculado como:",
+  "alternativas": [
+    "Receita líquida − Despesas operacionais.",
+    "Receita bruta − Impostos.",
+    "Receita líquida − Custo dos produtos/serviços vendidos.",
+    "Receita bruta − Despesas financeiras.",
+    "Lucro operacional − Imposto de renda."
+  ],
+  "correta": 2,
+  "explicacao": "A estrutura simplificada da DRE: Receita Bruta → (-) Deduções (impostos, devoluções) → Receita Líquida → (-) CPV/CMV/CSP → Lucro Bruto → (-) Despesas operacionais/comerciais/admin → (+) Receitas financeiras (-) Despesas financeiras → Lucro antes do IR → (-) IR/CSLL → Lucro Líquido.",
+  "dica": "Ordem da DRE: Bruta → Líquida → Bruto → Operacional → Antes IR → Líquido. O CPV só é subtraído uma vez, na etapa do Lucro Bruto.",
+  "video": "DRE demonstracao resultado exercicio lucro bruto estrutura"
+},
+{
+  "id": "fs332",
+  "materia": "Fisiologia",
+  "tema": "Sistema endócrino — feedback hormonal",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O eixo hipotálamo-hipófise-tireoide é um exemplo clássico de retroalimentação negativa. Quando a concentração de T3 e T4 no sangue está elevada:",
+  "alternativas": [
+    "O hipotálamo aumenta a liberação de TRH.",
+    "A hipófise anterior aumenta a secreção de TSH.",
+    "O hipotálamo e a hipófise reduzem a liberação de TRH e TSH.",
+    "A tireoide continua produzindo T3 e T4 sem controle.",
+    "A hipófise converte T4 em T3."
+  ],
+  "correta": 2,
+  "explicacao": "No eixo hipotálamo-hipófise-tireoide, o hipotálamo secreta TRH, que estimula a adenohipófise a secretar TSH, que estimula a tireoide a produzir T3 e T4. Quando T3 e T4 estão elevados, há feedback negativo: o hipotálamo reduz TRH e a hipófise reduz TSH, diminuindo a produção tireoidiana.",
+  "dica": "Setas do eixo: TRH → TSH → T3/T4. T3/T4 altos → inibem TRH e TSH (feedback negativo). Decore a seta de inibição voltando do produto final.",
+  "video": "eixo hipotalamo hipofise tireoide feedback negativo TRH TSH"
+},
+{
+  "id": "fs333",
+  "materia": "Fisiologia",
+  "tema": "Sistema renal — filtração glomerular",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Durante a formação da urina, a filtração glomerular ocorre nos corpúsculos renais e é impulsionada principalmente pela:",
+  "alternativas": [
+    "Pressão coloidosmótica do plasma.",
+    "Pressão hidrostática do sangue nos capilares glomerulares.",
+    "Reabsorção ativa de sódio nos túbulos.",
+    "Secreção tubular de creatinina.",
+    "Pressão atmosférica externa."
+  ],
+  "correta": 1,
+  "explicacao": "A filtração glomerular é impulsionada pela pressão hidrostática do sangue nos capilares glomerulares (cerca de 55 mmHg), que força água e solutos de baixo peso molecular através da membrana de filtração para a cápsula de Bowman. Essa pressão é contrabalançada pela pressão coloidosmótica e pela pressão capsular.",
+  "dica": "A pressão que empurra o filtrado para fora do glomérulo é a pressão do próprio sangue (hidrostática). Pense: o coração bombeia sangue → a pressão chega ao rim e força a filtração.",
+  "video": "filtracao glomerular pressao hidrostatica rim formacao urina"
+},
+{
+  "id": "ad328",
+  "materia": "Administração",
+  "tema": "Taylor — administração científica",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Frederick Taylor, pioneiro da Administração Científica, defendia que a principal forma de aumentar a produtividade era:",
+  "alternativas": [
+    "Dar total autonomia aos operários na escolha dos métodos de trabalho.",
+    "Estudar e padronizar os movimentos e tempos de cada tarefa.",
+    "Eliminar todos os níveis hierárquicos da fábrica.",
+    "Focar exclusivamente na motivação psicológica dos trabalhadores.",
+    "Substituir a supervisão humana por inteligência artificial."
+  ],
+  "correta": 1,
+  "explicacao": "Taylor propôs o estudo científico do trabalho (tempos e movimentos), a seleção científica do trabalhador, a padronização das ferramentas e a divisão do trabalho entre planejamento (gerência) e execução (operário). O objetivo era eliminar desperdícios e maximizar a eficiência.",
+  "dica": "Taylor = estudo de tempos e movimentos + padronização + 'one best way'. Não confunda com Fayol (que focava na estrutura da organização) ou Mayo (que estudou relações humanas).",
+  "video": "Taylor administracao cientifica tempos movimentos produtividade"
+},
+{
+  "id": "ad329",
+  "materia": "Administração",
+  "tema": "Maslow — hierarquia das necessidades",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na pirâmide de Maslow, as necessidades de estima (reconhecimento, status) estão localizadas:",
+  "alternativas": [
+    "Na base da pirâmide.",
+    "Imediatamente acima das necessidades fisiológicas.",
+    "Entre as necessidades sociais e a autorrealização.",
+    "No topo da pirâmide, como a última necessidade.",
+    "Fora da hierarquia proposta por Maslow."
+  ],
+  "correta": 2,
+  "explicacao": "A hierarquia de Maslow (da base ao topo): 1) Fisiológicas (fome, sede, sono); 2) Segurança (emprego, saúde, moradia); 3) Sociais (amizade, amor, pertencimento); 4) Estima (reconhecimento, status, autoconfiança); 5) Autorrealização (desenvolvimento do potencial pleno). Estima é o penúltimo nível.",
+  "dica": "Ordem da base ao topo: FISIOLÓGICAS → SEGURANÇA → SOCIAIS → ESTIMA → AUTORREALIZAÇÃO. Decore: 'Fome, Segurança, Socialização, Ego (estima), Auge (autorrealização)'.",
+  "video": "Maslow piramide hierarquia necessidades estima autorrealizacao"
+},
+{
+  "id": "qm334",
+  "materia": "Química",
+  "tema": "Eletroquímica — eletrólise",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na eletrólise ígnea do cloreto de sódio (NaCl), o produto formado no cátodo é:",
+  "alternativas": [
+    "Gás cloro (Cl₂).",
+    "Sódio metálico (Na).",
+    "Hidróxido de sódio (NaOH).",
+    "Gás hidrogênio (H₂).",
+    "Ácido clorídrico (HCl)."
+  ],
+  "correta": 1,
+  "explicacao": "Na eletrólise ígnea do NaCl fundido (sem água), os íons Na⁺ migram para o cátodo (polo negativo) e recebem elétrons, reduzindo-se a sódio metálico: Na⁺ + e⁻ → Na. No ânodo, os íons Cl⁻ oxidam-se a Cl₂ gasoso. Não há formação de NaOH ou H₂ porque não há água no meio.",
+  "dica": "Eletrólise ígnea = sal fundido, sem água → cátodo produz o metal puro. Eletrólise aquosa = com água → cátodo pode produzir H₂ se o metal for muito reativo (antes do Al na fila).",
+  "video": "eletrolise ignea cloreto de sodio catodo anodo"
+},
+{
+  "id": "qm335",
+  "materia": "Química",
+  "tema": "Química orgânica — reações de esterificação",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A reação entre um ácido carboxílico e um álcool, na presença de catalisador ácido, produz:",
+  "alternativas": [
+    "Um sal orgânico e água.",
+    "Um éster e água.",
+    "Um éter e gás carbônico.",
+    "Um aldeído e hidrogênio.",
+    "Uma cetona e água."
+  ],
+  "correta": 1,
+  "explicacao": "A esterificação de Fischer é a reação reversível entre ácido carboxílico e álcool, catalisada por ácido forte (H₂SO₄), formando éster e água. Exemplo: ácido acético + etanol ⇌ acetato de etila + H₂O. O mecanismo envolve substituição nucleofílica acílica.",
+  "dica": "Éster = ácido + álcool, com eliminação de água. O aroma de frutas (banana, maçã) vem de ésteres. O ENEM contextualiza com flavorizantes artificiais.",
+  "video": "esterificacao Fischer acido carboxilico alcool ester"
+},
+{
+  "id": "f334",
+  "materia": "Física",
+  "tema": "Ondas — interferência",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Duas ondas sonoras de mesma frequência e amplitude chegam em fase a um ponto. Nesse ponto, ocorre:",
+  "alternativas": [
+    "Interferência destrutiva total com cancelamento do som.",
+    "Interferência construtiva com aumento da intensidade sonora.",
+    "Reflexão total da onda sonora.",
+    "Efeito Doppler com aumento da frequência.",
+    "Difração da onda ao redor do ponto."
+  ],
+  "correta": 1,
+  "explicacao": "Quando duas ondas chegam em fase (crista com crista, vale com vale), ocorre interferência construtiva: as amplitudes se somam e a intensidade resultante é maior. Se chegassem em oposição de fase, haveria interferência destrutiva. A diferença de caminho determina o tipo de interferência.",
+  "dica": "Em fase → crista + crista = interferência construtiva (som mais forte). Fora de fase → crista + vale = destrutiva (som mais fraco ou cancelamento). Pense em ondas na água.",
+  "video": "interferencia ondas construtiva destrutiva fisica"
+},
+{
+  "id": "f335",
+  "materia": "Física",
+  "tema": "Leis de Newton — força de atrito",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Um bloco está em repouso sobre uma superfície horizontal. Aplica-se uma força horizontal crescente. O bloco só começa a se mover quando a força aplicada supera:",
+  "alternativas": [
+    "A força peso do bloco.",
+    "A força normal da superfície.",
+    "A força de atrito estático máxima.",
+    "A força de atrito cinético.",
+    "A aceleração da gravidade."
+  ],
+  "correta": 2,
+  "explicacao": "Enquanto o bloco está parado, o atrito estático equilibra a força aplicada até um valor máximo (fat_e_máx = μe · N). Quando a força externa supera esse limite, o bloco entra em movimento e passa a atuar o atrito cinético (fat_c = μc · N), que é menor que o atrito estático máximo.",
+  "dica": "Atrito estático máximo > atrito cinético. Por isso é mais difícil 'soltar' um objeto pesado do que mantê-lo deslizando. μe > μc sempre.",
+  "video": "forca de atrito estatico cinetico leis de Newton"
+},
+{
+  "id": "b329",
+  "materia": "Biologia",
+  "tema": "Microbiologia — bactérias gram-positivas",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A coloração de Gram diferencia bactérias em gram-positivas e gram-negativas. As gram-positivas caracterizam-se por:",
+  "alternativas": [
+    "Possuírem membrana externa rica em lipopolissacarídeos.",
+    "Reterem o cristal violeta após lavagem com álcool, corando-se em roxo.",
+    "Corarem-se em vermelho pela safranina após descoloração.",
+    "Apresentarem parede celular fina entre duas membranas.",
+    "Serem exclusivamente patogênicas ao ser humano."
+  ],
+  "correta": 1,
+  "explicacao": "As bactérias gram-positivas possuem parede celular espessa de peptideoglicano que retém o complexo cristal violeta-iodo mesmo após lavagem com álcool, permanecendo roxas. As gram-negativas têm parede fina e membrana externa com LPS; perdem o cristal violeta na lavagem e coram-se em vermelho pela safranina.",
+  "dica": "Gram-positivas = roxo (parede grossa retém o corante). Gram-negativas = vermelho (parede fina, perde o corante). Streptococcus e Staphylococcus são gram-positivas; E. coli é gram-negativa.",
+  "video": "coloracao Gram bacterias positivas negativas peptideoglicano"
+},
+{
+  "id": "b330",
+  "materia": "Biologia",
+  "tema": "Fisiologia vegetal — hormônios",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O amadurecimento de frutos climatéricos (como banana e tomate) é desencadeado principalmente pelo hormônio vegetal:",
+  "alternativas": [
+    "Auxina (AIA).",
+    "Giberelina.",
+    "Etileno.",
+    "Citocinina.",
+    "Ácido abscísico."
+  ],
+  "correta": 2,
+  "explicacao": "O etileno é o único hormônio vegetal gasoso e atua como regulador do amadurecimento e senescência (envelhecimento) de frutos e folhas. Frutos climatéricos (banana, tomate, maçã) produzem etileno na maturação. A auxina promove alongamento celular; as giberelinas, germinação; as citocininas, divisão celular; o ácido abscísico induz dormência.",
+  "dica": "Etileno = amadurecimento. Por isso se embrulha fruta verde em jornal: o etileno fica concentrado e acelera o amadurecimento. Não confunda com os outros hormônios.",
+  "video": "etileno amadurecimento frutos hormonios vegetais auxina"
+},
+{
+  "id": "g334",
+  "materia": "Geografia",
+  "tema": "Recursos hídricos — gestão de bacias",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A gestão integrada de bacias hidrográficas no Brasil é fundamentada pelo princípio de que:",
+  "alternativas": [
+    "Cada município decide isoladamente o uso da água em seu território.",
+    "A bacia hidrográfica é a unidade territorial de planejamento e gestão dos recursos hídricos.",
+    "A água subterrânea não se comunica com os rios superficiais.",
+    "O setor elétrico tem prioridade absoluta sobre todos os demais usos.",
+    "A gestão da água é de competência exclusiva da União."
+  ],
+  "correta": 1,
+  "explicacao": "A Lei 9.433/97 (Política Nacional de Recursos Hídricos) estabelece a bacia hidrográfica como unidade territorial de gestão, com comitês de bacia que reúnem poder público, usuários e sociedade civil. O princípio é de gestão descentralizada e participativa, reconhecendo que o ciclo da água não respeita fronteiras municipais.",
+  "dica": "Bacia hidrográfica = área drenada por um rio principal e seus afluentes. A gestão por bacia é o modelo adotado no Brasil e cobrado em geografia e atualidades.",
+  "video": "gestao bacias hidrograficas Lei 9433 recursos hidricos"
+},
+{
+  "id": "g335",
+  "materia": "Geografia",
+  "tema": "Biomas — Mata Atlântica",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A Mata Atlântica é considerada um hotspot de biodiversidade porque:",
+  "alternativas": [
+    "É o bioma com maior extensão territorial do Brasil.",
+    "Apresenta alta biodiversidade e alto grau de devastação (mais de 70% da área original perdida).",
+    "Possui clima árido e vegetação xerófila.",
+    "Está totalmente preservada em unidades de conservação.",
+    "É o bioma exclusivo da região Sul do Brasil."
+  ],
+  "correta": 1,
+  "explicacao": "Hotspots são áreas com grande biodiversidade (muitas espécies endêmicas) que perderam pelo menos 70% de sua cobertura original. A Mata Atlântica se qualifica: abriga mais de 20 mil espécies de plantas (8 mil endêmicas) e restam menos de 30% da cobertura original, fragmentada ao longo da costa brasileira.",
+  "dica": "Hotspot = muita biodiversidade + muita destruição. Além da Mata Atlântica, o Cerrado também é considerado hotspot. Decore esses dois para o ENEM.",
+  "video": "Mata Atlantica hotspot biodiversidade devastacao"
+},
+{
+  "id": "so327",
+  "materia": "Sociologia",
+  "tema": "Karl Marx — alienação do trabalho",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Para Karl Marx, a alienação do trabalhador no capitalismo manifesta-se quando:",
+  "alternativas": [
+    "O trabalhador é dono dos meios de produção e do produto do seu trabalho.",
+    "O trabalhador não se reconhece no produto do seu trabalho, que pertence ao capitalista.",
+    "O salário do trabalhador equivale exatamente ao valor do que ele produz.",
+    "A jornada de trabalho é definida democraticamente por patrões e empregados.",
+    "O trabalho deixa de existir como categoria social."
+  ],
+  "correta": 1,
+  "explicacao": "Marx define alienação como o processo pelo qual o trabalhador perde o controle sobre o produto do seu trabalho (que pertence ao capitalista), sobre o próprio ato de trabalhar (tornado mecânico e imposto) e sobre sua essência humana (o trabalho deixa de ser expressão criativa). O trabalhador torna-se estranho a si mesmo.",
+  "dica": "Alienação em Marx = separação entre trabalhador e produto + trabalho mecânico + perda da essência humana. Contexto: Revolução Industrial, fábricas, linha de montagem. Sempre cai no ENEM.",
+  "video": "Marx alienacao trabalho capitalismo mais valia"
+},
+{
+  "id": "so328",
+  "materia": "Sociologia",
+  "tema": "Desigualdade racial — colorismo",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O conceito de 'colorismo' na sociologia das relações raciais refere-se a:",
+  "alternativas": [
+    "Um movimento artístico que valoriza a diversidade cromática.",
+    "A discriminação baseada no tom de pele, onde pessoas de pele mais escura sofrem mais preconceito que pessoas de pele clara de mesma origem étnica.",
+    "A política de cotas raciais nas universidades brasileiras.",
+    "A teoria de que todas as raças são biologicamente idênticas.",
+    "A preferência estética por determinadas cores em campanhas publicitárias."
+  ],
+  "correta": 1,
+  "explicacao": "Colorismo (ou pigmentocracia) é a forma de discriminação que diferencia pessoas dentro do mesmo grupo racial com base na tonalidade da pele: quanto mais escura, maior o preconceito sofrido. O termo foi difundido pela escritora Alice Walker. No Brasil, o colorismo ajuda a entender a complexidade do racismo para além da dicotomia branco/negro.",
+  "dica": "Colorismo = tom de pele importa. Não é 'é negro ou não é': a gradação de tom influencia a intensidade do preconceito. Termo de Alice Walker (1982).",
+  "video": "colorismo racismo pigmentocracia Alice Walker sociologia"
+},
+{
+  "id": "ec330",
+  "materia": "Economia",
+  "tema": "Keynes — intervenção estatal",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "John Maynard Keynes, em resposta à Grande Depressão de 1929, defendeu que o Estado deveria:",
+  "alternativas": [
+    "Reduzir todos os gastos públicos para equilibrar o orçamento.",
+    "Aumentar os gastos públicos para estimular a demanda agregada e combater o desemprego.",
+    "Deixar o mercado se autorregular sem qualquer intervenção governamental.",
+    "Nacionalizar todos os meios de produção da economia.",
+    "Aumentar a taxa de juros para conter a inflação."
+  ],
+  "correta": 1,
+  "explicacao": "Keynes rompeu com a ortodoxia liberal ao propor que, em períodos de recessão e desemprego elevado, o Estado deve intervir aumentando gastos públicos (obras de infraestrutura, programas sociais) para reativar a demanda agregada. O déficit fiscal temporário seria compensado nos períodos de crescimento (política anticíclica).",
+  "dica": "Keynes = recessão → Estado gasta mais (déficit) para reaquecer a economia. É o contrário do liberalismo clássico. Contexto: crise de 1929, New Deal nos EUA.",
+  "video": "Keynes intervencao estatal Grande Depressao New Deal"
+},
+{
+  "id": "ec331",
+  "materia": "Economia",
+  "tema": "Desenvolvimento — IDH vs PIB",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Uma crítica ao uso exclusivo do PIB como medida de desenvolvimento de um país é que o PIB:",
+  "alternativas": [
+    "Mede exclusivamente a qualidade de vida da população.",
+    "Não considera a distribuição de renda nem fatores sociais como educação e saúde.",
+    "Inclui indicadores ambientais e de sustentabilidade.",
+    "É calculado apenas para países desenvolvidos.",
+    "Reflete com precisão a felicidade da população."
+  ],
+  "correta": 1,
+  "explicacao": "O PIB mede o valor total de bens e serviços produzidos, mas ignora: distribuição de renda (um país pode ter PIB alto e muita desigualdade), externalidades ambientais, trabalho não remunerado (doméstico, voluntário) e qualidade de vida (saúde, educação, segurança). Por isso surgiram índices complementares como o IDH e o Índice de Gini.",
+  "dica": "PIB = soma de tudo que se produz. Não mede bem-estar. Um acidente que gera gastos hospitalares aumenta o PIB mas reduz qualidade de vida. Essa é a crítica clássica.",
+  "video": "PIB limitacoes desenvolvimento IDH distribuicao renda"
+},
+{
+  "id": "ct330",
+  "materia": "Contabilidade",
+  "tema": "Custos — classificação",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na contabilidade de custos, o aluguel de uma fábrica é classificado como:",
+  "alternativas": [
+    "Custo variável direto.",
+    "Custo fixo indireto.",
+    "Despesa operacional variável.",
+    "Investimento de capital.",
+    "Passivo circulante."
+  ],
+  "correta": 1,
+  "explicacao": "O aluguel da fábrica é um custo fixo (não varia com o volume de produção no curto prazo) e indireto (não pode ser diretamente atribuído a um único produto sem rateio). Outros exemplos: depreciação de máquinas, salário do supervisor. Custos variáveis são matéria-prima, energia da produção. Despesas são gastos administrativos/vendas.",
+  "dica": "Fixo = não muda com produção (aluguel, seguro). Variável = muda (matéria-prima). Direto = vai direto ao produto. Indireto = precisa ratear. Classifique sempre nesses dois eixos.",
+  "video": "custos fixos variaveis diretos indiretos contabilidade custos"
+},
+{
+  "id": "ct331",
+  "materia": "Contabilidade",
+  "tema": "Índices financeiros — liquidez",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O índice de liquidez corrente de uma empresa é calculado dividindo-se:",
+  "alternativas": [
+    "Ativo circulante pelo passivo circulante.",
+    "Ativo total pelo passivo total.",
+    "Lucro líquido pela receita bruta.",
+    "Disponibilidades pelo passivo circulante.",
+    "Patrimônio líquido pelo ativo total."
+  ],
+  "correta": 0,
+  "explicacao": "Liquidez Corrente = Ativo Circulante / Passivo Circulante. Mede a capacidade de a empresa pagar suas obrigações de curto prazo com seus recursos de curto prazo. Se LC > 1, a empresa tem mais recursos que dívidas no curto prazo. Se LC < 1, pode ter dificuldades de pagamento.",
+  "dica": "Liquidez = capacidade de pagar. Corrente = curto prazo. A fórmula é AC/PC. Não confunda com Liquidez Seca (sem estoques) nem com Liquidez Imediata (só disponibilidades).",
+  "video": "indice liquidez corrente seco geral contabilidade financeira"
+},
+{
+  "id": "ct332",
+  "materia": "Contabilidade",
+  "tema": "Receita — regime de competência",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Pelo regime de competência, uma venda a prazo realizada em dezembro de 2025 com recebimento em janeiro de 2026 deve ser reconhecida como receita em:",
+  "alternativas": [
+    "Janeiro de 2026, quando o dinheiro entrar no caixa.",
+    "Dezembro de 2025, quando ocorreu o fato gerador (a venda).",
+    "Metade em 2025 e metade em 2026.",
+    "No mês em que o cliente quitar a última parcela.",
+    "No fechamento do balanço anual de 2026."
+  ],
+  "correta": 1,
+  "explicacao": "O regime de competência estabelece que receitas e despesas são reconhecidas no período em que ocorre o fato gerador, independentemente do recebimento/pagamento. A venda ocorreu em dezembro → receita reconhecida em dezembro. Se fosse regime de caixa, seria em janeiro. Normas brasileiras (CPC) adotam o regime de competência.",
+  "dica": "Competência = quando acontece, não quando paga/recebe. Caixa = quando entra/sai dinheiro. A contabilidade brasileira usa competência. Cuidado para não confundir os dois regimes.",
+  "video": "regime competencia caixa contabilidade reconhecimento receita"
+},
+{
+  "id": "fs334",
+  "materia": "Fisiologia",
+  "tema": "Digestão — estômago",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "No estômago, a pepsina inicia a digestão de proteínas. Essa enzima é secretada na forma inativa (pepsinogênio) e ativada pelo:",
+  "alternativas": [
+    "pH alcalino do suco pancreático.",
+    "Ácido clorídrico (HCl) secretado pelas células parietais.",
+    "Bicarbonato produzido pelas glândulas salivares.",
+    "Suco biliar armazenado na vesícula.",
+    "pH neutro do quimo intestinal."
+  ],
+  "correta": 1,
+  "explicacao": "As células principais (zimogênicas) do estômago secretam pepsinogênio (forma inativa). O HCl secretado pelas células parietais reduz o pH gástrico para ~1,5-2,0, o que converte pepsinogênio em pepsina (ativa) por clivagem autocatalítica. A pepsina é uma endopeptidase que quebra proteínas em peptídeos menores.",
+  "dica": "Pepsinogênio (inativo) + HCl → Pepsina (ativa). O ácido do estômago é essencial para ativar a enzima. A banca adora perguntar 'por que não digerimos nosso próprio estômago?' — resposta: muco protetor + renovação celular rápida.",
+  "video": "digestao estomago pepsina pepsinogenio acido cloridrico"
+},
+{
+  "id": "fs335",
+  "materia": "Fisiologia",
+  "tema": "Sistema cardiovascular — débito cardíaco",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O débito cardíaco (DC) é calculado como o produto de:",
+  "alternativas": [
+    "Pressão arterial × resistência periférica.",
+    "Volume sistólico × frequência cardíaca.",
+    "Pressão sistólica × pressão diastólica.",
+    "Volume diastólico final × pressão arterial média.",
+    "Fração de ejeção × volume corrente."
+  ],
+  "correta": 1,
+  "explicacao": "Débito Cardíaco = Volume Sistólico (VS) × Frequência Cardíaca (FC). VS é o volume de sangue ejetado pelo ventrículo esquerdo a cada batimento (~70 mL em repouso). FC é o número de batimentos por minuto (~70 bpm). DC em repouso ≈ 5 L/min. Durante exercício intenso, pode chegar a 20-25 L/min.",
+  "dica": "DC = VS × FC. Decore a fórmula. Se a FC dobra mas o VS cai pela metade, o DC permanece igual. O coração de atleta tem VS maior e FC menor em repouso.",
+  "video": "debito cardiaco volume sistolico frequencia cardiaca fisiologia"
+},
+{
+  "id": "ad330",
+  "materia": "Administração",
+  "tema": "Gestão da qualidade — 5S",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O programa 5S, originado no Japão, é uma ferramenta de gestão da qualidade cujos sensos incluem:",
+  "alternativas": [
+    "Planejar, executar, verificar e agir.",
+    "Utilização, ordenação, limpeza, saúde e autodisciplina.",
+    "Forças, fraquezas, oportunidades e ameaças.",
+    "Missão, visão, valores e objetivos.",
+    "Entrada, processamento, saída e feedback."
+  ],
+  "correta": 1,
+  "explicacao": "Os 5S (japoneses): Seiri (senso de utilização/descarte), Seiton (ordenação/organização), Seiso (limpeza), Seiketsu (saúde/padronização) e Shitsuke (autodisciplina/manutenção). É uma metodologia de organização do ambiente de trabalho que precede programas de qualidade mais complexos.",
+  "dica": "5S em português: Utilização, Ordenação, Limpeza, Saúde, Autodisciplina. O ENEM pergunta o significado ou associa ao toyotismo (Sistema Toyota de Produção).",
+  "video": "programa 5S qualidade gestao japonesa Seiri Seiton"
+},
+{
+  "id": "ad331",
+  "materia": "Administração",
+  "tema": "Recursos Humanos — recrutamento",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O recrutamento interno em uma organização caracteriza-se por:",
+  "alternativas": [
+    "Buscar candidatos exclusivamente fora da empresa, via agências de emprego.",
+    "Selecionar funcionários que já trabalham na empresa para preencher vagas em níveis superiores.",
+    "Contratar temporários por prazo determinado.",
+    "Terceirizar todo o processo seletivo para consultorias externas.",
+    "Demitir funcionários antigos para contratar novos."
+  ],
+  "correta": 1,
+  "explicacao": "O recrutamento interno prioriza colaboradores que já estão na organização para preencher vagas, geralmente por promoção ou transferência. Vantagens: motivação do quadro, redução de custos de integração e valorização do capital humano interno. Desvantagem: limita a entrada de novas ideias externas.",
+  "dica": "Interno = de dentro para fora. Externo = de fora para dentro. Misto = combina os dois. Recrutamento não é seleção: recrutar é atrair candidatos; selecionar é escolher entre eles.",
+  "video": "recrutamento interno externo gestao pessoas RH selecao"
+},
+{
+  "id": "ad332",
+  "materia": "Administração",
+  "tema": "Fayol — funções do administrador",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Henri Fayol definiu as funções clássicas do administrador pelo acrônimo PODC, que significa:",
+  "alternativas": [
+    "Produzir, Organizar, Delegar e Controlar.",
+    "Prever, Orçar, Dirigir e Comandar.",
+    "Planejar, Organizar, Dirigir e Controlar.",
+    "Programar, Operar, Decidir e Conferir.",
+    "Priorizar, Orientar, Desenvolver e Corrigir."
+  ],
+  "correta": 2,
+  "explicacao": "Fayol, em sua Teoria Clássica da Administração (1916), estabeleceu as funções do administrador: Prever/Planejar (definir objetivos e meios), Organizar (estruturar recursos), Comandar/Dirigir (liderar pessoas) e Controlar (verificar conformidade). O PODC permanece como base do processo administrativo moderno.",
+  "dica": "PODC = Planejar, Organizar, Dirigir, Controlar. Fayol = funções do administrador. Taylor = estudo de tempos e movimentos. Não troque os dois clássicos.",
+  "video": "Fayol funcoes administrador PODC teoria classica administracao"
+},
+{
+  "id": "g336",
+  "materia": "Geografia",
+  "tema": "Demografia — transição demográfica",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na fase 3 da transição demográfica, o crescimento populacional desacelera porque:",
+  "alternativas": [
+    "As taxas de natalidade e mortalidade são igualmente elevadas.",
+    "A taxa de natalidade começa a cair, enquanto a mortalidade já é baixa.",
+    "A mortalidade aumenta devido a epidemias e guerras.",
+    "Ambas as taxas (natalidade e mortalidade) são muito baixas e estáveis.",
+    "A migração internacional reduz a população total."
+  ],
+  "correta": 1,
+  "explicacao": "O modelo de transição demográfica tem 4 fases: Fase 1 (pré-industrial): natalidade e mortalidade altas, crescimento baixo. Fase 2: mortalidade cai (saneamento, medicina), natalidade mantém-se alta → explosão populacional. Fase 3: natalidade começa a cair (urbanização, contracepção, mulher no mercado) → desaceleração. Fase 4: ambas baixas, crescimento próximo de zero.",
+  "dica": "Fase 3 = natalidade caindo + mortalidade baixa = crescimento desacelerando. O Brasil está saindo da fase 3 para a 4. A Europa está na fase 4 (crescimento zero ou negativo).",
+  "video": "transicao demografica fases natalidade mortalidade crescimento populacional"
+},
+{
+  "id": "g337",
+  "materia": "Geografia",
+  "tema": "Agricultura — revolução verde",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A Revolução Verde, iniciada na década de 1960, baseou-se principalmente:",
+  "alternativas": [
+    "Na expansão da agricultura orgânica e agroecológica.",
+    "No uso intensivo de sementes melhoradas, fertilizantes químicos e agrotóxicos.",
+    "Na abolição do uso de máquinas agrícolas e retorno ao cultivo manual.",
+    "Na reforma agrária e distribuição de terras improdutivas.",
+    "Na proibição do uso de organismos geneticamente modificados (OGMs)."
+  ],
+  "correta": 1,
+  "explicacao": "A Revolução Verde foi um pacote tecnológico liderado por Norman Borlaug (Prêmio Nobel da Paz 1970) que combinou sementes de alto rendimento (híbridas), fertilizantes sintéticos, agrotóxicos, irrigação e mecanização. Aumentou a produtividade, mas trouxe problemas ambientais (contaminação do solo e água) e dependência de insumos industriais.",
+  "dica": "Revolução Verde = sementes melhoradas + fertilizantes + agrotóxicos + irrigação. Críticas: concentração de terras, impacto ambiental, perda de biodiversidade agrícola.",
+  "video": "revolucao verde Norman Borlaug agricultura fertilizantes agrotoxicos"
+},
+{
+  "id": "v334",
+  "materia": "Direito Previdenciário",
+  "tema": "Princípios — solidariedade",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O princípio da solidariedade que rege a Previdência Social brasileira significa que:",
+  "alternativas": [
+    "Cada segurado contribui exclusivamente para seu próprio benefício futuro.",
+    "Os trabalhadores ativos financiam os benefícios dos inativos, independentemente de contribuição individual proporcional ao benefício.",
+    "Apenas o empregador custeia todos os benefícios previdenciários.",
+    "O valor do benefício é sempre igual ao valor da última contribuição.",
+    "Somente os servidores públicos participam do sistema solidário."
+  ],
+  "correta": 1,
+  "explicacao": "A solidariedade é princípio estruturante da Seguridade Social (art. 194, CF/88). No RGPS, o sistema de repartição simples faz com que as contribuições dos trabalhadores ativos paguem os benefícios dos aposentados e pensionistas atuais. Não há conta individual como na previdência complementar privada.",
+  "dica": "Solidariedade na Previdência = pacto entre gerações. Quem trabalha hoje paga quem se aposentou. É diferente de conta de poupança individual. Decore: art. 194, CF.",
+  "video": "principio solidariedade previdencia social artigo 194 constituicao"
+},
+{
+  "id": "v335",
+  "materia": "Direito Previdenciário",
+  "tema": "Salário de contribuição",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O salário de contribuição do empregado celetista corresponde:",
+  "alternativas": [
+    "Ao valor total da folha de pagamento da empresa.",
+    "À remuneração efetivamente recebida, limitada ao teto do INSS.",
+    "Ao valor do pró-labore do sócio-gerente.",
+    "Exclusivamente ao décimo terceiro salário.",
+    "Ao valor do patrimônio líquido da empresa."
+  ],
+  "correta": 1,
+  "explicacao": "Para o empregado com carteira assinada, o salário de contribuição é a remuneração mensal (salário base + adicionais como horas extras, comissões, adicional noturno), limitada ao teto previdenciário (valor máximo sobre o qual incide contribuição). Em 2025, o teto é de aproximadamente R$ 7.786,02.",
+  "dica": "Salário de contribuição ≠ salário bruto total. É o valor sobre o qual se calcula a contribuição, limitado ao teto. O que exceder o teto não sofre desconto previdenciário.",
+  "video": "salario contribuicao teto INSS segurado empregado direito previdenciario"
+},
+{
+  "id": "so329",
+  "materia": "Sociologia",
+  "tema": "Instituições sociais — família",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Na sociologia contemporânea, a família é compreendida como uma instituição social que:",
+  "alternativas": [
+    "Possui um único modelo universal baseado no casamento heterossexual monogâmico.",
+    "É uma construção social com múltiplos arranjos que variam histórica e culturalmente.",
+    "Deixou de existir nas sociedades modernas industrializadas.",
+    "Tem como única função a reprodução biológica da espécie.",
+    "É definida exclusivamente por laços de consanguinidade."
+  ],
+  "correta": 1,
+  "explicacao": "A sociologia contemporânea entende a família como construção social: seus arranjos (nuclear, extensa, monoparental, homoafetiva, recomposta) variam conforme o contexto histórico e cultural. Não há um modelo 'natural' ou 'correto' — as formas familiares respondem a transformações econômicas, culturais e jurídicas de cada sociedade.",
+  "dica": "Sociologicamente, família = instituição social mutável. O modelo 'pai-mãe-filhos' é apenas um entre muitos possíveis. O ENEM aborda essa pluralidade como forma de respeitar a diversidade.",
+  "video": "familia instituicao social sociologia pluralidade arranjos familiares"
+},
+{
+  "id": "so330",
+  "materia": "Sociologia",
+  "tema": "Globalização — cultura",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O fenômeno da glocalização, na análise sociológica da globalização cultural, refere-se a:",
+  "alternativas": [
+    "A imposição uniforme da cultura ocidental sobre todas as sociedades.",
+    "A adaptação de elementos culturais globais às realidades e identidades locais.",
+    "O isolamento cultural completo de comunidades frente ao mundo globalizado.",
+    "A substituição total das culturas locais pela cultura pop global.",
+    "O fim de todas as manifestações culturais tradicionais."
+  ],
+  "correta": 1,
+  "explicacao": "Glocalização (termo de Roland Robertson) descreve como produtos e ideias globais são reinterpretados e adaptados às culturas locais, gerando híbridos. Exemplo: o McDonald's adapta cardápios a cada país (McRice na Ásia, McFeijão no Brasil). Não é homogeneização pura, mas uma mescla entre global e local.",
+  "dica": "Glocalização = global + local. A cultura global não apaga a local; ela se transforma no encontro. Exemplo clássico: funk brasileiro, que mescla ritmo global com temáticas periféricas locais.",
+  "video": "glocalizacao globalizacao cultura Roland Robertson sociologia"
+},
+{
+  "id": "ef331",
+  "materia": "Educação Física",
+  "tema": "Metabolismo energético — sistemas",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Durante uma corrida de 100 metros rasos (~10 segundos), o principal sistema energético utilizado pelo atleta é o:",
+  "alternativas": [
+    "Sistema oxidativo aeróbio.",
+    "Sistema ATP-CP (fosfocreatina), anaeróbio alático.",
+    "Sistema glicolítico anaeróbio lático.",
+    "Sistema de betaoxidação de ácidos graxos.",
+    "Ciclo de Krebs mitocondrial."
+  ],
+  "correta": 1,
+  "explicacao": "Em atividades de curtíssima duração e alta intensidade (até 10-15 segundos, como 100 m rasos, salto, arremesso), o sistema ATP-CP (fosfocreatina) é o predominante: anaeróbio alático, não produz lactato e usa a reserva imediata de PCr para regenerar ATP rapidamente. Para provas mais longas (400-800 m), predomina o sistema glicolítico lático; para maratonas, o oxidativo.",
+  "dica": "ATP-CP = explosão curta (até 15s) · Glicolítico = intensidade moderada (até 2 min) · Oxidativo = longa duração. Decore os tempos de predominância de cada sistema.",
+  "video": "sistemas energeticos ATP CP fosfocreatina anaerobio alatico"
+},
+{
+  "id": "ef332",
+  "materia": "Educação Física",
+  "tema": "Frequência cardíaca — zona alvo",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A zona alvo de treinamento aeróbio para melhora da capacidade cardiorrespiratória é tipicamente calculada como:",
+  "alternativas": [
+    "40-50% da frequência cardíaca máxima (FCmáx).",
+    "60-85% da frequência cardíaca máxima (FCmáx).",
+    "90-100% da frequência cardíaca máxima (FCmáx).",
+    "Abaixo de 30% da FCmáx.",
+    "Exatamente 100% da FCmáx durante todo o treino."
+  ],
+  "correta": 1,
+  "explicacao": "Para melhora da aptidão cardiorrespiratória, o ACSM (American College of Sports Medicine) recomenda treinar entre 60-85% da FCmáx. A FCmáx é estimada por 220 − idade (fórmula de Karvonen). Abaixo de 60% é zona de aquecimento/reabilitação; acima de 85% é zona de alta intensidade (anaeróbia).",
+  "dica": "Zona aeróbia ideal = 60-85% da FCmáx. Fórmula clássica: FCmáx = 220 − idade. Calcule: para 20 anos, FCmáx ≈ 200 bpm, zona alvo entre 120 e 170 bpm.",
+  "video": "zona alvo treinamento frequencia cardiaca maxima Karvonen"
+},
+{
+  "id": "ar331",
+  "materia": "Artes",
+  "tema": "Arte contemporânea — conceito",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A arte contemporânea, a partir da segunda metade do século XX, caracteriza-se por:",
+  "alternativas": [
+    "Seguir rigidamente os padrões acadêmicos de beleza e proporção do Renascimento.",
+    "Romper com suportes tradicionais, incorporando performance, instalação, vídeo e arte conceitual.",
+    "Limitar-se exclusivamente à pintura a óleo e escultura em mármore.",
+    "Rejeitar qualquer relação com questões sociais e políticas.",
+    "Retomar exclusivamente técnicas artesanais medievais."
+  ],
+  "correta": 1,
+  "explicacao": "A arte contemporânea (pós-1960) expandiu os limites do que pode ser arte: performance, instalação, happening, videoarte, arte digital, land art e arte conceitual (a ideia importa mais que o objeto). Artistas como Hélio Oiticica, Lygia Clark, Marina Abramovic e Banksy exemplificam essa pluralidade de linguagens e suportes.",
+  "dica": "Arte contemporânea = pluralidade de linguagens + questionamento dos suportes tradicionais + engajamento social/político. Performance e instalação são marcas fortes. Cai muito no ENEM.",
+  "video": "arte contemporanea performance instalacao Helio Oiticica Lygia Clark"
+},
+{
+  "id": "ar332",
+  "materia": "Artes",
+  "tema": "Semana de Arte Moderna — 1922",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A Semana de Arte Moderna de 1922, realizada no Teatro Municipal de São Paulo, representou:",
+  "alternativas": [
+    "A consolidação do estilo neoclássico na arte brasileira.",
+    "Um marco de ruptura com a tradição acadêmica e busca por uma arte genuinamente brasileira.",
+    "Uma exposição internacional sem participação de artistas brasileiros.",
+    "A rejeição total de qualquer influência das vanguardas europeias.",
+    "A fundação da primeira escola de Belas Artes no Brasil."
+  ],
+  "correta": 1,
+  "explicacao": "A Semana de 22 foi o marco inaugural do Modernismo brasileiro, reunindo artistas como Anita Malfatti, Di Cavalcanti, Tarsila do Amaral (ausente mas ligada), Mário de Andrade, Oswald de Andrade e Villa-Lobos. Propunha 'devorar' as vanguardas europeias (Antropofagia) para criar uma arte nacional, rompendo com o academicismo.",
+  "dica": "1922 = Semana de Arte Moderna = ruptura com tradição + identidade nacional + antropofagia (devorar influências estrangeiras). Mário de Andrade e Oswald de Andrade como líderes intelectuais.",
+  "video": "Semana de Arte Moderna 1922 Mario de Andrade Oswald antropofagia"
+},
+{
+  "id": "et327",
+  "materia": "Ética",
+  "tema": "Ética kantiana — imperativo categórico",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O imperativo categórico formulado por Immanuel Kant estabelece que devemos agir:",
+  "alternativas": [
+    "De acordo com as consequências prováveis da ação e a felicidade gerada.",
+    "Apenas conforme uma máxima que possa ser universalizada como lei para todos.",
+    "Seguindo exclusivamente os mandamentos religiosos e divinos.",
+    "Buscando o prazer imediato e evitando a dor a qualquer custo.",
+    "Imitando as ações virtuosas de um sábio reconhecido pela comunidade."
+  ],
+  "correta": 1,
+  "explicacao": "Kant fundamenta a moralidade na razão (ética deontológica): o imperativo categórico é uma lei moral universal e incondicional. Uma ação é moral se a máxima (princípio subjetivo) puder ser universalizada sem contradição. Exemplo: 'mentir é errado' porque uma lei universal que permitisse a mentira tornaria impossível a comunicação (contradição performativa).",
+  "dica": "Kant = dever pelo dever, não pelas consequências. Se a ação não pode ser universalizada, não é moral. Contraste com o utilitarismo (Bentham/Mill: o moral é o que gera mais felicidade).",
+  "video": "Kant imperativo categorico etica deontologica universalizacao"
+},
+{
+  "id": "et328",
+  "materia": "Ética",
+  "tema": "Ética profissional — conflito de interesses",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Conflito de interesses no serviço público ocorre quando:",
+  "alternativas": [
+    "Dois servidores discordam sobre a interpretação de uma norma administrativa.",
+    "O interesse privado do agente público interfere ou pode interferir no exercício imparcial de suas funções.",
+    "Há divergência entre os Poderes Executivo e Legislativo sobre uma política pública.",
+    "Um servidor acumula legalmente dois cargos públicos permitidos pela Constituição.",
+    "O orçamento público é insuficiente para atender todas as demandas sociais."
+  ],
+  "correta": 1,
+  "explicacao": "Conflito de interesses (Lei 12.813/2013) é a situação em que o interesse particular do agente público (financeiro, familiar, político) pode influenciar ou aparentar influenciar sua decisão administrativa imparcial. Exemplos: servidor que fiscaliza empresa onde tem parentes; membro de comissão licitatória com vínculo com licitante.",
+  "dica": "Conflito de interesses = interesse privado colide com dever público. Não precisa haver corrupção consumada; a mera aparência de parcialidade já configura conflito. Art. 3º Lei 12.813/2013.",
+  "video": "conflito interesses servico publico etica profissional Lei 12813"
+},
+{
+  "id": "i346",
+  "materia": "Informática",
+  "tema": "Segurança digital — phishing",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Phishing é uma técnica de ataque digital que consiste em:",
+  "alternativas": [
+    "Criptografar arquivos da vítima e exigir resgate em criptomoedas.",
+    "Criar mensagens fraudulentas que se passam por instituições legítimas para obter dados pessoais.",
+    "Sobrecarregar servidores com tráfego excessivo para derrubá-los.",
+    "Explorar vulnerabilidades de software sem o conhecimento do usuário.",
+    "Espalhar vírus que se autorreplicam em redes locais."
+  ],
+  "correta": 1,
+  "explicacao": "Phishing (derivado de 'fishing' — pescar) é engenharia social: o criminoso envia e-mails, SMS ou mensagens falsas que imitam bancos, lojas, serviços de streaming para induzir a vítima a clicar em links maliciosos e fornecer senhas, números de cartão e dados pessoais. A prevenção inclui verificar remetente e nunca clicar em links suspeitos.",
+  "dica": "Phishing = pescaria de dados. Não é ransomware (sequestro de dados) nem DDoS (derrubar sites). Desconfie de mensagens urgentes pedindo senha ou dinheiro — bancos não pedem senha online.",
+  "video": "phishing seguranca digital golpes internet engenharia social"
+},
+{
+  "id": "i347",
+  "materia": "Informática",
+  "tema": "Planilhas — função PROCV",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "No Microsoft Excel ou Google Planilhas, a função PROCV (ou VLOOKUP) é utilizada para:",
+  "alternativas": [
+    "Somar valores em um intervalo de células que atendem a um critério.",
+    "Procurar um valor na primeira coluna de uma tabela e retornar um dado da mesma linha em outra coluna.",
+    "Contar quantas células de um intervalo contêm um valor específico.",
+    "Formatar automaticamente células com base em uma condição.",
+    "Criar gráficos dinâmicos a partir de dados tabulares."
+  ],
+  "correta": 1,
+  "explicacao": "PROCV (procura vertical) busca um valor na coluna mais à esquerda de uma tabela e retorna o conteúdo de uma célula na mesma linha, em uma coluna especificada. Sintaxe: =PROCV(valor_procurado; tabela; coluna_retorno; [procurar_exato]). Útil para cruzar dados (ex: buscar preço de um produto pelo código).",
+  "dica": "PROCV = coluna da esquerda → valor na mesma linha à direita. O último argumento (FALSO) força busca exata e é geralmente o que a prova cobra.",
+  "video": "PROCV VLOOKUP Excel Google Planilhas funcao procura vertical"
+},
+{
+  "id": "tr327",
+  "materia": "Direito do Trabalho",
+  "tema": "FGTS — movimentação",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Uma das hipóteses legais que permite a movimentação (saque) do FGTS pelo trabalhador é:",
+  "alternativas": [
+    "Aposentadoria por tempo de contribuição, independentemente de continuar trabalhando.",
+    "Compra de qualquer imóvel, inclusive de lazer em área rural.",
+    "Demissão sem justa causa pelo empregador.",
+    "Pedido voluntário de demissão com aviso prévio indenizado.",
+    "Aquisição de veículo automotor para uso particular."
+  ],
+  "correta": 2,
+  "explicacao": "O saque do FGTS é permitido em situações específicas (Lei 8.036/90, art. 20): demissão sem justa causa, aposentadoria, compra da casa própria (dentro de regras do SFH), doença grave, falecimento, conta inativa por 3 anos, entre outras. No pedido de demissão voluntário, o trabalhador NÃO pode sacar o FGTS.",
+  "dica": "FGTS pode sacar: demitido sem justa causa ✓ · pediu demissão ✗ · aposentadoria ✓ · compra casa ✓ · doença grave ✓. Não é para qualquer coisa: carro, viagem, dívida pessoal → não pode.",
+  "video": "FGTS saque hipoteses demissao sem justa causa direito trabalho"
+},
+{
+  "id": "tr328",
+  "materia": "Direito do Trabalho",
+  "tema": "Jornada — hora extra",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Conforme a CLT, a remuneração da hora extraordinária deve ser acrescida de no mínimo:",
+  "alternativas": [
+    "20% sobre a hora normal.",
+    "30% sobre a hora normal.",
+    "50% sobre a hora normal.",
+    "75% sobre a hora normal.",
+    "100% sobre a hora normal (dobrada)."
+  ],
+  "correta": 2,
+  "explicacao": "O art. 59 da CLT, combinado com o art. 7º, XVI da CF/88, estabelece que a hora extra deve ser remunerada com adicional mínimo de 50% sobre a hora normal. Em domingos e feriados, convenções coletivas costumam prever 100% (dobra). O adicional de 50% é o piso constitucional, podendo ser majorado por acordo ou convenção coletiva.",
+  "dica": "Hora extra mínima = 50% (art. 7º CF). Hora extra noturna = adicional noturno (20%) + hora extra (50%). Cálculo: salário-hora × 1,5. Decore o percentual mínimo.",
+  "video": "hora extra adicional 50 por cento CLT artigo 59 direito trabalho"
+},
+{
+  "id": "lg328",
+  "materia": "Legislação",
+  "tema": "LGPD — direitos do titular",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A Lei Geral de Proteção de Dados (Lei 13.709/2018) garante ao titular dos dados o direito de:",
+  "alternativas": [
+    "Vender seus dados pessoais para qualquer empresa interessada.",
+    "Solicitar a eliminação de dados pessoais tratados com consentimento, ressalvadas exceções legais.",
+    "Impedir completamente qualquer tratamento de dados por empresas privadas e órgãos públicos.",
+    "Transferir automaticamente todos os seus dados para concorrentes do controlador.",
+    "Exigir indenização por qualquer tratamento de dados realizado licitamente."
+  ],
+  "correta": 1,
+  "explicacao": "A LGPD (art. 18) confere ao titular direitos como: confirmação e acesso, correção, anonimização/eliminação, portabilidade, revogação do consentimento e revisão de decisões automatizadas. A eliminação não é absoluta: há exceções para cumprimento legal, estudos por órgãos de pesquisa (anonimizados) e defesa em processos.",
+  "dica": "LGPD = direitos do titular: acessar, corrigir, eliminar, portar, revogar consentimento. Não confunda 'eliminar' com 'apagar absolutamente' — há exceções legais (obrigação fiscal, processo judicial).",
+  "video": "LGPD direitos titular dados pessoais eliminacao Lei 13709"
+},
+{
+  "id": "lg329",
+  "materia": "Legislação",
+  "tema": "ECA — ato infracional",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Conforme o Estatuto da Criança e do Adolescente (Lei 8.069/90), a prática de ato infracional por adolescente (12 a 18 anos) pode resultar em:",
+  "alternativas": [
+    "Prisão em estabelecimento penal comum, igual à de adultos.",
+    "Aplicação de medidas socioeducativas, como advertência, prestação de serviços e internação.",
+    "Pena de reclusão em regime fechado, sem possibilidade de progressão.",
+    "Multa pecuniária paga pelos pais e arquivamento do caso.",
+    "Absolvição automática em razão da inimputabilidade penal."
+  ],
+  "correta": 1,
+  "explicacao": "O ECA (art. 112) prevê medidas socioeducativas para adolescentes que praticam ato infracional: advertência, reparação de dano, prestação de serviços à comunidade, liberdade assistida, semiliberdade e internação. O adolescente é inimputável penalmente (não responde pelo CP, mas pelo ECA). A internação é medida excepcional (art. 121 e 122).",
+  "dica": "Adolescente (12-18) = ato infracional (não crime) + medida socioeducativa (não pena). Internação = último recurso, sujeita a princípios de brevidade e excepcionalidade.",
+  "video": "ECA ato infracional medidas socioeducativas adolescente liberdade assistida"
+},
+{
+  "id": "lg330",
+  "materia": "Legislação",
+  "tema": "Lei de Improbidade — modalidades",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Após a reforma da Lei 14.230/2021, a Lei de Improbidade Administrativa (Lei 8.429/92) passou a exigir, para a configuração do ato ímprobo, a presença de:",
+  "alternativas": [
+    "Simples irregularidade formal no procedimento administrativo, independentemente de dolo.",
+    "Dolo específico (vontade livre e consciente de alcançar o resultado ilícito), vedada a modalidade culposa.",
+    "Mera negligência do agente público no exercício de suas funções.",
+    "Enriquecimento ilícito presumido, bastando que o patrimônio do agente seja incompatível com sua renda.",
+    "Culpa grave do agente público, dispensando-se a demonstração de intenção."
+  ],
+  "correta": 1,
+  "explicacao": "A Lei 14.230/2021 reformou profundamente a LIA: excluiu a modalidade culposa de improbidade (art. 1º, §1º e §2º) e passou a exigir dolo específico (vontade de praticar o ato ilícito e alcançar o resultado vedado por lei). A mera irregularidade, sem prova da intenção, não caracteriza improbidade. O ato culposo passou a ser irrelevante para fins de improbidade.",
+  "dica": "Pós-2021: só há improbidade com DOLO (culpa não basta mais). A reforma foi polêmica e cai em provas de legislação/constitucional. Art. 1º, §1º Lei 8.429/92.",
+  "video": "Lei improbidade reforma 14230 dolo especifico modalidade culposa"
+},
+{
+  "id": "f336",
+  "materia": "Física",
+  "tema": "Gravitação — leis de Kepler",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A terceira lei de Kepler (lei dos períodos) estabelece que a razão entre o quadrado do período orbital de um planeta e o cubo de sua distância média ao Sol é:",
+  "alternativas": [
+    "Diretamente proporcional à massa do planeta.",
+    "Inversamente proporcional à massa do Sol.",
+    "Constante para todos os planetas do Sistema Solar.",
+    "Nula para planetas com órbitas circulares.",
+    "Variável conforme a excentricidade da órbita."
+  ],
+  "correta": 2,
+  "explicacao": "A 3ª lei de Kepler: T²/R³ = constante (K) para todos os corpos que orbitam o mesmo astro central. Para o Sistema Solar, T²/R³ depende apenas da massa do Sol (K = 4π²/GM_sol). Planetas mais distantes têm período orbital maior: T² ∝ R³. Newton depois demonstrou que essa constante deriva da lei da gravitação universal.",
+  "dica": "Kepler 3ª: T²/R³ = constante. Quanto mais longe do Sol, maior o ano do planeta (período orbital). A constante depende apenas do astro central (massa do Sol).",
+  "video": "terceira lei Kepler periodos orbitais quadrado cubo gravitacao"
+},
+{
+  "id": "f337",
+  "materia": "Física",
+  "tema": "Eletricidade — campo elétrico",
+  "nivel": "dificil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Uma carga de prova positiva é colocada em um ponto de um campo elétrico uniforme. A força elétrica sobre ela:",
+  "alternativas": [
+    "É perpendicular à direção do campo elétrico.",
+    "Tem o mesmo sentido do campo elétrico.",
+    "Tem sentido oposto ao campo elétrico.",
+    "É nula porque o campo é uniforme.",
+    "Depende exclusivamente da velocidade da carga."
+  ],
+  "correta": 1,
+  "explicacao": "A força elétrica sobre uma carga q em um campo E é dada por F = qE. Se q > 0 (carga positiva), F tem o mesmo sentido de E. Se q < 0 (carga negativa), F tem sentido oposto a E. Em campo uniforme, a força tem módulo constante (F = qE), e a carga descreve trajetória parabólica se lançada com velocidade inicial perpendicular ao campo.",
+  "dica": "F = qE. Carga positiva → força no sentido do campo. Carga negativa → força contrária ao campo. Pense: 'positivo vai junto com a seta do campo'.",
+  "video": "campo eletrico uniforme forca eletrica carga prova"
+},
+{
+  "id": "qm336",
+  "materia": "Química",
+  "tema": "Química ambiental — efeito estufa",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O principal gás responsável pelo efeito estufa natural da Terra, essencial para a manutenção da temperatura do planeta, é:",
+  "alternativas": [
+    "Oxigênio (O₂).",
+    "Nitrogênio (N₂).",
+    "Vapor d'água (H₂O).",
+    "Ozônio (O₃) estratosférico.",
+    "Argônio (Ar)."
+  ],
+  "correta": 2,
+  "explicacao": "O efeito estufa natural é essencial para a vida: sem ele, a temperatura média da Terra seria cerca de -18°C. O principal gás de efeito estufa natural é o vapor d'água (H₂O), seguido pelo CO₂, CH₄ e N₂O. O aumento antropogênico de CO₂ (queima de combustíveis fósseis) intensifica o efeito, causando aquecimento global.",
+  "dica": "Efeito estufa natural (bom) = vapor d'água como principal gás. Aquecimento global (problema) = excesso de CO₂, CH₄ e N₂O de origem humana. Não confunda efeito estufa com camada de ozônio.",
+  "video": "efeito estufa vapor agua dioxido carbono aquecimento global"
+},
+{
+  "id": "b331",
+  "materia": "Biologia",
+  "tema": "Fisiologia vegetal — fotossíntese",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A fase fotoquímica (clara) da fotossíntese ocorre nos tilacoides e tem como produtos diretos:",
+  "alternativas": [
+    "Glicose e oxigênio.",
+    "ATP, NADPH e oxigênio.",
+    "Gás carbônico e água.",
+    "Piruvato e CO₂.",
+    "Proteínas e lipídios."
+  ],
+  "correta": 1,
+  "explicacao": "A fase clara (fotoquímica) converte energia luminosa em energia química: a água é quebrada (fotólise), liberando O₂; a energia dos fótons é usada para produzir ATP (fotofosforilação) e NADPH reduzido. Esses produtos (ATP e NADPH) alimentam a fase escura (Ciclo de Calvin), onde o CO₂ é fixado e convertido em glicose.",
+  "dica": "Fase clara = tilacoide → ATP + NADPH + O₂. Fase escura = estroma → glicose (usa ATP e NADPH). A fotólise da água libera o oxigênio que respiramos.",
+  "video": "fotossintese fase clara tilacoide ATP NADPH oxigenio"
+},
+{
+  "id": "b332",
+  "materia": "Biologia",
+  "tema": "Fisiologia vegetal — condução de seiva elaborada",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A seiva elaborada (solução de sacarose e outros compostos orgânicos) é transportada das folhas para os demais órgãos da planta através do:",
+  "alternativas": [
+    "Xilema, por capilaridade e transpiração.",
+    "Floema, pelo mecanismo de pressão de fluxo (hipótese de Münch).",
+    "Parênquima aquífero, por difusão passiva.",
+    "Colênquima, por transporte ativo mediado por bombas iônicas.",
+    "Epiderme foliar, por osmose direta com a atmosfera."
+  ],
+  "correta": 1,
+  "explicacao": "O floema (líber) transporta a seiva elaborada das fontes (folhas fotossintetizantes) para os drenos (raízes, frutos, sementes). A hipótese de Münch (fluxo de pressão) explica: o carregamento ativo de sacarose no floema foliar reduz o potencial hídrico, a água entra por osmose e gera pressão hidrostática que impulsiona o fluxo. O xilema transporta seiva bruta (água e sais).",
+  "dica": "Xilema = seiva bruta (água + sais), sobe. Floema = seiva elaborada (açúcares), desce e sobe conforme fonte/dreno. Não troque os tecidos!",
+  "video": "floema seiva elaborada hipotese Munch transporte plantas"
+},
+{
+  "id": "g338",
+  "materia": "Geografia",
+  "tema": "Urbanização — metropolização",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A formação de regiões metropolitanas no Brasil intensificou-se a partir da década de 1970, impulsionada principalmente por:",
+  "alternativas": [
+    "Reforma agrária e redistribuição de terras rurais.",
+    "Industrialização concentrada e êxodo rural acelerado.",
+    "Expansão da fronteira agrícola na Amazônia.",
+    "Desconcentração industrial para cidades médias.",
+    "Estagnação do crescimento das capitais estaduais."
+  ],
+  "correta": 1,
+  "explicacao": "A industrialização brasileira (especialmente no Sudeste) concentrou empregos nas grandes cidades, atraindo migrantes rurais em busca de trabalho (êxodo rural). O crescimento urbano gerou conurbação (cidades que se unem fisicamente), levando à criação das regiões metropolitanas (lei complementar de 1973). São Paulo, Rio, Belo Horizonte e Recife são exemplos clássicos.",
+  "dica": "Metropolização = industrialização + êxodo rural + conurbação. Décadas de 1960-70 marcam a inversão: Brasil deixa de ser rural e vira urbano. Cuidado: metrópole ≠ megalópole.",
+  "video": "metropolizacao urbanizacao Brasil exodo rural industrializacao"
+},
+{
+  "id": "ec332",
+  "materia": "Economia",
+  "tema": "Desigualdade — Índice de Gini",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O Índice (ou Coeficiente) de Gini mede a concentração de renda de um país e varia de 0 a 1. Um valor de Gini igual a 0,60 indica:",
+  "alternativas": [
+    "Distribuição de renda perfeitamente igualitária.",
+    "Alta concentração de renda (desigualdade elevada).",
+    "Renda per capita elevada e desenvolvimento humano pleno.",
+    "Baixa desigualdade e alto IDH.",
+    "Equilíbrio perfeito entre oferta e demanda."
+  ],
+  "correta": 1,
+  "explicacao": "O Gini varia de 0 (perfeita igualdade: todos têm a mesma renda) a 1 (máxima desigualdade: uma só pessoa detém toda a renda). Valores acima de 0,50 indicam desigualdade muito alta — o Brasil historicamente oscila entre 0,50 e 0,60, sendo um dos países mais desiguais do mundo. Países nórdicos têm Gini abaixo de 0,30.",
+  "dica": "Gini: quanto mais perto de 0, melhor (mais igual). Quanto mais perto de 1, pior (mais desigual). Brasil ≈ 0,52-0,54. Gini não mede riqueza total, apenas distribuição.",
+  "video": "indice Gini concentracao renda desigualdade Brasil"
+},
+{
+  "id": "ec333",
+  "materia": "Economia",
+  "tema": "Globalização — financeirização",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O fenômeno da financeirização da economia global refere-se a:",
+  "alternativas": [
+    "A substituição completa do dinheiro físico por criptomoedas descentralizadas.",
+    "O aumento da participação do setor financeiro (bancos, fundos, mercado de capitais) na geração de riqueza em detrimento da produção industrial.",
+    "A criação de blocos econômicos regionais com moeda única.",
+    "A eliminação das bolsas de valores como instituições de intermediação financeira.",
+    "O retorno ao padrão-ouro como lastro das moedas nacionais."
+  ],
+  "correta": 1,
+  "explicacao": "Financeirização é o processo pelo qual o capital financeiro (investimentos, especulação, derivativos, fundos) ganha peso desproporcional na economia em relação ao capital produtivo (indústria, agricultura). Implica: empresas priorizando valor ao acionista sobre investimento produtivo, endividamento público e privado, e volatilidade cambial. Intensificou-se com a globalização e desregulamentação financeira a partir dos anos 1980.",
+  "dica": "Financeirização = o dinheiro gera dinheiro sem passar pela produção. Bancos, fundos e mercado de capitais dominam. Contexto: globalização neoliberal, anos 1980-90, desregulamentação.",
+  "video": "financeirizacao economia global capital financeiro especulacao"
+},
+{
+  "id": "ef333",
+  "materia": "Educação Física",
+  "tema": "Exercício físico — princípios do treinamento",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O princípio da sobrecarga progressiva no treinamento físico estabelece que:",
+  "alternativas": [
+    "O volume de treino deve ser reduzido a cada sessão para evitar lesões.",
+    "Deve-se aumentar gradualmente a carga de trabalho para que o organismo continue se adaptando e melhorando.",
+    "O atleta deve treinar no limite máximo todos os dias para alcançar resultados rápidos.",
+    "O treinamento deve ser interrompido a cada duas semanas para descanso completo.",
+    "A carga de treino deve permanecer sempre constante para manter os resultados."
+  ],
+  "correta": 1,
+  "explicacao": "O princípio da sobrecarga progressiva afirma que, para haver melhora (ganho de força, resistência, hipertrofia), o estímulo deve aumentar gradualmente ao longo do tempo. O organismo se adapta a uma carga constante e o progresso estagna. O aumento deve ser progressivo e planejado para evitar overtraining e lesões.",
+  "dica": "Sobrecarga progressiva = aumentar carga aos poucos. Se você sempre levanta o mesmo peso, para de evoluir. Outros princípios: individualidade biológica, especificidade, reversibilidade.",
+  "video": "principio sobrecarga progressiva treinamento fisico adaptacao"
+},
+{
+  "id": "ef334",
+  "materia": "Educação Física",
+  "tema": "Lutas — capoeira",
+  "nivel": "facil",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A capoeira, reconhecida como Patrimônio Cultural Imaterial da Humanidade pela UNESCO (2014), é uma manifestação cultural brasileira que combina:",
+  "alternativas": [
+    "Apenas técnicas de combate e competição, como o judô olímpico.",
+    "Luta, dança, música e jogo, com raízes na resistência dos africanos escravizados no Brasil.",
+    "Exclusivamente elementos religiosos do candomblé e umbanda.",
+    "Regras padronizadas internacionalmente para campeonatos mundiais.",
+    "Técnicas importadas do caratê japonês adaptadas ao contexto brasileiro."
+  ],
+  "correta": 1,
+  "explicacao": "A capoeira surgiu no Brasil colonial como forma de resistência de africanos escravizados e seus descendentes. Combina elementos de luta (golpes, esquivas), dança (ginga, movimentos ritmados), música (berimbau, atabaque, cânticos) e jogo (mandinga, floreios). Mestre Bimba criou a capoeira regional; Mestre Pastinha, a capoeira Angola.",
+  "dica": "Capoeira = luta + dança + música + jogo. Origem: resistência negra no Brasil colonial. UNESCO 2014: Patrimônio Cultural Imaterial. Não é só esporte ou só dança — é tudo junto.",
+  "video": "capoeira patrimonio cultural imaterial UNESCO Mestre Bimba Pastinha"
+},
+{
+  "id": "ar333",
+  "materia": "Artes",
+  "tema": "Vanguardas europeias — cubismo",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O cubismo, liderado por Pablo Picasso e Georges Braque, inovou a pintura ao:",
+  "alternativas": [
+    "Representar fielmente a realidade com ilusão de profundidade tridimensional.",
+    "Fragmentar objetos e figuras em múltiplos planos geométricos simultâneos, rompendo com a perspectiva renascentista.",
+    "Utilizar exclusivamente pigmentos naturais e temas religiosos.",
+    "Abolir qualquer forma de representação figurativa em favor da abstração pura.",
+    "Pintar apenas cenas ao ar livre com pinceladas rápidas e soltas."
+  ],
+  "correta": 1,
+  "explicacao": "O cubismo (1907-1914) rompeu com a perspectiva linear do Renascimento ao representar objetos sob múltiplos ângulos simultaneamente, fragmentando-os em formas geométricas. Les Demoiselles d'Avignon (Picasso, 1907) é a obra seminal. Teve duas fases: analítica (monocromática, formas decompostas) e sintética (colagens, cores).",
+  "dica": "Cubismo = geometrização + múltiplos ângulos + Picasso/Braque. Rompe com a profundidade renascentista. Não confunda com abstracionismo (que abole a figura) nem com expressionismo (emoção, distorção).",
+  "video": "cubismo Picasso Braque vanguardas europeias fragmentacao geometrica"
+},
+{
+  "id": "fl331",
+  "materia": "Filosofia",
+  "tema": "Platão — mito da caverna",
+  "nivel": "medio",
+  "ensino": "medio",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "No Mito da Caverna (Livro VII da República), Platão ilustra:",
+  "alternativas": [
+    "A superioridade da democracia ateniense sobre todos os outros regimes.",
+    "A jornada do conhecimento: da ignorância (sombras) à verdade (luz do sol, mundo das ideias).",
+    "A ideia de que todas as opiniões têm o mesmo valor, pois são construções sociais.",
+    "A teoria de que apenas os deuses possuem conhecimento verdadeiro.",
+    "A necessidade de eliminar os sentidos para alcançar a felicidade."
+  ],
+  "correta": 1,
+  "explicacao": "O Mito da Caverna é a alegoria platônica do processo de conhecimento: prisioneiros acorrentados desde o nascimento veem apenas sombras na parede da caverna e as tomam por realidade (doxa = opinião). O filósofo é aquele que se liberta, sobe até a luz do sol (mundo inteligível, formas/ideias) e retorna para libertar os outros (paideia).",
+  "dica": "Caverna de Platão = ignorância (sombras) → conhecimento (sol). O filósofo é o que sai, enxerga a verdade e volta para ajudar. Mundo sensível (sombras) ≠ mundo inteligível (ideias).",
+  "video": "Platao mito caverna Republica mundo ideias alegoria"
+},
+{
+  "id": "fl332",
+  "materia": "Filosofia",
+  "tema": "Aristóteles — teoria das causas",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "Aristóteles, para explicar a existência e a natureza dos seres, desenvolveu a doutrina das quatro causas. A causa final de uma estátua de mármore é:",
+  "alternativas": [
+    "O mármore, material do qual é feita.",
+    "O escultor que a esculpiu.",
+    "A forma (design) que a estátua assume.",
+    "O propósito ou função para a qual foi criada (homenagear, decorar).",
+    "A ferramenta utilizada pelo escultor."
+  ],
+  "correta": 3,
+  "explicacao": "As quatro causas aristotélicas: 1) Material (do que é feito: mármore); 2) Formal (a forma/essência que assume: figura humana); 3) Eficiente (quem ou o que a produziu: escultor); 4) Final (o propósito, telos: homenagear, decorar, cultuar). A teleologia (estudo dos fins) é central em Aristóteles: tudo existe para um fim (causa finalis).",
+  "dica": "4 causas de Aristóteles: Material (o quê), Formal (como), Eficiente (quem), Final (para quê). Decore a pergunta: 'do que é feito?', 'qual a forma?', 'quem fez?', 'para que serve?'.",
+  "video": "Aristoteles quatro causas material formal eficiente final teleologia"
+},
+{
+  "id": "fl333",
+  "materia": "Filosofia",
+  "tema": "Descartes — cogito",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A proposição 'Penso, logo existo' (Cogito, ergo sum), de René Descartes, é considerada o ponto de partida da filosofia moderna porque:",
+  "alternativas": [
+    "Funda o conhecimento na experiência sensível e na observação empírica.",
+    "Identifica no ato de duvidar a primeira certeza indubitável, base do conhecimento racional.",
+    "Afirma que a existência de Deus é desnecessária para fundamentar o conhecimento.",
+    "Rejeita qualquer possibilidade de conhecimento verdadeiro, adotando o ceticismo absoluto.",
+    "Propõe que o conhecimento deriva exclusivamente dos sentidos e não da razão."
+  ],
+  "correta": 1,
+  "explicacao": "Descartes, no Discurso do Método (1637) e Meditações (1641), aplicou a dúvida metódica: duvidar de tudo (sentidos, mundo exterior, matemática) até encontrar algo indubitável. Nem que tudo seja ilusão, o ato de duvidar prova que existe um sujeito que duvida, portanto que pensa e, logo, que existe. O cogito é a base do racionalismo moderno.",
+  "dica": "Descartes = dúvida metódica → cogito (penso, logo existo). 1ª certeza: eu existo como ser pensante. Racionalismo: razão como fonte do conhecimento (vs. empirismo de Locke/Hume).",
+  "video": "Descartes cogito ergo sum duvida metodica racionalismo filosofia moderna"
+},
+{
+  "id": "d331",
+  "materia": "Direito Penal",
+  "tema": "Teoria do crime — dolo eventual",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "No direito penal brasileiro, o dolo eventual caracteriza-se quando o agente:",
+  "alternativas": [
+    "Quer diretamente o resultado criminoso (intenção direta).",
+    "Age com negligência, não prevendo o resultado que era previsível.",
+    "Prevê o resultado como possível e assume o risco de produzi-lo, sendo-lhe indiferente sua ocorrência.",
+    "Atua sob coação moral irresistível de terceiro.",
+    "Pratica o crime sem consciência da ilicitude do fato."
+  ],
+  "correta": 2,
+  "explicacao": "O dolo eventual (art. 18, I, CP) ocorre quando o agente, embora não queira diretamente o resultado, prevê que sua conduta pode causá-lo e assume o risco ('não quero, mas se acontecer, tanto faz'). A fórmula clássica é a de Frank: 'seja como for, dê no que der, em qualquer caso não deixo de agir'. Diferencia-se da culpa consciente (o agente prevê mas confia sinceramente que o resultado não ocorrerá).",
+  "dica": "Dolo eventual = assume o risco ('tanto faz'). Culpa consciente = prevê, mas acredita que não vai acontecer ('comigo não'). É uma das distinções mais cobradas em penal.",
+  "video": "dolo eventual culpa consciente teoria crime direito penal"
+},
+{
+  "id": "d332",
+  "materia": "Direito Penal",
+  "tema": "Teoria do crime — legítima defesa",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A legítima defesa, prevista no art. 25 do Código Penal, é uma causa de exclusão de ilicitude que exige:",
+  "alternativas": [
+    "Apenas a existência de uma ameaça verbal, ainda que vaga e futura.",
+    "Agressão atual ou iminente, uso moderado dos meios necessários e proteção de direito próprio ou alheio.",
+    "Autorização prévia da autoridade policial para reagir à agressão.",
+    "Proporcionalidade entre o bem jurídico protegido e o bem sacrificado apenas no caso de estado de necessidade.",
+    "Que o agressor seja necessariamente desconhecido da vítima."
+  ],
+  "correta": 1,
+  "explicacao": "Requisitos da legítima defesa (art. 25, CP): 1) agressão injusta (humana, ilícita); 2) atual ou iminente (não passada nem futura); 3) proteção de direito próprio ou alheio (qualquer bem jurídico); 4) uso moderado dos meios necessários (proporcionalidade na reação). O excesso (doloso ou culposo) é punível (art. 23, parágrafo único).",
+  "dica": "Legítima defesa: agressão injusta + atual/iminente + direito próprio/alheio + moderação nos meios. Não é vingança (agressão passada) nem prevenção (agressão futura). Sempre há agressão humana.",
+  "video": "legitima defesa artigo 25 codigo penal exclusao ilicitude"
+},
+{
+  "id": "d333",
+  "materia": "Direito Penal",
+  "tema": "Crimes contra o patrimônio — furto qualificado",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O furto qualificado pelo rompimento de obstáculo (art. 155, §4º, I, CP) diferencia-se do furto simples porque o agente:",
+  "alternativas": [
+    "Subtrai a coisa mediante violência ou grave ameaça à pessoa.",
+    "Destrói ou rompe obstáculo à subtração da coisa, demonstrando maior ousadia na conduta.",
+    "Pratica o crime durante o repouso noturno, independentemente de rompimento.",
+    "Subtrai coisa deixada em via pública por descuido da vítima.",
+    "Age sem qualquer violência, mediante simples apoderamento da coisa."
+  ],
+  "correta": 1,
+  "explicacao": "Furto simples (art. 155, caput): subtrair coisa alheia móvel sem violência à pessoa. Furto qualificado (§4º): destruição/rompimento de obstáculo (I), abuso de confiança (II), mediante fraude (III), escalada (IV), destreza (V). Rompimento de obstáculo = superar barreira física (quebrar janela, arrombar porta). Pena: reclusão de 2 a 8 anos (qualificado) vs 1 a 4 anos (simples).",
+  "dica": "Furto = sem violência à pessoa. Roubo = com violência ou grave ameaça. Furto qualificado = furto + algo a mais (rompimento, fraude, escalada, concurso de pessoas).",
+  "video": "furto qualificado rompimento obstaculo artigo 155 codigo penal"
+},
+{
+  "id": "d334",
+  "materia": "Direito Penal",
+  "tema": "Prescrição penal",
+  "nivel": "dificil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A prescrição penal é a perda do direito de punir do Estado pelo decurso do tempo. Conforme o Código Penal, a prescrição da pretensão punitiva antes do trânsito em julgado regula-se:",
+  "alternativas": [
+    "Exclusivamente pela idade do réu na data do crime.",
+    "Pelo máximo da pena em abstrato cominada ao crime.",
+    "Pela reincidência do condenado, apenas.",
+    "Pelo valor do dano patrimonial causado à vítima.",
+    "Sempre em 20 anos, independentemente da pena."
+  ],
+  "correta": 1,
+  "explicacao": "A prescrição antes do trânsito em julgado (prescrição da pretensão punitiva em abstrato) calcula-se pelo máximo da pena privativa de liberdade cominada ao crime (art. 109, CP). Ex: crime com pena máxima de 2 anos → prescreve em 4 anos; pena máxima de 8 anos → prescreve em 12 anos. A tabela está no art. 109 em ordem decrescente de pena.",
+  "dica": "Prescrição abstrata = pena máxima × prazo da tabela (art. 109 CP). Quanto maior a pena, maior o prazo prescricional. A reincidência aumenta o prazo em 1/3 (art. 110).",
+  "video": "prescricao penal abstrata artigo 109 codigo penal punibilidade"
+},
+{
+  "id": "a332",
+  "materia": "Direito Administrativo",
+  "tema": "Princípio da autotutela",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O princípio da autotutela permite que a Administração Pública:",
+  "alternativas": [
+    "Delegue a particulares todas as suas funções exclusivas de Estado.",
+    "Anule seus próprios atos quando eivados de vício de legalidade e revogue atos válidos por razões de conveniência e oportunidade.",
+    "Cobre tributos sem a necessidade de lei prévia que os institua.",
+    "Ignore decisões judiciais contrárias a seus interesses administrativos.",
+    "Contrate servidores sem concurso público para qualquer cargo efetivo."
+  ],
+  "correta": 1,
+  "explicacao": "A autotutela (Súmula 473/STF e art. 53 Lei 9.784/99) é o poder-dever de a Administração controlar seus próprios atos: anular os ilegais (controle de legalidade — efeito ex tunc) e revogar os inoportunos/inconvenientes (controle de mérito — efeito ex nunc). Não depende de provocação do interessado e tem prazo decadencial de 5 anos para anulação (art. 54).",
+  "dica": "Autotutela = anular (ilegal) + revogar (inconveniente). Súmula 473 do STF. Prazo: 5 anos para anular atos com efeitos favoráveis. A Administração não precisa ir ao Judiciário para corrigir seus atos.",
+  "video": "autotutela administracao publica Sumula 473 STF anular revogar"
+},
+{
+  "id": "a333",
+  "materia": "Direito Administrativo",
+  "tema": "Poder de polícia — conceito",
+  "nivel": "facil",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "O poder de polícia da Administração Pública consiste na:",
+  "alternativas": [
+    "Capacidade de legislar privativamente sobre direito penal e processual.",
+    "Atividade estatal de limitar direitos individuais em benefício do interesse público e da coletividade.",
+    "Atribuição exclusiva das polícias militares estaduais.",
+    "Possibilidade de o Executivo fechar o Congresso Nacional em situações de crise.",
+    "Prerrogativa de criar crimes e penas por decreto administrativo."
+  ],
+  "correta": 1,
+  "explicacao": "Poder de polícia (art. 78, CTN): atividade administrativa que condiciona/limita o exercício de direitos individuais em prol do interesse público. Exemplos: fiscalização sanitária, licenciamento ambiental, controle de trânsito (multas), alvará de construção. Pode ser preventivo (alvará) ou repressivo (multa, interdição). Atributos: discricionariedade, autoexecutoriedade, coercibilidade.",
+  "dica": "Poder de polícia = limitar direitos individuais pelo bem coletivo. Atributos: discricionariedade, autoexecutoriedade, coercibilidade. Não é 'polícia de rua' — é poder administrativo de fiscalização.",
+  "video": "poder policia administrativo publico art 78 CTN limitacao direitos"
+},
+{
+  "id": "a334",
+  "materia": "Direito Administrativo",
+  "tema": "Ato administrativo — atributos",
+  "nivel": "medio",
+  "ensino": "superior",
+  "banca": "ENEM (vestibular)",
+  "enunciado": "A presunção de legitimidade dos atos administrativos significa que:",
+  "alternativas": [
+    "Os atos administrativos não podem ser questionados judicialmente em hipótese alguma.",
+    "Os atos administrativos presumem-se válidos e conformes à lei até prova em contrário, invertendo o ônus da prova.",
+    "A Administração nunca precisa motivar ou fundamentar seus atos.",
+    "Todo ato administrativo é imutável e irrevogável após sua edição.",
+    "Os administrados são obrigados a cumprir atos administrativos ilegais até que a própria Administração os corrija."
+  ],
+  "correta": 1,
+  "explicacao": "A presunção de legitimidade (um dos atributos do ato administrativo, ao lado da imperatividade, autoexecutoriedade e tipicidade) estabelece que os atos da Administração nascem com presunção relativa (juris tantum) de conformidade com a lei. Cabe ao particular provar a ilegalidade (inversão do ônus). Não é presunção absoluta: pode ser afastada judicialmente.",
+  "dica": "Presunção de legitimidade = presume-se legal até prova em contrário. Atributo do ato administrativo. Relativa (iuris tantum), não absoluta. O cidadão é que tem que provar o vício do ato.",
+  "video": "presuncao legitimidade ato administrativo atributos direito administrativo"
 }
 ];

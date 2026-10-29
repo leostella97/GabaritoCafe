@@ -165,3 +165,21 @@ html[data-tema="escuro"] .linha-dado.destaque {
   background: #33231a;              /* fundo dourado escuro */
   border-color: #5a3d28;            /* borda caramelo apagada */
 }
+
+/* ---------- Toast (torradas) no tema escuro ---------- */
+/* No tema claro o fundo é var(--cafe-escuro) que é marrom escuro.
+   No tema escuro essa variável vira creme claro (#f3e7d8) — o texto
+   branco (#fff7ea) some. A gente restaura o fundo escuro aqui. */
+html[data-tema="escuro"] .torrada {
+  background: #2b1810;               /* fundo marrom bem escuro */
+  color: #ffe9cf;                    /* texto creme claro legível */
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.6); /* sombra visível no escuro */
+}
+html[data-tema="escuro"] .torrada.sucesso {
+  background: #1a4d2a;               /* verde escuro para sucesso */
+  color: #c3f0cb;                    /* texto verde claro */
+}
+html[data-tema="escuro"] .torrada.erro {
+  background: #4d1a1a;               /* vermelho escuro para erro */
+  color: #f5c6c6;                    /* texto vermelho claro */
+}

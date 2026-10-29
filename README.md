@@ -131,7 +131,7 @@ gabarito-cafe/
 │   ├── dados-sala.js          # Sala de Aula: vagas (8 cargos) e faculdades (8 cursos) com tópicos expandidos por matéria
 │   ├── util.js                # Utilitários compartilhados (escape etc.)
 │   ├── banco-loader.js        # Carrega o banco sob demanda/background (não trava o boot)
-│   ├── banco-questoes.js      # Banco com 12.569 questões comentadas (~15 MB, lazy)
+│   ├── banco-questoes.js      # Banco com 4.440 questões comentadas (~3,2 MB, lazy)
 │   ├── analise-edital.js      # O cérebro: cargos, banca, datas, números, programa e confiança
 │   ├── motor-simulado.js      # Sorteio, embaralhamento e correção (lógica pura)
 │   ├── edital.js              # Tela do edital (upload, leitura do PDF, análise e plano)
@@ -263,7 +263,7 @@ O dashboard olha o seu histórico e responde a pergunta que todo mundo faz: **"o
 
 
 ```bash
-# Confere se todas as 12.569 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
+# Confere se todas as 4380 questões estão íntegras (ids, alternativas, campos, nível e duplicatas)
 node scripts/validar-banco.js
 
 # Confere as traduções: chaves faltando, placeholders diferentes e tamanhos
@@ -317,3 +317,4 @@ Nenhum dado sai do seu navegador. Nenhuma pegadinha fora da prova. 😉
 ---
 
 *Gabarito Café · "Aprovação não se faz num gole só: se faz em goles diários."*
+
