@@ -1056,6 +1056,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Formas lógicas.",
           "como": "Validade."
+        },
+        {
+          "nome": "Proposições categóricas",
+          "frequencia": 3,
+          "porque": "Todo, algum, nenhum.",
+          "como": "Diagramas lógicos."
+        },
+        {
+          "nome": "Silogismos",
+          "frequencia": 3,
+          "porque": "Premissa maior, menor e conclusão.",
+          "como": "Validade do argumento."
+        },
+        {
+          "nome": "Falácias lógicas",
+          "frequencia": 2,
+          "porque": "Erros de argumentação.",
+          "como": "Ad hominem e falsa causa."
+        },
+        {
+          "nome": "Lógica de argumentação",
+          "frequencia": 4,
+          "porque": "Argumentos válidos e inválidos.",
+          "como": "Premissas verdadeiras."
+        },
+        {
+          "nome": "Conectivos lógicos e tabelas-verdade",
+          "frequencia": 5,
+          "porque": "e, ou, se...então, se e somente se.",
+          "como": "Montar e interpretar tabelas."
+        },
+        {
+          "nome": "Equivalências lógicas",
+          "frequencia": 4,
+          "porque": "Transformar proposições.",
+          "como": "Contrapositiva e dupla negação."
+        },
+        {
+          "nome": "Diagramas de Venn",
+          "frequencia": 4,
+          "porque": "Problemas com conjuntos.",
+          "como": "Interseção e união."
+        },
+        {
+          "nome": "Problemas de associação lógica",
+          "frequencia": 3,
+          "porque": "Correlacionar dados.",
+          "como": "Tabelas de dupla entrada."
+        },
+        {
+          "nome": "Problemas de ordenação",
+          "frequencia": 3,
+          "porque": "Sequências e posições.",
+          "como": "Ordem crescente e decrescente."
+        },
+        {
+          "nome": "Problemas de verdades e mentiras",
+          "frequencia": 3,
+          "porque": "Quem mente e quem diz a verdade.",
+          "como": "Testar hipóteses."
+        },
+        {
+          "nome": "Problemas de calendário",
+          "frequencia": 2,
+          "porque": "Dias da semana e anos bissextos.",
+          "como": "Contagem de dias."
+        },
+        {
+          "nome": "Sequências lógicas e padrões",
+          "frequencia": 4,
+          "porque": "Números, letras e figuras.",
+          "como": "Identificar a regra."
+        },
+        {
+          "nome": "Princípios de contagem",
+          "frequencia": 3,
+          "porque": "Combinatória básica.",
+          "como": "Princípio multiplicativo."
+        },
+        {
+          "nome": "Probabilidade básica",
+          "frequencia": 3,
+          "porque": "Eventos equiprováveis.",
+          "como": "Casos favoráveis sobre possíveis."
         }
       ]
     },
