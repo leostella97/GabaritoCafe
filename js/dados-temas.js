@@ -3042,6 +3042,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Respeito ao indivíduo.",
           "como": "CF e direitos fundamentais."
+        },
+        {
+          "nome": "Ética e moral: diferenças",
+          "frequencia": 4,
+          "porque": "Teoria ética básica.",
+          "como": "Ética = reflexão; moral = prática."
+        },
+        {
+          "nome": "Ética na Administração Pública (Decreto 1.171/94)",
+          "frequencia": 5,
+          "porque": "Código de Ética do servidor federal.",
+          "como": "Deveres e vedações."
+        },
+        {
+          "nome": "Comissão de Ética Pública (CEP)",
+          "frequencia": 3,
+          "porque": "Atribuições e funcionamento.",
+          "como": "Decreto 6.029/07."
+        },
+        {
+          "nome": "Conflito de interesses (Lei 12.813/13)",
+          "frequencia": 4,
+          "porque": "Nepotismo e impedimentos.",
+          "como": "Consulta e autorização."
+        },
+        {
+          "nome": "Moralidade administrativa",
+          "frequencia": 4,
+          "porque": "Princípio do art. 37 da CF.",
+          "como": "Probidade e honestidade funcional."
+        },
+        {
+          "nome": "Transparência e publicidade",
+          "frequencia": 3,
+          "porque": "Acesso à informação.",
+          "como": "Lei 12.527/11."
+        },
+        {
+          "nome": "Ética e responsabilidade social",
+          "frequencia": 2,
+          "porque": "Sustentabilidade e cidadania.",
+          "como": "ESG e compliance."
+        },
+        {
+          "nome": "Assédio moral e sexual no trabalho",
+          "frequencia": 3,
+          "porque": "Condutas vedadas.",
+          "como": "Prevenção e denúncia."
+        },
+        {
+          "nome": "Diversidade e inclusão",
+          "frequencia": 2,
+          "porque": "Igualdade de oportunidades.",
+          "como": "Cotas e acessibilidade."
+        },
+        {
+          "nome": "Ética ambiental no serviço público",
+          "frequencia": 2,
+          "porque": "Sustentabilidade na gestão.",
+          "como": "Licitações sustentáveis."
+        },
+        {
+          "nome": "Sigilo profissional e dever de decoro",
+          "frequencia": 3,
+          "porque": "Conduta esperada do servidor.",
+          "como": "Urbanidade e cortesia."
+        },
+        {
+          "nome": "Ética e novas tecnologias",
+          "frequencia": 2,
+          "porque": "Redes sociais e IA.",
+          "como": "Limites da exposição funcional."
+        },
+        {
+          "nome": "Responsabilização ética do servidor",
+          "frequencia": 3,
+          "porque": "Sanções e penalidades.",
+          "como": "Advertência e censura ética."
+        },
+        {
+          "nome": "Ética nas relações institucionais",
+          "frequencia": 2,
+          "porque": "Canais de denúncia e ouvidoria.",
+          "como": "Proteção ao denunciante."
         }
       ]
     },
