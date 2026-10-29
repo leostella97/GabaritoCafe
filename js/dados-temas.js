@@ -3349,6 +3349,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Corrupção e peculato.",
           "como": "Lei 8.429."
+        },
+        {
+          "nome": "Teoria do crime",
+          "frequencia": 5,
+          "porque": "Conceitos fundamentais.",
+          "como": "Fato típico, ilícito e culpável."
+        },
+        {
+          "nome": "Tipicidade e antijuridicidade",
+          "frequencia": 4,
+          "porque": "Elementos do crime.",
+          "como": "Dolo e culpa."
+        },
+        {
+          "nome": "Culpabilidade e punibilidade",
+          "frequencia": 3,
+          "porque": "Teoria geral do crime.",
+          "como": "Inexigibilidade e excludentes."
+        },
+        {
+          "nome": "Crime consumado e tentado",
+          "frequencia": 3,
+          "porque": "Iter criminis.",
+          "como": "Preparação, execução e consumação."
+        },
+        {
+          "nome": "Concurso de pessoas",
+          "frequencia": 3,
+          "porque": "Coautoria e participação.",
+          "como": "Art.29 do CP."
+        },
+        {
+          "nome": "Crimes contra a vida",
+          "frequencia": 3,
+          "porque": "Homicídio e feminicídio.",
+          "como": "Arts.121 a 128."
+        },
+        {
+          "nome": "Crimes contra a honra",
+          "frequencia": 2,
+          "porque": "Calúnia, difamação e injúria.",
+          "como": "Diferenças e penas."
+        },
+        {
+          "nome": "Crimes contra a liberdade individual",
+          "frequencia": 2,
+          "porque": "Sequestro e cárcere privado.",
+          "como": "Arts.148 e 149."
+        },
+        {
+          "nome": "Crimes contra a fé pública",
+          "frequencia": 2,
+          "porque": "Falsidade documental e ideológica.",
+          "como": "Arts.296 a 311."
+        },
+        {
+          "nome": "Lei de Drogas (Lei 11.343/06)",
+          "frequencia": 3,
+          "porque": "Usuário e tráfico.",
+          "como": "Art.28 e art.33."
+        },
+        {
+          "nome": "Lei Maria da Penha (Lei 11.340/06)",
+          "frequencia": 3,
+          "porque": "Violência doméstica.",
+          "como": "Medidas protetivas e competência."
+        },
+        {
+          "nome": "Lei de Execução Penal (Lei 7.210/84)",
+          "frequencia": 2,
+          "porque": "Regimes e progressão.",
+          "como": "Fechado, semiaberto e aberto."
+        },
+        {
+          "nome": "Prescrição penal",
+          "frequencia": 3,
+          "porque": "Extinção da punibilidade.",
+          "como": "Prazos e interrupções."
+        },
+        {
+          "nome": "Lei de Abuso de Autoridade (Lei 13.869/19)",
+          "frequencia": 3,
+          "porque": "Crimes de agentes públicos.",
+          "como": "Condutas tipificadas e sanções."
         }
       ]
     },
