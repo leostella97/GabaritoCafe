@@ -220,7 +220,14 @@
   top: 0;                           /* colado no topo */
   height: 100vh;                    /* altura da tela */
   height: 100dvh;                   /* TEAM_007: dvh respeita a barra de URL do celular */
+  overflow-y: auto;                 /* rola internamente se o conteúdo exceder a altura */
+  scrollbar-width: thin;            /* barra de rolagem fina (Firefox) */
+  scrollbar-color: rgba(201, 138, 94, 0.4) transparent; /* cor da barra (Firefox) */
 }
+/* Barra de rolagem fina no menu — WebKit (Chrome/Edge) */
+.barra-lateral::-webkit-scrollbar { width: 5px; }
+.barra-lateral::-webkit-scrollbar-track { background: transparent; }
+.barra-lateral::-webkit-scrollbar-thumb { background: rgba(201, 138, 94, 0.4); border-radius: 10px; }
 
 .marca {                            /* logo + nome na lateral */
   display: flex;                    /* lado a lado */
