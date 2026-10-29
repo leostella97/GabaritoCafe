@@ -3722,6 +3722,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Avaliação.",
           "como": "Laudos."
+        },
+        {
+          "nome": "Regime Geral de Previdência Social (RGPS)",
+          "frequencia": 5,
+          "porque": "Base do direito previdenciário.",
+          "como": "Filiação e filiados."
+        },
+        {
+          "nome": "Segurados obrigatórios e facultativos",
+          "frequencia": 5,
+          "porque": "Empregado, contribuinte individual, facultativo.",
+          "como": "Enquadramento e contribuições."
+        },
+        {
+          "nome": "Dependentes e inscrição",
+          "frequencia": 4,
+          "porque": "Cônjuge, filhos e pais.",
+          "como": "Classes de dependentes."
+        },
+        {
+          "nome": "Carência e período de graça",
+          "frequencia": 4,
+          "porque": "Número mínimo de contribuições.",
+          "como": "Tabela de carências."
+        },
+        {
+          "nome": "Aposentadoria por idade",
+          "frequencia": 4,
+          "porque": "Urbana, rural e híbrida.",
+          "como": "Idade mínima e carência."
+        },
+        {
+          "nome": "Aposentadoria por tempo de contribuição",
+          "frequencia": 3,
+          "porque": "Regras de transição.",
+          "como": "EC 103/19."
+        },
+        {
+          "nome": "Aposentadoria por invalidez (incapacidade permanente)",
+          "frequencia": 3,
+          "porque": "Requisitos e valor.",
+          "como": "Adicional de 25%."
+        },
+        {
+          "nome": "Aposentadoria especial",
+          "frequencia": 3,
+          "porque": "Agentes nocivos à saúde.",
+          "como": "Tempo de exposição."
+        },
+        {
+          "nome": "Auxílio-doença (incapacidade temporária)",
+          "frequencia": 3,
+          "porque": "Requisitos e cálculo.",
+          "como": "Perícia e carência."
+        },
+        {
+          "nome": "Salário-maternidade",
+          "frequencia": 3,
+          "porque": "Benefício às seguradas.",
+          "como": "Prazo e valor."
+        },
+        {
+          "nome": "Pensão por morte",
+          "frequencia": 4,
+          "porque": "Dependentes e valor do benefício.",
+          "como": "EC 103/19."
+        },
+        {
+          "nome": "Auxílio-reclusão",
+          "frequencia": 3,
+          "porque": "Dependentes do preso.",
+          "como": "Baixa renda."
+        },
+        {
+          "nome": "Custeio da seguridade social",
+          "frequencia": 4,
+          "porque": "Fontes de financiamento.",
+          "como": "Contribuições patronais e dos segurados."
+        },
+        {
+          "nome": "Acidente de trabalho e Nexo Técnico (NTEP)",
+          "frequencia": 3,
+          "porque": "Comunicação de acidente (CAT).",
+          "como": "Estabilidade provisória."
         }
       ]
     },
