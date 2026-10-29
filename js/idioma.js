@@ -271,6 +271,8 @@ const Idioma = {
       tela_dicas_s: 'O que separa quem passa de quem quase passa.', // legenda do topo
       dicas_intro: 'Não é só estudar muito: é estudar do jeito certo. Aqui vai o que a gente aprendeu na prática. 💡', // introdução
       dicas_prova_t: '📝 Dicas rápidas de prova',            // seção final
+      dica_ver_mais: '📖 Mostrar mais {{n}} dicas',           // paginação: expandir
+      dica_ver_menos: '📕 Mostrar menos',                     // paginação: recolher
 
       // Edital — análise inteligente
       ed_confianca: 'Confiança da análise:',                 // rótulo da nota
@@ -728,6 +730,8 @@ const Idioma = {
       tela_dicas_s: 'What separates those who pass from those who almost pass.',
       dicas_intro: 'It is not only about studying a lot: it is about studying the right way. Here is what we learned in practice. 💡',
       dicas_prova_t: '📝 Quick test-day tips',
+      dica_ver_mais: '📖 Show {{n}} more tips',               // pagination: expand
+      dica_ver_menos: '📕 Show fewer',                         // pagination: collapse
 
       // Exam notice — smart analysis
       ed_confianca: 'Analysis confidence:',
@@ -1185,6 +1189,8 @@ const Idioma = {
       tela_dicas_s: 'Lo que separa a quien aprueba de quien casi aprueba.',
       dicas_intro: 'No es solo estudiar mucho: es estudiar de la manera correcta. Esto es lo que aprendimos en la práctica. 💡',
       dicas_prova_t: '📝 Consejos rápidos para el examen',
+      dica_ver_mais: '📖 Mostrar {{n}} consejos más',         // paginación
+      dica_ver_menos: '📕 Mostrar menos',                     // paginación
 
       // Convocatoria — análisis inteligente
       ed_confianca: 'Confianza del análisis:',

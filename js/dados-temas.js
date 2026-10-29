@@ -14803,7 +14803,13 @@ const DadosTemas = {
       "Na hora da prova CESPE/Cebraspe, questão errada costuma anular uma certa: responda só o que tem confiança. Leia o edital para confirmar!",
       "Controle o relógio: 3 minutos por questão é o ritmo médio da maioria das provas. Se travou, pula e volta depois.",
       "Marque sua resposta no rascunho antes de passar para o gabarito oficial — transcrever tudo no fim evita erro de bolinha.",
-      "Guarde os 10 minutos finais para revisar as questões em dúvida. A pressa é a maior aliada da banca."
+      "Guarde os 10 minutos finais para revisar as questões em dúvida. A pressa é a maior aliada da banca.",
+      "Respire fundo antes de virar a página: 10 segundos de pausa entre blocos renovam a concentração.",
+      "Use post-it para marcar questões que você quer revisar — não dobre a página nem amasse a prova.",
+      "Se a banca for múltipla escolha com 5 opções e você eliminar 2, sua chance sobe para 33%. Controle o chute.",
+      "Chegue cedo: 30 minutos antes do portão fechar evita correria e acalma a mente.",
+      "Assine o gabarito e confira se o nome está certo ANTES de começar. Erro de preenchimento anula a prova.",
+      "Acabou a prova? Não confira gabarito extraoficial. O que está feito está feito — vá descansar."
     ],
     "en": [
       "Read the question twice: the board hides the main verb behind decoration. Underline what the question really asks.",
@@ -14911,6 +14917,26 @@ const DadosTemas = {
           {
             "titulo": "Anote o plano antes de abrir o caderno",
             "texto": "Chegar sem saber o que estudar gasta metade do tempo só decidindo por onde começar."
+          },
+          {
+            "titulo": "Separe um ambiente sem distrações",
+            "texto": "Celular longe, notificações bloqueadas, ambiente silencioso. Seu cérebro agradece o foco total nos 30 minutos."
+          },
+          {
+            "titulo": "Comece pela matéria mais difícil",
+            "texto": "Sua energia e concentração estão no pico no início. Encare a disciplina mais temida de cara — o resto flui fácil depois."
+          },
+          {
+            "titulo": "Termine anotando o que aprendeu hoje",
+            "texto": "Três linhas bastam: 'Hoje aprendi que...' Isso ainda consolida a memória e fecha o ciclo com chave de ouro."
+          },
+          {
+            "titulo": "Não pule de matéria em matéria",
+            "texto": "Terminou o bloco de português? Faça 5 questões só dessa matéria antes de trocar. Pular sem testar é se enganar."
+          },
+          {
+            "titulo": "Respeite o seu ritmo biológico",
+            "texto": "Se você rende mais de manhã, proteja esse horário. Se é noturno, monte sua rotina à noite. Estudar contra o relógio biológico multiplica o cansaço."
           }
         ]
       },
@@ -14933,6 +14959,26 @@ const DadosTemas = {
           {
             "titulo": "Explique em voz alta (técnica Feynman)",
             "texto": "Se não consegue explicar de forma simples, ainda não entendeu. Fale como se estivesse ensinando alguém."
+          },
+          {
+            "titulo": "Faça um simulado por semana",
+            "texto": "Simular a prova real treina relógio, resistência mental e controle de ansiedade. Sábado de manhã é o melhor horário."
+          },
+          {
+            "titulo": "Alterne matérias exatas com humanas",
+            "texto": "O cérebro usa áreas diferentes. Fazer cálculo depois de interpretação de texto descansa a área lógica — e vice-versa."
+          },
+          {
+            "titulo": "Use mapas mentais coloridos",
+            "texto": "Desenhar o conteúdo com cores ativa a memória visual. Uma folha A4 com setas e palavras-chave substitui 10 páginas de resumo."
+          },
+          {
+            "titulo": "Grave áudios de 3 minutos e ouça no trânsito",
+            "texto": "Resuma o tópico em voz alta e grave. Ouvir enquanto se desloca transforma tempo morto em revisão automática."
+          },
+          {
+            "titulo": "Marque questões por nível de confiança",
+            "texto": "Use ✅ (certeza), ⚡ (dúvida) e ❌ (chute). Na correção, foque nos ⚡: é ali que você ganha pontos sem estudar matéria nova."
           }
         ]
       },
@@ -14955,6 +15001,26 @@ const DadosTemas = {
           {
             "titulo": "Controle o tempo por blocos",
             "texto": "Divida a prova em blocos e confira o relógio. Cerca de 3 minutos por questão é o ritmo médio."
+          },
+          {
+            "titulo": "Leia as alternativas antes do texto (quando for interpretação)",
+            "texto": "Saber o que a questão pede antes de encarar o texto economiza minutos preciosos e direciona a leitura."
+          },
+          {
+            "titulo": "Não brigue com a questão difícil",
+            "texto": "Marcou como difícil? Pula IMEDIATAMENTE. Voltar depois com a cabeça fresca resolve mais que teimar por 10 minutos."
+          },
+          {
+            "titulo": "Use o banheiro antes (mesmo sem vontade)",
+            "texto": "Ansiedade aperta a bexiga na pior hora. Vá no banheiro 15 minutos antes do portão fechar — você não quer interromper o raciocínio no meio."
+          },
+          {
+            "titulo": "Leve água e um doce leve (chocolate 70% ou castanhas)",
+            "texto": "Glicose é combustível do cérebro. Um gole de água e um pedacinho de chocolate a cada hora mantêm o foco."
+          },
+          {
+            "titulo": "Não converse sobre a prova no corredor",
+            "texto": "Ouvir 'acertei C naquela' abala a confiança e não muda seu gabarito. Fone de ouvido, música calma, isolamento. Seu emocional agradece."
           }
         ]
       },
@@ -14977,6 +15043,26 @@ const DadosTemas = {
           {
             "titulo": "Cuide do básico: água, comida e movimento",
             "texto": "Cérebro desidratado não raciocina. Água, comida de verdade e uma caminhada de 15 minutos fazem diferença."
+          },
+          {
+            "titulo": "Desligue as telas 1 hora antes de dormir",
+            "texto": "Luz azul do celular inibe a melatonina. Troque o feed por um livro físico (ou Kindle sem luz) e seu sono melhora radicalmente."
+          },
+          {
+            "titulo": "Faça exercício físico regular (nem que seja caminhada)",
+            "texto": "30 minutos de caminhada 3x por semana aumentam a oxigenação do cérebro e reduzem a ansiedade. Movimento é estudo também."
+          },
+          {
+            "titulo": "Técnica de respiração 4-7-8 para ansiedade",
+            "texto": "Inspire por 4 segundos, segure por 7, solte por 8. Repita 4 vezes. Em 2 minutos seu batimento cardíaco desacelera e a mente clareia."
+          },
+          {
+            "titulo": "Monte a mochila na véspera (checklist físico)",
+            "texto": "Documento, caneta preta (×3), água, lanche leve, agasalho. Deixar tudo pronto na noite anterior reduz a ansiedade matinal."
+          },
+          {
+            "titulo": "Visualize-se fazendo a prova com calma",
+            "texto": "Feche os olhos por 2 minutos e imagine-se lendo a primeira questão, respirando fundo e resolvendo com confiança. A mente não sabe separar imaginação de realidade — use isso a seu favor."
           }
         ]
       }

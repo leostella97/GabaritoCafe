@@ -595,6 +595,19 @@
 .dica-item .dica-titulo { font-weight: 900; }             /* título da dica */
 .dica-item .dica-texto { font-size: 0.9rem; margin: 0.15rem 0 0; } /* texto da dica */
 
+.dica-oculta { display: none; }                        /* paginação: esconde dicas além do visível */
+.dica-mais {                                            /* botão "mostrar todas" no cartão de dicas */
+  font-size: 0.85rem;
+  padding: 0.45rem 1rem;
+  font-weight: 700;
+  color: var(--cafe);
+  border: 2px solid var(--borda) !important;
+  border-radius: 999px;
+  background: var(--creme);
+  transition: all 0.15s;
+}
+.dica-mais:hover { background: var(--caramelo-claro); border-color: var(--caramelo) !important; }
+
 /* ---------- Chips de múltipla escolha (filtro de matérias do simulado) ---------- */
 .chips-escolha {                    /* fileira de chips que quebra linha */
   display: flex;                    /* flexível */

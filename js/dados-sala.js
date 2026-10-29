@@ -8022,6 +8022,262 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "escrevente-tj",
+      "nome": "Escrevente do TJ",
+      "icone": "📝",
+      "escolaridade": "Nível médio",
+      "bancas": ["Vunesp", "FCC", "FGV"],
+      "resumo": "Responsável pelos atos de cartório nos tribunais: autuação, movimentação processual e atendimento ao público forense.",
+      "materias": [
+        {
+          "materia": "Noções de Direito Processual",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Atos processuais e prazos",
+              "explicacao": "Petição inicial, citação e audiência."
+            },
+            {
+              "nome": "Processo de conhecimento",
+              "explicacao": "Fases do procedimento comum."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Rotinas Cartorárias",
+          "icone": "📋",
+          "topicos": [
+            {
+              "nome": "Autuação e classificação de feitos",
+              "explicacao": "Numeração e registros no sistema."
+            },
+            {
+              "nome": "Publicação e intimação",
+              "explicacao": "Diário oficial e comunicação eletrônica."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Atendimento ao Público",
+          "icone": "🗣️",
+          "topicos": [
+            {
+              "nome": "Atendimento presencial e balcão",
+              "explicacao": "Postura, ética e resolução de dúvidas."
+            },
+            {
+              "nome": "Comunicação institucional",
+              "explicacao": "Linguagem clara e acessível."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policia-civil",
+      "nome": "Investigador de Polícia Civil",
+      "icone": "🔍",
+      "escolaridade": "Nível superior",
+      "bancas": ["Vunesp", "FGV", "Cebraspe", "FCC"],
+      "resumo": "Elucidar crimes com investigação de campo, coleta de provas e inquéritos policiais — o Sherlock do serviço público.",
+      "materias": [
+        {
+          "materia": "Direito Penal e Processual Penal",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Inquérito policial e indiciamento",
+              "explicacao": "Fases e atribuições da autoridade policial."
+            },
+            {
+              "nome": "Prisão em flagrante e preventiva",
+              "explicacao": "Requisitos e procedimentos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Investigação Criminal",
+          "icone": "🔎",
+          "topicos": [
+            {
+              "nome": "Local de crime e cadeia de custódia",
+              "explicacao": "Preservação de vestígios e isolamento."
+            },
+            {
+              "nome": "Técnicas de entrevista e interrogatório",
+              "explicacao": "Abordagem e condução investigativa."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Legislação Especial",
+          "icone": "📜",
+          "topicos": [
+            {
+              "nome": "Lei de Drogas e Estatuto do Desarmamento",
+              "explicacao": "Leis 11.343/06 e 10.826/03."
+            },
+            {
+              "nome": "Lei de Organização Criminosa e Lavagem de Dinheiro",
+              "explicacao": "Leis 12.850/13 e 9.613/98."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agente-endemias",
+      "nome": "Agente de Combate a Endemias",
+      "icone": "🦟",
+      "escolaridade": "Nível médio",
+      "bancas": ["Vunesp", "FCC", "Instituto AOCP"],
+      "resumo": "Combater dengue, zika e outras arboviroses com visitas domiciliares, vigilância e orientação comunitária.",
+      "materias": [
+        {
+          "materia": "Vigilância em Saúde",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Ciclo do Aedes aegypti e arboviroses",
+              "explicacao": "Dengue, zika, chikungunya e febre amarela."
+            },
+            {
+              "nome": "Controle vetorial e inseticidas",
+              "explicacao": "Focal, perifocal e nebulização."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Visita Domiciliar e Território",
+          "icone": "🏠",
+          "topicos": [
+            {
+              "nome": "Abordagem e orientação ao morador",
+              "explicacao": "Comunicação e educação em saúde."
+            },
+            {
+              "nome": "Mapeamento e territorialização",
+              "explicacao": "Microáreas e pontos estratégicos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Saúde Ambiental e Zoonoses",
+          "icone": "🌿",
+          "topicos": [
+            {
+              "nome": "Zoonoses e animais peçonhentos",
+              "explicacao": "Raiva, leptospirose e escorpiões."
+            },
+            {
+              "nome": "Saneamento e resíduos sólidos",
+              "explicacao": "Água, esgoto e lixo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oficial-justica",
+      "nome": "Oficial de Justiça",
+      "icone": "📋",
+      "escolaridade": "Nível superior",
+      "bancas": ["Cebraspe", "FCC", "Vunesp"],
+      "resumo": "Cumprir mandados judiciais: citações, intimações e penhoras — o elo entre o tribunal e a realidade.",
+      "materias": [
+        {
+          "materia": "Processo Civil e Penal",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Mandados e diligências",
+              "explicacao": "Citação, intimação e penhora."
+            },
+            {
+              "nome": "Execução civil e fiscal",
+              "explicacao": "Busca e apreensão, leilão."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Técnicas do Oficialato",
+          "icone": "🔍",
+          "topicos": [
+            {
+              "nome": "Certidão e auto circunstanciado",
+              "explicacao": "Registro fiel dos atos praticados."
+            },
+            {
+              "nome": "Prazos e contagem processual",
+              "explicacao": "Intimações e fluência de prazos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Segurança e Conflito",
+          "icone": "🛡️",
+          "topicos": [
+            {
+              "nome": "Abordagem e gestão de conflitos",
+              "explicacao": "Comunicação não violenta em diligências."
+            },
+            {
+              "nome": "Mandados eletrônicos e sistemas",
+              "explicacao": "PJe e mandados online."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculdades": [
@@ -13788,6 +14044,198 @@ const DadosSala = {
             {
               "nome": "Didática da dança",
               "explicacao": "Ensino, avaliação e inclusão."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "radiologia",
+      "nome": "Radiologia",
+      "icone": "🩻",
+      "area": "Ciências da Saúde",
+      "duracao": "3 anos",
+      "resumo": "Diagnóstico por imagem: operar equipamentos de raio-X, tomografia e ressonância com segurança radiológica.",
+      "materias": [
+        {
+          "materia": "Fundamentos da Radiologia",
+          "icone": "⚡",
+          "topicos": [
+            {
+              "nome": "Produção de raios X e interação com a matéria",
+              "explicacao": "Tubo de raios X e efeitos fotoelétrico e Compton."
+            },
+            {
+              "nome": "Proteção radiológica e dosimetria",
+              "explicacao": "Princípios ALARA e normas CNEN."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Técnicas Radiológicas",
+          "icone": "🦴",
+          "topicos": [
+            {
+              "nome": "Posicionamento e incidências",
+              "explicacao": "Crânio, tórax, abdome e membros."
+            },
+            {
+              "nome": "Tomografia e Ressonância",
+              "explicacao": "Princípios físicos e protocolos."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Anatomia Radiológica",
+          "icone": "🔬",
+          "topicos": [
+            {
+              "nome": "Identificação de estruturas em imagens",
+              "explicacao": "Radiografia, TC e RM."
+            },
+            {
+              "nome": "Patologias comuns",
+              "explicacao": "Fraturas, tumores e pneumonias."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engenharia-computacao",
+      "nome": "Engenharia de Computação",
+      "icone": "🖥️",
+      "area": "Engenharias",
+      "duracao": "5 anos",
+      "resumo": "Unir hardware e software: projetar sistemas embarcados, robótica e arquitetura de computadores.",
+      "materias": [
+        {
+          "materia": "Arquitetura de Computadores",
+          "icone": "💾",
+          "topicos": [
+            {
+              "nome": "CPU, memória e barramentos",
+              "explicacao": "Organização e hierarquia de memória."
+            },
+            {
+              "nome": "Pipeline e processadores",
+              "explicacao": "Superescalaridade e previsão de desvio."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Sistemas Embarcados",
+          "icone": "🔧",
+          "topicos": [
+            {
+              "nome": "Microcontroladores e sensores",
+              "explicacao": "Arduino, ESP32 e programação."
+            },
+            {
+              "nome": "Sistemas de tempo real",
+              "explicacao": "RTOS e aplicações críticas."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Robótica e Controle",
+          "icone": "🤖",
+          "topicos": [
+            {
+              "nome": "Cinemática de robôs",
+              "explicacao": "Direta e inversa."
+            },
+            {
+              "nome": "Teoria de controle e PID",
+              "explicacao": "Malha fechada e sintonia."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relacoes-publicas",
+      "nome": "Relações Públicas",
+      "icone": "🤝",
+      "area": "Ciências Sociais Aplicadas",
+      "duracao": "4 anos",
+      "resumo": "Construir pontes entre organizações e seus públicos com comunicação estratégica e gestão de imagem.",
+      "materias": [
+        {
+          "materia": "Teorias de Relações Públicas",
+          "icone": "📚",
+          "topicos": [
+            {
+              "nome": "Públicos e stakeholders",
+              "explicacao": "Mapeamento e segmentação de públicos."
+            },
+            {
+              "nome": "Comunicação integrada",
+              "explicacao": "Institucional, mercadológica e administrativa."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            }
+          ]
+        },
+        {
+          "materia": "Assessoria de Imprensa",
+          "icone": "📰",
+          "topicos": [
+            {
+              "nome": "Release e press kit",
+              "explicacao": "Produção de conteúdo para imprensa."
+            },
+            {
+              "nome": "Media training e gestão de crise",
+              "explicacao": "Como preparar porta-vozes e enfrentar crises."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria."
+            }
+          ]
+        },
+        {
+          "materia": "Eventos e Cerimonial",
+          "icone": "🎯",
+          "topicos": [
+            {
+              "nome": "Planejamento de eventos",
+              "explicacao": "Briefing, cronograma e logística."
+            },
+            {
+              "nome": "Protocolo e etiqueta",
+              "explicacao": "Ordem de precedência e cerimonial público."
             },
             {
               "nome": "Gabaritos comentados",
