@@ -578,7 +578,14 @@
 /* ---------- Tela de dicas ---------- */
 .categoria-dicas {                  /* bloco de uma categoria de dicas */
   margin-bottom: 1.2rem;            /* respiro entre categorias */
+  max-height: 380px;                /* altura máxima fixa: não cresce mais que isso */
+  overflow-y: auto;                 /* rola internamente para ver mais dicas */
+  scrollbar-width: thin;            /* barra fina (Firefox) */
+  scrollbar-color: rgba(111, 78, 55, 0.3) transparent;
 }
+.categoria-dicas::-webkit-scrollbar { width: 5px; }
+.categoria-dicas::-webkit-scrollbar-track { background: transparent; }
+.categoria-dicas::-webkit-scrollbar-thumb { background: rgba(111, 78, 55, 0.3); border-radius: 10px; }
 
 .categoria-titulo {                 /* título da categoria */
   font-family: 'Fraunces', serif;   /* serifa artesanal */
@@ -594,19 +601,6 @@
 
 .dica-item .dica-titulo { font-weight: 900; }             /* título da dica */
 .dica-item .dica-texto { font-size: 0.9rem; margin: 0.15rem 0 0; } /* texto da dica */
-
-.dica-oculta { display: none; }                        /* paginação: esconde dicas além do visível */
-.dica-mais {                                            /* botão "mostrar todas" no cartão de dicas */
-  font-size: 0.85rem;
-  padding: 0.45rem 1rem;
-  font-weight: 700;
-  color: var(--cafe);
-  border: 2px solid var(--borda) !important;
-  border-radius: 999px;
-  background: var(--creme);
-  transition: all 0.15s;
-}
-.dica-mais:hover { background: var(--caramelo-claro); border-color: var(--caramelo) !important; }
 
 /* ---------- Chips de múltipla escolha (filtro de matérias do simulado) ---------- */
 .chips-escolha {                    /* fileira de chips que quebra linha */

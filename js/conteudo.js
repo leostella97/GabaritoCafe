@@ -174,27 +174,18 @@ const ConteudoUI = {
     const caixa = document.getElementById('tela-dicas');    // pega a seção da tela
     const porIdioma = DadosTemas.dicasImportantes;          // dicas importantes por idioma
     const categorias = porIdioma[Idioma.atual] || porIdioma.pt; // usa o idioma atual (ou pt)
-    const VISIVEIS = 4;                                     // quantas dicas mostrar por padrão
     let html = '<p class="texto-suave">' + T('dicas_intro') + '</p>'; // introdução traduzida
-    // Um cartão para cada categoria de dicas
-    let catIdx = 0;
+    // Um cartão para cada categoria de dicas (scroll interno na box)
     for (const categoria of categorias) {                   // percorre as categorias
-      html += '<div class="cartao aparecer categoria-dicas">'; // abre o cartão
+      html += '<div class="cartao aparecer categoria-dicas">'; // abre o cartão (max-height + scroll)
       html += '<div class="categoria-titulo">' + categoria.icone + ' ' + Util.escape(categoria.titulo) + '</div>'; // título
-      const total = categoria.dicas.length;                 // quantas dicas existem
-      for (let i = 0; i < total; i++) {
-        const dica = categoria.dicas[i];
-        const extra = i >= VISIVEIS ? ' dica-oculta' : '';  // esconde além das N primeiras
-        html += '<div class="dica-item' + extra + '" data-cat="' + catIdx + '">'; // abre a dica
+      for (const dica of categoria.dicas) {                 // todas as dicas da categoria
+        html += '<div class="dica-item">';                  // abre a dica
         html += '<div class="dica-titulo">' + Util.escape(dica.titulo) + '</div>'; // título da dica
         html += '<p class="dica-texto">' + Util.escape(dica.texto) + '</p>'; // explicação
         html += '</div>';                                   // fecha a dica
       }
-      if (total > VISIVEIS) {                               // se houver mais que N dicas
-        html += '<button type="button" class="botao botao-contorno dica-mais" data-cat="' + catIdx + '" data-total="' + total + '" style="margin-top:0.5rem;width:100%">' + T('dica_ver_mais', { n: total - VISIVEIS }) + '</button>';
-      }
       html += '</div>';                                     // fecha o cartão
-      catIdx++;
     }
     // Bloco final: as dicas rápidas de prova (mesmas que aparecem no simulado)
     html += '<div class="titulo-secao"><h3>' + T('dicas_prova_t') + '</h3></div>'; // título da seção
@@ -204,19 +195,5 @@ const ConteudoUI = {
     }
     html += '</ul></div>';                                  // fecha lista e cartão
     caixa.innerHTML = html;                                 // despeja na tela
-    // Delegação: botão "mostrar todas" em cada categoria
-    caixa.querySelectorAll('.dica-mais').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const cat = btn.dataset.cat;
-        const total = parseInt(btn.dataset.total, 10);
-        const ocultas = caixa.querySelectorAll('.dica-oculta[data-cat="' + cat + '"]');
-        const expandir = ocultas.length > 0 && ocultas[0].classList.contains('dica-oculta');
-        ocultas.forEach(d => {
-          if (expandir) { d.classList.remove('dica-oculta'); }
-          else { d.classList.add('dica-oculta'); }
-        });
-        btn.textContent = expandir ? T('dica_ver_menos') : T('dica_ver_mais', { n: total - VISIVEIS });
-      });
-    });
   }
 };
