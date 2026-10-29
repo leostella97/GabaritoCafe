@@ -2446,6 +2446,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Impacto social e regulatório.",
           "como": "Uso e ética."
+        },
+        {
+          "nome": "Mudanças climáticas",
+          "frequencia": 4,
+          "porque": "Acordos e COP.",
+          "como": "Efeito estufa e aquecimento."
+        },
+        {
+          "nome": "Crise hídrica e energética",
+          "frequencia": 3,
+          "porque": "Recursos naturais.",
+          "como": "Escassez e matriz energética."
+        },
+        {
+          "nome": "Desmatamento da Amazônia",
+          "frequencia": 3,
+          "porque": "Política ambiental brasileira.",
+          "como": "Dados e fiscalização."
+        },
+        {
+          "nome": "Economia brasileira e inflação",
+          "frequencia": 3,
+          "porque": "Selic, PIB e emprego.",
+          "como": "Indicadores econômicos."
+        },
+        {
+          "nome": "Geopolítica internacional",
+          "frequencia": 3,
+          "porque": "Conflitos e alianças.",
+          "como": "Rússia-Ucrânia, Oriente Médio."
+        },
+        {
+          "nome": "Saúde pública e pandemias",
+          "frequencia": 3,
+          "porque": "SUS e vigilância.",
+          "como": "Vacinação e cobertura."
+        },
+        {
+          "nome": "Tecnologia e transformação digital",
+          "frequencia": 3,
+          "porque": "5G, IA e automação.",
+          "como": "Impactos no trabalho."
+        },
+        {
+          "nome": "Desigualdade social e pobreza",
+          "frequencia": 3,
+          "porque": "Indicadores sociais.",
+          "como": "Gini, IDH e transferência de renda."
+        },
+        {
+          "nome": "Direitos humanos e minorias",
+          "frequencia": 2,
+          "porque": "Igualdade e diversidade.",
+          "como": "Políticas afirmativas."
+        },
+        {
+          "nome": "Educação e ciência no Brasil",
+          "frequencia": 2,
+          "porque": "Fomento e desafios.",
+          "como": "Investimento público."
+        },
+        {
+          "nome": "Urbanização e mobilidade",
+          "frequencia": 2,
+          "porque": "Cidades e transporte.",
+          "como": "Trânsito e habitação."
+        },
+        {
+          "nome": "Energias renováveis",
+          "frequencia": 2,
+          "porque": "Transição energética.",
+          "como": "Eólica, solar e hidrogênio."
+        },
+        {
+          "nome": "Agronegócio e segurança alimentar",
+          "frequencia": 2,
+          "porque": "Produção e exportação.",
+          "como": "Soja, milho e sustentabilidade."
+        },
+        {
+          "nome": "Política externa brasileira",
+          "frequencia": 2,
+          "porque": "BRICS, Mercosul e ONU.",
+          "como": "Posições recentes."
         }
       ]
     },
