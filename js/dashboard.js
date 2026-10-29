@@ -40,6 +40,8 @@ const DashboardUI = {
     html += '<button class="dash-atalho" data-ir="simulado"><span class="atalho-icone">📝</span><span class="atalho-titulo">' + T('dash_atalho_sim_t') + '</span><span class="atalho-sub">' + T('dash_atalho_sim_s') + '</span></button>'; // atalho simulado
     html += '<button class="dash-atalho" data-ir="bancas"><span class="atalho-icone">🕵️</span><span class="atalho-titulo">' + T('dash_atalho_bancas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_bancas_s') + '</span></button>'; // atalho bancas
     html += '<button class="dash-atalho" data-ir="temas"><span class="atalho-icone">📚</span><span class="atalho-titulo">' + T('dash_atalho_temas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_temas_s') + '</span></button>'; // atalho temas
+    html += '<button class="dash-atalho" data-ir="pomodoro"><span class="atalho-icone">☕</span><span class="atalho-titulo">' + T('nav_pomodoro') + '</span><span class="atalho-sub">' + T('tela_pomodoro_s') + '</span></button>'; // atalho pomodoro
+    html += '<button class="dash-atalho" data-ir="sala"><span class="atalho-icone">🏫</span><span class="atalho-titulo">' + T('nav_sala') + '</span><span class="atalho-sub">' + T('tela_sala_s') + '</span></button>'; // atalho sala de aula
     html += '</div>';                                       // fecha a grade
 
     // ---- Cartão Fidelidade de Estudos ----
