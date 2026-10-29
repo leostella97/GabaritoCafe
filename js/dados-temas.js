@@ -1796,6 +1796,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Princípios econômicos.",
           "como": "Art.170."
+        },
+        {
+          "nome": "Controle de constitucionalidade",
+          "frequencia": 5,
+          "porque": "Tema central em concursos jurídicos.",
+          "como": "ADI, ADC, ADPF e ADO."
+        },
+        {
+          "nome": "Remédios constitucionais",
+          "frequencia": 5,
+          "porque": "HC, MS, MI, HD e AP.",
+          "como": "Cabimento e legitimidade."
+        },
+        {
+          "nome": "Nacionalidade",
+          "frequencia": 3,
+          "porque": "Brasileiros natos e naturalizados.",
+          "como": "Art.12."
+        },
+        {
+          "nome": "Direitos políticos",
+          "frequencia": 3,
+          "porque": "Alistamento e elegibilidade.",
+          "como": "Inelegibilidades e perda."
+        },
+        {
+          "nome": "Partidos políticos",
+          "frequencia": 2,
+          "porque": "Autonomia partidária.",
+          "como": "Art.17."
+        },
+        {
+          "nome": "Processo legislativo",
+          "frequencia": 4,
+          "porque": "Elaboração das leis.",
+          "como": "Ordinária, complementar e emenda constitucional."
+        },
+        {
+          "nome": "Medidas provisórias",
+          "frequencia": 4,
+          "porque": "Relevância e urgência.",
+          "como": "Art.62."
+        },
+        {
+          "nome": "Tribunal de Contas",
+          "frequencia": 3,
+          "porque": "Controle externo.",
+          "como": "Competências do TCU."
+        },
+        {
+          "nome": "Ministério Público",
+          "frequencia": 3,
+          "porque": "Defesa da ordem jurídica.",
+          "como": "Garantias e funções."
+        },
+        {
+          "nome": "Advocacia Pública e Defensoria",
+          "frequencia": 2,
+          "porque": "AGU e Defensoria Pública.",
+          "como": "Arts.131 a 135."
+        },
+        {
+          "nome": "Ordem social",
+          "frequencia": 3,
+          "porque": "Educação, cultura e desporto.",
+          "como": "Arts.193 a 232."
+        },
+        {
+          "nome": "Meio ambiente na CF",
+          "frequencia": 2,
+          "porque": "Proteção constitucional.",
+          "como": "Art.225."
+        },
+        {
+          "nome": "Índios e quilombolas na CF",
+          "frequencia": 2,
+          "porque": "Direitos originários.",
+          "como": "Arts.231 e 232 e ADCT."
+        },
+        {
+          "nome": "Poder Constituinte",
+          "frequencia": 3,
+          "porque": "Originário e derivado.",
+          "como": "Cláusulas pétreas."
         }
       ]
     },
