@@ -11,7 +11,7 @@
 
 // Nome do cache com versão: ao mudar os arquivos servidos, suba a versão
 // (ex.: v1 → v2) para o navegador descartar o cache antigo no "activate".
-const CACHE = 'gabarito-cafe-v21';                // bump — atalhos Pomodoro e Sala de Aula no dashboard
+const CACHE = 'gabarito-cafe-v22';                // bump — peso de café 1-5 nos tópicos da Sala de Aula
 
 // Lista de arquivos locais que o app precisa para abrir 100% offline.
 // Caminhos relativos ao local do sw.js (raiz do site) — assim funciona
