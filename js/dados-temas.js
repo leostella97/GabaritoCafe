@@ -5142,6 +5142,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Controle e transparência.",
           "como": "Conselho."
+        },
+        {
+          "nome": "Planejamento estratégico",
+          "frequencia": 4,
+          "porque": "Missão, visão e valores.",
+          "como": "Análise SWOT."
+        },
+        {
+          "nome": "Processo decisório",
+          "frequencia": 3,
+          "porque": "Racionalidade e intuição.",
+          "como": "Modelos de decisão."
+        },
+        {
+          "nome": "Liderança e motivação",
+          "frequencia": 3,
+          "porque": "Teorias comportamentais.",
+          "como": "Maslow e Herzberg."
+        },
+        {
+          "nome": "Cultura e clima organizacional",
+          "frequencia": 3,
+          "porque": "Valores compartilhados.",
+          "como": "Socialização e engajamento."
+        },
+        {
+          "nome": "Comunicação organizacional",
+          "frequencia": 2,
+          "porque": "Fluxos formais e informais.",
+          "como": "Rede de rumores."
+        },
+        {
+          "nome": "Gestão por competências",
+          "frequencia": 3,
+          "porque": "CHA: conhecimento, habilidade e atitude.",
+          "como": "Mapeamento e desenvolvimento."
+        },
+        {
+          "nome": "Avaliação de desempenho",
+          "frequencia": 3,
+          "porque": "Métodos e critérios.",
+          "como": "360 graus e escalas."
+        },
+        {
+          "nome": "Treinamento e desenvolvimento (T&D)",
+          "frequencia": 3,
+          "porque": "Capacitação de pessoal.",
+          "como": "Levantamento de necessidades."
+        },
+        {
+          "nome": "Gestão da qualidade total (GQT)",
+          "frequencia": 3,
+          "porque": "Ferramentas da qualidade.",
+          "como": "Ciclo PDCA e Ishikawa."
+        },
+        {
+          "nome": "Gestão de processos (BPM)",
+          "frequencia": 3,
+          "porque": "Mapeamento e melhoria.",
+          "como": "Fluxograma e indicadores."
+        },
+        {
+          "nome": "Gestão de projetos (PMBOK)",
+          "frequencia": 3,
+          "porque": "Escopo, tempo e custo.",
+          "como": "Ciclo de vida do projeto."
+        },
+        {
+          "nome": "Administração pública gerencial",
+          "frequencia": 4,
+          "porque": "Reforma do Estado.",
+          "como": "PDRAE e flexibilidade."
+        },
+        {
+          "nome": "Accountability e transparência",
+          "frequencia": 3,
+          "porque": "Prestação de contas.",
+          "como": "Controle social."
+        },
+        {
+          "nome": "Terceiro setor e parcerias público-privadas",
+          "frequencia": 2,
+          "porque": "OS, OSCIP e PPP.",
+          "como": "Contrato de gestão."
         }
       ]
     },
