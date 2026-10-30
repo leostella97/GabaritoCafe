@@ -1705,6 +1705,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Lei Geral de Proteção de Dados.",
           "como": "Direitos do titular."
+        },
+        {
+          "nome": "Arquitetura de computadores",
+          "frequencia": 3,
+          "porque": "Hardware.",
+          "como": "CPU, memória."
+        },
+        {
+          "nome": "Redes de computadores",
+          "frequencia": 4,
+          "porque": "Modelos.",
+          "como": "TCP/IP."
+        },
+        {
+          "nome": "Segurança da informação",
+          "frequencia": 4,
+          "porque": "Criptografia.",
+          "como": "Senhas fortes."
+        },
+        {
+          "nome": "Sistemas operacionais",
+          "frequencia": 3,
+          "porque": "Windows e Linux.",
+          "como": "Arquivos."
+        },
+        {
+          "nome": "Nuvem e serviços",
+          "frequencia": 2,
+          "porque": "Cloud.",
+          "como": "SaaS, PaaS."
+        },
+        {
+          "nome": "Recuperação de dados",
+          "frequencia": 2,
+          "porque": "Backup.",
+          "como": "Cópia."
+        },
+        {
+          "nome": "Testes de usabilidade",
+          "frequencia": 1,
+          "porque": "UX.",
+          "como": "Interface."
+        },
+        {
+          "nome": "Ferramentas de produtividade",
+          "frequencia": 3,
+          "porque": "Office.",
+          "como": "Excel avançado."
+        },
+        {
+          "nome": "Lógica de programação",
+          "frequencia": 2,
+          "porque": "Algoritmos.",
+          "como": "Fluxograma."
+        },
+        {
+          "nome": "Versionamento de código",
+          "frequencia": 2,
+          "porque": "Git.",
+          "como": "Commit."
+        },
+        {
+          "nome": "Acessibilidade digital",
+          "frequencia": 2,
+          "porque": "Inclusão.",
+          "como": "WCAG."
+        },
+        {
+          "nome": "Gestão de dados",
+          "frequencia": 2,
+          "porque": "Organização.",
+          "como": "Relatórios."
+        },
+        {
+          "nome": "Inteligência artificial",
+          "frequencia": 2,
+          "porque": "Automação.",
+          "como": "Modelos."
+        },
+        {
+          "nome": "Computação ética",
+          "frequencia": 2,
+          "porque": "Ética.",
+          "como": "Uso responsável."
         }
       ]
     },
