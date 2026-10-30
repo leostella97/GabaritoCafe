@@ -2144,6 +2144,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Originário e derivado.",
           "como": "Cláusulas pétreas."
+        },
+        {
+          "nome": "Direitos políticos",
+          "frequencia": 4,
+          "porque": "Eleições.",
+          "como": "Titularidade."
+        },
+        {
+          "nome": "Mandados de segurança",
+          "frequencia": 4,
+          "porque": "Remédios constitucionais.",
+          "como": "Competência."
+        },
+        {
+          "nome": "Ação direta de inconstitucionalidade",
+          "frequencia": 3,
+          "porque": "Controle concentrado.",
+          "como": "STF."
+        },
+        {
+          "nome": "Controle de constitucionalidade",
+          "frequencia": 4,
+          "porque": "Difuso e concentrado.",
+          "como": "Incidental."
+        },
+        {
+          "nome": "Princípios fundamentais",
+          "frequencia": 3,
+          "porque": "Preâmbulo.",
+          "como": "Dignidade."
+        },
+        {
+          "nome": "Organização do Estado",
+          "frequencia": 3,
+          "porque": "FEDERAÇÃO.",
+          "como": "Competências."
+        },
+        {
+          "nome": "Repartição de competências",
+          "frequencia": 4,
+          "porque": "Conflitos.",
+          "como": "Lista."
+        },
+        {
+          "nome": "Emendas constitucionais",
+          "frequencia": 3,
+          "porque": "Reforma.",
+          "como": "Quorum."
+        },
+        {
+          "nome": "SIP",
+          "frequencia": 2,
+          "porque": "Sucessão.",
+          "como": "Procedimentos."
+        },
+        {
+          "nome": "Inviolabilidade domiciliar",
+          "frequencia": 3,
+          "porque": "Direitos.",
+          "como": "Art.5º XI."
+        },
+        {
+          "nome": "Liberdade de expressão",
+          "frequencia": 3,
+          "porque": "Comunicação.",
+          "como": "Art.5º IV."
+        },
+        {
+          "nome": "Igualdade jurídica",
+          "frequencia": 3,
+          "porque": "Não discriminação.",
+          "como": "Art.5º I."
+        },
+        {
+          "nome": "Segurança jurídica",
+          "frequencia": 2,
+          "porque": "Previsibilidade.",
+          "como": "Art.5º XXXVI."
+        },
+        {
+          "nome": "Tribunal de Contas",
+          "frequencia": 2,
+          "porque": "Fiscalização.",
+          "como": "Poderes."
         }
       ]
     },
