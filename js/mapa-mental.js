@@ -36,7 +36,7 @@ const MapaMentalUI = {
       html += `<div class="cartao aparecer mapa-cartao">`;
       html += `<button class="categoria-titulo mapa-materia" data-materia="${Util.escape(m)}" style="background:none;border:0;width:100%;text-align:left;cursor:pointer;font:inherit">📚 ${Util.escape(m)}</button>`;
       if (topicos.length) {
-        html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem;max-height:260px;overflow-y:auto">';
+        html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem;max-height:260px;overflow-y:auto;overflow-x:hidden">';
         topicos.forEach(t => {
           html += `<button class="botao botao-fantasma pequeno mapa-topico" data-materia="${Util.escape(m)}" data-topico="${Util.escape(t)}" type="button">${Util.escape(t)}</button>`;
         });
