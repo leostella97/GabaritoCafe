@@ -62,27 +62,66 @@ const MapaMentalUI = {
     const modal = document.getElementById('modal-materia');
     const conteudo = document.getElementById('modal-conteudo');
     const exs = (BancoQuestoes||[]).filter(q=>q.materia===materia && q.tema===topico);
-    let html = `<h3>${Util.escape(materia)} — ${Util.escape(topico)}</h3>`;
+    const urlYouTube = `https://www.youtube.com/results?search_query=${encodeURIComponent(materia+' '+topico)}`;
+    const qrDataUrl = typeof Impressao !== 'undefined' ? Impressao.qrDaUrl(urlYouTube) : '';
+    let html = `<div class="cartao" style="padding:1rem">`;
+    html += `<div class="categoria-titulo">${Util.escape(materia)} — ${Util.escape(topico)}</div>`;
     html += `<p class="texto-suave">Questões relacionadas encontradas: ${exs.length}</p>`;
     if (exs.length) {
-      html += '<ul>';
+      html += '<ul style="padding-left:1.2rem">';
       exs.slice(0,5).forEach(q=>{
-        html += `<li><strong>${Util.escape(q.enunciado.substring(0,120))}...</strong><br><span class="texto-suave">${Util.escape(q.explicacao.substring(0,200))}</span></li>`;
+        html += `<li style="margin-bottom:0.6rem"><strong>${Util.escape(q.enunciado.substring(0,140))}...</strong><br><span class="texto-suave">${Util.escape(q.explicacao.substring(0,220))}</span></li>`;
       });
       html += '</ul>';
-      html += `<p><a class="link-video" href="https://www.youtube.com/results?search_query=${encodeURIComponent(materia+' '+topico)}" target="_blank" rel="noopener">🔎 Ver aulas no YouTube</a></p>`;
     } else {
       html += `<p class="texto-suave">Sem questões cadastradas ainda. Confira explicações na Sala de Aula.</p>`;
     }
+    html += `<div style="display:flex;gap:1rem;align-items:center;margin-top:1rem;flex-wrap:wrap">`;
+    if (qrDataUrl) {
+      html += `<img src="${qrDataUrl}" alt="QR YouTube" style="width:120px;height:120px;border:1px solid #ddd;border-radius:8px;padding:4px;background:#fff"/>`;
+    }
+    html += `<div>`;
+    html += `<a class="botao botao-contorno" href="${urlYouTube}" target="_blank" rel="noopener">🔎 Ver aulas no YouTube</a>`;
+    html += `<p class="texto-suave" style="margin-top:0.4rem;font-size:0.85rem">Escaneie o QR para abrir direto no celular.</p>`;
+    html += `</div></div>`;
+    html += `</div>`;
     conteudo.innerHTML = html;
     modal.classList.remove('oculto');
   },
 
   exportarPDF() {
     const area = document.getElementById('area-impressao');
-    const tela = document.getElementById('tela-mapa-mental');
-    if (!tela) return;
-    area.innerHTML = tela.innerHTML;
+    if (!area) return;
+    const materiasSet = new Set();
+    if (BancoQuestoes && BancoQuestoes.length) {
+      BancoQuestoes.forEach(q => materiasSet.add(q.materia));
+    }
+    const materias = Array.from(materiasSet).sort((a,b)=>a.localeCompare(b));
+    let html = '<div class="folha-impressao">';
+    html += '<header class="cabecalho-impressao" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;border-bottom:2px solid #333;padding-bottom:0.5rem">';
+    html += '<div><h1 style="margin:0">Mapa Mental</h1><p style="margin:0;font-size:0.9rem">Gabarito Café</p></div>';
+    html += `<div style="text-align:right;font-size:0.85rem"><div>${new Date().toLocaleDateString('pt-BR')}</div><div>${Idioma.atual.toUpperCase()}</div></div>`;
+    html += '</header>';
+    html += '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem">';
+    materias.forEach(m => {
+      const topicosSet = new Set();
+      (BancoQuestoes||[]).filter(q=>q.materia===m).forEach(q=> topicosSet.add(q.tema));
+      const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
+      html += `<div class="cartao" style="border:1px solid #ccc;border-radius:8px;padding:0.8rem">`;
+      html += `<h3 style="margin:0 0 0.5rem">${Util.escape(m)}</h3>`;
+      if (topicos.length) {
+        html += '<ul style="padding-left:1.2rem;margin:0">';
+        topicos.forEach(t => html += `<li>${Util.escape(t)}</li>`);
+        html += '</ul>';
+      } else {
+        html += `<p style="margin:0;font-size:0.85rem;color:#666">Sem tópicos</p>`;
+      }
+      html += `</div>`;
+    });
+    html += '</div>';
+    html += '<footer style="margin-top:1.5rem;font-size:0.75rem;color:#666;text-align:center">Gerado localmente pelo Gabarito Café • seus dados ficam só com você</footer>';
+    html += '</div>';
+    area.innerHTML = html;
     window.print();
   }
 };
