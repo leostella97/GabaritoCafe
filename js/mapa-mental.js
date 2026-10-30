@@ -72,7 +72,10 @@ const MapaMentalUI = {
     (BancoQuestoes||[]).filter(q=>q.materia===materia).forEach(q=> topicosSet.add(q.tema));
     const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
     let html = `<div class="cartao" style="padding:1rem">`;
-    html += `<div class="categoria-titulo">📚 ${Util.escape(materia)}</div>`;
+    html += `<div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;flex-wrap:wrap">`;
+    html += `<div class="categoria-titulo" style="margin:0">📚 ${Util.escape(materia)}</div>`;
+    html += `<button class="botao botao-contorno pequeno" id="btn-export-materia">📄 Exportar PDF desta matéria</button>`;
+    html += `</div>`;
     html += `<p class="texto-suave">Clique em um tópico para ver explicação e aula no YouTube.</p>`;
     if (topicos.length) {
       html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.8rem">';
@@ -86,6 +89,11 @@ const MapaMentalUI = {
     html += `</div>`;
     conteudo.innerHTML = html;
     modal.classList.remove('oculto');
+    // exportar PDF da matéria
+    const btnExport = document.getElementById('btn-export-materia');
+    if (btnExport) {
+      btnExport.addEventListener('click', () => this.exportarPDFMateria(materia));
+    }
     // delega clique nos tópicos do modal
     conteudo.onclick = (e) => {
       const btn = e.target.closest('.mapa-topico-modal');
@@ -124,6 +132,44 @@ const MapaMentalUI = {
     html += `</div>`;
     conteudo.innerHTML = html;
     modal.classList.remove('oculto');
+  },
+
+  exportarPDFMateria(materia) {
+    const area = document.getElementById('area-impressao');
+    if (!area) return;
+    const topicosSet = new Set();
+    (BancoQuestoes||[]).filter(q=>q.materia===materia).forEach(q=> topicosSet.add(q.tema));
+    const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
+    let html = '<div class="folha-impressao">';
+    html += '<header class="cabecalho-impressao" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;border-bottom:2px solid #333;padding-bottom:0.5rem">';
+    html += `<div><h1 style="margin:0">Mapa Mental — ${Util.escape(materia)}</h1><p style="margin:0;font-size:0.9rem">Gabarito Café</p></div>`;
+    html += `<div style="text-align:right;font-size:0.85rem"><div>${new Date().toLocaleDateString('pt-BR')}</div><div>${Idioma.atual.toUpperCase()}</div></div>`;
+    html += '</header>';
+    html += `<div class="cartao" style="border:1px solid #ccc;border-radius:8px;padding:0.8rem">`;
+    html += `<h3 style="margin:0 0 0.5rem">${Util.escape(materia)}</h3>`;
+    if (topicos.length) {
+      html += '<ul style="padding-left:1.2rem;margin:0">';
+      topicos.forEach(t => html += `<li>${Util.escape(t)}</li>`);
+      html += '</ul>';
+      // QR para cada tópico
+      html += '<div style="margin-top:1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.8rem">';
+      topicos.forEach(t => {
+        const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(materia+' '+t)}`;
+        const qr = typeof Impressao !== 'undefined' ? Impressao.qrDaUrl(url) : '';
+        html += `<div style="border:1px solid #ddd;padding:0.5rem;border-radius:6px;text-align:center">`;
+        html += `<div style="font-weight:700;font-size:0.9rem">${Util.escape(t)}</div>`;
+        if (qr) html += `<img src="${qr}" alt="QR YouTube" style="width:100px;height:100px;margin-top:0.4rem"/>`;
+        html += `</div>`;
+      });
+      html += '</div>';
+    } else {
+      html += `<p style="margin:0;font-size:0.85rem;color:#666">Sem tópicos</p>`;
+    }
+    html += `</div>`;
+    html += '<footer style="margin-top:1.5rem;font-size:0.75rem;color:#666;text-align:center">Gerado localmente pelo Gabarito Café • seus dados ficam só com você</footer>';
+    html += '</div>';
+    area.innerHTML = html;
+    window.print();
   },
 
   exportarPDF() {
