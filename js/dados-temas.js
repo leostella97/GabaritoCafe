@@ -11443,6 +11443,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Moradia.",
           "como": "Rent, landlord."
+        },
+        {
+          "nome": "Reading comprehension",
+          "frequencia": 5,
+          "porque": "Interpretação.",
+          "como": "Inferência."
+        },
+        {
+          "nome": "Grammar: tenses",
+          "frequencia": 5,
+          "porque": "Tempos verbais.",
+          "como": "Past, present, future."
+        },
+        {
+          "nome": "Conditional sentences",
+          "frequencia": 3,
+          "porque": "Hipótese.",
+          "como": "If clauses."
+        },
+        {
+          "nome": "Passive voice",
+          "frequencia": 3,
+          "porque": "Voz passiva.",
+          "como": "Be + past participle."
+        },
+        {
+          "nome": "Reported speech",
+          "frequencia": 3,
+          "porque": "Discurso indireto.",
+          "como": "Backshift."
+        },
+        {
+          "nome": "Phrasal verbs",
+          "frequencia": 4,
+          "porque": "Colocações.",
+          "como": "Get up, take off."
+        },
+        {
+          "nome": "Collocations",
+          "frequencia": 3,
+          "porque": "Naturalidade.",
+          "como": "Make a decision."
+        },
+        {
+          "nome": "Idioms",
+          "frequencia": 3,
+          "porque": "Expressões.",
+          "como": "Break a leg."
+        },
+        {
+          "nome": "Academic writing",
+          "frequencia": 2,
+          "porque": "Ensaios.",
+          "como": "Coesão."
+        },
+        {
+          "nome": "Listening skills",
+          "frequencia": 3,
+          "porque": "Compreensão auditiva.",
+          "como": "Pronúncia."
+        },
+        {
+          "nome": "Vocabulary: technology",
+          "frequencia": 3,
+          "porque": "Atualidade.",
+          "como": "Internet, AI."
+        },
+        {
+          "nome": "Environment and sustainability",
+          "frequencia": 3,
+          "porque": "Temas globais.",
+          "como": "Climate change."
+        },
+        {
+          "nome": "Culture and identity",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Stereotypes."
+        },
+        {
+          "nome": "False friends",
+          "frequencia": 4,
+          "porque": "Falsos cognatos.",
+          "como": "Actually vs actually."
         }
       ]
     },
