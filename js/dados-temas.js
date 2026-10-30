@@ -5600,6 +5600,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Modalidade específica.",
           "como": "Andragogia e contextualização."
+        },
+        {
+          "nome": "Neurociência educacional",
+          "frequencia": 3,
+          "porque": "Base biológica da aprendizagem.",
+          "como": "Memória, atenção e neuroplasticidade."
+        },
+        {
+          "nome": "Gamificação e aprendizagem",
+          "frequencia": 2,
+          "porque": "Engajamento por mecânicas de jogo.",
+          "como": "Recompensas e desafios progressivos."
+        },
+        {
+          "nome": "Avaliação por competências",
+          "frequencia": 4,
+          "porque": "Foco em habilidades reais.",
+          "como": "Rubricas e evidências de aprendizagem."
+        },
+        {
+          "nome": "Currículo por habilidades",
+          "frequencia": 3,
+          "porque": "Transposição da BNCC.",
+          "como": "Competências gerais e específicas."
+        },
+        {
+          "nome": "Formação continuada de professores",
+          "frequencia": 3,
+          "porque": "Atualização docente.",
+          "como": "Cursos, grupos de estudo e mentoria."
+        },
+        {
+          "nome": "Ética e diversidade na escola",
+          "frequencia": 3,
+          "porque": "Inclusão e respeito.",
+          "como": "Direitos humanos e políticas afirmativas."
+        },
+        {
+          "nome": "Mediação de conflitos escolares",
+          "frequencia": 2,
+          "porque": "Clima organizacional.",
+          "como": "Diálogo e escuta ativa."
+        },
+        {
+          "nome": "Psicopedagogia",
+          "frequencia": 3,
+          "porque": "Diagnóstico de dificuldades.",
+          "como": "Avaliação e intervenção pedagógica."
+        },
+        {
+          "nome": "Tecnologia assistiva",
+          "frequencia": 2,
+          "porque": "Acessibilidade educacional.",
+          "como": "Recursos para inclusão."
+        },
+        {
+          "nome": "Políticas de alfabetização",
+          "frequencia": 3,
+          "porque": "PNAIC e letramento.",
+          "como": "Metodologias de alfabetização."
+        },
+        {
+          "nome": "Sala de recursos multifuncionais",
+          "frequencia": 2,
+          "porque": "Atendimento educacional especializado.",
+          "como": "Estrutura e equipe."
+        },
+        {
+          "nome": "Programa Nacional do Livro e do Material Didático",
+          "frequencia": 2,
+          "porque": "Política de distribuição.",
+          "como": "PNLD."
+        },
+        {
+          "nome": "Gestão de pessoas na escola",
+          "frequencia": 2,
+          "porque": "Liderança pedagógica.",
+          "como": "Equipe multidisciplinar."
+        },
+        {
+          "nome": "Comunidade escolar",
+          "frequencia": 3,
+          "porque": "Participação dos pais e comunidade.",
+          "como": "Conselho escolar e reuniões."
+        },
+        {
+          "nome": "Pesquisa em educação",
+          "frequencia": 2,
+          "porque": "Evidência para prática.",
+          "como": "Metodologia científica aplicada."
         }
       ]
     }
@@ -6101,6 +6191,102 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Treino real.",
           "como": "Correção com critérios."
+        },
+        {
+          "nome": "Leitura crítica de textos motivadores",
+          "frequencia": 5,
+          "porque": "Base da argumentação.",
+          "como": "Resumir cada texto em uma frase."
+        },
+        {
+          "nome": "Mapa mental de argumentos",
+          "frequencia": 3,
+          "porque": "Organização rápida.",
+          "como": "Centralizar tese e ramificar provas."
+        },
+        {
+          "nome": "Uso de dados e estatísticas",
+          "frequencia": 4,
+          "porque": "Fortalece a tese.",
+          "como": "IBGE, Fiocruz, PNAD."
+        },
+        {
+          "nome": "Citação de filósofos",
+          "frequencia": 2,
+          "porque": "Repertório erudito.",
+          "como": "Sartre, Hannah Arendt."
+        },
+        {
+          "nome": "Citação de cientistas sociais",
+          "frequencia": 2,
+          "porque": "Base empírica.",
+          "como": "Pierre Bourdieu."
+        },
+        {
+          "nome": "Uso de reportagens",
+          "frequencia": 3,
+          "porque": "Atualidade.",
+          "como": "El País, Folha, Nexo."
+        },
+        {
+          "nome": "Variação de conectores",
+          "frequencia": 3,
+          "porque": "Fluidez textual.",
+          "como": "Além disso, contudo, por conseguinte."
+        },
+        {
+          "nome": "Evitar repetições",
+          "frequencia": 3,
+          "porque": "Economia de linguagem.",
+          "como": "Sinônimos e pronomes."
+        },
+        {
+          "nome": "Título e subtítulo",
+          "frequencia": 2,
+          "porque": "Primeira impressão.",
+          "como": "Sintetizar a tese."
+        },
+        {
+          "nome": "Linguagem não sexista",
+          "frequencia": 2,
+          "porque": "Competência socioambiental.",
+          "como": "Inclusão linguística."
+        },
+        {
+          "nome": "Argumento por autoridade",
+          "frequencia": 3,
+          "porque": "Reforça a tese.",
+          "como": "Especialistas e dados."
+        },
+        {
+          "nome": "Argumento por exemplo",
+          "frequencia": 4,
+          "porque": "Concretiza ideias.",
+          "como": "Casos reais."
+        },
+        {
+          "nome": "Revisão de concordância nominal",
+          "frequencia": 3,
+          "porque": "Norma culta.",
+          "como": "Gênero e número."
+        },
+        {
+          "nome": "Revisão de crase",
+          "frequencia": 3,
+          "porque": "Erro frequente.",
+          "como": "Regra da fusão."
+        },
+        {
+          "nome": "Planejamento em 5 minutos",
+          "frequencia": 4,
+          "porque": "Otimiza tempo.",
+          "como": "Tese + 2 argumentos + proposta."
+        },
+        {
+          "nome": "Escrita rápida",
+          "frequencia": 3,
+          "porque": "Produtividade.",
+          "como": "Transcrição de rascunho."
         }
       ]
     },
