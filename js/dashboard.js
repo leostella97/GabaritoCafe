@@ -40,7 +40,6 @@ const DashboardUI = {
     html += '<button class="dash-atalho" data-ir="simulado"><span class="atalho-icone">📝</span><span class="atalho-titulo">' + T('dash_atalho_sim_t') + '</span><span class="atalho-sub">' + T('dash_atalho_sim_s') + '</span></button>'; // atalho simulado
     html += '<button class="dash-atalho" data-ir="bancas"><span class="atalho-icone">🕵️</span><span class="atalho-titulo">' + T('dash_atalho_bancas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_bancas_s') + '</span></button>'; // atalho bancas
     html += '<button class="dash-atalho" data-ir="temas"><span class="atalho-icone">📚</span><span class="atalho-titulo">' + T('dash_atalho_temas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_temas_s') + '</span></button>'; // atalho temas
-    html += '<button class="dash-atalho" data-ir="mapa-mental"><span class="atalho-icone">🧠</span><span class="atalho-titulo">Mapa Mental</span><span class="atalho-sub">Gere mapas por matéria</span></button>'; // mapa mental
     html += '<button class="dash-atalho" data-ir="pomodoro"><span class="atalho-icone">☕</span><span class="atalho-titulo">' + T('nav_pomodoro') + '</span><span class="atalho-sub">' + T('tela_pomodoro_s') + '</span></button>'; // atalho pomodoro
     html += '<button class="dash-atalho" data-ir="sala"><span class="atalho-icone">🏫</span><span class="atalho-titulo">' + T('nav_sala') + '</span><span class="atalho-sub">' + T('tela_sala_s') + '</span></button>'; // atalho sala de aula
     html += '</div>';                                       // fecha a grade
@@ -49,6 +48,17 @@ const DashboardUI = {
     if (typeof FidelidadeUI !== 'undefined') {
       html += FidelidadeUI.renderizarCartela();
     }
+
+    // ---- Card Mapa Mental ----
+    html += '<div class="cartao">';
+    html += '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem">';
+    html += '<div>';
+    html += '<h3 style="margin:0 0 0.3rem">🧠 Mapa Mental</h3>';
+    html += '<p class="texto-suave" style="margin:0">Gere mapas por matéria com tópicos, exporte em PDF e abra explicações com YouTube.</p>';
+    html += '</div>';
+    html += '<button class="botao botao-contorno pequeno" data-ir="mapa-mental">Abrir Mapa Mental</button>';
+    html += '</div>';
+    html += '</div>';
 
     // ---- Se nunca fez simulado: estado vazio acolhedor ----
     if (historico.length === 0) {                           // sem resultados ainda
