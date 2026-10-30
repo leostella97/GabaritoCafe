@@ -6,11 +6,12 @@ const MapaMentalUI = {
   async renderizar(materiaFiltro = '') {
     const caixa = document.getElementById('tela-mapa-mental');
     if (!caixa) return;
-    let html = '<div class="mapa-barra">';
-    html += '<h3>Mapa Mental</h3>';
+    let html = '<div class="titulo-secao"><h3>Mapa Mental</h3></div>';
+    html += '<div class="cartao mapa-cabecalho" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem">';
+    html += '<p class="texto-suave" style="margin:0">Matérias com seus tópicos principais. Clique em um tópico para ver explicação e aula.</p>';
     html += '<button class="botao botao-contorno pequeno" id="btn-mapa-export">📄 Exportar PDF</button>';
     html += '</div>';
-    html += '<div id="mapa-conteudo" class="mapa-conteudo"><p class="texto-suave">Carregando banco de questões...</p></div>';
+    html += '<div id="mapa-conteudo" class="mapa-conteudo"></div>';
     caixa.innerHTML = html;
     document.getElementById('btn-mapa-export').addEventListener('click', () => this.exportarPDF());
     if (!BancoLoader.pronto()) {
@@ -22,31 +23,36 @@ const MapaMentalUI = {
   desmontar(materiaFiltro) {
     const container = document.getElementById('mapa-conteudo');
     if (!container) return;
-    let html = '<div class="mapa-grid">';
-    const materias = new Set();
+    const materiasSet = new Set();
     if (BancoQuestoes && BancoQuestoes.length) {
-      BancoQuestoes.forEach(q => materias.add(q.materia));
+      BancoQuestoes.forEach(q => materiasSet.add(q.materia));
     }
-    // fallback dados temas
+    const materias = Array.from(materiasSet).sort((a,b)=>a.localeCompare(b));
+    let html = '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">';
     materias.forEach(m => {
-      html += `<div class="mapa-no"><div class="mapa-no-titulo">${Util.escape(m)}</div><div class="mapa-no-topicos"></div></div>`;
-    });
-    container.innerHTML = html;
-    // Preencher tópicos por matéria a partir de dados-temas.js e banco
-    container.querySelectorAll('.mapa-no').forEach(no => {
-      const materia = no.querySelector('.mapa-no-titulo').textContent;
-      const topicosDiv = no.querySelector('.mapa-no-topicos');
       const topicosSet = new Set();
-      (BancoQuestoes||[]).filter(q=>q.materia===materia).forEach(q=> topicosSet.add(q.tema));
-      topicosSet.forEach(t => {
-        topicosDiv.innerHTML += `<div class="mapa-topico" data-materia="${Util.escape(materia)}" data-topico="${Util.escape(t)}">${Util.escape(t)}</div>`;
-      });
+      (BancoQuestoes||[]).filter(q=>q.materia===m).forEach(q=> topicosSet.add(q.tema));
+      const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
+      html += `<div class="cartao aparecer mapa-cartao">`;
+      html += `<div class="categoria-titulo">📚 ${Util.escape(m)}</div>`;
+      if (topicos.length) {
+        html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem">';
+        topicos.forEach(t => {
+          html += `<button class="botao botao-fantasma pequeno mapa-topico" data-materia="${Util.escape(m)}" data-topico="${Util.escape(t)}" type="button">${Util.escape(t)}</button>`;
+        });
+        html += '</div>';
+      } else {
+        html += `<p class="texto-suave" style="font-size:0.85rem;margin:0.5rem 0 0">Sem tópicos cadastrados.</p>`;
+      }
+      html += `</div>`;
     });
+    html += '</div>';
+    container.innerHTML = html;
     container.addEventListener('click', (e)=>{
-      const t = e.target.closest('.mapa-topico');
-      if (!t) return;
-      const materia = t.dataset.materia;
-      const topico = t.dataset.topico;
+      const btn = e.target.closest('.mapa-topico');
+      if (!btn) return;
+      const materia = btn.dataset.materia;
+      const topico = btn.dataset.topico;
       this.abrirModalTopico(materia, topico);
     });
   },
@@ -55,10 +61,9 @@ const MapaMentalUI = {
     EditalUI.iniciarModal();
     const modal = document.getElementById('modal-materia');
     const conteudo = document.getElementById('modal-conteudo');
-    // Busca explicação no banco
     const exs = (BancoQuestoes||[]).filter(q=>q.materia===materia && q.tema===topico);
     let html = `<h3>${Util.escape(materia)} — ${Util.escape(topico)}</h3>`;
-    html += `<p class="texto-suave">Tópicos relacionados encontrados: ${exs.length}</p>`;
+    html += `<p class="texto-suave">Questões relacionadas encontradas: ${exs.length}</p>`;
     if (exs.length) {
       html += '<ul>';
       exs.slice(0,5).forEach(q=>{
@@ -75,7 +80,9 @@ const MapaMentalUI = {
 
   exportarPDF() {
     const area = document.getElementById('area-impressao');
-    area.innerHTML = document.getElementById('tela-mapa-mental').innerHTML;
+    const tela = document.getElementById('tela-mapa-mental');
+    if (!tela) return;
+    area.innerHTML = tela.innerHTML;
     window.print();
   }
 };
