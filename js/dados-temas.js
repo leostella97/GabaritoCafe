@@ -9304,6 +9304,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Aceleram.",
           "como": "Enzimas."
+        },
+        {
+          "nome": "Equilíbrio químico",
+          "frequencia": 3,
+          "porque": "Constante K.",
+          "como": "Le Chatelier."
+        },
+        {
+          "nome": "Cinética química",
+          "frequencia": 3,
+          "porque": "Velocidade de reação.",
+          "como": "Energia de ativação."
+        },
+        {
+          "nome": "Termoquímica",
+          "frequencia": 3,
+          "porque": "Entalpia.",
+          "como": "Lei de Hess."
+        },
+        {
+          "nome": "Eletroquímica",
+          "frequencia": 3,
+          "porque": "Pilhas e células.",
+          "como": "Oxidoredução."
+        },
+        {
+          "nome": "Química orgânica funcional",
+          "frequencia": 4,
+          "porque": "Funções orgânicas.",
+          "como": "Alcanos e álcoois."
+        },
+        {
+          "nome": "Isomeria",
+          "frequencia": 3,
+          "porque": "Estrutura.",
+          "como": "Constitucional e espacial."
+        },
+        {
+          "nome": "Reações orgânicas",
+          "frequencia": 3,
+          "porque": "Mecanismos.",
+          "como": "Substituição."
+        },
+        {
+          "nome": "Polímeros",
+          "frequencia": 2,
+          "porque": "Materiais.",
+          "como": "Plásticos."
+        },
+        {
+          "nome": "Química ambiental",
+          "frequencia": 2,
+          "porque": "Poluição.",
+          "como": "Efeito estufa."
+        },
+        {
+          "nome": "Água e soluções",
+          "frequencia": 3,
+          "porque": "Solubilidade.",
+          "como": "Molaridade."
+        },
+        {
+          "nome": "Acidez e basicidade",
+          "frequencia": 3,
+          "porque": "pH.",
+          "como": "Brønsted-Lowry."
+        },
+        {
+          "nome": "Tabela periódica",
+          "frequencia": 3,
+          "porque": "Propriedades.",
+          "como": "Grupos."
+        },
+        {
+          "nome": "Ligações químicas",
+          "frequencia": 4,
+          "porque": "Estrutura.",
+          "como": "Iônica e covalente."
+        },
+        {
+          "nome": "Estequiometria avançada",
+          "frequencia": 3,
+          "porque": "Cálculo.",
+          "como": "Mol."
         }
       ]
     },
