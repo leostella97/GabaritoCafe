@@ -8715,6 +8715,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Hidrodinâmica.",
           "como": "Fluxo constante."
+        },
+        {
+          "nome": "Termodinâmica",
+          "frequencia": 3,
+          "porque": "Leis da termodinâmica.",
+          "como": "Calor e trabalho."
+        },
+        {
+          "nome": "Óptica geométrica",
+          "frequencia": 3,
+          "porque": "Espelhos e lentes.",
+          "como": "Raios de luz."
+        },
+        {
+          "nome": "Ondas mecânicas",
+          "frequencia": 3,
+          "porque": "Som e cordas.",
+          "como": "Frequência."
+        },
+        {
+          "nome": "Eletromagnetismo",
+          "frequencia": 4,
+          "porque": "Campos e indução.",
+          "como": "Faraday."
+        },
+        {
+          "nome": "Circuitos elétricos",
+          "frequencia": 4,
+          "porque": "Resistores.",
+          "como": "Lei de Ohm."
+        },
+        {
+          "nome": "Física moderna",
+          "frequencia": 2,
+          "porque": "Relatividade.",
+          "como": "E=mc²."
+        },
+        {
+          "nome": "Mecânica quântica",
+          "frequencia": 2,
+          "porque": "Dualidade.",
+          "como": "Efeito fotoelétrico."
+        },
+        {
+          "nome": "Gravitação universal",
+          "frequencia": 3,
+          "porque": "Leis de Kepler.",
+          "como": "Newton."
+        },
+        {
+          "nome": "Colisões",
+          "frequencia": 2,
+          "porque": "Choque.",
+          "como": "Momentum."
+        },
+        {
+          "nome": "Rotação e torque",
+          "frequencia": 3,
+          "porque": "Corpos rígidos.",
+          "como": "Momento angular."
+        },
+        {
+          "nome": "Hidrostática",
+          "frequencia": 2,
+          "porque": "Pressão.",
+          "como": "Princípio de Pascal."
+        },
+        {
+          "nome": "Termometria",
+          "frequencia": 2,
+          "porque": "Escalas.",
+          "como": "Celsius e Kelvin."
+        },
+        {
+          "nome": "Calorimetria",
+          "frequencia": 2,
+          "porque": "Troca de calor.",
+          "como": "Capacidade térmica."
+        },
+        {
+          "nome": "Efeito Doppler",
+          "frequencia": 2,
+          "porque": "Frequência.",
+          "como": "Som."
         }
       ]
     },
