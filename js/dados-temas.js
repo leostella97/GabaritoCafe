@@ -3305,6 +3305,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Responsabilização de empresas.",
           "como": "Acordo de leniência."
+        },
+        {
+          "nome": "Lei de Improbidade Administrativa",
+          "frequencia": 4,
+          "porque": "Sanções.",
+          "como": "Lei 8.429."
+        },
+        {
+          "nome": "Lei de Licitações",
+          "frequencia": 5,
+          "porque": "Contratação.",
+          "como": "Lei 14.133."
+        },
+        {
+          "nome": "Lei de Responsabilidade Fiscal",
+          "frequencia": 4,
+          "porque": "Gasto público.",
+          "como": "Lei Complementar 101."
+        },
+        {
+          "nome": "Estatuto da Criança e do Adolescente",
+          "frequencia": 3,
+          "porque": "ECA.",
+          "como": "Proteção."
+        },
+        {
+          "nome": "Lei de Execução Penal",
+          "frequencia": 3,
+          "porque": "Reclusão.",
+          "como": "Regimes."
+        },
+        {
+          "nome": "Lei Maria da Penha",
+          "frequencia": 3,
+          "porque": "Violência doméstica.",
+          "como": "Lei 11.340."
+        },
+        {
+          "nome": "Lei de Diretrizes e Bases",
+          "frequencia": 3,
+          "porque": "Educação.",
+          "como": "Lei 9.394."
+        },
+        {
+          "nome": "Lei de Parcelamento do Solo",
+          "frequencia": 2,
+          "porque": "Urbanismo.",
+          "como": "Lei 6.766."
+        },
+        {
+          "nome": "Código de Trânsito Brasileiro",
+          "frequencia": 2,
+          "porque": "CTB.",
+          "como": "Lei 9.503."
+        },
+        {
+          "nome": "Lei de Registros Públicos",
+          "frequencia": 2,
+          "porque": "Tabelião.",
+          "como": "Lei 6.015."
+        },
+        {
+          "nome": "Lei Geral de Proteção de Dados",
+          "frequencia": 3,
+          "porque": "Privacidade.",
+          "como": "Lei 13.709."
+        },
+        {
+          "nome": "Lei de Crimes Ambientais",
+          "frequencia": 3,
+          "porque": "Meio ambiente.",
+          "como": "Lei 9.605."
+        },
+        {
+          "nome": "Lei do Processo Administrativo Federal",
+          "frequencia": 2,
+          "porque": "Lei 9.784.",
+          "como": "Procedimentos."
+        },
+        {
+          "nome": "Lei de Acesso à Informação",
+          "frequencia": 4,
+          "porque": "Transparência.",
+          "como": "Lei 12.527."
         }
       ]
     },
