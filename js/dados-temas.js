@@ -12248,6 +12248,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Compreensão.",
           "como": "Lo implícito."
+        },
+        {
+          "nome": "Ser vs estar",
+          "frequencia": 5,
+          "porque": "Verbos essenciais.",
+          "como": "Identidad vs estado."
+        },
+        {
+          "nome": "Por vs para",
+          "frequencia": 4,
+          "porque": "Preposiciones.",
+          "como": "Causa vs destino."
+        },
+        {
+          "nome": "Tiempo presente",
+          "frequencia": 4,
+          "porque": "Base.",
+          "como": "Conjugación."
+        },
+        {
+          "nome": "Tiempo pasado",
+          "frequencia": 4,
+          "porque": "Pretérito.",
+          "como": "Indefinido e imperfecto."
+        },
+        {
+          "nome": "Futuro",
+          "frequencia": 3,
+          "porque": "Proyección.",
+          "como": "Futuro simple."
+        },
+        {
+          "nome": "Condicional",
+          "frequencia": 3,
+          "porque": "Hipótesis.",
+          "como": "Si condicional."
+        },
+        {
+          "nome": "Subjuntivo",
+          "frequencia": 4,
+          "porque": "Deseo y duda.",
+          "como": "Presente de subjuntivo."
+        },
+        {
+          "nome": "Pronombres personales",
+          "frequencia": 3,
+          "porque": "Sujeto y objeto.",
+          "como": "Me, te, lo."
+        },
+        {
+          "nome": "Géneros y números",
+          "frequencia": 3,
+          "porque": " concordancia.",
+          "como": "Masculino/femenino."
+        },
+        {
+          "nome": "Falsos cognados",
+          "frequencia": 4,
+          "porque": "Confusión.",
+          "como": "Embarazada."
+        },
+        {
+          "nome": "Vocabulario cotidiano",
+          "frequencia": 3,
+          "porque": "Vida diaria.",
+          "como": "Familia y escuela."
+        },
+        {
+          "nome": "Expresiones idiomáticas",
+          "frequencia": 3,
+          "porque": "Coloquial.",
+          "como": "A la orden."
+        },
+        {
+          "nome": "Comprensión auditiva",
+          "frequencia": 3,
+          "porque": "Escuchar.",
+          "como": "Pronunciación."
+        },
+        {
+          "nome": "Redacción breve",
+          "frequencia": 2,
+          "porque": "Escritura.",
+          "como": "Coherencia."
         }
       ]
     },
