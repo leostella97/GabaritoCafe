@@ -185,6 +185,7 @@
         <button class="item-menu" data-tela="pomodoro" type="button" data-i18n="nav_pomodoro">☕ Pomodoro</button>
         <button class="item-menu" data-tela="bancas" type="button" data-i18n="nav_bancas">🕵️ Bancas</button>
         <button class="item-menu" data-tela="temas" type="button" data-i18n="nav_temas">📚 Temas que caem</button>
+        <button class="item-menu" data-tela="mapa-mental" type="button">🧠 Mapa Mental</button>
         <button class="item-menu" data-tela="sala" type="button" data-i18n="nav_sala">🏫 Sala de Aula</button>
         <button class="item-menu" data-tela="dicas" type="button" data-i18n="nav_dicas">💡 Dicas</button>
       </nav>
@@ -289,6 +290,9 @@
       <!-- Tela: Dicas importantes (montada pelo JavaScript) -->
       <section id="tela-dicas" class="tela"></section>
 
+      <!-- Tela: Mapa Mental -->
+      <section id="tela-mapa-mental" class="tela"></section>
+
       <!-- TEAM_002: bloco de anúncio persistente, visível em todas as telas
            internas logo acima do rodapé. Troque data-ad-slot pelo ID real. -->
       <div class="anuncio">
@@ -350,6 +354,7 @@
   <script src="js/vendor/qrcode.min.js"></script>
   <!-- TEAM_007: folha de impressão dos simulados e da revisão (exportar PDF) -->
   <script src="js/impressao.js"></script>
+  <script src="js/mapa-mental.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/app.js"></script>
   <!-- TEAM_002: instalação do PWA — registra o sw.js e liga os botões "Instalar app" -->

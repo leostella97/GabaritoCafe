@@ -40,6 +40,7 @@ const DashboardUI = {
     html += '<button class="dash-atalho" data-ir="simulado"><span class="atalho-icone">📝</span><span class="atalho-titulo">' + T('dash_atalho_sim_t') + '</span><span class="atalho-sub">' + T('dash_atalho_sim_s') + '</span></button>'; // atalho simulado
     html += '<button class="dash-atalho" data-ir="bancas"><span class="atalho-icone">🕵️</span><span class="atalho-titulo">' + T('dash_atalho_bancas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_bancas_s') + '</span></button>'; // atalho bancas
     html += '<button class="dash-atalho" data-ir="temas"><span class="atalho-icone">📚</span><span class="atalho-titulo">' + T('dash_atalho_temas_t') + '</span><span class="atalho-sub">' + T('dash_atalho_temas_s') + '</span></button>'; // atalho temas
+    html += '<button class="dash-atalho" data-ir="mapa-mental"><span class="atalho-icone">🧠</span><span class="atalho-titulo">Mapa Mental</span><span class="atalho-sub">Gere mapas por matéria</span></button>'; // mapa mental
     html += '<button class="dash-atalho" data-ir="pomodoro"><span class="atalho-icone">☕</span><span class="atalho-titulo">' + T('nav_pomodoro') + '</span><span class="atalho-sub">' + T('tela_pomodoro_s') + '</span></button>'; // atalho pomodoro
     html += '<button class="dash-atalho" data-ir="sala"><span class="atalho-icone">🏫</span><span class="atalho-titulo">' + T('nav_sala') + '</span><span class="atalho-sub">' + T('tela_sala_s') + '</span></button>'; // atalho sala de aula
     html += '</div>';                                       // fecha a grade
@@ -83,6 +84,10 @@ const DashboardUI = {
     html += '<div class="estatistica"><div class="valor">' + totalQuestoes + '</div><div class="rotulo">' + T('dash_stat_questoes') + '</div></div>'; // questões respondidas
     html += '<div class="estatistica"><div class="valor">🔥 ' + sequencia + '</div><div class="rotulo">' + T('dash_stat_sequencia') + '</div></div>'; // sequência
     html += '</div>';                                       // fecha a grade
+
+    // ---- Flashcards slider ----
+    html += '<div class="titulo-secao"><h3>Flashcards de revisão</h3></div>';
+    html += '<div class="cartao"><div id="flashcard-slider" class="flashcard-slider"><div class="flashcard-container"><div class="flashcard" id="flashcard"><div class="flashcard-face front">Carregando...</div><div class="flashcard-face back"></div></div></div></div></div>';
 
     // ---- Recomendação inteligente: qual matéria treinar agora ----
     html += '<div class="titulo-secao"><h3>' + T('dash_fraco_t') + '</h3></div>'; // título da seção
@@ -144,6 +149,8 @@ const DashboardUI = {
     this.ligarAtalhos(caixa);                               // liga os botões de atalho
     if (typeof CoffeeWrapUI !== 'undefined') CoffeeWrapUI.ligarEventos();
     if (typeof BackupUI !== 'undefined') BackupUI.ligarEventos();
+    this.initFlashcards(historico);
+    this.renderizarErrosPorTopico(historico);
   },
 
   // Analisa o histórico e recomenda treinar a matéria mais fraca (o "conselho do barista")
@@ -216,4 +223,62 @@ DashboardUI.calcularSequencia = function (historico) {
     cursor.setDate(cursor.getDate() - 1);                   // volta para o dia anterior
   }
   return sequencia;                                         // devolve a sequência
+};
+
+DashboardUI.initFlashcards = function(historico){
+  const card = document.getElementById('flashcard');
+  if(!card) return;
+  // Coleta questões erradas
+  const idsErrados = new Set();
+  historico.forEach(r => (r.erradas||[]).forEach(e=>idsErrados.add(e.id)));
+  const cartas = Array.from(idsErrados).map(id=> BancoQuestoes.find(q=>q.id===id)).filter(Boolean).slice(0,20);
+  if(!cartas.length){ card.querySelector('.front').textContent='Sem erros para revisar'; return;}
+  let idx=0;
+  const front = card.querySelector('.front');
+  const back = card.querySelector('.back');
+  const render = ()=>{
+    const q = cartas[idx];
+    front.textContent = q.tema + ' — ' + q.enunciado.slice(0,140);
+    back.innerHTML = '<strong>Matéria:</strong>'+q.materia+'<br><strong>Explicação:</strong>'+Util.escape(q.explicacao);
+  };
+  render();
+  card.addEventListener('click',()=> card.classList.toggle('virado'));
+  let startX=0;
+  card.addEventListener('touchstart',e=> startX=e.touches[0].clientX);
+  card.addEventListener('touchend',e=>{
+    const dx = e.changedTouches[0].clientX - startX;
+    if(Math.abs(dx)>50){
+      idx = (idx + (dx<0?1:-1) + cartas.length)%cartas.length;
+      card.classList.remove('virado');
+      render();
+    }
+  });
+  card.addEventListener('mousedown',e=>{ startX=e.clientX; });
+  card.addEventListener('mouseup',e=>{
+    const dx = e.clientX - startX;
+    if(Math.abs(dx)>50){
+      idx = (idx + (dx<0?1:-1) + cartas.length)%cartas.length;
+      card.classList.remove('virado');
+      render();
+    }
+  });
+};
+
+DashboardUI.renderizarErrosPorTopico = function(historico){
+  const container = document.getElementById('tela-dashboard');
+  if(!container) return;
+  const mapa = {};
+  historico.forEach(r=>{
+    (r.erradas||[]).forEach(e=>{
+      const q = BancoQuestoes.find(q=>q.id===e.id);
+      if(!q) return;
+      const key = q.materia+' :: '+q.tema;
+      if(!mapa[key]) mapa[key]={materia:q.materia, tema:q.tema, qtd:0};
+      mapa[key].qtd++;
+    });
+  });
+  const itens = Object.values(mapa).sort((a,b)=>b.qtd-a.qtd).slice(0,10);
+  if(!itens.length) return;
+  const html = '<div class="titulo-secao"><h3>Erros por tópico</h3></div><div class="cartao"><div class="erros-topico">'+itens.map(i=>`<div class="linha-materia"><span class="nome">${Util.escape(i.materia)} / ${Util.escape(i.tema)}</span><span class="pct">${i.qtd} erros</span></div>`).join('')+'</div></div>';
+  container.insertAdjacentHTML('beforeend', html);
 };
