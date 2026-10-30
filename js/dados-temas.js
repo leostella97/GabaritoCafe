@@ -15451,6 +15451,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Divisão.",
           "como": "Nordeste x Sudeste."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Protestos.",
+          "como": "Direitos."
+        },
+        {
+          "nome": "Cidadania e participação",
+          "frequencia": 3,
+          "porque": "Democracia.",
+          "como": "Política."
+        },
+        {
+          "nome": "Cultura e identidade",
+          "frequencia": 3,
+          "porque": "Representação.",
+          "como": "Diversidade."
+        },
+        {
+          "nome": "Tecnologia e sociedade",
+          "frequencia": 3,
+          "porque": "Digital.",
+          "como": "Mídias."
+        },
+        {
+          "nome": "Ambiente e sociedade",
+          "frequencia": 3,
+          "porque": "Sustentabilidade.",
+          "como": "Questões."
+        },
+        {
+          "nome": "Gênero e sexualidade",
+          "frequencia": 3,
+          "porque": "Estudos.",
+          "como": "Poder."
+        },
+        {
+          "nome": "Raça e etnia",
+          "frequencia": 3,
+          "porque": "Desigualdade.",
+          "como": "Racismo."
+        },
+        {
+          "nome": "Classe social",
+          "frequencia": 4,
+          "porque": "Estrutura.",
+          "como": "Marx."
+        },
+        {
+          "nome": "Estado e instituições",
+          "frequencia": 3,
+          "porque": "Poder.",
+          "como": "Burocracia."
+        },
+        {
+          "nome": "Desenvolvimento e subdesenvolvimento",
+          "frequencia": 3,
+          "porque": "Economia.",
+          "como": "Dependência."
+        },
+        {
+          "nome": "Urbanização brasileira",
+          "frequencia": 3,
+          "porque": "Cidades.",
+          "como": "Migração."
+        },
+        {
+          "nome": "Trabalho e emprego",
+          "frequencia": 3,
+          "porque": "Mercado.",
+          "como": "Precarização."
+        },
+        {
+          "nome": "Economia política",
+          "frequencia": 2,
+          "porque": "Produção.",
+          "como": "Modos."
+        },
+        {
+          "nome": "Sociologia do cotidiano",
+          "frequencia": 2,
+          "porque": "Vida diária.",
+          "como": "Interações."
         }
       ]
     },
