@@ -14748,6 +14748,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Finitude.",
           "como": "Heidegger."
+        },
+        {
+          "nome": "Filosofia da religião",
+          "frequencia": 2,
+          "porque": "Fé e razão.",
+          "como": "Prova de Deus."
+        },
+        {
+          "nome": "Filosofia da história",
+          "frequencia": 2,
+          "porque": "Temporaliidade.",
+          "como": "Dialética."
+        },
+        {
+          "nome": "Filosofia política",
+          "frequencia": 3,
+          "porque": "Estado e poder.",
+          "como": "Justiça."
+        },
+        {
+          "nome": "Ética aplicada",
+          "frequencia": 3,
+          "porque": "Casos concretos.",
+          "como": "Bioética."
+        },
+        {
+          "nome": "Lógica e argumentação",
+          "frequencia": 2,
+          "porque": "Raciocínio.",
+          "como": "Silogismo."
+        },
+        {
+          "nome": "Epistemologia",
+          "frequencia": 3,
+          "porque": "Conhecimento.",
+          "como": "Ciência."
+        },
+        {
+          "nome": "Ontologia",
+          "frequencia": 2,
+          "porque": "Ser.",
+          "como": "Existência."
+        },
+        {
+          "nome": "Metafísica",
+          "frequencia": 2,
+          "porque": "Realidade.",
+          "como": "Além do físico."
+        },
+        {
+          "nome": "Filosofia da linguagem",
+          "frequencia": 2,
+          "porque": "Significado.",
+          "como": "Austin."
+        },
+        {
+          "nome": "Existencialismo",
+          "frequencia": 2,
+          "porque": "Liberdade.",
+          "como": "Sartre."
+        },
+        {
+          "nome": "Pós-estruturalismo",
+          "frequencia": 2,
+          "porque": "Crítica.",
+          "como": "Derrida."
+        },
+        {
+          "nome": "Filosofia contemporânea",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Bauman."
+        },
+        {
+          "nome": "Filosofia da ciência",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Popper."
+        },
+        {
+          "nome": "Filosofia da mente",
+          "frequencia": 2,
+          "porque": "Consciência.",
+          "como": "Qualias."
         }
       ]
     },
