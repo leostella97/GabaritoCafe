@@ -110,7 +110,10 @@ const MapaMentalUI = {
     const urlYouTube = `https://www.youtube.com/results?search_query=${encodeURIComponent(materia+' '+topico)}`;
     const qrDataUrl = typeof Impressao !== 'undefined' ? Impressao.qrDaUrl(urlYouTube) : '';
     let html = `<div class="cartao" style="padding:1rem">`;
-    html += `<div class="categoria-titulo">${Util.escape(materia)} — ${Util.escape(topico)}</div>`;
+    html += `<div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.5rem">`;
+    html += `<div class="categoria-titulo" style="margin:0">${Util.escape(materia)} — ${Util.escape(topico)}</div>`;
+    html += `<button class="botao botao-fantasma pequeno" id="btn-voltar-topico">← Voltar</button>`;
+    html += `</div>`;
     html += `<p class="texto-suave">Questões relacionadas encontradas: ${exs.length}</p>`;
     if (exs.length) {
       html += '<ul style="padding-left:1.2rem">';
@@ -132,6 +135,10 @@ const MapaMentalUI = {
     html += `</div>`;
     conteudo.innerHTML = html;
     modal.classList.remove('oculto');
+    const btnVoltar = document.getElementById('btn-voltar-topico');
+    if (btnVoltar) {
+      btnVoltar.addEventListener('click', () => this.abrirModalMateria(materia));
+    }
   },
 
   exportarPDFMateria(materia) {
