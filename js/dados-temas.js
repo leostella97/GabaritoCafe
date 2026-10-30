@@ -4887,6 +4887,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Preservação de vestígios.",
           "como": "Perícia criminal."
+        },
+        {
+          "nome": "Profilaxia do crime",
+          "frequencia": 3,
+          "porque": "Prevenção.",
+          "como": "Políticas públicas."
+        },
+        {
+          "nome": "Vitimologia",
+          "frequencia": 2,
+          "porque": "Vítima.",
+          "como": "Papel."
+        },
+        {
+          "nome": "Criminologia clínica",
+          "frequencia": 2,
+          "porque": "Perfil.",
+          "como": "Psicologia."
+        },
+        {
+          "nome": "Criminalidade organizada",
+          "frequencia": 3,
+          "porque": "Grupos.",
+          "como": "Lavagem."
+        },
+        {
+          "nome": "Terrorismo",
+          "frequencia": 2,
+          "porque": "Ameaças.",
+          "como": "Lei 13.260."
+        },
+        {
+          "nome": "Políticas públicas de segurança",
+          "frequencia": 3,
+          "porque": "Prevenção.",
+          "como": "Programas."
+        },
+        {
+          "nome": "Ciência forense",
+          "frequencia": 3,
+          "porque": "Provas.",
+          "como": "Exame."
+        },
+        {
+          "nome": "Criminalística",
+          "frequencia": 3,
+          "porque": "Vestígios.",
+          "como": "Identificação."
+        },
+        {
+          "nome": "Bioética criminal",
+          "frequencia": 1,
+          "porque": "Dilemas.",
+          "como": "Vida."
+        },
+        {
+          "nome": "Teoria do delito",
+          "frequencia": 2,
+          "porque": "Fatores.",
+          "como": "Anomia."
+        },
+        {
+          "nome": "Reincidência",
+          "frequencia": 2,
+          "porque": "Recaída.",
+          "como": "Penas."
+        },
+        {
+          "nome": "Justiça restaurativa",
+          "frequencia": 2,
+          "porque": "Reparação.",
+          "como": "Mediada."
+        },
+        {
+          "nome": "Psicologia criminal",
+          "frequencia": 2,
+          "porque": "Comportamento.",
+          "como": "Perfil."
+        },
+        {
+          "nome": "Sociologia do crime",
+          "frequencia": 2,
+          "porque": "Causas.",
+          "como": "Desvio."
         }
       ]
     },
