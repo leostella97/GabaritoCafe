@@ -14750,6 +14750,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Sinais vitais e interpretação",
+              "explicacao": "Temperatura, pulso, respiração, pressão arterial e dor — valores de referência e alterações clínicas."
+            },
+            {
+              "nome": "Curativos e feridas",
+              "explicacao": "Tipos de curativo, classificação de feridas e a avaliação do processo de cicatrização."
+            },
+            {
+              "nome": "Biossegurança e controle de infecção",
+              "explicacao": "Precauções-padrão, lavagem de mãos, EPIs e o manejo de materiais perfurocortantes."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14772,6 +14820,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14794,6 +14878,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14832,6 +14952,46 @@ const DadosSala = {
             {
               "nome": "Fitoterapia e práticas integrativas",
               "explicacao": "Uso de plantas medicinais no contexto da enfermagem."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14870,6 +15030,46 @@ const DadosSala = {
             {
               "nome": "Transporte intra-hospitalar do paciente crítico",
               "explicacao": "Monitorização e os riscos do transporte."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14908,6 +15108,54 @@ const DadosSala = {
             {
               "nome": "Segurança do paciente",
               "explicacao": "Metas internacionais e as barreiras de segurança assistencial."
+            },
+            {
+              "nome": "Escalas de trabalho e liderança",
+              "explicacao": "Escala mensal, diária, gestão de conflitos e a comunicação assertiva na equipe."
+            },
+            {
+              "nome": "Ética e legislação profissional",
+              "explicacao": "Código de Ética (Resolução COFEN 564/2017), Lei do Exercício Profissional (7.498/86) e o sigilo profissional."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -14940,6 +15188,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14958,6 +15242,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Relação estrutura-atividade (SAR)",
+              "explicacao": "Como pequenas modificações químicas alteram a potência e seletividade de fármacos."
+            },
+            {
+              "nome": "Planejamento de fármacos",
+              "explicacao": "Drug design baseado em ligante e estrutura, triagem virtual e o conceito de fármaco protótipo."
+            },
+            {
+              "nome": "Pró-fármacos e biotransformação",
+              "explicacao": "Ativação metabólica, estratégias de liberação modificada e o aumento de biodisponibilidade."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -14980,6 +15312,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15018,6 +15386,50 @@ const DadosSala = {
             {
               "nome": "Nanotecnologia farmacêutica",
               "explicacao": "Nanopartículas e lipossomas como carreadores de fármacos."
+            },
+            {
+              "nome": "Formas líquidas e semissólidas",
+              "explicacao": "Soluções, suspensões, emulsões, cremes, géis e pomadas — estabilidade e conservação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15056,6 +15468,46 @@ const DadosSala = {
             {
               "nome": "Farmácia baseada em evidências",
               "explicacao": "Interpretação de estudos clínicos e a tomada de decisão terapêutica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15094,6 +15546,58 @@ const DadosSala = {
             {
               "nome": "Indicadores e gestão da assistência farmacêutica",
               "explicacao": "Monitoramento e a avaliação de resultados em saúde."
+            },
+            {
+              "nome": "Ciclo da assistência farmacêutica",
+              "explicacao": "Seleção, programação, aquisição, armazenamento e dispensação de medicamentos no SUS."
+            },
+            {
+              "nome": "RENAME e REMUME",
+              "explicacao": "Relação Nacional e Municipal de Medicamentos e a padronização de terapêuticas."
+            },
+            {
+              "nome": "Farmácia viva e fitoterápicos",
+              "explicacao": "Manipulação de plantas medicinais no SUS e a Política Nacional de Práticas Integrativas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15134,6 +15638,38 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15156,6 +15692,58 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Diagnóstico periodontal",
+              "explicacao": "PSR (Periodontal Screening and Recording), profundidade de sondagem e nível de inserção."
+            },
+            {
+              "nome": "Raspagem e alisamento radicular",
+              "explicacao": "Instrumentos manuais (curetas Gracey) e ultrassônicos — técnica e ergonomia."
+            },
+            {
+              "nome": "Cirurgias periodontais",
+              "explicacao": "Retalho de Widman modificado, enxertos gengivais e a regeneração tecidual guiada (RTG)."
+            },
+            {
+              "nome": "Peri-implantites",
+              "explicacao": "Diagnóstico diferencial, fatores de risco e as abordagens não cirúrgica e cirúrgica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15178,6 +15766,42 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
             }
           ]
         },
@@ -15216,6 +15840,58 @@ const DadosSala = {
             {
               "nome": "Laser em cirurgia oral",
               "explicacao": "Aplicações do laser de baixa e alta potência em tecidos moles e duros."
+            },
+            {
+              "nome": "Exodontia simples e complexa",
+              "explicacao": "Técnica cirúrgica, sindesmotomia, luxação e avulsão — incisões e retalhos."
+            },
+            {
+              "nome": "Dentes inclusos e impactados",
+              "explicacao": "Classificação de Pell & Gregory e Winter, odontossecção e a remoção de terceiros molares."
+            },
+            {
+              "nome": "Traumatismo dentoalveolar",
+              "explicacao": "Fratura coronária e radicular, avulsão e reimplante — contenção e acompanhamento."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15254,6 +15930,46 @@ const DadosSala = {
             {
               "nome": "Contenção pós-tratamento",
               "explicacao": "Tipos de contenção e a estabilidade dos resultados ortodônticos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15292,6 +16008,46 @@ const DadosSala = {
             {
               "nome": "Fluorterapia",
               "explicacao": "Aplicação tópica de flúor e a toxicidade aguda e crônica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15324,6 +16080,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15342,6 +16134,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15360,6 +16188,58 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Manejo integrado de pragas (MIP)",
+              "explicacao": "Nível de dano econômico (NDE), amostragem e o controle biológico com parasitoides e predadores."
+            },
+            {
+              "nome": "Doenças fúngicas de importância",
+              "explicacao": "Ferrugens, manchas foliares, oídios e o uso de triazóis e estrobilurinas no controle químico."
+            },
+            {
+              "nome": "Plantas daninhas e herbicidas",
+              "explicacao": "Classificação (folhas largas x estreitas), mecanismos de ação (ALS, ACCase, EPSPs) e resistência."
+            },
+            {
+              "nome": "Nematoides fitopatogênicos",
+              "explicacao": "Meloidogyne, Pratylenchus e Heterodera — amostragem de solo e manejo integrado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15398,6 +16278,46 @@ const DadosSala = {
             {
               "nome": "Sustentabilidade na agricultura",
               "explicacao": "Agricultura regenerativa e a conservação dos recursos naturais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15426,6 +16346,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15448,6 +16404,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15466,6 +16458,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15504,6 +16532,46 @@ const DadosSala = {
             {
               "nome": "Segurança digital para jornalistas",
               "explicacao": "Criptografia e a proteção de fontes e comunicações."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15536,6 +16604,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15554,6 +16658,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15572,6 +16712,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15610,6 +16786,46 @@ const DadosSala = {
             {
               "nome": "Suplementação na infância",
               "explicacao": "Ferro, vitamina D e as recomendações do Ministério da Saúde."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15642,6 +16858,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15660,6 +16912,58 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Teorias de Piaget",
+              "explicacao": "Estágios sensório-motor, pré-operatório, operatório concreto e formal — a epistemologia genética."
+            },
+            {
+              "nome": "Teoria de Vigotski",
+              "explicacao": "Zona de desenvolvimento proximal (ZDP), mediação e a função da linguagem no aprendizado."
+            },
+            {
+              "nome": "Teoria de Wallon",
+              "explicacao": "Integração afetivo-cognitivo-motora e os estágios de desenvolvimento da pessoa completa."
+            },
+            {
+              "nome": "Inteligências múltiplas (Gardner)",
+              "explicacao": "Linguística, lógico-matemática, espacial, corporal-cinestésica, musical, inter e intrapessoal."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15678,6 +16982,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15716,6 +17056,54 @@ const DadosSala = {
             {
               "nome": "Base Nacional Comum Curricular (BNCC)",
               "explicacao": "Competências de linguagem e as diretrizes para alfabetização."
+            },
+            {
+              "nome": "Psicogênese da língua escrita",
+              "explicacao": "Fases pré-silábica, silábica, silábico-alfabética e alfabética — a evolução da escrita infantil."
+            },
+            {
+              "nome": "Letramento e multiletramentos",
+              "explicacao": "Letramento digital, crítico e as práticas sociais de leitura e escrita no cotidiano."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15744,6 +17132,58 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Renascimento",
+              "explicacao": "Perspectiva linear (Brunelleschi), sfumato (Leonardo), anatomia e o humanismo — ruptura com o teocentrismo medieval."
+            },
+            {
+              "nome": "Impressionismo e pós-impressionismo",
+              "explicacao": "Manet, Monet, Renoir — luz e fugacidade; Cézanne (geometrização) e Van Gogh (cor expressiva)."
+            },
+            {
+              "nome": "Vanguardas europeias (séc. XX)",
+              "explicacao": "Cubismo (Picasso), Futurismo, Dadaísmo, Surrealismo (Dalí) — a desconstrução da representação clássica."
+            },
+            {
+              "nome": "Arte moderna e contemporânea no Brasil",
+              "explicacao": "Semana de 22 (Tarsila do Amaral), neoconcretismo (Lygia Clark) e a arte conceitual."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15762,6 +17202,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15780,6 +17256,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15818,6 +17330,46 @@ const DadosSala = {
             {
               "nome": "Mercado de arte no Brasil",
               "explicacao": "Galerias e feiras de arte e a valorização dos artistas nacionais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15846,6 +17398,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15864,6 +17452,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Resposta imune inata e adaptativa",
+              "explicacao": "Células NK, macrófagos, linfócitos T (CD4/CD8) e B — mecanismos efetores e memória."
+            },
+            {
+              "nome": "Testes sorológicos",
+              "explicacao": "ELISA (direto, indireto, sanduíche), Western blot e as aplicações no diagnóstico de HIV, hepatites."
+            },
+            {
+              "nome": "Autoimunidade",
+              "explicacao": "FAN, anti-DNA, fator reumatoide e os marcadores de doenças autoimunes sistêmicas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15882,6 +17518,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15920,6 +17592,46 @@ const DadosSala = {
             {
               "nome": "Automação em laboratório clínico",
               "explicacao": "Analisadores e a integração de sistemas laboratoriais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -15948,6 +17660,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15966,6 +17714,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -15984,6 +17768,54 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cadeias e teias alimentares",
+              "explicacao": "Níveis tróficos, produtividade primária líquida e a regra dos 10% na transferência de energia."
+            },
+            {
+              "nome": "Ciclos biogeoquímicos",
+              "explicacao": "Carbono (fotossíntese e combustão), nitrogênio (fixação biológica, nitrificação) e água (evapotranspiração)."
+            },
+            {
+              "nome": "Biomas mundiais",
+              "explicacao": "Tundra, taiga, florestas temperadas e tropicais, savanas e desertos — fatores climáticos determinantes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16022,6 +17854,46 @@ const DadosSala = {
             {
               "nome": "CRISPR e edição gênica",
               "explicacao": "Mecanismo e as aplicações éticas da edição de genes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16050,6 +17922,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Incoterms 2020",
+              "explicacao": "EXW, FOB, CIF, DAP e a distribuição de custos e riscos entre exportador e importador."
+            },
+            {
+              "nome": "Classificação fiscal (NCM/SH)",
+              "explicacao": "Sistema Harmonizado, NCM e a TEC (Tarifa Externa Comum do Mercosul)."
+            },
+            {
+              "nome": "Siscomex e RADAR",
+              "explicacao": "Habilitação, licenciamento de importação (LI) e a DUIMP no Portal Único de Comércio Exterior."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16068,6 +17988,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Modais de transporte internacional",
+              "explicacao": "Marítimo (FCL/LCL), aéreo e rodoviário — escolha por custo, prazo e segurança."
+            },
+            {
+              "nome": "Contêineres e unitização",
+              "explicacao": "Tipos (dry, reefer, open top), cubagem e a otimização de cargas."
+            },
+            {
+              "nome": "Agentes de comércio exterior",
+              "explicacao": "Despachante aduaneiro, transitário (freight forwarder), NVOCC e o OEA."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16086,6 +18054,54 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Blocos econômicos e acordos",
+              "explicacao": "Mercosul, União Europeia, USMCA e os acordos de livre comércio (FTA)."
+            },
+            {
+              "nome": "Câmbio e formas de pagamento",
+              "explicacao": "Taxa de câmbio (PTAX), carta de crédito (L/C) e a cobrança documentária no comércio exterior."
+            },
+            {
+              "nome": "Barreiras tarifárias e não tarifárias",
+              "explicacao": "Imposto de importação, antidumping, barreiras técnicas, sanitárias e fitossanitárias."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16124,6 +18140,54 @@ const DadosSala = {
             {
               "nome": "Sustentabilidade na logística global",
               "explicacao": "Redução de emissões e a logística verde no comércio internacional."
+            },
+            {
+              "nome": "Contêineres e unitização",
+              "explicacao": "Tipos (dry, reefer, open top), cubagem e a otimização de cargas."
+            },
+            {
+              "nome": "Agentes de comércio exterior",
+              "explicacao": "Despachante aduaneiro, transitário (freight forwarder), NVOCC e o OEA."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16152,6 +18216,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Fundamentos do balé clássico",
+              "explicacao": "Cinco posições, barra e centro, plié, tendu, arabesque e o vocabulário técnico francês."
+            },
+            {
+              "nome": "Dança moderna e contemporânea",
+              "explicacao": "Isadora Duncan, Martha Graham (contração e release), Cunningham e a desconstrução da forma clássica."
+            },
+            {
+              "nome": "Consciência corporal e somática",
+              "explicacao": "Alexander, Feldenkrais, Laban e a integração corpo-mente no movimento."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16170,6 +18282,50 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dança na Antiguidade e Renascimento",
+              "explicacao": "Danças rituais (Grécia), danças de corte (balé de corte francês) e o surgimento do balé como espetáculo."
+            },
+            {
+              "nome": "Século XX e vanguardas",
+              "explicacao": "Ballets Russes (Diaghilev) e a dança expressionista alemã (Pina Bausch)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16188,6 +18344,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16226,6 +18418,58 @@ const DadosSala = {
             {
               "nome": "Dança e inclusão",
               "explicacao": "Dança para pessoas com deficiência e a acessibilidade nas artes."
+            },
+            {
+              "nome": "Elementos coreográficos",
+              "explicacao": "Espaço (níveis, direções, planos), tempo (andamento e ritmo) e energia (peso, fluxo)."
+            },
+            {
+              "nome": "Improvisação e criação",
+              "explicacao": "Jogos de improviso, composição instantânea e a transição do improviso para a coreografia fixa."
+            },
+            {
+              "nome": "Labanotação e análise de movimento",
+              "explicacao": "Kinetografia Laban — registro gráfico de movimento e os fatores de esforço."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16254,6 +18498,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16272,6 +18552,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16290,6 +18606,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16328,6 +18680,46 @@ const DadosSala = {
             {
               "nome": "Produção gráfica",
               "explicacao": "Pré-impressão e os processos de impressão offset e digital."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16356,6 +18748,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Sistemas energéticos",
+              "explicacao": "ATP-CP (alático), glicolítico lático e oxidativo — predominância por intensidade e duração."
+            },
+            {
+              "nome": "VO2 máximo e limiares",
+              "explicacao": "Consumo máximo de oxigênio, limiares ventilatórios (LV1 e LV2) e a avaliação ergoespirométrica."
+            },
+            {
+              "nome": "Adaptações crônicas ao treino",
+              "explicacao": "Hipertrofia, aumento de capilarização, melhora da eficiência mitocondrial e bradicardia de repouso."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16374,6 +18814,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16392,6 +18868,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16430,6 +18942,46 @@ const DadosSala = {
             {
               "nome": "Tecnologia no treinamento",
               "explicacao": "Wearables e a análise de dados de desempenho."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16458,6 +19010,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16476,6 +19064,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16494,6 +19118,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Recursos minerais e energéticos",
+              "explicacao": "Lavra, impacto da mineração e as energias renováveis (solar, eólica, biomassa)."
+            },
+            {
+              "nome": "Conservação da biodiversidade",
+              "explicacao": "SNUC (Lei 9.985/2000), UC de proteção integral e uso sustentável e os corredores ecológicos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16532,6 +19200,46 @@ const DadosSala = {
             {
               "nome": "Tecnologias sustentáveis de saneamento",
               "explicacao": "Wetlands construídos e os sistemas descentralizados."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16560,6 +19268,50 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Transferência de calor",
+              "explicacao": "Condução (Fourier), convecção (Lei de Resfriamento de Newton) e radiação (Stefan-Boltzmann)."
+            },
+            {
+              "nome": "Transferência de massa",
+              "explicacao": "Leis de Fick, difusão molecular e convectiva e o coeficiente de transferência de massa."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16578,6 +19330,50 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Destilação",
+              "explicacao": "Coluna de pratos, método McCabe-Thiele e as variáveis operacionais (razão de refluxo, eficiência)."
+            },
+            {
+              "nome": "Extração e absorção",
+              "explicacao": "Extração líquido-líquido (solvente), absorção gasosa (torre de recheio) e o equilíbrio entre fases."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16596,6 +19392,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16634,6 +19466,54 @@ const DadosSala = {
             {
               "nome": "Scale-up de reatores",
               "explicacao": "Do laboratório à planta industrial e os critérios de escalonamento."
+            },
+            {
+              "nome": "Reatores ideais",
+              "explicacao": "Batelada, CSTR (contínuo de tanque agitado) e PFR (tubular) — equações de projeto e comparação de desempenho."
+            },
+            {
+              "nome": "Cinética química",
+              "explicacao": "Ordens de reação, constante de Arrhenius e a energia de ativação na taxa de reação."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16662,6 +19542,50 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Ética e biossegurança",
+              "explicacao": "Normas da Anvisa (RDC), uso de EPIs, descarte de perfurocortantes e a conduta profissional em estética."
+            },
+            {
+              "nome": "Estética e saúde integrativa",
+              "explicacao": "Nutrição estética, influência hormonal e tratamentos complementares (aromaterapia, fitoterapia estética)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16680,6 +19604,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Anatomia da pele e anexos",
+              "explicacao": "Epiderme, derme, hipoderme, glândulas sebáceas — fototipos (Fitzpatrick) e envelhecimento cutâneo."
+            },
+            {
+              "nome": "Procedimentos faciais",
+              "explicacao": "Limpeza de pele, peeling químico (AHAs, BHAs), microagulhamento e ativos (ácido hialurônico, retinol)."
+            },
+            {
+              "nome": "Procedimentos corporais",
+              "explicacao": "Drenagem linfática manual, ultrassom cavitacional, radiofrequência e fotodepilação a laser."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16698,6 +19670,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16736,6 +19744,54 @@ const DadosSala = {
             {
               "nome": "Tendências em cosméticos",
               "explicacao": "Clean beauty e os cosméticos veganos e sustentáveis."
+            },
+            {
+              "nome": "Matérias-primas cosméticas",
+              "explicacao": "Tensoativos, emulsionantes, conservantes, umectantes (glicerina) e ativos anti-idade."
+            },
+            {
+              "nome": "Formulações cosméticas básicas",
+              "explicacao": "Creme (O/A e A/O), gel, sérum, loção — estabilidade, viscosidade e testes de controle de qualidade."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16764,6 +19820,58 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Pré-socráticos",
+              "explicacao": "Physis (Tales, Anaximandro), o ser (Parmênides) e o devir (Heráclito) — a origem da filosofia ocidental."
+            },
+            {
+              "nome": "Platão e Aristóteles",
+              "explicacao": "Mundo das ideias, mito da caverna, a metafísica aristotélica (ato e potência) e as causas (formal, material, eficiente, final)."
+            },
+            {
+              "nome": "Filosofia medieval",
+              "explicacao": "Agostinho (fé e razão), Tomás de Aquino (cinco vias) e a escolástica — a conciliação entre teologia e filosofia."
+            },
+            {
+              "nome": "Filosofia moderna — racionalismo e empirismo",
+              "explicacao": "Descartes (cogito e dúvida metódica), Locke (tábula rasa) e Kant (juízos sintéticos a priori)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16782,6 +19890,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16800,6 +19944,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Lógica aristotélica",
+              "explicacao": "Silogismo (premissa maior, menor, conclusão), proposições categóricas e o quadrado das oposições."
+            },
+            {
+              "nome": "Lógica simbólica",
+              "explicacao": "Conectivos (∧, ∨, →, ¬), tabelas-verdade e as regras de inferência (modus ponens, modus tollens)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16838,6 +20026,46 @@ const DadosSala = {
             {
               "nome": "Biopolítica e poder",
               "explicacao": "Michel Foucault e o governo da vida nas sociedades modernas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16866,6 +20094,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16884,6 +20148,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Eletrostática",
+              "explicacao": "Lei de Coulomb, campo elétrico, potencial elétrico e os capacitores de placas paralelas."
+            },
+            {
+              "nome": "Eletrodinâmica",
+              "explicacao": "Leis de Ohm, associação de resistores, potência elétrica e as Leis de Kirchhoff em circuitos CC."
+            },
+            {
+              "nome": "Magnetismo e indução",
+              "explicacao": "Força de Lorentz, Lei de Faraday-Lenz e as aplicações em geradores e transformadores."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16902,6 +20214,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16940,6 +20288,50 @@ const DadosSala = {
             {
               "nome": "Cosmologia e astrofísica",
               "explicacao": "Big Bang e a expansão acelerada do universo."
+            },
+            {
+              "nome": "Física quântica",
+              "explicacao": "Efeito fotoelétrico (Einstein), dualidade onda-partícula (De Broglie) e o princípio da incerteza (Heisenberg)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -16968,6 +20360,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Planos e eixos de movimento",
+              "explicacao": "Sagital, frontal, transversal — os eixos e os movimentos articulares (flexão, abdução, rotação)."
+            },
+            {
+              "nome": "Cadeias cinéticas",
+              "explicacao": "Aberta e fechada — implicações biomecânicas na reabilitação de MMII e MMSS."
+            },
+            {
+              "nome": "Marcha humana",
+              "explicacao": "Fases de apoio e balanço, ciclo da marcha e as principais alterações (Trendelenburg, escarvante, ceifante)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -16986,6 +20426,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17004,6 +20480,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17042,6 +20554,46 @@ const DadosSala = {
             {
               "nome": "Prevenção de lesões esportivas",
               "explicacao": "Programas de prevenção e o retorno seguro ao esporte."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17070,6 +20622,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Anatomofisiologia da comunicação",
+              "explicacao": "Laringe (pregas vocais), sistema auditivo, cavidade oral e o controle neuromotor da fala."
+            },
+            {
+              "nome": "Desenvolvimento de linguagem",
+              "explicacao": "Marcos de desenvolvimento (balbucio, primeiras palavras, frases), aquisição fonológica e os distúrbios de linguagem."
+            },
+            {
+              "nome": "Voz e disfonia",
+              "explicacao": "Qualidade vocal, abuso e mau uso vocal, disfonia funcional x orgânica e a reabilitação vocal."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17088,6 +20688,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Audiometria tonal e vocal",
+              "explicacao": "Via aérea e óssea, limiares, LRF e IRF — o laudo audiológico padrão."
+            },
+            {
+              "nome": "Triagem auditiva neonatal",
+              "explicacao": "EOA (Emissões Otoacústicas) e PEATE (Potencial Evocado Auditivo de Tronco Encefálico) no teste da orelhinha."
+            },
+            {
+              "nome": "Próteses auditivas e implante coclear",
+              "explicacao": "Seleção e adaptação de AASI e os critérios para implante coclear."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17106,6 +20754,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17144,6 +20828,54 @@ const DadosSala = {
             {
               "nome": "Inclusão escolar e fonoaudiologia",
               "explicacao": "Atuação colaborativa com a equipe pedagógica."
+            },
+            {
+              "nome": "Consciência fonológica na alfabetização",
+              "explicacao": "Rimas, aliteração, segmentação — o fonoaudiólogo como parceiro do professor alfabetizador."
+            },
+            {
+              "nome": "Transtornos de aprendizagem",
+              "explicacao": "Dislexia, TDAH e o processamento auditivo central — avaliação e intervenção fonoaudiológica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17172,6 +20904,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Caldos e fundos (fonds)",
+              "explicacao": "Fundo claro, escuro, fumet de peixe e o glace — a base de toda cozinha clássica francesa."
+            },
+            {
+              "nome": "Molhos-mãe franceses",
+              "explicacao": "Béchamel, velouté, espanhol, tomate e holandês — as 5 bases e suas derivações (suprême, allemande)."
+            },
+            {
+              "nome": "Carnes — dos cortes à cocção",
+              "explicacao": "Maillard (selagem), sous-vide, braseado e o descanso da carne para redistribuição dos sucos."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17190,6 +20970,50 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Análise de perigos (APPCC)",
+              "explicacao": "Pontos críticos de controle (PCC), limites críticos e as ações corretivas na cozinha profissional."
+            },
+            {
+              "nome": "Doenças transmitidas por alimentos (DTA)",
+              "explicacao": "Salmonella, Staphylococcus aureus, Clostridium — prevenção e os 5 Cs da higiene."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17208,6 +21032,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Ficha técnica e precificação",
+              "explicacao": "Custo da receita, fator de correção, rendimento e a formação do preço de venda com markup."
+            },
+            {
+              "nome": "Tipos de serviço",
+              "explicacao": "À la carte, menu degustação, buffet e o serviço à francesa, inglesa e à brasileira."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17246,6 +21114,54 @@ const DadosSala = {
             {
               "nome": "Fermentação natural (levain)",
               "explicacao": "Cultivo e a produção de pães de longa fermentação."
+            },
+            {
+              "nome": "Glúten e fermentação",
+              "explicacao": "Gliadina + glutenina, ação da levedura (Saccharomyces) e a janela de glúten na sova."
+            },
+            {
+              "nome": "Massas básicas",
+              "explicacao": "Pâte brisée, sablée e folhada — a técnica de laminação da massa folhada (tourage)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17274,6 +21190,58 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Relevo brasileiro",
+              "explicacao": "Classificação de Jurandyr Ross, planaltos, planícies e depressões — agentes endógenos e exógenos."
+            },
+            {
+              "nome": "Climas do Brasil",
+              "explicacao": "Equatorial, tropical (típico, semiárido, de altitude), subtropical — massas de ar e a dinâmica atmosférica."
+            },
+            {
+              "nome": "Biomas brasileiros",
+              "explicacao": "Amazônia, Cerrado, Caatinga, Mata Atlântica, Pampa e Pantanal — características e ameaças."
+            },
+            {
+              "nome": "Hidrografia e bacias",
+              "explicacao": "Bacia Amazônica, do Paraná (Itaipu), do São Francisco (transposição) e aquífero Guarani."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17292,6 +21260,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Urbanização brasileira",
+              "explicacao": "Êxodo rural, metropolização, conurbação e as regiões metropolitanas (IBGE)."
+            },
+            {
+              "nome": "Migrações e demografia",
+              "explicacao": "Transição demográfica, migrações internas (Nordeste→Sudeste) e os fluxos internacionais recentes."
+            },
+            {
+              "nome": "Estrutura fundiária",
+              "explicacao": "Concentração de terras, latifúndio, agricultura familiar e os movimentos sociais no campo (MST)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17310,6 +21326,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17348,6 +21400,46 @@ const DadosSala = {
             {
               "nome": "América Latina na geopolítica",
               "explicacao": "Integração regional e as disputas por influência externa."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17376,6 +21468,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17394,6 +21522,62 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Brasil Colônia — economia açucareira",
+              "explicacao": "Capitanias, plantation e o pacto colonial no Nordeste (séculos XVI-XVII)."
+            },
+            {
+              "nome": "Império — Segundo Reinado",
+              "explicacao": "Parlamentarismo às avessas, Tarifa Alves Branco, Lei de Terras (1850) e a economia cafeeira."
+            },
+            {
+              "nome": "Primeira República (República Velha)",
+              "explicacao": "Política dos governadores, coronelismo, café com leite e as revoltas (Canudos, Contestado, Revolta da Vacina)."
+            },
+            {
+              "nome": "Era Vargas (1930-1945)",
+              "explicacao": "Revolução de 30, Estado Novo, CLT e a política trabalhista e industrializante de Vargas."
+            },
+            {
+              "nome": "Ditadura militar (1964-1985)",
+              "explicacao": "AI-5, milagre econômico, abertura lenta e gradual e a Lei de Anistia (1979)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17412,6 +21596,62 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Revolução Francesa (1789)",
+              "explicacao": "Estados Gerais, Assembleia Nacional, fase do Terror e o Diretório — o fim do Antigo Regime."
+            },
+            {
+              "nome": "Revolução Industrial",
+              "explicacao": "1ª (vapor e têxtil), 2ª (aço, eletricidade e petróleo), 3ª (informática) e 4ª (IA e IoT)."
+            },
+            {
+              "nome": "Primeira Guerra Mundial (1914-1918)",
+              "explicacao": "Causas (alianças, imperialismo, nacionalismo), guerra de trincheiras e o Tratado de Versalhes."
+            },
+            {
+              "nome": "Segunda Guerra Mundial (1939-1945)",
+              "explicacao": "Eixo x Aliados, Holocausto, Dia D (Normandia) e as bombas atômicas de Hiroshima e Nagasaki."
+            },
+            {
+              "nome": "Guerra Fria (1947-1991)",
+              "explicacao": "Bipolaridade, OTAN e Pacto de Varsóvia, Corrida Espacial e a queda do Muro de Berlim (1989)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17450,6 +21690,46 @@ const DadosSala = {
             {
               "nome": "Ascensão da China",
               "explicacao": "Reformas de Deng Xiaoping e a China como potência global."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17478,6 +21758,58 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Morfologia",
+              "explicacao": "Morfemas (lexical e gramatical), classes de palavras e os processos de formação (derivação e composição)."
+            },
+            {
+              "nome": "Sintaxe — Gramática Gerativa",
+              "explicacao": "Estrutura profunda e superficial, constituintes, árvore sintática e as noções de regência e ligação."
+            },
+            {
+              "nome": "Semântica e pragmática",
+              "explicacao": "Sentido literal x contextual, atos de fala (Austin e Searle) e as máximas conversacionais de Grice."
+            },
+            {
+              "nome": "Sociolinguística e variação linguística",
+              "explicacao": "Variação diatópica, diastrática, diafásica e o preconceito linguístico — ensino e norma padrão."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17496,6 +21828,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17514,6 +21882,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17552,6 +21956,62 @@ const DadosSala = {
             {
               "nome": "Literatura marginal e periférica",
               "explicacao": "Carolina Maria de Jesus e a literatura das quebradas."
+            },
+            {
+              "nome": "Quinhentismo e Barroco",
+              "explicacao": "Literatura de informação (Caminha), Anchieta e a poesia sacra e satírica de Gregório de Matos."
+            },
+            {
+              "nome": "Arcadismo e Romantismo",
+              "explicacao": "Inconfidência Mineira, geração indianista (José de Alencar), ultrarromântica e condoreira."
+            },
+            {
+              "nome": "Realismo e Naturalismo",
+              "explicacao": "Machado de Assis (Memórias Póstumas), Aluísio Azevedo (O Cortiço) e o determinismo do meio e raça."
+            },
+            {
+              "nome": "Modernismo — 1ª e 2ª geração",
+              "explicacao": "Semana de 22, Mário e Oswald de Andrade, Bandeira, Drummond e a geração de 30 (Rachel de Queiroz, Graciliano Ramos)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17580,6 +22040,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "SCM (Supply Chain Management)",
+              "explicacao": "Integração fornecedor → fabricante → distribuidor → varejo — o fluxo de materiais e informações."
+            },
+            {
+              "nome": "Gestão de estoques",
+              "explicacao": "Ponto de pedido, estoque de segurança, lote econômico (EOQ) e a classificação ABC (curva de Pareto)."
+            },
+            {
+              "nome": "Previsão de demanda",
+              "explicacao": "Métodos qualitativos (Delphi, opinião de especialistas) e quantitativos (médias móveis, suavização exponencial)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17598,6 +22106,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Modais de transporte",
+              "explicacao": "Rodoviário, ferroviário, aquaviário, aéreo e dutoviário — matriz brasileira de transporte."
+            },
+            {
+              "nome": "Roteirização",
+              "explicacao": "Problema do caixeiro viajante, métodos de Clarke & Wright e a otimização de rotas de entrega."
+            },
+            {
+              "nome": "Cross-docking e milk run",
+              "explicacao": "Consolidação de cargas, redução de estoque em trânsito e a logística Just in Time."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17616,6 +22172,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17654,6 +22246,46 @@ const DadosSala = {
             {
               "nome": "Sustentabilidade e logística verde",
               "explicacao": "Redução de emissões e a economia circular."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17682,6 +22314,50 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Mix de marketing (4Ps)",
+              "explicacao": "Produto, preço, praça e promoção — como cada P se articula na estratégia integrada."
+            },
+            {
+              "nome": "Segmentação e posicionamento",
+              "explicacao": "Critérios demográficos, psicográficos, comportamentais e o mapa perceptual da marca."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17700,6 +22376,58 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "SEO e marketing de conteúdo",
+              "explicacao": "Palavras-chave, link building, blog e a autoridade de domínio no ranqueamento orgânico."
+            },
+            {
+              "nome": "Mídia paga (SEM)",
+              "explicacao": "Google Ads, Meta Ads, remarketing e as métricas de CPC, CPM, CPA e ROAS."
+            },
+            {
+              "nome": "Social media",
+              "explicacao": "Calendário editorial, engajamento, influenciadores e o tom de voz da marca em cada rede."
+            },
+            {
+              "nome": "E-mail marketing e automação",
+              "explicacao": "Fluxos de nutrição (lead → MQL → SQL), copywriting persuasivo e as ferramentas de CRM."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17718,6 +22446,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17756,6 +22520,46 @@ const DadosSala = {
             {
               "nome": "Dashboard e relatórios de marketing",
               "explicacao": "Visualização de dados para tomada de decisão."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17784,6 +22588,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Notação e leitura",
+              "explicacao": "Claves (sol, fá, dó), compassos (simples e compostos), figuras rítmicas e as armaduras de clave (ciclo de quintas)."
+            },
+            {
+              "nome": "Harmonia funcional",
+              "explicacao": "Tônica, subdominante, dominante, campo harmônico maior e menor e as cadências."
+            },
+            {
+              "nome": "Intervalos e escalas",
+              "explicacao": "Maior, menor e os modos gregos (jônio, dórico, frígio, lídio, mixolídio, eólio, lócrio)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17802,6 +22654,50 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Barroco e Classicismo",
+              "explicacao": "Bach (contraponto e fuga), Händel, Haydn (sinfonia e quarteto) e Mozart (ópera italiana)."
+            },
+            {
+              "nome": "Romantismo musical",
+              "explicacao": "Beethoven (transição), Chopin, Liszt, Wagner (drama musical e leitmotiv) e a orquestra expandida."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17820,6 +22716,42 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17858,6 +22790,54 @@ const DadosSala = {
             {
               "nome": "Indústria musical e direitos autorais",
               "explicacao": "Streaming e a remuneração dos artistas."
+            },
+            {
+              "nome": "Estrutura e forma",
+              "explicacao": "Forma sonata (exposição, desenvolvimento, reexposição), rondó e a estrutura AABA de canções populares."
+            },
+            {
+              "nome": "Contraponto e vozes",
+              "explicacao": "Contraponto de espécies (Fux), cânone e fuga (Bach) — a arte de combinar melodias independentes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17886,6 +22866,42 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17904,6 +22920,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Cinética química",
+              "explicacao": "Velocidade de reação, ordem, molecularidade e o efeito da temperatura (Arrhenius) e catalisadores."
+            },
+            {
+              "nome": "Equilíbrio químico",
+              "explicacao": "Constante de equilíbrio (Kc e Kp), princípio de Le Chatelier e os fatores que deslocam o equilíbrio."
+            },
+            {
+              "nome": "Termoquímica",
+              "explicacao": "Entalpia (ΔH), Lei de Hess, energia de ligação e as reações exotérmicas e endotérmicas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17922,6 +22986,54 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cadeias carbônicas",
+              "explicacao": "Classificação (aberta/fechada, saturada/insaturada, homogênea/heterogênea) e a hibridização do carbono."
+            },
+            {
+              "nome": "Funções orgânicas",
+              "explicacao": "Hidrocarbonetos, álcoois, fenol, éter, aldeído, cetona, ácido carboxílico, éster, amina e amida."
+            },
+            {
+              "nome": "Reações orgânicas",
+              "explicacao": "Substituição (halogenação), adição (em alcenos), eliminação, oxidação de álcoois e a esterificação de Fischer."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -17960,6 +23072,54 @@ const DadosSala = {
             {
               "nome": "Validação de métodos analíticos",
               "explicacao": "Precisão e a garantia da qualidade em laboratório."
+            },
+            {
+              "nome": "Estequiometria",
+              "explicacao": "Balanceamento, reagente limitante, rendimento e os cálculos de pureza e excesso."
+            },
+            {
+              "nome": "Soluções",
+              "explicacao": "Concentração (g/L, mol/L, ppm), diluição e a titulação ácido-base (ponto de equivalência e viragem)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -17988,6 +23148,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            },
+            {
+              "nome": "Produção de raios X",
+              "explicacao": "Ampola de Coolidge (catodo e anodo), espectro de raios X e os fatores de exposição (kVp, mAs)."
+            },
+            {
+              "nome": "Radioproteção",
+              "explicacao": "Princípios (justificação, otimização, limitação), tempo, distância, blindagem e a Portaria SVS/MS 453/98."
+            },
+            {
+              "nome": "Formação da imagem radiográfica",
+              "explicacao": "Atenuação (efeito fotoelétrico e Compton) e as densidades radiográficas básicas."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18006,6 +23214,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18024,6 +23268,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Anatomia do tórax",
+              "explicacao": "Campos pulmonares, hilos, mediastino e a silhueta cardíaca — avaliação sistemática da radiografia de tórax."
+            },
+            {
+              "nome": "Anatomia do esqueleto",
+              "explicacao": "Crânio, coluna, membros superiores e inferiores — análise radiológica por segmento."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18062,6 +23350,54 @@ const DadosSala = {
             {
               "nome": "Pós-processamento e reconstruções",
               "explicacao": "MPR e as reconstruções 3D e volumétricas."
+            },
+            {
+              "nome": "Princípios da TC",
+              "explicacao": "Escala Hounsfield, matriz, janelamento (WW e WL) e as gerações de tomógrafos."
+            },
+            {
+              "nome": "Meios de contraste",
+              "explicacao": "Iodados (iônicos e não iônicos), reações adversas e as contraindicações (insuficiência renal)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18090,6 +23426,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Realismo",
+              "explicacao": "Estados como atores unitários, anarquia internacional, equilíbrio de poder e o dilema de segurança."
+            },
+            {
+              "nome": "Liberalismo e interdependência",
+              "explicacao": "Cooperação, instituições, paz democrática (Kant) e a interdependência complexa (Keohane e Nye)."
+            },
+            {
+              "nome": "Construtivismo",
+              "explicacao": "Identidades, normas e a \"anarquia é o que os Estados fazem dela\" (Wendt)."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18108,6 +23492,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "ONU — estrutura e órgãos",
+              "explicacao": "Assembleia Geral, Conselho de Segurança (P5 e veto), ECOSOC e a Corte Internacional de Justiça."
+            },
+            {
+              "nome": "Segurança coletiva e peacekeeping",
+              "explicacao": "Capítulos VI e VII da Carta da ONU, operações de paz e o R2P (Responsabilidade de Proteger)."
+            },
+            {
+              "nome": "Direitos Humanos internacionais",
+              "explicacao": "Declaração Universal (1948), TPI (Estatuto de Roma) e o Sistema Interamericano (CIDH)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18126,6 +23558,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Paradigmas da PEB",
+              "explicacao": "Americanismo (Rio Branco), globalismo (Política Externa Independente) e o universalismo da Constituição de 1988."
+            },
+            {
+              "nome": "Integração regional",
+              "explicacao": "Mercosul (Tratado de Assunção), UNASUL e a CELAC — avanços e crises da integração sul-americana."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18164,6 +23640,58 @@ const DadosSala = {
             {
               "nome": "Sanções econômicas e coerção",
               "explicacao": "Embargos e o uso da economia como instrumento político."
+            },
+            {
+              "nome": "Bretton Woods e pós-guerra",
+              "explicacao": "FMI, Banco Mundial, GATT → OMC e o padrão dólar-ouro (1944-1971)."
+            },
+            {
+              "nome": "Globalização financeira",
+              "explicacao": "Fluxos de capital, crises financeiras e a regulação financeira internacional."
+            },
+            {
+              "nome": "BRICS e nova ordem econômica",
+              "explicacao": "Novo Banco de Desenvolvimento (NDB) e o desafio à hegemonia do dólar no sistema internacional."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18192,6 +23720,50 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos."
+            },
+            {
+              "nome": "Modelos de RP (Grunig e Hunt)",
+              "explicacao": "Agência de imprensa, informação pública e os modelos simétrico e assimétrico bidirecionais."
+            },
+            {
+              "nome": "Comunicação organizacional integrada",
+              "explicacao": "Institucional, mercadológica, administrativa e interna — a voz única da marca."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18210,6 +23782,42 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18228,6 +23836,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Tipologia de eventos",
+              "explicacao": "Congressos, feiras, lançamentos e os eventos híbridos — presencial + digital."
+            },
+            {
+              "nome": "Cerimonial público",
+              "explicacao": "Lei de precedência (Decreto 70.274/72), símbolos nacionais e o protocolo de eventos oficiais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18266,6 +23918,54 @@ const DadosSala = {
             {
               "nome": "Transformação digital em RP",
               "explicacao": "Ferramentas digitais e as novas formas de relacionamento."
+            },
+            {
+              "nome": "Endomarketing e clima organizacional",
+              "explicacao": "Comunicação interna, pesquisas de clima e o engajamento de colaboradores."
+            },
+            {
+              "nome": "Gestão de crises",
+              "explicacao": "Matriz de risco, plano de contingência, porta-voz único e as fases do gerenciamento de crise."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18294,6 +23994,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Origens e institucionalização",
+              "explicacao": "Da caridade religiosa à profissionalização (1930-40) — as protoformas do Serviço Social no Brasil."
+            },
+            {
+              "nome": "Movimento de Reconceituação",
+              "explicacao": "Ruptura com o conservadorismo, Congresso da Virada (1979) e o Código de Ética de 1993."
+            },
+            {
+              "nome": "Dimensões da prática profissional",
+              "explicacao": "Teórico-metodológica, técnico-operativa e ético-política — a tríade do assistente social."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18312,6 +24060,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Previdência Social (RGPS)",
+              "explicacao": "Benefícios (aposentadoria, auxílio-doença, pensão) e a reforma da Previdência (EC 103/2019)."
+            },
+            {
+              "nome": "Assistência Social (SUAS)",
+              "explicacao": "LOAS (Lei 8.742/93), CRAS, CREAS e o território como unidade de intervenção."
+            },
+            {
+              "nome": "Política de saúde — SUS e Serviço Social",
+              "explicacao": "NASF, humanização e o papel do assistente social na equipe multidisciplinar de saúde."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18330,6 +24126,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Instrumentos técnico-operativos",
+              "explicacao": "Entrevista, visita domiciliar, relatório social, parecer e o estudo socioeconômico."
+            },
+            {
+              "nome": "Trabalho com famílias",
+              "explicacao": "Genograma, ecomapa e a abordagem sistêmica da família no território."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18368,6 +24208,58 @@ const DadosSala = {
             {
               "nome": "Criança e adolescente",
               "explicacao": "ECA e o sistema de garantia de direitos."
+            },
+            {
+              "nome": "Questão social",
+              "explicacao": "Expressão da contradição capital-trabalho — Iamamoto e a compreensão crítica da questão social brasileira."
+            },
+            {
+              "nome": "Pobreza e desigualdade no Brasil",
+              "explicacao": "Índice de Gini, linha da pobreza e os determinantes estruturais da desigualdade."
+            },
+            {
+              "nome": "Direitos humanos e cidadania",
+              "explicacao": "Marshall (civil, política, social), cidadania invertida e a luta por direitos no Brasil contemporâneo."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18396,6 +24288,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Tipologia do turismo",
+              "explicacao": "Lazer, negócios, eventos, ecoturismo, cultural e religioso — motivações e perfis de demanda."
+            },
+            {
+              "nome": "História do turismo",
+              "explicacao": "Do Grand Tour europeu (séc. XVIII) ao turismo de massa (pós-Segunda Guerra) e o overtourism atual."
+            },
+            {
+              "nome": "Sistema turístico (SISTUR)",
+              "explicacao": "Oferta (atrativos, serviços, infraestrutura), demanda e os agentes do trade turístico."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18414,6 +24354,50 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Agências e operadoras",
+              "explicacao": "Emissivas, receptivas, operadoras e o papel das OTAs (Booking, Expedia) na distribuição."
+            },
+            {
+              "nome": "Hotelaria e hospitalidade",
+              "explicacao": "Classificação hoteleira (SBClass), revenue management e a qualidade em serviços turísticos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18432,6 +24416,50 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Tipologia de eventos",
+              "explicacao": "Congressos, feiras, festivais, megaeventos (Olimpíadas, Copa) e os impactos no destino-sede."
+            },
+            {
+              "nome": "Lazer e recreação",
+              "explicacao": "Classificação de Dumazedier (físico, artístico, manual, intelectual e social) e a animação turística."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18470,6 +24498,46 @@ const DadosSala = {
             {
               "nome": "Políticas públicas de turismo",
               "explicacao": "Ministério do Turismo e o plano nacional."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18498,6 +24566,54 @@ const DadosSala = {
             {
               "nome": "Mapa mental da matéria",
               "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Bromatologia",
+              "explicacao": "Análise proximal (MS, PB, EE, FB, MM, ENN), método de Weende e os sistemas de energia (NDT, ED, EM)."
+            },
+            {
+              "nome": "Formulação de rações",
+              "explicacao": "Quadrado de Pearson, exigências (NRC, Rostagno) e a formulação de mínimo custo (programação linear)."
+            },
+            {
+              "nome": "Aditivos zootécnicos",
+              "explicacao": "Probióticos, prebióticos, enzimas exógenas (fitase) e os promotores de crescimento."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18516,6 +24632,54 @@ const DadosSala = {
             {
               "nome": "Simulados focados",
               "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Seleção e ganho genético",
+              "explicacao": "Diferencial de seleção, intervalo de gerações e a equação do ganho genético (ΔG = r × i × σ / L)."
+            },
+            {
+              "nome": "Herança quantitativa",
+              "explicacao": "Heritabilidade (h²), repetibilidade e as DEPs (Diferença Esperada na Progênie) no melhoramento animal."
+            },
+            {
+              "nome": "Biotecnologia",
+              "explicacao": "Inseminação artificial (IA), transferência de embriões (TE), FIV e a edição gênica (CRISPR)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18534,6 +24698,54 @@ const DadosSala = {
             {
               "nome": "Gabaritos comentados",
               "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Bovinocultura de corte",
+              "explicacao": "Sistemas (extensivo, semi-confinamento, confinamento) e o ciclo pecuário brasileiro."
+            },
+            {
+              "nome": "Bovinocultura de leite",
+              "explicacao": "Raças (Holandês, Gir, Girolando), curva de lactação e o manejo de ordenha e qualidade do leite."
+            },
+            {
+              "nome": "Suinocultura e avicultura",
+              "explicacao": "Sistemas de criação (ciclo completo, UPL, UPD), conversão alimentar e o bem-estar na produção intensiva."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18572,6 +24784,50 @@ const DadosSala = {
             {
               "nome": "Irrigação de pastagens",
               "explicacao": "Sistemas e a viabilidade econômica."
+            },
+            {
+              "nome": "Forrageiras tropicais",
+              "explicacao": "Brachiaria, Panicum, Cynodon — características, adaptação e a escolha da forrageira por região."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -18620,6 +24876,42 @@ const DadosSala = {
             {
               "nome": "Revisão final em véspera",
               "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
+            },
+            {
+              "nome": "Arquitetura clássica (Grécia e Roma)",
+              "explicacao": "Ordens (dórica, jônica, coríntia), arcos e abóbadas — a linguagem que ecoa até o neoclássico."
+            },
+            {
+              "nome": "Modernismo e Bauhaus",
+              "explicacao": "Gropius, Mies van der Rohe, Le Corbusier (5 pontos) e a máxima \"a forma segue a função\"."
+            },
+            {
+              "nome": "Arquitetura moderna brasileira",
+              "explicacao": "Oscar Niemeyer, Lúcio Costa (Plano Piloto) e o paisagismo de Burle Marx."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
             }
           ]
         },
@@ -18650,6 +24942,50 @@ const DadosSala = {
             {
               "nome": "Flashcards ativos",
               "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Plantas, cortes e elevações",
+              "explicacao": "Escalas, cotas, níveis e a representação gráfica conforme a NBR 6492."
+            },
+            {
+              "nome": "Desenho assistido por computador (CAD)",
+              "explicacao": "AutoCAD e Revit — layers, blocos, famílias e a modelagem BIM para documentação técnica."
+            },
+            {
+              "nome": "Detalhamento construtivo",
+              "explicacao": "Esquadrias, escadas, rampas e os detalhes executivos de alvenaria e concreto."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18676,6 +25012,50 @@ const DadosSala = {
             {
               "nome": "Questões comentadas por nível",
               "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Zoneamento e uso do solo",
+              "explicacao": "Coeficiente de aproveitamento, taxa de ocupação, gabarito e os parâmetros do Plano Diretor municipal."
+            },
+            {
+              "nome": "Espaços públicos e vitalidade urbana",
+              "explicacao": "Jane Jacobs, praças, parklets e o conceito de \"cidade para pessoas\" (Gehl)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18714,6 +25094,46 @@ const DadosSala = {
             {
               "nome": "Simulação computacional de desempenho",
               "explicacao": "EnergyPlus e a análise de desempenho termoenergético."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -18752,6 +25172,58 @@ const DadosSala = {
             {
               "nome": "Patrimônio urbano e preservação",
               "explicacao": "Tombamento e a conservação de centros históricos."
+            },
+            {
+              "nome": "Parcelamento do solo",
+              "explicacao": "Lei 6.766/79, loteamento, desmembramento e a infraestrutura mínima exigida."
+            },
+            {
+              "nome": "Regularização fundiária",
+              "explicacao": "Lei 13.465/2017 (REURB-S e REURB-E) e a função social da propriedade."
+            },
+            {
+              "nome": "Sustentabilidade urbana",
+              "explicacao": "Telhados verdes, jardins de chuva, Drenagem Sustentável (SUDS) e o Estatuto da Cidade (Lei 10.257/01)."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
@@ -19568,6 +26040,46 @@ const DadosSala = {
             {
               "nome": "Teorema de Fubini para integrais múltiplas",
               "explicacao": "Troca da ordem de integração e as condições de aplicabilidade do teorema."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19622,6 +26134,46 @@ const DadosSala = {
             {
               "nome": "Método dos gradientes conjugados",
               "explicacao": "Algoritmo iterativo para sistemas lineares simétricos positivos definidos de grande porte."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19676,6 +26228,46 @@ const DadosSala = {
             {
               "nome": "Curvatura seccional e teorema de comparação de Rauch",
               "explicacao": "Relação entre curvatura e o comportamento de geodésicas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19730,6 +26322,46 @@ const DadosSala = {
             {
               "nome": "Pavimentações e grupos cristalográficos",
               "explicacao": "Classificação das pavimentações do plano por polígonos regulares."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19784,6 +26416,46 @@ const DadosSala = {
             {
               "nome": "Partições e o teorema de Hardy-Ramanujan",
               "explicacao": "Fórmula assintótica para o número de partições de um inteiro."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19838,6 +26510,46 @@ const DadosSala = {
             {
               "nome": "Teoria de representações de grupos finitos",
               "explicacao": "Caracteres e a decomposição de representações em irredutíveis."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19892,6 +26604,46 @@ const DadosSala = {
             {
               "nome": "Método bootstrap",
               "explicacao": "Reamostragem e a estimativa de intervalo de confiança sem suposições paramétricas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -19946,6 +26698,46 @@ const DadosSala = {
             {
               "nome": "Espaços de Baire e o teorema da categoria",
               "explicacao": "Aplicações em análise funcional e a demonstração do princípio da limitação uniforme."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20000,6 +26792,46 @@ const DadosSala = {
             {
               "nome": "Teoremas de ponto fixo em lógica",
               "explicacao": "Auto-referência e a construção de sentenças indecidíveis."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20054,6 +26886,46 @@ const DadosSala = {
             {
               "nome": "Teoria da dualidade em otimização",
               "explicacao": "Dual de Lagrange e as condições de ponto de sela."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20108,6 +26980,46 @@ const DadosSala = {
             {
               "nome": "Continuação analítica e superfícies de Riemann",
               "explicacao": "Extensão de funções além do domínio original via superfícies de Riemann."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20162,6 +27074,46 @@ const DadosSala = {
             {
               "nome": "Hipergrafos e teoria de Ramsey",
               "explicacao": "Generalização de grafos e os teoremas de existência de subestruturas."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20216,6 +27168,46 @@ const DadosSala = {
             {
               "nome": "Métodos espectrais para EDPs",
               "explicacao": "Colocação e os métodos de Fourier e Chebyshev para equações diferenciais parciais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20270,6 +27262,46 @@ const DadosSala = {
             {
               "nome": "Métodos variacionais para EDPs",
               "explicacao": "Formulação fraca e o princípio de Dirichlet para problemas elípticos."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20324,6 +27356,46 @@ const DadosSala = {
             {
               "nome": "Derivada covariante e conexão de Levi-Civita",
               "explicacao": "Transporte paralelo e a unicidade da conexão métrica sem torção."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20378,6 +27450,46 @@ const DadosSala = {
             {
               "nome": "Modelos de difusão-advecção-reação",
               "explicacao": "Equação de Fisher-KPP e a propagação de ondas em meios reagentes."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20432,6 +27544,46 @@ const DadosSala = {
             {
               "nome": "Modelos de efeitos mistos",
               "explicacao": "Efeitos fixos e aleatórios para dados hierárquicos e longitudinais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20486,6 +27638,46 @@ const DadosSala = {
             {
               "nome": "Operadores integrais e equações de Fredholm",
               "explicacao": "Alternativa de Fredholm e a solução de equações integrais."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20540,6 +27732,46 @@ const DadosSala = {
             {
               "nome": "Medidas de Hausdorff e dimensão fractal",
               "explicacao": "Dimensão de Hausdorff e a geometria fractal."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20594,6 +27826,46 @@ const DadosSala = {
             {
               "nome": "Filtro de Kalman",
               "explicacao": "Estimação recursiva em sistemas dinâmicos com ruído gaussiano."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20648,6 +27920,46 @@ const DadosSala = {
             {
               "nome": "Teorema de Sard",
               "explicacao": "Conjunto de valores críticos de funções suaves tem medida nula."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20702,6 +28014,46 @@ const DadosSala = {
             {
               "nome": "Dualidade de Poincaré",
               "explicacao": "Isomorfismo entre homologia e cohomologia em variedades orientáveis."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20756,6 +28108,46 @@ const DadosSala = {
             {
               "nome": "Teoria de carteiras e Value at Risk (VaR)",
               "explicacao": "Quantificação de risco e as limitações do VaR paramétrico."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20810,6 +28202,46 @@ const DadosSala = {
             {
               "nome": "A contribuição feminina na história da matemática",
               "explicacao": "Emmy Noether, Sofia Kovalevskaya e as mulheres na matemática."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20864,6 +28296,46 @@ const DadosSala = {
             {
               "nome": "Ensino de matemática para alunos superdotados",
               "explicacao": "Enriquecimento curricular e as olimpíadas de matemática."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20918,6 +28390,46 @@ const DadosSala = {
             {
               "nome": "Jogos infinitos e determinância",
               "explicacao": "Axioma da determinância e as consequências na teoria descritiva."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -20972,6 +28484,46 @@ const DadosSala = {
             {
               "nome": "Sistemas hamiltonianos e integrabilidade",
               "explicacao": "Transformações canônicas e o teorema de Liouville-Arnold."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -21026,6 +28578,46 @@ const DadosSala = {
             {
               "nome": "Teoria de interseção (introdução)",
               "explicacao": "Multiplicidade de interseção e a fórmula de Bezout em geometria algébrica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         },
@@ -21080,6 +28672,46 @@ const DadosSala = {
             {
               "nome": "Divulgação matemática e outreach",
               "explicacao": "Comunicação da matemática para o público geral e a popularização científica."
+            },
+            {
+              "nome": "Mapa mental da matéria",
+              "explicacao": "Construa um mapa mental conectando os principais assuntos da matéria."
+            },
+            {
+              "nome": "Lista de fórmulas e conceitos",
+              "explicacao": "Reúna fórmulas, definições e teoremas essenciais em um caderno."
+            },
+            {
+              "nome": "Simulados focados",
+              "explicacao": "Faça simulados com apenas questões da matéria para medir evolução."
+            },
+            {
+              "nome": "Dicas de prova",
+              "explicacao": "Aprenda a gerenciar tempo, marcar questões difíceis e revisar no final."
+            },
+            {
+              "nome": "Estudo intercalado",
+              "explicacao": "Alterne a matéria com outras áreas para melhorar a retenção a longo prazo."
+            },
+            {
+              "nome": "Gabaritos comentados",
+              "explicacao": "Analise gabaritos oficiais para entender o raciocínio esperado."
+            },
+            {
+              "nome": "Cronograma de estudos",
+              "explicacao": "Distribua a matéria em blocos diários com revisão espaçada."
+            },
+            {
+              "nome": "Flashcards ativos",
+              "explicacao": "Use cartões para memorizar definições e fórmulas-chave."
+            },
+            {
+              "nome": "Questões comentadas por nível",
+              "explicacao": "Pratique fácil, médio e difícil para evoluir gradualmente."
+            },
+            {
+              "nome": "Revisão final em véspera",
+              "explicacao": "Faça uma revisão relâmpago dos pontos críticos antes da prova."
             }
           ]
         }
