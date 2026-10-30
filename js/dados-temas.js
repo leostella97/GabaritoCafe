@@ -12765,6 +12765,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Tecnologia.",
           "como": "Realidade virtual."
+        },
+        {
+          "nome": "Arte e memória",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Patrimônio."
+        },
+        {
+          "nome": "Arte e política",
+          "frequencia": 2,
+          "porque": "Manifestação.",
+          "como": "Protesto."
+        },
+        {
+          "nome": "Desenho técnico",
+          "frequencia": 2,
+          "porque": "Projeção.",
+          "como": "Perspectiva."
+        },
+        {
+          "nome": "Arte e corpo",
+          "frequencia": 2,
+          "porque": "Performance.",
+          "como": "Expressão."
+        },
+        {
+          "nome": "Arte e natureza",
+          "frequencia": 2,
+          "porque": "Ecologia.",
+          "como": "Land art."
+        },
+        {
+          "nome": "Museologia",
+          "frequencia": 1,
+          "porque": "Curadoria.",
+          "como": "Exposição."
+        },
+        {
+          "nome": "Artistas contemporâneos",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Nome e obra."
+        },
+        {
+          "nome": "Arte e mídia",
+          "frequencia": 2,
+          "porque": "Comunicação.",
+          "como": "Imagem."
+        },
+        {
+          "nome": "Arte e educação",
+          "frequencia": 1,
+          "porque": "Pedagógica.",
+          "como": "Expressão."
+        },
+        {
+          "nome": "Cultura visual",
+          "frequencia": 2,
+          "porque": "Leitura de imagens.",
+          "como": "Análise."
+        },
+        {
+          "nome": "Estética",
+          "frequencia": 2,
+          "porque": "Conceito.",
+          "como": "Belo e feio."
+        },
+        {
+          "nome": "Poética visual",
+          "frequencia": 1,
+          "porque": "Linguagem.",
+          "como": "Símbolos."
+        },
+        {
+          "nome": "Arte e inclusão",
+          "frequencia": 1,
+          "porque": "Acessibilidade.",
+          "como": "Diversidade."
+        },
+        {
+          "nome": "Arte e crítica",
+          "frequencia": 2,
+          "porque": "Análise.",
+          "como": "Interpretação."
         }
       ]
     },
