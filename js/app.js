@@ -21,7 +21,7 @@ const App = {
     pomodoro: { titulo: 'tela_pomodoro_t', sub: 'tela_pomodoro_s' },    // pomodoro
     bancas: { titulo: 'tela_bancas_t', sub: 'tela_bancas_s' },          // bancas
     temas: { titulo: 'tela_temas_t', sub: 'tela_temas_s' },             // temas
-    mapaMental: { titulo: 'Mapa Mental', sub: 'Gere mapas por matéria e tópicos' }, // mapa mental
+    'mapa-mental': { titulo: 'Mapa Mental', sub: 'Gere mapas por matéria e tópicos' }, // mapa mental
     sala: { titulo: 'tela_sala_t', sub: 'tela_sala_s' },                // sala de aula
     dicas: { titulo: 'tela_dicas_t', sub: 'tela_dicas_s' }              // dicas
   },

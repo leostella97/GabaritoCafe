@@ -3,16 +3,19 @@
    Mapa mental por matéria/tópicos com export PDF e modais
    ============================================================ */
 const MapaMentalUI = {
-  renderizar(materiaFiltro = '') {
+  async renderizar(materiaFiltro = '') {
     const caixa = document.getElementById('tela-mapa-mental');
     if (!caixa) return;
     let html = '<div class="mapa-barra">';
     html += '<h3>Mapa Mental</h3>';
     html += '<button class="botao botao-contorno pequeno" id="btn-mapa-export">📄 Exportar PDF</button>';
     html += '</div>';
-    html += '<div id="mapa-conteudo" class="mapa-conteudo"></div>';
+    html += '<div id="mapa-conteudo" class="mapa-conteudo"><p class="texto-suave">Carregando banco de questões...</p></div>';
     caixa.innerHTML = html;
     document.getElementById('btn-mapa-export').addEventListener('click', () => this.exportarPDF());
+    if (!BancoLoader.pronto()) {
+      await BancoLoader.carregar().catch(()=>{});
+    }
     this.desmontar(materiaFiltro);
   },
 
