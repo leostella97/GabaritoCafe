@@ -28,7 +28,8 @@ const MapaMentalUI = {
       BancoQuestoes.forEach(q => materiasSet.add(q.materia));
     }
     const materias = Array.from(materiasSet).sort((a,b)=>a.localeCompare(b));
-    let html = '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">';
+    let html = '<div class="mapa-scroll" style="max-height: 900px; overflow-y:auto; padding-right:0.5rem">';
+    html += '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">';
     materias.forEach(m => {
       const topicosSet = new Set();
       (BancoQuestoes||[]).filter(q=>q.materia===m).forEach(q=> topicosSet.add(q.tema));
@@ -46,6 +47,7 @@ const MapaMentalUI = {
       }
       html += `</div>`;
     });
+    html += '</div>';
     html += '</div>';
     container.innerHTML = html;
     container.addEventListener('click', (e)=>{
