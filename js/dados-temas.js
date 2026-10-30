@@ -4472,6 +4472,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Comunicação de acidente (CAT).",
           "como": "Estabilidade provisória."
+        },
+        {
+          "nome": "Benefícios por incapacidade",
+          "frequencia": 4,
+          "porque": "Auxílio doença.",
+          "como": "15 dias."
+        },
+        {
+          "nome": "Aposentadoria por idade",
+          "frequencia": 4,
+          "porque": "Requisitos.",
+          "como": "Idade mínima."
+        },
+        {
+          "nome": "Aposentadoria por tempo de contribuição",
+          "frequencia": 4,
+          "porque": "Regra de transição.",
+          "como": "Pontos."
+        },
+        {
+          "nome": "Pensão por morte",
+          "frequencia": 4,
+          "porque": "Dependentes.",
+          "como": "Requisitos."
+        },
+        {
+          "nome": "Salário maternidade",
+          "frequencia": 3,
+          "porque": "Licença.",
+          "como": "Gestante."
+        },
+        {
+          "nome": "Salário família",
+          "frequencia": 2,
+          "porque": "Filhos.",
+          "como": "Renda."
+        },
+        {
+          "nome": "Reajuste de benefícios",
+          "frequencia": 3,
+          "porque": "INPC.",
+          "como": "Data."
+        },
+        {
+          "nome": "Perícia médica",
+          "frequencia": 3,
+          "porque": "Avaliação.",
+          "como": "Laudo."
+        },
+        {
+          "nome": "Regime geral de previdência",
+          "frequencia": 3,
+          "porque": "RGPS.",
+          "como": "INSS."
+        },
+        {
+          "nome": "Regime próprio de previdência",
+          "frequencia": 2,
+          "porque": "RPPS.",
+          "como": "Servidores."
+        },
+        {
+          "nome": "Fator previdenciário",
+          "frequencia": 2,
+          "porque": "Cálculo.",
+          "como": "Idade e tempo."
+        },
+        {
+          "nome": "Desaposentação",
+          "frequencia": 2,
+          "porque": "Jurisprudência.",
+          "como": "Revisão."
+        },
+        {
+          "nome": "Benefício assistencial",
+          "frequencia": 3,
+          "porque": "LOAS.",
+          "como": "BPC."
+        },
+        {
+          "nome": "Contribuição previdenciária",
+          "frequencia": 3,
+          "porque": "Alíquota.",
+          "como": "INSS."
         }
       ]
     },
