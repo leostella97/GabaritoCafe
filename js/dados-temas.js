@@ -14027,6 +14027,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Capacidade aeróbica.",
           "como": "Consumo máximo de O2."
+        },
+        {
+          "nome": "Homeostase",
+          "frequencia": 3,
+          "porque": "Equilíbrio interno.",
+          "como": "Feedback negativo."
+        },
+        {
+          "nome": "Sistema endócrino",
+          "frequencia": 4,
+          "porque": "Hormônios.",
+          "como": "Hipófise."
+        },
+        {
+          "nome": "Fisiologia renal",
+          "frequencia": 3,
+          "porque": "Rim.",
+          "como": "Filtro glomerular."
+        },
+        {
+          "nome": "Fisiologia respiratória",
+          "frequencia": 4,
+          "porque": "Troca gasosa.",
+          "como": "Hemoglobina."
+        },
+        {
+          "nome": "Fisiologia digestiva",
+          "frequencia": 3,
+          "porque": "Enzimas.",
+          "como": "Absorção."
+        },
+        {
+          "nome": "Fisiologia muscular",
+          "frequencia": 3,
+          "porque": "Contração.",
+          "como": "Filamentos."
+        },
+        {
+          "nome": "Fisiologia nervosa",
+          "frequencia": 4,
+          "porque": "Potencial de ação.",
+          "como": "Sódio e potássio."
+        },
+        {
+          "nome": "Neurotransmissores",
+          "frequencia": 3,
+          "porque": "Comunicação.",
+          "como": "Acetilcolina."
+        },
+        {
+          "nome": "Sistema imunológico",
+          "frequencia": 3,
+          "porque": "Defesa.",
+          "como": "Anticorpos."
+        },
+        {
+          "nome": "Fisiologia reprodutiva",
+          "frequencia": 2,
+          "porque": "Hormônios sexuais.",
+          "como": "Ciclo menstrual."
+        },
+        {
+          "nome": "Fisiologia da pele",
+          "frequencia": 2,
+          "porque": "Barreira.",
+          "como": "Termorregulação."
+        },
+        {
+          "nome": "Fisiologia do sono",
+          "frequencia": 2,
+          "porque": "Cérebro.",
+          "como": "Ciclos."
+        },
+        {
+          "nome": "Fisiologia do estresse",
+          "frequencia": 2,
+          "porque": "Eixo hipotálamo.",
+          "como": "Cortisol."
+        },
+        {
+          "nome": "Fisiologia da dor",
+          "frequencia": 2,
+          "porque": "Receptores.",
+          "como": "Via nociceptiva."
         }
       ]
     },
