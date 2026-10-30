@@ -2908,6 +2908,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Produção e exportação.",
           "como": "Soja, milho e sustentabilidade."
+        },
+        {
+          "nome": "Eleições e política nacional",
+          "frequencia": 4,
+          "porque": "Ciclo eleitoral.",
+          "como": "Partidos e reformas."
+        },
+        {
+          "nome": "Economia brasileira",
+          "frequencia": 4,
+          "porque": "PIB e inflação.",
+          "como": "Bacen."
+        },
+        {
+          "nome": "Saúde pública",
+          "frequencia": 3,
+          "porque": "SUS.",
+          "como": "Vacinação."
+        },
+        {
+          "nome": "Educação",
+          "frequencia": 3,
+          "porque": "Reforma.",
+          "como": "Base comum."
+        },
+        {
+          "nome": "Segurança pública",
+          "frequencia": 3,
+          "porque": "Violência.",
+          "como": "Política."
+        },
+        {
+          "nome": "Cultura brasileira",
+          "frequencia": 2,
+          "porque": "Identidade.",
+          "como": "Patrimônio."
+        },
+        {
+          "nome": "Esportes",
+          "frequencia": 2,
+          "porque": "Eventos.",
+          "como": "Olimpíadas."
+        },
+        {
+          "nome": "Mudanças climáticas",
+          "frequencia": 3,
+          "porque": "Aquecimento.",
+          "como": "Acordos."
+        },
+        {
+          "nome": "Pobreza e desigualdade",
+          "frequencia": 3,
+          "porque": "Social.",
+          "como": "Índices."
+        },
+        {
+          "nome": "Democracia e participação",
+          "frequencia": 3,
+          "porque": "Cívica.",
+          "como": "Movimentos."
+        },
+        {
+          "nome": "Comunicação e fake news",
+          "frequencia": 3,
+          "porque": "Mídia.",
+          "como": "Desinformação."
+        },
+        {
+          "nome": "Direitos humanos",
+          "frequencia": 3,
+          "porque": "Internacional.",
+          "como": "ONU."
+        },
+        {
+          "nome": "Tecnologia e inovação",
+          "frequencia": 3,
+          "porque": "Digital.",
+          "como": "Startups."
+        },
+        {
+          "nome": "Reforma administrativa",
+          "frequencia": 2,
+          "porque": "Estado.",
+          "como": "Eficiência."
         }
       ]
     },
