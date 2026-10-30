@@ -2523,6 +2523,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Provimento e vacância.",
           "como": "Direitos e deveres."
+        },
+        {
+          "nome": "Licitação",
+          "frequencia": 5,
+          "porque": "Lei 14.133.",
+          "como": "Modalidades."
+        },
+        {
+          "nome": "Contratos administrativos",
+          "frequencia": 4,
+          "porque": "Cláusulas.",
+          "como": "Execução."
+        },
+        {
+          "nome": "Serviços públicos",
+          "frequencia": 3,
+          "porque": "Concessão.",
+          "como": "Princípios."
+        },
+        {
+          "nome": "Poder de polícia",
+          "frequencia": 4,
+          "porque": "Restrição.",
+          "como": "Sanções."
+        },
+        {
+          "nome": "Desapropriação",
+          "frequencia": 3,
+          "porque": "Intervenção.",
+          "como": "Indenização."
+        },
+        {
+          "nome": "Agentes públicos",
+          "frequencia": 4,
+          "porque": "Tipos.",
+          "como": "Vinculação."
+        },
+        {
+          "nome": "Improbidade administrativa",
+          "frequencia": 3,
+          "porque": "Lei 8.429.",
+          "como": "Sanções."
+        },
+        {
+          "nome": "Responsabilidade civil do Estado",
+          "frequencia": 4,
+          "porque": "Omissão.",
+          "como": "Indenização."
+        },
+        {
+          "nome": "Processo administrativo",
+          "frequencia": 3,
+          "porque": "Lei 9.784.",
+          "como": "Direito defesa."
+        },
+        {
+          "nome": "Bens públicos",
+          "frequencia": 3,
+          "porque": "Patrimônio.",
+          "como": "Imprescritibilidade."
+        },
+        {
+          "nome": "Atos administrativos",
+          "frequencia": 5,
+          "porque": "Vícios.",
+          "como": "Anulação."
+        },
+        {
+          "nome": "Controle da administração",
+          "frequencia": 3,
+          "porque": "Fiscalização.",
+          "como": "Tribunal."
+        },
+        {
+          "nome": "Regimes de responsabilidade",
+          "frequencia": 2,
+          "porque": "Teorias.",
+          "como": "Risco."
+        },
+        {
+          "nome": "Parcerias público-privadas",
+          "frequencia": 2,
+          "porque": "PPP.",
+          "como": "Contratos."
         }
       ]
     },
