@@ -6541,6 +6541,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Transparência contábil.",
           "como": "Lei 6.404/76."
+        },
+        {
+          "nome": "Balanço patrimonial",
+          "frequencia": 4,
+          "porque": "Estrutura.",
+          "como": "Ativo, passivo."
+        },
+        {
+          "nome": "Demonstração de resultado",
+          "frequencia": 4,
+          "porque": "Lucro.",
+          "como": "Receitas despesas."
+        },
+        {
+          "nome": "Fluxo de caixa",
+          "frequencia": 3,
+          "porque": "Liquidez.",
+          "como": "Operacional."
+        },
+        {
+          "nome": "Patrimônio líquido",
+          "frequencia": 3,
+          "porque": "Capital.",
+          "como": "Reservas."
+        },
+        {
+          "nome": "Custos industriais",
+          "frequencia": 2,
+          "porque": "Custo.",
+          "como": "Produção."
+        },
+        {
+          "nome": "Contabilidade gerencial",
+          "frequencia": 3,
+          "porque": "Decisão.",
+          "como": "Orçamentos."
+        },
+        {
+          "nome": "Análise de balanços",
+          "frequencia": 3,
+          "porque": "Índices.",
+          "como": "Liquidez."
+        },
+        {
+          "nome": "Partidas dobradas",
+          "frequencia": 4,
+          "porque": "Débito crédito.",
+          "como": "Equilíbrio."
+        },
+        {
+          "nome": "Lançamentos contábeis",
+          "frequencia": 3,
+          "porque": "Livros.",
+          "como": "Diário."
+        },
+        {
+          "nome": "Contabilidade de custos",
+          "frequencia": 2,
+          "porque": "Cálculo.",
+          "como": "Margem."
+        },
+        {
+          "nome": "Auditoria contábil",
+          "frequencia": 2,
+          "porque": "Verificação.",
+          "como": "Parecer."
+        },
+        {
+          "nome": "Plano de contas",
+          "frequencia": 3,
+          "porque": "Classificação.",
+          "como": "Estrutura."
+        },
+        {
+          "nome": "Impostos e tributos",
+          "frequencia": 3,
+          "porque": "Obrigações.",
+          "como": "Livros."
+        },
+        {
+          "nome": "Contabilidade societária",
+          "frequencia": 2,
+          "porque": "Sociedades.",
+          "como": "Lei 6404."
         }
       ]
     },
