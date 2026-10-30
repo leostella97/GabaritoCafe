@@ -50,7 +50,7 @@ const DashboardUI = {
     }
 
     // ---- Card Mapa Mental ----
-    html += '<div class="cartao" style="background:var(--caramelo-suave);border:1px solid var(--linha);margin-bottom:1.5rem">';
+    html += '<div class="cartao" style="background:var(--caramelo-suave) !important;border:1px solid var(--linha);margin-bottom:1.5rem">';
     html += '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem">';
     html += '<div>';
     html += '<h3 style="margin:0 0 0.3rem">🧠 Mapa Mental</h3>';
