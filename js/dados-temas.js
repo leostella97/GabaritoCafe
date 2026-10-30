@@ -1278,6 +1278,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Eventos equiprováveis.",
           "como": "Casos favoráveis sobre possíveis."
+        },
+        {
+          "nome": "Verdades e mentiras",
+          "frequencia": 3,
+          "porque": "Questões clássicas.",
+          "como": "Análise por eliminação."
+        },
+        {
+          "nome": "Sequências numéricas",
+          "frequencia": 4,
+          "porque": "Padrões.",
+          "como": "Diferenças."
+        },
+        {
+          "nome": "Diagramas de Venn",
+          "frequencia": 4,
+          "porque": "Conjuntos.",
+          "como": "Interseção."
+        },
+        {
+          "nome": "Raciocínio sequencial",
+          "frequencia": 3,
+          "porque": "Ordens.",
+          "como": "Precedência."
+        },
+        {
+          "nome": "Problemas de lógica simbólica",
+          "frequencia": 3,
+          "porque": "Símbolos.",
+          "como": "Tabela verdade."
+        },
+        {
+          "nome": "Argumentos válidos e inválidos",
+          "frequencia": 3,
+          "porque": "Silogismos.",
+          "como": "Forma."
+        },
+        {
+          "nome": "Falácias lógicas",
+          "frequencia": 2,
+          "porque": "Erros.",
+          "como": "Identificar."
+        },
+        {
+          "nome": "Raciocínio analítico",
+          "frequencia": 3,
+          "porque": "Desagregar.",
+          "como": "Parte-todo."
+        },
+        {
+          "nome": "Distribuição e alocação",
+          "frequencia": 3,
+          "porque": "Recursos.",
+          "como": "Atribuição."
+        },
+        {
+          "nome": "Problemas de velocidade e tempo",
+          "frequencia": 3,
+          "porque": "Movimento.",
+          "como": "Distância."
+        },
+        {
+          "nome": "Problemas de mistura e concentração",
+          "frequencia": 2,
+          "porque": "Proporções.",
+          "como": "Média ponderada."
+        },
+        {
+          "nome": "Razão e proporção aplicada",
+          "frequencia": 3,
+          "porque": "Escala.",
+          "como": "Regra de três."
+        },
+        {
+          "nome": "Linguagem e símbolos lógicos",
+          "frequencia": 2,
+          "porque": "Notação.",
+          "como": "Conectivos."
+        },
+        {
+          "nome": "Estratégias de resolução",
+          "frequencia": 2,
+          "porque": "Método.",
+          "como": "Tentativa e erro."
         }
       ]
     },
