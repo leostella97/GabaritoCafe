@@ -5290,6 +5290,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Arts.1.196 a 1.510.",
           "como": "Usucapião e direitos reais."
+        },
+        {
+          "nome": "Responsabilidade civil",
+          "frequencia": 4,
+          "porque": "Dano.",
+          "como": "Objetivo."
+        },
+        {
+          "nome": "Obrigações e contratos",
+          "frequencia": 4,
+          "porque": "Vínculos.",
+          "como": "Art. 233."
+        },
+        {
+          "nome": "Direitos reais",
+          "frequencia": 3,
+          "porque": "Propriedade.",
+          "como": "Posse."
+        },
+        {
+          "nome": "Família e sucessões",
+          "frequencia": 3,
+          "porque": "Herdeiros.",
+          "como": "Institutos."
+        },
+        {
+          "nome": "Pessoas jurídicas",
+          "frequencia": 2,
+          "porque": "Personalidade.",
+          "como": "Desconsideração."
+        },
+        {
+          "nome": "Atos jurídicos",
+          "frequencia": 3,
+          "porque": "Negócio jurídico.",
+          "como": "Vício."
+        },
+        {
+          "nome": "Prescrição e decadência",
+          "frequencia": 3,
+          "porque": "Prazos.",
+          "como": "Cessação."
+        },
+        {
+          "nome": "Responsabilidade civil estatal",
+          "frequencia": 2,
+          "porque": "Estado.",
+          "como": "Omissão."
+        },
+        {
+          "nome": "Tutela e curatela",
+          "frequencia": 2,
+          "porque": "Proteção.",
+          "como": "Interdição."
+        },
+        {
+          "nome": "Usucapião",
+          "frequencia": 3,
+          "porque": "Aquisição.",
+          "como": "Rural e urbano."
+        },
+        {
+          "nome": "Direito autoral",
+          "frequencia": 2,
+          "porque": "Obra.",
+          "como": "Proteção."
+        },
+        {
+          "nome": "Contratos por adesão",
+          "frequencia": 2,
+          "porque": "Cláusulas.",
+          "como": "Abusividade."
+        },
+        {
+          "nome": "Enriquecimento sem causa",
+          "frequencia": 2,
+          "porque": "Ressarcimento.",
+          "como": "Injusto."
+        },
+        {
+          "nome": "Negócio jurídico",
+          "frequencia": 3,
+          "porque": "Validade.",
+          "como": "Elementos."
         }
       ]
     },
