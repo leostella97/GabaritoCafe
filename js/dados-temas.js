@@ -13432,6 +13432,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Cérebro.",
           "como": "Aprendizagem motora."
+        },
+        {
+          "nome": "Saúde pública e atividade física",
+          "frequencia": 3,
+          "porque": "Políticas.",
+          "como": "CNS."
+        },
+        {
+          "nome": "Motricidade humana",
+          "frequencia": 2,
+          "porque": "Desenvolvimento.",
+          "como": "Fases."
+        },
+        {
+          "nome": "Psicologia do esporte",
+          "frequencia": 2,
+          "porque": "Desempenho.",
+          "como": "Motivação."
+        },
+        {
+          "nome": "Sociologia do esporte",
+          "frequencia": 2,
+          "porque": "Cultura.",
+          "como": "Identidade."
+        },
+        {
+          "nome": "Antropologia do corpo",
+          "frequencia": 2,
+          "porque": "Corpo e cultura.",
+          "como": "Representações."
+        },
+        {
+          "nome": "História da educação física",
+          "frequencia": 2,
+          "porque": "Origem.",
+          "como": "Escola de ginástica."
+        },
+        {
+          "nome": "Práticas corporais de aventura",
+          "frequencia": 2,
+          "porque": "Riscos.",
+          "como": "Escalada."
+        },
+        {
+          "nome": "Dança e movimento",
+          "frequencia": 2,
+          "porque": "Expressão.",
+          "como": "Ritmo."
+        },
+        {
+          "nome": "Lazer e recreação",
+          "frequencia": 2,
+          "porque": "Bem-estar.",
+          "como": "Jogos."
+        },
+        {
+          "nome": "Treinamento esportivo",
+          "frequencia": 3,
+          "porque": "Periodização.",
+          "como": "Volume e intensidade."
+        },
+        {
+          "nome": "Nutrição esportiva",
+          "frequencia": 3,
+          "porque": "Rendimento.",
+          "como": "Carboidratos."
+        },
+        {
+          "nome": "Fisiologia do exercício",
+          "frequencia": 3,
+          "porque": "Adaptações.",
+          "como": "VO2max."
+        },
+        {
+          "nome": "Biossegurança no esporte",
+          "frequencia": 2,
+          "porque": "Prevenção.",
+          "como": "Higiene."
+        },
+        {
+          "nome": "Tecnologia no treinamento",
+          "frequencia": 2,
+          "porque": "Inovação.",
+          "como": "Sensores."
         }
       ]
     },
