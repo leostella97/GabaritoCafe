@@ -3672,6 +3672,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Canais de denúncia e ouvidoria.",
           "como": "Proteção ao denunciante."
+        },
+        {
+          "nome": "Código de ética",
+          "frequencia": 3,
+          "porque": "Normativa.",
+          "como": "Deveres."
+        },
+        {
+          "nome": "Conflito de interesses",
+          "frequencia": 3,
+          "porque": "Imparcialidade.",
+          "como": "Recusa."
+        },
+        {
+          "nome": "Transparência",
+          "frequencia": 4,
+          "porque": "Acesso.",
+          "como": "Dados."
+        },
+        {
+          "nome": "Responsabilidade social",
+          "frequencia": 2,
+          "porque": "Impacto.",
+          "como": "Comunidade."
+        },
+        {
+          "nome": "Ética profissional",
+          "frequencia": 3,
+          "porque": "Regras.",
+          "como": "Ordem."
+        },
+        {
+          "nome": "Ética digital",
+          "frequencia": 2,
+          "porque": "Mídias.",
+          "como": "Fake news."
+        },
+        {
+          "nome": "Ética ambiental",
+          "frequencia": 2,
+          "porque": "Sustentabilidade.",
+          "como": "Responsabilidade."
+        },
+        {
+          "nome": "Dignidade da pessoa humana",
+          "frequencia": 3,
+          "porque": "Constitucional.",
+          "como": "Respeito."
+        },
+        {
+          "nome": "Princípio da moralidade",
+          "frequencia": 3,
+          "porque": "Administrativa.",
+          "como": "Boa-fé."
+        },
+        {
+          "nome": "Códigos de conduta",
+          "frequencia": 2,
+          "porque": "Regras.",
+          "como": "Implementação."
+        },
+        {
+          "nome": "Ética na pesquisa",
+          "frequencia": 2,
+          "porque": "Ciência.",
+          "como": "Comitê."
+        },
+        {
+          "nome": "Ética e serviço público",
+          "frequencia": 3,
+          "porque": "Servidor.",
+          "como": "Imparcialidade."
+        },
+        {
+          "nome": "Integridade organizacional",
+          "frequencia": 2,
+          "porque": "Programa.",
+          "como": "Compliance."
+        },
+        {
+          "nome": "Ética nas redes sociais",
+          "frequencia": 2,
+          "porque": "Comportamento.",
+          "como": "Postura."
         }
       ]
     },
