@@ -7453,6 +7453,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Clima e economia.",
           "como": "Subtropical."
+        },
+        {
+          "nome": "Cartografia e projeções",
+          "frequencia": 3,
+          "porque": "Leitura de mapas.",
+          "como": "Escala e convenções."
+        },
+        {
+          "nome": "Geografia urbana",
+          "frequencia": 3,
+          "porque": "Crescimento das cidades.",
+          "como": "Segregação espacial."
+        },
+        {
+          "nome": "Geografia rural",
+          "frequencia": 2,
+          "porque": "Agronegócio.",
+          "como": "Modernização."
+        },
+        {
+          "nome": "Saneamento básico",
+          "frequencia": 2,
+          "porque": "Qualidade de vida.",
+          "como": "Abastecimento e esgoto."
+        },
+        {
+          "nome": "Energia no Brasil",
+          "frequencia": 3,
+          "porque": "Matriz energética.",
+          "como": "Hidrelétrica e renovável."
+        },
+        {
+          "nome": "Mineração e impactos",
+          "frequencia": 2,
+          "porque": "Ambiental.",
+          "como": "Brumadinho."
+        },
+        {
+          "nome": "Transportes e logística",
+          "frequencia": 2,
+          "porque": "Integração nacional.",
+          "como": "Rodovias e ferrovias."
+        },
+        {
+          "nome": "Comércio exterior",
+          "frequencia": 2,
+          "porque": "Exportação.",
+          "como": "Soja e minério."
+        },
+        {
+          "nome": "Conflitos territoriais",
+          "frequencia": 2,
+          "porque": "Fronteiras.",
+          "como": "Amazônia."
+        },
+        {
+          "nome": "Mudanças climáticas",
+          "frequencia": 4,
+          "porque": "Aquecimento global.",
+          "como": "Efeito estufa."
+        },
+        {
+          "nome": "Desertificação",
+          "frequencia": 2,
+          "porque": "Semiárido.",
+          "como": "Caatinga."
+        },
+        {
+          "nome": "Recursos hídricos",
+          "frequencia": 3,
+          "porque": "Bacias hidrográficas.",
+          "como": "São Francisco."
+        },
+        {
+          "nome": "Geopolítica brasileira",
+          "frequencia": 3,
+          "porque": "Posição estratégica.",
+          "como": "América do Sul."
+        },
+        {
+          "nome": "Sustentabilidade",
+          "frequencia": 4,
+          "porque": "Agenda 2030.",
+          "como": "ODS."
         }
       ]
     },
