@@ -10812,6 +10812,90 @@ const DadosTemas = {
           "frequencia": 4,
           "porque": "Lista de obras.",
           "como": "Leitura obrigatória."
+        },
+        {
+          "nome": "Simbolismo",
+          "frequencia": 3,
+          "porque": "Simbolistas.",
+          "como": "Cruz e Sousa."
+        },
+        {
+          "nome": "Parnasianismo",
+          "frequencia": 3,
+          "porque": "Forma.",
+          "como": "Olavo Bilac."
+        },
+        {
+          "nome": "Modernismo de 1930",
+          "frequencia": 3,
+          "porque": "Romance de 30.",
+          "como": "Jorge Amado."
+        },
+        {
+          "nome": "Modernismo de 1945",
+          "frequencia": 3,
+          "porque": "Geração de 45.",
+          "como": "Poesia concreta."
+        },
+        {
+          "nome": "Contracultura",
+          "frequencia": 2,
+          "porque": "Anos 60.",
+          "como": "Tropicália."
+        },
+        {
+          "nome": "Literatura nordestina",
+          "frequencia": 3,
+          "porque": "Região.",
+          "como": "Graciliano Ramos."
+        },
+        {
+          "nome": "Literatura afro-brasileira",
+          "frequencia": 3,
+          "porque": "Diversidade.",
+          "como": "Conceição Evaristo."
+        },
+        {
+          "nome": "Poesia contemporânea",
+          "frequencia": 2,
+          "porque": "Novas vozes.",
+          "como": "Adélia Prado."
+        },
+        {
+          "nome": "Crônica",
+          "frequencia": 3,
+          "porque": "Gênero.",
+          "como": "Rubem Braga."
+        },
+        {
+          "nome": "Conto",
+          "frequencia": 3,
+          "porque": "Narrativa curta.",
+          "como": "Machado de Assis."
+        },
+        {
+          "nome": "Drama e teatro",
+          "frequencia": 2,
+          "porque": "Peças.",
+          "como": "Nelson Rodrigues."
+        },
+        {
+          "nome": "Literatura infantil",
+          "frequencia": 2,
+          "porque": "Infância.",
+          "como": "Monteiro Lobato."
+        },
+        {
+          "nome": "Literatura e gênero",
+          "frequencia": 2,
+          "porque": "Estudos.",
+          "como": "Feminismo."
+        },
+        {
+          "nome": "Literatura digital",
+          "frequencia": 2,
+          "porque": "Tecnologia.",
+          "como": "Hipertexto."
         }
       ]
     },
