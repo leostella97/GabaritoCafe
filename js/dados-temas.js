@@ -863,6 +863,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Gráficos e problemas lineares.",
           "como": "f(x) = ax + b."
+        },
+        {
+          "nome": "Grandezas proporcionais",
+          "frequencia": 4,
+          "porque": "Regra de três.",
+          "como": "Direta e inversa."
+        },
+        {
+          "nome": "Porcentagem",
+          "frequencia": 5,
+          "porque": "Descontos e acréscimos.",
+          "como": "Cálculo de taxa."
+        },
+        {
+          "nome": "Juros compostos",
+          "frequencia": 4,
+          "porque": "Finanças.",
+          "como": "Fórmula M = C(1+i)^n."
+        },
+        {
+          "nome": "Estatística básica",
+          "frequencia": 3,
+          "porque": "Média, mediana, moda.",
+          "como": "Interpretação."
+        },
+        {
+          "nome": "Probabilidade simples",
+          "frequencia": 3,
+          "porque": "Casos favoráveis.",
+          "como": "P = E/T."
+        },
+        {
+          "nome": "Álgebra elementar",
+          "frequencia": 4,
+          "porque": "Equações.",
+          "como": "Isolar variável."
+        },
+        {
+          "nome": "Geometria plana",
+          "frequencia": 3,
+          "porque": "Áreas.",
+          "como": "Triângulo, retângulo."
+        },
+        {
+          "nome": "Geometria espacial",
+          "frequencia": 2,
+          "porque": "Volumes.",
+          "como": "Prisma, cilindro."
+        },
+        {
+          "nome": "Números decimais",
+          "frequencia": 3,
+          "porque": "Operações.",
+          "como": "Conversão."
+        },
+        {
+          "nome": "Expressões numéricas",
+          "frequencia": 4,
+          "porque": "Ordem das operações.",
+          "como": "PEMDAS."
+        },
+        {
+          "nome": "Média ponderada",
+          "frequencia": 3,
+          "porque": "Avaliações.",
+          "como": "Peso."
+        },
+        {
+          "nome": "Conversão de unidades",
+          "frequencia": 3,
+          "porque": "Medidas.",
+          "como": "Sistema métrico."
+        },
+        {
+          "nome": "Lógica matemática",
+          "frequencia": 3,
+          "porque": "Argumentos.",
+          "como": "Verdadeiro/falso."
+        },
+        {
+          "nome": "Sequências e progressões",
+          "frequencia": 3,
+          "porque": "Padrões.",
+          "como": "Aritmética e geométrica."
         }
       ]
     },
