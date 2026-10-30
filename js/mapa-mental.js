@@ -28,8 +28,7 @@ const MapaMentalUI = {
       BancoQuestoes.forEach(q => materiasSet.add(q.materia));
     }
     const materias = Array.from(materiasSet).sort((a,b)=>a.localeCompare(b));
-    let html = '<div class="mapa-scroll" style="max-height: 900px; overflow-y:auto; padding-right:0.5rem">';
-    html += '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">';
+    let html = '<div class="grade-mapas" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem">';
     materias.forEach(m => {
       const topicosSet = new Set();
       (BancoQuestoes||[]).filter(q=>q.materia===m).forEach(q=> topicosSet.add(q.tema));
@@ -37,7 +36,7 @@ const MapaMentalUI = {
       html += `<div class="cartao aparecer mapa-cartao">`;
       html += `<button class="categoria-titulo mapa-materia" data-materia="${Util.escape(m)}" style="background:none;border:0;width:100%;text-align:left;cursor:pointer;font:inherit">📚 ${Util.escape(m)}</button>`;
       if (topicos.length) {
-        html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem">';
+        html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem;max-height:260px;overflow-y:auto">';
         topicos.forEach(t => {
           html += `<button class="botao botao-fantasma pequeno mapa-topico" data-materia="${Util.escape(m)}" data-topico="${Util.escape(t)}" type="button">${Util.escape(t)}</button>`;
         });
@@ -47,7 +46,6 @@ const MapaMentalUI = {
       }
       html += `</div>`;
     });
-    html += '</div>';
     html += '</div>';
     container.innerHTML = html;
     container.addEventListener('click', (e)=>{
