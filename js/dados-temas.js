@@ -5705,6 +5705,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Adicionais e redução da hora noturna.",
           "como": "52 minutos e 30 segundos."
+        },
+        {
+          "nome": "Contrato por tempo determinado",
+          "frequencia": 3,
+          "porque": "Sérito.",
+          "como": "Término."
+        },
+        {
+          "nome": "Trabalho temporário",
+          "frequencia": 2,
+          "porque": "Lei 6.019.",
+          "como": "Agência."
+        },
+        {
+          "nome": "Trabalho intermitente",
+          "frequencia": 3,
+          "porque": "Lei 13.467.",
+          "como": "Chamamento."
+        },
+        {
+          "nome": "Teletrabalho",
+          "frequencia": 3,
+          "porque": "Home office.",
+          "como": "Responsabilidade."
+        },
+        {
+          "nome": "Banco de horas",
+          "frequencia": 3,
+          "porque": "Compensação.",
+          "como": "Acordo."
+        },
+        {
+          "nome": "Férias",
+          "frequencia": 4,
+          "porque": "30 dias.",
+          "como": "Adicional."
+        },
+        {
+          "nome": "Décimo terceiro salário",
+          "frequencia": 4,
+          "porque": "Gratificação.",
+          "como": "Proporcional."
+        },
+        {
+          "nome": "Aviso prévio",
+          "frequencia": 4,
+          "porque": "Despedida.",
+          "como": "Trabalhado."
+        },
+        {
+          "nome": "FGTS e multa rescisória",
+          "frequencia": 4,
+          "porque": "40%.",
+          "como": "Depósito."
+        },
+        {
+          "nome": "Acordo coletivo",
+          "frequencia": 3,
+          "porque": "Negociação.",
+          "como": "Sindicato."
+        },
+        {
+          "nome": "Greve e lockout",
+          "frequencia": 2,
+          "porque": "Conflito.",
+          "como": "Direitos."
+        },
+        {
+          "nome": "Jornada de trabalho",
+          "frequencia": 4,
+          "porque": "8 horas.",
+          "como": "Intervalos."
+        },
+        {
+          "nome": "Insalubridade e periculosidade",
+          "frequencia": 3,
+          "porque": "Adicionais.",
+          "como": "Laudo."
+        },
+        {
+          "nome": "Lições de empregador",
+          "frequencia": 2,
+          "porque": "Responsabilidade.",
+          "como": "Objetivo."
         }
       ]
     },
