@@ -6120,6 +6120,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "OS, OSCIP e PPP.",
           "como": "Contrato de gestão."
+        },
+        {
+          "nome": "Planejamento estratégico",
+          "frequencia": 4,
+          "porque": "Visão.",
+          "como": "SWOT."
+        },
+        {
+          "nome": "Gestão por processos",
+          "frequencia": 3,
+          "porque": "Eficiência.",
+          "como": "Mapeamento."
+        },
+        {
+          "nome": "Qualidade total",
+          "frequencia": 3,
+          "porque": "ISO.",
+          "como": "Melhoria."
+        },
+        {
+          "nome": "Gestão de pessoas",
+          "frequencia": 4,
+          "porque": "Recursos humanos.",
+          "como": "Recrutamento."
+        },
+        {
+          "nome": "Liderança e motivação",
+          "frequencia": 3,
+          "porque": "Equipe.",
+          "como": "Herzberg."
+        },
+        {
+          "nome": "Comunicação organizacional",
+          "frequencia": 3,
+          "porque": "Fluxo.",
+          "como": "Formal."
+        },
+        {
+          "nome": "Cultura organizacional",
+          "frequencia": 3,
+          "porque": "Valores.",
+          "como": "Clima."
+        },
+        {
+          "nome": "Gestão financeira",
+          "frequencia": 3,
+          "porque": "Orçamento.",
+          "como": "Fluxo de caixa."
+        },
+        {
+          "nome": "Gestão da informação",
+          "frequencia": 2,
+          "porque": "Dados.",
+          "como": "Sistemas."
+        },
+        {
+          "nome": "Redesign organizacional",
+          "frequencia": 2,
+          "porque": "Estrutura.",
+          "como": "Reengenharia."
+        },
+        {
+          "nome": "Gestão do conhecimento",
+          "frequencia": 2,
+          "porque": "Saberes.",
+          "como": "Repositórios."
+        },
+        {
+          "nome": "Ética empresarial",
+          "frequencia": 3,
+          "porque": "Compliance.",
+          "como": "Código."
+        },
+        {
+          "nome": "Sustentabilidade corporativa",
+          "frequencia": 2,
+          "porque": "ESG.",
+          "como": "Ambiental."
+        },
+        {
+          "nome": "Gestão de projetos",
+          "frequencia": 3,
+          "porque": "PMI.",
+          "como": "Cronograma."
         }
       ]
     },
