@@ -34,7 +34,7 @@ const MapaMentalUI = {
       (BancoQuestoes||[]).filter(q=>q.materia===m).forEach(q=> topicosSet.add(q.tema));
       const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
       html += `<div class="cartao aparecer mapa-cartao">`;
-      html += `<div class="categoria-titulo">📚 ${Util.escape(m)}</div>`;
+      html += `<button class="categoria-titulo mapa-materia" data-materia="${Util.escape(m)}" style="background:none;border:0;width:100%;text-align:left;cursor:pointer;font:inherit">📚 ${Util.escape(m)}</button>`;
       if (topicos.length) {
         html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.6rem">';
         topicos.forEach(t => {
@@ -49,12 +49,49 @@ const MapaMentalUI = {
     html += '</div>';
     container.innerHTML = html;
     container.addEventListener('click', (e)=>{
-      const btn = e.target.closest('.mapa-topico');
-      if (!btn) return;
-      const materia = btn.dataset.materia;
-      const topico = btn.dataset.topico;
-      this.abrirModalTopico(materia, topico);
+      const btnTopico = e.target.closest('.mapa-topico');
+      if (btnTopico) {
+        const materia = btnTopico.dataset.materia;
+        const topico = btnTopico.dataset.topico;
+        this.abrirModalTopico(materia, topico);
+        return;
+      }
+      const btnMat = e.target.closest('.mapa-materia');
+      if (btnMat) {
+        const materia = btnMat.dataset.materia;
+        this.abrirModalMateria(materia);
+      }
     });
+  },
+
+  abrirModalMateria(materia) {
+    EditalUI.iniciarModal();
+    const modal = document.getElementById('modal-materia');
+    const conteudo = document.getElementById('modal-conteudo');
+    const topicosSet = new Set();
+    (BancoQuestoes||[]).filter(q=>q.materia===materia).forEach(q=> topicosSet.add(q.tema));
+    const topicos = Array.from(topicosSet).sort((a,b)=>a.localeCompare(b));
+    let html = `<div class="cartao" style="padding:1rem">`;
+    html += `<div class="categoria-titulo">📚 ${Util.escape(materia)}</div>`;
+    html += `<p class="texto-suave">Clique em um tópico para ver explicação e aula no YouTube.</p>`;
+    if (topicos.length) {
+      html += '<div class="mapa-topicos" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.8rem">';
+      topicos.forEach(t => {
+        html += `<button class="botao botao-fantasma pequeno mapa-topico-modal" data-materia="${Util.escape(materia)}" data-topico="${Util.escape(t)}" type="button">${Util.escape(t)}</button>`;
+      });
+      html += '</div>';
+    } else {
+      html += `<p class="texto-suave">Sem tópicos cadastrados.</p>`;
+    }
+    html += `</div>`;
+    conteudo.innerHTML = html;
+    modal.classList.remove('oculto');
+    // delega clique nos tópicos do modal
+    conteudo.onclick = (e) => {
+      const btn = e.target.closest('.mapa-topico-modal');
+      if (!btn) return;
+      this.abrirModalTopico(btn.dataset.materia, btn.dataset.topico);
+    };
   },
 
   abrirModalTopico(materia, topico) {
