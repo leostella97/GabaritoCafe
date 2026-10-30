@@ -6834,6 +6834,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "1848-1850.",
           "como": "Pernambuco."
+        },
+        {
+          "nome": "Proclamação da República",
+          "frequencia": 4,
+          "porque": "1889.",
+          "como": "Marechal Deodoro."
+        },
+        {
+          "nome": "Movimento Armorial",
+          "frequencia": 2,
+          "porque": "Cultura regional.",
+          "como": "Ariano Suassuna."
+        },
+        {
+          "nome": "História da educação brasileira",
+          "frequencia": 3,
+          "porque": "Pioneirismo.",
+          "como": "Escola Nova."
+        },
+        {
+          "nome": "Ciclo da erva-mate",
+          "frequencia": 2,
+          "porque": "Sul.",
+          "como": "Rio Grande do Sul."
+        },
+        {
+          "nome": "Ciclo da borracha",
+          "frequencia": 3,
+          "porque": "Amazônia.",
+          "como": "Extração."
+        },
+        {
+          "nome": "Missão das Nações Unidas",
+          "frequencia": 2,
+          "porque": "Contexto internacional.",
+          "como": "ONU."
+        },
+        {
+          "nome": "Movimentos sociais",
+          "frequencia": 3,
+          "porque": "Participação.",
+          "como": "MST."
+        },
+        {
+          "nome": "História da imprensa",
+          "frequencia": 2,
+          "porque": "Liberdade.",
+          "como": "Gazeta do Rio."
+        },
+        {
+          "nome": "Descoberta das Minas",
+          "frequencia": 3,
+          "porque": "Ouro.",
+          "como": "Minas Gerais."
+        },
+        {
+          "nome": "Expulsão dos jesuítas",
+          "frequencia": 2,
+          "porque": "1759.",
+          "como": "Marquês de Pombal."
+        },
+        {
+          "nome": "Fronteira amazônica",
+          "frequencia": 2,
+          "porque": "Exploração.",
+          "como": "Seringueiros."
+        },
+        {
+          "nome": "Ditadura e resistência",
+          "frequencia": 4,
+          "porque": "Anos 60-80.",
+          "como": "Tortura e oposição."
+        },
+        {
+          "nome": "Política externa independente",
+          "frequencia": 2,
+          "porque": "Jânio Quadros.",
+          "como": "Juscelino Kubitschek."
+        },
+        {
+          "nome": "Cultura afro-brasileira",
+          "frequencia": 3,
+          "porque": "Identidade.",
+          "como": "Candomblé."
+        },
+        {
+          "nome": "História das mulheres no Brasil",
+          "frequencia": 2,
+          "porque": "Luta feminista.",
+          "como": "Suffágio."
         }
       ]
     },
