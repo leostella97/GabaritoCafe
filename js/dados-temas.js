@@ -10235,6 +10235,90 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Deslocamentos.",
           "como": "f(x) + k."
+        },
+        {
+          "nome": "Matrizes",
+          "frequencia": 3,
+          "porque": "Operações.",
+          "como": "Soma e produto."
+        },
+        {
+          "nome": "Determinantes",
+          "frequencia": 3,
+          "porque": "Álgebra linear.",
+          "como": "Regra de Sarrus."
+        },
+        {
+          "nome": "Sistemas lineares",
+          "frequencia": 4,
+          "porque": "Resolução.",
+          "como": "Escalonamento."
+        },
+        {
+          "nome": "Geometria analítica",
+          "frequencia": 4,
+          "porque": "Retas e circunferências.",
+          "como": "Equações."
+        },
+        {
+          "nome": "Vetores",
+          "frequencia": 3,
+          "porque": "Grandezas direcionadas.",
+          "como": "Soma vetorial."
+        },
+        {
+          "nome": "Probabilidade",
+          "frequencia": 4,
+          "porque": "Eventos.",
+          "como": "Espaço amostral."
+        },
+        {
+          "nome": "Estatística",
+          "frequencia": 3,
+          "porque": "Média e desvio.",
+          "como": "Gráficos."
+        },
+        {
+          "nome": "Funções logarítmicas",
+          "frequencia": 3,
+          "porque": "Logaritmos.",
+          "como": "Propriedades."
+        },
+        {
+          "nome": "Sequências",
+          "frequencia": 3,
+          "porque": "PA e PG.",
+          "como": "Termo geral."
+        },
+        {
+          "nome": "Combinatória",
+          "frequencia": 4,
+          "porque": "Arranjos.",
+          "como": "Permutações."
+        },
+        {
+          "nome": "Trigonometria",
+          "frequencia": 4,
+          "porque": "Círculo trigonométrico.",
+          "como": "Seno e cosseno."
+        },
+        {
+          "nome": "Números complexos",
+          "frequencia": 2,
+          "porque": "Forma algébrica.",
+          "como": "i² = -1."
+        },
+        {
+          "nome": "Áreas e volumes",
+          "frequencia": 3,
+          "porque": "Geometria espacial.",
+          "como": "Prisma e pirâmide."
+        },
+        {
+          "nome": "Análise combinatória",
+          "frequencia": 4,
+          "porque": "Contagem.",
+          "como": "Fatorial."
         }
       ]
     },
