@@ -334,6 +334,96 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Jakobson.",
           "como": "Referencial, emotiva e conativa."
+        },
+        {
+          "nome": "Análise sintática",
+          "frequencia": 4,
+          "porque": "Essencial para concordância.",
+          "como": "Sujeito e predicado."
+        },
+        {
+          "nome": "Regência",
+          "frequencia": 4,
+          "porque": "Banca adora verbos.",
+          "como": "Verbos transitivos."
+        },
+        {
+          "nome": "Crase",
+          "frequencia": 4,
+          "porque": "Clássica em concursos.",
+          "como": "À + artigo."
+        },
+        {
+          "nome": "Pontuação",
+          "frequencia": 3,
+          "porque": "Vira vírgula.",
+          "como": "Isolamento."
+        },
+        {
+          "nome": "Variação linguística",
+          "frequencia": 3,
+          "porque": "Normas.",
+          "como": "Formal x informal."
+        },
+        {
+          "nome": "Linguagem formal",
+          "frequencia": 4,
+          "porque": "Provas.",
+          "como": "Padronizada."
+        },
+        {
+          "nome": "Semântica",
+          "frequencia": 3,
+          "porque": "Significado.",
+          "como": "Sinonimia e antonímia."
+        },
+        {
+          "nome": "Morfologia",
+          "frequencia": 3,
+          "porque": "Classes de palavras.",
+          "como": "Substantivo, adjetivo."
+        },
+        {
+          "nome": "Ortografia",
+          "frequencia": 3,
+          "porque": "Reforma ortográfica.",
+          "como": "Acordo."
+        },
+        {
+          "nome": "Acentuação",
+          "frequencia": 4,
+          "porque": "Provas diretas.",
+          "como": "Oxitona, paroxítona."
+        },
+        {
+          "nome": "Denotação e conotação",
+          "frequencia": 3,
+          "porque": "Figuras.",
+          "como": "Sentido."
+        },
+        {
+          "nome": "Coesão textual",
+          "frequencia": 3,
+          "porque": "Ligação.",
+          "como": "Conectivos."
+        },
+        {
+          "nome": "Coerência textual",
+          "frequencia": 3,
+          "porque": "Sentido.",
+          "como": "Mundo textual."
+        },
+        {
+          "nome": "Vícios de linguagem",
+          "frequencia": 2,
+          "porque": "Erros comuns.",
+          "como": "Pleonasmo."
+        },
+        {
+          "nome": "Figuras de linguagem",
+          "frequencia": 3,
+          "porque": "Interpretação.",
+          "como": "Metáfora."
         }
       ]
     },
