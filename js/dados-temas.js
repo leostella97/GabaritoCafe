@@ -4051,6 +4051,90 @@ const DadosTemas = {
           "frequencia": 3,
           "porque": "Crimes de agentes públicos.",
           "como": "Condutas tipificadas e sanções."
+        },
+        {
+          "nome": "Crimes contra a fé pública",
+          "frequencia": 3,
+          "porque": "Falsidade.",
+          "como": "Art. 289-311."
+        },
+        {
+          "nome": "Crimes contra a administração pública",
+          "frequencia": 4,
+          "porque": "Peculato.",
+          "como": "Art. 312-327."
+        },
+        {
+          "nome": "Crimes hediondos",
+          "frequencia": 3,
+          "porque": "Inafiançáveis.",
+          "como": "Lei 8.072."
+        },
+        {
+          "nome": "Crimes de trânsito",
+          "frequencia": 2,
+          "porque": "CTB.",
+          "como": "Art. 302."
+        },
+        {
+          "nome": "Crimes digitais",
+          "frequencia": 2,
+          "porque": "Lei 12.737.",
+          "como": "Invasão."
+        },
+        {
+          "nome": "Extorsão e estelionato",
+          "frequencia": 3,
+          "porque": "Patrimônio.",
+          "como": "Art. 158-171."
+        },
+        {
+          "nome": "Crimes contra a vida",
+          "frequencia": 3,
+          "porque": "Homicídio.",
+          "como": "Art. 121."
+        },
+        {
+          "nome": "Crimes sexuais",
+          "frequencia": 2,
+          "porque": "Lei 13.718.",
+          "como": "Importunação."
+        },
+        {
+          "nome": "Crimes ambientais",
+          "frequencia": 2,
+          "porque": "Poluição.",
+          "como": "Lei 9.605."
+        },
+        {
+          "nome": "Crimes de lavagem de dinheiro",
+          "frequencia": 2,
+          "porque": "Lei 9.613.",
+          "como": "Ocultação."
+        },
+        {
+          "nome": "Concurso de pessoas",
+          "frequencia": 3,
+          "porque": "Coautoria.",
+          "como": "Art. 29."
+        },
+        {
+          "nome": "Tentativa e fracasso",
+          "frequencia": 3,
+          "porque": "Penas.",
+          "como": "Art. 14."
+        },
+        {
+          "nome": "Imunidades penais",
+          "frequencia": 2,
+          "porque": "Exclusão.",
+          "como": "Art. 28."
+        },
+        {
+          "nome": "Excludentes de ilicitude",
+          "frequencia": 3,
+          "porque": "Legítima defesa.",
+          "como": "Art. 23."
         }
       ]
     },
