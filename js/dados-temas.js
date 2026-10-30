@@ -8060,6 +8060,96 @@ const DadosTemas = {
           "frequencia": 2,
           "porque": "Alternância.",
           "como": "Gametófito e esporófito."
+        },
+        {
+          "nome": "Fisiologia animal",
+          "frequencia": 3,
+          "porque": "Sistemas integrados.",
+          "como": "Respiração e circulação."
+        },
+        {
+          "nome": "Neurociência básica",
+          "frequencia": 2,
+          "porque": "Sistema nervoso.",
+          "como": "Neurônio e sinapse."
+        },
+        {
+          "nome": "Endocrinologia",
+          "frequencia": 3,
+          "porque": "Hormônios.",
+          "como": "Feedback."
+        },
+        {
+          "nome": "Biologia molecular",
+          "frequencia": 4,
+          "porque": "DNA e RNA.",
+          "como": "Replicação."
+        },
+        {
+          "nome": "CRISPR e edição genética",
+          "frequencia": 2,
+          "porque": "Atualidade.",
+          "como": "Ferramentas."
+        },
+        {
+          "nome": "Biomas brasileiros",
+          "frequencia": 4,
+          "porque": "ENEM.",
+          "como": "Amazônia e Cerrado."
+        },
+        {
+          "nome": "Sustentabilidade e conservação",
+          "frequencia": 4,
+          "porque": "Meio ambiente.",
+          "como": "UNESCO."
+        },
+        {
+          "nome": "Evolução humana",
+          "frequencia": 3,
+          "porque": "Antropologia.",
+          "como": "Australopiteco."
+        },
+        {
+          "nome": "Microbiologia",
+          "frequencia": 3,
+          "porque": "Micro-organismos.",
+          "como": "Bactérias e vírus."
+        },
+        {
+          "nome": "Imunologia aplicada",
+          "frequencia": 3,
+          "porque": "Vacinação.",
+          "como": "Memória imune."
+        },
+        {
+          "nome": "Ecologia de populações",
+          "frequencia": 3,
+          "porque": "Crescimento.",
+          "como": "Logística."
+        },
+        {
+          "nome": "Fisiologia vegetal",
+          "frequencia": 3,
+          "porque": "Fotossíntese.",
+          "como": "Transpiração."
+        },
+        {
+          "nome": "Genética de populações",
+          "frequencia": 2,
+          "porque": "Diversidade.",
+          "como": "Hardy-Weinberg."
+        },
+        {
+          "nome": "Bioética",
+          "frequencia": 2,
+          "porque": "Dilemas.",
+          "como": "Clonagem."
+        },
+        {
+          "nome": "Biotecnologia",
+          "frequencia": 3,
+          "porque": "Aplicações.",
+          "como": "Enzimas."
         }
       ]
     },
