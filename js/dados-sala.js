@@ -31848,6 +31848,14 @@ const DadosSala = {
             {
               "nome": "Fechamento e lições aprendidas",
               "explicacao": "Encerramento administrativo e transferência de conhecimento."
+            },
+            {
+              "nome": "Gestão de mudanças em projetos",
+              "explicacao": "Plano de transição e adoção de entregas."
+            },
+            {
+              "nome": "Governança de portfólio",
+              "explicacao": "Priorização estratégica e alinhamento de investimentos."
             }
           ]
         },
@@ -31874,6 +31882,14 @@ const DadosSala = {
             {
               "nome": "Observabilidade",
               "explicacao": "Logs, métricas, tracing e alertas."
+            },
+            {
+              "nome": "Gestão de capacidade e performance",
+              "explicacao": "Dimensionamento, tuning e otimização contínua."
+            },
+            {
+              "nome": "Segurança em profundidade",
+              "explicacao": "Camadas de defesa e zero trust."
             }
           ]
         },
@@ -31900,6 +31916,14 @@ const DadosSala = {
             {
               "nome": "Data literacy",
               "explicacao": "Cultura de dados e capacitação de usuários."
+            },
+            {
+              "nome": "Data pipeline e orquestração",
+              "explicacao": "ETL/ELT, agendamento e monitoramento de fluxos."
+            },
+            {
+              "nome": "Privacidade e ética de dados",
+              "explicacao": "Consentimento, anonimização e uso responsável."
             }
           ]
         },
@@ -31930,6 +31954,14 @@ const DadosSala = {
             {
               "nome": "Sustentabilidade e ESG em TI",
               "explicacao": "Impacto ambiental, social e governança tecnológica."
+            },
+            {
+              "nome": "Inteligência artificial aplicada",
+              "explicacao": "Casos de uso, automação cognitiva e governança."
+            },
+            {
+              "nome": "Métricas de inovação",
+              "explicacao": "Indicadores de maturidade e retorno de iniciativas."
             }
           ]
         },
@@ -32046,6 +32078,14 @@ const DadosSala = {
             {
               "nome": "Gestão Estratégica de Custos para Tomada de Decisão",
               "explicacao": "Custos de TI, orçamento baseado em valor e análise de cenários."
+            },
+            {
+              "nome": "Blockchain e contratos inteligentes",
+              "explicacao": "Distribuição, confiança e casos de uso corporativos."
+            },
+            {
+              "nome": "Realidade aumentada e virtual",
+              "explicacao": "Imersão, treinamento e experiências de cliente."
             }
           ]
         },
