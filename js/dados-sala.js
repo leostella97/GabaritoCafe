@@ -31948,6 +31948,138 @@ const DadosSala = {
               "explicacao": "Conduta profissional, whistleblowing e confidencialidade."
             }
           ]
+        },
+        {
+          "materia": "Modelagem de Processos e Arquitetura de TI",
+          "icone": "📐",
+          "topicos": [
+            {
+              "nome": "Análise e Modelagem de Processos",
+              "explicacao": "Mapeamento AS-IS/TO-BE, BPMN e otimização de fluxos."
+            },
+            {
+              "nome": "Arquitetura de TI e Modelos de Negócios",
+              "explicacao": "Alinhamento arquitetural com estratégia e canvas de negócios."
+            }
+          ]
+        },
+        {
+          "materia": "Governança e Gestão da Tecnologia da Informação",
+          "icone": "🏛️",
+          "topicos": [
+            {
+              "nome": "Gestão da Tecnologia da Informação",
+              "explicacao": "Planejamento, execução e controle de recursos e serviços de TI."
+            }
+          ]
+        },
+        {
+          "materia": "Administração de Serviços de TI e Melhoria Contínua de Processos",
+          "icone": "🔄",
+          "topicos": [
+            {
+              "nome": "Gestão da Qualidade Total e Melhoria Contínua de Processos",
+              "explicacao": "Kaizen, Six Sigma e indicadores de melhoria."
+            },
+            {
+              "nome": "Gestão de Serviços de TI",
+              "explicacao": "ITSM, catálogo de serviços e melhoria contínua."
+            }
+          ]
+        },
+        {
+          "materia": "Tecnologias Emergentes e Negócios Digitais",
+          "icone": "🌐",
+          "topicos": [
+            {
+              "nome": "Internet das Coisas",
+              "explicacao": "Dispositivos conectados, sensores e análise de dados em tempo real."
+            },
+            {
+              "nome": "Modelos de Negócios Inovadores",
+              "explicacao": "Plataformas, marketplaces e economia de assinatura."
+            },
+            {
+              "nome": "Desenvolvimento de Equipes de Alto Desempenho",
+              "explicacao": "Psicologia organizacional e práticas ágeis de liderança."
+            },
+            {
+              "nome": "Big Data",
+              "explicacao": "Volume, variedade e velocidade com ferramentas de análise."
+            },
+            {
+              "nome": "Novas Tecnologias em Pesquisa Mercadológica",
+              "explicacao": "Analytics comportamental e inteligência de mercado."
+            },
+            {
+              "nome": "Gestão Estratégica de Custos para Tomada de Decisão",
+              "explicacao": "Custos de TI, orçamento baseado em valor e análise de cenários."
+            }
+          ]
+        },
+        {
+          "materia": "Tecnologias Inovadoras e Nuvem",
+          "icone": "☁️",
+          "topicos": [
+            {
+              "nome": "Tecnologias Inovadoras",
+              "explicacao": "IA, automação e emergentes aplicadas ao negócio."
+            },
+            {
+              "nome": "Gestão Estratégica da Inovação",
+              "explicacao": "Portfólio de inovação e métricas de maturidade."
+            },
+            {
+              "nome": "Computação em Nuvem",
+              "explicacao": "IaaS/PaaS/SaaS, governança e otimização de custos."
+            }
+          ]
+        },
+        {
+          "materia": "Infraestrutura e Qualidade de Software",
+          "icone": "🖥️",
+          "topicos": [
+            {
+              "nome": "Ferramentas de Informação para o Gerenciamento de Processos",
+              "explicacao": "Sistemas de BPM e dashboards operacionais."
+            },
+            {
+              "nome": "Administração de Redes de Computadores",
+              "explicacao": "Arquitetura de rede, segurança e desempenho."
+            },
+            {
+              "nome": "Qualidade de Software",
+              "explicacao": "Testes, métricas e garantia da qualidade."
+            }
+          ]
+        },
+        {
+          "materia": "Projetos e Negociação",
+          "icone": "🤝",
+          "topicos": [
+            {
+              "nome": "Elaboração e Implementação de Projetos",
+              "explicacao": "Do charter à entrega e governança de mudanças."
+            },
+            {
+              "nome": "Estratégias de Negociação e Vendas",
+              "explicacao": "Técnicas de negociação e relacionamento com fornecedores."
+            }
+          ]
+        },
+        {
+          "materia": "Empreendedorismo e Gestão de Projetos",
+          "icone": "💡",
+          "topicos": [
+            {
+              "nome": "Da Ideia ao Plano de Negócios",
+              "explicacao": "Validação de ideia, modelo de negócios e plano executivo."
+            },
+            {
+              "nome": "Gestão de Projetos",
+              "explicacao": "Ciclo de vida, escopo, tempo, custo e qualidade."
+            }
+          ]
         }
       ]
     }
