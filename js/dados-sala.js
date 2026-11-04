@@ -31900,6 +31900,54 @@ const DadosSala = {
               "explicacao": "Impacto ambiental, social e governança tecnológica."
             }
           ]
+        },
+        {
+          "materia": "Gestão de Pessoas e Carreiras em TI",
+          "icone": "👥",
+          "topicos": [
+            {
+              "nome": "Recrutamento e seleção de talentos",
+              "explicacao": "Perfis técnicos e comportamentais para equipes de TI."
+            },
+            {
+              "nome": "Desenvolvimento e retenção",
+              "explicacao": "Carreiras, trilhas de aprendizado e employer branding."
+            },
+            {
+              "nome": "Liderança ágil",
+              "explicacao": "Facilitação, coaching e gestão de times distribuídos."
+            },
+            {
+              "nome": "Clima e cultura organizacional",
+              "explicacao": "Engajamento, feedback contínuo e bem-estar."
+            }
+          ]
+        },
+        {
+          "materia": "Ética, Direito e Responsabilidade Socioambiental em TI",
+          "icone": "⚖️",
+          "topicos": [
+            {
+              "nome": "Ética em IA e algoritmos",
+              "explicacao": "Viés, transparência e uso responsável de tecnologia."
+            },
+            {
+              "nome": "Propriedade intelectual",
+              "explicacao": "Software, patentes, direitos autorais e licenças."
+            },
+            {
+              "nome": "Compliance e LGPD",
+              "explicacao": "Obrigações legais, DPO e governança de privacidade."
+            },
+            {
+              "nome": "Responsabilidade socioambiental",
+              "explicacao": "Impacto digital, economia circular e comunidades."
+            },
+            {
+              "nome": "Segurança da informação ética",
+              "explicacao": "Conduta profissional, whistleblowing e confidencialidade."
+            }
+          ]
         }
       ]
     }
