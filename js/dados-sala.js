@@ -31660,6 +31660,88 @@ const DadosSala = {
           ]
         }
       ]
+    },
+    {
+      "id": "gestao-tecnologia-informacao",
+      "nome": "Gestão da Tecnologia da Informação",
+      "icone": "💼",
+      "area": "Ciências Exatas",
+      "duracao": "4 anos",
+      "resumo": "Gerir pessoas, processos e tecnologia para criar valor nos negócios digitais, alinhando TI à estratégia organizacional.",
+      "materias": [
+        {
+          "materia": "Gestão Estratégica de TI",
+          "icone": "🎯",
+          "topicos": [
+            {
+              "nome": "Alinhamento TI e negócios",
+              "explicacao": "Relacionar objetivos corporativos com investimentos e portfólio de TI."
+            },
+            {
+              "nome": "Planejamento estratégico de TI",
+              "explicacao": "Roadmap tecnológico, visão, metas e indicadores de performance."
+            },
+            {
+              "nome": "Gestão de portfólio de projetos",
+              "explicacao": "Priorização, análise de valor e portfólio balanceado de iniciativas."
+            }
+          ]
+        },
+        {
+          "materia": "Governança e Serviços de TI",
+          "icone": "⚙️",
+          "topicos": [
+            {
+              "nome": "ITIL e ITSM",
+              "explicacao": "Gerenciamento de serviços, incidentes, problemas e mudanças."
+            },
+            {
+              "nome": "COBIT e ISO 38500",
+              "explicacao": "Governança corporativa de TI e boas práticas de gestão."
+            },
+            {
+              "nome": "SLA e métricas de serviço",
+              "explicacao": "Acordos de nível de serviço e indicadores de disponibilidade e qualidade."
+            }
+          ]
+        },
+        {
+          "materia": "Análise de Negócios e Processos",
+          "icone": "📊",
+          "topicos": [
+            {
+              "nome": "Mapeamento de processos",
+              "explicacao": "BPMN, modelagem AS-IS e TO-BE para otimização operacional."
+            },
+            {
+              "nome": "Business Intelligence",
+              "explicacao": "Dados, dashboards e apoio à decisão estratégica."
+            },
+            {
+              "nome": "Gestão da mudança",
+              "explicacao": "Comunicação, treinamento e adoção de novas soluções tecnológicas."
+            }
+          ]
+        },
+        {
+          "materia": "Segurança da Informação e Compliance",
+          "icone": "🔒",
+          "topicos": [
+            {
+              "nome": "Políticas de segurança",
+              "explicacao": "Classificação de dados, controles técnicos e organizacionais."
+            },
+            {
+              "nome": "LGPD e proteção de dados",
+              "explicacao": "Conformidade legal, privacidade e direitos dos titulares."
+            },
+            {
+              "nome": "Riscos e continuidade",
+              "explicacao": "Gestão de riscos, plano de continuidade e recuperação de desastres."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
