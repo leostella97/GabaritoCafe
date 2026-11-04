@@ -31684,24 +31684,82 @@ const DadosSala = {
             {
               "nome": "Gestão de portfólio de projetos",
               "explicacao": "Priorização, análise de valor e portfólio balanceado de iniciativas."
+            },
+            {
+              "nome": "Orçamento e finanças de TI",
+              "explicacao": "TCO, ROI, CAPEX/OPEX e justificativa de investimentos."
+            },
+            {
+              "nome": "Liderança e comunicação executiva",
+              "explicacao": "Influência, storytelling e gestão de stakeholders."
+            },
+            {
+              "nome": "Transformação digital",
+              "explicacao": "Diagnóstico de maturidade e roteiro de mudança organizacional."
             }
           ]
         },
         {
-          "materia": "Governança e Serviços de TI",
-          "icone": "⚙️",
+          "materia": "Governança, Riscos e Compliance de TI",
+          "icone": "🏛️",
           "topicos": [
-            {
-              "nome": "ITIL e ITSM",
-              "explicacao": "Gerenciamento de serviços, incidentes, problemas e mudanças."
-            },
             {
               "nome": "COBIT e ISO 38500",
               "explicacao": "Governança corporativa de TI e boas práticas de gestão."
             },
             {
+              "nome": "ITIL e ITSM",
+              "explicacao": "Gerenciamento de serviços, incidentes, problemas e mudanças."
+            },
+            {
+              "nome": "Gestão de riscos de TI",
+              "explicacao": "Identificação, avaliação e tratamento de riscos operacionais."
+            },
+            {
+              "nome": "Segurança da informação",
+              "explicacao": "Políticas, controles técnicos e organizacionais."
+            },
+            {
+              "nome": "LGPD e proteção de dados",
+              "explicacao": "Conformidade legal, privacidade e direitos dos titulares."
+            },
+            {
+              "nome": "Auditoria e controles internos",
+              "explicacao": "Testes de controles, evidências e relatórios de auditoria."
+            },
+            {
+              "nome": "Continuidade de negócios",
+              "explicacao": "Plano de continuidade e recuperação de desastres."
+            }
+          ]
+        },
+        {
+          "materia": "Serviços de TI e Operações",
+          "icone": "⚙️",
+          "topicos": [
+            {
               "nome": "SLA e métricas de serviço",
               "explicacao": "Acordos de nível de serviço e indicadores de disponibilidade e qualidade."
+            },
+            {
+              "nome": "Gestão de incidentes e problemas",
+              "explicacao": "Ciclo de vida, escalonamento e resolução estruturada."
+            },
+            {
+              "nome": "Gestão de mudanças e releases",
+              "explicacao": "Avaliação de impacto e implantação controlada."
+            },
+            {
+              "nome": "Gerenciamento de capacidade",
+              "explicacao": "Planejamento de recursos e dimensionamento de infraestrutura."
+            },
+            {
+              "nome": "Service Desk e suporte",
+              "explicacao": "Atendimento ao usuário e catálogo de serviços."
+            },
+            {
+              "nome": "Automação e DevOps",
+              "explicacao": "CI/CD, pipelines e automação de operações."
             }
           ]
         },
@@ -31710,8 +31768,8 @@ const DadosSala = {
           "icone": "📊",
           "topicos": [
             {
-              "nome": "Mapeamento de processos",
-              "explicacao": "BPMN, modelagem AS-IS e TO-BE para otimização operacional."
+              "nome": "Mapeamento de processos BPMN",
+              "explicacao": "Modelagem AS-IS e TO-BE para otimização operacional."
             },
             {
               "nome": "Business Intelligence",
@@ -31719,25 +31777,127 @@ const DadosSala = {
             },
             {
               "nome": "Gestão da mudança",
-              "explicacao": "Comunicação, treinamento e adoção de novas soluções tecnológicas."
+              "explicacao": "Comunicação, treinamento e adoção de novas soluções."
+            },
+            {
+              "nome": "Modelagem de requisitos",
+              "explicacao": "Elicitação, validação e rastreabilidade de requisitos."
+            },
+            {
+              "nome": "KPIs e balanced scorecard",
+              "explicacao": "Indicadores estratégicos alinhados aos objetivos de negócio."
             }
           ]
         },
         {
-          "materia": "Segurança da Informação e Compliance",
-          "icone": "🔒",
+          "materia": "Gestão de Projetos e Portfólio",
+          "icone": "🗂️",
           "topicos": [
             {
-              "nome": "Políticas de segurança",
-              "explicacao": "Classificação de dados, controles técnicos e organizacionais."
+              "nome": "PMBOK e Lean Portfolio Management",
+              "explicacao": "Estrutura de processos e governança de portfólio."
             },
             {
-              "nome": "LGPD e proteção de dados",
-              "explicacao": "Conformidade legal, privacidade e direitos dos titulares."
+              "nome": "Escopo, tempo e custo",
+              "explicacao": "Planejamento, estimativas e controle integrado."
             },
             {
-              "nome": "Riscos e continuidade",
-              "explicacao": "Gestão de riscos, plano de continuidade e recuperação de desastres."
+              "nome": "Qualidade e riscos em projetos",
+              "explicacao": "Garantia da qualidade e matriz de riscos."
+            },
+            {
+              "nome": "Comunicação e stakeholders",
+              "explicacao": "Plano de engajamento e relatórios executivos."
+            },
+            {
+              "nome": "Agile e híbridos",
+              "explicacao": "Scrum, Kanban e abordagens adaptativas."
+            },
+            {
+              "nome": "Fechamento e lições aprendidas",
+              "explicacao": "Encerramento administrativo e transferência de conhecimento."
+            }
+          ]
+        },
+        {
+          "materia": "Arquitetura e Infraestrutura de TI",
+          "icone": "🖥️",
+          "topicos": [
+            {
+              "nome": "Arquitetura de soluções",
+              "explicacao": "Monolito, microsserviços e orientada a eventos."
+            },
+            {
+              "nome": "Nuvem e hibridismo",
+              "explicacao": "IaaS, PaaS, SaaS e estratégias multicloud."
+            },
+            {
+              "nome": "Rede e segurança perimetral",
+              "explicacao": "Firewall, VPN, segmentação e monitoramento."
+            },
+            {
+              "nome": "Banco de dados gerencial",
+              "explicacao": "Modelagem, performance e governança de dados."
+            },
+            {
+              "nome": "Observabilidade",
+              "explicacao": "Logs, métricas, tracing e alertas."
+            }
+          ]
+        },
+        {
+          "materia": "Dados, BI e Analytics",
+          "icone": "📈",
+          "topicos": [
+            {
+              "nome": "Governança de dados",
+              "explicacao": "Qualidade, linhagem e catálogo de dados."
+            },
+            {
+              "nome": "Modelagem dimensional",
+              "explicacao": "Star schema, snowflake e ETL/ELT."
+            },
+            {
+              "nome": "Visualização e storytelling",
+              "explicacao": "Dashboards executivos e comunicação de insights."
+            },
+            {
+              "nome": "Analytics descritivo e preditivo",
+              "explicacao": "Métricas, correlação e modelos preditivos básicos."
+            },
+            {
+              "nome": "Data literacy",
+              "explicacao": "Cultura de dados e capacitação de usuários."
+            }
+          ]
+        },
+        {
+          "materia": "Inovação, Transformação Digital e Startups",
+          "icone": "🚀",
+          "topicos": [
+            {
+              "nome": "Design Thinking",
+              "explicacao": "Empatia, ideação, prototipação e testes."
+            },
+            {
+              "nome": "MVP e experimentação",
+              "explicacao": "Validação de hipóteses e aprendizado rápido."
+            },
+            {
+              "nome": "Ecossistema de inovação",
+              "explicacao": "Parcerias, open innovation e venture client."
+            },
+            {
+              "nome": "Produto digital e UX",
+              "explicacao": "Roadmap de produto e experiência do usuário."
+            },
+            {
+              "nome": "Cultura digital",
+              "explicacao": "Agilidade organizacional e liderança adaptativa."
+            },
+            {
+              "nome": "Sustentabilidade e ESG em TI",
+              "explicacao": "Impacto ambiental, social e governança tecnológica."
             }
           ]
         }
