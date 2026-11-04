@@ -31696,6 +31696,14 @@ const DadosSala = {
             {
               "nome": "Transformação digital",
               "explicacao": "Diagnóstico de maturidade e roteiro de mudança organizacional."
+            },
+            {
+              "nome": "Benchmarking e melhores práticas",
+              "explicacao": "Comparação com referências de mercado e adoção de padrões."
+            },
+            {
+              "nome": "Gestão de ativos de TI",
+              "explicacao": "Inventário, ciclo de vida e valor residual de ativos tecnológicos."
             }
           ]
         },
@@ -31730,6 +31738,14 @@ const DadosSala = {
             {
               "nome": "Continuidade de negócios",
               "explicacao": "Plano de continuidade e recuperação de desastres."
+            },
+            {
+              "nome": "PRINCE2 e frameworks ágeis",
+              "explicacao": "Integração de governança tradicional com métodos ágeis."
+            },
+            {
+              "nome": "Gestão de identidade e acesso",
+              "explicacao": "IAM, privilégios mínimos e autenticação multifator."
             }
           ]
         },
@@ -31760,6 +31776,14 @@ const DadosSala = {
             {
               "nome": "Automação e DevOps",
               "explicacao": "CI/CD, pipelines e automação de operações."
+            },
+            {
+              "nome": "Gestão de fornecedores",
+              "explicacao": "Contratos, desempenho e relacionamento com terceiros."
+            },
+            {
+              "nome": "Catálogo de serviços",
+              "explicacao": "Portfólio visível, métricas e alinhamento com demanda."
             }
           ]
         },
@@ -31786,6 +31810,14 @@ const DadosSala = {
             {
               "nome": "KPIs e balanced scorecard",
               "explicacao": "Indicadores estratégicos alinhados aos objetivos de negócio."
+            },
+            {
+              "nome": "Modelagem de dados",
+              "explicacao": "Entidade-relacionamento, normalização e integração."
+            },
+            {
+              "nome": "Design de experiência do usuário",
+              "explicacao": "Jornada do usuário e usabilidade em soluções de TI."
             }
           ]
         },
