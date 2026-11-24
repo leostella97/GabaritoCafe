@@ -84,6 +84,35 @@
 .chip.vermelho { background: var(--vermelho-claro); border-color: #ecc3bc; color: var(--vermelho); } /* chip de erro */
 .chip.materia { background: var(--cafe); color: #fff7ea; border-color: var(--cafe); } /* chip de matéria, café sólido */
 
+/* TEAM_008: chip de vaga clicável — seleciona "o que estudar" por cargo */
+.chip-vaga {                        /* botão de vaga no seletor do programa */
+  display: inline-flex;             /* conteúdo alinhado */
+  align-items: center;              /* centraliza na vertical */
+  padding: 0.4rem 0.85rem;          /* área clicável confortável */
+  border-radius: 999px;             /* pílula */
+  border: 2px solid var(--borda);   /* borda discreta quando desmarcado */
+  background: var(--superficie);    /* fundo claro */
+  color: var(--cafe-escuro);        /* texto escuro */
+  font-weight: 700;                 /* firme */
+  font-size: 0.85rem;               /* discreto */
+  font-family: inherit;             /* mesma fonte do app */
+  cursor: pointer;                  /* mostra que é clicável */
+  transition: all 0.15s ease;       /* reação suave */
+}
+.chip-vaga:hover { border-color: var(--caramelo); } /* acende no hover */
+.chip-vaga.ativa {                  /* vaga selecionada */
+  background: var(--cafe);          /* fundo café */
+  border-color: var(--cafe);        /* borda café */
+  color: #fff7ea;                   /* texto creme */
+}
+.chip.materia.chip-vaga {           /* chip de vaga no cartão de cargos */
+  cursor: pointer;                  /* mostra que é clicável */
+  font-family: inherit;             /* mesma fonte do app */
+}
+.chip.materia.chip-vaga.ativa {     /* vaga ativa no cartão de cargos */
+  outline: 3px solid var(--caramelo); /* anel caramelo marca a ativa */
+}
+
 /* ---------- Campos de formulário ---------- */
 .campo { margin-bottom: 1rem; }     /* espaço entre campos */
 

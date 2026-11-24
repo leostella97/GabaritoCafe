@@ -9,6 +9,7 @@
 const EditalUI = {
 
   ultimaAnalise: null,               // guarda a última análise (para gerar simulado depois)
+  cargoAtivo: null,                  // TEAM_008: vaga selecionada (null = todas)
 
   // Liga os eventos da tela (chamado uma vez no início do app)
   iniciar() {
@@ -85,6 +86,16 @@ const EditalUI = {
         const corpo = mais.parentElement.querySelector('.plano-corpo'); // o corpo do item
         const aberto = corpo.classList.toggle('aberto');    // alterna o estado
         mais.textContent = aberto ? T('ed_ver_menos') : T('ed_ver_mais'); // troca o rótulo
+      }
+      // TEAM_008: chip de vaga — separa "o que estudar" por cargo
+      const vaga = e.target.closest('.chip-vaga');          // chip de vaga clicado
+      if (vaga) {                                           // se clicou numa vaga
+        const nome = vaga.dataset.vaga;                     // nome da vaga (ou "todas")
+        this.selecionarVaga(nome === 'todas' || nome === this.cargoAtivo ? null : nome); // alterna a seleção
+        if (vaga.classList.contains('chip-vaga-link')) {    // veio do cartão de cargos?
+          const bloco = document.getElementById('bloco-programa'); // cartão do programa
+          if (bloco) bloco.scrollIntoView({ behavior: 'smooth', block: 'start' }); // rola até ele
+        }
       }
     });
     resultado.addEventListener('keydown', (e) => {            // acessível por teclado
@@ -176,6 +187,7 @@ const EditalUI = {
   renderizarResultado(analise) {
     const estado = document.getElementById('edital-estado'); // caixa de status
     estado.classList.add('oculto');                        // esconde o "lendo"
+    this.cargoAtivo = null;                                // TEAM_008: análise nova começa sem vaga ativa
 
     if (!analise.valido) {                                  // análise vazia (texto curto)
       document.getElementById('edital-resultado').innerHTML = '<div class="nota">' + T('ed_curto_aviso') + '</div>'; // avisa
@@ -259,9 +271,12 @@ const EditalUI = {
     html += '<div class="cartao bloco-edital aparecer">';   // abre o cartão
     html += '<h3>' + T('ed_cargos_t') + '</h3>';            // título da seção
     if (analise.cargos.length > 0) {                        // se achamos cargos
+      // TEAM_008: cada vaga é um botão — clique separa "o que estudar" dela
+      html += '<p class="texto-suave" style="font-size:0.78rem;margin:0.3rem 0 0.5rem">' + T('ed_cargos_dica') + '</p>'; // dica de uso
       html += '<div class="lista-chips">';                  // abre a fileira de chips
       for (const cargo of analise.cargos) {                 // percorre os cargos
-        html += '<span class="chip materia">' + Util.escape(cargo) + '</span>'; // chip de cada cargo
+        const ativo = this.cargoAtivo === cargo ? ' ativa' : ''; // marca a vaga ativa
+        html += '<button type="button" class="chip materia chip-vaga chip-vaga-link' + ativo + '" data-vaga="' + Util.escape(cargo) + '">' + Util.escape(cargo) + '</button>'; // chip clicável da vaga
       }
       html += '</div>';                                     // fecha a fileira
       // Escolaridade exigida (quando o edital fala dela)
@@ -305,9 +320,10 @@ const EditalUI = {
     html += '</div>';                                       // fecha o cartão
 
     // ---- Cartão 6: o conteúdo programático, matéria por matéria ----
-    html += '<div class="cartao bloco-edital aparecer">';   // abre o cartão
+    // TEAM_008: com seletor de vaga — "o que estudar" separado por cargo
+    html += '<div class="cartao bloco-edital aparecer" id="bloco-programa">'; // abre o cartão
     html += '<h3>' + T('ed_programa_t') + '</h3>';          // título da seção
-    html += this.blocoPrograma(analise);                    // desenha os tópicos que o edital pede
+    html += '<div id="bloco-programa-conteudo">' + this.programaDaVaga(analise, this.cargoAtivo) + '</div>'; // programa da vaga ativa
     html += '</div>';                                       // fecha o cartão
 
     // ---- Edital Verticalizado Interativo ----
@@ -321,16 +337,10 @@ const EditalUI = {
     }
 
     // ---- Cartão 7: plano de estudo sugerido (com cronograma inteligente) ----
-    html += '<div class="cartao bloco-edital aparecer">';   // abre o cartão
+    // TEAM_008: filtrado pela vaga ativa quando houver uma
+    html += '<div class="cartao bloco-edital aparecer" id="bloco-plano">'; // abre o cartão
     html += '<h3>' + T('ed_plano_t') + '</h3>';             // título da seção
-    html += this.blocoCronograma(analise);                  // dica de ritmo conforme os dias que faltam
-    if (analise.materias.length > 0) {                      // se temos matérias para planejar
-      for (const materia of analise.materias) {             // percorre as matérias
-        html += this.planoDeMateria(materia.rotulo);        // monta o item de plano de cada uma
-      }
-    } else {                                                // sem matérias, sem plano
-      html += '<p class="texto-suave">' + T('ed_plano_vazio') + '</p>'; // orienta
-    }
+    html += '<div id="bloco-plano-conteudo">' + this.planoDaVaga(analise, this.cargoAtivo) + '</div>'; // plano da vaga ativa
     html += '</div>';                                       // fecha o cartão
 
     // ---- Botão: gerar simulado com as matérias do edital ----
@@ -341,12 +351,7 @@ const EditalUI = {
     caixa.innerHTML = html;                                 // despeja o HTML na tela
 
     // Liga o "Ver mais…" dos itens do plano que passam de 2 linhas
-    for (const corpo of caixa.querySelectorAll('.plano-corpo')) { // percorre os corpos colapsáveis
-      if (corpo.scrollHeight > corpo.clientHeight + 2) {    // conteúdo cortado?
-        const botao = corpo.parentElement.querySelector('.ver-mais'); // botão irmão
-        if (botao) botao.classList.remove('oculto');        // mostra o "Ver mais…"
-      }
-    }
+    this.ligarVerMais(caixa);                               // TEAM_008: virou método (reuso na troca de vaga)
 
     // Liga eventos do Edital Verticalizado Interativo e Comparador
     if (typeof EditalVerticalUI !== 'undefined') {
@@ -360,7 +365,8 @@ const EditalUI = {
     const btn = document.getElementById('btn-simulado-edital'); // pega o botão criado
     if (btn) {                                              // se o botão existe
       btn.addEventListener('click', () => {                 // no clique
-        const materias = this.ultimaAnalise.materias        // matérias detectadas
+        // TEAM_008: com vaga ativa, o simulado usa só as matérias DELA
+        const materias = this.materiasDaVaga(this.ultimaAnalise, this.cargoAtivo).materias // matérias da vaga ativa
           .filter(m => m.temBanco)                          // só as que têm questões
           .map(m => m.rotulo);                              // pega os nomes
         const ensinos = this.ensinosDoEdital(this.ultimaAnalise); // nível de ensino sugerido pelo edital
@@ -537,6 +543,16 @@ const EditalUI = {
     const comTopicos = analise.materias.filter(m => m.topicos && m.topicos.length > 0); // matérias com tópicos
     if (comTopicos.length === 0) return '<p class="texto-suave">' + T('ed_programa_vazio') + '</p>'; // nada achado
     let html = '<p class="texto-suave" style="font-size:0.85rem">' + T('ed_programa_sub') + '</p>'; // explicação
+    html += this.programaDasMaterias(comTopicos);           // desenha matéria por matéria
+    return html;                                            // devolve o bloco
+  },
+
+  // TEAM_008: desenha a lista de matérias com seus tópicos do edital
+  // (reuso das visões "todas as vagas" e "por vaga")
+  programaDasMaterias(materias) {
+    const comTopicos = materias.filter(m => m.topicos && m.topicos.length > 0); // matérias com tópicos
+    if (comTopicos.length === 0) return '<p class="texto-suave">' + T('ed_programa_vazio') + '</p>'; // nada achado
+    let html = '';                                          // acumulador
     for (const materia of comTopicos) {                     // percorre as matérias com tópicos
       html += '<div class="plano-item">';                   // abre o bloco da matéria
       html += '<span class="materia-nome clicavel" data-materia="' + Util.escape(materia.rotulo) + '" role="button" tabindex="0" title="' + T('ed_modal_dica') + '">' + Util.escape(materia.rotulo) + (materia.temBanco ? ' ✓' : '') + '</span>'; // nome clicável da matéria
@@ -549,6 +565,100 @@ const EditalUI = {
       html += '</div>';                                     // fecha o bloco
     }
     return html;                                            // devolve o bloco
+  },
+
+  // TEAM_008: seletor de vaga + conteúdo programático da vaga escolhida
+  programaDaVaga(analise, cargo) {
+    let html = '';                                          // acumulador
+    if (analise.cargos.length > 0) {                        // seletor só faz sentido com vagas
+      html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.5rem">' + T('ed_vaga_sel') + '</p>'; // rótulo do seletor
+      html += '<div class="chips-escolha" style="margin-bottom:0.9rem">'; // fileira de vagas
+      html += '<button type="button" class="chip-vaga' + (!cargo ? ' ativa' : '') + '" data-vaga="todas">' + T('ed_vaga_todas') + '</button>'; // chip "Todas"
+      for (const c of analise.cargos) {                     // percorre as vagas
+        html += '<button type="button" class="chip-vaga' + (cargo === c ? ' ativa' : '') + '" data-vaga="' + Util.escape(c) + '">' + Util.escape(c) + '</button>'; // chip de cada vaga
+      }
+      html += '</div>';                                     // fecha a fileira
+    }
+    if (!cargo) {                                           // "Todas as vagas": visão fundida
+      html += this.blocoPrograma(analise);                  // desenha o programa inteiro
+      return html;                                          // pronto
+    }
+    const info = this.materiasDaVaga(analise, cargo);       // resolve as matérias da vaga
+    // Avisa de onde veio o programa: bloco próprio ou o comum do edital
+    html += '<p class="texto-suave" style="font-size:0.8rem;margin:0 0 0.6rem">' + (info.comum ? T('ed_vaga_comum') : T('ed_vaga_especifica')) + '</p>'; // nota da origem
+    html += this.programaDasMaterias(info.materias);        // desenha matéria por matéria
+    return html;                                            // devolve o bloco
+  },
+
+  // TEAM_008: resolve as matérias de uma vaga — programa próprio se o
+  // edital separou por cargo; senão o programa comum; senão a lista
+  // fundida de todas as matérias detectadas.
+  materiasDaVaga(analise, cargo) {
+    if (!cargo) return { materias: analise.materias, comum: false }; // sem filtro de vaga
+    const grupos = analise.programasPorCargo || [];         // blocos por cargo da análise
+    const chave = AnaliseEdital.normalizar(cargo);          // nome da vaga normalizado
+    const proprio = grupos.find(g => g.cargo && AnaliseEdital.normalizar(g.cargo) === chave); // bloco próprio dela
+    const comum = grupos.find(g => !g.cargo);               // bloco comum a todos
+    let base, origemComum;                                  // fonte das matérias + marca
+    if (proprio && proprio.materias.length > 0) {           // achou programa próprio?
+      base = proprio.materias;                              // usa o dela
+      origemComum = false;                                  // origem própria
+    } else if (comum && comum.materias.length > 0) {        // senão, tem bloco comum?
+      base = comum.materias;                                // usa o comum
+      origemComum = true;                                   // origem comum
+    } else {                                                // sem bloco nenhum
+      base = analise.materias;                              // cai na lista fundida
+      origemComum = true;                                   // origem comum
+    }
+    // Enriquece cada matéria com os dados da análise global (temBanco)
+    const materias = base.map(m => {                        // percorre as matérias da vaga
+      const d = analise.materias.find(x => x.rotulo === m.rotulo); // acha a global correspondente
+      return { rotulo: m.rotulo, topicos: m.topicos || (d ? d.topicos : []), temBanco: !!(d && d.temBanco) }; // tópicos + marca do banco
+    });
+    return { materias: materias, comum: origemComum };      // devolve matérias + origem
+  },
+
+  // TEAM_008: plano de estudo filtrado pela vaga ativa (ou tudo)
+  planoDaVaga(analise, cargo) {
+    let html = this.blocoCronograma(analise);               // dica de ritmo conforme os dias
+    const materias = cargo ? this.materiasDaVaga(analise, cargo).materias : analise.materias; // filtra pela vaga
+    if (materias.length > 0) {                              // se temos matérias para planejar
+      for (const materia of materias) {                     // percorre as matérias da vaga
+        html += this.planoDeMateria(materia.rotulo);        // monta o item de plano de cada uma
+      }
+    } else {                                                // sem matérias, sem plano
+      html += '<p class="texto-suave">' + T('ed_plano_vazio') + '</p>'; // orienta
+    }
+    return html;                                            // devolve o plano
+  },
+
+  // TEAM_008: marca a vaga ativa e atualiza só o que muda na tela
+  // (programa, plano e estado dos chips) — sem redesenhar tudo
+  selecionarVaga(nome) {
+    this.cargoAtivo = nome;                                 // vaga ativa (null = todas)
+    const analise = this.ultimaAnalise;                     // análise corrente
+    if (!analise) return;                                   // sem análise, nada a fazer
+    const prog = document.getElementById('bloco-programa-conteudo'); // corpo do programa
+    if (prog) prog.innerHTML = this.programaDaVaga(analise, nome); // redesenha o programa
+    const plano = document.getElementById('bloco-plano-conteudo'); // corpo do plano
+    if (plano) {                                            // se existe
+      plano.innerHTML = this.planoDaVaga(analise, nome);    // redesenha o plano
+      this.ligarVerMais(plano);                             // religa os "Ver mais…"
+    }
+    // Atualiza o estado visual de TODOS os chips de vaga da tela
+    for (const c of document.querySelectorAll('#edital-resultado .chip-vaga')) { // percorre os chips
+      c.classList.toggle('ativa', c.dataset.vaga === (nome || 'todas')); // marca só o ativo
+    }
+  },
+
+  // TEAM_008: mostra o "Ver mais…" dos itens de plano com conteúdo cortado
+  ligarVerMais(raiz) {
+    for (const corpo of raiz.querySelectorAll('.plano-corpo')) { // percorre os corpos colapsáveis
+      if (corpo.scrollHeight > corpo.clientHeight + 2) {    // conteúdo cortado?
+        const botao = corpo.parentElement.querySelector('.ver-mais'); // botão irmão
+        if (botao) botao.classList.remove('oculto');        // mostra o "Ver mais…"
+      }
+    }
   },
 
   // Dá uma orientação de ritmo de estudo conforme os dias que faltam para a prova

@@ -327,6 +327,11 @@ const Idioma = {
       ed_programa_t: '📖 O que o edital pede em cada matéria', // seção
       ed_programa_sub: 'Estes são os tópicos que o próprio edital lista. Comece pelos que você domina menos:', // explicação
       ed_programa_vazio: 'Não consegui separar o conteúdo programático por matéria. Cola o texto do edital no campo abaixo que eu tento de novo!', // aviso
+      ed_vaga_sel: 'Escolha a vaga para ver só o que ela pede:', // TEAM_008: rótulo do seletor
+      ed_vaga_todas: 'Todas as vagas',                          // TEAM_008: chip sem filtro
+      ed_vaga_comum: 'Esta vaga segue o conteúdo programático comum do edital:', // TEAM_008: sem bloco próprio
+      ed_vaga_especifica: 'Conteúdo programático específico desta vaga:', // TEAM_008: bloco próprio
+      ed_cargos_dica: 'Toque numa vaga para ver só o que ela pede. 👇', // TEAM_008: dica no cartão de cargos
       ed_plano_sem_data: 'Não achei a data da prova no texto — cola o edital aqui que eu monto o cronograma do estudo.', // orientação
       ed_plano_dias_1: 'Faltam {dias} dias: reta final! Priorize revisão, caderno de erros e simulados cronometrados.', // reta final
       ed_plano_dias_2: 'Faltam {dias} dias: dá tempo de fechar o edital com folga. Teoria + questões todos os dias.', // meio do caminho
@@ -787,6 +792,11 @@ const Idioma = {
       ed_programa_t: '📖 What the notice asks in each subject',
       ed_programa_sub: 'These are the topics the notice itself lists. Start with the ones you master the least:',
       ed_programa_vazio: 'I could not split the syllabus by subject. Paste the notice text in the field below and I will try again!',
+      ed_vaga_sel: 'Pick a position to see only what it asks:', // TEAM_008: selector label
+      ed_vaga_todas: 'All positions',                           // TEAM_008: unfiltered chip
+      ed_vaga_comum: 'This position follows the notice’s shared syllabus:', // TEAM_008: no own block
+      ed_vaga_especifica: 'Syllabus specific to this position:', // TEAM_008: own block found
+      ed_cargos_dica: 'Tap a position to see only what it asks. 👇', // TEAM_008: hint in positions card
       ed_plano_sem_data: 'I did not find the test date in the text — paste the notice here and I will build your study schedule.',
       ed_plano_dias_1: '{dias} days to go: final stretch! Prioritise review, your mistake notebook and timed mock tests.',
       ed_plano_dias_2: '{dias} days to go: enough time to cover the whole notice comfortably. Theory + questions every day.',
@@ -1247,6 +1257,11 @@ const Idioma = {
       ed_programa_t: '📖 Lo que la convocatoria pide en cada materia',
       ed_programa_sub: 'Estos son los temas que la propia convocatoria enumera. Empieza por los que dominas menos:',
       ed_programa_vazio: 'No pude separar el programa por materia. ¡Pega el texto de la convocatoria en el campo de abajo y lo intento otra vez!',
+      ed_vaga_sel: 'Elige la vacante para ver solo lo que pide:', // TEAM_008: rótulo del selector
+      ed_vaga_todas: 'Todas las vacantes',                      // TEAM_008: chip sin filtro
+      ed_vaga_comum: 'Esta vacante sigue el programa común de la convocatoria:', // TEAM_008: sin bloque propio
+      ed_vaga_especifica: 'Programa específico de esta vacante:', // TEAM_008: bloque propio
+      ed_cargos_dica: 'Toca una vacante para ver solo lo que pide. 👇', // TEAM_008: pista en la tarjeta
       ed_plano_sem_data: 'No encontré la fecha del examen en el texto — pega la convocatoria aquí y armo tu cronograma de estudio.',
       ed_plano_dias_1: 'Faltan {dias} días: ¡recta final! Prioriza repaso, cuaderno de errores y simulacros cronometrados.',
       ed_plano_dias_2: 'Faltan {dias} días: hay tiempo para cubrir la convocatoria con holgura. Teoría + preguntas todos los días.',

@@ -248,7 +248,9 @@ const AnaliseEdital = {
   ],
 
   // ---------- Palavras típicas de nome de cargo ----------
-  PALAVRAS_CARGO: ['AGENTE', 'ANALISTA', 'ASSISTENTE', 'AUXILIAR', 'TECNICO', 'PROFESSOR', 'AUDITOR', 'OFICIAL', 'GUARDA', 'MOTORISTA', 'ENFERMEIRO', 'FISCAL', 'INSPETOR', 'ESCRIVAO', 'DELEGADO', 'PERITO', 'RECEPCIONISTA', 'SECRETARIO', 'ENGENHEIRO', 'ADVOGADO', 'CONTADOR', 'MEDICO', 'ODONTOLOGO', 'ARQUITETO', 'ADMINISTRADOR', 'COZINHEIRO', 'PORTEIRO', 'ZELADOR', 'VIGIA', 'SERVENTE', 'PEDREIRO', 'ELETRICISTA', 'GARI', 'JARDINEIRO', 'PSICOLOGO', 'BIBLIOTECARIO', 'FARMACEUTICO', 'NUTRICIONISTA', 'FONOAUDIOLOGO', 'PROCURADOR', 'SOCORRISTA', 'SOLDADO', 'ESCRITURARIO', 'CONSULTOR', 'POLICIAL', 'PENITENCIARIO', 'BOMBEIRO', 'MONITOR', 'LEGISLATIVO', 'OPERADOR', 'BANCARIO'],
+  // TEAM_008: lista ampliada (técnica, estagiário, cargos comuns de
+  // prefeitura e de tribunais) — sem elas, várias vagas reais sumiam
+  PALAVRAS_CARGO: ['AGENTE', 'ANALISTA', 'ASSISTENTE', 'AUXILIAR', 'TECNICO', 'TECNICA', 'PROFESSOR', 'PROFESSORA', 'AUDITOR', 'OFICIAL', 'GUARDA', 'MOTORISTA', 'ENFERMEIRO', 'FISCAL', 'INSPETOR', 'ESCRIVAO', 'DELEGADO', 'PERITO', 'RECEPCIONISTA', 'SECRETARIO', 'ENGENHEIRO', 'ADVOGADO', 'CONTADOR', 'MEDICO', 'ODONTOLOGO', 'ARQUITETO', 'ADMINISTRADOR', 'COZINHEIRO', 'PORTEIRO', 'ZELADOR', 'VIGIA', 'SERVENTE', 'PEDREIRO', 'ELETRICISTA', 'GARI', 'JARDINEIRO', 'PSICOLOGO', 'BIBLIOTECARIO', 'FARMACEUTICO', 'NUTRICIONISTA', 'FONOAUDIOLOGO', 'PROCURADOR', 'SOCORRISTA', 'SOLDADO', 'ESCRITURARIO', 'CONSULTOR', 'POLICIAL', 'PENITENCIARIO', 'BOMBEIRO', 'MONITOR', 'LEGISLATIVO', 'OPERADOR', 'BANCARIO', 'ESTAGIARIO', 'VETERINARIO', 'BIOLOGO', 'QUIMICO', 'GEOLOGO', 'PEDAGOGO', 'ECONOMISTA', 'SOCIOLOGO', 'GEOGRAFO', 'JORNALISTA', 'ATENDENTE', 'VIGILANTE', 'ALMOXARIFE', 'DIGITADOR', 'TELEFONISTA', 'MECANICO', 'DIRETOR', 'GERENTE', 'COORDENADOR', 'SUPERVISOR', 'INSTRUTOR', 'ESPECIALISTA', 'MERENDEIRA', 'COPEIRA', 'DESENHISTA', 'TOPOGRAFO', 'OPERARIO', 'ENCARREGADO', 'PROGRAMADOR', 'CUIDADOR', 'BRIGADISTA', 'SERVENTUARIO', 'APRENDIZ', 'CARPINTEIRO', 'ARMADOR', 'SERIGRAFISTA', 'TRAINEE'],
 
   // ---------- Cargos conhecidos (reconhecimento direto por nome) ----------
   // Editais de carreiras famosas citam o cargo completo — detectamos pelo nome exato
@@ -365,67 +367,118 @@ const AnaliseEdital = {
   },
 
   // ---------- CARGOS ----------
-  // Tenta identificar os cargos citados no edital
+  // Tenta identificar os cargos citados no edital.
+  // TEAM_008: reescrito — a versão antiga deixava vagas de fora porque
+  // (1) só varria 60 linhas depois do PRIMEIRO cabeçalho, (2) parava em
+  // itens numerados "1. Agente" (achava que era nova seção), (3) jogava
+  // fora linhas que misturam cargo com "Nível Médio" e (4) cortava em 12.
   extrairCargos(texto) {
     const linhas = String(texto).split(/\r?\n/).map(l => l.trim()).filter(Boolean); // quebra em linhas limpas
     const normLinhas = linhas.map(l => this.normalizar(l)); // versão normalizada de cada linha
     const normalTexto = this.normalizar(texto);             // texto inteiro normalizado (para os conhecidos)
     const candidatos = new Set();                           // conjunto (evita repetidos)
-    const vistosNorm = new Set();                           // conjunto normalizado (evita "Analista" + "ANALISTA")
+    const vistosNorm = new Set();                           // conjunto normalizado (deduplica)
+
+    const registrar = (nome) => {                           // guarda um nome de cargo novo
+      if (nome.length < 4) return;                          // curto demais, ignora
+      const norm = this.normalizar(nome);                   // chave normalizada para deduplicar
+      if (vistosNorm.has(norm)) return;                     // já registrado, pula
+      vistosNorm.add(norm);                                 // marca como visto
+      candidatos.add(nome.slice(0, 70));                    // guarda o nome (limitado)
+    };
 
     // Primeiro: procura os cargos conhecidos pelo nome exato (funciona sem seção de vagas)
     for (const conhecido of this.CARGOS_CONHECIDOS) {       // percorre a lista de cargos famosos
       if (conhecido.padroes.some(p => this.contemPadrao(normalTexto, p))) { // o nome aparece como palavra?
-        candidatos.add(conhecido.rotulo);                   // registra o nome bonito
-        vistosNorm.add(this.normalizar(conhecido.rotulo));  // registra a forma normalizada
+        registrar(conhecido.rotulo);                        // registra o nome bonito
       }
     }
 
-    // Procura a seção de cargos para começar a varrer dali
-    const indice = normLinhas.findIndex(l => /(DOS CARGOS|CARGOS|VAGAS|EMPREGOS)/.test(l) && l.length < 40); // acha o cabeçalho
-    const inicio = indice >= 0 ? indice + 1 : 0;            // começa depois do cabeçalho (ou no início)
-    const fim = Math.min(linhas.length, inicio + 60);       // varre no máximo 60 linhas
+    // Depois: TODO cabeçalho de seção de cargos vira ponto de partida —
+    // editais espalham as vagas em mais de uma seção (nível médio,
+    // superior, anexo com o quadro de vagas)
+    const inicios = [];                                     // pontos de partida
+    for (let i = 0; i < normLinhas.length; i++) {           // percorre o texto
+      if (this.ehCabecalhoDeCargos(normLinhas[i])) inicios.push(i + 1); // achou cabeçalho, começa depois dele
+    }
+    if (inicios.length === 0) inicios.push(0);              // sem cabeçalho: varre desde o início
 
-    for (let i = inicio; i < fim; i++) {                    // percorre as linhas da seção
-      const linha = linhas[i];                              // linha original
-      const n = normLinhas[i];                              // linha normalizada
-      if (n.length < 3 || n.length > 80) continue;          // ignora linhas vazias ou enormes
-      // Uma nova seção numerada ("2. DOS REQUISITOS") encerra a lista de cargos
-      if (/^\d{1,2}\.\s*[A-Z]/.test(n) && !/^\d+\.\d/.test(n) && n.length < 60) break; // fim da seção
-      // Linhas de requisito falam de cargos, mas não SÃO cargos
-      if (/(NIVEL|ENSINO|ESCOLARIDADE|COMPLETO PARA O CARGO|REQUISITO|CARGA HORARIA|HABILITACAO)/.test(n)) continue; // pula requisitos
-      if (/^(TABELA|QUADRO|CARGOS|VAGAS|TOTAL)/.test(n)) continue; // pula cabeçalhos de tabela
-      const temPalavra = this.PALAVRAS_CARGO.some(p => n.includes(p)); // a linha cita um cargo típico?
-      if (temPalavra) {                                     // se sim, é candidata a cargo
-        // Limpa a linha: separadores de tabela, numeração, salários e vagas
-        const limpo = linha.replace(/[|\t]+/g, ' ')         // troca separadores de tabela por espaço
-          .replace(/\s{2,}/g, ' ')                          // junta espaços duplos
-          .replace(/[-–:]?\s*R\$\s?[\d.,]+\s*$/i, '')       // corta "R$ 2.500,00" do fim (antes das vagas!)
-          .replace(/[-–:]?\s*\d+(\.\d{3})*(,\d+)?\s*(VAGAS?|VAGA)\s*$/i, '') // corta "2000 vagas" do fim
-          .replace(/^\d+(\.\d+)*[-–:.)]?\s*/, '')           // corta a numeração do início ("1.1 ")
-          .replace(/[-–:]\s*$/g, '')                        // corta separador órfão no fim
-          .trim();                                          // limpa as pontas
-        const limpoNorm = this.normalizar(limpo);           // forma normalizada para deduplicar
-        if (limpo.length >= 4 && !vistosNorm.has(limpoNorm)) { // novo e válido?
-          candidatos.add(limpo.slice(0, 70));               // guarda o cargo (limitado a 70 chars)
-          vistosNorm.add(limpoNorm);                        // marca como visto
-        }
+    for (const inicio of inicios) {                         // varre a partir de cada cabeçalho
+      const fim = Math.min(linhas.length, inicio + 200);    // janela generosa (tabelas grandes)
+      for (let i = inicio; i < fim; i++) {                  // percorre as linhas da seção
+        const n = normLinhas[i];                            // linha normalizada
+        if (!n) continue;                                   // linha vazia, pula
+        if (this.ehOutraSecao(n)) break;                    // cabeçalho de OUTRA seção: fim da lista
+        if (n.length > 90) continue;                        // linha longa demais não é nome de cargo
+        if (!this.linhaDeCargo(n)) continue;                // não parece cargo (requisito, tabela...)
+        const limpo = this.limparNomeCargo(linhas[i]);      // tira salário, vagas, nível do nome
+        if (limpo) registrar(limpo);                        // registra o cargo limpo
       }
     }
 
-    // Plano B: se a seção não existia, varre o documento inteiro atrás de cargos
-    if (candidatos.size === 0) {                            // se não achamos nada na seção
+    // Plano B: se nada foi achado, varre o documento inteiro atrás de
+    // linhas "cargo + número" (vagas ou salário na mesma linha)
+    if (candidatos.size === 0) {                            // se não achamos nada nas seções
       for (let i = 0; i < normLinhas.length; i++) {         // percorre todas as linhas
         const n = normLinhas[i];                            // linha normalizada
-        if (n.length > 70) continue;                        // ignora linhas longas demais
-        const temPalavra = this.PALAVRAS_CARGO.some(p => n.includes(p)); // cita cargo típico?
-        if (temPalavra && /\d/.test(n)) {                   // exige um número junto (vaga/salário)
-          candidatos.add(linhas[i].slice(0, 70));           // guarda o candidato
-        }
+        if (n.length > 90) continue;                        // ignora linhas longas demais
+        if (!this.linhaDeCargo(n) || !/\d/.test(n)) continue; // cargo típico + número junto
+        const limpo = this.limparNomeCargo(linhas[i]);      // limpa o nome
+        if (limpo) registrar(limpo);                        // guarda o candidato
       }
     }
 
-    return Array.from(candidatos).slice(0, 12);             // devolve no máximo 12 cargos
+    return Array.from(candidatos).slice(0, 30);             // devolve até 30 cargos
+  },
+
+  // TEAM_008: a linha é um cabeçalho de seção de cargos/vagas?
+  ehCabecalhoDeCargos(n) {
+    if (n.length > 70) return false;                        // cabeçalho é linha curta
+    return /(DOS|DAS|DO|DA|DE)\s+(CARGOS|EMPREGOS|POSTOS|FUNCOES|VAGAS|OCUPACOES|PROVIDENCIAS)\b/.test(n) // "DOS CARGOS", "DAS VAGAS"...
+        || /(QUADRO|RELACAO|DISTRIBUICAO|OFERTA|PROVIMENTO|COMPOSICAO|PREENCHIMENTO)\s+(D[EOS]\s+)?(VAGAS|CARGOS|EMPREGOS|POSTOS|FUNCIONAL)/.test(n) // "QUADRO DE VAGAS"...
+        || /\b(CARGOS|VAGAS|EMPREGOS)\b\s*(E|,|\/)\s*\b(CARGOS|VAGAS|EMPREGOS|FUNCOES|REMUNERACAO|SALARIOS|REQUISITOS|ATRIBUICOES)\b/.test(n) // "CARGOS E REMUNERAÇÃO"
+        || /\bCARGOS?\b[^.]{0,30}\b(VAGAS|SALARIO|REMUNERACAO|VENCIMENTOS)\b/.test(n) // cabeçalho de tabela "CARGO | VAGAS | SALÁRIO"
+        || /^(CARGOS?|VAGAS|EMPREGOS|FUNCOES)\s*[:.\-–]?$/.test(n); // a linha é só a palavra do cabeçalho
+  },
+
+  // TEAM_008: a linha abre OUTRA seção do edital (fim da lista de cargos)?
+  // "2. DOS REQUISITOS", "ANEXO II", "CONTEÚDO PROGRAMÁTICO" param a
+  // varredura — itens numerados de cargo ("1. Agente") NÃO. Esse era o
+  // bug que escondia as vagas.
+  ehOutraSecao(n) {
+    if (n.length > 80) return false;                        // cabeçalho é linha curta
+    return /^\d{1,2}\.\s*(DOS|DAS|DO|DA|DE|DISPOSI|ANEXO|APENDICE|CAPITULO|TITULO|SECAO|CONTEUDO|PROGRAMA|CRONOGRAMA|GABARITO|RESULTADO|CLASSIFICACAO|HOMOLOGACAO)\b/.test(n) // seção numerada
+        || /^(ANEXO|APENDICE|CAPITULO|SECAO|TITULO)\s+[IVX\d]/.test(n) // "ANEXO I", "CAPÍTULO 2"...
+        || /(CONTEUDO\s+PROGRAM|PROGRAMA\s+D[AE]S?\s+PROVAS?|DISCIPLINAS\s+E\s+CONTE)/.test(n); // seção de programa
+  },
+
+  // TEAM_008: a linha normalizada descreve um cargo (e não um requisito)?
+  linhaDeCargo(n) {
+    const semNum = n.replace(/^\d+(\.\d+)*[\s.\-–:)]*/, '').trim(); // tira a numeração "1.1 ", "2) "
+    // começa com palavra de exigência/atributo → é requisito, não cargo
+    if (/^(NIVEL|ENSINO|ESCOLARIDADE|REQUISITOS?|CURSO|FORMACAO|CARGA|JORNADA|HABILITACAO|IDADE|TITULO|ATRIBUI|DESCRI|SALARIO|VENCIMENTO|REMUNERACAO|CLASSE|GRAU|LOTACAO|SETOR|REGIME|FAIXA|PADRAO|LOCAL|SEXO|APRESENTAR|POSSUIR|COMPROVAR|EXIGE|REQUER|AMBOS|OS?\s+CANDIDATOS|PARA\s+TODOS|AS\s+VAGAS|OS\s+CARGOS|TABELA|QUADRO|TOTAL|LEGENDA|OBSERVACAO|NOTA|CONFORME|NOS\s+TERMOS)/.test(semNum)) return false; // requisito/atributo
+    // frases de exigência ou atribuição no meio da linha → requisito
+    if (/(COMPLETO\s+PARA|EXIGE|REQUER|REQUISITOS?\s+PARA|IDADE\s+MINIMA|ANOS\s+DE\s+IDADE|PREENCHER|TER\s+ENSINO|POSSUIR\s+ENSINO|JORNADA\s+(DE|SEM)|CARGA\s+HORARIA\s+(DE|SEM)|ATRIBUICOES|COMPETE|INCUMBE|RESPONSAVEL\s+POR|FAZER\s+JUS)/.test(semNum)) return false; // frase, não cargo
+    return this.PALAVRAS_CARGO.some(p => semNum.includes(p)); // cita um cargo típico?
+  },
+
+  // TEAM_008: transforma a linha de vaga no nome limpo do cargo
+  // ("1. Motorista – Nível Fundamental – 3 vagas – R$ 2.100,00" → "Motorista")
+  limparNomeCargo(linha) {
+    const limpo = String(linha)
+      .replace(/[|\t]+/g, ' ')                              // separadores de tabela viram espaço
+      .replace(/\s{2,}/g, ' ')                              // junta espaços duplos
+      .replace(/R\$.*$/i, '')                               // corta tudo do "R$" em diante
+      .replace(/[-–(,;/]?\s*(N[ÍI]VEL|ENSINO\s+(M[ÉE]DIO|FUNDAMENTAL|SUPERIOR))\s.*$/i, '') // corta "– NÍVEL MÉDIO", "(ENSINO MÉDIO..." — sem engolir "Professor de Ensino Religioso"
+      .replace(/[-–(,;/]?\s*(CARGA\s+HOR[ÁA]RIA|JORNADA|REMUNERA[ÇC][ÃA]O|VENCIMENTOS?|ESCOLARIDADE|SAL[ÁA]RIO)\s.*$/i, '') // corta atributos da linha
+      .replace(/\d+(\.\d{3})*(,\d+)?\s*(VAGAS?|VAG\.?|VC\.?|UNIDADES?|POSTOS?)/gi, ' ') // remove "10 vagas"
+      .replace(/\(\s*(AC|PCD|PPP?|COTAS?|AMPLA|AMPLA\s+CONCORR[ÊE]NCIA|DEFICI[ÊE]NCIA|RESERVADAS?|CR\s*)[^)]*\)/gi, '') // remove "(PCD)", "(ampla concorrência)"
+      .replace(/[-–(,;/|]?\s*\d{1,4}\s*$/, '')              // remove número de vagas solto no fim ("Cargo | 12")
+      .replace(/^\d+(\.\d+)*[-–:.)]?\s*/, '')               // numeração do início ("1.1 ")
+      .replace(/^[•·\-\s–:.,;)]+|[•·\-\s–:.,;(]+$/g, '')    // separadores órfãos nas pontas
+      .replace(/\s{2,}/g, ' ')                              // junta espaços de novo
+      .trim();
+    return limpo.length >= 4 ? limpo : null;                // devolve o nome (ou nada)
   },
 
   // ---------- BANCA ORGANIZADORA ----------
@@ -636,20 +689,34 @@ const AnaliseEdital = {
   },
 
   // ---------- CONTEÚDO PROGRAMÁTICO TÓPICO A TÓPICO ----------
-  // Pega o bloco do conteúdo programático e separa os tópicos de cada matéria
-  extrairPrograma(texto) {
+  // TEAM_008: o edital pode repetir a seção de programa várias vezes —
+  // uma por cargo ou por anexo. Aqui achamos TODOS os blocos.
+  blocosPrograma(texto) {
     const bruto = String(texto);                            // texto original
-    // Acha o início da seção do conteúdo programático
-    const m = bruto.match(/CONTE[UÚ]DO\s+PROGRAM[ÁA]TICO/i) || bruto.match(/PROGRAMA\s+DE\s+PROVAS?/i); // procura o cabeçalho
-    if (!m) return [];                                      // sem seção, sem programa
+    // Cabeçalhos que abrem uma seção de conteúdo programático
+    const re = /(CONTE[UÚ]DOS?\s+PROGRAM[ÁA]TICOS?|PROGRAMAS?\s+D[AE]S?\s+PROVAS?|PROGRAMA\s+DE\s+CONHECIMENTOS|CONTE[UÚ]DOS?\s+D[AE]S?\s+PROVAS?|DISCIPLINAS\s+E\s+CONTE[UÚ]DOS?|CONTE[UÚ]DOS?\s+ESPEC[IÍ]FICOS?)/gi; // todos os cabeçalhos
+    const achados = [];                                     // posições dos cabeçalhos
+    let m;                                                  // ocorrência atual
+    while ((m = re.exec(bruto)) !== null) achados.push(m.index); // coleta todos os inícios
+    if (achados.length === 0) return [];                    // sem seção, sem programa
 
-    // Recorta a seção (até 8000 caracteres ou até outro cabeçalho importante)
-    let trecho = bruto.slice(m.index, m.index + 8000);      // pedaço do texto
-    const fim = trecho.slice(60).search(/\n\s*(DAS\s+DISPOSI|DISPOSI[ÇC][ÕO]ES|CRONOGRAMA|ANEXO\s+[IVX]+)/i); // procura o fim da seção
-    if (fim > 0) trecho = trecho.slice(0, fim + 60);        // corta no fim da seção
+    const blocos = [];                                      // lista de blocos
+    for (let i = 0; i < achados.length; i++) {              // percorre os cabeçalhos
+      const ini = achados[i];                               // início deste bloco
+      const limite = i + 1 < achados.length ? achados[i + 1] : bruto.length; // próximo bloco ou fim do texto
+      let trecho = bruto.slice(ini, Math.min(limite, ini + 14000)); // recorta o bloco (até 14k)
+      // Corta no fim natural da seção (outra seção forte ou anexo seguinte)
+      const corte = trecho.slice(60).search(/\n\s*(DAS\s+DISPOSI|DISPOSI[ÇC][ÕO]ES|DO\s+RESULTADO|DAS\s+INSCR|DOS\s+RECURSOS?|DA\s+MATR[IÍ]Z|CRONOGRAMA|ANEXO\s+[IVX\d]|CAP[IÍ]TULO\s+[IVX\d]|DAS\s+ETAPAS|DO\s+CERTAME)/i); // procura o fim
+      if (corte > 0) trecho = trecho.slice(0, corte + 60);  // corta no fim da seção
+      blocos.push({ ini: ini, trecho: trecho });            // guarda o bloco e sua posição
+    }
+    return blocos;                                          // devolve os blocos
+  },
 
+  // TEAM_008: separa as matérias e tópicos de UM trecho de programa
+  programaDoTrecho(trecho) {
     // Junta as linhas e vai agrupando por matéria
-    const linhas = trecho.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 1); // linhas limpas
+    const linhas = String(trecho).split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 1); // linhas limpas
     const porMateria = {};                                  // matéria → texto dos tópicos
     let materiaAtual = null;                                // matéria sendo preenchida agora
 
@@ -682,7 +749,114 @@ const AnaliseEdital = {
       const topicos = this.separarTopicos(porMateria[rotulo]); // quebra em tópicos
       if (topicos.length > 0) programa.push({ rotulo: rotulo, topicos: topicos }); // guarda se tiver tópico
     }
-    return programa;                                        // devolve o programa
+    return programa;                                        // devolve o programa do trecho
+  },
+
+  // Junta todos os blocos de programa do edital (visão "todas as vagas")
+  extrairPrograma(texto) {
+    const mapa = {};                                        // matéria → conjunto de tópicos
+    for (const bloco of this.blocosPrograma(texto)) {       // percorre cada bloco
+      for (const m of this.programaDoTrecho(bloco.trecho)) {// matérias do bloco
+        if (!mapa[m.rotulo]) mapa[m.rotulo] = new Set();    // cria o conjunto da matéria
+        for (const t of m.topicos) mapa[m.rotulo].add(t);   // soma os tópicos (sem repetir)
+      }
+    }
+    return Object.keys(mapa).map(rotulo => ({ rotulo: rotulo, topicos: Array.from(mapa[rotulo]).slice(0, 20) })); // devolve fundido
+  },
+
+  // TEAM_008: separa o programa POR CARGO — cada bloco vai para o cargo
+  // mencionado mais perto do seu cabeçalho; bloco sem cargo vira o
+  // "programa comum" (cargo = null).
+  extrairProgramasPorCargo(texto, cargos) {
+    const blocos = this.blocosPrograma(texto);              // todos os blocos de programa
+    if (blocos.length === 0) return [];                     // sem programa, sem grupos
+    const grupos = [];                                      // grupos por cargo (na ordem)
+    const porChave = {};                                    // chave normalizada → grupo
+    for (const bloco of blocos) {                           // percorre os blocos
+      const cargo = this.cargoDoBloco(texto, bloco.ini, cargos); // cargo dono do bloco (ou null)
+      const chave = cargo ? this.normalizar(cargo) : '__COMUM__'; // chave do grupo
+      if (!porChave[chave]) {                               // grupo ainda não existe?
+        porChave[chave] = { cargo: cargo, materias: {} };   // cria o grupo
+        grupos.push(porChave[chave]);                       // guarda na ordem de aparição
+      }
+      for (const m of this.programaDoTrecho(bloco.trecho)) {// matérias do bloco
+        const g = porChave[chave];                          // grupo alvo
+        if (!g.materias[m.rotulo]) g.materias[m.rotulo] = new Set(); // conjunto da matéria
+        for (const t of m.topicos) g.materias[m.rotulo].add(t); // soma os tópicos
+      }
+    }
+    return grupos                                           // devolve os grupos
+      .map(g => ({                                          // converte os conjuntos em listas
+        cargo: g.cargo,                                     // cargo (null = programa comum)
+        materias: Object.keys(g.materias).map(r => ({ rotulo: r, topicos: Array.from(g.materias[r]).slice(0, 20) })) // matérias+tópicos
+      }))
+      .filter(g => g.materias.length > 0);                  // só grupos com conteúdo
+  },
+
+  // TEAM_008: descobre a qual cargo pertence um bloco de programa.
+  // Só conta o que está perto do cabeçalho: o nome do cargo na própria
+  // linha do título ("CONTEÚDO PROGRAMÁTICO — CARGO: MOTORISTA"), um
+  // "CARGO DE X" no contexto curto ("ANEXO III — DO CARGO DE X") ou um
+  // nome solto bem perto — janela grande demais pegava menções de
+  // requisito e atribuía o bloco comum ao cargo errado.
+  cargoDoBloco(texto, ini, cargos) {
+    const bruto = String(texto);                            // texto original
+    const fimLinha = bruto.indexOf('\n', ini);              // fim da linha do cabeçalho
+    const limite = fimLinha === -1 ? ini + 160 : Math.min(fimLinha, ini + 160); // onde a linha termina
+    const linhaCab = this.normalizar(bruto.slice(ini, limite)); // linha do cabeçalho normalizada
+    // "COMUM A TODOS OS CARGOS" / "PROGRAMA COMUM" → bloco comum, não é de cargo
+    if (/(TODOS|AMBOS|DIVERSOS|VARIOS)\s+(OS\s+|AS\s+)?CARGOS|PROGRAMA\s+COMUM|CONTEUDO\s+COMUM|CARGOS\s+EM\s+GERAL/.test(linhaCab)) return null; // programa comum
+    // Nomes possíveis: cargos detectados + os conhecidos do catálogo
+    const nomes = new Set((cargos || []).concat(this.CARGOS_CONHECIDOS.map(c => c.rotulo))); // lista de nomes
+    // 1) nome de cargo na própria linha do cabeçalho
+    const naLinha = this.cargoNaLinha(linhaCab, nomes);     // cargo citado no título?
+    if (naLinha) return naLinha;                            // devolve o achado
+    // 2) "CARGO DE X" / "CARGO: X" na linha do cabeçalho
+    const noTitulo = this.cargoPadraoCargo(linhaCab);       // captura "CARGO: X"
+    if (noTitulo) return noTitulo;                          // devolve o capturado
+    // 3) contexto curto ANTES do cabeçalho (título de anexo: "DO CARGO DE X")
+    const antes = this.normalizar(bruto.slice(Math.max(0, ini - 400), ini)); // 400 letras antes
+    return this.cargoPadraoCargo(antes)                     // último "cargo de X" antes do bloco
+        || this.cargoNaLinha(antes.slice(-200), nomes);     // ou nome solto bem perto
+  },
+
+  // TEAM_008: último nome de cargo citado numa linha (o mais perto do fim)
+  cargoNaLinha(linha, nomes) {
+    let melhor = null;                                      // melhor candidato até agora
+    for (const nome of nomes) {                             // percorre os nomes possíveis
+      const alvo = this.normalizar(nome);                   // nome normalizado
+      if (alvo.length < 4) continue;                        // curto demais, ignora
+      const re = new RegExp('\\b' + this.escaparRegex(alvo) + '\\b', 'g'); // palavra inteira
+      let pos = -1, m;                                      // última posição na linha
+      while ((m = re.exec(linha)) !== null) pos = m.index;  // acha a ocorrência mais perto do fim
+      if (pos !== -1 && (!melhor || pos > melhor.pos)) melhor = { pos: pos, nome: nome }; // mais perto vence
+    }
+    return melhor ? melhor.nome : null;                     // devolve o nome (ou nada)
+  },
+
+  // TEAM_008: captura "CARGO DE X" / "CARGO: X" e valida que X é cargo
+  cargoPadraoCargo(linha) {
+    const re = /CARGO[S]?\s*(?:DE|DO|DA|:|–|-)\s*([A-Z][A-Z\s()\/-]{4,50})/g; // captura o nome
+    let m, capturado = null;                                // última captura da linha
+    while ((m = re.exec(linha)) !== null) capturado = m[1]; // fica com a mais perto do fim
+    if (!capturado) return null;                            // nada capturado
+    capturado = capturado
+      .replace(/\b(NIVEL|ENSINO|SUPERIOR|MEDIO|FUNDAMENTAL|COMPLETO|PROVAS?|CONTEUDO|PROGRAMA|COMUM|GERAL)\b.*$/, '') // corta o rabo
+      .replace(/[\s\-–:.,;()\/]+$/, '')                     // separadores no fim
+      .trim();                                              // limpa as pontas
+    if (capturado.length >= 4 && this.PALAVRAS_CARGO.some(p => capturado.includes(p))) { // parece cargo?
+      return this.formatarNome(capturado);                  // devolve em formato bonito
+    }
+    return null;                                            // captura inválida
+  },
+
+  // TEAM_008: "AGENTE DE SEGURANÇA" → "Agente de Segurança" (plano B do cargo)
+  formatarNome(nome) {
+    const pequenas = new Set(['DE', 'DO', 'DA', 'E', 'EM', 'DOS', 'DAS', 'A', 'O', 'NO', 'NA', 'COM', 'PARA', 'AO', 'AOS', 'AS', 'OS', 'I', 'II', 'III', 'IV']); // conectivos
+    return nome.toLowerCase()                               // tudo minúsculo
+      .split(/\s+/)                                         // quebra em palavras
+      .map(w => pequenas.has(w.toUpperCase()) ? w : w.charAt(0).toUpperCase() + w.slice(1)) // capitaliza cada uma
+      .join(' ');                                           // junta de volta
   },
 
   // Quebra o texto de uma matéria em tópicos (por ponto, ponto e vírgula ou quebra)
@@ -699,7 +873,7 @@ const AnaliseEdital = {
       if (vistos.has(chave)) continue;                      // já anotado, pula
       vistos.add(chave);                                    // marca como anotado
       topicos.push(parte.slice(0, 110));                    // guarda o tópico
-      if (topicos.length >= 12) break;                      // no máximo 12 tópicos por matéria
+      if (topicos.length >= 20) break;                      // TEAM_008: até 20 tópicos por matéria
     }
     return topicos;                                         // devolve os tópicos
   },
@@ -770,20 +944,22 @@ const AnaliseEdital = {
   // Faz tudo de uma vez e devolve o pacote completo
   analisar(texto) {
     if (!texto || String(texto).trim().length < 40) {       // texto curto demais para analisar
-      return { titulo: '', cargos: [], materias: [], trechos: [], programa: [], banca: null, requisitos: [], // devolve vazio
+      return { titulo: '', cargos: [], materias: [], trechos: [], programa: [], programasPorCargo: [], banca: null, requisitos: [], // devolve vazio
         datas: { inscricoesInicio: null, inscricoesFim: null, prova: null, taf: null, resultado: null, total: 0 },
         numeros: { vagas: null, salarioMin: null, salarioMax: null, taxa: null, questoes: null, validade: null, cargaHoraria: null, cadastroReserva: false },
         escolaridade: [], confianca: 0, caracteres: 0, valido: false }; // pacote vazio
     }
 
     const linhas = String(texto).split(/\r?\n/).map(l => l.trim()).filter(Boolean); // quebra em linhas
+    const cargos = this.extrairCargos(texto);               // cargos detectados (usados também no programa por vaga)
     // Monta a análise campo por campo
     const analise = {
       titulo: linhas[0].slice(0, 140),                      // primeira linha vira o "título" do concurso
-      cargos: this.extrairCargos(texto),                    // cargos detectados
+      cargos: cargos,                                       // cargos detectados
       materias: this.detectarMaterias(texto),               // matérias detectadas
       trechos: this.extrairTrechos(texto),                  // trechos citáveis
       programa: this.extrairPrograma(texto),                // conteúdo programático por matéria
+      programasPorCargo: this.extrairProgramasPorCargo(texto, cargos), // TEAM_008: programa separado por vaga
       banca: this.extrairBanca(texto),                      // banca organizadora
       datas: this.extrairDatas(texto),                      // datas importantes
       numeros: this.extrairNumeros(texto),                  // números do edital
